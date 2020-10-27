@@ -1,0 +1,25 @@
+{
+  "name": "vendia-blog-content",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Welcome to the Vendia blog repo!",
+  "main": "index.js",
+  "scripts": {
+    "md": "md-magic --path '**/*.md' --ignore 'node_modules'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vendia/blog.git"
+  },
+  "keywords": [],
+  "author": "Vendia Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vendia/blog/issues"
+  },
+  "homepage": "https://github.com/vendia/blog#readme",
+  "devDependencies": {
+    "gray-matter": "^4.0.2",
+    "markdown-magic": "^1.0.0"
+  }
+}
