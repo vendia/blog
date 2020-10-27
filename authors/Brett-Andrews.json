@@ -1,0 +1,10 @@
+{
+  "name": "Brett Andrews",
+  "github": "brettstack",
+  "twitter": "AWSbrett",
+  "avatar": "https://avatars1.githubusercontent.com/u/1882775?s=400&u=6f84032c9c8a773df5dce82085b5176edecf54e1&v=4",
+  "bio": {
+    "short": "Brett Andrews is a Full Stack Developer at Vendia, Inc.",
+    "long": "Brett Andrews spends his days building Serverless systems on AWS with JAMStack clients"
+  }
+}
