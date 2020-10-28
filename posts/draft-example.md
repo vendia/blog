@@ -1,5 +1,6 @@
 ---
 title: 'Example draft post'
+description: 'This is an example post'
 date: '2020-01-02'
 draft: true
 ---
