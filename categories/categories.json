@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "company",
+    "description": "Company news & updates"
+  },
+  {
+    "slug": "tutorials",
+    "description": "Developer tutorials"
+  },
+  {
+    "slug": "product",
+    "description": "Product updates & feature releases"
+  }
+]

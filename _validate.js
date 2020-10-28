@@ -1,14 +1,14 @@
 const fs = require('fs')
 const path = require('path')
 const matter = require('gray-matter')
-const outdent = require('outdent');
+const outdent = require('outdent')
 const { promisify } = require('util')
 const { globby } = require('markdown-magic')
+
 const authorDirectory = path.join(__dirname, 'authors')
 const postsDirectory = path.join(__dirname, 'posts')
 const dateFormatRegex = /[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])-/g
 const readFile = promisify(fs.readFile)
-
 const exampleAuthorData = {
   "name": "David Wells",
   "github": "davidwells",
@@ -19,16 +19,14 @@ const exampleAuthorData = {
   }
 }
 
-
 async function doIt() {
   const authors = await validateAuthors()
   console.log('authors', authors)
 
-  const categories = [
-    'news',
-    'company',
-    'how-to'
-  ]
+  const categoriesContents = await readFile(path.join(__dirname, 'categories/categories.json'), 'utf8')
+
+  const categories = JSON.parse(categoriesContents).map((category) =>  category.slug)
+  console.log('categories', categories)
 
   const posts = await validatePosts({
     authors: authors.data,

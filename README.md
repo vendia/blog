@@ -15,7 +15,6 @@ Welcome to the Vendia blog repo!
   * [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
   * [4. Add your author bio](#4-add-your-author-bio)
   * [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
-- [Including Custom Scripts](#including-custom-scripts)
 - [Markdown Resources](#markdown-resources)
 - [Recommended Writing Apps](#recommended-writing-apps)
 
