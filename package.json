@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/vendia/blog#readme",
   "devDependencies": {
-    "gray-matter": "^4.0.2",
-    "markdown-magic": "^1.0.0",
-    "outdent": "^0.7.1"
+    "gray-matter": "4.0.2",
+    "markdown-magic": "1.0.0",
+    "outdent": "0.7.1"
   }
 }
