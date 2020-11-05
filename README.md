@@ -1,6 +1,6 @@
 # [Vendia's Blog](https://vendia.net/blog/)
 
-Welcome to the Vendia blog repo! 
+Welcome to the Vendia blog repo!
 
 [Contributions, typo fixes and pull requests are welcome](https://github.com/vendia/blog/new/master/post) :thumbsup:
 
@@ -78,7 +78,7 @@ This is an awesome paragraph!
 To include code snippets in your post wrap them in "```" blocks witht the name of the syntax used
 
 <pre>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper.
 
 ```js
 // code snippet with javascript syntax highlighting
@@ -123,15 +123,15 @@ Ping us with any questions on [Twitter @VendiaHQ](http://twitter.com/VendiaHQ) o
 
 ## Markdown Resources
 
-Our blog posts are written in markdown and support standard [Github flavored markdown](https://guides.github.com/features/mastering-markdown/). If you are new to markdown, don't fret, check out this handy [how to guide on writing in markdown](https://blog.ghost.org/markdown/)
+Our blog posts are written in markdown and support standard [Github flavored markdown](https://guides.github.com/features/mastering-markdown/). If you are new to Markdown, don't fret, check out this handy [how to guide on writing in markdown](https://blog.ghost.org/markdown/)
 
-Need a markdown editor? Give [stackedit.io](https://stackedit.io/editor), [Byword](https://bywordapp.com/) or [typora](https://www.typora.io/) a spin.
+Need a Markdown editor? Give [stackedit.io](https://stackedit.io/editor), [Byword](https://bywordapp.com/) or [typora](https://www.typora.io/) a spin.
 
-Need to convert a Google doc to markdown? [Install this chrome extension](https://chrome.google.com/webstore/detail/export-as-markdown/hbojhdcnbcondcdfpfocpkjkfkbnbdad)
+Need to convert a Google doc to Markdown? [Install this Google Docs extension](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
 
-Need to convert HTML to markdown? You can use [this handy html to markdown converter](https://domchristie.github.io/to-markdown/)
+Need to convert HTML to Markdown? You can use [this handy html to markdown converter](https://domchristie.github.io/to-markdown/)
 
-Need to convert Word to markdown? You can use [this handy Word to Markdown Converter](https://word-to-markdown.herokuapp.com/)
+Need to convert Word to Markdown? You can use [this handy Word to Markdown Converter](https://word-to-markdown.herokuapp.com/)
 
 ## Recommended Writing Apps
 
