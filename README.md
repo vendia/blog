@@ -133,6 +133,10 @@ Need to convert HTML to Markdown? You can use [this handy html to markdown conve
 
 Need to convert Word to Markdown? You can use [this handy Word to Markdown Converter](https://word-to-markdown.herokuapp.com/)
 
+[Downloading images from google docs](https://www.bettercloud.com/monitor/the-academy/3-easy-ways-download-images-google-docs/). Recommended to save it as an HTML file
+
+> In Docs, go to File > Download as > Web Page (.html, zipped).
+
 ## Recommended Writing Apps
 
 - [Hemingway App](http://www.hemingwayapp.com/desktop.html) - Hemingway helps you write with power and clarity by highlighting adverbs, passive voice, and dull, complicated words
