@@ -1,0 +1,11 @@
+{
+  "name": "Ryan Scott Brown",
+  "github": "ryansb",
+  "twitter": "ryan_sb",
+  "avatar": "photo attached",
+  "avatar": "images/team/ryan-scott-brown.jpg",
+  "bio": {
+    "short": "Core Software Engineer",
+    "long": "Ryan is a Python software engineer and AWS Solutions architect with a background in operations, infrastructure tooling, and serverless."
+  }
+}
