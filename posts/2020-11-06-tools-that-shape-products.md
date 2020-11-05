@@ -16,6 +16,8 @@ Outline
 
 Think of the design of a simple item - a chair. It has a simple function understood the world over, and can be described in just a few strokes on a page. But behind that simple design are guesses about what materials you can use, and what tools are available to manipulate them. What would a chair look like that was built without any glue or nails? With only a lathe and a drill press? With only access to 1x1 inch stock?
 
+Given only knowledge about materials, one version of a computer-designed "optimal" chair looks a bit different than one you might design if you worked in a wood shop.
+
 ![Philippe Starck's AI-designed chair for Kartell, created using generative design software by Autodesk](https://static.dezeen.com/uploads/2019/04/kartell_starck_autodesk_ai_chair_salone_del_mobile_dezeen_2364_col_0-852x1304.jpg)
 [Image from Dezeen, an architecture and design magazine]()https://www.dezeen.com/2019/04/11/ai-chair-philippe-starck-kartell-autodesk-artificial-intelligence-video/)
 
