@@ -109,7 +109,7 @@ authors:
 
 **Vendia team members**
 
-[Click here to add a post](https://github.com/vendia/blog/new/master/post) or submit a PR.
+[Click here to add a post](https://github.com/vendia/blog/new/master/posts) or submit a PR.
 
 **External contributors**
 
