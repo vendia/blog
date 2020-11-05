@@ -13,6 +13,8 @@ authors:
 
 Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia at the AWS Serverless Community Day.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6x6SHpkKbuo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The Challenge of Data Sprawl
 ============================
 
@@ -46,6 +48,6 @@ We’re excited to be on this journey to help customers solve some of their grea
 
 _Tim & Shruthi_
 
-To learn more or sign up for preview access, visit [www.vendia.net](http://www.vendia.net). [Hear more](http://blog.vendia.net/meet-vendias-founders) from Vendia’s founders.
+To learn more or sign up for preview access, visit [www.vendia.net](https://www.vendia.net). [Hear more](/blog/meet-vendias-founders) from Vendia’s founders.
 
 _Looking for your next great opportunity?_ [_We’re hiring!_](http://jobs.vendia.net)

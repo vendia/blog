@@ -88,6 +88,6 @@ Thanks for reading!
 
 [\-Shruthi](https://www.linkedin.com/in/shruthirao/) and [Tim](https://www.linkedin.com/in/timawagner/), Vendia co-founders
 
-Want to learn more about Vendia? Read [our welcome article](http://blog.vendia.net/welcome-to-vendia).
+Want to learn more about Vendia? Read [our welcome article](/blog/welcome-to-vendia).
 
 _Love Serverless and building distributed applications,_ [_we’re hiring_](http://jobs.vendia.net)_!_
