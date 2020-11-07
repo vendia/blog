@@ -14,12 +14,14 @@ Outline
     - App v2: SQL, crypto signing, transactions sent via SOAP or REST
     - App v3: Transaction clearing house - structured format for transactions with signatures allowing
 
+In this post, we will follow the life of a simple application as it must adapt to new requirements and deal with limits set by the technologies used to build it. Beginning with a single server and a SQL database, we'll cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.
+
 Think of the design of a simple item - a chair. It has a simple function understood the world over, and can be described in just a few strokes on a page. But behind that simple design are guesses about what materials you can use, and what tools are available to manipulate them. What would a chair look like that was built without any glue or nails? With only a lathe and a drill press? With only access to 1x1 inch stock?
 
 Given only knowledge about materials, one version of a computer-designed "optimal" chair looks a bit different than one you might design if you worked in a wood shop.
 
 ![Philippe Starck's AI-designed chair for Kartell, created using generative design software by Autodesk](https://static.dezeen.com/uploads/2019/04/kartell_starck_autodesk_ai_chair_salone_del_mobile_dezeen_2364_col_0-852x1304.jpg)
-[Image from Dezeen, an architecture and design magazine]()https://www.dezeen.com/2019/04/11/ai-chair-philippe-starck-kartell-autodesk-artificial-intelligence-video/)
+[Image from Dezeen, an architecture and design magazine](https://www.dezeen.com/2019/04/11/ai-chair-philippe-starck-kartell-autodesk-artificial-intelligence-video/)
 
 Consider the existence of flat-pack furniture. It is built assuming that on one end of the shipping lane you have factories with advanced planing, milling, and cutting machines and on the other end you have a Number 2 Phillips screwdriver, the instruction booklet, and the ability to read isometric drawings. It also assumes you are oddly shaped, with a single arc describing the back of your neck to the tip of your nose. The tools that allow flat-pack furniture to exist, and the constraints around the maximum width/length/curvature of a single piece forces certain shapes to be un-attainable by any (even the most ingenious) flat-pack furniture.
 
@@ -117,4 +119,6 @@ In this journey, we've covered a bunch of pitfalls when multiple parties need to
 
 In **V1** we were missing signing, non-repudiation, and consensus. **V2** added basic signing but still lacked distributed components. Finally in **V3** we were able to build in signing, non-repudiation, and consensus. Distributed ledgers provide these properties and more, and require some distinction from what's colloquially referred to as "blockchain technology." Because of it's buzzword-y status, blockchain has become a fairly confused term that can be any mix of proof-of-work, proof-of-stake, and proof-of-authority distributed ledgers or basic lineage/cryptographic PKI infrastructure.
 
-Now that we've seen the steps that go into building a distributed ledger, you should be better able to evaluate what type of ledger suits your purpose. Don't want to pay for the increased storage requirements of copying the data for every party? Perhaps only storing hashes and signatures at each party would be a better trade for your needs. Don't need the proof-of-origin that each user having a private key provides? Skip the signature step and just replicate blocks and their hashes. Understanding the guarantees you must provide is key to choosing the right architecture.
+Now that we've seen the steps that go into building a distributed ledger, you should be better able to evaluate what type of ledger suits your purpose. Don't want to pay for the increased storage requirements of copying the data for every party? Perhaps only storing hashes and signatures at each party would be a better trade for your needs. Don't need the proof-of-origin that each user having a private key provides? Skip the signature step and just replicate blocks and their hashes. We've also seen that building a distributed ledger on a fundamentally centralized and mutable technology sometimes requires you to fight the design of your tools to get where you need to go.
+
+Understanding the problem must be the first step before you reach for a particular tool because tools shape what you build. Listen first, then choose a tool that makes your job as simple as it can be.
