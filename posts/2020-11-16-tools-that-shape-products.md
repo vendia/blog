@@ -97,13 +97,13 @@ Building up to **V3** we've uncovered a few important properties for multi-party
 
 So here we are, with a need to solve the non-repudiation problem in **V2**. If clients request an up-to-the-minute report on a frequent basis that helps reduce the scope. A party could only really remove a transaction sent in since the last time someone other than them requested a report.
 
-![A diagram with a single central SQL database, accessed by users in different companies](images/tools-that-shape-products-v2-diagram.png)
+![A diagram with a single central SQL database, accessed by users in different companies](https://user-images.githubusercontent.com/532272/99308665-25469280-280d-11eb-82ab-32a93e9467a9.png)
 
 Instead of forcing anyone who cared about non-repudiation to pull reports constantly, what if we made a change to the architecture that split the trust issue from the business logic? This way, the business logic and the chain-of-trust are updated separately to avoid the chance of introducing bugs affecting both. This lets us have more trust that changes to the product don't affect the integrity and non-repudiation guarantees of the trust system.
 
 If we replicate all the transactions as they happen, we can be quite confident that a party couldn't reach into our copy and remove an event that they had already sent. As with Outlook's Message Recall Requests, trying to un-send a message already sent and replicated only makes people more curious to see what you are attempting to hide.
 
-![A diagram with two separate SQL databases, accessed by users in different companies but synchronized via a protocol](images/tools-that-shape-products-v3-diagram.png)
+![A diagram with two separate SQL databases, accessed by users in different companies but synchronized via a protocol](https://user-images.githubusercontent.com/532272/99308680-2aa3dd00-280d-11eb-834d-6729027e22e7.png)
 
 In **V2** we already laid the groundwork for this by signing events with a private key like `sign_function(event.parent_hash, event.uuid, event.version_ts, event.data)`. As long as an event is signed, we can validate that it was originally sent by the party that signed it, that its contents are the same, and that the event is in the correct place in the lineage of that transaction or item.
 
