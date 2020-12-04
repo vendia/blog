@@ -23,6 +23,8 @@ The original author of the Serverless Express project, Brett Andrews, joined Ven
 
 _What’s in it for Vendia?_ First of all, Brett and I feel a strong connection to helping the Serverless community succeed. Technologies like Lambda, managed API and database services, and other Serverless offerings power Vendia’s implementations and help us deliver scalable, low-cost code and data sharing solutions for our customers. We also continue to believe strongly in the mission of Serverless Express: To give developers a simple, scalable platform that meets them where they are, and then helps them gain the best of what the cloud has to offer...without unnecessary retraining, rewriting, or porting exercises. We're also excited to find ways to bring Vendia Share - the next generation Serverless platform - and Serverless Express users closer together with easy ways to use both platforms in combination.
 
+![Vendia and AWS logos](https://user-images.githubusercontent.com/532272/101116056-39261e80-3599-11eb-9c52-ae24244e7efa.jpg)
+
 To all the existing (and future) Serverless Express users, we look forward to making your experience even better. To all the project contributors, we look forward to being great partners, building on your existing contributions and successes in this project. And to AWS, a huge “Thank You” for believing in this idea back when it felt risky and uncertain,and for allowing it to leave the nest now that it’s grown. Stay tuned for more technical and project roadmap details coming soon...and _Go Serverless!_
 
 
