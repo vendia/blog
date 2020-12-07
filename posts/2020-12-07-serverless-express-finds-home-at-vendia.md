@@ -41,7 +41,7 @@ After updating the deps, update your code accordingly - e.g., change your import
 
 ```diff
 - require('aws-serverless-express')
-+ require(‘@vendia/serverless-express')
++ require('@vendia/serverless-express')
 ```
 
 If you're new to Serverless Express and wondering how to get started, you can deploy a Serverless REST API to AWS in under 5 minutes by following the [Serverless Express Basic Starter on GitHub](https://github.com/vendia/serverless-express/tree/master/examples/basic-starter).
