@@ -9,7 +9,7 @@ date: '2020-12-07'
 
 __*Tl;dr: The [aws-serverless-express](https://github.com/vendia/serverless-express) open source project has graduated from [AWS Labs](http://github.com/awslabs/) and is now being actively supported and sponsored by Vendia!*__
 
-![Vendia and AWS logos](https://user-images.githubusercontent.com/532272/101116056-39261e80-3599-11eb-9c52-ae24244e7efa.jpg)
+![AWS & Vendia](https://user-images.githubusercontent.com/532272/101377847-35c7b700-3867-11eb-9198-4fcaa66ddfdd.jpg)
 
 Back in 2016 I was General Manager of two up-and-coming AWS Services: [AWS Lambda](https://aws.amazon.com/lambda/) and [Amazon API Gateway](https://aws.amazon.com/api-gateway/). 
 
