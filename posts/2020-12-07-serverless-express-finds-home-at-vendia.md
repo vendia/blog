@@ -7,7 +7,7 @@ authors:
 date: '2020-12-07'
 ---
 
-> *Tl;dr*: The [aws-serverless-express](https://github.com/vendia/serverless-express) open source project has graduated from [AWS Labs](http://github.com/awslabs/) and is now being actively supported and sponsored by Vendia!
+> *Tl;dr*: The [aws-serverless-express](https://github.com/vendia/serverless-express) open source project has graduated from [AWS Labs](https://github.com/awslabs/) and is now being actively supported and sponsored by Vendia!
 
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/532272/101377847-35c7b700-3867-11eb-9198-4fcaa66ddfdd.jpg" />
@@ -25,7 +25,7 @@ After hearing this feedback from many customers, we realized we needed to “mee
 
 Over the course of the last four years many developers have adopted Serverless solutions, including Serverless Express, to help accelerate development and gain Serverless benefits like lower operational overhead, automatic per-request scaling, built-in fault tolerance, and pay-per-call pricing. Today, the [aws-serverless-express](https://www.npmjs.com/package/aws-serverless-express) NPM package gets over 1.3M downloads per month, and its GitHub repository has over 3.7K stars.
 
-The original author of the Serverless Express project, [Brett Andrews](https://twitter.com/AWSbrett), joined [Vendia](http://vendia.net/) recently, and we realized we can do even more in our mission to help customers share code and data effectively by giving back to the open source community by helping the Serverless Express project “graduate” from its initial location in AWS Labs to a permanent place in Vendia’s repository. As the original project sponsor, and with the guidance of the project’s original author, AWS trusted us to being thoughtful and proactive stewards of this project. We will continue meeting with AWS monthly to gather customer feedback, and be briefed on upcoming AWS Serverless releases so that we may be a launch partner and provide day 1 support in Serverless Express.
+The original author of the Serverless Express project, [Brett Andrews](https://twitter.com/AWSbrett), joined [Vendia](https://vendia.net/) recently, and we realized we can do even more in our mission to help customers share code and data effectively by giving back to the open source community by helping the Serverless Express project “graduate” from its initial location in AWS Labs to a permanent place in Vendia’s repository. As the original project sponsor, and with the guidance of the project’s original author, AWS trusted us to being thoughtful and proactive stewards of this project. We will continue meeting with AWS monthly to gather customer feedback, and be briefed on upcoming AWS Serverless releases so that we may be a launch partner and provide day 1 support in Serverless Express.
 
 ## Migration Instructions
 

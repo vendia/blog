@@ -23,7 +23,7 @@ Given only knowledge about materials, one version of a computer-designed "optima
 Consider the existence of flat-pack furniture. It is built assuming that on one end of the shipping lane you have factories with advanced planing, milling, and cutting machines and on the other end you have a Number 2 Phillips screwdriver, the instruction booklet, and the ability to read isometric drawings.
 
 <p>
-  <img align="right" src="https://dannyfranks.files.wordpress.com/2012/07/279x279_missingparts.jpg" />
+  <img align="right" src="https://user-images.githubusercontent.com/532272/103935119-f6e18700-50da-11eb-81e6-6bb4c760c851.jpg" />
 </p>
 
 It also assumes you are oddly shaped, with a single arc describing the back of your neck to the tip of your nose. The tools that allow flat-pack furniture to exist, and the constraints around the maximum width/length/curvature of a single piece forces certain shapes to be un-attainable by any (even the most ingenious) flat-pack furniture.
