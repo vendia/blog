@@ -10,7 +10,7 @@ Producers, Shippers, and Retailers face a host of logistical issues when dealing
 
 With Vendia, partners get real-time visibility into the state of their merchandise.  They see the lineage of all actions taken during the handling, processing, and exchange of the physical goods without requiring any undifferentiated operational headaches.
 
-Vendia’s Unis provide a general-purpose platform for sharing code and data across companies, clouds, and regions.  You can learn more about Unis [here](https://api-docs.vendia.net/dev_and_use_unis).  This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges like the one described above. CIOs, line of business owners, and developers who work on supply-chain related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about the topics covered here.
+Vendia’s Unis provide a general-purpose platform for sharing code and data across companies, clouds, and regions.  You can learn more about Unis [here](https://vendia.net/docs/share/dev-and-use-unis).  This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges like the one described above. CIOs, line of business owners, and developers who work on supply-chain related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about the topics covered here.
 
 
 ## The Problem
