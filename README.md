@@ -23,6 +23,12 @@ Welcome to the Vendia blog repo!
 
 ## [How to contribute content](https://www.youtube.com/watch?v=ps1oQeg-0ss)
 
+### TDLR;
+
+1. Generate a new post file with `npm run new`
+2. Write your markdown
+3. Commit to the repo
+
 ### 1. Write your content in markdown!
 
 New to markdown? [Read this](https://guides.github.com/features/mastering-markdown/)

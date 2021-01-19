@@ -5,6 +5,7 @@
   "description": "Welcome to the Vendia blog repo!",
   "main": "index.js",
   "scripts": {
+    "new": "plop",
     "validate": "node _validate.js",
     "md": "md-magic --path '**/*.md' --ignore 'node_modules'"
   },
@@ -20,6 +21,7 @@
   "devDependencies": {
     "gray-matter": "4.0.2",
     "markdown-magic": "1.0.0",
-    "outdent": "0.7.1"
+    "outdent": "0.7.1",
+    "plop": "^2.7.4"
   }
 }
