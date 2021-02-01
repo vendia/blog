@@ -29,7 +29,7 @@ Ready to get started? The Vendia team has put together some great quick starts t
 
 If you prefer to use a web interface you can follow along at [https://vendia.net/docs/share/quickstart/web](https://vendia.net/docs/share/quickstart/web)
 
-Prefer a terminal? - we have you covered - Check out the [CLI quick start](https://vendia.net/docs/share/quickstart/cli)
+Prefer a terminal?  We have you covered - check out the [CLI quick start](https://vendia.net/docs/share/quickstart/cli)
 
 # Diving Deeper
 Once you are comfortable with the Vendia Share service and are ready to dive deeper, we encourage you to explore our more advanced quick starts.  
@@ -81,4 +81,3 @@ The ability to connect Vendia Share with other systems opens numerous possibilit
 
 # Getting Touch
 Need a little extra help? Have an exciting use case you would like to vet further?  We would enjoy hearing more about your experiences and where Vendia can help. [Reach out today](https://vendia.net/contact-us)
-
