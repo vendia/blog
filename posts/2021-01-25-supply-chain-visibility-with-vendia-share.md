@@ -1,7 +1,7 @@
 ---
-title: 'New Track and Trace Quickstart - Solving supply chain visibility through data sharing with Vendia'
+title: 'Track & Trace Quickstart - Solving supply chain visibility through data sharing'
 description: > 
-  'How to logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.'
+  'How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.'
 date: '2021-01-25'
 authors:
   - Cory Forsythe
@@ -9,7 +9,8 @@ authors:
 ---
 
 # New Track and Trace Quickstart!
-Today we are excited to introduce our new [Track and Trace Quick Start Guide](https://vendia.net/docs/share/quickstart/trackandtrace).  This Quick Start will walk you through the creation of a distributed supply-chain system using Vendia Share.  Once deployed, you will interact with your new supply-chain system to simulate tracking and tracing capabilities from the point of view of manufacturers, shippers, and storefronts. 
+
+Today we are excited to introduce our new [Track and Trace Quick Start Guide](https://vendia.net/docs/share/quickstart/track-and-trace).  This Quick Start will walk you through the creation of a distributed supply-chain system using Vendia Share.  Once deployed, you will interact with your new supply-chain system to simulate tracking and tracing capabilities from the point of view of manufacturers, shippers, and storefronts. 
 
 
 # Why Track and Trace?
@@ -38,4 +39,4 @@ The underlying causes of inventory shrinkage are difficult if not impossible to 
 
 # See it in action!  
 
-**[Click here try the new Track and Trace Quickstart today!](https://vendia.net/docs/share/quickstart/trackandtrace)**
+**[Click here try the new Track and Trace Quickstart today!](https://vendia.net/docs/share/quickstart/track-and-trace)**
