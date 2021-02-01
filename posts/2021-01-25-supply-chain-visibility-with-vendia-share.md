@@ -31,7 +31,7 @@ The good news is that there is a better way to solve our problem using Vendia’
 
 Think back to our own experience tracking packages with the big-box stores.  Missing orders and packages incorrectly marked as delivered are attributable to the same issues that affect corporate logistics… **Incorrect or unavailable data.**
 
-Without a mechanism to reliably share a consistent view of data with partners that produce, transport, or sell goods, the underlying causes of inventory shrinkage are difficult if not impossible to identify.  Vendia Unis give us this view.
+The underlying causes of inventory shrinkage are difficult if not impossible to identify without a mechanism to reliably share a consistent view of data with partners that produce, transport, or sell goods.  Vendia unis give us this view.
 
 
 
