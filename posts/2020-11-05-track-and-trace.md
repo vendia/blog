@@ -12,16 +12,13 @@ With Vendia, partners get real-time visibility into the state of their merchandi
 
 Vendia’s Unis provide a general-purpose platform for sharing code and data across companies, clouds, and regions.  You can learn more about Unis [here](https://vendia.net/docs/share/dev-and-use-unis).  This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges like the one described above. CIOs, line of business owners, and developers who work on supply-chain related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about the topics covered here.
 
-
 ## The Problem
 
 In our simple supply chain there are three parties: a producer, a shipper, and a retailer, a producer builds the merchandise to be distributed and sold.  Next, the shipper collects these products from the producer and delivers them to the retailer.  Finally, the retailer takes possession of the goods and sells them.  Products could be lost, stolen, or damaged at any step during this process.  Regardless of fault, it represents a loss for one or more entities involved. How could these partners properly track and trace their process in order to determine fault and improve?
 
-
 ## The Proposed Solution
 
 The partners could make a slight adjustment to their current process to help determine where the "leakage" is happening.  At each exchange point, when the producer gives the items to the shipper or the shipper gives the items to the retailer, the entities involved in the exchange will take a picture of the merchandise and upload them to a collaborative location, like a Cloud Directory.  This will provide an opportunity to see the condition of the items at each step in the process, helping to determine where items were lost, stolen, or damaged. When an issue arises with missing or damaged goods, it would be possible to go back and see when in the process the incident happened.
-
 
 ### Solution using today’s technologies
 
@@ -43,7 +40,6 @@ These challenges can be addressed with sufficient development time and operation
 
 However, these steps would require additional coordination and actions amongst the partners. As the distribution network changes, maintaining security, costs, and operations becomes challenging.
 
-
 ### A Modern Solution - Vendia Unis
 
 Vendia’s solution has all three entities participating in a Vendia Uni, each entity represented by their own node.  A node is Vendia’s terminology for a "cloud" repository, therefore each of the entities has a separate copy of the data and resources under their organization's control.  At each exchange point, when the producer gives the merchandise to the shipper or the shipper gives the merchandise to the retailer, both entities involved in the exchange will take a picture of the items and upload the picture to the Uni.  This provides a "tamper-proof receipt" of what was exchanged.  If a problem is identified, each partner would be able to see the "receipts" of all involved and determine where the loss happened.  Knowing that the receipts are tamper-proof gives each partner confidence in the process and eliminates debate about any integrity issues.
@@ -64,11 +60,9 @@ Using Vendia Unis has a number of advantages:
 
 5. Finally, Vendia’s Uni would allow for additional product metadata to be associated with the pictures.  This data would then be automatically shared and guaranteed to be consistent with all entities in the Uni. No need for setting up a global Cloud database or for each partner to determine how to upload or access the additional metadata.
 
-
 #### Going Deeper with Vendia
 
 The benefits offered by Vendia’s technologies extend further.  Organizations can add Blobs but control their read and write permissions, therefore even in a "shared" environment they can control who has access to the data and how they can interact with that data.  Further, Blobs offer copy semantics that enable the partners to more efficiently manage the data.  With a "never" copy strategy, the blob is stored in the creator’s node and a symbolic link is placed in all other nodes.  This reduces transfer and data storage costs.  However, if data is frequently accessed, an "always" strategy could be used which keeps a copy of the blob in all nodes. Finally, the "on access" strategy acts like a cache, starting off by linking to the owner's copy of the data, but then selectively copying the data after it has been accessed once, to speed up future requests. With Vendia’s ledger and blob tombstoning, a full lineage of the blobs could be seen.
-
 
 ## Conclusion
 
