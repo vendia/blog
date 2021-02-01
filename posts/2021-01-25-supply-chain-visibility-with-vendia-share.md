@@ -21,7 +21,7 @@ Personally, I don’t enjoy the guessing games, so I will take advantage of cust
 
 In the corporate world, manufacturers, shipping agencies, and storefronts, all have a stake in the tracking of goods.  In the United States alone, the annual cost due to loss of inventory, shipping errors, theft, and damage, may reach more than **46 billion dollars** according to a [2018 National Retail Security Survey](https://cdn.nrf.com/sites/default/files/2018-10/NRF-NRSS-Industry-Research-Survey-2018.pdf).
 
-Shrinkage, which is the loss of inventory, is a critical focus of corporate logistics and risk management programs. To address the problem, corporate strategy and budgeting processes often result in large investments for human resources and digital solutions. Often, this results in a lot of new systems that must be integrated, tested, operationalized, and maintained. **What if there is a better way?**
+Shrinkage, which is the loss of inventory, is a critical focus of corporate logistics and risk management programs. To address the problem, corporate strategy and budgeting processes often introduce new systems that must be integrated, tested, operationalized, and maintained.  This results in large investments of human resources and digital solutions, often at great expense.  **What if there is a better way?**
 
 
 
