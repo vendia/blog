@@ -29,7 +29,7 @@ Shrinkage, which is the loss of inventory, is a critical focus of corporate logi
 
 The good news is that there is a better way to solve our problem using Vendia’s Universal Applications (Unis). 
 
-However, before we look deeper at Unis, think back to our own experience tracking packages with the big-box stores.  Missing orders and packages incorrectly marked as delivered are attributable to the same issues that affect corporate logistics… **Incorrect or unavailable data.**
+Think back to our own experience tracking packages with the big-box stores.  Missing orders and packages incorrectly marked as delivered are attributable to the same issues that affect corporate logistics… **Incorrect or unavailable data.**
 
 Without a mechanism to reliably share a consistent view of data with partners that produce, transport, or sell goods, the underlying causes of inventory shrinkage are difficult if not impossible to identify.  Vendia Unis give us this view.
 
