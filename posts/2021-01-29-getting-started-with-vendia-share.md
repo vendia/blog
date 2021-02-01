@@ -79,10 +79,6 @@ The ability to connect Vendia Share with other systems opens numerous possibilit
 
 [https://vendia.net/docs/share/integrations](https://vendia.net/docs/share/integrations)
 
-## Example Applications 
-
-//TODO: ADD SOME
-
 # Getting Touch
 Need a little extra help? Have an exciting use case you would like to vet further?  We would enjoy hearing more about your experiences and where Vendia can help. [Reach out today](https://vendia.net/contact-us)
 
