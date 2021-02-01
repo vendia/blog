@@ -8,7 +8,7 @@ authors:
 ---
 
 # New Track and Trace Quickstart!
-Today we are excited to introduce our new [Track and Trace Quickstart Guide](https://vendia.net/docs/share/quickstart/trackandtrace).  This Quickstart will walk you through the creation of a distributed supply-chain system using Vendia Share.  Once deployed, you will interact with your new supply-chain system to simulate tracking and tracing capabilities from the point of view of manufacturers, shippers, and storefronts. 
+Today we are excited to introduce our new [Track and Trace Quick Start Guide](https://vendia.net/docs/share/quickstart/trackandtrace).  This Quick Start will walk you through the creation of a distributed supply-chain system using Vendia Share.  Once deployed, you will interact with your new supply-chain system to simulate tracking and tracing capabilities from the point of view of manufacturers, shippers, and storefronts. 
 
 
 # Why Track and Trace?
