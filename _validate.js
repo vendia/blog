@@ -175,7 +175,7 @@ async function validatePosts({ authors, categories }) {
       throw new Error(outdent`
         Description in ${file} is too long.
 
-        It is ${postData.description.length} characters long
+        It is ${data.description.length} characters long
 
         Please update keep descriptions under 185 characters long
       `)

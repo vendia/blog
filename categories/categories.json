@@ -10,5 +10,9 @@
   {
     "slug": "product",
     "description": "Product updates & feature releases"
+  },
+  {
+    "slug": "architecture",
+    "description": "Software architecture"
   }
 ]

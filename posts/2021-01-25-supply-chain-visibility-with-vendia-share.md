@@ -1,6 +1,7 @@
 ---
 title: 'New Track and Trace Quickstart - Solving supply chain visibility through data sharing with Vendia'
-description: 'Vendia Unis provide a better way to share data across the supply chain. This article introduces our new 'Track and Trace' Quickstart which demonstrates how we can manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.'
+description: > 
+  'How to logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.'
 date: '2021-01-25'
 authors:
   - Cory Forsythe
