@@ -13,7 +13,7 @@ Whether you are a developer, business manager, data scientist, or anything in be
 We are incredibly excited about our Developer Preview and have been hard at work creating content to accelerate your experience with Vendia Share. 
 
 ## Creating an Account
-Before you can start creating, you will need a Vendia Share account.  You can quickly sign up at https://share.vendia.net/signup.
+Before you can start creating, you will need a Vendia Share account.  You can quickly sign up at [https://share.vendia.net/signup](https://share.vendia.net/signup).
 
 # Start thinking ‘uni-versally’
 Universal Applications, or unis, are the foundation upon which you build with Vendia Share.  You can create your first uni from our web interface or using the Vendia Share Command Line Interface (CLI).  
@@ -81,5 +81,4 @@ The ability to connect Vendia Share with other systems opens numerous possibilit
 
 # Getting Touch
 Need a little extra help? Have an exciting use case you would like to vet further?  We would enjoy hearing more about your experiences and where Vendia can help. [Reach out today](https://vendia.net/contact-us)
-
 
