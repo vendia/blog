@@ -53,7 +53,7 @@ Build a product catalog with Vendia Share and get more familiar with some of our
 
 
 ## Inventory Management
-Deploy a sample inventory channel involving multiple parties such as a distribution center and two retailers. Build upon your existing knowledge by using our integrations
+Deploy a sample inventory channel involving multiple parties such as a distribution center and two retailers. Build upon your existing knowledge by using our integrations.
 
 [https://vendia.net/docs/share/quickstart/inventory-management](https://vendia.net/docs/share/quickstart/inventory-management)
 	
