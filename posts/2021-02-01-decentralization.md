@@ -1,0 +1,78 @@
+---
+title: "Understanding Decentralization in the Cloud"
+description: 'Explore how decentralization works in a cloud-native setting and how it can impact your business'
+longDescription: 'In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.'
+date: '2021-02-01'
+draft: true
+categories:
+  - concepts
+tags:
+  - decentralization
+authors:
+  - Tim Wagner
+---
+
+“Classic” decentralization is all about ownership. What does that mean in a world where IT applications and their components are increasingly virtualized and serverless?
+
+![Image for post](https://d24nhiikxn5jns.cloudfront.net/images/Decentralization%20Blog%20images%201%20-%20who%20owns%20the%20data.jpeg)
+
+The public cloud’s increasingly lack of end user infrastructure ownership has generally been a great thing - it’s allowed companies to save money (and lower energy consumption) by sharing physical resources, HVAC and other data center plant overhead, to gain access to virtually unlimited resources when they need to scale, and more. But at the same time, it’s made notions like “ownership”, including ideas like the tradeoff between centralized and decentralized ownership, a lot harder to understand. In this article we’ll update the definition of “decentralized” and explain what it means in the era of the public cloud.
+
+_Who should read: Technical architects, CIOs, CTOs, and CISOs should read this article to better understand the relationship between decentralization and trends like Serverless and SaaS infrastructure delivery models, particularly as they consider data integration and data governance planning and projects for 2021._
+
+Once Upon a Time...
+===================
+
+In the old days, concepts like “ownership” were trivial: If you walked into a high tech company of any size in the 90s, there was undoubtedly a room (or if it was big enough, many rooms), filled with actual servers and racks and networking cables that the company had actually purchased. The IT stack, from networking cables to operating systems to program code to customer data was generally owned and operated in its entirety by a single legal entity.
+
+Flash forward to the public cloud era of 2021, where distributed applications more often run on virtual machines holding virtual containers. In the most cutting edge applications they might be built entirely out of serverless resources that have no direct relationship to a machine - virtual or otherwise.
+
+Does it matter who owns a server, or the rack that surrounds it, or the operating system that runs on it, or the code that the operating system hosts, or the data that the code manipulates? Questions like these would be the province of armchair philosophers, were it not for the fact that corporations of all flavors bear a critical set of responsibilities for their actions - legally to governments, to shareholders as part of their fiduciary responsibility, and to the customers who pay them. Companies of all sizes are also coming under increasing pressure to take better care of the information they process. Some of this is official -- the recently passed Proposition 24 in California added dramatic new restrictions to the CCPA regarding how companies can record and use personal information, and is likely to be expanded to cover other states in the US in the near future. GDPR already has many similar provisions covering European citizens, regardless of where the backend systems holding data about them are located or who owns them. But it’s not just the legal and regulatory requirements - public sentiment regarding privacy and corporate governance policies targeting privacy, security, and ethics aren’t just stories in a dusty marketing brochure or an industry rag any longer...they’re headlines in the New York Times and on cable news programs.
+
+Ledgers to the Rescue! … Maybe?
+===============================
+
+Proponents of distributed ledger technologies, especially developers and companies focused on cryptocurrency trading, talk a lot about decentralization as a way to empower both companies and individuals to control their own destiny. But one of the challenges in this argument is that the notion of “ownership” itself is murky when company A owns the client, company B owns the server, company C owns the data center, Company D controls all Internet traffic, and Company E makes the equipment on which everything runs...and where B-E might be the the same or nearly the same (i.e., “fully centralized”) across every node in a network like Ethereum. (To make this more concrete, you can plug in names like “Coinbase” for A, “AWS” for B, AWS’s real estate subsidiary for C, “AT&T” for D, “Intel and Cisco” for E, etc.)
+
+As the CEO of Vendia, I get asked a lot of questions from customers, partners, and potential investors about what decentralization means to enterprises and how it intersects with the public cloud - where enterprises and SMBs alike are increasingly building and operating their business applications. There’s a “red herring” at the core of this confusion: We need to let go of the old fashioned notion of ownership as physical property. What really matters - the durable concept at the heart of effective corporate operations - is independent responsibility.
+
+To understand this better, let’s consider a real-world example: The requirement from SOC2, PCI, and many other regulatory and assurance programs that companies know who deployed software to production systems. It’s a simple question: If you can’t tell an auditor who deployed software to your system, then you probably don’t know what code is running there, or what it does, or how it’s impacting your customers. Rewind to 1995, and you’d see this being done by a central ops team: Because a company typically owned its own data center, networking, computers, software, etc. it could do all of this in house - it just needed to log the right steps on the right machines at the right time and then not lose the log. In 2021, this looks a lot different - at Vendia, for example, we use 2-factor authentication to identify our developers to Github, transmit updates over SSL, and then use controls in Github to push code to our production stage in a CI/CD pipeline based on automated deployment tools, like AWS’s Cloud Development Kit (CDK) that update public cloud resources in response to the changes we’ve made to code (or configuration as code). Notably, Vendia doesn’t own any of the hardware, networking, data centers, operating systems, etc. that power this process. What we do retain is responsibility: We have to be able to demonstrate to our SOC2 and PCI auditors, independent of anyone else, that we have effectively limited who can change our code, that we have a clear log of everyone who has done so, what code they changed and when, and so forth. In other words, we meet and can document our independent responsibility with respect to our production codebase and the developers who modify it...even though 99% of the “stuff” in that process is owned by someone else entirely.
+
+We need to talk about your data
+===============================
+
+Independent responsibility gets really interesting when you’re talking about data, especially critical data that represents financial, healthcare, personally identifiable information (PII), material non-disclosed information in a public company, and more. Generally speaking, companies need their own copies of data that relates to them. Accounting is a simple example: Imagine telling an auditor or tax assessor that you “just trust whatever the bank says you have left in your account” and don’t bother to keep a set of books for your business. No company could operate that way while meeting its accounting and tax obligations...let alone function successfully for any length of time!
+
+This might feel like a silly example, and yet it’s probably the single most common question I get asked: Why can’t companies just send all their data to one big “table in the sky” that would own it all? Or to put it in slightly more implementation-centric terms: Why doesn’t Vendia just operate as a central agency that everyone trusts and keep all their data for them? But the answer is the same as the response to our fictitious I-don’t-want-to-deal-with-accounting business owner above: Companies need to independently demonstrate responsibility for the data they collect, store, transfer, maintain, and use. The immediate corollary? Companies need their own copy of such data, in an account under their exclusive control, or they have no hope of meeting their obligations and the expectations their customers and investors have of them.
+
+Why is this important? Well, imagine in our hypothetical case above that the bank and our accounting-hating business owner can’t agree on how much money their business is supposed to have (or where it came from or who it went to). If you have your own “set of books”, you can compare the bank’s records against your own. If the only set of books is the bank, then you have nothing but your vague intuition that something could be wrong...which also means you can’t effectively represent your shareholders, customers, partners, etc. in such a conversation. The same thing is true of any type of data whose impact is broader than your internal systems.
+
+Decentralized _and_ SaaS: The new peanut butter & chocolate
+===========================================================
+
+Companies love SaaS and public cloud services because they remove undifferentiated heavy lifting - instead of buying and operating a data center, let someone who’s good at that do it at scale, and then just rent capacity from them. Or better yet, get a higher level service like AWS Lambda that provides an abstract notion of “compute in the cloud”. Or better yet, if it’s for something that’s not core to your own business, just buy a ready-made SaaS offering, like Gusto for payroll or Greenhouse for recruiting.
+
+But can companies have their cake and eat it, too? Is it possible to get the benefits of SaaS and simultaneously also retain the benefits of decentralization, in the sense of meeting independent responsibility obligations with respect to data?
+
+Up until a year ago, most experts would have said, “no”. Decentralized technologies like Hyperledger Fabric or hosting a public cryptocurrency like Ethereum require dozens of developers skilled in distributed systems (and in the latter case, specialized languages like Solidity), as well as spending large amounts of money on redundant infrastructure, security, and more to turn those solutions into robust, 24x7 enterprise-grade solutions. Fabric, for example, needs to be deployed redundantly in three or more Availability Zones in AWS just to give it the fault tolerance equivalent to a typical AWS service like Amazon S3 or AWS Lambda. Solutions like Amazon Managed Blockchain attempts to remove some of the toil...but simultaneously turn the solution into a single-cloud solution.
+
+But Vendia has demonstrated that the “tradeoff” between decentralization and SaaS/Serverless convenience was a false dichotomy: Independently owned and operated databases combined with SaaS-style delivery of safe, secure, tamperproof replication is not only theoretically possible but has been productized in Vendia Share. Vendia’s cloud native transaction processing system enables SaaS-style delivery of fully ACID data transactions, across multiple owners, multiple clouds, multiple accounts, and multiple regions. Each party retains its own, independent (and independently verifiable) copy of the data, enabling it to meet corporate obligations around infosec, privacy, and data governance without having to rely on the correct behavior of business partners. At the same time, no party needs to own, operate, manage, maintain, or scale any part of the associated infrastructure, freeing them from the undifferentiated heavy lifting of designing their own data replication, multi-party ACID transactions, or schema and query compilers. It turns out decentralization and SaaS convenience weren’t mutually exclusive after all.
+
+Operational Isolation and Multi-cloud: An Epilog
+================================================
+Data privacy, data ethics, security issues...these stories make attention-grabbing headlines and they are undoubtedly critical for enterprises. But it turns out a lot of companies also have a host of more prosaic problems to solve: Maybe you’ve acquired a number of smaller companies and now you find yourself ingesting data in Azure that you need to consume in applications running on AWS (“accidental multi-cloud”). Perhaps you have an application that needs the resilience and convenience of spanning multiple regions and/or accounts, but you don’t have the time or money to assemble a large team of distributed system experts and operators to build and maintain it. Or maybe you just have two applications that share some data and you just need to make sure that if one of them goes down, the other one can stay up and continue accessing their shared data (again, without hiring a PhD in distributed computing).
+
+It turns out many of Vendia customers have such problems...what you might call “multi-node applications”. They’re complex, distributed systems with challenges like the ones listed above, but where all the participants share the same stock ticker symbol. These aren’t the headline-grabbing symposiums that keynote blockchain conferences. They’re just hard, challenging engineering problems that show up in every department (and often across departments) in every company.
+
+At the heart of these challenges is a key idea: Operational isolation. Discussions about centralization and decentralization in the media often focus on drama around who owns assets, such as Bitcoin. But many of the day-to-day needs of corporations aren’t about esoteric topics like shielded transactions in digital currencies as much as they are about creating outcomes like operational isolation: The ability to have different departments, applications, or customers “keep running” even when one corporate system experiences a problem. Vendia’s technologies help many companies create internal systems that span regions, accounts, and departments with controlled data sharing without giving up operational independence. This enables companies to easily share code and data without creating a tightly coupled “monolith” that fails as a unit, and without any individual department or operator losing control over the provenance, legacy, or access rights to their copy of the data.
+
+Conclusion
+==========
+
+Distributed ledgers and public cloud serverless offerings are two of the most far-reaching technology ideas of the 21st century. Combining these two ideas has enabled companies of all sizes to create modern applications that share data with control...and without the crippling cost of building, owning, and operating complex distributed systems infrastructure themselves. Data sharing and integration may be an age-old problem, but the innovation in this space has never been brighter, more compelling, or easier to deploy and adopt successfully for business solutions.
+
+[Tim](https://www.linkedin.com/in/timawagner/), Vendia CEO and co-founder
+
+To learn more about Vendia and its innovative solutions that combine distributed ledger and serverless technologies to help customers, visit [www.vendia.net].
+
+_Love building distributed applications?_ [_We’re hiring_](http://jobs.vendia.net)_!_
