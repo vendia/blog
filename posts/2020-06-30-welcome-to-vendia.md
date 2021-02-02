@@ -13,7 +13,7 @@ authors:
 
 Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia at the AWS Serverless Community Day.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6x6SHpkKbuo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6x6SHpkKbuo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 The Challenge of Data Sprawl
 ============================
