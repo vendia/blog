@@ -3,7 +3,6 @@ title: 'Track & Trace Quickstart - Solving supply chain visibility through data 
 description: > 
   'How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.'
 date: '2021-01-25'
-draft: true
 authors:
   - Cory Forsythe
   - Brian McNamara

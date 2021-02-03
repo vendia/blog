@@ -3,7 +3,6 @@ title: "Getting Started With Vendia Share"
 description: 'Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share'
 longDescription: 'Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share'
 date: '2021-01-29'
-draft: true
 authors:
   - Cory Forsythe
   - Brian McNamara

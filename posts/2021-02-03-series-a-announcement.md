@@ -5,7 +5,6 @@ longDescription: 'Vendia is excited to announce the completion of a $15.5M Serie
 investment, led by Canvas Ventures with participation from BMW i Ventures,
 Sorenson Ventures, and our existing seed investors'
 date: '2021-02-03'
-draft: true
 categories:
   - announcements
 tags:

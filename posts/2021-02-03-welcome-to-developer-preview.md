@@ -5,7 +5,6 @@ longDescription: 'Vendia is excited to announce the launch of our Developer Prev
 for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also
 pleased to announce the completion of our Series A investment, led by Canvas Ventures.'
 date: '2021-02-03'
-draft: true
 categories:
   - announcements
 tags:
