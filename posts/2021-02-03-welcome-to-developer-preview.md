@@ -14,12 +14,9 @@ authors:
   - Shruthi Rao
 ---
 
-Announcing the Vendia Share Developer Preview...And our Series A!
-=================================================================
-
 It’s an exciting day for Vendia - we’re pleased to [announce a $15.5M Series A investment](https://www.vendia.net/blog/series-a-announcement),
 the launch of our [Developer Preview](https://www.vendia.net/blog/getting-started-with-vendia-share)
-for Vendia Share, and to share some of our customers’ use cases!
+for Vendia Share, and share some of our customers’ use cases!
 
 ![Image for post](https://d24nhiikxn5jns.cloudfront.net/images/product/2021-02-02-vendia-explorer.jpg)
 
@@ -30,7 +27,7 @@ in isolation. Today’s apps span geographies, accounts, departments, clouds, an
 even legal owners. From supply chains to logistics to financial settlement,
 tracking goods and transactions has become a team sport.
 
-Meanwhile, data is not just everywhere...there’s more of it. IoT, Mobile, Edge,
+Meanwhile, data is not just everywhere...there’s more of it! IoT, Mobile, Edge,
 digital transformations by companies all over the world - all of these are
 resulting in more data being created in more places. Meanwhile, data consumption
 has become the new battleground, where staying competitive hinges on having

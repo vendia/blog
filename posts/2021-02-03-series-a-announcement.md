@@ -13,9 +13,6 @@ authors:
   - Shruthi Rao
 ---
 
-Vendia Announces Series A Investment
-====================================
-
 We’re excited to announce that Vendia has raised a $15.5M Series A round, led
 by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures,
 and our existing seed investors, including Neotribe Ventures, Correlation
