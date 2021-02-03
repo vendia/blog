@@ -48,7 +48,7 @@ reasons to open our platform up is to get feedback and learning during this
 Developer Preview phase that will make our GA product even better.
 Tell us what you think, and help us improve!
 
-Whether you are a developer, business manager, data scientist, or anything in between, getting started with Vendia Share is fast and easy.  In a matter of minutes, you can be on your way to creating distributed real-time applications, and sharing data across clouds, accounts, regions, and with partners. 
+Whether you are a developer, business manager, data scientist, or anything in between, getting started with Vendia Share is fast and easy.  In a matter of minutes, you can be on your way to creating distributed real-time applications, and sharing data across accounts, regions, and with partners. 
 
 ## Creating an Account
 

@@ -26,8 +26,9 @@ The rapid growth in the production and consumption of data and the
 ever-increasing requirements for consistent and timely data sharing among
 departments and business partners has created a massive market opportunity for
 real-time data integration platforms. We’re excited to be partnering with our
-new Series A and our existing Series Seed investors to serve customers and
-grow Vendia to the next level. With the addition of new capital, Vendia will
+new Series A and our existing Series Seed investors to take advantage of
+this opportunity, grow Vendia to the next level, and serve our customers even
+better. With the addition of new capital, Vendia will
 accelerate its push into new sectors and expand its R&D staffing to enable us
 to address exciting new use cases, including virtual data lakes, and to extend
 Vendia Share to additional public cloud platforms to meet customer demand.
@@ -67,12 +68,12 @@ Building a Partnership
 ======================
 
 Like any hard-driving startup, we at Vendia are obsessed with serving our
-customers and creating business outcomes that create value for our investors.
+customers and achieving business outcomes that create value for our investors.
 But we’re also a culture, and our [Kind Humans Policy](https://www.vendia.net/kind-humans)
 is a statement about what we will - and what we won’t - do in search of business
 results. We’re excited to partner with our Series A lead investor, Canvas
 Ventures, not just because of their long track record of success, deep
-understanding of our market, and the ability to help us accelerate with
+understanding of our market, and ability to help us accelerate with
 capital, but also because of who they are: People who share our values, our
 vision, and our culture. Our Canvas partners, Paul Hsiao and Grace Isford,
 and the rest of their team exhibit integrity, kindness, and compassion - making
@@ -86,7 +87,8 @@ opportunity to operate as a small, closely knit crew. Now we turn the page,
 fire up our recruiting engine again, and look forward to growing our company
 and our business into the big shoes we’ve just been handed! 
 
-_To all our investors - thank you for your conviction, your trust, and your partnership. Onward and upward!_
+_To all our investors - thank you for your conviction, your trust, and your partnership._
+
 _To all our customers - thank you for trusting us to be your partner, we look forward to growing together with you!_
 
 -Shruthi & Tim, Vendia co-founders

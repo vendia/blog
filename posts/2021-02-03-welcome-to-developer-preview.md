@@ -1,5 +1,5 @@
 ---
-title: "Announcing the Vendia Share Developer Preview...and New Funding!"
+title: "Announcing the Vendia Share Developer Preview!"
 description: "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A"
 longDescription: "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures."
 date: '2021-02-03'
@@ -33,13 +33,13 @@ resulting in more data being created in more places. Meanwhile, data consumption
 has become the new battleground, where staying competitive hinges on having
 correct, consistent, and up-to-date information about customers, inventory,
 logistics, and more. Now add partners and their own data creation mechanisms
-and data silos and having an end-to-end view of data can feel like an impossibility.
+and data silos to this mix, and having an end-to-end view of data can feel like an impossibility.
 
-Building infrastructure that can tackle this heavy lift of keeping data and the
+Building and operating scalable, fault-tolerant infrastructure that can tackle the heavy lift of keeping data and the
 code that operates on it synchronized across clouds, companies, regions,
 accounts, and technology stacks is challenging, even for well staffed IT
 organizations. Developers need a reliable, resilient, and scalable data
-integration platform, and they don’t have the time or resources to DIY it from
+integration platform, and most companies don’t have the time or resources to DIY it from
 the ground up.
 
 _Enter Vendia Share_ - a simple, schema-driven platform that enables developers
@@ -69,7 +69,7 @@ in the underlying data that precluded monetization and optimization opportunitie
 
 With Vendia, the company was able to create a simple mobile and web application
 that captures data from partners. Vendia Share ensures that all parties involved
-in a transaction see the same version of the data - a single source of truth.
+in a transaction see the same version of the data - _a single source of truth_.
 In addition, when a delivery meets its SLA (on time, delivered in full,
 and at an appropriate temperature), the application is now able to immediately
 and automatically pay the partner with no human intervention and no errors.
@@ -78,8 +78,8 @@ Best Friends Animal Society is another Vendia customer with a particularly
 poignant challenge: Returning lost pets that wind up in shelters to their
 owners. Here, a failure to share data isn't just wasted time and money...it
 can literally end an animal's life. By enabling easy sharing of animal
-information across shelters, lost pet websites, veterinarian's, animal
-safety workers, and owners, Vendia Share enables Best Friends to help ensure
+information across shelters, lost pet websites, veterinarians, animal
+safety workers, and pet owners, Vendia Share enables Best Friends to help ensure
 that all pets get home safely.
 
 _Angie Embree, CIO, Best Friends Animal Society says: “Ending the killing in US
