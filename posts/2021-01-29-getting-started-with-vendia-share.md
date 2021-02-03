@@ -9,11 +9,46 @@ authors:
   - Brian McNamara
 ---
 
-# Getting Started with Vendia Share
+# Welcome, Developers!
+Today we’re excited to open Vendia Share, our enterprise platform for sharing data and code,
+to all developers. Vendia’s enterprise customers already experience the benefits
+of being able to build data-driven applications for supply chains,
+logistics tracking, AI/ML data sharing and much more. Starting today,
+developers can also experience the ease of using Vendia Share on AWS to
+create serverless applications that seamlessly integrate data and code across
+different regions, accounts, and owners. (Read our full announcement [here](https://www.vendia.net/blog/welcome-to-developer-preview).)
+
+Our experience launching services like AWS Lambda in the past taught us that
+developers are the most important audience for any technology platform.
+They may not be the ones paying the bills, but over the long haul developers
+“vote with their feet”...and the platforms they wind up loving are the ones
+that win.
+
+We created Vendia Share to make it easier for anyone to create applications
+that bring the same level of consistency, correctness, and timeliness to
+multi-party apps that developers are used to getting from centralized databases
+and single-owner cloud services. With Vendia Share, anyone who can write a
+JSON Schema can create a distributed application with powerful cloud function
+data triggers in under 10 minutes. That’s a huge step forward for application
+developers who often struggle with the challenges of spanning different regions,
+multiple accounts, and cross-organizational interfaces. The heavy lift of
+synchronizing and replicating data, maintaining an immutable and tamperproof
+ledger, and ensuring trustworthy updates (even among distrustful partners) all
+comes ready to use “out of the box”.
+
+Vendia Share doesn’t just make it easy to share...it also makes it easy to
+integrate with your existing systems. Have data in Amazon SQS that you’d like
+to ingest, want to hook up mobile users with social identity providers, or need
+to send update events to an AWS Lambda function? We have you covered with
+code-free integrations - just issue a GraphQL update to your settings and
+you’re off to the races.
+
+There’s a lot more to learn and explore - and for you to teach us! One of the
+reasons to open our platform up is to get feedback and learning during this
+Developer Preview phase that will make our GA product even better.
+Tell us what you think, and help us improve!
 
 Whether you are a developer, business manager, data scientist, or anything in between, getting started with Vendia Share is fast and easy.  In a matter of minutes, you can be on your way to creating distributed real-time applications, and sharing data across clouds, accounts, regions, and with partners. 
-
-We are incredibly excited about our Developer Preview and have been hard at work creating content to accelerate your experience with Vendia Share. 
 
 ## Creating an Account
 
