@@ -1,6 +1,6 @@
 ---
 title: "Meet Vendia's founders"
-description: 'About this post'
+description: 'Learn about Vendia’s Origin Story and the founders story.'
 date: '2020-07-01'
 categories:
   - company

@@ -1,6 +1,6 @@
 ---
 title: Welcome to Vendia
-description: 'About this post'
+description: 'Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.'
 date: '2020-06-30'
 categories:
   - company

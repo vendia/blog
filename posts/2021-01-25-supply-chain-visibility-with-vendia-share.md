@@ -1,7 +1,7 @@
 ---
 title: 'Track & Trace Quickstart - Solving supply chain visibility through data sharing'
 description: > 
-  'How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.'
+  How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.
 date: '2021-01-25'
 authors:
   - Cory Forsythe
