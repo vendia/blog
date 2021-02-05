@@ -46,7 +46,7 @@ This might feel like a silly example, and yet it’s probably the single most co
 
 Why is this important? Well, imagine in our hypothetical case above that the bank and our accounting-hating business owner can’t agree on how much money their business is supposed to have (or where it came from or who it went to). If you have your own “set of books”, you can compare the bank’s records against your own. If the only set of books is the bank, then you have nothing but your vague intuition that something could be wrong...which also means you can’t effectively represent your shareholders, customers, partners, etc. in such a conversation. The same thing is true of any type of data whose impact is broader than your internal systems.
 
-Decentralized _and_ SaaS: The new peanut butter & chocolate
+Decentralized and SaaS: The new peanut butter & chocolate
 ===========================================================
 
 Companies love SaaS and public cloud services because they remove undifferentiated heavy lifting - instead of buying and operating a data center, let someone who’s good at that do it at scale, and then just rent capacity from them. Or better yet, get a higher level service like AWS Lambda that provides an abstract notion of “compute in the cloud”. Or best of all, if it’s for something that’s not core to your own business, just buy a ready-made SaaS offering, like Gusto for payroll or Greenhouse for recruiting.
