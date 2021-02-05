@@ -122,5 +122,5 @@ tolerance, scalability, and lack of infrastructure complexity is
 just as useful for developers who prefer containers, servers, or even API calls
 from an on-prem mainframe.
 
-To get started, visit www.vendia.net/developers to learn more and register, or
-check out our [welcome blog for developers](https://www.vendia.net/blog/getting-started-with-vendia-share).
+To get started, visit vendia.net/developers to learn more and register, or
+check out our [welcome blog for developers](https://vendia.net/blog/getting-started-with-vendia-share).
