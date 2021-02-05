@@ -48,6 +48,6 @@ We’re excited to be on this journey to help customers solve some of their grea
 
 _Tim & Shruthi_
 
-To learn more or sign up for preview access, visit [www.vendia.net](https://vendia.net). [Hear more](/blog/meet-vendias-founders) from Vendia’s founders.
+To learn more or sign up for preview access, visit [vendia.net](https://vendia.net). [Hear more](/blog/meet-vendias-founders) from Vendia’s founders.
 
 _Looking for your next great opportunity?_ [_We’re hiring!_](http://jobs.vendia.net)

@@ -13,8 +13,8 @@ authors:
   - Shruthi Rao
 ---
 
-It’s an exciting day for Vendia - we’re pleased to [announce a $15.5M Series A investment](https://www.vendia.net/blog/series-a-announcement),
-the launch of our [Developer Preview](https://www.vendia.net/blog/getting-started-with-vendia-share)
+It’s an exciting day for Vendia - we’re pleased to [announce a $15.5M Series A investment](https://vendia.net/blog/series-a-announcement),
+the launch of our [Developer Preview](https://vendia.net/blog/getting-started-with-vendia-share)
 for Vendia Share, and share some of our customers’ use cases!
 
 ![Image for post](https://d24nhiikxn5jns.cloudfront.net/images/product/2021-02-02-vendia-explorer.jpg)

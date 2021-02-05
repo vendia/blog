@@ -15,7 +15,7 @@ of being able to build data-driven applications for supply chains,
 logistics tracking, AI/ML data sharing and much more. Starting today,
 developers can also experience the ease of using Vendia Share on AWS to
 create serverless applications that seamlessly integrate data and code across
-different regions, accounts, and owners. (Read our full announcement [here](https://www.vendia.net/blog/welcome-to-developer-preview).)
+different regions, accounts, and owners. (Read our full announcement [here](https://vendia.net/blog/welcome-to-developer-preview).)
 
 Our experience launching services like AWS Lambda in the past taught us that
 developers are the most important audience for any technology platform.

@@ -61,14 +61,14 @@ go-to-market strategies, but also on making developers raging fans. Along with t
 news about our Series A investment, we’re also excited to be launching the
 Developer Preview of Vendia Share, bringing the platform that helped us grow our
 business (and excite our investors) to every developer. You can read more about
-our developer preview [here](https://www.vendia.net/blog/welcome-to-developer-preview).
+our developer preview [here](https://vendia.net/blog/welcome-to-developer-preview).
 
 Building a Partnership
 ======================
 
 Like any hard-driving startup, we at Vendia are obsessed with serving our
 customers and achieving business outcomes that create value for our investors.
-But we’re also a culture, and our [Kind Humans Policy](https://www.vendia.net/kind-humans)
+But we’re also a culture, and our [Kind Humans Policy](https://vendia.net/kind-humans)
 is a statement about what we will - and what we won’t - do in search of business
 results. We’re excited to partner with our Series A lead investor, Canvas
 Ventures, not just because of their long track record of success, deep

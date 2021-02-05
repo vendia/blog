@@ -72,6 +72,6 @@ Distributed ledgers and public cloud serverless offerings are two of the most fa
 
 [Tim](https://www.linkedin.com/in/timawagner/), Vendia CEO and co-founder
 
-To learn more about Vendia and its innovative solutions that combine distributed ledger and serverless technologies to help customers, visit [www.vendia.net].
+To learn more about Vendia and its innovative solutions that combine distributed ledger and serverless technologies to help customers, visit [vendia.net].
 
 _Love building distributed applications?_ [_We’re hiring_](http://jobs.vendia.net)_!_
