@@ -232,7 +232,7 @@ query listTemperatures {
 }
 ```
 
-![EWR Weather Station New Data Mutation Result](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-17-multiregion-serverless-apps/lax-new-data.png)
+![LAX Weather Station Query of New Data Result](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-17-multiregion-serverless-apps/lax-new-data.png)
 
 Let's go back to the uni setting page and click on the 'Open GraphQL Explorer' of the `EwrStation` node.  Let's then go ahead and list our temperatures.
 
@@ -248,7 +248,7 @@ query listTemperatures {
 }
 ```
 
-<< IMAGE PLACEHOLDER - EWR NEW DATA ADDED >>
+![EWR Weather Station Query of New Data Result](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-17-multiregion-serverless-apps/ewr-new-data.png)
 
 The results across both nodes - *in separate AWS regions* - are the same.  Both reflect the newly added data.
 
