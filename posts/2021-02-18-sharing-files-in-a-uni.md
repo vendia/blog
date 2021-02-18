@@ -1,3 +1,10 @@
+---
+title: 'Sharing Files in Vendia Share Unis'
+description: 'Sharing data across different organizations, accounts, and regions used to be hard...but Vendia Share Universal Apps make it easy'
+date: '2021-02-18'
+authors:
+  - Glenn Dierkes
+---
 
 # Sharing Files in Vendia Share Unis
 
@@ -18,16 +25,11 @@ To start sharing files, you’ll need to create a uni and you’ll need a new or
 
 To get started, create a uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share’s Web UI. The Web UI makes creating a uni easy, so we’ll illustrate that approach below.  For more detailed steps (and more options) when creating a uni, please reference any of the [Quickstart](https://vendia.net/docs/share/quickstart) guides.
 
-
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/create_a_new_uni.png "Create a new uni")
-
 
 Clicking the **Create a new Uni** button allows you to configure the details of your new uni prior to construction:
 
-
-
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/create_new_uni.png "Create new Uni")
-
 
 The **Create new Uni** screen requires that you specify the Node (participant) Config, Uni Schema (data model) and an optional Initial State. The Schema and Initial State will be populated with a default sample and for the purposes of this example we can leave them as is.
 
@@ -240,9 +242,6 @@ update_File_async(
 Running the update mutation above in Node 2 will result in the following output:
 
 
-###
-
-
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/no_write_permissions.png "No write permissions")
 
 
@@ -276,19 +275,12 @@ Here’s the output you will see in Node1 versus the output of Node2.
 
 In **Node1** you’ll see:
 
-
-
-
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_node1.png "List All Files query for Node 1")
 
 
 Where as in **Node2** you’ll see:
 
-
-
-
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_node2.png "List All Files query for Node 2")
-
 
 That may not seem very exciting, but in a Uni with more nodes modeling complex business or application relationships, you can see how the ability to restrict access at the level of individual files can be important...and how easy it is!
 
@@ -300,7 +292,7 @@ We can also use the same approach to control who can update a file. By explicitl
 Execute the following mutation to add a third file that can be modified by any node:
 
 
-```
+```gql
 mutation AddFile3 {
   add_File_async(
     input: {
