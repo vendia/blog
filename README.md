@@ -127,6 +127,10 @@ Ping us with any questions on [Twitter @VendiaHQ](http://twitter.com/VendiaHQ) o
 
 ---
 
+## Adding external posts
+
+If you'd like to include an external post written about vendia, you can do so by adding the post to the [./posts/external-posts.json](./posts/external-posts.json) file.
+
 ## Markdown Resources
 
 Our blog posts are written in markdown and support standard [Github flavored markdown](https://guides.github.com/features/mastering-markdown/). If you are new to Markdown, don't fret, check out this handy [how to guide on writing in markdown](https://blog.ghost.org/markdown/)
