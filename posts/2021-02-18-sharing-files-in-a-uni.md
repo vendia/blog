@@ -19,16 +19,14 @@ To start sharing files, you’ll need to create a uni and you’ll need a new or
 To get started, create a uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share’s Web UI. The Web UI makes creating a uni easy, so we’ll illustrate that approach below.  For more detailed steps (and more options) when creating a uni, please reference any of the [Quickstart](https://vendia.net/docs/share/quickstart) guides.
 
 
-
-
-![alt_text](images/create_a_new_uni.png "Create a new uni")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/create_a_new_uni.png "Create a new uni")
 
 
 Clicking the **Create a new Uni** button allows you to configure the details of your new uni prior to construction:
 
 
 
-![alt_text](images/create_new_uni.png "Create new Uni")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/create_new_uni.png "Create new Uni")
 
 
 The **Create new Uni** screen requires that you specify the Node (participant) Config, Uni Schema (data model) and an optional Initial State. The Schema and Initial State will be populated with a default sample and for the purposes of this example we can leave them as is.
@@ -39,7 +37,7 @@ The **Create new Uni** screen requires that you specify the Node (participant) C
 For this example, we need to create a two node uni so we can see the effects of sharing and adjusting permissions on files. Use the example Node Configuration below, but be sure to first fill in the email address associated with your Vendia account. You can leave the regions as is or adjust them to be any of the Share-supported regions.
 
 
-```
+```json
 [
   {
     "name": "TestNode1",
@@ -63,7 +61,7 @@ For this example, we need to create a two node uni so we can see the effects of 
 For the Schema, you can use the default sample without changing it. A copy is provided below for reference:
 
 
-```
+```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://vendia.net/schemas/demos/basic_schema.json",
@@ -110,8 +108,7 @@ For the Schema, you can use the default sample without changing it. A copy is pr
 
 The defaulted initial state for the sample schema can also be used as is; here’s what it looks like:
 
-
-```
+```json
 {
   "Shapes": [
     {
@@ -127,40 +124,32 @@ The defaulted initial state for the sample schema can also be used as is; here�
 }
 ```
 
-
 After specifying the **Node Config**, **Uni Schema** and **Initial State**, press the **Create New Uni** button.
-
 
 ### Setup an external S3 Bucket
 
 While we wait for the uni to spin up (approximately 5 minutes) we can proceed with making an Amazon S3 bucket available to your uni. While there are multiple ways to upload files to your uni, in this example we’ll create some sample files in your personal bucket and then transfer them from there to the uni. Follow the detailed instructions [here](https://vendia.net/docs/share/file-storage#granting-permissions-to-the-source-bucket) to set up permissions to allow files to be exchanged between your S3 bucket and your uni node. These instructions assume that you already have an AWS account with an S3 bucket created; check out [AWS’s documentation](https://aws.amazon.com/s3/getting-started/) if you need more guidance on S3 setup.
 
-
 ### Add a File with “All Uni” Access
 
 Now that your uni is up and you’ve connected your personal S3 bucket, we can start adding and sharing files. Let’s begin by copying a file from your S3 bucket to your node (which will then copy it to all other nodes as part of the uni’s built-in consensus and replication process). We’ll make this file visible to **all** nodes in your uni.
-
 
 #### Step 1: Add a File to S3
 
 Upload a File into your personal S3 bucket and name it **_test.txt_**.
 
-
 #### Step 2: Start the Uni’s GraphQL Explorer
 
 Open up the GraphQL Explorer for “Node 1” in your uni via the Share Web UI:
 
-
-![alt_text](images/open_graphql_explorer.png "Open GraphQL Explorer")
-
-
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/open_graphql_explorer.png "Open GraphQL Explorer")
 
 #### Step 3: Execute the `AddFile` Mutation
 
 File operations are built into Vendia Share - no matter what your schema model looks like you have the ability to work with them. To copy a file from your S3 bucket to the uni, paste in the mutation below to the GraphQL explorer and execute it, being sure to replace the parameters with your actual file information: your S3 bucket name, the AWS region your bucket is in, and the name of the file to copy. (Note that S3 refers to the full name of a file as a “key”.) Be sure to use the official AWS region names for `SourceRegion` - typically, this will be the same region in which your node resides.
 
 
-```
+```gql
 mutation AddFile {
   add_File_async(
     input: {
@@ -179,19 +168,19 @@ Your mutation will look something like this once the arguments are properly fill
 
 
 
-![alt_text](images/add_file_mutation.png "Add File mutation")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/add_file_mutation.png "Add File mutation")
 
 
 After your **<span style="text-decoration:underline;">AddFile</span>** mutation executes, the new file will be visible to all nodes in the uni. You can see it in your original node by running the following query:
 
 
-```
+```gql
 query ListAllFiles {
   list_Files {
     _Files {
-id
-DestinationKey
-Etag
+      id
+      DestinationKey
+      Etag
     }
   }
 }
@@ -203,31 +192,29 @@ The resulting output will show your file **_<span style="text-decoration:underli
 
 
 
-![alt_text](images/list_all_files_query.png "List All Files query")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_query.png "List All Files query")
 
 
 You can bring up a GraphQL explorer for the other node in your uni and you will see this same output.  This is because when you added the file you were using the default settings: By default, _all nodes have read access to the file but **only** the file’s owner (the node that uploaded it originally) has permission to modify it._  If we extend the **ListAllFiles** mutation to include the **Read** and **Write** properties we can see this explicitly: Run the follow query in one of your Uni’s Nodes:
 
-
-```
+```gql
 query ListAllFiles {
   list_Files {
     _Files {
- id
- DestinationKey
- Etag
- Read
- Write
+     id
+     DestinationKey
+     Etag
+     Read
+     Write
     }
   }
 }
 ```
 
-
 You should see the following output:
 
 
-![alt_text](images/list_all_files_query2.png "List All Files query with more detail")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_query2.png "List All Files query with more detail")
 
 
 Notice that the **Read** setting is “\*”, which means that all nodes in the uni have the ability to read the file.  However, the **Write** permission only lists “TestNode1” - only that node (the file’s owner) can update or remove this file.
@@ -237,15 +224,15 @@ Further, notice that all Nodes have the same <strong><code>id</code></strong>, <
 Now, let’s make sure permissions work. Let’s verify that Node 2 cannot update the file, by attempting to run this mutation in Node 2:
 
 
-```
+```gql
 update_File_async(
-    input: {
-        id: "<file-id-returned-above>",
-        SourceBucket: "my_bucket",
-        SourceKey: "test.txt",
-        SourceRegion: "us-west-2",
-        DestinationKey: "my-first-file.txt"
-    }
+  input: {
+    id: "<file-id-returned-above>",
+    SourceBucket: "my_bucket",
+    SourceKey: "test.txt",
+    SourceRegion: "us-west-2",
+    DestinationKey: "my-first-file.txt"
+  }
 ) { error }
 ```
 
@@ -256,7 +243,7 @@ Running the update mutation above in Node 2 will result in the following output:
 ###
 
 
-![alt_text](images/no_write_permissions.png "No write permissions")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/no_write_permissions.png "No write permissions")
 
 
 That’s as it should be - the error matches our expectation that Node 2 isn’t allowed to modify this file.
@@ -292,7 +279,7 @@ In **Node1** you’ll see:
 
 
 
-![alt_text](images/list_all_files_node1.png "List All Files query for Node 1")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_node1.png "List All Files query for Node 1")
 
 
 Where as in **Node2** you’ll see:
@@ -300,7 +287,7 @@ Where as in **Node2** you’ll see:
 
 
 
-![alt_text](images/list_all_files_node2.png "List All Files query for Node 2")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_node2.png "List All Files query for Node 2")
 
 
 That may not seem very exciting, but in a Uni with more nodes modeling complex business or application relationships, you can see how the ability to restrict access at the level of individual files can be important...and how easy it is!
