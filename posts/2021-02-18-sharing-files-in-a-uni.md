@@ -261,7 +261,7 @@ mutation AddFile2 {
       SourceKey: "test.txt",
       SourceRegion: "us-west-2",
       DestinationKey: "my-second-file.txt",
-    Read: ["TestNode1"]
+      Read: ["TestNode1"]
     }
   )
   {error}
@@ -300,7 +300,7 @@ mutation AddFile3 {
       SourceKey: "test.txt",
       SourceRegion: "us-west-2",
       DestinationKey: "my-third-file.txt",
-    Write: ["*"]
+      Write: ["*"]
     }
   )
   {error}
