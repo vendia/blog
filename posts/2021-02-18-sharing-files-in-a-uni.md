@@ -151,7 +151,7 @@ Open up the GraphQL Explorer for “Node 1” in your uni via the Share Web UI:
 File operations are built into Vendia Share - no matter what your schema model looks like you have the ability to work with them. To copy a file from your S3 bucket to the uni, paste in the mutation below to the GraphQL explorer and execute it, being sure to replace the parameters with your actual file information: your S3 bucket name, the AWS region your bucket is in, and the name of the file to copy. (Note that S3 refers to the full name of a file as a “key”.) Be sure to use the official AWS region names for `SourceRegion` - typically, this will be the same region in which your node resides.
 
 
-```gql
+```graphql
 mutation AddFile {
   add_File_async(
     input: {
@@ -173,10 +173,10 @@ Your mutation will look something like this once the arguments are properly fill
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/add_file_mutation.png "Add File mutation")
 
 
-After your **<span style="text-decoration:underline;">AddFile</span>** mutation executes, the new file will be visible to all nodes in the uni. You can see it in your original node by running the following query:
+After your **__AddFile__** mutation executes, the new file will be visible to all nodes in the uni. You can see it in your original node by running the following query:
 
 
-```gql
+```graphql
 query ListAllFiles {
   list_Files {
     _Files {
@@ -189,7 +189,7 @@ query ListAllFiles {
 ```
 
 
-The resulting output will show your file **_<span style="text-decoration:underline;">my-first-file.txt</span>_**, and look similar to this:
+The resulting output will show your file **__my-first-file.txt__**, and look similar to this:
 
 
 
@@ -199,7 +199,7 @@ The resulting output will show your file **_<span style="text-decoration:underli
 
 You can bring up a GraphQL explorer for the other node in your uni and you will see this same output.  This is because when you added the file you were using the default settings: By default, _all nodes have read access to the file but **only** the file’s owner (the node that uploaded it originally) has permission to modify it._  If we extend the **ListAllFiles** mutation to include the **Read** and **Write** properties we can see this explicitly: Run the follow query in one of your Uni’s Nodes:
 
-```gql
+```graphql
 query ListAllFiles {
   list_Files {
     _Files {
@@ -226,7 +226,7 @@ Further, notice that all Nodes have the same <strong><code>id</code></strong>, <
 Now, let’s make sure permissions work. Let’s verify that Node 2 cannot update the file, by attempting to run this mutation in Node 2:
 
 
-```gql
+```graphql
 update_File_async(
   input: {
     id: "<file-id-returned-above>",
@@ -292,7 +292,7 @@ We can also use the same approach to control who can update a file. By explicitl
 Execute the following mutation to add a third file that can be modified by any node:
 
 
-```gql
+```graphql
 mutation AddFile3 {
   add_File_async(
     input: {
