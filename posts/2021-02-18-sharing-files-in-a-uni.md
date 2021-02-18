@@ -253,7 +253,7 @@ That’s as it should be - the error matches our expectation that Node 2 isn’t
 When adding a file, we could also choose to restrict the set of nodes with read access to the file by explicitly setting its <strong><code>Read</code></strong> property.  Let’s see that in action: In Node 1’s GraphQL Explorer, execute the following mutation (again, being sure to adjust it for your own bucket):
 
 
-```
+```graphql
 mutation AddFile2 {
   add_File_async(
     input: {
