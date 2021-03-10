@@ -9,7 +9,8 @@ authors:
 ---
 
 # Welcome, Developers!
-Today we’re excited to open Vendia Share, our enterprise platform for sharing data and code,
+
+Today we're excited to open Vendia Share, our enterprise platform for sharing data and code,
 to all developers. Vendia’s enterprise customers already experience the benefits
 of being able to build data-driven applications for supply chains,
 logistics tracking, AI/ML data sharing and much more. Starting today,
@@ -20,7 +21,7 @@ different regions, accounts, and owners. (Read our full announcement [here](http
 Our experience launching services like AWS Lambda in the past taught us that
 developers are the most important audience for any technology platform.
 They may not be the ones paying the bills, but over the long haul developers
-“vote with their feet”...and the platforms they wind up loving are the ones
+"vote with their feet"...and the platforms they wind up loving are the ones
 that win.
 
 We created Vendia Share to make it easier for anyone to create applications
@@ -33,7 +34,7 @@ developers who often struggle with the challenges of spanning different regions,
 multiple accounts, and cross-organizational interfaces. The heavy lift of
 synchronizing and replicating data, maintaining an immutable and tamperproof
 ledger, and ensuring trustworthy updates (even among distrustful partners) all
-comes ready to use “out of the box”.
+comes ready to use "out of the box".
 
 Vendia Share doesn’t just make it easy to share...it also makes it easy to
 integrate with your existing systems. Have data in Amazon SQS that you’d like
@@ -58,7 +59,7 @@ Universal Applications, or unis, are the foundation upon which you build with Ve
 
 Creating a uni requires zero code, however you do need a plan for your data model.
 
-For more information on unis, checkout our [“What is a uni?” video](https://youtu.be/8HmwVOo17BE)
+For more information on unis, checkout our ["What is a uni?" video](https://youtu.be/8HmwVOo17BE)
 
 Read more about unis and how they work [https://vendia.net/docs/share/dev-and-use-unis](https://vendia.net/docs/share/dev-and-use-unis)
 
