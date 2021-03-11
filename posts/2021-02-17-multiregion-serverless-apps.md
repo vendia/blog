@@ -12,11 +12,8 @@ authors:
 Serverless computing allows developers, operators, and businesses to create applications that add business value without introducing operational overhead.  There are several tenets associated with serverless computing:
 
 * No infrastructure to manage, freeing operators from patching and management activities.
-
 * Built-in scalability, allowing applications to scale from zero to peak levels.
-
 * Pay for value, where resources don't need to be overprovisioned to plan for peak levels.
-
 * Built-in fault tolerance, allowing applications to have a high degree of resiliency with no additional effort on the part of the application developer.
 
 Through its use of an innovative, serverless architecture, Vendia Share Universal Applications (*unis*) possess all the benefits listed above.  Unis allow different organizations or companies to share data across clouds, regions, accounts, and technology stacks.  Each participant is represented as a node in the uni.  Every node has a common view of the uni's data.  Nodes are deployed to specific geographic regions and cloud service providers (CSPs).  By allowing customers to deploy nodes across multiple regions, Vendia makes it easy to model multi-region endpoints, without the "heavy lift" usually associated with supporting multi-region data tiers in distributed applications.
