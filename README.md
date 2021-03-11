@@ -33,6 +33,8 @@ Welcome to the Vendia blog repo!
 
 New to markdown? [Read this](https://guides.github.com/features/mastering-markdown/)
 
+Checkout the [markdown styleguide](https://github.com/vendia/blog/blob/master/posts/typography.mdx) for examples on how to format things.
+
 ---
 
 ### 2. Name your post file name
