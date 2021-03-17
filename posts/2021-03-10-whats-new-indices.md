@@ -12,4 +12,4 @@ Vendia Share now offers customer-selected indexes to support efficient data retr
 
 Indexes are available immediately for all customers. Indexes are available in all AWS regions (us-east-1, us-east-2, us-west-2, sa-east-1, eu-west-1, eu-west-2, eu-central-1, ap-northeast-1, ap-northeast-2, ap-south-1, ap-southeast-1, and ap-southeast-2). Enterprise customers may apply up to 10 indexes per Uni; free tier customers may apply up to 1 index per Uni.
 
-For additional information and examples, see the [developer documentation](https://vendia.net/docs/share/data-modeling#Indexes).
+For additional information and examples, see the [developer documentation](https://vendia.net/docs/share/data-modeling#indexes).
