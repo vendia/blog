@@ -4,6 +4,10 @@
     "description": "Company news & updates"
   },
   {
+    "slug": "announcements",
+    "description": "Company news & updates"
+  },
+  {
     "slug": "tutorials",
     "description": "Developer tutorials"
   },
@@ -14,5 +18,9 @@
   {
     "slug": "architecture",
     "description": "Software architecture"
+  },
+  {
+    "slug": "concepts",
+    "description": "Software concepts"
   }
 ]

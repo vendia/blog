@@ -1,5 +1,6 @@
 ---
 title: "Don't Rip and Replace - Integrate"
+description: "Use Vendia Share to Complement Existing Data Stores."
 longDescription: >
     Use Vendia Share to Complement Existing Data Stores.
 date: '2021-05-10'

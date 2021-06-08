@@ -1,5 +1,6 @@
 ---
 title: 'Creating a Cross Region Serverless Application in 5 Minutes'
+description: How to create cross region serverless appplications
 longDescription: >
     Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.
 date: '2021-02-17'
