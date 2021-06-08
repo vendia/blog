@@ -19,21 +19,31 @@ const exampleAuthorData = {
   }
 }
 
-async function doIt() {
+async function runValidation() {
   const authors = await validateAuthors()
-  console.log('authors', authors)
+  // console.log('authors', authors)
 
   const categoriesContents = await readFile(path.join(__dirname, 'categories/categories.json'), 'utf8')
 
   const categories = JSON.parse(categoriesContents).map((category) =>  category.slug)
-  console.log('categories', categories)
+  // console.log('categories', categories)
 
-  const posts = await validatePosts({
-    authors: authors.data,
-    categories
+  let posts 
+  try {
+    posts = await validatePosts({
+      authors: authors.data,
+      categories
+    })
+  } catch (err) {
+    console.log(err);
+    process.exit(1)
+  }
+
+  console.log('Posts valid!')
+  posts.forEach((post) => {
+    console.log(` - ${post.fileName}`)
   })
-
-  console.log('posts', posts)
+ 
 
   const siteData = posts.reduce((acc, postData) => {
     const postTags = postData.frontMatter.tags || []
@@ -47,22 +57,22 @@ async function doIt() {
     authorDetails: authors.data,
   })
 
-  console.log('siteData', siteData)
+  // console.log('siteData', siteData)
 
   return siteData
 }
 
-doIt()
+runValidation()
 
 async function validateAuthors() {
-  const authors = await globby(['authors/*.json'])
+  const authors = await globby(['authors/*.json'], { cwd: __dirname })
 
   const authorSlugs = authors.map((author) => {
     return path.basename(author, '.json')
   })
 
-  const authorContents = await Promise.all(authors.map((file) => {
-    return readFile(file, 'utf8')
+  const authorContents = await Promise.all(authors.map((_file) => {
+    return readFile(path.resolve(__dirname, _file), 'utf8')
   }))
 
   const authorData = authorContents.map((contents, i) => {
@@ -83,8 +93,7 @@ async function validateAuthors() {
       `)
     }
   })
-
-  console.log('authorSlugs', authorSlugs)
+  // console.log('authorSlugs', authorSlugs)
 
   return {
     slugs: authorSlugs,
@@ -95,15 +104,39 @@ async function validateAuthors() {
 const WHITE_LIST = ['posts/draft-example.md', 'posts/typography.mdx']
 
 async function validatePosts({ authors, categories }) {
-  const posts = await globby(['posts/*.md', 'posts/*.mdx'])
+  const postsFiles = await globby(["posts/*"], { cwd: __dirname })
+  // Verify all markdown files have markdown extension
+  postsFiles.forEach((filePath) => {
+    if (filePath.indexOf('.') === -1) {
+      throw new Error(`"${filePath}" missing file extension`)
+    }
+  })
 
-  const postInfo = await Promise.all(posts.map(async (file) => {
+  const posts = postsFiles.filter((filePath) => {
+    return filePath.match(/\.mdx?$/, "");
+  })
+
+  let validationErrors = []
+
+  const postInfo = await Promise.all(posts.map(async (_file) => {
+    const file = path.resolve(__dirname, _file)
     // Verify YYYY-MM-DD post format
-    if (!WHITE_LIST.includes(file) && !file.match(dateFormatRegex)) {
+    if (!WHITE_LIST.includes(_file) && !file.match(dateFormatRegex)) {
       throw new Error(`Date prefix missing from file name "${file}"`)
     }
     const post = await readFile(file, 'utf8')
-    const { data } = matter(post)
+
+    let data
+    try {
+      const frontmatter = matter(post)
+      data = frontmatter.data
+    } catch (err) {
+      console.log(`──────Frontmatter Error───────`)
+      console.log(`Frontmatter Error in ${file}`)
+      console.log(err.message)
+      console.log(`───────────────────────────────`)
+      throw err
+    }
     const ext =  path.extname(file)
 
     if (!data) {
@@ -114,7 +147,7 @@ async function validatePosts({ authors, categories }) {
     if (data.categories) {
       data.categories.forEach((category) => {
         if (!categories.includes(category)) {
-          throw new Error(`Category "${category}" in ${file} is invalid. Must be one of ${JSON.stringify(categories)}`)
+          validationErrors.push(`Category "${category}" in ${file} is invalid. Must be one of ${JSON.stringify(categories)}`);
         }
       })
     }
@@ -122,7 +155,8 @@ async function validatePosts({ authors, categories }) {
     if (data.authors) {
       // Ensure author is array
       if (!Array.isArray(data.authors)) {
-        throw new Error(outdent`Author field is incorrectly formatted as a string.
+        validationErrors.push(outdent`
+        Author field is incorrectly formatted as a string.
 
         Please update ${file}
 
@@ -130,7 +164,8 @@ async function validatePosts({ authors, categories }) {
 
         authors:
           - Bob Smith
-          - Bill Green`)
+          - Bill Green
+        `);
       }
 
       data.authors.forEach((authorName) => {
@@ -138,55 +173,54 @@ async function validatePosts({ authors, categories }) {
           return authorName === d.slug || authorName === d.name
         })
         if (!hasAuthor) {
-          throw new Error(outdent`
+          validationErrors.push(outdent`
             Post ${file} has invalid author "${authorName}".
             Must be one of ${JSON.stringify(authors.map((d) => d.slug))}
-          `)
+          `);
         }
       })
     }
 
     if (!data.title) {
-      throw new Error(outdent`
-      No title found in post Frontmatter YAML
+      validationErrors.push(outdent`
+        No title found in post Frontmatter YAML
 
-      Please update ${file}
+        Please update ${file}
 
-      ---- The description format is -----
+        ---- The description format is -----
 
-      title: "My 50-60 character Human & Keyword Friendly title"
-      `)
+        title: "My 50-60 character Human & Keyword Friendly title"
+      `);
     }
 
     if (!data.description) {
-    throw new Error(outdent`
-      No description found in post Frontmatter YAML
+      validationErrors.push(outdent`
+        No description found in post Frontmatter YAML
 
-      Please update ${file}
+        Please update ${file}
 
-      ---- The description format is -----
+        ---- The description format is -----
 
-      description: "My 155-170 character long description for SEO purposes"
+        description: "My 155-170 character long description for SEO purposes"
 
-      `)
+        `);
     }
 
     if (data.description && data.description.length > 185) {
-      throw new Error(outdent`
+      validationErrors.push(outdent`
         Description in ${file} is too long.
 
         It is ${data.description.length} characters long
 
         Please update keep descriptions under 185 characters long
-      `)
+      `);
     }
 
-    if (file.match(/[A-Z]/)) {
-      throw new Error(`
+    if (_file.match(/[A-Z]/)) {
+      validationErrors.push(`
         Error: file name needs to be in all lowercase
 
-        Please remove uppercase letters from filename ${file}`
-      )
+        Please remove uppercase letters from filename ${file}`);
     }
 
     return {
@@ -196,6 +230,11 @@ async function validatePosts({ authors, categories }) {
       type: ext.replace(/^\./, '')
     }
   }))
+
+  if (validationErrors.length) {
+    const errorHeading = '\n\n──────VALIDATION ERROR─────────\n\n'
+    throw new Error(`${errorHeading}${validationErrors.join(errorHeading)}`)
+  }
 
   return postInfo
 }
