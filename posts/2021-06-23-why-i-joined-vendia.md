@@ -31,4 +31,4 @@ I couldn’t be more thrilled to join Vendia at such an early stage of its evolu
 
 If you are interested in learning more about how Vendia can help your company unlock the power of distributed data in a secure way, our team would love to would love to help!  DM for more information.
 
-[Join us](https://www.vendia.com/careers)
+[Join us](https://www.vendia.net/jobs)
