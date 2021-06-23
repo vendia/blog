@@ -3,25 +3,28 @@
   "private": true,
   "version": "1.0.0",
   "description": "Welcome to the Vendia blog repo!",
+  "author": "Vendia Inc",
   "main": "index.js",
   "scripts": {
-    "new": "plop",
-    "validate": "node _validate.js",
+    "new": "plop --plopfile .github/plopfile.js",
+    "validate": "uvu .github .test.js",
+    "test": "npm run validate && npm run checklinks",
+    "checklinks": "linkinator 'posts/**/*.md' --markdown --skip '^https://github.com/vendia/vendia|www.linkedin.com'",
     "md": "md-magic --path '**/*.md' --ignore 'node_modules'"
   },
+  "homepage": "https://github.com/vendia/blog#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vendia/blog.git"
   },
-  "author": "Vendia Inc",
   "bugs": {
     "url": "https://github.com/vendia/blog/issues"
   },
-  "homepage": "https://github.com/vendia/blog#readme",
   "devDependencies": {
-    "gray-matter": "4.0.2",
-    "markdown-magic": "1.0.0",
-    "outdent": "0.7.1",
-    "plop": "^2.7.4"
+    "gray-matter": "4.0.3",
+    "linkinator": "^2.13.6",
+    "markdown-magic": "2.0.0",
+    "plop": "^2.7.4",
+    "uvu": "^0.5.1"
   }
 }
