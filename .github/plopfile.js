@@ -1,7 +1,6 @@
 const slugify = require('slugify')
 
-const plopConfig = plop => {
-
+function plopConfig(plop) {
   plop.setHelper('date', () => formatDate())
 
   plop.setHelper('slugify', text => {
@@ -25,7 +24,7 @@ const plopConfig = plop => {
     actions: [
       {
         type: 'add',
-        path: 'posts/{{date}}-{{slugify title}}.md',
+        path: '../posts/{{date}}-{{slugify title}}.md',
         templateFile: '_templates/post.hbs',
       },
     ],
@@ -33,10 +32,10 @@ const plopConfig = plop => {
 }
 
 function formatDate() {
-  var d = new Date(),
-      month = '' + (d.getMonth() + 1),
-      day = '' + d.getDate(),
-      year = d.getFullYear();
+  const d = new Date()
+  const month = '' + (d.getMonth() + 1)
+  const day = '' + d.getDate()
+  const year = d.getFullYear()
 
   if (month.length < 2) month = '0' + month;
   if (day.length < 2) day = '0' + day;

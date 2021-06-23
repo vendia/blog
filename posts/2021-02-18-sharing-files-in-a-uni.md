@@ -18,12 +18,12 @@ This step by step example of how Files can be shared in unis demonstrates that y
 
 ## File Sharing Example
 
-To start sharing files, you’ll need to create a uni and you’ll need a new or existing Amazon S3 bucket to use as a data source. We’ll walk through the details of accomplishing both of these tasks.  Once these prerequisites are completed we’ll provide examples of creating and sharing files as well as updating the permissions on those files to control access by other participants.
+To start sharing files, you'll need to create a uni and you'll need a new or existing Amazon S3 bucket to use as a data source. We'll walk through the details of accomplishing both of these tasks.  Once these prerequisites are completed we'll provide examples of creating and sharing files as well as updating the permissions on those files to control access by other participants.
 
 
 ### Create a Uni
 
-To get started, create a uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share’s Web UI. The Web UI makes creating a uni easy, so we’ll illustrate that approach below.  For more detailed steps (and more options) when creating a uni, please reference any of the [Quickstart](https://vendia.net/docs/share/quickstart) guides.
+To get started, create a uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share's Web UI. The Web UI makes creating a uni easy, so we'll illustrate that approach below.  For more detailed steps (and more options) when creating a uni, please reference any of the [Quickstart](https://vendia.net/docs/share/quickstart) guides.
 
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/create_a_new_uni.png "Create a new uni")
 
@@ -108,7 +108,7 @@ For the Schema, you can use the default sample without changing it. A copy is pr
 
 #### Initial State
 
-The defaulted initial state for the sample schema can also be used as is; here’s what it looks like:
+The defaulted initial state for the sample schema can also be used as is; here's what it looks like:
 
 ```json
 {
@@ -130,25 +130,25 @@ After specifying the **Node Config**, **Uni Schema** and **Initial State**, pres
 
 ### Setup an external S3 Bucket
 
-While we wait for the uni to spin up (approximately 5 minutes) we can proceed with making an Amazon S3 bucket available to your uni. While there are multiple ways to upload files to your uni, in this example we’ll create some sample files in your personal bucket and then transfer them from there to the uni. Follow the detailed instructions [here](https://vendia.net/docs/share/file-storage#granting-permissions-to-the-source-bucket) to set up permissions to allow files to be exchanged between your S3 bucket and your uni node. These instructions assume that you already have an AWS account with an S3 bucket created; check out [AWS’s documentation](https://aws.amazon.com/s3/getting-started/) if you need more guidance on S3 setup.
+While we wait for the uni to spin up (approximately 5 minutes) we can proceed with making an Amazon S3 bucket available to your uni. While there are multiple ways to upload files to your uni, in this example we'll create some sample files in your personal bucket and then transfer them from there to the uni. Follow the detailed instructions [here](https://vendia.net/docs/share/file-storage#granting-permissions-to-the-source-bucket) to set up permissions to allow files to be exchanged between your S3 bucket and your uni node. These instructions assume that you already have an AWS account with an S3 bucket created; check out [AWS's documentation](https://aws.amazon.com/s3/getting-started/) if you need more guidance on S3 setup.
 
-### Add a File with “All Uni” Access
+### Add a File with "All Uni" Access
 
-Now that your uni is up and you’ve connected your personal S3 bucket, we can start adding and sharing files. Let’s begin by copying a file from your S3 bucket to your node (which will then copy it to all other nodes as part of the uni’s built-in consensus and replication process). We’ll make this file visible to **all** nodes in your uni.
+Now that your uni is up and you've connected your personal S3 bucket, we can start adding and sharing files. Let's begin by copying a file from your S3 bucket to your node (which will then copy it to all other nodes as part of the uni's built-in consensus and replication process). We'll make this file visible to **all** nodes in your uni.
 
 #### Step 1: Add a File to S3
 
 Upload a File into your personal S3 bucket and name it **_test.txt_**.
 
-#### Step 2: Start the Uni’s GraphQL Explorer
+#### Step 2: Start the Uni's GraphQL Explorer
 
-Open up the GraphQL Explorer for “Node 1” in your uni via the Share Web UI:
+Open up the GraphQL Explorer for "Node 1" in your uni via the Share Web UI:
 
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/open_graphql_explorer.png "Open GraphQL Explorer")
 
 #### Step 3: Execute the `AddFile` Mutation
 
-File operations are built into Vendia Share - no matter what your schema model looks like you have the ability to work with them. To copy a file from your S3 bucket to the uni, paste in the mutation below to the GraphQL explorer and execute it, being sure to replace the parameters with your actual file information: your S3 bucket name, the AWS region your bucket is in, and the name of the file to copy. (Note that S3 refers to the full name of a file as a “key”.) Be sure to use the official AWS region names for `SourceRegion` - typically, this will be the same region in which your node resides.
+File operations are built into Vendia Share - no matter what your schema model looks like you have the ability to work with them. To copy a file from your S3 bucket to the uni, paste in the mutation below to the GraphQL explorer and execute it, being sure to replace the parameters with your actual file information: your S3 bucket name, the AWS region your bucket is in, and the name of the file to copy. (Note that S3 refers to the full name of a file as a "key".) Be sure to use the official AWS region names for `SourceRegion` - typically, this will be the same region in which your node resides.
 
 
 ```graphql
@@ -197,7 +197,7 @@ The resulting output will show your file **__my-first-file.txt__**, and look sim
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_query.png "List All Files query")
 
 
-You can bring up a GraphQL explorer for the other node in your uni and you will see this same output.  This is because when you added the file you were using the default settings: By default, _all nodes have read access to the file but **only** the file’s owner (the node that uploaded it originally) has permission to modify it._  If we extend the **ListAllFiles** mutation to include the **Read** and **Write** properties we can see this explicitly: Run the follow query in one of your Uni’s Nodes:
+You can bring up a GraphQL explorer for the other node in your uni and you will see this same output.  This is because when you added the file you were using the default settings: By default, _all nodes have read access to the file but **only** the file's owner (the node that uploaded it originally) has permission to modify it._  If we extend the **ListAllFiles** mutation to include the **Read** and **Write** properties we can see this explicitly: Run the follow query in one of your Uni's Nodes:
 
 ```graphql
 query ListAllFiles {
@@ -219,11 +219,11 @@ You should see the following output:
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_query2.png "List All Files query with more detail")
 
 
-Notice that the **Read** setting is “\*”, which means that all nodes in the uni have the ability to read the file.  However, the **Write** permission only lists “TestNode1” - only that node (the file’s owner) can update or remove this file.
+Notice that the **Read** setting is "\*", which means that all nodes in the uni have the ability to read the file.  However, the **Write** permission only lists "TestNode1" - only that node (the file's owner) can update or remove this file.
 
 Further, notice that all Nodes have the same <strong><code>id</code></strong>, <strong><code>DestinationKey</code>,</strong> and <strong><code>Etag</code></strong> values.  An identical <strong><code>Etag</code></strong> verifies that the content of the file in each node is the same. (This information is also used in the creation of a replicated, immutable ledger to prove that all nodes share the same file content whenever a file is created or modified.)
 
-Now, let’s make sure permissions work. Let’s verify that Node 2 cannot update the file, by attempting to run this mutation in Node 2:
+Now, let's make sure permissions work. Let's verify that Node 2 cannot update the file, by attempting to run this mutation in Node 2:
 
 
 ```graphql
@@ -245,12 +245,12 @@ Running the update mutation above in Node 2 will result in the following output:
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/no_write_permissions.png "No write permissions")
 
 
-That’s as it should be - the error matches our expectation that Node 2 isn’t allowed to modify this file.
+That's as it should be - the error matches our expectation that Node 2 isn't allowed to modify this file.
 
 
 ### Restricting Read Access to a File
 
-When adding a file, we could also choose to restrict the set of nodes with read access to the file by explicitly setting its <strong><code>Read</code></strong> property.  Let’s see that in action: In Node 1’s GraphQL Explorer, execute the following mutation (again, being sure to adjust it for your own bucket):
+When adding a file, we could also choose to restrict the set of nodes with read access to the file by explicitly setting its <strong><code>Read</code></strong> property.  Let's see that in action: In Node 1's GraphQL Explorer, execute the following mutation (again, being sure to adjust it for your own bucket):
 
 
 ```graphql
@@ -269,16 +269,16 @@ mutation AddFile2 {
 ```
 
 
-Now if you list the files in each node, you’ll notice that <strong><code>my-second-file.txt</code></strong> is only present in Node 1.
+Now if you list the files in each node, you'll notice that <strong><code>my-second-file.txt</code></strong> is only present in Node 1.
 
-Here’s the output you will see in Node1 versus the output of Node2.
+Here's the output you will see in Node1 versus the output of Node2.
 
-In **Node1** you’ll see:
+In **Node1** you'll see:
 
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_node1.png "List All Files query for Node 1")
 
 
-Where as in **Node2** you’ll see:
+Where as in **Node2** you'll see:
 
 ![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/list_all_files_node2.png "List All Files query for Node 2")
 
@@ -287,7 +287,7 @@ That may not seem very exciting, but in a Uni with more nodes modeling complex b
 
 ### Allowing all Nodes to Update a File
 
-We can also use the same approach to control who can update a file. By explicitly setting the <strong><code>Write</code></strong> property on a file, we can give a select set of nodes the ability to alter its content. The following example allows all nodes to modify a file by using the special node name, “\*”. It has the meaning of “all the nodes in the Uni, including any new ones that are added later on.”
+We can also use the same approach to control who can update a file. By explicitly setting the <strong><code>Write</code></strong> property on a file, we can give a select set of nodes the ability to alter its content. The following example allows all nodes to modify a file by using the special node name, "\*". It has the meaning of "all the nodes in the Uni, including any new ones that are added later on."
 
 Execute the following mutation to add a third file that can be modified by any node:
 
@@ -308,11 +308,11 @@ mutation AddFile3 {
 ```
 
 
-Now if you attempt to update this file from the second node, your mutation will be successful! Of course, we could also have provided an explicit list of node names instead of using “\*” to indicate that only a subset of nodes have write permissions.
+Now if you attempt to update this file from the second node, your mutation will be successful! Of course, we could also have provided an explicit list of node names instead of using "\*" to indicate that only a subset of nodes have write permissions.
 
 
 ### Summary and Next Steps
 
-As we saw in the example above, unis make it as easy to share files as is it to share scalar data like strings and numbers. Just as important, they also give the file’s owner fine-grained access control: For each file, you can specify which other participants are able to read or update the file. Finally, remember that by default (i.e., when you don’t provide explicit Read and Write settings), _all_ nodes will have read access but only the file’s owning node will have write permission.
+As we saw in the example above, unis make it as easy to share files as is it to share scalar data like strings and numbers. Just as important, they also give the file's owner fine-grained access control: For each file, you can specify which other participants are able to read or update the file. Finally, remember that by default (i.e., when you don't provide explicit Read and Write settings), _all_ nodes will have read access but only the file's owning node will have write permission.
 
-There’s even more you can do with files that we haven’t covered here. To get a quick overview, check out this [document](https://vendia.net/docs/share/file-storage). To read about the full set of features available, such as cache settings, please visit the [API docs](https://vendia.net/docs/share/file-api).
+There's even more you can do with files that we haven't covered here. To get a quick overview, check out this [document](https://vendia.net/docs/share/file-storage). To read about the full set of features available, such as cache settings, please visit the [API docs](https://vendia.net/docs/share/file-api).
