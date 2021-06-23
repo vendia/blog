@@ -21,7 +21,7 @@ Welcome to the Vendia blog repo!
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## [How to contribute content](https://www.youtube.com/watch?v=ps1oQeg-0ss)
+## How to contribute content
 
 ### TDLR;
 
