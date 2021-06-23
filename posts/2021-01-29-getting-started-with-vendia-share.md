@@ -11,7 +11,7 @@ authors:
 # Welcome, Developers!
 
 Today we're excited to open Vendia Share, our enterprise platform for sharing data and code,
-to all developers. Vendia’s enterprise customers already experience the benefits
+to all developers. Vendia's enterprise customers already experience the benefits
 of being able to build data-driven applications for supply chains,
 logistics tracking, AI/ML data sharing and much more. Starting today,
 developers can also experience the ease of using Vendia Share on AWS to
@@ -29,21 +29,21 @@ that bring the same level of consistency, correctness, and timeliness to
 multi-party apps that developers are used to getting from centralized databases
 and single-owner cloud services. With Vendia Share, anyone who can write a
 JSON Schema can create a distributed application with powerful cloud function
-data triggers in under 10 minutes. That’s a huge step forward for application
+data triggers in under 10 minutes. That's a huge step forward for application
 developers who often struggle with the challenges of spanning different regions,
 multiple accounts, and cross-organizational interfaces. The heavy lift of
 synchronizing and replicating data, maintaining an immutable and tamperproof
 ledger, and ensuring trustworthy updates (even among distrustful partners) all
 comes ready to use "out of the box".
 
-Vendia Share doesn’t just make it easy to share...it also makes it easy to
-integrate with your existing systems. Have data in Amazon SQS that you’d like
+Vendia Share doesn't just make it easy to share...it also makes it easy to
+integrate with your existing systems. Have data in Amazon SQS that you'd like
 to ingest, want to hook up mobile users with social identity providers, or need
 to send update events to an AWS Lambda function? We have you covered with
 code-free integrations - just issue a GraphQL update to your settings and
-you’re off to the races.
+you're off to the races.
 
-There’s a lot more to learn and explore - and for you to teach us! One of the
+There's a lot more to learn and explore - and for you to teach us! One of the
 reasons to open our platform up is to get feedback and learning during this
 Developer Preview phase that will make our GA product even better.
 Tell us what you think, and help us improve!

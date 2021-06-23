@@ -12,7 +12,7 @@ authors:
   - Shruthi Rao
 ---
 
-We’re excited to announce that Vendia has raised a $15.5M Series A round, led
+We're excited to announce that Vendia has raised a $15.5M Series A round, led
 by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures,
 and our existing seed investors, including Neotribe Ventures, Correlation
 Ventures, WestWave Capital, Hummer Winblad Venture Partners, Firebolt Ventures,
@@ -24,7 +24,7 @@ incorporation in March of 2020.
 The rapid growth in the production and consumption of data and the
 ever-increasing requirements for consistent and timely data sharing among
 departments and business partners has created a massive market opportunity for
-real-time data integration platforms. We’re excited to be partnering with our
+real-time data integration platforms. We're excited to be partnering with our
 new Series A and our existing Series Seed investors to take advantage of
 this opportunity, grow Vendia to the next level, and serve our customers even
 better. With the addition of new capital, Vendia will
@@ -47,18 +47,18 @@ user attention spans are measured in mere seconds.
 _"Fortune 500 companies are struggling to share data across internal siloes,
 let alone share data securely. An increasing pace of regulatory requirements
 adds further complexity, with nearly 80% of business data living outside of an
-organization’s four walls. After scouring the DataOps landscape, we were
-impressed by Vendia’s turn-key data-sharing solution, enabling organizations to
+organization's four walls. After scouring the DataOps landscape, we were
+impressed by Vendia's turn-key data-sharing solution, enabling organizations to
 share data immutably at scale—with just a few lines of code. AWS powerhouses
-Tim Wagner (Lambda’s founder) and Shruthi Rao (AWS Blockchain) have joined
+Tim Wagner (Lambda's founder) and Shruthi Rao (AWS Blockchain) have joined
 forces to build a state-of-the-art serverless-blockchain platform that is poised
-to be the new standard for data sharing.”_
+to be the new standard for data sharing."_
 
 While Vendia focuses on enterprise and SMB customers for its near-term business
-goals, we’re also excited about another audience: Developers. We learned over
+goals, we're also excited about another audience: Developers. We learned over
 the years that successful platforms are built not just on well executed
 go-to-market strategies, but also on making developers raging fans. Along with the
-news about our Series A investment, we’re also excited to be launching the
+news about our Series A investment, we're also excited to be launching the
 Developer Preview of Vendia Share, bringing the platform that helped us grow our
 business (and excite our investors) to every developer. You can read more about
 our developer preview [here](https://vendia.net/blog/welcome-to-developer-preview).
@@ -68,9 +68,9 @@ Building a Partnership
 
 Like any hard-driving startup, we at Vendia are obsessed with serving our
 customers and achieving business outcomes that create value for our investors.
-But we’re also a culture, and our [Kind Humans Policy](https://vendia.net/kind-humans)
-is a statement about what we will - and what we won’t - do in search of business
-results. We’re excited to partner with our Series A lead investor, Canvas
+But we're also a culture, and our [Kind Humans Policy](https://vendia.net/kind-humans)
+is a statement about what we will - and what we won't - do in search of business
+results. We're excited to partner with our Series A lead investor, Canvas
 Ventures, not just because of their long track record of success, deep
 understanding of our market, and ability to help us accelerate with
 capital, but also because of who they are: People who share our values, our
@@ -81,10 +81,10 @@ us proud to be a member of their family and to welcome them into ours!
 Our Next Chapter
 ================
 
-Our seed stage was shorter than we could have imagined, but we’ve enjoyed the
+Our seed stage was shorter than we could have imagined, but we've enjoyed the
 opportunity to operate as a small, closely knit crew. Now we turn the page,
 fire up our recruiting engine again, and look forward to growing our company
-and our business into the big shoes we’ve just been handed! 
+and our business into the big shoes we've just been handed! 
 
 _To all our investors - thank you for your conviction, your trust, and your partnership._
 

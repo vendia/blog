@@ -14,9 +14,9 @@ Today we are excited to introduce our new [Track and Trace Quick Start Guide](ht
 
 ## Why Track and Trace?
 
-It’s happened to all of us… We buy something online at a big-box store, opt for the free shipping with tracking, and for one reason or another, our package never arrives. It can be a frustrating experience, especially when the package is marked as delivered or other data-discrepancies make tracking your item an impossibility. **What can we do?**
+It's happened to all of us… We buy something online at a big-box store, opt for the free shipping with tracking, and for one reason or another, our package never arrives. It can be a frustrating experience, especially when the package is marked as delivered or other data-discrepancies make tracking your item an impossibility. **What can we do?**
 
-Personally, I don’t enjoy the guessing games, so I will take advantage of customer support numbers and chat tools to work with a storefront or shipping company to locate a lost item.  Chances are, you have done this recently, and despite the convenience, it probably wasn’t a thrilling experience.  **Can you imagine a need to do this daily for hundreds or thousands of items?**
+Personally, I don't enjoy the guessing games, so I will take advantage of customer support numbers and chat tools to work with a storefront or shipping company to locate a lost item.  Chances are, you have done this recently, and despite the convenience, it probably wasn't a thrilling experience.  **Can you imagine a need to do this daily for hundreds or thousands of items?**
 
 ## $46 Billion is a lot of money  
 
@@ -26,7 +26,7 @@ Shrinkage, which is the loss of inventory, is a critical focus of corporate logi
 
 ## Vendia Unis - Better tracking through data sharing  
 
-The good news is that there is a better way to solve our problem using Vendia’s Universal Applications (Unis). 
+The good news is that there is a better way to solve our problem using Vendia's Universal Applications (Unis). 
 
 Think back to our own experience tracking packages with the big-box stores.  Missing orders and packages incorrectly marked as delivered are attributable to the same issues that affect corporate logistics… **Incorrect or unavailable data.**
 

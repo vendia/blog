@@ -13,20 +13,20 @@ authors:
   - Shruthi Rao
 ---
 
-It’s an exciting day for Vendia - we’re pleased to [announce a $15.5M Series A investment](https://vendia.net/blog/series-a-announcement),
+It's an exciting day for Vendia - we're pleased to [announce a $15.5M Series A investment](https://vendia.net/blog/series-a-announcement),
 the launch of our [Developer Preview](https://vendia.net/blog/getting-started-with-vendia-share)
-for Vendia Share, and share some of our customers’ use cases!
+for Vendia Share, and share some of our customers' use cases!
 
 ![Image for post](https://d24nhiikxn5jns.cloudfront.net/images/product/2021-02-02-vendia-explorer.jpg)
 
 We launched Vendia last year with a simple goal in mind: Help businesses and organizations
 of all sizes create applications that span real-world divides. Gone are the days
 when an application and its data was the province of a single company, operating
-in isolation. Today’s apps span geographies, accounts, departments, clouds, and
+in isolation. Today's apps span geographies, accounts, departments, clouds, and
 even legal owners. From supply chains to logistics to financial settlement,
 tracking goods and transactions has become a team sport.
 
-Meanwhile, data is not just everywhere...there’s more of it! IoT, Mobile, Edge,
+Meanwhile, data is not just everywhere...there's more of it! IoT, Mobile, Edge,
 digital transformations by companies all over the world - all of these are
 resulting in more data being created in more places. Meanwhile, data consumption
 has become the new battleground, where staying competitive hinges on having
@@ -38,14 +38,14 @@ Building and operating scalable, fault-tolerant infrastructure that can tackle t
 code that operates on it synchronized across clouds, companies, regions,
 accounts, and technology stacks is challenging, even for well staffed IT
 organizations. Developers need a reliable, resilient, and scalable data
-integration platform, and most companies don’t have the time or resources to DIY it from
+integration platform, and most companies don't have the time or resources to DIY it from
 the ground up.
 
 _Enter Vendia Share_ - a simple, schema-driven platform that enables developers
-to access cloud-native experiences without resorting to the “lowest common
-denominator” of porting container software. We built Vendia Share to handle the
+to access cloud-native experiences without resorting to the "lowest common
+denominator" of porting container software. We built Vendia Share to handle the
 challenges of replicating and synchronizing data and code (modern day
-“stored procedures”) so that application developers can focus on their business
+"stored procedures") so that application developers can focus on their business
 logic, rather than how to create a distributed data storage and execution layer.
 
 Our Customers
@@ -81,7 +81,7 @@ information across shelters, lost pet websites, veterinarians, animal
 safety workers, and pet owners, Vendia Share enables Best Friends to help ensure
 that all pets get home safely.
 
-_Angie Embree, CIO, Best Friends Animal Society says: “Ending the killing in US
+_Angie Embree, CIO, Best Friends Animal Society says: "Ending the killing in US
 animal shelters by the end of 2025 is our goal at Best Friends Animal Society
 and we deliver lifesaving companion animal programs in partnership with more
 than 2,500 animal welfare groups across the country. We have helped reduce the
@@ -95,7 +95,7 @@ Serverless Distributed Ledger technology without having to learn new concepts.
 We are now able to build applications that return more lost pets to their
 families, know where shelters might euthanize for space and help them by moving
 those animals, and easily exchange data between systems as well as other apps
-on the Vendia platform.”_
+on the Vendia platform."_
 
 Welcome, Developers!
 ====================
@@ -105,19 +105,19 @@ But our mission also extends to developers - we want to help them experience an
 easier way to build applications. Our background in selling public cloud services
 taught that there are two frequent roadblocks when trying to get developers to
 adopt managed services: Their proprietary nature and the lack of a common data
-model. These can create a “walled garden” that often drives companies and
+model. These can create a "walled garden" that often drives companies and
 developers to adopt technologies that they admit are more complex and expensive,
 just to avoid the potential for lock-in or to overcome the real-world challenges
 of needing to create blended solutions that involve data and services from more
 than a single cloud service provider. We created Vendia Share to span clouds and
-to expose the best each cloud has to offer, rather than insist on “lowest common
-denominator porting”.
+to expose the best each cloud has to offer, rather than insist on "lowest common
+denominator porting".
 
-With Vendia Share’s Developer Preview, developers can try out our platform on AWS for
+With Vendia Share's Developer Preview, developers can try out our platform on AWS for
 free and experience its unique ability to help them create multi-region,
 multi-account, and multi-party applications from a data schema instead of through
-complex application code. We’ve built Vendia using a Serverless architecture,
-but we don’t require that developers share our opinion - the platform’s fault
+complex application code. We've built Vendia using a Serverless architecture,
+but we don't require that developers share our opinion - the platform's fault
 tolerance, scalability, and lack of infrastructure complexity is
 just as useful for developers who prefer containers, servers, or even API calls
 from an on-prem mainframe.
