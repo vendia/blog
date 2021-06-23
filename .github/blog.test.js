@@ -36,10 +36,10 @@ test('Post file malformed', async () => {
 
 test('Docs validation', async () => {
   const [ mdData, errors ] = await getMdFiles(GLOB_PATTERN)
-  const categoriesContents = await fs.readFile(path.join(cwd, 'categories/categories.json'), 'utf8')
-  const allCategories = JSON.parse(categoriesContents).map((category) =>  category.slug)
   const allAuthors = await getAuthors()
   const allTags = getBlogTags(mdData)
+  const allCategories = await getCategories()
+  const allCategorySlugs = allCategories.map((category) =>  category.slug)
   console.log('allTags', allTags)
 
   /* Verify frontmatter contents */
@@ -94,9 +94,9 @@ test('Docs validation', async () => {
     /* Verify categories are valid */
     if (categories) {
       data.categories.forEach((cat) => {
-        if (!allCategories.includes(cat)) {
+        if (!allCategorySlugs.includes(cat)) {
           errors.push(`Invalid category "${cat}" in ${doc.file}. 
-Must be one of ${JSON.stringify(allCategories)}
+Must be one of ${JSON.stringify(allCategorySlugs)}
 Add categories in the ./categories/categories.json file`)
         }
       })
@@ -152,6 +152,11 @@ test('Author data is valid', async () => {
   const authors = await validateAuthors()
   assert.is(authors.slugs.length > 0, true, 'has authors')
 })
+
+async function getCategories() {
+  const categoriesContents = await fs.readFile(path.join(cwd, 'categories/categories.json'), 'utf8')
+  return JSON.parse(categoriesContents)
+}
 
 async function getAuthors() {
   const authors = await globby(['authors/*.json'], { cwd })

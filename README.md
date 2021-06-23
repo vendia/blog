@@ -21,7 +21,7 @@ Welcome to the Vendia blog repo!
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## [How to contribute content](https://www.youtube.com/watch?v=ps1oQeg-0ss)
+## How to contribute content
 
 ### TDLR;
 
@@ -152,4 +152,4 @@ Need to convert Word to Markdown? You can use [this handy Word to Markdown Conve
 ## Recommended Writing Apps
 
 - [Hemingway App](http://www.hemingwayapp.com/desktop.html) - Hemingway helps you write with power and clarity by highlighting adverbs, passive voice, and dull, complicated words
-- [Grammarly](http://www.grammarly.com/) - Make Your Writing Clear and Engaging. Easily improve any text. Eliminate grammar errors.
+- [Grammarly](http://www.grammarly.com/) - Make Your Writing Clear and Engaging. Easily improve any text. Eliminate grammar errors
