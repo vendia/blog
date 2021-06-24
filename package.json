@@ -6,11 +6,11 @@
   "author": "Vendia Inc",
   "main": "index.js",
   "scripts": {
+    "docs": "node ./.github/blog-generate.js",
     "new": "plop --plopfile .github/plopfile.js",
     "validate": "uvu .github .test.js",
     "test": "npm run validate && npm run checklinks",
-    "checklinks": "linkinator 'posts/**/*.md' --markdown --skip '^https://github.com/vendia/vendia|www.linkedin.com'",
-    "md": "md-magic --path '**/*.md' --ignore 'node_modules'"
+    "checklinks": "linkinator 'posts/**/*.md' --markdown --skip '^https://github.com/vendia/vendia|www.linkedin.com'"
   },
   "homepage": "https://github.com/vendia/blog#readme",
   "repository": {
@@ -23,7 +23,7 @@
   "devDependencies": {
     "gray-matter": "4.0.3",
     "linkinator": "^2.13.6",
-    "markdown-magic": "2.0.0",
+    "markdown-magic": "^2.2.0",
     "plop": "^2.7.4",
     "uvu": "^0.5.1"
   }

@@ -1,12 +1,17 @@
 const path = require('path')
-const fs = require('fs').promises
 const { test } = require('uvu')
 const assert = require('uvu/assert')
 const { globby } = require('markdown-magic')
-const getMdFiles = require('./md-get')
+const {
+  getTags,
+  getAuthors, 
+  getCategories,
+  getMarkdownData,
+  DATE_FORMAT_REGEX
+} = require('./utils')
 
 const cwd = process.cwd()
-const DATE_FORMAT_REGEX = /[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])-/g
+
 const GLOB_PATTERN = [
   'posts/**/*.md',
   'posts/**/*.mdx',
@@ -35,9 +40,9 @@ test('Post file malformed', async () => {
 })
 
 test('Docs validation', async () => {
-  const [ mdData, errors ] = await getMdFiles(GLOB_PATTERN)
+  const [ mdData, errors ] = await getMarkdownData(GLOB_PATTERN)
   const allAuthors = await getAuthors()
-  const allTags = getBlogTags(mdData)
+  const allTags = getTags(mdData)
   const allCategories = await getCategories()
   const allCategorySlugs = allCategories.map((category) =>  category.slug)
   console.log('allTags', allTags)
@@ -130,14 +135,9 @@ Add categories in the ./categories/categories.json file`)
 
 test('Blog posts are all date prefixed', async () => {
   let errors = []
-  const [ mdData, _errors, paths ] = await getMdFiles(GLOB_PATTERN)
-  const WHITE_LIST = ['draft-example.md', 'typography.mdx']
-
-  const blogPosts = paths.filter((p) => {
-    return !WHITE_LIST.includes(path.basename(p))
-  })
+  const [ mdData, _errors, paths ] = await getMarkdownData(GLOB_PATTERN)
   
-  blogPosts.forEach((p) => {
+  paths.forEach((p) => {
     if (!p.match(DATE_FORMAT_REGEX)) {
       errors.push(`Date prefix "YYYY-MM-DD" missing from file name "${p}"`)
     }
@@ -145,53 +145,13 @@ test('Blog posts are all date prefixed', async () => {
 
   throwErrors(errors)
   
-  assert.is(blogPosts.length > 0, true, 'Has blog posts')
+  assert.is(paths.length > 0, true, 'Has blog posts')
 })
 
 test('Author data is valid', async () => {
   const authors = await validateAuthors()
   assert.is(authors.slugs.length > 0, true, 'has authors')
 })
-
-async function getCategories() {
-  const categoriesContents = await fs.readFile(path.join(cwd, 'categories/categories.json'), 'utf8')
-  return JSON.parse(categoriesContents)
-}
-
-async function getAuthors() {
-  const authors = await globby(['authors/*.json'], { cwd })
-  const authorSlugs = authors.map((author) => {
-    return path.basename(author, '.json')
-  })
-
-  const authorContents = await Promise.all(authors.map((filePath) => {
-    return fs.readFile(path.resolve(cwd, filePath), 'utf8')
-  }))
-
-  const authorData = authorContents.map((contents, i) => {
-    return {
-      ...JSON.parse(contents),
-      ...{
-        slug: authorSlugs[i]
-      }
-    }
-  })
-
-  return {
-    slugs: authorSlugs,
-    data: authorData
-  }
-}
-
-
-function getBlogTags(data) {
-  return data.reduce((tags, d) => {
-    const postTags = d.data.tags || []
-    const uniqueTags = new Set(tags.concat(postTags))
-    tags = Array.from(uniqueTags)
-    return tags
-  }, [])
-}
 
 async function validateAuthors() {
   const authors = await getAuthors()
