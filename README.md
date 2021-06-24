@@ -29,7 +29,7 @@ Welcome to the Vendia blog repo!
 [Add your post](#how-to-contribute-content)
 
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
-| Post Details | Published Date | edit |
+| Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
 | [Why I joined Vendia](https://vendia.net/blog/2021-06-23-why-i-joined-vendia.md) <br/> Why I decided to joined Vendia's mission to enable secure data sharing across multiple clouds by Mike Gephart | 2021-06-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-23-why-i-joined-vendia.md)
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/2021-06-08-gartner-cool-vendor.md) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-08-gartner-cool-vendor.md)
