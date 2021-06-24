@@ -1,6 +1,6 @@
 ---
 title: "Why I joined Vendia"
-description: "Why I decided to joined Vendia's mission to enable secure data sharing across multiple clouds."
+description: "Why I decided to joined Vendia's mission to enable secure data sharing across clouds providers."
 date: '2021-06-23'
 categories:
   - announcements
