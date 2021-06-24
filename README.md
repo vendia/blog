@@ -26,6 +26,8 @@ Welcome to the Vendia blog repo!
 
 ## Posts
 
+[Add your post](#how-to-contribute-content)
+
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published Date |
 |:-------------|:--------------:|

@@ -24,7 +24,6 @@ const config = {
         '!README.md',
         '!node_modules/**'
       ])
-      console.log('mdData', mdData)
       // Make table header
       let md = `| Post Details | Published Date |\n`;
       md +=    '|:-------------|:--------------:|\n';
