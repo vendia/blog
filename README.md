@@ -32,7 +32,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
-| [Why I joined Vendia](https://vendia.net/blog/why-i-joined-vendia) <br/> Why I decided to joined Vendia's mission to enable secure data sharing across multiple clouds by Mike Gephart | 2021-06-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-23-why-i-joined-vendia.md)
+| [Why I joined Vendia](https://vendia.net/blog/why-i-joined-vendia) <br/> Why I decided to joined Vendia's mission to enable secure data sharing across clouds providers by Mike Gephart | 2021-06-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-23-why-i-joined-vendia.md)
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/gartner-cool-vendor) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-08-gartner-cool-vendor.md)
 | [Don't Rip and Replace - Integrate](https://vendia.net/blog/dont-rip-and-replace-integrate) <br/> Use Vendia Share to Complement Existing Data Stores by Brian McNamara | 2021-05-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-05-10-dont-rip-and-replace-integrate.md)
 | [Vendia Turns 1](https://vendia.net/blog/vendia-turns-1) <br/> Vendia celebrates its first year as a C-corporation by Tim Wagner | 2021-03-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-03-31-vendia-turns-1.md)
