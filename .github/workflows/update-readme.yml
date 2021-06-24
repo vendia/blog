@@ -1,6 +1,8 @@
 name: update-readme
 
 on:
+  # Manual triggers
+  workflow_dispatch:
   # Allows external webhook trigger
   repository_dispatch:
     types:
