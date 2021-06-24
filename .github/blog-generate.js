@@ -25,7 +25,7 @@ const config = {
         '!node_modules/**'
       ])
       // Make table header
-      let md = `| Post Details | Published Date | edit |\n`;
+      let md = `| Post Details | Published-Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
       mdData.sort(sortDate('date')).forEach((item) => {
         const { data, file } = item
