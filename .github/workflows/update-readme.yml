@@ -12,6 +12,7 @@ jobs:
   # Cancel any duplicate already running jobs
   pre-job:
     name: Pre-job
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest]
