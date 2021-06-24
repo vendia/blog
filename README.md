@@ -27,8 +27,8 @@ Welcome to the Vendia blog repo!
 ## Posts
 
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
-| Post Details | Date  |
-|:--------------------------- |:-----|
+| Post Details | &nbsp;&nbsp;&nbsp;Date&nbsp;&nbsp;&nbsp;  |
+|:--------------------------- |:-----:|
 | [Why I joined Vendia](https://vendia.net/blog/why-i-joined-vendia) <br/> Why I decided to joined Vendia's mission to enable secure data sharing across multiple clouds by Mike Gephart | 2021-06-23 |
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/gartner-cool-vendor) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 |
 | [Don't Rip and Replace - Integrate](https://vendia.net/blog/dont-rip-and-replace-integrate) <br/> Use Vendia Share to Complement Existing Data Stores by Brian McNamara | 2021-05-10 |
