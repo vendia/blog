@@ -41,7 +41,8 @@ test('Post file malformed', async () => {
 
 test('Docs validation', async () => {
   const [ mdData, errors ] = await getMarkdownData(GLOB_PATTERN)
-  const allAuthors = await getAuthors()
+  const allAuthorsData = await getAuthors()
+  const allAuthors = allAuthorsData.authors
   const allTags = getTags(mdData)
   const allCategories = await getCategories()
   const allCategorySlugs = allCategories.map((category) =>  category.slug)
@@ -111,13 +112,13 @@ Add categories in the ./categories/categories.json file`)
     if (authors) {
       if (Array.isArray(authors)) {
         authors.forEach((name) => {
-          const hasAuthor = allAuthors.data.find((d) => {
+          const hasAuthor = allAuthors.find((d) => {
             return name === d.slug || name === d.name
           })
           if (!hasAuthor) {
             errors.push(`Invalid author "${name} in ${file}".
       Must be one of in "authors" field
-      ${JSON.stringify(allAuthors.data.map((d) => d.slug).join(", "))}`)
+      ${JSON.stringify(allAuthors.map((d) => d.slug).join(", "))}`)
           }
         })
       } else {
@@ -150,13 +151,13 @@ test('Blog posts are all date prefixed', async () => {
 
 test('Author data is valid', async () => {
   const authors = await validateAuthors()
-  assert.is(authors.slugs.length > 0, true, 'has authors')
+  assert.is(authors.length > 0, true, 'has authors')
 })
 
 async function validateAuthors() {
-  const authors = await getAuthors()
+  const { authors } = await getAuthors()
   // Validate
-  authors.data.forEach((author) => {
+  authors.forEach((author) => {
     if (!validateAuthorFields(exampleAuthorData, author)) {
       throw new Error(`${author.slug} has missing value in author profile.
       Author data must match (if no value applies use false):

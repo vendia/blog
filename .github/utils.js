@@ -84,7 +84,7 @@ async function getAuthors() {
 
   return {
     slugs: authorSlugs,
-    data: authorData
+    authors: authorData
   }
 }
 
