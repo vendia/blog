@@ -26,8 +26,8 @@ const config = {
       ])
       console.log('mdData', mdData)
       // Make table header
-      let md = '| Post Details | Date  |\n';
-      md += '|:--------------------------- |:-----|\n';
+      let md = `| Post Details | Published Date |\n`;
+      md +=    '|:-------------|:--------------:|\n';
       mdData.sort(sortDate('date')).forEach((item) => {
         const { data, file } = item
         const fileName = path.basename(file).replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
