@@ -1,0 +1,43 @@
+name: update-readme
+
+on:
+  # Allows external webhook trigger
+  repository_dispatch:
+    types:
+      - webhook
+
+jobs:
+  # Cancel any duplicate already running jobs
+  pre-job:
+    name: Pre-job
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+    steps:
+      - uses: technote-space/auto-cancel-redundant-workflow@v1
+      - name: Cancel redundant workflows
+        run: echo "Cancel redundant workflows finished"
+  # Update the posts list of the repo
+  update:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+    steps:
+      - uses: actions/checkout@v2.3.2
+      - uses: bahmutov/npm-install@v1
+      - name: Update post list
+        run: npm run docs
+      - name: Add
+        run: |
+          git config --global user.email "bot@vendiat.com"
+          git config --global user.name "Vendia Bot"
+          git status
+          git add .
+          git commit -m "chore: update post index [skip ci]"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
