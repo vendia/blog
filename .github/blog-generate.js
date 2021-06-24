@@ -25,16 +25,18 @@ const config = {
         '!node_modules/**'
       ])
       // Make table header
-      let md = `| Post Details | Published Date |\n`;
-      md +=    '|:-------------|:--------------:|\n';
+      let md = `| Post Details | Published Date | edit |\n`;
+      md +=    '|:-------------|:--------------:|:---:|\n';
       mdData.sort(sortDate('date')).forEach((item) => {
         const { data, file } = item
-        const fileName = path.basename(file).replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
+        const fileName = path.basename(file)
+        const postSlug = fileName.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
         const url = `https://vendia.net/blog/${fileName}`
         const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
+        const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${data.title}](${url}) ${description}${authors} | ${data.date} |\n`;
+        md += `| [${data.title}](${url}) ${description}${authors} | ${data.date} | [✍️](${editLink})\n`;
       });
 
       return md;
