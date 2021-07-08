@@ -109,11 +109,10 @@ async function optimizeImages({ inputDir, outputDir, images }) {
     console.log('All set')
     // return dlInfo
   }
-
-  console.log('filesToUpate', filesToUpate)
+  // console.log('filesToUpate', filesToUpate)
 
   const updateImageDetails = filesToUpate.map((file) => {
-    console.log('Update image meta', file.output)
+    // console.log('Update image meta', file.output)
     return {
       filePath: file.output,
       meta: {
@@ -123,6 +122,7 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   })
 
   /* Save cloudinary version info to the downloaded image */
+  console.log('Updating image meta...')
   await writeImageMeta(updateImageDetails)
 
   /* Clean up backup image files */
@@ -130,7 +130,7 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   const backupFiles = await globby(backupFilePaths)
   if (backupFiles.length) {
     await Promise.all((backupFiles.map((filePath) => {
-      console.log(`Removing backup image file ${filePath}`)
+      // console.log(`Removing backup image file ${filePath}`)
       return deleteFile(filePath)
     })))
   }
@@ -150,6 +150,7 @@ function safeParse(value) {
   return val
 }
 
+// Make images 90% quality to shrink them
 function getImageUrl(imageUrl, qualityLevel = 90) {
   return imageUrl.replace(/\/upload\/v[A-Za-z0-9]+\//, `/upload/q_${qualityLevel}/`)
 }

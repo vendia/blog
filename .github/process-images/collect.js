@@ -77,8 +77,8 @@ function generateFileName(url) {
   return imagePathName
 }
 
-function makeRegex(pattern) {
-  return (pattern instanceof RegExp) ? pattern : new RegExp(escapeStringRegexp(pattern))
+function makeRegex(pattern, modifier = '') {
+  return (pattern instanceof RegExp) ? pattern : new RegExp(escapeStringRegexp(pattern), modifier)
 }
 
 function escapeStringRegexp(string) {
@@ -86,5 +86,6 @@ function escapeStringRegexp(string) {
 }
 
 module.exports = {
-  collectImages
+  collectImages,
+  makeRegex
 }

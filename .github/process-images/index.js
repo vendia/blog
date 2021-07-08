@@ -2,9 +2,10 @@
 image-pipeline
 */
 const path = require('path')
-const { collectImages } = require('./collect')
+const { collectImages, makeRegex } = require('./collect')
 const { optimizeImages } = require('./optimize')
 const { uploadObjects } = require('./utils/s3')
+const { readFile, writeFile } = require('./utils/fs')
 
 const TEMP_DOWNLOAD_DIR = path.resolve(__dirname, '.images', 'original-images')
 const OPTIMIZED_OUTPUT_DIR = path.resolve(__dirname, '.images', 'optimized-images')
@@ -32,7 +33,7 @@ async function imagePipeline() {
     ]
   })
   console.log(`Found ${originalImages.downloadedImages.length} images`)
-  // console.log('originalImages', originalImages.downloadedImages)
+  // console.log('originalImages', originalImages)
   // process.exit(1)
 
   /* 2. Optimize all downloaded files */
@@ -60,24 +61,37 @@ async function imagePipeline() {
   const s3Response = await uploadObjects(bucketName, uploadPaths)
   // console.log('s3Response', s3Response)
 
-  // console.log(originalImages.imagesToProcess)
-  // originalImages.imagesToProcess.forEach(([ src, file ]) => {
-  //   console.log(`replace ${src} in ${file}`)
-  // })
-
-  const updateContents = originalImages.downloadedImages.map((imgData) => {
+  /* 4. Replace existing image link */
+  await asyncForEach(originalImages.downloadedImages, async (imgData) => {
     const { meta, url } = imgData
     // console.log('imgData', imgData)
     const newUrl = s3Response.find(({ id }) => {
       return path.basename(id) === meta.updatedFileName
     })
-
+    const cdnLink = `${CDN_PREFIX}/${newUrl.id}`
     console.log(`Replace`)
     console.log('> url', url)
-    console.log('> with', `https://assets-vendia.s3.amazonaws.com/${newUrl.id}`)
-    console.log(`> xyz ${CDN_PREFIX}/${newUrl.id}`)
+    // console.log('> with', `https://assets-vendia.s3.amazonaws.com/${newUrl.id}`)
+    console.log(`> with ${cdnLink}`)
     console.log('> in file', meta.location)
+    const linkPattern = makeRegex(url, 'g')
+    // console.log('linkPattern', linkPattern)
+    const content = await readFile(meta.location, 'utf-8')
+    // console.log('content', content)
+
+    const updatedContent = content
+      .replace(linkPattern, cdnLink)
+      .replace(url, cdnLink)
+
+    await writeFile(meta.location, updatedContent)
   })
+
+}
+
+async function asyncForEach(array, callback) {
+  for (let index = 0; index < array.length; index++) {
+    await callback(array[index], index, array)
+  }
 }
 
 imagePipeline().then(() => {

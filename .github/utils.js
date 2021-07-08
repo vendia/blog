@@ -176,16 +176,14 @@ function parseHtmlProps(mdContents) {
     /* Fix non terminating <tags> */
     .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
     .match(BETTER)
-  console.log('parents', parents)
+  // console.log('parents', parents)
 
   if (parents) {
     const children = parents.filter(Boolean).map((p) => {
       return p.match(HTML_TAG)
     })
-    console.log('children', children)
+    // console.log('children', children)
   }
-
-
 
   const htmlTags = mdContents
     /* Fix non terminating <tags> */
