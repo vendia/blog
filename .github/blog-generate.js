@@ -24,7 +24,9 @@ const config = {
         '!README.md',
         '!node_modules/**'
       ])
-      // Make table header
+      // console.log('mdData', mdData)
+      
+      /* Make Markdown Table */
       let md = `| Post Details | Published-Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
       mdData.sort(sortDate('date')).forEach((item) => {

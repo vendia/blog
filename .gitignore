@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 
+# generated
+.github/process-images/.images
+
 # Runtime data
 pids
 *.pid

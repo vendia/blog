@@ -134,16 +134,157 @@ function formatMD(text, filePath) {
     errors.push(`Broken frontmatter in ${filePath}`)
   }
 
+  const { links } = getLinks(text, filePath)
+  const images = getImageLinks(links)
+  const htmlTags = parseHtmlProps(text)
+
   return {
     errors,
     file: filePath,
+    links: links,
+    images: images,
+    htmlTags: htmlTags,
     frontMatterRaw: replaceText,
     ...frontmatter
   }
 }
 
+const FIND_MARKDOWN_LINKS_REGEX = /(?:['"(])((?:\/|https?:\/\/)[\w\d-_./?=#%+&]+)/gmi
+// Might need ([\s\S]*?) instead of '*' in between tags
+const HTML_TAG = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/gim
+
+const BETTER = /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/>)/gm
+
+function getLinks(mdContents, filePath) {
+  const matches = mdContents.match(FIND_MARKDOWN_LINKS_REGEX)
+  if (!matches) {
+    return {
+      links: [],
+      filePath
+    }
+  }
+  const links = matches.map((m) => m.replace(/^['"(]/, ''))
+  return { 
+    links,
+    filePath
+  }
+}
+
+function parseHtmlProps(mdContents) {
+
+  const parents = mdContents
+    /* Fix non terminating <tags> */
+    .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
+    .match(BETTER)
+  console.log('parents', parents)
+
+  if (parents) {
+    const children = parents.filter(Boolean).map((p) => {
+      return p.match(HTML_TAG)
+    })
+    console.log('children', children)
+  }
+
+
+
+  const htmlTags = mdContents
+    /* Fix non terminating <tags> */
+    .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
+    .match(HTML_TAG)
+  // console.log('htmlTags', htmlTags)
+
+  let tags = []
+  if (htmlTags) {
+    let propsValues = {}
+    var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/
+    for (var i = 0; i < htmlTags.length; i++) {
+      var tagMatches = regexSingleTag.exec(htmlTags[i])
+      // console.log('tagMatches', tagMatches)
+      var [ match, tag, props ] = tagMatches
+      // console.log(`Tag #${i} ${tag}`)
+      if (props) {
+        const cleanProps = props
+          // Remove new lines and tabs
+          .replace(/\n\t/g, '')
+          // Remove extra spaces
+          .replace(/\s\s+/g, ' ')
+          .trim()
+
+        propsValues = cleanProps.split(" ").reduce((acc, curr) => {
+          const hasQuotes = curr.match(/=['"]/)
+          // Check key="value" | key='value' |  key={value}
+          const propWithValue = /([A-Za-z-_$]+)=['{"](.*)['}"]/g.exec(curr)
+          if (propWithValue) {
+            return {
+              ...acc,
+              [`${propWithValue[1]}`]: (hasQuotes) ? propWithValue[2] : convert(propWithValue[2])
+            }
+          }
+          // Check isLoading boolean props
+          const booleanProp = curr.match(/([A-Za-z]*)/)
+          if (booleanProp) {
+            return {
+              ...acc,
+              [`${booleanProp[1]}`]: true
+            }
+          }
+          return acc
+        }, {})
+      }
+
+      tags.push({
+        tag: tag,
+        props: propsValues,
+        raw: match
+      })
+    }
+  }
+  return tags
+}
+
+function convert(value) {
+  if (value === 'false') {
+    return false
+  }
+  if (value === 'true') {
+    return true
+  }
+  const isNumber = Number(value)
+  if (typeof isNumber === 'number' && !isNaN(isNumber)) {
+    return isNumber
+  }
+
+  try {
+    const val = JSON.parse(value)
+    return val
+  } catch(err) {
+    
+  }
+
+  return value
+}
+
+/**
+ * Get image links
+ * @param {array|string} linksOrText
+ * @returns {array}
+ */
+function getImageLinks(linksOrText) {
+  let links = linksOrText
+  if (!Array.isArray(linksOrText)) {
+    const linkData = getLinks(linksOrText)
+    links = linkData.links
+  }
+  const imageLinks = links.filter((link) => {
+    return link.match(/(png|jpe?g|gif|webp|svg)$/)
+  })
+  return imageLinks
+}
+
 module.exports = {
   getMarkdownData,
+  getLinks,
+  getImageLinks,
   getCategories,
   getAuthors,
   getTags,

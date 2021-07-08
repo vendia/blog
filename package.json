@@ -9,6 +9,7 @@
     "docs": "node ./.github/blog-generate.js",
     "new": "plop --plopfile .github/plopfile.js",
     "validate": "uvu .github .test.js",
+    "process-images": "node .github/process-images",
     "test": "npm run validate && npm run checklinks",
     "checklinks": "linkinator 'posts/**/*.md' --markdown --skip '^https://github.com/vendia/vendia|www.linkedin.com'"
   },
@@ -21,10 +22,18 @@
     "url": "https://github.com/vendia/blog/issues"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.17.0",
+    "exiftool-vendored": "^14.5.0",
+    "got": "^11.8.2",
     "gray-matter": "4.0.3",
     "linkinator": "^2.13.6",
-    "markdown-magic": "^2.2.0",
+    "markdown-magic": "^2.3.2",
+    "mkdirp": "^1.0.4",
+    "node-exiftool": "^2.3.0",
     "plop": "^2.7.4",
     "uvu": "^0.5.1"
+  },
+  "dependencies": {
+    "cloudinary": "^1.26.1"
   }
 }
