@@ -24,7 +24,7 @@ The partners could make a slight adjustment to their current process to help det
 
 This proposed solution could be implemented using today's cloud technologies as follows:
 
-![image2](https://user-images.githubusercontent.com/532272/98272397-e62f5c00-1f45-11eb-8a71-5a70589323dd.png)
+![image2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..53227298272397-e62f5c00-1f45-11eb-8a71-5a70589323dd.png)
 
 Essentially, all parties would have access to a common "cloud bucket".  They would augment their existing processes to take a picture and upload it during the exchange process.  Later these pictures could be referenced to determine fault when a "loss" comes into question.
 
