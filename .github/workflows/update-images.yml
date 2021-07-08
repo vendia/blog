@@ -1,12 +1,13 @@
-name: update-images
+name: update-image-links
 
 on:
   # Manual triggers
   workflow_dispatch:
-  # Allows external webhook trigger
-  repository_dispatch:
-    types:
-      - process-images
+  # Trigger the workflow on push on master branch
+  push:
+    branches: ['master']
+    # Only if markdown changes
+    paths: ['posts/**/**.md', 'posts/**/**.mdx']
 
 jobs:
   # Cancel any duplicate already running jobs
@@ -21,7 +22,7 @@ jobs:
       - uses: technote-space/auto-cancel-redundant-workflow@v1
       - name: Cancel redundant workflows
         run: echo "Cancel redundant workflows finished"
-  # Update the posts list of the repo
+  # Update the image links in all markdown files
   update:
     runs-on: ${{ matrix.os }}
     strategy:
@@ -51,7 +52,7 @@ jobs:
           git config --global user.name "Vendia Bot"
           git status
           git add .
-          git diff-index --quiet HEAD || git commit -m "chore: update post index [skip ci]"
+          git diff-index --quiet HEAD || git commit -m "chore: update image links [skip ci]"
       - name: Push
         uses: ad-m/github-push-action@master
         with:
