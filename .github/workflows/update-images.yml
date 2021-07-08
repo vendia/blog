@@ -35,6 +35,16 @@ jobs:
           useLockFile: false
       - name: Update post list
         run: npm run process
+        env:
+          CLOUD_NAME: ${{ secrets.CLOUD_NAME }}
+          CLOUD_API_KEY: ${{ secrets.CLOUD_API_KEY }}
+          CLOUD_API_SECRET: ${{ secrets.CLOUD_API_SECRET }}
+          CDN_ROOT_URL: ${{ secrets.CDN_ROOT_URL }}
+          S3_BUCKET_DIRECTORY: ${{ secrets.S3_BUCKET_DIRECTORY }}
+          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+          S3_BUCKET_REGION: ${{ secrets.S3_BUCKET_REGION }}
+          S3_AWS_ACCESS_KEY_ID: ${{ secrets.S3_AWS_ACCESS_KEY_ID }}
+          S3_AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_AWS_SECRET_ACCESS_KEY }}
       - name: Add
         run: |
           git config --global user.email "bot@vendiat.com"
