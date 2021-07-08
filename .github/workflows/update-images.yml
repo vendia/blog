@@ -1,3 +1,4 @@
+# Automatically optimize and update markdown images links
 name: update-image-links
 
 on:
@@ -34,7 +35,7 @@ jobs:
       - uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
-      - name: Update post list
+      - name: Optimize images & update links
         run: npm run process
         env:
           CLOUD_NAME: ${{ secrets.CLOUD_NAME }}
@@ -52,7 +53,7 @@ jobs:
           git config --global user.name "Vendia Bot"
           git status
           git add .
-          git diff-index --quiet HEAD || git commit -m "chore: update image links [skip ci]"
+          git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
       - name: Push
         uses: ad-m/github-push-action@master
         with:
