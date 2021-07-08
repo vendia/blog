@@ -9,7 +9,7 @@ date: '2020-11-16'
 In this post, we will follow the life of a simple application as it must adapt to new requirements and deal with limits set by the technologies used to build it. Beginning with a single server and a SQL database, we'll cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.
 
 <p>
-  <a href="https://www.dezeen.com/2019/04/11/ai-chair-philippe-starck-kartell-autodesk-artificial-intelligence-video/"><img width="220px" align="right" src="https://static.dezeen.com/uploads/2019/04/kartell_starck_autodesk_ai_chair_salone_del_mobile_dezeen_2364_col_0-852x1304.jpg" /></a>
+  <a href="https://www.dezeen.com/2019/04/11/ai-chair-philippe-starck-kartell-autodesk-artificial-intelligence-video/"><img width="220px" align="right" src="https://d24nhiikxn5jns.cloudfront.net/optimized/static.dezeen.com..uploads..2019..04kartell_starck_autodesk_ai_chair_salone_del_mobile_dezeen_2364_col_0-852x1304.jpg" /></a>
 </p>
 
 ## How tools impact products
@@ -23,7 +23,7 @@ Given only knowledge about materials, one version of a computer-designed "optima
 Consider the existence of flat-pack furniture. It is built assuming that on one end of the shipping lane you have factories with advanced planing, milling, and cutting machines and on the other end you have a Number 2 Phillips screwdriver, the instruction booklet, and the ability to read isometric drawings.
 
 <p>
-  <img align="right" src="https://user-images.githubusercontent.com/532272/103935119-f6e18700-50da-11eb-81e6-6bb4c760c851.jpg" />
+  <img align="right" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..532272103935119-f6e18700-50da-11eb-81e6-6bb4c760c851.jpg" />
 </p>
 
 It also assumes you are oddly shaped, with a single arc describing the back of your neck to the tip of your nose. The tools that allow flat-pack furniture to exist, and the constraints around the maximum width/length/curvature of a single piece forces certain shapes to be un-attainable by any (even the most ingenious) flat-pack furniture.
@@ -102,13 +102,13 @@ Building up to **V3** we've uncovered a few important properties for multi-party
 
 So here we are, with a need to solve the non-repudiation problem in **V2**. If clients request an up-to-the-minute report on a frequent basis that helps reduce the scope. A party could only really remove a transaction sent in since the last time someone other than them requested a report.
 
-![A diagram with a single central SQL database, accessed by users in different companies](https://user-images.githubusercontent.com/532272/99308665-25469280-280d-11eb-82ab-32a93e9467a9.png)
+![A diagram with a single central SQL database, accessed by users in different companies](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..53227299308665-25469280-280d-11eb-82ab-32a93e9467a9.png)
 
 Instead of forcing anyone who cared about non-repudiation to pull reports constantly, what if we made a change to the architecture that split the trust issue from the business logic? This way, the business logic and the chain-of-trust are updated separately to avoid the chance of introducing bugs affecting both. This lets us have more trust that changes to the product don't affect the integrity and non-repudiation guarantees of the trust system.
 
 If we replicate all the transactions as they happen, we can be quite confident that a party couldn't reach into our copy and remove an event that they had already sent. As with Outlook's Message Recall Requests, trying to un-send a message already sent and replicated only makes people more curious to see what you are attempting to hide.
 
-![A diagram with two separate SQL databases, accessed by users in different companies but synchronized via a protocol](https://user-images.githubusercontent.com/532272/99308680-2aa3dd00-280d-11eb-834d-6729027e22e7.png)
+![A diagram with two separate SQL databases, accessed by users in different companies but synchronized via a protocol](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..53227299308680-2aa3dd00-280d-11eb-834d-6729027e22e7.png)
 
 In **V2** we already laid the groundwork for this by signing events with a private key like `sign_function(event.parent_hash, event.uuid, event.version_ts, event.data)`. As long as an event is signed, we can validate that it was originally sent by the party that signed it, that its contents are the same, and that the event is in the correct place in the lineage of that transaction or item.
 

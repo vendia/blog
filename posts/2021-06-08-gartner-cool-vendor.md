@@ -15,7 +15,7 @@ authors:
 A little over a year ago we came out of stealth (in the midst of a pandemic),  and launched our first preview of Vendia Share. Since then, we've been hard at work building out one-week proof of concepts and helping our customers deploy Vendia to production, and closed a Series A investment round. Today, we're thrilled to be included in Gartner's May 2021 "[Cool Vendors in Cloud Computing](https://www.gartner.com/doc/4001590?ref=clientFriendlyURL)" report by Arun Chandrasekaran, Sid Nag, and David Wright!
 
 <p>
-  <img align="right" width="250" height="250" src="https://user-images.githubusercontent.com/532272/121104609-3f4ebf00-c7b7-11eb-87df-af1018dc7847.png" />
+  <img align="right" width="250" height="250" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..532272121104609-3f4ebf00-c7b7-11eb-87df-af1018dc7847.png" />
 </p>
 
 According to Gartner: "A multicloud strategy is becoming inevitable for most global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market through robust multi cloud implementation products."  

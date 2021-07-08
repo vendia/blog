@@ -24,7 +24,7 @@ The partners could make a slight adjustment to their current process to help det
 
 This proposed solution could be implemented using today's cloud technologies as follows:
 
-![image2](https://user-images.githubusercontent.com/532272/98272397-e62f5c00-1f45-11eb-8a71-5a70589323dd.png)
+![image2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..53227298272397-e62f5c00-1f45-11eb-8a71-5a70589323dd.png)
 
 Essentially, all parties would have access to a common "cloud bucket".  They would augment their existing processes to take a picture and upload it during the exchange process.  Later these pictures could be referenced to determine fault when a "loss" comes into question.
 
@@ -44,7 +44,7 @@ However, these steps would require additional coordination and actions amongst t
 
 Vendia's solution has all three entities participating in a Vendia Uni, each entity represented by their own node.  A node is Vendia's terminology for a "cloud" repository, therefore each of the entities has a separate copy of the data and resources under their organization's control.  At each exchange point, when the producer gives the merchandise to the shipper or the shipper gives the merchandise to the retailer, both entities involved in the exchange will take a picture of the items and upload the picture to the Uni.  This provides a "tamper-proof receipt" of what was exchanged.  If a problem is identified, each partner would be able to see the "receipts" of all involved and determine where the loss happened.  Knowing that the receipts are tamper-proof gives each partner confidence in the process and eliminates debate about any integrity issues.
 
-![image1](https://user-images.githubusercontent.com/532272/98272411-e891b600-1f45-11eb-8d2e-e7c855cd4b20.png)
+![image1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..53227298272411-e891b600-1f45-11eb-8d2e-e7c855cd4b20.png)
 
 #### Vendia's Advantages
 

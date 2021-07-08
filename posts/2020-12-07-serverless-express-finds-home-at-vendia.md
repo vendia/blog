@@ -10,7 +10,7 @@ date: '2020-12-07'
 > *Tl;dr*: The [aws-serverless-express](https://github.com/vendia/serverless-express) open source project has graduated from [AWS Labs](https://github.com/awslabs/) and is now being actively supported and sponsored by Vendia!
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/532272/101377847-35c7b700-3867-11eb-9198-4fcaa66ddfdd.jpg" />
+  <img width="400" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..532272101377847-35c7b700-3867-11eb-9198-4fcaa66ddfdd.jpg" />
 </p>
 
 ## About Serverless Express
