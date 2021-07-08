@@ -2,11 +2,23 @@ const fs = require('fs')
 const path = require('path')
 const pLimit = require('p-limit')
 const { S3Client, PutObjectCommand, HeadObjectCommand } = require('@aws-sdk/client-s3')
-const { BUCKET_NAME, BUCKET_REGION } = process.env
+const {
+  S3_AWS_ACCESS_KEY_ID,
+  S3_AWS_SECRET_ACCESS_KEY,
+  S3_BUCKET_NAME, 
+  S3_BUCKET_REGION
+} = process.env
 
 const DEFAULT_MAX_CONCURRENT_TRANSFERS = 10
 const s3 = new S3Client({
-  region: BUCKET_REGION || 'us-east-1',
+  region: S3_BUCKET_REGION || 'us-east-1',
+  // Set access key & secret if provided, else use local default profile
+  ...(S3_AWS_ACCESS_KEY_ID && S3_AWS_SECRET_ACCESS_KEY) ? {
+    credentials: {
+      accessKeyId: S3_AWS_ACCESS_KEY_ID,
+      secretAccessKey: S3_AWS_SECRET_ACCESS_KEY
+    }
+  } : {}
 })
 
 /**
@@ -23,6 +35,7 @@ async function uploadObjects(bucketName, objects, options = {}) {
       return limit(() => checkForItem(bucketName, obj))
     }))
   )
+  // console.log('fileStatuses', fileStatuses)
 
   /* Only upload unknown files */
   const unknownFiles = fileStatuses.filter((x) => {
@@ -73,10 +86,11 @@ async function checkForItem(bucketName, object) {
   let data = {}
   try {
     data = await s3.send(new HeadObjectCommand({
-      Bucket: bucketName || BUCKET_NAME,
+      Bucket: bucketName || S3_BUCKET_NAME,
       Key: key,
     }))
   } catch (err) {
+    // console.log('err', err)
     return {
       id: key,
       path: object.path,

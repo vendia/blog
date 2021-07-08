@@ -77,12 +77,27 @@ function generateFileName(url) {
   return imagePathName
 }
 
-function makeRegex(pattern, modifier = '') {
+function makeRegex(pattern, modifier = '', ) {
   return (pattern instanceof RegExp) ? pattern : new RegExp(escapeStringRegexp(pattern), modifier)
 }
 
 function escapeStringRegexp(string) {
-	return string.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&').replace(/-/g, '\\x2d')
+  let newString = string
+  const startsWith = newString.match(/^(\^)?[^^]/)
+  // Starts with single caret ^ sign
+  if (startsWith) {
+    newString = newString.replace(/^\^/, 'CARET_PLACEHOLDER')
+  }
+  const endsWith = newString.match(/[^$](\$)$/)
+  // Ends with single dollar $ sign
+  if (endsWith) {
+    newString = newString.replace(/\$$/, 'DOLLAR_PLACEHOLDER')
+  }
+	return newString
+    .replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
+    .replace(/-/g, '\\x2d')
+    .replace(/^CARET_PLACEHOLDER/, '^')
+    .replace(/DOLLAR_PLACEHOLDER$/, '$')
 }
 
 module.exports = {

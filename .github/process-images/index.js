@@ -1,17 +1,23 @@
 /*
-image-pipeline
+  image-pipeline
 */
+
 const path = require('path')
 const { collectImages, makeRegex } = require('./collect')
 const { optimizeImages } = require('./optimize')
 const { uploadObjects } = require('./utils/s3')
 const { readFile, writeFile } = require('./utils/fs')
+const { 
+  S3_BUCKET_NAME, 
+  S3_BUCKET_DIRECTORY,
+  CDN_ROOT_URL
+} = process.env
 
 const TEMP_DOWNLOAD_DIR = path.resolve(__dirname, '.images', 'original-images')
 const OPTIMIZED_OUTPUT_DIR = path.resolve(__dirname, '.images', 'optimized-images')
-const CDN_PREFIX = 'https://d24nhiikxn5jns.cloudfront.net'
-const bucketName = 'assets-vendia'
-const bucketDirectory = 'test'
+const cdnPrefix = CDN_ROOT_URL || 'https://d24nhiikxn5jns.cloudfront.net'
+const bucketName = S3_BUCKET_NAME || 'assets-vendia'
+const bucketDirectory = S3_BUCKET_DIRECTORY || 'optimized'
 
 async function imagePipeline() {
   /* 1. collect all non cdn images from files */
@@ -26,7 +32,7 @@ async function imagePipeline() {
       '!node_modules/**'
     ],
     exclude: [
-      /^https:\/\/d24nhiikxn5jns\.cloudfront\.net/
+      makeRegex(`^${cdnPrefix}`)
     ],
     include:  [
       // 'https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-05-10-dont-'
@@ -47,6 +53,7 @@ async function imagePipeline() {
 
   /* 3. Upload image files */
   const bucketPrefix = (bucketDirectory) ? `${bucketDirectory.replace(/\/$/, '')}/` : ''
+  // console.log('bucketPrefix', bucketPrefix)
   /* Original image urls and files they exist in */
   const uploadPaths = originalImages.downloadedImages.map((imgData) => {
     // console.log('meta', imgData.meta)
@@ -68,7 +75,7 @@ async function imagePipeline() {
     const newUrl = s3Response.find(({ id }) => {
       return path.basename(id) === meta.updatedFileName
     })
-    const cdnLink = `${CDN_PREFIX}/${newUrl.id}`
+    const cdnLink = `${cdnPrefix}/${newUrl.id}`
     console.log(`Replace`)
     console.log('> url', url)
     // console.log('> with', `https://assets-vendia.s3.amazonaws.com/${newUrl.id}`)
