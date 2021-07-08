@@ -44,6 +44,8 @@ async function imagePipeline() {
 
   /* 2. Optimize all downloaded files */
   console.log('Optimizing Images...')
+  console.log('TEMP_DOWNLOAD_DIR', TEMP_DOWNLOAD_DIR)
+  console.log('OPTIMIZED_OUTPUT_DIR', OPTIMIZED_OUTPUT_DIR)
   const optimizedImages = await optimizeImages({
     inputDir: TEMP_DOWNLOAD_DIR,
     outputDir: OPTIMIZED_OUTPUT_DIR

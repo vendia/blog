@@ -20,6 +20,7 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   if (!imageFiles) {
     imageFiles = await globby(globPatterns)
   }
+  console.log('imageFiles', imageFiles)
 
   const alreadyProcessedImagePaths = await globby(getGlobPattern(outputDir))
   // console.log('alreadyProcessedImages', alreadyProcessedImagePaths)
@@ -85,7 +86,7 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   // console.log('allImageData', allImageData)
 
   const downloadPromises = allImageData.map((cloudinaryData) => {
-    // console.log('cloudinaryData', cloudinaryData)
+    console.log('cloudinaryData', cloudinaryData)
     const outputPath = path.join(outputDir, path.basename(cloudinaryData.secure_url))
     const optimizedUrl = getImageUrl(cloudinaryData.secure_url)
     return download({ 
