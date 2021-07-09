@@ -1,20 +1,18 @@
-/*
-  image-pipeline
-*/
-
+/* image-pipeline */
 const path = require('path')
 const { collectImages, makeRegex } = require('./collect')
 const { optimizeImages } = require('./optimize')
 const { uploadObjects } = require('./utils/s3')
 const { readFile, writeFile } = require('./utils/fs')
-const { 
+const {
+  CDN_ROOT_URL,
   S3_BUCKET_NAME, 
   S3_BUCKET_DIRECTORY,
-  CDN_ROOT_URL
 } = process.env
 
 const TEMP_DOWNLOAD_DIR = path.resolve(__dirname, '.images', 'original-images')
 const OPTIMIZED_OUTPUT_DIR = path.resolve(__dirname, '.images', 'optimized-images')
+
 const cdnPrefix = CDN_ROOT_URL || 'https://d24nhiikxn5jns.cloudfront.net'
 const bucketName = S3_BUCKET_NAME || 'assets-vendia'
 const bucketDirectory = S3_BUCKET_DIRECTORY || 'optimized'
@@ -44,8 +42,6 @@ async function imagePipeline() {
 
   /* 2. Optimize all downloaded files */
   console.log('Optimizing Images...')
-  console.log('TEMP_DOWNLOAD_DIR', TEMP_DOWNLOAD_DIR)
-  console.log('OPTIMIZED_OUTPUT_DIR', OPTIMIZED_OUTPUT_DIR)
   const optimizedImages = await optimizeImages({
     inputDir: TEMP_DOWNLOAD_DIR,
     outputDir: OPTIMIZED_OUTPUT_DIR
@@ -80,21 +76,18 @@ async function imagePipeline() {
     const cdnLink = `${cdnPrefix}/${newUrl.id}`
     console.log(`Replace`)
     console.log('> url', url)
-    // console.log('> with', `https://assets-vendia.s3.amazonaws.com/${newUrl.id}`)
     console.log(`> with ${cdnLink}`)
     console.log('> in file', meta.location)
-    const linkPattern = makeRegex(url, 'g')
-    // console.log('linkPattern', linkPattern)
     const content = await readFile(meta.location, 'utf-8')
     // console.log('content', content)
-
+    const linkPattern = makeRegex(url, 'g')
+    // console.log('linkPattern', linkPattern)
     const updatedContent = content
       .replace(linkPattern, cdnLink)
       .replace(url, cdnLink)
 
     await writeFile(meta.location, updatedContent)
   })
-
 }
 
 async function asyncForEach(array, callback) {
