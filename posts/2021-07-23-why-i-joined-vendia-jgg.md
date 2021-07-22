@@ -1,3 +1,17 @@
+---
+title: 'Vendia's Inspiring Vision'
+description: 'Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.'
+date: '2021-07-23'
+categories:
+  - announcements
+  - company
+  - concepts
+tags:
+  - decentralization
+authors:
+  - James Gimourginas
+---
+
 I’m thrilled to [join Vendia ](https://www.vendia.net/about) as its Director of Solution Architecture and Customer Success.  In sharing the news with friends, colleagues, and clients over the last month, two common themes emerged.  One was encouragement and support, which I’m humbled by and grateful for.  Getting affirmation from those with whom I've worked about the value I’ll be able to bring to a new organization is certainly inspiring and motivating.  A second theme was curiosity about what, exactly, Vendia is working on that would entice me to join the team.
 
 There are often many factors that contribute to a job change but in this case one stood out:  Vendia will cause a paradigm shift that changes the “right solution” for many distributed applications, including almost every system I’ve built in my career.  That’s a lofty statement, but consider some of these examples and their unmet challenges:
