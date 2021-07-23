@@ -9,18 +9,19 @@ Welcome to the Vendia blog repo!
 <details>
 <summary>Click to expand</summary>
 
-- [Posts](#posts)
-- [Authors](#authors)
-- [How to contribute content](#how-to-contribute-content)
-  - [TDLR;](#tdlr)
-  - [1. Write your content in markdown!](#1-write-your-content-in-markdown)
-  - [2. Name your post file name](#2-name-your-post-file-name)
-  - [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
-  - [4. Add your author bio](#4-add-your-author-bio)
-  - [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
-- [Adding external posts](#adding-external-posts)
-- [Markdown Resources](#markdown-resources)
-- [Recommended Writing Apps](#recommended-writing-apps)
+- [Vendia's Blog](#vendias-blog)
+  - [Posts](#posts)
+  - [Authors](#authors)
+  - [How to contribute content](#how-to-contribute-content)
+    - [TDLR;](#tdlr)
+    - [1. Write your content in markdown!](#1-write-your-content-in-markdown)
+    - [2. Name your post file name](#2-name-your-post-file-name)
+    - [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
+    - [4. Add your author bio](#4-add-your-author-bio)
+    - [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
+  - [Adding external posts](#adding-external-posts)
+  - [Markdown Resources](#markdown-resources)
+  - [Recommended Writing Apps](#recommended-writing-apps)
 
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -32,6 +33,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Vendia's Inspiring Vision](https://vendia.net/blog/vendias-inspiring-vision) <br/> Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team by James Gimourginas | 2021-07-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-07-23-vendias-inspiring-vision.md)
 | [Why I joined Vendia](https://vendia.net/blog/why-i-joined-vendia) <br/> Why I decided to joined Vendia's mission to enable secure data sharing across clouds providers by Mike Gephart | 2021-06-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-23-why-i-joined-vendia.md)
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/gartner-cool-vendor) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-08-gartner-cool-vendor.md)
 | [Don't Rip and Replace - Integrate](https://vendia.net/blog/dont-rip-and-replace-integrate) <br/> Use Vendia Share to Complement Existing Data Stores by Brian McNamara | 2021-05-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-05-10-dont-rip-and-replace-integrate.md)
@@ -105,6 +107,13 @@ Welcome to the Vendia blog repo!
     </a>
   </td>
   <td align="center">
+    <a href="https://github.com/james-vendia">
+      <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="100px;" alt=""/>
+      <br />
+      James Gimourginas
+    </a>
+  </td>
+  <td align="center">
     <a href="https://twitter.com/MikeGephart">
       <img src="https://www.vendia.net/images/team/mike-gephart.jpg" width="100px;" alt=""/>
       <br />
@@ -125,6 +134,8 @@ Welcome to the Vendia blog repo!
       Ryan Scott Brown
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/shruthialways">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="100px;" alt=""/>
@@ -132,8 +143,6 @@ Welcome to the Vendia blog repo!
       Shruthi Rao
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/timallenwagner">
       <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="100px;" alt=""/>
