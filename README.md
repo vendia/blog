@@ -34,7 +34,6 @@ Welcome to the Vendia blog repo!
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
 | [Vendia's Inspiring Vision](https://vendia.net/blog/vendias-inspiring-vision) <br/> Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team by James Gimourginas | 2021-07-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-07-23-vendias-inspiring-vision.md)
-| [Why I joined Vendia](https://vendia.net/blog/why-i-joined-vendia) <br/> Why I decided to joined Vendia's mission to enable secure data sharing across clouds providers by Mike Gephart | 2021-06-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-23-why-i-joined-vendia.md)
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/gartner-cool-vendor) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-08-gartner-cool-vendor.md)
 | [Don't Rip and Replace - Integrate](https://vendia.net/blog/dont-rip-and-replace-integrate) <br/> Use Vendia Share to Complement Existing Data Stores by Brian McNamara | 2021-05-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-05-10-dont-rip-and-replace-integrate.md)
 | [Vendia Turns 1](https://vendia.net/blog/vendia-turns-1) <br/> Vendia celebrates its first year as a C-corporation by Tim Wagner | 2021-03-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-03-31-vendia-turns-1.md)
@@ -114,13 +113,6 @@ Welcome to the Vendia blog repo!
     </a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/MikeGephart">
-      <img src="https://www.vendia.net/images/team/mike-gephart.jpg" width="100px;" alt=""/>
-      <br />
-      Mike Gephart
-    </a>
-  </td>
-  <td align="center">
     <a href="https://twitter.com/robotpatch">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="100px;" alt=""/>
       <br />
@@ -134,8 +126,6 @@ Welcome to the Vendia blog repo!
       Ryan Scott Brown
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/shruthialways">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="100px;" alt=""/>
@@ -143,6 +133,8 @@ Welcome to the Vendia blog repo!
       Shruthi Rao
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/timallenwagner">
       <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="100px;" alt=""/>
