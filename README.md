@@ -33,6 +33,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Sharing Data with Fine-grained Control](https://vendia.net/blog/sharing-data-with-fine-grained-control) <br/> Defining Data Access Among Partners in a Universal Application by Brian McNamara | 2021-09-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-01-sharing-data-with-fine-grained-control.md)
 | [Vendia's Inspiring Vision](https://vendia.net/blog/vendias-inspiring-vision) <br/> Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team by James Gimourginas | 2021-07-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-07-23-vendias-inspiring-vision.md)
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/gartner-cool-vendor) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-08-gartner-cool-vendor.md)
 | [Don't Rip and Replace - Integrate](https://vendia.net/blog/dont-rip-and-replace-integrate) <br/> Use Vendia Share to Complement Existing Data Stores by Brian McNamara | 2021-05-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-05-10-dont-rip-and-replace-integrate.md)
