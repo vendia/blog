@@ -255,6 +255,18 @@ Ping us with any questions on [Twitter @VendiaHQ](http://twitter.com/VendiaHQ) o
 
 ---
 
+## Adding Images
+
+To add an image, simply upload your image somewhere on the web and include it in your markdown. The image in your post can live anywhere on the web as long as it’s publicly accessible.
+
+This repo will automatically download, optimize, upload all images to our CDN, and replace then image link in the markdown.
+
+Example using an unsubmitted "draft" github issue to grab an image link.
+
+![adding-images](https://user-images.githubusercontent.com/532272/131711419-afee129e-c52d-44ed-9319-e2197691bdcc.gif)
+
+Use the markdown link generated in your post.
+
 ## Adding external posts
 
 If you'd like to include an external post written about vendia, you can do so by adding the post to the [./posts/external-posts.json](./posts/external-posts.json) file.
