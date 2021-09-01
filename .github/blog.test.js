@@ -46,7 +46,11 @@ test('Docs validation', async () => {
   const allTags = getTags(mdData)
   const allCategories = await getCategories()
   const allCategorySlugs = allCategories.map((category) =>  category.slug)
-  console.log('allTags', allTags)
+  
+  console.log('All Blog Tags')
+  console.log(allTags)
+  console.log('All Blog Categories')
+  console.log(allCategorySlugs)
 
   /* Verify frontmatter contents */
   mdData.forEach((info) => {

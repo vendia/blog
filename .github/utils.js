@@ -171,7 +171,6 @@ function getLinks(mdContents, filePath) {
 }
 
 function parseHtmlProps(mdContents) {
-
   const parents = mdContents
     /* Fix non terminating <tags> */
     .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
@@ -179,22 +178,23 @@ function parseHtmlProps(mdContents) {
   // console.log('parents', parents)
 
   if (parents) {
-    const children = parents.filter(Boolean).map((p) => {
-      return p.match(HTML_TAG)
-    })
+    // const children = parents.filter(Boolean).map((p) => {
+    //   return p.match(HTML_TAG)
+    // })
     // console.log('children', children)
   }
 
   const htmlTags = mdContents
     /* Fix non terminating <tags> */
     .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
-    .match(HTML_TAG)
+    .match(BETTER)
   // console.log('htmlTags', htmlTags)
 
   let tags = []
   if (htmlTags) {
     let propsValues = {}
-    var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/
+    // var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/
+    var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>([\s\S]*?)<\/\1>|\s+\/>)/
     for (var i = 0; i < htmlTags.length; i++) {
       var tagMatches = regexSingleTag.exec(htmlTags[i])
       // console.log('tagMatches', tagMatches)
