@@ -209,7 +209,7 @@ This is an awesome paragraph!
 
 ```
 
-To include code snippets in your post wrap them in "```" blocks witht the name of the syntax used
+To include code snippets in your post wrap them in <code>\`\`\`</code> blocks with the name of the syntax used. For example, to syntax highlight javascript code wrap the content in <code>\`\`\`js</code>
 
 <pre>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper.
@@ -233,9 +233,9 @@ Example `authors/DavidWells.json` and `DavidWells` in the `authors` field below 
 ```yml
 ---
 layout: Post
-title: David's Amazing Post
+title: 'David's Amazing Post'
 authors:
- - David Wells # references data in authors/DavidWells.json file
+ - David Wells # pulls data from authors/DavidWells.json
 ---
 ```
 
