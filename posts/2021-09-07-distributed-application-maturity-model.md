@@ -44,102 +44,69 @@ While it’s possible to assess and score each Dimension individually, seeing a 
 Crossing the 5 Dimensions with the 5 Maturity Levels produces a comprehensive maturity model with which distributed applications can be assessed.
 
 <table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Level 1</strong>
-<p>
-<em>Stuck in Time</em>
-   </td>
-   <td><strong>Level 2</strong>
-<p>
-<em>Waking Up</em>
-   </td>
-   <td><strong>Level 3</strong>
-<p>
-<em>Adequate</em>
-   </td>
-   <td><strong>Level 4</strong>
-<p>
-<em>Competitive</em>
-   </td>
-   <td><strong>Level 5</strong>
-<p>
-<em>Leading</em>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Application Data</strong>
-   </td>
-   <td>Data is manually acquired and not represented in true digital form;  Data is manually sent and received; Versioning is not supported and lineage is not maintained.
-   </td>
-   <td>Data is siloed, available to its immediate readers and writers but not beyond; Basic, usually batched, automation is in place;  Versioning is applied sporadically, leading to 
-<p>
-lineage that, at best, can be pieced together manually and inconsistently
-   </td>
-   <td>Data is centralized and cataloged but with limited access outside of the owning participant; API access is available but with cumbersome interaction patterns (e.g. synchronous CRUD only); Basic lineage can be gleaned from log files
-   </td>
-   <td>Data is enriched, blended, and transferred among participants in real-time; Synchronous and asynchronous data interaction patterns are supported; Lineage is maintained within (but not across) each participant
-   </td>
-   <td>Data is shared among all participants in real-time as it’s created; Synchronous and asynchronous data interaction patterns are supported; Lineage is fully journaled and provides a complete, immutable history.  
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Application Platform</strong>
-   </td>
-   <td>Platform is hosted on unreliable infrastructure or across isolated desktop systems; new interfaces are manually created; no inherent platform integrations, leading to a large amount of “glue” code
-   </td>
-   <td>Platform is hosted on cloud infrastructure but is not using cloud-native services; interfaces are versioned but still manually created; key architectural patterns are largely built into the application itself
-   </td>
-   <td>Platform is hosted on cloud infrastructure and uses some cloud-native services;  interfaces are versioned and automatically generated but heavily synchronous; key architectural patterns are still handled by code
-   </td>
-   <td>Platform uses cloud-native services and serverless approaches; interfaces include synchronous and asynchronous interaction styles; key architectural patterns are handled by the platform
-   </td>
-   <td>Platform uses cloud-native services and serverless approaches across multiple cloud service providers; interfaces include synchronous and asynchronous interaction styles across clouds; key architectural patterns are handled by the platform, as are common 3rd party integrations
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Operations and Resilience </strong>
-   </td>
-   <td>Operation of the application is manual and time consuming; scale is severely limited and recovery is a crude and manual process
-   </td>
-   <td>Basic deployment automation is in place but robust operational tooling is lacking; dynamic scaling is still not possible and recovery is scripted but cumbersome
-   </td>
-   <td>Continuous delivery practices have been adopted, but challenges arise when outages occur among other participants; scaling is possible but uses a “just in case” provisioning approach; multi-party recovery is still a challenge
-   </td>
-   <td>Robust delivery automation and operational tooling is in place; scaling uses a “just in time” approach to match demand; disaster recovery testing is common;  all of these activities require a sizable investment and capable team 
-   </td>
-   <td>Robust operations management, scale, and recovery are handled by the platform provider; all of the benefits from the previous column, applied to all major cloud service providers, and managed as a service
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Participants and Consistency</strong>
-   </td>
-   <td>Participants are a handful of people within a single organization; technology stack is homogeneous and limiting; data is often outdated or inconsistent as it slowly progresses through the application
-   </td>
-   <td>Participants are a single team within a single organization; technology stack is homogeneous and limiting; data is often outdated as the application waits for the next batch execution
-   </td>
-   <td>Participants include multiple organizations; a single organization dictates technology choices, limiting the technology available to others; data is centrally controlled and that organization serves as the single source of truth
-   </td>
-   <td>Participants include multiple organizations; a single organization may still dictate some key technology choices, limiting the technology available to others; data is more distributed, which impacts data consistency and leads to differing sources of truth among participants
-   </td>
-   <td>Participants include multiple organizations; organizations are free to choose the technologies they prefer to use, including across cloud providers; data is consistent among participants at all times, meaning there is only one source of truth
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Security, Privacy, and Governance</strong>
-   </td>
-   <td>Sensitive data cannot be protected with technology; no inherent compliance is provided by the platform;
-   </td>
-   <td>Sensitive data is protected by coarse-grained access control (e.g. permit or deny) within a single organization; no inherent compliance is provided by the platform;
-   </td>
-   <td>Sensitive data is protected by coarse-grained access control (e.g. permit or deny) across multiple organizations; organizations are not afforded privacy because of the centralized nature of the application; no inherent compliance is provided by the platform;
-   </td>
-   <td>Sensitive data is protected by fine-grained access control (e.g. data element ACLs) across multiple organizations; organizations are not afforded privacy by the features of the platform; no inherent compliance is provided by the platform;
-   </td>
-   <td>Sensitive data is protected by fine-grained access control (e.g. data element ACLs) across multiple organizations; organizations can rely on the platform to ensure privacy in a standards compliant fashion;
-   </td>
-  </tr>
+	<tr>
+		<td></td>
+		<td>
+			<strong>Level 1</strong>
+			<p><em>Stuck in Time</em></p>
+		</td>
+		<td>
+			<strong>Level 2</strong>
+			<p><em>Waking Up</em></p>
+		</td>
+		<td>
+			<strong>Level 3</strong>
+			<p><em>Adequate</em></p>
+		</td>
+		<td>
+			<strong>Level 4</strong>
+			<p><em>Competitive</em></p>
+		</td>
+		<td>
+			<strong>Level 5</strong>
+			<p><em>Leading</em></p>
+		</td>
+	</tr>
+	<tr>
+		<td><strong>Application Data</strong></td>
+		<td>Data is manually acquired and not represented in true digital form; Data is manually sent and received; Versioning is not supported and lineage is not maintained.</td>
+		<td>Data is siloed, available to its immediate readers and writers but not beyond; Basic, usually batched, automation is in place; Versioning is applied sporadically, leading to lineage that, at best, can be pieced together manually and inconsistently</td>
+		<td>Data is centralized and cataloged but with limited access outside of the owning participant; API access is available but with cumbersome interaction patterns (e.g. synchronous CRUD only); Basic lineage can be gleaned from log files</td>
+		<td>Data is enriched, blended, and transferred among participants in real-time; Synchronous and asynchronous data interaction patterns are supported; Lineage is maintained within (but not across) each participant</td>
+		<td>Data is shared among all participants in real-time as it’s created; Synchronous and asynchronous data interaction patterns are supported; Lineage is fully journaled and provides a complete, immutable history.</td>
+	</tr>
+	<tr>
+		<td><strong>Application Platform</strong></td>
+		<td>Platform is hosted on unreliable infrastructure or across isolated desktop systems; new interfaces are manually created; no inherent platform integrations, leading to a large amount of “glue” code</td>
+		<td>Platform is hosted on cloud infrastructure but is not using cloud-native services; interfaces are versioned but still manually created; key architectural patterns are largely built into the application itself</td>
+		<td>Platform is hosted on cloud infrastructure and uses some cloud-native services; interfaces are versioned and automatically generated but heavily synchronous; key architectural patterns are still handled by code</td>
+		<td>Platform uses cloud-native services and serverless approaches; interfaces include synchronous and asynchronous interaction styles; key architectural patterns are handled by the platform</td>
+		<td>Platform uses cloud-native services and serverless approaches across multiple cloud service providers; interfaces include synchronous and asynchronous interaction styles across clouds; key architectural patterns are handled by the platform, as are common 3rd party integrations</td>
+	</tr>
+	<tr>
+		<td><strong>Operations and Resilience</strong></td>
+		<td>Operation of the application is manual and time consuming; scale is severely limited and recovery is a crude and manual process</td>
+		<td>Basic deployment automation is in place but robust operational tooling is lacking; dynamic scaling is still not possible and recovery is scripted but cumbersome</td>
+		<td>Continuous delivery practices have been adopted, but challenges arise when outages occur among other participants; scaling is possible but uses a “just in case” provisioning approach; multi-party recovery is still a challenge</td>
+		<td>Robust delivery automation and operational tooling is in place; scaling uses a “just in time” approach to match demand; disaster recovery testing is common; all of these activities require a sizable investment and capable team</td>
+		<td>Robust operations management, scale, and recovery are handled by the platform provider; all of the benefits from the previous column, applied to all major cloud service providers, and managed as a service</td>
+	</tr>
+	<tr>
+		<td><strong>Participants and Consistency</strong></td>
+		<td>Participants are a handful of people within a single organization; technology stack is homogeneous and limiting; data is often outdated or inconsistent as it slowly progresses through the application</td>
+		<td>Participants are a single team within a single organization; technology stack is homogeneous and limiting; data is often outdated as the application waits for the next batch execution</td>
+		<td>Participants include multiple organizations; a single organization dictates technology choices, limiting the technology available to others; data is centrally controlled and that organization serves as the single source of truth</td>
+		<td>Participants include multiple organizations; a single organization may still dictate some key technology choices, limiting the technology available to others; data is more distributed, which impacts data consistency and leads to differing sources of truth among participants</td>
+		<td>Participants include multiple organizations; organizations are free to choose the technologies they prefer to use, including across cloud providers; data is consistent among participants at all times, meaning there is only one source of truth</td>
+	</tr>
+	<tr>
+		<td><strong>Security, Privacy, and Governance</strong></td>
+		<td>Sensitive data cannot be protected with technology; no inherent compliance is provided by the platform;</td>
+		<td>Sensitive data is protected by coarse-grained access control (e.g. permit or deny) within a single organization; no inherent compliance is provided by the platform;</td>
+		<td>Sensitive data is protected by coarse-grained access control (e.g. permit or deny) across multiple organizations; organizations are not afforded privacy because of the centralized nature of the application; no inherent compliance is provided by the platform;</td>
+		<td>Sensitive data is protected by fine-grained access control (e.g. data element ACLs) across multiple organizations; organizations are not afforded privacy by the features of the platform; no inherent compliance is provided by the platform;</td>
+		<td>Sensitive data is protected by fine-grained access control (e.g. data element ACLs) across multiple organizations; organizations can rely on the platform to ensure privacy in a standards compliant fashion;</td>
+	</tr>
 </table>
 
 ## Evaluating Your Maturity Level
