@@ -19,6 +19,7 @@ Welcome to the Vendia blog repo!
     - [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
     - [4. Add your author bio](#4-add-your-author-bio)
     - [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
+  - [Adding Images](#adding-images)
   - [Adding external posts](#adding-external-posts)
   - [Markdown Resources](#markdown-resources)
   - [Recommended Writing Apps](#recommended-writing-apps)
@@ -33,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Toward a Distributed Application Maturity Model](https://vendia.net/blog/distributed-application-maturity-model) <br/> Ways to better connect with your future business collaborators by James Gimourginas | 2021-09-07 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-07-distributed-application-maturity-model.md)
 | [Sharing Data with Fine-grained Control](https://vendia.net/blog/sharing-data-with-fine-grained-control) <br/> Defining Data Access Among Partners in a Universal Application by Brian McNamara | 2021-09-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-01-sharing-data-with-fine-grained-control.md)
 | [Vendia's Inspiring Vision](https://vendia.net/blog/vendias-inspiring-vision) <br/> Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team by James Gimourginas | 2021-07-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-07-23-vendias-inspiring-vision.md)
 | [Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing](https://vendia.net/blog/gartner-cool-vendor) <br/> Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report by Tim Wagner + Shruthi Rao | 2021-06-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-06-08-gartner-cool-vendor.md)
