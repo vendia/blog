@@ -97,8 +97,8 @@ function getTags(data) {
   }, [])
 }
 
-const HIDDEN_FRONTMATTER_REGEX = /^<!--.*((.|\n)*?.*-->)/g
-const FRONTMATTER_REGEX = /^---.*((.|\n)*?.*---)/g
+const HIDDEN_FRONTMATTER_REGEX = /^<!--.*((.|\r?\n)*?.*-->)/g
+const FRONTMATTER_REGEX = /^---.*((.|\r?\n)*?.*---)/g
 
 function formatMD(text, filePath) {
   const errors = []
