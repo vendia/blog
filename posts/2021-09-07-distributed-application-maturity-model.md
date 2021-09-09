@@ -43,7 +43,7 @@ While it’s possible to assess and score each Dimension individually, seeing a 
 
 Crossing the 5 Dimensions with the 5 Maturity Levels produces a comprehensive maturity model with which distributed applications can be assessed.
 
-<table style='width: auto'>
+<table width="auto">
   <tr>
     <td></td>
     <td>
