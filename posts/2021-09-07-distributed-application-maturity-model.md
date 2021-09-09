@@ -1,7 +1,7 @@
 ---
 title: 'Toward a Distributed Application Maturity Model'
-description: 'Ways to better connect with your future business collaborators'
-longDescription: 'This Distributed Application Maturity Model can help you assess your distributed application’s strengths and weaknesses so you can explore ways to better connect to with your future business collaborators.'
+description: 'A Maturity Model to help you assess the distributed applications used by your organization.'
+longDescription: 'A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.'
 date: '2021-09-07'
 categories:
   - architecture
@@ -43,7 +43,7 @@ While it’s possible to assess and score each Dimension individually, seeing a 
 
 Crossing the 5 Dimensions with the 5 Maturity Levels produces a comprehensive maturity model with which distributed applications can be assessed.
 
-<table width='auto'>
+<table style='width: auto'>
   <tr>
     <td></td>
     <td>
