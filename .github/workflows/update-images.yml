@@ -58,6 +58,9 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
           echo 'fin committer'
           git status
+          if [ -z "$(git status --porcelain)" ]; then
+            echo 'changes?'
+          fi
       - name: Git Status
         id: gitstatus
         run: |
