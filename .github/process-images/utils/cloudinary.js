@@ -58,6 +58,8 @@ async function getImageDetails(filePath, opts = {}) {
         filePath: filePath
       }
     }
+    // Rethrow unknown errors
+    throw err
   }
   return res
 }
