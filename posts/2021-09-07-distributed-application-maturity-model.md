@@ -19,7 +19,7 @@ That presents a challenge.  Organizations commonly struggle to harness the best 
 
 To help organizations assess their current standing and guide future improvement, we’ve developed a Distributed Application Maturity Model.  The Distributed Application Maturity Model looks at the 5 essential Dimensions required to create and run modern distributed applications that can connect people to their most important information.  The Distributed Application Maturity Model then defines 5 Maturity Levels across each Dimension to allow the maturity of distributed applications to be characterized.
 
-![Distributed Application Maturity Model](https://user-images.githubusercontent.com/85032783/132395285-48ca2fee-2e24-4f16-87f8-7f43810b8599.png)
+![Distributed Application Maturity Model](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783132395285-48ca2fee-2e24-4f16-87f8-7f43810b8599.png)
 
 ### The 5 Dimensions
 

@@ -14,11 +14,11 @@ When I [joined Vendia](https://www.vendia.net/blog/vendias-inspiring-vision) thi
 
 I met many of those amazing people at our first ever R&D “onsite” in Seattle a few weeks after joining the company.  A few things stood out during our first week working together in-person.  First, this isn’t anyone’s first rodeo.  We know what great looks like across all aspects of a tech company: from engineering, to product, to sales, to marketing, to experience design, to developer relations, to customer success.  Second, because we’re a virtual company, it was the first real opportunity to meet with each other, even for those hired well before me.  While we’re very adept at working virtually as a team, we aren’t able to connect outside of work as easily as we might if we worked in a single office/city/state/time zone/country.  Which leads to a third point.  It takes leadership at all levels to do game-changing, bar-raising product engineering as a purely virtual company.  Fortunately for us we have that leadership in spades, which can make it easy to overlook how naturally leadership shows up in our daily interactions.
 
-![office1](https://user-images.githubusercontent.com/85032783/134681694-2ddb20fd-216f-4a54-9f8f-99745f1480b2.jpg)
+![office1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783134681694-2ddb20fd-216f-4a54-9f8f-99745f1480b2.jpg)
 
 I observed that inherent leadership first-hand during one of our (optional, early morning)  team activities.  Our Director of Software Development, [Kevin Durdle](https://www.linkedin.com/in/kevindurdle/), organized an early morning run for those of us interested in exploring [Discovery Park](https://goo.gl/maps/M9otvN56WjqRHPy67) and getting some exercise before a full day of R&D working sessions.  Kevin’s a _real_ runner - the 50+ km ultramarathon type.  He knows the Discovery Park trails well and was excited to share this special part of Seattle with the rest of us.  As we ran, I picked up on some of Kevin’s leadership tactics.  They’re often on display in our standup and operational review meetings but, as I learned, they can also show up on a team run.
 
-![run1](https://user-images.githubusercontent.com/85032783/134681697-aa3aeae6-627c-49d9-8819-c682a0859a14.jpg)
+![run1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783134681697-aa3aeae6-627c-49d9-8819-c682a0859a14.jpg)
 
 What I observed can be applied to team runs, world-class product engineering, or just about any team activity that takes time, effort, and persistence.  For those of you who are playing the long game, here are five leadership practices to add to your repertoire.
 
@@ -42,8 +42,8 @@ When we began, Kevin led the way and set the pace.  It got us off to a great sta
 
 For every elevation change, every rocky beach, and every nearly washed out trail, there was a corresponding and stellar view along the way.  What appears to be a long and arduous trail (especially if you haven’t been running much during the hot summer months) is more achievable and enjoyable if it’s approached as a series of smaller steps, each with their own milestone.  Having built-in rewards along a journey is important, as is enjoying and celebrating incremental successes.
 
-![run2](https://user-images.githubusercontent.com/85032783/134681704-74052fa4-ceb0-46af-9ff7-50029687d904.jpg)
+![run2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783134681704-74052fa4-ceb0-46af-9ff7-50029687d904.jpg)
 
 The Discovery Park run was just one of several fun team experiences during our R&D onsite in Seattle.  I made it through the “long” trail successfully, albeit with a breather in between staircases on the way back up.  The onsite, including the run, confirmed my belief that Vendia is made up of [kind people](https://www.vendia.net/kind-humans) and capable leaders at all levels of the organization.  We each bring unique experiences and skills to the team and I know I’ll learn from those around me. Together, I’m confident we’ll realize our long-term goals and also have fun along the way.  [Join us](https://boards.greenhouse.io/vendia).
 
-![boat1](https://user-images.githubusercontent.com/85032783/134681707-8e4e79b6-727a-4db7-ac28-81a703755a40.jpg)
+![boat1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783134681707-8e4e79b6-727a-4db7-ac28-81a703755a40.jpg)
