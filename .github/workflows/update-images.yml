@@ -55,26 +55,31 @@ jobs:
           git status
           git add .
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
-          git status --porcelain
+          echo 'fin committer'
+          git status
+      - name: Git Status
+        id: gitstatus
+        run: |
           if [ -n "$(git status --porcelain)" ]; then
+            echo 'Has changes';
             echo "::set-output name=has_changes::true";
           else
+            echo 'Has no changes';
             echo "::set-output name=has_changes::false";
           fi
-          echo 'fin committer'
       - name: Debugger
         run: |
-          echo 'has_changes value ${{steps.committer.outputs.has_changes}}'
+          echo 'has_changes value ${{steps.gitstatus.outputs.has_changes}}'
       - name: Run if true
-        if: steps.committer.outputs.has_changes == 'true'
+        if: steps.gitstatus.outputs.has_changes == 'true'
         run: |
-          echo 'Has changes ${{steps.committer.outputs.has_changes}}'
+          echo 'Has changes ${{steps.gitstatus.outputs.has_changes}}'
       - name: Run if false
-        if: steps.committer.outputs.has_changes == 'false'
+        if: steps.gitstatus.outputs.has_changes == 'false'
         run: |
-          echo 'Has no changes ${{steps.committer.outputs.has_changes}}'
+          echo 'Has no changes ${{steps.gitstatus.outputs.has_changes}}'
       - name: Push
-        if: steps.committer.outputs.has_changes == 'true'
+        if: steps.gitstatus.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
