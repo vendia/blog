@@ -42,11 +42,22 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   /***/
 
   /* Check if images already exist in cloudinary */
-  const doCloudinaryFilesExist = imageFiles.map((image) => {
+  const remoteCloudinaryFiles = await Promise.all(imageFiles.map((image) => {
     return getImageDetails(image)
-  })
+  }))
 
-  const remoteImageData = (await Promise.all(doCloudinaryFilesExist)).map((remote) => {
+  if (remoteCloudinaryFiles.length) {
+    console.log(`Remote cloudinary files:`)
+    remoteCloudinaryFiles.forEach((remote) => {
+      console.log(`> ${remote.secure_url || remote.url}`)
+    })
+  }
+
+  const remoteImageData = remoteCloudinaryFiles.map((remote) => {
+    // console.log('remote', remote)
+    if (!Object.keys(remote).length) {
+      throw new Error(`Missing cloudinary image`)
+    }
     /* If remote cloudinary src file has been altered mark it for a force download */
     const matchingFile = persistedImageData.find((local) => {
       return (remote.public_id === local.imageId) && (remote.version === local.version)
