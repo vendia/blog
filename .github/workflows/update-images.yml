@@ -47,7 +47,7 @@ jobs:
           S3_BUCKET_REGION: ${{ secrets.S3_BUCKET_REGION }}
           S3_AWS_ACCESS_KEY_ID: ${{ secrets.S3_AWS_ACCESS_KEY_ID }}
           S3_AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_AWS_SECRET_ACCESS_KEY }}
-      - name: Add
+      - name: Commit changes
         id: committer
         run: |
           git config --global user.email "bot@vendia.com"
@@ -62,28 +62,12 @@ jobs:
             echo "::set-output name=has_changes::false";
           fi
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
-          echo 'fin committer'
-      # - name: Git Status
-      #   id: committer
-      #   run: |
-      #     if [ -n "$(git status --porcelain)" ]; then
-      #       echo 'Has changes';
-      #       echo "::set-output name=has_changes::true";
-      #     else
-      #       echo 'Has no changes';
-      #       echo "::set-output name=has_changes::false";
-      #     fi
-      - name: Debugger
-        run: |
-          echo 'has_changes value ${{steps.committer.outputs.has_changes}}'
       - name: Run if true
         if: steps.committer.outputs.has_changes == 'true'
-        run: |
-          echo 'Has changes ${{steps.committer.outputs.has_changes}}'
+        run: echo 'Has image updates
       - name: Run if false
         if: steps.committer.outputs.has_changes == 'false'
-        run: |
-          echo 'Has no changes ${{steps.committer.outputs.has_changes}}'
+        run: echo 'No image updates'
       - name: Push
         if: steps.committer.outputs.has_changes == 'true'
         uses: ad-m/github-push-action@master
