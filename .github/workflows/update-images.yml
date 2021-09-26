@@ -50,10 +50,11 @@ jobs:
       - name: Add
         id: committer
         run: |
-          git config --global user.email "bot@vendiat.com"
+          git config --global user.email "bot@vendia.com"
           git config --global user.name "Vendia Bot"
           git status
           git add .
+          git status
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
           echo 'fin committer'
           git status
