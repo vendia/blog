@@ -29,6 +29,7 @@
     "gray-matter": "4.0.3",
     "linkinator": "^2.13.6",
     "markdown-magic": "^2.3.2",
+    "mime-types": "^2.1.32",
     "node-exiftool": "^2.3.0",
     "plop": "^2.7.4",
     "uvu": "^0.5.1"

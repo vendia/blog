@@ -1,7 +1,9 @@
 const fs = require('fs')
 const path = require('path')
+const mime = require('mime-types')
 const pLimit = require('p-limit')
 const { S3Client, PutObjectCommand, HeadObjectCommand } = require('@aws-sdk/client-s3')
+
 const {
   S3_AWS_ACCESS_KEY_ID,
   S3_AWS_SECRET_ACCESS_KEY,
@@ -60,6 +62,7 @@ async function uploadObjects(bucketName, objects, options = {}) {
         Bucket: bucketName,
         Key: id,
         Body: stream,
+        ContentType: mime.lookup(objectPath),
       }))
 
       modifiedUploadData = modifiedUploadData.map((item) => {
