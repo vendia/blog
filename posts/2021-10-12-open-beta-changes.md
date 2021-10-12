@@ -11,7 +11,7 @@ authors:
 
 # Overview
 
-Vendia Share was unveiled in the Summer of 2020 and adoption has steadily increased ever since. As we reach new customers, address more use cases, and span additional industries, we continuously look for opportunities to improve our product and the development experience for all those using the platform. Our forthcoming Open Beta milestone, anticipated later in Q4, will unveil a collection of new features and enhancements, many of which originated from customer outreach and user feedback.
+Vendia Share was unveiled in the summer of 2020 and adoption has steadily increased ever since. As we reach new customers, address more use cases, and span additional industries, we continuously look for opportunities to improve our product and the development experience for all those using the platform. Our forthcoming Open Beta milestone, anticipated later in Q4, will unveil a collection of new features and enhancements, many of which originated from customer outreach and user feedback.
 
 We value the experience of our current and future customers and, while we strive to avoid backwards incompatible changes at all costs, we also recognize there are times when modifying a platform feature now will save our customers countless hours in the future. In preparation for the forthcoming Open Beta milestone, we've made the choice to address several known issues in ways that will not be backwards compatible. We're confident these changes, once released, will make for a significantly better experience for current and future customers. This includes:
 
