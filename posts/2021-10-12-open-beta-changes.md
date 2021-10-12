@@ -29,7 +29,7 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 
 ## Change Areas
 
-* **Adopting camelCase GraphQL field names** - We've modified our internal JSON 7 Schema to GraphQL Schema compiler to produce camelCase field names. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
+* **Adopting camelCase GraphQL field names** - We've modified our internal JSON Schema 7 to GraphQL Schema compiler to produce camelCase field names. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
 * **Prefixing all Vendia fields with a _** - We've modified our internal GraphQL Schema generator to prefix all Vendia specific field names with an underscore ("_"). This is now consistently applied across all fields, including the "id" (now "_id") field. This will make the intention of each field clearer and will help avoid field name collisions.
 * **Adding an "_owner" field to Files and Folders** - We've added a new field called "_owner" to the File and Folder entities provided by Share. This will help more easily identify the creator of a File or Folder and will also enable delegation of ownership in the future.
 * **Renaming fields and updating types** - We've renamed fields that historically weren't easily understood. We've also improved our support of native GraphQL types, such as enums. These two improvements together will allow for a first-class GraphQL integration experience for new and existing users.
@@ -194,12 +194,12 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 
 ## Change Areas
 
-* **GraphQL Enumerations** - We’ve modified our internal JSON 7 Schema to GraphQL Schema compiler to allow customers to use enumerations directly in queries rather than treating them as strings. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
+* **GraphQL Enumerations** - We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to allow customers to use enumerations directly in queries rather than treating them as strings. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
 * **GraphQL Filters** - Previously, Share modeled enumerations as strings in the GraphQL Schema, which caused confusion when using query parameters or otherwise filtering on enums. With the GraphQL Enumeration changes, Share now offers a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
 
 ## Change Areas Applied to GraphQL Enumerations
 
-GraphQL Enumerations (enums) are a special kind of scalar that is restricted to a specified set of values. Vendia Share customers will continue to model enums in JSON Schema using the [enum keyword](http://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values). We’ve modified our internal JSON 7 Schema to GraphQL Schema compiler to produce GraphQL enums that correspond to those modeled in the JSON 7 Schema. This will affect how GraphQL queries and mutations involving enums are written.
+GraphQL Enumerations (enums) are a special kind of scalar that is restricted to a specified set of values. Vendia Share customers will continue to model enums in JSON Schema using the [enum keyword](http://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values). We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to produce GraphQL enums that correspond to those modeled in the JSON Schema 7. This will affect how GraphQL queries and mutations involving enums are written.
 
 For example, the sample schema file in [Vendia's simple product catalog quick start](https://www.vendia.net/docs/share/quickstart/simple-product-catalog) shows how a product's size can be constrained to a fixed set of values - "S", "M", "L", and "XL". The way you model your enum in the schema file doesn't change. However, the way you insert your data when enums are used changes.
 
@@ -231,7 +231,7 @@ Now, filtering for a product requires changing the size attribute from a string 
 listProducts( filter: { size: { eq: XL } } ) { Products { name sku price size } }
 ```
 
-This also addresses a source of confusion as it relates to consistent enumeration support in Share. While Share previously allowed enumerations to be modeled in JSON 7 Schema, that modeling did not apply to the generated GraphQL schema. This would often lead users to attempt to filter by size (using the example above) like this `{size: XL}` only to receive a result they did not expect.
+This also addresses a source of confusion as it relates to consistent enumeration support in Share. While Share previously allowed enumerations to be modeled in JSON Schema 7, that modeling did not apply to the generated GraphQL schema. This would often lead users to attempt to filter by size (using the example above) like this `{size: XL}` only to receive a result they did not expect.
 
 # Secure Message Feature Removal
 
