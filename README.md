@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Open Beta Changes](https://vendia.net/blog/open-beta-changes) <br/> Changes to Vendia Share in advance of the Open Beta by James Gimourginas + Brian McNamara | 2021-10-12 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-12-open-beta-changes.md)
 | [Five Leadership Practices of an Ultramarathoner](https://vendia.net/blog/leadership-practices-of-an-ultramarathoner) <br/> How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development by James Gimourginas | 2021-09-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md)
 | [Toward a Distributed Application Maturity Model](https://vendia.net/blog/distributed-application-maturity-model) <br/> A Maturity Model to help you assess the distributed applications used by your organization by James Gimourginas | 2021-09-07 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-07-distributed-application-maturity-model.md)
 | [Sharing Data with Fine-grained Control](https://vendia.net/blog/sharing-data-with-fine-grained-control) <br/> Defining Data Access Among Partners in a Universal Application by Brian McNamara | 2021-09-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-01-sharing-data-with-fine-grained-control.md)
