@@ -258,7 +258,7 @@ Vendia Share Unis are created via either the [Command Line Interface](https://ww
 
 ### Change Area
 
-* **Requiring authorizerType** - We've updated Vendia Share to require clients to explicitly set a value for authorizerType when creating a Uni.  This change eliminates the prior implicit default value o authorizerType to `API_KEY` when a Uni is created.  This will help ensure all users understand the authorizerType selected during Uni creation and will provide additional traceability back to the original `registration.json` file.
+* **Requiring authorizerType** - We've updated Vendia Share to require clients to explicitly set a value for authorizerType when creating a Uni.  This change eliminates the prior implicit default authorizerType value of `API_KEY` when a Uni is created.  This will help ensure all users understand the authorizerType selected during Uni creation and will provide additional traceability back to the original `registration.json` file.
 
 ### Change Area Applied to Uni Creation
 
