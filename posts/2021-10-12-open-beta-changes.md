@@ -284,4 +284,4 @@ A `registration.json` file must now contain an `authorizerType` element within a
     ]
 }
 ```
-While `API_KEY` was our previous default when `authorizerType` was not explicitly set, we do not recommend `API_KEY` for production Unis. API keys are generally used to track or meter API usage but are not a secure authorization mechanism.  For production usage, please consider the [other authorization options](https://www.vendia.net/docs/share/node-access-control#how-to-set) available.
+**NOTE:** While `API_KEY` was our previous default when `authorizerType` was not explicitly set, we do not recommend `API_KEY` for production Unis. API keys are generally used to track or meter API usage but are not a secure authorization mechanism.  For production usage, please consider the [other authorization options](https://www.vendia.net/docs/share/node-access-control#how-to-set) available.
