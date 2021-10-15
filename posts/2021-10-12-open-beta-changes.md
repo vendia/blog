@@ -12,7 +12,7 @@ authors:
 ## Updates
 _This post has been updated since it was first published._
 
-* **10/15/2021** - Section Added - Requiring Authorizer Type During Uni Creation
+* **10/15/2021** - Section Added - [Requiring Authorizer Type During Uni Creation](#requiring-authorizer-type-during-uni-creation)
 
 ## Overview
 
