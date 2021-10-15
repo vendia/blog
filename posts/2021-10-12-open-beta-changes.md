@@ -9,7 +9,12 @@ authors:
   - Brian McNamara
 ---
 
-# Overview
+## Updates
+_This post has been updated since it was first published._
+
+* **10/15/2021** - Section Added - Requiring Authorizer Type During Uni Creation
+
+## Overview
 
 Vendia Share was unveiled in the summer of 2020 and adoption has steadily increased ever since. As we reach new customers, address more use cases, and span additional industries, we continuously look for opportunities to improve our product and the development experience for all those using the platform. Our forthcoming Open Beta milestone, anticipated later in Q4, will unveil a collection of new features and enhancements, many of which originated from customer outreach and user feedback.
 
@@ -23,20 +28,20 @@ To create a new Uni that has access to these improvements, no further action is 
 
 The remainder of this post is focused on the Vendia Share client changes that may be required to migrate an existing Uni to the latest and greatest version of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
 
-# GraphQL Schema Improvements
+## GraphQL Schema Improvements
 
 Vendia Share GraphQL schema is automatically generated based on the provided JSON Schema when a Uni is first created. GraphQL is a primary interface for clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal. The schema improvements can be categorized across a few key change areas.
 
-## Change Areas
+### Change Areas
 
 * **Adopting camelCase GraphQL field names** - We've modified our internal JSON Schema 7 to GraphQL Schema compiler to produce camelCase field names. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
 * **Prefixing all Vendia fields with a _** - We've modified our internal GraphQL Schema generator to prefix all Vendia specific field names with an underscore ("_"). This is now consistently applied across all fields, including the "id" (now "_id") field. This will make the intention of each field clearer and will help avoid field name collisions.
 * **Adding an "_owner" field to Files and Folders** - We've added a new field called "_owner" to the File and Folder entities provided by Share. This will help more easily identify the creator of a File or Folder and will also enable delegation of ownership in the future.
 * **Renaming fields and updating types** - We've renamed fields that historically weren't easily understood. We've also improved our support of native GraphQL types, such as enums. These two improvements together will allow for a first-class GraphQL integration experience for new and existing users.
 
-## Change Areas Applied to Blocks
+### Change Areas Applied to Blocks
 
-### _Block Type
+#### _Block Type
 
 The _Block type in the GraphQL schema is now modeled as:
 
@@ -63,7 +68,7 @@ In addition to camelCase modifications, changes include:
 * **_owner** - New field
 * **transactions** - Replaces "_TX" and is of a different type (transactions_element)
 
-### transactions_element Type
+#### transactions_element Type
 
 The transactions_element type in the GraphQL schema is now modeled as:
 
@@ -88,9 +93,9 @@ In addition to camelCase modifications, changes include:
 * **_owner** - Includes the "_" prefix
 * **signature** - Replaces "sig" 
 
-## Change Areas Applied to Files and Folders
+### Change Areas Applied to Files and Folders
 
-### _File Type
+#### _File Type
 
 The File type in the GraphQL schema is now modeled as:
 
@@ -121,7 +126,7 @@ In addition to camelCase modifications, changes include:
 * **createdTime** - Replaces "CreatedAt"
 * **updatedTime** - Replaces "UpdatedAt"
 
-### _Folder Type
+#### _Folder Type
 
 The Folder type in the GraphQL schema is now modeled as:
 
@@ -146,7 +151,7 @@ In addition to camelCase modifications, changes include:
 * **createdTime** - Replaces "CreatedAt"
 * **updatedTime** - Replaces "UpdatedAt"
 
-## Change Areas Applied to Transactions
+### Change Areas Applied to Transactions
 
 The _Transaction type in the GraphQL schema is now modeled as:
 
@@ -167,9 +172,9 @@ In addition to camelCase modifications, changes include:
 * **_owner** - Replaces "node_owner"
 * **Removing the "tx_version" field from the _Transaction type**
 
-## Change Areas Applied to DeploymentInfo
+### Change Areas Applied to DeploymentInfo
 
-### _DeploymentInfo Type
+#### _DeploymentInfo Type
 
 The DeploymentInfo type in the GraphQL schema is now modeled as:
 
@@ -188,16 +193,16 @@ In addition to camelCase modifications, changes include:
 * **_id** - Includes the "_" prefix
 * **_owner** - New field
 
-# GraphQL Type Improvements
+## GraphQL Type Improvements
 
 Vendia Share GraphQL schema is automatically generated based on the provided JSON Schema when a Uni is first created. GraphQL is a primary interface for clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal. The schema improvements can be categorized across a few key change areas.
 
-## Change Areas
+### Change Areas
 
 * **GraphQL Enumerations** - We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to allow customers to use enumerations directly in queries rather than treating them as strings. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
 * **GraphQL Filters** - Previously, Share modeled enumerations as strings in the GraphQL Schema, which caused confusion when using query parameters or otherwise filtering on enums. With the GraphQL Enumeration changes, Share now offers a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
 
-## Change Areas Applied to GraphQL Enumerations
+### Change Areas Applied to GraphQL Enumerations
 
 GraphQL Enumerations (enums) are a special kind of scalar that is restricted to a specified set of values. Vendia Share customers will continue to model enums in JSON Schema using the [enum keyword](http://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values). We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to produce GraphQL enums that correspond to those modeled in the JSON Schema 7. This will affect how GraphQL queries and mutations involving enums are written.
 
@@ -215,7 +220,7 @@ Now, adding a product requires changing the size attribute from a string to a va
 addProduct(name: "Awesome shirt", sku: "abc123", price: 10, size: XL) {id}
 ```
 
-## Change Areas Applied to GraphQL Filters
+### Change Areas Applied to GraphQL Filters
 
 Using the same example as above, we can execute a query and filter results based on a product's size.
 
@@ -233,16 +238,50 @@ listProducts( filter: { size: { eq: XL } } ) { Products { name sku price size } 
 
 This also addresses a source of confusion as it relates to consistent enumeration support in Share. While Share previously allowed enumerations to be modeled in JSON Schema 7, that modeling did not apply to the generated GraphQL schema. This would often lead users to attempt to filter by size (using the example above) like this `{size: XL}` only to receive a result they did not expect.
 
-# Secure Message Feature Removal
+## Secure Message Feature Removal
 
 Vendia Share Unis are designed to make it easy to share data and code across companies, regions, and clouds. However, sometimes it's appropriate to restrict information to a subset of participants. Secure messaging was introduced to address this need. However, over the past year, we heard from customers that they would rather see this capability exposed when writing or updating data through standard GraphQL mutations. We introduced fine-grained data permissions to address this need. This capability allows data producers to limit which participants can take action on data written to a Uni.
 
-## Change Areas
+### Change Areas
 
 * **Removal of Secure Messaging** - We're updating Vendia Share to remove the Secure Messaging feature from the platform.
 
-## Change Areas Applied to Secure Messaging
+### Change Areas Applied to Secure Messaging
 
 We're removing secure messaging in favor of fine-grained data permissions. There are several advantages to using this capability. Secure messaging only allows for a message to be sent to one or more recipients; the data contained in the message is not written to the shared data model. It is not available to be read, updated, or deleted at a later point. In contrast, data written with fine-grained permission is stored in your model. As such, it is available to be read, updated, or deleted at a later point. In addition, permissions can be updated at any time to change the principal, path, or operations allowed on the data as your data sharing needs evolve.
 
 Please refer to our [blog post](https://www.vendia.net/blog/sharing-data-with-fine-grained-control) and [product documentation](https://www.vendia.net/docs/share/fine-grained-data-permissions) for how to make use of Share's fine grained data access controls.
+
+## Requiring Authorizer Type During Uni Creation
+
+Vendia Share Unis are created via either the [Command Line Interface](https://www.vendia.net/docs/share/cli) or the [Web Console](https://www.vendia.net/docs/share/quickstart/web).  In either case, a [registration.json](https://www.vendia.net/docs/share/cli/guide#format-of-the-registration-schema-and-initial-state-files) file provides initial information about the Uni.
+
+### Change Area
+
+* **Requiring authorizerType** - We've updated Vendia Share to require clients to explicitly set a value for authorizerType when creating a Uni.  This change eliminates the prior implicit default value o authorizerType to `API_KEY` when a Uni is created.  This will help ensure all users understand the authorizerType selected during Uni creation and will provide additional traceability back to the original `registration.json` file.
+
+### Change Area Applied to Uni Creation
+
+A `registration.json` file must now contain an `authorizerType` element within a Node's `settings`
+
+```json
+{
+    "name": "test-BasicUni",
+    "schema": "schema.json",
+    "nodes": [
+        {
+            "name": "TestNode",
+            "userId": "user@email.com",
+            "region": "us-east-1",
+            "settings": {
+                "apiSettings": {
+                    "auth": {
+                        "authorizerType": "VENDIA_USER"
+                    }
+                }
+            }
+        }
+    ]
+}
+```
+While `API_KEY` was our previous default when `authorizerType` was not explicitly set, we do not recommend `API_KEY` for production Unis. API keys are generally used to track or meter API usage but are not a secure authorization mechanism.  For production usage, please consider the [other authorization options](https://www.vendia.net/docs/share/node-access-control#how-to-set) available.
