@@ -13,6 +13,7 @@ authors:
 _This post has been updated since it was first published._
 
 * **10/15/2021** - Section Added - [Requiring Authorizer Type During Uni Creation](#requiring-authorizer-type-during-uni-creation)
+* **10/20/2021** - Section Updated - [GraphQL Schema and Type Improvements](#graphql-schema-and-type-improvements)
 
 ## Overview
 
@@ -20,17 +21,27 @@ Vendia Share was unveiled in the summer of 2020 and adoption has steadily increa
 
 We value the experience of our current and future customers and, while we strive to avoid backwards incompatible changes at all costs, we also recognize there are times when modifying a platform feature now will save our customers countless hours in the future. In preparation for the forthcoming Open Beta milestone, we've made the choice to address several known issues in ways that will not be backwards compatible. We're confident these changes, once released, will make for a significantly better experience for current and future customers. This includes:
 
-* **GraphQL Schema Improvements** - Improved naming conventions, naming consistency, and customer naming collision avoidance
-* **GraphQL Type Improvements** - Expanded support for native GraphQL types (e.g. enums) and their validations 
-* **Secure Message Feature Removal** - Superseded by [fine-grained data access controls](https://www.vendia.net/blog/sharing-data-with-fine-grained-control), which offer a much richer set of data protection features
+* **Improved GraphQL Schema and Type Names** - Improved naming conventions, naming consistency, and customer naming collision avoidance
+* **Increased GraphQL Type Support** - Expanded support for native GraphQL types (e.g. enums) and their validations 
+* **Removal of Secure Message Feature** - Superseded by [fine-grained data access controls](https://www.vendia.net/blog/sharing-data-with-fine-grained-control), which offer a much richer set of data protection features
 
 To create a new Uni that has access to these improvements, no further action is required. Create a new Uni [as you normally would](https://www.vendia.net/docs/share/uni-creation) and you'll have access to the latest and great features of Vendia Share. [Our documentation](https://www.vendia.net/docs/share) has been updated to reflect all of the recent changes so please read through carefully as you get reacclimated with Share.
 
 The remainder of this post is focused on the Vendia Share client changes that may be required to migrate an existing Uni to the latest and greatest version of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
 
-## GraphQL Schema Improvements
+## GraphQL Schema and Type Improvements 
 
-Vendia Share GraphQL schema is automatically generated based on the provided JSON Schema when a Uni is first created. GraphQL is a primary interface for clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal. The schema improvements can be categorized across a few key change areas.
+_Examples in this section were updated on 10/20/2021 to account for additional future proofing type collision updates._
+
+GraphQL is a primary interface for Vendia Share clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal.
+
+Vendia Share accepts a user-provided [data model](https://www.vendia.net/docs/share/data-modeling) and generates a GraphQL interface as part of [Uni creation](https://www.vendia.net/docs/share/uni-creation).  The generated GraphQL interface includes [GraphQL types](https://graphql.org/learn/schema/) that reflect the properties provided in the user-provided data model _as well as_ Vendia-provided types related to Node and Uni settings and features.
+
+The combination of a user-provided data model and Vendia-provided types can, in certain situations, result in type collisions.  Further, as more customers adopt more complex data models, we incrase the risk of type collisions.
+
+To eliminate the potential for user/Vendia type collisions, to allow users to work effectively with complex schemas, and to reduce the potential for customer breaking changes that arise from schema evolution, we have take a new approach to type naming conventions.  This change may result in breaking changes to client code that currently references a generated GraphQL type name.  However, once client code is updated to leverage the new type names, future type name changes should not be necessary.  This will remain true even as the user-provided data model or Vendia-provided types evolve in the future.
+
+The schema and type improvements can be categorized across a few key change areas.
 
 ### Change Areas
 
@@ -38,6 +49,9 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 * **Prefixing all Vendia fields with a _** - We've modified our internal GraphQL Schema generator to prefix all Vendia specific field names with an underscore ("_"). This is now consistently applied across all fields, including the "id" (now "_id") field. This will make the intention of each field clearer and will help avoid field name collisions.
 * **Adding an "_owner" field to Files and Folders** - We've added a new field called "_owner" to the File and Folder entities provided by Share. This will help more easily identify the creator of a File or Folder and will also enable delegation of ownership in the future.
 * **Renaming fields and updating types** - We've renamed fields that historically weren't easily understood. We've also improved our support of native GraphQL types, such as enums. These two improvements together will allow for a first-class GraphQL integration experience for new and existing users.
+* **Using Vendia Definitions** - We've adopted a set of top-level definitions to simplify Vendia-provided type names.  This will increase consistency among Vendia-provided type names and avoid potential user/Vendia type name collisions.
+
+The remainder of this section outlines how the change areas above impact existing Vendia types.  In addition to these type changes, equivalent changes have been applied to corresponding `*FilterInput` and `*Result` types.  Remember, you can use [GraphQL introspection](https://graphql.org/learn/introspection/) against your Uni's GraphQL endpoint to retrieve a complete GraphQL schema for your Uni at any time.
 
 ### Change Areas Applied to Blocks
 
@@ -46,46 +60,57 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 The _Block type in the GraphQL schema is now modeled as:
 
 ```graphql
-type _Block   {
+type _Block {
     _id: ID!
     _owner: String
-    blockSchemaVersion: String
+    blockHash: String!
     blockId: String!
-    redactedBlockHash: String!
+    blockSchemaVersion: String
+    commitTime: String!
+    previousBlockHash: String!
     previousBlockId: String
     previousRedactedBlockHash: String!
-    blockHash: String!
-    previousBlockHash: String!
-    status: String
-    commitTime: String!
-    transactions: [transactions_element]!
+    redactedBlockHash: String!
+    status: _Block_statusEnum
+    transactions: [_defns__Block_transactionsElement]!
 }
 ```
-
 In addition to camelCase modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - New field
-* **transactions** - Replaces "_TX" and is of a different type (transactions_element)
+* **status** - References a new type
+* **transactions** - Replaces "_TX" and references a new type
 
-#### transactions_element Type
+#### _Block_statusEnum Type
 
-The transactions_element type in the GraphQL schema is now modeled as:
+The new _Block_statusEnum type in the GraphQL schema is modeled as:
 
 ```graphql
-type transactions_element   {
-    _id: String!
-    hash: String!
-    redactedHash: String
-    _owner: String
-    signature: String
-    version: String
-    submissionTime: String!
-    mutations: [String]!
+enum _Block_statusEnum {
+  APPLYING
+  COMMITTED
+  FAILED
 }
 ```
 
-In addition to camelCase modifications, changes include:
+#### _defns__Block_transactionsElement Type
+
+The new _defns__Block_transactionsElement type, which replaces the previous _TX_element type, in the GraphQL schema is modeled as:
+
+```graphql
+type _defns__Block_transactionsElement {
+  _id: String!
+  _owner: String
+  hash: String!
+  mutations: [String]!
+  redactedHash: String
+  signature: String
+  submissionTime: String!
+  version: String
+}
+```
+In addition to type name and camelCase modifications, changes include:
 
 * **_id** - Includes the "_" prefix and replaces "TxId"
 * **hash** - Replaces "TxHash"
@@ -100,22 +125,22 @@ In addition to camelCase modifications, changes include:
 The File type in the GraphQL schema is now modeled as:
 
 ```graphql
-type _File   {
+type _File {
     _id: ID!
-    sourceKey: String!
-    sourceBucket: String!
-    sourceRegion: String!
-    sourceVersion: String!
-    destinationKey: String!
-    copyStrategy: String
-    read: [String]
-    write: [String]
-    etag: String
     _owner: String
+    copyStrategy: _File_copyStrategyEnum
     createdTime: String
-    updatedTime: String
-    temporaryUrl: String
+    destinationKey: String!
+    etag: String
     fileVersion: String
+    read: [String]
+    sourceBucket: String!
+    sourceKey: String!
+    sourceRegion: String!
+    sourceVersion: String
+    temporaryUrl: String
+    updatedTime: String
+    write: [String]
 }
 ```
 
@@ -123,24 +148,37 @@ In addition to camelCase modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - Includes the "_" prefix
+* **copyStrategy** - References a new type
 * **createdTime** - Replaces "CreatedAt"
 * **updatedTime** - Replaces "UpdatedAt"
+
+#### _File_copyStrategyEnum Type
+
+The new _File_copyStrategyEnum type in the GraphQL schema is modeled as:
+
+```graphql
+enum _File_copyStrategyEnum {
+    ALWAYS
+    NEVER
+    ON_ACCESS
+}
+```
 
 #### _Folder Type
 
 The Folder type in the GraphQL schema is now modeled as:
 
 ```graphql
-type _Folder   {
+type _Folder {
     _id: ID!
+    _owner: String
+    copyStrategy: _Folder_copyStrategyEnum
+    createdTime: String
     name: String!
     parent: String
-    _owner: String
     read: [String]
-    write: [String]
-    copyStrategy: copyStrategyEnum
-    createdTime: String
     updatedTime: String
+    write: [String]
 }
 ```
 
@@ -148,8 +186,21 @@ In addition to camelCase modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - Includes the "_" prefix
+* **copyStrategy** - References a new type
 * **createdTime** - Replaces "CreatedAt"
 * **updatedTime** - Replaces "UpdatedAt"
+
+#### __Folder_copyStrategyEnum Type
+
+The new __Folder_copyStrategyEnum type in the GraphQL schema is modeled as:
+
+```graphql
+enum _Folder_copyStrategyEnum {
+    ALWAYS
+    NEVER
+    ON_ACCESS
+}
+```
 
 ### Change Areas Applied to Transactions
 
@@ -157,33 +208,34 @@ The _Transaction type in the GraphQL schema is now modeled as:
 
 ```graphql
 type _Transaction {
-    _id: String!
-    transactionId: String!
-    submissionTime: String!
+    _id: String
     _owner: String!
+    submissionTime: String!
+    transactionId: String
+    version: String!
 }
 ```
 
 In addition to camelCase modifications, changes include:
 
 * **_id** - Includes the "_" prefix
-* **transactionId** - Replaces "tx_id"
-* **submissionTime** - Replaces "submission_time"
 * **_owner** - Replaces "node_owner"
-* **Removing the "tx_version" field from the _Transaction type**
+* **submissionTime** - Replaces "submission_time"
+* **transactionId** - Replaces "tx_id"
+* **version** - Replaces "tx_version"
 
 ### Change Areas Applied to DeploymentInfo
 
 #### _DeploymentInfo Type
 
-The DeploymentInfo type in the GraphQL schema is now modeled as:
+The _DeploymentInfo type in the GraphQL schema is now modeled as:
 
 ```graphql
-type _DeploymentInfo   {
+type _DeploymentInfo {
     _id: ID!
     _owner: String
-    deploymentTime: String!
     consensusDefinitionHash: String!
+    deploymentTime: String!
     versionTag: String!
 }
 ```
@@ -192,6 +244,107 @@ In addition to camelCase modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - New field
+
+### Change Areas Applied to UniInfo
+
+#### _UniInfo Type
+
+The _UniInfo type in the GraphQL schema is now modeled as:
+
+```graphql
+type _UniInfo {
+    _owner: String
+    createdTime: String
+    localNodeName: String
+    name: String!
+    nodes: [_defns__nodesElement]!
+    schema: String!
+    sku: String
+    status: String
+    updatedTime: String
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+* **nodes** - References a new type
+
+#### _defns__nodesElement Type
+
+The new _defns__nodesElement type in the GraphQL schema is modeled as:
+
+```graphql
+type _defns__nodesElement {
+    _owner: String
+    bucketName: String
+    description: String
+    name: String
+    region: String
+    status: String
+    temporaryCredentials: _defns__nodesElement_temporaryCredentials
+    userEmail: String
+    userId: String
+    vendiaAccount: _defns__nodesElement_vendiaAccount
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **temporaryCredentials** - References a new type
+* **vendiaAccount** - References a new type
+
+#### _defns__nodesElement_temporaryCredentials Type
+
+The new _defns__nodesElement_temporaryCredentials type in the GraphQL schema is modeled as:
+
+```graphql
+type _defns__nodesElement_temporaryCredentials {
+    _owner: String
+    uploadFile: _defns__temporaryCredentials_uploadFile
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **uploadFile** - References a new type
+
+#### _defns__temporaryCredentials_uploadFile Type
+
+The new _defns__temporaryCredentials_uploadFile type in the GraphQL schema is modeled as:
+
+```graphql
+type _defns__temporaryCredentials_uploadFile {
+    _owner: String
+    accessKeyId: String
+    expiration: String
+    secretAccessKey: String
+    sessionToken: String
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+
+#### _defns__nodesElement_vendiaAccount Type
+
+The new _defns__nodesElement_vendiaAccount type in the GraphQL schema is modeled as:
+
+```graphql
+type _defns__nodesElement_vendiaAccount {
+    _owner: String
+    accountId: String!
+    csp: String!
+    org: String
+    userId: String
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+
 
 ## GraphQL Type Improvements
 
@@ -244,11 +397,11 @@ Vendia Share Unis are designed to make it easy to share data and code across com
 
 ### Change Areas
 
-* **Removal of Secure Messaging** - We're updating Vendia Share to remove the Secure Messaging feature from the platform.
+* **Removal of Secure Messaging** - We've updated Vendia Share to remove the Secure Messaging feature from the platform.
 
 ### Change Areas Applied to Secure Messaging
 
-We're removing secure messaging in favor of fine-grained data permissions. There are several advantages to using this capability. Secure messaging only allows for a message to be sent to one or more recipients; the data contained in the message is not written to the shared data model. It is not available to be read, updated, or deleted at a later point. In contrast, data written with fine-grained permission is stored in your model. As such, it is available to be read, updated, or deleted at a later point. In addition, permissions can be updated at any time to change the principal, path, or operations allowed on the data as your data sharing needs evolve.
+We've removed secure messaging in favor of fine-grained data permissions. There are several advantages to using this capability. Secure messaging only allows for a message to be sent to one or more recipients; the data contained in the message is not written to the shared data model. It is not available to be read, updated, or deleted at a later point. In contrast, data written with fine-grained permission is stored in your model. As such, it is available to be read, updated, or deleted at a later point. In addition, permissions can be updated at any time to change the principal, path, or operations allowed on the data as your data sharing needs evolve.
 
 Please refer to our [blog post](https://www.vendia.net/blog/sharing-data-with-fine-grained-control) and [product documentation](https://www.vendia.net/docs/share/fine-grained-data-permissions) for how to make use of Share's fine grained data access controls.
 
