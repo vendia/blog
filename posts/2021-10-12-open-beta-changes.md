@@ -345,6 +345,124 @@ In addition to camelCase modifications, changes include:
 
 * **_owner** - New field
 
+### Changes Applied to Settings
+
+#### _Settings Type
+
+The _Settings type in the GraphQL schema is now modeled as:
+
+```graphql
+type _Settings {
+  _ResourceMapKeys: [String]
+  _ResourceMapValues: [String]
+  _owner: String
+  apiSettings: _Settings_apiSettings
+  aws_DataDogMonitoring: _defns__aws_DataDogMonitoring
+  aws_LambdaIngressAccounts: [String]
+  aws_S3ReadAccounts: [String]
+  aws_SQSIngressAccounts: [String]
+  aws_blockReportFirehoses: [String]
+  aws_blockReportLambdas: [String]
+  aws_blockReportSQSQueues: [String]
+  aws_deadLetterLambdas: [String]
+  aws_deadLetterSQSQueues: [String]
+  blockReportEmails: [String]
+  blockReportWebhooks: [String]
+  deadLetterEmails: [String]
+  deadLetterWebhooks: [String]
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+* **apiSettings** - References a new type
+* **aws_DataDogMonitoring** - References a new type
+
+#### _apiSettings Type
+
+The _apiSettings type in the GraphQL schema is now modeled as:
+
+```graphql
+type _Settings_apiSettings {
+  _owner: String
+  apiKeys: [_defns__apiSettings_apiKeysElement]
+  auth: _defns__apiSettings_auth
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+* **apiKeys** - References a new type
+* **auth** - References a new type
+
+#### _defns__apiSettings_apiKeysElement Type
+
+The _defns__apiSettings_apiKeysElement type in the GraphQL schema is now modeled as:
+
+```graphql
+type _defns__apiSettings_apiKeysElement {
+    _owner: String
+    usagePlan: _defns__apiSettings_auth
+    value: String
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+* **usagePlan** - References a new type
+
+#### _defns__apiSettings_auth Type
+
+The _defns__apiSettings_auth type in the GraphQL schema is now modeled as:
+
+```graphql
+type _defns__apiSettings_auth {
+    _owner: String
+    allowedAccounts: [String]
+    authorizerArn: String
+    authorizerType: _defns__auth_authorizerTypeEnum
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
+* **authorizerType** - References a new type
+
+#### _defns__auth_authorizerTypeEnum Type
+
+The _defns__auth_authorizerTypeEnum type in the GraphQL schema is now modeled as:
+
+```graphql
+enum _defns__auth_authorizerTypeEnum {
+  API_KEY
+  COGNITO
+  CUSTOM
+  IAM
+  VENDIA_USER
+}
+```
+
+#### _defns__aws_DataDogMonitoring Type
+
+The _defns__aws_DataDogMonitoring type in the GraphQL schema is now modeled as:
+
+```graphql
+type _defns__aws_DataDogMonitoring {
+    _owner: String
+    ddApiKey: String
+    ddExternalId: String
+    ddLogEndpoint: String
+    ddSendLogs: Boolean
+}
+```
+
+In addition to camelCase modifications, changes include:
+
+* **_owner** - New field
 
 ## GraphQL Type Improvements
 
