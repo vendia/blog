@@ -37,7 +37,7 @@ GraphQL is a primary interface for Vendia Share clients - both synchronous and a
 
 Vendia Share accepts a user-provided [data model](https://www.vendia.net/docs/share/data-modeling) and generates a GraphQL interface as part of [Uni creation](https://www.vendia.net/docs/share/uni-creation).  The generated GraphQL interface includes [GraphQL types](https://graphql.org/learn/schema/) that reflect the properties provided in the user-provided data model _as well as_ Vendia-provided types related to Node and Uni settings and features.
 
-The combination of a user-provided data model and Vendia-provided types can, in certain situations, result in type collisions.  Further, as more customers adopt more complex data models, we incrase the risk of type collisions.
+The combination of a user-provided data model and Vendia-provided types can, in certain situations, result in type collisions.  Further, as more customers adopt more complex data models, we increase the risk of type collisions.
 
 To eliminate the potential for user/Vendia type collisions, to allow users to work effectively with complex schemas, and to reduce the potential for customer breaking changes that arise from schema evolution, we have take a new approach to type naming conventions.  This change may result in breaking changes to client code that currently references a generated GraphQL type name.  However, once client code is updated to leverage the new type names, future type name changes should not be necessary.  This will remain true even as the user-provided data model or Vendia-provided types evolve in the future.
 
