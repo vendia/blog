@@ -13,7 +13,7 @@ authors:
 _This post has been updated since it was first published._
 
 * **10/15/2021** - Section Added - [Requiring Authorizer Type During Uni Creation](#requiring-authorizer-type-during-uni-creation)
-* **10/20/2021** - Section Updated - [GraphQL Schema and Type Improvements](#graphql-schema-and-type-improvements)
+* **10/22/2021** - Section Updated - [GraphQL Schema and Type Improvements](#graphql-schema-and-type-improvements)
 
 ## Overview
 
@@ -31,7 +31,7 @@ The remainder of this post is focused on the Vendia Share client changes that ma
 
 ## GraphQL Schema and Type Improvements 
 
-_Examples in this section were updated on 10/20/2021 to account for additional future proofing type collision updates._
+_Examples in this section were updated on 10/22/2021 to account for additional future proofing type collision updates._
 
 GraphQL is a primary interface for Vendia Share clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal.
 
@@ -49,18 +49,23 @@ The schema and type improvements can be categorized across a few key change area
 * **Prefixing all Vendia fields with a _** - We've modified our internal GraphQL Schema generator to prefix all Vendia specific field names with an underscore ("_"). This is now consistently applied across all fields, including the "id" (now "_id") field. This will make the intention of each field clearer and will help avoid field name collisions.
 * **Adding an "_owner" field to Files and Folders** - We've added a new field called "_owner" to the File and Folder entities provided by Share. This will help more easily identify the creator of a File or Folder and will also enable delegation of ownership in the future.
 * **Renaming fields and updating types** - We've renamed fields that historically weren't easily understood. We've also improved our support of native GraphQL types, such as enums. These two improvements together will allow for a first-class GraphQL integration experience for new and existing users.
-* **Using Vendia Definitions** - We've adopted a set of top-level definitions to simplify Vendia-provided type names.  This will increase consistency among Vendia-provided type names and avoid potential user/Vendia type name collisions.
+* **Adopting a new naming convention for Vendia definitions, $defs, types, objects, enumerations, and arrays** - We've changed our Vendia naming conventions to include a Vendia-specific prefix.  This will increase consistency among Vendia-provided type names and prevent user/Vendia type name collisions.
+* **Adopting a new naming convention for User definitions and $defs** - 've changed the naming conventions for user provided `definitions` and `$defs`.  This, along with the change above, will prevent user/Vendia type name collisions.  Further, it enables users to import additional schema files without the risk of breaking changes or collisions, greatly increasing the complexity of the data models Vendia Share can support.
 
-The remainder of this section outlines how the change areas above impact existing Vendia types.  In addition to these type changes, equivalent changes have been applied to corresponding `*FilterInput` and `*Result` types.  Remember, you can use [GraphQL introspection](https://graphql.org/learn/introspection/) against your Uni's GraphQL endpoint to retrieve a complete GraphQL schema for your Uni at any time.
+The remainder of this section outlines how the change areas above impact existing Vendia and User types.
+
+In addition to these type name changes, equivalent changes have been applied to corresponding `Query`, `Mutation`, and `Subscription` operations and corresponding `FilterInput` and `Result` types.  
+
+Remember, you can use [GraphQL introspection](https://graphql.org/learn/introspection/) against your Uni's GraphQL endpoint to retrieve a complete GraphQL schema for your Uni at any time.
 
 ### Change Areas Applied to Blocks
 
 #### _Block Type
 
-The _Block type in the GraphQL schema is now modeled as:
+The previous `_Block` type is now modeled as `Vendia_Block`:
 
 ```graphql
-type _Block {
+type Vendia_Block {
     _id: ID!
     _owner: String
     blockHash: String!
@@ -72,34 +77,34 @@ type _Block {
     previousRedactedBlockHash: String!
     redactedBlockHash: String!
     status: _Block_statusEnum
-    transactions: [_defns__Block_transactionsElement]!
+    transactions: [Vendia_Block_transactionsElement]!
 }
 ```
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **_id** - Includes the "_" prefix
-* **_owner** - New field
+* **_owner** - New field, the owner
 * **status** - References a new type
 * **transactions** - Replaces "_TX" and references a new type
 
 #### _Block_statusEnum Type
 
-The new _Block_statusEnum type in the GraphQL schema is modeled as:
+The new `_Block_statusEnum` type is modeled as:
 
 ```graphql
-enum _Block_statusEnum {
+enum Vendia_Block_statusEnum {
   APPLYING
   COMMITTED
   FAILED
 }
 ```
 
-#### _defns__Block_transactionsElement Type
+#### Vendia_Block_transactionsElement Type
 
-The new _defns__Block_transactionsElement type, which replaces the previous _TX_element type, in the GraphQL schema is modeled as:
+The previous `_TX_element` type is now modeled as `Vendia_Block_transactionsElement`:
 
 ```graphql
-type _defns__Block_transactionsElement {
+type Vendia_Block_transactionsElement {
   _id: String!
   _owner: String
   hash: String!
@@ -110,25 +115,25 @@ type _defns__Block_transactionsElement {
   version: String
 }
 ```
-In addition to type name and camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **_id** - Includes the "_" prefix and replaces "TxId"
+* **_owner** - Includes the "_" prefix
 * **hash** - Replaces "TxHash"
 * **redactedHash** - Replaces "RedactedTxHash"
-* **_owner** - Includes the "_" prefix
 * **signature** - Replaces "sig" 
 
 ### Change Areas Applied to Files and Folders
 
 #### _File Type
 
-The File type in the GraphQL schema is now modeled as:
+The previous `_File` type is now modeled as `Vendia_File`:
 
 ```graphql
-type _File {
+type Vendia_File {
     _id: ID!
     _owner: String
-    copyStrategy: _File_copyStrategyEnum
+    copyStrategy: Vendia_File_copyStrategyEnum
     createdTime: String
     destinationKey: String!
     etag: String
@@ -144,7 +149,7 @@ type _File {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - Includes the "_" prefix
@@ -152,12 +157,12 @@ In addition to camelCase modifications, changes include:
 * **createdTime** - Replaces "CreatedAt"
 * **updatedTime** - Replaces "UpdatedAt"
 
-#### _File_copyStrategyEnum Type
+#### Vendia_File_copyStrategyEnum Type
 
-The new _File_copyStrategyEnum type in the GraphQL schema is modeled as:
+The new `Vendia_File_copyStrategyEnum` type is modeled as:
 
 ```graphql
-enum _File_copyStrategyEnum {
+enum Vendia_File_copyStrategyEnum {
     ALWAYS
     NEVER
     ON_ACCESS
@@ -166,13 +171,13 @@ enum _File_copyStrategyEnum {
 
 #### _Folder Type
 
-The Folder type in the GraphQL schema is now modeled as:
+The previous `_Folder` type is now modeled as `Vendia_Folder`:
 
 ```graphql
-type _Folder {
+type Vendia_Folder {
     _id: ID!
     _owner: String
-    copyStrategy: _Folder_copyStrategyEnum
+    copyStrategy: Vendia_Folder_copyStrategyEnum
     createdTime: String
     name: String!
     parent: String
@@ -182,7 +187,7 @@ type _Folder {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - Includes the "_" prefix
@@ -190,12 +195,12 @@ In addition to camelCase modifications, changes include:
 * **createdTime** - Replaces "CreatedAt"
 * **updatedTime** - Replaces "UpdatedAt"
 
-#### __Folder_copyStrategyEnum Type
+#### Vendia_Folder_copyStrategyEnum Type
 
-The new __Folder_copyStrategyEnum type in the GraphQL schema is modeled as:
+The new Vendia_Folder_copyStrategyEnum type is modeled as:
 
 ```graphql
-enum _Folder_copyStrategyEnum {
+enum Vendia_Folder_copyStrategyEnum {
     ALWAYS
     NEVER
     ON_ACCESS
@@ -204,10 +209,10 @@ enum _Folder_copyStrategyEnum {
 
 ### Change Areas Applied to Transactions
 
-The _Transaction type in the GraphQL schema is now modeled as:
+The previous `_Transaction` type is now modeled as `Vendia_Transaction`:
 
 ```graphql
-type _Transaction {
+type Vendia_Transaction {
     _id: String
     _owner: String!
     submissionTime: String!
@@ -216,7 +221,7 @@ type _Transaction {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **_id** - Includes the "_" prefix
 * **_owner** - Replaces "node_owner"
@@ -228,10 +233,10 @@ In addition to camelCase modifications, changes include:
 
 #### _DeploymentInfo Type
 
-The _DeploymentInfo type in the GraphQL schema is now modeled as:
+The previous `_DeploymentInfo` type is now modeled as `Vendia_DeploymentInfo`:
 
 ```graphql
-type _DeploymentInfo {
+type Vendia_DeploymentInfo {
     _id: ID!
     _owner: String
     consensusDefinitionHash: String!
@@ -240,24 +245,24 @@ type _DeploymentInfo {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **_id** - Includes the "_" prefix
-* **_owner** - New field
+* **_owner** - New field, the owner
 
 ### Change Areas Applied to UniInfo
 
 #### _UniInfo Type
 
-The _UniInfo type in the GraphQL schema is now modeled as:
+The previous `_UniInfo` type is now modeled as `Vendia_UniInfo`:
 
 ```graphql
-type _UniInfo {
+type Vendia_UniInfo {
     _owner: String
     createdTime: String
     localNodeName: String
     name: String!
-    nodes: [_defns__nodesElement]!
+    nodes: [Vendia__definitions_nodesElement]!
     schema: String!
     sku: String
     status: String
@@ -265,56 +270,56 @@ type _UniInfo {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 * **nodes** - References a new type
 
-#### _defns__nodesElement Type
+#### Vendia__definitions_nodesElement Type
 
-The new _defns__nodesElement type in the GraphQL schema is modeled as:
+The new `Vendia__definitions_nodesElement` type is modeled as:
 
 ```graphql
-type _defns__nodesElement {
+type Vendia__definitions_nodesElement {
     _owner: String
     bucketName: String
     description: String
     name: String
     region: String
     status: String
-    temporaryCredentials: _defns__nodesElement_temporaryCredentials
+    temporaryCredentials: Vendia__definitions_nodesElement_temporaryCredentials
     userEmail: String
     userId: String
-    vendiaAccount: _defns__nodesElement_vendiaAccount
+    vendiaAccount: Vendia__definitions_nodesElement_vendiaAccount
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **temporaryCredentials** - References a new type
 * **vendiaAccount** - References a new type
 
-#### _defns__nodesElement_temporaryCredentials Type
+#### Vendia__definitions_nodesElement_temporaryCredentials Type
 
-The new _defns__nodesElement_temporaryCredentials type in the GraphQL schema is modeled as:
+The new `Vendia__definitions_nodesElement_temporaryCredentials` type is modeled as:
 
 ```graphql
-type _defns__nodesElement_temporaryCredentials {
+type Vendia__definitions_nodesElement_temporaryCredentials {
     _owner: String
-    uploadFile: _defns__temporaryCredentials_uploadFile
+    uploadFile: Vendia__definitions_temporaryCredentials_uploadFile
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
 * **uploadFile** - References a new type
 
-#### _defns__temporaryCredentials_uploadFile Type
+#### Vendia__definitions_temporaryCredentials_uploadFile Type
 
-The new _defns__temporaryCredentials_uploadFile type in the GraphQL schema is modeled as:
+The new `Vendia__definitions_temporaryCredentials_uploadFile` type is modeled as:
 
 ```graphql
-type _defns__temporaryCredentials_uploadFile {
+type Vendia__definitions_temporaryCredentials_uploadFile {
     _owner: String
     accessKeyId: String
     expiration: String
@@ -323,16 +328,16 @@ type _defns__temporaryCredentials_uploadFile {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 
-#### _defns__nodesElement_vendiaAccount Type
+#### Vendia__definitions_nodesElement_vendiaAccount Type
 
-The new _defns__nodesElement_vendiaAccount type in the GraphQL schema is modeled as:
+The new `Vendia__definitions_nodesElement_vendiaAccount` type is modeled as:
 
 ```graphql
-type _defns__nodesElement_vendiaAccount {
+type Vendia__definitions_nodesElement_vendiaAccount {
     _owner: String
     accountId: String!
     csp: String!
@@ -341,23 +346,24 @@ type _defns__nodesElement_vendiaAccount {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
+* **csp** - New field, the cloud service provider
 
 ### Changes Applied to Settings
 
 #### _Settings Type
 
-The _Settings type in the GraphQL schema is now modeled as:
+The previous `_Settings` type is now modeled as `Vendia_Settings`:
 
 ```graphql
-type _Settings {
+type Vendia_Settings {
   _ResourceMapKeys: [String]
   _ResourceMapValues: [String]
   _owner: String
   apiSettings: _Settings_apiSettings
-  aws_DataDogMonitoring: _defns__aws_DataDogMonitoring
+  aws_DataDogMonitoring: Vendia__definitions_awsDataDogMonitoring
   aws_LambdaIngressAccounts: [String]
   aws_S3ReadAccounts: [String]
   aws_SQSIngressAccounts: [String]
@@ -373,71 +379,71 @@ type _Settings {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 * **apiSettings** - References a new type
 * **aws_DataDogMonitoring** - References a new type
 
-#### _apiSettings Type
+#### apiSettings Type
 
-The _apiSettings type in the GraphQL schema is now modeled as:
+The previous `apiSettings` type is now modeled as `Vendia_Settings_apiSettings`:
 
 ```graphql
-type _Settings_apiSettings {
+type Vendia_Settings_apiSettings {
   _owner: String
-  apiKeys: [_defns__apiSettings_apiKeysElement]
-  auth: _defns__apiSettings_auth
+  apiKeys: [Vendia__definitions_apiSettings_apiKeysElement]
+  auth: Vendia__definitions_apiSettings_auth
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 * **apiKeys** - References a new type
 * **auth** - References a new type
 
-#### _defns__apiSettings_apiKeysElement Type
+#### Vendia__definitions_apiSettings_apiKeysElement Type
 
-The _defns__apiSettings_apiKeysElement type in the GraphQL schema is now modeled as:
+The new `Vendia__definitions_apiSettings_apiKeysElement` type is modeled as:
 
 ```graphql
-type _defns__apiSettings_apiKeysElement {
+type Vendia__definitions_apiSettings_apiKeysElement {
     _owner: String
-    usagePlan: _defns__apiSettings_auth
+    usagePlan: Vendia__definitions_apiSettings_auth
     value: String
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 * **usagePlan** - References a new type
 
-#### _defns__apiSettings_auth Type
+#### Vendia__definitions_apiSettings_auth Type
 
-The _defns__apiSettings_auth type in the GraphQL schema is now modeled as:
+The new `Vendia__definitions_apiSettings_auth` type is modeled as:
 
 ```graphql
-type _defns__apiSettings_auth {
+type Vendia__definitions_apiSettings_auth {
     _owner: String
     allowedAccounts: [String]
     authorizerArn: String
-    authorizerType: _defns__auth_authorizerTypeEnum
+    authorizerType: Vendia__defintiions_auth_authorizerTypeEnum
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 * **authorizerType** - References a new type
 
-#### _defns__auth_authorizerTypeEnum Type
+#### Vendia__defintiions_auth_authorizerTypeEnum Type
 
-The _defns__auth_authorizerTypeEnum type in the GraphQL schema is now modeled as:
+The new `Vendia__defintiions_auth_authorizerTypeEnum` is modeled as:
 
 ```graphql
-enum _defns__auth_authorizerTypeEnum {
+enum Vendia__defintiions_auth_authorizerTypeEnum {
   API_KEY
   COGNITO
   CUSTOM
@@ -446,12 +452,12 @@ enum _defns__auth_authorizerTypeEnum {
 }
 ```
 
-#### _defns__aws_DataDogMonitoring Type
+#### Vendia__definitions_awsDataDogMonitoring Type
 
-The _defns__aws_DataDogMonitoring type in the GraphQL schema is now modeled as:
+The new `Vendia__definitions_awsDataDogMonitoring` type is modeled as:
 
 ```graphql
-type _defns__aws_DataDogMonitoring {
+type Vendia__definitions_awsDataDogMonitoring {
     _owner: String
     ddApiKey: String
     ddExternalId: String
@@ -460,9 +466,9 @@ type _defns__aws_DataDogMonitoring {
 }
 ```
 
-In addition to camelCase modifications, changes include:
+In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field
+* **_owner** - New field, the owner
 
 ## GraphQL Type Improvements
 
@@ -471,7 +477,7 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 ### Change Areas
 
 * **GraphQL Enumerations** - We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to allow customers to use enumerations directly in queries rather than treating them as strings. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
-* **GraphQL Filters** - Previously, Share modeled enumerations as strings in the GraphQL Schema, which caused confusion when using query parameters or otherwise filtering on enums. With the GraphQL Enumeration changes, Share now offers a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
+* **GraphQL Filters** - Previously, Share modeled enumerations as strings , which caused confusion when using query parameters or otherwise filtering on enums. With the GraphQL Enumeration changes, Share now offers a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
 
 ### Change Areas Applied to GraphQL Enumerations
 
