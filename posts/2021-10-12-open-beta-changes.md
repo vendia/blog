@@ -76,8 +76,8 @@ type Vendia_Block {
     previousBlockId: String
     previousRedactedBlockHash: String!
     redactedBlockHash: String!
-    status: _Block_statusEnum
-    transactions: [Vendia_Block_transactionsElement]!
+    status: Vendia_Block_statusEnum
+    transactions: [Vendia_Block_transactions_transactionsElement]!
 }
 ```
 In addition to type naming and camelCase field modifications, changes include:
@@ -89,30 +89,30 @@ In addition to type naming and camelCase field modifications, changes include:
 
 #### _Block_statusEnum Type
 
-The new `_Block_statusEnum` type is modeled as:
+The new `Vendia_Block_statusEnum` type is modeled as:
 
 ```graphql
 enum Vendia_Block_statusEnum {
-  APPLYING
-  COMMITTED
-  FAILED
+    APPLYING
+    COMMITTED
+    FAILED
 }
 ```
 
-#### Vendia_Block_transactionsElement Type
+#### Vendia_Block_transactions_transactionsElement Type
 
-The previous `_TX_element` type is now modeled as `Vendia_Block_transactionsElement`:
+The previous `_TX_element` type is now modeled as `Vendia_Block_transactions_transactionsElement`:
 
 ```graphql
-type Vendia_Block_transactionsElement {
-  _id: String!
-  _owner: String
-  hash: String!
-  mutations: [String]!
-  redactedHash: String
-  signature: String
-  submissionTime: String!
-  version: String
+type Vendia_Block_transactions_transactionsElement {
+    _id: String!
+    _owner: String
+    hash: String!
+    mutations: [String]!
+    redactedHash: String
+    signature: String
+    submissionTime: String!
+    version: String
 }
 ```
 In addition to type naming and camelCase field modifications, changes include:
@@ -262,7 +262,7 @@ type Vendia_UniInfo {
     createdTime: String
     localNodeName: String
     name: String!
-    nodes: [Vendia__definitions_nodesElement]!
+    nodes: [Vendia_UniInfo_nodes_nodesElement]!
     schema: String!
     sku: String
     status: String
@@ -275,22 +275,22 @@ In addition to type naming and camelCase field modifications, changes include:
 * **_owner** - New field, the owner
 * **nodes** - References a new type
 
-#### Vendia__definitions_nodesElement Type
+#### Vendia_UniInfo_nodes_nodesElement Type
 
-The new `Vendia__definitions_nodesElement` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesElement` type is modeled as:
 
 ```graphql
-type Vendia__definitions_nodesElement {
-    _owner: String
+type Vendia_UniInfo_nodes_nodesElement {
     bucketName: String
+    csp: Vendia_UniInfo_nodes_nodesElement_cspEnum
     description: String
-    name: String
-    region: String
+    name: String!
+    region: String!
     status: String
-    temporaryCredentials: Vendia__definitions_nodesElement_temporaryCredentials
+    temporaryCredentials: Vendia_UniInfo_nodes_nodesElement_temporaryCredentials
     userEmail: String
-    userId: String
-    vendiaAccount: Vendia__definitions_nodesElement_vendiaAccount
+    userId: String!
+    vendiaAccount: Vendia_UniInfo_nodes_nodesElement_vendiaAccount
 }
 ```
 
@@ -299,14 +299,13 @@ In addition to type naming and camelCase field modifications, changes include:
 * **temporaryCredentials** - References a new type
 * **vendiaAccount** - References a new type
 
-#### Vendia__definitions_nodesElement_temporaryCredentials Type
+#### Vendia_UniInfo_nodes_nodesElement_temporaryCredentials Type
 
-The new `Vendia__definitions_nodesElement_temporaryCredentials` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesElement_temporaryCredentials` type is modeled as:
 
 ```graphql
-type Vendia__definitions_nodesElement_temporaryCredentials {
-    _owner: String
-    uploadFile: Vendia__definitions_temporaryCredentials_uploadFile
+type Vendia_UniInfo_nodes_nodesElement_temporaryCredentials {
+    uploadFile: Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile
 }
 ```
 
@@ -314,13 +313,12 @@ In addition to type naming and camelCase field modifications, changes include:
 
 * **uploadFile** - References a new type
 
-#### Vendia__definitions_temporaryCredentials_uploadFile Type
+#### Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile Type
 
-The new `Vendia__definitions_temporaryCredentials_uploadFile` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile` type is modeled as:
 
 ```graphql
-type Vendia__definitions_temporaryCredentials_uploadFile {
-    _owner: String
+type Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile {
     accessKeyId: String
     expiration: String
     secretAccessKey: String
@@ -328,17 +326,12 @@ type Vendia__definitions_temporaryCredentials_uploadFile {
 }
 ```
 
-In addition to type naming and camelCase field modifications, changes include:
+#### Vendia_UniInfo_nodes_nodesElement_vendiaAccount Type
 
-* **_owner** - New field, the owner
-
-#### Vendia__definitions_nodesElement_vendiaAccount Type
-
-The new `Vendia__definitions_nodesElement_vendiaAccount` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesElement_vendiaAccount` type is modeled as:
 
 ```graphql
-type Vendia__definitions_nodesElement_vendiaAccount {
-    _owner: String
+type Vendia_UniInfo_nodes_nodesElement_vendiaAccount {
     accountId: String!
     csp: String!
     org: String
@@ -348,7 +341,6 @@ type Vendia__definitions_nodesElement_vendiaAccount {
 
 In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field, the owner
 * **csp** - New field, the cloud service provider
 
 ### Changes Applied to Settings
@@ -359,23 +351,23 @@ The previous `_Settings` type is now modeled as `Vendia_Settings`:
 
 ```graphql
 type Vendia_Settings {
-  _ResourceMapKeys: [String]
-  _ResourceMapValues: [String]
-  _owner: String
-  apiSettings: _Settings_apiSettings
-  aws_DataDogMonitoring: Vendia__definitions_awsDataDogMonitoring
-  aws_LambdaIngressAccounts: [String]
-  aws_S3ReadAccounts: [String]
-  aws_SQSIngressAccounts: [String]
-  aws_blockReportFirehoses: [String]
-  aws_blockReportLambdas: [String]
-  aws_blockReportSQSQueues: [String]
-  aws_deadLetterLambdas: [String]
-  aws_deadLetterSQSQueues: [String]
-  blockReportEmails: [String]
-  blockReportWebhooks: [String]
-  deadLetterEmails: [String]
-  deadLetterWebhooks: [String]
+    ResourceMapKeys: [String]
+    ResourceMapValues: [String]
+    _owner: String
+    apiSettings: Vendia_Settings_apiSettings
+    awsBlockReportFirehoses: [String]
+    awsBlockReportLambdas: [String]
+    awsBlockReportSQSQueues: [String]
+    awsDataDogMonitoring: Vendia_Settings_awsDataDogMonitoring
+    awsDeadLetterLambdas: [String]
+    awsDeadLetterSQSQueues: [String]
+    awsLambdaIngressAccounts: [String]
+    awsS3ReadAccounts: [String]
+    awsSQSIngressAccounts: [String]
+    blockReportEmails: [String]
+    blockReportWebhooks: [String]
+    deadLetterEmails: [String]
+    deadLetterWebhooks: [String]
 }
 ```
 
@@ -391,74 +383,67 @@ The previous `apiSettings` type is now modeled as `Vendia_Settings_apiSettings`:
 
 ```graphql
 type Vendia_Settings_apiSettings {
-  _owner: String
-  apiKeys: [Vendia__definitions_apiSettings_apiKeysElement]
-  auth: Vendia__definitions_apiSettings_auth
+    apiKeys: [Vendia_Settings_apiSettings_apiKeys_apiKeysElement]
+    auth: Vendia_Settings_apiSettings_auth
 }
 ```
 
 In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field, the owner
 * **apiKeys** - References a new type
 * **auth** - References a new type
 
-#### Vendia__definitions_apiSettings_apiKeysElement Type
+#### Vendia_Settings_apiSettings_apiKeys_apiKeysElement Type
 
-The new `Vendia__definitions_apiSettings_apiKeysElement` type is modeled as:
+The new `Vendia_Settings_apiSettings_apiKeys_apiKeysElement` type is modeled as:
 
 ```graphql
-type Vendia__definitions_apiSettings_apiKeysElement {
-    _owner: String
-    usagePlan: Vendia__definitions_apiSettings_auth
+type Vendia_Settings_apiSettings_apiKeys_apiKeysElement {
+    usagePlan: Vendia_Settings_apiSettings_apiKeys_apiKeysElement_usagePlan
     value: String
 }
 ```
 
 In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field, the owner
 * **usagePlan** - References a new type
 
-#### Vendia__definitions_apiSettings_auth Type
+#### Vendia_Settings_apiSettings_auth Type
 
-The new `Vendia__definitions_apiSettings_auth` type is modeled as:
+The new `Vendia_Settings_apiSettings_auth` type is modeled as:
 
 ```graphql
-type Vendia__definitions_apiSettings_auth {
-    _owner: String
+type Vendia_Settings_apiSettings_auth {
     allowedAccounts: [String]
     authorizerArn: String
-    authorizerType: Vendia__definitions_auth_authorizerTypeEnum
+    authorizerType: Vendia_Settings_apiSettings_auth_authorizerTypeEnum
 }
 ```
 
 In addition to type naming and camelCase field modifications, changes include:
 
-* **_owner** - New field, the owner
 * **authorizerType** - References a new type
 
-#### Vendia__definitions_auth_authorizerTypeEnum Type
+#### Vendia_Settings_apiSettings_auth_authorizerTypeEnum Type
 
-The new `Vendia__definitions_auth_authorizerTypeEnum` is modeled as:
+The new `Vendia_Settings_apiSettings_auth_authorizerTypeEnum` is modeled as:
 
 ```graphql
-enum Vendia__definitions_auth_authorizerTypeEnum {
-  API_KEY
-  COGNITO
-  CUSTOM
-  IAM
-  VENDIA_USER
+enum Vendia_Settings_apiSettings_auth_authorizerTypeEnum {
+    API_KEY
+    COGNITO
+    CUSTOM
+    IAM
+    VENDIA_USER
 }
 ```
 
-#### Vendia__definitions_awsDataDogMonitoring Type
+#### Vendia_Settings_awsDataDogMonitoring Type
 
-The new `Vendia__definitions_awsDataDogMonitoring` type is modeled as:
+The new `Vendia_Settings_awsDataDogMonitoring` type is modeled as:
 
 ```graphql
-type Vendia__definitions_awsDataDogMonitoring {
-    _owner: String
+type Vendia_Settings_awsDataDogMonitoring {
     ddApiKey: String
     ddExternalId: String
     ddLogEndpoint: String
@@ -466,19 +451,15 @@ type Vendia__definitions_awsDataDogMonitoring {
 }
 ```
 
-In addition to type naming and camelCase field modifications, changes include:
-
-* **_owner** - New field, the owner
-
 ### Changes Applied to User Types
 
 #### JSON Schema $defs
 
-User types defined via JSON Schema `$defs` are now prefixed with two underscores (__):
+User types defined via JSON Schema `$defs` are now prefixed with `defs_`:
 
 ```graphql
 type MyUserType {
-    myDefsField: __defs_MyType
+    myDefsField: defs_MyType
     myRegularField: String
 }
 ```
@@ -487,11 +468,11 @@ User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and 
 
 #### JSON Schema definitions
 
-User types defined via JSON Schema `definitions` are now prefixed with a single underscore (_):
+User types defined via JSON Schema `definitions` are now prefixed with `definitions_`:
 
 ```graphql
 type MyUserType {
-    myDefinitionsField: _definitions_MyType
+    myDefinitionsField: definitions_MyType
     myRegularField: String
 }
 ```
