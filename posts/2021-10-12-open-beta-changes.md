@@ -429,7 +429,7 @@ type Vendia__definitions_apiSettings_auth {
     _owner: String
     allowedAccounts: [String]
     authorizerArn: String
-    authorizerType: Vendia__defintiions_auth_authorizerTypeEnum
+    authorizerType: Vendia__definitions_auth_authorizerTypeEnum
 }
 ```
 
@@ -438,12 +438,12 @@ In addition to type naming and camelCase field modifications, changes include:
 * **_owner** - New field, the owner
 * **authorizerType** - References a new type
 
-#### Vendia__defintiions_auth_authorizerTypeEnum Type
+#### Vendia__definitions_auth_authorizerTypeEnum Type
 
-The new `Vendia__defintiions_auth_authorizerTypeEnum` is modeled as:
+The new `Vendia__definitions_auth_authorizerTypeEnum` is modeled as:
 
 ```graphql
-enum Vendia__defintiions_auth_authorizerTypeEnum {
+enum Vendia__definitions_auth_authorizerTypeEnum {
   API_KEY
   COGNITO
   CUSTOM
