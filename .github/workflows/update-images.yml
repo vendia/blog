@@ -26,6 +26,7 @@ jobs:
   # Update the image links in all markdown files
   update:
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
     strategy:
       matrix:
         os: [ubuntu-latest]
