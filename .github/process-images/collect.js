@@ -3,6 +3,8 @@ const { URL } = require('url')
 const { download } = require('./utils/download')
 const { getLinks, getImageLinks, getMarkdownData } = require('../utils')
 
+const debugLog = (process.env.DEBUG) ? console.log : () => {}
+
 async function collectImages({
   outputDir,
   markdownGlob = [],
@@ -10,6 +12,7 @@ async function collectImages({
   include = []
 }) {
   const [ mdData ] = await getMarkdownData(markdownGlob)
+  debugLog('mdData', mdData)
 
   const imageData = mdData.reduce((acc, mdInfo) => {
     const { links } = getLinks(mdInfo.content)
@@ -29,7 +32,7 @@ async function collectImages({
     byFile: {},
     images: []
   })
-  // console.log('imageData', imageData)
+  debugLog('imageData', imageData)
   
   /* Exclude patterns */
   const trimmedList = imageData.images.filter(([url]) => {

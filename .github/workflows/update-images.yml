@@ -10,6 +10,9 @@ on:
     # Only if markdown changes
     paths: ['posts/**/**.md', 'posts/**/**.mdx']
 
+env:
+  DEBUG: true
+
 jobs:
   # Cancel any duplicate already running jobs
   pre-job:
