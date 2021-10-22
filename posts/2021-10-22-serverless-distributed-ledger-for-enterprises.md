@@ -1,6 +1,7 @@
 ---
 title: "A Serverless Distributed Ledger for Enterprises"
 description: "HICSS Talk Summary & Full Research Paper"
+date: '2021-10-22'
 tag:
   - serverless
   - distributed-ledger
@@ -38,7 +39,8 @@ Our research indicates that our current implementation already improves on multi
 
 Here are a couple figures: one that shows maximum ingress rates for different intercontinental network configurations, and the following that compares per-transaction costs for Fabric, Quorum and our serverless solution depending on average throughput, illustrating that we can also lower the costs of transactions (even for private, permissioned networks) dramatically … while costs versus public networks such as Ethereum are many orders of magnitude lower.
 
-<img width="255" alt="max-ingress-rate" src="https://user-images.githubusercontent.com/71095088/137004907-af71e788-b3bc-4780-8cb9-38756e4d084b.png"><img width="270" alt="costs-per-m-transactions" src="https://user-images.githubusercontent.com/71095088/137005314-be0ffd22-43f7-4c90-9471-22ff7f23b0e2.png">
+<img width="255" alt="max-ingress-rate" src="https://user-images.githubusercontent.com/71095088/137004907-af71e788-b3bc-4780-8cb9-38756e4d084b.png"/>
+<img width="270" alt="costs-per-m-transactions" src="https://user-images.githubusercontent.com/71095088/137005314-be0ffd22-43f7-4c90-9471-22ff7f23b0e2.png"/>
 
 # Get the Paper
 
