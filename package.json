@@ -11,7 +11,7 @@
     "validate": "uvu .github .test.js",
     "process": "node .github/process-images",
     "test": "npm run validate && npm run checklinks",
-    "checklinks": "linkinator 'posts/**/*.md' --markdown --skip '^https://github.com/vendia/vendia|www.linkedin.com'"
+    "checklinks": "linkinator 'posts/**/*.md' --config ./.github/linkinator.config.json"
   },
   "homepage": "https://github.com/vendia/blog#readme",
   "repository": {

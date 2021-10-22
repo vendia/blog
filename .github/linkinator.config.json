@@ -1,0 +1,14 @@
+{
+  "recurse": true,
+  "markdown": true,
+  "directoryListing": true,
+  "skip": [
+    "https://codecov.io/gh/googleapis/",
+    "www.googleapis.com",
+    "www.linkedin.com",
+    "img.shields.io",
+    "https://github.com/vendia/vendia",
+    "https://hicss.hawaii.edu"
+  ],
+  "concurrency": 10
+}
