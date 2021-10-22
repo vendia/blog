@@ -67,7 +67,7 @@ test('Docs validation', async () => {
     }
 
     /* Verify frontmatter */
-    const { title, description, authors, categories } = data
+    const { title, date, description, authors, categories } = data
 
     /* Titles must provided */
     if (!title) {
@@ -76,6 +76,22 @@ test('Docs validation', async () => {
     ─────
     title: "My 50-60 character Human & Keyword Friendly title"
     ─────`)
+    }
+
+    /* Date must provided */
+    if (!date) {
+      errors.push(`Missing "date" frontmatter field in ${file}
+    Please add:
+    ─────
+    date: "YYYY-MM-DD"
+    ─────`)
+    }
+    
+    /* Date must be YYYY-MM-DD */
+    if (date && !date.match(/\d{4}-\d{2}-\d{2}/)) {
+      errors.push(`Malformed "date" field in ${file}
+    "${date}" is invalid value.
+    Format must be YYYY-MM-DD. E.g. 2021-01-01`)
     }
    
     /* Descriptions must provided */
