@@ -68,7 +68,7 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
       - name: Run if true
         if: steps.committer.outputs.has_changes == 'true'
-        run: echo 'Has image updates
+        run: echo 'Has image updates'
       - name: Run if false
         if: steps.committer.outputs.has_changes == 'false'
         run: echo 'No image updates'
