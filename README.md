@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [A Serverless Distributed Ledger for Enterprises](https://vendia.net/blog/serverless-distributed-ledger-for-enterprises) <br/> HICSS Talk Summary & Full Research Paper by Tim Wagner | 2021-10-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md)
 | [Open Beta Changes](https://vendia.net/blog/open-beta-changes) <br/> Changes to Vendia Share in advance of the Open Beta by James Gimourginas + Brian McNamara | 2021-10-12 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-12-open-beta-changes.md)
 | [Five Leadership Practices of an Ultramarathoner](https://vendia.net/blog/leadership-practices-of-an-ultramarathoner) <br/> How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development by James Gimourginas | 2021-09-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md)
 | [Toward a Distributed Application Maturity Model](https://vendia.net/blog/distributed-application-maturity-model) <br/> A Maturity Model to help you assess the distributed applications used by your organization by James Gimourginas | 2021-09-07 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-07-distributed-application-maturity-model.md)
@@ -58,7 +59,6 @@ Welcome to the Vendia blog repo!
 | [Track and Trace using Vendia Unis + Blobs](https://vendia.net/blog/track-and-trace) <br/> Learn about how Vendia Unis + Blobs functionality can help streamline common supply chain track & trace issues by Glenn Dierkes | 2020-11-05 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-11-05-track-and-trace.md)
 | [Meet Vendia's founders](https://vendia.net/blog/meet-vendias-founders) <br/> Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO by Tim Wagner + Shruthi Rao | 2020-07-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-07-01-meet-vendias-founders.md)
 | [Welcome to Vendia](https://vendia.net/blog/welcome-to-vendia) <br/> Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks by Tim Wagner + Shruthi Rao | 2020-06-30 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-06-30-welcome-to-vendia.md)
-| [A Serverless Distributed Ledger for Enterprises](https://vendia.net/blog/serverless-distributed-ledger-for-enterprises) <br/> HICSS Talk Summary & Full Research Paper by Tim Wagner | undefined | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md)
 
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
 
