@@ -42,5 +42,5 @@ Here are a couple figures: one that shows maximum ingress rates for different in
 
 # Get the Paper
 
-Check out the full research paper here on [arXiv]() for more detail, including our plan for future research, references, and more.
+Check out the full research paper here on [arXiv](https://arxiv.org/pdf/2110.09221v1.pdf) for more detail, including our plan for future research, references, and more.
 
