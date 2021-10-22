@@ -42,6 +42,7 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
   ).map((content) => (content || '').trim())
 
   const data = contents.map((text, i) => {
+    // console.log('contents', filePaths[i])
     const markdownData = formatMD(text, filePaths[i])
     if (markdownData.errors) {
       errors = errors.concat(markdownData.errors)
@@ -135,8 +136,11 @@ function formatMD(text, filePath) {
   }
 
   const { links } = getLinks(text, filePath)
+  // console.log(`links ${filePath}`, filePath)
   const images = getImageLinks(links)
+  // console.log(`images ${filePath}`, images)
   const htmlTags = parseHtmlProps(text)
+  // console.log(`htmlTags ${filePath}`, htmlTags)
 
   return {
     errors,
@@ -194,7 +198,7 @@ function parseHtmlProps(mdContents) {
   if (htmlTags) {
     let propsValues = {}
     // var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/
-    var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>([\s\S]*?)<\/\1>|\s+\/>)/
+    var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>([\s\S]*?)<\/\1>|\s*\/>)/
     for (var i = 0; i < htmlTags.length; i++) {
       var tagMatches = regexSingleTag.exec(htmlTags[i])
       // console.log('tagMatches', tagMatches)
