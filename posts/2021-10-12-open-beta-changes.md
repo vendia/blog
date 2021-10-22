@@ -455,11 +455,11 @@ type Vendia_Settings_awsDataDogMonitoring {
 
 #### JSON Schema $defs
 
-User types defined via JSON Schema `$defs` are now prefixed with `defs_`:
+User types defined via JSON Schema `$defs` are now prefixed with `__defs_`:
 
 ```graphql
 type MyUserType {
-    myDefsField: defs_MyType
+    myDefsField: __defs_MyType
     myRegularField: String
 }
 ```
@@ -468,11 +468,11 @@ User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and 
 
 #### JSON Schema definitions
 
-User types defined via JSON Schema `definitions` are now prefixed with `definitions_`:
+User types defined via JSON Schema `definitions` are now prefixed with `_definitions_`:
 
 ```graphql
 type MyUserType {
-    myDefinitionsField: definitions_MyType
+    myDefinitionsField: _definitions_MyType
     myRegularField: String
 }
 ```
