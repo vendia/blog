@@ -466,29 +466,29 @@ type Vendia_Settings_aws_dataDogMonitoring {
 
 #### JSON Schema $defs
 
-User types defined via JSON Schema `$defs` are now prefixed with `__defs_`:
+User types defined via JSON Schema `$defs` are now prefixed with `<UserNamespace>___defs_`:
 
 ```graphql
 type MyUserType {
-    myDefsField: __defs_MyType
+    myDefsField: MyNamespace__defs_MyType
     myRegularField: String
 }
 ```
 
-User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and must not include an underscore (_) themselves.
+The example shown assumes `MyNamespace` is the value of `<UserNamespace>`.  User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and must not include an underscore (_) themselves.
 
 #### JSON Schema definitions
 
-User types defined via JSON Schema `definitions` are now prefixed with `_definitions_`:
+User types defined via JSON Schema `definitions` are now prefixed with `<UserNamespace>__definitions_`:
 
 ```graphql
 type MyUserType {
-    myDefinitionsField: _definitions_MyType
+    myDefinitionsField: MyNamespace__definitions_MyType
     myRegularField: String
 }
 ```
 
-User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and must not include an underscore (_) themselves.
+The example shown assumes `MyNamespace` is the value of `<UserNamespace>`.  User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and must not include an underscore (_) themselves.
 
 ## GraphQL Type Improvements
 
