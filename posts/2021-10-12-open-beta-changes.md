@@ -27,7 +27,9 @@ We value the experience of our current and future customers and, while we strive
 
 To create a new Uni that has access to these improvements, no further action is required. Create a new Uni [as you normally would](https://www.vendia.net/docs/share/uni-creation) and you'll have access to the latest and great features of Vendia Share. [Our documentation](https://www.vendia.net/docs/share) has been updated to reflect all of the recent changes so please read through carefully as you get reacclimated with Share.
 
-The remainder of this post is focused on the Vendia Share client changes that may be required to migrate an existing Uni to the latest and greatest version of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
+The remainder of this post focuses on the Vendia Share client changes that may be required to migrate an existing Uni to the latest and greatest version of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.  
+
+If you have questions as you prepare for this migration, please reach out to us through our existing customer support channels or at [support@vendia.net](mailto:support@vendia.net).
 
 ## GraphQL Schema and Type Improvements 
 
@@ -282,7 +284,6 @@ The new `Vendia_UniInfo_nodes_nodesElement` type is modeled as:
 ```graphql
 type Vendia_UniInfo_nodes_nodesElement {
     bucketName: String
-    csp: Vendia_UniInfo_nodes_nodesElement_cspEnum
     description: String
     name: String!
     region: String!
@@ -351,23 +352,15 @@ The previous `_Settings` type is now modeled as `Vendia_Settings`:
 
 ```graphql
 type Vendia_Settings {
-    ResourceMapKeys: [String]
-    ResourceMapValues: [String]
     _owner: String
     apiSettings: Vendia_Settings_apiSettings
-    awsBlockReportFirehoses: [String]
-    awsBlockReportLambdas: [String]
-    awsBlockReportSQSQueues: [String]
-    awsDataDogMonitoring: Vendia_Settings_awsDataDogMonitoring
-    awsDeadLetterLambdas: [String]
-    awsDeadLetterSQSQueues: [String]
-    awsLambdaIngressAccounts: [String]
-    awsS3ReadAccounts: [String]
-    awsSQSIngressAccounts: [String]
+    aws: Vendia_Settings_aws
     blockReportEmails: [String]
     blockReportWebhooks: [String]
     deadLetterEmails: [String]
     deadLetterWebhooks: [String]
+    resourceMapKeys: [String]
+    resourceMapValues: [String]
 }
 ```
 
@@ -375,7 +368,7 @@ In addition to type naming and camelCase field modifications, changes include:
 
 * **_owner** - New field, the owner
 * **apiSettings** - References a new type
-* **aws_DataDogMonitoring** - References a new type
+* **aws** - References a new type
 
 #### apiSettings Type
 
@@ -438,12 +431,30 @@ enum Vendia_Settings_apiSettings_auth_authorizerTypeEnum {
 }
 ```
 
-#### Vendia_Settings_awsDataDogMonitoring Type
+#### Vendia_Settings_aws Type
 
-The new `Vendia_Settings_awsDataDogMonitoring` type is modeled as:
+The new `Vendia_Settings_aws` type is modeled as:
 
 ```graphql
-type Vendia_Settings_awsDataDogMonitoring {
+type Vendia_Settings_aws {
+    blockReportFirehoses: [String]
+    blockReportLambdas: [String]
+    blockReportSQSQueues: [String]
+    dataDogMonitoring: Vendia_Settings_aws_dataDogMonitoring
+    deadLetterLambdas: [String]
+    deadLetterSQSQueues: [String]
+    lambdaIngressAccounts: [String]
+    s3ReadAccounts: [String]
+    sqsIngressAccounts: [String]
+}
+```
+
+#### Vendia_Settings_aws_dataDogMonitoring Type
+
+The new `Vendia_Settings_aws_dataDogMonitoring` type is modeled as:
+
+```graphql
+type Vendia_Settings_aws_dataDogMonitoring {
     ddApiKey: String
     ddExternalId: String
     ddLogEndpoint: String
