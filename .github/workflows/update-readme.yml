@@ -24,6 +24,7 @@ jobs:
   # Update the posts list of the repo
   update:
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 2
     strategy:
       matrix:
         os: [ubuntu-latest]
