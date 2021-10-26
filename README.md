@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Website Case Studies](https://vendia.net/blog/website-case-studies) <br/> Learn what Vendia customers and partners are building on the Share platform by James Gimourginas | 2021-10-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-26-website-case-studies.md)
 | [A Serverless Distributed Ledger for Enterprises](https://vendia.net/blog/serverless-distributed-ledger-for-enterprises) <br/> HICSS Talk Summary & Full Research Paper by Tim Wagner | 2021-10-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md)
 | [Open Beta Changes](https://vendia.net/blog/open-beta-changes) <br/> Changes to Vendia Share in advance of the Open Beta by James Gimourginas + Brian McNamara | 2021-10-12 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-12-open-beta-changes.md)
 | [Five Leadership Practices of an Ultramarathoner](https://vendia.net/blog/leadership-practices-of-an-ultramarathoner) <br/> How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development by James Gimourginas | 2021-09-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md)
