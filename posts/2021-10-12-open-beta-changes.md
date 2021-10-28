@@ -13,7 +13,7 @@ authors:
 _This post has been updated since it was first published._
 
 * **10/15/2021** - Section Added - [Requiring Authorizer Type During Uni Creation](#requiring-authorizer-type-during-uni-creation)
-* **10/22/2021** - Section Updated - [GraphQL Schema and Type Improvements](#graphql-schema-and-type-improvements)
+* **10/29/2021** - Section Updated - [GraphQL Schema and Type Improvements](#graphql-schema-and-type-improvements)
 
 ## Overview
 
@@ -51,12 +51,12 @@ The schema and type improvements can be categorized across a few key change area
 * **Prefixing all Vendia fields with a _** - We've modified our internal GraphQL Schema generator to prefix all Vendia specific field names with an underscore ("_"). This is now consistently applied across all fields, including the "id" (now "_id") field. This will make the intention of each field clearer and will help avoid field name collisions.
 * **Adding an "_owner" field to Files and Folders** - We've added a new field called "_owner" to the File and Folder entities provided by Share. This will help more easily identify the creator of a File or Folder and will also enable delegation of ownership in the future.
 * **Renaming fields and updating types** - We've renamed fields that historically weren't easily understood. We've also improved our support of native GraphQL types, such as enums. These two improvements together will allow for a first-class GraphQL integration experience for new and existing users.
-* **Adopting a new naming convention for Vendia definitions, $defs, types, objects, enumerations, and arrays** - We've changed our Vendia naming conventions to include a Vendia-specific prefix.  This will increase consistency among Vendia-provided type names and prevent user/Vendia type name collisions.
-* **Adopting a new naming convention for user definitions and $defs** - We've changed the naming conventions for user provided `definitions` and `$defs`.  This, along with the change above, will prevent user/Vendia type name collisions.  Further, it enables users to import additional schema files without the risk of breaking changes or collisions, greatly increasing the complexity of the data models Vendia Share can support.
+* **Adopting a new naming convention for Vendia types** - We've changed the naming conventions of Vendia types to include a Vendia-specific prefix to definitions, $defs, objects, arrays, and enumerations.  This will increase consistency among Vendia-provided type names and prevent user/Vendia type name collisions.
+* **Adopting a new naming convention for User types** - We've changed the naming conventions of User types  user provided to include a namespace prefix to definitions, $defs, objects, arrays, and enumerations.  This, along with the change above, will prevent user/Vendia type name collisions.  Further, it enables users to import additional schema files without the risk of breaking changes or collisions, greatly increasing the complexity of the data models Vendia Share can support.
 
 The remainder of this section outlines how the change areas above impact existing Vendia and User types.
 
-In addition to these type name changes, equivalent changes have been applied to corresponding `Query`, `Mutation`, and `Subscription` operations and corresponding `FilterInput` and `Result` types.  
+In addition to these type name changes, equivalent changes have been applied to corresponding `Query`, `Mutation`, and `Subscription` operations.  Similar changes have been made to related, Vendia-generated types, such as `**Input`, `**Result`, `**Connection`, `**Partial`, among others.  
 
 Remember, you can use [GraphQL introspection](https://graphql.org/learn/introspection/) against your Uni's GraphQL endpoint to retrieve a complete GraphQL schema for your Uni at any time.
 
@@ -79,7 +79,7 @@ type Vendia_Block {
     previousRedactedBlockHash: String!
     redactedBlockHash: String!
     status: Vendia_Block_statusEnum
-    transactions: [Vendia_Block_transactions_transactionsElement]!
+    transactions: [Vendia_Block_transactions_transactionsItem]!
 }
 ```
 In addition to type naming and camelCase field modifications, changes include:
@@ -101,12 +101,12 @@ enum Vendia_Block_statusEnum {
 }
 ```
 
-#### Vendia_Block_transactions_transactionsElement Type
+#### Vendia_Block_transactions_transactionsItem Type
 
-The previous `_TX_element` type is now modeled as `Vendia_Block_transactions_transactionsElement`:
+The previous `_TX_element` type is now modeled as `Vendia_Block_transactions_transactionsItem`:
 
 ```graphql
-type Vendia_Block_transactions_transactionsElement {
+type Vendia_Block_transactions_transactionsItem {
     _id: String!
     _owner: String
     hash: String!
@@ -124,6 +124,19 @@ In addition to type naming and camelCase field modifications, changes include:
 * **hash** - Replaces "TxHash"
 * **redactedHash** - Replaces "RedactedTxHash"
 * **signature** - Replaces "sig" 
+
+#### Vendia Generated Types
+
+As mentioned above, Vendia generated type names have changed.  This includes Vendia-generated types, such as `**Input`, `**Result`, `**Connection`, and `**Partial` types, among others.
+
+For example, the previous `Block_Result` type is now modeled as `Vendia_Block_Result_` (note the trailing `_`):
+
+```graphql
+type Vendia_Block_Result_ {
+    error: String
+    result: Vendia_Block
+}
+```
 
 ### Change Areas Applied to Files and Folders
 
@@ -231,6 +244,19 @@ In addition to type naming and camelCase field modifications, changes include:
 * **transactionId** - Replaces "tx_id"
 * **version** - Replaces "tx_version"
 
+#### Vendia Generated Types
+
+As mentioned above, Vendia generated type names have changed.  This includes Vendia-generated types, such as `**Input`, `**Result`, `**Connection`, and `**Partial` types, among others.
+
+For example, the previous `File_Result` type is now modeled as `Vendia_File_Result_` (note the trailing `_`):
+
+```graphql
+type Vendia_File_Result_ {
+    error: String
+    result: Vendia_File
+}
+```
+
 ### Change Areas Applied to DeploymentInfo
 
 #### _DeploymentInfo Type
@@ -252,6 +278,19 @@ In addition to type naming and camelCase field modifications, changes include:
 * **_id** - Includes the "_" prefix
 * **_owner** - New field, the owner
 
+#### Vendia Generated Types
+
+As mentioned above, Vendia generated type names have changed.  This includes Vendia-generated types, such as `**Input`, `**Result`, `**Connection`, and `**Partial` types, among others.
+
+For example, the previous `DeploymentInfo_Result` type is now modeled as `Vendia_DeploymentInfo_Result_` (note the trailing `_`):
+
+```graphql
+type Vendia_DeploymentInfo_Result_ {
+    error: String
+    result: Vendia_DeploymentInfo
+}
+```
+
 ### Change Areas Applied to UniInfo
 
 #### _UniInfo Type
@@ -264,8 +303,9 @@ type Vendia_UniInfo {
     createdTime: String
     localNodeName: String
     name: String!
-    nodes: [Vendia_UniInfo_nodes_nodesElement]!
+    nodes: [Vendia_UniInfo_nodes_nodesItem]!
     schema: String!
+    schemaNamespace: String
     sku: String
     status: String
     updatedTime: String
@@ -277,21 +317,21 @@ In addition to type naming and camelCase field modifications, changes include:
 * **_owner** - New field, the owner
 * **nodes** - References a new type
 
-#### Vendia_UniInfo_nodes_nodesElement Type
+#### Vendia_UniInfo_nodes_nodesItem Type
 
-The new `Vendia_UniInfo_nodes_nodesElement` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesItem` type is modeled as:
 
 ```graphql
-type Vendia_UniInfo_nodes_nodesElement {
+type Vendia_UniInfo_nodes_nodesItem {
     bucketName: String
     description: String
     name: String!
     region: String!
     status: String
-    temporaryCredentials: Vendia_UniInfo_nodes_nodesElement_temporaryCredentials
+    temporaryCredentials: Vendia_UniInfo_nodes_nodesItem_temporaryCredentials
     userEmail: String
     userId: String!
-    vendiaAccount: Vendia_UniInfo_nodes_nodesElement_vendiaAccount
+    vendiaAccount: Vendia_UniInfo_nodes_nodesItem_vendiaAccount
 }
 ```
 
@@ -300,13 +340,13 @@ In addition to type naming and camelCase field modifications, changes include:
 * **temporaryCredentials** - References a new type
 * **vendiaAccount** - References a new type
 
-#### Vendia_UniInfo_nodes_nodesElement_temporaryCredentials Type
+#### Vendia_UniInfo_nodes_nodesItem_temporaryCredentials Type
 
-The new `Vendia_UniInfo_nodes_nodesElement_temporaryCredentials` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesItem_temporaryCredentials` type is modeled as:
 
 ```graphql
-type Vendia_UniInfo_nodes_nodesElement_temporaryCredentials {
-    uploadFile: Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile
+type Vendia_UniInfo_nodes_nodesItem_temporaryCredentials {
+    uploadFile: Vendia_UniInfo_nodes_nodesItem_temporaryCredentials_uploadFile
 }
 ```
 
@@ -314,12 +354,12 @@ In addition to type naming and camelCase field modifications, changes include:
 
 * **uploadFile** - References a new type
 
-#### Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile Type
+#### Vendia_UniInfo_nodes_nodesItem_temporaryCredentials_uploadFile Type
 
-The new `Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesItem_temporaryCredentials_uploadFile` type is modeled as:
 
 ```graphql
-type Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile {
+type Vendia_UniInfo_nodes_nodesItem_temporaryCredentials_uploadFile {
     accessKeyId: String
     expiration: String
     secretAccessKey: String
@@ -327,12 +367,12 @@ type Vendia_UniInfo_nodes_nodesElement_temporaryCredentials_uploadFile {
 }
 ```
 
-#### Vendia_UniInfo_nodes_nodesElement_vendiaAccount Type
+#### Vendia_UniInfo_nodes_nodesItem_vendiaAccount Type
 
-The new `Vendia_UniInfo_nodes_nodesElement_vendiaAccount` type is modeled as:
+The new `Vendia_UniInfo_nodes_nodesItem_vendiaAccount` type is modeled as:
 
 ```graphql
-type Vendia_UniInfo_nodes_nodesElement_vendiaAccount {
+type Vendia_UniInfo_nodes_nodesItem_vendiaAccount {
     accountId: String!
     csp: String!
     org: String
@@ -343,6 +383,19 @@ type Vendia_UniInfo_nodes_nodesElement_vendiaAccount {
 In addition to type naming and camelCase field modifications, changes include:
 
 * **csp** - New field, the cloud service provider
+
+#### Vendia Generated Types
+
+As mentioned above, Vendia generated type names have changed.  This includes Vendia-generated types, such as `**Input`, `**Result`, `**Connection`, and `**Partial` types, among others.
+
+For example, the previous `UniInfo_Result` type is now modeled as `Vendia_UniInfo_Result_` (note the trailing `_`):
+
+```graphql
+type Vendia_UniInfo_Result_ {
+    error: String
+    result: Vendia_UniInfo
+}
+```
 
 ### Changes Applied to Settings
 
@@ -376,7 +429,7 @@ The previous `apiSettings` type is now modeled as `Vendia_Settings_apiSettings`:
 
 ```graphql
 type Vendia_Settings_apiSettings {
-    apiKeys: [Vendia_Settings_apiSettings_apiKeys_apiKeysElement]
+    apiKeys: [Vendia_Settings_apiSettings_apiKeys_apiKeysItem]
     auth: Vendia_Settings_apiSettings_auth
 }
 ```
@@ -386,13 +439,13 @@ In addition to type naming and camelCase field modifications, changes include:
 * **apiKeys** - References a new type
 * **auth** - References a new type
 
-#### Vendia_Settings_apiSettings_apiKeys_apiKeysElement Type
+#### Vendia_Settings_apiSettings_apiKeys_apiKeysItem Type
 
-The new `Vendia_Settings_apiSettings_apiKeys_apiKeysElement` type is modeled as:
+The new `Vendia_Settings_apiSettings_apiKeys_apiKeysItem` type is modeled as:
 
 ```graphql
-type Vendia_Settings_apiSettings_apiKeys_apiKeysElement {
-    usagePlan: Vendia_Settings_apiSettings_apiKeys_apiKeysElement_usagePlan
+type Vendia_Settings_apiSettings_apiKeys_apiKeysItem {
+    usagePlan: Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan
     value: String
 }
 ```
@@ -400,6 +453,53 @@ type Vendia_Settings_apiSettings_apiKeys_apiKeysElement {
 In addition to type naming and camelCase field modifications, changes include:
 
 * **usagePlan** - References a new type
+
+#### Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan Type
+
+The new `Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan` type is modeled as:
+
+```graphql
+type Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan {
+  quotaSettings: Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings
+  throttleSettings: Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_throttleSettings
+}
+```
+
+#### Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings Type
+
+The new `Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings` type is modeled as:
+
+```graphql
+type Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings {
+  limit: Float
+  offset: Float
+  period: Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings_periodEnum
+}
+```
+
+#### Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings_periodEnum Type
+
+The new `Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings_periodEnum` type is modeled as:
+
+```graphql
+enum Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_quotaSettings_periodEnum {
+  DAY
+  MONTH
+  WEEK
+}
+```
+
+#### Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_throttleSettings Type
+
+The new `Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_throttleSettings` type is modeled as:
+
+
+```graphql
+type Vendia_Settings_apiSettings_apiKeys_apiKeysItem_usagePlan_throttleSettings {
+  burstLimit: Float
+  rateLimit: Float
+}
+```
 
 #### Vendia_Settings_apiSettings_auth Type
 
@@ -462,29 +562,42 @@ type Vendia_Settings_aws_dataDogMonitoring {
 }
 ```
 
-### Changes Applied to User Types
+#### Vendia Generated Types
 
-#### JSON Schema $defs
+As mentioned above, Vendia generated type names have changed.  This includes Vendia-generated types, such as `**Input`, `**Result`, `**Connection`, and `**Partial` types, among others.
 
-User types defined via JSON Schema `$defs` are now prefixed with `<UserNamespace>___defs_`:
+For example, the previous `Settings_Result` type is now modeled as `Vendia_Settings_Result_` (note the trailing `_`):
 
 ```graphql
-type MyUserType {
-    myDefsField: MyNamespace__defs_MyType
-    myRegularField: String
+type Vendia_Settings_Result_ {
+    error: String
+    result: Vendia_Settings
 }
 ```
 
-The example shown assumes `MyNamespace` is the value of `<UserNamespace>`.  User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and must not include an underscore (_) themselves.
+### Changes Applied to User Types
+
+#### JSON Schema types
+
+Types defined in the user's JSON schema are now prefixed with `<UserNamespace>_`:
+
+```graphql
+type MyNamespace_MyUserType {
+    myStringField: String
+    myFloatField: Float
+}
+```
+
+The example shown assumes `MyNamespace` is the value of `<UserNamespace>`.  The value will default to `Self` is no namespace is provided.  User types must adhere to valid GraphQL characters `([a-zA-Z][a-zA-Z0-9]*)` and must not include an underscore (_) themselves.
 
 #### JSON Schema definitions
 
-User types defined via JSON Schema `definitions` are now prefixed with `<UserNamespace>__definitions_`:
+Types defined in the user's JSON schema in the `definitions` section are now prefixed with `<UserNamespace>__definitions_`:
 
 ```graphql
-type MyUserType {
-    myDefinitionsField: MyNamespace__definitions_MyType
-    myRegularField: String
+type MyNamespace_MyUserType {
+    myDefinitionsField: MyNamespace__definitions_MyDefinitionsType
+    myStringField: String
 }
 ```
 
