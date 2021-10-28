@@ -33,7 +33,7 @@ If you have questions as you prepare for this migration, please reach out to us 
 
 ## GraphQL Schema and Type Improvements 
 
-_Examples in this section were updated on 10/22/2021 to account for additional future proofing type collision updates._
+_Examples in this section were updated on 10/29/2021 to account for additional future proofing type collision updates._
 
 GraphQL is a primary interface for Vendia Share clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal.
 
