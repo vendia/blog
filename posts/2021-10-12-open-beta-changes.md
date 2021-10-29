@@ -41,7 +41,7 @@ Vendia Share accepts a user-provided [data model](https://www.vendia.net/docs/sh
 
 The combination of a user-provided data model and Vendia-provided types can, in certain situations, result in type collisions.  Further,  the risk of type collisions increases as more customers adopt more complex data models.
 
-To eliminate the potential for user/Vendia type collisions, to allow users to work effectively with complex schemas, and to reduce the potential for customer breaking changes that arise from schema evolution, we have taken a new approach to type naming conventions.  This change may result in breaking changes to client code that currently references a generated GraphQL type name.  However, once client code is updated to leverage the new type names, future type name changes should not be necessary.  This will remain true even as the user-provided data model or Vendia-provided types evolve in the future.
+We have taken a new approach to type naming conventions to eliminate the potential for user/Vendia type collisions, allow users to work effectively with complex schemas, and reduce the potential for customer breaking changes that arise from schema evolution.  This change may result in breaking changes to client code that currently references a generated GraphQL type name.  However, future type name changes should not be necessary once client code is updated to leverage the new type names.  This will remain true even as the user-provided data model or Vendia-provided types evolve in the future.
 
 The schema and type improvements can be categorized across a few key change areas.
 
