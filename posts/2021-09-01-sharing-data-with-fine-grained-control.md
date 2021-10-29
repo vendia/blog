@@ -118,19 +118,40 @@ Save the file below as `registration.json`.
     "schema": "schema.json",
     "nodes": [
         {
-            "name": "Alice",
-            "userId": "user@vendia.net",
-            "region": "us-east-2"
+          "name": "Alice",
+          "userId": "user@vendia.net",
+          "region": "us-east-2",
+          "settings": {
+            "apiSettings": {
+              "auth": {
+                "authorizerType": "API_KEY"
+              }
+            }
+          }
         },
         {
-            "name": "Bob",
-            "userId": "user@vendia.net",
-            "region": "us-east-2"
+          "name": "Bob",
+          "userId": "user@vendia.net",
+          "region": "us-east-2",
+          "settings": {
+            "apiSettings": {
+              "auth": {
+                "authorizerType": "API_KEY"
+              }
+            }
+          }
         },
         {
-            "name": "Eve",
-            "userId": "user@vendia.net",
-            "region": "us-east-2"
+          "name": "Eve",
+          "userId": "user@vendia.net",
+          "region": "us-east-2",
+          "settings": {
+            "apiSettings": {
+              "auth": {
+                "authorizerType": "API_KEY"
+              }
+            }
+          }
         }
     ]
 }
