@@ -27,7 +27,7 @@ We value the experience of our current and future customers and, while we strive
 
 To create a new Uni that has access to these improvements, no further action is required. Create a new Uni [as you normally would](https://www.vendia.net/docs/share/uni-creation) and you'll have access to the latest and great features of Vendia Share. [Our documentation](https://www.vendia.net/docs/share) has been updated to reflect all of the recent changes so please read through carefully as you get reacclimated with Share.
 
-The remainder of this post focuses on the Vendia Share client changes that may be required to migrate an existing Uni to the latest and greatest version of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
+The remainder of this post focuses on the Vendia Share client changes that may be required to access a Uni using the latest and greatest features of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
 
 If you have questions as you prepare for this migration, please reach out to us through our existing customer support channels or at [support@vendia.net](mailto:support@vendia.net).
 
