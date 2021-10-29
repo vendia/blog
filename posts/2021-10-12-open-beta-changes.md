@@ -610,7 +610,7 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 ### Change Areas
 
 * **GraphQL Enumerations** - We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to allow customers to use enumerations directly in queries rather than treating them as strings. This will provide a more standard GraphQL interface and should allow GraphQL client tools to work more seamlessly with Share.
-* **GraphQL Filters** - Previously, Share modeled enumerations as strings , which caused confusion when using query parameters or otherwise filtering on enums. With the GraphQL Enumeration changes, Share now offers a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
+* **GraphQL Filters** - Previously, Share modeled enumerations as strings. Share now offers a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
 
 ### Change Areas Applied to GraphQL Enumerations
 
