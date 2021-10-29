@@ -125,15 +125,29 @@ Finally, the registration file tells your uni how many nodes to create and where
    "initState": "initial-state.json",
    "nodes": [
        {
-           "name": "EwrStation",
-           "userId": "user@domain.com",
-           "region": "us-east-1"
-       },
-       {
-           "name": "LaxStation",
-           "userId": "user@domain.com",
-           "region": "us-west-2"
-       }
+          "name": "EwrStation",
+          "userId": "user@domain.com",
+          "region": "us-east-1",
+          "settings": {
+            "apiSettings": {
+              "auth": {
+                "authorizerType": "API_KEY"
+              }
+            }
+          }
+        },
+        {
+          "name": "LaxStation",
+          "userId": "user@domain.com",
+          "region": "us-west-2",
+          "settings": {
+            "apiSettings": {
+              "auth": {
+                "authorizerType": "API_KEY"
+              }
+            }
+          }
+        }
    ]
 }
 ```
