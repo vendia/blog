@@ -2,7 +2,7 @@
 title: 'Authenticating Vendia Share Requests Using SAML'
 description: Taking advantage of existing SAML Identity Providers when using Vendia Share
 longDescription: >
-    Vendia customers may have already made investments in identity services to allow 
+    Learn how to use existing SAML identity providers to work with Vendia Share
 date: '2021-11-02'
 authors:
   - Brian McNamara
