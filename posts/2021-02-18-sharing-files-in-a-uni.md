@@ -25,17 +25,17 @@ To start sharing files, you'll need to create a Uni and you'll need a new or exi
 
 To get started, create a Uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share's Web UI. The Web UI makes creating a Uni easy, so we'll illustrate that approach below.  For more detailed steps (and more options) when creating a Uni, please reference any of the [Quickstart](https://vendia.net/docs/share/quickstart) guides.
 
-![Create a new Uni](https://user-images.githubusercontent.com/71095088/140418605-83717b5d-2a34-46dc-985c-9f0665c8df61.png)
+![Create a new Uni](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140418605-83717b5d-2a34-46dc-985c-9f0665c8df61.png)
 
 Clicking the **Create a new Uni** link allows you to configure the details of your new Uni prior to construction. The **Create Universal Application** screen allows you to create your own Uni based on your own data model or use one of several templates to get started. For our example, we will use the **Shapes Demo**.
 
-![Create Universal Application](https://user-images.githubusercontent.com/71095088/140447475-9317f934-6b51-4b71-a4b1-cd5724804c99.png)
+![Create Universal Application](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140447475-9317f934-6b51-4b71-a4b1-cd5724804c99.png)
 
 #### Node Config
 
 For this example, we need to create a two node Uni so we can see the effects of sharing and adjusting permissions on files. We will use the Uni name **test-sharing-files**. Please choose a unique name that begins with **test-**. Use the example Node Configuration below. You can leave the regions as is or adjust them to be any of the Share-supported regions.
 
-![Node configuration](https://user-images.githubusercontent.com/71095088/140447689-e046fb4f-afbc-4a19-9bdf-fe3299572b28.png)
+![Node configuration](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140447689-e046fb4f-afbc-4a19-9bdf-fe3299572b28.png)
 
 (Of course you can create Unis with many more nodes, but for purposes of this file example, two is sufficient.)
 
@@ -43,7 +43,7 @@ For this example, we need to create a two node Uni so we can see the effects of 
 
 You can use the default schema and initial state. 
 
-![Schema and initial state](https://user-images.githubusercontent.com/71095088/140447790-43eb4563-abcf-413b-ba2c-cbe15b63a425.png)
+![Schema and initial state](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140447790-43eb4563-abcf-413b-ba2c-cbe15b63a425.png)
 
 Press the **Create** button.
 
@@ -63,7 +63,7 @@ Upload a File into your personal S3 bucket and name it **_test.txt_**.
 
 Open up the GraphQL Explorer for "Node 1" in your Uni via the Share Web UI:
 
-![Launch GraphQL Explorer](https://user-images.githubusercontent.com/71095088/140450519-2bd326a7-dfd9-4b85-85cf-b757c34363da.png)
+![Launch GraphQL Explorer](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140450519-2bd326a7-dfd9-4b85-85cf-b757c34363da.png)
 
 #### Step 3: Execute the `AddFile` Mutation
 
@@ -89,7 +89,7 @@ Your mutation will look something like this once the arguments are properly fill
 
 
 
-![Add File mutation](https://user-images.githubusercontent.com/71095088/140452181-2d2e16a8-5986-4351-8281-fc1523f6b77b.png)
+![Add File mutation](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140452181-2d2e16a8-5986-4351-8281-fc1523f6b77b.png)
 
 
 After your **__AddFile__** mutation executes, the new file will be visible to all nodes in the Uni. You can see it in your original node by running the following query:
