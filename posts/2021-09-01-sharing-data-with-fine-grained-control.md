@@ -177,12 +177,12 @@ Run the following mutation from the `Alice` GraphQL Explorer.
 
 ```graphql
 mutation addSprinklesCupcake {
-  addRecipe_async(
+  add_Recipe_async(
     input: {
       name: "Sprinkles Cupcake", 
       sku: "cc001", 
       price: 5.99, 
-      recipeType: "cupcake", 
+      recipeType: cupcake, 
       recipeYield: 100, 
       ingredients: [
         {
@@ -245,8 +245,8 @@ mutation addSprinklesCupcake {
   ) {
     error
     result {
-      id
-      node_owner
+      _id
+      _owner
     }
   }
 }
@@ -272,10 +272,10 @@ Run this query from either the `Bob` or `Eve` GraphQL Explorer.
 
 ```graphql
 query listRecipes {
-  listRecipes {
-    Recipes {
-      ... on Recipe {
-        id
+  list_RecipeItems {
+    _RecipeItems {
+      ... on Self_Recipe {
+        _id
         name
         price
         sku
@@ -287,8 +287,8 @@ query listRecipes {
           quantity
         }
       }
-      ... on Recipe_Partial {
-        id
+      ... on Self_Recipe_Partial_ {
+        _id
         name
         price
         sku
@@ -349,75 +349,75 @@ Run this query from the `Alice` GraphQL Explorer.
 
 ```graphql
 mutation addRedVelvetCake {
-  addRecipe_async(
-        input: {
-            name: "Red Velvet Cake",
-            sku: "ca001",
-            price: 5.00,
-            recipeType: "cake",
-            recipeYield: 1,
-            ingredients: [
-                {
-                    name: "All-purpose Flour",
-                    quantity: "453 grams"
+  add_Recipe_async(
+    input: {
+        name: "Red Velvet Cake",
+        sku: "ca001",
+        price: 5.00,
+        recipeType: cake,
+        recipeYield: 1,
+        ingredients: [
+            {
+                name: "All-purpose Flour",
+                quantity: "453 grams"
+            },
+            {
+                name: "Granulated Sugar",
+                quantity: "680.3 grams"
+            }
+        ],
+        directions: [
+            "Mix dry ingredients",
+            "Bake",
+            "Profit"
+        ]
+    },
+    aclInput: {
+        acl: [
+            {
+                principal: {
+                    nodes: [ "*" ]
                 },
-                {
-                    name: "Granulated Sugar",
-                    quantity: "680.3 grams"
-                }
-            ],
-            directions: [
-                "Mix dry ingredients",
-                "Bake",
-                "Profit"
-            ]
-        },
-        aclInput: {
-            acl: [
-                {
-                    principal: {
-                        nodes: [ "*" ]
-                    },
-                    path: "name",
-                    operations: [ READ ]
+                path: "name",
+                operations: [ READ ]
+            },
+            {
+                principal: {
+                    nodes: [ "*" ]
                 },
-                {
-                    principal: {
-                        nodes: [ "*" ]
-                    },
-                    path: "sku",
-                    operations: [ READ ]
+                path: "sku",
+                operations: [ READ ]
+            },
+            {
+                principal: {
+                    nodes: [ "*" ]
                 },
-                {
-                    principal: {
-                        nodes: [ "*" ]
-                    },
-                    path: "price",
-                    operations: [ READ ]
+                path: "price",
+                operations: [ READ ]
+            },
+            {
+                principal: {
+                    nodes: [ "*" ]
                 },
-                {
-                    principal: {
-                        nodes: [ "*" ]
-                    },
-                    path: "recipeType",
-                    operations: [ READ ]
+                path: "recipeType",
+                operations: [ READ ]
+            },
+            {
+                principal: {
+                    nodes: [ "*" ]
                 },
-                {
-                    principal: {
-                        nodes: [ "*" ]
-                    },
-                    path: "recipeYield",
-                    operations: [ READ ]
-                }
-            ]
-        }
-    ) {
-        error
-        result {
-            id
-            node_owner
-        }   
+                path: "recipeYield",
+                operations: [ READ ]
+            }
+        ]
     }
+  ) {
+      error
+      result {
+          _id
+          _owner
+      }   
+  }
 }
 ```
 </details>
@@ -430,17 +430,17 @@ In our scenario, `Eve` has set up [notifications](https://www.vendia.net/docs/sh
 
 ### Update ACLs on the Existing Red Velvet Cake Recipe
 
-First, we will need to identify the _id_ of the Red Velvet Cake recipe.
+First, we will need to identify the **_id** of the Red Velvet Cake recipe.
 
 <details>
 <summary>listRecipes - Red Velvet Cake</summary>
 
 ```graphql
 query listRecipes {
-  listRecipes(filter: {name: {eq: "Red Velvet Cake"}}) {
-    Recipes {
-      ... on Recipe {
-        id
+  list_RecipeItems(filter: {name: {eq: "Red Velvet Cake"}}) {
+    _RecipeItems {
+      ... on Self_Recipe {
+        _id
         name
         _acl {
           principal {
@@ -450,8 +450,8 @@ query listRecipes {
           operations
         }
       }
-      ... on Recipe_Partial {
-        id
+      ... on Self_Recipe_Partial_ {
+        _id
         name
         _acl {
           principal {
@@ -467,91 +467,90 @@ query listRecipes {
 ```
 </details>
 
-Once we have the _id_ of the recipe, we can run another query to update the ACL on the Red Velvet Cake recipe.
+Once we have the **_id** of the recipe, we can run another query to update the ACL on the Red Velvet Cake recipe.
 
-**NOTE:** Your _id_ value will be different. Replace the _id_ field in the following examples with the one returned in your actual list.
+**NOTE:** Your _id value will be different. Replace the _id field in the following examples with the one returned in your actual list.
 
 <details>
 <summary>updateRedVelvetCakeAcl After Eve's Purchase</summary>
 
 ```graphql
 mutation updateRedVelvetCakeAcl {
-    putRecipe_async(
-        id: "017b98fc-e458-865b-9417-e9066e95aab1",
-        input: {
-            name: "Red Velvet Cake",
-            sku: "ca001",
-            price: 5.00,
-            recipeType: "cake",
-            recipeYield: 1,
-            ingredients: [
-                {
-                    name: "All-purpose Flour",
-                    quantity: "453 grams"
-                },
-                {
-                    name: "Granulated Sugar",
-                    quantity: "680.3 grams"
-                }
-            ],
-            directions: [
-                "Mix dry ingredients",
-                "Bake",
-                "Profit"
-            ]
-        },
-        aclInput: {
-           acl: [
-               {
-                   principal: {
-                        nodes: [ "Eve" ]
-                   },
-                   operations: [ READ ]
-               },
-               {
-                   principal: {
-                       nodes: [ "*" ]
-                   },
-                   path: "name",
-                   operations: [ READ ]
-               },
-               {
-                   principal: {
-                       nodes: [ "*" ]
-                   },
-                   path: "sku",
-                   operations: [ READ ]
-               },
-               {
-                   principal: {
-                       nodes: [ "*" ]
-                   },
-                   path: "price",
-                   operations: [ READ ]
-               },
-               {
-                   principal: {
-                       nodes: [ "*" ]
-                   },
-                   path: "recipeType",
-                   operations: [ READ ]
-               },
-               {
-                   principal: {
-                       nodes: [ "*" ]
-                   },
-                   path: "recipeYield",
-                   operations: [ READ ]
-               },
-           ]
-       }
-
+  put_Recipe_async(
+      id: "017cf035-6a71-219b-97ab-3af9e2386f72",
+      input: {
+          name: "Red Velvet Cake",
+          sku: "ca001",
+          price: 5.00,
+          recipeType: cake,
+          recipeYield: 1,
+          ingredients: [
+              {
+                  name: "All-purpose Flour",
+                  quantity: "453 grams"
+              },
+              {
+                  name: "Granulated Sugar",
+                  quantity: "680.3 grams"
+              }
+          ],
+          directions: [
+              "Mix dry ingredients",
+              "Bake",
+              "Profit"
+          ]
+      },
+      aclInput: {
+          acl: [
+              {
+                  principal: {
+                      nodes: [ "Eve" ]
+                  },
+                  operations: [ READ ]
+              },
+              {
+                  principal: {
+                      nodes: [ "*" ]
+                  },
+                  path: "name",
+                  operations: [ READ ]
+              },
+              {
+                  principal: {
+                      nodes: [ "*" ]
+                  },
+                  path: "sku",
+                  operations: [ READ ]
+              },
+              {
+                  principal: {
+                      nodes: [ "*" ]
+                  },
+                  path: "price",
+                  operations: [ READ ]
+              },
+              {
+                  principal: {
+                      nodes: [ "*" ]
+                  },
+                  path: "recipeType",
+                  operations: [ READ ]
+              },
+              {
+                  principal: {
+                      nodes: [ "*" ]
+                  },
+                  path: "recipeYield",
+                  operations: [ READ ]
+              },
+          ]
+      }
     ) {
-        error
-        result {
-            id
-        }
+    error
+    result {
+        _id
     }
+  }
 }
 ```
 </details>
@@ -568,10 +567,10 @@ Now that `Eve` has purchased the Red Velvet Cake recipe and Alice has updated pe
 
 ```graphql
 query listRecipes {
-  listRecipes {
-    Recipes {
-      ... on Recipe {
-        id
+  list_RecipeItems {
+    _RecipeItems {
+      ... on Self_Recipe {
+        _id
         name
         price
         sku
@@ -583,8 +582,8 @@ query listRecipes {
           quantity
         }
       }
-      ... on Recipe_Partial {
-        id
+      ... on Self_Recipe_Partial_ {
+        _id
         name
         price
         sku
@@ -607,10 +606,10 @@ We will receive results that look similar to the following:
 ```json
 {
   "data": {
-    "listRecipes": {
-      "Recipes": [
+    "list_RecipeItems": {
+      "_RecipeItems": [
         {
-          "id": "017b70eb-6d92-7039-4507-cc48eddb3c7c",
+          "_id": "017cf031-8f01-360c-dfc8-c15a17d348dc",
           "name": "Sprinkles Cupcake",
           "price": 5.99,
           "sku": "cc001",
@@ -620,7 +619,7 @@ We will receive results that look similar to the following:
           "ingredients": null
         },
         {
-          "id": "017b98fc-e458-865b-9417-e9066e95aab1",
+          "_id": "017cf035-6a71-219b-97ab-3af9e2386f72",
           "name": "Red Velvet Cake",
           "price": 5,
           "sku": "ca001",
@@ -658,10 +657,10 @@ Both _directions_ and _ingredients_ are available for the Red Velvet Cake recipe
 ```json
 {
   "data": {
-    "listRecipes": {
-      "Recipes": [
+    "list_RecipeItems": {
+      "_RecipeItems": [
         {
-          "id": "017b70eb-6d92-7039-4507-cc48eddb3c7c",
+          "_id": "017cf031-8f01-360c-dfc8-c15a17d348dc",
           "name": "Sprinkles Cupcake",
           "price": 5.99,
           "sku": "cc001",
@@ -671,7 +670,7 @@ Both _directions_ and _ingredients_ are available for the Red Velvet Cake recipe
           "ingredients": null
         },
         {
-          "id": "017b98fc-e458-865b-9417-e9066e95aab1",
+          "_id": "017cf035-6a71-219b-97ab-3af9e2386f72",
           "name": "Red Velvet Cake",
           "price": 5,
           "sku": "ca001",
