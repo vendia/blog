@@ -5,6 +5,7 @@ const matter = require('gray-matter')
 const cwd = process.cwd()
 
 const DATE_FORMAT_REGEX = /[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])-/g
+const ROOT_DIR = path.dirname(__dirname)
 
 const GLOB_PATTERN = [
   '**/*.md',
@@ -48,7 +49,9 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
       errors = errors.concat(markdownData.errors)
     }
     return markdownData
-  })
+  }).sort(sortByDate('date'))
+  // console.log('data', data)
+  // process.exit(1)
 
   cache[cacheKey] = {
     data: data,
@@ -56,7 +59,11 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
     errors: errors
   }
 
-  return [ data, errors, filePaths ]
+  return [
+    data, 
+    errors, 
+    filePaths 
+  ]
 }
 
 async function getCategories() {
@@ -86,6 +93,38 @@ async function getAuthors() {
   return {
     slugs: authorSlugs,
     authors: authorData
+  }
+}
+
+function getPostsByCategory(data) {
+  return data.reduce((acc, post) => {
+    // console.log('post.data', post.data)
+    if (post.data.categories) {
+      post.data.categories.forEach((category) => {
+        acc[category] = (acc[category] || []).concat(formatIndexData(post))
+      })
+    }
+    return acc
+  }, {})
+}
+
+function getPostsByTag(data) {
+  return data.reduce((acc, post) => {
+    // console.log('post.data', post.data)
+    if (post.data.tags) {
+      post.data.tags.forEach((tag) => {
+        acc[tag] = (acc[tag] || []).concat(formatIndexData(post))
+      })
+    }
+    return acc
+  }, {})
+}
+
+function formatIndexData(post, extra = {}) {
+  return { 
+    file: post.file.replace(ROOT_DIR, ''),
+     ...post.data,
+     ...extra
   }
 }
 
@@ -145,6 +184,7 @@ function formatMD(text, filePath) {
   return {
     errors,
     file: filePath,
+    ...(frontmatter.data.date) ? { date : frontmatter.data.date } : {},
     links: links,
     images: images,
     htmlTags: htmlTags,
@@ -283,6 +323,18 @@ function getImageLinks(linksOrText) {
   return imageLinks
 }
 
+function sortByDate(dateKey = 'date', order) {
+  return function (a, b) {
+    const timeA = new Date(a[dateKey]).getTime()
+    const timeB = new Date(b[dateKey]).getTime()
+    if (order === 'asc') {
+      return timeA - timeB
+    }
+    // default 'desc' descending order
+    return timeB - timeA
+  }
+}
+
 module.exports = {
   getMarkdownData,
   getLinks,
@@ -290,5 +342,8 @@ module.exports = {
   getCategories,
   getAuthors,
   getTags,
+  getPostsByCategory,
+  getPostsByTag,
+  sortByDate,
   DATE_FORMAT_REGEX
 }

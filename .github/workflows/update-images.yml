@@ -74,6 +74,7 @@ jobs:
         run: echo 'No image updates'
       - name: Push
         if: steps.committer.outputs.has_changes == 'true'
+        # https://github.com/stefanzweifel/git-auto-commit-action
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

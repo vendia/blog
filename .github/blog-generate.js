@@ -1,12 +1,18 @@
 const path = require('path')
+const fs = require('fs').promises
 const markdownMagic = require('markdown-magic')
 const {
   getTags,
   getAuthors, 
   getCategories,
+  getPostsByCategory,
+  getPostsByTag,
   getMarkdownData,
+  sortByDate,
   DATE_FORMAT_REGEX
 } = require('./utils')
+
+let markdownData = []
 
 const config = {
   transforms: {
@@ -24,12 +30,14 @@ const config = {
         '!README.md',
         '!node_modules/**'
       ])
+
+      markdownData = mdData
       // console.log('mdData', mdData)
       
       /* Make Markdown Table */
       let md = `| Post Details | Published-Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
-      mdData.sort(sortDate('date')).forEach((item) => {
+      mdData.sort(sortByDate('date')).forEach((item) => {
         const { data, file } = item
         const fileName = path.basename(file)
         const postSlug = fileName.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
@@ -92,18 +100,17 @@ function longest(arr, prop) {
   return arr.reduce((n, c) => Math.max((c[prop] + '').length, n), 0);
 }
 
-function sortDate(dateType, order) {
-  return function (a, b) {
-    const timeA = new Date(a.data[dateType]).getTime()
-    const timeB = new Date(b.data[dateType]).getTime()
-    if (order === 'asc') {
-      return timeA - timeB
-    }
-    // default 'desc' descending order
-    return timeB - timeA
-  }
+async function saveGeneratedIndexes(md) {
+  const posts = getPostsByCategory(md)
+  // console.log('posts', posts)
+  await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-category.json'), JSON.stringify(posts, null, 2))
+
+  const tags = getPostsByTag(md)
+  // console.log('tags', tags)
+  await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-tag.json'), JSON.stringify(tags, null, 2))
 }
 
-markdownMagic(['**/*.md', '!node_modules/**'], config, () => {
+markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
+  await saveGeneratedIndexes(markdownData)
   console.log('doc gen complete')
 })
