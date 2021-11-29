@@ -1,0 +1,138 @@
+{
+  "slugs": [
+    "brett-andrews",
+    "brian-mcnamara",
+    "cory-forsythe",
+    "david-wells",
+    "gavin-yue",
+    "glenn-dierkes",
+    "james-gimourginas",
+    "ryan-green",
+    "ryan-scott-brown",
+    "shruthi-rao",
+    "tim-wagner"
+  ],
+  "authors": [
+    {
+      "name": "Brett Andrews",
+      "github": "brettstack",
+      "twitter": "AWSbrett",
+      "avatar": "https://avatars1.githubusercontent.com/u/1882775?s=400",
+      "bio": {
+        "short": "Full Stack Developer",
+        "long": "Brett Andrews spends his days building Serverless systems on AWS with JAMStack clients"
+      },
+      "slug": "brett-andrews"
+    },
+    {
+      "name": "Brian McNamara",
+      "github": "mcnamarabrian",
+      "twitter": "mcnamarabrian",
+      "avatar": "https://avatars1.githubusercontent.com/u/17259?s=400&v=4",
+      "bio": {
+        "short": "Solutions Architect",
+        "long": "Brian is a Solutions Architect focused on enabling customers to develop products and services using Vendia. Prior to Vendia, Brian worked as a serverless solutions architect at Amazon Web Services (AWS). He has experience helping start-ups and enterprises to solve infrastructure automation challenges."
+      },
+      "slug": "brian-mcnamara"
+    },
+    {
+      "name": "Cory Forsythe",
+      "github": "cory-vendia",
+      "twitter": "vendiansa",
+      "avatar": "https://avatars.githubusercontent.com/u/75388221?s=460&u=8aaa50f857af65ce078929576049c0975ec6ffaa&v=4",
+      "bio": {
+        "short": "Solutions Architect",
+        "long": "Cory is a Solutions Architect focusing on customer enablement. Cory previously worked as a Serverless Specialist at AWS. With a background in Software Development, Networking, and Consulting, he is eager to hear about your exciting uses cases for Vendia products."
+      },
+      "slug": "cory-forsythe"
+    },
+    {
+      "name": "David Wells",
+      "github": "DavidWells",
+      "twitter": "DavidWells",
+      "avatar": "https://avatars2.githubusercontent.com/u/532272?v=3&s=400",
+      "bio": {
+        "short": "Full stack dev",
+        "long": "David is a Full Stack Engineer focused on serverless architectures, user experience, and product development."
+      },
+      "slug": "david-wells"
+    },
+    {
+      "name": "Gavin Yue",
+      "github": "gavinyue-vendia",
+      "twitter": "",
+      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg",
+      "bio": {
+        "short": "Core engineer",
+        "long": "Gavin Yue is a core engineer working on design and development of ServerLess and blockchain based systems"
+      },
+      "slug": "gavin-yue"
+    },
+    {
+      "name": "Glenn Dierkes",
+      "github": "glenndierkes",
+      "avatar": "https://avatars0.githubusercontent.com/u/512350?s=400",
+      "bio": {
+        "short": "Backend engineer",
+        "long": "Glenn is a Backend Engineer focused on serverless architectures, data consistency and data analytics."
+      },
+      "slug": "glenn-dierkes"
+    },
+    {
+      "name": "James Gimourginas",
+      "github": "james-vendia",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/jamesgimourginas/",
+      "avatar": "https://avatars.githubusercontent.com/u/85032783?s=400&v=4",
+      "bio": {
+        "short": "Director of Solution Architecture and Customer Success",
+        "long": "James is passionate about matching digital innovation with customer challenges to create novel and impactful solutions at scale."
+      },
+      "slug": "james-gimourginas"
+    },
+    {
+      "name": "Ryan Green",
+      "github": "rpgreen",
+      "twitter": "robotpatch",
+      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg",
+      "bio": {
+        "short": "Senior software engineer",
+        "long": "Ryan Green is a professional software engineer with over 13 years of experience building large-scale, highly-available cloud systems and SaaS applications with a focus on serverless and cloud-native architecture, DevOps, scalability, and security. Ryan contributed to several foundational serverless technologies at Amazon Web Services where he was a founding engineer on Amazon API Gateway and AWS Lambda. In his spare time, Ryan enjoys traveling and enjoying the outdoors with his family, mountain biking, skiing, and cooking."
+      },
+      "slug": "ryan-green"
+    },
+    {
+      "name": "Ryan Scott Brown",
+      "github": "ryansb",
+      "twitter": "ryan_sb",
+      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg",
+      "bio": {
+        "short": "Core Software Engineer",
+        "long": "Ryan is a Python software engineer and AWS Solutions architect with a background in operations, infrastructure tooling, and serverless."
+      },
+      "slug": "ryan-scott-brown"
+    },
+    {
+      "name": "Shruthi Rao",
+      "github": "shruthialways",
+      "twitter": "shruthialways",
+      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg",
+      "bio": {
+        "short": "Vendia Co-Founder and CBO",
+        "long": "Shruthi has been at the crux of innovation in multiple industries throughout her career, which served as a starting point to customer empathy. At AWS, Shruthi led over 1,000 customer conversations to solve the multi-party and cross-cloud data and code aggregation problem using Blockchains. She quickly realized that legacy blockchains were not suitable due to their high cost, low scalability, and complex enterprise integrations. Shruthi is a first generation Indian immigrant, mother to a 5 year old boy and frequently speaks at various conferences."
+      },
+      "slug": "shruthi-rao"
+    },
+    {
+      "name": "Tim Wagner",
+      "github": "serverlessunicorn",
+      "twitter": "timallenwagner",
+      "avatar": "https://avatars3.githubusercontent.com/u/54867311?s=400",
+      "bio": {
+        "short": "Vendia CEO and co-founder",
+        "long": "Dr. Tim Wagner started the Serverless movement when he created the AWS Lambda business and technology in 2012. His mission then, as now, was to make the creation of enterprise IT solutions easy, fast, and secure. After AWS, Dr. Wagner served as VP of Engineering at Coinbase, where he oversaw the largest mission-critical fleet of distributed ledgers in the US. Dr. Wagner continues to explore business and technology innovations, speaking frequently at conferences"
+      },
+      "slug": "tim-wagner"
+    }
+  ]
+}

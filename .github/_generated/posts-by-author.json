@@ -1,0 +1,473 @@
+{
+  "brian-mcnamara": [
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
+      "title": "Sharing Data with Fine-grained Control",
+      "description": "Defining Data Access Among Partners in a Universal Application",
+      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
+      "date": "2021-09-01",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
+      "title": "Don't Rip and Replace - Integrate",
+      "description": "Use Vendia Share to Complement Existing Data Stores.",
+      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
+      "date": "2021-05-10",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
+      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
+      "description": "How to create cross region serverless appplications",
+      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
+      "date": "2021-02-17",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "title": "Getting Started With Vendia Share",
+      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "date": "2021-01-29",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
+      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
+      "date": "2021-01-25",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
+      "title": "Kind Humans Really Work Here",
+      "description": "Putting a company policy to the test",
+      "date": "2021-01-04",
+      "authors": [
+        "Brian McNamara"
+      ]
+    }
+  ],
+  "james-gimourginas": [
+    {
+      "file": "/posts/2021-10-26-website-case-studies.md",
+      "title": "Website Case Studies",
+      "description": "Learn what Vendia customers and partners are building on the Share platform",
+      "date": "2021-10-26",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
+      "title": "Five Leadership Practices of an Ultramarathoner",
+      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
+      "date": "2021-09-27",
+      "tag": [
+        "developers"
+      ],
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    }
+  ],
+  "tim-wagner": [
+    {
+      "file": "/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md",
+      "title": "A Serverless Distributed Ledger for Enterprises",
+      "description": "HICSS Talk Summary & Full Research Paper",
+      "date": "2021-10-22",
+      "tag": [
+        "serverless",
+        "distributed-ledger"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-03-31-vendia-turns-1.md",
+      "title": "Vendia Turns 1",
+      "description": "Vendia celebrates its first year as a C-corporation",
+      "date": "2021-03-31",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-03-17-whats-new-failed-tx-dlq.md",
+      "title": "Announcing Vendia Share DLQ Support",
+      "description": "Vendia Share now reports failed transactions",
+      "date": "2021-03-17",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "title": "Announcing Vendia Share Indexing Feature",
+      "description": "Vendia Share now support customer indices to improve data retrieval performance",
+      "date": "2021-03-10",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
+      "title": "Announcing the Vendia Share Developer Preview!",
+      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
+      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
+      "date": "2021-02-03",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding",
+        "developers"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-02-series-a-announcement.md",
+      "title": "Vendia Announces Series A Investment",
+      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
+      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
+      "date": "2021-02-02",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-01-decentralization.md",
+      "title": "Understanding Decentralization in the Cloud",
+      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
+      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
+      "date": "2021-02-01",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "decentralization"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-31-stamti.md",
+      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
+      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
+      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.",
+      "date": "2021-01-31",
+      "categories": [
+        "architecture"
+      ],
+      "tags": [
+        "STAMTI"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "title": "AWS Serverless Express Finds a Loving Home at Vendia",
+      "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia",
+      "authors": [
+        "Brett Andrews",
+        "Tim Wagner"
+      ],
+      "date": "2020-12-07"
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
+      "date": "2020-07-01",
+      "categories": [
+        "company"
+      ],
+      "tags": [
+        "origin"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    }
+  ],
+  "shruthi-rao": [
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
+      "title": "Announcing the Vendia Share Developer Preview!",
+      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
+      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
+      "date": "2021-02-03",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding",
+        "developers"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-02-series-a-announcement.md",
+      "title": "Vendia Announces Series A Investment",
+      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
+      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
+      "date": "2021-02-02",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
+      "date": "2020-07-01",
+      "categories": [
+        "company"
+      ],
+      "tags": [
+        "origin"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    }
+  ],
+  "glenn-dierkes": [
+    {
+      "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
+      "title": "Sharing Files in Vendia Share Unis",
+      "description": "Sharing data across different organizations, accounts, and regions used to be hard...but Vendia Share Universal Apps make it easy",
+      "date": "2021-02-18",
+      "authors": [
+        "Glenn Dierkes"
+      ]
+    },
+    {
+      "file": "/posts/2020-11-05-track-and-trace.md",
+      "title": "Track and Trace using Vendia Unis + Blobs",
+      "description": "Learn about how Vendia Unis + Blobs functionality can help streamline common supply chain track & trace issues",
+      "date": "2020-11-05",
+      "authors": [
+        "Glenn Dierkes"
+      ]
+    }
+  ],
+  "cory-forsythe": [
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "title": "Getting Started With Vendia Share",
+      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "date": "2021-01-29",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
+      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
+      "date": "2021-01-25",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    }
+  ],
+  "brett-andrews": [
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "title": "AWS Serverless Express Finds a Loving Home at Vendia",
+      "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia",
+      "authors": [
+        "Brett Andrews",
+        "Tim Wagner"
+      ],
+      "date": "2020-12-07"
+    }
+  ],
+  "ryan-scott-brown": [
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "title": "Tools That Shape Products",
+      "description": "How do the tools we have available shape what we build?",
+      "authors": [
+        "Ryan Scott Brown"
+      ],
+      "date": "2020-11-16"
+    }
+  ]
+}

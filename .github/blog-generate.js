@@ -6,6 +6,7 @@ const {
   getAuthors, 
   getCategories,
   getPostsByCategory,
+  getPostsByAuthor,
   getPostsByTag,
   getMarkdownData,
   sortByDate,
@@ -97,7 +98,7 @@ function escapeName(name) {
 }
 
 function longest(arr, prop) {
-  return arr.reduce((n, c) => Math.max((c[prop] + '').length, n), 0);
+  return arr.reduce((n, c) => Math.max((c[prop] + '').length, n), 0)
 }
 
 async function saveGeneratedIndexes(md) {
@@ -108,6 +109,14 @@ async function saveGeneratedIndexes(md) {
   const tags = getPostsByTag(md)
   // console.log('tags', tags)
   await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-tag.json'), JSON.stringify(tags, null, 2))
+
+  const postsByAuthor = getPostsByAuthor(md)
+  // console.log('postsByAuthor', postsByAuthor)
+  await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-author.json'), JSON.stringify(postsByAuthor, null, 2))
+  
+  const authors = await getAuthors()
+  await fs.writeFile(path.resolve(__dirname, '_generated/author-data.json'), JSON.stringify(authors, null, 2))
+  // console.log('authors', authors)
 }
 
 markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {

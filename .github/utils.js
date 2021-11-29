@@ -2,6 +2,7 @@ const path = require('path')
 const fs = require('fs').promises
 const { globby } = require('markdown-magic')
 const matter = require('gray-matter')
+const slugify = require('slugify')
 const cwd = process.cwd()
 
 const DATE_FORMAT_REGEX = /[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])-/g
@@ -74,7 +75,7 @@ async function getCategories() {
 async function getAuthors() {
   const authors = await globby(['authors/*.json'], { cwd })
   const authorSlugs = authors.map((author) => {
-    return path.basename(author, '.json')
+    return path.basename(author, '.json').toLowerCase()
   })
 
   const authorContents = await Promise.all(authors.map((filePath) => {
@@ -85,7 +86,7 @@ async function getAuthors() {
     return {
       ...JSON.parse(contents),
       ...{
-        slug: authorSlugs[i]
+        slug: authorSlugs[i].toLowerCase()
       }
     }
   })
@@ -114,6 +115,19 @@ function getPostsByTag(data) {
     if (post.data.tags) {
       post.data.tags.forEach((tag) => {
         acc[tag] = (acc[tag] || []).concat(formatIndexData(post))
+      })
+    }
+    return acc
+  }, {})
+}
+
+function getPostsByAuthor(data) {
+  return data.reduce((acc, post) => {
+    // console.log('post.data', post.data)
+    if (post.data.authors) {
+      post.data.authors.forEach((author) => {
+        const authorSlug = slugify(author).toLowerCase()
+        acc[authorSlug] = (acc[authorSlug] || []).concat(formatIndexData(post))
       })
     }
     return acc
@@ -306,6 +320,15 @@ function convert(value) {
   return value
 }
 
+function fixImageTags(content) {
+  const removeTrailingImg = /<\/img>/gm 
+  const fixMissingClosingImgTag = /(<img("[^"]*"|[^>])+)(?<!\/)>/gm
+
+  return content
+    .replace(removeTrailingImg, '')
+    .replace(fixMissingClosingImgTag, '$1/>')
+}
+
 /**
  * Get image links
  * @param {array|string} linksOrText
@@ -343,6 +366,7 @@ module.exports = {
   getAuthors,
   getTags,
   getPostsByCategory,
+  getPostsByAuthor,
   getPostsByTag,
   sortByDate,
   DATE_FORMAT_REGEX
