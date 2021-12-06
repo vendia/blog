@@ -4,7 +4,7 @@ description: 'xyz'
 date: '2021-11-29'
 draft: true
 categories:
-  - company
+  - share
 authors:
   - Tim Wagner
 ---
