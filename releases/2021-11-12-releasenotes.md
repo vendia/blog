@@ -1,10 +1,9 @@
 ---
-title: 'What's that "csp" property doing in my Uni info configuration?'
-description: 'A first step toward an announcement we'll be able to share in the weeks ahead'
+title: "What's that \"csp\" property doing in my Uni info configuration?"
+description: "A first step toward an announcement we'll be able to share in the weeks ahead"
 date: '2021-11-12'
-draft: false
 tags:
-- Polycloud
+  - Polycloud
 ---
 
 For you sleuths who found a few new properties in existing Vendia types, this may not be a complete surprise.  For everyone else, you may notice a new property recently introduced into the Vendia `UniInfo` type called `csp`, short for Cloud Service Provider.  This is a first (though exciting) step toward an announcement we'll be able to share in the weeks ahead.  Hint - we're serious about bridging every cloud and giving partners choice in the technology they use.
