@@ -664,7 +664,7 @@ Please refer to our [blog post](https://www.vendia.net/blog/sharing-data-with-fi
 
 ## Requiring Authorizer Type During Uni Creation
 
-Vendia Share Unis are created via either the [Command Line Interface](https://www.vendia.net/docs/share/cli) or the [Web Console](https://www.vendia.net/docs/share/quickstart/web).  In either case, a [registration.json](https://www.vendia.net/docs/share/cli/guide#format-of-the-registration-schema-and-initial-state-files) file provides initial information about the Uni.
+Vendia Share Unis are created via either the [Command Line Interface](https://www.vendia.net/docs/share/cli) or the [Web Console](https://www.vendia.net/docs/share/quickstart).  In either case, a [registration.json](https://www.vendia.net/docs/share/cli/guide#format-of-the-registration-schema-and-initial-state-files) file provides initial information about the Uni.
 
 ### Change Area
 
