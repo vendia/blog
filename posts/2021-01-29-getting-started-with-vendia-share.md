@@ -76,7 +76,7 @@ Once you are comfortable with the Vendia Share service and are ready to dive dee
 We believe that practical examples are a fantastic way to learn. As such, we have created some quick starts from use cases that are popular amongst our customers and the Vendia team.
 
 ### Shopping List
-Get started with real-time data sharing strategies with this easy to understand quick start. You will build a uni that helps solve a common problem we all deal with, managing a shopping list.
+Get started with real-time data sharing strategies with this easy to understand quick start. You will build a Uni that helps solve a common problem we all deal with, managing a shopping list.
 
 [https://vendia.net/docs/share/quickstart/shopping-list](https://www.vendia.net/docs/share/quickstart/shopping-list-web)
 
