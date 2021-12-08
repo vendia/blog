@@ -42,7 +42,7 @@ Similar to Smart Contracts, you can navigate to the Entity Explorer from within 
 
 Clicking into the ID for any of the rows, will open the ability to edit, delete or view the full history of that entry. You have full control over which users can view, edit or delete data through the Entity Explorer. 
 
-![](https://user-images.githubusercontent.com/92179243/145060474-7b676775-746e-4493-95be-adb37ce1f059.png "Edit a entity explorer")
+![Edit an entity](https://user-images.githubusercontent.com/92179243/145060474-7b676775-746e-4493-95be-adb37ce1f059.png)
 
 **Grow with New Pricing Plans**
 
