@@ -64,11 +64,11 @@ For more information on unis, checkout our ["What is a uni?" video](https://yout
 Read more about unis and how they work [https://vendia.net/docs/share/dev-and-use-unis](https://vendia.net/docs/share/dev-and-use-unis)
 
 ## Creating your first uni
-Ready to get started? The Vendia team has put together some great quick starts to help guide you through the creation of your first uni.
+Ready to get started? The Vendia team has put together some great quick starts to help guide you through the creation of your first Uni.
 
-If you prefer to use a web interface you can follow along at [https://vendia.net/docs/share/quickstart/web](https://vendia.net/docs/share/quickstart/web)
+If you prefer to use a web interface you can follow along at [Web Quick Start](https://www.vendia.net/docs/share/quickstart/shopping-list-web)
 
-Prefer a terminal?  We have you covered - check out the [CLI quick start](https://vendia.net/docs/share/quickstart/cli)
+Prefer a terminal?  We have you covered - check out the [CLI Quick Start](https://www.vendia.net/docs/share/quickstart/shopping-list-cli)
 
 ## Diving Deeper
 Once you are comfortable with the Vendia Share service and are ready to dive deeper, we encourage you to explore our more advanced quick starts.  
@@ -78,7 +78,7 @@ We believe that practical examples are a fantastic way to learn. As such, we hav
 ### Shopping List
 Get started with real-time data sharing strategies with this easy to understand quick start. You will build a uni that helps solve a common problem we all deal with, managing a shopping list.
 
-[https://vendia.net/docs/share/quickstart/shopping-list](https://vendia.net/docs/share/quickstart/shopping-list)
+[https://vendia.net/docs/share/quickstart/shopping-list-cli](https://vendia.net/docs/share/quickstart/shopping-list-cli)
 
 ### Track And Trace
 The ability to share and work with data in real-time with partners is critical in supply chain management. This quick start demonstrates how you can quickly build a system to track goods and trace problems in a modern supply chain.
