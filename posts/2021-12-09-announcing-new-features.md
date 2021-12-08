@@ -20,7 +20,7 @@ In 2020, we launched Vendia Share, a revolutionary platform for building real-ti
 
 In addition to the existing Amazon Web Services support, Vendia Share now includes beta support for Microsoft Azure, making it easy for partners to connect and develop from their Azure accounts. Customers select the appropriate Azure region to ensure low latency data transfer and Vendia Share handles provisioning and managing the resources automatically. This new functionality allows users to create integrations to Azure Queues, Azure Functions, and other Azure-specific services through the use of Azure Event Grid. For example, a user may want to execute a specific Azure Function whenever another participant creates or updates a record. Azure support is currently in beta and available for all customers. 
 
-![](https://user-images.githubusercontent.com/92179243/145244534-292321e8-19a4-4e04-90cf-d7c9ef8143e4.png)
+![Azure node](https://user-images.githubusercontent.com/92179243/145244534-292321e8-19a4-4e04-90cf-d7c9ef8143e4.png)
 
 **Empower Developers with Smart Contracts**
 
