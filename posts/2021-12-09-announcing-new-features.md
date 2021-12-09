@@ -20,7 +20,7 @@ In 2020, we launched Vendia Share, a revolutionary platform for building real-ti
 
 In addition to the existing Amazon Web Services support, Vendia Share now includes beta support for Microsoft Azure, making it easy for partners to connect and develop from their Azure accounts. Customers select the appropriate Azure region to ensure low latency data transfer and Vendia Share handles provisioning and managing the resources automatically. This new functionality allows users to create integrations to Azure Queues, Azure Functions, and other Azure-specific services through the use of Azure Event Grid. For example, a user may want to execute a specific Azure Function whenever another participant creates or updates a record. Azure support is currently in beta and available for all customers. 
 
-![Azure node](https://user-images.githubusercontent.com/92179243/145244534-292321e8-19a4-4e04-90cf-d7c9ef8143e4.png)
+![Azure node](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243145244534-292321e8-19a4-4e04-90cf-d7c9ef8143e4.png)
 
 **Empower Developers with Smart Contracts**
 
@@ -30,7 +30,7 @@ Our Smart Contracts are expressed as AWS Lambda functions. Smart Contracts only 
 
 Once you have a [Universal Application](https://www.vendia.net/product) and a node running in your [Vendia Share account](https://share.vendia.net), you can navigate to the Smart Contracts. When creating a new smart contract, you specify an AWS Lambda Function to execute, the contract's input parameters, which are specified as GraphQL queries, and the output parameters, which are specified as GraphQL mutations. When a Smart Contract is triggered, the input query is executed and the returned value forms the arguments passed to the Lambda Function. The result of the Lambda Function is captured in the output GraphQL mutation, which is used to update the data based on the function's output.
 
-![](https://user-images.githubusercontent.com/92179243/145060082-56557805-7708-4a26-8818-8dcfb95ceb78.png "smart contracts")
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243145060082-56557805-7708-4a26-8818-8dcfb95ceb78.png "smart contracts")
  
 **Enable More Users with No Code, Entity Explorer View**
 
@@ -38,11 +38,11 @@ We also updated our User Interface (UI) to enable non-developers to create and m
 
 Similar to Smart Contracts, you can navigate to the Entity Explorer from within a node. Within the Entity Explore you can see all the tables from your data model in the left column with data in the selected table shown. 
 
-![Entity Explorer](https://user-images.githubusercontent.com/92179243/145060323-52c8b712-acc6-4fea-8a03-eff794849c63.png)
+![Entity Explorer](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243145060323-52c8b712-acc6-4fea-8a03-eff794849c63.png)
 
 Clicking into the `_id` for any of the rows, will open the ability to edit, delete or view the full history of that entry. You have full control over which users can view, edit or delete data through the Entity Explorer. 
 
-![Edit an entity](https://user-images.githubusercontent.com/92179243/145060474-7b676775-746e-4493-95be-adb37ce1f059.png)
+![Edit an entity](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243145060474-7b676775-746e-4493-95be-adb37ce1f059.png)
 
 **Grow with New Pricing Plans**
 
