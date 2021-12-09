@@ -12,7 +12,7 @@ async function collectImages({
   include = []
 }) {
   const [ mdData ] = await getMarkdownData(markdownGlob)
-  debugLog('mdData', mdData)
+  // debugLog('mdData', mdData)
 
   const imageData = mdData.reduce((acc, mdInfo) => {
     const { links } = getLinks(mdInfo.content)
