@@ -30,7 +30,7 @@ Our Smart Contracts are expressed as AWS Lambda functions. Smart Contracts only 
 
 Once you have a [Universal Application](https://www.vendia.net/product) and a node running in your [Vendia Share account](https://share.vendia.net), you can navigate to the Smart Contracts. When creating a new smart contract, you specify an AWS Lambda Function to execute, the contract's input parameters, which are specified as GraphQL queries, and the output parameters, which are specified as GraphQL mutations. When a Smart Contract is triggered, the input query is executed and the returned value forms the arguments passed to the Lambda Function. The result of the Lambda Function is captured in the output GraphQL mutation, which is used to update the data based on the function's output.
 
-![Smart Contracts Create UI](https://user-images.githubusercontent.com/85650276/145461871-909e6e32-49d3-4427-a068-dbdfe58b9995.png)
+![Smart Contracts Create UI](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85650276145461871-909e6e32-49d3-4427-a068-dbdfe58b9995.png)
  
 **Enable More Users with No Code, Entity Explorer View**
 
