@@ -1,7 +1,6 @@
 const path = require('path')
 const { test } = require('uvu')
 const assert = require('uvu/assert')
-const { globby } = require('markdown-magic')
 const {
   getTags,
   getAuthors, 
@@ -9,6 +8,7 @@ const {
   getMarkdownData,
   DATE_FORMAT_REGEX
 } = require('./utils')
+const { verifyMdExtension } =  require('./test-utils')
 
 const cwd = process.cwd()
 
@@ -29,14 +29,17 @@ const exampleAuthorData = {
   }
 }
 
-test('Post file malformed', async () => {
-  const postsFiles = await globby(["posts/*"], { cwd })
-  // Verify all markdown files have markdown extension
-  postsFiles.forEach((filePath) => {
-    if (filePath.indexOf('.') === -1) {
-      throw new Error(`"${filePath}" missing file extension .md or .mdx`)
-    }
-  })
+test('File have correct extensions', async () => {
+  const [ errors, files ] = await verifyMdExtension(["posts/*"])
+  const [ releaseErrors, releaseFiles ] = await verifyMdExtension(["releases/*"])
+
+  if (errors.length) {
+    throw new Error(errors.join('\n'))
+  }
+
+  if (releaseErrors.length) {
+    throw new Error(releaseErrors.join('\n'))
+  }
 })
 
 test('Docs validation', async () => {

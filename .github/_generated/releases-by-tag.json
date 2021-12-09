@@ -1,0 +1,187 @@
+{
+  "New Features": [
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "<Placeholder Title>",
+      "description": "TBD",
+      "date": "2021-12-10",
+      "draft": true,
+      "tags": [
+        "New Features",
+        "Beta Features",
+        "Share Tiers",
+        "Share Pricing",
+        "Polycloud",
+        "Azure"
+      ]
+    },
+    {
+      "file": "/releases/2021-11-26-releasenotes.md",
+      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
+      "description": "We're excited to share the new Vendia Share user interface with you",
+      "date": "2021-11-26",
+      "tags": [
+        "New Features",
+        "GraphQL",
+        "Share Web"
+      ]
+    }
+  ],
+  "Beta Features": [
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "<Placeholder Title>",
+      "description": "TBD",
+      "date": "2021-12-10",
+      "draft": true,
+      "tags": [
+        "New Features",
+        "Beta Features",
+        "Share Tiers",
+        "Share Pricing",
+        "Polycloud",
+        "Azure"
+      ]
+    }
+  ],
+  "Share Tiers": [
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "<Placeholder Title>",
+      "description": "TBD",
+      "date": "2021-12-10",
+      "draft": true,
+      "tags": [
+        "New Features",
+        "Beta Features",
+        "Share Tiers",
+        "Share Pricing",
+        "Polycloud",
+        "Azure"
+      ]
+    }
+  ],
+  "Share Pricing": [
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "<Placeholder Title>",
+      "description": "TBD",
+      "date": "2021-12-10",
+      "draft": true,
+      "tags": [
+        "New Features",
+        "Beta Features",
+        "Share Tiers",
+        "Share Pricing",
+        "Polycloud",
+        "Azure"
+      ]
+    }
+  ],
+  "Polycloud": [
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "<Placeholder Title>",
+      "description": "TBD",
+      "date": "2021-12-10",
+      "draft": true,
+      "tags": [
+        "New Features",
+        "Beta Features",
+        "Share Tiers",
+        "Share Pricing",
+        "Polycloud",
+        "Azure"
+      ]
+    },
+    {
+      "file": "/releases/2021-11-12-releasenotes.md",
+      "title": "What's that \"csp\" property doing in my Uni info configuration?",
+      "description": "A first step toward an announcement we'll be able to share in the weeks ahead",
+      "date": "2021-11-12",
+      "tags": [
+        "Polycloud"
+      ]
+    }
+  ],
+  "Azure": [
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "<Placeholder Title>",
+      "description": "TBD",
+      "date": "2021-12-10",
+      "draft": true,
+      "tags": [
+        "New Features",
+        "Beta Features",
+        "Share Tiers",
+        "Share Pricing",
+        "Polycloud",
+        "Azure"
+      ]
+    }
+  ],
+  "GraphQL": [
+    {
+      "file": "/releases/2021-11-26-releasenotes.md",
+      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
+      "description": "We're excited to share the new Vendia Share user interface with you",
+      "date": "2021-11-26",
+      "tags": [
+        "New Features",
+        "GraphQL",
+        "Share Web"
+      ]
+    },
+    {
+      "file": "/releases/2021-10-29-releasenotes.md",
+      "title": "Namespaces, Types, GraphQL Enums, and More!",
+      "description": "Changes that will greatly improve data modeling capabilities for our users",
+      "date": "2021-10-29",
+      "tags": [
+        "Enhancements",
+        "GraphQL",
+        "Security"
+      ]
+    }
+  ],
+  "Share Web": [
+    {
+      "file": "/releases/2021-11-26-releasenotes.md",
+      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
+      "description": "We're excited to share the new Vendia Share user interface with you",
+      "date": "2021-11-26",
+      "tags": [
+        "New Features",
+        "GraphQL",
+        "Share Web"
+      ]
+    }
+  ],
+  "Enhancements": [
+    {
+      "file": "/releases/2021-10-29-releasenotes.md",
+      "title": "Namespaces, Types, GraphQL Enums, and More!",
+      "description": "Changes that will greatly improve data modeling capabilities for our users",
+      "date": "2021-10-29",
+      "tags": [
+        "Enhancements",
+        "GraphQL",
+        "Security"
+      ]
+    }
+  ],
+  "Security": [
+    {
+      "file": "/releases/2021-10-29-releasenotes.md",
+      "title": "Namespaces, Types, GraphQL Enums, and More!",
+      "description": "Changes that will greatly improve data modeling capabilities for our users",
+      "date": "2021-10-29",
+      "tags": [
+        "Enhancements",
+        "GraphQL",
+        "Security"
+      ]
+    }
+  ]
+}

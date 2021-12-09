@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('fs').promises
 const markdownMagic = require('markdown-magic')
+const slugify = require('slugify')
 const {
   getTags,
   getAuthors, 
@@ -101,25 +102,45 @@ function longest(arr, prop) {
   return arr.reduce((n, c) => Math.max((c[prop] + '').length, n), 0)
 }
 
-async function saveGeneratedIndexes(md) {
-  const posts = getPostsByCategory(md)
+async function saveGeneratedIndexes(mdData, type = 'post') {
+  const kind = type.match(/s$/) ? type : `${type}s`
+  const posts = getPostsByCategory(mdData)
   // console.log('posts', posts)
-  await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-category.json'), JSON.stringify(posts, null, 2))
+  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-category.json`), JSON.stringify(posts, null, 2))
 
-  const tags = getPostsByTag(md)
+  const postByTag = getPostsByTag(mdData)
   // console.log('tags', tags)
-  await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-tag.json'), JSON.stringify(tags, null, 2))
+  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-tag.json`), JSON.stringify(postByTag, null, 2))
 
-  const postsByAuthor = getPostsByAuthor(md)
+  const postsByAuthor = getPostsByAuthor(mdData)
   // console.log('postsByAuthor', postsByAuthor)
-  await fs.writeFile(path.resolve(__dirname, '_generated/posts-by-author.json'), JSON.stringify(postsByAuthor, null, 2))
-  
-  const authors = await getAuthors()
-  await fs.writeFile(path.resolve(__dirname, '_generated/author-data.json'), JSON.stringify(authors, null, 2))
+  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-author.json`), JSON.stringify(postsByAuthor, null, 2))
   // console.log('authors', authors)
+
+  const tags = getTags(mdData).reduce((acc, curr) => {
+    acc[slugify(curr).toLowerCase()] = curr
+    return acc
+  }, {})
+  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-tags.json`), JSON.stringify(tags, null, 2))
 }
 
 markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
-  await saveGeneratedIndexes(markdownData)
+  /* Save author data */
+  const authors = await getAuthors()
+  await fs.writeFile(path.resolve(__dirname, '_generated/author-data.json'), JSON.stringify(authors, null, 2))
+  /* Save blog post data */
+  await saveGeneratedIndexes(markdownData, 'posts')
+
+  /* Save releases data */
+  const [ releaseMdData ] = await getMarkdownData([
+    'releases/**/*.md',
+    'releases/**/*.mdx',
+    '!CONTRIBUTING.md',
+    '!README.md',
+    '!node_modules/**'
+  ])
+
+  await saveGeneratedIndexes(releaseMdData, 'releases')
+
   console.log('doc gen complete')
 })
