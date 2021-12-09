@@ -17,7 +17,7 @@ The Vendia team has been hard at work building out new features that we know wil
 
 Vendia Share makes it easy to share data and files among participants in a Uni.  But sometimes _sharing_ data alone isn't enough.  Smart Contracts allow users to _take action_ on data in a prescribed way, as data changes across partners, clouds, and regions, without having to build or maintain a complex eventing infrastructure.
 
-![Smart Contracts](https://user-images.githubusercontent.com/92179243/145060082-56557805-7708-4a26-8818-8dcfb95ceb78.png)
+![Smart Contracts]()
 
 Please see the new [Smart Contracts docs](https://www.vendia.net/docs/share/smart-contracts) for more information on how to use this powerful new feature and for more information on how Vendia Smart Contracts compare with smart contracts in other solutions.
 
