@@ -12,6 +12,7 @@ on:
 
 env:
   DEBUG: true
+  FORCE_COLOR: true
 
 jobs:
   # Cancel any duplicate already running jobs
@@ -57,6 +58,9 @@ jobs:
           git config --global user.email "bot@vendia.com"
           git config --global user.name "Vendia Bot"
           git status
+          echo '──────────────────────────────────────────────';
+          git --no-pager diff
+          echo '──────────────────────────────────────────────';
           git add .
           if [ -n "$(git status --porcelain)" ]; then
             echo 'Has changes';

@@ -8,6 +8,7 @@ package-lock.json
 
 # generated
 .github/process-images/.images
+_misc
 
 # Runtime data
 pids
