@@ -21,9 +21,9 @@ Vendia Share makes it easy to share data and files among participants in a Uni. 
 
 Please see the new [Smart Contracts docs](https://www.vendia.net/docs/share/smart-contracts) for more information on how to use this powerful new feature and for more information on how Vendia Smart Contracts compare with smart contracts in other solutions.
 
-## Transactions
+## User-Level Transactions
 
-The new Vendia Transactions feature enables users to group multiple changes on multiple data values in a single transaction and guarantees that all updates are processed serially, in order, as an atomic unit. For those looking for an analog to relational database transactions in Share, this feature is for you!  With this feature, Share takes a large step toward combining ACID semantics with a distributed serverless ledger.  For more information on how to apply Vendia Transactions, [see the docs](https://www.vendia.net/docs/share/vendia-transaction).
+The new Vendia User-Level Transactions feature enables users to group multiple changes on multiple data values in a single transaction and guarantees that all updates are processed serially, in order, as an atomic unit. For those looking for an analog to relational database transactions in Share, this feature is for you!  With this feature, Share takes a large step toward combining ACID semantics with a distributed serverless ledger.  For more information on how to apply Vendia User-Level Transactions, [see the docs](https://www.vendia.net/docs/share/vendia-transaction).
 
 ## Azure Support
 
