@@ -38,7 +38,7 @@ We also updated our User Interface (UI) to enable non-developers to create and m
 
 Similar to Smart Contracts, you can navigate to the Entity Explorer from within a node. Within the Entity Explore you can see all the tables from your data model in the left column with data in the selected table shown. 
 
-![Entity Explorer](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243145060323-52c8b712-acc6-4fea-8a03-eff794849c63.png)
+![Entity Explorer](https://user-images.githubusercontent.com/92179243/145060323-52c8b712-acc6-4fea-8a03-eff794849c63.png)
 
 Clicking into the `_id` for any of the rows, will open the ability to edit, delete or view the full history of that entry. You have full control over which users can view, edit or delete data through the Entity Explorer. 
 
