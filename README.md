@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Announcing Azure support, smart contracts, and new pricing plans for Vendia Share](https://vendia.net/blog/announcing-new-features) <br/> Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features by David Brown | 2021-12-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-09-announcing-new-features.md)
 | [Authenticating Vendia Share Requests Using SAML](https://vendia.net/blog/authenticating-requests-using-saml) <br/> Taking advantage of existing SAML Identity Providers when using Vendia Share by Brian McNamara | 2021-11-02 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-11-02-authenticating-requests-using-saml.md)
 | [Website Case Studies](https://vendia.net/blog/website-case-studies) <br/> Learn what Vendia customers and partners are building on the Share platform by James Gimourginas | 2021-10-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-26-website-case-studies.md)
 | [A Serverless Distributed Ledger for Enterprises](https://vendia.net/blog/serverless-distributed-ledger-for-enterprises) <br/> HICSS Talk Summary & Full Research Paper by Tim Wagner | 2021-10-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md)
@@ -91,12 +92,21 @@ Welcome to the Vendia blog repo!
     </a>
   </td>
   <td align="center">
+    <a href="https://twitter.com/DavidBr47724582">
+      <img src="https://avatars.githubusercontent.com/u/92179243?s=400" width="100px;" alt=""/>
+      <br />
+      David Brown
+    </a>
+  </td>
+  <td align="center">
     <a href="https://twitter.com/DavidWells">
       <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="100px;" alt=""/>
       <br />
       David Wells
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://github.com/gavinyue-vendia">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="100px;" alt=""/>
@@ -104,8 +114,6 @@ Welcome to the Vendia blog repo!
       Gavin Yue
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://github.com/glenndierkes">
       <img src="https://avatars0.githubusercontent.com/u/512350?s=400" width="100px;" alt=""/>
@@ -134,6 +142,8 @@ Welcome to the Vendia blog repo!
       Ryan Scott Brown
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/shruthialways">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="100px;" alt=""/>
@@ -141,8 +151,6 @@ Welcome to the Vendia blog repo!
       Shruthi Rao
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/timallenwagner">
       <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="100px;" alt=""/>
