@@ -1,12 +1,12 @@
 {
   "new-features": "New Features",
-  "beta-features": "Beta Features",
-  "share-tiers": "Share Tiers",
-  "share-pricing": "Share Pricing",
-  "polycloud": "Polycloud",
   "azure": "Azure",
+  "smart-contracts": "Smart Contracts",
+  "share-tiers-and-pricing": "Share Tiers and Pricing",
+  "acid-semantics": "ACID Semantics",
   "graphql": "GraphQL",
   "share-web": "Share Web",
+  "polycloud": "Polycloud",
   "enhancements": "Enhancements",
   "security": "Security"
 }
