@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Vendia's Response to CVE-2021-44228](https://vendia.net/blog/log4j2-response) <br/> A note on the impact to Vendia and our customers by James Gimourginas | 2021-12-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-13-log4j2-response.md)
 | [Announcing Azure support, smart contracts, and new pricing plans for Vendia Share](https://vendia.net/blog/announcing-new-features) <br/> Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features by David Brown | 2021-12-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-09-announcing-new-features.md)
 | [Authenticating Vendia Share Requests Using SAML](https://vendia.net/blog/authenticating-requests-using-saml) <br/> Taking advantage of existing SAML Identity Providers when using Vendia Share by Brian McNamara | 2021-11-02 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-11-02-authenticating-requests-using-saml.md)
 | [Website Case Studies](https://vendia.net/blog/website-case-studies) <br/> Learn what Vendia customers and partners are building on the Share platform by James Gimourginas | 2021-10-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-10-26-website-case-studies.md)

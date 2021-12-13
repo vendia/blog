@@ -1,6 +1,18 @@
 {
   "announcements": [
     {
+      "file": "/posts/2021-12-13-log4j2-response.md",
+      "title": "Vendia's Response to CVE-2021-44228",
+      "description": "A note on the impact to Vendia and our customers",
+      "date": "2021-12-13",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "announcements"
+      ]
+    },
+    {
       "file": "/posts/2021-12-09-announcing-new-features.md",
       "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
       "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
