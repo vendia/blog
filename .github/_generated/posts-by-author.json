@@ -1,4 +1,104 @@
 {
+  "brian-mcnamara": [
+    {
+      "file": "/posts/2021-12-15-schema-evolution.md",
+      "title": "Schema Evolution",
+      "description": "Exploring the ability to update the data model in a Universal Application (Uni)",
+      "date": "2021-12-15",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
+      "title": "Sharing Data with Fine-grained Control",
+      "description": "Defining Data Access Among Partners in a Universal Application",
+      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
+      "date": "2021-09-01",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
+      "title": "Don't Rip and Replace - Integrate",
+      "description": "Use Vendia Share to Complement Existing Data Stores.",
+      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
+      "date": "2021-05-10",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
+      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
+      "description": "How to create cross region serverless appplications",
+      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
+      "date": "2021-02-17",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "title": "Getting Started With Vendia Share",
+      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "date": "2021-01-29",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
+      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
+      "date": "2021-01-25",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
+      "title": "Kind Humans Really Work Here",
+      "description": "Putting a company policy to the test",
+      "date": "2021-01-04",
+      "authors": [
+        "Brian McNamara"
+      ]
+    }
+  ],
   "james-gimourginas": [
     {
       "file": "/posts/2021-12-13-log4j2-response.md",
@@ -91,94 +191,6 @@
       ],
       "categories": [
         "announcements"
-      ]
-    }
-  ],
-  "brian-mcnamara": [
-    {
-      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
-      "title": "Authenticating Vendia Share Requests Using SAML",
-      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
-      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
-      "date": "2021-11-02",
-      "authors": [
-        "Brian McNamara"
-      ],
-      "categories": [
-        "architecture"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-12-open-beta-changes.md",
-      "title": "Open Beta Changes",
-      "description": "Changes to Vendia Share in advance of the Open Beta",
-      "date": "2021-10-12",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
-      "title": "Sharing Data with Fine-grained Control",
-      "description": "Defining Data Access Among Partners in a Universal Application",
-      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
-      "date": "2021-09-01",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
-      "title": "Don't Rip and Replace - Integrate",
-      "description": "Use Vendia Share to Complement Existing Data Stores.",
-      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
-      "date": "2021-05-10",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
-      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
-      "description": "How to create cross region serverless appplications",
-      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
-      "date": "2021-02-17",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
-      "title": "Getting Started With Vendia Share",
-      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
-      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
-      "date": "2021-01-29",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
-      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
-      "date": "2021-01-25",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
-      "title": "Kind Humans Really Work Here",
-      "description": "Putting a company policy to the test",
-      "date": "2021-01-04",
-      "authors": [
-        "Brian McNamara"
       ]
     }
   ],

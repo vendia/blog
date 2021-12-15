@@ -1,6 +1,18 @@
 {
   "announcements": [
     {
+      "file": "/posts/2021-12-15-schema-evolution.md",
+      "title": "Schema Evolution",
+      "description": "Exploring the ability to update the data model in a Universal Application (Uni)",
+      "date": "2021-12-15",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
       "file": "/posts/2021-12-13-log4j2-response.md",
       "title": "Vendia's Response to CVE-2021-44228",
       "description": "A note on the impact to Vendia and our customers",
