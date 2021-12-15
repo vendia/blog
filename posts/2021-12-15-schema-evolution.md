@@ -8,11 +8,11 @@ authors:
   - Brian McNamara
 ---
 
-Vendia Share allows users to share a single source of truth in a secure and scalable manner through Universal Applications (Unis). Unis are automatically created using a user-supplied data model. Vendia Share takes the user supplied data model and deploys a Uni in a matter of minutes.  This includes GraphQL APIs to interact with the Uni and a serverless distributed ledger that keeps data consistent across all participants - all managed as a service.
+Vendia Share allows users to share a single source of truth in a secure and scalable manner through Universal Applications (Unis). Unis are automatically created using a user-supplied data model. Vendia Share takes the user supplied data model and deploys a Uni in a matter of minutes.  This includes provisioning fully managed GraphQL APIs to interact with the Uni and a serverless distributed ledger that keeps data consistent across all participants.
 
 As Uni participants grow and as the fidelity of solutions increase over time, it's common for users to want to evolve the original data model used to create the Uni.  Historically, there was no way for users to change the data model once a Uni was created. Any data model change to a Uni required destroying it and its accompanying nodes and recreating it with the new model. 
 
-This process was not ideal for users. 
+This process was painful for users. Recreating a data model involves Vendia Share creating new cloud resources. This, in turn, means node GraphQL endpoints, S3 bucket ARNs, SNS topics change. Any integrations that interact with those resources need to be updated. During the development process this can introduce a lot of friction to developers and operators.
 
 We're very pleased to share that Vendia now allows developers to evolve a Uni's data model.  This change allows users to manage their Uni's evolution without requiring changes to the Uni's interfaces (e.g. a new GraphQL URL).  Not only does this empower Vendia Share users, it also allows users the agility to evolve as business or participant needs change.
 
