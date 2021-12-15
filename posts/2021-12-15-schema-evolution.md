@@ -8,7 +8,7 @@ authors:
   - Brian McNamara
 ---
 
-Vendia Share allows users to share a single source of truth in a secure and scalable manner through Universal Applications (Unis). Unis are automatically created using a user-supplied data model. Vendia Share takes the user supplied data model and deploys a Uni in a matter of minutes.  This includes provisioning fully managed GraphQL APIs to interact with the Uni and a serverless distributed ledger that keeps data consistent across all participants.
+Vendia Share allows users to share a single source of truth in a secure and scalable manner through Universal Applications (Unis). Unis are automatically created using a user-supplied data model. Vendia Share takes the user supplied data model and deploys a Uni in a matter of minutes.  This includes provisioning fully managed, fullly functional GraphQL APIs to interact with the Uni and a serverless distributed ledger that keeps data consistent across all participants.
 
 As Uni participants grow and as the fidelity of solutions increase over time, it's common for users to want to evolve the original data model used to create the Uni.  Historically, there was no way for users to change the data model once a Uni was created. Any data model change to a Uni required destroying it and its accompanying nodes and recreating it with the new model. 
 
