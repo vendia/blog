@@ -1,4 +1,44 @@
 {
+  "Smart Contracts": [
+    {
+      "file": "/releases/2021-12-24-releasenotes.md",
+      "title": "Improving Smart Contracts Validation",
+      "description": "Delivering improved validation and error handling",
+      "date": "2021-12-24",
+      "draft": true,
+      "tags": [
+        "Smart Contracts",
+        "Improvements"
+      ]
+    },
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "A Sleigh Full of New Features",
+      "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
+      "date": "2021-12-10",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Azure",
+        "Smart Contracts",
+        "Share Tiers and Pricing",
+        "ACID Semantics"
+      ]
+    }
+  ],
+  "Improvements": [
+    {
+      "file": "/releases/2021-12-24-releasenotes.md",
+      "title": "Improving Smart Contracts Validation",
+      "description": "Delivering improved validation and error handling",
+      "date": "2021-12-24",
+      "draft": true,
+      "tags": [
+        "Smart Contracts",
+        "Improvements"
+      ]
+    }
+  ],
   "New Features": [
     {
       "file": "/releases/2021-12-10-releasenotes.md",
@@ -27,22 +67,6 @@
     }
   ],
   "Azure": [
-    {
-      "file": "/releases/2021-12-10-releasenotes.md",
-      "title": "A Sleigh Full of New Features",
-      "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
-      "date": "2021-12-10",
-      "draft": false,
-      "tags": [
-        "New Features",
-        "Azure",
-        "Smart Contracts",
-        "Share Tiers and Pricing",
-        "ACID Semantics"
-      ]
-    }
-  ],
-  "Smart Contracts": [
     {
       "file": "/releases/2021-12-10-releasenotes.md",
       "title": "A Sleigh Full of New Features",
