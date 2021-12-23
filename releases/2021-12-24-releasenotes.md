@@ -2,7 +2,7 @@
 title: 'Improving Smart Contracts Validation'
 description: 'Delivering improved validation and error handling'
 date: '2021-12-24'
-draft: true
+draft: false
 tags:
 - Smart Contracts
 - Improvements
