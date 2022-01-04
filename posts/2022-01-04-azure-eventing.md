@@ -2,6 +2,8 @@
 title: "Real-Time Cross-Cloud Data Sharing"
 description: "Event-driven processing using Vendia Share's new Azure capabilities"
 date: '2022-01-04'
+categories:
+- architecture
 authors:
 - James Gimourginas
 ---
@@ -21,11 +23,8 @@ Vendia Share addresses those imperatives through the concept of a Universal Appl
 In this blog post we'll highlight the value of Vendia Share's new Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective.  Consider the case of a Supplier (on AWS), working through a Distributor (on AWS), who delivers goods to a Retailer (on Azure).  When the Supplier makes an adjustment (say by changing the anticipated fulfilment date of an existing purchase order), both the Distributor and the Retailer would like to be made aware (and take action) immediately.
 
 <figure>
-
-<img src="https://user-images.githubusercontent.com/85032783/147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" style="width:100%"/>
-
-<figcaption align = "center"><b>Figure 1</b><br/><i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
-
+  <img src="https://user-images.githubusercontent.com/85032783/147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" width="100%"/>
+  <figcaption align="center"><b>Figure 1</b><br/><i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
 </figure>
 
 We'll do exactly that after setting up the proper Vendia Share and Azure configuration.  The process will start by modifying the fulfillment date of a purchase order by executing a [GraphQL mutation](https://graphql.org/learn/queries/#mutations) against the Supplier's node in the Uni.  That, in turn, will cause an event to flow to Retailer's node in the Uni and then to the Retailer's Azure environment, delivered to [Azure Event Grid](https://azure.microsoft.com/en-us/services/event-grid/).  From there, an event-driven [Azure Function](https://azure.microsoft.com/en-us/services/functions/) within the Retailer's Azure environment will process the delivered event.
@@ -54,10 +53,10 @@ This is accomplished using a `registration.json` file that defines one Node per 
 > Note: Please refer to our docs for more information about the modeling Uni participants using [a registration file](https://www.vendia.net/docs/share/uni-creation#registration-file) or modeling data using [a schema file](https://www.vendia.net/docs/share/data-modeling#sample-registration-files).
 
 * Save the following as `registration.json`
-    <details>
+  <details>
     <summary>registration.json Contents</summary>
   
-    ```
+    ```json
     {
       "name": "<UNI_NAME>",
       "schema": "inventory.schema.json",
@@ -105,13 +104,13 @@ This is accomplished using a `registration.json` file that defines one Node per 
       ]
     }
     ```
-</details>
+  </details>
 
 * Save the following file in the same directory as the last as `inventory.schema.json`
-    <details>
+  <details>
     <summary>inventory.schema.json Contents</summary>
   
-    ```
+    ```json
     {
       "$schema": "http://json-schema.org/draft-07/schema#",
       "$id": "http://vendia.net/schemas/demos/track-and-trace.json",
@@ -203,11 +202,10 @@ This is accomplished using a `registration.json` file that defines one Node per 
   </details>
 
 * Save the following file in the same directory as the previous files as `initial-state.json`
-
-    <details>
+  <details>
     <summary>initial-state.json Contents</summary>
   
-    ```
+    ```json
     {
       "Product": [
         {
@@ -282,7 +280,7 @@ This is accomplished using a `registration.json` file that defines one Node per 
       ]
     }
     ```
-</details>
+  </details>
 
 * After moving back to your terminal, change directory into the directory containing those files
 * Login to the Share CLI
@@ -292,10 +290,10 @@ This is accomplished using a `registration.json` file that defines one Node per 
 * Wait about 5 minutes for the Uni to be created
     * `share uni get --uni <UNI_NAME>`
 * Proceed only after the Uni state has transitioned to `RUNNING`
-    <details>
+  <details>
     <summary>Uni Get Output</summary>
   
-    ```
+    ```bash
     Getting <UNI_NAME> info...
     ┌─────────────────────┐
     │   Uni Information   │
@@ -306,7 +304,7 @@ This is accomplished using a `registration.json` file that defines one Node per 
     Node Count:  3
     Nodes Info:  ...
     ```
-</details>
+  </details>
 
 
 
@@ -341,24 +339,24 @@ To finalize this integration, we next:
 
 * Create an Azure Function, like this [simple Python function](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-event-grid-trigger?tabs=python%2Cbash) below, noting the Function App Resource ID for the subsequent step, hereafter referred to as `<FUNCTION_APP_RESOURCE_ID>`
 
-    <details>
+  <details>
     <summary>Sample __init__.py</summary>
-    
-     ```
-        import json
-        import logging
-        import azure.functions as func
-        def main(event: func.EventGridEvent):
-            result = json.dumps({
-                'id': event.id,
-                'data': event.get_json(),
-                'topic': event.topic,
-                'subject': event.subject,
-                'event_type': event.event_type,
-            })   	 logging.info('Azure Function processed a Vendia Share event: %s', result)
-            
+  
+    ```python
+      import json
+      import logging
+      import azure.functions as func
+      def main(event: func.EventGridEvent):
+        result = json.dumps({
+            "id": event.id,
+            "data": event.get_json(),
+            "topic": event.topic,
+            "subject": event.subject,
+            "event_type": event.event_type,
+        })
+        logging.info('Azure Function processed a Vendia Share event: %s', result)        
     ```
-    </details>
+  </details>
 
 * Permit the Service Principal created previously to interact with this Azure Function
     * `az role assignment create --assignee "<SERVICE_PRINCIPAL_ID>" --role "Website Contributor" --scope "<FUNCTION_APP_RESOURCE_ID>"`
@@ -384,7 +382,7 @@ To finalize this integration, we next:
           }
         }
       ) {
-       result {
+        result {
           _id
           _owner
           transactionId
@@ -405,7 +403,7 @@ To finalize this integration, we next:
 
 * Verify the settings were updated as expected before continuing
 
-    <details>
+  <details>
     <summary>Get Azure Settings Query</summary>
   
     ```
@@ -423,7 +421,7 @@ To finalize this integration, we next:
       }
     }
     ```
-    </details>
+  </details>
 
 
 
@@ -435,7 +433,7 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
 
 * Using the Vendia Share Web Application's GraphQL Explorer of the Supplier's AWS Node, identify a Purchase Order to modify, noting the `_id` for one of the Purchase Orders listed for the subsequent step, referred to hereafter as `<PO_ID>`
 
-    <details>
+  <details>
     <summary>List Purchase Orders Query</summary>
   
     ```
@@ -461,13 +459,13 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
 
 * Execute a GraphQL (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) update to modify the PO identified in the previous step
 
-    <details>
+  <details>
     <summary>Update Purchase Order Mutation</summary>
   
     ```
     mutation updatePurchaseOrder {
       update_PurchaseOrder_async(
-        id: "<PO_ID>", 
+        id: "<PO_ID>",
         input: {
           expected: "2022-01-03T00:00:00Z"
         }) {
@@ -481,17 +479,14 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
       }
     }
     ```
-    </details>
+  </details>
 
 
 The update to the Supplier Node will cause an event, a block notification, to be emitted from the Retailer Node.  The Retailer Node, thanks to the configuration in previous steps, will act on that event through the configured Azure Function.  We can now view the output of the Azure Function, which was triggered through the Retailer's Azure Node, using the Azure-provided [Application Insights](https://docs.microsoft.com/en-us/azure/azure-functions/analyze-telemetry-data) view.
 
 <figure>
-
-<img src="https://user-images.githubusercontent.com/85032783/147982095-1d1602ee-616f-4b81-b455-463fe7857429.png" style="width:100%"/>
-
-<figcaption align = "center"><b>Figure 2</b><br/><i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
-
+  <img src="https://user-images.githubusercontent.com/85032783/147982095-1d1602ee-616f-4b81-b455-463fe7857429.png" width="100%"/>
+  <figcaption align="center"><b>Figure 2</b><br/><i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
 </figure>
 
 ## Key Takeaways
