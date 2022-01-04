@@ -20,7 +20,7 @@ As [partner ecosystems become central](https://www.bearingpointbeyond.com/en/ins
 
 Vendia Share addresses those imperatives through the concept of a Universal Application (or Uni for short).  A Uni allows each party (what we call a Uni participant) to work from a single source of truth, removing the complexity of sharing data among parties while also streamlining the use of the data as it's shared.  "As it's shared" means applying real-time actions to real-time data, using an event-driven programming model.  It also means working across organizations no matter their choice and investment in differing CSPs.
 
-In this blog post we'll highlight the value of Vendia Share's new Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective.  Consider the case of a Supplier (on AWS), working through a Distributor (on AWS), who delivers goods to a Retailer (on Azure).  When the Supplier makes an adjustment (say by changing the anticipated fulfilment date of an existing purchase order), both the Distributor and the Retailer would like to be made aware (and take action) immediately.
+In this blog post, we'll highlight the value of Vendia Share's new Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective.  Consider the case of a Supplier (on AWS), working through a Distributor (on AWS), who delivers goods to a Retailer (on Azure).  When the Supplier makes an adjustment (say by changing the anticipated fulfilment date of an existing purchase order), both the Distributor and the Retailer would like to be made aware (and take action) immediately.
 
 <figure>
   <img src="https://user-images.githubusercontent.com/85032783/147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" width="100%"/>
