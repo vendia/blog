@@ -333,7 +333,7 @@ When your Uni reaches a `RUNNING` state, you'll have a multi-cloud, multi-region
 
 ## Step 3 - Create Azure Function
 
-Now that the Service Principal will permit the Retailer Node to emit events to services within your Azure environment, there are several integration options at our disposal.  The integration option we'll explore here is an Azure function that takes action when an event is received.  In this scenario, consider a Supplier that makes a Purchase Order adjustment (changing the expected fulfillment date) and a Retailer that wants to take immediate action (changing dates for promoting a popular sale, as a result).
+Now that the Service Principal will permit the Retailer Node to emit events to services within your Azure environment, there are several integration options at our disposal.  The integration option we'll explore here is an Azure Function that takes action when an event is received.  In this example, consider a Supplier that makes a Purchase Order adjustment (changing the expected fulfillment date) and a Retailer that wants to take immediate action (changing dates for promoting a popular sale, as a result).
 
 To finalize this integration, we next:
 
