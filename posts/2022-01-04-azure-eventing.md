@@ -363,7 +363,7 @@ To finalize this integration, we next:
 
 1. Open the Vendia Share web site ([https://share.vendia.net/uni](https://share.vendia.net/uni)), and click your Uni’s name. Find the Retailer Node and click on its `GraphQL Explorer` button. Clear the sample query in the middle pane, and insert the mutation below.
     
-   <details>
+    <details>
       <summary>Update Azure Settings Mutation</summary>
     
       ```
