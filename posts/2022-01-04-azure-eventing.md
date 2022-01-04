@@ -310,7 +310,7 @@ This is accomplished using a `registration.json` file that defines one Node per 
 
 ## Step 2 - Create Azure Service Principal
 
-A multi-cloud, multi-region Uni allows its participants - the Supplier, the Distributor, and the Retailer - to create and modify Products and Purchase Orders.  A participant can then integrate its Vendia Share Node with services in their Cloud Service Provider (CSP) of choice in order to immediately detect and act upon Uni events.
+A multi-cloud, multi-region Uni allows its participants - the Supplier, the Distributor, and the Retailer - to create and modify Products and Purchase Orders.  A participant can then integrate its Vendia Share Node with services in their cloud service provider (CSP) of choice in order to immediately detect and act upon Uni events.
 
 Our next step is to connect the Vendia Retailer Node with an Azure CSP environment.  This mimics a common integration approach, where a Retailer has an existing Azure CSP environment and wants to use CSP services to produce or consume data from its Vendia Share Node.
 
