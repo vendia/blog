@@ -1,4 +1,74 @@
 {
+  "architecture": [
+    {
+      "file": "/posts/2022-01-04-azure-eventing.md",
+      "title": "Real-Time Cross-Cloud Data Sharing",
+      "description": "Event-driven processing using Vendia Share's new Azure capabilities",
+      "date": "2022-01-04",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-31-stamti.md",
+      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
+      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
+      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.",
+      "date": "2021-01-31",
+      "categories": [
+        "architecture"
+      ],
+      "tags": [
+        "STAMTI"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    }
+  ],
   "announcements": [
     {
       "file": "/posts/2021-12-15-schema-evolution.md",
@@ -125,64 +195,6 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
-    }
-  ],
-  "architecture": [
-    {
-      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
-      "title": "Authenticating Vendia Share Requests Using SAML",
-      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
-      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
-      "date": "2021-11-02",
-      "authors": [
-        "Brian McNamara"
-      ],
-      "categories": [
-        "architecture"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
-      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-31-stamti.md",
-      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
-      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
-      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.",
-      "date": "2021-01-31",
-      "categories": [
-        "architecture"
-      ],
-      "tags": [
-        "STAMTI"
-      ],
-      "authors": [
-        "Tim Wagner"
       ]
     }
   ],

@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Real-Time Cross-Cloud Data Sharing](https://vendia.net/blog/azure-eventing) <br/> Event-driven processing using Vendia Share's new Azure capabilities by James Gimourginas | 2022-01-04 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-04-azure-eventing.md)
 | [Schema Evolution](https://vendia.net/blog/schema-evolution) <br/> Exploring the ability to update the data model in a Universal Application (Uni) by Brian McNamara | 2021-12-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-15-schema-evolution.md)
 | [Vendia's Response to CVE-2021-44228](https://vendia.net/blog/log4j2-response) <br/> A note on the impact to Vendia and our customers by James Gimourginas | 2021-12-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-13-log4j2-response.md)
 | [Announcing Azure support, smart contracts, and new pricing plans for Vendia Share](https://vendia.net/blog/announcing-new-features) <br/> Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features by David Brown | 2021-12-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-09-announcing-new-features.md)
