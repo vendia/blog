@@ -491,6 +491,6 @@ The update to the Supplier Node will cause an event, a block notification, to be
 
 ## Key Takeaways
 
-Vendia Share's new Azure eventing mechanism allows partners - in this case a Supplier, a Distributor, and a Retailer - to keep each other informed, in real-time, and act on updates as they happen.  While this capability is still a Beta feature, we'd love to [get your feedback](https://www.vendia.net/contact-us).
+Vendia Share's new Azure eventing mechanism allows partners - in this case a Supplier, a Distributor, and a Retailer - to keep each other informed, in real-time, and act on updates as they happen.  While this capability is still a beta feature, we'd love to [get your feedback](https://www.vendia.net/contact-us).
 
 Now that you've seen how simple it is to create an integration between a Vendia Share Node and an Azure Function, check out [one of several](https://www.vendia.net/docs/share/integrations#getting-started-with-azure-notifications) other Azure integration patterns that can be used to process events that transpire across a Uni.  Or, check out one of our other [Quick Starts](https://www.vendia.net/docs/share/quickstart) if you're relatively new to Vendia Share.
