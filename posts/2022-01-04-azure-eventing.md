@@ -486,7 +486,7 @@ The update to the Supplier Node will cause an event, a block notification, to be
 
 <figure>
   <img src="https://user-images.githubusercontent.com/85032783/147982095-1d1602ee-616f-4b81-b455-463fe7857429.png" width="100%"/>
-  <figcaption align="center"><b>Figure 2</b><br/><i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
+  <figcaption align="center"><b>Figure 2</b> - <i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
 </figure>
 
 ## Key Takeaways
