@@ -52,7 +52,7 @@ This is accomplished using a `registration.json` file that defines one Node per 
 
 > Note: Please refer to our docs for more information about the modeling Uni participants using [a registration file](https://www.vendia.net/docs/share/uni-creation#registration-file) or modeling data using [a schema file](https://www.vendia.net/docs/share/data-modeling#sample-registration-files).
 
-* Save the following as `registration.json`
+* Save the following as `registration.json`. Populate `<UNI_NAME>` with a name for your Uni and each `<USER_ID>` with an email address for each Uni Node owner.
   <details>
     <summary>registration.json Contents</summary>
   
