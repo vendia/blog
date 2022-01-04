@@ -318,7 +318,7 @@ When your Uni reaches a `RUNNING` state, you'll have a multi-cloud, multi-region
 
 * Login to your Azure environment using the Azure CLI
     * `az login`
-* Identify the Subscription ID of your [Azure Subscription](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) in which your Azure environment resides and set the Azure Subscription against which future Azure CLI commands will execute
+* Identify the Subscription ID of your [Azure Subscription](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) in which your Azure environment resides. Set the Azure Subscription ID against which future Azure CLI commands will execute
     * `az account set --subscription "<AZURE_SUBSCRIPTION_ID>"`
 * To confirm Azure Event Grid, used to relay events from Share to your Azure environment, is ready for use we must first [register Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart#enable-the-event-grid-resource-provider) as a provider
     * `az provider register --namespace Microsoft.EventGrid`
