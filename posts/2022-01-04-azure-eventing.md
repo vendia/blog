@@ -282,7 +282,7 @@ This is accomplished using a `registration.json` file that defines one Node per 
     ```
   </details>
 
-* After moving back to your terminal, change directory into the directory containing those files
+* After moving back to your terminal, change directory into the directory containing the files created above.
 * Login to the Share CLI
     * `share auth login`
 * Create a Uni
