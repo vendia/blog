@@ -457,7 +457,7 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
     ```
   </details>
 
-* Execute a GraphQL (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) update to modify the PO identified in the previous step
+* Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
 
   <details>
     <summary>Update Purchase Order Mutation</summary>
