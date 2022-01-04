@@ -24,7 +24,7 @@ In this blog post we'll highlight the value of Vendia Share's new Azure capabili
 
 <figure>
   <img src="https://user-images.githubusercontent.com/85032783/147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" width="100%"/>
-  <figcaption align="center"><b>Figure 1</b><br/><i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
+  <figcaption align="center"><b>Figure 1</b> - <i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
 </figure>
 
 We'll do exactly that after setting up the proper Vendia Share and Azure configuration.  The process will start by modifying the fulfillment date of a purchase order by executing a [GraphQL mutation](https://graphql.org/learn/queries/#mutations) against the Supplier's node in the Uni.  That, in turn, will cause an event to flow to Retailer's node in the Uni and then to the Retailer's Azure environment, delivered to [Azure Event Grid](https://azure.microsoft.com/en-us/services/event-grid/).  From there, an event-driven [Azure Function](https://azure.microsoft.com/en-us/services/functions/) within the Retailer's Azure environment will process the delivered event.
