@@ -48,7 +48,7 @@ The first step is to create a cross-cloud Uni for this example, with the followi
 * A `Distributor` AWS Node (`us-west-2`)
 * A `Retailer` Azure Node (`eastus`)
 
-This is accomplished using a `registration.json` file that defines one Node per Uni participant.  Each Node definition includes a `csp` (short for Cloud Service Provider) and a `region`, which is [unique to each CSP](https://www.vendia.net/docs/share/cli/guide#supported-cloud-platforms-and-regions).  Using the example below, we're able to provision a multi-cloud, multi-region Uni that connects all three participants in just about 5 minutes.
+This is accomplished using a `registration.json` file that defines one Node per Uni participant.  Each Node definition includes a `csp` (short for cloud service provider) and a `region`, which is [unique to each CSP](https://www.vendia.net/docs/share/cli/guide#supported-cloud-platforms-and-regions).  Using the example below, we're able to provision a multi-cloud, multi-region Uni that connects all three participants in just about 5 minutes.
 
 > Note: Please refer to our docs for more information about the modeling Uni participants using [a registration file](https://www.vendia.net/docs/share/uni-creation#registration-file) or modeling data using [a schema file](https://www.vendia.net/docs/share/data-modeling#sample-registration-files).
 
