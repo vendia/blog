@@ -71,7 +71,7 @@ jobs:
           fi
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
           # Pull again to make sure we can push
-          git pull
+          git pull --ff-only || true
       - name: Run if true
         if: steps.committer.outputs.has_changes == 'true'
         run: echo 'Has image updates'
