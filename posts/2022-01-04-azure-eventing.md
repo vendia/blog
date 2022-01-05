@@ -23,7 +23,7 @@ Vendia Share addresses those imperatives through the concept of a Universal Appl
 In this blog post, we'll highlight the value of Vendia Share's new Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective.  Consider the case of a Supplier (on AWS), working through a Distributor (on AWS), who delivers goods to a Retailer (on Azure).  When the Supplier makes an adjustment (say by changing the anticipated fulfilment date of an existing purchase order), both the Distributor and the Retailer would like to be made aware (and take action) immediately.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" width="100%"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" width="100%"/>
   <figcaption align="center"><b>Figure 1</b> - <i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
 </figure>
 
@@ -482,7 +482,7 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
 The update to the Supplier Node will cause an event, a block notification, to be emitted from the Retailer Node.  The Retailer Node, thanks to the configuration in previous steps, will act on that event through the configured Azure Function.  We can now view the output of the Azure Function, which was triggered through the Retailer's Azure Node, using the Azure-provided [Application Insights](https://docs.microsoft.com/en-us/azure/azure-functions/analyze-telemetry-data) view.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/147982095-1d1602ee-616f-4b81-b455-463fe7857429.png" width="100%"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783147982095-1d1602ee-616f-4b81-b455-463fe7857429.png" width="100%"/>
   <figcaption align="center"><b>Figure 2</b> - <i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
 </figure>
 

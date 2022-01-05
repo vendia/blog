@@ -35,11 +35,11 @@ Let's explore how to go through the process. You'll need to have a Vendia user. 
 
 The first step in our process is to [create a new Uni](https://share.vendia.net/uni/create). This example will use the **Product database** template.
 
-<img width="1355" alt="01-uni-starting-point" src="https://user-images.githubusercontent.com/71095088/146004667-bddc37b5-90ee-4b41-a9fa-54e28eacfbf2.png" />
+<img width="1355" alt="01-uni-starting-point" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146004667-bddc37b5-90ee-4b41-a9fa-54e28eacfbf2.png" />
 
 You can create a single node in a supported region for the purposes of this example. After several minutes you should have a new Uni up and running.
 
-<img width="1405" alt="02-uni-info-page" src="https://user-images.githubusercontent.com/71095088/146019919-1e03d5df-1ccc-42ec-b9da-9bd40e007844.png" />
+<img width="1405" alt="02-uni-info-page" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146019919-1e03d5df-1ccc-42ec-b9da-9bd40e007844.png" />
 
 # Verify the Initial Schema
 
@@ -105,7 +105,7 @@ We can view the deployed schema from the Vendia Share web application.
 
 Though the schema is valid - our Uni was successfully created after all - it's lacking something. It's missing a **quantity** field to capture the count of each item we have in stock. The field isn't available when we try to add a new product via the `add_Product_async` operation.
 
-<img width="1357" alt="03-add-new-product-with-introspection" src="https://user-images.githubusercontent.com/71095088/146020054-6bcd7edb-aaff-4066-9a04-20f831453b7c.png" />
+<img width="1357" alt="03-add-new-product-with-introspection" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020054-6bcd7edb-aaff-4066-9a04-20f831453b7c.png" />
 
 Let's fix that problem.
 
@@ -189,21 +189,21 @@ You should receive the following output from the above command:
 
 You Uni will move to an Updating state while the new schema is applied. Read requests of the Uni will succeed. Any write requests will be queued until the update is complete.
 
-<img width="1399" alt="04-updating-uni-after-schema-evolution" src="https://user-images.githubusercontent.com/71095088/146020311-b527affd-1954-4386-b32d-1e9facd41d05.png" />
+<img width="1399" alt="04-updating-uni-after-schema-evolution" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020311-b527affd-1954-4386-b32d-1e9facd41d05.png" />
 
 # Verifying Results After Schema Evolution
 
 Once your Uni enters a Running state you can begin working with your updated data model.
 
-<img width="1400" alt="05-running-uni-after-schema-evolution" src="https://user-images.githubusercontent.com/71095088/146020480-dfcab76a-e308-4095-a86c-da2dfc8d89c1.png" />
+<img width="1400" alt="05-running-uni-after-schema-evolution" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020480-dfcab76a-e308-4095-a86c-da2dfc8d89c1.png" />
 
 Let's first make sure our new field - **quantity** - is present in our Uni's schema.
 
-<img width="1399" alt="06-schema-after-evolution" src="https://user-images.githubusercontent.com/71095088/146020628-a73752b7-9018-4ab2-bdd4-1cb86ed32d5e.png" />
+<img width="1399" alt="06-schema-after-evolution" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020628-a73752b7-9018-4ab2-bdd4-1cb86ed32d5e.png" />
 
 Now that we know our new field is present, let's confirm it's accessible. We can go back to the node's GraphQL Explorer and examine the available fields when running a `add_Product_async` operation.
 
-<img width="1412" alt="07-add-new-shape-with-introspection-after-evolution" src="https://user-images.githubusercontent.com/71095088/146020856-e51b3e50-19ca-480a-a35c-76e406b2b5f0.png" />
+<img width="1412" alt="07-add-new-shape-with-introspection-after-evolution" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020856-e51b3e50-19ca-480a-a35c-76e406b2b5f0.png" />
 
 We can now make use of **quantity** in our evolved schema.
 
