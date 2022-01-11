@@ -8,6 +8,11 @@ authors:
 - James Gimourginas
 ---
 
+## Updates
+_This post has been updated since it was first published._
+
+* **01/11/2022** - Check out this [comprehensive code example](https://github.com/vendia/examples/tree/main/integrations/azure/share-to-azure-functions), from which the code snippets in this post were taken.
+
 ## Overview
 
 Vendia Share is the real-time data cloud for rapidly building applications that securely share data across departments, companies, and clouds.  As we recently [announced](https://www.vendia.net/blog/announcing-new-features), Vendia Share now includes functionality that makes integrating real-time data with Microsoft Azure services easier than ever before.
