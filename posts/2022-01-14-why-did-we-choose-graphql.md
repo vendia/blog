@@ -3,8 +3,7 @@ title: "Why Did We Choose GraphQL?"
 description: "Making Decisions to Enable a Platform"
 date: '2022-01-18'
 categories:
-- Features
-- GraphQL
+- concepts
 authors:
 - Brian McNamara
 ---
