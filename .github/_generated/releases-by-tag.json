@@ -1,4 +1,41 @@
 {
+  "Improvements": [
+    {
+      "file": "/releases/2022-01-14-releasenotes.md",
+      "title": "Improved Usability, Reliability, and Speed…as a Service",
+      "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
+      "date": "2022-01-14",
+      "draft": false,
+      "tags": [
+        "Improvements",
+        "Operations"
+      ]
+    },
+    {
+      "file": "/releases/2021-12-24-releasenotes.md",
+      "title": "Improving Smart Contracts Validation",
+      "description": "Delivering improved validation and error handling",
+      "date": "2021-12-24",
+      "draft": false,
+      "tags": [
+        "Smart Contracts",
+        "Improvements"
+      ]
+    }
+  ],
+  "Operations": [
+    {
+      "file": "/releases/2022-01-14-releasenotes.md",
+      "title": "Improved Usability, Reliability, and Speed…as a Service",
+      "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
+      "date": "2022-01-14",
+      "draft": false,
+      "tags": [
+        "Improvements",
+        "Operations"
+      ]
+    }
+  ],
   "Smart Contracts": [
     {
       "file": "/releases/2021-12-24-releasenotes.md",
@@ -23,19 +60,6 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
-    }
-  ],
-  "Improvements": [
-    {
-      "file": "/releases/2021-12-24-releasenotes.md",
-      "title": "Improving Smart Contracts Validation",
-      "description": "Delivering improved validation and error handling",
-      "date": "2021-12-24",
-      "draft": false,
-      "tags": [
-        "Smart Contracts",
-        "Improvements"
       ]
     }
   ],
