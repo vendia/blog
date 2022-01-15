@@ -1,6 +1,6 @@
 ---
-title: "Why Did We Choose GraphQL?"
-description: "Making Decisions to Enable a Platform"
+title: "Why We Combined GraphQL and a Serverless Distributed Ledger"
+description: "Making Strategic Decisions to Enable a Platform"
 date: '2022-01-18'
 categories:
 - concepts
