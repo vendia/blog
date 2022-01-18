@@ -207,11 +207,16 @@ function formatMD(text, filePath) {
   }
 }
 
-const FIND_MARKDOWN_LINKS_REGEX = /(?:['"(])((?:\/|https?:\/\/)[\w\d-_./?=#%+&]+)/gmi
+const FIND_MARKDOWN_LINKS_REGEX = /(?:['"(])((?:\/|https?:\/\/)[\w\d-_./?=#%:+&]{3,})/gmi
 // Might need ([\s\S]*?) instead of '*' in between tags
 const HTML_TAG = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/gim
 
-const BETTER = /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/>)/gm
+const MATCH_HTML_TAGS_REGEX = /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/?>)/gm
+// old forces closes / - /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/>)/gm
+
+function onlyUnique(value, index, self) {
+  return self.indexOf(value) === index;
+}
 
 function getLinks(mdContents, filePath) {
   const matches = mdContents.match(FIND_MARKDOWN_LINKS_REGEX)
@@ -221,9 +226,11 @@ function getLinks(mdContents, filePath) {
       filePath
     }
   }
-  const links = matches.map((m) => m.replace(/^['"(]/, ''))
+  const links = matches
+    .map((m) => m.replace(/^['"(]/, ''))
+    .filter(onlyUnique)
   return { 
-    links,
+    links: links,
     filePath
   }
 }
@@ -232,7 +239,7 @@ function parseHtmlProps(mdContents) {
   const parents = mdContents
     /* Fix non terminating <tags> */
     .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
-    .match(BETTER)
+    .match(MATCH_HTML_TAGS_REGEX)
   // console.log('parents', parents)
 
   if (parents) {
@@ -245,15 +252,17 @@ function parseHtmlProps(mdContents) {
   const htmlTags = mdContents
     /* Fix non terminating <tags> */
     .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
-    .match(BETTER)
+    .match(MATCH_HTML_TAGS_REGEX)
   // console.log('htmlTags', htmlTags)
 
   let tags = []
   if (htmlTags) {
     let propsValues = {}
     // var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/
-    var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>([\s\S]*?)<\/\1>|\s*\/>)/
+    // var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>([\s\S]*?)<\/\1>|\s*\/>)/
+    var regexSingleTag = /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/?>)/
     for (var i = 0; i < htmlTags.length; i++) {
+      // console.log('htmlTags[i]', htmlTags[i])
       var tagMatches = regexSingleTag.exec(htmlTags[i])
       // console.log('tagMatches', tagMatches)
       var [ match, tag, props ] = tagMatches
@@ -270,7 +279,7 @@ function parseHtmlProps(mdContents) {
           const hasQuotes = curr.match(/=['"]/)
           // Check key="value" | key='value' |  key={value}
           const propWithValue = /([A-Za-z-_$]+)=['{"](.*)['}"]/g.exec(curr)
-          if (propWithValue) {
+          if (propWithValue && propWithValue[1]) {
             return {
               ...acc,
               [`${propWithValue[1]}`]: (hasQuotes) ? propWithValue[2] : convert(propWithValue[2])
@@ -278,7 +287,7 @@ function parseHtmlProps(mdContents) {
           }
           // Check isLoading boolean props
           const booleanProp = curr.match(/([A-Za-z]*)/)
-          if (booleanProp) {
+          if (booleanProp && booleanProp[1]) {
             return {
               ...acc,
               [`${booleanProp[1]}`]: true
@@ -313,7 +322,7 @@ function convert(value) {
   try {
     const val = JSON.parse(value)
     return val
-  } catch(err) {
+  } catch (err) {
     
   }
 

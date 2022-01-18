@@ -20,15 +20,20 @@ const bucketDirectory = S3_BUCKET_DIRECTORY || 'optimized'
 async function imagePipeline() {
   /* 1. collect all non cdn images from files */
   console.log('Collecting all images from markdown...')
+  // @TODO optimize this and only pull back md files that have changed
+  const allMdFiles = [
+    'posts/**/*.md',
+    'posts/**/*.mdx',
+    'releases/**/*.md',
+    'releases/**/*.mdx',
+    '!CONTRIBUTING.md',
+    '!README.md',
+    '!node_modules/**'
+  ]
+
   const originalImages = await collectImages({
     outputDir: TEMP_DOWNLOAD_DIR,
-    markdownGlob: [
-      'posts/**/*.md',
-      'posts/**/*.mdx',
-      '!CONTRIBUTING.md',
-      '!README.md',
-      '!node_modules/**'
-    ],
+    markdownGlob: allMdFiles,
     exclude: [
       makeRegex(`^${cdnPrefix}`)
     ],
