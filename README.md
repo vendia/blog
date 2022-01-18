@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Why We Combined GraphQL and a Serverless Distributed Ledger](https://vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger) <br/> Making Strategic Decisions to Enable a Platform by Brian McNamara | 2022-01-18 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md)
 | [Real-Time Cross-Cloud Data Sharing](https://vendia.net/blog/azure-eventing) <br/> Event-driven processing using Vendia Share's new Azure capabilities by James Gimourginas | 2022-01-04 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-04-azure-eventing.md)
 | [Schema Evolution](https://vendia.net/blog/schema-evolution) <br/> Exploring the ability to update the data model in a Universal Application (Uni) by Brian McNamara | 2021-12-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-15-schema-evolution.md)
 | [Vendia's Response to CVE-2021-44228](https://vendia.net/blog/log4j2-response) <br/> A note on the impact to Vendia and our customers by James Gimourginas | 2021-12-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-13-log4j2-response.md)

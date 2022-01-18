@@ -1,4 +1,34 @@
 {
+  "concepts": [
+    {
+      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
+      "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
+      "description": "Making Strategic Decisions to Enable a Platform",
+      "date": "2022-01-18",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-01-decentralization.md",
+      "title": "Understanding Decentralization in the Cloud",
+      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
+      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
+      "date": "2021-02-01",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "decentralization"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    }
+  ],
   "architecture": [
     {
       "file": "/posts/2022-01-04-azure-eventing.md",
@@ -272,24 +302,6 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
-    }
-  ],
-  "concepts": [
-    {
-      "file": "/posts/2021-02-01-decentralization.md",
-      "title": "Understanding Decentralization in the Cloud",
-      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
-      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
-      "date": "2021-02-01",
-      "categories": [
-        "concepts"
-      ],
-      "tags": [
-        "decentralization"
-      ],
-      "authors": [
-        "Tim Wagner"
       ]
     }
   ]
