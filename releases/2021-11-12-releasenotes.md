@@ -12,80 +12,45 @@ If you're interested in keeping track of incremental updates, feel free to explo
 
 Executing
 
-```
-
+```graphql
 query GetUniInfo {
-
   getVendia_UniInfo {
-
     nodes {
-
       name
-
       region
-
       vendiaAccount {
-
         csp
-
       }
-
     }
-
   }
-
 }
-
 ```
 
 will now result in something like this
 
-```
-
+```json
 {
-
   "data": {
-
     "getVendia_UniInfo": {
-
       "nodes": [
-
         {
-
           "name": "OriginatorNode",
-
           "region": "us-east-1",
-
           "vendiaAccount": {
-
             "csp": "AWS"
-
           }
-
         },
-
         {
-
           "name": "ServicerNode",
-
           "region": "us-west-2",
-
           "vendiaAccount": {
-
             "csp": "AWS"
-
           }
-
         }
-
       ]
-
     }
-
   }
-
 }
-
 ```
 
 Much more to come.  Stay tuned!
