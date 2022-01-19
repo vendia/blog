@@ -189,8 +189,11 @@ function formatMD(text, filePath) {
   }
 
   const { links } = getLinks(text, filePath)
+  // console.log('links', links)
+  const relativeLinks = getRelativeLinks(text)
+  // console.log('relativeLinks', relativeLinks)
   // console.log(`links ${filePath}`, filePath)
-  const images = getImageLinks(links)
+  const images = getImageLinks(links.concat(relativeLinks))
   // console.log(`images ${filePath}`, images)
   const htmlTags = parseHtmlProps(text)
   // console.log(`htmlTags ${filePath}`, htmlTags)
@@ -200,6 +203,7 @@ function formatMD(text, filePath) {
     file: filePath,
     ...(frontmatter.data.date) ? { date : frontmatter.data.date } : {},
     links: links,
+    relativeLinks,
     images: images,
     htmlTags: htmlTags,
     frontMatterRaw: replaceText,
@@ -207,7 +211,14 @@ function formatMD(text, filePath) {
   }
 }
 
-const FIND_MARKDOWN_LINKS_REGEX = /(?:['"(])((?:\/|https?:\/\/)[\w\d-_./?=#%:+&]{3,})/gmi
+const FIND_LIVE_LINKS = /(?:['"(])((?:https?:\/\/)[\w\d-_./?=#%:+&]{3,})/gmi
+
+// https://regex101.com/r/Nywerx/1
+const FIND_RELATIVE_LINKS = /(src|href|\()=?(['"/])(?!(?:(?:https?|ftp):\/\/|data:))(\.?\/)?([\w\d-_./?=#%:+&]+)(?:['")])?/gim
+
+// https://regex101.com/r/Uxgu3P/1
+const FIND_RELATIVE_IMAGES = /(<img.*?src=['"])(?!(?:(?:https?|ftp):\/\/|data:))(\.?\/)?(.*?)(['"].*?\/?>)/gim
+
 // Might need ([\s\S]*?) instead of '*' in between tags
 const HTML_TAG = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/gim
 
@@ -218,8 +229,84 @@ function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
+/*
+Match relative links
+
+<h1 jdjdjjdjd=lksjskljfsdlk="jdjdj">Netlify + FaunaDB &nbsp;&nbsp;&nbsp; 
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example&stack=fauna">
+  <img src="../../../../img/deploy/lol.svg">
+  </a>
+</h1>
+
+[link](/my-great-page)
+
+<img src="img/deploy/duplicate.svg" />
+
+<img src="img/deploy/duplicate.svg" >
+
+<img src="/img/deploy/three.svg" />
+
+<img src='/img/deploy/four.svg' />
+
+<img src='./img/deploy/five.svg' />
+
+<img src='../img/deploy/button.svg' />
+
+<img src='../../img/deploy/button.svg' />
+
+<img src="https://www.netlify.com/img/deploy/button.svg" />
+
+<img src="https://www.netlify.com/img/deploy/button.svg" />
+
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+*/
+
+// https://regex101.com/r/Nywerx/1
+function getRelativeLinks(block) {
+  // console.log('closeTagRegex', closeTagRegex)
+  let matches
+  let relLinks = []
+  while ((matches = FIND_RELATIVE_LINKS.exec(block)) !== null) {
+    if (matches.index === FIND_RELATIVE_LINKS.lastIndex) {
+      FIND_RELATIVE_LINKS.lastIndex++ // avoid infinite loops with zero-width matches
+    }
+    // console.log(matches)
+    const [ match, _, start, link, x ] = matches
+    const one = (start === '/') ? start : ''
+    const two = (link === '/') ? link : ''
+    relLinks.push(`${one}${two}${x}`)
+  }
+  return relLinks.filter(onlyUnique)
+}
+
+/*
+// https://regex101.com/r/SvMfme/1
+<img src="img/deploy/button.svg" />
+<img src="/img/deploy/button.svg" />
+<img src='/img/deploy/button.svg' />
+<img src='./img/deploy/button.svg' />
+<img src='../img/deploy/button.svg' />
+<img src='../../img/deploy/button.svg' />
+*/
+function getRelativeImageLinks(block, filePath) {
+  // console.log('closeTagRegex', closeTagRegex)
+  let matches
+  let relLinks = []
+  while ((matches = FIND_RELATIVE_IMAGES.exec(block)) !== null) {
+    if (matches.index === FIND_RELATIVE_IMAGES.lastIndex) {
+      FIND_RELATIVE_IMAGES.lastIndex++ // avoid infinite loops with zero-width matches
+    }
+    const [ match, _, start, link ] = matches
+    relLinks.push(`${start || ''}${link}`)
+  }
+  return  { 
+    links: relLinks,
+    filePath
+  }
+}
+
 function getLinks(mdContents, filePath) {
-  const matches = mdContents.match(FIND_MARKDOWN_LINKS_REGEX)
+  const matches = mdContents.match(FIND_LIVE_LINKS)
   if (!matches) {
     return {
       links: [],
@@ -347,7 +434,7 @@ function getImageLinks(linksOrText) {
   let links = linksOrText
   if (!Array.isArray(linksOrText)) {
     const linkData = getLinks(linksOrText)
-    links = linkData.links
+    links = linkData.links.concat(getRelativeLinks(linksOrText))
   }
   const imageLinks = links.filter((link) => {
     return link.match(/(png|jpe?g|gif|webp|svg)$/)
