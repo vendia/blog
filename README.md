@@ -9,20 +9,19 @@ Welcome to the Vendia blog repo!
 <details>
 <summary>Click to expand</summary>
 
-- [Vendia's Blog](#vendias-blog)
-  - [Posts](#posts)
-  - [Authors](#authors)
-  - [How to contribute content](#how-to-contribute-content)
-    - [TDLR;](#tdlr)
-    - [1. Write your content in markdown!](#1-write-your-content-in-markdown)
-    - [2. Name your post file name](#2-name-your-post-file-name)
-    - [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
-    - [4. Add your author bio](#4-add-your-author-bio)
-    - [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
-  - [Adding Images](#adding-images)
-  - [Adding external posts](#adding-external-posts)
-  - [Markdown Resources](#markdown-resources)
-  - [Recommended Writing Apps](#recommended-writing-apps)
+- [Posts](#posts)
+- [Authors](#authors)
+- [How to contribute content](#how-to-contribute-content)
+  - [TDLR;](#tdlr)
+  - [1. Write your content in markdown!](#1-write-your-content-in-markdown)
+  - [2. Name your post file name](#2-name-your-post-file-name)
+  - [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
+  - [4. Add your author bio](#4-add-your-author-bio)
+  - [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
+- [Adding Images](#adding-images)
+- [Adding external posts](#adding-external-posts)
+- [Markdown Resources](#markdown-resources)
+- [Recommended Writing Apps](#recommended-writing-apps)
 
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
