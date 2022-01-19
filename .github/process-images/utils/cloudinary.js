@@ -49,7 +49,6 @@ async function getImageDetails(filePath, opts = {}) {
   try {
     res = await getDetails(imageId)
   } catch (err) {
-    console.log('cloudinary err', err)
     if (err && (err.http_code === 404 || err.http_code === '404')) {
       console.log(`${imageId} image not found in cloudinary`)
       return {
@@ -58,6 +57,7 @@ async function getImageDetails(filePath, opts = {}) {
         filePath: filePath
       }
     }
+    console.log('cloudinary err', err)
     // Rethrow unknown errors
     throw err
   }

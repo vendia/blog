@@ -49,7 +49,9 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   if (remoteCloudinaryFiles.length) {
     console.log(`Remote cloudinary files:`)
     remoteCloudinaryFiles.forEach((remote) => {
-      console.log(`> ${remote.secure_url || remote.url}`)
+      if (remote && (remote.secure_url || remote.url)) {
+        console.log(`> ${remote.secure_url || remote.url}`)
+      }
     })
   }
 

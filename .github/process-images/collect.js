@@ -80,7 +80,7 @@ function generateFileName(url, slashChange = '..') {
   return imagePathName
 }
 
-function makeRegex(pattern, modifier = '', ) {
+function makeRegex(pattern, modifier = '') {
   return (pattern instanceof RegExp) ? pattern : new RegExp(escapeStringRegexp(pattern), modifier)
 }
 
