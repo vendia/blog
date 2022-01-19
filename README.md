@@ -295,7 +295,7 @@ To add an image, simply upload your image somewhere on the web and include it in
 
 This repo will automatically download, optimize, upload all images to our CDN, and replace then image link in the markdown.
 
-Example using an unsubmitted "draft" github issue to grab an image link.
+Example using an un-submitted "draft" github issue to grab an image link.
 
 ![adding-images](https://user-images.githubusercontent.com/532272/131711419-afee129e-c52d-44ed-9319-e2197691bdcc.gif)
 
@@ -309,17 +309,17 @@ If you'd like to include an external post written about vendia, you can do so by
 
 Our blog posts are written in markdown and support standard [Github flavored markdown](https://guides.github.com/features/mastering-markdown/). If you are new to Markdown, don't fret, check out this handy [how to guide on writing in markdown](https://blog.ghost.org/markdown/)
 
-Need a Markdown editor? Give [stackedit.io](https://stackedit.io/editor), [Byword](https://bywordapp.com/) or [typora](https://www.typora.io/) a spin.
+Need collaborative Google docs like editor for markdown? Try [hackmd.io](https://hackmd.io/)
 
-Need to convert a Google doc to Markdown? [Install this Google Docs extension](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
+![image](https://user-images.githubusercontent.com/532272/150200406-83f5939d-c898-412d-aefa-2568c778eb01.png)
 
-Need to convert HTML to Markdown? You can use [this handy html to markdown converter](https://domchristie.github.io/to-markdown/)
+Need a local Markdown editor? Give [stackedit.io](https://stackedit.io/editor), [Byword](https://bywordapp.com/) or [typora](https://www.typora.io/) a spin. Or use your favorite programming IDE.
 
-Need to convert Word to Markdown? You can use [this handy Word to Markdown Converter](https://word-to-markdown.herokuapp.com/)
+Need to convert a Google doc to Markdown? [Install this Google Docs extension](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607). If your doc has images, checkout how to [download images from google docs](https://www.bettercloud.com/monitor/the-academy/3-easy-ways-download-images-google-docs/). It's recommended to save it as an HTML file `In Docs, go to File > Download as > Web Page (.html, zipped).`
 
-[Downloading images from google docs](https://www.bettercloud.com/monitor/the-academy/3-easy-ways-download-images-google-docs/). Recommended to save it as an HTML file
+Need to convert HTML to Markdown? You can use this handy [html to markdown converter](https://domchristie.github.io/to-markdown/)
 
-> In Docs, go to File > Download as > Web Page (.html, zipped).
+Need to convert Word to Markdown? You can use this [Word to Markdown Converter](https://word-to-markdown.herokuapp.com/)
 
 ## Recommended Writing Apps
 
