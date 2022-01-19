@@ -15,12 +15,12 @@ Vendia Share has the ability to store files as well as transactional data.  Whil
 We've updated the user experience for file management, which covers folder and file management as well as version history.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/149620468-736ad5d0-76f0-4553-90ad-29dfbcb76f96.png" width="100%"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783149620468-736ad5d0-76f0-4553-90ad-29dfbcb76f96.png" width="100%"/>
   <figcaption align="center"><b>Figure 1</b> - <i>Adding a File to Vendia Share</i></figcaption>
 </figure>
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/149620475-8f95b5b8-9135-461e-9d73-c16c7b7b4b61.png" width="100%"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783149620475-8f95b5b8-9135-461e-9d73-c16c7b7b4b61.png" width="100%"/>
   <figcaption align="center"><b>Figure 2</b> - <i>Viewing File History in Vendia Share</i></figcaption>
 </figure>
 
