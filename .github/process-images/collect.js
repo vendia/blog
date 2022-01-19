@@ -71,12 +71,12 @@ async function collectImages({
   }
 }
 
-function generateFileName(url) {
+function generateFileName(url, slashChange = '..') {
   const imageUrl = new URL(url)
   const host = imageUrl.host.replace(/\./g, '.')
-  const imageDir = path.dirname(imageUrl.pathname).replace(/\//g, '..')
+  const imageDir = path.dirname(imageUrl.pathname).replace(/\//g, slashChange)
   const imageFileName = path.basename(url)
-  const imagePathName = `${host}${imageDir}${imageFileName}`
+  const imagePathName = `${host}${imageDir}${slashChange}${imageFileName}`
   return imagePathName
 }
 
