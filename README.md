@@ -11,6 +11,7 @@ Welcome to the Vendia blog repo!
 
 - [Posts](#posts)
 - [Authors](#authors)
+- [Product Release Notes](#product-release-notes)
 - [How to contribute content](#how-to-contribute-content)
   - [TDLR;](#tdlr)
   - [1. Write your content in markdown!](#1-write-your-content-in-markdown)
@@ -164,6 +165,21 @@ Welcome to the Vendia blog repo!
 </tr>
 </table>
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
+
+## Product Release Notes
+
+<!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
+| Releases Details | Published-Date | edit |
+|:-------------|:--------------:|:---:|
+| [Improved Usability, Reliability, and Speed…as a Service](https://vendia.net/releases/2022-01-14-releasenotes) <br/> We operate and maintain the Vendia Share platform as a service so you don't have to | 2022-01-14 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-01-14-releasenotes.md)
+| [Improving Smart Contracts Validation](https://vendia.net/releases/2021-12-24-releasenotes) <br/> Delivering improved validation and error handling | 2021-12-24 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-12-24-releasenotes.md)
+| [A Sleigh Full of New Features](https://vendia.net/releases/2021-12-10-releasenotes) <br/> Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more! | 2021-12-10 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-12-10-releasenotes.md)
+| [New Features and a Fresh Look for the Vendia Share Web Application](https://vendia.net/releases/2021-11-26-releasenotes) <br/> We're excited to share the new Vendia Share user interface with you | 2021-11-26 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-11-26-releasenotes.md)
+| [What's that "csp" property doing in my Uni info configuration?](https://vendia.net/releases/2021-11-12-releasenotes) <br/> A first step toward an announcement we'll be able to share in the weeks ahead | 2021-11-12 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-11-12-releasenotes.md)
+| [Namespaces, Types, GraphQL Enums, and More!](https://vendia.net/releases/2021-10-29-releasenotes) <br/> Changes that will greatly improve data modeling capabilities for our users | 2021-10-29 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-10-29-releasenotes.md)
+
+<!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
+
 
 ## How to contribute content
 

@@ -90,7 +90,33 @@ const config = {
       return md
        // Make sure to close table
        .replace(/<\/td>\n<\/table>/gmi, ' </td>\n</tr>\n</table>')
-    }
+    },
+    async RELEASES_TABLE() {
+      const [ mdData ] = await getMarkdownData([
+        'releases/**/*.md',
+        'releases/**/*.mdx',
+        '!CONTRIBUTING.md',
+        '!README.md',
+        '!node_modules/**'
+      ])
+      
+      /* Make Markdown Table */
+      let md = `| Releases Details | Published-Date | edit |\n`;
+      md +=    '|:-------------|:--------------:|:---:|\n';
+      mdData.sort(sortByDate('date')).forEach((item) => {
+        const { data, file } = item
+        const fileName = path.basename(file)
+        const postSlug = fileName.replace(/\.mdx?$/, '')
+        const url = `https://vendia.net/releases/${postSlug}`
+        const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
+        const editLink = `https://github.com/vendia/blog/edit/master/releases/${fileName}`
+        const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
+        // add table rows
+        md += `| [${data.title}](${url}) ${description}${authors} | ${data.date} | [✍️](${editLink})\n`;
+      });
+
+      return md;
+    },
   },
 }
 
