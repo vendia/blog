@@ -48,6 +48,17 @@ Headings with no text:
 
 ---
 
+# Blockquote
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+Quote break.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+
+---
+
 # Lists
 
 ## Ordered List
@@ -72,9 +83,9 @@ Headings with no text:
 2. Item two
     1. Ordered list child one
     2. Ordered list child two
-        1. grandchildren ordered list
-        2. Groenendael
-        3. Tervuren
+        1. grandchildren one
+        2. grandchildren two
+        3. grandchildren three
 3. Item with unordered children
     - One
     - Two
@@ -88,14 +99,16 @@ Headings with no text:
   - child 2
   - child 3
   - child 4 with children
-    - grand child one
-    - grand child two
+    - grandchild one
+    - grandchild two
 - Item Five with children
-  1. grandchild 1
-  2. grandchild 2
-    - unordered grandchild 1
-    - unordered grandchild 2
-    - unordered grandchild 3
+  1. child 1
+  2. child 2
+    - unordered child 1
+    - unordered child 2
+    - unordered child 3 with children
+      - grandchild one
+      - grandchild two
 - Last item
 
 ## Nested Mixed List
@@ -120,18 +133,219 @@ Headings with no text:
 
 ---
 
-# Blockquote
+# Collapsable Details
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+Using the `<details>` tag to collapse contents.
 
-Quote break.
+```html
+<details>
+  <summary>Preview text of details</summary>
+  Contents
+</details>
+```
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+<details>
+  <summary>Preview text of details</summary>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+</details>
 
 ---
 
-# Table
+## Stacked Details
+
+Details stacked on each other
+
+<details>
+  <summary>Preview text of details 1</summary>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+</details>
+
+<details>
+  <summary>Preview text of details 2</summary>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+</details>
+
+<details>
+  <summary>Preview text of details 3</summary>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+</details>
+
+---
+
+## Inside lists Details
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. 
+
+1. Using the Vendia Share Web Application's GraphQL Explorer of the Supplier's AWS Node, identify a Purchase Order to modify, noting the `_id` for one of the Purchase Orders listed for the subsequent step, referred to hereafter as `<PO_ID>`
+
+    <details>
+      <summary>List Purchase Orders Query</summary>
+    
+      ```graphql
+      query listPurchaseOrders {
+        list_PurchaseOrderItems {
+          _PurchaseOrderItems {
+            _id
+            _owner
+            created
+            expected
+            fulfilled
+            orderId
+            updated
+            items {
+              quantity
+              sku
+            }
+          }
+        }
+      }
+      ```
+    </details>
+
+1. Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
+
+    <details>
+      <summary>Update Purchase Order Mutation</summary>
+    
+      ```graphql
+      mutation updatePurchaseOrder {
+        update_PurchaseOrder_async(
+          id: "<PO_ID>",
+          input: {
+            expected: "2022-01-03T00:00:00Z"
+          }) {
+          result {
+            _id
+            _owner
+            submissionTime
+            transactionId
+            version
+          }
+        }
+      }
+      ```
+    </details>
+
+
+1. Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
+
+    Multiple Things 
+
+    <details>
+      <summary>Update Purchase Order Mutation</summary>
+    
+      ```graphql
+      mutation updatePurchaseOrder {
+        update_PurchaseOrder_async(
+          id: "<PO_ID>",
+          input: {
+            expected: "2022-01-03T00:00:00Z"
+          }) {
+          result {
+            _id
+            _owner
+            submissionTime
+            transactionId
+            version
+          }
+        }
+      }
+      ```
+    </details>
+
+    In here
+
+    <details>
+      <summary>Update Purchase Order Mutation</summary>
+    
+      ```graphql
+      mutation updatePurchaseOrder {
+        update_PurchaseOrder_async(
+          id: "<PO_ID>",
+          input: {
+            expected: "2022-01-03T00:00:00Z"
+          }) {
+          result {
+            _id
+            _owner
+            submissionTime
+            transactionId
+            version
+          }
+        }
+      }
+      ```
+    </details>
+
+
+---
+
+## Large Details
+
+<details>
+  <summary>Node.js usage</summary>
+
+  For ES6/7 javascript you can `import Analytics from 'analytics'` for normal node.js usage you can import like so:
+
+  ```js
+  const { Analytics } = require('analytics')
+  // or const Analytics = require('analytics').default
+
+  const analytics = Analytics({
+    app: 'my-app-name',
+    version: 100,
+    plugins: [
+      googleAnalyticsPlugin({
+        trackingId: 'UA-121991291',
+      }),
+      customerIOPlugin({
+        siteId: '123-xyz'
+      })
+    ]
+  })
+
+  // Fire a page view
+  analytics.page()
+  ```
+
+</details>
+
+<details>
+  <summary>Browser usage</summary>
+
+  When importing global `analytics` into your project from a cdn the library is expose via a global `_analytics` variable.
+
+  Call `_analytics.init` to create an analytics instance.
+
+  ```html
+  <script src="https://unpkg.com/analytics/dist/analytics.min.js"></script>
+  <script>
+    const Analytics = _analytics.init({
+      app: 'my-app-name',
+      version: 100,
+      ...plugins
+    })
+
+    Analytics.track()
+
+    // optionally expose to window
+    window.Analytics = Analytics
+  </script>
+  ```
+
+</details>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio.
+
+---
+
+# Tables
+
+## Markdown Table
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -140,7 +354,7 @@ Quote break.
 | zebra stripes | are neat      |    $1 |
 
 <details>
-  <summary>Table markdown</summary>
+  <summary>Table markdown snippet</summary>
 
   ```md
   | Tables        | Are           | Cool  |
@@ -151,23 +365,69 @@ Quote break.
   ```
 </details>
 
-# Inline Markdown within tables
+---
+
+## HTML Table
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<details>
+  <summary>HTML table snippet</summary>
+
+  ```html
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+  ```
+</details>
+
+## Table with inline markdown styles
 
 <div style={{"overflowX": "auto"}}>
 
-| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-| ------------------------ | -------------------------- | ----------------------------------- | ------ |
-| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
+| Inline | Markdow | In  | Table  |
+| ----------| -------- | ----------------- | ------ |
+| _italics_ | **bold** | ~~strikethrough~~ | `code` |
 
 </div>
 
 <details>
-  <summary>Table with inline styles markdown</summary>
+  <summary>Table with inline markdown styles snippet</summary>
 
   ```md
-  | Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-  | ------------------------ | -------------------------- | ----------------------------------- | ------ |
-  | _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
+  | Inline | Markdow | In  | Table  |
+  | ----------- | ------------ | ----------------- | ------ |
+  | _italics_   | **bold**     | ~~strikethrough~~ | `code` |
   ```
 </details>
 
@@ -307,6 +567,16 @@ No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
 
+## Wide code example
+
+A very wide code snippet
+
+```js
+import Analytics from 'analyticsskajldalkdalksdjalkddlaksjdlsakjdlkasjdlksajdlakjdlkasjdlkasjdlkajsdlkajdlkjalksdjalkdjalkdjalkdjaslkdjaslkjdlkasjdlaskdjalkalksjalkjasdlkadjas'
+import googleAnalyticsPlugin from '@analytics/google-analytics'
+import customerIOPlugin from '@analytics/customerio'
+```
+
 ## Code Tutorial Example
 
 Install the pakcage via npm
@@ -348,7 +618,7 @@ analytics.page()
 
 ---
 
-# Layouts & Embeds
+# Layouts
 
 ## Full width layout
 
@@ -363,7 +633,7 @@ analytics.page()
 
 ---
 
-## Images
+# Images
 
 ### Left alignment
 
@@ -427,6 +697,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
 
 ---
 
+# Embeds
+
 ## Twitter
 
 <blockquote className="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We're launching 🚀 AWS AppSync as a new service for preview later today! Here are some of its features! <a href="https://twitter.com/apatel72001?ref_src=twsrc%5Etfw">@apatel72001</a> <a href="https://twitter.com/hashtag/reInvent?src=hash&amp;ref_src=twsrc%5Etfw">#reInvent</a> <a href="https://t.co/fG9thG6sAa">pic.twitter.com/fG9thG6sAa</a></p>&mdash; AWS re:Invent (@AWSreInvent) <a href="https://twitter.com/AWSreInvent/status/935573868260896768?ref_src=twsrc%5Etfw">November 28, 2017</a></blockquote>
@@ -437,63 +709,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" frameBorder="0" allowFullScreen></iframe>
 
 ---
-
-## Collapsible Details
-
-<details>
-  <summary>Node.js usage</summary>
-
-  For ES6/7 javascript you can `import Analytics from 'analytics'` for normal node.js usage you can import like so:
-
-  ```js
-  const { Analytics } = require('analytics')
-  // or const Analytics = require('analytics').default
-
-  const analytics = Analytics({
-    app: 'my-app-name',
-    version: 100,
-    plugins: [
-      googleAnalyticsPlugin({
-        trackingId: 'UA-121991291',
-      }),
-      customerIOPlugin({
-        siteId: '123-xyz'
-      })
-    ]
-  })
-
-  // Fire a page view
-  analytics.page()
-  ```
-
-</details>
-
-<details>
-  <summary>Browser usage</summary>
-
-  When importing global `analytics` into your project from a cdn the library is expose via a global `_analytics` variable.
-
-  Call `_analytics.init` to create an analytics instance.
-
-  ```html
-  <script src="https://unpkg.com/analytics/dist/analytics.min.js"></script>
-  <script>
-    const Analytics = _analytics.init({
-      app: 'my-app-name',
-      version: 100,
-      ...plugins
-    })
-
-    Analytics.track()
-
-    // optionally expose to window
-    window.Analytics = Analytics
-  </script>
-  ```
-
-</details>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio.
 
 # HTML
 

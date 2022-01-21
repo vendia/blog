@@ -28,8 +28,8 @@ Vendia Share addresses those imperatives through the concept of a Universal Appl
 In this blog post, we'll highlight the value of Vendia Share's new Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective.  Consider the case of a Supplier (on AWS), working through a Distributor (on AWS), who delivers goods to a Retailer (on Azure).  When the Supplier makes an adjustment (say by changing the anticipated fulfilment date of an existing purchase order), both the Distributor and the Retailer would like to be made aware (and take action) immediately.
 
 <figure>
-  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" width="100%"/>
-  <figcaption align="center"><b>Figure 1</b> - <i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783147981825-f0e94c34-6488-4fd3-82f4-7ef8e00224a2.png" />
+  <figcaption><b>Figure 1</b> - <i>A Supplier, Distributor, and Retailer reacting in real-time across clouds as changes to purchase orders occur</i></figcaption>
 </figure>
 
 In our example, we'll start by modifying the fulfillment date of a purchase order by executing a [GraphQL mutation](https://graphql.org/learn/queries/#mutations) against the Supplier's node in the Uni. That, in turn, will cause an event to flow to Retailer's node in the Uni and then to the Retailer's Azure environment, delivered to [Azure Event Grid](https://azure.microsoft.com/en-us/services/event-grid/). From there, an event-driven [Azure Function](https://azure.microsoft.com/en-us/services/functions/) within the Retailer's Azure environment will process the delivered event.
@@ -371,7 +371,7 @@ To finalize this integration, we next:
     <details>
       <summary>Update Azure Settings Mutation</summary>
     
-      ```
+      ```graphql
       mutation updateAzureSettings {
         updateVendia_Settings_async(
           input: {
@@ -439,7 +439,7 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
     <details>
       <summary>List Purchase Orders Query</summary>
     
-      ```
+      ```graphql
       query listPurchaseOrders {
         list_PurchaseOrderItems {
           _PurchaseOrderItems {
@@ -465,7 +465,7 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
     <details>
       <summary>Update Purchase Order Mutation</summary>
     
-      ```
+      ```graphql
       mutation updatePurchaseOrder {
         update_PurchaseOrder_async(
           id: "<PO_ID>",
@@ -488,7 +488,7 @@ The update to the Supplier Node will cause an event, a block notification, to be
 
 <figure>
   <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783147982095-1d1602ee-616f-4b81-b455-463fe7857429.png" width="100%"/>
-  <figcaption align="center"><b>Figure 2</b> - <i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
+  <figcaption><b>Figure 2</b> - <i>The Azure Function output after successfully processing an event delivered from the Retailer's Node</i></figcaption>
 </figure>
 
 ## Key Takeaways
