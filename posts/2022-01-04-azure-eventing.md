@@ -412,7 +412,7 @@ To finalize this integration, we next:
     <details>
       <summary>Get Azure Settings Query</summary>
     
-      ```
+      ```graphql
       query getAzureSettings {
         getVendia_Settings {
           azure {
