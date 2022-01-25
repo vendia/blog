@@ -1,4 +1,4 @@
-% Construct Vendia Universal Application using Domain Driven Design
+# Construct Vendia Universal Application using Domain Driven Design
 
 Vendia Share is a data platform that you can use to quickly build real-time data sharing applications, which we call Universal Applications (or "Unis" for short). You can build both internal and external applications on Vendia Share. Internal applications include applications that you need for enterprise data management - transactional, analytical, and master data. External applications include applications for data exchange across trust boundaries between partners or a consortium. 
 
@@ -7,7 +7,7 @@ Data models power Vendia Share.  The schema-first approach makes it easy to depl
 In this blog, you will first go through a primer on Domain Driven Design(DDD), and then you will learn how to apply DDD when constructing a Uni. As a developer, you don’t have to learn a different design approach to build strategic applications on the Vendia Share platform. DDD is a popular and proven approach to designing and modeling systems that are strategic for your business. You can use the same concepts to design and model Uni(s). DDD is not a prerequisite to building Uni but it does help to create better software design. If DDD is new to you, you may benefit from reading Eric Evans' [book](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf). 
 
 
-# Primer on Domain Driven Design(DDD)
+## Primer on Domain Driven Design(DDD)
 
 DDD is a popular software design approach for architecting and designing software using a top-down approach. DDD is a valuable exercise because it creates a common language that binds business and software. Requirements are dynamic in nature, they are good in defining activities, behaviors, rules, and actors. But, the data models built on requirements are fragile. DDD domain data models are static in nature and bring stability to data models, DDD is good in defining information that includes - its structure and relationships. DDD domain models delimit(set boundaries) and refine(make it precise) requirements. 
 
@@ -28,7 +28,7 @@ There are various ways in which you can come up with boundaries for your domains
 <p align="center">Figure 1 - eCommerce example domain model</p>
 
 
-# Business meets Software
+## Business meets Software
 
 In the real world where everything is software with an existing install base, it is very hard to define a DDD bounded context. The way the business is organized and the way technology is implemented may not align well. In such cases, it becomes a three-legged race. It is more art than science. You can come up with several DDD models. But, the model that will prove useful is the one that will remove bottlenecks to improve software time to market and to service the core use case of the domain.
 
@@ -51,7 +51,7 @@ Listed below are best practices for building services and data models for a boun
 Hopefully, this gives you a good introduction or refresher on DDD. Next, we develop an understanding of Uni structure, terms, and concepts. 
 
 
-# Uni Development Lifecycle
+## Uni Development Lifecycle
 
 Uni is a cross-cloud, cross-party, cross-account, cross-region data and code sharing application powered by Vendia's serverless distributed ledger technology. A uni is composed of [nodes](https://www.vendia.net/docs/share/terms-and-definitions#node) modeling [participants](https://www.vendia.net/docs/share/terms-and-definitions#participants), each of which possesses an ordered, replicated data model in the form of a distributed [ledger](https://www.vendia.net/docs/share/terms-and-definitions#ledger).
 
@@ -63,7 +63,7 @@ A Uni software development life cycle has five stages: Model, Design, Deploy, Op
 <p align="center">Figure 3 - Uni Development Lifecycle Stages</p>
 
 
-# Uni Schema Anatomy
+## Uni Schema Anatomy
 
 Let’s imagine a simple Uni schema that provides a datastore for core customer data attributes. Figure 4 breaks the Uni schema into parts and tries to map it to concepts you use in a relational database. This will help you quickly get started on building your own Uni. 
 
@@ -73,10 +73,10 @@ Let’s imagine a simple Uni schema that provides a datastore for core customer 
 <p align="center">Figure 4 - Example Customer Uni</p>
 
 
-# Applying DDD to Uni 
+## Applying DDD to Uni 
 
 
-## Pattern 1: Single Domain, Single Bounded Context, and a Single Uni
+### Pattern 1: Single Domain, Single Bounded Context, and a Single Uni
 
 This pattern is well suited for organizations who want to build small custom applications surrounding complex enterprise applications, or organizations who want to construct a new application to prove a new business idea. 
 
@@ -100,7 +100,7 @@ In this pattern, a Uni model contains a data model for a single bounded context.
 </details>
 
 
-## Pattern 2: Single Domain, Multiple Bounded Contexts, and a Single Uni
+### Pattern 2: Single Domain, Multiple Bounded Contexts, and a Single Uni
 
 This pattern is well suited for organizations who already have experience working with Uni and want to leverage existing Uni implementation in their organization with more custom and new applications. This model is also a good fit for new analytics focussed domains within the organization that has not built its software platform yet. These organizations can continue to operate lean by leveraging Uni owned by other domains with read-only copies of data for analytics and visualization. 
 
@@ -123,7 +123,7 @@ In this pattern, a Uni contains data models for two bounded contexts. The Uni wi
 </details> 
 
 
-## Pattern 3: Two Different Domains, Same Bounded Context,  a Single Uni
+### Pattern 3: Two Different Domains, Same Bounded Context,  a Single Uni
 
 This pattern is applicable for organizations where an existing domain has its own software systems but wants to leverage the Uni owned and operated by other domains for both read and write access on a small part of the domain data model. The intent is to scale as much as on the existing Uni owned by the other domains before spinning a dedicated Uni for the domain.
 
@@ -148,7 +148,7 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 </details> 
 
 
-## Pattern 4: Multiple Domains, Multiple Bounded Contexts, and Multiple Unis
+### Pattern 4: Multiple Domains, Multiple Bounded Contexts, and Multiple Unis
 
 This pattern is applicable to large enterprise customers with strong governance and control requirements for software owned and operated by each domain. You will also consider this pattern if the domain data model is complex, requires higher assurance and guarantee on throughput, or sensitivity of your domain justifies Uni level isolation. 
 
@@ -172,6 +172,6 @@ For example, CRM and Marketing will need a dedicated Uni each because Marketing 
 [README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md)
 </details> 
 
-**Summary**
+## Summary
 
 We would love to hear about how you applied the patterns in this blog to power your applications on Uni.
