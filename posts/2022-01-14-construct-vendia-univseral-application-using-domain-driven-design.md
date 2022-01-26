@@ -53,7 +53,7 @@ Hopefully, this gives you a good introduction or refresher on DDD. Next, we deve
 
 ## Uni Development Lifecycle
 
-Uni is a cross-cloud, cross-party, cross-account, cross-region data and code sharing application powered by Vendia's serverless distributed ledger technology. A uni is composed of [nodes](https://www.vendia.net/docs/share/terms-and-definitions#node) modeling [participants](https://www.vendia.net/docs/share/terms-and-definitions#participants), each of which possesses an ordered, replicated data model in the form of a distributed [ledger](https://www.vendia.net/docs/share/terms-and-definitions#ledger).
+Uni is a cross-cloud, cross-party, cross-account, cross-region data and code sharing application powered by Vendia's serverless distributed ledger technology. A uni is composed of [nodes](https://www.vendia.net/docs/share/terms-and-definitions#node) modeling [participants](https://www.vendia.net/docs/share/terms-and-definitions#participants), each of which possesses an ordered, replicated distributed [ledger](https://www.vendia.net/docs/share/terms-and-definitions#ledger) that originates from a data model.
 
 A Uni software development life cycle has five stages: Model, Design, Deploy, Operate, and Scale. Since a Uni is serverless, deployment, operations, and scaling are easy. Once you have the schema design, deployment is just a couple of clicks, and operations are handled by Vendia.  Vendia is responsible for scalability and performance. This leaves us with data modeling and design. Data models are the core of any software. In Uni, the design phase involves constructing a schema that is a deployable artifact and leads to the creation of Uni. In this blog, we will focus on data modeling and design.
 
