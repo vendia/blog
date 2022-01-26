@@ -58,7 +58,7 @@ Uni is a cross-cloud, cross-party, cross-account, cross-region data and code sha
 A Uni software development life cycle has five stages: Model, Design, Create, Operate, and Scale. Since a Uni is serverless, deployment, operations, and scaling are easy. Once you have the schema design, deployment is just a couple of clicks, and operations are handled by Vendia.  Vendia is responsible for scalability and performance. This leaves us with data modeling and design. Data models are the core of any software. In Uni, the design phase involves constructing a schema that is a deployable artifact and leads to the creation of Uni. In this blog, we will focus on data modeling and design.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151029339-3c97b4d4-e66a-4b37-ae21-6200e22cb042.png" />
+  <img src="https://user-images.githubusercontent.com/96793170/151107275-fa416768-f940-407c-9e03-5b264ea61e10.jpg" />
 </p>
 <p align="center">Figure 3 - Uni Development Lifecycle Stages</p>
 
