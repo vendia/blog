@@ -172,4 +172,4 @@ This pattern is applicable to large enterprise customers with strong governance 
 
 ## What’s next?
 
-Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please engage with us on[Vendia Discourse](https://community.vendia.net/c/resources/8), and if you completed a Proof of Concept(Poc) tag us on Twitter at [@VendiaHQ](https://twitter.com/VendiaHQ) and recieve a surprise SWAG.
+Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please engage with us on [Vendia Discourse](https://community.vendia.net/c/resources/8), and if you completed a Proof of Concept(Poc) tag us on Twitter at [@VendiaHQ](https://twitter.com/VendiaHQ) and recieve a surprise SWAG.
