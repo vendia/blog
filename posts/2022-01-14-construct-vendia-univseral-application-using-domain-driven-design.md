@@ -73,7 +73,7 @@ Let’s imagine a simple Uni schema that provides a datastore for core customer 
 <p align="center">Figure 4 - Example Customer Uni</p>
 
 
-## Applying DDD to Uni 
+## Applying DDD to Vendia Share Unis
 
 
 ### Pattern 1: Single Domain, Single Bounded Context, and a Single Uni
