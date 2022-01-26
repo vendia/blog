@@ -116,7 +116,8 @@ In this pattern, a Uni contains data models for two bounded contexts. The Uni wi
 **You can use the below resources to practice and deploy pattern 2.**
 <details>
 <summary>Schema</summary>
-You will use [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern2/schema/schema.json) to create your Uni. 
+
+You will use the [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern2/schema/schema.json) to create your Uni. 
 </details>
 
 <details>
@@ -143,7 +144,7 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 <details>
 <summary>Schema</summary>
   
-You will use [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern3/schema/schema.json) to create your Uni.
+You will use the [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern3/schema/schema.json) to create your Uni.
 </details>
 
 <details>
@@ -168,7 +169,7 @@ This pattern is applicable to large enterprise customers with strong governance 
 <details>
 <summary>Schema</summary>
   
-You will need [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern4/schema/schema.json) to create your Uni.
+You will need the [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern4/schema/schema.json) to create your Uni.
 </details>
 
 <details>
