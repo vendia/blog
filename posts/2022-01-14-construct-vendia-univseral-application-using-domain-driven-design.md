@@ -1,6 +1,6 @@
-# Construct Vendia Universal Application using Domain Driven Design
+# Applying Domain Driven Design to Blockchains
 
-Vendia Share is a platform that you can use to quickly build real-time data sharing applications, which we call Universal Applications (or "Unis" for short). 
+Vendia Share is a platform that you can use to quickly build real-time data sharing applications which we call Universal Applications (or "Unis" for short). 
 
 Data models power Universal Applications.  The schema-first approach makes it easy to design and create Unis. In fact, design and create are almost indistinguishable steps after you have a ready-to-deploy schema. Vendia Share provides you a GraphQL API based on your data model that you and your partners can use to read and write data into Vendia Share. It also generates an immutable log of all transactions. Because a data model is a critical piece needed to create a Uni, designing the right data model for your application is an essential step to use Vendia Share. 
 
@@ -172,4 +172,4 @@ This pattern is applicable to large enterprise customers with strong governance 
 
 ## What’s next?
 
-Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please reach out to <Vendia>, and if you created a Uni without our help(which I know you can), we would still like to hear about what you build. Please post it on <LinkedLn>. etc.
+Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please engage with us on[Vendia Discourse](https://community.vendia.net/c/resources/8), and if you completed a Proof of Concept(Poc) tag us on Twitter at [@VendiaHQ](https://twitter.com/VendiaHQ) and recieve a surprise SWAG.
