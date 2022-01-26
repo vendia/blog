@@ -2,9 +2,9 @@
 
 Vendia Share is a platform that you can use to quickly build real-time data sharing applications, which we call Universal Applications (or "Unis" for short). 
 
-Data models power Vendia Share.  The schema-first approach makes it easy to design and create a Uni. In fact, design and create are almost indistinguishable steps after you have a ready-to-deploy schema. Vendia Share provides you with a GraphQL API that you can use to read and write data into Vendia Share and it also generates an immutable log of all transactions. Because a data model is a critical piece needed to create a Uni, designing the right data model for your application is an essential step to use Vendia Share. 
+Data models power Universal Applications.  The schema-first approach makes it easy to design and create Unis. In fact, design and create are almost indistinguishable steps after you have a ready-to-deploy schema. Vendia Share provides you a GraphQL API based on your data model that you and your partners can use to read and write data into Vendia Share. It also generates an immutable log of all transactions. Because a data model is a critical piece needed to create a Uni, designing the right data model for your application is an essential step to use Vendia Share. 
 
-In this blog, you will first go through a primer on Domain Driven Design (DDD) and then you will learn how to apply DDD when constructing a Uni. As a developer, you don’t have to learn a different design approach to build strategic applications on the Vendia Share platform. DDD is a popular and proven approach to designing and modeling systems that are strategic for your business. You can use the same patterns to design and model Vendia Share Unis. DDD is not a prerequisite to building Uni but it does help to create a better Uni. If DDD is new to you, you may benefit from reading Eric Evans' [book](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf). 
+In this blog, you will first go through a primer on Domain Driven Design (DDD). You will then learn how to apply DDD when constructing a Uni. As a developer, you don’t have to learn a different design approach to build applications on the Vendia Share platform. DDD is a popular and proven approach to designing and modeling systems; you can use the same patterns to design and model Vendia Share Unis. DDD is not a prerequisite to Uni building but it does help to create better software design. If DDD is new to you, you may benefit from reading Eric Evans' [book](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf). 
 
 
 ## Primer on Domain Driven Design (DDD)
@@ -91,11 +91,11 @@ In this pattern, a Uni model contains a data model for a single bounded context.
 **You can use the below resources to practice and deploy pattern 1.**
 
 <details>
-<summary>Schema</summary>
+<summary> Schema </summary>
 [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern1/schema/schema.json)
 </details>
 <details>
-<summary>Details and deployment instructions</summary>
+<summary> Details and deployment instructions </summary>
 [README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern1/README.md)
 </details>
 
@@ -113,12 +113,12 @@ In this pattern, a Uni contains data models for two bounded contexts. The Uni wi
 
 **You can use the below resources to practice and deploy pattern 2.**
 <details>
-<summary>Schema</summary>
+<summary> Schema </summary>
 [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern2/schema/schema.json)
 </details>
 
 <details>
-<summary>Details and deployment instructions</summary>
+<summary> Details and deployment instructions </summary>
 [README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern2/README.md)
 </details> 
 
@@ -138,12 +138,12 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 
 **You can use the below resources to practice and deploy pattern 3.**
 <details>
-<summary>Schema</summary>
+<summary> Schema </summary>
 [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern3/schema/schema.json)
 </details>
 
 <details>
-<summary>Details and deployment instructions</summary>
+<summary> Details and deployment instructions </summary>
 [README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md)
 </details> 
 
@@ -152,9 +152,7 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 
 This pattern is applicable to large enterprise customers with strong governance and control requirements for software owned and operated by each domain. You will also consider this pattern if the domain data model is complex, requires higher assurance and guarantee on throughput, or sensitivity of your domain justifies Uni level isolation. 
 
- 
-
-For example, CRM and Marketing will need a dedicated Uni each because Marketing plans to bring more data from other domains that are not relevant for CRM and have different governance requirements for new data based on the sensitivity required for the newly acquired data. 
+ For example, CRM and Marketing will each need a dedicated Uni because Marketing plans to bring more data from other domains that are not relevant for CRM and have different governance requirements for new data based on the sensitivity of the newly acquired data. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/96793170/151029967-905f78ff-efef-4a43-b3f2-ff5de0695542.png" />
@@ -163,12 +161,12 @@ For example, CRM and Marketing will need a dedicated Uni each because Marketing 
 
 **You can use the below resources to practice and deploy pattern 4.**
 <details>
-<summary>Schema</summary>
+<summary> Schema </summary>
 [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern4/schema/schema.json)
 </details>
 
 <details>
-<summary>Details and deployment instructions</summary>
+<summary> Details and deployment instructions </summary>
 [README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md)
 </details> 
 
