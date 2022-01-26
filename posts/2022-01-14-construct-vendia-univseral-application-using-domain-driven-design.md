@@ -170,6 +170,6 @@ This pattern is applicable to large enterprise customers with strong governance 
 [README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md)
 </details> 
 
-## Summary
+## What’s next?
 
-We would love to hear about how you applied the patterns in this blog to power your applications on Uni.
+Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please reach out to <Vendia>, and if you created a Uni without our help(which I know you can), we would still like to hear about what you build. Please post it on <LinkedLn>. etc.
