@@ -1,6 +1,6 @@
 # Construct Vendia Universal Application using Domain Driven Design
 
-Vendia Share is a data platform that you can use to quickly build real-time data sharing applications, which we call Universal Applications (or "Unis" for short). You can build both internal and external applications on Vendia Share. Internal applications include applications that you need for enterprise data management - transactional, analytical, and master data. External applications include applications for data exchange across trust boundaries between partners or a consortium. 
+Vendia Share is a platform that you can use to quickly build real-time data sharing applications, which we call Universal Applications (or "Unis" for short). 
 
 Data models power Vendia Share.  The schema-first approach makes it easy to deploy and operate a Uni. In fact, deploy and operate are almost indistinguishable steps after you have a ready-to-deploy schema. Vendia Share provides you with a GraphQL API that you can use to read and write data into Vendia Share and it also generates an immutable log of all transactions. Because a data model is a critical piece needed to create a Uni, designing the right data model for your application is an essential step to use Vendia Share. 
 
