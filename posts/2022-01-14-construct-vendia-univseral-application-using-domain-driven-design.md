@@ -7,7 +7,7 @@ Data models power Vendia Share.  The schema-first approach makes it easy to desi
 In this blog, you will first go through a primer on Domain Driven Design (DDD) and then you will learn how to apply DDD when constructing a Uni. As a developer, you don’t have to learn a different design approach to build strategic applications on the Vendia Share platform. DDD is a popular and proven approach to designing and modeling systems that are strategic for your business. You can use the same patterns to design and model Vendia Share Unis. DDD is not a prerequisite to building Uni but it does help to create a better Uni. If DDD is new to you, you may benefit from reading Eric Evans' [book](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf). 
 
 
-## Primer on Domain Driven Design(DDD)
+## Primer on Domain Driven Design (DDD)
 
 DDD is a popular software design approach for architecting and designing software using a top-down approach. DDD is a valuable exercise because it creates a common language that binds business and software. Requirements are dynamic in nature, they are good in defining activities, behaviors, rules, and actors. But, the data models built on requirements are fragile. DDD domain data models are static in nature and bring stability to data models, DDD is good in defining information that includes - its structure and relationships. DDD domain models delimit(set boundaries) and refine(make it precise) requirements. 
 
