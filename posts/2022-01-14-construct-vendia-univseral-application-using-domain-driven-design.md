@@ -91,12 +91,14 @@ In this pattern, a Uni model contains a data model for a single bounded context.
 **You can use the below resources to practice and deploy pattern 1.**
 
 <details>
-<summary> Schema </summary>
-[schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern1/schema/schema.json)
+<summary>Schema</summary>
+  
+You will use [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern1/schema/schema.json) to create your Uni.
 </details>
 <details>
-<summary> Details and deployment instructions </summary>
-[README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern1/README.md)
+<summary>Details and deployment instructions</summary>
+  
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern1/README.md) guide to create your Uni.
 </details>
 
 
@@ -113,13 +115,14 @@ In this pattern, a Uni contains data models for two bounded contexts. The Uni wi
 
 **You can use the below resources to practice and deploy pattern 2.**
 <details>
-<summary> Schema </summary>
-[schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern2/schema/schema.json)
+<summary>Schema</summary>
+You will use [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern2/schema/schema.json) to create your Uni. 
 </details>
 
 <details>
-<summary> Details and deployment instructions </summary>
-[README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern2/README.md)
+<summary>Details and deployment instructions</summary>
+  
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern2/README.md) guide to create your Uni.
 </details> 
 
 
@@ -138,13 +141,15 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 
 **You can use the below resources to practice and deploy pattern 3.**
 <details>
-<summary> Schema </summary>
-[schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern3/schema/schema.json)
+<summary>Schema</summary>
+  
+You will use [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern3/schema/schema.json) to create your Uni.
 </details>
 
 <details>
-<summary> Details and deployment instructions </summary>
-[README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md)
+<summary>Details and deployment instructions</summary>
+  
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md) guide to create your Uni.
 </details> 
 
 
@@ -161,13 +166,15 @@ This pattern is applicable to large enterprise customers with strong governance 
 
 **You can use the below resources to practice and deploy pattern 4.**
 <details>
-<summary> Schema </summary>
-[schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern4/schema/schema.json)
+<summary>Schema</summary>
+  
+You will need [schema.json](https://github.com/vendia/examples/blob/7792069dd40c6822279305b201965685aaac5a08/share/data-modeling/domain-driven-design/pattern4/schema/schema.json) to create your Uni.
 </details>
 
 <details>
-<summary> Details and deployment instructions </summary>
-[README.md](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md)
+<summary>Details and deployment instructions</summary>
+  
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/vikrant-data-modeling-blog/share/data-modeling/domain-driven-design/pattern3/README.md) guide to create your Uni.
 </details> 
 
 ## What’s next?
