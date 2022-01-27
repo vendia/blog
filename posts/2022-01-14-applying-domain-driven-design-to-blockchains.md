@@ -18,7 +18,7 @@ In this blog, you will first go through a primer on Domain Driven Design (DDD). 
 
 ## Primer on Domain Driven Design (DDD)
 
-DDD is a popular software design approach for architecting and designing software using a top-down approach. DDD is a valuable exercise because it creates a common language that binds business and software. Requirements are dynamic in nature, they are good in defining activities, behaviors, rules, and actors. But, the data models built on requirements are fragile. DDD domain data models are static in nature and bring stability to data models, DDD is good in defining information that includes - its structure and relationships. DDD domain models delimit(set boundaries) and refine(make it precise) requirements. 
+DDD is a popular top-down approach for better software design software. DDD is a valuable exercise because it creates a common language that binds business and software. Requirements are dynamic in nature, they are good in defining activities, behaviors, rules, and actors. But, the data models built on requirements are fragile. DDD domain data models are static in nature and bring stability to data models, DDD is good in defining information that includes - its structure and relationships. DDD domain models delimit (set boundaries) and refine (make it precise) requirements. 
 
 Here are a few terms with examples that you will commonly use to discuss DDD. 
 
