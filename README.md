@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Scale Your Partner Ecosystem with Vendia Share](https://vendia.net/blog/scale-your-partner-ecosystem-with-vendia-share) <br/> Addressing the Challenge with Minimal Friction by Brian McNamara | 2022-01-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md)
 | [Why We Combined GraphQL and a Serverless Distributed Ledger](https://vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger) <br/> Making Strategic Decisions to Enable a Platform by Brian McNamara | 2022-01-18 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md)
 | [Real-Time Cross-Cloud Data Sharing](https://vendia.net/blog/azure-eventing) <br/> Event-driven processing using Vendia Share's new Azure capabilities by James Gimourginas | 2022-01-04 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-04-azure-eventing.md)
 | [Schema Evolution](https://vendia.net/blog/schema-evolution) <br/> Exploring the ability to update the data model in a Universal Application (Uni) by Brian McNamara | 2021-12-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2021-12-15-schema-evolution.md)
@@ -160,6 +161,13 @@ Welcome to the Vendia blog repo!
       <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="100px;" alt=""/>
       <br />
       Tim Wagner
+    </a>
+  </td>
+  <td align="center">
+    <a href="https://twitter.com/vkahlir">
+      <img src="https://avatars.githubusercontent.com/u/96793170" width="100px;" alt=""/>
+      <br />
+      Vikrant Kahlir
     </a>
    </td>
 </tr>

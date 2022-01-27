@@ -1,6 +1,19 @@
 {
   "brian-mcnamara": [
     {
+      "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
+      "title": "Scale Your Partner Ecosystem with Vendia Share",
+      "description": "Addressing the Challenge with Minimal Friction",
+      "date": "2022-01-27",
+      "categories": [
+        "tutorials",
+        "concepts"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
       "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
       "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
       "description": "Making Strategic Decisions to Enable a Platform",
