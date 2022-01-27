@@ -51,7 +51,7 @@ Bounded Context is where the business meets software. Inside a bounded context, 
 Listed below are best practices for building services and data models for a bounded context.
 
 
-* The aggregate is composed of multiple Entities and Value Objects(singletons without unique identifiers). Try not to pack more than 3 Aggregates in a service boundary. 
+* The aggregate is composed of multiple Entities and Value Objects (singletons without unique identifiers). As a rule of thumb, try not to pack more than 3 Aggregates in a service boundary. 
 * An aggregate defines a transaction consistency boundary around one or more entities.
 * An aggregate has a top-level entity called a root entity. Lookup on aggregate records is done using the root entity identifier. Any other entities in the aggregate are children of the root and are referenced using pointers. 
 * A service should not be larger than a bounded context, and it should not be smaller than an aggregate. 
