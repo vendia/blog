@@ -113,7 +113,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 
 ### Pattern 2: Single Domain, Multiple Bounded Contexts, and a Single Uni
 
-This pattern is well suited for organizations who already have experience working with Uni and want to leverage existing Uni implementation in their organization with more custom and new applications. This model is also a good fit for new analytics focussed domains within the organization that has not built its software platform yet. These organizations can continue to operate lean by leveraging Uni owned by other domains with read-only copies of data for analytics and visualization. 
+This pattern is well suited for organizations who already have experience working with Uni and want to leverage existing Uni implementation in their organization with more custom and new applications. This model is also a good fit for new analytics focused domains within the organization that has not built its software platform yet. These organizations can continue to be lean by leveraging Uni owned by other domains with read-only copies of data for analytics and visualization. 
 
 In this pattern, a Uni contains data models for two bounded contexts. The Uni will have data models for two Bounded Contexts. For example, the CRM team manages customer account details in Bounded Context 1, and customer psychographic profile details in Bounded Context 2. Marketing wants a read-only copy of customer account details and customer psychographic profile details to power its customer analytics applications. 
 
