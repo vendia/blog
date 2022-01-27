@@ -57,7 +57,7 @@ Listed below are best practices for building services and data models for a boun
 * A service should not be larger than a bounded context, and it should not be smaller than an aggregate. 
 * For cross-domain data sync with external systems, use an async eventing system in your organization.
 
-Hopefully, this gives you a good introduction or refresher on DDD. Next, we develop an understanding of Uni structure, terms, and concepts. 
+Hopefully, this gives you a good introduction or refresher on DDD. Next, we develop an understanding of a Uni's structure, terms, and concepts. 
 
 
 ## Uni Development Lifecycle
