@@ -37,7 +37,7 @@ There are various ways in which you can come up with boundaries for your domains
 <p align="center">Figure 1 - eCommerce example domain model</p>
 
 
-## Business meets Software
+## Business Meets Software
 
 In the real world where everything is software with an existing install base, it is very hard to define a DDD bounded context. The way the business is organized and the way technology is implemented may not align well. In such cases, it becomes a three-legged race. It is more art than science. You can come up with several DDD models. But, the model that will prove useful is the one that will remove bottlenecks to improve software time to market and to service the core use case of the domain.
 
