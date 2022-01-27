@@ -1,5 +1,5 @@
 ---
-title: "Scaling Your Partner Ecosystem using Vendia Share"
+title: "Scale Your Partner Ecosystem with Vendia Share"
 description: "Addressing the Challenge with Minimal Friction"
 date: '2022-01-27'
 categories:
@@ -13,7 +13,9 @@ authors:
 
 # Challenges 
 
-Maintaining a single source of truth between organizations can be difficult. Databases are a popular information store, but securely sharing data from them with other organizations involves a number of compliance, security, and networking considerations that often mean slow action. Some organizations choose to share critical data with partners via spreadsheets. Using this method presents its own set of challenges. It's not apparent which spreadsheet is the latest and most complete source of truth. Vendia Share helps you solve this problem by provisioning a node for each organization that you wish to share data with. Each node provides a consistent view of the data that is shared with other parties, and each node has its own API endpoint dedicated to the organization that needs to securely access the data.
+Maintaining a single source of truth between organizations can be difficult. Databases are a popular information store, but securely sharing data from them with other organizations involves a number of compliance, security, and networking considerations that often mean slow action. Some organizations choose to share critical data with partners via spreadsheets. Using this method presents its own set of challenges. It's not apparent which spreadsheet is the latest and most complete source of truth. 
+
+Vendia Share helps you solve this problem by provisioning a node for each organization that you wish to share data with. Each node provides a consistent view of the data that is shared with other parties, and each node has its own API endpoint dedicated to the organization that needs to securely access the data.
 
 Centralized approaches to data sharing often result in disjointed authentication (AuthN) and authorization (AuthZ). The central organization will likely have a preference for how partners will log in to access data. It will also likely have existing tooling and mechanisms in place to support users. However, partners in the data network may have different means of authenticating and managing users. Vendia Share is flexible enough to allow each participant in a Uni to configure their own authorization type.
 
