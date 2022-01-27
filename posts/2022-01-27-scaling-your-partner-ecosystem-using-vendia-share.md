@@ -1,6 +1,6 @@
 ---
-title: "Expanding Your Partner Data Network in Vendia Share"
-description: "Scaling Your Uni as Your Partner Data Network Grows"
+title: "Scaling Your Partner Ecosystem using Vendia Share"
+description: "Addressing the Challenge with Minimal Friction"
 date: '2022-01-27'
 categories:
 - tutorials
@@ -17,15 +17,15 @@ Maintaining a single source of truth between organizations can be difficult. Dat
 
 Centralized approaches to data sharing often result in disjointed authentication (AuthN) and authorization (AuthZ). The central organization will likely have a preference for how partners will log in to access data. It will also likely have existing tooling and mechanisms in place to support users. However, partners in the data network may have different means of authenticating and managing users. Vendia Share is flexible enough to allow each participant in a Uni to configure their own authorization type.
 
-Onboarding new participants to a partner data network historically been difficult. Often technical resources need to update topologies and networks. The steps involved to bring in a new partner can take days if not month. Vendia Share reduces the time to minutes and does not require technical resources. We will demonstrate in this blog.
+Onboarding new participants to a partner data network historically has been difficult. Often technical teams need to update topologies and networks for each new addition. The steps involved to bring in a new partner can take days if not months. Vendia Share reduces the time to minutes and does without the support of highly valuable engineers, as you will see in this post.
 
 # Getting Started with Partner Onboarding
 
 ## Creating Vendia Share Accounts
 
-Vendia customers share data using Vendia Share Universal Applications (Unis). Each participant in a Uni has a dedicated node for reading and writing data. We will simulate two companies sharing data by using two Vendia Share accounts. If you are not familiar with how to create a Vendia Share account, please consult our [Getting Started](https://www.vendia.net/blog/getting-started-with-vendia-share#creating-an-account) documentation. We will refer to these accounts as **Account 1** and **Account 2**. You will create your Uni using **Account 1**. **Account 2** will be invited to join the Uni and create its own Vendia Share node. 
+Vendia customers share data using a Vendia Share Universal Application (or "Uni" for short). Each participant in a Uni has a dedicated node for reading and writing data. We will simulate two companies sharing data by using two Vendia Share accounts. If you are not familiar with how to create a Vendia Share account, please consult our [Getting Started](https://www.vendia.net/blog/getting-started-with-vendia-share#creating-an-account) documentation. We will refer to these accounts as **Account 1** and **Account 2**. You will create your Uni using **Account 1**. **Account 2** will be invited to join the Uni and create its own Vendia Share node. 
 
-**NOTE:** The example in the blog will use two separate Vendia Share accounts associated with the same email mailbox. I've used the [plus ("+") sign](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) to associate two Vendia Share users with the same email mailbox.
+**NOTE:** The example in the blog will use two separate Vendia Share accounts associated with the same email account. I've used the [plus ("+") sign](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) to associate two Vendia Share users with the same email account.
 
 ## Creating a Uni
 
@@ -35,7 +35,7 @@ For the purposes of this walkthrough, we will use the [Product Catalog](https://
 
 ## Inviting Your Partner
 
-Now that the Uni is up and running, you will invite **Account 2** to the Uni. You can do this either with the Vendia Share web app or the Share CLI. For the purpose of this blog, I will show the steps with the CLI syntax. My **Account 1** e-mail address format is `brian+account1@vendia.net` and my **Account 2** e-mail address is `brian+account2@vendia.net`. 
+Now that the Uni is up and running, you will invite **Account 2** to the Uni. You can do this either with the Vendia Share web app or the Share CLI. For the purpose of this blog, you'll use the CLI syntax. My **Account 1** e-mail address format is `brian+account1@vendia.net` and my **Account 2** e-mail address is `brian+account2@vendia.net`. 
 
 Vendia Share features RBAC support for controlling who has access to your Uni - we will be posting a more detailed blog of how that capability works in a future blog post. One of the RBAC features is the ability to invite another Vendia user to create a node and join your Uni. We accomplish this task with the following command.
 
@@ -154,7 +154,19 @@ Nodes Info:
 To display schema & initial state, use the --json flag. Example: "share get test-uni-management.unis.vendia.net --json"
 ```
 
-The node creation process should take a few minutes. When the node creation is complete, feel free to step through the [Product Catalog Quick Start](https://www.vendia.net/docs/share/quickstart/simple-product-catalog#step-3---query-catalog-data) and observe how data updates can be viewed by both participants in the Uni.
+The node creation process will take a few minutes. When the node creation is complete, feel free to step through the [Product Catalog Quick Start](https://www.vendia.net/docs/share/quickstart/simple-product-catalog#step-3---query-catalog-data) and observe how data updates can be viewed by both participants in the Uni.
+
+## Cleanup
+
+Once you are finished running the example you can delete the Uni. You will run the `share uni delete` command as **Account 1**.
+
+```bash
+share uni delete --uni test-uni-management
+```
+
+**WARNING:** Deleting a Uni is destructive and will remove all of its underlying data.
+
+**NOTE:** The name of my Uni is `test-uni-management`. Be sure to adjust the command and use the name of the Uni you created.
 
 # Summary
 
