@@ -86,7 +86,7 @@ export VENDIA_TOKEN=12345678-abcd-1234-abcd-123456789012
 
 Your **Account 2** email address should have a message from Vendia, inviting you to join the Uni created by **Account 1**.
 
-# Joining the Uni with Account 2
+## Joining the Uni with Account 2
 
 You can use the Vendia Share web app when logged in as **Account 2** to complete the Uni join process. You can click on the link included in the invitation email. However, I will show you how to use the Share CLI to complete the same task.
 
