@@ -103,11 +103,14 @@ In this pattern, a Uni model contains a data model for a single bounded context.
 <summary>Schema</summary>
   
 You will use [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern1/schema/schema.json) to create your Uni.
+
 </details>
+
 <details>
 <summary>Details and deployment instructions</summary>
   
 Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern1/README.md) guide to create your Uni.
+
 </details>
 
 
@@ -133,7 +136,7 @@ You will use the [schema.json](https://github.com/vendia/examples/blob/main/desi
 
 <details>
 <summary>Details and deployment instructions</summary>
-  
+
 Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern2/README.md) guide to create your Uni.
   
 </details> 
@@ -158,12 +161,14 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 <summary>Schema</summary>
   
 You will use the [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern3/schema/schema.json) to create your Uni.
+
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
   
 Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern3/README.md) guide to create your Uni.
+
 </details> 
 
 
@@ -184,12 +189,14 @@ For example, CRM and Marketing will each need a dedicated Uni because Marketing 
 <summary>Schema</summary>
   
 You will need the [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern4/schema/schema.json) to create your Uni.
+
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
   
 Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern4/README.md) guide to create your Uni.
+
 </details> 
 
 ## What’s next
