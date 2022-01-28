@@ -87,7 +87,7 @@ Let’s imagine a simple Uni schema that provides a datastore for core customer 
 
 ### Pattern 1: Single Domain, Single Bounded Context, and a Single Uni
 
-This pattern is well suited for organizations who want to build small custom applications surrounding complex enterprise applications, or organizations who want to construct a new application to prove a new business idea. 
+This pattern is well suited for organizations that want to build small custom applications surrounding complex enterprise applications, or organizations that want to construct a new application to prove a new business idea. 
 
 In this pattern, a Uni model contains a data model for a single bounded context. For example, the CRM team models customer account details in Bounded Context 1. 
 
@@ -113,7 +113,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 
 ### Pattern 2: Single Domain, Multiple Bounded Contexts, and a Single Uni
 
-This pattern is well suited for organizations who already have experience working with Uni and want to leverage existing Uni implementation in their organization with more custom and new applications. This model is also a good fit for new analytics focused domains within the organization that has not built its software platform yet. These organizations can continue to be lean by leveraging Uni owned by other domains with read-only copies of data for analytics and visualization. 
+This pattern is well suited for organizations that already have experience working with Unis and want to leverage an existing Uni implementation in their organization with more custom and new applications. This model is also a good fit for new analytics focused domains within the organization that have not built their software platform yet. These organizations can continue to operate lean by leveraging Unis owned by other domains with read-only copies of data for analytics and visualization. 
 
 In this pattern, a Uni contains data models for two bounded contexts. The Uni will have data models for two Bounded Contexts. For example, the CRM team manages customer account details in Bounded Context 1, and customer psychographic profile details in Bounded Context 2. Marketing wants a read-only copy of customer account details and customer psychographic profile details to power its customer analytics applications. 
 
@@ -138,7 +138,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 
 ### Pattern 3: Two Different Domains, Same Bounded Context,  a Single Uni
 
-This pattern is applicable for organizations where an existing domain has its own software systems but wants to leverage the Uni owned and operated by other domains for both read and write access on a small part of the domain data model. The intent is to scale as much as on the existing Uni owned by the other domains before spinning a dedicated Uni for the domain.
+This pattern is applicable for organizations that have software systems in an existing domain but want to leverage Unis owned and operated by other domains for access to a small part of the domain data model. The intent is to scale as much as on existing Unis owned by other domains before deploying a dedicated Uni for the domain.
 
 For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete write access permission boundaries between data managed by each.  You can still do it inside a single Uni. Create a node each for CRM and Marketing. You can configure write access on customer account aggregate for CRM on Node1 and configure write access on ‘CustomerProfile’ aggregate for Marketing on Node2. CRM will interact with Uni using Node 1 and Marketing will interact with Uni using Node 2. 
 
@@ -167,7 +167,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 
 This pattern is applicable to large enterprise customers with strong governance and control requirements for software owned and operated by each domain. You will also consider this pattern if the domain data model is complex, requires higher assurance and guarantee on throughput, or sensitivity of your domain justifies Uni level isolation. 
 
- For example, CRM and Marketing will each need a dedicated Uni because Marketing plans to bring more data from other domains that are not relevant for CRM and have different governance requirements for new data based on the sensitivity of the newly acquired data. 
+For example, CRM and Marketing will each need a dedicated Uni because Marketing plans to bring more data from other domains that are not relevant for CRM and have different governance requirements for new data based on the sensitivity of the newly acquired data. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/96793170/151029967-905f78ff-efef-4a43-b3f2-ff5de0695542.png" />
