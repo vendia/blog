@@ -123,16 +123,19 @@ In this pattern, a Uni contains data models for two bounded contexts. The Uni wi
 <p align="center">Figure 6 - Example Customer Uni</p>
 
 **You can use the below resources to practice and deploy pattern 2.**
+
 <details>
 <summary>Schema</summary>
 
 You will use the [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern2/schema/schema.json) to create your Uni. 
+
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
   
 Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern2/README.md) guide to create your Uni.
+  
 </details> 
 
 
@@ -150,6 +153,7 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 
 
 **You can use the below resources to practice and deploy pattern 3.**
+
 <details>
 <summary>Schema</summary>
   
@@ -175,6 +179,7 @@ For example, CRM and Marketing will each need a dedicated Uni because Marketing 
 <p align="center">Figure 8 - Pattern 4</p>
 
 **You can use the below resources to practice and deploy pattern 4.**
+
 <details>
 <summary>Schema</summary>
   
