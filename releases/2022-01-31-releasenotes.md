@@ -16,7 +16,7 @@ Our design and engineering teams worked diligently on a node details view redesi
 
 ## Node Details Redesign
 
-Now you don’t have to search hard to find the newly redesigned action buttons - `Entity Explorer`, `GraphQL Explorer`, `File Explorer`, and `Smart Contracts`. They are front and center, ready for use. The details such as the `GraphQL URL` and the `Graph API Key`  have moved below the action buttons and the other resource ARNs that used to be on this page have moved to the `Manage Node' > `Resources` tab.
+Now you don’t have to search to find the key views for you node - `Entity Explorer`, `GraphQL Explorer`, `File Explorer`, and `Smart Contracts` have newly redesigned action buttons. They are now front and center. Node details such as the `GraphQL URL` and the `Graph API Key`  have moved below the action buttons and additional node information can be accessed using the `Manage node` button.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/96793170/152025230-68abb6a8-2dd3-47fe-b7b3-c89c27177e1e.png" />
