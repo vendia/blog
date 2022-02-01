@@ -8,7 +8,6 @@ tags:
 - Developer Experience
 ---
 
-# Vendia Share Node Details View gets a New Look
 
 
 ## Summary
