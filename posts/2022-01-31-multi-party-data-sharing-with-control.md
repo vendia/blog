@@ -218,7 +218,7 @@ We've created a set of examples to demonstrate how Uni Controls can be viewed an
 ## Node Access Controls
 
 ### Purpose
-Node Access Controls authorize requests to a specific node's GraphQL API.  They can be thought of as the "coarse-grained" authorization to the GraphQL API.  They act as an enforcement point, permitting or denying every request.  Whether that authorization mechanism is direct (e.g. performed by Vendia Share) or indirect (e.g. delegated to another authorization service), the Node Access Controls are responsible for protecting unauthorized API access.
+Node Access Controls authorize requests to a specific node's GraphQL API.  They can be thought of as the "coarse-grained" authorization to the GraphQL API.  They act as an enforcement point, permitting or denying every request.  Whether that authorization mechanism is direct (e.g. performed by Vendia Share) or indirect (e.g. delegated to another authorization service), the Node Access Controls are responsible for preventing unauthorized API access.
 
 
 ### Approach
@@ -231,7 +231,7 @@ The GraphQL API that provides access to the serverless distributed ledger availa
   <figcaption><b>Figure 4</b> - <i>Node Access Controls in the Vendia Share Data Plane</i></figcaption>
 </figure>
 
-Figure 3 depicts a two-node Uni, each with different [authorization settings](https://www.vendia.net/docs/share/node-access-control#api-access) configured.  This Uni topology is common within a single organization and across organizations.
+Figure 4 depicts a two-node Uni, each with different [authorization settings](https://www.vendia.net/docs/share/node-access-control#api-access) configured.  This Uni topology is common within a single organization and across organizations.
 
 Within a single organization, it may be preferable to create a two-node Uni to isolate internal (i.e. private) and external (i.e. public) interfaces to Share.  For example, the internal node might use the `IAM` authorization setting, permitting cross-account access between their existing AWS account and the [Vendia Share account created](https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/) to host their node.  The external node might instead use `COGNITO` to leverage an existing [user pool](https://aws.amazon.com/cognito/) for their external user accounts.
 
@@ -248,7 +248,7 @@ We've created a set of examples to demonstrate how Node Access Controls can be c
 Data Access Controls allow a data writer to dictate access rights to the data they've written to a Uni.  They can be thought of as the "fine-grained" authorization to the data.  These controls take the form of an Access Control List (ACL), and can be applied to either at the object (e.g. a `PurchaseOrder`) or property (e.g. just the `price` field within a `PurchaseOrder`) level of a data structure.
 
 ### Approach
-Unlike centralized architectures, where a single data owner dictates the data access permissions of all data readers, Vendia Share's decentralized architecture empowers every data writer with the ability to control data access (i.e. to act as a data owner).  Data access controls protect the ability to read and the ability to modify.  So while Node Access Controls may permit a GraphQL query to be received by a node, Data Access Controls may restrict the data values returned to the caller.  Likewise, while Node Access Controls may permit a GraphQL mutation to be received by a node, Data Access Controls may restrict data modification if the caller is not permitted to do so because of an existing ACL.
+Unlike centralized architectures, where a single data owner dictates the data access permissions of all participants, Vendia Share's decentralized architecture empowers every data writer with the ability to control data access (i.e. to act as a data owner).  Data access controls protect the ability to read and the ability to modify.  While Node Access Controls may permit a GraphQL query to be received by a node, Data Access Controls may restrict the data values returned to the caller.  Likewise, while Node Access Controls may permit a GraphQL mutation to be received by a node, Data Access Controls may restrict data modification if the caller is not permitted to do so because of an existing ACL.
 
 <figure>
   <img src="https://user-images.githubusercontent.com/85032783/151488924-bce6055b-9a1b-4fe3-804d-93eb5692e7d3.png" />
