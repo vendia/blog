@@ -36,7 +36,7 @@ We added more information to the Smart Contracts details page, including the Ven
 </p>
 <p align="center">Figure 2: Smart Contracts details page</p>
 
-Additionally, we are now auto-populating the query args based on the input query when invoking a smart contract. Previously, the `Input Query` Args was empty `{}`. The default value of inferred keys is set to `null`. You will replace `null` with a valid value. 
+Additionally, we now auto-populate the `Input Query Args` input box based on the query provided with the smart contract.
 
 
 
