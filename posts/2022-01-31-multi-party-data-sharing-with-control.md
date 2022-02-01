@@ -13,7 +13,7 @@ authors:
 ## Overview
 For our customers, multi-party data sharing means many participants transacting with each other in real time.  While this sounds simple enough, the reality is getting participants to _agree to collaborate_ can be a challenge.  Many of these participants (often separate organizations) have grown accustomed to under-sharing their data, either because of the cost and complexity or because of insufficient access controls to truly share with trust.  Vendia Share makes trusted real-time data sharing possible thanks to the concept of a Universal Application ("Uni" for short).  A Uni is composed of one or more nodes, and all nodes include the single source of truth for all participants.  It's common for each participant to have its own node, which allows each participant to tailor the access controls to its node and to the data written to it.
 
-A core tenet of Vendia Share is _sharing with control_.  That tenet is the basis for a number of features that allow participants to gain trust in the Vendia Share platform, and with each other.  And those features, among many others, make Vendia Share the best platform to consider when building multi-party, real-time data sharing solutions. It's these same features that bring the cost and complexity of building real-time data sharing solutions down significantly.  Because sharing with control is a core tenet, it's not surprising that access controls have been built into multiple levels of the Vendia Share architecture.
+A core tenet of Vendia Share is _sharing with control_.  That tenet is the basis for a number of features that allow participants to gain trust in the Vendia Share platform, and with each other.  Those features, among many others, make Vendia Share the best platform to consider when building multi-party, real-time data sharing solutions. It's these same features that bring the cost and complexity of building real-time data sharing solutions down significantly.  Because sharing with control is a core tenet, it's not surprising that access controls have been built into multiple levels of the Vendia Share architecture.
 
 In this blog post we'll explore a range of Vendia Share controls, including their purpose and placement within the overall Vendia Share architecture, and their relationship with each other.
 
@@ -49,7 +49,7 @@ Before going further, it's important to define a few key RBAC terms, as they rel
 #### Key Terminology
 * **Action** - The right to call one of the user account management operations exposed by the Vendia Share control plane
 * **Resource** - The Vendia Share account or accounts against which a user account management Action can be performed
-* **Capability** - A mapping of Action to Resource, linking the right to call (an operation) with the right to manage (a Vendia Share account)
+* **Capability** - A mapping of Action to Resource, linking the right to call an operation with the right to manage a Vendia Share account
 * **Role** - A named collection of Capabilities; used to determine if a user management operation, executed by invoking the Vendia Share control plane API, is permitted or denied.
 
 There are a set of [Actions](https://www.vendia.net/docs/share/rbac#user-actions) relevant to user account management.  These are a subset of the `ActionEnum` defined in the Vendia Share [control plane API](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference).  Each Action defined corresponds to a user management query or mutation available through the API.
