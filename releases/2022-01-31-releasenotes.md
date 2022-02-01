@@ -27,7 +27,7 @@ Now you don’t have to search hard to find the newly redesigned action buttons 
 
 ## Smart Contracts Editor Enhancements
 
-We added more information to the Smart Contracts details page, including the Vendia resource name of the smart contract. In addition, we've auto-formatted the input query and the output mutation.
+We added more information to the Smart Contracts details page, including the Vendia resource name of the smart contract. In addition, we've auto-formatted the input query and the output mutation input boxes.
 
 
 
