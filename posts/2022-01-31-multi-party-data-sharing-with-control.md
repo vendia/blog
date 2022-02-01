@@ -196,13 +196,13 @@ There are a set of [Actions](https://www.vendia.net/docs/share/rbac#user-actions
   <tr>
    <td>UNI_QUERY
    </td>
-   <td>All data plane query operations 
+   <td>NA - future use
    </td>
   </tr>
   <tr>
    <td>UNI_MUTATE
    </td>
-   <td>evolve
+   <td>NA - future use
    </td>
   </tr>
 </table>
