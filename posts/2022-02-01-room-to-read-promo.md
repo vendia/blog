@@ -1,20 +1,47 @@
 ---
-title: "Room to Read PLG Promo"
-description: "TBD"
+title: "Room to Read Promo"
+description: "Fuel a Chain Reaction of Sharing"
 date: '2022-02-01'
 categories:
-- concepts
+- company
+- product
 authors:
 - Shruthi Rao
 ---
 
-## The Request
+## Fuel a Chain Reaction of Sharing
 
-We have updated our User Interface (UI) to enable non-developers to create and manage decentralized data applications called [Universal Applications](https://www.vendia.net/docs/share/dev-and-use-unis) (or Uni for short). A new, simple workflow guides users through the steps to quickly create a new Universal Application. The new UI also includes an Entity Explorer, allowing non-developers to read from and write to a Universal Application without crafting GraphQL queries or mutations. You can navigate to the Entity Explorer from within a node. Entity Explorer will show you all the items associated with your type.
+At Vendia, we believe in the power of sharing. Our platform, Vendia Share, is designed to help people securely share important information with others.
 
-### A Step-by-Step Guide
+If you share a few minutes of your time to help us test one of our newest sharing capabilities we’ll, in turn, share back by donating to Room to Read.
 
-#### Creating Your Uni
+## Your Feedback is Important – Help Enable Better Sharing
+
+Our platform is designed for securely sharing real-time data with those who need it most. We recently announced a new set of features for Vendia Share to further help developers build secure, real-time data applications. One of those features, Entity Explorer, is a no-code explorer view that makes sharing data available to more users. Though we are proud of this new capability, it’s also a brand new interface – we’d love your help to improve the user experience.
+
+## The Request – A Few Minutes of Your Time & Your Favorite Books
+
+The request is simple - follow the step-by-step instructions below. In just a few minutes, you’ll sign up for Vendia, use our new Entity Explorer to share a few of your favorite books, and invite someone to look at your list. That’s it!
+
+On the backend, we track the flow of the user experience with automatic telemetry that allows us to see where our product experience would benefit from improvement.
+
+## Sharing Back – Vendia Will Donate to Room to Read
+
+As a thank you for sharing your time, we are sharing back to [Room to Read](https://www.roomtoread.org/). Until Feb 15, we will donate $50 to Room to Read for every person who posts screenshots to the [Vendia Discourse thread](https://community.vendia.net/t/room-to-read-share-your-screenshots-and-feedback) of (a) their book list and (b) their Universal Application with two nodes. So let’s go! Share this exercise with any of your colleagues that want to help make a difference through better sharing.
+
+### Why Room to Read?
+
+I’m inspired by Geetha Murali and the mission she is pursuing with the team at Room to Read: transforming the lives of millions of children in low-income communities by focusing on literacy and gender equality in education.
+
+As a co-founder of a SaaS company, I strive to empower people to share via a technology platform. But I can’t help but be drawn to Room to Read’s idea of empowerment at such a broad and foundational level as they empower under-served and under-represented communities through literacy – the starting point of so much education and equality!
+
+I’ve had the privilege of being connected to Room to Read and Geetha through the [Neythri Fund](https://www.neythrifuturesfund.com/), and I see this as a small and simple way to extend the power of you sharing your time for us, to fuel a chain reaction of sharing to an organization that inspires me.
+
+## A Step-by-Step Guide
+
+Here's where we provide you with the knowledge to create your book list suitable for sharing.
+
+### Creating Your Uni
 
 In this section, you will deploy your own Universal Application using the Vendia Share web application.
 
@@ -40,7 +67,7 @@ Click on 'Create a Universal Application' to begin the process.
 <details>
 <summary>Choose a Starting Point</summary>
 
-Vendia provides several data schemas to get started. In our case, we will select 'Create your own' and define our own schema.
+Vendia provides several data schemas to get started. In this case, you will select 'Create your own' and define your own schema. Don't worry - we have one to get you started.
 
 <img width="1312" alt="02-create-uni-starting-point" src="https://user-images.githubusercontent.com/71095088/151866654-2aa33ed6-28d3-4d60-9410-c51f48c4e166.png">
 
@@ -60,7 +87,7 @@ Give you Uni a name. All Unis in the Starter tier share a common namespace of `u
 <details>
 <summary>Node Configuration</summary>
 
-Here is where we can specify attributes about our [node](https://www.vendia.net/docs/share/terms-and-definitions#node). For demonstration purposes you can accept the default values and click on 'Next' to define the data model.
+Here is where you can specify attributes about your [node](https://www.vendia.net/docs/share/terms-and-definitions#node). For demonstration purposes you can accept the default values and click on 'Next' to define the data model.
 
 <img width="1313" alt="04-node-configuration" src="https://user-images.githubusercontent.com/71095088/151868798-456b4816-14a4-4e6c-8a0e-7a732be06a24.png">
 
@@ -124,7 +151,7 @@ Once you click on the 'Create' button you will see output indicating the Uni is 
 
 </details>
 
-#### Creating New Books with Entity Explorer
+### Creating New Books with Entity Explorer
 
 Once the Uni is in a `RUNNING` state you will be able to access your Node's Entity Explorer and store details about books.
 
@@ -152,7 +179,7 @@ Once you click on the 'Save' button, the Uni will begin the process of writing t
 
 </details>
 
-#### Viewing and Editing New Books with Entity Explorer
+### Viewing and Editing New Books with Entity Explorer
 
 Now that you've saved the book details to the Uni, let's view them in Entity Explorer and make edits.
 
@@ -197,7 +224,7 @@ One of the core features of Vendia Share is the ability to capture changes to da
 You can see how your book details have evolved over time.
 </details>
 
-#### Deleting Books with Entity Explorer
+### Deleting Books with Entity Explorer
 
 Entity Explorer allows you to delete data from your Uni. Go ahead and delete the book you've entered.
 
@@ -225,9 +252,9 @@ Now that you've deleted your book, your Uni doesn't have any more data.
 
 </details>
 
-#### Share Your Book List with a Friend
+### Share Your Book List with a Friend
 
-One of the many things that makes Vendia Share interesting is that you can easily share information with partners. That partner can be a separate organization, a separate department within the same organization, or - for the sake of this post - someone with whom you want to share your book list.
+One of the many things that makes Vendia Share interesting is that you can easily share information with a partner. That partner can be a separate organization, a separate department within the same organization, or - for the sake of this post - someone with whom you want to share your book list.
 
 Go ahead and invite another user to your Uni and share books with each other. 
 
