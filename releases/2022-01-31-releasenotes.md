@@ -10,7 +10,6 @@ tags:
 
 
 
-## Summary
 
 Our design and engineering teams worked diligently on a node details view redesign, which we're excited to share with you today. You'll also see noticeable developer experience improvements on the smart contracts details and the smart contract edit views. 
 
