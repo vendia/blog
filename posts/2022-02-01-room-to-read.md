@@ -27,7 +27,7 @@ On the backend, we track the flow of the user experience with automatic telemetr
 
 ## Sharing Back – Vendia Will Donate to Room to Read
 
-As a thank you for sharing your time, we are sharing back to [Room to Read](https://www.roomtoread.org/). Until Feb 15, we will donate $50 to Room to Read for every person who posts screenshots to the [Vendia Discourse thread](https://community.vendia.net/t/room-to-read-share-your-screenshots-and-feedback) of (a) their book list and (b) their Universal Application with two nodes. So let’s go! Share this exercise with any of your colleagues that want to help make a difference through better sharing.
+As a thank you for sharing your time, we are sharing back to [Room to Read](https://www.roomtoread.org/). Until Feb 15, we will donate $50 to Room to Read for every person who posts screenshots to the [Vendia Discourse thread](https://community.vendia.net/t/room-to-read-share-your-screenshots-and-feedback) of (a) their book list in the Entity Explorer and (b) the [details of their Universal Application with two nodes](https://share.vendia.net/uni). So let’s go! Share this exercise with any of your colleagues that want to help make a difference through better sharing.
 
 ### Why Room to Read?
 
@@ -56,7 +56,7 @@ You can [register](https://share.vendia.net?utm_source=blog&utm_campaign=room_to
 
 Visit the Vendia Share web application at [https://share.vendia.net](https://share.vendia.net). If you have not yet created a Uni you will be presented with the following screen.
 
-**NOTE:** You will see any existing Universal Applications listed here. The Vendia Share Starter tier allows for a [single Universal Application](https://www.vendia.net/docs/share/limits#uni-and-node-limits). You will not be able to proceed with this exercise if you already have a running Universal Application.
+**NOTE:** You will see your existing Universal Applications listed here. The Vendia Share Starter tier allows for a [single Universal Application](https://www.vendia.net/docs/share/limits#uni-and-node-limits). You will not be able to proceed with this exercise if you already have a running Universal Application.
 
 <img width="1311" alt="01-empty-uni-screen" src="https://user-images.githubusercontent.com/71095088/151864172-fde733e6-3abf-4041-bdb2-cff406defe1c.png">
 
@@ -284,4 +284,4 @@ You and your partner will both be able to use Entity Explorer to read and write 
 
 ## Conclusion
 
-Thank you for sharing your time and, importantly, supporting [Room to Read](https://www.roomtoread.org/). Remember to post your screenshots to the [Vendia Discourse thread](https://community.vendia.net/t/room-to-read-share-your-screenshots-and-feedback) of (a) their book list and (b) their Universal Application with two nodes.
+Thank you for sharing your time and, importantly, supporting [Room to Read](https://www.roomtoread.org/). Remember to post your screenshots to the [Vendia Discourse thread](https://community.vendia.net/t/room-to-read-share-your-screenshots-and-feedback) of (a) your book list in the Entity Explorer and (b) the [details of your Universal Application with two nodes](https://share.vendia.net/uni)
