@@ -12,7 +12,7 @@ tags:
 
 ## Summary
 
-Our design and engineering teams worked diligently on the node details view redesign. We are excited to share the new interface with you today. You will also see noticeable developer experience improvements on the smart contracts details and the smart contract edit pages. 
+Our design and engineering teams worked diligently on a node details view redesign, which we're excited to share with you today. You'll also see noticeable developer experience improvements on the smart contracts details and the smart contract edit views. 
 
 
 ## Node Details Redesign
