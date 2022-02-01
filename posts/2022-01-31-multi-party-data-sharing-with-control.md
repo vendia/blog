@@ -34,7 +34,7 @@ Now let's examine each access control in depth.
 ## User Access Controls
 
 ### Purpose
-User access controls are used to protect the user account management operations provided by Vendia Share.  This prevents unauthorized access to user management functions and enables features like self-service user management within an organization.
+User access controls protect the user account management operations provided by Vendia Share.  This prevents unauthorized access to user management functions and enables features like self-service user management within an organization.
 
 ### Approach
 The Vendia Share control plane is where Vendia Share user accounts are stored.  Authorization to specific user account management operations that act on user accounts is granted through a Role Based Access Control (RBAC) mechanism.
@@ -117,7 +117,7 @@ We've created a set of examples to demonstrate how user controls can be viewed a
 More advanced user controls scenarios and self-service features are available for our [Enterprise customers](https://www.vendia.net/pricing).  While we won't cover those in detail here, the permission necessary originates from the creation of an administrator role.  An administrator can then invoke otherwise unauthorized API operations (e.g. createUser) or grant escalated privileges to other accounts within the administrator's organization (i.e. setUserRole).
 
 ## Uni Access Controls
-Uni Controls are used to protect the Uni management operations provided by Vendia Share.  Authorization to specific Uni management operations is granted through an RBAC mechanism, very similar to the RBAC mechanism that protects User Controls.
+Uni access controls protect the Uni management operations provided by Vendia Share.  Authorization to specific Uni management operations is granted through an RBAC mechanism, very similar to the RBAC mechanism that protects user controls.
 
 ### Approach
 In addition to storing user accounts, Vendia Share's control plane also stores information about all Unis and nodes deployed across the platform.  Authorization to specific Uni management operations that act on Uni and node configuration is granted through an RBAC mechanism.
