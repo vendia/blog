@@ -11,9 +11,9 @@ authors:
 
 ## Fuel a Chain Reaction of Sharing
 
-At Vendia, we believe in the power of sharing. Our platform, Vendia Share, is designed to help people securely share important information with others.
+At Vendia, we believe in the power of sharing. Our platform, [Vendia Share](https://vendia.net/product?utm_source=blog&utm_campaign=room_to_read), is designed to help people securely share important information with others.
 
-If you share a few minutes of your time to help us test one of our newest sharing capabilities we’ll, in turn, share back by donating to Room to Read.
+If you share a few minutes of your time to help us test one of our newest sharing capabilities we’ll, in turn, share back by donating to [Room to Read](https://www.roomtoread.org/).
 
 ## Your Feedback is Important – Help Enable Better Sharing
 
@@ -48,7 +48,7 @@ In this section, you will deploy your own Universal Application using the Vendia
 <details>
 <summary>Make Sure You're Registered with Vendia Share</summary>
 
-You can [register](https://share.vendia.net) for the free Starter tier if you haven't already.
+You can [register](https://share.vendia.net?utm_source=blog&utm_campaign=room_to_read) for the free Starter tier if you haven't already.
 </details>
 
 <details>
