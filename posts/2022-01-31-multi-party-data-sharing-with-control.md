@@ -51,10 +51,10 @@ The Vendia Share control plane is where Vendia Share user accounts are stored.  
 Before going further, it's important to define a few key RBAC terms, as they relate to user access controls.
 
 #### Key Terminology
-* **Action** - The right to call one of the user account management operations exposed by the Vendia Share control plane
-* **Resource** - The Vendia Share account or accounts against which a user account management Action can be performed
-* **Capability** - A mapping of Action to Resource, linking the right to call an operation with the right to manage a Vendia Share account
-* **Role** - A named collection of Capabilities; used to determine if a user management operation, executed by invoking the Vendia Share control plane API, is permitted or denied.
+* **Action** - the right to call one or more of Share's user account management operations
+* **Resource** - the user account against which an Action can be performed
+* **Capability** - a mapping of Action to Resource, linking the "right to call" (an operation) with the "right to manage" (a user account)
+* **Role** - a named collection of Capabilities and used to determine if a user management operation is authorized
 
 There are a set of [Actions](https://www.vendia.net/docs/share/rbac#user-actions) relevant to user account management.  These are a subset of the `ActionEnum` defined in the Vendia Share [control plane API](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference).  Each Action defined corresponds to a user management query or mutation available through the API.
 
@@ -135,10 +135,10 @@ In addition to storing user accounts, Vendia Share's control plane also stores i
 We can slightly modify the RBAC terms from the previous section to make them specific to Uni management.
 
 #### Key Terminology
-* **Action** - The right to call one of the Uni management operations exposed by the Vendia Share control plane
-* **Resource** - The Vendia Share Uni or Unis against which a Uni management Action can be performed
-* **Capability** - A mapping of Action to Resource, linking the right to call (an operation) with the right to manage (a Uni)
-* **Role** - A named collection of Capabilities; used to determine if a Uni management or data operation, executed by invoking the Vendia Share control plane or data plane API, is permitted or denied
+* **Action** - the right to call one or more of Share's Uni management operations
+* **Resource** - the Uni or node against which an Action can be performed
+* **Capability** - a mapping of Action to Resource, linking the "right to call" (an operation) with the "right to manage" (a Uni or node)
+* **Role** - a named collection of Capabilities and used to determine if a Uni management operation is authorized
 
 There are a set of [Actions](https://www.vendia.net/docs/share/rbac#user-actions) relevant to Uni management.  You'll notice these are a subset of the `ActionEnum` defined in the Vendia Share [control plane API](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference).  Further, you'll notice that each Action defined corresponds to a user-specific query or mutation available through the API.
 
