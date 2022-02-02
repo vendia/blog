@@ -11,11 +11,13 @@ authors:
 ---
 
 ## Overview
-For our customers, multi-party data sharing means many participants transacting with each other in real time.  While this sounds simple enough, the reality is getting participants to _agree to collaborate_ can be a challenge.  Many of these participants (often separate organizations) have grown accustomed to under-sharing their data, either because of the cost and complexity or because of insufficient access controls to truly share with trust.  Vendia Share makes trusted real-time data sharing possible thanks to the concept of a Universal Application ("Uni" for short).  A Uni is composed of one or more nodes, and all nodes include the single source of truth for all participants.  It's common for each participant to have its own node, which allows each participant to tailor the access controls to its node and to the data written to it.
+For our customers, multi-party data sharing means many participants transacting with each other in real time.  While this sounds simple enough, the reality is getting participants to _agree to collaborate_ can be a challenge.  Many of these participants (often separate organizations) have grown accustomed to under-sharing their data, either because of the cost and complexity or because of insufficient access controls to truly share with trust.  
+
+Vendia Share makes trusted real-time data sharing possible thanks to the use of a Universal Application ("Uni" for short).  A Uni is composed of one or more nodes, each with access to a distributed ledger.  While the ledger is fully ordered and consistent across all nodes, each node maintains a separate copy.  The decentralized approach allows each participant to tailor the access controls to its node, the data written to it, and the data shared with other nodes.
 
 A core tenet of Vendia Share is _sharing with control_.  That tenet is the basis for a number of features that allow participants to gain trust in the Vendia Share platform, and with each other.  Those features, among many others, make Vendia Share the best platform to consider when building multi-party, real-time data sharing solutions. It's these same features that bring the cost and complexity of building real-time data sharing solutions down significantly.  Because sharing with control is a core tenet, it's not surprising that access controls have been built into multiple levels of the Vendia Share architecture.
 
-In this blog post we'll explore a range of Vendia Share controls, including their purpose and placement within the overall Vendia Share architecture, and their relationship with each other.
+In this blog post we'll explore Vendia Share's access control mechanisms, their relationships, and their purpose and placement within the overall Vendia Share architecture.
 
 * **[User Management Access Controls](https://www.vendia.net/docs/share/rbac#user-actions)** - Protect Vendia Share user account management operations
 * **[Uni Management Access Controls](https://www.vendia.net/docs/share/rbac#uni-actions)** - Protect Vendia Share Uni management operations
@@ -26,6 +28,8 @@ In this blog post we'll explore a range of Vendia Share controls, including thei
     <img src="https://user-images.githubusercontent.com/85032783/151488928-76a5b185-329e-424a-af46-17a397868716.png" />
     <figcaption ><b>Figure 1</b> - <i>Vendia Share Access Controls</i></figcaption>
 </figure>
+
+The Share architecture can be thought of at a high level as a *Control Plane* and a *Data Plane*.  The Control Plane manages user accounts, Unis, and nodes (i.e. the metadata needed for the Share platform).  The Data Plane spans the nodes that collectively act on the data in a Uni (i.e. the actual data shared by participants).
 
 As captured in Figure 1, the user and Uni access controls protect the Vendia Share control plane and the node and data access controls protect the Vendia Share data plane.  You can differentiate control and data plane access controls by considering whether the access control protects the Vendia Share platform (if so, it's a _control plane_ protection) or a Uni or node (if so, it's a _data plane_ protection).  The most important point is that multiple access controls exist in each plane of the Vendia Share architecture.  In addition to providing defense-in-depth, the numerous available access controls offer each participant in a Uni the flexibility and control they often need to willingly share data with others.
 
