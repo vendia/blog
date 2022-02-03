@@ -81,7 +81,7 @@ Expires on:      2022-01-30T02:26:24.872624
 
 We will export that invite token as an environment variable (be sure to substitute your invite token in the syntax that follows)
 
-```
+```bash
 # This command will save the Invite token for later use by **Account 2**
 export VENDIA_TOKEN=12345678-abcd-1234-abcd-123456789012
 ```
@@ -113,7 +113,7 @@ Password: *********
 
 Once you're authenticated as **Account 2** you can run `share uni join` to accept the invitation and specify your node's settings.
 
-```
+```bash
 share uni join --uni test-uni-management \
 --token $VENDIA_TOKEN \
 --config '{"name":"account2-node","userId":"brian+account2@vendia.net", "region":"us-west-2", "settings": {"apiSettings": {"auth": {"authorizerType": "API_KEY"}}}}'
