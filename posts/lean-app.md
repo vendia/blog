@@ -1,0 +1,58 @@
+---
+title: 'The Lean App Movement'
+description: 'Optimize for outcomes that matter – not pointless, repetitive drudgery'
+date: '2022-02-03'
+authors:
+  - Tim Wagner
+---
+
+## Optimize for outcomes that matter – not pointless, repetitive drudgery 
+
+For decades, progress in application design was driven by reducing surface area and shifting complexity to the application’s environment. This progress proved to be cyclical, ebbing and flowing with the pervasive trends of the day: like the shift from mainframes to client/server, which eventually created the server-based Unix era, which itself led to the public cloud, which ultimately gave rise to fully managed and “serverless” offerings. 
+
+The next significant movement in application development has begun. 
+
+The best application developers are leading with judiciousness, maniacally focusing on solving the toughest problems in the leanest, most elegant way possible. As developers, we place a premium on the idea that less is more. We are precision coding. The code we write is entirely aimed at delivering unique value – leaving undifferentiated and previously-solved problems to the rich set of cloud services at our fingertips. 
+
+We are building powerful, lean applications.  
+
+
+### A four-part blog series
+
+This blog series covers the lean app movement in four parts.  
+
+**[Part 1 – Lessons from the Past.](Vendia.net/blog/lean-app-part-1)** This section takes a look at the trendlines that have made it possible to develop lean apps. I highlight the technology shifts that make it possible for us to apply an extreme focus on building software based on customer value, rather than technological ownership
+
+**[Part 2 – The Elements of a Lean App](Vendia.net/blog/lean-app-part-2)**. In Part 2 I define the ideal model of what a software application should look like. For an industry that has for so long defined “software” as “stuff that runs on a machine”, it can be hard to wrap your head around the idea of giving up on that paradigm. This post clearly outlines the elements of a lean app, including data model, integrity constraints, state transitions, and connectors.
+
+**[Part 3 – Letting Infrastructure do the Dirty Work](Vendia.net/blog/lean-app-part-3)**. A fundamental tenet of the Lean App Movement is to stop the undifferentiated heavy lifting and leave that to the cloud infrastructure providers. But for that to be possible, the infrastructure on which the application depends needs to start doing a whole lot more than it does today. This post covers what infrastructure needs to do automatically and without impacting developers or operators.
+
+**[Part 4 – The Lean App Manifesto](Vendia.net/blog/lean-app-part-4)**. What does a lean world look like? In some ways, it’s a continuation of everything that’s come before: open source software, the public cloud, Serverless. Each of these, in some way, helped to “lean out” some aspect of application development, without getting quite all the way there. The lean app movement is driven by a simple, overarching idea: Less over more. If a technology, process, approach, or vendor can do something effectively that’s not your core business, then let them. This post covers the six simple rules lean apps follow. 
+
+
+### Summing up
+
+In this series I highlight how the concept of “leanness” has been around for ages – in a sense, it’s just [DRY coding](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself#:~:text=%22Don't%20repeat%20yourself%22,data%20normalization%20to%20avoid%20redundancy.) applied at a macroscopic level to every aspect of an application, from data handling to cross-cloud deployment. But as the next major iteration of software development, it will once again transform the industry, much as the cloud has, shifting ever more work from individual developers, their applications, and the companies that pay their wages, onto cloud and other providers who will create economies of scale through multi-tenanted solutions that handle the undifferentiated (if still exceeding complex) heavy lifting of data and compute management. Over time, companies will enjoy lower TCO, faster time to market, and better ROI as the process of developing, deploying, and maintaining software applications and associated IT infrastructure continues to drop. Lean coding is the ultimate expression of innovating for customers.
+
+
+### Get the whitepaper
+
+If you don’t want to flip through four separate posts, you can download the full white paper [here](vendia.net/lean-app). 
+
+
+### Get started 
+
+It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.net/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
+
+Where wholesale adoption of the idea isn’t (yet) possible, developers and companies still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.net/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
+
+
+### About the author
+
+Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader responsible for bringing AWS Lambda to market. He has also been an operational leader for the largest US-regulated fleet of distributed ledgers while VP at Coinbase, where he oversaw billions in real-time transactions. Dr. Wagner co-founded Vendia with Shruthi Rao in 2020 and serves as its CEO and Chief Product Visionary. Vendia’s mission – to help organizations of all sizes easily share data and build applications that span companies, clouds, and geographies – is his passion, and he speaks and publishes frequently on topics ranging from serverless to distributed ledgers.
+
+[linkedin.com/in/timawagner](http://www.linkedin.com/timawagner)
+
+t: @timallenwagner
+
+[www.vendia.com/blog](http://www.vendia.com/blog)
