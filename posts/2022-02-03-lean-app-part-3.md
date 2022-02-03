@@ -23,7 +23,7 @@ Where it makes sense, data models (and their evolution) and integrity constraint
 Another way to say this is that “leanness” also extends to preferring data-centric expressions (BALANCE >= 0) over code (if balance - withdrawal_amount &lt; 0 then throw Exception(withdrawal_amount, …). This is both to ensure that the expression itself is lean (the less there is to read and write, the less there is to get wrong or have to carefully maintain over time) and to allow for automation over manual effort (the shifting of constraint enforcement from handwritten code to the platform itself).
 
 
-### _Automated API generation_ 
+### Automated API generation 
 
 Let’s face it: Part of what makes existing apps “plump” as opposed to “lean” is actually developer hubris, including an over-reliance on customization and a sense that everything must be customized. These belief systems fade over time – most developers couldn’t imagine customizing a programming language today, but in the 80’s and 90’s it wasn’t uncommon for companies to maintain large, complex macro and library packages for their custom C coding, all of which were carefully protected as critical, proprietary IP. 
 
@@ -147,7 +147,7 @@ Open source software achieves “zero marginal cost” sharing, but isn’t a so
 
 ## Next post – Lean Apps Part 4: The Lean App Manifesto
 
-In the [Part 4 ](vendia.net/blog/lean-app-part-4)of [this series](vendia.net/blog/lean-app), we talk more about the lean app movement and how it can “flip the iceberg” of IT innovation.
+In the Part 4(coming soon!)of [this series](https://www.vendia.net/blog/lean-app), we talk more about the lean app movement and how it can “flip the iceberg” of IT innovation.
 
 
 ### Get the whitepaper
@@ -166,11 +166,11 @@ Where wholesale adoption of the idea isn’t (yet) possible, developers and comp
 
 Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader responsible for bringing AWS Lambda to market. He has also been an operational leader for the largest US-regulated fleet of distributed ledgers while VP at Coinbase, where he oversaw billions in real-time transactions. Dr. Wagner co-founded Vendia with Shruthi Rao in 2020 and serves as its CEO and Chief Product Visionary. Vendia’s mission – to help organizations of all sizes easily share data and build applications that span companies, clouds, and geographies – is his passion, and he speaks and publishes frequently on topics ranging from serverless to distributed ledgers.
 
-[linkedin.com/in/timawagner](http://www.linkedin.com/timawagner)
+[linkedin.com/in/timawagner](https://www.linkedin.com/in/timawagner)
 
 t: @timallenwagner
 
-[www.vendia.com/blog](http://www.vendia.com/blog)
+[www.vendia.com/blog](https://www.vendia.net/blog)
 
 
 <!-- Footnotes themselves at the bottom. -->
