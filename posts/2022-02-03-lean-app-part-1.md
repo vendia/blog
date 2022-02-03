@@ -22,12 +22,12 @@ These trends may feel incremental, but over time they have dramatic macro effect
 
 Fast forward to today, where 99.9% of developers rarely if ever give a moment’s thought to how compilers or operating systems actually work (and where even fewer have ever seen a data center), and where much of what used to be managed by IT is now offered by SaaS vendors in the form of multi-tenanted subscription services delivered from the public cloud, such as Slack and Zoom.
 
-Watching this grand evolution over the years raises an interesting question:** Where are _today’s_ trendlines – increasing automation, abstraction, standardization (de facto as well as de jure), and “serverlessness” – headed**? What can they tell us about what a typical business software application will look like in the future? And, most importantly, what can we do as developers, cloud companies, and the broader IT ecosystem to achieve those future outcomes faster?
+Watching this grand evolution over the years raises an interesting question: **Where are _today’s_ trendlines – increasing automation, abstraction, standardization (de facto as well as de jure), and “serverlessness” – headed**? What can they tell us about what a typical business software application will look like in the future? And, most importantly, what can we do as developers, cloud companies, and the broader IT ecosystem to achieve those future outcomes faster?
 
 
 ## Less is more
 
-While tracking an entire industry is complex to say the least, there’s a single, prevailing theme to all of the changes we’ve seen: “less is more”.  \
+While tracking an entire industry is complex to say the least, there’s a single, prevailing theme to all of the changes we’ve seen: “less is more”.
 
 
 Broadly speaking, **progress in application design has been driven by reducing surface area and shifting complexity to the application’s environment**. 
@@ -52,7 +52,6 @@ The most powerful “reduction” of all is when an entire area is permanently r
 
 Where things can’t be taken away entirely from the application stack, the next best thing is to focus a company’s (and developer’s) resources on the elements that differentiate their customer outcomes, rather than the undifferentiated “commodity” pieces. 
 
- \
 Open source libraries, the standardization of operating systems and languages, Docker images…all of these are examples where the community has worked hard to avoid spurious differences that consume precious resources, allowing practitioners to focus on what matters. (Note that “standardization” here doesn’t have to mean a formal, committee- or standards body-driven process; it can also take the form of upvoting open source libraries to create a de facto notion of the ‘right’ way to handle a common task, such as parsing a URL in python.)
 
 
@@ -74,12 +73,12 @@ Twenty years ago, new software projects often started by creating (and staffing)
 
 ### Next post – Lean Apps Part 2: The Elements of a Lean App
 
-In the [Part 2 ](Vendia.net/blog/lean-app-part-2)of [this series](vendia.net/blog/lean-app), we turn our gaze from the past to the future, to see what these learnings tell us about the future of software development.
+In the Part 2 (coming soon!)of [this series](https://www.vendia.net/blog/lean-app), we turn our gaze from the past to the future, to see what these learnings tell us about the future of software development.
 
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper [here](vendia.net/lean-app). 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
 
 
 ### Build a lean app 
@@ -93,8 +92,8 @@ Where wholesale adoption of the idea isn’t (yet) possible, developers and comp
 
 Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader responsible for bringing AWS Lambda to market. He has also been an operational leader for the largest US-regulated fleet of distributed ledgers while VP at Coinbase, where he oversaw billions in real-time transactions. Dr. Wagner co-founded Vendia with Shruthi Rao in 2020 and serves as its CEO and Chief Product Visionary. Vendia’s mission – to help organizations of all sizes easily share data and build applications that span companies, clouds, and geographies – is his passion, and he speaks and publishes frequently on topics ranging from serverless to distributed ledgers.
 
-[linkedin.com/in/timawagner](http://www.linkedin.com/timawagner)
+[linkedin.com/in/timawagner](https://www.linkedin.com/in/timawagner/)
 
 t: @timallenwagner
 
-[www.vendia.com/blog](http://www.vendia.com/blog)
+[www.vendia.com/blog](https://www.vendia.net/blog)
