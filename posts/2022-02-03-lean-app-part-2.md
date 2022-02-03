@@ -87,7 +87,7 @@ In the Part 3(coming soon) of [this series](https://www.vendia.net/blog/lean-app
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper [here](vendia.net/lean-app). 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
 
 
 ### Build a lean app 
