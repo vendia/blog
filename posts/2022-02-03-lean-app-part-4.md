@@ -11,9 +11,9 @@ authors:
 In [Part 3 ](vendia.net/blog/lean-app-part-3)of[ this series](vendia.net/blog/lean-app) we covered what infrastructure needs to do automatically and without impacting developers or operators. This post focuses on how we can shift away from undifferentiated work and “flip the iceberg” of IT innovation. 
 
 
-## The lean App goal: “Flip the IT iceberg”
+## The lean app goal: “Flip the IT iceberg”
 
-Every company talks about innovating to serve customers. Every developer wants to spend their time on the activities and outcomes that matter, not pointless, repetitive drudgery. And yet, modern application development across every country and industry sector is dominated by undifferentiated activities.  \
+Every company talks about innovating to serve customers. Every developer wants to spend their time on the activities and outcomes that matter, not pointless, repetitive drudgery. And yet, modern application development across every country and industry sector is dominated by undifferentiated activities.
 
 
 What would it take to “flip the iceberg” – to get to a place where 90% or more of a team’s time, energy, and infrastructure spend goes towards innovation and competitive differentiation, and less than 10% is spent on babysitting infrastructure, repetitive development and deployment tasks, and other undifferentiated heavy lifting? 
@@ -60,7 +60,7 @@ If your application has to poll repeatedly for data or expend code (and develope
 If your application is reinventing the wheel by trying to solve cross-company, cross-cloud, cross-region, or cross-account data sharing (with a focus on security, scalablility, cost management, fault tolerance, and compliant data access controls), then something is wrong. _DIYing _any_ of these data sharing solutions is the poster child of undifferentiated heavy lifting._
 
 
-### #6 SaaS over IaaS; server_less_ over server_ful_
+### #6 SaaS over IaaS; server*less* over server*ful*
 
 Deploying or operating another company’s software? Manually scaling systems up and down that should be “adult enough” not to require you to babysit them? Aren’t AWS/Azure/GCP yet spending time and money to keep servers or other infrastructure healthy? If your end users don’t benefit directly from an activity, perhaps your time is better spent innovating elsewhere.
 
@@ -124,7 +124,7 @@ Over time, companies will enjoy lower TCO, faster time to market, and better ROI
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper here. 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
 
 
 ### Build a lean app 
@@ -138,8 +138,8 @@ Where wholesale adoption of the idea isn’t (yet) possible, developers and comp
 
 Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader responsible for bringing AWS Lambda to market. He has also been an operational leader for the largest US-regulated fleet of distributed ledgers while VP at Coinbase, where he oversaw billions in real-time transactions. Dr. Wagner co-founded Vendia with Shruthi Rao in 2020 and serves as its CEO and Chief Product Visionary. Vendia’s mission – to help organizations of all sizes easily share data and build applications that span companies, clouds, and geographies – is his passion, and he speaks and publishes frequently on topics ranging from serverless to distributed ledgers.
 
-[linkedin.com/in/timawagner](http://www.linkedin.com/timawagner)
+[linkedin.com/in/timawagner](http://www.linkedin.com/in/timawagner)
 
 t: @timallenwagner
 
-[www.vendia.com/blog](http://www.vendia.com/blog)
+[www.vendia.com/blog](http://www.vendia.net/blog)
