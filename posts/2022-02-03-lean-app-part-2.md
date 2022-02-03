@@ -8,7 +8,7 @@ authors:
 
 ## Defining the ideal model of what a software application should look like
 
-In [Part 1](vendia.net/blog/lean-app-part-1) of [this series](vendia.net/blog/lean-app) we gazed into the rearview mirror to see how software has evolved towards lower “surface area” over time. But what does all this tell us about the future of software development? If the major trends have been focused on the continual removal of surface area (and the resulting decrease in complexity and cost of ownership), what’s the eventual result? 
+In [Part 1](https://www.vendia.net/blog/lean-app-part-1) of [this series](https://www.vendia.net/blog/lean-up) we gazed into the rearview mirror to see how software has evolved towards lower “surface area” over time. But what does all this tell us about the future of software development? If the major trends have been focused on the continual removal of surface area (and the resulting decrease in complexity and cost of ownership), what’s the eventual result? 
 
 If we imagine these trends continuing, it’s also natural to ask an interesting question: 
 
@@ -82,7 +82,7 @@ To make a lean app possible, _the infrastructure has to start doing more for app
 
 ## Next post – Lean Apps Part 3: Letting Infrastructure do the Dirty Work
 
-In the [Part 3](vendia.net/blog/lean-app-part-3) of [this series](vendia.net/blog/lean-app), we cover what infrastructure needs to do automatically and without impacting developers or operators.
+In the Part 3(coming soon) of [this series](https://www.vendia.net/blog/lean-app), we cover what infrastructure needs to do automatically and without impacting developers or operators.
 
 
 ### Get the whitepaper
@@ -101,8 +101,8 @@ Where wholesale adoption of the idea isn’t (yet) possible, developers and comp
 
 Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader responsible for bringing AWS Lambda to market. He has also been an operational leader for the largest US-regulated fleet of distributed ledgers while VP at Coinbase, where he oversaw billions in real-time transactions. Dr. Wagner co-founded Vendia with Shruthi Rao in 2020 and serves as its CEO and Chief Product Visionary. Vendia’s mission – to help organizations of all sizes easily share data and build applications that span companies, clouds, and geographies – is his passion, and he speaks and publishes frequently on topics ranging from serverless to distributed ledgers.
 
-[linkedin.com/in/timawagner](http://www.linkedin.com/timawagner)
+[linkedin.com/in/timawagner](https://www.linkedin.com/in/timawagner)
 
 t: @timallenwagner
 
-[www.vendia.com/blog](http://www.vendia.com/blog)
+[www.vendia.com/blog](https://www.vendia.net/blog)
