@@ -1,4 +1,3 @@
-
 ---
 title: 'Lean Apps Part 1: Lessons from the Past'
 description: 'Build software based on customer value, not technological ownership'
