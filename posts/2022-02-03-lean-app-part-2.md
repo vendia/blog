@@ -9,7 +9,7 @@ authors:
 
 ## Defining the ideal model of what a software application should look like
 
-In [Part 1](https://www.vendia.net/blog/lean-app-part-1) of [this series](https://www.vendia.net/blog/lean-up) we gazed into the rearview mirror to see how software has evolved towards lower “surface area” over time. But what does all this tell us about the future of software development? If the major trends have been focused on the continual removal of surface area (and the resulting decrease in complexity and cost of ownership), what’s the eventual result? 
+In [Part 1](https://www.vendia.net/blog/lean-app-part-1) of [this series](https://www.vendia.net/blog/lean-app) we gazed into the rearview mirror to see how software has evolved towards lower “surface area” over time. But what does all this tell us about the future of software development? If the major trends have been focused on the continual removal of surface area (and the resulting decrease in complexity and cost of ownership), what’s the eventual result? 
 
 If we imagine these trends continuing, it’s also natural to ask an interesting question: 
 
