@@ -1,4 +1,30 @@
 {
+  "User Experience": [
+    {
+      "file": "/releases/2022-01-31-releasenotes.md",
+      "title": "Improved User Experience and Developer Experience",
+      "description": "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity",
+      "date": "2022-01-31",
+      "draft": false,
+      "tags": [
+        "User Experience",
+        "Developer Experience"
+      ]
+    }
+  ],
+  "Developer Experience": [
+    {
+      "file": "/releases/2022-01-31-releasenotes.md",
+      "title": "Improved User Experience and Developer Experience",
+      "description": "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity",
+      "date": "2022-01-31",
+      "draft": false,
+      "tags": [
+        "User Experience",
+        "Developer Experience"
+      ]
+    }
+  ],
   "Improvements": [
     {
       "file": "/releases/2022-01-14-releasenotes.md",

@@ -34,6 +34,11 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Lean Apps Part 1: Lessons from the Past](https://vendia.net/blog/lean-app-part-1) <br/> Build software based on customer value, not technological ownership by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-1.md)
+| [Lean Apps Part 2: The Elements of a Lean App](https://vendia.net/blog/lean-app-part-2) <br/> Defining the ideal model of what a software application should look like by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-2.md)
+| [Lean Apps Part 3: Let Infrastructure do the Dirty Work](https://vendia.net/blog/lean-app-part-3) <br/> Stop the undifferentiated heavy lifting! by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-3.md)
+| [Lean Apps Part 4: The Lean App Manifesto](https://vendia.net/blog/lean-app-part-4) <br/> Flip the innovation iceberg! by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-4.md)
+| [The Lean App Movement](https://vendia.net/blog/lean-app) <br/> Optimize for outcomes that matter – not pointless, repetitive drudgery by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app.md)
 | [Scale Your Partner Ecosystem with Vendia Share](https://vendia.net/blog/scale-your-partner-ecosystem-with-vendia-share) <br/> Addressing the Challenge with Minimal Friction by Brian McNamara | 2022-01-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md)
 | [Why We Combined GraphQL and a Serverless Distributed Ledger](https://vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger) <br/> Making Strategic Decisions to Enable a Platform by Brian McNamara | 2022-01-18 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md)
 | [Applying Domain Driven Design to Blockchains](https://vendia.net/blog/applying-domain-driven-design-to-blockchains) <br/> This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform by Vikrant Kahlir | 2022-01-14 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md)
@@ -180,6 +185,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
 | Releases Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Improved User Experience and Developer Experience](https://vendia.net/releases/2022-01-31-releasenotes) <br/> Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity | 2022-01-31 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-01-31-releasenotes.md)
 | [Improved Usability, Reliability, and Speed…as a Service](https://vendia.net/releases/2022-01-14-releasenotes) <br/> We operate and maintain the Vendia Share platform as a service so you don't have to | 2022-01-14 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-01-14-releasenotes.md)
 | [Improving Smart Contracts Validation](https://vendia.net/releases/2021-12-24-releasenotes) <br/> Delivering improved validation and error handling | 2021-12-24 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-12-24-releasenotes.md)
 | [A Sleigh Full of New Features](https://vendia.net/releases/2021-12-10-releasenotes) <br/> Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more! | 2021-12-10 | [✍️](https://github.com/vendia/blog/edit/master/releases/2021-12-10-releasenotes.md)

@@ -1,249 +1,55 @@
 {
-  "brian-mcnamara": [
-    {
-      "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
-      "title": "Scale Your Partner Ecosystem with Vendia Share",
-      "description": "Addressing the Challenge with Minimal Friction",
-      "date": "2022-01-27",
-      "categories": [
-        "tutorials",
-        "concepts"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
-      "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
-      "description": "Making Strategic Decisions to Enable a Platform",
-      "date": "2022-01-18",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-12-15-schema-evolution.md",
-      "title": "Schema Evolution",
-      "description": "Exploring the ability to update the data model in a Universal Application (Uni)",
-      "date": "2021-12-15",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
-      "title": "Authenticating Vendia Share Requests Using SAML",
-      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
-      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
-      "date": "2021-11-02",
-      "authors": [
-        "Brian McNamara"
-      ],
-      "categories": [
-        "architecture"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-12-open-beta-changes.md",
-      "title": "Open Beta Changes",
-      "description": "Changes to Vendia Share in advance of the Open Beta",
-      "date": "2021-10-12",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
-      "title": "Sharing Data with Fine-grained Control",
-      "description": "Defining Data Access Among Partners in a Universal Application",
-      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
-      "date": "2021-09-01",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
-      "title": "Don't Rip and Replace - Integrate",
-      "description": "Use Vendia Share to Complement Existing Data Stores.",
-      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
-      "date": "2021-05-10",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
-      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
-      "description": "How to create cross region serverless appplications",
-      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
-      "date": "2021-02-17",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
-      "title": "Getting Started With Vendia Share",
-      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
-      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
-      "date": "2021-01-29",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
-      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
-      "date": "2021-01-25",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
-      "title": "Kind Humans Really Work Here",
-      "description": "Putting a company policy to the test",
-      "date": "2021-01-04",
-      "authors": [
-        "Brian McNamara"
-      ]
-    }
-  ],
-  "vikrant-kahlir": [
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "title": "Applying Domain Driven Design to Blockchains",
-      "description": "This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform",
-      "date": "2022-01-14",
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151107275-fa416768-f940-407c-9e03-5b264ea61e10.jpg",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    }
-  ],
-  "james-gimourginas": [
-    {
-      "file": "/posts/2022-01-04-azure-eventing.md",
-      "title": "Real-Time Cross-Cloud Data Sharing",
-      "description": "Event-driven processing using Vendia Share's new Azure capabilities",
-      "date": "2022-01-04",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-12-13-log4j2-response.md",
-      "title": "Vendia's Response to CVE-2021-44228",
-      "description": "A note on the impact to Vendia and our customers",
-      "date": "2021-12-13",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "announcements"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-26-website-case-studies.md",
-      "title": "Website Case Studies",
-      "description": "Learn what Vendia customers and partners are building on the Share platform",
-      "date": "2021-10-26",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-12-open-beta-changes.md",
-      "title": "Open Beta Changes",
-      "description": "Changes to Vendia Share in advance of the Open Beta",
-      "date": "2021-10-12",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
-      "title": "Five Leadership Practices of an Ultramarathoner",
-      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
-      "date": "2021-09-27",
-      "tag": [
-        "developers"
-      ],
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
-      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    }
-  ],
-  "david-brown": [
-    {
-      "file": "/posts/2021-12-09-announcing-new-features.md",
-      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
-      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09",
-      "authors": [
-        "David Brown"
-      ],
-      "categories": [
-        "announcements"
-      ]
-    }
-  ],
   "tim-wagner": [
+    {
+      "file": "/posts/2022-02-03-lean-app-part-1.md",
+      "title": "Lean Apps Part 1: Lessons from the Past",
+      "description": "Build software based on customer value, not technological ownership",
+      "draft": false,
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-2.md",
+      "title": "Lean Apps Part 2: The Elements of a Lean App",
+      "description": "Defining the ideal model of what a software application should look like",
+      "draft": true,
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-3.md",
+      "title": "Lean Apps Part 3: Let Infrastructure do the Dirty Work",
+      "description": "Stop the undifferentiated heavy lifting!",
+      "draft": true,
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-4.md",
+      "title": "Lean Apps Part 4: The Lean App Manifesto",
+      "description": "Flip the innovation iceberg!",
+      "draft": true,
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app.md",
+      "title": "The Lean App Movement",
+      "description": "Optimize for outcomes that matter – not pointless, repetitive drudgery",
+      "draft": false,
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md",
       "title": "A Serverless Distributed Ledger for Enterprises",
@@ -405,6 +211,250 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
+      ]
+    }
+  ],
+  "brian-mcnamara": [
+    {
+      "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
+      "title": "Scale Your Partner Ecosystem with Vendia Share",
+      "description": "Addressing the Challenge with Minimal Friction",
+      "date": "2022-01-27",
+      "categories": [
+        "tutorials",
+        "concepts"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
+      "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
+      "description": "Making Strategic Decisions to Enable a Platform",
+      "date": "2022-01-18",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-12-15-schema-evolution.md",
+      "title": "Schema Evolution",
+      "description": "Exploring the ability to update the data model in a Universal Application (Uni)",
+      "date": "2021-12-15",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
+      "title": "Sharing Data with Fine-grained Control",
+      "description": "Defining Data Access Among Partners in a Universal Application",
+      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
+      "date": "2021-09-01",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
+      "title": "Don't Rip and Replace - Integrate",
+      "description": "Use Vendia Share to Complement Existing Data Stores.",
+      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
+      "date": "2021-05-10",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
+      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
+      "description": "How to create cross region serverless appplications",
+      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
+      "date": "2021-02-17",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "title": "Getting Started With Vendia Share",
+      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "date": "2021-01-29",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
+      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
+      "date": "2021-01-25",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
+      "title": "Kind Humans Really Work Here",
+      "description": "Putting a company policy to the test",
+      "date": "2021-01-04",
+      "authors": [
+        "Brian McNamara"
+      ]
+    }
+  ],
+  "vikrant-kahlir": [
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "title": "Applying Domain Driven Design to Blockchains",
+      "description": "This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform",
+      "date": "2022-01-14",
+      "thumbnail": "https://user-images.githubusercontent.com/96793170/151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
+  "james-gimourginas": [
+    {
+      "file": "/posts/2022-01-04-azure-eventing.md",
+      "title": "Real-Time Cross-Cloud Data Sharing",
+      "description": "Event-driven processing using Vendia Share's new Azure capabilities",
+      "date": "2022-01-04",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-12-13-log4j2-response.md",
+      "title": "Vendia's Response to CVE-2021-44228",
+      "description": "A note on the impact to Vendia and our customers",
+      "date": "2021-12-13",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "announcements"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-26-website-case-studies.md",
+      "title": "Website Case Studies",
+      "description": "Learn what Vendia customers and partners are building on the Share platform",
+      "date": "2021-10-26",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
+      "title": "Five Leadership Practices of an Ultramarathoner",
+      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
+      "date": "2021-09-27",
+      "tag": [
+        "developers"
+      ],
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    }
+  ],
+  "david-brown": [
+    {
+      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
+      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
+      "date": "2021-12-09",
+      "authors": [
+        "David Brown"
+      ],
+      "categories": [
+        "announcements"
       ]
     }
   ],
