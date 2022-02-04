@@ -2,7 +2,7 @@
 title: 'Applying Domain Driven Design to Blockchains'
 description: 'This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform'
 date: '2022-01-14'
-thumbnail: https://user-images.githubusercontent.com/96793170/151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg
+thumbnail: https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg
 authors:
   - Vikrant Kahlir
 ---
@@ -32,7 +32,7 @@ Here are a few terms with examples that you will commonly use to discuss DDD.
 There are various ways in which you can come up with boundaries for your domains and sub-domains in your organization. You can use linguistics analysis, SME knowledge, business process, and business activity analysis. For better intuition on domains and sub-domains refer to generic domain modeling for retail e-commerce businesses. Figure 1 below describes a generic domain model of an e-Commerce business with domain boundaries and sub-domains inside it.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622473-39d449e3-faa5-499f-bcaa-92e4a5edb264.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622473-39d449e3-faa5-499f-bcaa-92e4a5edb264.jpg" />
 </p>
 <p align="center">Figure 1 - eCommerce example domain model</p>
 
@@ -44,7 +44,7 @@ In the real world where everything is software with an existing install base, it
 Bounded Context is where the business meets software. Inside a bounded context, we go deep into the software architecture of an independent and autonomous business function and try to identify data aggregates, service boundaries for core use cases, and event definition for cross-domain synchronization. Figure 2 describes the Bounded Context Reference Architecture. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622532-8d6a78df-886d-445e-852c-a8a999e71479.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622532-8d6a78df-886d-445e-852c-a8a999e71479.jpg" />
 </p>
 <p align="center">Figure 2 - Bounded Context Reference Architecture</p>
 
@@ -67,7 +67,7 @@ A Uni is a cross-cloud, cross-party, cross-account, cross-region data and code s
 A Uni software development life cycle has five stages: Model, Design, Create, Operate, and Scale. Since a Uni is serverless, deployment, operations, and scaling are easy. Once you have the schema design, deployment is just a couple of clicks, and operations are handled by Vendia.  Vendia is responsible for scalability and performance. This allows the developer to focus on data modeling and design, increasing productivity and simplicity. Data models are the core of any software. For a Uni, the design phase involves constructing a schema that is a deployable artifact provided by the developer to Vendia Share. In this blog, we will focus on data modeling and design.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg" />
 </p>
 <p align="center">Figure 3 - Uni Development Lifecycle Stages</p>
 
@@ -77,7 +77,7 @@ A Uni software development life cycle has five stages: Model, Design, Create, Op
 Let’s imagine a simple Uni schema that provides a datastore for core customer data attributes. Figure 4 breaks the Uni schema into parts and tries to map it to concepts you use in a relational database. This will help you quickly get started on building your own Uni. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622621-5dcd4a61-96d7-40fa-8efe-89dc7ec2b221.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622621-5dcd4a61-96d7-40fa-8efe-89dc7ec2b221.jpg" />
 </p>
 <p align="center">Figure 4 - Example Customer Uni</p>
 
@@ -93,7 +93,7 @@ In this pattern, a Uni model contains a data model for a single bounded context.
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622653-48dde2de-d6a4-4c06-b037-ffa2c62baaac.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622653-48dde2de-d6a4-4c06-b037-ffa2c62baaac.jpg" />
 </p>
 <p align="center">Figure 5 - Pattern 1</p>
 
@@ -121,7 +121,7 @@ This pattern is well suited for organizations that already have experience worki
 In this pattern, a Uni contains data models for two bounded contexts. The Uni will have data models for two Bounded Contexts. For example, the CRM team manages customer account details in Bounded Context 1, and customer psychographic profile details in Bounded Context 2. Marketing wants a read-only copy of customer account details and customer psychographic profile details to power its customer analytics applications. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622707-1d967c54-080e-4f27-bf65-73eabf59d703.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622707-1d967c54-080e-4f27-bf65-73eabf59d703.jpg" />
 </p>
 <p align="center">Figure 6 - Pattern 2</p>
 
@@ -150,7 +150,7 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622775-f4cb4af5-dff9-4c7c-be9b-d4aa6b6ee58f.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622775-f4cb4af5-dff9-4c7c-be9b-d4aa6b6ee58f.jpg" />
 </p>
 <p align="center">Figure 7 - Pattern 3</p>
 
@@ -179,7 +179,7 @@ This pattern is applicable to large enterprise customers with strong governance 
 For example, CRM and Marketing will each need a dedicated Uni because Marketing plans to bring more data from other domains that are not relevant for CRM and have different governance requirements for new data based on the sensitivity of the newly acquired data. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/151622815-c7464b83-9c08-4a36-84d5-b21de789bf0b.jpg" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622815-c7464b83-9c08-4a36-84d5-b21de789bf0b.jpg" />
 </p>
 <p align="center">Figure 8 - Pattern 4</p>
 

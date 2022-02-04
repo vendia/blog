@@ -36,7 +36,7 @@ Broadly speaking, **progress in application design has been driven by reducing s
 Figure 1 illustrates this progress over time.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152250693-a643a5d0-1e6d-4e1b-a31e-a9a1c4606d22.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152250693-a643a5d0-1e6d-4e1b-a31e-a9a1c4606d22.png" />
 </p>
 <p align="center">Figure 1: How complexity has shifted out of applications over time through surface area reduction</p>
 

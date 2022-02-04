@@ -67,7 +67,7 @@ Deploying or operating another company’s software? Manually scaling systems up
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152257968-af4ab04b-175d-4e21-9cfa-e8c7f4e67acb.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152257968-af4ab04b-175d-4e21-9cfa-e8c7f4e67acb.png" />
 </p>
 <p align="center">Figure 1: The six pillars of lean.</p>
 

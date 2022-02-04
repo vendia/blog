@@ -25,7 +25,7 @@ In this blog post we'll explore Vendia Share's access control mechanisms, their 
 * **[Data Access Controls](https://www.vendia.net/docs/share/fine-grained-data-permissions)** - Protects the data stored in a Uni
 
 <figure>
-    <img src="https://user-images.githubusercontent.com/85032783/151488928-76a5b185-329e-424a-af46-17a397868716.png" />
+    <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..151488928-76a5b185-329e-424a-af46-17a397868716.png" />
     <figcaption ><b>Figure 1</b> - <i>Vendia Share Access Controls</i></figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ User access controls protect the user account management operations provided by 
 The Vendia Share control plane is where Vendia Share user accounts are stored.  Authorization to specific user account management operations that act on user accounts is granted through a Role Based Access Control (RBAC) mechanism.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/151488927-8625e14b-4912-4fff-af82-d8e133790f61.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..151488927-8625e14b-4912-4fff-af82-d8e133790f61.png" />
   <figcaption><b>Figure 2</b> - <i>User Access Controls in the Vendia Share Control Plane</i></figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ Uni access controls protect the Uni management operations provided by Vendia Sha
 In addition to storing user accounts, Vendia Share's control plane also stores information about all Unis and nodes deployed across the platform.  Authorization to specific Uni management operations that act on Uni and node configuration is granted through an RBAC mechanism.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/151488926-9a5e17fc-0ae0-4687-816c-3c70724c6bf3.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..151488926-9a5e17fc-0ae0-4687-816c-3c70724c6bf3.png" />
   <figcaption><b>Figure 3</b> - <i>Uni Controls in the Vendia Share Control Plane
 </i></figcaption>
 </figure>
@@ -231,7 +231,7 @@ A Vendia Share Uni contains one or more nodes.  Each node maintains its own auth
 The GraphQL API that provides access to the serverless distributed ledger available on a node is protected by the Node Access Control configured when a node is created.  Each participant in a Uni can select a different authorization scheme, depending on their authorization preferences.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/151488925-b368c853-1064-4a69-861e-565bed98acc8.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..151488925-b368c853-1064-4a69-861e-565bed98acc8.png" />
   <figcaption><b>Figure 4</b> - <i>Node Access Controls in the Vendia Share Data Plane</i></figcaption>
 </figure>
 
@@ -255,7 +255,7 @@ Data Access Controls allow a data writer to dictate access rights to the data th
 Unlike centralized architectures, where a single data owner dictates the data access permissions of all participants, Vendia Share's decentralized architecture empowers every data writer with the ability to control data access (i.e. to act as a data owner).  Data access controls protect the ability to read and the ability to modify.  While Node Access Controls may permit a GraphQL query to be received by a node, Data Access Controls may restrict the data values returned to the caller.  Likewise, while Node Access Controls may permit a GraphQL mutation to be received by a node, Data Access Controls may restrict data modification if the caller is not permitted to do so because of an existing ACL.
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/85032783/151488924-bce6055b-9a1b-4fe3-804d-93eb5692e7d3.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..151488924-bce6055b-9a1b-4fe3-804d-93eb5692e7d3.png" />
   <figcaption><b>Figure 5</b> - <i>Data Access Controls in the Vendia Share Data Plane</i></figcaption>
 </figure>
 

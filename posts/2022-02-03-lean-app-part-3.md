@@ -75,7 +75,7 @@ Whether one calls it “serverless”, “fully managed”, “PaaS”, or somet
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152254618-a9a7f281-b5bf-4587-ae73-f7b1aef8bff4.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152254618-a9a7f281-b5bf-4587-ae73-f7b1aef8bff4.png" />
 </p>
 <p align="center">Figure 1: Key capabilities of a lean app that are provided by the platform</p>
 
@@ -127,7 +127,7 @@ Of course, this example isn’t reflective of all the real-world needs of an app
 But the central idea, **that much of the manual labor of replicating data and crafting “data APIs” can be removed and replaced with smarter infrastructure solutions,** remains. Figure 2 illustrates the architecture of our lean banking app
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152255161-a983adf9-e766-4404-ace2-a7e2db05418c.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152255161-a983adf9-e766-4404-ace2-a7e2db05418c.png" />
 </p>
 <p align="center">Figure 2: How a lean app for a retail banking solution might look</p>
 

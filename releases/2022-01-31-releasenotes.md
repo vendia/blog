@@ -19,7 +19,7 @@ Our design and engineering teams worked diligently on a node details view redesi
 Now you don’t have to search to find the key views for you node - `Entity Explorer`, `GraphQL Explorer`, `File Explorer`, and `Smart Contracts` have newly redesigned action buttons. They are now front and center. Node details such as the `GraphQL URL` and the `Graph API Key`  have moved below the action buttons and additional node information can be accessed using the `Manage node` button.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152025230-68abb6a8-2dd3-47fe-b7b3-c89c27177e1e.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152025230-68abb6a8-2dd3-47fe-b7b3-c89c27177e1e.png" />
 </p>
 <p align="center">Figure 1: Node Details Page</p>
 
@@ -31,7 +31,7 @@ We added more information to the Smart Contracts details page, including the Ven
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152026225-fab1ad94-f305-4277-803e-844106a7af03.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152026225-fab1ad94-f305-4277-803e-844106a7af03.png" />
 </p>
 <p align="center">Figure 2: Smart Contracts details page</p>
 
@@ -40,7 +40,7 @@ Additionally, we now auto-populate the `Input Query Args` input box based on the
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152026362-eef7a4e2-a85a-4610-9b94-a8a068f41cc1.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152026362-eef7a4e2-a85a-4610-9b94-a8a068f41cc1.png" />
 </p>
 <p align="center">Figure 3: Input Query Arguments Editor</p>
 
@@ -49,7 +49,7 @@ The Smart Contracts `Edit` page now includes a formatted editor instead of a pla
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152026673-bfc9c84d-0cd1-4d92-814d-2a700242e76e.png"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152026673-bfc9c84d-0cd1-4d92-814d-2a700242e76e.png"/>
 </p>
 <p align="center">Figure 4: Smart Contracts Edit Page</p>
 

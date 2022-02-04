@@ -70,7 +70,7 @@ That means connectors have an important _long-term_ role to play in modulating i
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/152252884-2f8115de-9963-4a04-a63f-c3d34438502f.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152252884-2f8115de-9963-4a04-a63f-c3d34438502f.png" />
 </p>
 <p align="center">Figure 1: The elements of a lean app</p>
 
