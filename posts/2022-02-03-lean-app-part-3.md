@@ -10,7 +10,7 @@ authors:
 
 ## Stop the undifferentiated heavy lifting!
 
-In [Part 2](vendia.net/blog/lean-app-part-2) of [this series](vendia.net/blog/lean-app) we identified the elements of a lean app. But for those elements to be sufficient, the infrastructure on which the application depends _needs to start doing a whole lot more than it does today_. 
+In [Part 2](https://www.vendia.net/blog/lean-app-part-2) of [this series](https://www.vendia.net/blog/lean-app) we identified the elements of a lean app. But for those elements to be sufficient, the infrastructure on which the application depends _needs to start doing a whole lot more than it does today_. 
 
 
 ## What makes an app lean?
@@ -143,7 +143,7 @@ Cloud-based data lake companies like Snowflake made the leap of treating cross-c
 
 Blockchains, such as Hyperledger Fabric and Ethereum, embody the idea of distributed data models that can span companies, clouds, and technology stacks, but are missing the scalability, performance, fault tolerance, cloud integration, and application code support that would be necessary to host typical IT business solutions, especially those with serious privacy, compliance, and scalability requirements. 
 
-Open source software achieves “zero marginal cost” sharing, but isn’t a solution for delivering SaaS-style operations without manually hosting, scaling, and managing it all. By bringing all these elements together, companies like [Vendia](www.vendia.net) make lean apps possible – offering an application framework that enables developers to express, deploy, and operate a lean app _today_.
+Open source software achieves “zero marginal cost” sharing, but isn’t a solution for delivering SaaS-style operations without manually hosting, scaling, and managing it all. By bringing all these elements together, companies like [Vendia](https://www.vendia.net) make lean apps possible – offering an application framework that enables developers to express, deploy, and operate a lean app _today_.
 
 
 ## Next post – Lean Apps Part 4: The Lean App Manifesto

@@ -9,7 +9,7 @@ authors:
 
 ## Flip the innovation iceberg!
 
-In [Part 3 ](vendia.net/blog/lean-app-part-3)of[ this series](vendia.net/blog/lean-app) we covered what infrastructure needs to do automatically and without impacting developers or operators. This post focuses on how we can shift away from undifferentiated work and “flip the iceberg” of IT innovation. 
+In [Part 3 ](https://www.vendia.net/blog/lean-app-part-3) of [ this series](https://www.vendia.net/blog/lean-app) we covered what infrastructure needs to do automatically and without impacting developers or operators. This post focuses on how we can shift away from undifferentiated work and “flip the iceberg” of IT innovation. 
 
 
 ## The lean app goal: “Flip the IT iceberg”
