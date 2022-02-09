@@ -1,26 +1,28 @@
 ---
 title: 'The Global Supply Chain is Broken. Can Blockchain Help?'
-description: 'Enterprise blockchain adoption is slowly but steadily progressing. Users are waiting for global regulation and accounting standards. But, the blockchain adoption in the supply chain doesn't have to wait.'
+description: 'Enterprise blockchain adoption is slowly but steadily progressing'
+draft: false
 date: '2022-02-09'
 authors:
   - Vikrant Kahlir
 ---
 
-_“We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs.”,_Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_
+
+_“We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs.”_, _Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_
 
 Enterprise blockchain adoption is slowly but steadily progressing. Users face challenges aligning use cases with technology and await clarification on [global regulations](https://www.imf.org/en/News/Articles/2021/07/28/pr21230-imf-executive-board-discusses-rise-public-private-digital-money-strategy-imf-mandate) and [accounting standards](https://us.aicpa.org/content/dam/aicpa/interestareas/informationtechnology/downloadabledocuments/accounting-for-and-auditing-of-digital-assets.pdf). 
 
 Blockchain is not a process improvement technology - _at its fullest deployment potential, it is a disruptive technology._ The more fundamental a technology, the more impact it can have. Thus blockchain adoption will challenge centralized applications and force teams to go back on the drawing board. 
 
 
-## Who is interested in the blockchain?
+## Who is interested in the blockchain
 
 **_About 90% of U.S. and European banks had started exploring blockchain’s potential by 2018,_** [Fortunly](https://fortunly.com/). 
 
 In a [survey](https://www2.deloitte.com/content/dam/insights/articles/US144337_Blockchain-survey/DI_Blockchain-survey.pdf) conducted by Deloitte, **86% of tech-savvy executive teams said they believe there’s huge business potential in blockchain technology.**
 
 
-## What about the adoption in the supply chain?
+## What about the adoption in the supply chain
 
 There are numerous supply chain and authenticated provence use cases that benefit from the blockchain.
 
