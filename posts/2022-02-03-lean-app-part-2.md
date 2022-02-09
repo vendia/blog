@@ -1,8 +1,8 @@
 ---
 title: 'Lean Apps Part 2: The Elements of a Lean App'
 description: 'Defining the ideal model of what a software application should look like'
-draft: true
-date: '2022-02-03'
+draft: false
+date: '2022-02-09'
 authors:
   - Tim Wagner
 ---
