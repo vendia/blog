@@ -67,8 +67,6 @@ It’s tempting to think of connectors as “impure” – and to be certain, of
 
 That means connectors have an important _long-term_ role to play in modulating inter-application schema and workflow evolution, as well as their _short-to-medium term_ role in assisting with the initial migration from a legacy app to a lean app and its integration with other legacy systems not yet ready for modernization.
 
-
-
 <p align="center">
   <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..152252884-2f8115de-9963-4a04-a63f-c3d34438502f.png" />
 </p>
