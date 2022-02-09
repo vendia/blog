@@ -34,8 +34,8 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Lean Apps Part 2: The Elements of a Lean App](https://vendia.net/blog/lean-app-part-2) <br/> Defining the ideal model of what a software application should look like by Tim Wagner | 2022-02-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-2.md)
 | [Lean Apps Part 1: Lessons from the Past](https://vendia.net/blog/lean-app-part-1) <br/> Build software based on customer value, not technological ownership by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-1.md)
-| [Lean Apps Part 2: The Elements of a Lean App](https://vendia.net/blog/lean-app-part-2) <br/> Defining the ideal model of what a software application should look like by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-2.md)
 | [Lean Apps Part 3: Let Infrastructure do the Dirty Work](https://vendia.net/blog/lean-app-part-3) <br/> Stop the undifferentiated heavy lifting! by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-3.md)
 | [Lean Apps Part 4: The Lean App Manifesto](https://vendia.net/blog/lean-app-part-4) <br/> Flip the innovation iceberg! by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-4.md)
 | [The Lean App Movement](https://vendia.net/blog/lean-app) <br/> Optimize for outcomes that matter – not pointless, repetitive drudgery by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app.md)
