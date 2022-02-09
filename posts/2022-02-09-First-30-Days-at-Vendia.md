@@ -1,3 +1,11 @@
+title: 'My First 30 Days at Vendia'
+description: 'From onboarding to an offsite it's been a fun ride'
+date: '2022-02-09'
+thumbnail: ''
+authors:
+  - Caroll Casbeer
+
+# My First 30 Days at Vendia
 As anyone who works at a startup knows, that is about 6 months in ‘normal’ company life. It’s been a fast few weeks but diving right in is the only way to get started. 
 
 So with that mentality - let’s go!
