@@ -46,7 +46,7 @@ I know it is hard to bring multiple competing parties to the table.  If trust is
 
 ## Time for action
 
-If your business is feeling the pain of the global supply chain crisis. There are use cases for which you don't have to wait for the blockchain accounting standards and global regulations, use your intuition to see whether blockchain will solve your business problems, and do a quick proof of value project.
+If your business is feeling the pain of the global supply chain crisis then it time to act. I am sure there are use cases for which you don't have to wait for the blockchain accounting standards and global regulations. Use your intuition to see whether blockchain will solve your business problems, and do a quick proof of value project.
 
 If you are having a hard time aligning business use cases to the blockchain or think blockchain is challenging and complex, we at Vendia have a solution for both problems. We can work with you to identify use cases and demonstrate business value in weeks and time to market in a few months. 
 
