@@ -226,6 +226,28 @@
       ]
     }
   ],
+  "vikrant-kahlir": [
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
+      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
+      "draft": false,
+      "date": "2022-02-09",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "title": "Applying Domain Driven Design to Blockchains",
+      "description": "This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform",
+      "date": "2022-01-14",
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
   "james-gimourginas": [
     {
       "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
@@ -455,18 +477,6 @@
       "date": "2021-01-04",
       "authors": [
         "Brian McNamara"
-      ]
-    }
-  ],
-  "vikrant-kahlir": [
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "title": "Applying Domain Driven Design to Blockchains",
-      "description": "This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform",
-      "date": "2022-01-14",
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
-      "authors": [
-        "Vikrant Kahlir"
       ]
     }
   ],
