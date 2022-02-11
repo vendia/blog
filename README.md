@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
 | [Lean Apps Part 2: The Elements of a Lean App](https://vendia.net/blog/lean-app-part-2) <br/> Defining the ideal model of what a software application should look like by Tim Wagner | 2022-02-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-2.md)
+| [My First 30 Days at Vendia](https://vendia.net/blog/first-30-days-at-vendia) <br/> From onboarding to an offsite - some thoughts on my first 30 days at Vendia by Caroll Casbeer | 2022-02-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-09-first-30-days-at-vendia.md)
 | [Lean Apps Part 1: Lessons from the Past](https://vendia.net/blog/lean-app-part-1) <br/> Build software based on customer value, not technological ownership by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-1.md)
 | [Lean Apps Part 3: Let Infrastructure do the Dirty Work](https://vendia.net/blog/lean-app-part-3) <br/> Stop the undifferentiated heavy lifting! by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-3.md)
 | [Lean Apps Part 4: The Lean App Manifesto](https://vendia.net/blog/lean-app-part-4) <br/> Flip the innovation iceberg! by Tim Wagner | 2022-02-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-4.md)
@@ -97,6 +98,13 @@ Welcome to the Vendia blog repo!
     </a>
   </td>
   <td align="center">
+    <a href="https://twitter.com/caroll_casbeert">
+      <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="100px;" alt=""/>
+      <br />
+      Caroll Casbeer
+    </a>
+  </td>
+  <td align="center">
     <a href="https://twitter.com/vendiansa">
       <img src="https://avatars.githubusercontent.com/u/75388221?s=460&u=8aaa50f857af65ce078929576049c0975ec6ffaa&v=4" width="100px;" alt=""/>
       <br />
@@ -110,6 +118,8 @@ Welcome to the Vendia blog repo!
       David Brown
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/DavidWells">
       <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="100px;" alt=""/>
@@ -117,8 +127,6 @@ Welcome to the Vendia blog repo!
       David Wells
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://github.com/gavinyue-vendia">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="100px;" alt=""/>
@@ -147,6 +155,8 @@ Welcome to the Vendia blog repo!
       Ryan Green
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/ryan_sb">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="100px;" alt=""/>
@@ -154,8 +164,6 @@ Welcome to the Vendia blog repo!
       Ryan Scott Brown
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/shruthialways">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="100px;" alt=""/>
