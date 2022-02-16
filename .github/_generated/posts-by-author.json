@@ -1,6 +1,16 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-02-03-lean-app-part-3.md",
+      "title": "Lean Apps Part 3: Let Infrastructure do the Dirty Work",
+      "description": "Stop the undifferentiated heavy lifting!",
+      "draft": false,
+      "date": "2022-02-15",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-02-03-lean-app-part-2.md",
       "title": "Lean Apps Part 2: The Elements of a Lean App",
       "description": "Defining the ideal model of what a software application should look like",
@@ -14,16 +24,6 @@
       "file": "/posts/2022-02-03-lean-app-part-1.md",
       "title": "Lean Apps Part 1: Lessons from the Past",
       "description": "Build software based on customer value, not technological ownership",
-      "draft": false,
-      "date": "2022-02-03",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-03-lean-app-part-3.md",
-      "title": "Lean Apps Part 3: Let Infrastructure do the Dirty Work",
-      "description": "Stop the undifferentiated heavy lifting!",
       "draft": false,
       "date": "2022-02-03",
       "authors": [
