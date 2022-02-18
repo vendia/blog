@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [13 Features You Need to Evaluate an Enterprise Blockchain Platform](https://vendia.net/blog/13-features-you-need-to-evaluate-an-enterprise-blockchain-platform) <br/> When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure by Vikrant Kahlir | 2022-02-18 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md)
 | [Lean Apps Part 3: Let Infrastructure do the Dirty Work](https://vendia.net/blog/lean-app-part-3) <br/> Stop the undifferentiated heavy lifting! by Tim Wagner | 2022-02-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-3.md)
 | [Lean Apps Part 2: The Elements of a Lean App](https://vendia.net/blog/lean-app-part-2) <br/> Defining the ideal model of what a software application should look like by Tim Wagner | 2022-02-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-2.md)
 | [My First 30 Days at Vendia](https://vendia.net/blog/first-30-days-at-vendia) <br/> From onboarding to an offsite - some thoughts on my first 30 days at Vendia by Caroll Casbeer | 2022-02-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-09-first-30-days-at-vendia.md)
