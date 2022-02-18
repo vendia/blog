@@ -33,7 +33,7 @@ Here is the best effort compilation of features and questions your decentralized
 
 
 1. **Programmability.** 
-	* _What specific programming languages are supported? _
+	* _What specific programming languages are supported?_
 	* _What development IDE is used for programming?_
 	* _Are there programming frameworks available for software development?_
 	* _How easy is it to test and debug code in supported programming languages?_
