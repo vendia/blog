@@ -1,6 +1,6 @@
 ---
 title: '13 Features You Need to Evaluate an Enterprise Blockchain Platform'
-description: 'A platform is a product that serves or enables other products or services. It is IT leaders who should provide the right platform to developers to experiment and execute at the desired speed.'
+description: 'When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.'
 date: '2022-02-18'
 draft: false
 authors:
