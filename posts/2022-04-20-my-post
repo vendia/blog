@@ -1,0 +1,10 @@
+---
+title: 'My awesome post title'
+description: 'This post is about awesome stuff!'
+date: '2016-07-25'
+draft: true
+authors:
+  - FirstName LastName
+---
+
+My post
