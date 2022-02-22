@@ -27,88 +27,113 @@ I know choices in blockchain platform services are still limited. Still, it is g
 **This post lists 13 features important for blockchain platform evaluation in an enterprise organization.**
 
 
-## 13 features
+## Blockchain evaluation criteria 
 
 Here is the best effort compilation of features and questions your decentralized application and services teams will expect from the blockchain platform. 
 
 
-1. **Programmability.** 
-	* _What specific programming languages are supported?_
-	* _What development IDE is used for programming?_
-	* _Are there programming frameworks available for software development?_
-	* _How easy is it to test and debug code in supported programming languages?_
-	* _How long is the learning curve for a new programming language?_
-	* _What are key optimizations required to deploy code in supported programming languages?_
-2. **Scalability.** 
-	* _What type of scaling is used?_
-	* _What are the upper limits?_
-	* _How is scaling triggered - reactive, or predictive?_
-	* _Is adaptive scaling supported?_
-	* _Is the platform multi-tenant or dedicated?_
-	* _Does it have a noisy neighbor problem?_
-3. **Upgradability.**
-	* _What is the track record of the developers for delivering enhancements and upgrades?_
-	* _How are upgrades delivered?_
-	* _If using open source, how frequently are upgrades on open source software available?_
-	* _Is there a cost for applying upgrades?_
-	* _Who is responsible for what software upgrade?_
-	* _What kind of custom packages are supported and how does it impact support?_
-4. **Transaction Manageability.**
-	* _Is there real-time transparency for all transactions?_
-	* _Does it support writes from multiple locations?_
-	* _How are write conflicts handled?_
-	* _How are failed transactions handled?_
-5. **Visibility.**
-	* _Do you have a full view on the blockchain activity?_
-	* _Does blockchain provide success/failure feedback?_
-	* _Is the system feedback easily interpretable?_
-	* _Is the visibility provided in a reasonable time?_
-6. **Affordability.**
-	* _What is the capital cost of new application deployment?_
-	* _What is the minimum operational cost?_
-	* _What is the marginal cost of deploying a new decentralized application on a platform?_
-	* _What other support costs need to be accounted for to operate the production environment?_
-7. **Security.**
-	* _What is the documented confidence level in the platform security?_
-	* _What compliance and assurance certifications are available as proof?_
-	* _What popular open source software is used to build a platform?_
-	* _How are participants added?_
-	* _Who has what level of control?_
-	* _How is fine grained access control supported and at what granularity?_
-	* _What kind of attacks are common?_
-	* _What kind of protection and mitigation are supported?_
-	* _What existing software tools and services can be used for security perimeter hardening and monitoring?_
-	* _How is the network secured?_
-	* _What are different layers, and how is security responsibility shared?_
-8. **Performance.** 
-	* _What are the upper limits of validating transactions?_
-	* _What are primary performance bottlenecks?_
-	* _What controls and tradeoffs exist to improve performance?_
-	* _Is there a guide on performance best practices?_
-9. **High Availability.** 
-	* _What are the uptime track records?_
-	* _Which parts are centralized, and how can they be decentralized?_
-	* _What is the dependency on partners?_
-	* _What kind of SLAs are provided by partners?_
-	* _What are best practices for improving resilience and availability?_
-	* _Is the platform self-healing?_
-	* _What kind of visibility is provided to consumers during outages?_
-	* _What is the communication mechanism used for reporting and tracking outages?_
-10. **Extensibility.**
-	* _How easy is it to add participants to the platform?_
-	* _How can you extend domain models supported on the platform?_
-	* _Does it support open interfaces for third party applications integrations?_
-	* _What type of partner integrations are supported out of the box?_
-11. **Interoperability.**
-	* _Does it interoperate with other related technologies?_
-12. **Open Source.**
-	* _What components are open source, and what are proprietary?_
-	* _What is the variety of collaboration and contributions from a variety of developers?_
-	* _How frequently are new versions of the open source code upgraded?_
-13. **Sustainability**
-	* _How much of the platform runs on renewable energy sources?_
-	* _Does the platform use inefficient algorithms?_
+## 1. **Programmability** 
 
-At [Vendia](https://www.vendia.net/), we believe blockchain development doesn't have to be complicated. Enterprise customers don't have to wait any longer to address business pain points and needs that blockchain can solve. We have made it simple for you to develop and deploy blockchain applications. Learn more, [contact Vendia](https://www.vendia.net/contact-us).
+* _What specific programming languages are supported?_
+* _What development IDE is used for programming?_
+* _Are there programming frameworks available for software development?_
+* _How easy is it to test and debug code in supported programming languages?_
+* _How long is the learning curve for a new programming language?_
+* _What are key optimizations required to deploy code in supported programming languages?_
 
 
+## 2. **Scalability** 
+
+* _What type of scaling is used?_
+* _What are the upper limits?_
+* _How is scaling triggered - reactive, or predictive?_
+* _Is adaptive scaling supported?_
+* _Is the platform multi-tenant or dedicated?_
+* _Does it have a noisy neighbor problem?_
+
+
+## 3. **Upgradability**
+
+* _What is the track record of the developers for delivering enhancements and upgrades?_
+* _How are upgrades delivered?_
+* _If using open source, how frequently are upgrades on open source software available?_
+* _Is there a cost for applying upgrades?_
+* _Who is responsible for what software upgrade?_
+* _What kind of custom packages are supported and how does it impact support?_
+	
+## 4. **Transaction Manageability**
+
+* _Is there real-time transparency for all transactions?_
+* _Does it support writes from multiple locations?_
+* _How are write conflicts handled?_
+* _How are failed transactions handled?_
+	
+## 5. **Visibility**
+
+* _Do you have a full view on the blockchain activity?_
+* _Does blockchain provide success/failure feedback?_
+* _Is the system feedback easily interpretable?_
+* _Is the visibility provided in a reasonable time?_
+	
+## 6. **Affordability**
+
+* _What is the capital cost of new application deployment?_
+* _What is the minimum operational cost?_
+* _What is the marginal cost of deploying a new decentralized application on a platform?_
+* _What other support costs need to be accounted for to operate the production environment?_
+	
+## 7. **Security**
+
+* _What is the documented confidence level in the platform security?_
+* _What compliance and assurance certifications are available as proof?_
+* _What popular open source software is used to build a platform?_
+* _How are participants added?_
+* _Who has what level of control?_
+* _How is fine grained access control supported and at what granularity?_
+* _What kind of attacks are common?_
+* _What kind of protection and mitigation are supported?_
+* _What existing software tools and services can be used for security perimeter hardening and monitoring?_
+* _How is the network secured?_
+* _What are different layers, and how is security responsibility shared?_
+	
+## 8. **Performance** 
+
+* _What are the upper limits of validating transactions?_
+* _What are primary performance bottlenecks?_
+* _What controls and tradeoffs exist to improve performance?_
+* _Is there a guide on performance best practices?_
+	
+## 9. **High Availability** 
+
+* _What are the uptime track records?_
+* _Which parts are centralized, and how can they be decentralized?_
+* _What is the dependency on partners?_
+* _What kind of SLAs are provided by partners?_
+* _What are best practices for improving resilience and availability?_
+* _Is the platform self-healing?_
+* _What kind of visibility is provided to consumers during outages?_
+* _What is the communication mechanism used for reporting and tracking outages?_
+	
+## 10. **Extensibility**
+
+* _How easy is it to add participants to the platform?_
+* _How can you extend domain models supported on the platform?_
+* _Does it support open interfaces for third party applications integrations?_
+* _What type of partner integrations are supported out of the box?_
+	
+## 11. **Interoperability**
+
+* _Does it interoperate with other related technologies?_
+	
+## 12. **Open Source**
+
+* _What components are open source, and what are proprietary?_
+* _What is the variety of collaboration and contributions from a variety of developers?_
+* _How frequently are new versions of the open source code upgraded?_
+	
+## 13. **Sustainability**
+
+* _How much of the platform runs on renewable energy sources?_
+* _Does the platform use inefficient algorithms?_
+
+At [Vendia](https://www.vendia.net/), we believe blockchain development doesn't have to be complicated. Enterprise customers don't have to wait any longer to address business pain points and needs that blockchain can solve. We have made it simple for you to develop and deploy blockchain applications. Learn more, [contact us](https://www.vendia.net/contact-us).
