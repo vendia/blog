@@ -18,7 +18,7 @@ In [Part 2](https://www.vendia.net/blog/lean-app-part-2) of [this series](https:
 
 ### Schema based
 
-Where it makes sense, data models (and their evolution) and integrity constraints should be expressed in the form of a standards-based schema, rather than written into application code or deployment instructions.  \
+Where it makes sense, data models (and their evolution) and integrity constraints should be expressed in the form of a standards-based schema, rather than written into application code or deployment instructions.
 
 
 Another way to say this is that “leanness” also extends to preferring data-centric expressions (BALANCE >= 0) over code (if balance - withdrawal_amount &lt; 0 then throw Exception(withdrawal_amount, …). This is both to ensure that the expression itself is lean (the less there is to read and write, the less there is to get wrong or have to carefully maintain over time) and to allow for automation over manual effort (the shifting of constraint enforcement from handwritten code to the platform itself).
