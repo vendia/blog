@@ -1,16 +1,11 @@
-
-
 ---
 title: 'The Next Wave of B2B Data Sharing is Here'
 description: 'B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.'
-date:  '2022-02-24'
+date: '2022-02-24'
 draft: false
-authors: 
-   - Joydeep Das
+authors:
+  - Joydeep Das
 ---
-
-
-**<span style="text-decoration:underline;">The Next Wave of B2B Data Sharing is Here</span>**
 
 **Why should you care about B2B data sharing?**
 
@@ -71,5 +66,4 @@ We need technology solutions that not just meet the minimum bar described above,
 
 Vendia Share, an innovative solution in the blockchain category, brings the much needed fresh thinking and has started proving itself in [real world use cases](https://www.vendia.net/case-studies). In an upcoming blog, we will dive deeper into the DNA of Vendia share and how it helps tackle multi-party B2B data sharing.
 
-What are you seeing with B2B data sharing? Drop us a note at [contact Vendia](https://www.vendia.net/contact-us)
-~                                                                                                                 
+What are you seeing with B2B data sharing? Drop us a note at [contact Vendia](https://www.vendia.net/contact-us)                                                                                                                
