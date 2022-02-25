@@ -54,6 +54,8 @@ test('Docs validation', async () => {
   console.log(allTags)
   console.log('All Blog Categories')
   console.log(allCategorySlugs)
+  console.log('All Authors')
+  console.log(allAuthors)
 
   /* Verify frontmatter contents */
   mdData.forEach((info) => {

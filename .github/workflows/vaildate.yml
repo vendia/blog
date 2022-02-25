@@ -1,7 +1,13 @@
 # Validate markdown content and it's frontmatter
 name: validate
 
-on: [push]
+on:
+  # Manual triggers
+  workflow_dispatch:
+  # Trigger the workflow on push on master branch
+  push:
+    paths-ignore:
+      - 'README.md'
 
 env:
   # Show colors for link checker

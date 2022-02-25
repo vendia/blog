@@ -34,6 +34,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [The Next Wave of B2B Data Sharing is Here](https://vendia.net/blog/b2b-data-sharing) <br/> B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls by Joydeep Das | 2022-02-24 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-24-b2b-data-sharing.md)
 | [Lean Apps Part 4: The Lean App Manifesto](https://vendia.net/blog/lean-app-part-4) <br/> Flip the innovation iceberg! by Tim Wagner | 2022-02-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-4.md)
 | [13 Features You Need to Evaluate an Enterprise Blockchain Platform](https://vendia.net/blog/13-features-you-need-to-evaluate-an-enterprise-blockchain-platform) <br/> When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure by Vikrant Kahlir | 2022-02-18 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md)
 | [Lean Apps Part 3: Let Infrastructure do the Dirty Work](https://vendia.net/blog/lean-app-part-3) <br/> Stop the undifferentiated heavy lifting! by Tim Wagner | 2022-02-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-3.md)
@@ -151,14 +152,21 @@ Welcome to the Vendia blog repo!
     </a>
   </td>
   <td align="center">
+    <a href="https://twitter.com/joydeep02263451">
+      <img src="https://avatars.githubusercontent.com/u/98058931" width="100px;" alt=""/>
+      <br />
+      Joydeep Das
+    </a>
+  </td>
+</tr>
+<tr>
+  <td align="center">
     <a href="https://twitter.com/robotpatch">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="100px;" alt=""/>
       <br />
       Ryan Green
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/ryan_sb">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="100px;" alt=""/>
@@ -186,8 +194,9 @@ Welcome to the Vendia blog repo!
       <br />
       Vikrant Kahlir
     </a>
-   </td>
+  </td>
 </tr>
+
 </table>
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
 
