@@ -100,6 +100,18 @@ jobs:
       with:
         useLockFile: false
     - run: npm t
+    # Debug
+    - name: File info debug
+      id: file-info
+      run: |
+        echo "─────────────────────────────────────────────────"
+        echo "Files changed?"
+        echo "${{ needs.setup.outputs.anythingChanged }}"
+        echo "Changed files:"
+        echo "${{ needs.setup.outputs.changedFiles }}"
+        echo "Changed markdown files:"
+        echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
+        echo "─────────────────────────────────────────────────"
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
