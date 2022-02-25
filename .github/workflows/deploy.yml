@@ -61,17 +61,21 @@ jobs:
       - name: Which branch
         run: |
           echo "Running on: ${{ steps.branch-name.outputs.current_branch }}"
-
-      # - name: Run remote action
-      #   uses: convictional/trigger-workflow-and-wait@v1.3.0
-      #   with:
-      #     owner: vendia
-      #     repo: site
-      #     github_token: ${{ secrets.VENDIA_SITE_GITHUB_ACCESS_TOKEN }}
-      #     # https://github.com/vendia/site/blob/master/.github/workflows/ci.yml
-      #     workflow_file_name: ci.yml
-      #     ref: master
-      #     propagate_failure: true
-      #     trigger_workflow: true
-      #     wait_workflow: true
-      #     inputs: '{"environment": "${{ github.event.inputs.environment }}", "message": "${{ github.event.inputs.message }}"}'
+      - name: Run remote action
+        uses: convictional/trigger-workflow-and-wait@v1.3.0
+        with:
+          owner: vendia
+          repo: site
+          github_token: ${{ secrets.VENDIA_SITE_GITHUB_ACCESS_TOKEN }}
+          # https://github.com/vendia/site/blob/master/.github/workflows/ci.yml
+          workflow_file_name: ci.yml
+          ref: master
+          propagate_failure: true
+          trigger_workflow: true
+          wait_workflow: true
+          inputs: |
+            {
+              "environment": "${{ github.event.inputs.environment }}",
+              "blogBranch": "${{ steps.branch-name.outputs.current_branch }}"
+              "message": "${{ github.event.inputs.message }}" 
+            }
