@@ -1,0 +1,63 @@
+# Trigger Site deployment
+name: deploy
+
+on:
+  # # Push to any tracked branches
+  # push:
+  #   branches: [ master ]
+  # # PRs only on master branch
+  # pull_request:
+  #   branches: [ master ]
+  # Manual trigger from the UI
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: 'Which environment?'
+        required: true
+        options:
+          - staging-preview
+          - staging
+          - prod-preview
+          - prod
+      message:
+        description: 'Reason for manual deploy?'
+        required: true
+
+env:
+  FORCE_COLOR: true # Show colors for link checker
+
+# Automatically cancel in-progress actions on the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request_target' && github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Verify files are ok
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+    - uses: actions/checkout@v2.3.2
+    - uses: bahmutov/npm-install@v1
+      with:
+        useLockFile: false
+    - run: npm t
+  # Trigger deployment
+  deploy-site:
+    runs-on: ubuntu-latest
+    name: Run remote action & wait for site to deploy
+    steps:
+      - name: Run remote action
+        uses: convictional/trigger-workflow-and-wait@v1.3.0
+        with:
+          owner: vendia
+          repo: site
+          github_token: ${{ secrets.VENDIA_SITE_GITHUB_ACCESS_TOKEN }}
+          # https://github.com/vendia/site/blob/master/.github/workflows/ci.yml
+          workflow_file_name: ci.yml
+          ref: master
+          propagate_failure: true
+          trigger_workflow: true
+          wait_workflow: true
+          inputs: '{ "environment": "${{ github.event.inputs.environment }}", "reason": "${{ github.event.inputs.message }}" }'
