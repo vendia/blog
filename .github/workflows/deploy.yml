@@ -93,6 +93,9 @@ jobs:
     needs: test
     name: Run remote action & wait for site to deploy
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      # Get the name of the current branch
       - name: Get branch name
         id: branch-name
         uses: tj-actions/branch-names@v5.1
