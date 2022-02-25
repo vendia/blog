@@ -15,6 +15,8 @@ env:
 
 jobs:
   test:
+    # Disable this flow. Tests now run in CI flow
+    if: ${{ false }}
     runs-on: ${{ matrix.os }}
     timeout-minutes: 4
     strategy:
