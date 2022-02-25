@@ -1,5 +1,5 @@
 # Trigger Site deployment for preview
-name: Deploy Preview
+name: Test & Deploy
 
 on:
   # Push to any tracked branches
@@ -38,14 +38,16 @@ jobs:
   ## Check for code changes & abort if no changes
   #################################################
   setup:
-    # exit early if [skip ci]
+    # exit early if [skip ci].
     if: "!contains(github.event.commits[0].message, '[skip-ci]')"
     runs-on: ubuntu-latest
     # Set job outputs to values from filter step
     outputs:
       # Code Changes
       changedFiles: ${{ steps.filter.outputs.any_files }}
+      changedMarkdownFiles: ${{ steps.filter.outputs.markdown_files }}
       anythingChanged: ${{ steps.filter.outputs.any }}
+      markdownChanged: ${{ steps.filter.outputs.markdown }}
       postsChanged: ${{ steps.filter.outputs.posts }}
       releasesChanged: ${{ steps.filter.outputs.releases }}
 
@@ -62,25 +64,71 @@ jobs:
           filters: |
             any:
               - '**'
+            ## Check data changes
+            data:
+              - '**/**.(js?(x)|md?(x)|json)'
+            ## Check markdown changes
+            markdown:
+              - '**/**.md?(x)'
             ## Check for post changes
             posts:
-              - 'posts/**.md'
+              - 'posts/**.md?(x)'
             ## Check for releases post changes
             releases:
-              - 'releases/**.md'
-
+              - 'releases/**.md?(x)'
+      # Debug
+      - name: File info
+        id: file-info
+        run: |
+          echo "─────────────────────────────────────────────────"
+          echo "Files changed?"
+          echo "${{ steps.filter.outputs.any }}"
+          echo "Changed files:"
+          echo "${{ steps.filter.outputs.any_files }}"
+          echo "Changed markdown files:"
+          echo "${{ steps.filter.outputs.markdown_files }}"
+          echo "─────────────────────────────────────────────────"
   # Verify files are ok.
   test:
     runs-on: ubuntu-latest
     needs: setup
-    if: ${{needs.setup.outputs.any == 'true' || github.event.inputs.environment != ''}}
+    if: ${{needs.setup.outputs.anythingChanged == 'true' || github.event.inputs.environment != ''}}
     timeout-minutes: 4
     steps:
     - uses: actions/checkout@v2.3.2
+    # Debug
+    - name: File info debug
+      id: file-info
+      run: |
+        echo "─────────────────────────────────────────────────"
+        echo "Files changed?"
+        echo "${{ needs.setup.outputs.anythingChanged }}"
+        echo "Changed files:"
+        echo "${{ needs.setup.outputs.changedFiles }}"
+        echo "Changed markdown files:"
+        echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
+        echo "─────────────────────────────────────────────────"
+    # Install deps
     - uses: bahmutov/npm-install@v1
-      with:
-        useLockFile: false
+    # Run tests
     - run: npm t
+    # If tests failed, add message
+    - name: Add test failure status comment to PR
+      if: ${{ failure() }}
+      id: status_comment_failure
+      uses: marocchino/sticky-pull-request-comment@v1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        number: ${{ github.event.issue.number }}
+        header: statusComment
+        message: |
+          ❌ Tests failed!
+
+          (╯°□°)╯︵ ┻━┻
+
+          See why in [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "tests" section.
+
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
@@ -90,47 +138,125 @@ jobs:
   # Trigger deployment
   deploy-site:
     runs-on: ubuntu-latest
-    needs: test
+    needs: [setup, test]
     name: Run remote action & wait for site to deploy
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      # Debug
+      - name: File info debug again
+        id: file-info-again
+        run: |
+          echo "─────────────────────────────────────────────────"
+          echo "Files changed?"
+          echo "${{ needs.setup.outputs.anythingChanged }}"
+          echo "Changed files:"
+          echo "${{ needs.setup.outputs.changedFiles }}"
+          echo "Changed markdown files:"
+          echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
+          echo "─────────────────────────────────────────────────"
+      # Get the name of the current branch
       - name: Get branch name
         id: branch-name
         uses: tj-actions/branch-names@v5.1
+      # Ensure we grab PR, if push event
+      - uses: jwalton/gh-find-current-pr@v1
+        id: findPr
+      # Get most recent commit message for use in other CI steps
+      - name: Get commit details
+        id: getCommitDetails
+        run: |
+          # Get PR number
+          PR_NUMBER=${{ github.event.number || steps.findPr.outputs.number }}
+          CLEAN_MSG="${{ github.event.inputs.message || '' }}"
+
+          # Get commit message
+          if [[ '${{ github.event_name }}' == 'push' ]]; then
+            COMMIT_MSG=$(git log --format=%B -n 1 HEAD)
+            CLEAN_MSG=$(echo "$COMMIT_MSG" | sed -e 's/Signed-off-by:.*<>//g')
+          elif [[ '${{ github.event_name }}' == 'pull_request' ]]; then
+            COMMIT_MSG=$(git log --format=%B -n 1 HEAD^2)
+            CLEAN_MSG=$(echo "$COMMIT_MSG" | sed -e 's/Signed-off-by:.*<>//g')
+          fi
+
+          # Set outputs
+          echo "PR number: $PR_NUMBER"
+          echo "commitMessage: '$CLEAN_MSG'"
+          echo ::set-output name=pr::$PR_NUMBER
+          echo ::set-output name=commitMessage::$CLEAN_MSG
+    
       # Gather values for deployment
       - name: Get Deploy info
         id: deploy-info
         run: |
           # Set DEPLOY_CONTEXT. Passed in value or default PREVIEW_ENV
           DEPLOY_CONTEXT=${{ github.event.inputs.environment || env.PREVIEW_ENV }}
-          BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}"" | tr '[:upper:]' '[:lower:]')
-          DEPLOY_URL="https://$DEPLOY_CONTEXT-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app"
+          # Get branch name and replace slashes and lowercase it
+          BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}" | sed -e 's/\//-/g' | awk '{print tolower($0)}')
+          # Get commit message
+          MESSAGE="${{ steps.getCommitDetails.outputs.commitMessage || github.event.inputs.message || '' }}"
+          # Trim quotes and newlines
+          DEPLOY_MESSAGE=$(echo "[Blog PR #${{ steps.getCommitDetails.outputs.pr }}] - ${MESSAGE} - ${GITHUB_SHA}" | sed -e 's/"/g/' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g')
+          DEPLOY_URL="https://$DEPLOY_CONTEXT-$BRANCH_SLUG--vendia-site.netlify.app"
 
           echo "─────────────────────────────────────────────────"
           echo "Running on: ${{ steps.branch-name.outputs.current_branch }}"
           echo "BRANCH_SLUG '$BRANCH_SLUG'"
           echo "DEPLOY_URL '$DEPLOY_URL'"
+          echo "Deploy message: '$DEPLOY_MESSAGE'"
+          echo "Changed files:"
+          echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
           echo "─────────────────────────────────────────────────"
 
           # Set Outputs
           echo "::set-output name=branchSlug::$BRANCH_SLUG"
           echo ::set-output name=deployContext::$DEPLOY_CONTEXT
           echo "::set-output name=deployUrl::$DEPLOY_URL"
-      
+          echo ::set-output name=deployMessage::$DEPLOY_MESSAGE
+    
+      # Welcome message for new folks
+      # - uses: actions/first-interaction@v1
+      #   with:
+      #     repo-token: ${{ secrets.GITHUB_TOKEN }}
+      #     issue-message: 'Hi thanks for creating your first issue! We will review this shortly!'
+      #     pr-message: 'Congratulations for making your first PR on the Vendia Blog! We will review it soon.'
+
+      # Format files changed
+      - name: Format changed files string 😅
+        id: formatFileNames
+        run: |
+          # Get changes and separate by new line
+          CHANGED_FILES="$(echo "${{ needs.setup.outputs.changedMarkdownFiles }}" | tr " " "\n")"
+          # String replace https://trstringer.com/github-actions-multiline-strings/
+          FORMATTED_CHANGED_FILES="${CHANGED_FILES//'%'/'%25'}"
+          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\n'/'%0A'}"
+          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\r'/'%0D'}"
+          FILES=$(echo $FORMATTED_CHANGED_FILES | sed -e "s/'//g")
+          echo 'Files list:'
+          echo $FILES
+          echo "::set-output name=files::$FILES"
+
       # Initial Status Comment
-      - name: Add status comment to PR
+      - name: Add pending status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master' && needs.setup.outputs.hasSkipDeploy != 'true'
-        id: status_comment
+        id: status_comment_start
         uses: marocchino/sticky-pull-request-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ github.event.issue.number }}
           header: statusComment
           message: |
-            Preview deploying... Should be live here soon at:
+            ⚠️ Preview deploying... Should be live soon.
 
-            ${{ steps.deploy-info.outputs.deployUrl }}
+            Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml
 
-            Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml. Check here for details.
+            **Changed Files**
+
+            ```graphql
+            ${{ steps.formatFileNames.outputs.files }}
+            ```
 
       # Deploy the site and wait
       - name: Run remote action
@@ -145,10 +271,10 @@ jobs:
           propagate_failure: true
           trigger_workflow: true
           wait_workflow: true
-          inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ github.event.inputs.message }}, "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
+          inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ steps.deploy-info.outputs.deployMessage }}", "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
 
       # Updated Status Comment
-      - name: Add status comment to PR
+      - name: Add success status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master'
         id: status_comment
         uses: marocchino/sticky-pull-request-comment@v1
@@ -162,3 +288,20 @@ jobs:
             https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app/blog
 
             https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app/releases
+
+            ```graphql
+            ${{ steps.formatFileNames.outputs.files }}
+            ```
+
+      - name: Add failure status comment to PR
+        if: ${{ failure() }}
+        id: status_comment_failure
+        uses: marocchino/sticky-pull-request-comment@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ github.event.issue.number }}
+          header: statusComment
+          message: |
+            ❌ Deploy failed!
+
+            See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
