@@ -119,7 +119,7 @@ jobs:
       # Initial Status Comment
       - name: Add status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master' && needs.setup.outputs.hasSkipDeploy != 'true'
-        id: status_comment
+        id: status_comment_start
         uses: marocchino/sticky-pull-request-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
