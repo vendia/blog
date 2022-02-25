@@ -47,6 +47,7 @@ jobs:
       changedFiles: ${{ steps.filter.outputs.any_files }}
       changedMarkdownFiles: ${{ steps.filter.outputs.markdown_files }}
       anythingChanged: ${{ steps.filter.outputs.any }}
+      dataChanged: ${{ steps.filter.outputs.data }}
       markdownChanged: ${{ steps.filter.outputs.markdown }}
       postsChanged: ${{ steps.filter.outputs.posts }}
       releasesChanged: ${{ steps.filter.outputs.releases }}
@@ -92,7 +93,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     needs: setup
-    if: ${{needs.setup.outputs.anythingChanged == 'true' || github.event.inputs.environment != ''}}
+    if: ${{needs.setup.outputs.dataChanged == 'true' || github.event.inputs.environment != ''}}
     timeout-minutes: 4
     steps:
     - uses: actions/checkout@v2.3.2
@@ -193,6 +194,13 @@ jobs:
         run: |
           # Set DEPLOY_CONTEXT. Passed in value or default PREVIEW_ENV
           DEPLOY_CONTEXT=${{ github.event.inputs.environment || env.PREVIEW_ENV }}
+
+          # Set prod if master & missing manual env value
+          if [ -z "${{ github.event.inputs.environment }}" ] && [ "${{ github.ref == 'refs/heads/master' }}" == "true" ]; then
+            echo "No github.event.inputs.environment set and detected master branch. Set 'prod' context"
+            DEPLOY_CONTEXT=prod
+          fi
+
           # Get branch name and replace slashes and lowercase it
           BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}" | sed -e 's/\//-/g' | awk '{print tolower($0)}')
           # Get commit message
