@@ -32,6 +32,7 @@ The holdbacks to realizing the full potential of B2B data sharing has really bee
 
 
 
+
 * Fear: Privacy breaches of trade secrets, misappropriation, liability
 * Uncertainty: Usage/sharing rights, regulatory rules, reputational costs
 * Doubt: High burden/skills needed to employ new technology solutions
