@@ -19,7 +19,7 @@ on:
           - staging-preview
           - staging
           - prod-preview
-          - prod
+          # - prod
       message:
         description: 'Reason for manual deploy?'
         required: true
@@ -73,9 +73,4 @@ jobs:
           propagate_failure: true
           trigger_workflow: true
           wait_workflow: true
-          inputs: |
-            {
-              "environment": "${{ github.event.inputs.environment }}",
-              "blogBranch": "${{ steps.branch-name.outputs.current_branch }}"
-              "message": "${{ github.event.inputs.message }}" 
-            }
+          inputs: '{"environment": "${{ github.event.inputs.environment }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ github.event.inputs.message }}"}'
