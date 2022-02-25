@@ -5,6 +5,8 @@ on:
       - master
 jobs:
   triage:
+    # Disable this flow
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - uses: mschilde/auto-label-merge-conflicts@master

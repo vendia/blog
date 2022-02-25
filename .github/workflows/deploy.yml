@@ -102,7 +102,7 @@ jobs:
         run: |
           # Set DEPLOY_CONTEXT. Passed in value or default PREVIEW_ENV
           DEPLOY_CONTEXT=${{ github.event.inputs.environment || env.PREVIEW_ENV }}
-          BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}"" | tr '[:upper:]' '[:lower:]')
+          BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}" | tr '[:upper:]' '[:lower:]')
           DEPLOY_URL="https://$DEPLOY_CONTEXT-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app"
 
           echo "─────────────────────────────────────────────────"
@@ -117,11 +117,11 @@ jobs:
           echo "::set-output name=deployUrl::$DEPLOY_URL"
     
       # Welcome message for new folks
-      - uses: actions/first-interaction@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: 'Hi thanks for creating your first issue! We will review this shortly!'
-          pr-message: 'Congratulations for making your first PR on the Vendia Blog! We will review it soon.'
+      # - uses: actions/first-interaction@v1
+      #   with:
+      #     repo-token: ${{ secrets.GITHUB_TOKEN }}
+      #     issue-message: 'Hi thanks for creating your first issue! We will review this shortly!'
+      #     pr-message: 'Congratulations for making your first PR on the Vendia Blog! We will review it soon.'
 
       # Initial Status Comment
       - name: Add status comment to PR
