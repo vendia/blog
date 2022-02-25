@@ -1,5 +1,5 @@
-# Trigger Site deployment
-name: deploy
+# Trigger Site deployment for preview
+name: Deploy Preview
 
 on:
   # # Push to any tracked branches
@@ -26,6 +26,7 @@ on:
 
 env:
   FORCE_COLOR: true # Show colors for link checker
+  PREVIEW_ENV: staging-preview
 
 # Automatically cancel in-progress actions on the same branch
 concurrency:
@@ -99,8 +100,10 @@ jobs:
       - name: Get Deploy info
         id: deploy-info
         run: |
+          # Set DEPLOY_CONTEXT
+          DEPLOY_CONTEXT=${{ github.event.inputs.environment || env.PREVIEW_ENV }}
           BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}"" | tr '[:upper:]' '[:lower:]')
-          DEPLOY_URL="https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app"
+          DEPLOY_URL="https://$DEPLOY_CONTEXT-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app"
 
           echo "─────────────────────────────────────────────────"
           echo "Running on: ${{ steps.branch-name.outputs.current_branch }}"
@@ -108,7 +111,9 @@ jobs:
           echo "DEPLOY_URL '$DEPLOY_URL'"
           echo "─────────────────────────────────────────────────"
 
+          # Set Outputs
           echo "::set-output name=branchSlug::$BRANCH_SLUG"
+          echo ::set-output name=deployContext::$DEPLOY_CONTEXT
           echo "::set-output name=deployUrl::$DEPLOY_URL"
       
       # Initial Status Comment
@@ -140,7 +145,7 @@ jobs:
           propagate_failure: true
           trigger_workflow: true
           wait_workflow: true
-          inputs: '{"environment": "${{ github.event.inputs.environment }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ github.event.inputs.message }}, "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
+          inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ github.event.inputs.message }}, "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
 
       # Updated Status Comment
       - name: Add status comment to PR
