@@ -112,6 +112,23 @@ jobs:
       with:
         useLockFile: false
     - run: npm t
+    # Tests failed
+    - name: Add test failure status comment to PR
+      if: ${{ failure() }}
+      id: status_comment_failure
+      uses: marocchino/sticky-pull-request-comment@v1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        number: ${{ github.event.issue.number }}
+        header: statusComment
+        message: |
+          ❌ Tests failed!
+
+          (╯°□°)╯︵ ┻━┻
+
+          See why in [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "tests" section.
+
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
@@ -222,7 +239,7 @@ jobs:
           echo "::set-output name=files::$FILES"
 
       # Initial Status Comment
-      - name: Add status comment to PR
+      - name: Add pending status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master' && needs.setup.outputs.hasSkipDeploy != 'true'
         id: status_comment_start
         uses: marocchino/sticky-pull-request-comment@v1
@@ -257,7 +274,7 @@ jobs:
           inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ steps.deploy-info.outputs.deployMessage }}", "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
 
       # Updated Status Comment
-      - name: Add status comment to PR
+      - name: Add success status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master'
         id: status_comment
         uses: marocchino/sticky-pull-request-comment@v1
@@ -275,3 +292,16 @@ jobs:
             ```graphql
             ${{ steps.formatFileNames.outputs.files }}
             ```
+
+      - name: Add failure status comment to PR
+        if: ${{ failure() }}
+        id: status_comment_failure
+        uses: marocchino/sticky-pull-request-comment@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ github.event.issue.number }}
+          header: statusComment
+          message: |
+            ❌ Deploy failed!
+
+            See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
