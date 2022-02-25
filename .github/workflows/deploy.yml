@@ -95,6 +95,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       # Get the name of the current branch
       - name: Get branch name
         id: branch-name
