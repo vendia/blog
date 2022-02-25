@@ -45,7 +45,9 @@ jobs:
     outputs:
       # Code Changes
       changedFiles: ${{ steps.filter.outputs.any_files }}
+      changedMarkdownFiles: ${{ steps.formatFileNames.outputs.markdownFiles }}
       anythingChanged: ${{ steps.filter.outputs.any }}
+      markdownChanged: ${{ steps.filter.outputs.markdown }}
       postsChanged: ${{ steps.filter.outputs.posts }}
       releasesChanged: ${{ steps.filter.outputs.releases }}
 
@@ -63,12 +65,29 @@ jobs:
             any:
               - '**'
             ## Check for post changes
+            markdown:
+              - '**/**.mdx?'
+            ## Check for post changes
             posts:
               - 'posts/**.md'
             ## Check for releases post changes
             releases:
               - 'releases/**.md'
-
+      # Format files changed
+      - name: Format changed files string 😅
+        id: formatFileNames
+        run: |
+          # Get changes and separate by new line
+          CHANGED_FILES="$(echo "${{ steps.filter.outputs.markdown_files }}" | tr " " "\n")"
+          # String replace https://trstringer.com/github-actions-multiline-strings/
+          FORMATTED_CHANGED_FILES="${CHANGED_FILES//'%'/'%25'}"
+          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\n'/'%0A'}"
+          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\r'/'%0D'}"
+          FILES=$(echo $FORMATTED_CHANGED_FILES | sed -e "s/'//g")
+          echo 'Files list:'
+          echo $FILES
+          echo "::set-output name=markdownFiles::$FILES"
+  
   # Verify files are ok.
   test:
     runs-on: ubuntu-latest
@@ -110,19 +129,23 @@ jobs:
         run: |
           # Get PR number
           PR_NUMBER=${{ github.event.number || steps.findPr.outputs.number }}
-          echo "PR number $PR_NUMBER"
-          echo ::set-output name=pr::$PR_NUMBER
+          CLEAN_MSG="${{ github.event.inputs.message || '' }}"
 
           # Get commit message
           if [[ '${{ github.event_name }}' == 'push' ]]; then
             COMMIT_MSG=$(git log --format=%B -n 1 HEAD)
             CLEAN_MSG=$(echo "$COMMIT_MSG" | sed -e 's/Signed-off-by:.*<>//g')
-            echo ::set-output name=commitMessage::$CLEAN_MSG
           elif [[ '${{ github.event_name }}' == 'pull_request' ]]; then
             COMMIT_MSG=$(git log --format=%B -n 1 HEAD^2)
             CLEAN_MSG=$(echo "$COMMIT_MSG" | sed -e 's/Signed-off-by:.*<>//g')
-            echo ::set-output name=commitMessage::$CLEAN_MSG
           fi
+
+          # Set outputs
+          echo "PR number: $PR_NUMBER"
+          echo "commitMessage: '$CLEAN_MSG'"
+          echo ::set-output name=pr::$PR_NUMBER
+          echo ::set-output name=commitMessage::$CLEAN_MSG
+    
       # Gather values for deployment
       - name: Get Deploy info
         id: deploy-info
@@ -134,7 +157,7 @@ jobs:
           # Get commit message
           MESSAGE="${{ steps.getCommitDetails.outputs.commitMessage || github.event.inputs.message || '' }}"
           # Trim quotes and newlines
-          DEPLOY_MESSAGE=$(echo "[${GITHUB_REF}] - ${MESSAGE} - ${GITHUB_SHA}" | sed -e 's/"/g/' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g')
+          DEPLOY_MESSAGE=$(echo "[Blog PR #${{ steps.getCommitDetails.outputs.pr }}] - ${MESSAGE} - ${GITHUB_SHA}" | sed -e 's/"/g/' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g')
           DEPLOY_URL="https://$DEPLOY_CONTEXT-$BRANCH_SLUG--vendia-site.netlify.app"
 
           echo "─────────────────────────────────────────────────"
@@ -167,11 +190,9 @@ jobs:
           number: ${{ github.event.issue.number }}
           header: statusComment
           message: |
-            Preview deploying... Should be live here soon at:
+            ⚠️ Preview deploying... Should be live soon
 
-            ${{ steps.deploy-info.outputs.deployUrl }}
-
-            Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml. Check here for details.
+            Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml
 
       # Deploy the site and wait
       - name: Run remote action
@@ -203,3 +224,7 @@ jobs:
             https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app/blog
 
             https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app/releases
+
+            ```graphql
+            ${{needs.setup.outputs.changedMarkdownFiles}
+            ```
