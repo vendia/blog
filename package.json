@@ -10,7 +10,7 @@
     "new": "plop --plopfile .github/plopfile.js",
     "validate": "uvu .github .test.js",
     "process": "node .github/process-images",
-    "test": "npm run validate && npm run checklinks",
+    "test": "npm run validate",
     "checklinks": "linkinator 'posts/**/*.md' --config ./.github/linkinator.config.json"
   },
   "homepage": "https://github.com/vendia/blog#readme",
