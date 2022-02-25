@@ -226,5 +226,5 @@ jobs:
             https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app/releases
 
             ```graphql
-            ${{needs.setup.outputs.changedMarkdownFiles}
+            ${{ needs.setup.outputs.changedMarkdownFiles }}
             ```
