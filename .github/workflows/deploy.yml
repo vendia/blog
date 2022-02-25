@@ -66,13 +66,13 @@ jobs:
               - '**'
             ## Check for post changes
             markdown:
-              - '**/**.mdx?'
+              - '**/**.md?(x)'
             ## Check for post changes
             posts:
-              - 'posts/**.md'
+              - 'posts/**.md?(x)'
             ## Check for releases post changes
             releases:
-              - 'releases/**.md'
+              - 'releases/**.md?(x)'
       # Format files changed
       - name: Format changed files string 😅
         id: formatFileNames
