@@ -9,7 +9,6 @@ authors:
 
 "A platform is a product that serves or enables other products or services. Platforms (in the context of digital business) exist at many levels. They range from high-level platforms that enable a platform business model to low-level platforms that provide a collection of business and/or technology capabilities that other products or services consume to deliver their own business capabilities," [Gartner](https://www.gartner.com/en/information-technology/glossary/platform-digital-business).
 
-
 ## The platform for decentralized applications
 
 Between 2017-2021, during my time at AWS, every conversation with new cloud customers would start with TCO analysis between on-premises and cloud. But, soon, the conversation would evolve into how the cloud can enable or fast-track new value creation that comes from increased experimentation and improvement in time to market. 

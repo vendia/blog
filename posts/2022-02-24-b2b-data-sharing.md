@@ -11,7 +11,7 @@ authors:
 
 We have seen strong ROIs from data driven initiatives over the past few decades, but so far, these returns have come from tapping into data assets within organizational boundaries. The new frontier is to demonstrate strong ROIs from sharing data assets beyond organizational boundaries a.k.a B2B data sharing.
 
-Real world business pains are drawing attention to the issue:
+**Real world business pains are drawing attention to the issue:**
 
 - [Turbulence in supply chains](https://www.cnbc.com/2021/10/18/supply-chain-chaos-is-hitting-global-growth-and-could-get-worse.html), due to risk factors, such as, Covid-19 pandemic has seriously affected consumers and businesses. The [barriers](https://www.mckinsey.com/business-functions/operations/our-insights/overcoming-barriers-to-multitier-supplier-collaboration) to adopting preventive solutions have been lack of transparency and peer-to-peer collaboration, often due to lack of data sharing.
 - [Widespread automotive recalls](https://www.statista.com/statistics/541703/united-states-vehicle-recalls/) are not only a danger to public safety, but also result in massive financial blows to the auto manufacturers and their suppliers. The recall scenarios do not end with just the automotive industry, they bleed into many sectors.
