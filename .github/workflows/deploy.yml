@@ -45,7 +45,7 @@ jobs:
     outputs:
       # Code Changes
       changedFiles: ${{ steps.filter.outputs.any_files }}
-      changedMarkdownFiles: ${{ steps.formatFileNames.outputs.files }}
+      changedMarkdownFiles: ${{ steps.filter.outputs.markdown_files }}
       anythingChanged: ${{ steps.filter.outputs.any }}
       markdownChanged: ${{ steps.filter.outputs.markdown }}
       postsChanged: ${{ steps.filter.outputs.posts }}
@@ -73,20 +73,6 @@ jobs:
             ## Check for releases post changes
             releases:
               - 'releases/**.md?(x)'
-      # Format files changed
-      - name: Format changed files string 😅
-        id: formatFileNames
-        run: |
-          # Get changes and separate by new line
-          CHANGED_FILES="$(echo "${{ steps.filter.outputs.markdown_files }}" | tr " " "\n")"
-          # String replace https://trstringer.com/github-actions-multiline-strings/
-          FORMATTED_CHANGED_FILES="${CHANGED_FILES//'%'/'%25'}"
-          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\n'/'%0A'}"
-          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\r'/'%0D'}"
-          FILES=$(echo $FORMATTED_CHANGED_FILES | sed -e "s/'//g")
-          echo 'Files list:'
-          echo $FILES
-          echo "::set-output name=files::$FILES"
   
   # Verify files are ok.
   test:
@@ -182,6 +168,21 @@ jobs:
       #     issue-message: 'Hi thanks for creating your first issue! We will review this shortly!'
       #     pr-message: 'Congratulations for making your first PR on the Vendia Blog! We will review it soon.'
 
+      # Format files changed
+      - name: Format changed files string 😅
+        id: formatFileNames
+        run: |
+          # Get changes and separate by new line
+          CHANGED_FILES="$(echo "${{ needs.setup.outputs.changedMarkdownFiles }}" | tr " " "\n")"
+          # String replace https://trstringer.com/github-actions-multiline-strings/
+          FORMATTED_CHANGED_FILES="${CHANGED_FILES//'%'/'%25'}"
+          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\n'/'%0A'}"
+          FORMATTED_CHANGED_FILES="${FORMATTED_CHANGED_FILES//$'\r'/'%0D'}"
+          FILES=$(echo $FORMATTED_CHANGED_FILES | sed -e "s/'//g")
+          echo 'Files list:'
+          echo $FILES
+          echo "::set-output name=files::$FILES"
+
       # Initial Status Comment
       - name: Add status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master' && needs.setup.outputs.hasSkipDeploy != 'true'
@@ -195,6 +196,12 @@ jobs:
             ⚠️ Preview deploying... Should be live soon
 
             Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml
+
+            **Changed Files**
+
+            ```graphql
+            ${{ steps.formatFileNames.outputs.files }}
+            ```
 
       # Deploy the site and wait
       - name: Run remote action
@@ -228,5 +235,5 @@ jobs:
             https://staging-preview-${{ steps.deploy-info.outputs.branchSlug }}--vendia-site.netlify.app/releases
 
             ```graphql
-            ${{ needs.setup.outputs.changedMarkdownFiles }}
+            ${{ steps.formatFileNames.outputs.files }}
             ```
