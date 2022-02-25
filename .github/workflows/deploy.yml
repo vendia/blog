@@ -108,11 +108,11 @@ jobs:
         echo "Changed markdown files:"
         echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
         echo "─────────────────────────────────────────────────"
+    # Install deps
     - uses: bahmutov/npm-install@v1
-      with:
-        useLockFile: false
+    # Run tests
     - run: npm t
-    # Tests failed
+    # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_failure
