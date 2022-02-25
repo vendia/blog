@@ -73,7 +73,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     needs: setup
-    if: ${{needs.setup.outputs.any == 'true' || github.event.inputs.environment != ''}}
+    if: ${{needs.setup.outputs.anythingChanged == 'true' || github.event.inputs.environment != ''}}
     timeout-minutes: 4
     steps:
     - uses: actions/checkout@v2.3.2
@@ -115,7 +115,14 @@ jobs:
           echo "::set-output name=branchSlug::$BRANCH_SLUG"
           echo ::set-output name=deployContext::$DEPLOY_CONTEXT
           echo "::set-output name=deployUrl::$DEPLOY_URL"
-      
+    
+      # Welcome message for new folks
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: 'Hi thanks for creating your first issue! We will review this shortly!'
+          pr-message: 'Congratulations for making your first PR on the Vendia Blog! We will review it soon.'
+
       # Initial Status Comment
       - name: Add status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master' && needs.setup.outputs.hasSkipDeploy != 'true'
