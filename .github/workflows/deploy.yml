@@ -64,7 +64,10 @@ jobs:
           filters: |
             any:
               - '**'
-            ## Check for post changes
+            ## Check data changes
+            data:
+              - '**/**.(js?(x)|md?(x)|json)'
+            ## Check markdown changes
             markdown:
               - '**/**.md?(x)'
             ## Check for post changes
@@ -73,7 +76,18 @@ jobs:
             ## Check for releases post changes
             releases:
               - 'releases/**.md?(x)'
-  
+      # Debug
+      - name: File info
+        id: file-info
+        run: |
+          echo "─────────────────────────────────────────────────"
+          echo "Files changed?"
+          echo "${{ steps.filter.outputs.any }}"
+          echo "Changed files:"
+          echo "${{ steps.filter.outputs.any_files }}"
+          echo "Changed markdown files:"
+          echo "${{ steps.filter.outputs.markdown_files }}"
+          echo "─────────────────────────────────────────────────"
   # Verify files are ok.
   test:
     runs-on: ubuntu-latest
