@@ -96,25 +96,54 @@ jobs:
       - name: Get branch name
         id: branch-name
         uses: tj-actions/branch-names@v5.1
+      # Ensure we grab PR, if push event
+      - uses: jwalton/gh-find-current-pr@v1
+        id: findPr
+      # Get most recent commit message for use in other CI steps
+      - name: Get commit details
+        id: getCommitDetails
+        run: |
+          # Get PR number
+          PR_NUMBER=${{ github.event.number || steps.findPr.outputs.number }}
+          echo "PR number $PR_NUMBER"
+          echo ::set-output name=pr::$PR_NUMBER
+
+          # Get commit message
+          if [[ '${{ github.event_name }}' == 'push' ]]; then
+            COMMIT_MSG=$(git log --format=%B -n 1 HEAD)
+            CLEAN_MSG=$(echo "$COMMIT_MSG" | sed -e 's/Signed-off-by:.*<>//g')
+            echo ::set-output name=commitMessage::$CLEAN_MSG
+          elif [[ '${{ github.event_name }}' == 'pull_request' ]]; then
+            COMMIT_MSG=$(git log --format=%B -n 1 HEAD^2)
+            CLEAN_MSG=$(echo "$COMMIT_MSG" | sed -e 's/Signed-off-by:.*<>//g')
+            echo ::set-output name=commitMessage::$CLEAN_MSG
+          fi
       # Gather values for deployment
       - name: Get Deploy info
         id: deploy-info
         run: |
           # Set DEPLOY_CONTEXT. Passed in value or default PREVIEW_ENV
           DEPLOY_CONTEXT=${{ github.event.inputs.environment || env.PREVIEW_ENV }}
-          BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}" | tr '[:upper:]' '[:lower:]')
+          # Get branch name and replace slashes and lowercase it
+          BRANCH_SLUG=$(echo "${{ steps.branch-name.outputs.current_branch }}" | sed -e 's/\//-/g' | awk '{print tolower($0)}')
+          # Get commit message
+          MESSAGE="${{ steps.getCommitDetails.outputs.commitMessage || github.event.inputs.message || '' }}"
+          # Trim quotes and newlines
+          DEPLOY_MESSAGE=$(echo "[${GITHUB_REF}] - ${MESSAGE} - ${GITHUB_SHA}" | sed -e 's/"/g/' | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g')
           DEPLOY_URL="https://$DEPLOY_CONTEXT-$BRANCH_SLUG--vendia-site.netlify.app"
 
           echo "─────────────────────────────────────────────────"
           echo "Running on: ${{ steps.branch-name.outputs.current_branch }}"
           echo "BRANCH_SLUG '$BRANCH_SLUG'"
           echo "DEPLOY_URL '$DEPLOY_URL'"
+          echo "Deploy message: '$DEPLOY_MESSAGE'"
           echo "─────────────────────────────────────────────────"
 
           # Set Outputs
           echo "::set-output name=branchSlug::$BRANCH_SLUG"
           echo ::set-output name=deployContext::$DEPLOY_CONTEXT
           echo "::set-output name=deployUrl::$DEPLOY_URL"
+          echo ::set-output name=deployMessage::$DEPLOY_MESSAGE
     
       # Welcome message for new folks
       # - uses: actions/first-interaction@v1
@@ -152,7 +181,7 @@ jobs:
           propagate_failure: true
           trigger_workflow: true
           wait_workflow: true
-          inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ github.event.inputs.message }}", "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
+          inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ steps.deploy-info.outputs.deployMessage }}", "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
 
       # Updated Status Comment
       - name: Add status comment to PR
