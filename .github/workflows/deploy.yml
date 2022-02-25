@@ -33,7 +33,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Verify files are ok
+  # Verify files are ok.
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 4
