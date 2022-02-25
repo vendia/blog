@@ -27,3 +27,8 @@ jobs:
       with:
         useLockFile: false
     - run: npm t
+
+    # https://github.com/dorny/paths-filter
+    # - name: Lint Markdown
+    #   if: ${{ steps.filter.outputs.markdown == 'true' }}
+    #   run: npx textlint ${{ steps.filter.outputs.markdown_files }}

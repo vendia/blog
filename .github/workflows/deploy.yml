@@ -39,26 +39,39 @@ jobs:
     timeout-minutes: 4
     steps:
     - uses: actions/checkout@v2.3.2
-    - uses: bahmutov/npm-install@v1
-      with:
-        useLockFile: false
-    - run: npm t
+    # - uses: bahmutov/npm-install@v1
+    #   with:
+    #     useLockFile: false
+    # - run: npm t
+
+  # generate UUID to deploy previews to
+  # trigger remote CI and wait
+  ## Pass in current branch name as input
+  # Then add comment to PR with deploy URL
+  
   # Trigger deployment
   deploy-site:
     runs-on: ubuntu-latest
     needs: test
     name: Run remote action & wait for site to deploy
     steps:
-      - name: Run remote action
-        uses: convictional/trigger-workflow-and-wait@v1.3.0
-        with:
-          owner: vendia
-          repo: site
-          github_token: ${{ secrets.VENDIA_SITE_GITHUB_ACCESS_TOKEN }}
-          # https://github.com/vendia/site/blob/master/.github/workflows/ci.yml
-          workflow_file_name: ci.yml
-          ref: master
-          propagate_failure: true
-          trigger_workflow: true
-          wait_workflow: true
-          inputs: '{"environment": "${{ github.event.inputs.environment }}", "message": "${{ github.event.inputs.message }}"}'
+      - name: Get branch name
+        id: branch-name
+        uses: tj-actions/branch-names@v5.1
+      - name: Which branch
+        run: |
+          echo "Running on: ${{ steps.branch-name.outputs.current_branch }}"
+
+      # - name: Run remote action
+      #   uses: convictional/trigger-workflow-and-wait@v1.3.0
+      #   with:
+      #     owner: vendia
+      #     repo: site
+      #     github_token: ${{ secrets.VENDIA_SITE_GITHUB_ACCESS_TOKEN }}
+      #     # https://github.com/vendia/site/blob/master/.github/workflows/ci.yml
+      #     workflow_file_name: ci.yml
+      #     ref: master
+      #     propagate_failure: true
+      #     trigger_workflow: true
+      #     wait_workflow: true
+      #     inputs: '{"environment": "${{ github.event.inputs.environment }}", "message": "${{ github.event.inputs.message }}"}'
