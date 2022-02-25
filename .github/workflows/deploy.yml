@@ -38,7 +38,7 @@ jobs:
   ## Check for code changes & abort if no changes
   #################################################
   setup:
-    # exit early if [skip ci]
+    # exit early if [skip ci].
     if: "!contains(github.event.commits[0].message, '[skip-ci]')"
     runs-on: ubuntu-latest
     # Set job outputs to values from filter step
