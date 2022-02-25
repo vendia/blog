@@ -121,7 +121,7 @@ jobs:
   # Trigger deployment
   deploy-site:
     runs-on: ubuntu-latest
-    needs: test
+    needs: [setup, test]
     name: Run remote action & wait for site to deploy
     steps:
       - name: Checkout code
