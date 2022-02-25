@@ -9,6 +9,7 @@
     "gavin-yue",
     "glenn-dierkes",
     "james-gimourginas",
+    "joydeep-das",
     "ryan-green",
     "ryan-scott-brown",
     "shruthi-rao",
@@ -114,6 +115,17 @@
         "long": "James is passionate about matching digital innovation with customer challenges to create novel and impactful solutions at scale."
       },
       "slug": "james-gimourginas"
+    },
+    {
+      "name": "Joydeep Das",
+      "github": "joydeep-vendia",
+      "twitter": "joydeep02263451",
+      "avatar": "https://avatars.githubusercontent.com/u/98058931",
+      "bio": {
+        "short": "VP, Product",
+        "long": "Joydeep is a Product Manager at Vendia focused on creating a B2B data sharing service. Vendia helps customers collaborate with their business partners using Smart APIs for data sharing. Joydeep has been championing the cause of data products for more than a decade - initially as an engineer and then as a product manager."
+      },
+      "slug": "joydeep-das"
     },
     {
       "name": "Ryan Green",
