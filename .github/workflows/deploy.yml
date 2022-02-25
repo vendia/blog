@@ -45,7 +45,7 @@ jobs:
     outputs:
       # Code Changes
       changedFiles: ${{ steps.filter.outputs.any_files }}
-      changedMarkdownFiles: ${{ steps.formatFileNames.outputs.markdownFiles }}
+      changedMarkdownFiles: ${{ steps.formatFileNames.outputs.files }}
       anythingChanged: ${{ steps.filter.outputs.any }}
       markdownChanged: ${{ steps.filter.outputs.markdown }}
       postsChanged: ${{ steps.filter.outputs.posts }}
@@ -86,7 +86,7 @@ jobs:
           FILES=$(echo $FORMATTED_CHANGED_FILES | sed -e "s/'//g")
           echo 'Files list:'
           echo $FILES
-          echo "::set-output name=markdownFiles::$FILES"
+          echo "::set-output name=files::$FILES"
   
   # Verify files are ok.
   test:
@@ -165,6 +165,8 @@ jobs:
           echo "BRANCH_SLUG '$BRANCH_SLUG'"
           echo "DEPLOY_URL '$DEPLOY_URL'"
           echo "Deploy message: '$DEPLOY_MESSAGE'"
+          echo "Changed files:"
+          echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
           echo "─────────────────────────────────────────────────"
 
           # Set Outputs
