@@ -8,7 +8,7 @@ authors:
 ---
 
 
-_“We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs.”_, _Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_
+_"We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs."_, _Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_
 
 Enterprise blockchain adoption is slowly but steadily progressing. Users face challenges aligning use cases with technology and await clarification on [global regulations](https://www.imf.org/en/News/Articles/2021/07/28/pr21230-imf-executive-board-discusses-rise-public-private-digital-money-strategy-imf-mandate) and [accounting standards](https://us.aicpa.org/content/dam/aicpa/interestareas/informationtechnology/downloadabledocuments/accounting-for-and-auditing-of-digital-assets.pdf). 
 
@@ -28,7 +28,7 @@ There are numerous supply chain and authenticated provence use cases that benefi
 
 Let’s look at just global shipping. An estimated 90% of goods are shipped by sea by roughly 60,000 cargo vessels. Each cargo vessel carries 24,000 containers. At that magnitude, it is not hard to understand why thousands of containers get lost at sea every year. What gets lost? Everything from the banana and coffee you had for breakfast to the microchip in the device you are reading this on. You can use blockchain to track your cargo like you track your Amazon order.
 
-You can do more with the blockchain. Think of the coffee retailer, they would like to know the basics like, “when will the goods arrive?” and the details “what temperature was the coffee stored at?” to “was it ethically sourced?” Such questions are nearly impossible for the small retailer to answer given the complexity of multiple organizations and sovereign boundaries traversed in the supply chain. Large retailers, such as Walmart, have deployed blockchain-based supply chain [solutions](https://hbr.org/2022/01/how-walmart-canada-uses-blockchain-to-solve-supply-chain-challenges) and reduced the time to answer such questions from a week to seconds. Today, Walmart can track the origin of a specific mango sold in its store in 2.2 seconds. 
+You can do more with the blockchain. Think of the coffee retailer, they would like to know the basics like, "when will the goods arrive?" and the details "what temperature was the coffee stored at?" to "was it ethically sourced?" Such questions are nearly impossible for the small retailer to answer given the complexity of multiple organizations and sovereign boundaries traversed in the supply chain. Large retailers, such as Walmart, have deployed blockchain-based supply chain [solutions](https://hbr.org/2022/01/how-walmart-canada-uses-blockchain-to-solve-supply-chain-challenges) and reduced the time to answer such questions from a week to seconds. Today, Walmart can track the origin of a specific mango sold in its store in 2.2 seconds. 
 
 
 ## Tell me more…
@@ -51,4 +51,3 @@ If your business is feeling the pain of the global supply chain crisis then it t
 If you are having a hard time aligning business use cases to the blockchain or think blockchain is challenging and complex, we at Vendia have a solution for both problems. We can work with you to identify use cases and demonstrate business value in weeks and time to market in a few months. 
 
 Drop us a note at [contact Vendia](https://www.vendia.net/contact-us).
-
