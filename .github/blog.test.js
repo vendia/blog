@@ -42,7 +42,7 @@ test('File have correct extensions', async () => {
   }
 })
 
-test('Docs validation', async () => {
+test('Post validation', async () => {
   const [ mdData, errors ] = await getMarkdownData(GLOB_PATTERN)
   const allAuthorsData = await getAuthors()
   const allAuthors = allAuthorsData.authors
@@ -50,13 +50,17 @@ test('Docs validation', async () => {
   const allCategories = await getCategories()
   const allCategorySlugs = allCategories.map((category) =>  category.slug)
   
-  console.log('\nAll Blog Tags')
+  console.log('\nAll Blog Tags:')
   console.log(allTags)
-  console.log('\nAll Blog Categories')
+  console.log('\nAll Blog Categories:')
   console.log(allCategorySlugs)
-  console.log('\nAll Authors')
-  console.log(allAuthors)
-
+  console.log('\nAll Authors:')
+  console.log(allAuthors.map((author) => author.name))
+  console.log('\nAll Draft Posts:')
+  console.log(mdData.filter((post) => post.data && post.data.draft).map((post) => post.file))
+  console.log('\nAll Posts:')
+  console.log(mdData.filter((post) => post.data && !post.data.draft).map((post) => post.file))
+  
   /* Verify frontmatter contents */
   mdData.forEach((info) => {
     const { data, file, isEmpty, content } = info
