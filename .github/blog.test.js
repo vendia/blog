@@ -8,7 +8,7 @@ const {
   getMarkdownData,
   DATE_FORMAT_REGEX
 } = require('./utils')
-const { verifyMdExtension } =  require('./test-utils')
+const { verifyMdExtension } =  require('./md-utils/verify-extension')
 
 const cwd = process.cwd()
 
@@ -197,13 +197,28 @@ function validateAuthorFields(obj1, obj2) {
   return Object.keys(obj1).every((prop) => obj2.hasOwnProperty(prop))
 }
 
-const errorHeading = '\n\n──────VALIDATION ERROR─────────\n'
+const copy = '█ ✘ VALIDATION ERROR ───────────────────────────'
+const endz = '────────────────────────────────────────────────'
+const errorHeading = `
+████████████████████████████████████████████████
+${copy}
+████████████████████████████████████████████████
+`
 function throwErrors(errors = []){
  if (errors.length) {
+   const messages = errors.map((err) => {
+     if (typeof err === 'object') {
+       if (err.message || err.error) {
+         return `  - ${err.message || err.error}\n${JSON.stringify(err, null, 2)}`
+       }
+       return JSON.stringify(err, null, 2)
+     }
+     return `  - ${err}`
+   })
     throw new Error(`${errorHeading}
 Markdown Errors!
-${errors.map((err) => `  - ${err}`).join('\n')}
-\n──────VALIDATION ERROR END───────`)
+${messages.join('\n')}
+\n${endz}`)
   }
 }
 

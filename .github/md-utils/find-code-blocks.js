@@ -1,0 +1,77 @@
+const { countLines, getLineNumber } = require('./utils')
+
+// https://regex101.com/r/nIlW1U/6
+const CODE_BLOCK_REGEX = /^([A-Za-z \t]*)```([A-Za-z]*)?\n([\s\S]*?)```([A-Za-z \t]*)*$/gm
+
+/**
+ * Parse code blocks out of markdown
+ * @param {string} block 
+ * @returns {Object}
+ * @example
+ * const { blocks, errors } = findCodeBlocks(content)
+ * console.log('blocks', blocks)
+ * console.log('errors', errors)
+ */
+function findCodeBlocks(block, filePath = '') {
+  let matches
+  let errors = []
+  let blocks = []
+  const msg = (filePath) ? ` in ${filePath}` : ''
+  while ((matches = CODE_BLOCK_REGEX.exec(block)) !== null) {
+    if (matches.index === CODE_BLOCK_REGEX.lastIndex) {
+      CODE_BLOCK_REGEX.lastIndex++ // avoid infinite loops with zero-width matches
+    }
+    const [ match, prefix, syntax, content, postFix ] = matches
+    const lineNumber = getLineNumber(block, matches)
+    let hasError = false
+    /* // debug
+    console.log(`prefix: "${prefix}"`)
+    console.log(`postFix: "${postFix}"`)
+    console.log('syntax:', lang)
+    console.log('Content:')
+    console.log(content.trim())
+    console.log('───────────────────────')
+    /** */
+
+    /* Validate code blocks */
+    if (prefix && prefix.match(/\S/)) {
+      hasError = true
+      errors.push({
+        line: lineNumber,
+        position: matches.index,
+        message: `Prefix "${prefix}" not allowed on line ${lineNumber}. Fix the code block${msg}.`,
+        block: match
+      })
+    }
+    if (postFix && postFix.match(/\S/)) {
+      hasError = true
+      const line = lineNumber + (countLines(match) - 1)
+      errors.push({
+        line,
+        position: matches.index + match.length,
+        message: `Postfix "${postFix}" not allowed on line ${line}. Fix the code block${msg}.`,
+        block: match
+      })
+    }
+
+    if (!hasError) {
+      blocks.push({
+        line: lineNumber,
+        position: matches.index,
+        syntax: syntax || '',
+        block: match,
+        code: content.trim()
+      })
+    }
+  }
+
+  return {
+    errors,
+    blocks
+  }
+}
+
+module.exports = {
+  findCodeBlocks,
+  CODE_BLOCK_REGEX
+}

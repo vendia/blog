@@ -3,8 +3,17 @@ const fs = require('fs').promises
 const { globby } = require('markdown-magic')
 const matter = require('gray-matter')
 const slugify = require('slugify')
-const cwd = process.cwd()
+const { validateHtml, validateHtmlTags } = require('./md-utils/validate-html')
+const { findFrontmatter } = require('./md-utils/find-frontmatter')
+const { findHtmlTags } = require('./md-utils/find-html-tags')
+const { findCodeBlocks } = require('./md-utils/find-code-blocks')
+const { findRelativeLinks } = require('./md-utils/find-links-relative')
+const { findLiveLinks } = require('./md-utils/find-links-live')
+const { findImageLinks } = require('./md-utils/find-image-links')
+const { findUnmatchedHtmlTags } = require('./md-utils/find-unmatched-html-tags')
 
+let cache = {}
+const cwd = process.cwd()
 const DATE_FORMAT_REGEX = /[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])-/g
 const ROOT_DIR = path.dirname(__dirname)
 
@@ -16,7 +25,6 @@ const GLOB_PATTERN = [
   '!node_modules/**'
 ]
 
-let cache = {}
 async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
   const cacheKey = globPattern.toString()
   const matches = await globby(globPattern)
@@ -46,6 +54,7 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
   const data = contents.map((text, i) => {
     // console.log('contents', filePaths[i])
     const markdownData = formatMD(text, filePaths[i])
+    console.log(markdownData)
     if (markdownData.errors) {
       errors = errors.concat(markdownData.errors)
     }
@@ -134,14 +143,6 @@ function getPostsByAuthor(data) {
   }, {})
 }
 
-function formatIndexData(post, extra = {}) {
-  return { 
-    file: post.file.replace(ROOT_DIR, ''),
-     ...post.data,
-     ...extra
-  }
-}
-
 function getTags(data) {
   return data.reduce((tags, d) => {
     const postTags = d.data.tags || []
@@ -151,29 +152,26 @@ function getTags(data) {
   }, [])
 }
 
-const HIDDEN_FRONTMATTER_REGEX = /^<!--.*((.|\r?\n)*?.*-->)/g
-const FRONTMATTER_REGEX = /^---.*((.|\r?\n)*?.*---)/g
+function formatIndexData(post, extra = {}) {
+  return { 
+    file: post.file.replace(ROOT_DIR, ''),
+     ...post.data,
+     ...extra
+  }
+}
 
 function formatMD(text, filePath) {
-  const errors = []
-  const hasFrontMatter = text.match(FRONTMATTER_REGEX)
-  const hasHiddenFrontMatter = text.match(HIDDEN_FRONTMATTER_REGEX)
+  let errors = []
+  const { frontMatter, rawFrontMatter } = findFrontmatter(text)
   
   /* Missing all frontmatter */
-  if (!hasFrontMatter && !hasHiddenFrontMatter) {
-    errors.push(`Missing or broken frontmatter in ${filePath}`)
+  if (!frontMatter) {
+    errors.push(`Missing or broken frontmatter in ${filePath}. Double check file for --- frontmatter tags`)
   }
 
-  const match = hasFrontMatter || hasHiddenFrontMatter
-  const replaceText = (match) ? match[0] : ''
-  const cleanText = replaceText
-    // Leading frontmatter brackets
-    .replace(/<!--+/, '---')
-    // Trailing frontmatter brackets
-    .replace(/--+>/, `---`)
   const newContent = text
     // Replace frontmatter brackets
-    .replace(replaceText, cleanText)
+    .replace(rawFrontMatter, frontMatter)
     // Replace leading lines
     .replace(/---+\s+\n/g, '---\n')
 
@@ -184,19 +182,39 @@ function formatMD(text, filePath) {
     console.log(`Broken frontmatter ${filePath}`)
     console.log(err.message)
     console.log('Failed on frontmatter:')
-    console.log(replaceText)
-    errors.push(`Broken frontmatter in ${filePath}`)
+    console.log(rawFrontMatter)
+    errors.push(`Broken frontmatter in ${filePath}\n  ${rawFrontMatter}`)
   }
 
-  const { links } = getLinks(text, filePath)
-  // console.log('links', links)
-  const relativeLinks = getRelativeLinks(text)
-  // console.log('relativeLinks', relativeLinks)
-  // console.log(`links ${filePath}`, filePath)
-  const images = getImageLinks(links.concat(relativeLinks))
+  const { links } = findLiveLinks(text, filePath)
+  // console.log(`links ${filePath}`, links)
+  const relativeLinks = findRelativeLinks(text)
+  // console.log(`relativeLinks ${filePath}`, relativeLinks)
+  const images = findImageLinks(links.concat(relativeLinks))
   // console.log(`images ${filePath}`, images)
-  const htmlTags = parseHtmlProps(text)
+  const htmlTags = findHtmlTags(text)
   // console.log(`htmlTags ${filePath}`, htmlTags)
+  const codeBlocks = findCodeBlocks(text, filePath)
+  // console.log(`codeBlocks ${filePath}`, codeBlocks)
+  const tagsErrors = findUnmatchedHtmlTags(text, filePath)
+
+  // const htmlValidationTags = validateHtmlTags(htmlTags, filePath)
+  // if (htmlValidationTags && htmlValidationTags.length) {
+  //   errors = errors.concat(htmlValidationTags)
+  // }
+
+  const htmlValidation = validateHtml(frontmatter.content, filePath)
+  if (htmlValidation && htmlValidation.length) {
+    errors = errors.concat(htmlValidation)
+  }
+
+  if (tagsErrors && tagsErrors.length) {
+    errors = errors.concat(tagsErrors)
+  }
+
+  if (codeBlocks.errors && codeBlocks.errors.length) {
+    errors = errors.concat(codeBlocks.errors)
+  }
 
   return {
     errors,
@@ -206,214 +224,10 @@ function formatMD(text, filePath) {
     relativeLinks,
     images: images,
     htmlTags: htmlTags,
-    frontMatterRaw: replaceText,
+    codeBlocks,
+    frontMatterRaw: rawFrontMatter,
     ...frontmatter
   }
-}
-
-const FIND_LIVE_LINKS = /(?:['"(])((?:https?:\/\/)[\w\d-_./?=#%:+&]{3,})/gmi
-
-// https://regex101.com/r/Nywerx/1
-const FIND_RELATIVE_LINKS = /(src|href|\()=?(['"/])(?!(?:(?:https?|ftp):\/\/|data:))(\.?\/)?([\w\d-_./?=#%:+&]+)(?:['")])?/gim
-
-// https://regex101.com/r/Uxgu3P/1
-const FIND_RELATIVE_IMAGES = /(<img.*?src=['"])(?!(?:(?:https?|ftp):\/\/|data:))(\.?\/)?(.*?)(['"].*?\/?>)/gim
-
-// Might need ([\s\S]*?) instead of '*' in between tags
-const HTML_TAG = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/gim
-
-const MATCH_HTML_TAGS_REGEX = /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/?>)/gm
-// old forces closes / - /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/>)/gm
-
-function onlyUnique(value, index, self) {
-  return self.indexOf(value) === index;
-}
-
-/*
-Match relative links
-
-<h1 jdjdjjdjd=lksjskljfsdlk="jdjdj">Netlify + FaunaDB &nbsp;&nbsp;&nbsp; 
-  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example&stack=fauna">
-  <img src="../../../../img/deploy/lol.svg">
-  </a>
-</h1>
-
-[link](/my-great-page)
-
-<img src="img/deploy/duplicate.svg" />
-
-<img src="img/deploy/duplicate.svg" >
-
-<img src="/img/deploy/three.svg" />
-
-<img src='/img/deploy/four.svg' />
-
-<img src='./img/deploy/five.svg' />
-
-<img src='../img/deploy/button.svg' />
-
-<img src='../../img/deploy/button.svg' />
-
-<img src="https://www.netlify.com/img/deploy/button.svg" />
-
-<img src="https://www.netlify.com/img/deploy/button.svg" />
-
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-*/
-
-// https://regex101.com/r/Nywerx/1
-function getRelativeLinks(block) {
-  // console.log('closeTagRegex', closeTagRegex)
-  let matches
-  let relLinks = []
-  while ((matches = FIND_RELATIVE_LINKS.exec(block)) !== null) {
-    if (matches.index === FIND_RELATIVE_LINKS.lastIndex) {
-      FIND_RELATIVE_LINKS.lastIndex++ // avoid infinite loops with zero-width matches
-    }
-    // console.log(matches)
-    const [ match, _, start, link, x ] = matches
-    const one = (start === '/') ? start : ''
-    const two = (link === '/') ? link : ''
-    relLinks.push(`${one}${two}${x}`)
-  }
-  return relLinks.filter(onlyUnique)
-}
-
-/*
-// https://regex101.com/r/SvMfme/1
-<img src="img/deploy/button.svg" />
-<img src="/img/deploy/button.svg" />
-<img src='/img/deploy/button.svg' />
-<img src='./img/deploy/button.svg' />
-<img src='../img/deploy/button.svg' />
-<img src='../../img/deploy/button.svg' />
-*/
-function getRelativeImageLinks(block, filePath) {
-  // console.log('closeTagRegex', closeTagRegex)
-  let matches
-  let relLinks = []
-  while ((matches = FIND_RELATIVE_IMAGES.exec(block)) !== null) {
-    if (matches.index === FIND_RELATIVE_IMAGES.lastIndex) {
-      FIND_RELATIVE_IMAGES.lastIndex++ // avoid infinite loops with zero-width matches
-    }
-    const [ match, _, start, link ] = matches
-    relLinks.push(`${start || ''}${link}`)
-  }
-  return  { 
-    links: relLinks,
-    filePath
-  }
-}
-
-function getLinks(mdContents, filePath) {
-  const matches = mdContents.match(FIND_LIVE_LINKS)
-  if (!matches) {
-    return {
-      links: [],
-      filePath
-    }
-  }
-  const links = matches
-    .map((m) => m.replace(/^['"(]/, ''))
-    .filter(onlyUnique)
-  return { 
-    links: links,
-    filePath
-  }
-}
-
-function parseHtmlProps(mdContents) {
-  const parents = mdContents
-    /* Fix non terminating <tags> */
-    .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
-    .match(MATCH_HTML_TAGS_REGEX)
-  // console.log('parents', parents)
-
-  if (parents) {
-    // const children = parents.filter(Boolean).map((p) => {
-    //   return p.match(HTML_TAG)
-    // })
-    // console.log('children', children)
-  }
-
-  const htmlTags = mdContents
-    /* Fix non terminating <tags> */
-    .replace(/(['"`]<(.*)>['"`])/gm, '_$2_')
-    .match(MATCH_HTML_TAGS_REGEX)
-  // console.log('htmlTags', htmlTags)
-
-  let tags = []
-  if (htmlTags) {
-    let propsValues = {}
-    // var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)/
-    // var regexSingleTag = /<([a-zA-Z1-6]+)([^<]+)*(?:>([\s\S]*?)<\/\1>|\s*\/>)/
-    var regexSingleTag = /<([a-zA-Z1-6]+)\b([^>]*)>*(?:>([\s\S]*?)<\/\1>|\s?\/?>)/
-    for (var i = 0; i < htmlTags.length; i++) {
-      // console.log('htmlTags[i]', htmlTags[i])
-      var tagMatches = regexSingleTag.exec(htmlTags[i])
-      // console.log('tagMatches', tagMatches)
-      var [ match, tag, props ] = tagMatches
-      // console.log(`Tag #${i} ${tag}`)
-      if (props) {
-        const cleanProps = props
-          // Remove new lines and tabs
-          .replace(/\n\t/g, '')
-          // Remove extra spaces
-          .replace(/\s\s+/g, ' ')
-          .trim()
-
-        propsValues = cleanProps.split(" ").reduce((acc, curr) => {
-          const hasQuotes = curr.match(/=['"]/)
-          // Check key="value" | key='value' |  key={value}
-          const propWithValue = /([A-Za-z-_$]+)=['{"](.*)['}"]/g.exec(curr)
-          if (propWithValue && propWithValue[1]) {
-            return {
-              ...acc,
-              [`${propWithValue[1]}`]: (hasQuotes) ? propWithValue[2] : convert(propWithValue[2])
-            }
-          }
-          // Check isLoading boolean props
-          const booleanProp = curr.match(/([A-Za-z]*)/)
-          if (booleanProp && booleanProp[1]) {
-            return {
-              ...acc,
-              [`${booleanProp[1]}`]: true
-            }
-          }
-          return acc
-        }, {})
-      }
-
-      tags.push({
-        tag: tag,
-        props: propsValues,
-        raw: match
-      })
-    }
-  }
-  return tags
-}
-
-function convert(value) {
-  if (value === 'false') {
-    return false
-  }
-  if (value === 'true') {
-    return true
-  }
-  const isNumber = Number(value)
-  if (typeof isNumber === 'number' && !isNaN(isNumber)) {
-    return isNumber
-  }
-
-  try {
-    const val = JSON.parse(value)
-    return val
-  } catch (err) {
-    
-  }
-
-  return value
 }
 
 function fixImageTags(content) {
@@ -423,23 +237,6 @@ function fixImageTags(content) {
   return content
     .replace(removeTrailingImg, '')
     .replace(fixMissingClosingImgTag, '$1/>')
-}
-
-/**
- * Get image links
- * @param {array|string} linksOrText
- * @returns {array}
- */
-function getImageLinks(linksOrText) {
-  let links = linksOrText
-  if (!Array.isArray(linksOrText)) {
-    const linkData = getLinks(linksOrText)
-    links = linkData.links.concat(getRelativeLinks(linksOrText))
-  }
-  const imageLinks = links.filter((link) => {
-    return link.match(/(png|jpe?g|gif|webp|svg)$/)
-  })
-  return imageLinks
 }
 
 function sortByDate(dateKey = 'date', order) {
@@ -456,8 +253,8 @@ function sortByDate(dateKey = 'date', order) {
 
 module.exports = {
   getMarkdownData,
-  getLinks,
-  getImageLinks,
+  getLinks: findLiveLinks,
+  getImageLinks: findImageLinks,
   getCategories,
   getAuthors,
   getTags,
