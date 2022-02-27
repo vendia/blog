@@ -54,7 +54,7 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
   const data = contents.map((text, i) => {
     // console.log('contents', filePaths[i])
     const markdownData = formatMD(text, filePaths[i])
-    console.log(markdownData)
+    // console.log(markdownData)
     if (markdownData.errors) {
       errors = errors.concat(markdownData.errors)
     }

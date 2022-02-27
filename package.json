@@ -6,12 +6,13 @@
   "author": "Vendia Inc",
   "main": "index.js",
   "scripts": {
-    "docs": "node ./.github/blog-generate.js",
+    "test": "uvu .github .test.js",
+    "docs": "node ./.github/generate-data.js",
     "new": "plop --plopfile .github/plopfile.js",
-    "validate": "uvu .github .test.js",
     "process": "node .github/process-images",
-    "test": "npm run validate",
-    "checklinks": "linkinator 'posts/**/*.md' --config ./.github/linkinator.config.json"
+    "checklinks": "npm run checklinks:posts && npm run checklinks:releases",
+    "checklinks:posts": "linkinator 'posts/**/*.md' --config ./.github/linkinator.config.json",
+    "checklinks:releases": "linkinator 'releases/**/*.md' --config ./.github/linkinator.config.json"
   },
   "homepage": "https://github.com/vendia/blog#readme",
   "repository": {

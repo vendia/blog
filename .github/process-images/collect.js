@@ -1,7 +1,7 @@
 const path = require('path')
 const { URL } = require('url')
 const { download } = require('./utils/download')
-const { getLinks, getImageLinks, getMarkdownData } = require('../utils')
+const { getLinks, getImageLinks, getMarkdownData } = require('../get-data')
 
 const debugLog = (process.env.DEBUG) ? console.log : () => {}
 

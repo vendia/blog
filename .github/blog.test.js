@@ -7,7 +7,7 @@ const {
   getCategories,
   getMarkdownData,
   DATE_FORMAT_REGEX
-} = require('./utils')
+} = require('./get-data')
 const { verifyMdExtension } =  require('./md-utils/verify-extension')
 
 const cwd = process.cwd()
@@ -50,11 +50,11 @@ test('Docs validation', async () => {
   const allCategories = await getCategories()
   const allCategorySlugs = allCategories.map((category) =>  category.slug)
   
-  console.log('All Blog Tags')
+  console.log('\nAll Blog Tags')
   console.log(allTags)
-  console.log('All Blog Categories')
+  console.log('\nAll Blog Categories')
   console.log(allCategorySlugs)
-  console.log('All Authors')
+  console.log('\nAll Authors')
   console.log(allAuthors)
 
   /* Verify frontmatter contents */

@@ -34,10 +34,9 @@ jobs:
         node: [14]
     steps:
       - uses: actions/checkout@v2.3.2
+      # Install dependencies
       - uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
-      - name: Update post list
+      - name: Update post list & generated data
         run: npm run docs
       - name: Add
         run: |

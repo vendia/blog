@@ -12,7 +12,7 @@ const {
   getMarkdownData,
   sortByDate,
   DATE_FORMAT_REGEX
-} = require('./utils')
+} = require('./get-data')
 
 let markdownData = []
 
