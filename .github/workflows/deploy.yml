@@ -285,13 +285,13 @@ jobs:
           inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ steps.deploy-info.outputs.deployMessage }}", "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
 
       # Make changelog https://github.com/jaywcjlove/changelog-generator
-      - name: Generate changelog
-        id: changelog
-        uses: jaywcjlove/changelog-generator@main
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          filter-author: (dependabot|renovate\\[bot\\]|dependabot\\[bot\\]|Renovate Bot)
-          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+      # - name: Generate changelog
+      #   id: changelog
+      #   uses: jaywcjlove/changelog-generator@main
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     filter-author: (dependabot|renovate\\[bot\\]|dependabot\\[bot\\]|Renovate Bot)
+      #     filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
 
       # Updated Status Comment
       - name: Add success status comment to PR
@@ -304,8 +304,6 @@ jobs:
           header: statusComment
           message: |
             View the preview URL here.
-            
-            ${{ steps.changelog.outputs.compareurl }}
 
             ${{ steps.deploy-info.outputs.deployUrl }}/blog
 
@@ -315,14 +313,10 @@ jobs:
             ${{ steps.formatFileNames.outputs.files }}
             ```
 
-            **Changelog**
-
-            ${{ steps.changelog.outputs.changelog }}
-
-            **💡 Tips:** 
+            **PR Tips**
 
             <details>
-            <summary>✍<b>How to edit files</b></summary>
+            <summary><b> How to edit files in this pull request</b> ✍</summary>
 
               1. **View files changed by clicking "Files changed"**
 
