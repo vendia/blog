@@ -19,6 +19,7 @@ Welcome to the Vendia blog repo!
   - [3. In your post, include post meta information:](#3-in-your-post-include-post-meta-information)
   - [4. Add your author bio](#4-add-your-author-bio)
   - [5. Submit a PR to the repository](#5-submit-a-pr-to-the-repository)
+  - [6. Editing content in a pull request](#6-editing-content-in-a-pull-request)
 - [Adding Images](#adding-images)
 - [Adding external posts](#adding-external-posts)
 - [Markdown Resources](#markdown-resources)
@@ -321,6 +322,30 @@ To contribute, fork this repo and submit a PR.
 We will review and publish your post with our audience on [vendia.net](https://vendia.net/blog/).
 
 Ping us with any questions on [Twitter @VendiaHQ](http://twitter.com/VendiaHQ) or [post an issue](https://github.com/vendia/blog/issues/new).
+
+
+### 6. Editing content in a pull request
+
+Go into the pull request tab and view the PR you'd like to edit. Then follow this flow:
+
+<details>
+<summary>✍<b>How to edit files in a pull request</b></summary>
+
+  1. **View files changed by clicking "Files changed"**
+
+      <img width="947" alt="image" src="https://user-images.githubusercontent.com/532272/156040284-811a29d3-a932-4e67-bfe5-44316799970d.png">
+
+  2. **To make edits to a file, click on the "..." and select "edit file"**
+
+      <img width="1464" alt="image" src="https://user-images.githubusercontent.com/532272/156040306-899fb54d-a665-4bf1-a907-d4f370dad93f.png">
+
+  3. **Make your changes and click commit to save back to the current document**
+
+      <img width="1339" alt="image" src="https://user-images.githubusercontent.com/532272/156040360-bd2b4c43-73cd-4bb5-8a59-2e8ab7119625.png">
+
+  4. **Your changes should now be reflected in the pull request**
+
+</details>
 
 ---
 

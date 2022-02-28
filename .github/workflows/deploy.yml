@@ -284,6 +284,15 @@ jobs:
           wait_workflow: true
           inputs: '{"environment": "${{ steps.deploy-info.outputs.deployContext }}", "blogBranch": "${{ steps.branch-name.outputs.current_branch }}", "message": "${{ steps.deploy-info.outputs.deployMessage }}", "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}"}'
 
+      # Make changelog https://github.com/jaywcjlove/changelog-generator
+      - name: Generate changelog
+        id: changelog
+        uses: jaywcjlove/changelog-generator@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filter-author: (dependabot|renovate\\[bot\\]|dependabot\\[bot\\]|Renovate Bot)
+          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
+
       # Updated Status Comment
       - name: Add success status comment to PR
         if: github.event_name == 'pull_request' && github.ref != 'refs/heads/master'
@@ -295,6 +304,8 @@ jobs:
           header: statusComment
           message: |
             View the preview URL here.
+            
+            ${{ steps.changelog.outputs.compareurl }}
 
             ${{ steps.deploy-info.outputs.deployUrl }}/blog
 
@@ -304,7 +315,30 @@ jobs:
             ${{ steps.formatFileNames.outputs.files }}
             ```
 
-            **💡 Tip:** Press the "." key to open these changed files in an editor.
+            **Changelog**
+
+            ${{ steps.changelog.outputs.changelog }}
+
+            **💡 Tips:** 
+
+            <details>
+            <summary>✍<b>How to edit files</b></summary>
+
+              1. **View files changed by clicking "Files changed"**
+
+                  <img width="947" alt="image" src="https://user-images.githubusercontent.com/532272/156040284-811a29d3-a932-4e67-bfe5-44316799970d.png">
+
+              2. **To make edits to a file, click on the "..." and select "edit file"**
+
+                  <img width="1464" alt="image" src="https://user-images.githubusercontent.com/532272/156040306-899fb54d-a665-4bf1-a907-d4f370dad93f.png">
+
+              3. **Make your changes and click commit to save back to the current document**
+
+                  <img width="1339" alt="image" src="https://user-images.githubusercontent.com/532272/156040360-bd2b4c43-73cd-4bb5-8a59-2e8ab7119625.png">
+
+              4. **Your changes should now be reflected in the pull request**
+
+            </details>
 
       - name: Add failure status comment to PR
         if: ${{ failure() }}
