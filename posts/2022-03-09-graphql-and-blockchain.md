@@ -142,4 +142,4 @@ This has enormous implications. First, participants have full transparency into 
 
 Vendia has provided a number of capabilities to improve the GraphQL development experience. From transactional semantics to GraphQL subscriptions to exposing data in the built-in ledger, Vendia Share allows developers to easily leverage their existing knowledge of GraphQL while also creating enterprise-grade solutions using the additional GraphQL features provided by Vendia Share. 
 
-We've expanded our [code examples](https://github.com/vendia/examples/tree/main/features/share/graphql) to highlight these three capabilities using several programming languages.
+We've expanded our [code examples](https://github.com/vendia/examples/tree/main/features/share/graphql/graphql-enhancements) to highlight these three capabilities using several programming languages.
