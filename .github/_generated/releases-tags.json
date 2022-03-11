@@ -1,10 +1,11 @@
 {
+  "new-features": "New Features",
+  "improvements": "Improvements",
+  "aws": "AWS",
   "user-experience": "User Experience",
   "developer-experience": "Developer Experience",
-  "improvements": "Improvements",
   "operations": "Operations",
   "smart-contracts": "Smart Contracts",
-  "new-features": "New Features",
   "azure": "Azure",
   "share-tiers-and-pricing": "Share Tiers and Pricing",
   "acid-semantics": "ACID Semantics",

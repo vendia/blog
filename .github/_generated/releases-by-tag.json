@@ -1,4 +1,93 @@
 {
+  "New Features": [
+    {
+      "file": "/releases/2022-03-11-releasenotes.md",
+      "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
+      "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
+      "date": "2022-03-11",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements",
+        "AWS"
+      ]
+    },
+    {
+      "file": "/releases/2021-12-10-releasenotes.md",
+      "title": "A Sleigh Full of New Features",
+      "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
+      "date": "2021-12-10",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Azure",
+        "Smart Contracts",
+        "Share Tiers and Pricing",
+        "ACID Semantics"
+      ]
+    },
+    {
+      "file": "/releases/2021-11-26-releasenotes.md",
+      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
+      "description": "We're excited to share the new Vendia Share user interface with you",
+      "date": "2021-11-26",
+      "tags": [
+        "New Features",
+        "GraphQL",
+        "Share Web"
+      ]
+    }
+  ],
+  "Improvements": [
+    {
+      "file": "/releases/2022-03-11-releasenotes.md",
+      "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
+      "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
+      "date": "2022-03-11",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements",
+        "AWS"
+      ]
+    },
+    {
+      "file": "/releases/2022-01-14-releasenotes.md",
+      "title": "Improved Usability, Reliability, and Speed…as a Service",
+      "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
+      "date": "2022-01-14",
+      "draft": false,
+      "tags": [
+        "Improvements",
+        "Operations"
+      ]
+    },
+    {
+      "file": "/releases/2021-12-24-releasenotes.md",
+      "title": "Improving Smart Contracts Validation",
+      "description": "Delivering improved validation and error handling",
+      "date": "2021-12-24",
+      "draft": false,
+      "tags": [
+        "Smart Contracts",
+        "Improvements"
+      ]
+    }
+  ],
+  "AWS": [
+    {
+      "file": "/releases/2022-03-11-releasenotes.md",
+      "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
+      "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
+      "date": "2022-03-11",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements",
+        "AWS"
+      ]
+    }
+  ],
   "User Experience": [
     {
       "file": "/releases/2022-01-31-releasenotes.md",
@@ -22,30 +111,6 @@
       "tags": [
         "User Experience",
         "Developer Experience"
-      ]
-    }
-  ],
-  "Improvements": [
-    {
-      "file": "/releases/2022-01-14-releasenotes.md",
-      "title": "Improved Usability, Reliability, and Speed…as a Service",
-      "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
-      "date": "2022-01-14",
-      "draft": false,
-      "tags": [
-        "Improvements",
-        "Operations"
-      ]
-    },
-    {
-      "file": "/releases/2021-12-24-releasenotes.md",
-      "title": "Improving Smart Contracts Validation",
-      "description": "Delivering improved validation and error handling",
-      "date": "2021-12-24",
-      "draft": false,
-      "tags": [
-        "Smart Contracts",
-        "Improvements"
       ]
     }
   ],
@@ -86,33 +151,6 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
-    }
-  ],
-  "New Features": [
-    {
-      "file": "/releases/2021-12-10-releasenotes.md",
-      "title": "A Sleigh Full of New Features",
-      "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
-      "date": "2021-12-10",
-      "draft": false,
-      "tags": [
-        "New Features",
-        "Azure",
-        "Smart Contracts",
-        "Share Tiers and Pricing",
-        "ACID Semantics"
-      ]
-    },
-    {
-      "file": "/releases/2021-11-26-releasenotes.md",
-      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
-      "description": "We're excited to share the new Vendia Share user interface with you",
-      "date": "2021-11-26",
-      "tags": [
-        "New Features",
-        "GraphQL",
-        "Share Web"
       ]
     }
   ],
