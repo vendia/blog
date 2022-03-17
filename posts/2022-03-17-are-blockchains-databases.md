@@ -6,6 +6,7 @@ date: '2022-03-17'
 authors:
   - Tim Wagner
 ---
+_Originally published at [The New Stack](https://thenewstack.io/are-blockchains-databases/)_ 
 
 At their heart, modern, cloud-based databases are about making data durable — typically by storing replicas of that data on different physical devices. Blockchains like [Hyperledger Fabric](https://www.hyperledger.org/use/fabric) are another way to replicate and store data, sometimes even including a conventional database as part of their architecture.
 
