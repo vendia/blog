@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Adding Data in a CSV to Vendia Share Using Email](https://vendia.net/blog/add-csv-to-vendia-share) <br/> How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed by Caroll Casbeer | 2022-03-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-15-add-csv-to-vendia-share.md)
 | [Why GraphQL Isn't Sufficient for Enterprise Blockchains and What We Did About It](https://vendia.net/blog/graphql-and-blockchain) <br/> Enriching GraphQL with Transactions, Condition Updates, and Ledgering by Brian McNamara | 2022-03-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-09-graphql-and-blockchain.md)
 | [The Next Wave of B2B Data Sharing is Here](https://vendia.net/blog/b2b-data-sharing) <br/> B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls by Joydeep Das | 2022-02-24 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-24-b2b-data-sharing.md)
 | [Lean Apps Part 4: The Lean App Manifesto](https://vendia.net/blog/lean-app-part-4) <br/> Flip the innovation iceberg! by Tim Wagner | 2022-02-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-03-lean-app-part-4.md)
