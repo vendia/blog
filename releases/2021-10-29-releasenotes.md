@@ -26,16 +26,14 @@ For example, the sample schema file in [Vendia's simple product catalog quick st
 Previously, adding a product required a query similar to the following:
 
 ```graphql
-
-add_Product_async(name: "Awesome shirt", sku: "abc123", price: 10, size: "XL") {id}
-
+mutation AddProduct {add_Product(input: {name: "Awesome shirt", sku: "abc123", price: 10, size: "XL"} syncMode: NODE_LEDGERED) {result {_owner}}}
 ```
 
 Now, adding a product requires changing the size attribute from a string to a valid enum value.
 
 ```graphql
 
-add_Product_async(name: "Awesome shirt", sku: "abc123", price: 10, size: XL) {id}
+mutation AddProduct {add_Product(input: {name: "Awesome shirt", sku: "abc123", price: 10, size: XL} syncMode: NODE_LEDGERED) {result {_owner}}}
 
 ```
 

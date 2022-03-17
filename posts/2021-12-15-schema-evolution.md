@@ -103,7 +103,7 @@ We can view the deployed schema from the Vendia Share web application.
 ```
 </details>
 
-Though the schema is valid - our Uni was successfully created after all - it's lacking something. It's missing a **quantity** field to capture the count of each item we have in stock. The field isn't available when we try to add a new product via the `add_Product_async` operation.
+Though the schema is valid - our Uni was successfully created after all - it's lacking something. It's missing a **quantity** field to capture the count of each item we have in stock. The field isn't available when we try to add a new product via the `add_Product` operation.
 
 <img width="1357" alt="03-add-new-product-with-introspection" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020054-6bcd7edb-aaff-4066-9a04-20f831453b7c.png" />
 
@@ -201,7 +201,7 @@ Let's first make sure our new field - **quantity** - is present in our Uni's sch
 
 <img width="1399" alt="06-schema-after-evolution" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020628-a73752b7-9018-4ab2-bdd4-1cb86ed32d5e.png" />
 
-Now that we know our new field is present, let's confirm it's accessible. We can go back to the node's GraphQL Explorer and examine the available fields when running a `add_Product_async` operation.
+Now that we know our new field is present, let's confirm it's accessible. We can go back to the node's GraphQL Explorer and examine the available fields when running a `add_Product` operation.
 
 <img width="1412" alt="07-add-new-shape-with-introspection-after-evolution" src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088146020856-e51b3e50-19ca-480a-a35c-76e406b2b5f0.png" />
 

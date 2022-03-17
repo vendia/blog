@@ -72,15 +72,19 @@ File operations are built into Vendia Share - no matter what your schema model l
 
 ```graphql
 mutation AddFile {
-  addVendia_File_async(
+  addVendia_File(
     input: {
       sourceBucket: "<YOUR S3 BUCKET NAME HERE>",
       sourceKey: "<OBJECT NAME FROM YOUR S3 BUCKET>",
       sourceRegion: "<REGION OF YOUR S3 BUCKET>",
       destinationKey: "my-first-file.txt"
     }
-  )
-  {error}
+    syncMode: ASYNC
+  ) {
+  transaction {
+      transactionId
+    }
+  }
 }
 ```
 
@@ -89,7 +93,7 @@ Your mutation will look something like this once the arguments are properly fill
 
 
 
-![Add File mutation](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140452181-2d2e16a8-5986-4351-8281-fc1523f6b77b.png)
+![Add File mutation](https://user-images.githubusercontent.com/92179243/158846137-8cbed50f-ce28-4fa3-ad3c-19a4ef68a919.jpg)
 
 
 After your **__AddFile__** mutation executes, the new file will be visible to all nodes in the Uni. You can see it in your original node by running the following query:
@@ -147,14 +151,19 @@ Now, let's make sure permissions work. Let's verify that Node 2 cannot update th
 
 ```graphql
 mutation UpdateFile {
-  updateVendia_File_async(id: "", 
+  updateVendia_File(id: "", 
     input: {
       sourceBucket: "",
       sourceKey: "",
       sourceRegion: "",
       destinationKey: ""
     }
-  ) {error}
+    syncMode: ASYNC
+  ) {
+  transaction {
+      transactionId
+    }
+  }
 }
 ```
 
@@ -162,7 +171,7 @@ mutation UpdateFile {
 Running the update mutation above in Node 2 will result in the following output:
 
 
-![alt_text](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-02-18-sharing-files-in-a-uni/no_write_permissions.png "No write permissions")
+![alt_text](https://user-images.githubusercontent.com/92179243/158893869-b6d19ec0-456e-434d-8588-4e05fa63771c.jpg "No write permissions")
 
 
 That's as it should be - the error matches our expectation that Node 2 isn't allowed to modify this file.
@@ -175,7 +184,7 @@ When adding a file, we could also choose to restrict the set of nodes with read 
 
 ```graphql
 mutation AddFile2 {
-  addVendia_File_async(
+  addVendia_File(
     input: {
       sourceBucket: "my_bucket",
       sourceKey: "test.txt",
@@ -183,8 +192,12 @@ mutation AddFile2 {
       destinationKey: "my-second-file.txt",
       read: ["TestNode1"]
     }
-  )
-  {error}
+    syncMode: ASYNC
+  ){
+  transaction {
+      transactionId
+    }
+  }
 }
 ```
 
@@ -213,7 +226,7 @@ Execute the following mutation to add a third file that can be modified by any n
 
 ```graphql
 mutation AddFile3 {
-  addVendia_File_async(
+  addVendia_File(
     input: {
       sourceBucket: "my_bucket",
       sourceKey: "test.txt",
@@ -221,8 +234,12 @@ mutation AddFile3 {
       destinationKey: "my-third-file.txt",
       write: ["*"]
     }
-  )
-  {error}
+    syncMode: ASYNC
+  ){
+  transaction {
+      transactionId
+    }
+  }
 }
 ```
 
