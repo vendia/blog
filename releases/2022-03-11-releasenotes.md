@@ -19,7 +19,7 @@ It's common for the participants within a Universal Application (Uni) to grow or
 With the new node leave feature, participants can decide to leave a Uni they've previously joined.  This new feature is available through the `Manage Node` button.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/85032783/157789751-ec064e2d-6a1e-4501-ae36-90316cb56c74.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..157789751-ec064e2d-6a1e-4501-ae36-90316cb56c74.png" />
 </p>
 <p align="center">Figure 1: Manage a Node</p>
 
@@ -27,7 +27,7 @@ With the new node leave feature, participants can decide to leave a Uni they've 
 From the `Manage Node` view, a participant can navigate to the `Node Settings` view using the left navigation pane.  From that view, a participant who wants to leave a Uni has the option to either `Archive` their node or `Delete` their node.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/85032783/157789752-ffe54730-da64-4d5a-903d-fb0ca64dd611.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..157789752-ffe54730-da64-4d5a-903d-fb0ca64dd611.png" />
 </p>
 <p align="center">Figure 2: Archive or Delete a Node</p>
 
@@ -61,7 +61,7 @@ Today, we're happy to announce **a new maximum file size limit of 5GB**.  This f
 The Share web app continues to support manual file uploads for files up to 1GB.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/85032783/157789753-09b4a8ce-4f67-4b18-97bc-9e09c13592da.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..157789753-09b4a8ce-4f67-4b18-97bc-9e09c13592da.png" />
 </p>
 <p align="center">Figure 3: Large File Upload</p>
 
@@ -70,7 +70,7 @@ The Share web app continues to support manual file uploads for files up to 1GB.
 Vendia Share is now listed on the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-6rjbm2je2n6ki?sr=0-1&ref_=beagle&applicationId=AWSMPContessa), giving those considering an Enterprise Vendia Share license a simple, streamlined purchasing pathway.  The AWS Marketplace listing helps us reach a large customer base with our product and helps those exploring Share quickly and easily move to an Enterprise plan.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/85032783/157789754-32014ead-0147-4d3b-8ac3-20a2c2f8a5ff.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..157789754-32014ead-0147-4d3b-8ac3-20a2c2f8a5ff.png" />
 </p>
 <p align="center">Figure 4: AWS Marketplace Listing</p>
 

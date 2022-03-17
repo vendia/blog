@@ -26,6 +26,6 @@ This example will demonstrate how to send scalar data from a comma-separated val
 We will deploy the example using the [Vendia Share Command Line Interface (CLI)](https://vendia.net/docs/share/cli) and the [AWS Serverless Application Model (SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) to send scalar data from a CSV to a Vendia Share Uni.  
 Serverless resources like a [AWS S3](https://aws.amazon.com/s3/) bucket and [AWS Lambda](https://aws.amazon.com/lambda/) function will be deployed.  CSV processing with a AWS Lambda function will be triggered by uploading data to a AWS S3 bucket.  The Lambda function will read through the CSV and publish data to a node's GraphQL endpoint.
 
-![email-to-share Architecture](https://user-images.githubusercontent.com/71095088/158896739-6182e528-f0a5-4382-b2e4-1fab598a7e35.png)
+![email-to-share Architecture](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088..158896739-6182e528-f0a5-4382-b2e4-1fab598a7e35.png)
 
 Check out the [step-by-step guide](https://github.com/vendia/examples/blob/main/share/email-to-share/README.md) in our GitHub repository. And if you get stuck head to our [Discourse](https://community.vendia.net) to get some help!
