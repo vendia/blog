@@ -1,174 +1,15 @@
 {
-  "caroll-casbeer": [
-    {
-      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
-      "title": "Adding Data in a CSV to Vendia Share Using Email",
-      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
-      "draft": false,
-      "date": "2022-03-15",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
-      "title": "My First 30 Days at Vendia",
-      "description": "From onboarding to an offsite - some thoughts on my first 30 days at Vendia",
-      "date": "2022-02-09",
-      "draft": false,
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    }
-  ],
-  "brian-mcnamara": [
-    {
-      "file": "/posts/2022-03-09-graphql-and-blockchain.md",
-      "title": "Why GraphQL Isn't Sufficient for Enterprise Blockchains and What We Did About It",
-      "description": "Enriching GraphQL with Transactions, Condition Updates, and Ledgering",
-      "draft": false,
-      "date": "2022-03-09",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
-      "title": "Scale Your Partner Ecosystem with Vendia Share",
-      "description": "Addressing the Challenge with Minimal Friction",
-      "date": "2022-01-27",
-      "categories": [
-        "tutorials",
-        "concepts"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
-      "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
-      "description": "Making Strategic Decisions to Enable a Platform",
-      "date": "2022-01-18",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-12-15-schema-evolution.md",
-      "title": "Schema Evolution",
-      "description": "Exploring the ability to update the data model in a Universal Application (Uni)",
-      "date": "2021-12-15",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
-      "title": "Authenticating Vendia Share Requests Using SAML",
-      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
-      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
-      "date": "2021-11-02",
-      "authors": [
-        "Brian McNamara"
-      ],
-      "categories": [
-        "architecture"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-12-open-beta-changes.md",
-      "title": "Open Beta Changes",
-      "description": "Changes to Vendia Share in advance of the Open Beta",
-      "date": "2021-10-12",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
-      "title": "Sharing Data with Fine-grained Control",
-      "description": "Defining Data Access Among Partners in a Universal Application",
-      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
-      "date": "2021-09-01",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
-      "title": "Don't Rip and Replace - Integrate",
-      "description": "Use Vendia Share to Complement Existing Data Stores.",
-      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
-      "date": "2021-05-10",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
-      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
-      "description": "How to create cross region serverless appplications",
-      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
-      "date": "2021-02-17",
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
-      "title": "Getting Started With Vendia Share",
-      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
-      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
-      "date": "2021-01-29",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
-      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
-      "date": "2021-01-25",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
-      "title": "Kind Humans Really Work Here",
-      "description": "Putting a company policy to the test",
-      "date": "2021-01-04",
-      "authors": [
-        "Brian McNamara"
-      ]
-    }
-  ],
-  "joydeep-das": [
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "title": "The Next Wave of B2B Data Sharing is Here",
-      "description": "B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.",
-      "date": "2022-02-24",
-      "draft": false,
-      "authors": [
-        "Joydeep Das"
-      ]
-    }
-  ],
   "tim-wagner": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "title": "Are Blockchains Databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are these technologies on a path to merge?",
+      "draft": false,
+      "date": "2022-03-17",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2022-02-03-lean-app-part-4.md",
       "title": "Lean Apps Part 4: The Lean App Manifesto",
@@ -380,6 +221,175 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
+      ]
+    }
+  ],
+  "caroll-casbeer": [
+    {
+      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
+      "title": "Adding Data in a CSV to Vendia Share Using Email",
+      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
+      "draft": false,
+      "date": "2022-03-15",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
+      "title": "My First 30 Days at Vendia",
+      "description": "From onboarding to an offsite - some thoughts on my first 30 days at Vendia",
+      "date": "2022-02-09",
+      "draft": false,
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    }
+  ],
+  "brian-mcnamara": [
+    {
+      "file": "/posts/2022-03-09-graphql-and-blockchain.md",
+      "title": "Why GraphQL Isn't Sufficient for Enterprise Blockchains and What We Did About It",
+      "description": "Enriching GraphQL with Transactions, Condition Updates, and Ledgering",
+      "draft": false,
+      "date": "2022-03-09",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
+      "title": "Scale Your Partner Ecosystem with Vendia Share",
+      "description": "Addressing the Challenge with Minimal Friction",
+      "date": "2022-01-27",
+      "categories": [
+        "tutorials",
+        "concepts"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
+      "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
+      "description": "Making Strategic Decisions to Enable a Platform",
+      "date": "2022-01-18",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-12-15-schema-evolution.md",
+      "title": "Schema Evolution",
+      "description": "Exploring the ability to update the data model in a Universal Application (Uni)",
+      "date": "2021-12-15",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
+      "title": "Sharing Data with Fine-grained Control",
+      "description": "Defining Data Access Among Partners in a Universal Application",
+      "longDescription": "Defining Data Access Among Partners in a Universal Application\n",
+      "date": "2021-09-01",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
+      "title": "Don't Rip and Replace - Integrate",
+      "description": "Use Vendia Share to Complement Existing Data Stores.",
+      "longDescription": "Use Vendia Share to Complement Existing Data Stores.\n",
+      "date": "2021-05-10",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
+      "title": "Creating a Cross Region Serverless Application in 5 Minutes",
+      "description": "How to create cross region serverless appplications",
+      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
+      "date": "2021-02-17",
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "title": "Getting Started With Vendia Share",
+      "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "date": "2021-01-29",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
+      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
+      "date": "2021-01-25",
+      "authors": [
+        "Cory Forsythe",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
+      "title": "Kind Humans Really Work Here",
+      "description": "Putting a company policy to the test",
+      "date": "2021-01-04",
+      "authors": [
+        "Brian McNamara"
+      ]
+    }
+  ],
+  "joydeep-das": [
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "title": "The Next Wave of B2B Data Sharing is Here",
+      "description": "B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.",
+      "date": "2022-02-24",
+      "draft": false,
+      "authors": [
+        "Joydeep Das"
       ]
     }
   ],
