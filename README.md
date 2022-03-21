@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Announcing Synchronous Mutations for Vendia Share](https://vendia.net/blog/synchronous-mutations) <br/> Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share by David Brown | 2022-03-21 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-21-synchronous-mutations.md)
 | [Are Blockchains Databases?](https://vendia.net/blog/are-blockchains-databases) <br/> With some databases now supporting versioning and checksums and blockchains storing more types of data, are these technologies on a path to merge? by Tim Wagner | 2022-03-17 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-17-are-blockchains-databases.md)
 | [Adding Data in a CSV to Vendia Share Using Email](https://vendia.net/blog/add-csv-to-vendia-share) <br/> How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed by Caroll Casbeer | 2022-03-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-15-add-csv-to-vendia-share.md)
 | [Why GraphQL Isn't Sufficient for Enterprise Blockchains and What We Did About It](https://vendia.net/blog/graphql-and-blockchain) <br/> Enriching GraphQL with Transactions, Condition Updates, and Ledgering by Brian McNamara | 2022-03-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-09-graphql-and-blockchain.md)
