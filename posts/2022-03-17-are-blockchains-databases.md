@@ -46,7 +46,7 @@ Databases also have a set of abilities that most blockchains don't share. (To ke
 
 Table 1 summarizes the relationship between databases and blockchains.
 
-![Table 1](https://user-images.githubusercontent.com/71095088/158864064-4df1f9da-a70a-4ab9-964b-0e90114d4dd7.png)
+![Table 1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088..158864064-4df1f9da-a70a-4ab9-964b-0e90114d4dd7.png)
 Table 1: A high-level feature comparison of databases and first-generation blockchains.
 [1] Database companies outside of cloud service providers may offer multi-cloud capabilities, but none with the reach of a self-deployed blockchain.
 
