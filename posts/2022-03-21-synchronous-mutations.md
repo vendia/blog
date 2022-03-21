@@ -4,7 +4,7 @@ description: 'Building applications on Vendia Share just got a lot easier! Today
 draft: false
 date: '2022-03-21'
 categories:
-- productgit add
+  - product
 authors:
   - David Brown
 ---

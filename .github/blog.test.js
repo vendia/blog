@@ -71,7 +71,7 @@ test('Post validation', async () => {
     }
     /* Files must have content */
     if (Object.keys(data).length && (isEmpty || !content)) {
-      console.log('doc', doc)
+      console.log('data', data)
       errors.push(`File empty -> ${file}`)
     }
 
@@ -130,7 +130,7 @@ test('Post validation', async () => {
     if (categories) {
       data.categories.forEach((cat) => {
         if (!allCategorySlugs.includes(cat)) {
-          errors.push(`Invalid category "${cat}" in ${doc.file}. 
+          errors.push(`Invalid category "${cat}" in ${file}. 
 Must be one of ${JSON.stringify(allCategorySlugs)}
 Add categories in the ./categories/categories.json file`)
         }
