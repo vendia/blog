@@ -43,7 +43,7 @@ If it’s not unique to your company, or doesn’t matter to your end users, why
 
 ### #2 Smart APIs over “dumb pipes”
 
-If your application has to poll repeatedly for data or expend code (and developer effort) dealing with missing, out-of-date, or inconsistent information, then you have a dumb APi problem. Smart APIs enable you to concentrate on application concerns, not the details of how data is secured, replicated, shipped across clouds, or made ACID.
+If your application has to poll repeatedly for data or expend code (and developer effort) dealing with missing, out-of-date, or inconsistent information, then you have a dumb API problem. Smart APIs enable you to concentrate on application concerns, not the details of how data is secured, replicated, shipped across clouds, or made ACID.
 
 
 ### #3 Schemas over code
@@ -58,7 +58,7 @@ If your application has to poll repeatedly for data or expend code (and develope
 
 ### #5 Off-the-shelf data sharing over costly “DIY data”
 
-If your application is reinventing the wheel by trying to solve cross-company, cross-cloud, cross-region, or cross-account data sharing (with a focus on security, scalablility, cost management, fault tolerance, and compliant data access controls), then something is wrong. _DIYing _any_ of these data sharing solutions is the poster child of undifferentiated heavy lifting._
+If your application is reinventing the wheel by trying to solve cross-company, cross-cloud, cross-region, or cross-account data sharing (with a focus on security, scalablility, cost management, fault tolerance, and compliant data access controls), then something is wrong. _DIYing any of these data sharing solutions is the poster child of undifferentiated heavy lifting._
 
 
 ### #6 SaaS over IaaS; server*less* over server*ful*
