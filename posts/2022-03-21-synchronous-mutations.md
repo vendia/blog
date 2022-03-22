@@ -28,7 +28,7 @@ To address these issues we are introducing new APIs that give you the ability to
 
 Let’s take a look at some of the changes we made. In the GraphQL Explorer in the [Vendia Share UI](https://share.vendia.net/), you will notice you have access to two different APIs for the same mutation. One that ends in `_async` and one that doesn’t. 
 
-![](https://user-images.githubusercontent.com/92179243/159369663-595206f8-f5ae-4a09-9342-4679155ce4d4.png)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..159369663-595206f8-f5ae-4a09-9342-4679155ce4d4.png)
 
 The `_async` APIs are the legacy version and can only be used for asynchronous mutations.  The new APIs (the ones without the`_async`) can handle both synchronous and asynchronous mutations. Both APIs can be used but we _strongly_ recommend using the new APIs. 
 
@@ -38,11 +38,11 @@ Using the new API requires providing a new `syncMode` parameter. The options for
 
 Here is an example of making a synchronous mutation:
 
-![](https://user-images.githubusercontent.com/92179243/159369872-1ad7d714-2876-47c0-82e7-f6df197d30e5.png)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..159369872-1ad7d714-2876-47c0-82e7-f6df197d30e5.png)
 
 Another example of making an asynchronous mutation:
 
-![](https://user-images.githubusercontent.com/92179243/159369916-3df6a881-87c0-479d-8dcc-7153a73c460b.png)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..159369916-3df6a881-87c0-479d-8dcc-7153a73c460b.png)
 
 ## Wrapping up
 

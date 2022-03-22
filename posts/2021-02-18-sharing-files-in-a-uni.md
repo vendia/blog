@@ -93,7 +93,7 @@ Your mutation will look something like this once the arguments are properly fill
 
 
 
-![Add File mutation](https://user-images.githubusercontent.com/92179243/158846137-8cbed50f-ce28-4fa3-ad3c-19a4ef68a919.jpg)
+![Add File mutation](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..158846137-8cbed50f-ce28-4fa3-ad3c-19a4ef68a919.jpg)
 
 
 After your **__AddFile__** mutation executes, the new file will be visible to all nodes in the Uni. You can see it in your original node by running the following query:
@@ -171,7 +171,7 @@ mutation UpdateFile {
 Running the update mutation above in Node 2 will result in the following output:
 
 
-![alt_text](https://user-images.githubusercontent.com/92179243/158893869-b6d19ec0-456e-434d-8588-4e05fa63771c.jpg "No write permissions")
+![alt_text](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..158893869-b6d19ec0-456e-434d-8588-4e05fa63771c.jpg "No write permissions")
 
 
 That's as it should be - the error matches our expectation that Node 2 isn't allowed to modify this file.
