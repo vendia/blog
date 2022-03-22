@@ -21,12 +21,12 @@ In cases where ordering isn't important, or when you don't need to guarantee bot
 
 ```graphql
 mutation m {
-  warehouse1: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: NODE_LEDGERED) {
+  warehouse1: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
     transaction {
       transactionId
     }
   }
-  warehouse2: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: NODE_LEDGERED) {
+  warehouse2: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
    transaction {
       transactionId
     }
@@ -48,12 +48,12 @@ When used with a mutation to create, change, or delete data, Vendia Transactions
 
 ```graphql
 mutation m @vendia_transaction {
-  warehouse1: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: NODE_LEDGERED) {
+  warehouse1: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
     transaction {
       transactionId
     }
   }
-  warehouse2: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: NODE_LEDGERED) {
+  warehouse2: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
     transaction {
       transactionId
     }
@@ -93,7 +93,7 @@ Let's work through an example where we want to update the shipment date and item
 
 ```graphql
 mutation m {
-  update_PurchaseOrder(id: "017d92a7-0ab5-5513-fac1-c50be330f092", input: {shipmentDate: "2021-02-16T09:00:00Z", quantity: 10}, condition: {warehouseQuantity: {gte: 100}} syncMode: NODE_LEDGERED) {
+  update_PurchaseOrder(id: "017d92a7-0ab5-5513-fac1-c50be330f092", input: {shipmentDate: "2021-02-16T09:00:00Z", quantity: 10}, condition: {warehouseQuantity: {gte: 100}} syncMode: ASYNC) {
     transaction {
       transactionId
     }

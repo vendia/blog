@@ -387,11 +387,8 @@ To finalize this integration, we next:
               ]
             }
           }
-          syncMode: NODE_LEDGERED
+          syncMode: ASYNC
         ) {
-          result {
-            _owner
-          }
           transaction {
             transactionId
             submissionTime
@@ -474,11 +471,8 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
           input: {
             expected: "2022-01-03T00:00:00Z"
           }
-          syncMode: NODE_LEDGERED
+          syncMode: ASYNC
         ) {
-          result {
-            _owner
-          }
           transaction {
             transactionId
             submissionTime

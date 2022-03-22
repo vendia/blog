@@ -242,11 +242,10 @@ mutation addSprinklesCupcake {
         }
       ]
     }
-    syncMode: NODE_LEDGERED
+    syncMode: ASYNC
   ) {
-    result {
-      _id
-      _owner
+    transaction {
+      transactionId
     }
   }
 }
@@ -411,11 +410,10 @@ mutation addRedVelvetCake {
             }
         ]
     }
-    syncMode: NODE_LEDGERED
+    syncMode: ASYNC
   ) {
-      result {
-          _id
-          _owner
+      transaction {
+          transactionId
       }   
   }
 }
@@ -545,11 +543,11 @@ mutation updateRedVelvetCakeAcl {
               },
           ]
       }
-      syncMode: NODE_LEDGERED
+      syncMode: ASYNC
     ) {
-    result {
-        _id
-    }
+    transaction {
+          transactionId
+      } 
   }
 }
 ```
