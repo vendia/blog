@@ -177,7 +177,7 @@ Run the following mutation from the `Alice` GraphQL Explorer.
 
 ```graphql
 mutation addSprinklesCupcake {
-  add_Recipe_async(
+  add_Recipe(
     input: {
       name: "Sprinkles Cupcake", 
       sku: "cc001", 
@@ -242,11 +242,10 @@ mutation addSprinklesCupcake {
         }
       ]
     }
+    syncMode: ASYNC
   ) {
-    error
-    result {
-      _id
-      _owner
+    transaction {
+      transactionId
     }
   }
 }
@@ -349,7 +348,7 @@ Run this query from the `Alice` GraphQL Explorer.
 
 ```graphql
 mutation addRedVelvetCake {
-  add_Recipe_async(
+  add_Recipe(
     input: {
         name: "Red Velvet Cake",
         sku: "ca001",
@@ -411,11 +410,10 @@ mutation addRedVelvetCake {
             }
         ]
     }
+    syncMode: ASYNC
   ) {
-      error
-      result {
-          _id
-          _owner
+      transaction {
+          transactionId
       }   
   }
 }
@@ -476,7 +474,7 @@ Once we have the **_id** of the recipe, we can run another query to update the A
 
 ```graphql
 mutation updateRedVelvetCakeAcl {
-  put_Recipe_async(
+  put_Recipe(
       id: "017cf035-6a71-219b-97ab-3af9e2386f72",
       input: {
           name: "Red Velvet Cake",
@@ -545,11 +543,11 @@ mutation updateRedVelvetCakeAcl {
               },
           ]
       }
+      syncMode: ASYNC
     ) {
-    error
-    result {
-        _id
-    }
+    transaction {
+          transactionId
+      } 
   }
 }
 ```

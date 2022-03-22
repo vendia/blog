@@ -213,14 +213,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
     
       ```graphql
       mutation updatePurchaseOrder {
-        update_PurchaseOrder_async(
+        update_PurchaseOrder(
           id: "<PO_ID>",
           input: {
             expected: "2022-01-03T00:00:00Z"
-          }) {
-          result {
-            _id
-            _owner
+          }
+          syncMode: ASYNC) {
+          transaction {
             submissionTime
             transactionId
             version
@@ -240,14 +239,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
     
       ```graphql
       mutation updatePurchaseOrder {
-        update_PurchaseOrder_async(
+        update_PurchaseOrder(
           id: "<PO_ID>",
           input: {
             expected: "2022-01-03T00:00:00Z"
-          }) {
-          result {
-            _id
-            _owner
+          }
+          syncMode: ASYNC) {
+          transaction {
             submissionTime
             transactionId
             version
@@ -264,14 +262,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
     
       ```graphql
       mutation updatePurchaseOrder {
-        update_PurchaseOrder_async(
+        update_PurchaseOrder(
           id: "<PO_ID>",
           input: {
             expected: "2022-01-03T00:00:00Z"
-          }) {
-          result {
-            _id
-            _owner
+          }
+          syncMode: ASYNC) {
+          transaction {
             submissionTime
             transactionId
             version

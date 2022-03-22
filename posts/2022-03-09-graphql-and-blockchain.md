@@ -21,23 +21,21 @@ In cases where ordering isn't important, or when you don't need to guarantee bot
 
 ```graphql
 mutation m {
-  warehouse1: update_Inventory_async(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"}) {
-    error
-    result {
-      _id
+  warehouse1: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
+    transaction {
+      transactionId
     }
   }
-  warehouse2: update_Inventory_async(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"}) {
-    error
-    result {
-      _id
+  warehouse2: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
+   transaction {
+      transactionId
     }
   }
 }
 ```
 </details>
 
-As noted above, the two `update_Inventory_async` operations can occur in any order. The `warehouse2` operation could run before the `warehouse1` operation. Each operation also runs independently - there is no grouping. The `warehouse1` operation could succeed and the `warehouse2` operation could fail. Even though they are submitted together, they should be thought of as two completely separate transactions.
+As noted above, the two `update_Inventory` operations can occur in any order. The `warehouse2` operation could run before the `warehouse1` operation. Each operation also runs independently - there is no grouping. The `warehouse1` operation could succeed and the `warehouse2` operation could fail. Even though they are submitted together, they should be thought of as two completely separate transactions.
 
 These GraphQL limitations led us to create Vendia Transactions. The idea originates with database transactions but we've applied them to a GraphQL interface for enterprise blockchain. Vendia Transactions are a custom GraphQL directive (@vendia_transaction) that can be used to decorate mutations and queries submitted to Vendia Share.
 
@@ -50,16 +48,14 @@ When used with a mutation to create, change, or delete data, Vendia Transactions
 
 ```graphql
 mutation m @vendia_transaction {
-  warehouse1: update_Inventory_async(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"}) {
-    error
-    result {
-      _id
+  warehouse1: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse1: 90, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
+    transaction {
+      transactionId
     }
   }
-  warehouse2: update_Inventory_async(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"}) {
-    error
-    result {
-      _id
+  warehouse2: update_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", input: {quantityWarehouse2: 10, lastUpdated: "2021-12-06T18:30:00Z"} syncMode: ASYNC) {
+    transaction {
+      transactionId
     }
   }
 }
@@ -97,10 +93,9 @@ Let's work through an example where we want to update the shipment date and item
 
 ```graphql
 mutation m {
-  update_PurchaseOrder_async(id: "017d92a7-0ab5-5513-fac1-c50be330f092", input: {shipmentDate: "2021-02-16T09:00:00Z", quantity: 10}, condition: {warehouseQuantity: {gte: 100}}) {
-    error
-    result {
-      _id
+  update_PurchaseOrder(id: "017d92a7-0ab5-5513-fac1-c50be330f092", input: {shipmentDate: "2021-02-16T09:00:00Z", quantity: 10}, condition: {warehouseQuantity: {gte: 100}} syncMode: ASYNC) {
+    transaction {
+      transactionId
     }
   }
 }

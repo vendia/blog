@@ -172,7 +172,7 @@ Now, let's take a look at the user-visible resources in each node.  The `EwrStat
 
 For the sake of this demonstration, we will be interacting with the GraphQL explorer provided by the Vendia Share web application for both the `EwrStation` and `LaxStation` nodes. In a real-world deployment, you'd probably be hooking the GraphQL mutations up to IoT sensors or other data inputs while using the queries to create web or mobile applications and/or integrating them with other parts of your cloud-based application.
 
-![Weather Station Uni Page](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140415440-5f4f6bfa-5181-496e-8a2b-5bcb06df93bb.png)
+![Weather Station Uni Page](https://user-images.githubusercontent.com/92179243/158901163-061b5389-0171-4626-a09f-077d7f94887c.jpg)
 
 ## Querying Data
 
@@ -216,17 +216,22 @@ So far we've assured ourselves that both nodes have a consistent view of the ini
 
 ```graphql
 mutation addTemp {
- add_Temperature_async(
+ add_Temperature(
    input: {
      airportCode: "EWR",
      timestamp: "2021-01-01T03:00:00Z",
      temperature: 1.5
    }
- )
+   syncMode: ASYNC
+   ){
+     transaction {
+      transactionId
+   }
+  }
 }
 ```
 
-![EWR Weather Station New Data Mutation Result](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140415719-b8e8c9a6-1422-4d04-828c-ebe9e75f4782.png)
+![EWR Weather Station New Data Mutation Result](https://user-images.githubusercontent.com/92179243/158901549-c4b81442-f761-481d-89d6-deedc273dd46.jpg)
 
 ## Querying Newly Added Data
 

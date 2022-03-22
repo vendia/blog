@@ -373,7 +373,7 @@ To finalize this integration, we next:
     
       ```graphql
       mutation updateAzureSettings {
-        updateVendia_Settings_async(
+        updateVendia_Settings(
           input: {
             azure: {
               defaultTenantId: "<AZURE_TENANT_ID>"
@@ -387,10 +387,9 @@ To finalize this integration, we next:
               ]
             }
           }
+          syncMode: ASYNC
         ) {
-          result {
-            _id
-            _owner
+          transaction {
             transactionId
             submissionTime
             version
@@ -467,16 +466,16 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
     
       ```graphql
       mutation updatePurchaseOrder {
-        update_PurchaseOrder_async(
+        update_PurchaseOrder(
           id: "<PO_ID>",
           input: {
             expected: "2022-01-03T00:00:00Z"
-          }) {
-          result {
-            _id
-            _owner
-            submissionTime
+          }
+          syncMode: ASYNC
+        ) {
+          transaction {
             transactionId
+            submissionTime
             version
           }
         }
