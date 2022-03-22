@@ -176,7 +176,7 @@ For the sake of this demonstration, we will be interacting with the GraphQL expl
 
 ## Querying Data
 
-Recall that when we created our Uni, we seeded it with data from the `initial-state.json` file.  Let's go ahead and query that initial data, which is stored in every node in our uni.  First, click on the 'Open GraphQL Explorer' in the Vendia Share web application for the `` node and list all of the Temperatures stored in the uni:
+Recall that when we created our Uni, we seeded it with data from the `initial-state.json` file.  Let's go ahead and query that initial data, which is stored in every node in our uni.  First, click on the 'Open GraphQL Explorer' in the Vendia Share web application for the `EwrStation` node and list all of the Temperatures stored in the uni:
 
 ```graphql
 query listTemperatures {
