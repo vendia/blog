@@ -1,6 +1,3 @@
-# Cloudy with a Chance of Blockchains
-
-
 ---
 title: 'Cloudy with Chance of Blockchain'
 description: 'How the cloud and public and private chains will power the web3 world'
