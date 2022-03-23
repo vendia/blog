@@ -11,7 +11,12 @@ Last week co-founder and CEO, Tim Wagner had the opportunity to speak at [Launch
 
 Tim explores how organizations can use best-in-class solutoins across private and public chains and the cloud. 
 
-[https://www.youtube.com/watch?v=cET9fzHVpF8](https://www.youtube.com/watch?v=cET9fzHVpF8)
+<img width="711" alt="Cloudy_with_a_chance_of_blockchain" src="https://user-images.githubusercontent.com/98492452/159790090-d4609612-dc51-49ee-8cbc-c603f822ffcc.png">
+
+
+
+[![Cloudy with a Chance of Blockchain]({https://user-images.githubusercontent.com/98492452/159790090-d4609612-dc51-49ee-8cbc-c603f822ffcc.png})]({https://www.youtube.com/watch?v=cET9fzHVpF8} "Watch it here!")
+
 
 Just want the deck? [Check it out here!](https://www.slideshare.net/CarollCasbeer1/three-body-problem-by-tim-wagner)
 
