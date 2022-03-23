@@ -1,6 +1,6 @@
 # Cloudy with a Chance of Blockchains
 
-```markdown
+
 ---
 title: 'Cloudy with Chance of Blockchain'
 description: 'How the cloud and public and private chains will power the web3 world'
@@ -8,11 +8,11 @@ date: '2022-03-24'
 authors:
   - Tim Wagner
 ---
-```
+
 
 Last week co-founder and CEO, Tim Wagner had the opportunity to speak at [Launchable: Web3 Startups presented by Madrona Ventures Labs.](https://www.madronavl.com/launchable/launchable-web3-startups) 
 
-Tim explores how organizations can use best-in-class tools across private and public chains and the cloud. 
+Tim explores how organizations can use best-in-class solutoins across private and public chains and the cloud. 
 
 [https://www.youtube.com/watch?v=cET9fzHVpF8](https://www.youtube.com/watch?v=cET9fzHVpF8)
 
