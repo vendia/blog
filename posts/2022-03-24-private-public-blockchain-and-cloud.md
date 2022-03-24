@@ -7,7 +7,7 @@ authors:
 ---
 
 
-Last week co-founder and CEO, Tim Wagner had the opportunity to speak at [Launchable: Web3 Startups presented by Madrona Ventures Labs.](https://www.madronavl.com/launchable/launchable-web3-startups) 
+Last week co-founder and CEO, Tim Wagner had the opportunity to speak at [Launchable: Web3 Startups presented by Madrona Ventures Labs](https://www.madronavl.com/launchable/launchable-web3-startups).
 
 Tim explores how organizations can use best-in-class solutoins across private and public chains and the cloud. 
 
