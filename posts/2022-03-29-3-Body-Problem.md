@@ -30,4 +30,4 @@ In reality, **all three categories are likely to emerge as key elements of moder
     
     Public chain integration will eventually comprise 1-3% of typical enterprise IT stacks over the long term.
     
-    In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example using Adobe Stock™️ that helps meet their business needs. 
+In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example using Adobe Stock™️ that helps meet their business needs. 
