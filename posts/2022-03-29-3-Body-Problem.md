@@ -1,12 +1,15 @@
-# Intro: **The Three-Body Problem**
-
-How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era
-
-Who should read this?
-
+---
+title: 'The Three-Body Problem'
+description: 'Forecast:Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era'
+date: '2022-03-30'
+thumbnail: 'http://url-to-thumbnail.jpg'
+authors:
+  - Tim Wagner
+---
+_Is this article for you?_
 If you’re a CIO, CTO, LOB leader, cloud architect,  or professional developer, interested in the future of development and the relationship between public chains, private chains, cloud services, and conventional IT. Or if you are considering one more blockchain projects or trying to build a cost effective partner data sharing solution. 
 
-## **Summary**
+## **Quick Overview**
 
 Conventional (aka centralized) application approaches, which are increasingly based on cloud services, are often portrayed as antithetical to both private and public blockchains. 
 
@@ -28,4 +31,3 @@ In reality, **all three categories are likely to emerge as key elements of moder
     Public chain integration will eventually comprise 1-3% of typical enterprise IT stacks over the long term.
     
     In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example using Adobe Stock™️ that helps meet their business needs. 
-    
