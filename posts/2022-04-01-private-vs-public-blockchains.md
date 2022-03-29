@@ -30,7 +30,7 @@ Let’s start with the basics: Centralized IT implementations will *always* offe
 
 Conversely, public chains offer the broadest distribution model for limited amounts of data, but at the highest cost of transfer and storage. **Between the two, private chains optimize for sharing large amounts of data in a reliable way with a fixed population – ideal for building partner data sharing solutions.**
 
-Blockchain advocates sometimes speak as if these distinctions will be swept away by “upcoming optimizations”. But the fact of the matter is that *this continuum is dictated by physics*: Copying data to more places, further away from the starting point, costs more time, takes more infrastructure resources, and therefore costs more money 💰.
+Blockchain advocates sometimes speak as if these distinctions will be swept away by "upcoming optimizations". But the fact of the matter is that *this continuum is dictated by physics*: Copying data to more places, further away from the starting point, costs more time, takes more infrastructure resources, and therefore costs more money.
 
 To put it bluntly: Changing a row in 1,000 databases has to cost at least 1,000 times more than changing a row in 1 database. Move that lump around wherever you like under the rug, but it’s still there somewhere. However those costs may be presented or apportioned, *there’s no way around the fundamental truth that, on a per-transaction basis, public chains cost dramatically more than a single, centralized resource holding the equivalent information.*
 
