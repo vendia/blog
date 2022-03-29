@@ -12,7 +12,7 @@ New, and especially disruptive, technologies often position themselves as antago
 
 ## Didn’t quite work that way, did it?
 
-As it turned out, public cloud adoption was a more incremental adoption pattern spanning decades, and even the most “all in” enterprise customers often still pursue a hybrid strategy that includes both cloud and on-premise elements.
+As it turned out, public cloud adoption was a more incremental adoption pattern spanning decades, and even the most "all in" enterprise customers often still pursue a hybrid strategy that includes both cloud and on-premise elements.
 
 Blockchain advocates took a similar stance when “their” technology emerged: Not only were the “private” and “public” chain camps at war with one another for supremacy, but both positioned themselves as a one-size-fits-all replacement for the entire IT stack. Of course, with some time and perspective, it became obvious that neither public nor private chains were a true substitute for the other, and that neither is a replacement for conventional (aka “centralized”) IT architectures.
 
