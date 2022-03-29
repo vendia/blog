@@ -21,7 +21,7 @@ Blockchain advocates took a similar stance when “their” technology emerged: 
 
 To understand these new design patterns better, let’s begin with a clear understanding of the continuum on which these technologies exist.
 
-[Understanding these technologies as points along a continuum.](https://lh4.googleusercontent.com/TAkNEKcFT7cTTtPXVF56uWJT7QCND4hFS1H4go57iGtJ3nFqiAwrX80PS-3-qmIc9MLiXq4LgCmgYXvDUCC-0GNExDlMRbxl5IRj8j5wHAMtWpUEkx5QPomj4-4qwMGOk50ZKoLS)
+![Understanding these technologies as points along a continuum.](https://user-images.githubusercontent.com/98492452/160671724-afef1874-49c5-4cd5-83ee-e1f95c60de9b.png)
 
 Understanding these technologies as points along a continuum.
 
