@@ -7,6 +7,7 @@ authors:
   - Tim Wagner
 ---
 _Is this series for you?_
+
 If you’re a CIO, CTO, LOB leader, cloud architect,  or professional developer, interested in the future of development and the relationship between public chains, private chains, cloud services, and conventional IT. Or if you are considering one more blockchain projects or trying to build a cost effective partner data sharing solution. 
 
 ## **Quick Overview**
