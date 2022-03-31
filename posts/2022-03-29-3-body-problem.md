@@ -32,4 +32,4 @@ Private chains will grow to represent 15-20% of IT stacks.
     
 In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example using Adobe Stock™️ that helps meet their business needs. 
 
-If you want to stay up-to-date for the lastest on the series follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) 
+If you want to stay up-to-date for the lastest on the series follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq).
