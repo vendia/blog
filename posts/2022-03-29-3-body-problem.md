@@ -1,6 +1,6 @@
 ---
 title: 'The Three-Body Problem'
-description: 'Forecast:Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era'
+description: 'Forecast: Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era'
 date: '2022-03-30'
 thumbnail: 
 authors:
