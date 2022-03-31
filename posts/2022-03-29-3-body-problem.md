@@ -10,7 +10,7 @@ _Is this series for you?_
 
 If you’re a CIO, CTO, LOB leader, cloud architect,  or professional developer, interested in the future of development and the relationship between public chains, private chains, cloud services, and conventional IT. Or if you are considering one more blockchain projects or trying to build a cost effective partner data sharing solution. 
 
-## **Quick Overview**
+## Quick Overview
 
 Conventional (aka centralized) application approaches, which are increasingly based on cloud services, are often portrayed as antithetical to both private and public blockchains. 
 
