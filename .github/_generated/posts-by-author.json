@@ -1,6 +1,25 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
+      "title": "The 3 Key Elements of Modern IT Solutions: Centralized IT, Private Chains, Public Chains",
+      "description": "Part 1 of our series examining the relationship between blockchain and centralized technologies ",
+      "date": "2022-04-01",
+      "draft": true,
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/3-body-problem.md",
+      "title": "The Three-Body Problem",
+      "description": "Forecast: Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era",
+      "date": "2022-03-30",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-03-24-private-public-blockchain-and-cloud.md",
       "title": "Cloudy with Chance of Blockchain",
       "description": "How the cloud and public and private chains will power the web3 world",
