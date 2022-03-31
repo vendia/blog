@@ -19,7 +19,7 @@ In reality, **all three categories are likely to emerge as key elements of moder
 
 - **Conventional (aka “centralized”) IT solutions**, increasingly built in the cloud and often on top of managed cloud services, will continue to offer the highest throughput, lowest latency, and easiest governance indefinitely.
     
-    These will continue to form 80% or more of the foundational layer for SMB, mid-market, and enterprise IT.
+These will continue to form 80% or more of the foundational layer for SMB, mid-market, and enterprise IT.
     
 - **Private/permissioned blockchains** have the advantage of innovating quickly, and can integrate seamlessly with the cloud solutions of their controlled populations, **making them ideal for creating partner buses that enable businesses to share data with rigorous compliance, privacy, and governance capabilities.** 
 **Conventional (“dumb pipe”) APIs will be replaced over time with distributed ledgers** that offer an automatically maintained and cryptographically provable single source of truth for cross-company and cross-org use cases such as supply chains, financial ledgers, and media/file sharing.
