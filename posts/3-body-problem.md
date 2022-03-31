@@ -30,6 +30,6 @@ Private chains will grow to represent 15-20% of IT stacks.
     
 Public chain integration will eventually comprise 1-3% of typical enterprise IT stacks over the long term.
     
-In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example using Adobe Stock™️ that helps meet their business needs. 
+In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example of how Adobe Stock™️ may use a private blockchain and centralized IT to improve thier licensing tracking. 
 
 If you want to stay up-to-date for the lastest on the series follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq).
