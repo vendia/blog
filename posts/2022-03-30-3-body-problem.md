@@ -24,7 +24,7 @@ In reality, **all three categories are likely to emerge as key elements of moder
 - **Public blockchains** offer very limited throughput due to the intrinsic requirements of Byzantine Attack resistance, planet-wide data replication, and “single box” deployment models that intentionally forgo public cloud leverage. Public chains will continue to exhibit high latency, limited data type support, and modest innovation rates (due to their open source/consortium nature). However, **they will play a key role for applications that require public disclosure, non-repudiation and/or total ordering among unrelated parties, or where public data markets exist,** serving key use cases such as the archival storage for NFT ownership, self-service ticket transfers among consumers, and third party auditing of (hashed, encrypted digests) of key financial and business data. Public chain integration will eventually comprise 1-3% of typical enterprise IT stacks over the long term.
 
 **3 Options for Data Sharing**
-![3 Body Prolem](https://user-images.githubusercontent.com/98492452/161350246-fc2d573c-0c5e-4304-8236-ae222708a8b5.png)
+![3 Body Prolem](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..161350246-fc2d573c-0c5e-4304-8236-ae222708a8b5.png)
 
 In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example of how Adobe Stock™️ may use a private blockchain and centralized IT to improve thier licensing tracking.
 
