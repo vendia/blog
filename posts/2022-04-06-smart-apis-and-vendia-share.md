@@ -13,7 +13,7 @@ We incorporated all our experience building managed API solutions in the cloud a
 
 Unlike existing blockchain solutions, Share has all the power of modern, [managed GraphQL APIs.](https://www.vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger) Unlike existing API solutions, it’s not “dumb” about the data it carries – it automatically keeps that data consistent and correct, without any effort on the part of the developer.
 
-### **How Vendia Share Implements Smart APIs**
+### How Vendia Share Implements Smart APIs
 
 One of the key realizations that led to the patented technologies underpinning Vendia Share is that the work of data distribution over APIs – while technically challenging – is utterly undifferentiated. 
 
