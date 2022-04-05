@@ -1,4 +1,3 @@
-
 ---
 title: 'What you need to know about APIs'
 
@@ -85,3 +84,9 @@ For analytics and BI data, [Fivetran](http://www.fivetran.com/) offers an easily
 With the rise of SaaS companies, APIs *are* the business, and neither business owners nor developers can skip the hard job of ensuring that they’re secure, compliant, and – especially when they carry mission-critical business data *correct.*
 
 The mechanical task of deploying and hosting APIs has gotten easier over time with the rise of cloud-based API services, but the job of “wiring up” API payloads to their underlying systems of record to create a shared source of truth remains a difficult task for most companies and developers. Platforms like Fivetran, for analytics ETL, and Vendia, for real-time operational data, help tackle this challenge and lower the TCO of keeping critical business data consistent across companies, clouds, regions, and tech stacks.
+
+# Going Further
+Looking to build better, smarter APIs? The Vendia blog has a number of articles, including how these features surface in modern applications and get exposed through data-aware APIs (like this [one](https://www.vendia.net/blog/smart-apis) or [this series](https://www.vendia.net/blog/lean-app) on Lean Apps.
+
+If you have a business need not being met by your existing blockchain provider you can visit www.vendia.net to learn more about supported use cases or contact the team directly to dive deeper.
+
