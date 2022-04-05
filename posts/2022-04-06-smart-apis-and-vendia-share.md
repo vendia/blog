@@ -78,7 +78,7 @@ These use cases span many industries, sectors, and sizes ... from two-person sta
 
 One of our key realizations is that everyone needs the same thing: from a single developer who wants to create a low-cost hobby project to a mid-market company looking to build cloud-based workflows without staffing up a huge engineering team to an enterprise division strapped for time and cash and looking to get projects to market faster, ***everyone needs APIs that do more for them, with less work and lower cost.***  
 
-### **What about Performance?**
+### What about Performance?
 
 If you’ve ever looked into blockchains, especially public chains like Ethereum, you’d be right to be worried: At $25-50 per write, 14 TPS in worldwide capacity, and needing up to 15 minutes of settle time (aka latency), a lot of existing distributed ledger technology would be a poor match to high-speed, highly available API needs for conventional applications. 
 
