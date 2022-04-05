@@ -14,7 +14,7 @@ API protocols have also matured over the years, from [Electronic Data Interchang
 
 But for all these advancements, the conceptual role of an API – that of a “dumb pipe” that doesn’t understand, control, or mediate its content – has remained largely unchanged: APIs are all “syntax”, no “semantics”. 
 
-To put it another way, *a**n API doesn’t care if the data it carries (and carrying data is largely what APIs do) is right or wrong, consistent or inconsistent, complete or partial, up to date or radically out of date.*** And even if the data you drop into one side is perfect, by the time it reaches someone’s system on the other side it may no longer be.
+To put it another way, ***an API doesn’t care if the data it carries (and carrying data is largely what APIs do) is right or wrong, consistent or inconsistent, complete or partial, up to date or radically out of date.*** And even if the data you drop into one side is perfect, by the time it reaches someone’s system on the other side it may no longer be.
 
 ## The Cost of Dumb Pipes
 
