@@ -1,17 +1,14 @@
-# What you need to know about APIs
 
 ---
-title: 'Smart APIs'
+title: 'What you need to know about APIs'
 
-description: 'Evolve from “dumb pipes” to APIs that do the heavy lifting'
+description: 'And why building them is still such a challenge'
 
-date: '2022-04-04'
+date: '2022-04-06'
 
 authors:
   - Tim Wagner
 ---
-
-# Introduction
 
 APIs are ubiquitous in our industry. From payment APIs like Stripe and PayPal to communication services like Twilio to the ever-growing list of AWS services, it seems that every company and concept has an associated API. 
 
