@@ -86,7 +86,7 @@ Fortunately, Smart APIs don’t rely on legacy blockchain protocols. They’re e
 
 Smart APIs perform like best-of-breed public cloud services because they’re built using the same techniques, such as multi-tenanting for economics, fault tolerance, and low-latency capacity allocation.
 
-### **Getting Started with Vendia Share**
+### Getting Started with Vendia Share
 
 Because it’s schema-driven and SaaS-based, getting started with Vendia Share couldn’t be easier: If you can model your data using JSON Schema and list the clouds and regions where you’d like APIs to be present, Vendia Share can craft a secure, scalable, production-grade deployment in a few minutes and then maintain it automatically. 
 
