@@ -1,6 +1,25 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-04-06-smart-apis-and-vendia-share.md",
+      "title": "Part 2: Vendia Share and Smart APIs",
+      "description": "How Vendia helps APIs do more for you",
+      "date": "2022-04-06",
+      "draft": true,
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-04-smart-apis.md",
+      "title": "Smart APIs",
+      "description": "Evolve from “dumb pipes” to APIs that work for you",
+      "date": "2022-04-04",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
       "title": "The 3 Key Elements of Modern IT Solutions: Centralized IT, Private Chains, Public Chains",
       "description": "Part 1 of our series examining the relationship between blockchain and centralized technologies ",
