@@ -36,6 +36,7 @@ Welcome to the Vendia blog repo!
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
 | [Part 2: Vendia Share and Smart APIs](https://vendia.net/blog/smart-apis-and-vendia-share) <br/> How Vendia helps APIs do more for you by Tim Wagner | 2022-04-06 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-06-smart-apis-and-vendia-share.md)
+| [What you need to know about APIs](https://vendia.net/blog/what-are-apis) <br/> And why building them is still such a challenge by Tim Wagner | 2022-04-06 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-06-what-are-apis.md)
 | [Smart APIs](https://vendia.net/blog/smart-apis) <br/> Evolve from “dumb pipes” to APIs that work for you by Tim Wagner | 2022-04-04 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-04-smart-apis.md)
 | [The 3 Key Elements of Modern IT Solutions: Centralized IT, Private Chains, Public Chains](https://vendia.net/blog/private-vs-public-blockchains) <br/> Part 1 of our series examining the relationship between blockchain and centralized technologies by Tim Wagner | 2022-04-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-01-private-vs-public-blockchains.md)
 | [The Three-Body Problem](https://vendia.net/blog/3-body-problem) <br/> Forecast: Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era by Tim Wagner | 2022-03-30 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-03-30-3-body-problem.md)

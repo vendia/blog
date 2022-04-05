@@ -11,6 +11,15 @@
       ]
     },
     {
+      "file": "/posts/2022-04-06-what-are-apis.md",
+      "title": "What you need to know about APIs",
+      "description": "And why building them is still such a challenge",
+      "date": "2022-04-06",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-04-04-smart-apis.md",
       "title": "Smart APIs",
       "description": "Evolve from “dumb pipes” to APIs that work for you",
