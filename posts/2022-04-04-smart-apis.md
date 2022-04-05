@@ -18,7 +18,7 @@ To put it another way, ***an API doesn’t care if the data it carries (and carr
 
 ## The Cost of Dumb Pipes
 
-As a result, a ton of developer time (and company 💰) go into trying to close what we like to call the API data gap. And that gap is huge: Sharing data, and keeping it consistent across companies, clouds, geographies (aka regions), accounts, and technology stacks is arguably the single hardest challenge in modern day applications. 
+As a result, a ton of developer time (and company 💰) go into trying to close what we like to call the API data gap. And that gap is huge: sharing data, and keeping it consistent across companies, clouds, geographies (aka regions), accounts, and technology stacks is arguably the single hardest challenge in modern day applications. 
 
 Most IT challenges ultimately come down to solving this problem – storing (your own) data isn’t particularly difficult in 2022, and neither is defining or standing up an API. But ensuring that the parties that API connects are seeing the right data at the right times (and not seeing data they shouldn’t see)? That remains a hard problem, one that consumes untold amounts of people, distributed systems infrastructure, and monetary resources, even with all the advances that have been made over the last 20 years in API technology.
 
