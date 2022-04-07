@@ -2,10 +2,10 @@
 title: 'The 3 Key Elements of Modern IT Solutions: Centralized IT, Private Chains, Public Chains'
 description: 'Part 1 of our series examining the relationship between blockchain and centralized technologies '
 date: '2022-04-01'
-draft: true
 authors:
   - Tim Wagner
 ---
+Part 1 of the 3 Body Problem Series. See [Overview](https://www.vendia.net/blog/3-body-problem) and the [whitepaper](https://www.vendia.net/resources/3-body-problem) for more info.
 
 ## Emergence of Blockchain in a Centralized World
 
