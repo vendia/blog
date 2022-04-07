@@ -5,6 +5,7 @@ date: '2022-04-01'
 authors:
   - Tim Wagner
 ---
+Part 1 of the 3 Body Problem Series. See [Overview](https://www.vendia.net/blog/3-body-problem) and the [whitepaper](https://www.vendia.net/resources/3-body-problem) for more info.
 
 ## Emergence of Blockchain in a Centralized World
 
