@@ -71,4 +71,4 @@ Such a system could close the API data gap, but to do so it would need to meet a
 - Next-level fault tolerance, including the ability to survive cloud service provider outages, even for entire regions (such as the dreaded AWS “us-east-1 is done” scenarios)
 - Ability to add participants in minutes without needing to write code, deploy software, or perform operational incantations
 
-In part two we will show how Vendia Share's smart APIs work and how to use them or you can download the [whitepaper](https://www.vendia.net/resources/smart-apis) today!
+In [part two](https://www.vendia.net/smart-apis-and-vendia-share) we will show how Vendia Share's smart APIs work and how to use them or you can download the [whitepaper](https://www.vendia.net/resources/smart-apis) today!
