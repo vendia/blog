@@ -2,12 +2,11 @@
 title: 'Part 2: Vendia Share and Smart APIs'
 description: 'How Vendia helps APIs do more for you'
 date: '2022-04-06'
-draft: true
 authors:
   - Tim Wagner
 ---
 
-The previous post's list of API needs might sound like a pipe dream (pun very much intended), but it reflects an actual product offering: [Vendia Share](http://www.vendia.net/). 
+The [previous post's](https://www.vendia.net/blog/smart-apis) list of API needs might sound like a pipe dream (pun very much intended), but it reflects an actual product offering: [Vendia Share](http://www.vendia.net/). 
 
 We incorporated all our experience building managed API solutions in the cloud at AWS and all our insights gleaned from Coinbase and other distributed blockchain companies to create a solution that offers the best of all worlds: *a truly smart API*. 
 
@@ -36,7 +35,7 @@ The compiler and SaaS-style deployment infrastructure handle the hard job of con
 
 Sharing data is a challenge, but ensuring that the right data is shared with the right people is even more critical. Laid directly into the consensus and replication layers of the platform is full support for security, on-the-fly and at-rest encryption, and a powerful access control and rights-based identity management solution that ensures that every bit of data can be secured and access controlled at all times. The platform can even model changing access over time, to express concepts like sharing version 4 and 6 of a file with a third party while not providing them access to version 5.
 
-### Monitoring and fault-tolerance
+### Monitoring and Fault-tolerance
 
 Under the covers, Vendia Share provides an enterprise-grade self-monitoring implementation wired directly into its consensus engine. This way, if a cloud service provider has an outage, such a failure of the AWS us-east-1 region, other parties can continue sharing data and the system can “self heal” any copies in us-east-1 when the region recovers. 
 
@@ -52,7 +51,7 @@ Like a cloud-based database, it can handle high speed storage of scalar items, v
 
 Because Share uses GraphQL and provides built-in schema evolution as your data model needs change, you’re never “stuck”. Share isn’t a one-time deployment tool or a facade on top of someone else’s technology: **It’s an enterprise-grade platform capable of efficiently sharing a single string or hundreds of thousands of transactions a second.** 
 
-### Easy back-end to multi-cloud enterprise solutions
+### Easy Back-end to Multi-cloud Enterprise Solutions
 
 Vendia Share can span a single developer looking for an easy way to create an app all the way to an enterprise looking for a multi-cloud operational data sharing solution. 
 
