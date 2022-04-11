@@ -2,12 +2,11 @@
 title: 'Part 2: Vendia Share and Smart APIs'
 description: 'How Vendia helps APIs do more for you'
 date: '2022-04-06'
-draft: true
 authors:
   - Tim Wagner
 ---
 
-The previous post's list of API needs might sound like a pipe dream (pun very much intended), but it reflects an actual product offering: [Vendia Share](http://www.vendia.net/). 
+The [previous post's](https://www.vendia.net/blog/smart-apis) list of API needs might sound like a pipe dream (pun very much intended), but it reflects an actual product offering: [Vendia Share](http://www.vendia.net/). 
 
 We incorporated all our experience building managed API solutions in the cloud at AWS and all our insights gleaned from Coinbase and other distributed blockchain companies to create a solution that offers the best of all worlds: *a truly smart API*. 
 
