@@ -17,8 +17,7 @@ Let’s say we want to create an image licensing business, similar to Adobe Stoc
 3. The *retailer*, such as Adobe Stock™, purchases content, creates aggregate catalog experiences through a website (and potentially a mobile app), and supports licensing and billing for end users.
 4. *End users* license individual works of art for inclusion in presentations, websites, or other content that requires media elements.
 5. *Viewers* of those presentations, websites, etc. consume that content through streaming services, downloaded collateral, or other means. Viewers may also play the role of *auditors* if they attempt to discern whether the material they are viewing has been properly licensed.
-
-[Overview of Adobe Stock™ business example.]
+![Overview of Adobe Business](https://user-images.githubusercontent.com/98492452/163490166-92a36ca6-bf0c-4226-8bad-c50d22037679.png)
 
 Now, let’s pretend to build that business in a few different ways...
 
@@ -63,9 +62,7 @@ While the existing centralized approach addresses basic business needs and offer
 
 Given the media attention accorded to NFTs, it might seem at first blush that a newer, better implementation strategy exists: Simply place a hash (digital summary) of the artwork into an NFT, and use that to represent its ownership (see figure below):
 
-[*Alternative implementation of digital asset licensing using NFTs.*](https://lh6.googleusercontent.com/NokCvauNfbQVHLquqgCSifnauSyVp_G10mukHE4xOgj2j1MCYBcFV-Z1hTWR3838FU0uitPK7SvV-fz_p7TkxW83u5u_EPBvTI27MB0l8G3tZBCWS6ejTFUwSN9LZrItiPZIsfSl)
-
-*Alternative implementation of digital asset licensing using NFTs.*
+![Alternative Implementation of digital asset library](https://user-images.githubusercontent.com/98492452/163490293-d0544556-8add-4217-b21e-6aa2055992ca.png)
 
 We’ve all heard that NFTs are awesome, so this must be a good solution, right? 🙂
 
