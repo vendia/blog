@@ -11,7 +11,7 @@ Previous posts: [Overview](https://www.vendia.net/blog/3-body-problem) & [Part 1
 
 In our previous [Three Body Problem post](https://www.vendia.net/blog/private-vs-public-blockchains) we looked at the continuum on which these technologies sit. In this post we’ll dive deeper into the relative strengths (and weaknesses) of each, to help us understand how to compose them to best effect. Let’s get started...
 
-![Untitled](22-04-15-B%20dba6a/Untitled.png)
+![Overview of Service Offerings](https://user-images.githubusercontent.com/98492452/163490545-47567f11-9178-4097-a8b0-39dd19325e62.png)
 
 ### Centralized Solutions – Classic IT Always Wins on Bandwidth and Cost
 
@@ -51,6 +51,6 @@ Not all applications or solutions require placing data into a planet-spanning pu
 
 Due to the limitations described above, most IT solutions that do employ public chains will use some form of digest (Merkle Tree) approach to store only a *synopsis* of their data, rather than treating the public chain as a real-time operational data store, allowing them to amortize the cost, environmental impact, and latency of public chain overhead by storing many transactions together in a single, composite “write”.
 
-![Untitled](22-04-15-B%20dba6a/Untitled%201.png)
+![Comparing Central IT, Blockchain, and Public Chain](https://user-images.githubusercontent.com/98492452/163490562-4fa459e1-aaad-4262-b924-f794f6b9c664.png)
 
 Whew, that was a lot of analysis. In the next post we’ll look at a practical example: how to build an image licensing business, first using a conventional (centralized) approach, then as an NFT.
