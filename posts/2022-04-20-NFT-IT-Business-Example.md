@@ -1,8 +1,7 @@
-
 ---
-title: 3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example
-description: Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses
-date: 2022-04-20-NFT-IT-Business-Example
+title: '3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example'
+description: 'Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses'
+date: 2022-04-20
 authors:
   - Tim Wagner
 ---
@@ -19,9 +18,7 @@ Let’s say we want to create an image licensing business, similar to Adobe Stoc
 4. *End users* license individual works of art for inclusion in presentations, websites, or other content that requires media elements.
 5. *Viewers* of those presentations, websites, etc. consume that content through streaming services, downloaded collateral, or other means. Viewers may also play the role of *auditors* if they attempt to discern whether the material they are viewing has been properly licensed.
 
-[Overview of Adobe Stock™ business example.](https://lh5.googleusercontent.com/_elkeZjdzMhc34dXt4ssPPGUBt-RDV5S7MhBjkqNr1cOgCZCPi8_oYh4FVAufdqH_3DOgVQprjn5fU_HzqFdLJrFf0MYjR_FxJO6GbqRExyGnelcaMs6HIaglhGmSX2-kghW4DNw)
-
-Overview of Adobe Stock™ business example.
+[Overview of Adobe Stock™ business example.]
 
 Now, let’s pretend to build that business in a few different ways...
 
