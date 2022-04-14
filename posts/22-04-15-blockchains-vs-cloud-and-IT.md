@@ -1,23 +1,13 @@
-# 22-04-15-Blockchains-vs-CentralizedIT-analysis
-
 ---
-title: 'Strengths and Weakness of Centralized IT, Private Chains, and Public Chains '
-
+title: 'Strengths and Weakness of Centralized IT, Private Chains, and Public Chains'
 description: 'In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT'
-
-date: '2022-04-15’
-
-thumbnail: 'http://url-to-thumbnail.jpg'
-
+date: 2022-04-15
 authors:
   - Tim Wagner
 ---
 
-Part 2 of our 5 part series “The 3 Body Problem”
-
-Previous posts: [Overview](https://www.vendia.net/blog/3-body-problem), [Part 1](https://www.vendia.net/blog/private-vs-public-blockchains), 
-
-# 
+_Part 2 of our 5 part series “The 3 Body Problem” 
+Previous posts: [Overview](https://www.vendia.net/blog/3-body-problem) & [Part 1](https://www.vendia.net/blog/private-vs-public-blockchains)_
 
 In our previous [Three Body Problem post](https://www.vendia.net/blog/private-vs-public-blockchains) we looked at the continuum on which these technologies sit. In this post we’ll dive deeper into the relative strengths (and weaknesses) of each, to help us understand how to compose them to best effect. Let’s get started...
 
