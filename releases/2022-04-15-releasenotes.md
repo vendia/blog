@@ -34,7 +34,7 @@ const getProductResponse = await client.entities.product.get('abc-123')
 
 The SDK is currently in developer preview and we need your help by providing feedback about ways we can improve the SDK. Please reach out to your account team or leave us feedback on our [discourse channel](https://community.vendia.net/). 
 
-## Synchronous mutations
+## Synchronous Mutations
 
 Sharing data is at the core of the Vendia Platform. In the past, you added scalar data to be shared through asynchronous GraphQL mutations. The asynchronous nature of the mutations required clients to either poll the database or use GraphQL subscriptions over websockets in order to know when a mutation was committed. This pattern is unfamiliar for many developers with experience in other request/response systems and makes it difficult to get started building interactive applications with Vendia. 
 
