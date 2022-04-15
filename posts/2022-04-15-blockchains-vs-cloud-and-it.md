@@ -1,7 +1,7 @@
 ---
 title: 'Strengths and Weakness of Centralized IT, Private Chains, and Public Chains'
 description: 'In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT'
-date: 2022-04-15
+date: '2022-04-15'
 authors:
   - Tim Wagner
 ---

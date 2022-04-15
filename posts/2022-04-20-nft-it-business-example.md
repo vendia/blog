@@ -1,7 +1,7 @@
 ---
 title: '3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example'
 description: 'Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses'
-date: 2022-04-20
+date: '2022-04-20'
 authors:
   - Tim Wagner
 ---
