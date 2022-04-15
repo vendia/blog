@@ -1,6 +1,24 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-04-20-NFT-IT-Business-Example.md",
+      "title": "3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example",
+      "description": "Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses",
+      "date": "2022-04-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-15-blockchains-vs-cloud-and-IT.md",
+      "title": "Strengths and Weakness of Centralized IT, Private Chains, and Public Chains",
+      "description": "In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT",
+      "date": "2022-04-15T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-04-06-smart-apis-and-vendia-share.md",
       "title": "Part 2: Vendia Share and Smart APIs",
       "description": "How Vendia helps APIs do more for you",
