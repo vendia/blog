@@ -217,6 +217,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
 | Releases Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow](https://vendia.net/releases/2022-04-15-releasenotes) <br/> Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow | 2022-04-15 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-04-15-releasenotes.md)
 | [At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!](https://vendia.net/releases/2022-03-11-releasenotes) <br/> Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace | 2022-03-11 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-03-11-releasenotes.md)
 | [Improved User Experience and Developer Experience](https://vendia.net/releases/2022-01-31-releasenotes) <br/> Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity | 2022-01-31 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-01-31-releasenotes.md)
 | [Improved Usability, Reliability, and Speed…as a Service](https://vendia.net/releases/2022-01-14-releasenotes) <br/> We operate and maintain the Vendia Share platform as a service so you don't have to | 2022-01-14 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-01-14-releasenotes.md)
