@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [No More Burnout: Reflections after 6 months at Vendia](https://vendia.net/blog/6-months-at-vendia) <br/> Why I don't regret leaving the Fortune 100 tech industry to work for a startup by Hailey Nevins | 2022-04-25 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-25-6-months-at-vendia.md)
 | [3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example](https://vendia.net/blog/nft-it-business-example) <br/> Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses by Tim Wagner | 2022-04-20 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-20-nft-it-business-example.md)
 | [Strengths and Weakness of Centralized IT, Private Chains, and Public Chains](https://vendia.net/blog/blockchains-vs-cloud-and-it) <br/> In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT by Tim Wagner | 2022-04-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-15-blockchains-vs-cloud-and-it.md)
 | [Part 2: Vendia Share and Smart APIs](https://vendia.net/blog/smart-apis-and-vendia-share) <br/> How Vendia helps APIs do more for you by Tim Wagner | 2022-04-06 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-06-smart-apis-and-vendia-share.md)
@@ -159,12 +160,21 @@ Welcome to the Vendia blog repo!
     </a>
   </td>
   <td align="center">
+    <a href="https://github.com/hnevins">
+      <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="100px;" alt=""/>
+      <br />
+      Hailey Nevins
+    </a>
+  </td>
+  <td align="center">
     <a href="https://github.com/james-vendia">
       <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="100px;" alt=""/>
       <br />
       James Gimourginas
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/joydeep02263451">
       <img src="https://avatars.githubusercontent.com/u/98058931" width="100px;" alt=""/>
@@ -172,8 +182,6 @@ Welcome to the Vendia blog repo!
       Joydeep Das
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/robotpatch">
       <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="100px;" alt=""/>
@@ -202,15 +210,16 @@ Welcome to the Vendia blog repo!
       Tim Wagner
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/vkahlir">
       <img src="https://avatars.githubusercontent.com/u/96793170" width="100px;" alt=""/>
       <br />
       Vikrant Kahlir
     </a>
-  </td>
+   </td>
 </tr>
-
 </table>
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
 
