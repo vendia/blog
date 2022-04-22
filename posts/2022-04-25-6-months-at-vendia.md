@@ -1,5 +1,5 @@
 ---
-title: 'Overcoming Burnout: What Vendia has taught me the last 6 months'
+title: 'No More Burnout: Reflections after 6 months at Vendia'
 description: "Why I don't regret leaving the Fortune 100 tech industry to work for a startup."
 date: '2022-04-25'
 authors:
