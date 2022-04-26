@@ -1,16 +1,14 @@
 {
-  "hailey-nevins": [
-    {
-      "file": "/posts/2022-04-25-6-months-at-vendia.md",
-      "title": "No More Burnout: Reflections after 6 months at Vendia",
-      "description": "Why I don't regret leaving the Fortune 100 tech industry to work for a startup.",
-      "date": "2022-04-25",
-      "authors": [
-        "Hailey Nevins"
-      ]
-    }
-  ],
   "tim-wagner": [
+    {
+      "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
+      "title": "Part 4: Better Together: Using all Three Approaches",
+      "description": "Part 4 of the 3 Body Problem - solution to Adobe Stock example",
+      "date": "2022-04-26",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2022-04-20-nft-it-business-example.md",
       "title": "3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example",
@@ -304,6 +302,17 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
+      ]
+    }
+  ],
+  "hailey-nevins": [
+    {
+      "file": "/posts/2022-04-25-6-months-at-vendia.md",
+      "title": "No More Burnout: Reflections after 6 months at Vendia",
+      "description": "Why I don't regret leaving the Fortune 100 tech industry to work for a startup.",
+      "date": "2022-04-25",
+      "authors": [
+        "Hailey Nevins"
       ]
     }
   ],

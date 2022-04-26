@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Part 4: Better Together: Using all Three Approaches](https://vendia.net/blog/3-body-problem-solution-example) <br/> Part 4 of the 3 Body Problem - solution to Adobe Stock example by Tim Wagner | 2022-04-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-26-3-body-problem-solution-example.md)
 | [No More Burnout: Reflections after 6 months at Vendia](https://vendia.net/blog/6-months-at-vendia) <br/> Why I don't regret leaving the Fortune 100 tech industry to work for a startup by Hailey Nevins | 2022-04-25 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-25-6-months-at-vendia.md)
 | [3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example](https://vendia.net/blog/nft-it-business-example) <br/> Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses by Tim Wagner | 2022-04-20 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-20-nft-it-business-example.md)
 | [Strengths and Weakness of Centralized IT, Private Chains, and Public Chains](https://vendia.net/blog/blockchains-vs-cloud-and-it) <br/> In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT by Tim Wagner | 2022-04-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-15-blockchains-vs-cloud-and-it.md)
