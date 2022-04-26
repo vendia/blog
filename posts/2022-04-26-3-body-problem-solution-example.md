@@ -1,6 +1,13 @@
+---
+title: 'Part 4: Better Together: Using all Three Approaches'
+description: 'Part 4 of the 3 Body Problem - solution to Adobe Stock example'
+date: '2022-04-26'
+authors:
+  - Tim Wagner
+---
 ## Part 4: Better Together: Using all Three Approaches
 
-In the previous post we “built” an imagine licensing business two ways: First as a centralized (conventional) implementation, then again as an NFT. Neither succeeded in giving us everything we wanted. In this post we’ll try something different: We’ll use all three approaches (centralized, private chains, and public chains) in concert and see how that goes.
+In the [previous post](https://www.vendia.net/blog/nft-it-business-example) we “built” an imagine licensing business two ways: First as a centralized (conventional) implementation, then again as an NFT. Neither succeeded in giving us everything we wanted. In this post we’ll try something different: We’ll use all three approaches (centralized, private chains, and public chains) in concert and see how that goes.
 
 ## Quick Refresher on How Each Party can Contribute
 
