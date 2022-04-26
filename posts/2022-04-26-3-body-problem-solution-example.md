@@ -20,4 +20,6 @@ Conventional (centralized) architectures provide a key set of benefits and suffe
 - **Public chains** provide a permanent, public, global record of “who’s licensed to use what” that makes it possible for anyone, including the original artists, to understand how their works are being used and whether a given occurrence of a media asset is appropriate. 
 Lower cost aggregate information is stored in a service such as IPFS, mapping public tokens (keys) for users to their list of licensed asset ids, and then hashed into a public chain such as Ethereum to create an immutable, totally ordered, irrefutable custody store. To protect the privacy of purchases, this information is also encrypted, giving each media purchaser the “key” (quite literally) to reveal to a third party their purchase receipt without reference to the licensing company’s internal databases, and enabling the original artists to unlock purchase information (but not purchaser PII) sufficient to verify pass-through revenue accuracy.
 
+![3-body-problem-solution](https://user-images.githubusercontent.com/98492452/165371311-f296dd66-32e5-4a77-8de3-1a1c117ade91.png)
+
 Combining centralized, private, and public chain approaches yields the best business outcome, with each contributing its unique benefits.
