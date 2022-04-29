@@ -8,16 +8,12 @@ So what’s changed? As supply chains became increasingly complex and globalized
 
 Like it or not, building and operating modern business applications now involves the challenge of getting to the underlying data.  
 
-
 #### Why the “real-time” moniker?
 
 Because this data is not restricted to “analytical” data. 
 
 Many systems that produce and consume data can not wait for batch processing or overnight runs.  \
 They include real time outcomes like 
-
-
-
 * airline ticketing
 * credit card payments
 * package logistics and transport
@@ -35,12 +31,9 @@ These many “spanning problems” – moving data consistently across companies
 
 Real-time data sharing can go by other names as well – “real time data mesh”, “operational data fabric”, “data events”, and similar terms emphasize that the challenge in modern systems isn’t just connecting on-prem applications from different vendors but rather keeping modern, cloud-based systems of record mutually accurate…even when that data spans corporate or divisional ownership.
 
-
 ### Examples of real-time data sharing
 
 Data sharing needs span industries, commercial and non-profit sectors, and affect companies of all sizes. 
-
-
 
 * **Travel** – Flying on a multi-segment flight can require sharing ticket and passenger information with a booking agent (such as Expedia.com), two or more airlines, and – behind the scenes – companies that process tickets, payment settlements, and passenger tracking and more. Within a given company, such as an airline, dozens of different systems may also need accurate, up-to-date information about the passenger and their ticketing and travel status.
 * **Supply Chains** – One only has to step inside a pharmacy to see the impact that Covid 19 has had on global supply chains. Both discrete and continuous manufacturing typically require multiple inputs, often with their own second- and third-stage supply chains, as well as multiple logistics and delivery partners. Tying all these disparate providers and consumers of data together with consistent, guaranteed correct information about the state of items in the chain is critical to business success and customer satisfaction.
@@ -50,21 +43,17 @@ Data sharing needs span industries, commercial and non-profit sectors, and affec
 
 As these examples show, modern IT applications – from customer information to payments to operations – demand great solutions for real-time data sharing. Next, let’s take a look at how those needs can manifest.
 
-
 ### How current data-sharing solutions don’t work for real-time data sharing
 
 Composing what is effectively a distributed database without the benefit of being able to shove all the data into a single, centralized database with a single owner is obviously tricky. To make matters worse, real-time data sharing inevitably exposes secondary problems that often distract from the original data sharing need itself…meaning it’s typical to hear the problem expressed in other ways:
-
 
 #### APIs
 
 APIs are wonderful things, but by themselves they are not distributed, multi-party databases. Solutions to real-time data sharing usually _involve_ APIs as ways to transport data, but it takes far more than the “dump pipe” of an API to solve a data sharing problem.
 
-
 #### Data Lakes
 
 Similar to the API itself, sometimes the format of the data takes center stage, and when multiple parties are involved, getting everyone on board with a compatible model (and the necessary transformations in and out of that model from various data producers and consumers) can certainly be tricky. But data formats are just one dimension of a multi-dimensional problem: Keeping data correct, consistent, and up to date is still required, even once it’s been appropriately sanitized and converted.
-
 
 #### DIY in your Application
 
@@ -72,23 +61,19 @@ Similar to the API itself, sometimes the format of the data takes center stage, 
 
 Building that into a DIY application is a tall order that would take even a sophisticated team of distributed systems engineers years to mature, and most SaaS companies do not see that as an intrinsic element of their offering…leaving the problem as one that needs to be resolved externally to the service and app.
 
-
 #### ETL
 
 ETL is a technique for periodically loading an analytics system with operational data, but it is not a solution for creating a continuously up-to-date shared source of truth among a collection of real-time applications. 
 
 Real-time data sharing requires low latency, bi-directional data flows that can update SaaS and custom cloud applications, not just pump data into a Snowflake, Redshift, or Databricks cluster. While real-time data sharing has an analogous architectural element (sometimes even referred to as “real-time ETL”), _conventional_ ETL approaches and vendors aren’t typically very useful.
 
-
 #### Leaving it to InfoSec
 
 Data needs to be shared securely and with appropriate access controls does not tell you much about _how_ to actually accomplish it. Data catalogs, for example, are not going to do much to keep a SaaS CRM, ERP solution, and retail website synchronized when it us time to serve the right ad to a customer. These are, however, important requirements (and vendor selection criteria) to apply to a data sharing solution.
 
-
 #### Database sharing
 
 Sharing data usually means that one or more databases are ultimately involved, even if they reside inside a vendor’s SaaS product. But here the emphasis is on the _sharing_, and that means that — almost by construction — a single database owned by a single entity is not the right solution. Keeping different databases owned by different companies synchronized is a tall order, especially when applications that don’t even expose their storage level directly are part of the mix.
-
 
 ### Approaches to Real-time Data Sharing
 
@@ -96,13 +81,10 @@ When it comes to real-time data sharing, the key requirements that drive the sol
 
 When latency or connectivity is a consideration you should consider the number of geographic locations. There are only a few “easy buttons” in this space, so let’s take a look at what they are and how they map to the problem:
 
-
 #### Application or operational database to analytics platform. 
 
-This is the classic ETL space, and is well supported by vendors such as Fivetran that make it easy to get data into data lake platforms such as Snowflake, Redshift, Databricks, and others. ETL connectors are the best choice when the data flow is one-way, batch, has a single destination (the data lake vendor), and supports the source of the data out of the box. \
- \
+This is the classic ETL space, and is well supported by vendors such as Fivetran that make it easy to get data into data lake platforms such as Snowflake, Redshift, Databricks, and others. ETL connectors are the best choice when the data flow is one-way, batch, has a single destination (the data lake vendor), and supports the source of the data out of the box. 
 Examples: Fivetran, Snowflake, Redshift, Databricks
-
 
 #### Built-in SaaS-to-SaaS solutions
 
@@ -112,15 +94,11 @@ IIf available, it’s your best choice. Contraindications for using built-in sol
 Examples: _Google Workspaces and Zoom_ – These providers work together to enable companies that do business with both vendors to easily create and initiate meetings on Google Calendar that use Zoom to host the meeting. \
 _Expensify and QuickBooks Online (QBO)_ – These providers collaborate to make it easy for expenses created or paid in Expensify to be automatically tracked in a company’s accounting system inside of QBO.
 
-
 #### Low throughput, point-to-point one-way events
 
-When the sharing pattern naturally has a single producer, is one-way, and requires modest throughput, a specialized pattern known as an _event hub_ can be useful. \
- \
-In those cases, event-based platforms can offer a simple solution for hosting the data sharing process as an event workflow. These systems offer a “zero footprint” solution that handles all the data transmission, retries, and other operational infrastructure automatically. They are limited by their unidirectionality, “single writer” nature, and limited set of sources and sinks, but when they apply, they can be a simple and low cost solution provided the data throughput remains modest – since they charge on a per-delivery basis, shipping large volumes of data can quickly become costly. \
- \
+When the sharing pattern naturally has a single producer, is one-way, and requires modest throughput, a specialized pattern known as an _event hub_ can be useful. 
+In those cases, event-based platforms can offer a simple solution for hosting the data sharing process as an event workflow. These systems offer a “zero footprint” solution that handles all the data transmission, retries, and other operational infrastructure automatically. They are limited by their unidirectionality, “single writer” nature, and limited set of sources and sinks, but when they apply, they can be a simple and low cost solution provided the data throughput remains modest – since they charge on a per-delivery basis, shipping large volumes of data can quickly become costly. 
 Examples of this approach include [Zapier](https://zapier.com/) and [Amazon EventBridge](https://aws.amazon.com/eventbridge/integrations/). 
-
 
 #### Single account, single region, single owner, one-way data flows
 
@@ -128,11 +106,8 @@ Real-time streaming solutions like [managed Kafka](https://www.confluent.io/), [
 
 Seattle-based retailer Nordstrom, for example, has [written and presented extensively](https://medium.com/tech-at-nordstrom/adventures-in-event-sourced-architecture-part-1-cc21d06187c7) on how they built an in-house solution for collecting and distributing data related to customer activities and associated inventory and purchase events. Adoption criteria for these approaches is two fold:
 
-
-
 * _They require sophisticated development teams with the time and resources to create in-house platforms._ Nordstroms, for example, has been building and maturing their system for many years at this point, so while it serves a critical role in their architecture, it also represents a substantial investment over many teams and many years. Companies without well-established data and distributed systems teams and the time to develop “from scratch” solutions should exercise caution in initiating such projects.
 * _They are intended for single owner/account (and usually single region) solutions._ When the sources and sinks of the events are limited to those produced and consumed by a single company in a single region these solutions can be ideal. However, they lack long-term storage, decentralized consensus, or simple multi-region sharing mechanisms that preclude scalability beyond a simple single account and geograpy. 
-
 
 #### Multiple producers and consumers, multiple parties, multiple clouds, bidirectional data flows
 
@@ -144,31 +119,20 @@ Platforms like [Vendia](www.vendia.net) offer a simple, SaaS-based solution for 
 
 Selecting any platform provider, including one that assists with a mission-critical outcome like real-time data sharing, is a significant decision. The next section expands on the requirements for a complete data sharing solution, and establishes vendor selection criteria that can be used in the process of evaluating alternatives.
 
-
-#### Blockchains, an Anti-pattern
-
-One category you don’t see in the list above is “blockchains”. Given that some blockchains (such as Ethereum) purport to be “world computers”, why aren’t they included in the list of real-time data sharing mechanisms?
-
-Simply put [finish]
-
-
 ### Platform and Vendor Requirements for Real-time Data Sharing Solutions
 
 Sharing both operational and analytical data is a critical element of IT technology stacks. But how do you know what to look for in a platform? First, there are some key foundational questions to ask:
 
-
 #### Does the platform understand the data it carries? 
 
-Unlike Mulesoft and other “dumb pipe” solutions that are ignorant of the data being carried, having the platform understand the data means it can also ensure that data is consistent, correct, and up to date everywhere it flows. This key difference shifts many of the conventional operational and security challenges of handling data from individual applications and IT teams back onto the platform provider.  \
-Key vendor questions:  \
-Does the solution include automatic API generation from a customer-supplied data model?  \
+Unlike Mulesoft and other “dumb pipe” solutions that are ignorant of the data being carried, having the platform understand the data means it can also ensure that data is consistent, correct, and up to date everywhere it flows. This key difference shifts many of the conventional operational and security challenges of handling data from individual applications and IT teams back onto the platform provider.  
+Key vendor questions:  
+Does the solution include automatic API generation from a customer-supplied data model?  
 Are the APIs strongly typed and able to reject invalid information up front?
-
 
 #### Can the platform store data and consistently replicate it across companies, clouds, geographies, and tech stacks? 
 
 This might seem like table stakes aren’t able to span clouds, companies, or different geographies without extraordinary amounts of development and operational work.
-
 
 #### Does the platform include built-in data access controls? 
 
@@ -176,11 +140,9 @@ Almost as important as sharing data is ensuring that the wrong data does not get
 
 Letting a platform accomplish this not only shifts the burden of implementation and spreads it among many customers, making it cost effective to produce and maintain, it ensures that the approach is uniform across all parties and deployments.
 
-
 #### Is the platform low latency and able to scale to meet application needs at peak throughput? 
 
 Blockchains are plagued by poor performance, with public chains like Ethereum struggling to maintain 14 transactions per second worldwide, shared among all customers! Transaction settle time can approach 15 minutes or longer, and the cost per transaction can be as high as $50 or more. Even private chains, such as Hyperledger Fabric suffer from “one box deployment” models – unlike a cloud-based service, they are forever, fundamentally limited by the processing and memory capacity of a single server and at most a few cores within that server. That doesn’t bode well for any enterprise workload that needs to scale.
-
 
 #### The platform is delivered as a SaaS service 
 
@@ -190,34 +152,30 @@ Their “single box deployment” models mean they are slow and have limited thr
 
 That’s a huge burden to an already strapped IT team, and only adds to the burden of infrastructure management and staffing load. By contrast, Vendia’s data sharing solution is provided as a SaaS service, with zero infrastructure footprint and “ilities” such as scaling, fault tolerance, monitoring, infrastructure maintenance, etc. owned by the service provider, rather than left as an exercise to the IT customer.
 
-
 ### Evaluating a Real-Time Data Sharing Solution
 
 Given the organizational criticality, broad scope, and platform-centric nature of real-time data meshes in a modern IT environment, it is especially important to evaluate and select vendors capable of delivering on the broad set of needs they require. 
 
 This section can be used as the basis for a “vendor checklist” to ensure that solutions, whether developed in house, outsourced to a consulting company, or purchased from a vendor, provide the range of capabilities demanded by real-world challenges:
 
+- [ ] Multi-cloud and SaaS integrations as fundamental features
 
-
-1. Multi-cloud and SaaS integrations as fundamental features
-
-    The single most fundamental feature of a real-time data sharing solution is that it can seamlessly span the most important divides in the modern IT landscape. Examples include: multiple clouds and different SaaS applications, such as Salesforce and Microsoft Dynamics. Without this feature the complicated work still lives with IT.  \
- \
+    The single most fundamental feature of a real-time data sharing solution is that it can seamlessly span the most important divides in the modern IT landscape. Examples include: multiple clouds and different SaaS applications, such as Salesforce and Microsoft Dynamics. Without this feature the complicated work still lives with IT.  
 Best-of-breed vendors will support data sharing across the major public clouds and application platforms, with a connector strategy that makes ingress from and egress to other services and platforms fast to develop and easy to operate and maintain.
 
-1. SaaS delivery model with a “zero infrastructure” footprint
+- [ ] SaaS delivery model with a “zero infrastructure” footprint
 
     IT organizations already struggle under the weight of managing too much hardware and software infrastructure, including their large compliance and security surface area. Data sharing solutions, because they can carry data with varying levels of exposure risk, have to be designed to handle the worst case scenario, making securing their end-to-end infrastructure even more complex. Acquiring these capabilities through a SaaS solution that doesn’t expand a company’s infrastructure footprint is critical to avoiding direct and indirect cost and staffing bloat. Cloud-based SaaS platforms for data sharing also confer the economic benefits of shared development and deployment costs, further improving ROI versus in-house and outsourced manual development approaches.
 
-1. Cloud-native design with automatic scaling and fault tolerance 
+- [ ] Cloud-native design with automatic scaling and fault tolerance 
 
     Of all the elements in an IT stack, the data sharing layer is one that most benefits from an innovation-forward design.  \
 Solving for fault tolerance across multiple regions, clouds, departments and partners is challenging enough. Then combined with the need for dynamic scaling that is highly available and cost effective, most homegrown or consulting-based solutions peter out quickly. Cloud-native designs incorporating the latest advances in serverless and container-based technologies offer the best options for creating a solution that offers maximum uptime without sacrificing price to performance ratios.
 
-1. Green tech with high utilization
+- [ ] High Utilization (without high energy consumption)
 
     Choosing “green tech” becomes ever more important for investors and transparency requirements. Fundamental to lowering carbon emissions is reaching high levels of data and compute utilization; otherwise, the majority of infrastructure capacity is spent creating worthless environmental impact, the worst possible outcome. Data sharing solutions based on modern, serverless technologies offer highly efficient, “100% utilization” solutions based on massively multi-tenanted cloud-based strategies. These benefits pass through to the companies that deploy them, resulting in significant carbon savings.
 
-1. Compliant and secure by design 
+- [ ] Compliant and secure
 
     Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
