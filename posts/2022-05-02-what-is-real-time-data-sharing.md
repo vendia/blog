@@ -186,3 +186,5 @@ Solving for fault tolerance across multiple regions, clouds, departments and par
 - [ ] Compliant and secure
 
     Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
+    
+Coming soon: Blockchain and Real-Time Data-sharing and Architectures for Real-Time Data Sharing. 
