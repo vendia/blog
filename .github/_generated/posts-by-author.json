@@ -1,6 +1,15 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-05-03-future-of-it-conclusion.md",
+      "title": "3 Body Problem: Looking Ahead",
+      "description": "In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do.",
+      "date": "2022-05-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
       "title": "Part 4: Better Together: Using all Three Approaches",
       "description": "Part 4 of the 3 Body Problem - solution to Adobe Stock example",
