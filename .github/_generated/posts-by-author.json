@@ -1,6 +1,15 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-05-02-what-is-real-time-data-sharing.md",
+      "title": "What is Real-Time Data Sharing?",
+      "description": "The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration.",
+      "date": "2022-05-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-05-03-future-of-it-conclusion.md",
       "title": "3 Body Problem: Looking Ahead",
       "description": "In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do.",

@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [What is Real-Time Data Sharing?](https://vendia.net/blog/what-is-real-time-data-sharing) <br/> The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration by Tim Wagner | 2022-05-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-02-what-is-real-time-data-sharing.md)
 | [3 Body Problem: Looking Ahead](https://vendia.net/blog/future-of-it-conclusion) <br/> In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do by Tim Wagner | 2022-05-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-03-future-of-it-conclusion.md)
 | [Part 4: Better Together: Using all Three Approaches](https://vendia.net/blog/3-body-problem-solution-example) <br/> Part 4 of the 3 Body Problem - solution to Adobe Stock example by Tim Wagner | 2022-04-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-26-3-body-problem-solution-example.md)
 | [No More Burnout: Reflections after 6 months at Vendia](https://vendia.net/blog/6-months-at-vendia) <br/> Why I don't regret leaving the Fortune 100 tech industry to work for a startup by Hailey Nevins | 2022-04-25 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-04-25-6-months-at-vendia.md)
