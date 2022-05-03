@@ -1,3 +1,10 @@
+---
+title: 'Types of Data: Real-time data vs. Analytical Data
+description: 'What is real-time data? How is it used? and how does it compare to other popular data types like analytical or real-time analytical data'
+date: '2022-05-05'
+authors:
+  - Caroll Casbeer
+---
 # Making sense of real-time data  
 
 “Real-time data” is a term being thrown around a lot these days. It’s likely still ringing in your ears from your last Zoom call. As it turns out, its day in the sun is actually well earned, since it powers many of the applications we rely on every day and serves as the foundation of most online transactions.
