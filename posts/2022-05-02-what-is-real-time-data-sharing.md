@@ -19,7 +19,7 @@ Like it or not, building and operating modern business applications now involves
 
 Because this data is not restricted to “analytical” data. 
 
-Many systems that produce and consume data can not wait for batch processing or overnight runs.  \
+Many systems that produce and consume data can not wait for batch processing or overnight runs.  
 They include real time outcomes like 
 * airline ticketing
 * credit card payments
