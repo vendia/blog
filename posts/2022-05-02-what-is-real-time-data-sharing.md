@@ -17,7 +17,7 @@ Like it or not, building and operating modern business applications now involves
 
 #### Why the “real-time” moniker?
 
-Because this data is not restricted to “analytical” data. 
+Because this data is not restricted to “analytical” data. (See our blog post on [real-time vs. analytical data](https://www.vendia.net/blog/real-time-vs-analytical-data)) 
 
 Many systems that produce and consume data can not wait for batch processing or overnight runs.  
 They include real time outcomes like 
@@ -176,11 +176,10 @@ Cloud-native design with automatic scaling and fault tolerance
 Of all the elements in an IT stack, the data sharing layer is one that most benefits from an innovation-forward design.  \
 Solving for fault tolerance across multiple regions, clouds, departments and partners is challenging enough. Then combined with the need for dynamic scaling that is highly available and cost effective, most homegrown or consulting-based solutions peter out quickly. Cloud-native designs incorporating the latest advances in serverless and container-based technologies offer the best options for creating a solution that offers maximum uptime without sacrificing price to performance ratios.
 
-High Utilization (without high energy consumption)
+High utilization (without high energy consumption)
 Choosing “green tech” becomes ever more important for investors and transparency requirements. Fundamental to lowering carbon emissions is reaching high levels of data and compute utilization; otherwise, the majority of infrastructure capacity is spent creating worthless environmental impact, the worst possible outcome. Data sharing solutions based on modern, serverless technologies offer highly efficient, “100% utilization” solutions based on massively multi-tenanted cloud-based strategies. These benefits pass through to the companies that deploy them, resulting in significant carbon savings.
 
 Compliant and secure
+Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
 
-    Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
-    
-Coming soon: Blockchain and Real-Time Data-sharing and Architectures for Real-Time Data Sharing. 
+Want to learn more about data-sharing and Vendia? Read [Improve Your Data Mesh with Real-Time Data Sharing](Improve Your Data Mesh with Real-Time Data Sharing)
