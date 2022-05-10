@@ -97,4 +97,4 @@ Streaming data is another aptly named technology. In this case "streaming" refer
 
 We hope this helped unravel the subtle differences between real-time data, operational data, analytical data, and streaming data, along with illustrating how important they all are to the success of modern organizations. While it comes in a few flavors, a couple things are clear—real-time data is a key driver of success for modern organizations and it's responsible for many of the conveniences we enjoy every day. Whether it's real-time operational data driving e-commerce transactions or real-time analytical data that companies use to make their most important decisions, real-time data is the critical, irreplaceable element. 
 
-Real-time data can become even more valuable when it's shared and integrated across companies, clouds, and SaaS applications. Learn how that's now possible with a real-time data lake.
+Real-time data can become even more valuable when it's shared and integrated across companies, clouds, and SaaS applications. Learn more about real-time data sharing in [What is Real-Time Data Sharing?](https://www.vendia.net/blog/what-is-real-time-data-sharing).
