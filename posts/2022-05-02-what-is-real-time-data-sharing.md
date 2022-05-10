@@ -182,4 +182,4 @@ Choosing “green tech” becomes ever more important for investors and transpar
 Compliant and secure
 Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
 
-Want to learn more about data-sharing and Vendia? Read [Improve Your Data Mesh with Real-Time Data Sharing](Improve Your Data Mesh with Real-Time Data Sharing)
+Want to learn more about data-sharing and Vendia? Read [Improve Your Data Mesh with Real-Time Data Sharing](https://www.vendia.net/blog/improve-your-data-mesh)
