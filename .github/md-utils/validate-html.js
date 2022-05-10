@@ -1,6 +1,8 @@
 const { HtmlValidate } = require("html-validate")
 const htmlTags = require('html-tags')
 
+// Alt https://github.com/codsen/codsen/tree/main/packages/codsen-parser
+
 const GET_TAG = /(?:Missing close-tag|Mismatched close-tag), expected '<\/(\S*)>'/
 const GET_NAME = /<\/(\S*)> is not a valid element name/
 
