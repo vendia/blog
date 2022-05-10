@@ -85,7 +85,7 @@ With that understanding, it follows that a data mesh that incorporates operation
 So by combining an enterprise-grade distributed ledger (decentralized operational system) and a data mesh (decentralized source and consumer aligned domain datasets), you get the best of both worlds.  Even better, there are patterns that [apply Domain Driven Design techniques to a distributed ledger](https://www.vendia.net/blog/applying-domain-driven-design-to-blockchains) like Vendia Share.
 
 <figure>
-    <img src="https://user-images.githubusercontent.com/85032783/167638069-5612118a-92d9-4857-ac02-4a28681a9057.png" />
+    <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..167638069-5612118a-92d9-4857-ac02-4a28681a9057.png" />
     <figcaption ><b>Figure 1</b> - <i>Real-Time Domain Data Sharing with Partners</i></figcaption>
 </figure>
 
@@ -145,7 +145,7 @@ The approach above has many benefits to the parties involved.  And these benefit
 * **Rapid Response Times** - The Home Owner is able to get a personalized set of recommendations, delivered promptly, from all participants involved in real-time.  Likewise, each participant is able to take action - either immediate or gradual - based on a current and accurate view of their (shared) world.
 
 <figure>
-    <img src="https://user-images.githubusercontent.com/85032783/167638071-5b912a2b-7f32-46c1-b2e9-2ec8eb56ca79.png" />
+    <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..167638071-5b912a2b-7f32-46c1-b2e9-2ec8eb56ca79.png" />
     <figcaption ><b>Figure 2</b> - <i>Taking Real-Time Actions Based on Multi-Party, Cross-Domain, Real-Time Data Inputs</i></figcaption>
 </figure>
 
