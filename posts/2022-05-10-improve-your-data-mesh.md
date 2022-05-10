@@ -18,7 +18,7 @@ authors:
 * **Operational Ownership** - Teams responsible for owning and operating the services they're responsible for, with the freedom to deploy small changes frequently
 * **Better, More Resilient Applications** - Teams able to support real business needs more consistently, reliably, and effectively, and with the additional benefit of better application resilience
 
-The same fundamental challenges that made teams rethink the best way to build and operate monolithic _operational _applications are forcing teams to reconsider how to build and operate _analytic _applications.  Thankfully, the same DDD fundamentals that inspired microservices can be applied to monolithic analytic applications as well.
+The same fundamental challenges that made teams rethink the best way to build and operate monolithic _operational_ applications are forcing teams to reconsider how to build and operate _analytic_ applications.  Thankfully, the same DDD fundamentals that inspired microservices can be applied to monolithic analytic applications as well.
 
 A [Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html) rethinks modern enterprise data architecture - typically one where a centralized, monolithic Data Lake was prominently featured - and favors a composition of decentralized, collaborating data producers and consumers.  A Data Mesh is important because it:
 
@@ -50,7 +50,7 @@ Let's assume adopting a data mesh architecture solves all the challenges of its 
 
 ### Problems a Data Mesh Will Not Solve
 
-The problems outlined in this section are not deficiencies of a data mesh architecture.  Instead, they demonstrate that a data mesh, with a focus on the analytical data plane of enterprise data architecture, places some additional expectations and responsibilities on the operational data plane.  Specifically, the real-time operational source systems - and the real-time systems they interact with across organizational boundaries - should be constructed in such a way that makes integration with a data mesh simple, easy, and repeatable (thanks to common architectural patterns).
+The problems outlined in this section are not deficiencies of a data mesh architecture.  Instead, they demonstrate that a data mesh, with a focus on the analytical data plane of enterprise data architecture, places some additional expectations and responsibilities on the operational data plane.  Specifically, the [real-time operational source systems](https://www.vendia.net/blog/what-is-real-time-data-sharing) - and the real-time systems they interact with across organizational boundaries - should be constructed in such a way that makes integration with a data mesh simple, easy, and repeatable (thanks to common architectural patterns).
 
 
 #### Engaging with Real-Time Partner Data
