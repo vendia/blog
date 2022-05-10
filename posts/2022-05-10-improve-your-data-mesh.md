@@ -15,7 +15,7 @@ authors:
 
 * **Agility and Autonomy** - Teams empowered to pursue business priorities with minimal cross-team touchpoints
 * **Technology Flexibility** - Teams enabled to select the best technology for a given problem space, without impacting other teams
-* **Operational Ownership** - Teams responsible for owning and operating the services they're responsible for, with the freedom to deploy small changes frequently
+* **Operational Ownership** - Teams responsible for owning and operating the services, with the freedom to deploy small changes frequently
 * **Better, More Resilient Applications** - Teams able to support real business needs more consistently, reliably, and effectively, and with the additional benefit of better application resilience
 
 The same fundamental challenges that made teams rethink the best way to build and operate monolithic _operational_ applications are forcing teams to reconsider how to build and operate _analytic_ applications.  Thankfully, the same DDD fundamentals that inspired microservices can be applied to monolithic analytic applications as well.
@@ -55,7 +55,7 @@ The problems outlined in this section are not deficiencies of a data mesh archit
 
 #### Engaging with Real-Time Partner Data
 
-While quite a bit has been written about data meshes, much less is written about extending the boundaries of the mesh _outside _of a company's four walls.  There's nothing inherent to a decentralized data mesh that would prevent it from spanning organizational boundaries, but doing so places some new requirements on operational systems.  The value of producing data for partners and consuming  data from partners is [not a new or novel idea](https://hbr.org/1990/09/information-partnerships-shared-data-shared-scale).  The continued challenge is to do [so effectively and in real-time](https://www.vendia.net/blog/smart-apis), as if the data really was "shared" among partners and not a (batched) afterthought.
+While quite a bit has been written about data meshes, much less is written about extending the boundaries of the mesh _outside_ of a company's four walls.  There's nothing inherent to a decentralized data mesh that would prevent it from spanning organizational boundaries, but doing so places some new requirements on operational systems.  The value of producing data for partners and consuming  data from partners is [not a new or novel idea](https://hbr.org/1990/09/information-partnerships-shared-data-shared-scale).  The continued challenge is to do [so effectively and in real-time](https://www.vendia.net/blog/smart-apis), as if the data really was "shared" among partners and not a (batched) afterthought.
 
 
 #### Improving Control and Trust Across Boundaries
