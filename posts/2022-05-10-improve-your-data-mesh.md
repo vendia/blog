@@ -1,12 +1,12 @@
 ---
-title: "Improve Your Data Mesh with Real-Time Data Sharing"
-description: "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share"
+title: 'Improve Your Data Mesh with Real-Time Data Sharing'
+description: 'Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share'
 date: '2022-05-10'
 categories:
-- architecture
-- concepts
-  authors:
-- James Gimourginas
+  - architecture
+  - concepts
+authors:
+  - James Gimourginas
 ---
 
 ## Background
