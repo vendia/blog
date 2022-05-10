@@ -1,20 +1,18 @@
 {
-  "product": [
+  "architecture": [
     {
-      "file": "/posts/2022-03-21-synchronous-mutations.md",
-      "title": "Announcing Synchronous Mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
-      "draft": false,
-      "date": "2022-03-21",
+      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
+      "title": "Improve Your Data Mesh with Real-Time Data Sharing",
+      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
+      "date": "2022-05-10",
       "categories": [
-        "product"
+        "architecture",
+        "concepts"
       ],
       "authors": [
-        "David Brown"
+        "James Gimourginas"
       ]
-    }
-  ],
-  "architecture": [
+    },
     {
       "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
       "title": "Multi-Party Data Sharing, with Control",
@@ -100,6 +98,19 @@
   ],
   "concepts": [
     {
+      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
+      "title": "Improve Your Data Mesh with Real-Time Data Sharing",
+      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
+      "date": "2022-05-10",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
       "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
       "title": "Multi-Party Data Sharing, with Control",
       "description": "How Vendia Share's access controls enable trusted and secure real-time data sharing among partners",
@@ -152,6 +163,21 @@
       ],
       "authors": [
         "Tim Wagner"
+      ]
+    }
+  ],
+  "product": [
+    {
+      "file": "/posts/2022-03-21-synchronous-mutations.md",
+      "title": "Announcing Synchronous Mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
+      "draft": false,
+      "date": "2022-03-21",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "David Brown"
       ]
     }
   ],
