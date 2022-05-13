@@ -17,6 +17,8 @@ We take a look at popular blockchain technologies like Ethereum and private bloc
 
 Vendia leverages serverless scalability (and scaling to zero) to reduce a private chains carbon footprint. Vendia’s solution also enables organizations to share files, even large files, without eating up tons of energy.  
 
+ ![Greenchain images](https://user-images.githubusercontent.com/98492452/168342831-94721842-7f72-413a-9a26-b1f488b67d82.png)
+
 ### Summary
 
 Private chains – such as [Hyperledger Fabric](https://www.hyperledger.org/) – rely on 1990’s era “scale to peak capacity” approaches that do not support auto-scaling or other dynamic capacity mechanisms. While more efficient than Ethereum’s Proof-of-Work protocol, they suffer from massive under-utilization of data storage mechanisms and their need for heavy, “always on” compute capacity drains power (and produces carbon footprint) 24x7x365 regardless of actual transaction rates.
@@ -30,4 +32,3 @@ More modern approaches, such as [Vendia’s blockchain](http://www.vendia.net), 
  
  Stay tuned for Part 1 next week!
  
- ![Greenchain images](https://user-images.githubusercontent.com/98492452/168342831-94721842-7f72-413a-9a26-b1f488b67d82.png)
