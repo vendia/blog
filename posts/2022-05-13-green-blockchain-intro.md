@@ -9,11 +9,11 @@ authors:
 
 ## Early blockchains had devastating environmental impacts. But could newer approaches actually help us fix the dirty little secret of IT's carbon footprint?
 
-**Part 1: Why popular blockchain technology have large carbon footprints**
+**Part 1: Why popular blockchain technology have large carbon footprints** (coming soon!)
 
 We take a look at popular blockchain technologies like Ethereum and private blockchains like Hyperledger Fabric’s architecture and distributed nature consume tons of energy and have large carbon footprints.
 
-**Part 2: Vendia’s Greenchain** 
+**Part 2: Vendia’s Greenchain**  (coming soon!)
 
 Vendia leverages serverless scalability (and scaling to zero) to reduce a private chains carbon footprint. Vendia’s solution also enables organizations to share files, even large files, without eating up tons of energy.  
 
