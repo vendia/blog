@@ -1,6 +1,6 @@
 ---
 title: 'Greenblockchains: Can Blockchains Save the Enviornment?'
-description: 'Many current blockchains solutions have a large carbon footprint - but next-gen blockchains leverage serverless and modern cloud computing to reduce carbon emissions - and are great solutions for sustainibilty tracking'
+description: 'Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking'
 date: '2022-05-13'
 authors:
   - Tim Wagner
