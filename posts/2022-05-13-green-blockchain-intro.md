@@ -24,4 +24,10 @@ Private chains – such as [Hyperledger Fabric](https://www.hyperledger.org/) �
 More modern approaches, such as [Vendia’s blockchain](http://www.vendia.net), rely on more efficient [serverless technologies](https://aws.amazon.com/serverless/) and [sustainable public cloud services](https://sustainability.aboutamazon.com/environment/the-cloud/cloud-efficiency). By exploiting these cloud-native technologies, modern blockchains offer tight cost enveloping and a carbon footprint that is actually _lower_ than conventional (“centralized”) IT approaches to sharing data through hosted databases and APIs. Features designed to minimize file redundancy further enhance the ability of IT teams to improve storage efficiency without compromising functionality or security.
 
  Enterprises and companies of all sizes can benefit from both the speed of delivery and the improved cost and carbon footprint outcomes derived from SaaS-delivered blockchain capability using these newer approaches, allowing them to build cost effective cross-cloud data fabric, partner data sharing, and operational data service solutions while simultaneously _improving_ their carbon footprint stance.
+ 
+ ### What's next
+ If you're interested in emerging blockchain technologies, sustainability, and the future of enterprise technologies be sure to sign up for our [newsletter](https://www.vendia.net/blog) or follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/). 
+ 
+ Stay tuned for Part 1 next week!
+ 
  ![Greenchain images](https://user-images.githubusercontent.com/98492452/168342831-94721842-7f72-413a-9a26-b1f488b67d82.png)
