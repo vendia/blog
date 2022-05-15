@@ -17,7 +17,7 @@ We take a look at popular blockchain technologies like Ethereum and private bloc
 
 Vendia leverages serverless scalability (and scaling to zero) to reduce a private chains carbon footprint. Vendia’s solution also enables organizations to share files, even large files, without eating up tons of energy.  
 
- ![Greenchain images](https://user-images.githubusercontent.com/98492452/168342831-94721842-7f72-413a-9a26-b1f488b67d82.png)
+ ![Greenchain images](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..168342831-94721842-7f72-413a-9a26-b1f488b67d82.png)
 
 ### Summary
 
