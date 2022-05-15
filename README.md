@@ -99,6 +99,7 @@ Welcome to the Vendia blog repo!
 | [Track and Trace using Vendia Unis + Blobs](https://vendia.net/blog/track-and-trace) <br/> Learn about how Vendia Unis + Blobs functionality can help streamline common supply chain track & trace issues by Glenn Dierkes | 2020-11-05 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-11-05-track-and-trace.md)
 | [Meet Vendia's founders](https://vendia.net/blog/meet-vendias-founders) <br/> Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO by Tim Wagner + Shruthi Rao | 2020-07-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-07-01-meet-vendias-founders.md)
 | [Welcome to Vendia](https://vendia.net/blog/welcome-to-vendia) <br/> Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks by Tim Wagner + Shruthi Rao | 2020-06-30 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-06-30-welcome-to-vendia.md)
+| [undefined](https://vendia.net/blog/why-blockchains-have-a-large-carbon-footprint)  | undefined | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-16-why-blockchains-have-a-large-carbon-footprint.md)
 
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
 
