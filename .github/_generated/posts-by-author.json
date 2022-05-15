@@ -1,6 +1,15 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-05-19-green-blockchain.md",
+      "title": "Greenchain Part 2: Vendia and Green Blockchain",
+      "description": "How our serverless distributed ledger is the green way to do data sharing",
+      "date": "2022-05-19",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-05-13-green-blockchain-intro.md",
       "title": "Greenchains: Can Blockchains Save the Enviornment?",
       "description": "Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking",
