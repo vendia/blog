@@ -1,10 +1,11 @@
 ---
-title: 'Greenchain Part 1: Why Popular Blockchain Technologies aren't Green'
-description: 'Current popular blockchain technologies like Etherum and Hyperledger Fabric have large carbon footprints - we dive into why and what we can do about it.'
+title: 'Greenchain Part 1: Current Blockchains Big Carbon Footprint'
+description: 'Why current blockchain technologies have large carbon footprints'
 date: '2022-05-17'
 authors:
   - Tim Wagner
 ---
+
 Part 1 of our 2 part series on Green Blockchain 
 
 # The Table Stakes and Background
