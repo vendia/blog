@@ -6,7 +6,7 @@ authors:
   - Tim Wagner
 ---
 
-Part 1 of our 2 part series on Green Blockchain 
+Part 1 of our 2 part series on [Green Blockchain ](https://www.vendia.net/blog/green-blockchain-intro).
 
 # The Table Stakes and Background
 
@@ -74,3 +74,5 @@ First generation private chains, such as Hyperledger Fabric and Quorum, rely on 
 * Their algorithms are inherently fault tolerant across containers, servers, and available (fault) zones, avoiding the requirement for applications to create fully redundant deployments. By contrast, _legacy blockchains require multiple nodes to overcome server or availability zone failures, resulting in a much larger computational and storage footprint to achieve the same end result._
 
 Given that public cloud services have solved many of these challenges for _centralized_ data sharing solutions, it’s natural to wonder if they couldn’t be similarly applied to _decentralized_ data sharing solutions, i.e. blockchains. And indeed, second generation blockchain approaches have done just that.
+
+In part 2, out later this week, we will investigate how leveraging the best in cloud technologies reduce a private blockchain's carbon footprint. 
