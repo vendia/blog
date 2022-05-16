@@ -9,7 +9,7 @@ authors:
 
 ## Early blockchains had devastating environmental impacts. But could newer approaches actually help us fix the dirty little secret of IT's carbon footprint?
 
-**Part 1: Why popular blockchain technology have large carbon footprints** (coming soon!)
+**Part 1: Why popular blockchain technology have large carbon footprints** ([Read now](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints.com))
 
 We take a look at popular blockchain technologies like Ethereum and private blockchains like Hyperledger Fabric’s architecture and distributed nature consume tons of energy and have large carbon footprints.
 
