@@ -35,7 +35,6 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
-| [Greenchain Part 2: Vendia and Green Blockchain](https://vendia.net/blog/green-blockchain) <br/> How our serverless distributed ledger is the green way to do data sharing by Tim Wagner | 2022-05-19 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-19-green-blockchain.md)
 | [Greenchain Part 2: Vendia and Green Blockchain](https://vendia.net/blog/vendia-green-blockchain) <br/> How our serverless distributed ledger is the green way to do data sharing by Tim Wagner | 2022-05-19 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-19-vendia-green-blockchain.md)
 | [Greenchain Part 1: Current Blockchains Big Carbon Footprint](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints) <br/> Why current blockchain technologies have large carbon footprints by Tim Wagner | 2022-05-17 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md)
 | [Greenchains: Can Blockchains Save the Enviornment?](https://vendia.net/blog/green-blockchain-intro) <br/> Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking by Tim Wagner | 2022-05-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-13-green-blockchain-intro.md)
