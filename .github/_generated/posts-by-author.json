@@ -10,6 +10,24 @@
       ]
     },
     {
+      "file": "/posts/2022-05-19-vendia-green-blockchain.md",
+      "title": "Greenchain Part 2: Vendia and Green Blockchain",
+      "description": "How our serverless distributed ledger is the green way to do data sharing",
+      "date": "2022-05-19",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md",
+      "title": "Greenchain Part 1: Current Blockchains Big Carbon Footprint",
+      "description": "Why current blockchain technologies have large carbon footprints",
+      "date": "2022-05-17",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-05-13-green-blockchain-intro.md",
       "title": "Greenchains: Can Blockchains Save the Enviornment?",
       "description": "Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking",
