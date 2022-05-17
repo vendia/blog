@@ -36,6 +36,7 @@ Welcome to the Vendia blog repo!
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
 | [Greenchain Part 2: Vendia and Green Blockchain](https://vendia.net/blog/vendia-green-blockchain) <br/> How our serverless distributed ledger is the green way to do data sharing by Tim Wagner | 2022-05-19 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-19-vendia-green-blockchain.md)
+| [Greenchain Part 1: Current Blockchains' Big Carbon Footprint](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints) <br/> Why current blockchain technologies have large carbon footprints by Tim Wagner | 2022-05-17 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md)
 | [Greenchains: Can Blockchains Save the Enviornment?](https://vendia.net/blog/green-blockchain-intro) <br/> Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking by Tim Wagner | 2022-05-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-13-green-blockchain-intro.md)
 | [Improve Your Data Mesh with Real-Time Data Sharing](https://vendia.net/blog/improve-your-data-mesh) <br/> Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share by James Gimourginas | 2022-05-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-10-improve-your-data-mesh.md)
 | [Types of Data: Real-time Data vs. Analytical Data](https://vendia.net/blog/real-time-vs-analytical-data) <br/> What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data by Caroll Casbeer | 2022-05-05 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-05-real-time-vs-analytical-data.md)
@@ -100,7 +101,6 @@ Welcome to the Vendia blog repo!
 | [Track and Trace using Vendia Unis + Blobs](https://vendia.net/blog/track-and-trace) <br/> Learn about how Vendia Unis + Blobs functionality can help streamline common supply chain track & trace issues by Glenn Dierkes | 2020-11-05 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-11-05-track-and-trace.md)
 | [Meet Vendia's founders](https://vendia.net/blog/meet-vendias-founders) <br/> Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO by Tim Wagner + Shruthi Rao | 2020-07-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-07-01-meet-vendias-founders.md)
 | [Welcome to Vendia](https://vendia.net/blog/welcome-to-vendia) <br/> Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks by Tim Wagner + Shruthi Rao | 2020-06-30 | [✍️](https://github.com/vendia/blog/edit/master/posts/2020-06-30-welcome-to-vendia.md)
-| [undefined](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints)  | undefined | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md)
 
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
 
