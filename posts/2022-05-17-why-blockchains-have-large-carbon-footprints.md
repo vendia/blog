@@ -6,7 +6,7 @@ authors:
   - Tim Wagner
 ---
 
-Part 1 of our 2 part series on [Green Blockchain ](https://www.vendia.net/blog/green-blockchain-intro).
+Part 1 of our 2 part series on [Green Blockchain](https://www.vendia.net/blog/green-blockchain-intro).
 
 # The Table Stakes and Background
 
