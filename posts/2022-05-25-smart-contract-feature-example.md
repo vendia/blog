@@ -23,15 +23,26 @@ Smart contracts can be used for a variety of purposes, including:
 * **Data computation** - Calculating new data values using data shared by other participants
 * **Data enrichment** - Enhancing data with additional information provided from an external system
 
-In a recently published [smart contracts feature example](https://github.com/vendia/examples/tree/main/features/share/smart-contracts), we explore a set of smart contracts that includes a full-featured example of each of the smart contract types listed above.  The feature example explores a Uni with two participants: a Lender and a Servicer, working together to improve the home mortgage process.  The Lender creates new home loans on the Uni.  The Servicer manages a portfolio of home loans on the Uni. Both participants make use of smart contracts to automate their interactions and increase their operational transparency.
+In a recently published [smart contracts feature example](https://github.com/vendia/examples/tree/main/features/share/smart-contracts), we explore a set of smart contracts that includes a full-featured example of each smart contract type listed above.
 
 In this post, we'll look at the data validation smart contract from the feature example.  See the feature example itself for a complete step-by-step guide through all three smart contracts.
 
-
 ## Example - Data Validation Smart Contract
 
-After the Lender and the Servicer create a Uni to share home loan information with each other, they want to maintain a high level of data quality.  Specifically, the Lender wants to ensure the Servicer is only able to view and act on validated loans.
+The feature example explores a Uni with two participants: a Lender and a Servicer, working together to improve the home mortgage process.  The Lender creates new home loans on the Uni.  The Servicer manages a portfolio of home loans on the Uni. Both participants make use of smart contracts to automate their interactions and increase their operational transparency.  
 
+After the Lender and the Servicer create a Uni to share home loan information with each other, they want to maintain a high level of data quality.  Specifically, the Lender wants to ensure the Servicer is only able to view and act on validated loans.  
+
+The high-level interaction process looks like this:
+
+* The Lender adds loans to the Uni, initially loans with a `validationStatus` of a `PENDING` 
+* The Lender executes a smart contract to validate each loan, resulting in an updated `validationStatus` based on the validation result
+    * `VALID` if the loan meets all validity checks
+    * `INVALID` if the loan did not meet one or more validity checks
+    * `ERROR` if the validity checks weren't fully performed
+* The Servicer views only those loans whose `validationStatus` was set to `VALID`, thanks to access control list (ACL) updates applied only to successfully validated loans
+
+While the validation logic used in this example is simple, the power of implementing logic that automatically affects data access is powerful. Dynamic data access updates allow a data owners to load and validate data prior to sharing with other participants, which in turn allows all Uni participants to increase productivity and eliminate time spent viewing or processing invalid or outdated data.
 
 ### Defining the Validation Logic
 
@@ -40,8 +51,6 @@ The [schema](https://github.com/vendia/examples/blob/main/features/share/smart-c
 The Lender can use a smart contract to ensure more in-depth data validation occurs prior to the Servicer making use of the data.
 
 Let's assume the Lender wants to perform two additional validations on every new loan added to the Uni.
-
-
 
 1. **Origination Date Validation** - Ensuring `originationDate` is not a future date (i.e. a Loan can't exist if it hasn't yet been created)
 2. **Original Unpaid Principal Balance Validation** - Assessing `originalUnpaidPrincipalBalance` validity based on the `borrowerCreditScore` (i.e. using a simple formula for this example to confirm the `originalUnpaidPrincipalBalance` is appropriate given the `borrowerCreditScore`)
