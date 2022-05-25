@@ -15,7 +15,7 @@ Vendia Share enables companies to rapidly build applications that securely share
 
 There are many ways to act on the data using Vendia Share: auto-generated [GraphQL APIs](https://www.vendia.net/docs/share/graphql), event-driven [inbound and outbound integrations](https://www.vendia.net/docs/share/integrations), and, more recently, the introduction of [smart contracts](https://www.vendia.net/docs/share/smart-contracts).
 
-Smart contracts allow participants to take action on data in a predefined way, one that is versioned and ledgered for the improved transparency of all Uni participants.  This allows predefined and versioned functions to be created by a single participant for the benefit of one or more participants.  Further, the ledgered nature of smart contracts provides an added level of transparency and auditability that the "off-chain" data processing approaches do not.  For example, smart contract invocations include a reference to the exact input, parameters, and source code used to produce an output.
+Smart contracts allow participants to take action on data stored in a Uni in a predefined way, one that is versioned and ledgered for the improved transparency of all participants.  This allows predefined and versioned functions to be created by a single participant for the benefit of one or more participants.  Further, the ledgered nature of smart contracts provides an added level of transparency and auditability that the "off-chain" data processing approaches do not.  For example, smart contract invocations include a reference to the exact input, parameters, and source code used to produce an output.
 
 Smart contracts can be used for a variety of purposes, including:
 
