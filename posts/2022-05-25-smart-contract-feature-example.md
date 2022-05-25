@@ -177,7 +177,7 @@ The data validation smart contract can be invoked programmatically or manually u
 
 The [feature example](https://github.com/vendia/examples/tree/main/features/share/smart-contracts) demonstrates programmatic execution using a set of provided scripts.  For the rest of this post, we'll use the Vendia Share web application to make the invocation and results more visual.
 
-From the **LenderNode **of the [Uni created](https://github.com/vendia/examples/tree/main/features/share/smart-contracts#step-1---create-a-universal-application) in the feature example**, **click the `Smart Contracts` widget to get a listing of all available smart contracts.
+From the **LenderNode** of the [Uni created](https://github.com/vendia/examples/tree/main/features/share/smart-contracts#step-1---create-a-universal-application) in the feature example, click the `Smart Contracts` widget to get a listing of all available smart contracts.
 
 <figure>
     <img src="https://user-images.githubusercontent.com/85032783/170310807-9cf127d4-cfa0-4ed5-890b-a8500ac5f071.png" />
