@@ -198,7 +198,7 @@ The end result is a:
 
 
 * Lender who is able to apply custom validation logic and ensure only validated loans are shared with other participants
-* a Servicer able to confidently process the loans it has access to, knowing they are valid
+* Servicer able to confidently process the loans it has access to, knowing they are valid
 
 <figure>
     <img src="https://user-images.githubusercontent.com/85032783/170310800-109bdd3c-f359-4021-9e9f-ec9d1420da31.png" />
