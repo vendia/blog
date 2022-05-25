@@ -25,7 +25,7 @@ Smart contracts can be used for a variety of purposes, including:
 
 In a recently published [smart contracts feature example](https://github.com/vendia/examples/tree/main/features/share/smart-contracts), we explore a set of smart contracts that includes a full-featured example of each of the smart contract types listed above.  The feature example explores a Uni with two participants: a Lender and a Servicer, working together to improve the home mortgage process.  The Lender creates new home loans on the Uni.  The Servicer manages a portfolio of home loans on the Uni. Both participants make use of smart contracts to automate their interactions and increase their operational transparency.
 
-In this post, we'll look at one of the three smart contracts included in the feature example.  Specifically, and to highlight the ease of creating and invoking smart contracts using Vendia Share, we'll use the data validation smart contract example.   See the feature example itself for a complete step-by-step guide through all three smart contracts.
+In this post, we'll look at the data validation smart contract from the feature example.  See the feature example itself for a complete step-by-step guide through all three smart contracts.
 
 
 ## Example - Data Validation Smart Contract
