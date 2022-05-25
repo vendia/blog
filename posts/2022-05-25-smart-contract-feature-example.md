@@ -193,7 +193,7 @@ Select the `validation-smart-contract` to view its details, including the abilit
 
 By clicking `Invoke` the smart contract will be executed, obtaining loan data from the Uni using the `inputQuery`, providing that retrieved data to the AWS Lambda function so it can perform loan validation, and writing the validation result back to the Uni using the `outputMutation`.
 
-The end result is:
+The end result is a:
 
 
 
