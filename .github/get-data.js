@@ -6,7 +6,7 @@ const slugify = require('slugify')
 const { validateHtml, validateHtmlTags } = require('./md-utils/validate-html')
 const { findFrontmatter } = require('./md-utils/find-frontmatter')
 const { findHtmlTags } = require('./md-utils/find-html-tags')
-const { findCodeBlocks } = require('./md-utils/find-code-blocks')
+const { findCodeBlocks, REMOVE_CODE_BLOCK_REGEX } = require('./md-utils/find-code-blocks')
 const { findRelativeLinks } = require('./md-utils/find-links-relative')
 const { findLiveLinks } = require('./md-utils/find-links-live')
 const { findImageLinks } = require('./md-utils/find-image-links')
@@ -186,6 +186,10 @@ function formatMD(text, filePath) {
     errors.push(`Broken frontmatter in ${filePath}\n  ${rawFrontMatter}`)
   }
 
+  // if (frontmatter.errors) {
+  //   console.log("frontmatter.errors", frontmatter.errors)
+  // }
+
   const { links } = findLiveLinks(text, filePath)
   // console.log(`links ${filePath}`, links)
   const relativeLinks = findRelativeLinks(text)
@@ -203,7 +207,8 @@ function formatMD(text, filePath) {
   //   errors = errors.concat(htmlValidationTags)
   // }
 
-  const htmlValidation = validateHtml(frontmatter.content, filePath)
+  const contents = frontmatter.content.replace(REMOVE_CODE_BLOCK_REGEX, '')
+  const htmlValidation = validateHtml(contents, filePath)
   if (htmlValidation && htmlValidation.length) {
     errors = errors.concat(htmlValidation)
   }
