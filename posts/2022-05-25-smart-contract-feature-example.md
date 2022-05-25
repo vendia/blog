@@ -92,12 +92,7 @@ exports.handler = async (event) => {
         loan = event.queryResult.list_LoanItems._LoanItems[0]
 
         console.log("Loan is", loan)
-
-        //throw an unexpected error to demonstrate the purpose of the "catch" block below
-        if(loan.loanIdentifier === "0000000000000005") {
-            throw new Error("Something unexpected happened - oh no!")
-        }
-
+        
         let isValid = isValidOrigination(loan.originationDate) &&
             isValidLoanAmount(loan.unpaidPrincipalBalance, loan.borrowerCreditScore)
 
