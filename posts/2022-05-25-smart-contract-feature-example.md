@@ -82,7 +82,7 @@ query ValidationInputQuery($loanIdentifier: String!) {
 
 The AWS Lambda function uses the data provided by the `inputQuery`, applies the data validation logic, and returns an object containing the fields required by the `outputMutation`.
 
-```js
+```javascript
 /**
  * Performs a set of validations against a loan provided as part of the event input.
  *
@@ -144,7 +144,7 @@ exports.handler = async (event) => {
  * @returns {boolean} true if origination date isn't in the future, false if it is
  */
 function isValidOrigination(originationDate) {
-    return Date.parse(originationDate) < Date.now();
+  return Date.parse(originationDate) < Date.now()
 }
 
 /**
@@ -154,8 +154,9 @@ function isValidOrigination(originationDate) {
  * @returns {boolean} true if credit score is sufficiently large for the balance provided, false otherwise
  */
 function isValidLoanAmount(balance, creditScore) {
-    //A very simplistic check, which can easily be replaced by a more complex algorithm
-    return balance <= creditScore * 1000
+  // A very simplistic check, which can easily be replaced by a more complex algorithm
+  const score = creditScore * 1000
+  return score >= balance
 }
 ```
 
