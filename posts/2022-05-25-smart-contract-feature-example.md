@@ -64,7 +64,7 @@ The validation smart contract takes three important pieces of information as par
 
 The `inputQuery` retrieves information from the Uni and provides it as input during smart contract invocation.  The validation smart contract uses an `inputQuery` that retrieves the necessary fields for the loan to be validated, using a parameterized `loanIdentifier` that will be provided during smart contract invocation.
 
-```gql
+```graphql
 query ValidationInputQuery($loanIdentifier: String!) {
   list_LoanItems(filter: {loanIdentifier: {eq: $loanIdentifier}}) {
     _LoanItems {
@@ -162,7 +162,7 @@ function isValidLoanAmount(balance, creditScore) {
 
 The `outputMutation` maps the return value from the AWS Lambda function to a predefined mutation that will result in data being written back to the Uni.  The expected result of executing the validation smart contract is a change to a loan's `validationStatus` field and, only if validation was successful, a change to the loan's [data access controls](https://www.vendia.net/blog/multi-party-data-sharing-with-control#data-access-controls) to allow the Servicer to see the (now-validated) loan information.
 
-```gql
+```graphql
 mutation ValidationOutputMutation($id: ID!,  $validationStatus: Self_Loan_validationStatusEnum!, $acl: [Vendia_Acl_Input_!]) {
   update_Loan_async(
     id: $id, 
