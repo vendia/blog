@@ -99,13 +99,8 @@ Event-based systems address this problem by flipping the relationship around: Th
 
 Event architectures can be built into existing cloud services (such as Amazon’s S3 bucket event delivery, shown in Figure 4). They can also be created in an “ad hoc” fashion through the use of generic event handling services such as [Amazon EventBridge](https://aws.amazon.com/eventbridge/) or [Azure Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/).
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
+![Fig 4](https://user-images.githubusercontent.com/98492452/170737584-04aedabd-fdc6-42dc-98b1-42c9607cce47.jpg)
+tooltip")
 
 _Figure 4: A basic event-based architecture. Files are uploaded to an Amazon S3 bucket, which has been configured to automatically send creation events to an image analyzer in the form of an AWS Lambda function. The “data API” between the bucket and the function is handled automatically by AWS, with no code or management required by the application owner._
 
@@ -114,8 +109,6 @@ Event-based architectures can be a powerful alternative to API-based polling app
 _The moment crossing clouds, accounts, or companies  is required, this particular pattern falls apart._
 
 Other issues that can impact event-based architectures:
-
-
 
 * Getting all parties involved to agree on the event format (schema), especially if that schema is dictated by the public cloud service provider, as is the case with Figure 4’s example
 * Guaranteeing delivery – handling errors, retries, and “back pressure detection” if the consumer isn’t able to receive updates at the event the producer is delivering them, including the ability to replay events
