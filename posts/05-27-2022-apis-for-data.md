@@ -100,7 +100,7 @@ Event-based systems address this problem by flipping the relationship around: Th
 Event architectures can be built into existing cloud services (such as Amazon’s S3 bucket event delivery, shown in Figure 4). They can also be created in an “ad hoc” fashion through the use of generic event handling services such as [Amazon EventBridge](https://aws.amazon.com/eventbridge/) or [Azure Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/).
 
 ![Fig 4](https://user-images.githubusercontent.com/98492452/170737584-04aedabd-fdc6-42dc-98b1-42c9607cce47.jpg)
-tooltip")
+
 
 _Figure 4: A basic event-based architecture. Files are uploaded to an Amazon S3 bucket, which has been configured to automatically send creation events to an image analyzer in the form of an AWS Lambda function. The “data API” between the bucket and the function is handled automatically by AWS, with no code or management required by the application owner._
 
@@ -146,6 +146,7 @@ First, blockchains never managed to address the fundamental scaling and throughp
 
 Cost and complexity are also considerations: From the need to learn novel programming languages to their “deploy at peak capacity” design, legacy blockchains are expensive to develop, deploy, operate, and scale. They also aren’t particularly easy to use: Because they lack a data model (or even the capacity to model data) they tend to make poor databases, leaving all that complexity to the applications, and necessitating a complex “meta chain” on top of the primary chain to share a coordinated data model among partners. Taken together, these development, deployment, and coordination challenges often cause blockchain projects to fizzle, even in otherwise successful IT organizations.
 
+![Figure 5](https://user-images.githubusercontent.com/98492452/170737612-1621e9c2-e8c8-4095-b1ca-d03851313b4c.jpg)
 
 ## Summary of Data Sharing Alternatives
 
