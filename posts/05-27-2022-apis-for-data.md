@@ -1,3 +1,11 @@
+---
+title: 'APIs Don’t Have to be So Difficult'
+description: 'APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs.'
+date: '2022-05-27'
+authors:
+  - Tim Wagner
+---
+### Overcome the limitations of APIs and build a better future.
 [APIs](https://www.vendia.net/blog/what-are-apis) are the central building blocks of services, especially modern, cloud-based designs. They [encapsulate complexity](https://en.wikipedia.org/wiki/API#:~:text=trends%20data.%5B36%5D-,Design,-%5Bedit%5D), can provide both operational and implementation isolation among different teams , and serve as the literal embodiment of [domain driven designs](https://martinfowler.com/bliki/DomainDrivenDesign.html). Proficiency in developing, deploying, and consuming APIs is one of the hallmarks of a healthy, effective IT organization; for many modern SaaS and financial service companies, such as Twilio and Stripe, APIs literally _are_ the business.
 
 Building great APIs _should_ be simple: All major cloud providers offer highly scalable, fully managed services that remove virtually all infrastructure challenges from both API owners and consumers. [Google Apigee](https://cloud.google.com/apigee), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), and [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) handle the challenges of hosting, deploying, scaling, and making API infrastructure fault tolerant. They also provide built-in monitoring, logging, and a variety of authentication and management features. In addition, a well-known standard (OpenAPI, formerly known as “Swagger”) and a host of free tools make it easy for any developer to generate APIs from declarative descriptions.
