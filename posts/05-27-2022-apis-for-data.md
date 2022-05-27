@@ -31,17 +31,11 @@ While APIs can be used for other purposes, such as to control an IoT device, the
 
 To understand why problems with APIs are fundamentally problems with data, let’s expand the field of view to include a little more of the systems that surround the API proper.
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![Figure 2](https://user-images.githubusercontent.com/98492452/170736103-f3ffd9c7-5de2-40e0-bf86-5d89712df295.png)
 
 
 _Figure 2: Conventional APIs are “dumb pipes”; they lose the integrity of the systems of record they’re supposed to represent, leading to incoherent copies and uncertainty for their business owners._
 
- \
 Figure 2 zooms out from the API per se to look at what is really happening in the broader context of sharing operational data between two systems. 
 
 The API producer can be related to its consumers in various ways:
@@ -57,8 +51,6 @@ The API producer can be related to its consumers in various ways:
 
 That duality is key:
 
-
-
 * If the two systems _didn’t_ require operational, security, legal, or other separation, they could simply be combined into one. The API is responsible for “firewalling” the two systems for one or more key, and presumably unchangeable, reasons.
 * If the two systems _did not_ need to share at least some of their data, there would be no need for the consumer to ever call the API. Thus, by construction some subset of the data held in the producer’s data storage system needs to be replicated (though not necessarily in its entirety or in its original format) into the consumer’s data storage system.
 
@@ -69,8 +61,6 @@ And since the producer continues to generate new data (and typically also alters
 **There’s no way to win the “polling game”**.
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image3.png "image_tooltip")
