@@ -16,10 +16,8 @@ The answer is actually quite simple: It’s not the _API_ that’s the problem, 
 
 The moment that an API producer returns data to an API consumer, that data immediately becomes a stale copy of the data maintained by the API producer. In other words, versions of the truth (the one in the API producer and the one in the API consumer) start to immediately drift apart. Worse, there are often many consumer of an API, calling it at different times to retrieve the (ostensibly) same data, leading to many competing snapshots and variations on “the truth” of the data. Figure 1 illustrates this “chaos by design” pattern.
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image1.png "image_tooltip")
+![Figure 1](https://user-images.githubusercontent.com/98492452/170736087-fa469e78-b7fb-4912-ad2c-7fc4b1cad9b5.png)
 
 
 _Figure 1: APIs create a partial, out of date, and incoherent view of the truth by handing out snapshots of the data at different times for different clients, without regard to cross-client consistency or correctness._
