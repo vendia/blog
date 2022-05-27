@@ -63,7 +63,7 @@ And since the producer continues to generate new data (and typically also alters
 
 
 
-![alt_text](images/image3.png "image_tooltip")
+![Figure 3](https://user-images.githubusercontent.com/98492452/170736111-aab7d133-ade9-4494-8939-c285bb841562.png)
 
 
 _Figure 3: The “Polling Conundrum” – Polling too quickly hits operational limits and can lock clients out or even crash the infrastructure on which it runs. Polling too slowly allows information to drift even further out of date (and makes clients even less consistent with one another)._
