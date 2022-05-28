@@ -17,7 +17,7 @@ The answer is actually quite simple: It’s not the _API_ that’s the problem, 
 The moment that an API producer returns data to an API consumer, that data immediately becomes a stale copy of the data maintained by the API producer. In other words, versions of the truth (the one in the API producer and the one in the API consumer) start to immediately drift apart. Worse, there are often many consumer of an API, calling it at different times to retrieve the (ostensibly) same data, leading to many competing snapshots and variations on “the truth” of the data. Figure 1 illustrates this “chaos by design” pattern.
 
 
-![Figure 1](https://user-images.githubusercontent.com/98492452/170736087-fa469e78-b7fb-4912-ad2c-7fc4b1cad9b5.png)
+![Figure 1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..170736087-fa469e78-b7fb-4912-ad2c-7fc4b1cad9b5.png)
 
 
 _Figure 1: APIs create a partial, out of date, and incoherent view of the truth by handing out snapshots of the data at different times for different clients, without regard to cross-client consistency or correctness._
@@ -31,7 +31,7 @@ While APIs can be used for other purposes, such as to control an IoT device, the
 
 To understand why problems with APIs are fundamentally problems with data, let’s expand the field of view to include a little more of the systems that surround the API proper.
 
-![Figure 2](https://user-images.githubusercontent.com/98492452/170736103-f3ffd9c7-5de2-40e0-bf86-5d89712df295.png)
+![Figure 2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..170736103-f3ffd9c7-5de2-40e0-bf86-5d89712df295.png)
 
 
 _Figure 2: Conventional APIs are “dumb pipes”; they lose the integrity of the systems of record they’re supposed to represent, leading to incoherent copies and uncertainty for their business owners._
@@ -63,7 +63,7 @@ And since the producer continues to generate new data (and typically also alters
 
 
 
-![Figure 3](https://user-images.githubusercontent.com/98492452/170736111-aab7d133-ade9-4494-8939-c285bb841562.png)
+![Figure 3](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..170736111-aab7d133-ade9-4494-8939-c285bb841562.png)
 
 
 _Figure 3: The “Polling Conundrum” – Polling too quickly hits operational limits and can lock clients out or even crash the infrastructure on which it runs. Polling too slowly allows information to drift even further out of date (and makes clients even less consistent with one another)._
@@ -99,7 +99,7 @@ Event-based systems address this problem by flipping the relationship around: Th
 
 Event architectures can be built into existing cloud services (such as Amazon’s S3 bucket event delivery, shown in Figure 4). They can also be created in an “ad hoc” fashion through the use of generic event handling services such as [Amazon EventBridge](https://aws.amazon.com/eventbridge/) or [Azure Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/).
 
-![Fig 4](https://user-images.githubusercontent.com/98492452/170737584-04aedabd-fdc6-42dc-98b1-42c9607cce47.jpg)
+![Fig 4](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..170737584-04aedabd-fdc6-42dc-98b1-42c9607cce47.jpg)
 
 
 _Figure 4: A basic event-based architecture. Files are uploaded to an Amazon S3 bucket, which has been configured to automatically send creation events to an image analyzer in the form of an AWS Lambda function. The “data API” between the bucket and the function is handled automatically by AWS, with no code or management required by the application owner._
@@ -146,7 +146,7 @@ First, blockchains never managed to address the fundamental scaling and throughp
 
 Cost and complexity are also considerations: From the need to learn novel programming languages to their “deploy at peak capacity” design, legacy blockchains are expensive to develop, deploy, operate, and scale. They also aren’t particularly easy to use: Because they lack a data model (or even the capacity to model data) they tend to make poor databases, leaving all that complexity to the applications, and necessitating a complex “meta chain” on top of the primary chain to share a coordinated data model among partners. Taken together, these development, deployment, and coordination challenges often cause blockchain projects to fizzle, even in otherwise successful IT organizations.
 
-![Figure 5](https://user-images.githubusercontent.com/98492452/170737612-1621e9c2-e8c8-4095-b1ca-d03851313b4c.jpg)
+![Figure 5](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..170737612-1621e9c2-e8c8-4095-b1ca-d03851313b4c.jpg)
 
 ## Summary of Data Sharing Alternatives
 
