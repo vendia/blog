@@ -6,9 +6,9 @@ authors:
   - Tim Wagner
   - Shruthi Rao
 ---
-## We've raised \$30M in series B funding to usher in the web3 era with our next-gen blockchain technology
+## We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology
 
-Today we're excited to announce the latest milestone for Vendia. We've raised an additional \$30M in Series B funding led by NewView Capital – with new investment from the Neythri Futures Fund, Operator Partners, and Lux Capital. The funding also includes additional investment from Neotribe Ventures, Aspenwood Ventures, Sorenson Capital, Canvas Ventures, and BMW iVentures. This latest round brings our total funding to \$50M, and it will help us grow our internal teams, invest in our go-to-market engine, as well as scale partnerships and new areas of compliance certifications.
+Today we're excited to announce the latest milestone for Vendia. We've raised an additional $30M in Series B funding led by NewView Capital – with new investment from the Neythri Futures Fund, Operator Partners, and Lux Capital. The funding also includes additional investment from Neotribe Ventures, Aspenwood Ventures, Sorenson Capital, Canvas Ventures, and BMW iVentures. This latest round brings our total funding to $50M, and it will help us grow our internal teams, invest in our go-to-market engine, as well as scale partnerships and new areas of compliance certifications.
 
 When we started Vendia in 2020, our mission was to make it seamless for businesses to share code and data across applications, data stores, clouds, geographies, tech stacks, and even companies in an efficient and scalable way that wouldn't break the bank. Since then we have seen the need for next-gen blockchain skyrocket. With a myriad of challenges related to data silos across companies and partners, supply chain tracking, and financial transactions – organizations are desperate to manage the increasing volume of real-time data in new, innovative ways. And while some companies turn to traditional blockchain solutions, they quickly discover that first-gen solutions lack the performance, scalability, and integration needed to address these real-world problems.
 
