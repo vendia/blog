@@ -2,7 +2,6 @@
 title: 'Vendia Announces Series B Funding'
 description: 'We’ve raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology'
 date: '2022-05-31'
-draft: 'false'
 authors:
   - Tim Wagner
   - Shruthi Rao
