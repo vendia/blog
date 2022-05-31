@@ -35,7 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
-| [Vendia Announces Series B Funding](https://vendia.net/blog/vendia-announces-series-b) <br/> We’ve raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology by Tim Wagner + Shruthi Rao | 2022-05-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-31-vendia-announces-series-b.md)
+| [Vendia Announces Series B Funding](https://vendia.net/blog/vendia-announces-series-b) <br/> We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology by Tim Wagner + Shruthi Rao | 2022-05-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-31-vendia-announces-series-b.md)
 | [APIs Don’t Have to be So Difficult](https://vendia.net/blog/apis-for-data) <br/> APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs by Tim Wagner | 2022-05-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-27-apis-for-data.md)
 | [Applying Vendia Share Smart Contracts](https://vendia.net/blog/smart-contract-feature-example) <br/> Examples of real-time data validation, computation, and enrichment by James Gimourginas | 2022-05-25 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-25-smart-contract-feature-example.md)
 | [Greenchain Part 2: Vendia and Green Blockchain](https://vendia.net/blog/vendia-green-blockchain) <br/> How our serverless distributed ledger is the green way to do data sharing by Tim Wagner | 2022-05-19 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-19-vendia-green-blockchain.md)
