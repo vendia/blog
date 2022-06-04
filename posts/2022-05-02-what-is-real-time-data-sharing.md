@@ -17,7 +17,7 @@ Like it or not, building and operating modern business applications now involves
 
 #### Why the “real-time” moniker?
 
-Because this data is not restricted to “analytical” data. (See our blog post on [real-time vs. analytical data](https://www.vendia.net/blog/real-time-vs-analytical-data)) 
+Because this data is not restricted to “analytical” data. 
 
 Many systems that produce and consume data can not wait for batch processing or overnight runs.  
 They include real time outcomes like 
@@ -165,27 +165,26 @@ Given the organizational criticality, broad scope, and platform-centric nature o
 
 This section can be used as the basis for a “vendor checklist” to ensure that solutions, whether developed in house, outsourced to a consulting company, or purchased from a vendor, provide the range of capabilities demanded by real-world challenges:
 
-**Multi-cloud and SaaS integrations as fundamental features**
+- [ ] Multi-cloud and SaaS integrations as fundamental features
 
-The single most fundamental feature of a real-time data sharing solution is that it can seamlessly span the most important divides in the modern IT landscape. Examples include: multiple clouds and different SaaS applications, such as Salesforce and Microsoft Dynamics. Without this feature the complicated work still lives with IT.  
+    The single most fundamental feature of a real-time data sharing solution is that it can seamlessly span the most important divides in the modern IT landscape. Examples include: multiple clouds and different SaaS applications, such as Salesforce and Microsoft Dynamics. Without this feature the complicated work still lives with IT.  
 Best-of-breed vendors will support data sharing across the major public clouds and application platforms, with a connector strategy that makes ingress from and egress to other services and platforms fast to develop and easy to operate and maintain.
 
-**SaaS delivery model with a “zero infrastructure” footprint**
+- [ ] SaaS delivery model with a “zero infrastructure” footprint
 
-IT organizations already struggle under the weight of managing too much hardware and software infrastructure, including their large compliance and security surface area. Data sharing solutions, because they can carry data with varying levels of exposure risk, have to be designed to handle the worst case scenario, making securing their end-to-end infrastructure even more complex. Acquiring these capabilities through a SaaS solution that doesn’t expand a company’s infrastructure footprint is critical to avoiding direct and indirect cost and staffing bloat. Cloud-based SaaS platforms for data sharing also confer the economic benefits of shared development and deployment costs, further improving ROI versus in-house and outsourced manual development approaches.
+    IT organizations already struggle under the weight of managing too much hardware and software infrastructure, including their large compliance and security surface area. Data sharing solutions, because they can carry data with varying levels of exposure risk, have to be designed to handle the worst case scenario, making securing their end-to-end infrastructure even more complex. Acquiring these capabilities through a SaaS solution that doesn’t expand a company’s infrastructure footprint is critical to avoiding direct and indirect cost and staffing bloat. Cloud-based SaaS platforms for data sharing also confer the economic benefits of shared development and deployment costs, further improving ROI versus in-house and outsourced manual development approaches.
 
-**Cloud-native design with automatic scaling and fault tolerance**
+- [ ] Cloud-native design with automatic scaling and fault tolerance 
 
-Of all the elements in an IT stack, the data sharing layer is one that most benefits from an innovation-forward design.  \
+    Of all the elements in an IT stack, the data sharing layer is one that most benefits from an innovation-forward design.  \
 Solving for fault tolerance across multiple regions, clouds, departments and partners is challenging enough. Then combined with the need for dynamic scaling that is highly available and cost effective, most homegrown or consulting-based solutions peter out quickly. Cloud-native designs incorporating the latest advances in serverless and container-based technologies offer the best options for creating a solution that offers maximum uptime without sacrificing price to performance ratios.
 
-**High utilization (without high energy consumption)**
+- [ ] High Utilization (without high energy consumption)
 
-Choosing “green tech” becomes ever more important for investors and transparency requirements. Fundamental to lowering carbon emissions is reaching high levels of data and compute utilization; otherwise, the majority of infrastructure capacity is spent creating worthless environmental impact, the worst possible outcome. Data sharing solutions based on modern, serverless technologies offer highly efficient, “100% utilization” solutions based on massively multi-tenanted cloud-based strategies. These benefits pass through to the companies that deploy them, resulting in significant carbon savings.
+    Choosing “green tech” becomes ever more important for investors and transparency requirements. Fundamental to lowering carbon emissions is reaching high levels of data and compute utilization; otherwise, the majority of infrastructure capacity is spent creating worthless environmental impact, the worst possible outcome. Data sharing solutions based on modern, serverless technologies offer highly efficient, “100% utilization” solutions based on massively multi-tenanted cloud-based strategies. These benefits pass through to the companies that deploy them, resulting in significant carbon savings.
 
-**Compliant and secure
-**
+- [ ] Compliant and secure
 
-Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
-
-Want to learn more about data-sharing and Vendia? Read [Improve Your Data Mesh with Real-Time Data Sharing](https://www.vendia.net/blog/improve-your-data-mesh)
+    Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
+    
+Coming soon: Blockchain and Real-Time Data-sharing and Architectures for Real-Time Data Sharing. 

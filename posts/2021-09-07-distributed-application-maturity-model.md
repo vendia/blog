@@ -1,7 +1,7 @@
 ---
 title: 'Toward a Distributed Application Maturity Model'
-description: 'A Maturity Model to help you assess the distributed applications used by your organization.'
-longDescription: 'A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.'
+description: 'We believe distributed, multi-party applications are a great way to bring information-to-people and should be built toward speed-to-value.'
+longDescription: 'We believe distributed, multi-party applications are a great way to bring information-to-people and should be built toward speed-to-value.'
 date: '2021-09-07'
 categories:
   - architecture

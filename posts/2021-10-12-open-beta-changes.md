@@ -1,6 +1,6 @@
 ---
 title: "Open Beta Changes"
-description: "Changes to Vendia Share in advance of the Open Beta"
+description: "Our forthcoming Open Beta milestone will unveil a collection of new features and enhancements, many of which originated from customer outreach and user feedback."
 date: "2021-10-12"
 categories:
   - announcements

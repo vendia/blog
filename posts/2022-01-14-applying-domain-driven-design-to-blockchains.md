@@ -1,6 +1,6 @@
 ---
 title: 'Applying Domain Driven Design to Blockchains'
-description: 'This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform'
+description: 'In this blog, you will first go through a primer on Domain Driven Design (DDD). You will then learn how to apply DDD when constructing a Uni.'
 date: '2022-01-14'
 thumbnail: https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg
 authors:

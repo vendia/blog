@@ -1,6 +1,6 @@
 ---
 title: 'Greenchain Part 2: Vendia and Green Blockchain'
-description: 'How our serverless distributed ledger is the green way to do data sharing'
+description: 'How our serverless distributed ledger is the green way to do data sharing at scale'
 date: '2022-05-19'
 authors:
   - Tim Wagner

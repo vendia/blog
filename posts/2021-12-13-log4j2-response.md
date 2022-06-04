@@ -1,6 +1,6 @@
 ---
 title: "Vendia's Response to CVE-2021-44228"
-description: "A note on the impact to Vendia and our customers"
+description: "After an internal investigation by our engineering teams, we've determined that Vendia infrastructure and systems are not affected by this vulnerability."
 date: '2021-12-13'
 authors:
 - James Gimourginas

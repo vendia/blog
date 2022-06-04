@@ -1,6 +1,6 @@
 ---
 title: 'Vendia Turns 1'
-description: 'Vendia celebrates its first year as a C-corporation'
+description: 'Vendia turns one year old today as an incorporated company.'
 date: '2021-03-31'
 authors:
   - Tim Wagner

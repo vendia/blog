@@ -1,6 +1,6 @@
 ---
 title: 'Kind Humans Really Work Here'
-description: 'Putting a company policy to the test'
+description: 'The way we treat each other - the way we look after each other with kindness - is genuine. I'd like to illustrate this with a story.'
 date: '2021-01-04'
 authors:
   - Brian McNamara

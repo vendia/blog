@@ -1,6 +1,6 @@
 ---
 title: "Meet Vendia's founders"
-description: "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO"
+description: "Our company name, Vendia, comes from Venn Diagram. It's intended to reflect our core mission, helping customers share code and data across companies, clouds, and technology stacks."
 date: '2020-07-01'
 categories:
   - company

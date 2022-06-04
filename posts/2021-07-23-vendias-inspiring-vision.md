@@ -1,6 +1,6 @@
 ---
 title: "Vendia's Inspiring Vision"
-description: "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team."
+description: "We welcome James Gimourginas to the Vendia team. We're thrilled to have him join Vendia as its Director of Solution Architecture and Customer Success."
 date: '2021-07-23'
 categories:
   - announcements
