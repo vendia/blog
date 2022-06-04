@@ -4,6 +4,9 @@ description: "Exploring the ability to update the data model in a Universal Appl
 date: "2021-12-15"
 categories:
   - announcements
+  - data model
+  - architecture
+  - universal applications
 authors:
   - Brian McNamara
 ---

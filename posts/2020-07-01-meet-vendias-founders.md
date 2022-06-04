@@ -4,6 +4,8 @@ description: "Our company name, Vendia, comes from Venn Diagram. It's intended t
 date: '2020-07-01'
 categories:
   - company
+  - culture
+  - origin
 tags:
   - origin
 authors:

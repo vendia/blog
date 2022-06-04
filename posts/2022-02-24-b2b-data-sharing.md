@@ -3,6 +3,9 @@ title: 'The Next Wave of B2B Data Sharing is Here'
 description: 'B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.'
 date: '2022-02-24'
 draft: false
+categories:
+ - data sharing
+ - use case 
 authors:
   - Joydeep Das
 ---

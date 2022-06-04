@@ -2,6 +2,9 @@
 title: 'Announcing Vendia Share Indexing Feature'
 description: 'Vendia Share now offers customer-selected indexes to support efficient data retrieval regardless of the size of the data set.'
 date: '2021-03-10'
+categories:
+  - vendia share
+  - product
 authors:
   - Tim Wagner
 ---

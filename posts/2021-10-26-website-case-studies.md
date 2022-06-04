@@ -4,6 +4,7 @@ description: "Learn what Vendia customers and partners are building on the Share
 date: "2021-10-26"
 categories:
   - announcements
+  - use case
 authors:
   - James Gimourginas
 ---

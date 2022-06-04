@@ -2,6 +2,10 @@
 title: 'Track and Trace using Vendia Unis + Blobs'
 description: 'With Vendia, partners get real-time visibility into the state of their merchandise. Learn more about how to share app data in real-time with multiple partners.'
 date: '2020-11-05'
+categories:
+  - track and trace
+  - product
+  - universal applications
 authors:
   - Glenn Dierkes
 ---

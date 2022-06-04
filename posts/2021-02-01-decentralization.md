@@ -5,6 +5,8 @@ longDescription: 'In this post we explore how to think about the concept of dece
 date: '2021-02-01'
 categories:
   - concepts
+  - distributed ledger
+  - decentralization
 tags:
   - decentralization
 authors:

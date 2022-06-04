@@ -4,6 +4,9 @@ description: 'The way we treat each other - the way we look after each other wit
 date: '2021-01-04'
 authors:
   - Brian McNamara
+categories:
+  - culture
+  - company
 ---
 
 At Vendia, we have a ["Kind Humans Only"](https://vendia.net/kind-humans) policy.  All employees are required to sign a document acknowledging adherence to it.  We share it on our public website so everyone can see what we hold as important.  I'm here to say these words are not empty - kindness really matters at Vendia.  The way we treat each other - the way we look after each other with kindness - is genuine.  I'd like to illustrate this with a story.

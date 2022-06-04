@@ -5,6 +5,8 @@ longDescription: 'We believe distributed, multi-party applications are a great w
 date: '2021-09-07'
 categories:
   - architecture
+  - distributed apps
+  - universal applications
 authors:
   - James Gimourginas
 ---

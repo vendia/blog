@@ -2,6 +2,10 @@
 title: 'APIs Don’t Have to be So Difficult'
 description: 'APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs.'
 date: '2022-05-27'
+categories:
+  - concepts
+  - api-driven development
+  - data sharing
 authors:
   - Tim Wagner
 ---

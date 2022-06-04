@@ -4,6 +4,10 @@ description: 'Keep using whatever datastore your applications currently use. Ven
 longDescription: >
     Use Vendia Share to Complement Existing Data Stores.
 date: '2021-05-10'
+categories:
+  - vendia share
+  - universal applications
+  - use case
 authors:
   - Brian McNamara
 ---

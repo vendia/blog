@@ -5,6 +5,9 @@ longDescription: "We're pleased to announce a $15.5M Series A investment, the la
 date: '2021-02-03'
 categories:
   - announcements
+  - vendia share
+  - developers
+  - funding
 tags:
   - funding
   - developers

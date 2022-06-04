@@ -1,8 +1,12 @@
 ---
 title: "Why GraphQL Isn't Sufficient for Enterprise Blockchains and What We Did About It"
-description: 'Enriching GraphQL with Transactions, Condition Updates, and Ledgering'
+description: 'How to enrich GraphQL with Transactions, Condition Updates, and Ledgering using Vendia.'
 draft: false
 date: '2022-03-09'
+categories:
+  - blockchain
+  - graphql
+  - architecture
 authors:
   - Brian McNamara
 ---

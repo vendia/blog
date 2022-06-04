@@ -3,7 +3,11 @@ title: "Why We Combined GraphQL and a Serverless Distributed Ledger"
 description: "In this post, we'll dive a bit deeper and explore GraphQL and look at why Vendia selected GraphQL as its primary interface."
 date: '2022-01-18'
 categories:
-- concepts
+    - concepts
+    - serverless
+    - distributed ledger
+    - graphql
+    - vendia share
 authors:
 - Brian McNamara
 ---

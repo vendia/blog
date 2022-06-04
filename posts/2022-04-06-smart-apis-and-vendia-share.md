@@ -1,7 +1,10 @@
 ---
 title: 'Part 2: Vendia Share and Smart APIs'
-description: 'How Vendia helps APIs do more for you'
+description: 'How Vendia helps APIs do more for your data sharing projects and initiatives. Build Smart APIs instead of "dumb pipes."'
 date: '2022-04-06'
+categories:
+  - smart apis
+  - vendia share
 authors:
   - Tim Wagner
 ---

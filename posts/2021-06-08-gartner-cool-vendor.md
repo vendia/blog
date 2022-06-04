@@ -5,6 +5,8 @@ date: '2021-06-08'
 categories:
   - announcements
   - company
+  - analysts
+  - funding
 tags:
   - funding
 authors:

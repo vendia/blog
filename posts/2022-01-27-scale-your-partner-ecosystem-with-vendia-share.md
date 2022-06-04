@@ -5,6 +5,8 @@ date: '2022-01-27'
 categories:
 - tutorials
 - concepts
+- vendia share
+- partners
 authors:
 - Brian McNamara
 ---

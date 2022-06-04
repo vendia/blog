@@ -3,6 +3,9 @@ title: 'My First 30 Days at Vendia'
 description: 'From onboarding to an offsite - some thoughts on my first 30 days at Vendia'
 date: '2022-02-09'
 draft: false
+categories:
+- company
+- culture
 authors:
   - Caroll Casbeer
 ---

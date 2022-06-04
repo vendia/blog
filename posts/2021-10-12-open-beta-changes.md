@@ -4,6 +4,7 @@ description: "Our forthcoming Open Beta milestone will unveil a collection of ne
 date: "2021-10-12"
 categories:
   - announcements
+  - vendia share
 authors:
   - James Gimourginas
   - Brian McNamara

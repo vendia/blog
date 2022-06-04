@@ -1,7 +1,11 @@
 ---
 title: 'The 3 Key Elements of Modern IT Solutions: Centralized IT, Private Chains, Public Chains'
-description: 'Part 1 of our series examining the relationship between blockchain and centralized technologies '
+description: 'Part 1 of our series examining the relationship between blockchain and centralized technologies. '
 date: '2022-04-01'
+categories:
+  - blockchain
+  - infrastructure
+  - data sharing
 authors:
   - Tim Wagner
 ---

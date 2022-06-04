@@ -5,6 +5,8 @@ draft: false
 date: '2022-03-21'
 categories:
   - product
+  - vendia share
+  - announcement
 authors:
   - David Brown
 ---

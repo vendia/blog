@@ -1,10 +1,12 @@
 ---
 title: 'Applying Vendia Share Smart Contracts'
-description: 'Examples of real-time data validation, computation, and enrichment'
+description: 'Check out examples of real-time data validation, computation, and enrichment using Vendia Share Smart Contracts.'
 date: '2022-05-25'
 categories:
 - concepts
 - tutorials
+- smart contracts
+- vendia share
 authors:
 - James Gimourginas
 ---

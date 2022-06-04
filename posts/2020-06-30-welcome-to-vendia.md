@@ -4,6 +4,7 @@ description: 'Our mission is to make it easy to share code and data across compa
 date: '2020-06-30'
 categories:
   - company
+  - culture
 authors:
   - Tim Wagner
   - Shruthi Rao

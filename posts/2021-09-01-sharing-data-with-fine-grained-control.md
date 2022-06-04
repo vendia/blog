@@ -4,6 +4,10 @@ description: "With this release, Uni nodes can specify which party has the abili
 longDescription: >
     Defining Data Access Among Partners in a Universal Application
 date: '2021-09-01'
+categories:
+  - vendia share
+  - universal applications
+  - use case
 authors:
   - Brian McNamara
 ---

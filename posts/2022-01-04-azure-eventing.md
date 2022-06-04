@@ -3,9 +3,13 @@ title: "Real-Time Cross-Cloud Data Sharing"
 description: "Highlighting the value of Vendia Share's new Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective."
 date: '2022-01-04'
 categories:
-- architecture
+  - architecture
+  - azure
+  - data sharing
+  - vendia share
+  - use case
 authors:
-- James Gimourginas
+  - James Gimourginas
 ---
 
 ## Updates

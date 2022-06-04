@@ -6,6 +6,9 @@ categories:
 - architecture
 - concepts
 - tutorials
+- data sharing
+- data model
+- vendia share
 authors:
 - James Gimourginas
 ---

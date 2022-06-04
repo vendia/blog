@@ -2,7 +2,10 @@
 title: 'Tools That Shape Products'
 description: 'In this post, we will follow the life of a simple application as it must adapt to new requirements and deal with limits set by the technologies used to build it.'
 authors:
-- Ryan Scott Brown
+  - Ryan Scott Brown
+categories:
+  - product design
+  - culture
 date: '2020-11-16'
 ---
 

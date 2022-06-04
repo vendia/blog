@@ -6,6 +6,7 @@ tag:
   - developers
 categories:
   - company
+  - culture
 authors:
   - James Gimourginas
 ---

@@ -6,6 +6,7 @@ authors:
   - David Brown
 categories:
   - announcements
+  - vendia share
 ---
 
 **Announcing Azure support, smart contracts, and new pricing plans for Vendia Share**

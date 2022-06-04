@@ -1,7 +1,12 @@
 ---
 title: 'Part 4: Better Together: Using all Three Approaches'
-description: 'Part 4 of the 3 Body Problem - solution to Adobe Stock example'
+description: 'Part 4 of the 3 Body Problem - solution to Adobe Stock example, and how to build data sharing applications that are ready for the future of blockchain.'
 date: '2022-04-26'
+categories:
+  - leadership
+  - culture
+  - blockchain
+  - data sharing
 authors:
   - Tim Wagner
 ---

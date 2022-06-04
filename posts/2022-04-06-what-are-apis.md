@@ -1,10 +1,10 @@
 ---
 title: 'What you need to know about APIs'
-
-description: 'And why building them is still such a challenge'
-
+description: '...and why building them is still such a challenge. Learn how to build API-driven apps that are future-ready.'
 date: '2022-04-06'
-
+categories:
+  - smart apis
+  - distributed apps
 authors:
   - Tim Wagner
 ---

@@ -3,6 +3,12 @@ title: 'Applying Domain Driven Design to Blockchains'
 description: 'In this blog, you will first go through a primer on Domain Driven Design (DDD). You will then learn how to apply DDD when constructing a Uni.'
 date: '2022-01-14'
 thumbnail: https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg
+categories:
+  - domain-driven design
+  - architecture
+  - blockchain
+  - graphql
+  - vendia share
 authors:
   - Vikrant Kahlir
 ---

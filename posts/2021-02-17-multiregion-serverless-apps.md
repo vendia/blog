@@ -4,6 +4,10 @@ description: In this post, we're going to show how unis make it easy to create p
 longDescription: >
     In this post, we're going to show how unis make it easy to create powerful web, mobile, and cloud-based applications for a variety of use cases.
 date: '2021-02-17'
+categories:
+  - serverless
+  - multiregion
+  - universal applications
 authors:
   - Brian McNamara
 ---

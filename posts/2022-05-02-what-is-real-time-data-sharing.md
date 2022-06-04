@@ -2,6 +2,9 @@
 title: 'What is Real-Time Data Sharing?'
 description: 'The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration.'
 date: '2022-05-03'
+categories:
+  - data sharing
+  - blockchain
 authors:
   - Tim Wagner
 ---
