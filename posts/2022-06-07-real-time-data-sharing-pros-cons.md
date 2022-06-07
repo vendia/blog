@@ -1,3 +1,11 @@
+---
+title: 'Real-time data sharing: pros and cons'
+description: 'Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.'
+date: '2022-06-07'
+authors:
+  - Anders Maul
+---
+
 # Real Time Data Sharing: Pros and Cons
 
 As the world of commerce moves increasingly faster, the demand for real-time data is on the rise. We have talked about the difference [between analytical and operational data](https://www.vendia.net/blog/real-time-vs-analytical-data) before. This blog will dive into the operational data that tends to be more urgent in nature and how you as a CTO, CIO, or CDO determine what data you should enable your organization with in real-time, what data is best suited for real-time data sharing, and what are the pros and cons of real-time data sharing.
