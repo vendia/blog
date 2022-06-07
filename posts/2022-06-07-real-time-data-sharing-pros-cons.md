@@ -44,7 +44,7 @@ Most product sales depend on multiple parties as the product moves through the m
 In the case of a car manufacturer who relies heavily on just-in-time inventory management, it is highly valuable to know the status of every car component needed to build the car and deliver the finished product to the dealership and the customer. If anything goes wrong in the process, say a shipment gets stuck in the Suez Canal, the company instantly knows to draw up a plan B in order to mitigate or minimize any delivery delays of the final product. Furthermore, real-time data sharing across each of the parties in the manufacturing supply chain can also create an ongoing log, so in the unfortunate event that e.g. a recall is happening or a fault is discovered at a later stage, it is possible to trace the product journey and identify the point in time where the failure occurred. This is particularly useful in the case of warranty tracking, where specific product elements will have to be tracked across many customers, across a long timeline, and back through the entire supply chain to determine which supplier is liable for which product deficiency based on individual supplier contracts and terms. 
 
 
-## The Pros of real-time data sharing
+## The pros of real-time data sharing
 
 There are some general benefits of real-time data sharing that ring true across many use cases including: 
 
@@ -56,7 +56,7 @@ Data and information that arrives too late is not worth much. Real-time data sha
 
 
 
-2. **More efficient processes **
+2. **More efficient processes**
 
 With timely insights you also enable the ability to more easily identify opportunities for efficiency gains. Many processes that cross company boundaries still rely on a degree of manual work. With real-time data sharing across organizations, there is both an opportunity for automating tasks and for identifying bottlenecks or inefficiencies that can speed up the process for all parties.  
 
@@ -67,7 +67,7 @@ With timely insights you also enable the ability to more easily identify opportu
 Partners often rely on having a trusted, single source of the truth that they align around as they work together. Those that do this well are successful, profitable, and stay together. By integrating deeper with your partners’ data around a shared truth, you can start thinking through the journey holistically instead of in bite sizes. This leads to a better understanding of your partners and their challenges, it removes distrust in the business relationship, and ensures everyone is aware of their responsibilities and maximizes their profit. 
 
 
-## The Cons of real-time data sharing
+## The cons of real-time data sharing
 
 **Anyone who works with data knows that volume and speed requirements play a big part in how time-consuming, difficult, and expensive it is to build and maintain the infrastructure supporting it. Here are some of the cons of real-time data sharing:**
 
@@ -94,18 +94,23 @@ Partners often rely on having a trusted, single source of the truth that they al
 Vendia has built a B2B data-sharing platform that gives you all the benefits of real-time data sharing without all the headaches. Vendia has designed a platform that brings all data sharing parties together around a single source of truth that is updated in real-time.
 
 **Easy integration through a single access point**
+
 Every partner gets an access point (a node) to the Vendia Share platform, with access to their own copy of the latest data across the data-sharing partnership. Every partner can easily connect their system (whether cloud or on-premise) to Vendia, no need to build or maintain multiple API connection points, and you can be up and running in a matter of days. 
 
 **Indisputable, single source of truth**  
+
 Vendia automatically reconciles data at all times, to ensure only the latest data appears on everyone’s copy of “the truth”. Every transaction and change is recorded on everyone’s copy at the same time, giving everyone visibility of current and past states. This allows full visibility for everyone and even makes it possible to audit prior transactions to settle disputes or gain other insights.  
 
 **Secure data exchange** 
+
 Vendia is designed in such a way that you can refine and tightly control exactly what you share (and don’t share) so you only exchange the data that is relevant to other partners, without the risk of sharing intellectual property or sensitive data. Furthermore the platform is SOC2 certified and PII compliant. 
 
 **Powered by the cloud**
+
 Unlike on-premise solutions or Consumer-to-Consumer blockchain platforms, Vendia’s B2B Blockchain platform is powered by the cloud and delivered as a serverless Saas service. This means that virtually infinite computing and scales is available on-demand with the majority of costs based on capacity used.   
 
 **Faster innovation**
+
 Vendia’s B2B Blockchain Platform spins up in minutes, and connects partners with ease, without the need for ongoing maintenance. This allows you to focus on what matters to your company, partners, and your customers.
 
 
@@ -115,4 +120,4 @@ If you are ready to explore how real-time data sharing might help accelerate you
 
 In just five days you will get a working application that demonstrates proof-of-value including: Multi-party sharing, easy partner invitations, a resilient global serverless architecture with no operational overhead, and fine-grained data access controls — Everything you need to reap all the benefits of real-time data sharing.  
 
-Request a POC at Vendia.net/poc today 
+Request a POC at [vendia.net/poc](https://www.vendia.net/poc) today. 
