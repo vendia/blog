@@ -83,7 +83,7 @@ Anyone who works with data knows that volume and speed requirements play a big p
 
 1. **Time consuming and complex to build**
 
-    True real-time data sharing can be extremely hard to design, build, and implement across multiple partners. While point-to-point APIs between two partners is somewhat straightforward, when multiple parties get involved, the challenges grow exponentially, which makes it time-consuming and costly to build. 
+    True real-time data sharing can be extremely hard to design, build, and implement across multiple partners. Managing point-to-point APIs between two partners is somewhat straightforward. The challenges grow exponentially when three or more parties get involved. The solution is time-consuming and costly to build. 
 
 
 2. **Difficult to create a shared and trusted source of truth**
