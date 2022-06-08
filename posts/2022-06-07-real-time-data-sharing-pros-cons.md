@@ -111,7 +111,7 @@ Vendia automatically reconciles data at all times, to ensure only the latest dat
 
 **Secure data exchange** 
 
-Vendia is designed in such a way that you can refine and tightly control exactly what you share (and don’t share) so you only exchange the data that is relevant to other partners, without the risk of sharing intellectual property or sensitive data. Furthermore the platform is SOC2 certified and PII compliant. 
+Vendia is designed in such a way that you can refine and tightly control exactly what you share (and don’t share) so you only exchange the data that is relevant to other partners, without the risk of sharing intellectual property or sensitive data. Furthermore the platform is in the final stages of proving SOC2 certification. 
 
 **Powered by the cloud**
 
