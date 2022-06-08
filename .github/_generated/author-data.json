@@ -1,5 +1,6 @@
 {
   "slugs": [
+    "anders-maul",
     "brett-andrews",
     "brian-mcnamara",
     "caroll-casbeer",
@@ -18,6 +19,17 @@
     "vikrant-kahlir"
   ],
   "authors": [
+    {
+      "name": "Anders Maul",
+      "github": "anders-vendia",
+      "twitter": "anders",
+      "avatar": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "bio": {
+        "short": "product marketer",
+        "long": "Anders likes building things, travel, and word plays."
+      },
+      "slug": "anders-maul"
+    },
     {
       "name": "Brett Andrews",
       "github": "brettstack",

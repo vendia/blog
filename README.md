@@ -35,12 +35,13 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Real-time data sharing: pros and cons](https://vendia.net/blog/real-time-data-sharing-pros-cons) <br/> Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons by Anders Maul | 2022-06-07 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-07-real-time-data-sharing-pros-cons.md)
 | [Vendia Announces Series B Funding](https://vendia.net/blog/vendia-announces-series-b) <br/> We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology by Tim Wagner + Shruthi Rao | 2022-05-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-31-vendia-announces-series-b.md)
 | [APIs Don’t Have to be So Difficult](https://vendia.net/blog/apis-for-data) <br/> APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs by Tim Wagner | 2022-05-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-27-apis-for-data.md)
 | [Applying Vendia Share Smart Contracts](https://vendia.net/blog/smart-contract-feature-example) <br/> Examples of real-time data validation, computation, and enrichment by James Gimourginas | 2022-05-25 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-25-smart-contract-feature-example.md)
 | [Greenchain Part 2: Vendia and Green Blockchain](https://vendia.net/blog/vendia-green-blockchain) <br/> How our serverless distributed ledger is the green way to do data sharing by Tim Wagner | 2022-05-19 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-19-vendia-green-blockchain.md)
 | [Greenchain Part 1: Current Blockchains' Big Carbon Footprint](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints) <br/> Why current blockchain technologies have large carbon footprints by Tim Wagner | 2022-05-17 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md)
-| [Greenchains: Can Blockchains Save the Enviornment?](https://vendia.net/blog/green-blockchain-intro) <br/> Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking by Tim Wagner | 2022-05-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-13-green-blockchain-intro.md)
+| [Greenchains: Can Blockchains Save the Environment?](https://vendia.net/blog/green-blockchain-intro) <br/> Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking by Tim Wagner | 2022-05-13 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-13-green-blockchain-intro.md)
 | [Improve Your Data Mesh with Real-Time Data Sharing](https://vendia.net/blog/improve-your-data-mesh) <br/> Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share by James Gimourginas | 2022-05-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-10-improve-your-data-mesh.md)
 | [Types of Data: Real-time Data vs. Analytical Data](https://vendia.net/blog/real-time-vs-analytical-data) <br/> What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data by Caroll Casbeer | 2022-05-05 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-05-real-time-vs-analytical-data.md)
 | [What is Real-Time Data Sharing?](https://vendia.net/blog/what-is-real-time-data-sharing) <br/> The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration by Tim Wagner | 2022-05-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-02-what-is-real-time-data-sharing.md)
@@ -113,6 +114,13 @@ Welcome to the Vendia blog repo!
 <table>
  <tr>
   <td align="center">
+    <a href="https://twitter.com/anders">
+      <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="100px;" alt=""/>
+      <br />
+      Anders Maul
+    </a>
+  </td>
+  <td align="center">
     <a href="https://twitter.com/AWSbrett">
       <img src="https://avatars1.githubusercontent.com/u/1882775?s=400" width="100px;" alt=""/>
       <br />
@@ -140,6 +148,8 @@ Welcome to the Vendia blog repo!
       Cory Forsythe
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/DavidBr47724582">
       <img src="https://avatars.githubusercontent.com/u/92179243?s=400" width="100px;" alt=""/>
@@ -147,8 +157,6 @@ Welcome to the Vendia blog repo!
       David Brown
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/DavidWells">
       <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="100px;" alt=""/>
@@ -177,6 +185,8 @@ Welcome to the Vendia blog repo!
       Hailey Nevins
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://github.com/james-vendia">
       <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="100px;" alt=""/>
@@ -184,8 +194,6 @@ Welcome to the Vendia blog repo!
       James Gimourginas
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/joydeep02263451">
       <img src="https://avatars.githubusercontent.com/u/98058931" width="100px;" alt=""/>
@@ -214,6 +222,8 @@ Welcome to the Vendia blog repo!
       Shruthi Rao
     </a>
   </td>
+</tr>
+<tr>
   <td align="center">
     <a href="https://twitter.com/timallenwagner">
       <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="100px;" alt=""/>
@@ -221,8 +231,6 @@ Welcome to the Vendia blog repo!
       Tim Wagner
     </a>
   </td>
-</tr>
-<tr>
   <td align="center">
     <a href="https://twitter.com/vkahlir">
       <img src="https://avatars.githubusercontent.com/u/96793170" width="100px;" alt=""/>
