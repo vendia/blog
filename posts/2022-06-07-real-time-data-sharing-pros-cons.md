@@ -13,11 +13,11 @@ As the world of commerce moves increasingly faster, the demand for real-time dat
 
 ## What is real-time data sharing?  
 
-Real-time data sharing is the instant sharing of time-sensitive, operational, business critical, and valuable data, with internal or external parties. This is a contrast to analytical data which is often collected and queued for batch processing and leads to data being hours or days old. Real-time data, also known as data streaming, is processed immediately for every single event that takes place and ensures you always have the latest insights. 
+Real-time data sharing is the instant sharing of time-sensitive, operational, business critical, and valuable data, with internal or external parties. This is a contrast to analytical data which is often collected and queued for batch processing and leads to data being hours or days old. Real-time data is processed immediately for every single event that takes place and ensures you always have the latest insights. 
 
-Take for example a product moving through a supply chain. As the product is handed off to the next step in the process and the data surrounding it is updated, it is extremely valuable for everyone involved to be able to know the status of the product at all times. This allows each participating party to mitigate errors, plan ahead, justify payments, and increase productivity and efficiency at every stage of the journey. 
+For example, let's examine a product moving through a supply chain. As the product is handed off to the next step in the process and the data surrounding it is updated, it is extremely valuable for everyone involved to be able to know the status of the product at all times. This allows each participating party to mitigate errors, plan ahead, justify payments, and increase productivity and efficiency at every stage of the journey. 
 
-Examples of multi-party journeys that benefit from real-time data sharing and traceability are manufacturing,  supply chain, airline travel, and the loan servicing industry, to mention a few.  
+Examples of multi-party journeys that benefit from real-time data sharing and traceability are manufacturing, supply chain, airline travel, and the loan servicing industry, to mention a few.  
 
 
 ### Common use cases for real-time data sharing
@@ -28,7 +28,7 @@ Real-time data is most relevant in cases where data is updated on a relatively f
 
 In order for this to happen, all parties should have access to at least four insights for a given object: 
 
-* time (date + time)
+* timestamp (date + time)
 * object ID (unique identifier)
 * status (ownership, location, responsible party)
 * value (amount, cost, price, count)
@@ -40,7 +40,7 @@ Here are a few use case examples:
 
 While a mortgage payment may look like a simple payment from property owner to lender, every payment kicks off a range of tasks behind the scenes. The lender not only has to reconcile the new status of debt and interest payments, they also have to ensure property taxes and insurance are paid to the right parties. Additionally, the loan and associated risk and payments might actually be co-owned by multiple parties as part of a securities bundle.  
 
-For these reasons, it is crucial that every transaction is relying on the latest information across the entire journey, from the latest property tax liability, to the latest balances, and current owners of the mortgage — all of which change on a regular basis. Now multiply the complexity with thousands of properties, loan terms, lenders, and owners of e.g. mortgage-backed bonds and you have a highly complex system that without real-time data sharing requires weeks and months of, at times manual, reconciliation work across disjointed systems. 
+For these reasons, it is crucial that every transaction is relying on the latest information across the entire journey, from the latest property tax liability, to the latest balances, and current owners of the mortgage — all of which change on a regular basis. Now multiply the complexity with thousands of properties, loan terms, lenders, and mortgage security owners and you have a highly complex system. Without real-time data sharing, reconciliation requires weeks and months of, at times manual, work across disjointed systems. 
 
 Real-time data sharing removes delays and reduces errors associated with highly disjointed and manual processes. In addition, it opens up for entirely new benefits such as the ability for portfolio owners to get a real-time view of risk exposure and cash flow movements.   
 
@@ -77,13 +77,13 @@ Partners often rely on having a trusted, single source of the truth that they al
 
 ## The cons of real-time data sharing
 
-**Anyone who works with data knows that volume and speed requirements play a big part in how time-consuming, difficult, and expensive it is to build and maintain the infrastructure supporting it. Here are some of the cons of real-time data sharing:**
+Anyone who works with data knows that volume and speed requirements play a big part in how time-consuming, difficult, and expensive it is to build and maintain the infrastructure supporting it. Here are some of the cons of real-time data sharing:
 
 
 
 1. **Time consuming and complex to build**
 
-    True real-time data sharing can be extremely hard to design, build, and implement across multiple partners. While point-to-point APIs between two partners is somewhat straightforward, but when multiple parties get involved, the challenges grow exponentially, which makes it time-consuming and costly to build. 
+    True real-time data sharing can be extremely hard to design, build, and implement across multiple partners. While point-to-point APIs between two partners is somewhat straightforward, when multiple parties get involved, the challenges grow exponentially, which makes it time-consuming and costly to build. 
 
 
 2. **Difficult to create a shared and trusted source of truth**
@@ -99,15 +99,15 @@ Partners often rely on having a trusted, single source of the truth that they al
 
 ## How Vendia streamlines real-time data sharing
 
-Vendia has built a B2B data-sharing platform that gives you all the benefits of real-time data sharing without all the headaches. Vendia has designed a platform that brings all data sharing parties together around a single source of truth that is updated in real-time.
+Vendia has built a real-time data-sharing platform that gives you all the benefits of real-time data sharing without all the headaches. Vendia has designed a platform that brings all data sharing parties together around a single source of truth that is updated in real-time.
 
 **Easy integration through a single access point**
 
-Every partner gets an access point (a node) to the Vendia Share platform, with access to their own copy of the latest data across the data-sharing partnership. Every partner can easily connect their system (whether cloud or on-premise) to Vendia, no need to build or maintain multiple API connection points, and you can be up and running in a matter of days. 
+Every partner gets an access point (a node) to the Vendia Share platform, with access to their own copy of the latest data across the data-sharing partnership. Every partner can easily connect their on-premise or cloud systems to Vendia without a need to build or maintain multiple API connection points. Partners can be up and running in a matter of days. 
 
 **Indisputable, single source of truth**  
 
-Vendia automatically reconciles data at all times, to ensure only the latest data appears on everyone’s copy of “the truth”. Every transaction and change is recorded on everyone’s copy at the same time, giving everyone visibility of current and past states. This allows full visibility for everyone and even makes it possible to audit prior transactions to settle disputes or gain other insights.  
+Vendia automatically reconciles data at all times, to ensure only the latest data appears on everyone’s ledger. Every transaction and change is recorded on everyone’s ledger at the same time, giving everyone visibility of current and past states. This allows full visibility for everyone and even makes it possible to audit prior transactions to settle disputes or gain other insights.  
 
 **Secure data exchange** 
 
@@ -115,11 +115,11 @@ Vendia is designed in such a way that you can refine and tightly control exactly
 
 **Powered by the cloud**
 
-Unlike on-premise solutions or Consumer-to-Consumer blockchain platforms, Vendia’s B2B Blockchain platform is powered by the cloud and delivered as a serverless Saas service. This means that virtually infinite computing and scales is available on-demand with the majority of costs based on capacity used.   
+Unlike on-premise solutions or public blockchain platforms, Vendia’s enterprise blockchain platform is powered by the cloud and delivered as a serverless SaaS. This means that virtually infinite computing and scale is available on-demand with the majority of costs based on capacity used.   
 
 **Faster innovation**
 
-Vendia’s B2B Blockchain Platform spins up in minutes, and connects partners with ease, without the need for ongoing maintenance. This allows you to focus on what matters to your company, partners, and your customers.
+Vendia’s platform spins up in minutes, and connects partners with ease, without the need for ongoing maintenance. This allows you to focus on what matters to your company, your partners, and your customers.
 
 
 ### Bring real-time data sharing to your organization
