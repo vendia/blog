@@ -1,6 +1,6 @@
 ---
 title: 'Improve Your Data Mesh with Real-Time Data Sharing'
-description: 'Here's why organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share.'
+description: 'Here's why organizations exploring a data mesh and Domain Driven Design should consider integrating a real-time data sharing solution.'
 date: '2022-05-10'
 categories:
   - architecture
