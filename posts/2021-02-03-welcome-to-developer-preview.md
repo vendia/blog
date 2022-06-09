@@ -1,7 +1,7 @@
 ---
 title: "Announcing the Vendia Share Developer Preview!"
 description: "We're pleased to announce a $15.5M Series A investment, the launch of our Developer Preview for Vendia Share, and share some of our customers' use cases!"
-longDescription: "We're pleased to announce a $15.5M Series A investment, the launch of our Developer Preview for Vendia Share, and share some of our customers' use cases!"
+longDescription: "We're pleased to announce a $15.5M Series A investment, the launch of our Developer Preview for Vendia Share, and share some of our customers' success!"
 date: '2021-02-03'
 categories:
   - announcements
