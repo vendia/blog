@@ -156,4 +156,4 @@ Cost and complexity are also considerations: From the need to learn novel progra
 
 None of these approaches provide a general purpose data sharing solution capable of modeling data accurately while bridging company and cloud divides and scaling to enterprise-grade levels of throughput. Figure 5 summarizes their respective pros and cons. 
 
-_In our next post we will look at how Vendia's approach is designed to overcome the limitations of alternative technologies._
+Check out part 2 for how modern APIs can solve these legacy issues. Read [APIs for Real-Time Data-Sharing](https://vendia.net/blog/apis-for-real-time-data-sharing)

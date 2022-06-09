@@ -1,6 +1,15 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
+      "title": "How to Make Your APIs \"Data-aware\"",
+      "description": "Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth.",
+      "date": "2022-06-09",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-05-31-vendia-announces-series-b.md",
       "title": "Vendia Announces Series B Funding",
       "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
@@ -39,7 +48,7 @@
     },
     {
       "file": "/posts/2022-05-13-green-blockchain-intro.md",
-      "title": "Greenchains: Can Blockchains Save the Enviornment?",
+      "title": "Greenchains: Can Blockchains Save the Environment?",
       "description": "Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking",
       "date": "2022-05-13",
       "authors": [
@@ -367,6 +376,17 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
+      ]
+    }
+  ],
+  "anders-maul": [
+    {
+      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
+      "title": "Real-time data sharing: pros and cons",
+      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
+      "date": "2022-06-07",
+      "authors": [
+        "Anders Maul"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 ---
-title: 'Greenchains: Can Blockchains Save the Enviornment?'
-description: 'Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking.'
+title: 'Greenchains: Can Blockchains Save the Environment?'
+description: 'Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking'
 date: '2022-05-13'
 categories:
   - blockchain
@@ -9,7 +9,8 @@ categories:
 authors:
   - Tim Wagner
 ---
-# Greenchains: Can Blockchains Save the Environment?
+# Greenchains: C
+an Blockchains Save the Environment?
 
 ## Early blockchains had devastating environmental impacts. But could newer approaches actually help us fix the dirty little secret of IT's carbon footprint?
 
