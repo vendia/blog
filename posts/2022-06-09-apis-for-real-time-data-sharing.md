@@ -29,7 +29,7 @@ Vendia’s approach combines the strengths of different approaches to overcome t
 
 
 * Each participant has a node containing one or more cloud-hosted databases and file stores, capable of 11 9’s of durability storage with unlimited capacity
-* On top of that, a high speed data replication and consensus mechanism emulates a blockchain’s ability to create consistent replicas, but does so with massive parallelization and cloud-enabled scale and throughput
+* A high speed data replication and consensus mechanism emulates a blockchain’s ability to create consistent replicas, but does so with massive parallelization and cloud-enabled scale and throughput
 * A user-provided data model is used to automatically generate modern GraphQL APIs, including subscriptions that offer real-time streaming, all designed around the application’s data schema. These capabilities include versioning, time travel, auditing, and lineage analysis without the need to write even a single line of code.
 * All services are delivered in SaaS style, with zero infrastructure footprint to manage or maintain in any application.
 * Everything is built using scalable and fault tolerant “serverless” cloud technology, allowing it to be tightly cost enveloping, environmentally friendly, and automatically scalable on a per-request basis.
