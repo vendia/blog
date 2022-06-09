@@ -1,7 +1,7 @@
 ---
 title: 'Track & Trace Quickstart - Solving supply chain visibility through data sharing'
-description: > 
-  This Quick Start will walk you through the creation of a distributed supply-chain system using Vendia Share.
+description: 
+  'This Quick Start will walk you through the creation of a track andn trace system using Vendia Share, a serverless distributed ledger.'
 date: '2021-01-25'
 categories:
   - track and trace
