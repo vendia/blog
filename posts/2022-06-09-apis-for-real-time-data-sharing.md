@@ -63,7 +63,7 @@ Despite the simplicity of this example, note that the sharing and lineage tracki
 * Only CoolTech can update the list of CoolTech products the customer uses (but Acme can view this information)
 * All previous versions of the data need to be retained, and all changes to the data need to be tracked, so that audits can be performed to ensure GDPR, CCPA, and other regulatory program compliance by a third party
 
-The process of using Vendia is simple: given the data model above, the system automatically generates cloud hosted APIs, streaming event solutions, and data storage subsystems for both Acme and CoolTech in just a few minutes. These systems “production grade” immediately – they come with prebuilt scaling, fault tolerance, and both on-the-fly and at-rest encryption built in … no additional coding is required to achieve any of these outcomes. Each company can now set up custom authentication and authorization for as many systems as they like, even using additional nodes if they want their data to span multiple public clouds.
+The process of using Vendia is simple: given the data model above, the system automatically generates cloud hosted APIs, streaming event solutions, and data storage subsystems for both Acme and CoolTech in just a few minutes. These systems are production grade immediately – they come with prebuilt scaling, fault tolerance, and both on-the-fly and at-rest encryption built in without additional coding required. Each company can now set up custom authentication and authorization for as many systems as they like, even using additional nodes if they want their data to span multiple public clouds.
 
 
 ## Changes Over Time
