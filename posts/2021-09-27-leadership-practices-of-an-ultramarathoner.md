@@ -1,6 +1,6 @@
 ---
 title: "Five Leadership Practices of an Ultramarathoner"
-description: "The discipline and training fit for an ultramarathoner can be used to build tomorrow's leaders as well. Check out the post to learn more."
+description: "The discipline and training fit for an ultramarathoner can be used to build tomorrows leaders as well. Check out the post to learn more."
 date: '2021-09-27'
 tag:
   - developers
