@@ -75,7 +75,7 @@ If the business relationships themselves evolve, for example to include a new pa
 
 ## Vendor Selection Guidance
 
-With the large number of mechanisms available, how do you decide which alternative to use when? While the specifics of a given scenario are always relevant, the list below groups common solutions by category.
+With the large number of mechanisms available, how do you decide which alternative to use and when to use it? While the specifics of a given scenario are always relevant, the list below groups common solutions by category.
 
 
 
