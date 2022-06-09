@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [How to Make Your APIs "Data-aware"](https://vendia.net/blog/apis-for-real-time-data-sharing) <br/> Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth by Tim Wagner | 2022-06-09 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-09-apis-for-real-time-data-sharing.md)
 | [Real-time data sharing: pros and cons](https://vendia.net/blog/real-time-data-sharing-pros-cons) <br/> Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons by Anders Maul | 2022-06-07 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-07-real-time-data-sharing-pros-cons.md)
 | [Vendia Announces Series B Funding](https://vendia.net/blog/vendia-announces-series-b) <br/> We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology by Tim Wagner + Shruthi Rao | 2022-05-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-31-vendia-announces-series-b.md)
 | [APIs Don’t Have to be So Difficult](https://vendia.net/blog/apis-for-data) <br/> APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs by Tim Wagner | 2022-05-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-05-27-apis-for-data.md)
