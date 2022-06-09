@@ -1,7 +1,7 @@
 ---
 title: "Getting Started With Vendia Share"
-description: 'Today we're excited to open Vendia Share, our enterprise platform for sharing data and code, to all developers.'
-longDescription: 'Today we're excited to open Vendia Share, our enterprise platform for sharing data and code, to all developers.'
+description: 'Today we are excited to open Vendia Share, our enterprise platform for sharing data and code, to all developers.'
+longDescription: 'Today we are excited to open Vendia Share, our enterprise platform for sharing data and code, to all developers.'
 date: '2021-01-29'
 categories:
   - vendia share
