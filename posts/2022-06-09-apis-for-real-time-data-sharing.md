@@ -7,6 +7,9 @@ authors:
 ---
 
 # An Alternative Architecture for Smart, “Data-aware” APIs
+_Note, this is part 2 in our Data APIs series. [Read part 1](https://www.vendia.net/blog/apis-for-data) 
+
+In our previous post we talked through why APIs are still so difficult for teams to implement and maintain and why legacy options fail to meet current business needs. In this blog we will walk through modern APIs that help provide a single source of truth while also providing a ledgered lookback. 
 
 An ideal data-sharing API would share the best of each of these approaches (see Figure 6):
 
