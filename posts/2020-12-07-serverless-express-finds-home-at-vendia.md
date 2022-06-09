@@ -1,6 +1,6 @@
 ---
 title: 'AWS Serverless Express Finds a Loving Home at Vendia'
-description: 'The aws-serverless-express open source project has graduated from AWS Labs and is now being actively supported and sponsored by Vendia!'
+description: 'The aws-serverless-express open source project has graduated from AWS Labs and is now  actively supported and sponsored by Vendia!'
 authors:
   - Brett Andrews
   - Tim Wagner
