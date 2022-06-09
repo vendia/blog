@@ -1,6 +1,6 @@
 ---
 title: "Greenchain Part 1: Current Blockchains' Big Carbon Footprint"
-description: 'Here's an examination on why current blockchain technologies have large carbon footprints.'
+description: 'An examination on why current blockchain technologies have large carbon footprints.'
 date: '2022-05-17'
 categories:
   - blockchain
