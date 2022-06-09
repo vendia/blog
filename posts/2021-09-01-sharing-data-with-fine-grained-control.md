@@ -1,9 +1,13 @@
 ---
 title: "Sharing Data with Fine-grained Control"
-description: "Defining Data Access Among Partners in a Universal Application"
+description: "With this release, Uni nodes can specify which party has the ability to read or write data on a per-data-element basis."
 longDescription: >
     Defining Data Access Among Partners in a Universal Application
 date: '2021-09-01'
+categories:
+  - vendia share
+  - universal applications
+  - use case
 authors:
   - Brian McNamara
 ---

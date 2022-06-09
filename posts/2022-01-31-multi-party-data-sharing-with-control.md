@@ -1,11 +1,14 @@
 ---
 title: "Multi-Party Data Sharing, with Control"
-description: "How Vendia Share's access controls enable trusted and secure real-time data sharing among partners"
+description: "In this blog post we'll explore Vendia Share's access control mechanisms, their relationships, and their purpose and placement within the overall Vendia Share architecture."
 date: '2022-01-31'
 categories:
 - architecture
 - concepts
 - tutorials
+- data sharing
+- data model
+- vendia share
 authors:
 - James Gimourginas
 ---

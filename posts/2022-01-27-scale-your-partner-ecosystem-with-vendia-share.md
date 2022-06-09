@@ -1,10 +1,12 @@
 ---
 title: "Scale Your Partner Ecosystem with Vendia Share"
-description: "Addressing the Challenge with Minimal Friction"
+description: "Vendia Share simplifies the process of sharing data in real-time between organizations. Traditionally, sharing data in this manner is tough."
 date: '2022-01-27'
 categories:
 - tutorials
 - concepts
+- vendia share
+- partners
 authors:
 - Brian McNamara
 ---

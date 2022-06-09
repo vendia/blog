@@ -1,10 +1,15 @@
 ---
 title: "A Serverless Distributed Ledger for Enterprises"
-description: "HICSS Talk Summary & Full Research Paper"
+description: "Check out our summary of our presentation and original research on serverless distributed ledger technology for enterprises."
 date: '2021-10-22'
+categories:
+  - serverless
+  - distributed apps
+  - architecture
+  - distributed ledger
 tag:
   - serverless
-  - distributed-ledger
+  - distributed ledger
 authors:
   - Tim Wagner
 ---

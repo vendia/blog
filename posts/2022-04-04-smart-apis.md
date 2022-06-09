@@ -1,7 +1,10 @@
 ---
-title: 'Smart APIs'
-description: 'Evolve from “dumb pipes” to APIs that work for you'
+title: 'Going from "Dumb Pipes" Smart APIs'
+description: 'Learn how to evolve your existing data sharing technology from “dumb pipes” to APIs that work for you.'
 date: '2022-04-04'
+categories:
+  - smart apis
+  - vendia share
 authors:
   - Tim Wagner
 ---

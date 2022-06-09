@@ -1,7 +1,9 @@
 ---
 title: 'Announcing Vendia Share DLQ Support'
-description: 'Vendia Share now reports failed transactions'
+description: 'Vendia now supports "dead letter" reporting to notify users asynchronously and enable them to respond when one or more pending transactions cannot be successfully committed.'
 date: '2021-03-17'
+categories:
+  - vendia share
 authors:
   - Tim Wagner
 ---

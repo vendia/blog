@@ -1,10 +1,13 @@
 ---
 title: "Announcing the Vendia Share Developer Preview!"
-description: "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A"
-longDescription: "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures."
+description: "We're pleased to announce a $15.5M Series A investment, the launch of our Developer Preview for Vendia Share, and share some of our customers' use cases!"
+longDescription: "We're pleased to announce a $15.5M Series A investment, the launch of our Developer Preview for Vendia Share, and share some of our customers' success!"
 date: '2021-02-03'
 categories:
   - announcements
+  - vendia share
+  - developers
+  - funding
 tags:
   - funding
   - developers

@@ -1,7 +1,11 @@
 ---
 title: 'Sharing Files in Vendia Share Unis'
-description: 'Sharing data across different organizations, accounts, and regions used to be hard...but Vendia Share Universal Apps make it easy'
+description: 'Sharing data across different organizations, accounts, and regions used to be hard...but Vendia Share Universal Apps (Unis) make it easy!'
 date: '2021-02-18'
+categories:
+  - vendia share
+  - universal applications
+  - use case
 authors:
   - Glenn Dierkes
 ---

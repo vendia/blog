@@ -3,6 +3,9 @@ title: 'Lean Apps Part 3: Let Infrastructure do the Dirty Work'
 description: 'Stop the undifferentiated heavy lifting!'
 draft: false
 date: '2022-02-15'
+categories:
+- lean apps
+- architecture
 authors:
   - Tim Wagner
 ---

@@ -5,6 +5,8 @@ longDescription: 'Vendia is excited to announce the completion of a $15.5M Serie
 date: '2021-02-02'
 categories:
   - announcements
+  - company
+  - funding
 tags:
   - funding
 authors:

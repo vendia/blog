@@ -3,6 +3,9 @@ title: 'Lean Apps Part 4: The Lean App Manifesto'
 description: 'Flip the innovation iceberg!'
 draft: false
 date: '2022-02-22'
+categories:
+- lean apps
+- architecture
 authors:
   - Tim Wagner
 ---

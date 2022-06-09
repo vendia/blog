@@ -1,8 +1,12 @@
 ---
 title: "Getting Started With Vendia Share"
-description: 'Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share'
-longDescription: 'Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share'
+description: 'Today we are excited to open Vendia Share, our enterprise platform for sharing data and code, to all developers.'
+longDescription: 'Today we are excited to open Vendia Share, our enterprise platform for sharing data and code, to all developers.'
 date: '2021-01-29'
+categories:
+  - vendia share
+  - universal applications
+  - use case
 authors:
   - Cory Forsythe
   - Brian McNamara

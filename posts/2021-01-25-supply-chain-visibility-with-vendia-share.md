@@ -1,8 +1,12 @@
 ---
 title: 'Track & Trace Quickstart - Solving supply chain visibility through data sharing'
-description: > 
-  How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.
+description: 
+  'This Quick Start will walk you through the creation of a track andn trace system using Vendia Share, a serverless distributed ledger.'
 date: '2021-01-25'
+categories:
+  - track and trace
+  - universal applications
+  - use case
 authors:
   - Cory Forsythe
   - Brian McNamara

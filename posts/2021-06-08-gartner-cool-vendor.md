@@ -1,10 +1,12 @@
 ---
 title: "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing"
-description: "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report"
+description: "We are thrilled to be included in Gartners May 2021 Cool Vendors in Cloud Computing report."
 date: '2021-06-08'
 categories:
   - announcements
   - company
+  - analysts
+  - funding
 tags:
   - funding
 authors:

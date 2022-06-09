@@ -1,7 +1,10 @@
 ---
 title: 'No More Burnout: Reflections after 6 months at Vendia'
-description: "Why I don't regret leaving the Fortune 100 tech industry to work for a startup."
+description: "Hear from one of our recent joiners and why they don't regret leaving the Fortune 100 tech industry to work for a startup."
 date: '2022-04-25'
+categories:
+  - company
+  - culture
 authors:
   - Hailey Nevins
 ---

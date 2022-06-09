@@ -1,13 +1,18 @@
 ---
 title: '3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example'
-description: 'Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses'
+description: 'In this theoretical example, let us look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses.'
 date: '2022-04-20'
 draft: true
+categories:
+  - leadership
+  - culture
+  - blockchain
+  - data sharing
 authors:
   - Tim Wagner
 ---
 
-## Building an Image Licensing Business that makes everyone smile. ## 
+## Building an Image Licensing Business that makes everyone smile ## 
 
 In our previous post we took a deep dive into each technology approach — centralized, public chains, and private chains. In this section we’ll turn that around: Instead of a bottom-up analysis of pros and cons, we’ll look at a real world example, an image licensing business, through several different lenses to see how different technology approaches compare.
 

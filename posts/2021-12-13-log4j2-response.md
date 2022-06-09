@@ -1,11 +1,12 @@
 ---
 title: "Vendia's Response to CVE-2021-44228"
-description: "A note on the impact to Vendia and our customers"
+description: "After an internal investigation by our engineering teams, we've determined that Vendia infrastructure and systems are not affected by this vulnerability."
 date: '2021-12-13'
 authors:
 - James Gimourginas
 categories:
 - announcements
+- security
 ---
 
 Vendia is aware of the recently disclosed [security issue](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) relating to the open-source Apache “Log4j2" library.

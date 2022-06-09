@@ -1,7 +1,10 @@
 ---
 title: 'Cloudy with Chance of Blockchain'
-description: 'How the cloud and public and private chains will power the web3 world'
+description: 'A high-level look at how the cloud and public and private chains will power the web3 world.'
 date: '2022-03-24'
+categories:
+  - blockchain
+  - web3
 authors:
   - Tim Wagner
 ---

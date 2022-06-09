@@ -1,8 +1,11 @@
 ---
 title: 'Lean Apps Part 1: Lessons from the Past'
-description: 'Build software based on customer value, not technological ownership'
+description: 'This is the start of our series on creating Lean Apps. Build software based on customer value, not technological ownership.'
 draft: false
 date: '2022-02-03'
+categories:
+- lean apps
+- architecture
 authors:
   - Tim Wagner
 ---

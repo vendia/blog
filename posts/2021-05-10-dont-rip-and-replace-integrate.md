@@ -1,9 +1,13 @@
 ---
 title: "Don't Rip and Replace - Integrate"
-description: "Use Vendia Share to Complement Existing Data Stores."
+description: 'Keep using whatever datastore your applications currently use. Vendia Share can meet you where you are.'
 longDescription: >
     Use Vendia Share to Complement Existing Data Stores.
 date: '2021-05-10'
+categories:
+  - vendia share
+  - universal applications
+  - use case
 authors:
   - Brian McNamara
 ---

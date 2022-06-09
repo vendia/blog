@@ -1,9 +1,13 @@
 ---
 title: 'Creating a Cross Region Serverless Application in 5 Minutes'
-description: How to create cross region serverless appplications
+description: In this post, we're going to show how unis make it easy to create powerful web, mobile, and cloud-based applications for a variety of use cases.
 longDescription: >
-    Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.
+    In this post, we're going to show how unis make it easy to create powerful web, mobile, and cloud-based applications for a variety of use cases.
 date: '2021-02-17'
+categories:
+  - serverless
+  - multiregion
+  - universal applications
 authors:
   - Brian McNamara
 ---

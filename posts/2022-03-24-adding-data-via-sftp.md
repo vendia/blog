@@ -1,7 +1,11 @@
 ---
 title: 'Add Data via SFTP to Vendia Share'
-description: 'Send a CSV via SFTP to add data to your Uni'
+description: 'Learn how to send a CSV via SFTP to add data to your Uni App with Vendia.'
 date: '2022-03-23'
+categories:
+  - vendia share
+  - data sharing
+  - data stores
 authors:
   - Caroll Casbeer
 ---

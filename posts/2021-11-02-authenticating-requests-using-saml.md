@@ -1,6 +1,6 @@
 ---
 title: 'Authenticating Vendia Share Requests Using SAML'
-description: Taking advantage of existing SAML Identity Providers when using Vendia Share
+description: 'A focus on Amazon Cognito user pools and how to take advantage of an existing SAML 2.0 identity store to authenticate API requests to Vendia Share.'
 longDescription: >
     Learn how to use existing SAML identity providers to work with Vendia Share
 date: '2021-11-02'
@@ -8,6 +8,9 @@ authors:
   - Brian McNamara
 categories:
   - architecture
+  - vendia share
+  - azure
+  - smart contracts
 ---
 
 Vendia Share is a Universal Application platform that accelerates the development of multi-party applications. Each party, or participant, has access to their own node within a Universal Application (Uni), allowing them to control a number of settings. One of the settings available is the authentication mechanisms participants can use to access their node programmatically using APIs.
