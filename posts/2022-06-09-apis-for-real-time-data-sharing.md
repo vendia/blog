@@ -54,7 +54,7 @@ To keep things simple, weâ€™ll use a basic data model that includes a customerâ€
 ![Figure 8](https://user-images.githubusercontent.com/98492452/172912756-a43fcb9b-839d-4c59-81dc-74b858b7a186.png)
 
 
-Despite the simplicity of this example, note that the sharing and lineage tracking rules  for this data are already non-trivial:
+Despite the simplicity of this example, note that the sharing and lineage tracking rules for this data are already non-trivial:
 
 
 
