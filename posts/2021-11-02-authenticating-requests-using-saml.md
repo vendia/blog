@@ -1,6 +1,6 @@
 ---
 title: 'Authenticating Vendia Share Requests Using SAML'
-description: 'We'll focus on Amazon Cognito user pools and how to take advantage of an existing SAML 2.0 identity store to authenticate API requests to Vendia Share.'
+description: 'A focus on Amazon Cognito user pools and how to take advantage of an existing SAML 2.0 identity store to authenticate API requests to Vendia Share.'
 longDescription: >
     Learn how to use existing SAML identity providers to work with Vendia Share
 date: '2021-11-02'
