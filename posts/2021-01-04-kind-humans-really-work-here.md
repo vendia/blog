@@ -1,6 +1,6 @@
 ---
 title: 'Kind Humans Really Work Here'
-description: 'The way we treat each other - the way we look after each other with kindness - is genuine. I'd like to illustrate this with a story.'
+description: 'The way we treat each other - the way we look after each other with kindness - is genuine.  Here is my story.'
 date: '2021-01-04'
 authors:
   - Brian McNamara
