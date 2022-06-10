@@ -27,4 +27,8 @@
     "slug": "api-driven development",
     "description": "Development for APIs and data sharing"
   },
+  {
+    "slug": "lean-apps",
+    "description": "Lean application development"
+  },
 ]
