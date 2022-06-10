@@ -22,5 +22,9 @@
   {
     "slug": "concepts",
     "description": "Software concepts"
-  }
+  },
+  {
+    "slug": "api-driven development",
+    "description": "Development for APIs and data sharing"
+  },
 ]
