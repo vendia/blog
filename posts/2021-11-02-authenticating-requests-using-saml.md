@@ -43,4 +43,4 @@ Vendia Share allows API requests to be authorized with the JWT issued by Cognito
 
 # Summary
 
-Vendia Share is a service designed to allow partners to share data with each other while minimizing friction. One important aspect of this is giving each party control over how users authenticate API requests. Being able to take advantage of existing authentication mechanisms means there is even less friction to use Vendia Share. We have created a concrete example in our [vendia/examples](https://github.com/vendia/examples) Github repository. [What will you build?](https://share.vendia.net/)
+Vendia Share is a service designed to allow partners to share data with each other while minimizing friction. One important aspect of this is giving each party control over how users authenticate API requests. Being able to take advantage of existing authentication mechanisms means there is even less friction to use Vendia Share. We have created a concrete example in our [examples](https://github.com/vendia/examples/tree/main/integrations/security/saml-example) Github repository. [What will you build?](https://share.vendia.net/)
