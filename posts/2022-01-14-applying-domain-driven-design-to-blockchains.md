@@ -102,14 +102,14 @@ In this pattern, a Uni model contains a data model for a single bounded context.
 <details>
 <summary>Schema</summary>
 
-You will use [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern1/schema/schema.json) to create your Uni.
+You will use [schema.json](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern1/schema/schema.json) to create your Uni.
 
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
 
-Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern1/README.md) guide to create your Uni.
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern1/README.md) guide to create your Uni.
 
 </details>
 
@@ -130,14 +130,14 @@ In this pattern, a Uni contains data models for two bounded contexts. The Uni wi
 <details>
 <summary>Schema</summary>
 
-You will use the [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern2/schema/schema.json) to create your Uni. 
+You will use the [schema.json](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern2/schema/schema.json) to create your Uni. 
 
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
 
-Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern2/README.md) guide to create your Uni.
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern2/README.md) guide to create your Uni.
 
 </details> 
 
@@ -160,14 +160,14 @@ For Example, CRM and Marketing(Domain 2, Bounded Context 2) will need discrete w
 <details>
 <summary>Schema</summary>
 
-You will use the [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern3/schema/schema.json) to create your Uni.
+You will use the [schema.json](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern3/schema/schema.json) to create your Uni.
 
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
 
-Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern3/README.md) guide to create your Uni.
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern3/README.md) guide to create your Uni.
 
 </details> 
 
@@ -188,14 +188,14 @@ For example, CRM and Marketing will each need a dedicated Uni because Marketing 
 <details>
 <summary>Schema</summary>
 
-You will need the [schema.json](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern4/schema/schema.json) to create your Uni.
+You will need the [schema.json](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern4/schema/schema.json) to create your Uni.
 
 </details>
 
 <details>
 <summary>Details and deployment instructions</summary>
 
-Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/design-patterns/domain-driven-design/pattern4/README.md) guide to create your Uni.
+Follow the instructions in the [README](https://github.com/vendia/examples/blob/main/approaches/domain-driven-design/pattern4/README.md) guide to create your Uni.
 
 </details> 
 

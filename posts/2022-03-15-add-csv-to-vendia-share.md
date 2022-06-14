@@ -28,4 +28,4 @@ Serverless resources like a [AWS S3](https://aws.amazon.com/s3/) bucket and [AWS
 
 ![email-to-share Architecture](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088..158896739-6182e528-f0a5-4382-b2e4-1fab598a7e35.png)
 
-Check out the [step-by-step guide](https://github.com/vendia/examples/blob/main/share/email-to-share/README.md) in our GitHub repository. And if you get stuck head to our [Discourse](https://community.vendia.net) to get some help!
+Check out the [step-by-step guide](https://github.com/vendia/examples/tree/main/integrations/files/email-to-share) in our GitHub repository. And if you get stuck head to our [Discourse](https://community.vendia.net) to get some help!

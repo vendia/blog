@@ -27,7 +27,7 @@ Amazon DynamoDB is a highly available, highly performant cloud based key-value a
 
 ![dynamo-to-share Architecture](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-05-10-dont-rip-and-replace-integrate/dynamo-to-share.png)
 
-We have published a [dynamo-to-share example](https://github.com/vendia/examples/tree/main/share/dynamo-to-share) that illustrates how data inserted, updated, or deleted in a DynamoDB table can trigger add, update, or delete operations in a Vendia Share Uni.  These operations are completely hidden from the application making the request - there is nothing a client application needs to do to take advantage of this capability.  They can continue inserting, updating, or deleting data to their DynamoDB table and it will be reflected in the Uni.
+We have published a [dynamo-to-share example](https://github.com/vendia/examples/tree/main/integrations/datastores/dynamo-to-share) that illustrates how data inserted, updated, or deleted in a DynamoDB table can trigger add, update, or delete operations in a Vendia Share Uni.  These operations are completely hidden from the application making the request - there is nothing a client application needs to do to take advantage of this capability.  They can continue inserting, updating, or deleting data to their DynamoDB table and it will be reflected in the Uni.
 
 
 ## Publishing Data to a Uni - PostgreSQL Edition
@@ -36,7 +36,7 @@ PostgreSQL is a powerful, open source object-relational database system with ove
 
 ![postgres-to-share Architecture](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-05-10-dont-rip-and-replace-integrate/postgres-to-share.png)
 
-We have published a [postgres-to-share example](https://github.com/vendia/examples/tree/main/share/postgres-to-share) that illustrates how data inserted, updated, or deleted in a PostgreSQL table can trigger add, update, or delete operations in a Vendia Share Uni.  These operations are completely hidden from the application making the request.  Similar to the DynamoDB example, there is nothing a client application needs to do to take advantage of this capability.  Clients can continue adding, updating, and deleting data to their PostgreSQL table and it will be reflected in the Uni.
+We have published a [postgres-to-share example](https://github.com/vendia/examples/tree/main/integrations/datastores/postgres-to-share) that illustrates how data inserted, updated, or deleted in a PostgreSQL table can trigger add, update, or delete operations in a Vendia Share Uni.  These operations are completely hidden from the application making the request.  Similar to the DynamoDB example, there is nothing a client application needs to do to take advantage of this capability.  Clients can continue adding, updating, and deleting data to their PostgreSQL table and it will be reflected in the Uni.
 
 
 ## Conclusion

@@ -11,7 +11,7 @@ authors:
 ## Updates
 _This post has been updated since it was first published._
 
-* **01/11/2022** - Check out this [comprehensive code example](https://github.com/vendia/examples/tree/main/integrations/azure/share-to-azure-functions), from which the code snippets in this post were taken.
+* **01/11/2022** - Check out this [comprehensive code example](https://github.com/vendia/examples/tree/main/integrations/eventing/share-to-azure-functions), from which the code snippets in this post were taken.
 
 ## Overview
 
