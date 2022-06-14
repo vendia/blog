@@ -20,9 +20,9 @@ Similarly, financial companies have their own risk-mitigation and security measu
 
 ## Vendia Share and SFTP
 
-Sr. Solutions Architect, Brian McNamara, provides a [step-by-step guide](https://github.com/vendia/examples/tree/main/share/sftp-to-share) for adding files via SFTP to Vendia Share.
+Sr. Solutions Architect, Brian McNamara, provides a [step-by-step guide](https://github.com/vendia/examples/tree/main/integrations/files/sftp-to-share) for adding files via SFTP to Vendia Share.
 
 The guides uses the [Vendia Share Command Line Interface (CLI)](https://vendia.net/docs/share/cli) and the [AWS Serverless Application Model (SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html). Serverless resources like a [AWS Transfer for SFTP](https://aws.amazon.com/aws-transfer-family/) endpoint, [AWS S3](https://aws.amazon.com/s3/) bucket and [AWS Lambda](https://aws.amazon.com/lambda/) function will be deployed. CSV processing with a AWS Lambda function will be triggered by transferring a file to the SFTP endpoint. The Lambda function parses CSVs and publishes data to a node's GraphQL endpoint.
-![https://github.com/vendia/examples/blob/main/share/sftp-to-share/img/sftp-to-share.png?raw=true](https://github.com/vendia/examples/blob/main/share/sftp-to-share/img/sftp-to-share.png?raw=true)
+![https://github.com/vendia/examples/blob/main/share/sftp-to-share/img/sftp-to-share.png?raw=true](https://github.com/vendia/examples/tree/main/integrations/files/sftp-to-share/img/sftp-to-share.png?raw=true)
 
 Go ahead and try to add a file to your Uni via SFTP and if you face any issues head over to our [Discourse Channel](https://community.vendia.net) to get some help... or better yet, share your success!

@@ -236,5 +236,5 @@ Selecting one of the ledger entries provides more detail about the ledgered tran
 
 ## Conclusion
 
-Smart contracts can be used for a variety of purposes, including data validation, computation, and enrichment.  The recently published [smart contract feature example](https://github.com/vendia/examples/blob/main/features/share/smart-contracts/README.md) provides a step-by-step guide to create and invoke a set of smart contracts, each demonstrating slightly different interaction patterns and smart contract composition approaches.  Using smart contracts allows data _and code_ to be shared and ledgered for real-time awareness and full transparency across a network of Uni participants.
+Smart contracts can be used for a variety of purposes, including data validation, computation, and enrichment.  The recently published [smart contract feature example](https://github.com/vendia/examples/blob/main/features/share/smart-contracts) provides a step-by-step guide to create and invoke a set of smart contracts, each demonstrating slightly different interaction patterns and smart contract composition approaches.  Using smart contracts allows data _and code_ to be shared and ledgered for real-time awareness and full transparency across a network of Uni participants.
 
