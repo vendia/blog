@@ -20,7 +20,7 @@ An ideal data-sharing API would share the best of each of these approaches (see 
 * The “time travel”, guaranteed delivery, and strong ordering guarantees of a real-time streaming solution
 * A blockchain’s ability to easily span clouds, companies, and geographies with a consistent data representation
 
-![Figure 1](https://user-images.githubusercontent.com/98492452/172912411-206422d0-3ce7-45db-a2fc-b264377630a5.png)
+![Figure 1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..172912411-206422d0-3ce7-45db-a2fc-b264377630a5.png)
 
 _Figure 1: A “smart API” – one that keeps data consistent, regardless of location, ownership, or public cloud hosting._
 
@@ -37,7 +37,7 @@ Vendia’s approach combines the strengths of different approaches to overcome t
 Figure 2 illustrates Vendia’s architecture for smart APIs.
 
 
-![Figure 2](https://user-images.githubusercontent.com/98492452/172912670-fc6dc95f-e4e4-4561-9fb7-58d4c45de158.png)
+![Figure 2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..172912670-fc6dc95f-e4e4-4561-9fb7-58d4c45de158.png)
 
 
 _Figure 2: Vendia’s Smart API<sup>TM</sup> architecture. An operationally and security isolated node is created in the cloud for each party, including file and scalar data storage. Vendia transparently and automatically synchronizes the data among all nodes using patented blockchain and serverless algorithms. A powerful GraphQL API is automatically generated from (and permanently synchronized with) from the application’s data model, including real-time streaming support that keeps each node’s applications consistent with one another. Despite its power, the “no code” approach is simple, with zero infrastructure footprint to manage._
@@ -51,7 +51,7 @@ Let’s take a simple but pervasive example of data sharing: Customer profiles. 
 
 To keep things simple, we’ll use a basic data model that includes a customer’s PII (name, contact information). Each partner sharing data about a customer can indicate which products the customer is consuming, in order to build a composite picture of the customer’s journey and engagement over time. (In a more complete example, this would likely include additional, time ordered event data.) A sample data model (schema) is shown below in conceptual form:
 
-![Figure 3](https://user-images.githubusercontent.com/98492452/172912756-a43fcb9b-839d-4c59-81dc-74b858b7a186.png)
+![Figure 3](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..172912756-a43fcb9b-839d-4c59-81dc-74b858b7a186.png)
 
 
 Despite the simplicity of this example, note that the sharing and lineage tracking rules for this data are already non-trivial:
