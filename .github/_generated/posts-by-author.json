@@ -1,4 +1,25 @@
 {
+  "joydeep-das": [
+    {
+      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
+      "title": "Why CRM Data Sharing Is Business Critical",
+      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
+      "date": "2022-06-21",
+      "authors": [
+        "Joydeep Das"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "title": "The Next Wave of B2B Data Sharing is Here",
+      "description": "B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.",
+      "date": "2022-02-24",
+      "draft": false,
+      "authors": [
+        "Joydeep Das"
+      ]
+    }
+  ],
   "tim-wagner": [
     {
       "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
@@ -826,18 +847,6 @@
       "date": "2021-01-04",
       "authors": [
         "Brian McNamara"
-      ]
-    }
-  ],
-  "joydeep-das": [
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "title": "The Next Wave of B2B Data Sharing is Here",
-      "description": "B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.",
-      "date": "2022-02-24",
-      "draft": false,
-      "authors": [
-        "Joydeep Das"
       ]
     }
   ],
