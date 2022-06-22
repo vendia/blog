@@ -1,5 +1,5 @@
 ---
-title: 'Vendia Guest Contributor Prgoram'
+title: 'Vendia Guest Contributor Program'
 description: 'Create a tutorial using Vendia as part of our "Write for Vendia Program." Participants receive a $500 Visa gift card.'
 date: '2022-06-22'
 authors:
