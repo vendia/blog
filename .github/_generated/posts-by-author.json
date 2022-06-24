@@ -1,6 +1,15 @@
 {
   "caroll-casbeer": [
     {
+      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
+      "title": "How to Increase Transparency in Real Estate Transactions Using Blockchain and Vendia Share",
+      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
+      "date": "2022-06-24",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
       "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
       "title": "Vendia Guest Contributor Program",
       "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
