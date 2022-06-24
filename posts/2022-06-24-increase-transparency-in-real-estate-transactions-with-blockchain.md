@@ -6,7 +6,7 @@ authors:
   - Caroll Casbeer
 ---
 
-Because real estate transactions involve a number of unique parties and highly sensitive information,  transaction complexities slow down transaction time while increasing costs to all parties, plus transaction risk. But, Vendia’s figured out how to overcome these challenges and increase transparency in real time for residential real estate transactions with [Vendia Share](http://vendia.net).
+Because real estate transactions involve a number of unique parties and highly sensitive information, transaction complexities slow down transaction time while increasing costs to all parties and elevating transaction risk.  But, Vendia’s figured out how to overcome these challenges and increase transparency in real time for residential real estate transactions with [Vendia Share](http://vendia.net).
 
 In this [guest post](https://aws.amazon.com/blogs/awsmarketplace/transparency-real-estate-transactions-blockchain-vendia-share/) on AWS Marketplace, Vikrant Kahlir, Sr. Solutions Architect, reveals how Vendia Share makes [real estate transactions](https://www.vendia.net/industry/financial-services) and multi-party data interactions secure, transparent, and real time with a shared, single source of truth. Learn how our serverless blockchain helps connect all authorized real estate transaction parties (including title examiners, appraisers, and lenders) through a seamless, secure experience.
 
