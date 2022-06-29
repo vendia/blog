@@ -110,7 +110,7 @@ This approach will allow each Node in Uni to have all information from all partn
 The organization with access to Uni data can run ad-hoc analysis on traceability data. You can also export data out from Uni to your private data center—in cloud—to do more nuanced analysis on the data you contribute and partners share. You can use services such as Amazon Neptune Graph Database to track the full journey of die from sales order to the final testing.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/176460916-4965c6c7-65b4-462f-a3c6-167c212780e0.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..176460916-4965c6c7-65b4-462f-a3c6-167c212780e0.png" />
 </p>
 <p align="center">Figure 1 - Traceability for Secure Supply Chain Solution Diagram</p>
 
