@@ -1,6 +1,6 @@
 ---
 title: 'Build a Modern, Secure Data Exchange for Semiconductor Traceability with Vendia'
-description: 'To produce high-quality, high-yielding chips, semiconductor companies can need to securely exchange data with the supply chain participants.'
+description: 'To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.'
 draft: false
 date: '2022-06-29'
 authors:
@@ -101,8 +101,8 @@ In the die traceability example,
 
 
 
-* Fabless will share some pointers to design data (not the design) with fab and OSAT in read-only mode
-* Fab will share pointers to production data in the fabrication, input and output lot, batch, serial number (not the actual fab data) with fabless and OSAT in read-only mode
+* Fabless will share some pointers to design data (not the design) with fab and OSAT in read-only mode.
+* Fab will share pointers to production data in the fabrication, input and output lot, batch, serial number (not the actual fab data) with fabless and OSAT in read-only mode.
 * OSAT will share pointers to packing and testing data (not actual test results) with fab and fabless in read-only mode.
 
 This approach will allow each Node in Uni to have all information from all partners, some that individual organizations will own and some that other partners will share, to build a system for die traceability. Partners will not share anything they consider as IP. You can totally do it using simple identifiers, and there is an option to further anonymize identifiers so they become meaningless to partners. But still, [Vendia Share](https://www.vendia.net/) can use it to smartly link data for die traceability. 
