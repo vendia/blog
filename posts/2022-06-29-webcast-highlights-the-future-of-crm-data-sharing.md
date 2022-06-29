@@ -63,4 +63,4 @@ Rebecca and James showed that real-time, multi-partner data sharing delivered in
 
 ## See the solution for yourself
 
-**Get all the details and insights here: [Watch the webcast](https://fast.wistia.com/embed/channel/d1mxqbj9xw) **
+**Get all the details and insights here: [Watch the webcast](https://fast.wistia.com/embed/channel/d1mxqbj9xw)**
