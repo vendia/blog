@@ -14,6 +14,7 @@ In the webcast, [The Future of CRM Data Sharing](https://fast.wistia.com/embed/c
 
 ![Speakers, Rebecca Lammers, and James Gimourginas](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_speakers.png)
 
+
 **Here are five highlights from the webcast:**
 
 ## 1. **The many benefits of combining multiple CRMs in real time**
@@ -41,11 +42,13 @@ There are many benefits to combining multiple CRMs, but there are also barriers 
 
 ![The five reasons why real-time crm data sharing is complex](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_five_reasons.png)
 
+
 ## 3. **What is the root cause of these nightmares?**
 
 The main reason integrating multiple CRMs is so difficult comes down to API limitations. Data is shared through APIs that serve no other function than piping data from A to B at certain intervals. The APIs don’t know what the data means and even if it conflicts with existing data—it just transports it. Furthermore, every data sharing connection requires its own API, leading to a criss-cross of API piping that is complex to design, build, and maintain. The result? Your data is out of date and out of sync.  
 
 ![Api spaghetti](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_api-paghetti.png)
+
 
 ## 4. **A new approach that will reshape the industry**
 
