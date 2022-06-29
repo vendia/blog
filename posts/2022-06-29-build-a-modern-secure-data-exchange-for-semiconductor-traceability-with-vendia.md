@@ -70,9 +70,7 @@ The traceability systems should meet the following four requirements:
 
     _Only the organization’s internal departments will trust the centralized systems owned and operated by an organization and secured in their private data center’s four walls. But an external organization has no reason to trust the centralized systems of other participant organizations, especially in cases of conflicting data and disputes concerning high-impact issues like product recalls. The information stored in the centralized systems cannot be trusted because data-owning organizations have controls to mutate versions of truth intentionally or mistakenly. Therefore, for multi-party information exchange, the source of information should be consistent and indisputable across multiple parties._
 
-
     _The indisputable system of truth will also record information that participating organizations can use to prove and report regulatory compliance related to location-based regulations on material and components imports used in the die fabrication._
-
 
     _Participating organizations can also use this system to exchange information related to Scope 1, 2, and 3 ESG tracking specifically for sustainability reporting._
 
