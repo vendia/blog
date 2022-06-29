@@ -16,7 +16,7 @@ In the webcast, [The Future of CRM Data Sharing](https://fast.wistia.com/embed/c
 
 **Here are five highlights from the webcast:**
 
-##1. **The many benefits of combining multiple CRMs in real time**
+## 1. **The many benefits of combining multiple CRMs in real time**
 
 There is a good reason why companies take on the arduous task of combining multiple CRMs. Rebecca highlighted benefits like the ability to:
 
@@ -28,7 +28,7 @@ There is a good reason why companies take on the arduous task of combining multi
 However, combining multiple CRMs is a painful process.
 
 
-##2. **CRM data sharing between multiple CRMs is currently a “nightmare”**
+## 2. **CRM data sharing between multiple CRMs is currently a “nightmare”**
 
 There are many benefits to combining multiple CRMs, but there are also barriers and limitations with existing solutions. Rebecca outlined her “nightmares” when bringing multiple CRM organizations into one reliable and trusted data view. 
 
@@ -41,13 +41,13 @@ There are many benefits to combining multiple CRMs, but there are also barriers 
 
 ![The five reasons why real-time crm data sharing is complex](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_five_reasons.png)
 
-##3. **What is the root cause of these nightmares?**
+## 3. **What is the root cause of these nightmares?**
 
 The main reason integrating multiple CRMs is so difficult comes down to API limitations. Data is shared through APIs that serve no other function than piping data from A to B at certain intervals. The APIs don’t know what the data means and even if it conflicts with existing data—it just transports it. Furthermore, every data sharing connection requires its own API, leading to a criss-cross of API piping that is complex to design, build, and maintain. The result? Your data is out of date and out of sync.  
 
 ![Api spaghetti](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_api-paghetti.png)
 
-##4. **A new approach that will reshape the industry**
+## 4. **A new approach that will reshape the industry**
 
 James presented the [Vendia solution](https://www.vendia.net/use-cases/crm) which allows you to connect (virtually) an unlimited number of partners without adding complexity or additional cost to the development and maintenance of the solution. This is down to the fact that Vendia takes a Hub and Spoke approach, where every connection goes through the hub. Vendia intelligently evaluates and resolves any data conflicts in the hub and manages the data access restrictions between partners. This allows for data sharing in real time, across many partners, delivered in a scalable and zero maintenance environment. 
 
@@ -56,7 +56,7 @@ James presented the [Vendia solution](https://www.vendia.net/use-cases/crm) whic
 The [Vendia CRM solution](https://www.vendia.net/use-cases/crm) removes the nightmares that you would normally have to deal with. No dependency on added Salesforce staffing for integration projects, the universal data model allows for easy onboarding of new partners and the sharing of any kind of data, Data privacy is managed and easily controlled, no exponential cost with additional partners, and finally, data that is synced and shared in real time leading to a trusted source that accelerates your sales teams.   
 
 
-##5. **A demo to prove it**
+## 5. **A demo to prove it**
 
 Rebecca and James showed that real-time, multi-partner data sharing delivered in a scalable and zero maintenance environment wasn’t just talk. In the demo scenario, Universal Containers just bought Cloud Kicks and Northern Trail Outfitters; they were looking to share certain records with everyone while keeping other records hidden. Despite having spent only a few days on setting up the integration using the Vendia platform, Rebecca demonstrated how data was instantly available across all three systems following the update.
 
