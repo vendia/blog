@@ -180,7 +180,7 @@ Recall that when we created our Uni, we seeded it with data from the `initial-st
 
 ```graphql
 query listTemperatures {
- listTemperatures {
+ listTemperatures(readMode: NODE_COMMITTED) {
    Temperatures {
      timestamp
      airportCode
@@ -194,7 +194,7 @@ Next, let's go back to our uni's setting page and click on the 'Open GraphQL Exp
 
 ```graphql
 query listTemperatures {
- list_TemperatureItems {
+ list_TemperatureItems(readMode: NODE_COMMITTED) {
    _TemperatureItems {
      timestamp
      airportCode
@@ -239,7 +239,7 @@ At this point we've added a new temperature.  Let's make sure it's visible acros
 
 ```graphql
 query listTemperatures {
- list_TemperatureItems {
+ list_TemperatureItems(readMode: NODE_COMMITTED) {
    _TemperatureItems {
      timestamp
      airportCode
@@ -255,7 +255,7 @@ Let's go back to the uni setting page and click on the 'Open GraphQL Explorer' o
 
 ```graphql
 query listTemperatures {
- listTemperatures {
+ listTemperatures(readMode: NODE_COMMITTED) {
    Temperatures {
      timestamp
      airportCode

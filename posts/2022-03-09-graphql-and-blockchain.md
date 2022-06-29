@@ -69,7 +69,7 @@ When used to query data, Vendia Transactions ensure that all nodes will see the 
 
 ```graphql
 query q @vendia_transaction {
-  get_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057") {
+  get_Inventory(id: "017d92a7-0ab5-5513-fac1-c50be330f057", readMode: NODE_COMMITTED) {
     _id
     itemName
     itemNumber
@@ -113,7 +113,7 @@ Vendia Share captures all changes to data in a Uni in a ledger. This is somethin
 
 ```graphql
 query blocksQuery {
-  listVendia_BlockItems {
+  listVendia_BlockItems(readMode: NODE_COMMITTED) {
     Vendia_BlockItems {
       blockId
       blockHash

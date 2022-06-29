@@ -101,7 +101,7 @@ After your **__AddFile__** mutation executes, the new file will be visible to al
 
 ```graphql
 query ListAllFiles {
-  listVendia_FileItems {
+  listVendia_FileItems(readMode: NODE_COMMITTED) {
     Vendia_FileItems {
       _id
       destinationKey
@@ -124,7 +124,7 @@ You can bring up a GraphQL explorer for the other node in your Uni and you will 
 
 ```graphql
 query ListAllFiles {
-  listVendia_FileItems {
+  listVendia_FileItems(readMode: NODE_COMMITTED) {
     Vendia_FileItems {
       _id
       destinationKey

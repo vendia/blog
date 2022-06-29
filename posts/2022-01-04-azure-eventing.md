@@ -413,7 +413,7 @@ To finalize this integration, we next:
     
       ```graphql
       query getAzureSettings {
-        getVendia_Settings {
+        getVendia_Settings(readMode: NODE_COMMITTED) {
           azure {
             blockReportFunctions {
               functionName
@@ -440,7 +440,7 @@ Now it's time for the Supplier (from its Vendia Share AWS Node) to make a Purcha
     
       ```graphql
       query listPurchaseOrders {
-        list_PurchaseOrderItems {
+        list_PurchaseOrderItems(readMode: NODE_COMMITTED) {
           _PurchaseOrderItems {
             _id
             _owner

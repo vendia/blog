@@ -271,7 +271,7 @@ Run this query from either the `Bob` or `Eve` GraphQL Explorer.
 
 ```graphql
 query listRecipes {
-  list_RecipeItems {
+  list_RecipeItems(readMode: NODE_COMMITTED) {
     _RecipeItems {
       ... on Self_Recipe {
         _id
@@ -435,7 +435,7 @@ First, we will need to identify the **_id** of the Red Velvet Cake recipe.
 
 ```graphql
 query listRecipes {
-  list_RecipeItems(filter: {name: {eq: "Red Velvet Cake"}}) {
+  list_RecipeItems(filter: {name: {eq: "Red Velvet Cake"}}, readMode: NODE_COMMITTED) {
     _RecipeItems {
       ... on Self_Recipe {
         _id
@@ -565,7 +565,7 @@ Now that `Eve` has purchased the Red Velvet Cake recipe and Alice has updated pe
 
 ```graphql
 query listRecipes {
-  list_RecipeItems {
+  list_RecipeItems(readMode: NODE_COMMITTED) {
     _RecipeItems {
       ... on Self_Recipe {
         _id

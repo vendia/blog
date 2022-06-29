@@ -187,7 +187,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
     
       ```graphql
       query listPurchaseOrders {
-        list_PurchaseOrderItems {
+        list_PurchaseOrderItems(readMode: NODE_COMMITTED) {
           _PurchaseOrderItems {
             _id
             _owner

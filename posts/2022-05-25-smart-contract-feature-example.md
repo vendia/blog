@@ -66,7 +66,7 @@ The `inputQuery` retrieves information from the Uni and provides it as input dur
 
 ```graphql
 query ValidationInputQuery($loanIdentifier: String!) {
-  list_LoanItems(filter: {loanIdentifier: {eq: $loanIdentifier}}) {
+  list_LoanItems(filter: {loanIdentifier: {eq: $loanIdentifier}}, readMode: NODE_COMMITTED) {
     _LoanItems {
       ... on Self_Loan {
         _id
