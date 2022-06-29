@@ -17,6 +17,7 @@ In [the webcast](https://fast.wistia.com/embed/channel/d1mxqbj9xw), The Future o
 **Here are five highlights from the webcast:**
 
 1. **The many benefits of combining multiple CRMs in real time**
+
 There is a good reason why companies take on the arduous task of combining multiple CRMs. Rebecca highlighted benefits like the ability to:
 
 * Accelerate co-selling opportunities and sales cycles
@@ -28,18 +29,20 @@ However, combining multiple CRMs is a painful process.
 
 
 2. **CRM data sharing between multiple CRMs is currently a “nightmare”**
+
 There are many benefits to combining multiple CRMs, but there are also barriers and limitations with existing solutions. Rebecca outlined her “nightmares” when bringing multiple CRM organizations into one reliable and trusted data view. 
 
-1. With Salesforce and CRM talent in short supply, integrations prove increasingly more difficult to implement.   
-2. Have you ever started mapping data across organizations? If so, you know how this can be a never-ending task. 
-3. Designing integration solutions is based on the here and now. As soon as you have integrated a solution, things start to change. Adapting to new requirements can be difficult and complex.  
-4. The most important aspect of a CRM is trust in the data. If users don’t trust they are looking at the correct and latest data, usage and adoption will go down.
-5. New data privacy requirements are launched constantly and need to be managed at a country or even state level. To ensure compliance, you add another layer of complexity all CRM owners need to take seriously. 
+* With Salesforce and CRM talent in short supply, integrations prove increasingly more difficult to implement.   
+* Have you ever started mapping data across organizations? If so, you know how this can be a never-ending task. 
+* Designing integration solutions is based on the here and now. As soon as you have integrated a solution, things start to change. Adapting to new requirements can be difficult and complex.  
+* The most important aspect of a CRM is trust in the data. If users don’t trust they are looking at the correct and latest data, usage and adoption will go down.
+* New data privacy requirements are launched constantly and need to be managed at a country or even state level. To ensure compliance, you add another layer of complexity all CRM owners need to take seriously. 
 
 
 ![The five reasons why real-time crm data sharing is complex](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_five_reasons.png)
 
 3. **What is the root cause of these nightmares? **
+
 The main reason integrating multiple CRMs is so difficult comes down to API limitations. Data is shared through APIs that serve no other function than piping data from A to B at certain intervals. The APIs don’t know what the data means and even if it conflicts with existing data—it just transports it. Furthermore, every data sharing connection requires its own API, leading to a criss-cross of API piping that is complex to design, build, and maintain. The result? Your data is out of date and out of sync.  
 
 ![Api spaghetti](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_api-paghetti.png)
