@@ -41,6 +41,27 @@
       ]
     }
   ],
+  "anders-maul": [
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "title": "Webcast Highlights: The Future of CRM Data Sharing",
+      "description": "We have summed up five highlights from the webcast on CRM data sharing",
+      "date": "2022-06-29",
+      "thumbnail": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
+      "title": "Real-time data sharing: pros and cons",
+      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
+      "date": "2022-06-07",
+      "authors": [
+        "Anders Maul"
+      ]
+    }
+  ],
   "caroll-casbeer": [
     {
       "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
@@ -497,17 +518,6 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
-    }
-  ],
-  "anders-maul": [
-    {
-      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
-      "title": "Real-time data sharing: pros and cons",
-      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
-      "date": "2022-06-07",
-      "authors": [
-        "Anders Maul"
       ]
     }
   ],

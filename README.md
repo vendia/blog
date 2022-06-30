@@ -36,6 +36,7 @@ Welcome to the Vendia blog repo!
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
 | [Build a Modern, Secure Data Exchange for Semiconductor Traceability with Vendia](https://vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia) <br/> To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants by Vikrant Kahlir | 2022-06-29 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md)
+| [Webcast Highlights: The Future of CRM Data Sharing](https://vendia.net/blog/webcast-highlights-the-future-of-crm-data-sharing) <br/> We have summed up five highlights from the webcast on CRM data sharing by Anders Maul | 2022-06-29 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md)
 | [How to Increase Transparency in Real Estate Transactions Using Blockchain and Vendia Share](https://vendia.net/blog/increase-transparency-in-real-estate-transactions-with-blockchain) <br/> Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain! by Caroll Casbeer | 2022-06-24 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md)
 | [Vendia Guest Contributor Program](https://vendia.net/blog/vendia-guest-contributor-program) <br/> Create a tutorial using Vendia as part of our "Write for Vendia Program." Participants receive a $500 Visa gift card by Caroll Casbeer | 2022-06-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-22-vendia-guest-contributor-program.md)
 | [Why CRM Data Sharing Is Business Critical](https://vendia.net/blog/crm-data-sharing-for-business) <br/> Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions by Joydeep Das | 2022-06-21 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-06-21-crm-data-sharing-for-business.md)
@@ -120,7 +121,7 @@ Welcome to the Vendia blog repo!
  <tr>
   <td align="center">
     <a href="https://twitter.com/anders">
-      <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="100px;" alt=""/>
+      <img src="https://avatars.githubusercontent.com/u/104795928?v=4" width="100px;" alt=""/>
       <br />
       Anders Maul
     </a>
