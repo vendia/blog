@@ -33,3 +33,4 @@ If you’re just getting your feet wet and want to build your foundational under
 ### Want to know more about Vendia Share? 
 
 Learn how you can create [proof of value in less than a week](https://www.vendia.net/poc) and go to market in less than three months. **[Contact Vendia](https://www.vendia.net/contact-us)**
+real-time-data-sharing-challenges-for-enterprises.md
