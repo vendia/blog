@@ -62,86 +62,16 @@
       ]
     }
   ],
-  "caroll-casbeer": [
-    {
-      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
-      "title": "How to Increase Transparency in Real Estate Transactions Using Blockchain and Vendia Share",
-      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
-      "date": "2022-06-24",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
-      "title": "Vendia Guest Contributor Program",
-      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
-      "date": "2022-06-22",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "title": "Types of Data: Real-time Data vs. Analytical Data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data",
-      "date": "2022-05-05",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
-      "title": "Add Data via SFTP to Vendia Share",
-      "description": "Send a CSV via SFTP to add data to your Uni",
-      "date": "2022-03-23",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
-      "title": "Adding Data in a CSV to Vendia Share Using Email",
-      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
-      "draft": false,
-      "date": "2022-03-15",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
-      "title": "My First 30 Days at Vendia",
-      "description": "From onboarding to an offsite - some thoughts on my first 30 days at Vendia",
-      "date": "2022-02-09",
-      "draft": false,
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    }
-  ],
-  "joydeep-das": [
-    {
-      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
-      "title": "Why CRM Data Sharing Is Business Critical",
-      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
-      "date": "2022-06-21",
-      "authors": [
-        "Joydeep Das"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "title": "The Next Wave of B2B Data Sharing is Here",
-      "description": "B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.",
-      "date": "2022-02-24",
-      "draft": false,
-      "authors": [
-        "Joydeep Das"
-      ]
-    }
-  ],
   "tim-wagner": [
+    {
+      "file": "/posts/2022-06-29-/real-time-data-sharing-challenges-for-enterprises.md",
+      "title": "How to Effectively Address the Challenges of Real-Time Data Sharing at the Enterprise Level",
+      "description": "In this three-part series, dive deep into the challenges and solutions for evaluating and implementing real-time data sharing with confidence and control.",
+      "date": "2022-06-29",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
       "title": "How to Make Your APIs \"Data-aware\"",
@@ -518,6 +448,85 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
+      ]
+    }
+  ],
+  "caroll-casbeer": [
+    {
+      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
+      "title": "How to Increase Transparency in Real Estate Transactions Using Blockchain and Vendia Share",
+      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
+      "date": "2022-06-24",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
+      "title": "Vendia Guest Contributor Program",
+      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
+      "date": "2022-06-22",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "title": "Types of Data: Real-time Data vs. Analytical Data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data",
+      "date": "2022-05-05",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
+      "title": "Add Data via SFTP to Vendia Share",
+      "description": "Send a CSV via SFTP to add data to your Uni",
+      "date": "2022-03-23",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
+      "title": "Adding Data in a CSV to Vendia Share Using Email",
+      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
+      "draft": false,
+      "date": "2022-03-15",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
+      "title": "My First 30 Days at Vendia",
+      "description": "From onboarding to an offsite - some thoughts on my first 30 days at Vendia",
+      "date": "2022-02-09",
+      "draft": false,
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    }
+  ],
+  "joydeep-das": [
+    {
+      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
+      "title": "Why CRM Data Sharing Is Business Critical",
+      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
+      "date": "2022-06-21",
+      "authors": [
+        "Joydeep Das"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "title": "The Next Wave of B2B Data Sharing is Here",
+      "description": "B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.",
+      "date": "2022-02-24",
+      "draft": false,
+      "authors": [
+        "Joydeep Das"
       ]
     }
   ],
