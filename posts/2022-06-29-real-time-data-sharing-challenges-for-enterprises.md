@@ -21,9 +21,6 @@ In this three-part series originally shared on The New Stack, Dr. Tim Wagner, th
 
 * What do you need to effectively evaluate real-time daft sharing solutions so you can leap forward to a single source of shared truth with the privacy and control you crave?
 
-     
-
-
     Read Part 3: [Vendor Checklist for Real-Time Data Meshes](https://thenewstack.io/vendor-checklist-for-real-time-data-meshes/)
 
 
