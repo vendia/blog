@@ -148,7 +148,7 @@ Open source software achieves “zero marginal cost” sharing, but isn’t a so
 
 ## Next post – Lean Apps Part 4: The Lean App Manifesto
 
-In the Part 4(coming soon!)of [this series](https://www.vendia.net/blog/lean-app), we talk more about the lean app movement and how it can “flip the iceberg” of IT innovation.
+In the Part 4 of [this series](https://www.vendia.net/blog/lean-app), we talk more about the lean app movement and how it can “flip the iceberg” of IT innovation.
 
 
 ### Get the whitepaper
