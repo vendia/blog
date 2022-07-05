@@ -11,9 +11,6 @@ authors:
 
 Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to **execute synchronous mutations on Vendia Share. **
 
-*Reminder: On May 16, 2022, we will remove all the legacy mutation APIs (`_async`) and all mutations must use the new APIs.*
-
-
 ## Background
 
 Vendia uses GraphQL to add or read data from the ledger. Writing data to the ledger is done through [GraphQL mutations](https://graphql.org/learn/queries/#mutations), which allow you to modify objects defined in your data model. Until today, all GraphQL mutations to Vendia were asynchronous. 
@@ -22,21 +19,23 @@ Vendia would return a transaction ID, requiring clients to either poll the ledge
 
 ## Improvement
 
-To address these issues we are introducing new APIs that give you the ability to execute synchronous mutations. Using the new APIs, you will have a choice in whether to make a synchronous or asynchronous mutation. If you make a synchronous mutation, Vendia returns the result once the transaction has been committed and ledgered on the local node. The transaction is guaranteed to be eventually replicated to all the nodes in the Uni.
+To address these issues we are introducing new APIs that give you the ability to execute synchronous mutations. Using the new APIs, you will have a choice in whether to make a synchronous or asynchronous mutation. If you make a synchronous mutation, you have the choice of four different consistency modes. Vendia returns the result to you at different points throughout the consensus phases depending on which of the four different consistency modes you choose. 
+
+
+| Type of Consistency | Dirty Reads | Synchronous E2E Response* | Consistency Guarantees |
+| ----- | ------ | ------ | ------ | 
+|CACHED | Very possible | Very fast | Transactions are written to a local cache on a given Node and can be out of date up to cache timeout. |
+| NODE_COMMITTED | Possible | Fast | Transactions are written to the world state on a given Node but, perhaps, not yet to the global ledger. |
+| NODE_LEDGERED| No | Slow | Transactions are written to the world state on a given Node and the global ledger. |
+| UNI_LEDGERED | No | Slowest | Transactions are written to the world state on all Nodes and the global ledger. |
+
+*The Synchronous E2E Response is the overall latency as compared to the other consistency modes. Our definition of “slowest” simply means this is the slowest end-to-end latency of all four  4 consistency modes. 
+
+Adding a consistency mode to your mutation is optional. As part of this change, we made `NODE_COMMITTED` as the default mode if you don’t provide a consistency mode as part of a mutation. To add a consistency mode to a mutation, you add the `syncMode` parameter.
 
 ## Example
 
-Let’s take a look at some of the changes we made. In the GraphQL Explorer in the [Vendia Share UI](https://share.vendia.net/), you will notice you have access to two different APIs for the same mutation. One that ends in `_async` and one that doesn’t. 
-
-![](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..159369663-595206f8-f5ae-4a09-9342-4679155ce4d4.png)
-
-The `_async` APIs are the legacy version and can only be used for asynchronous mutations.  The new APIs (the ones without the`_async`) can handle both synchronous and asynchronous mutations. Both APIs can be used but we _strongly_ recommend using the new APIs. 
-
-**On May 16, 2022, we will remove all the legacy APIs (`_async`) and all mutations must use the new APIs.**
-
-Using the new API requires providing a new `syncMode` parameter. The options for the syncMode parameter are: `ASYNC` or `NODE_LEDGERED`. `ASYNC` will work just as the legacy APIs work today. You are given a transaction ID that you can use to poll for when the transaction is ledgered. `NODE_LEDGERED` will execute a synchronous mutation which will wait until the transaction has been committed and ledgered on the local node before returning you the result.
-
-Here is an example of making a synchronous mutation:
+Let’s take a look at some of the changes we made. Here is an example of making a synchronous mutation using the NODE_LEDGERED syncMode:
 
 ![](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..159369872-1ad7d714-2876-47c0-82e7-f6df197d30e5.png)
 

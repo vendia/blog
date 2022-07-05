@@ -222,7 +222,6 @@ mutation addTemp {
      timestamp: "2021-01-01T03:00:00Z",
      temperature: 1.5
    }
-   syncMode: ASYNC
    ){
      transaction {
       transactionId
