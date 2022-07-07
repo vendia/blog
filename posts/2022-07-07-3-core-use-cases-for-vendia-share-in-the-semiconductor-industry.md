@@ -7,7 +7,7 @@ authors:
   - Vikrant Kahlir
 ---
 
-Electronic technology providers and products emphasize trust, reliability, and performance. However, consistent assurance requires continuous monitoring and inspection of the entire supply chain (design, assembly, maintenance, and warranty…).
+Electronic technology providers place a strong emphasis on performance, dependability, and trust. However, constant monitoring and inspection of the entire supply chain (design, assembly, maintenance, and warranty...) is necessary for consistent assurance. In this blog, we discuss three key use cases that semiconductor firms must implement in order to keep their promises of performance, dependability, and trust, while also keeping sustainibility in mind.
 
 ## Traceability for your secure supply chain
 
@@ -104,7 +104,7 @@ A recent [study](https://www.ibm.com/downloads/cas/D6QBER28) by IBM found that, 
 
 ## Next Steps
 
-Want to learn more about specific use cases in detail? Check out this post on enabling traceability with a secure data exchange. Find it here: [Learn more](https://www.vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
+Want to learn more about specific use cases in detail? Check out this post on enabling traceability with a secure data exchange. [Learn more](https://www.vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
 
 
 **Interested customers can self-serve on [Vendia Share](https://www.vendia.net/poc), or you can purchase Vendia Share through [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-6rjbm2je2n6ki).**
