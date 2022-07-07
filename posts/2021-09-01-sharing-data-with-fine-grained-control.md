@@ -242,7 +242,6 @@ mutation addSprinklesCupcake {
         }
       ]
     }
-    syncMode: ASYNC
   ) {
     transaction {
       transactionId
@@ -410,7 +409,6 @@ mutation addRedVelvetCake {
             }
         ]
     }
-    syncMode: ASYNC
   ) {
       transaction {
           transactionId
@@ -543,7 +541,6 @@ mutation updateRedVelvetCakeAcl {
               },
           ]
       }
-      syncMode: ASYNC
     ) {
     transaction {
           transactionId

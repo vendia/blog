@@ -79,7 +79,6 @@ mutation AddFile {
       sourceRegion: "<REGION OF YOUR S3 BUCKET>",
       destinationKey: "my-first-file.txt"
     }
-    syncMode: ASYNC
   ) {
   transaction {
       transactionId
@@ -158,7 +157,6 @@ mutation UpdateFile {
       sourceRegion: "",
       destinationKey: ""
     }
-    syncMode: ASYNC
   ) {
   transaction {
       transactionId
@@ -192,7 +190,6 @@ mutation AddFile2 {
       destinationKey: "my-second-file.txt",
       read: ["TestNode1"]
     }
-    syncMode: ASYNC
   ){
   transaction {
       transactionId
@@ -234,7 +231,6 @@ mutation AddFile3 {
       destinationKey: "my-third-file.txt",
       write: ["*"]
     }
-    syncMode: ASYNC
   ){
   transaction {
       transactionId
