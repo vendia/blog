@@ -1,6 +1,16 @@
 {
   "vikrant-kahlir": [
     {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "title": "3 Core Use Cases for Vendia Share in the Semiconductor Industry",
+      "description": "How to Reduce Supply Chain Complexity and Improve Business Outcomes with Distributed Ledger Technology (and without Sacrificing a Climate Stable Future)",
+      "draft": false,
+      "date": "2022-07-07",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
       "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
       "title": "Build a Modern, Secure Data Exchange for Semiconductor Traceability with Vendia",
       "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
