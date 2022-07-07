@@ -24,10 +24,10 @@ To address these issues we are introducing new APIs that give you the ability to
 
 | Type of Consistency | Dirty Reads | Synchronous E2E Response* | Consistency Guarantees |
 | ----- | ------ | ------ | ------ | 
-|CACHED | Very possible | Very fast | Transactions are written to a local cache on a given Node and can be out of date up to cache timeout. |
-| NODE_COMMITTED | Possible | Fast | Transactions are written to the world state on a given Node but, perhaps, not yet to the global ledger. |
-| NODE_LEDGERED| No | Slow | Transactions are written to the world state on a given Node and the global ledger. |
-| UNI_LEDGERED | No | Slowest | Transactions are written to the world state on all Nodes and the global ledger. |
+| NODE_COMMITTED | Possible | Fast | Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger. |
+| NODE_LEDGERED| No | Slow | Transactions are written to the world state and ledger on a given Node. |
+| UNI_LEDGERED | No | Slowest | Transactions are written to the world state and ledger on all Nodes in the Uni. |
+|ASYNC | No | N/A | A transaction ID is returned that can be polled. Transactions can be queried once they are written to the world state and the ledger on a given Node. |
 
 *The Synchronous E2E Response is the overall latency as compared to the other consistency modes. Our definition of “slowest” simply means this is the slowest end-to-end latency of all four  4 consistency modes. 
 
