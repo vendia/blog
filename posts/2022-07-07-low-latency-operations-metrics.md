@@ -83,6 +83,7 @@ To address the different needs of customers, we’re introducing different consi
    </td>
   </tr>
 </table>
+
 *The Synchronous E2E Response is the overall latency as compared to the other consistency modes. Our definition of “slowest” simply means this is the slowest end-to-end latency of all four  consistency modes. 
 
 Prior to this change, `NODE_LEDGERED` was the default mode for reads and synchronous writes. As part of this change, we have made `NODE_COMMITTED` as the default mode if you don’t provide a consistency mode as part of a query, subscription or synchronous mutation. 
