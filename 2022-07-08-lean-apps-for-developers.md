@@ -33,7 +33,7 @@ And here are other ways to keep it simple:
 **Leanness isn’t just about creating the simplest app today—it’s about minimizing effort and investment over the entire lifecycle of an application.**
 
 
-### H3 – How the Lean App Differs from Today’s Development Frameworks
+### How the Lean App Differs from Today’s Development Frameworks
 
 Lean apps leverage other frameworks’ strengths to outweigh other frameworks’ weaknesses. To put it more simply, piecing together lean applications means looking for [what is missing](https://www.vendia.net/blog/lean-app-part-3) from one framework, (i.e., how serveresless doesn’t really account for data models), with the best solution for the missing piece (cloud-based databases). 
 
