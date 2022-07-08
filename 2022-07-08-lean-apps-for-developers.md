@@ -1,12 +1,12 @@
 ---
-title: 'What does a ‘lean app’ mean for developers? '
-description: 'A look at the lean app approach to development: its precursors, its basic rules, and how it helps developers to spend more time on creating amazing code.'
+title: 'What Does a ‘Lean App’ Mean for Developers? '
+description: 'Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.'
 date: '2022-07-08'
 authors:
   - Caroll Casbeer
 ---
 
-In our[ Lean Apps Manifesto](vendia.net/blog/lean-apps), Dr. Tim Wagner outlines the next wave of application development to ‘flip the IT iceberg’ and accelerate innovation. 
+In our[ Lean Apps Manifesto](https://www.vendia.net/blog/lean-app-part-4), Dr. Tim Wagner outlines the next wave of application development to ‘flip the IT iceberg’ and accelerate innovation. 
 
 But what does this mean for developers? It means developers can focus on writing clean, elegant code that meets customers' needs—not reinventing the wheel or building clunky apps from scratch. 
 
@@ -24,7 +24,7 @@ Read on to learn more about lean apps:
 * How to build Lean Apps 
 
 
-## What does “lean app” mean?
+## What Does “Lean App” Mean?
 
 Put simply, lean apps fully leverage the wide variety of tools out there to solve the undifferentiated heavy lifting. Think of using Stripe for your payment platform and cloud services for your compute and data layers. How much more could you deliver if you spent 90% of your time solving _new_ problems, not reinventing existing solutions?
 
@@ -38,10 +38,10 @@ And here are other ways to keep it simple:
 * _Automation_ If you have to do it more than twice, you probably should (and can) automate it. SaaS-style deployment tools take on the work of not just committing, testing, and deploying code, but also building the infrastructure needed to do those tasks. 
 * _Outsourcing _Lean apps also have the benefit of outsourcing security, compliance, and best practices.
 
-**Leanness isn’t just about creating the simplest app today—it’s about minimizing effort and investment over the entire lifecycle of an application. _ _**
+**Leanness isn’t just about creating the simplest app today—it’s about minimizing effort and investment over the entire lifecycle of an application.**
 
 
-### H3 – How the lean app differs from today’s development frameworks
+### H3 – How the Lean App Differs from Today’s Development Frameworks
 
 Lean apps leverage other frameworks’ strengths to outweigh other frameworks’ weaknesses. To put it more simply, piecing together lean applications means looking for [what is missing](https://www.vendia.net/blog/lean-app-part-3) from one framework, (i.e., how serveresless doesn’t really account for data models), with the best solution for the missing piece (cloud-based databases). 
 
@@ -91,7 +91,7 @@ Lean apps leverage other frameworks’ strengths to outweigh other frameworks’
 
 
 
-## Features of a lean app
+## Features of a Lean App
 
 Lean Apps are the [Tom Sawyer](https://medium.com/@thenthgen/the-most-important-life-lesson-from-tom-sawyer-e92f86f6afb3) of application development: Get everyone else to do the dirty work. Like Tom, who convinced his friend Ben Rodgers (and others) to paint Aunt Polly’s fence, let cloud services, Saas’ and best-in-class solutions do your underlying (but important) work. Meanwhile, like Tom who kicked back and ate an apple while Ben took care of the manual work, you can focus on what you love most: 
 
@@ -111,7 +111,7 @@ If you’re working with data ledgering and versioning, smart, stateful APIs are
 Lean apps should also be decentralized, or at least multi-region (and multi-account), to remain resilient no matter what happens to that cloud provider. But, no matter your team’s size, this is still a huge challenge. Luckily, infrastructure can help and make sure it is cost-optimized cross-cloud data transport, data integrity, and security, and high-speed replication with ACID properties.
 
 
-## The benefits of lean apps for developers
+## The Benefits of Lean Apps for Developers
 
 Every developer wants to spend their time on the activities and outcomes that matter (eating apples)—not pointless, repetitive drudgery (fence painting). 
 
@@ -120,7 +120,7 @@ We also want to build solutions that drive results, solutions that work and add 
 Lean application development allows you to become really good at your craft. Imagine what you could learn and build if you freed up 50% of your time? Imagine if every application you built had sustainable maintenance and improvement plan (not an exponentially complex one).
 
 
-## Guidelines for a lean app
+## Guidelines for a Lean App
 
 There are six simple guidelines for building a lean app: 
 
@@ -132,7 +132,7 @@ There are six simple guidelines for building a lean app:
 6. Go with Saas and serverless. Don’t pay for what you don’t use. Stateless is the new zen. 
 
 
-## How Vendia helps developers build lean apps
+## How Vendia Helps Developers Build Lean Apps
 
 Vendia can help developers build lean apps and adopt best practices. How do we do that?
 
