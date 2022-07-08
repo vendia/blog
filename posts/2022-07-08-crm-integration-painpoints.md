@@ -63,7 +63,7 @@ Not convinced? Read this blog post to learn more about [why CRM data sharing is 
 
 
 
-### **What is the best way to combine multiple CRMs?** 
+### What is the best way to combine multiple CRMs?
 
 If your organization has two or more Salesforce instances, if you collaborate with other companies, or if your company just went through a merger or acquisition, you know that important data tends to live in multiple places. 
 
