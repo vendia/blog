@@ -1,4 +1,35 @@
 {
+  "anders-maul": [
+    {
+      "file": "/posts/2022-07-08-crm-integration-painpoints.md",
+      "title": "Top 5 Headaches of CRM Integrations According to a Salesforce MVP",
+      "description": "Discover the best way to combine CRMs and overcome CRM integration painpoints with insights from Salesforce MVP, Rebecca Lammers",
+      "date": "2022-07-08",
+      "thumbnail": "https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/5%20headaches%20of%20CRM%20integrations%20_%20July%2008%202022.png",
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "title": "Webcast Highlights: The Future of CRM Data Sharing",
+      "description": "We have summed up five highlights from the webcast on CRM data sharing",
+      "date": "2022-06-29",
+      "thumbnail": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
+      "title": "Real-time data sharing: pros and cons",
+      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
+      "date": "2022-06-07",
+      "authors": [
+        "Anders Maul"
+      ]
+    }
+  ],
   "vikrant-kahlir": [
     {
       "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
@@ -437,27 +468,6 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
-    }
-  ],
-  "anders-maul": [
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "title": "Webcast Highlights: The Future of CRM Data Sharing",
-      "description": "We have summed up five highlights from the webcast on CRM data sharing",
-      "date": "2022-06-29",
-      "thumbnail": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
-      "title": "Real-time data sharing: pros and cons",
-      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
-      "date": "2022-06-07",
-      "authors": [
-        "Anders Maul"
       ]
     }
   ],
