@@ -12,16 +12,8 @@ But what does this mean for developers? It means developers can focus on writing
 
 Lean apps are a continuation of other computing trends (see Cloud, serverless, Kubernetes, etc.) that continue to abstract away the heavy lifting of development. Furthermore, lean apps apply DRY coding at a macroscopic level to every aspect of the application. They shift as much as possible to the cloud to manage and handle the truly complex, to create economies of scale through multi-tenanted solutions that handle the undifferentiated (if still exceeding complex) heavy lifting of data and compute management. 
 
-**Most importantly, lean apps allow you to get _really good_ at your job. Instead of having to wear a lot of hats or be bogged down by infrastructure, you can become truly skilled in your craft instead of a master of none. **
+Most importantly, lean apps allow you to get _really good_ at your job. Instead of having to wear a lot of hats or be bogged down by infrastructure, you can become truly skilled in your craft instead of a master of none.
 
-Read on to learn more about lean apps:
-
-
-
-* Lean apps vs. other development frameworks 
-* Features of a lean app 
-* How lean apps benefit developers
-* How to build Lean Apps 
 
 
 ## What Does “Lean App” Mean?
