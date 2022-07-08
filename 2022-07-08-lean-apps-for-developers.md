@@ -97,10 +97,7 @@ Lean Apps are the [Tom Sawyer](https://medium.com/@thenthgen/the-most-important-
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![An open source, vintage illustration showing the famous fence painting scene in Mark Twain's novel, The Adventures of Tom Sawyer](https://user-images.githubusercontent.com/98492452/178038441-9d19e25f-7805-4087-8f2e-cd80278cd51c.jpeg)
 
 
 **The business logic.** Focus on what your customers need and build solutions and iterations rapidly by focusing on just your business. If your scope of work becomes laser-focused, you’ll move faster, get better at it, and create a true differentiator.
@@ -154,5 +151,5 @@ You are Tom Sawyer. Let us be your Ben Rodgers. We don’t mind painting fences.
 
 
 
-* Want to learn more about lean apps? Download the white paper. 
-* Ready to build your own lean app? Start with Vendia Share’s Quickstart Guides.
+* Want to learn more about lean apps? [Download the white paper](https://www.vendia.net/resources/lean-apps). 
+* Ready to build your own lean app? Start with [Vendia Share’s Quickstart Guides] (https://www.vendia.net/docs/share/quickstart).
