@@ -26,9 +26,9 @@ And here are other ways to keep it simple:
 
 
 
-* _Standardization _Use open-source frameworks, Docker Images, etc. Learn a best practice and do it. 
+* _Standardization_ Use open-source frameworks, Docker Images, etc. Learn a best practice and do it. 
 * _Automation_ If you have to do it more than twice, you probably should (and can) automate it. SaaS-style deployment tools take on the work of not just committing, testing, and deploying code, but also building the infrastructure needed to do those tasks. 
-* _Outsourcing _Lean apps also have the benefit of outsourcing security, compliance, and best practices.
+* _Outsourcing_ Lean apps also have the benefit of outsourcing security, compliance, and best practices.
 
 **Leanness isn’t just about creating the simplest app today—it’s about minimizing effort and investment over the entire lifecycle of an application.**
 
@@ -144,4 +144,4 @@ You are Tom Sawyer. Let us be your Ben Rodgers. We don’t mind painting fences.
 
 
 * Want to learn more about lean apps? [Download the white paper](https://www.vendia.net/resources/lean-apps). 
-* Ready to build your own lean app? Start with [Vendia Share’s Quickstart Guides] (https://www.vendia.net/docs/share/quickstart).
+* Ready to build your own lean app? Start with [Vendia Share’s Quickstart Guides](https://www.vendia.net/docs/share/quickstart).
