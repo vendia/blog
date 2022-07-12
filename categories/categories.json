@@ -22,5 +22,17 @@
   {
     "slug": "concepts",
     "description": "Software concepts"
-  }
+  },
+  {
+    "slug": "smart-contracts",
+    "description": "Smart contracts"
+  },
+  {
+    "slug": "data-modeling",
+    "description": "Data modeling"
+  },
+  {
+    "slug": "tim-wagner",
+    "description": "Tim Wagner"
+  },
 ]
