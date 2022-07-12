@@ -1,7 +1,6 @@
 ---
 title: 'How to choose between event handlers and smart contracts'
 description: 'Compare and contrast event handlers and smart contracts as you consider modeling applications for real-time data sharing with partners across organizations, clouds, and geographies.'
-tag: 'smart contracts, event handlers, distributed ledger, tim wagner'
 date: '2022-07-13'
 authors:
   - Tim Wagner
