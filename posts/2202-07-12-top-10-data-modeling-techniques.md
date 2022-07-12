@@ -2,7 +2,6 @@
 title: 'The 10 Data Modeling Techniques Every Vendia User Should Know'
 description: 'Step up your data modeling game to get the most value from Vendia Share.'
 date: '2022-07-12'
-draft: true
 categories:
 - concepts
 - tutorials
