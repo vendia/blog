@@ -693,6 +693,42 @@
       ]
     }
   ],
+  "david-brown": [
+    {
+      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
+      "title": "Announcing New Low Latency Operations and Vendia Metrics",
+      "description": "Announce two new features on Vendia Share: low latency operations for better read after write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07",
+      "authors": [
+        "David Brown"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-21-synchronous-mutations.md",
+      "title": "Announcing Synchronous Mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
+      "draft": false,
+      "date": "2022-03-21",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "David Brown"
+      ]
+    },
+    {
+      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
+      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
+      "date": "2021-12-09",
+      "authors": [
+        "David Brown"
+      ],
+      "categories": [
+        "announcements"
+      ]
+    }
+  ],
   "joydeep-das": [
     {
       "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
@@ -815,33 +851,6 @@
       "date": "2022-04-25",
       "authors": [
         "Hailey Nevins"
-      ]
-    }
-  ],
-  "david-brown": [
-    {
-      "file": "/posts/2022-03-21-synchronous-mutations.md",
-      "title": "Announcing Synchronous Mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
-      "draft": false,
-      "date": "2022-03-21",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "David Brown"
-      ]
-    },
-    {
-      "file": "/posts/2021-12-09-announcing-new-features.md",
-      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
-      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09",
-      "authors": [
-        "David Brown"
-      ],
-      "categories": [
-        "announcements"
       ]
     }
   ],
