@@ -1,12 +1,12 @@
 ---
-title: 'Real-time data sharing: pros and cons'
+title: 'Real-time data sharing: Pros and cons'
 description: 'Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.'
 date: '2022-06-07'
 authors:
   - Anders Maul
 ---
 
-# Real Time Data Sharing: Pros and Cons
+# Real-time data sharing: Pros and cons
 
 As the world of commerce moves increasingly faster, the demand for real-time data is on the rise. We have talked about the difference [between analytical and operational data](https://www.vendia.net/blog/real-time-vs-analytical-data) before. This blog will dive into the operational data that tends to be more urgent in nature and how you as a CTO, CIO, or CDO determine what data you should enable your organization with in real-time, what data is best suited for real-time data sharing, and what are the pros and cons of real-time data sharing.
 
@@ -36,7 +36,7 @@ In order for this to happen, all parties should have access to at least four ins
 Here are a few use case examples: 
 
 
-### Mortgage Servicing
+### Mortgage servicing
 
 While a mortgage payment may look like a simple payment from property owner to lender, every payment kicks off a range of tasks behind the scenes. The lender not only has to reconcile the new status of debt and interest payments, they also have to ensure property taxes and insurance are paid to the right parties. Additionally, the loan and associated risk and payments might actually be co-owned by multiple parties as part of a securities bundle.  
 
@@ -45,7 +45,7 @@ For these reasons, it is crucial that every transaction is relying on the latest
 Real-time data sharing removes delays and reduces errors associated with highly disjointed and manual processes. In addition, it opens up for entirely new benefits such as the ability for portfolio owners to get a real-time view of risk exposure and cash flow movements.   
 
 
-### Product Tracking for Car Manufacturers
+### Product tracking for car manufacturers
 
 Most product sales depend on multiple parties as the product moves through the manufacturing and delivery process. At every handoff there is a change in liability and ownership, which kicks off the need for journey specific tasks to take place. 
 
