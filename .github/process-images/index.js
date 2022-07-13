@@ -61,6 +61,8 @@ async function imagePipeline() {
   const uploadPaths = originalImages.downloadedImages.map((imgData) => {
     // console.log('meta', imgData.meta)
     const updatedFileName = imgData.meta.updatedFileName
+    // Fix weird jpg bug https://github.com/vendia/blog/runs/7329217719?check_suite_focus=true#step:4:739
+    .replace(/\.jpeg$/, '.jpg')
     //console.log('updatedFileName', updatedFileName)
     return {
       id: `${bucketPrefix}${updatedFileName}`,
