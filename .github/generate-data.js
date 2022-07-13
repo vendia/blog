@@ -76,13 +76,14 @@ const config = {
         md += `
   <td align="center">
       <a href="${authorLink}">
-        <img src="${image}" width="96px;" alt=""/>
+        <img src="${image}" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="${link}">${escapeName(name)}</a>
+      <a href="${link}"><sup><sub>${escapeName(name)}</sub></sup></a>
   </td>`
-        // 5 elements per table row
-        if (count > 5) {
+        // elements per table row
+        const elementsPerRow = 8
+        if (count > (elementsPerRow - 1)) {
           md += `${closeTr}${newTr}`
           count = 0
         }
