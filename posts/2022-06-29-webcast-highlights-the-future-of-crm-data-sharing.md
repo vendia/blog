@@ -12,7 +12,7 @@ authors:
 
 In the webcast, [The Future of CRM Data Sharing](https://fast.wistia.com/embed/channel/d1mxqbj9xw), we got some great insights from Rebecca Lammers, Director at Slalom and one of only 200 Salesforce MVPs in the world, and Vendia resident expert and solutions architect, James Gimourginas.
 
-![Speakers, Rebecca Lammers, and James Gimourginas](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/CRM%20Webcast%20_%20June%2015%202022_speakers.png)
+![Speakers, Rebecca Lammers, and James Gimourginas](https://user-images.githubusercontent.com/532272/178829952-fab04c9c-c0e9-456e-9466-2e03f658354f.png)
 
 
 **Here are five highlights from the webcast:**
