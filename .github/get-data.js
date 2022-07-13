@@ -25,7 +25,10 @@ const GLOB_PATTERN = [
   '!node_modules/**'
 ]
 
-async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
+async function getMarkdownData(globPattern = GLOB_PATTERN, opts = {}) {
+  const {
+    baseDir = cwd,
+  } = opts
   const cacheKey = globPattern.toString()
   const matches = await globby(globPattern)
   /* return if cached */
@@ -59,7 +62,8 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
       errors = errors.concat(markdownData.errors)
     }
     return markdownData
-  }).sort(sortByDate('date'))
+  })
+  .sort(sortByDate('date'))
   // console.log('data', data)
   // process.exit(1)
 
@@ -79,6 +83,11 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, baseDir = cwd) {
 async function getCategories() {
   const categoriesContents = await fs.readFile(path.join(cwd, 'categories/categories.json'), 'utf8')
   return JSON.parse(categoriesContents)
+}
+
+async function getExternalPosts() {
+  const externalPosts = await fs.readFile(path.join(cwd, 'posts/external-posts.json'), 'utf8')
+  return JSON.parse(externalPosts)
 }
 
 async function getAuthors() {
@@ -106,11 +115,12 @@ async function getAuthors() {
   }
 }
 
-function getPostsByCategory(data) {
-  return data.reduce((acc, post) => {
+function getPostsByCategory(data, additionalContent = []) {
+  return data.concat(additionalContent).reduce((acc, post) => {
+    const categories = (post.data && post.data.categories) ? post.data.categories : post.categories
     // console.log('post.data', post.data)
-    if (post.data.categories) {
-      post.data.categories.forEach((category) => {
+    if (categories) {
+      categories.forEach((category) => {
         acc[category] = (acc[category] || []).concat(formatIndexData(post))
       })
     }
@@ -118,11 +128,12 @@ function getPostsByCategory(data) {
   }, {})
 }
 
-function getPostsByTag(data) {
-  return data.reduce((acc, post) => {
+function getPostsByTag(data, additionalContent = []) {
+  return data.concat(additionalContent).reduce((acc, post) => {
+    const tags = (post.data && post.data.tags) ? post.data.tags : post.tags
     // console.log('post.data', post.data)
-    if (post.data.tags) {
-      post.data.tags.forEach((tag) => {
+    if (tags) {
+      tags.forEach((tag) => {
         acc[tag] = (acc[tag] || []).concat(formatIndexData(post))
       })
     }
@@ -130,11 +141,12 @@ function getPostsByTag(data) {
   }, {})
 }
 
-function getPostsByAuthor(data) {
-  return data.reduce((acc, post) => {
+function getPostsByAuthor(data, additionalContent = []) {
+  return data.concat(additionalContent).reduce((acc, post) => {
+    const authors = (post.data && post.data.authors) ? post.data.authors : post.authors
     // console.log('post.data', post.data)
-    if (post.data.authors) {
-      post.data.authors.forEach((author) => {
+    if (authors) {
+      authors.forEach((author) => {
         const authorSlug = slugify(author).toLowerCase()
         acc[authorSlug] = (acc[authorSlug] || []).concat(formatIndexData(post))
       })
@@ -143,9 +155,9 @@ function getPostsByAuthor(data) {
   }, {})
 }
 
-function getTags(data) {
-  return data.reduce((tags, d) => {
-    const postTags = d.data.tags || []
+function getTags(data, additionalContent = []) {
+  return data.concat(additionalContent).reduce((tags, d) => {
+    const postTags = (d.data && d.data.tags) ? d.data.tags : (d.tags || [])
     const uniqueTags = new Set(tags.concat(postTags))
     tags = Array.from(uniqueTags)
     return tags
@@ -153,11 +165,14 @@ function getTags(data) {
 }
 
 function formatIndexData(post, extra = {}) {
-  return { 
-    file: post.file.replace(ROOT_DIR, ''),
-     ...post.data,
-     ...extra
+  if (post.data) {
+    return {
+      file: post.file.replace(ROOT_DIR, ''),
+       ...post.data,
+       ...extra
+    }
   }
+  return post
 }
 
 function formatMD(text, filePath) {
@@ -266,6 +281,7 @@ module.exports = {
   getPostsByCategory,
   getPostsByAuthor,
   getPostsByTag,
+  getExternalPosts,
   sortByDate,
   DATE_FORMAT_REGEX
 }

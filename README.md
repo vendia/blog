@@ -124,129 +124,127 @@ Welcome to the Vendia blog repo!
 <table>
  <tr>
   <td align="center">
-    <a href="https://twitter.com/anders">
-      <img src="https://avatars.githubusercontent.com/u/104795928?v=4" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/anders-maul">
+        <img src="https://avatars.githubusercontent.com/u/104795928?v=4" width="96px;" alt=""/>
+      </a>
       <br />
-      Anders Maul
-    </a>
+      <a href="https://twitter.com/anders">Anders Maul</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/AWSbrett">
-      <img src="https://avatars1.githubusercontent.com/u/1882775?s=400" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/brett-andrews">
+        <img src="https://avatars1.githubusercontent.com/u/1882775?s=400" width="96px;" alt=""/>
+      </a>
       <br />
-      Brett Andrews
-    </a>
+      <a href="https://twitter.com/AWSbrett">Brett Andrews</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/mcnamarabrian">
-      <img src="https://avatars1.githubusercontent.com/u/17259?s=400&v=4" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/brian-mcnamara">
+        <img src="https://avatars1.githubusercontent.com/u/17259?s=400&v=4" width="96px;" alt=""/>
+      </a>
       <br />
-      Brian McNamara
-    </a>
+      <a href="https://twitter.com/mcnamarabrian">Brian McNamara</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/caroll_casbeert">
-      <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/caroll-casbeer">
+        <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="96px;" alt=""/>
+      </a>
       <br />
-      Caroll Casbeer
-    </a>
+      <a href="https://twitter.com/caroll_casbeert">Caroll Casbeer</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/vendiansa">
-      <img src="https://avatars.githubusercontent.com/u/75388221?s=460&u=8aaa50f857af65ce078929576049c0975ec6ffaa&v=4" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/cory-forsythe">
+        <img src="https://avatars.githubusercontent.com/u/75388221?s=460&u=8aaa50f857af65ce078929576049c0975ec6ffaa&v=4" width="96px;" alt=""/>
+      </a>
       <br />
-      Cory Forsythe
-    </a>
-  </td>
-</tr>
-<tr>
-  <td align="center">
-    <a href="https://twitter.com/DavidBr47724582">
-      <img src="https://avatars.githubusercontent.com/u/92179243?s=400" width="100px;" alt=""/>
-      <br />
-      David Brown
-    </a>
+      <a href="https://twitter.com/vendiansa">Cory Forsythe</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/DavidWells">
-      <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/david-brown">
+        <img src="https://avatars.githubusercontent.com/u/92179243?s=400" width="96px;" alt=""/>
+      </a>
       <br />
-      David Wells
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/gavinyue-vendia">
-      <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="100px;" alt=""/>
-      <br />
-      Gavin Yue
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/glenndierkes">
-      <img src="https://avatars0.githubusercontent.com/u/512350?s=400" width="100px;" alt=""/>
-      <br />
-      Glenn Dierkes
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/hnevins">
-      <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="100px;" alt=""/>
-      <br />
-      Hailey Nevins
-    </a>
+      <a href="https://twitter.com/DavidBr47724582">David Brown</a>
   </td>
 </tr>
 <tr>
   <td align="center">
-    <a href="https://github.com/james-vendia">
-      <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/david-wells">
+        <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="96px;" alt=""/>
+      </a>
       <br />
-      James Gimourginas
-    </a>
+      <a href="https://twitter.com/DavidWells">David Wells</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/joydeep02263451">
-      <img src="https://avatars.githubusercontent.com/u/98058931" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/gavin-yue">
+        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="96px;" alt=""/>
+      </a>
       <br />
-      Joydeep Das
-    </a>
+      <a href="https://github.com/gavinyue-vendia">Gavin Yue</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/robotpatch">
-      <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/glenn-dierkes">
+        <img src="https://avatars0.githubusercontent.com/u/512350?s=400" width="96px;" alt=""/>
+      </a>
       <br />
-      Ryan Green
-    </a>
+      <a href="https://github.com/glenndierkes">Glenn Dierkes</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/ryan_sb">
-      <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/hailey-nevins">
+        <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="96px;" alt=""/>
+      </a>
       <br />
-      Ryan Scott Brown
-    </a>
+      <a href="https://github.com/hnevins">Hailey Nevins</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/shruthialways">
-      <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/james-gimourginas">
+        <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="96px;" alt=""/>
+      </a>
       <br />
-      Shruthi Rao
-    </a>
+      <a href="https://github.com/james-vendia">James Gimourginas</a>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.net/blog/author/joydeep-das">
+        <img src="https://avatars.githubusercontent.com/u/98058931" width="96px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/joydeep02263451">Joydeep Das</a>
   </td>
 </tr>
 <tr>
   <td align="center">
-    <a href="https://twitter.com/timallenwagner">
-      <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/ryan-green">
+        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="96px;" alt=""/>
+      </a>
       <br />
-      Tim Wagner
-    </a>
+      <a href="https://twitter.com/robotpatch">Ryan Green</a>
   </td>
   <td align="center">
-    <a href="https://twitter.com/vkahlir">
-      <img src="https://avatars.githubusercontent.com/u/96793170" width="100px;" alt=""/>
+      <a href="https://www.vendia.net/blog/author/ryan-scott-brown">
+        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="96px;" alt=""/>
+      </a>
       <br />
-      Vikrant Kahlir
-    </a>
+      <a href="https://twitter.com/ryan_sb">Ryan Scott Brown</a>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.net/blog/author/shruthi-rao">
+        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="96px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/shruthialways">Shruthi Rao</a>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.net/blog/author/tim-wagner">
+        <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="96px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/timallenwagner">Tim Wagner</a>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.net/blog/author/vikrant-kahlir">
+        <img src="https://avatars.githubusercontent.com/u/96793170" width="96px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/vkahlir">Vikrant Kahlir</a>
    </td>
 </tr>
 </table>
@@ -256,7 +254,7 @@ Welcome to the Vendia blog repo!
 
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
 | Releases Details | Published-Date | edit |
-|:-------------|:--------------:|:---:|
+|:-----------------|:--------------:|:----:|
 | [Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow](https://vendia.net/releases/2022-04-15-releasenotes) <br/> Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow | 2022-04-15 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-04-15-releasenotes.md)
 | [At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!](https://vendia.net/releases/2022-03-11-releasenotes) <br/> Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace | 2022-03-11 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-03-11-releasenotes.md)
 | [Improved User Experience and Developer Experience](https://vendia.net/releases/2022-01-31-releasenotes) <br/> Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity | 2022-01-31 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-01-31-releasenotes.md)

@@ -1023,5 +1023,17 @@
       ],
       "date": "2020-11-16"
     }
+  ],
+  "ryan-green": [
+    {
+      "title": "How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure",
+      "date": "2021-02-08",
+      "authors": [
+        "Ryan Green"
+      ],
+      "description": "How Vendia uses the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers.",
+      "url": "https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure",
+      "publication": "AWS Developer Blog"
+    }
   ]
 }

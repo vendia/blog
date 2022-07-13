@@ -9,6 +9,7 @@ const {
   getPostsByCategory,
   getPostsByAuthor,
   getPostsByTag,
+  getExternalPosts,
   getMarkdownData,
   sortByDate,
   DATE_FORMAT_REGEX
@@ -61,26 +62,27 @@ const config = {
       let md = `<table>\n <tr>`
       let count = 0
       authors.forEach((person, i) => {
-        const { twitter, github, name, avatar } = person
+        const { twitter, github, name, avatar, slug } = person
         count = count + 1
         const isLast = i === (authors.length - 1)
         const newTr = (!isLast) ? '<tr>' : ''
         const closeTr = '\n</tr>\n'
         const twitterLink = (twitter) ? `https://twitter.com/${twitter}` : ''
         const githubLink = (github) ? `https://github.com/${github}` : ''
-        const link = twitterLink || githubLink || 'https://www.vendia.net/blog'
+        const authorLink = `https://www.vendia.net/blog/author/${slug}`
+        const link = twitterLink || githubLink || authorLink || 'https://www.vendia.net/blog'
         const image = avatar || 'https://www.fillmurray.com/100/100'
         // Add row
         md += `
   <td align="center">
-    <a href="${link}">
-      <img src="${image}" width="100px;" alt=""/>
+      <a href="${authorLink}">
+        <img src="${image}" width="96px;" alt=""/>
+      </a>
       <br />
-      ${escapeName(name)}
-    </a>
+      <a href="${link}">${escapeName(name)}</a>
   </td>`
         // 5 elements per table row
-        if (count > 4) {
+        if (count > 5) {
           md += `${closeTr}${newTr}`
           count = 0
         }
@@ -102,7 +104,7 @@ const config = {
       
       /* Make Markdown Table */
       let md = `| Releases Details | Published-Date | edit |\n`;
-      md +=    '|:-------------|:--------------:|:---:|\n';
+      md +=    '|:-----------------|:--------------:|:----:|\n';
       mdData.sort(sortByDate('date')).forEach((item) => {
         const { data, file } = item
         const fileName = path.basename(file)
@@ -130,32 +132,47 @@ function longest(arr, prop) {
 
 async function saveGeneratedIndexes(mdData, type = 'post') {
   const kind = type.match(/s$/) ? type : `${type}s`
-  const posts = getPostsByCategory(mdData)
-  // console.log('posts', posts)
+  const externalPosts = await getExternalPosts()
+  const posts = getPostsByCategory(mdData, externalPosts)
   await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-category.json`), JSON.stringify(posts, null, 2))
-
-  const postByTag = getPostsByTag(mdData)
-  // console.log('tags', tags)
+  // console.log('posts', posts)
+  const postByTag = getPostsByTag(mdData, externalPosts)
   await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-tag.json`), JSON.stringify(postByTag, null, 2))
-
-  const postsByAuthor = getPostsByAuthor(mdData)
-  // console.log('postsByAuthor', postsByAuthor)
+  // console.log('postByTag', postByTag)
+  const postsByAuthor = getPostsByAuthor(mdData, externalPosts)
   await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-author.json`), JSON.stringify(postsByAuthor, null, 2))
-  // console.log('authors', authors)
-
-  const tags = getTags(mdData).reduce((acc, curr) => {
+  // console.log('postsByAuthor', postsByAuthor)
+  const tags = getTags(mdData, externalPosts).reduce((acc, curr) => {
     acc[slugify(curr).toLowerCase()] = curr
     return acc
   }, {})
   await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-tags.json`), JSON.stringify(tags, null, 2))
+  // console.log('tags', tags)
+  return {
+    postsByAuthor,
+    postByTag
+  }
 }
 
+console.log('🏃‍♂️ Doc generation initialized...\n')
 markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
+  console.log('ℹ Generating index information...')
   /* Save author data */
-  const authors = await getAuthors()
-  await fs.writeFile(path.resolve(__dirname, '_generated/author-data.json'), JSON.stringify(authors, null, 2))
+  let authorsData = await getAuthors()
+  // console.log('authorsData', authorsData)
   /* Save blog post data */
-  await saveGeneratedIndexes(markdownData, 'posts')
+  const { postsByAuthor } = await saveGeneratedIndexes(markdownData, 'posts')
+  // console.log('postsByAuthor', postsByAuthor)
+  /* Add post count to author data */
+  const authors = authorsData.authors.map((author) => {
+    const authorPosts = postsByAuthor[author.slug]
+    return {
+      ...author,
+      postCount: (authorPosts) ? authorPosts.length : 0
+    }
+  })
+  authorsData.authors = authors
+  await fs.writeFile(path.resolve(__dirname, '_generated/author-data.json'), JSON.stringify(authorsData, null, 2))
 
   /* Save releases data */
   const [ releaseMdData ] = await getMarkdownData([
@@ -167,6 +184,6 @@ markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
   ])
 
   await saveGeneratedIndexes(releaseMdData, 'releases')
-
-  console.log('doc gen complete')
+  console.log('✔ Generating index information complete')
+  console.log('\n🎉 Doc generation complete\n')
 })

@@ -28,7 +28,8 @@
         "short": "product marketer",
         "long": "Anders likes building things, travel, and word plays."
       },
-      "slug": "anders-maul"
+      "slug": "anders-maul",
+      "postCount": 3
     },
     {
       "name": "Brett Andrews",
@@ -39,7 +40,8 @@
         "short": "Full Stack Developer",
         "long": "Brett Andrews spends his days building Serverless systems on AWS with JAMStack clients"
       },
-      "slug": "brett-andrews"
+      "slug": "brett-andrews",
+      "postCount": 1
     },
     {
       "name": "Brian McNamara",
@@ -50,7 +52,8 @@
         "short": "Solutions Architect",
         "long": "Brian is a Solutions Architect focused on enabling customers to develop products and services using Vendia. Prior to Vendia, Brian worked as a serverless solutions architect at Amazon Web Services (AWS). He has experience helping start-ups and enterprises to solve infrastructure automation challenges."
       },
-      "slug": "brian-mcnamara"
+      "slug": "brian-mcnamara",
+      "postCount": 12
     },
     {
       "name": "Caroll Casbeer",
@@ -61,7 +64,8 @@
         "short": "Marketer",
         "long": "Caroll likes, puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
       },
-      "slug": "caroll-casbeer"
+      "slug": "caroll-casbeer",
+      "postCount": 7
     },
     {
       "name": "Cory Forsythe",
@@ -72,7 +76,8 @@
         "short": "Solutions Architect",
         "long": "Cory is a Solutions Architect focusing on customer enablement. Cory previously worked as a Serverless Specialist at AWS. With a background in Software Development, Networking, and Consulting, he is eager to hear about your exciting uses cases for Vendia products."
       },
-      "slug": "cory-forsythe"
+      "slug": "cory-forsythe",
+      "postCount": 2
     },
     {
       "name": "David Brown",
@@ -83,7 +88,8 @@
         "short": "Principal Product Manager",
         "long": "David is a principal product manager at Vendia focusing on amazing features for Vendia Share. Prior to Vendia, David was a product manager at AWS focusing on serverless edge computing."
       },
-      "slug": "david-brown"
+      "slug": "david-brown",
+      "postCount": 2
     },
     {
       "name": "David Wells",
@@ -94,7 +100,8 @@
         "short": "Full stack dev",
         "long": "David is a Full Stack Engineer focused on serverless architectures, user experience, and product development."
       },
-      "slug": "david-wells"
+      "slug": "david-wells",
+      "postCount": 0
     },
     {
       "name": "Gavin Yue",
@@ -105,7 +112,8 @@
         "short": "Core engineer",
         "long": "Gavin Yue is a core engineer working on design and development of ServerLess and blockchain based systems"
       },
-      "slug": "gavin-yue"
+      "slug": "gavin-yue",
+      "postCount": 0
     },
     {
       "name": "Glenn Dierkes",
@@ -115,7 +123,8 @@
         "short": "Backend engineer",
         "long": "Glenn is a Backend Engineer focused on serverless architectures, data consistency and data analytics."
       },
-      "slug": "glenn-dierkes"
+      "slug": "glenn-dierkes",
+      "postCount": 2
     },
     {
       "name": "Hailey Nevins",
@@ -125,7 +134,8 @@
         "short": "Product Design",
         "long": "Hailey read 12 books in January."
       },
-      "slug": "hailey-nevins"
+      "slug": "hailey-nevins",
+      "postCount": 1
     },
     {
       "name": "James Gimourginas",
@@ -137,7 +147,8 @@
         "short": "Director of Solution Architecture and Customer Success",
         "long": "James is passionate about matching digital innovation with customer challenges to create novel and impactful solutions at scale."
       },
-      "slug": "james-gimourginas"
+      "slug": "james-gimourginas",
+      "postCount": 10
     },
     {
       "name": "Joydeep Das",
@@ -148,7 +159,8 @@
         "short": "VP, Product",
         "long": "Joydeep is a Product Manager at Vendia focused on creating a B2B data sharing service. Vendia helps customers collaborate with their business partners using Smart APIs for data sharing. Joydeep has been championing the cause of data products for more than a decade - initially as an engineer and then as a product manager."
       },
-      "slug": "joydeep-das"
+      "slug": "joydeep-das",
+      "postCount": 2
     },
     {
       "name": "Ryan Green",
@@ -159,7 +171,8 @@
         "short": "Senior software engineer",
         "long": "Ryan Green is a professional software engineer with over 13 years of experience building large-scale, highly-available cloud systems and SaaS applications with a focus on serverless and cloud-native architecture, DevOps, scalability, and security. Ryan contributed to several foundational serverless technologies at Amazon Web Services where he was a founding engineer on Amazon API Gateway and AWS Lambda. In his spare time, Ryan enjoys traveling and enjoying the outdoors with his family, mountain biking, skiing, and cooking."
       },
-      "slug": "ryan-green"
+      "slug": "ryan-green",
+      "postCount": 1
     },
     {
       "name": "Ryan Scott Brown",
@@ -170,7 +183,8 @@
         "short": "Core Software Engineer",
         "long": "Ryan is a Python software engineer and AWS Solutions architect with a background in operations, infrastructure tooling, and serverless."
       },
-      "slug": "ryan-scott-brown"
+      "slug": "ryan-scott-brown",
+      "postCount": 1
     },
     {
       "name": "Shruthi Rao",
@@ -181,7 +195,8 @@
         "short": "Vendia Co-Founder and CBO",
         "long": "Shruthi has been at the crux of innovation in multiple industries throughout her career, which served as a starting point to customer empathy. At AWS, Shruthi led over 1,000 customer conversations to solve the multi-party and cross-cloud data and code aggregation problem using Blockchains. She quickly realized that legacy blockchains were not suitable due to their high cost, low scalability, and complex enterprise integrations. Shruthi is a first generation Indian immigrant, mother to a 5 year old boy and frequently speaks at various conferences."
       },
-      "slug": "shruthi-rao"
+      "slug": "shruthi-rao",
+      "postCount": 6
     },
     {
       "name": "Tim Wagner",
@@ -192,7 +207,8 @@
         "short": "Vendia CEO and co-founder",
         "long": "Dr. Tim Wagner started the Serverless movement when he created the AWS Lambda business and technology in 2012. His mission then, as now, was to make the creation of enterprise IT solutions easy, fast, and secure. After AWS, Dr. Wagner served as VP of Engineering at Coinbase, where he oversaw the largest mission-critical fleet of distributed ledgers in the US. Dr. Wagner continues to explore business and technology innovations, speaking frequently at conferences"
       },
-      "slug": "tim-wagner"
+      "slug": "tim-wagner",
+      "postCount": 36
     },
     {
       "name": "Vikrant Kahlir",
@@ -203,7 +219,8 @@
         "short": "Solutions Architect",
         "long": "Vikrant is a Solutions Architect focused on enabling customers to develop products and services using Vendia data platform. Prior to Vendia, Vikrant worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
       },
-      "slug": "vikrant-kahlir"
+      "slug": "vikrant-kahlir",
+      "postCount": 5
     }
   ]
 }
