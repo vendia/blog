@@ -68,6 +68,8 @@ async function imagePipeline() {
     }
   })
 
+  console.log('Upload images to s3')
+  console.log(uploadPaths)
   const s3Response = await uploadObjects(bucketName, uploadPaths)
   // console.log('s3Response', s3Response)
 
