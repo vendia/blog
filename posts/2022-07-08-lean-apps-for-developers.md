@@ -1,5 +1,5 @@
 ---
-title: 'What Does a ‘Lean App’ Mean for Developers? '
+title: 'What does a ‘lean app’ mean for developers? '
 description: 'Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.'
 date: '2022-07-08'
 authors:
