@@ -51,7 +51,7 @@ async function imagePipeline() {
     inputDir: TEMP_DOWNLOAD_DIR,
     outputDir: OPTIMIZED_OUTPUT_DIR
   })
-  // console.log('optimizedImages', optimizedImages)
+  console.log('optimizedImages', optimizedImages)
   // process.exit(1)
 
   /* 3. Upload image files */
@@ -60,9 +60,7 @@ async function imagePipeline() {
   /* Original image urls and files they exist in */
   const uploadPaths = originalImages.downloadedImages.map((imgData) => {
     // console.log('meta', imgData.meta)
-    const updatedFileName = imgData.meta.updatedFileName
-    // Fix weird jpg bug https://github.com/vendia/blog/runs/7329217719?check_suite_focus=true#step:4:739
-    .replace(/\.jpeg$/, '.jpg')
+    const updatedFileName = fixJpg(imgData.meta.updatedFileName)
     //console.log('updatedFileName', updatedFileName)
     return {
       id: `${bucketPrefix}${updatedFileName}`,
@@ -80,7 +78,7 @@ async function imagePipeline() {
     const { meta, url } = imgData
     // console.log('imgData', imgData)
     const newUrl = s3Response.find(({ id }) => {
-      return path.basename(id) === meta.updatedFileName
+      return path.basename(id) === fixJpg(meta.updatedFileName) 
     })
     const cdnLink = `${cdnPrefix}/${newUrl.id}`
     console.log(`Replace`)
@@ -97,6 +95,12 @@ async function imagePipeline() {
 
     await writeFile(meta.location, updatedContent)
   })
+}
+
+// Fix weird jpg bug https://github.com/vendia/blog/runs/7329217719?check_suite_focus=true#step:4:739
+// It appears thet cloudinary turns .jpeg into .jpg 
+function fixJpg(str) {
+  return str.replace(/\.jpeg$/, '.jpg')
 }
 
 async function asyncForEach(array, callback) {
