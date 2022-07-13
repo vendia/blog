@@ -1,5 +1,5 @@
 ---
-title: 'Top 5 Headaches of CRM Integrations According to a Salesforce MVP'
+title: 'Top 5 headaches of CRM integrations according to a Salesforce MVP'
 description: 'Discover the best way to combine CRMs and overcome CRM integration painpoints with insights from Salesforce MVP, Rebecca Lammers'
 date: '2022-07-08'
 thumbnail: 'https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/5%20headaches%20of%20CRM%20integrations%20_%20July%2008%202022.png'
@@ -7,7 +7,7 @@ authors:
   - Anders Maul
 ---
 
-# Top 5 Headaches of CRM Integrations According to a Salesforce MVP
+# Top 5 headaches of CRM integrations according to a Salesforce MVP
 
 Without the right solution, integrating multiple CRMs can take months (or years). Plus, the integrations needed can end up looking like a bowl of API spaghetti. Our guest and Salesforce MVP, [Rebecca Lammers](https://www.linkedin.com/in/rebecca-lammers/), a Director at [Slalom](https://www.slalom.com/), covers five of the most common headaches you will need to overcome when combining multiple CRMs.
 
