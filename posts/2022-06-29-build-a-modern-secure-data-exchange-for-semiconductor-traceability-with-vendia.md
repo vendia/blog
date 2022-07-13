@@ -1,5 +1,5 @@
 ---
-title: 'Build a Modern, Secure Data Exchange for Semiconductor Traceability with Vendia'
+title: 'Build a modern, secure data exchange for semiconductor traceability with Vendia'
 description: 'To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.'
 draft: false
 date: '2022-06-29'
@@ -122,7 +122,7 @@ Unlike other legacy blockchain offerings in the market, Vendia Share is built on
 Vendia Share is built with an open API concept: You can export data owned by you and shared by your partners for advanced analytics to your dedicated AWS or on-premises environment. But, you and your partner will reference back to Vendia Share as a system of truth. 
 
 
-# Next Steps
+# Next steps
 
 Interested customers can self-serve directly on [Vendia Share](https://www.vendia.net/poc), or you can purchase Vendia Share through [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-6rjbm2je2n6ki). 
 
