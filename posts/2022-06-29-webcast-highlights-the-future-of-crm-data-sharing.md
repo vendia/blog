@@ -1,5 +1,5 @@
 ---
-title: 'Webcast Highlights: The Future of CRM Data Sharing'
+title: 'Webcast highlights: The future of CRM data sharing'
 description: 'We have summed up five highlights from the webcast on CRM data sharing'
 date: '2022-06-29'
 thumbnail: 'https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4'
@@ -8,9 +8,9 @@ authors:
 ---
 
 
-# Webcast Highlights: The Future of CRM Data Sharing
+# Webcast highlights: The future of CRM data sharing
 
-In the webcast, [The Future of CRM Data Sharing](https://fast.wistia.com/embed/channel/d1mxqbj9xw), we got some great insights from Rebecca Lammers, Director at Slalom and one of only 200 Salesforce MVPs in the world, and Vendia resident expert and solutions architect, James Gimourginas.
+In the webcast, [The future of CRM data sharing](https://fast.wistia.com/embed/channel/d1mxqbj9xw), we got some great insights from Rebecca Lammers, Director at Slalom and one of only 200 Salesforce MVPs in the world, and Vendia resident expert and solutions architect, James Gimourginas.
 
 ![Speakers, Rebecca Lammers, and James Gimourginas](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..532272..178829952-fab04c9c-c0e9-456e-9466-2e03f658354f.png)
 
