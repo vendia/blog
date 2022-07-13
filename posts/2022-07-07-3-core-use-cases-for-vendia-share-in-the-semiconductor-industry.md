@@ -1,6 +1,6 @@
 ---
-title: '3 Core Use Cases for Vendia Share in the Semiconductor Industry'
-description: 'How to Reduce Supply Chain Complexity and Improve Business Outcomes with Distributed Ledger Technology (and without Sacrificing a Climate Stable Future)'
+title: '3 core use cases for Vendia Share in the semiconductor industry'
+description: 'How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)'
 draft: false
 date: '2022-07-07'
 authors:
@@ -102,7 +102,7 @@ The ledger provides a single, unified source of data, which creates a clear audi
 A recent [study](https://www.ibm.com/downloads/cas/D6QBER28) by IBM found that, in the electronics industry, only one-third of warranty costs go toward repair or replacement of defective goods, with two-thirds being spent on processing and administration. With adoption of subscription based business models, administrative costs will start to hurt the bottomline even more. Using Vendia Share, electronics providers improve how quickly they trace problems with a specific product component or material manufacturer. It helps increase safety, improve service, operation, and decrease the cost of maintenance and warranty. 
 
 
-## Next Steps
+## Next steps
 
 Want to learn more about specific use cases in detail? Check out this post on enabling traceability with a secure data exchange. [Learn more](https://www.vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
 
