@@ -56,6 +56,7 @@ async function uploadObjects(bucketName, objects, options = {}) {
     const chunk = unknownFiles.slice(uploaded, uploaded + maxTransfers)
     await Promise.all(chunk.map(async ({ id, path: objectPath }) => {
       console.log(`Uploading file to ${bucketName}/${id}...`)
+      console.log('objectPath', objectPath)
       const stream = fs.createReadStream(objectPath)
       const upload = new Promise((resolve) => stream.on('end', resolve))
       await s3.send(new PutObjectCommand({
@@ -77,7 +78,9 @@ async function uploadObjects(bucketName, objects, options = {}) {
         return item
       })
       return upload
-    }))
+    })).catch((err) => {
+      console.log('s3 error', err)
+    })
     uploaded += chunk.length
   }
 
