@@ -20,7 +20,7 @@
     },
     {
       "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
-      "title": "How to Make Your APIs \"Data-aware\"",
+      "title": "How to make your APIs \"data-aware\"",
       "description": "Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth.",
       "date": "2022-06-09",
       "authors": [
