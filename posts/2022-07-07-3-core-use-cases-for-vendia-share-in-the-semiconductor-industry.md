@@ -34,7 +34,7 @@ The growing awareness on environmental effects are influencing customer behavior
 It is encouraging to see business leaders at large companies putting effort into sustainability (Figure 2). Large companies have the scale and influence to make a difference at a faster clip across the cradle-to-grave product lifecycle.
 
  <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/177881069-f1075f2b-03df-4600-a080-48fb313a833a.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..177881069-f1075f2b-03df-4600-a080-48fb313a833a.png" />
 </p>
 <p align="center">Figure 1 - Part- and component-level traceability is possible, and they’re the future of a sustainable product lifecycle</p>
 
@@ -79,7 +79,7 @@ These days, manufacturing is a heavily connected industry. Together OEM, supplie
 When it comes to a specific product, collecting all the required information is very difficult. With time constraints added in, it’s nearly impossible. Electronic device design and assembly with validated components is a complex process; service and maintenance add complexity, too (Figure 2).
 
  <p align="center">
-  <img src="https://user-images.githubusercontent.com/96793170/177883244-ba7d32b3-a7df-46a6-9752-b23c37e2a87b.png" />
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..177883244-ba7d32b3-a7df-46a6-9752-b23c37e2a87b.png" />
 </p>
 <p align="center">Figure 2 - OEM, supplier, contractors, and multiple component sources create a robust, complex network of information</p>
 

@@ -89,7 +89,7 @@ Lean Apps are the [Tom Sawyer](https://medium.com/@thenthgen/the-most-important-
 
 
 
-![An open source, vintage illustration showing the famous fence painting scene in Mark Twain's novel, The Adventures of Tom Sawyer](https://user-images.githubusercontent.com/98492452/178038441-9d19e25f-7805-4087-8f2e-cd80278cd51c.jpeg)
+![An open source, vintage illustration showing the famous fence painting scene in Mark Twain's novel, The Adventures of Tom Sawyer](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..178038441-9d19e25f-7805-4087-8f2e-cd80278cd51c.jpg)
 
 
 **The business logic.** Focus on what your customers need and build solutions and iterations rapidly by focusing on just your business. If your scope of work becomes laser-focused, you’ll move faster, get better at it, and create a true differentiator.
