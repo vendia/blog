@@ -1,12 +1,12 @@
 ---
-title: 'How to Make Your APIs "Data-aware"'
+title: 'How to make your APIs "data-aware"'
 description: 'Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth.'
 date: '2022-06-09'
 authors:
   - Tim Wagner
 ---
 
-# An Alternative Architecture for Smart, “Data-aware” APIs
+# An alternative architecture for smart, “data-aware” APIs
 _Note_ This is part 2 in our Data APIs series. [Read part 1](https://www.vendia.net/blog/apis-for-data). 
 
 In our previous post we talked through why APIs are still so difficult for teams to implement and maintain and why legacy options fail to meet current business needs. In this blog we will walk through modern APIs that help provide a single source of truth while also providing a ledgered lookback. 
@@ -45,7 +45,7 @@ _Figure 2: Vendia’s Smart API<sup>TM</sup> architecture. An operationally and 
 Let’s see how that works using a simple example.
 
 
-## A CRM Example
+## A CRM example
 
 Let’s take a simple but pervasive example of data sharing: Customer profiles. Customer information may be mastered in a CRM, but it gets produced and consumed in many places, including with a business’s partners and alliances. It’s also a typical example where inconsistent data served up by an API could be dangerous: With compliance regulations such as GDPR in Europe and CCPA in California, getting a customer’s PII sharing settings wrong (through outdated or inconsistent API values) could literally mean breaking the law.
 
@@ -66,14 +66,14 @@ Despite the simplicity of this example, note that the sharing and lineage tracki
 The process of using Vendia is simple: given the data model above, the system automatically generates cloud hosted APIs, streaming event solutions, and data storage subsystems for both Acme and CoolTech in just a few minutes. These systems are production grade immediately – they come with prebuilt scaling, fault tolerance, and both on-the-fly and at-rest encryption built in without additional coding required. Each company can now set up custom authentication and authorization for as many systems as they like, even using additional nodes if they want their data to span multiple public clouds.
 
 
-## Changes Over Time
+## Changes over time
 
 If the schema evolves, for example to include additional data about the customer’s level of spend, the system automatically adjusts the implementation in a seamless fashion, preserving the existing application integrations and data. (This is one of the great advantages of combining GraphQL APIs with a compiler-driven solution that actually models the data, versus a “dumb pipe” that has no idea if or when the content it carries will break existing clients.)
 
 If the business relationships themselves evolve, for example to include a new partner, CompanyThree, Vendia can automatically deploy and synchronize additional nodes for new parties without incurring downtime or disruption to the existing system, allowing the ecosystem to seamlessly evolve to meet business needs. Additional nodes can also be added to create multi-region backups, multi-cloud application strategies, or additional operational boundaries. Advanced Vendia features, including smart contracts and tokenization, can be employed as regulatory and assurance program requirements evolve, enabling all parties to manage their data (both shared and private) with control, even in highly regulated and secured environments.
 
 
-## Vendor Selection Guidance
+## Vendor selection guidance
 
 With the large number of mechanisms available, how do you decide which alternative to use and when to use it? While the specifics of a given scenario are always relevant, the list below groups common solutions by category.
 
@@ -91,6 +91,6 @@ APIs are most commonly used to share data across some kind of “gap” – two 
 Solutions to data sharing include centralized databases, real-time streaming platforms, and legacy blockchains, but all of these suffer from significant limitations, especially when trying to share data across different companies, clouds, and IT infrastructure approaches. Modern data sharing platforms such as Vendia combine long-term data storage, type-safe data modeling, automatic API generation, and compliant data sharing controls that make it easy to share data with partners, from structured information to unstructured files. Recreating a secure, performant data sharing platform is an expensive and risky proposition, even for large enterprises, making cloud-based platforms such as Vendia a preferable approach to delivering business value quickly and efficiently.
 
 
-# Learning More
+# Learn more
 
 To learn more about how Vendia can make API development and management easier for data-driven applications, check out the [Smart APIs ebook](https://www.vendia.net/resources/smart-apis). To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.net/resources/lean-apps) on Vendia’s blog. To see use cases where APIs for data-intensive applications have been successfully applied, visit Vendia’s [product  page.](https://www.vendia.net/product) To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.net/contact-us).
