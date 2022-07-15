@@ -23,11 +23,11 @@ Writing data to Vendia is a multi-step process. Vendia operates as a decentraliz
 2. Data must go through consensus, which involves all the participating nodes agreeing the transaction is valid and can be written to the database.
 3. Once consensus has approved the transaction, the data must be written to all the Node’s [world state](https://www.vendia.net/docs/share/terms-and-definitions#world-state) and into the ledger, which means replicating the data across parties and potentially across cloud providers.
 
-All of these steps take time to complete. Until today, before you could query the data, the transaction would need to be written to the world state on that node and the ledger. We chose this design to prevent potential[ dirty reads](https://en.wikipedia.org/wiki/Write%E2%80%93read_conflict).
+All of these steps take time to complete. Until today, before you could query the data, the transaction would need to be written to the world state on that node and the ledger. We chose this design to prevent potential [dirty reads](https://en.wikipedia.org/wiki/Write%E2%80%93read_conflict).
 
-But, there may be cases where you prefer response speed over data completeness (_i.e_., potentially a dirty read). For example, an application that shows the approximate availability of inventory might prefer to show inventory data quickly—even if that data is from a few minutes ago, rather than waiting for the most up to date inventory count. Likewise, there may be use cases where you prefer data completeness over response speed (_i.e._, there can be no dirty reads). For example, you may have the need to only return data when **_all_** participants have accepted and written the transaction into the world state **_and_** the global ledger.
+But, there may be cases where you prefer response speed over data completeness (_i.e_., potentially a dirty read). For example, an application that shows the approximate availability of inventory might prefer to show inventory data quickly—even if that data is from a few minutes ago, rather than waiting for the most up to date inventory count. Likewise, there may be use cases where you prefer data completeness over response speed (_i.e._, there can be no dirty reads). For example, you may have the need to only return data when **_all_** participants have accepted and written the transaction into the world state **_and_** the ledger.
 
-To address the different needs of customers, we’re introducing different consistency modes for reading (querying or listing), subscribing, or performing synchronous mutations (Table 1). Clines have the option of providing  their preferred consistency mode when issuing a query, subscription or a synchronous mutation).
+To address the different needs of customers, we’re introducing different consistency modes for reading (querying or listing), subscribing, or performing synchronous mutations (Table 1). Clients have the option of providing their preferred consistency mode when issuing a query, subscription or a synchronous mutation.
 
 **Table 1: Different Consistency Modes**
 
@@ -99,8 +99,7 @@ query getShapeQuery {
   get_Shape(id: "0180f1d5-7b0c-c03a-dd22-54eb75b807ef", readMode: CACHED) {
 	color
 	name
-	num_sides
-  
+	num_sides 
 }
 ```
 
@@ -146,6 +145,6 @@ If you navigate into any of the Nodes you own, you will also see a snapshot of t
 
 With the read consistency modes, applications built on top of Vendia should become more performant by allowing you to choose between speed and data completeness. And with the new operational metrics, gaining insights into how your unis and nodes are performing just became easier. We hope you enjoy using both of these new features. 
 
-If you have other ideas on how to make Vendia easier to use, or if you have any questions or concerns, please check out our[ Discourse channel](https://community.vendia.net/). You can also contact your Vendia account team. 
+If you have other ideas on how to make Vendia easier to use, or if you have any questions or concerns, please check out our [Discourse channel](https://community.vendia.net/). You can also contact your Vendia account team. 
 
 **Please see our [documentation](https://www.vendia.net/docs/share/graphql) for more information about the new read consistency modes.**
