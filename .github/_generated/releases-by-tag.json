@@ -1,6 +1,17 @@
 {
   "New Features": [
     {
+      "file": "/releases/2022-07-15-releasenotes.md",
+      "title": "Improved Security, Performance and Transparency",
+      "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
+      "date": "2022-07-15",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
+    {
       "file": "/releases/2022-04-15-releasenotes.md",
       "title": "Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow",
       "description": "Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow.",
@@ -50,6 +61,17 @@
     }
   ],
   "Improvements": [
+    {
+      "file": "/releases/2022-07-15-releasenotes.md",
+      "title": "Improved Security, Performance and Transparency",
+      "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
+      "date": "2022-07-15",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
     {
       "file": "/releases/2022-04-15-releasenotes.md",
       "title": "Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow",
