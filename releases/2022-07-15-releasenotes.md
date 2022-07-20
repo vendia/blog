@@ -26,7 +26,7 @@ JSON Web Tokens (JWT) are an open, industry standard [RFC 7519](https://datatrac
 
 You can manage API Keys and JWT authentication via the Vendia console, through the CLI, or using the GraphQL APIs for your Node. 
 
-![Screenshot of the authentication page with new API Keys and JWT authentication](https://user-images.githubusercontent.com/92179243/179299961-a80f9f6d-473b-41a3-8730-1153dca7a24e.png)
+![Screenshot of the authentication page with new API Keys and JWT authentication](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..179299961-a80f9f6d-473b-41a3-8730-1153dca7a24e.png)
 
 ## Low Latency Operations
 
@@ -191,7 +191,7 @@ Vendia Metrics are a set of operational metrics for Nodes and Unis to give you i
 
 All Vendia Metrics are visible over a 24-hour period. To view the Vendia Metrics, navigate to a Uni in the [Share console](https://share.vendia.net) and click on the “Metrics” button along the left hand column.
 
-![Screenshot of Vendia Share Console showing the Vendia Metrics dashboard](https://user-images.githubusercontent.com/92179243/179299554-7b1e1d08-653c-4ec4-91ff-105e4b84d61b.png)
+![Screenshot of Vendia Share Console showing the Vendia Metrics dashboard](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..179299554-7b1e1d08-653c-4ec4-91ff-105e4b84d61b.png)
 
 ## Do You Have Feature Requests?
 

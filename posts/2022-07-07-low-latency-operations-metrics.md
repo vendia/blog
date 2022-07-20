@@ -135,11 +135,11 @@ Today we are excited to announce Vendia Metrics, a set of operational metrics fo
 All Vendia Metrics are visible over a 24-hour period. To view the Vendia Metrics, navigate to a Uni in the [Share console](https://share.vendia.net) and click on the “Metrics” button along the left hand column. 
 
 
-![Screenshot of Vendia Share Console showing the Vendia Metrics dashboard](https://user-images.githubusercontent.com/92179243/177821363-2f52856d-b038-42d2-af56-e8bd7625bce6.png)
+![Screenshot of Vendia Share Console showing the Vendia Metrics dashboard](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..177821363-2f52856d-b038-42d2-af56-e8bd7625bce6.png)
 
 If you navigate into any of the Nodes you own, you will also see a snapshot of the traffic on that Node over the past 24 hours.
 
-![Screenshot of Vendia Share Console showing overview of a Node with API metrics](https://user-images.githubusercontent.com/92179243/177821283-ea92e75f-c91f-4a9e-9809-47a95409b168.png)
+![Screenshot of Vendia Share Console showing overview of a Node with API metrics](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..177821283-ea92e75f-c91f-4a9e-9809-47a95409b168.png)
 
 ## Summary
 
