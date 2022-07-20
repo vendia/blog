@@ -1,6 +1,6 @@
 ---
-title: 'Announcing New Low Latency Operations and Vendia Metrics'
-description: 'Announce two new features on Vendia Share: low latency operations for better read after write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.'
+title: 'Announcing new low latency operations and Vendia Metrics'
+description: 'Announcing two new features on Vendia Share: Low latency operations for better read after write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes'
 date: '2022-07-07'
 authors:
   - David Brown
