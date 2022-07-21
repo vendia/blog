@@ -15,13 +15,12 @@ Join hosts Peter Sbarski, AWS Serverless Hero and Dr. Tim Wagner, co-founder of 
 
 **Details**
 
-Wednesday, August 3, 2022 
-
-3 pm PST
+Wednesday, August 3, 2022 | 3 pm PST
 
 [Register](https://us02web.zoom.us/webinar/register/6216584365998/WN_xi0SssiyS2G_oQjZbyONkw)
 
 _All registrants will receive a recording and written overview_
+
 
 Dr. Tim Wagner will talk through how he combined the latest in serverless and cloud computing to build a fault-tolerant, scalable blockchain solution. He realized that the strengths and weaknesses of APIs, cloud databases, and blockchains complicated each other, enabling a scalable enterprise-ready distributed ledger.
 
