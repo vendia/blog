@@ -13,11 +13,7 @@ authors:
 
 Join hosts Peter Sbarski, AWS Serverless Hero and Dr. Tim Wagner, co-founder of Vendia and inventor of AWS Lambda for a in-depth interview about how Vendia built an enterprise-grade, scalable blockchain to make multi-party data sharing easy.
 
-**Details**
-
-Wednesday, August 3, 2022 | 3 pm PST
-
-[Register](https://us02web.zoom.us/webinar/register/6216584365998/WN_xi0SssiyS2G_oQjZbyONkw)
+Details: Wed, August 3, 2022 | 3 pm PST | [Register](https://us02web.zoom.us/webinar/register/6216584365998/WN_xi0SssiyS2G_oQjZbyONkw)
 
 _All registrants will receive a recording and written overview_
 
