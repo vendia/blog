@@ -24,7 +24,7 @@ _All registrants will receive a recording and written overview_
 
 Dr. Tim Wagner will talk through how he combined the latest in serverless and cloud computing to build a fault-tolerant, scalable blockchain solution. He realized that the strengths and weaknesses of APIs, cloud databases, and blockchains complicated each other, enabling a scalable enterprise-ready distributed ledger.
 
-If you’re interested in next-gen blockchain technology, serverless, or building enterprise-grade apps, [join us]([url](https://us02web.zoom.us/webinar/register/6216584365998/WN_xi0SssiyS2G_oQjZbyONkw))! 
+If you’re interested in next-gen blockchain technology, serverless, or building enterprise-grade apps, [join us](https://us02web.zoom.us/webinar/register/6216584365998/WN_xi0SssiyS2G_oQjZbyONkw))! 
 
 
 ## About the hosts
