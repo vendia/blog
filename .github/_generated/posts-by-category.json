@@ -1,6 +1,18 @@
 {
   "concepts": [
     {
+      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
+      "title": "Webcast: How to build an enterprise blockchain with serverless",
+      "description": "Learn how Tim Wagner, founder of AWS Lamba, built a serverless, enterprise-ready blockchain.",
+      "date": "2022-07-19",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
       "file": "/posts/2202-07-12-top-10-data-modeling-techniques.md",
       "title": "The 10 data modeling techniques every Vendia user should know",
       "description": "Step up your data modeling game to get the most value from Vendia Share.",
