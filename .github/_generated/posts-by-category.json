@@ -120,6 +120,20 @@
       ]
     }
   ],
+  "realtimedatasharing": [
+    {
+      "file": "/posts/2022-07-20-real-time-data-sharing-solution-elements.md",
+      "title": "Elements of a real-time data sharing solution",
+      "description": "Real-time data sharing needs to grapple with increasingly decentralized data. Here are some elements to focus on when looking for a modern data sharing solution.",
+      "date": "2022-07-20",
+      "categories": [
+        "realtimedatasharing"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    }
+  ],
   "tutorials": [
     {
       "file": "/posts/2202-07-12-top-10-data-modeling-techniques.md",
