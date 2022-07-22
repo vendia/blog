@@ -1,6 +1,6 @@
 ---
 title: 'What does a "lean app" mean for teams?'
-description: 'A look at the lean app approach to development: the principles, features, and benefits that enable better team collaboration, products, and business results.'
+description: 'A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.'
 date: '2022-07-25'
 draft: true
 categories:
@@ -19,13 +19,13 @@ Let's quickly review what makes an app _lean_. A lean app [flips the IT iceberg]
 
 Lean apps leverage existing, proven approaches to common challenges. By combining those approaches into a single, coherent overarching architectural style, lean apps overcome the inherent limitations of each approach.
 
-For example, consider APIs. Connecting applications through APIs was once viewed as an implementation detail best left to developers. Over time, APIs became a [business imperative](https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html) — one that companies created holistic, cross-functional strategies to pursue. Unfortunately, the technology underpinnings of APIs didn't evolve in proportion to the importance APIs gained within most organizations.
+For example, consider APIs. Connecting applications through APIs was once viewed as an implementation detail best left to developers. Over time, APIs became a [business imperative](https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html)—one that companies created holistic, cross-functional strategies to pursue. Unfortunately, the technology underpinnings of APIs didn't evolve in proportion to the importance APIs gained within most organizations.
 
-Lean apps bolster the stagnant approach to API development by requiring that APIs _do more—_ moving feature expectations off of a team's backlog and onto the platform backing the API. The idea of doing more (sometimes called "[smart APIs](https://www.vendia.net/blog/smart-apis)") breaks the tradition of "ignorant pipes" for API solutions and addresses their inherent limitations. For example:
+Lean apps bolster the stagnant approach to API development by requiring that APIs _do more_—moving feature expectations off of a team's backlog and onto the platform backing the API. The idea of doing more (sometimes called "[smart APIs](https://www.vendia.net/blog/smart-apis)") breaks the tradition of "ignorant pipes" for API solutions and addresses their inherent limitations. For example:
 
 * Developers have ready access to countless REST and GraphQL libraries and frameworks used to create APIs from scratch. But is API _implementation_ a high-value activity that developers should focus on?
 * APIs use a rich set of authentication (authN) and authorization (authZ) approaches and protocols to ensure only authenticated, authorized clients can interact with an API. But what about protecting the data, at a granular level, sent to or retrieved from an API? And how does that approach scale as the number of API producers and consumers grows large?
-* APIs are commonly used to send and receive data. That interaction can be system-to-system within an organization; consumer-to-system powering user-facing applications; or a cross-company, bi-directional exchange between two business partners. But how quickly does the data sent or retrieved grow stale? And how does each API participant (i.e. data producer or consumer) become aware they are now acting on stale or invalidated information?
+* APIs are commonly used to send and receive data. That interaction can be system-to-system within an organization; consumer-to-system powering user-facing applications; or a cross-company, bi-directional exchange between two business partners. But how quickly does the data sent or retrieved grow stale? And how does each API participant (i.e., data producer or consumer) become aware they are now acting on stale or invalidated information?
 
 Lean apps address each of these challenges directly. By combining a set of capabilities that complement each other and, collectively, reduce the burden placed on development teams building or integrating with APIs, lean apps demonstrate why smart APIs are the next big thing in the API ecosystem.
 
@@ -41,7 +41,7 @@ While these are just some examples focused on API solutions, they highlight the 
 
 ## The benefits of lean apps for teams
 
-Teams can benefit from building lean apps in many ways. And, to be clear, the benefits aren't limited to only the _developers _within a cross-functional product delivery team. Each and every team member will see benefits; in aggregate, the team's ability to deliver differentiating user experiences and business value will increase as a result.
+Teams can benefit from building lean apps in many ways. And, to be clear, the benefits aren't limited to only the _developers_ within a cross-functional product delivery team. Each and every team member will see benefits; in aggregate, the team's ability to deliver differentiating user experiences and business value will increase as a result.
 
 While cross-functional teams commonly differ in roles and composition, we'll use some generalized roles here to highlight the benefits each team member will see when creating lean apps.
 
