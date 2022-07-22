@@ -3,7 +3,7 @@ title: 'Elements of a real-time data sharing solution'
 description: 'Real-time data sharing needs to grapple with increasingly decentralized data. Here are some elements to focus on when looking for a modern data sharing solution.'
 date: '2022-07-20'
 categories:
-- realtimedatasharing
+- concepts
 authors:
   - Anders Maul
 ---
