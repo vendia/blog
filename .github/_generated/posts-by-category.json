@@ -1,9 +1,22 @@
 {
   "concepts": [
     {
+      "file": "/posts/2022-07-25-lean-apps-for-teams.md",
+      "title": "What does a \"lean app\" mean for teams?",
+      "description": "A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.",
+      "date": "2022-07-25",
+      "draft": true,
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
       "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
       "title": "Webcast: How to build an enterprise blockchain with serverless",
-      "description": "Learn how Tim Wagner, founder of AWS Lamba, built a serverless, enterprise-ready blockchain.",
+      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
       "date": "2022-07-19",
       "categories": [
         "concepts"
