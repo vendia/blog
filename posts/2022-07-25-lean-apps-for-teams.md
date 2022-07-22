@@ -5,7 +5,7 @@ date: '2022-07-25'
 draft: true
 categories:
 - concepts
-  authors:
+authors:
 - James Gimourginas
 ---
 
