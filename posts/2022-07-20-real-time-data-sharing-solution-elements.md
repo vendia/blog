@@ -45,7 +45,7 @@ Those are the [essential pieces](https://thenewstack.io/vendor-checklist-for-rea
 An ideal [real-time data-sharing](https://www.vendia.net/blog/real-time-data-sharing-pros-cons) solution must simultaneously offer the following elements as table stakes:
 
 
-### Saas integration
+### SaaS integration
 
 Company data lives in a multitude of places as every department tends to have its specialized system of record (think ERP or CRM). It’s common for each system to store data in different clouds or geographies. For the data to be most valuable or to unlock new data drivers, the data will need to pool into a single location as a single source of truth (SSOT). This is a relatively easy problem to solve within your company, where most SaaS offerings offer various integrations in the form of API pipelines sending data back and forth. 
 
