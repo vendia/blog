@@ -1,7 +1,7 @@
 ---
 title: 'What does a "lean app" mean for teams?'
 description: 'A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.'
-date: '2022-07-25'
+date: '2022-07-22'
 draft: true
 categories:
 - concepts
