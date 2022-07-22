@@ -1,6 +1,6 @@
 ---
 title: 'Webcast: How to build an enterprise blockchain with serverless'
-description: 'Learn how Tim Wagner, founder of AWS Lamba, built a serverless, enterprise-ready blockchain.'
+description: 'Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.'
 date: '2022-07-19'
 categories:
 - concepts
