@@ -1,6 +1,6 @@
 ---
-title: 'What is Real-Time Data Sharing?'
-description: 'The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration.'
+title: 'What is real-time data sharing?'
+description: 'The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration'
 date: '2022-05-03'
 authors:
   - Tim Wagner
@@ -82,7 +82,7 @@ Data needs to be shared securely and with appropriate access controls does not t
 
 Sharing data usually means that one or more databases are ultimately involved, even if they reside inside a vendor’s SaaS product. But here the emphasis is on the _sharing_, and that means that — almost by construction — a single database owned by a single entity is not the right solution. Keeping different databases owned by different companies synchronized is a tall order, especially when applications that don’t even expose their storage level directly are part of the mix.
 
-### Approaches to Real-time Data Sharing
+### Approaches to real-time data sharing
 
 When it comes to real-time data sharing, the key requirements that drive the solution are the number and type of data source and sinks being connected. 
 
@@ -126,7 +126,7 @@ Platforms like [Vendia](www.vendia.net) offer a simple, SaaS-based solution for 
 
 Selecting any platform provider, including one that assists with a mission-critical outcome like real-time data sharing, is a significant decision. The next section expands on the requirements for a complete data sharing solution, and establishes vendor selection criteria that can be used in the process of evaluating alternatives.
 
-### Platform and Vendor Requirements for Real-time Data Sharing Solutions
+### Platform and vendor requirements for real-time data sharing solutions
 
 Sharing both operational and analytical data is a critical element of IT technology stacks. But how do you know what to look for in a platform? First, there are some key foundational questions to ask:
 
@@ -159,7 +159,7 @@ Their “single box deployment” models mean they are slow and have limited thr
 
 That’s a huge burden to an already strapped IT team, and only adds to the burden of infrastructure management and staffing load. By contrast, Vendia’s data sharing solution is provided as a SaaS service, with zero infrastructure footprint and “ilities” such as scaling, fault tolerance, monitoring, infrastructure maintenance, etc. owned by the service provider, rather than left as an exercise to the IT customer.
 
-### Evaluating a Real-Time Data Sharing Solution
+### Evaluating a real-time data sharing solution
 
 Given the organizational criticality, broad scope, and platform-centric nature of real-time data meshes in a modern IT environment, it is especially important to evaluate and select vendors capable of delivering on the broad set of needs they require. 
 
