@@ -1,11 +1,11 @@
 ---
-title: 'APIs Don’t Have to be So Difficult'
+title: 'APIs don’t have to be so difficult'
 description: 'APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs.'
 date: '2022-05-27'
 authors:
   - Tim Wagner
 ---
-### Overcome the limitations of APIs and build a better future.
+### Overcome the limitations of APIs and build a better future
 [APIs](https://www.vendia.net/blog/what-are-apis) are the central building blocks of services, especially modern, cloud-based designs. They [encapsulate complexity](https://en.wikipedia.org/wiki/API#:~:text=trends%20data.%5B36%5D-,Design,-%5Bedit%5D), can provide both operational and implementation isolation among different teams , and serve as the literal embodiment of [domain driven designs](https://martinfowler.com/bliki/DomainDrivenDesign.html). Proficiency in developing, deploying, and consuming APIs is one of the hallmarks of a healthy, effective IT organization; for many modern SaaS and financial service companies, such as Twilio and Stripe, APIs literally _are_ the business.
 
 Building great APIs _should_ be simple: All major cloud providers offer highly scalable, fully managed services that remove virtually all infrastructure challenges from both API owners and consumers. [Google Apigee](https://cloud.google.com/apigee), [Amazon API Gateway](https://aws.amazon.com/api-gateway/), and [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) handle the challenges of hosting, deploying, scaling, and making API infrastructure fault tolerant. They also provide built-in monitoring, logging, and a variety of authentication and management features. In addition, a well-known standard (OpenAPI, formerly known as “Swagger”) and a host of free tools make it easy for any developer to generate APIs from declarative descriptions.
@@ -27,7 +27,7 @@ Why does this matter so much? Because most APIs exist _precisely to share data_.
 While APIs can be used for other purposes, such as to control an IoT device, the bulk of APIs calls made by companies are for the purpose of sharing data between two or more systems. Outside of rare circumstances, such as when the data being shared will never change, that means that clients can never be sure they have the “real” version. And since that data is often critical to the functioning of a business – financial transactions for a bank, tickets for an airline, supply chain status for a manufacturer – having that data be inconsistent, incomplete, or out of date between the various parties results in serious business problems.
 
 
-# It’s a Data Consistency Problem
+# It’s a data consistency problem
 
 To understand why problems with APIs are fundamentally problems with data, let’s expand the field of view to include a little more of the systems that surround the API proper.
 
@@ -69,14 +69,14 @@ And since the producer continues to generate new data (and typically also alters
 _Figure 3: The “Polling Conundrum” – Polling too quickly hits operational limits and can lock clients out or even crash the infrastructure on which it runs. Polling too slowly allows information to drift even further out of date (and makes clients even less consistent with one another)._
 
 
-# Alternative Architectures
+# Alternative architectures
 
 The realization that data-centric APIs are an attempt to create a “distributed database without the actual database” is hardly new. Almost a century ago, computer scientists realized that keeping multiple copies of any kind of data consistent required _transactions_, and early versions of databases were born. 
 
 With all the sophisticated progress in database technology since, why can’t we “just do that” to make the problem go away? Let’s take a look at some of the options that exist.
 
 
-## Multi-region Databases
+## Multi-region databases
 
 Some subsets of data-centric sharing relationships have easy, effective solutions to the inherent inconsistencies of APIs. The most obvious example are cloud databases that can replicate their data without the need for application-level involvement.  \
 
@@ -84,7 +84,7 @@ Some subsets of data-centric sharing relationships have easy, effective solution
 This approach is simple (usually requiring nothing more than a configuration setting), but only applies when the producer and consumer of the data share the same company, don’t need account isolation, don’t need to cross public clouds, etc. Often there is also a loss of semantic integrity as well when moving from single to multiple regions – for example, Amazon DynamoDB reduces the semantics of cross-region data from “strongly consistent” to “eventually consistent”, and SQL databases often induce replication delays in multi-region replicas.
 
 
-## Event-based Architectures
+## Event-based architectures
 
 In an attempt to solve the “polling conundrum”, cloud providers have started offering event-based architectures as an alternative. The underlying problem with polling is that the consumer isn’t in a position to know _when_ the data inside the producer has changed, so it inevitably ends up over- or under-polling as a result. In other words, the consumer is trying to do two things at once:
 
@@ -119,7 +119,7 @@ Other issues that can impact event-based architectures:
 These problems can often be overcome within the confines of a single cloud, single organization, and single application, making event-based designs a compelling alternative to APIs _within_ an organization. However, when large amounts of data needs to cross cloud or company boundaries, or when the parties involved have differing IT architectures, event-based architectures become increasingly difficult to achieve. Unfortunately, only a very tiny percentage of IT systems today enable ordered, consistent, guaranteed delivery of events between organizations or across different clouds, causing companies to fall back to APIs, with all their inherent data consistency issues in most cases.
 
 
-## Real-time Streaming Architectures
+## Real-time streaming architectures
 
 One particularly important subset of event-based systems are the _real-time streaming architectures_, such as the various flavors of Kafka and cloud services such as Amazon’s Kinesis.[^1] Event-based architectures are often “bolt-ons” – for example, the event system shown in Figure 4 was added to S3 when AWS introduced Lambda, many years after S3 had been in market. As a result, it lacks sophisticated data capabilities – not just streaming APIs per se, but batching, ability to “time travel” over buffered data, support for multiple clients reading from the same stream, etc.
 
@@ -138,7 +138,7 @@ Ironically, that’s also where they’re weak: Streams and events share a “fa
 Real-time streaming solutions share the same problems as centralized databases: They work when the producer(s) and consumer(s) are all owned and operated by the same entity, run on the same cloud, and live in the same (or at least closely related) accounts. Once it becomes necessary to break those limiting assumptions, they stop being viable solutions.
 
 
-## Legacy Blockchains
+## Legacy blockchains
 
 Blockchains were supposed to be the answer to the problem of building modern data sharing architectures: A consistent and immutable ledger transparently, securely, and unimpeachably recreated in multiple, separately owned databases operated by legally unrelated (and mutually distrusting) parties. So, what happened?
 
@@ -148,7 +148,7 @@ Cost and complexity are also considerations: From the need to learn novel progra
 
 ![Figure 5](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..170737612-1621e9c2-e8c8-4095-b1ca-d03851313b4c.jpg)
 
-## Summary of Data Sharing Alternatives
+## Summary of data sharing alternatives
 
 None of these approaches provide a general purpose data sharing solution capable of modeling data accurately while bridging company and cloud divides and scaling to enterprise-grade levels of throughput. Figure 5 summarizes their respective pros and cons. 
 
