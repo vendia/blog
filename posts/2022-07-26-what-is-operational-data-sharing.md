@@ -2,6 +2,8 @@
 title: 'What is operational data sharing?'
 description: 'Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.'
 draft: false
+categories:
+- concepts
 date: '2022-07-26'
 authors:
   - Vikrant Kahlir
@@ -82,7 +84,7 @@ Organizations in people transportation have improved their services and effectiv
 Opaque [supply chains](https://www.vendia.net/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) are another big area full of issues due to a lack of operational data sharing amongst partners. If cargo ships become stuck in the Suez Canal, factories in Guangzhou close due to stay-at-home orders, or transport routes are disrupted by war, it is difficult for organizations to determine how much the total worth of goods is stuck in transit or how the delays in parts and equipment supplies will impact production. The shortage of parts and equipment leads to a flow of counterfeit in the market to fulfill demand. Now you have a vicious circle that gets worse every day. This is not only a revenue loss, but it tarnishes the image of your brand. Organizations invested in data sharing prior to pandemic have fared better during pandemic supply chain crises than others that haven't. The pandemic tested the adaptability of an organization's supply chain. Organizations with good visibility into the end-to-end supply chain can quickly adapt and proactively react to global and local crises as soon as signals become visible.
 
 
-## Operational vs analytical data sharing
+## Operational vs. analytical data sharing
 
 The difference between operational and analytical data sharing is the difference between "observe your business" and "run your business." Operational data is about operational decisions on the day of execution. Analytical data is about near-term and long-term planning and can only be enhanced when paired with operational data. The operational data sharing not only improves the quality of day to day decisions but also informs planning and strategy in a qualitative way. 
 
@@ -141,7 +143,7 @@ This is where [Vendia](https://www.vendia.net/blog/gartner-cool-vendor) can help
 2. Eliminate inefficiencies for which you created workarounds
 3. Form partnerships that no longer make you feel anxious due to trust issues 
 
-You can use [Vendia](vendia.net/product) to build the following architectural patterns for operational data sharing:
+You can use [Vendia](https://www.vendia.net/product) to build the following architectural patterns for operational data sharing:
 
 #### Ledgered data hub
 
