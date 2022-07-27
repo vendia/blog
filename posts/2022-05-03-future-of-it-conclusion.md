@@ -1,16 +1,16 @@
 ---
-title: '3 Body Problem: Looking Ahead'
+title: 'The three body problem: Looking ahead'
 description: 'In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do.'
 date: '2022-05-03'
 authors:
   - Tim Wagner
 ---
 
-# Final thoughts: Adoption Guidelines and Conclusions
+# Final thoughts: Adoption guidelines and conclusions
 
 Over the next 20 years we will see all three technology categories – centralized solutions, public blockchains, and private/permissioned chains – serve as the foundation of mission-critical applications. Existing approach today, including public APIs for partners, will be upgraded through the use of private blockchain technologies, and real-time “data meshes” that span companies and clouds will become the norm, rather than a novelty. Organizations will leverage all three of these technology categories together to deliver best-of-breed IT outcomes.
 
-### Adoption Caveats
+### Adoption caveats
 
 The benefit of hindsight exposes common pitfalls many organizations fall into when adopting technology. Avoid the temptation to interpret media attention and “hype curve” trends incorrectly:
 
