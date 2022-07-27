@@ -1,7 +1,6 @@
 ---
 title: 'What is operational data sharing?'
 description: 'Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.'
-draft: false
 categories:
 - concepts
 date: '2022-07-26'
