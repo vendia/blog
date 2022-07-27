@@ -1,19 +1,19 @@
 ---
-title: 'Greenchains: Can Blockchains Save the Environment?'
-description: 'Many current blockchains solutions have a large carbon footprint - but next-gen blockchains have less carbon emissions - and can help in sustianability tracking'
+title: 'Greenchains: Can blockchains save the environment?'
+description: 'Many current blockchains solutions have a large carbon footprint, but next-gen blockchains have fewer carbon emissions—and can help in sustianability tracking'
 date: '2022-05-13'
 authors:
   - Tim Wagner
 ---
-# Greenchains: Can Blockchains Save the Environment?
+# Greenchains: Can blockchains save the environment?
 
-## Early blockchains had devastating environmental impacts. But could newer approaches actually help us fix the dirty little secret of IT's carbon footprint?
+Early blockchains had devastating environmental impacts. But could newer approaches actually help us fix the dirty little secret of IT's carbon footprint?
 
-**Part 1: Why popular blockchain technology have large carbon footprints** ([Read now](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints.com))
+**[Part 1: Why popular blockchain technology have large carbon footprints](https://vendia.net/blog/why-blockchains-have-large-carbon-footprints)**
 
 We take a look at popular blockchain technologies like Ethereum and private blockchains like Hyperledger Fabric’s architecture and distributed nature consume tons of energy and have large carbon footprints.
 
-**Part 2: Vendia’s Greenchain**  (coming soon!)
+**[Part 2: Vendia’s greenchain](https://https://www.vendia.net/blog/vendia-green-blockchain)**
 
 Vendia leverages serverless scalability (and scaling to zero) to reduce a private chains carbon footprint. Vendia’s solution also enables organizations to share files, even large files, without eating up tons of energy.  
 
@@ -27,8 +27,7 @@ More modern approaches, such as [Vendia’s blockchain](http://www.vendia.net), 
 
  Enterprises and companies of all sizes can benefit from both the speed of delivery and the improved cost and carbon footprint outcomes derived from SaaS-delivered blockchain capability using these newer approaches, allowing them to build cost effective cross-cloud data fabric, partner data sharing, and operational data service solutions while simultaneously _improving_ their carbon footprint stance.
  
- ### What's next
+ ### What's next?
  If you're interested in emerging blockchain technologies, sustainability, and the future of enterprise technologies be sure to sign up for our [newsletter](https://www.vendia.net/blog) or follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/). 
- 
- Stay tuned for Part 1 next week!
+
  
