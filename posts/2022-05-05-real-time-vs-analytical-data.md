@@ -1,6 +1,6 @@
 ---
-title: 'Types of Data: Real-time Data vs. Analytical Data'
-description: 'What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data'
+title: 'Types of data: Real-time data vs. analytical data'
+description: 'What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data'?
 date: '2022-05-05'
 authors:
   - Caroll Casbeer
