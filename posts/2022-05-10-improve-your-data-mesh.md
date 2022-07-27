@@ -1,5 +1,5 @@
 ---
-title: 'Improve Your Data Mesh with Real-Time Data Sharing'
+title: 'Improve your data mesh with real-time data sharing'
 description: 'Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share'
 date: '2022-05-10'
 categories:
@@ -25,7 +25,7 @@ A [Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html) reth
 * Restructures enterprise data platform architectures around _domains_, following guidance from DDD
 * Makes data products a top-priority output from each team and each domain, allowing other domains and other teams to use those data products as they see fit
 
-### Problems a Data Mesh Addresses
+### Problems a data mesh addresses
 
 The Data Mesh concept was created to directly address [many of the challenges](https://martinfowler.com/articles/data-monolith-to-mesh.html#ArchitecturalFailureModes) organizations faced after modernizing their enterprise data architecture around a Data Lake (or some variant thereof).  These challenges included:
 
@@ -44,31 +44,31 @@ You will likely see:
 
 Not every company experiences the challenges above to the same degree.  Likewise, not every company will see the same value for their investment in creating a decentralized data mesh.  In either case, there are persistent enterprise data challenges that are not intended to be addressed by a data mesh.  Solving for those persistent challenges, with an eye toward integrating with and enabling a data mesh in turn, is where we'll focus next.
 
-## Persistent Data Challenges, Even with a Data Mesh
+## Persistent data challenges, even with a data mesh
 
 Let's assume adopting a data mesh architecture solves all the challenges of its centralized, monolithic predecessor (I'm optimistic).  There are still some additional enterprise data challenges that a.) will make creating an ideal data mesh more challenging, time consuming, and expensive b.) can be solved, and solved well, using the same fundamentals that support a decentralized data mesh architecture.
 
-### Problems a Data Mesh Will Not Solve
+### Problems a data mesh will not Sslve
 
 The problems outlined in this section are not deficiencies of a data mesh architecture.  Instead, they demonstrate that a data mesh, with a focus on the analytical data plane of enterprise data architecture, places some additional expectations and responsibilities on the operational data plane.  Specifically, the [real-time operational source systems](https://www.vendia.net/blog/what-is-real-time-data-sharing) - and the real-time systems they interact with across organizational boundaries - should be constructed in such a way that makes integration with a data mesh simple, easy, and repeatable (thanks to common architectural patterns).
 
 
-#### Engaging with Real-Time Partner Data
+#### Engaging with real-time partner aata
 
 While quite a bit has been written about data meshes, much less is written about extending the boundaries of the mesh _outside_ of a company's four walls.  There's nothing inherent to a decentralized data mesh that would prevent it from spanning organizational boundaries, but doing so places some new requirements on operational systems.  The value of producing data for partners and consuming  data from partners is [not a new or novel idea](https://hbr.org/1990/09/information-partnerships-shared-data-shared-scale).  The continued challenge is to do [so effectively and in real-time](https://www.vendia.net/blog/smart-apis), as if the data really was "shared" among partners and not a (batched) afterthought.
 
 
-#### Improving Control and Trust Across Boundaries
+#### Improving control and trust across boundaries
 
 Trust in data is equally important within and across organizational boundaries.  [Access controls](https://www.vendia.net/blog/multi-party-data-sharing-with-control) must be in place to ensure continued partner participation and ensure unauthorized organizations and individuals are prevented from access they should not have.  While access control has a foundational role in building trust within and across organizations, another important element is data quality.  Partners gain trust in producing data for and consuming data from other partners when they have a shared, real-time understanding of syntax and semantics from the start.
 
 
-#### Maintaining Lineage Inside and Outside a Company's Four Walls
+#### Maintaining lineage nside and outside a company's four walls
 
 Another ingredient in the data trust equation, and one that ideally spans organizational boundaries, is data lineage.  While a shared source of (current) truth is essential for real-time use cases - think autonomous, closed loop transactional workflows - having access to a full record of all transactions leading up to the current source truth can be extremely valuable.  History provides context, context provides deeper understanding, and having that understanding in real-time is often critical to dynamic, autonomous decision making.
 
 
-## Improving Your Next-Gen Data Mesh with Real-Time Data Sharing
+## Improving your next-gen data mesh with real-time data sharing
 
 To increase the value of a data mesh architecture and to address the persistent enterprise data architecture challenges outlined in the last section - challenges a data mesh was not intended to address - an additional capability is needed: a multi-party real-time data sharing solution.  A real-time data sharing solution, like [Vendia Share](https://www.vendia.net/product), fits squarely in the "operational systems" space, just to the left of [source oriented domain data](https://martinfowler.com/articles/data-monolith-to-mesh.html#SourceOrientedDomainData).  Further, and to achieve real-time data sharing with multiple (writing) partners, to ensure trust in data access and data quality, and to provide transactional lineage across organizational boundaries, that real-time data sharing solution must inherently leverage a performant distributed ledger (e.g. [an "enterprise" distributed ledger](https://arxiv.org/pdf/2110.09221v1.pdf)).
 
@@ -93,7 +93,7 @@ While I generally agree with Dehghani that, "the actual underlying storage [of s
 
 For now, and to make the content a bit more tangible, let's explore a real-world use case that hits close to home.
 
-### An Example - Homeowner Payment Assistance
+### An Example: Homeowner payment assistance
 
 This example explores how an enterprise distributed ledger combined with a data mesh allows a loan servicer to more effectively help a homeowner struggling to make monthly mortgage payments.
 
@@ -149,7 +149,7 @@ The approach above has many benefits to the parties involved.  And these benefit
     <figcaption ><b>Figure 2</b> - <i>Taking Real-Time Actions Based on Multi-Party, Cross-Domain, Real-Time Data Inputs</i></figcaption>
 </figure>
 
-## Closing Thoughts
+## Closing thoughts
 
 A data mesh architecture, heavily influenced by DDD, addresses many of the common challenges organizations face when their enterprise data architecture monoliths begin to impede team autonomy, technology experimentation, and the ability to quickly deliver new data offerings.  The end result is fully aligned with DDD:
 
