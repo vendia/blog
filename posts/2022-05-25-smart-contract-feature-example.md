@@ -1,5 +1,5 @@
 ---
-title: 'Applying Vendia Share Smart Contracts'
+title: 'Applying Vendia Share smart contracts'
 description: 'Examples of real-time data validation, computation, and enrichment'
 date: '2022-05-25'
 categories:
@@ -27,7 +27,7 @@ In a recently published [smart contracts feature example](https://github.com/ven
 
 In this post, we'll look at the data validation smart contract from the feature example.  See the feature example itself for a complete step-by-step guide through all three smart contracts.
 
-## Example - Data Validation Smart Contract
+## Example: Data validation smart contract
 
 The feature example explores a Uni with two participants: a Lender and a Servicer, working together to improve the home mortgage process.  The Lender creates new home loans on the Uni.  The Servicer manages a portfolio of home loans on the Uni. Both participants make use of smart contracts to automate their interactions and increase their operational transparency.  
 
@@ -44,7 +44,7 @@ The high-level interaction process looks like this:
 
 While the validation logic used in this example is simple, the power of implementing logic that automatically affects data access is powerful. Dynamic data access updates allow a data owners to load and validate data prior to sharing with other participants, which in turn allows all Uni participants to increase productivity and eliminate time spent viewing or processing invalid or outdated data.
 
-### Defining the Validation Logic
+### Defining the validation logic
 
 The [schema](https://github.com/vendia/examples/blob/main/features/share/smart-contracts/uni_configuration/schema.json) for the Uni provides basic data validation based on the schema definition.  For example, `loanIdentifier` must be a 16-digit value, `originationDate` must be a valid date, and `originalInterestRate` must be a number between 0 and 100.  Vendia Share's GraphQL API implementation will reject inputs that are invalid with respect to the Uni's schema.  While basic data validations are necessary, they do not address the validation of _business rules_ that cannot be expressed through a pre-defined format or regular expression.
 
@@ -58,7 +58,7 @@ Let's assume the Lender wants to perform two additional validations on every new
 Neither of these in-depth validations are feasible through the schema definition itself.  Both require dynamic validation using the data provided as part of a new Loan.
 
 
-### Elements of a Smart Contract
+### Elements of a smart contract
 
 The validation smart contract takes three important pieces of information as part of its definition: an `inputQuery`, an `outputMutation`, and the AWS Lambda function that executes the validation logic defined in the previous section.
 
@@ -181,7 +181,7 @@ mutation ValidationOutputMutation($id: ID!,  $validationStatus: Self_Loan_valida
 
 For more information on how to create a data validation smart contract, please refer to the step-by-step guide in the [feature example](https://github.com/vendia/examples/tree/main/features/share/smart-contracts).
 
-### Invoking a Smart Contract
+### Invoking a smart contract
 
 The data validation smart contract can be invoked programmatically or manually using the Vendia Share web application's Smart Contract view.
 
