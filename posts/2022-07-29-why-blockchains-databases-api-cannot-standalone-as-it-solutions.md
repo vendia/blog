@@ -138,7 +138,7 @@ Databases have been around for half a century, and have accrued a wealth of know
 
 It seems we’ve reached an impasse: We need the benefits of cloud databases AND managed APIs AND modern blockchains, but alone, no one of these technologies can solve the underlying challenges that companies face today (see Table 1). 
 
-**<p align="center">TABLE 1: Each bring something to the table, but no one technology can solve IT’s needs on its own.</p>**
+**<p align="center">TABLE 1: Each technology offers value, but no one technology can solve IT’s needs on its own.</p>**
 
 
 <table>
