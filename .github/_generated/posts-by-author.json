@@ -3,7 +3,7 @@
     {
       "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
       "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive.",
+      "description": "Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive",
       "date": "2022-07-29",
       "categories": [
         "architecture",
