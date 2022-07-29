@@ -1,6 +1,6 @@
 ---
 title: 'Why blockchains, databases, and APIs can’t cut it on their own'
-description: 'Why solutions for sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive.'
+description: 'Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive.'
 date: '2022-07-29'
 categories:
 - architecture
