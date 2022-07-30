@@ -206,9 +206,10 @@ None of these approaches in isolation provide a complete data sharing solution c
 Other approaches, such as real-time streaming (Kafka, Cassandra, Amazon Kinesis) solve elements of the challenge, particularly for single owner-solutions. But none of the technologies have been able to expand beyond their narrow boundaries, limiting their ability to help teams create broadly suitable solutions (see Table 2).
 
 **<p align="center">TABLE 2: Compare and contrast the capabilities of each data sharing approach</p>**
+
 <table>
   <tr>
-   <td><strong>>Data sharing approach</strong>
+   <td><strong>Data sharing approach</strong>
    </td>
    <td><strong>Keeps data consistent?</strong>
    </td>
