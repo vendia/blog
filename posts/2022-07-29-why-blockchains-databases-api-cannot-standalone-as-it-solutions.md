@@ -209,7 +209,7 @@ Other approaches, such as real-time streaming (Kafka, Cassandra, Amazon Kinesis)
 
 <table>
   <tr>
-   <td><strong>>Data sharing approach</strong>
+   <td><strong>Data sharing approach</strong>
    </td>
    <td><strong>Keeps data consistent?</strong>
    </td>
