@@ -87,7 +87,7 @@ Opaque [supply chains](https://www.vendia.net/blog/3-core-use-cases-for-vendia-s
 
 The difference between operational and analytical data sharing is the difference between "observe your business" and "run your business." Operational data is about operational decisions on the day of execution. Analytical data is about near-term and long-term planning and can only be enhanced when paired with operational data. The operational data sharing not only improves the quality of day to day decisions but also informs planning and strategy in a qualitative way. 
 
-Differences between operational and analytical data sharing
+### Differences between operational and analytical data sharing
 
 With operational data sharing, you create visibility and transparency that allows you to factor data into your tactical decision-making to run your business daily, hourly, or weekly. The data is captured and made available to relevant stakeholders consistently (as soon as it happens).
 
