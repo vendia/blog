@@ -1,5 +1,5 @@
 ---
-title: 'Ask the expert: Dr. Tim Wagner with the breakdown on why APIs break down and how to fix your data inconsistencies with smart APIs'
+title: 'Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs'
 description: 'With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.'
 date: '2022-07-28'
 categories:
@@ -9,7 +9,7 @@ authors:
   - Tim Wagner
 ---
 
-# Ask the expert: Dr. Tim Wagner with the breakdown on why APIs break down and how to fix your data inconsistencies with smart APIs
+# Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs
 
 With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Line of business owners, enterprise IT leaders, and developers cannot skip or delay the hard job of ensuring that their APIs are secure, compliant, and working in real time—especially when they carry mission-critical business data that must be correct across companies, clouds, regions, and tech stacks.
 
