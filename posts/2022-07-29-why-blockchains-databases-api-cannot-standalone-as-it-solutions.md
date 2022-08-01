@@ -34,8 +34,7 @@ Sharing data with partners (e.g., suppliers, logistics, and manufacturing as wel
 
 Modeling use cases and business-specific data, whether it’s a formal model-driven development program or an informal approach, requires that developers “piece together” a wide variety of technologies and capabilities, from databases to file storage solutions to business logic and workflow hosting platforms, to hosted API solutions. Before being production-ready for either its owner or the owner’s business partners to consume, each of these bespoke solutions must be vetted for security, scalability, availability, compliance, and more. On top of that, the solution must be monitored, operated, upgraded, and secured in perpetuity…including supporting the evolution of the data model as the business needs or business partnerships change. 
 
-
-    The costs of monitoring, operating, upgrading, and securing DIY solutions, especially for point-to-point APIs between partners, are staggering.
+The costs of monitoring, operating, upgrading, and securing DIY solutions, especially for point-to-point APIs between partners, are staggering.
 
 Companies have tried various approaches to lower these costs, reduce risks, and improve time to market for IT projects. Creating solutions that can share real-time data across applications, companies, clouds, geographies, and IT stacks is both difficult and costly and, at the same time, incredibly repetitive.
 
@@ -65,7 +64,8 @@ The API would need to start
 
 
 * Modeling the data schema
-* Modeling the parties and their relationships (including access controls)dModeling the state of data replication among the parties to create transactional (“ACID”) consistency
+* Modeling the parties and their relationships (including access controls)
+* Modeling the state of data replication among the parties to create transactional (“ACID”) consistency
 
 If your reaction is, “But that sounds like a database or a blockchain!”, you’re not wrong. 
 
@@ -80,8 +80,7 @@ Unfortunately, modern cloud databases are also designed to serve exactly _one_ c
 
 That makes solving some of the most important challenges a business faces incredibly difficult e.g., avoiding cloud lock-in and sharing data with departments or partners who may be on a different cloud). Even though the data is stored accurately, getting it consistently, correctly, and completely replicated into the database of some other party is a huge lift—one that exacts a vast amount of time, risk, and cost on development teams. 
 
-
-    The irony is that those costs and risks are also highly repetitive. 
+The irony is that those costs and risks are also highly repetitive. 
 
 Sharing data about a car chassis, a bottle of ketchup, or an airline loyalty purchase is essentially identical at the infrastructure level.
 
@@ -103,8 +102,7 @@ Let’s see how blockchains fare on their own.
 
 If databases are the granddaddy to APIs and blockchains, also known as distributed ledgers, are the grandbaby. Blockchains are a relatively recent technology introduction, and they achieve an interesting outcome:
 
-
-    Blockchains create a consistent data representation among multiple parties without any one party needing to be in control. 
+Blockchains create a consistent data representation among multiple parties without any one party needing to be in control. 
 
 Most blockchains, by their nature, also offer a built-in ledger (making application logs unnecessary) and the ability to “time travel” (retrieving historical versions of the stored data objects).
 
@@ -130,8 +128,7 @@ Blockchain architects confused the difference between _decentralization_ and _fa
 
 Databases have been around for half a century, and have accrued a wealth of knowledge about what applications and users require. Unfortunately, blockchain inventors ignored all those lessons, and “skipped the basics”, including data models, data model evolution, primary keys, joins, flexible query languages, ACID transactions, and more. If that sounds like would-be enterprise adopters of blockchain technology inevitably find themselves saddled with the challenge of trying to recreate database semantics and customer-centric data APIs on top of it…you’re not wrong.
 
-
-    Multi-party consensus is a powerful technology, but ultimately, it’s only a building block…just like databases and APIs.
+Multi-party consensus is a powerful technology, but ultimately, it’s only a building block…just like databases and APIs.
 
 
 # Databases, APIs, and blockchain are necessary…but not sufficient as standalone solutions
@@ -273,8 +270,7 @@ Other approaches, such as real-time streaming (Kafka, Cassandra, Amazon Kinesis)
 
 Looking at the gaps in these individual technologies, a set of requirements naturally emerges that defines what a powerful, easy-to-use data sharing platform needs to be enterprise-grade. Each of these technologies is necessary, but not sufficient on its own. Vendia combines all three, reimagined as a single, powerful, cloud-native platform.
 
-
-    Together, these technologies can do what no one of them is capable of in isolation: Make the job of building data-sharing platforms and applications fast, simple, and secure by design.
+Together, these technologies can do what no one of them is capable of in isolation: Make the job of building data-sharing platforms and applications fast, simple, and secure by design.
 
 Next week, we’ll explore why that’s true and how customers can experience lower costs, faster time to market, and achieve powerful outcomes, like multi-cloud, without the need for complex or time-consuming coding. Look for more in next week’s post, Venn Diagramming Vendia.
 
