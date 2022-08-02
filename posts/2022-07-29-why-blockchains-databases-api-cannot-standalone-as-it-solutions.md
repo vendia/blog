@@ -8,7 +8,8 @@ categories:
 authors:
   - Tim Wagner
 ---
-# Why blockchains, databases, and APIs can’t cut it on their own
+
+# Why blockchains, databases, and APIs can’t cut it on their own!
 
 Enterprises and developers have been on a decades-long quest to simplify the challenge (and lower the cost and risk) associated with building IT solutions. In recent years, IT heavy lifts have grown even heavier: lift is driven by the growth in mobile and web apps on the front end and the growth of APIs and automation on the back end. Combined, these trend lines have had two major impacts:
 
