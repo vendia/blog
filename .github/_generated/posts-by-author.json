@@ -1,4 +1,19 @@
 {
+  "francine-klein": [
+    {
+      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
+      "title": "Understanding real-time data lakes",
+      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
+      "date": "2022-08-03",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    }
+  ],
   "tim-wagner": [
     {
       "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",

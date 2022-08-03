@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Understanding real-time data lakes](https://vendia.net/blog/understanding-real-time-data-lakes) <br/> Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges by Francine Klein | 2022-08-03 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-08-03-understanding-real-time-data-lakes.md)
 | [Why blockchains, databases, and APIs can’t cut it on their own](https://vendia.net/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) <br/> Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive by Tim Wagner | 2022-07-29 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md)
 | [Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs](https://vendia.net/blog/ask-the-expert-apis) <br/> With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner by Tim Wagner | 2022-07-28 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-07-28-ask-the-expert-apis.md)
 | [What is operational data sharing?](https://vendia.net/blog/what-is-operational-data-sharing) <br/> Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data by Vikrant Kahlir | 2022-07-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-07-26-what-is-operational-data-sharing.md)
@@ -182,14 +183,21 @@ Welcome to the Vendia blog repo!
       <a href="https://twitter.com/DavidWells"><sup><sub>David Wells</sub></sup></a>
   </td>
   <td align="center">
+      <a href="https://www.vendia.net/blog/author/francine-klein">
+        <img src="https://avatars.githubusercontent.com/u/105127677?s=400&u=e2ad96f3458ea05767b15d8372ada969c3a16ece&v=4" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://github.com/francine-vendia"><sup><sub>Francine Klein</sub></sup></a>
+  </td>
+</tr>
+<tr>
+  <td align="center">
       <a href="https://www.vendia.net/blog/author/gavin-yue">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/gavinyue-vendia"><sup><sub>Gavin Yue</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/glenn-dierkes">
         <img src="https://avatars0.githubusercontent.com/u/512350?s=400" width="76px;" alt=""/>
@@ -239,6 +247,8 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/shruthialways"><sup><sub>Shruthi Rao</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/tim-wagner">
         <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="76px;" alt=""/>
@@ -246,8 +256,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/timallenwagner"><sup><sub>Tim Wagner</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/vikrant-kahlir">
         <img src="https://avatars.githubusercontent.com/u/96793170" width="76px;" alt=""/>
