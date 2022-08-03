@@ -180,7 +180,8 @@ A data lake is a widely accepted staple in any complete data architecture. Any i
 * Financial service loan servicing with recurring payments and mortgage file uploads 
 * Patient medical records with physician notes, lab images, and prescriptions 
 
-All these use cases leverage semi-structured data that would rely on data lake technologies. All of which can be stored, and shared real-time, on [Vendia](vendia.net/product).
+All these use cases leverage semi-structured data that would rely on data lake technologies. All of which can be stored, and shared real-time, on [Vendia](https://www.vendia.net/product).
+
 
 
 #### CRM data sharing
