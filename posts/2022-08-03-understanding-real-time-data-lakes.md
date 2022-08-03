@@ -218,7 +218,7 @@ When using Vendia for storing and sharing data, there are added benefits:
 
 
 
-* [Real-time](what-is-real-time-data-sharing) data availability across parties and clouds 
+* [Real-time](https://vendia.net/blog/what-is-real-time-data-sharing) data availability across parties and clouds 
 * Immutable ledger of history of changes over time
 
 
@@ -256,4 +256,4 @@ Read [how Vendia helped BMW](https://www.vendia.net/case-studies/bmw) accelerate
 
 If you have more to add on the topic of data lakes, or how you have personally leveraged Vendia, we’d love to hear from you in our [guest contributor program](https://www.vendia.net/blog/vendia-guest-contributor-program).
 
-To learn more about Vendia, check out our [use cases and](https://www.vendia.net/use-cases) try the [product](http://share.vendia.net/) out yourself.
+To learn more about Vendia, check out our [use cases](https://www.vendia.net/use-cases) and try the [product](http://share.vendia.net/) out yourself.
