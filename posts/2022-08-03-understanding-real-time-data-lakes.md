@@ -78,7 +78,8 @@ What type of data benefits from this flexibility?
 
 * Streaming data is particularly unknown at its genesis (e.g., data from IoT sensors, logs, web clicks, and other event-generating messages). The meat of the data is packed in nested JSON attributes, and the systems that produce this data do so continuously, in high volumes and velocity, i.e., emulating _streams._ This streaming data is fast, large, and undefined.
 
-Now, let’s not be those “_data lakes solve all your data problems and world hunger_” people. The very act of getting the data to your data lake still adds some unintended lag time if it’s not done with the right real-time data tools (hint: [Vendia](vendia.com/product)). Having a tool in your architecture that can consume this semi-structured data and make it available across all nodes of a cross-cloud architecture enables you to more effectively accomplish Step 1 of a data architecture, “Get your data.” Having that data also be distributed across nodes for use in a data lake, by partners, or by other SaaS applications, tears down the barriers in making it usable.
+Now, let’s not be those “_data lakes solve all your data problems and world hunger_” people. The very act of getting the data to your data lake still adds some unintended lag time if it’s not done with the right real-time data tools (hint: [Vendia](https://www.vendia.net/product)). Having a tool in your architecture that can consume this semi-structured data and make it available across all nodes of a cross-cloud architecture enables you to more effectively accomplish Step 1 of a data architecture, “Get your data.” Having that data also be distributed across nodes for use in a data lake, by partners, or by other SaaS applications, tears down the barriers in making it usable.
+
 
 Right…data must be usable. Let’s talk more about that…
 
