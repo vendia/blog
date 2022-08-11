@@ -27,6 +27,7 @@ An ideal real-time data-sharing solution _simultaneously_ needs to offer
 Vendia Share combines API, database, and blockchain technology—all three reimagined as a single, powerful, cloud-native platform. Together, as Vendia Share, they can achieve what no one single technology is capable of in isolation (see Figure 1). 
 
 **FIGURE 1: Vendia as a venn diagram, combining the best attributes of APIs, databases, and blockchains in a unified SaaS platform**
+![Venn Diagram of blockchains, APIs, and cloud databases with Vendia in the center.](https://user-images.githubusercontent.com/98492452/184256965-6771bcde-77d9-4f2c-8160-c9d9129f6a4d.png)
 
 
 
