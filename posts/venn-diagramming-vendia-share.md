@@ -56,6 +56,7 @@ Figure 2 illustrates Vendia’s architecture, combining the best of managed APIs
 Combining technologies can sometimes lead to systems that are more difficult to use, especially if their consumers are required to understand the complexity and details of all the constituent pieces. Fortunately, Vendia’s use of a data model compiler actually _reduces_ the set of things a developer needs to learn relative to using APIs, databases, or blockchains in isolation. This puts the complexity in these low-level technologies behind an abstraction barrier as “implementation details” and allows them to stay there (see Figure 3). 
 
 **FIGURE 3: The data model is used to generate the (1) data storage, (2) file storage, (3) APIs, (4) data-model aware consens and replication layer.**
+![An illustration showing how Vendia's data model is used to generate data storage, file storage, APIs, data-model aware consens and replication layer.)](https://user-images.githubusercontent.com/107442245/184258290-9823eeef-2e90-4c2b-af23-8b9697c4b820.png)
 
 As in a conventional database, the customer brings a data model (i.e.,, a description of what the “tables and columns” should look like). Vendia’s data model compiler turns this description into several outputs:
 
