@@ -125,6 +125,7 @@ After that, each party can load their data, _and then continue to add data over 
 These systems are all immediately production grade—they come with prebuilt scaling, fault tolerance, and both on-the-fly and at-rest encryption. Each company can set up custom authentication and authorization for as many systems as they like, even using additional nodes if they want their data to span multiple public clouds or regions for additional data backup or fault tolerance.
 
 **FIGURE 4: Acme Corp and CoolTech share records across time, accumulating a shared set of records and a real-time single source of truth.**
+![An illustration showing how multiple parties can share records across time, accumulating a shared set of records and a real-time single source of truth with Vendia Share.](https://user-images.githubusercontent.com/107442245/184258786-64238690-ebd9-4d95-9202-9a0856017bbd.png)
 
 
 
