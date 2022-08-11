@@ -108,8 +108,7 @@ To keep things simple, we’ll assume there are only two parties and that matchi
 
 The matching logic is simple: If these two fields are equal, then the remainder of the information in each of the matching records is shared with the other party, unless it’s marked as private. The tables below show the data fields for each of our two imagined companies, Acme Corp and CoolTech, Inc.
 
-
-**INSERT TABLES HERE**
+![A table showing the potential for matching logic when multiple parties are sharing data and data fields](https://user-images.githubusercontent.com/107442245/184259324-d2fe7122-cbd6-4063-a065-a009ba86344b.png)
 
 
 Note under the “Share” column that each of the parties has a field that they wish to remain private, even when a record is found to match (“_Last year sales”_ for Acme and “_Number of downloads”_ for CoolTech).
