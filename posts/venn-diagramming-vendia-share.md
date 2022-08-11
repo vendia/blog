@@ -46,6 +46,7 @@ Vendia Share makes building data-sharing platforms and applications fast, simple
 Figure 2 illustrates Vendia’s architecture, combining the best of managed APIs, scalable cloud databases, and enterprise-grade blockchain technology. An operationally and security isolated Node is created in the cloud for each party, including file and scalar data storage. Vendia transparently and automatically synchronizes the data among all nodes using patented blockchain and serverless algorithms. A powerful GraphQL API is generated automatically from (and permanently synchronized with) the application's data model, including real-time streaming support that keeps each node's applications consistent with one another. Despite its power, the "no code" approach is simple, with zero infrastructure footprint to manage.
 
 **FIGURE 2: Vendia's "three-legged stool" architecture**
+![Vendia Architecture drawing with nodes and consensus protocol.](https://user-images.githubusercontent.com/98492452/184257272-3aab2eb4-dcc6-41c1-a415-aa0d37338f69.png)
 
 
 
