@@ -116,7 +116,7 @@ Note under the “Share” column that each of the parties has a field that they
 
 For fields that don’t match, the resulting record needs to preserve the source of the original information (since the values could differ):
 
-**INSERT TABLES HERE**
+![A table showing the potential for matched customer information based on data fields and real-time data sharing permissions in a multi-party data alliance](https://user-images.githubusercontent.com/107442245/184259025-c5fb2a02-0543-4c3f-b202-d725097a1561.png)
 
 Creating this solution on [Vendia Share](https://vendia.net/product) requires uploading a data model, then creating a smart contract to perform the name comparisons and create the matching records. This can be accomplished easily, in under an hour, resulting in a fully scaled, production-grade deployment.
 
