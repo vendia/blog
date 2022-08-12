@@ -246,35 +246,20 @@
       ]
     }
   ],
-  "product": [
+  "architecture": [
     {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
+      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
+      "title": "Venn diagramming Vendia Share",
+      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
+      "date": "2022-08-04",
       "categories": [
-        "company",
+        "architecture",
         "product"
       ],
       "authors": [
-        "Anders Maul"
+        "Tim Wagner"
       ]
     },
-    {
-      "file": "/posts/2022-03-21-synchronous-mutations.md",
-      "title": "Announcing Synchronous Mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
-      "draft": false,
-      "date": "2022-03-21",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "David Brown"
-      ]
-    }
-  ],
-  "architecture": [
     {
       "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
       "title": "Understanding real-time data lakes",
@@ -407,6 +392,47 @@
       ],
       "authors": [
         "Tim Wagner"
+      ]
+    }
+  ],
+  "product": [
+    {
+      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
+      "title": "Venn diagramming Vendia Share",
+      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
+      "date": "2022-08-04",
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "title": "Q+A: How serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-21-synchronous-mutations.md",
+      "title": "Announcing Synchronous Mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
+      "draft": false,
+      "date": "2022-03-21",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "David Brown"
       ]
     }
   ],
