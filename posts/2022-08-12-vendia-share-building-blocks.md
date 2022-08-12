@@ -14,7 +14,7 @@ authors:
 
 **Blockchains** achieve an ordered, consistent representation of data that can span clouds, companies, geographies, and IT stack technology choices. But their high latency, lack of support for files, limited “one box” deployment model, and disregard for cloud integration make them one of the least successful enterprise adoption stories in the history of IT. In addition, to recreate the most basic features that a cloud database offers, their lack of a data model requires application developers to spend months or even years developing object-relational mapping (ORM) and other extensions (e.g., file support and transactions) on top of a blockchain’s primitive key/value store.
 
-**Vendia Share combines all three technologies. **We’re using the best of API, database, and blockchain technology to create a multi-party data sharing solution that resolves the limitations of each standalone technology. Starting from a customer-provided data model, Vendia Share generates
+**Vendia Share combines all three technologies.** We’re using the best of API, database, and blockchain technology to create a multi-party data sharing solution that resolves the limitations of each standalone technology. Starting from a customer-provided data model, Vendia Share generates
 
 
 
