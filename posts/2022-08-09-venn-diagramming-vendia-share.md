@@ -27,7 +27,7 @@ An ideal real-time data-sharing solution _simultaneously_ needs to offer
 Vendia Share combines API, database, and blockchain technology—all three reimagined as a single, powerful, cloud-native platform. Together, as Vendia Share, they can achieve what no one single technology is capable of in isolation (see Figure 1). 
 
 **FIGURE 1: Vendia as a venn diagram, combining the best attributes of APIs, databases, and blockchains in a unified SaaS platform**
-![Venn Diagram of blockchains, APIs, and cloud databases with Vendia in the center.](https://user-images.githubusercontent.com/98492452/184256965-6771bcde-77d9-4f2c-8160-c9d9129f6a4d.png)
+![Venn Diagram of blockchains, APIs, and cloud databases with Vendia in the center.](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..184256965-6771bcde-77d9-4f2c-8160-c9d9129f6a4d.png)
 
 
 
@@ -46,7 +46,7 @@ Vendia Share makes building data-sharing platforms and applications fast, simple
 Figure 2 illustrates Vendia’s architecture, combining the best of managed APIs, scalable cloud databases, and enterprise-grade blockchain technology. An operationally and security isolated Node is created in the cloud for each party, including file and scalar data storage. Vendia transparently and automatically synchronizes the data among all nodes using patented blockchain and serverless algorithms. A powerful GraphQL API is generated automatically from (and permanently synchronized with) the application's data model, including real-time streaming support that keeps each node's applications consistent with one another. Despite its power, the "no code" approach is simple, with zero infrastructure footprint to manage.
 
 **FIGURE 2: Vendia's "three-legged stool" architecture**
-![Vendia Architecture drawing with nodes and consensus protocol.](https://user-images.githubusercontent.com/98492452/184257272-3aab2eb4-dcc6-41c1-a415-aa0d37338f69.png)
+![Vendia Architecture drawing with nodes and consensus protocol.](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..184257272-3aab2eb4-dcc6-41c1-a415-aa0d37338f69.png)
 
 
 
@@ -56,7 +56,7 @@ Figure 2 illustrates Vendia’s architecture, combining the best of managed APIs
 Combining technologies can sometimes lead to systems that are more difficult to use, especially if their consumers are required to understand the complexity and details of all the constituent pieces. Fortunately, Vendia’s use of a data model compiler actually _reduces_ the set of things a developer needs to learn relative to using APIs, databases, or blockchains in isolation. This puts the complexity in these low-level technologies behind an abstraction barrier as “implementation details” and allows them to stay there (see Figure 3). 
 
 **FIGURE 3: The data model is used to generate the (1) data storage, (2) file storage, (3) APIs, (4) data-model aware consens and replication layer.**
-![An illustration showing how Vendia's data model is used to generate data storage, file storage, APIs, data-model aware consens and replication layer.)](https://user-images.githubusercontent.com/107442245/184258290-9823eeef-2e90-4c2b-af23-8b9697c4b820.png)
+![An illustration showing how Vendia's data model is used to generate data storage, file storage, APIs, data-model aware consens and replication layer.)](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..184258290-9823eeef-2e90-4c2b-af23-8b9697c4b820.png)
 
 As in a conventional database, the customer brings a data model (i.e.,, a description of what the “tables and columns” should look like). Vendia’s data model compiler turns this description into several outputs:
 
@@ -108,16 +108,16 @@ To keep things simple, we’ll assume there are only two parties and that matchi
 
 The matching logic is simple: If these two fields are equal, then the remainder of the information in each of the matching records is shared with the other party, unless it’s marked as private. The tables below show the data fields for each of our two imagined companies, Acme Corp and CoolTech, Inc.
 
-![A table showing the potential for matching logic when multiple parties are sharing data and data fields](https://user-images.githubusercontent.com/107442245/184259324-d2fe7122-cbd6-4063-a065-a009ba86344b.png)
+![A table showing the potential for matching logic when multiple parties are sharing data and data fields](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..184259324-d2fe7122-cbd6-4063-a065-a009ba86344b.png)
 
-![Another table showing the potential for matching data in data fields across companies and clouds](https://user-images.githubusercontent.com/107442245/184259573-8a14bd95-dc60-4671-af64-7320760830e0.png)
+![Another table showing the potential for matching data in data fields across companies and clouds](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..184259573-8a14bd95-dc60-4671-af64-7320760830e0.png)
 
 
 Note under the “Share” column that each of the parties has a field that they wish to remain private, even when a record is found to match (“_Last year sales”_ for Acme and “_Number of downloads”_ for CoolTech).
 
 For fields that don’t match, the resulting record needs to preserve the source of the original information (since the values could differ):
 
-![A table showing the potential for matched customer information based on data fields and real-time data sharing permissions in a multi-party data alliance](https://user-images.githubusercontent.com/107442245/184259025-c5fb2a02-0543-4c3f-b202-d725097a1561.png)
+![A table showing the potential for matched customer information based on data fields and real-time data sharing permissions in a multi-party data alliance](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..184259025-c5fb2a02-0543-4c3f-b202-d725097a1561.png)
 
 Creating this solution on [Vendia Share](https://vendia.net/product) requires uploading a data model, then creating a smart contract to perform the name comparisons and create the matching records. This can be accomplished easily, in under an hour, resulting in a fully scaled, production-grade deployment.
 
@@ -126,7 +126,7 @@ After that, each party can load their data, _and then continue to add data over 
 These systems are all immediately production grade—they come with prebuilt scaling, fault tolerance, and both on-the-fly and at-rest encryption. Each company can set up custom authentication and authorization for as many systems as they like, even using additional nodes if they want their data to span multiple public clouds or regions for additional data backup or fault tolerance.
 
 **FIGURE 4: Acme Corp and CoolTech share records across time, accumulating a shared set of records and a real-time single source of truth.**
-![An illustration showing how multiple parties can share records across time, accumulating a shared set of records and a real-time single source of truth with Vendia Share.](https://user-images.githubusercontent.com/107442245/184258786-64238690-ebd9-4d95-9202-9a0856017bbd.png)
+![An illustration showing how multiple parties can share records across time, accumulating a shared set of records and a real-time single source of truth with Vendia Share.](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..184258786-64238690-ebd9-4d95-9202-9a0856017bbd.png)
 
 
 
