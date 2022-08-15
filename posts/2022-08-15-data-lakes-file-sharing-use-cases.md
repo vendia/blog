@@ -5,7 +5,7 @@ date: '2022-08-15'
 categories:
 - product
 authors:
-  - FirstName LastName
+  - Tim Wagner
 ---
 Despite the many advances in databases over the years, both multimedia and data-centric files remain as one of IT architecture and business applications’ core building blocks. From spreadsheets encoded as CSVs to PDFs to analytics-optimized formats like Parquet and Iceberg, files in one form or another represent the largest percentage of storage across all company sizes, types, and sectors.
 
