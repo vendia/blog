@@ -1,6 +1,18 @@
 {
   "tim-wagner": [
     {
+      "file": "/posts/2022-08-15-data-lakes-file-sharing-use-cases.md",
+      "title": "Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing",
+      "description": "Understand the sharing scenarios for multimedia and data-centric files across organizations, regions, and clouds in healthcare, automotive, semicon, and construction",
+      "date": "2022-08-15",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-08-12-vendia-share-building-blocks.md",
       "title": "The basic building blocks of Vendia Share",
       "description": "How Vendia Share combines API, operational database, and blockchain technology to resolve the limitations of each and deliver serverless, real-time data sharing at scale",
