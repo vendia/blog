@@ -3,8 +3,8 @@ title: 'Why public cloud services aren’t enough for file sharing'
 description: 'With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?'
 date: '2022-08-17'
 categories:
-- Product
-- Architecture
+- product
+- architecture
 authors:
   - Tim Wagner
 ---
