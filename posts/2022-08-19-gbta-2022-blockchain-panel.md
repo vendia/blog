@@ -1,6 +1,6 @@
 ---
 title: 'Highlights from the GBTA Panel on Blockchain for the travel industry'
-description: 'Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana. '
+description: 'Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana.'
 date: '2022-08-19'
 categories:
 - company
@@ -10,7 +10,7 @@ authors:
 
 # Highlights from the GBTA panel: “Blockchain for the Travel Industry”
 
-This year, the GBTA Convention in San Diego hosted an education session exploring how blockchain may disrupt the travel industry.** **On the panel were two blockchain experts, [Shruthi Rao](https://www.linkedin.com/in/shruthirao/), CBO and co-founder of [Vendia](vendia.net) and founder of AWS Blockchain, and [Johnny Thorsen](https://www.linkedin.com/in/johnnythorsen/), VP Strategy and Partnerships at Spotnana. 
+This year, the GBTA Convention in San Diego hosted an education session exploring how blockchain may disrupt the travel industry. On the panel were two blockchain experts, [Shruthi Rao](https://www.linkedin.com/in/shruthirao/), CBO and co-founder of [Vendia](https://www.vendia.net/) and founder of AWS Blockchain, and [Johnny Thorsen](https://www.linkedin.com/in/johnnythorsen/), VP Strategy and Partnerships at Spotnana. 
 
 Moderator, Scott Wayne, helped ask the tough questions to suss out what’s hype and what’s real about the technology, describing himself as “a little bit of a skeptic.”
 
@@ -36,7 +36,7 @@ Rao pointed out how the travel industry is particularly well equipped for adopti
 
 Shruthi shared how one of  Vendia’s partners, a major airline, is looking to share data with other partners. The challenge is that every partner has a different technical setup so the data is currently shared manually for somewhere between 50 to 60 million tickets per year. With the help of Vendia, these partners can now share CRM data in real time using smart contracts to automate the workflow and ensuring each partner can only access and see the data they need, no more, no less.   
 
-**Is the travel industry behind on blockchain? **
+**Is the travel industry behind on blockchain?**
 
 Johnny Thorsen thought the travel industry was behind on setting certain standards for the use of blockchain. “The shipping industry has agreed to track every container worldwide” said Thorsen, who thought the travel industry needed to create some standards as well. 
 
@@ -50,7 +50,7 @@ Shruthi pointed out that multi-party data sharing is well established and if you
 2. Are you already sharing some data with them (and do you want to share it with control) ?
 3. Is it important for your partners to have a single version of the truth? 
 
-_“Then you need an automatic mechanism to manage that data sharing, one that scales and protects your data. You need multi-party data sharing with control.”** **_
+_“Then you need an automatic mechanism to manage that data sharing, one that scales and protects your data. You need multi-party data sharing with control.”_
 
 
 ### What is the biggest risk? 
