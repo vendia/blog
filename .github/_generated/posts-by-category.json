@@ -1,4 +1,120 @@
 {
+  "company": [
+    {
+      "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
+      "title": "Highlights from the GBTA Panel on Blockchain for the travel industry",
+      "description": "Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana.",
+      "date": "2022-08-19",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
+      "title": "Blockchain is disrupting every industry vertical—could business travel be next?",
+      "description": "Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.",
+      "date": "2022-08-05",
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "thumbnail": null,
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "title": "Q+A: How serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
+      "title": "Five Leadership Practices of an Ultramarathoner",
+      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
+      "date": "2021-09-27",
+      "tag": [
+        "developers"
+      ],
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
+      "date": "2020-07-01",
+      "categories": [
+        "company"
+      ],
+      "tags": [
+        "origin"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    }
+  ],
   "product": [
     {
       "file": "/posts/2022-08-17-public-cloud-file sharing.md",
@@ -420,110 +536,6 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
-    }
-  ],
-  "company": [
-    {
-      "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
-      "title": "Blockchain is disrupting every industry vertical—could business travel be next?",
-      "description": "Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.",
-      "date": "2022-08-05",
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "thumbnail": null,
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
-      "title": "Five Leadership Practices of an Ultramarathoner",
-      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
-      "date": "2021-09-27",
-      "tag": [
-        "developers"
-      ],
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
-      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
-      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
-      "date": "2021-06-08",
-      "categories": [
-        "announcements",
-        "company"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
-      "date": "2020-07-01",
-      "categories": [
-        "company"
-      ],
-      "tags": [
-        "origin"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-06-30-welcome-to-vendia.md",
-      "title": "Welcome to Vendia",
-      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
       ]
     }
   ],

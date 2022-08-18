@@ -1,4 +1,86 @@
 {
+  "anders-maul": [
+    {
+      "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
+      "title": "Highlights from the GBTA Panel on Blockchain for the travel industry",
+      "description": "Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana.",
+      "date": "2022-08-19",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
+      "title": "Blockchain is disrupting every industry vertical—could business travel be next?",
+      "description": "Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.",
+      "date": "2022-08-05",
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "thumbnail": null,
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "title": "Q+A: How serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-20-real-time-data-sharing-solution-elements.md",
+      "title": "Elements of a real-time data sharing solution",
+      "description": "Real-time data sharing needs to grapple with increasingly decentralized data. Here are some elements to focus on when looking for a modern data sharing solution.",
+      "date": "2022-07-20",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-08-crm-integration-painpoints.md",
+      "title": "Top 5 headaches of CRM integrations according to a Salesforce MVP",
+      "description": "Discover the best way to combine CRMs and overcome CRM integration painpoints with insights from Salesforce MVP, Rebecca Lammers",
+      "date": "2022-07-08",
+      "thumbnail": "https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/5%20headaches%20of%20CRM%20integrations%20_%20July%2008%202022.png",
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "title": "Webcast highlights: The future of CRM data sharing",
+      "description": "We have summed up five highlights from the webcast on CRM data sharing",
+      "date": "2022-06-29",
+      "thumbnail": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
+      "title": "Real-time data sharing: Pros and cons",
+      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
+      "date": "2022-06-07",
+      "authors": [
+        "Anders Maul"
+      ]
+    }
+  ],
   "tim-wagner": [
     {
       "file": "/posts/2022-08-17-public-cloud-file sharing.md",
@@ -471,76 +553,6 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
-    }
-  ],
-  "anders-maul": [
-    {
-      "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
-      "title": "Blockchain is disrupting every industry vertical—could business travel be next?",
-      "description": "Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.",
-      "date": "2022-08-05",
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "thumbnail": null,
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-20-real-time-data-sharing-solution-elements.md",
-      "title": "Elements of a real-time data sharing solution",
-      "description": "Real-time data sharing needs to grapple with increasingly decentralized data. Here are some elements to focus on when looking for a modern data sharing solution.",
-      "date": "2022-07-20",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-08-crm-integration-painpoints.md",
-      "title": "Top 5 headaches of CRM integrations according to a Salesforce MVP",
-      "description": "Discover the best way to combine CRMs and overcome CRM integration painpoints with insights from Salesforce MVP, Rebecca Lammers",
-      "date": "2022-07-08",
-      "thumbnail": "https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/5%20headaches%20of%20CRM%20integrations%20_%20July%2008%202022.png",
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "title": "Webcast highlights: The future of CRM data sharing",
-      "description": "We have summed up five highlights from the webcast on CRM data sharing",
-      "date": "2022-06-29",
-      "thumbnail": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
-      "title": "Real-time data sharing: Pros and cons",
-      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it comes with challenges. Let’s look at the pros and cons.",
-      "date": "2022-06-07",
-      "authors": [
-        "Anders Maul"
       ]
     }
   ],
