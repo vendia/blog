@@ -1,6 +1,6 @@
 ---
 title: "Introducing Serverless Pricing for Vendia Share Individuals"
-description: ""
+description: "Vendia Share announces a new serverless pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction."
 date: "2022-08-29"
 categories:
   - company
