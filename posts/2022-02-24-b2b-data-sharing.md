@@ -1,6 +1,6 @@
 ---
 title: 'Introduction to B2B data sharing | Vendia'
-description: 'B2B Data sharing, in real-time, is becoming table stakes, especially as the pandemic and modern operations put a strain on everything from supply chains to product recalls.'
+description: 'Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.'
 date: '2022-08-23'
 authors:
   - Vikrant Kahlir
