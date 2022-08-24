@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to B2B data sharing | Vendia'
+title: 'Introduction to B2B data sharing with Vendia'
 description: 'Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.'
 date: '2022-08-23'
 authors:
