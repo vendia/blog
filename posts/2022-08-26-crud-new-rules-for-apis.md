@@ -1,6 +1,6 @@
 ---
-title: 'How CRUD informs the new rules for smart APIs and real-time data sharing'
-description: 'Custom modeling and standard access platforms can make API development and management easier for developers to concentrate on building logic vs. boilerplate problems.'
+title: 'When CRUD APIs aren't enough. How custom models and smart APIs create better data sharing solutions'
+description: 'Custom modeling and standard access platforms come together to make next-gen business APIs'
 date: '2022-08-26'
 categories:
 - concepts
