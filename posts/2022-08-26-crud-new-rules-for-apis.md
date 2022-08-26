@@ -8,8 +8,9 @@ categories:
 authors:
   - Tim Wagner
 ---
-Businesses process a wide variety of real-time information to support their mission-critical processes. But while their [real-world activities](https://www.vendia.net/blog/supply-chain-is-broken-can-blockchain-fix-it) can differ greatly, the data and applications that model those activities tend to fall into a small number of categories:
 
+
+Businesses process a wide variety of real-time information to support their mission-critical processes. But while their [real-world activities](https://www.vendia.net/blog/supply-chain-is-broken-can-blockchain-fix-it) can differ greatly, the data and applications that model those activities tend to fall into a small number of categories.
 
 
 * Customer profiles and other marketing data
