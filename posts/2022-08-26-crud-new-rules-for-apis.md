@@ -3,7 +3,7 @@ title: 'When CRUD APIs aren't enough. How custom models and smart APIs create be
 description: 'Custom modeling and standard access platforms come together to make next-gen business APIs'
 date: '2022-08-26'
 categories:
-- concept
+- concepts
 - product
 authors:
   - Tim Wagner
