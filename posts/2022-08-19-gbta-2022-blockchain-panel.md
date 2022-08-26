@@ -1,5 +1,5 @@
 ---
-title: 'Highlights from the GBTA Panel on Blockchain for the travel industry'
+title: 'Highlights from the GBTA Panel on blockchain for the travel industry'
 description: 'Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana.'
 date: '2022-08-19'
 categories:
