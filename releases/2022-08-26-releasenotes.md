@@ -99,9 +99,11 @@ The Share UI view also includes a very helpful "diff" feature that allows you vi
 <p align="center">Schema Diffs in Share UI</p>
 
 # Control Plane and Data Plane Geo-Blocking
-To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking), is one of many security mechanisms in place to keep your Vendia account, and your Unis, safe.
+To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking).
 
-This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.net/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your nodes).  This additional layer of protection is one of many security mechanisms in place to keep the data in your Uni safe.
+This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.net/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your nodes).  
+
+This additional layer of protection is one of many security mechanisms in place to keep your Vendia account, your Unis, and the _data in your Unis_ safe.
 
 # Improved Ingestion and Consensus Performance
 Vendia Share heavily leverages the serverless services of the major public cloud service providers.  The scale, resilience, and performance of those services is unmatched and, as a result, so is Vendia Share's own scale, resilienca, and performance.
