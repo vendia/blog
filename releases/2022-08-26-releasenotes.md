@@ -11,10 +11,10 @@ tags:
 Our engineering teams have released a number of cool new features and improvements over the last month.  As always, see our [Docs](https://www.vendia.net/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.
 
 # New Authorization Options
-Vendia Share now supports [multiple forms of authorization](https://www.vendia.net/docs/share/node-authentication) to a node within a Uni.  
+Vendia Share now supports [multiple forms of authorization](https://www.vendia.net/docs/share/node-authentication) to a Node within a Uni.  
 
 ## API Keys
-For those who prefer to create and use API Keys for authorization, this can now be performed through the [Share UI](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-in-vendia), the [Share GraphQL API](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-via-graphql-mutation), or the [Share CLI](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-via-the-cli).  A node can now support multiple API Keys and each key can have a unique expiration time.
+For those who prefer to create and use API Keys for authorization, this can now be performed through the [Share UI](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-in-vendia), the [Share GraphQL API](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-via-graphql-mutation), or the [Share CLI](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-via-the-cli).  A Node can now support multiple API Keys and each key can have a unique expiration time.
 
 ```shell
 share node add-api-key \
@@ -24,7 +24,7 @@ share node add-api-key \
     --expiry '2022-08-31'
 ```
 
-When using an API Key, place the value of the key in the `Authorization` header when submitting GraphQL requests to the node to which the API Key is associated.
+When using an API Key, place the value of the key in the `Authorization` header when submitting GraphQL requests to the Node to which the API Key is associated.
 
 ```shell
 curl 'https://xxxxxxx.execute-api.us-west-2.amazonaws.com/graphql/' \
@@ -36,9 +36,9 @@ curl 'https://xxxxxxx.execute-api.us-west-2.amazonaws.com/graphql/' \
 ```
 
 ## JWTs
-For those who prefer to use [JSON Web Tokens (JWTs)](https://jwt.io/) for authorization, this can now be configured through the [Share UI](https://www.vendia.net/docs/share/node-authentication#creating-jwt-authentication-in-vendia) or the [Share GraphQL API](https://www.vendia.net/docs/share/node-authentication#create-jwt-authentication-via-graphql).  JWT authorization requires a small handful of configuration properties, from which your Vendia Share node can perform all the necessary JWT verifications needed on subsequent GraphQL API calls.
+For those who prefer to use [JSON Web Tokens (JWTs)](https://jwt.io/) for authorization, this can now be configured through the [Share UI](https://www.vendia.net/docs/share/node-authentication#creating-jwt-authentication-in-vendia) or the [Share GraphQL API](https://www.vendia.net/docs/share/node-authentication#create-jwt-authentication-via-graphql).  JWT authorization requires a small handful of configuration properties, from which your Vendia Share Node can perform all the necessary JWT verifications needed on subsequent GraphQL API calls.
 
-When using a JWT, place the value of the key in the `Authorization` header when submitting GraphQL requests to the node whose configuration reflects the identity provider that issued the JWT.  Note the `Bearer` prefix in the `Authorization` header value below.
+When using a JWT, place the value of the key in the `Authorization` header when submitting GraphQL requests to the Node whose configuration reflects the identity provider that issued the JWT.  Note the `Bearer` prefix in the `Authorization` header value below.
 
 ```shell
 curl 'https://xxxxxxx.execute-api.us-west-2.amazonaws.com/graphql/' \
@@ -101,14 +101,14 @@ The Share UI view also includes a very helpful "diff" feature that allows you vi
 # Control Plane and Data Plane Geo-Blocking
 To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking).
 
-This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.net/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your nodes).  
+This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.net/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your Nodes).  
 
 This additional layer of protection is one of many security mechanisms in place to keep your Vendia account, your Unis, and the _data in your Unis_ safe.
 
 # Improved Ingestion and Consensus Performance
 Vendia Share heavily leverages the serverless services of the major public cloud service providers.  The scale, resilience, and performance of those services is unmatched and, as a result, so is Vendia Share's own scale, resilienca, and performance.
 
-Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (e.g. the number of transactions accepted by a node in a given time period) and consensus performance (e.g. the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by an order of magnitude** and will continue to optimize our internal ingestion and consensus implementation to maximize the capabilities of the serverless services on which Vendia Share is built.
+Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (e.g. the number of transactions accepted by a Node in a given time period) and consensus performance (e.g. the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by an order of magnitude** and will continue to optimize our internal ingestion and consensus implementation to maximize the capabilities of the serverless services on which Vendia Share is built.
 
 For more information about Vendia Share's current and near-term performance targets, as well as the real-time data sharing workloads for which Share is unmatched, [contact us](mailto:bd@vendia.net).
 
