@@ -1,6 +1,6 @@
 ---
 title: 'Staying Cool This Summer with New Features and Improvements'
-description: ''
+description: 'Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more'
 date: '2022-08-26'
 draft: false
 tags:
