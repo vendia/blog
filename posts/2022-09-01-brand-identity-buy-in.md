@@ -67,7 +67,8 @@ Not only did this conflict make it hard to leverage the branding colors in the U
 
 While we did add a neutral blue ramp to improve accessibility, the overall color palette was limited to three main ramps. This made it difficult for people to leverage the brand colors in marketing and presentations.
 
-![A chart showing the limited range of green, orange, and cool, neutral blue color tones in Vendia's old brand palette](https://user-images.githubusercontent.com/107442245/187556918-51b1b37e-5389-4db6-abea-0e87a9288c8b.png)
+![A color palette showing the limitations of Vendia's old brand green, orange, and neutral blue](https://user-images.githubusercontent.com/107442245/187561881-82747e40-536c-4f29-a07a-5469763cd71e.png)
+
 
 #### Inauthenticity
 
