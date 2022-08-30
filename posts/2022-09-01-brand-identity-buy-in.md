@@ -53,9 +53,7 @@ While we did have color ramps that provided additional colors, the closest acces
 
 
 
-INSERT IMG 2
-
-
+![A screenshot showing Vendia Share's login UI](https://user-images.githubusercontent.com/107442245/187553967-e4268e6e-a68e-4ed7-a108-79a03d7592e9.png)
 
 
 
