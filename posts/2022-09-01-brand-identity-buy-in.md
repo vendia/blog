@@ -75,7 +75,7 @@ Conflicting visual messaging is a problem that’s somewhat unique to tech. Erro
 
 
 
-INSERT IMG 5
+![An illustration showing Vendia Green's affinity to a green success indicator marked with a checkmark inside a completion circle and Vendia Orange's affinity to an orange alert indicator marked with a checkmark inside a warning triangle](https://user-images.githubusercontent.com/107442245/187555577-ae06d04e-6ca0-4729-9def-92d08ac0a977.png)
 
 
 
