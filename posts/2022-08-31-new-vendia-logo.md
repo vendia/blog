@@ -2,7 +2,6 @@
 title: 'Introducing our new look and logo'
 description: 'We updated our logo and visual identity.'
 date: '2022-08-31'
-draft: true
 categories:
 - company
 thumbnail: 'https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png'
