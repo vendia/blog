@@ -1,6 +1,17 @@
 {
   "New Features": [
     {
+      "file": "/releases/2022-08-26-releasenotes.md",
+      "title": "Staying Cool This Summer with New Features and Improvements",
+      "description": "Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more",
+      "date": "2022-08-26",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
+    {
       "file": "/releases/2022-07-15-releasenotes.md",
       "title": "Improved Security, Performance and Transparency",
       "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
@@ -61,6 +72,17 @@
     }
   ],
   "Improvements": [
+    {
+      "file": "/releases/2022-08-26-releasenotes.md",
+      "title": "Staying Cool This Summer with New Features and Improvements",
+      "description": "Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more",
+      "date": "2022-08-26",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
     {
       "file": "/releases/2022-07-15-releasenotes.md",
       "title": "Improved Security, Performance and Transparency",
