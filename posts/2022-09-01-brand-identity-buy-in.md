@@ -146,7 +146,7 @@ You’lll find that the core elements of each style will evolve and solidify dur
 
 INSERT IMG 11
 
-INSERT IMG 12
+![Swag such as a travel mug, frisbee, sunglasses, and stationery featuring the new Vendia logo](https://user-images.githubusercontent.com/107442245/187559119-39db7da4-4718-4fb9-91c7-3db440a64c20.png)
 
 
 
