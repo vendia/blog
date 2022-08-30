@@ -116,10 +116,7 @@ Some questions to get you started are:
 
 For Vendia, we established three options. On the design team, we dubbed these options: “Fluffy Cloud,” “Neon,” and “Monochromatic.” Then, we created a mood board with examples of each.
 
-
-
-INSERT IMG 8
-
+![Three moodboards showing the Fluffy Cloud, Neon, and Monochromatic brand design concepts](https://user-images.githubusercontent.com/107442245/187557917-19e95fbf-be74-4b49-b45d-330154dc1fe6.png)
 
 At a certain point, we realized that, while we loved the graphics we were pulling for inspiration, each one of those graphics would take us 5+ days to create. This would be fine if we had a small army of designers dedicated to creating these beautiful images. However, in reality, my team has one dedicated designer, she was usually turning out one to five images per day already. So. we needed a way to maintain this cadence while up-leveling the quality of the graphics.
 
