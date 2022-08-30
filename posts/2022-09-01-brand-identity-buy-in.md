@@ -65,8 +65,7 @@ We also had an issue with color contrast. Because our core colors held a similar
 
 
 
-INSERT IMG 4
-
+![A side-by-side comparison of the old Vendia logo in full color and greyscale illustrating there is no contrast at greyscale](https://user-images.githubusercontent.com/107442245/187555387-98eb19e7-3c1f-42ba-8fbf-3985ed902e99.png)
 
 
 
