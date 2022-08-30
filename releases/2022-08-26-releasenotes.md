@@ -52,7 +52,7 @@ curl 'https://xxxxxxx.execute-api.us-west-2.amazonaws.com/graphql/' \
 With the release of these new authorization options comes the end of the legacy authorization options previously supported.    
 
 # Sorting Results
-The ability to sort results based on a field was a frequent request from our users over the last few quarters.  We heard you and we did it!
+The ability to sort results based on a field was a frequent request from our users over the last few quarters.  We ranked your feedback (in ascending order) and got to work!
 
 Now, any [indexed field](https://www.vendia.net/docs/share/data-modeling#indexes) can be used to sort the results returned by a `list` operation.  For example, if the `name` field of the `Inventory` entity is indexed, the list of products can be returned in order by name: 
 
@@ -99,7 +99,7 @@ The Share UI view also includes a very helpful "diff" feature that allows you vi
 <p align="center">Schema Diffs in Share UI</p>
 
 # Control Plane and Data Plane Geo-Blocking
-To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking).
+To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking), blocks traffic originating from IP addresses in specified geographic regions.
 
 This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.net/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your Nodes).  
 
@@ -108,7 +108,7 @@ This additional layer of protection is one of many security mechanisms in place 
 # Improved Ingestion and Consensus Performance
 Vendia Share heavily leverages the serverless services of the major public cloud service providers.  The scale, resilience, and performance of those services is unmatched and, as a result, so is Vendia Share's own scale, resilienca, and performance.
 
-Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (e.g. the number of transactions accepted by a Node in a given time period) and consensus performance (e.g. the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by 10x** and will continue to optimize our internal ingestion and consensus implementation to maximize the capabilities of the serverless services on which Vendia Share is built.
+Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (e.g. the number of transactions accepted by a Node in a given time period) and consensus performance (e.g. the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by 10x** and will continue to optimize our internal ingestion and consensus implementation to maximize the value of the serverless capabilities on which Vendia Share is built.
 
 For more information about Vendia Share's current and near-term performance targets, as well as the real-time data sharing workloads for which Share is unmatched, [contact us](https://www.vendia.net/contact-us).
 
