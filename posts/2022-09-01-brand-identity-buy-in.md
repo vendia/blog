@@ -122,10 +122,7 @@ At a certain point, we realized that, while we loved the graphics we were pullin
 
 As a solution, we looked into graphic types that would be the fastest and easiest to create while still embracing the new styles. We found that each of the three options leveraged isometric graphics in some fashion. Because isometric graphics were consistent across all three of our design concepts, we could start making progress on this right away using the existing branding. Finding opportunities to make progress right away is one of the best things you can do to get the eventual buy-in.
 
-
-
-INSERT IMG 9
-
+![Three isometric graphic examples in new brand color explorations](https://user-images.githubusercontent.com/107442245/187560197-a0f844f9-4ced-4ed5-b259-46f4ad91f4db.png)
 
 ### 5) Explore how each option will look in different areas
 
