@@ -1,7 +1,7 @@
 ---
-title: "Introducing Serverless Pricing for Vendia Share Individuals"
-description: "Vendia Share announces a new serverless pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction."
-date: "2022-08-29"
+title: "Introducing developer-friendly pricing with our new Individual Plan"
+description: "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction."
+date: "2022-08-31"
 categories:
   - company
   - product
@@ -9,7 +9,7 @@ authors:
   - Jake Partusch
 ---
 
-# Introducing Serverless Pricing for Vendia Share
+# Introducing developer-friendly pricing with our new Individual Plan
 
 We love developers at Vendia and we appreciate those of you who are working on personal projects, testing and experimenting with a new idea. We wanted to support innovators and change makers like you (Yes, we are looking at you). For this reason, we are excited to announce our new Individual plan for Vendia Share. This new plan includes all of our latest features including multi-party data sharing, cross-cloud support, fine-grained access controls, data redaction, real-time notifications, and more.
 
@@ -26,9 +26,9 @@ One of the benefits of building serverless applications is the ability to scale 
 - No storage or transaction limits
 - Real-time notifications and support for GraphQL subscriptions
 - 99% Availability SLA
-- [Full list of features](https://vendia.net/pricing)
+- [Full list of features](https://vendia.net/pricing/individual)
 
-Get started today with a [30-day free trial](https://vendia.net/pricing)
+Get started today with a [30-day free trial](https://vendia.net/pricing/individual)
 
 ## Pricing Example
 
@@ -72,4 +72,4 @@ $3.90 real-time subscriptions
 
 **Total = $90.50**
 
-Ready to make your idea happen? Sign up for our [30 day free trial](https://vendia.net/pricing).
+Ready to make your idea happen? Sign up for our [30 day free trial](https://vendia.net/pricing/individual).
