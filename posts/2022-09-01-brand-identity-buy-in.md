@@ -42,7 +42,8 @@ While our colors were bright and warm they presented a few[ accessibility issues
 
 
 
-INSERT IMG 1
+![A side-by-side comparison of Vendia's old brand colors, Brand Green and Brand Orange](https://user-images.githubusercontent.com/107442245/187552855-a03e251f-c138-41f5-a64e-07e7ce592c00.png)
+
 
 
 
