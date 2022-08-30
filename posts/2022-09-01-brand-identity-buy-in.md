@@ -40,44 +40,25 @@ At Vendia, we had a few challenges, and they’re not atypical in startups (let 
 
 While our colors were bright and warm they presented a few[ accessibility issues](https://www.w3.org/WAI/standards-guidelines/). The largest issue was that our core brand colors were not accessible as text on a white background.
 
-
-
 ![A side-by-side comparison of Vendia's old brand colors, Brand Green and Brand Orange](https://user-images.githubusercontent.com/107442245/187552855-a03e251f-c138-41f5-a64e-07e7ce592c00.png)
-
-
-
 
 This presented an issue when people wanted to use the brand colors in presentations, advertisements, and print media. It was especially problematic when we used them on the web or in the product as it made buttons and links hard to read.
 
 While we did have color ramps that provided additional colors, the closest accessible colors were very far from the bright, warm vibe the original colors held.
 
-
-
 ![A screenshot showing Vendia Share's login UI](https://user-images.githubusercontent.com/107442245/187553967-e4268e6e-a68e-4ed7-a108-79a03d7592e9.png)
-
-
 
 ![A side-by-side comparison of color blocks of Vendia Green 6 #4CCFA8 and its closest ramp Vendia Green 9 at #008260 and Vendia Orange 7 #FF8C5B and its closest ramp Vendia Orange 9 #B24B1F ](https://user-images.githubusercontent.com/107442245/187554819-7dbfdbe6-1241-41a6-aed5-78e6f1dd0bf7.png)
 
-
-
 We also had an issue with color contrast. Because our core colors held a similar saturation, they tended to mute each other rather than complementing each other or “making our branding pop.”
 
-
-
 ![A side-by-side comparison of the old Vendia logo in full color and greyscale illustrating there is no contrast at greyscale](https://user-images.githubusercontent.com/107442245/187555387-98eb19e7-3c1f-42ba-8fbf-3985ed902e99.png)
-
-
 
 #### Conflicting visual messaging
 
 Conflicting visual messaging is a problem that’s somewhat unique to tech. Error and notification messages are widely used in web interfaces. There are four primary colors used to convey the difference in these messages: Blue = Information, Green = Success, Orange = Warning, Red = Error. In our case, our brand colors were nearly interchangeable with success and warning. Talk about sending a mixed message!
 
-
-
 ![An illustration showing Vendia Green's affinity to a green success indicator marked with a checkmark inside a completion circle and Vendia Orange's affinity to an orange alert indicator marked with a checkmark inside a warning triangle](https://user-images.githubusercontent.com/107442245/187555577-ae06d04e-6ca0-4729-9def-92d08ac0a977.png)
-
-
 
 Not only did this conflict make it hard to leverage the branding colors in the UI, but it was also hard to express well in product diagrams. We rarely used our brand Orange because it could be interpreted as meaning something bad.
 
@@ -86,12 +67,7 @@ Not only did this conflict make it hard to leverage the branding colors in the U
 
 While we did add a neutral blue ramp to improve accessibility, the overall color palette was limited to three main ramps. This made it difficult for people to leverage the brand colors in marketing and presentations.
 
-
-
-INSERT IMG 6
-
-
-
+![A chart showing the limited range of green, orange, and cool, neutral blue color tones in Vendia's old brand palette](https://user-images.githubusercontent.com/107442245/187556918-51b1b37e-5389-4db6-abea-0e87a9288c8b.png)
 
 #### Inauthenticity
 
