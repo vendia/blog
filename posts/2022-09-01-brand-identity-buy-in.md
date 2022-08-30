@@ -99,9 +99,7 @@ Always. Do. Research. This can be as extensive as interviewing customers, partne
 
 At Vendia, we did both:  We gathered initial reactions from investors and customers, and we followed that with a competitive analysis of companies in the industry. We then created a FigJam board with examples of logos, colors, iconography, and graphics to help us compare and contrast concepts.
 
-
-INSERT IMG 7
-
+![A collection of screenshots showing unique tech brand graphics and color palettes](https://user-images.githubusercontent.com/107442245/187557484-ced470cf-1601-4047-975f-3881b7f05f14.png)
 
 ### 4) Identify a few concept options to explore
 
