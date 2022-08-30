@@ -57,7 +57,7 @@ While we did have color ramps that provided additional colors, the closest acces
 
 
 
-INSERT IMG 3
+![A side-by-side comparison of color blocks of Vendia Green 6 #4CCFA8 and its closest ramp Vendia Green 9 at #008260 and Vendia Orange 7 #FF8C5B and its closest ramp Vendia Orange 9 #B24B1F ](https://user-images.githubusercontent.com/107442245/187554819-7dbfdbe6-1241-41a6-aed5-78e6f1dd0bf7.png)
 
 
 
