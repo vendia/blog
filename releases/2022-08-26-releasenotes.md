@@ -87,14 +87,14 @@ You can now remove an index, which was previously deemed a breaking change, usin
 Likewise, the Share UI has been enhanced to allow schema evolution from the Schema view of a Uni.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/85032783/186989144-3b7a7b3a-6d70-4a80-a084-a69ba0f79d9f.png"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..186989144-3b7a7b3a-6d70-4a80-a084-a69ba0f79d9f.png"/>
 </p>
 <p align="center">Schema Evolution in Share UI</p>
 
 The Share UI view also includes a very helpful "diff" feature that allows you visually inspect a schema change priory to confirming the schema evolution.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/85032783/186988253-4f150aa6-17dd-45e9-89eb-c0591d7dff07.png"/>
+  <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..186988253-4f150aa6-17dd-45e9-89eb-c0591d7dff07.png"/>
 </p>
 <p align="center">Schema Diffs in Share UI</p>
 
