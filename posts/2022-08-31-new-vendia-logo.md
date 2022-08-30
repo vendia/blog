@@ -5,7 +5,7 @@ date: '2022-08-31'
 draft: true
 categories:
 - company
-thumbnail: 'http://url-to-thumbnail.jpg'
+thumbnail: 'https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png'
 authors:
   - Caroll Casbeer
 ---
@@ -36,7 +36,7 @@ But, it didn’t take long to see a few signals indicating it was time to reinve
 
 So, Shruthi and Tim asked our Head of Design, Hailey Nevins and the design team to revisit Vendia’s roots and bring the “fun” back to Vendia’s visual identity. The founders love where we landed.
 
-![The Vendia 3.0 logo fresh for 2022 and beyond](https://user-images.githubusercontent.com/98492452/187513269-f760ea17-7edf-4abf-add9-19083f5b8360.mp4)
+![The Vendia 3.0 logo fresh for 2022 and beyond](https://user-images.githubusercontent.com/98492452/187538692-e16d9acc-a823-44c7-be8a-1eb7b20629a3.png)
 
 Coming soon: a behind the scenes look at Vendia’s creative process for our new logo and visual identity.
 
