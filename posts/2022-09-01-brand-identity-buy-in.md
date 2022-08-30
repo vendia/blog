@@ -142,9 +142,7 @@ Some questions to get you started include:
 
 You’lll find that the core elements of each style will evolve and solidify during this step.
 
-
-
-INSERT IMG 10
+![IBrand explorations in web UI, etc.](https://user-images.githubusercontent.com/107442245/187558564-69f4f53b-4619-41bc-800b-e052c1beb2a3.png)
 
 INSERT IMG 11
 
