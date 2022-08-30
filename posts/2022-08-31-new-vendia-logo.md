@@ -1,6 +1,6 @@
 ---
 title: 'Introducing our new look and logo'
-description: 'We updated our logo and visual '
+description: 'We updated our logo and visual identity.'
 date: '2022-08-31'
 draft: true
 categories:
@@ -19,7 +19,7 @@ When Shruthi saw Tim’s logo, she knew it was meant to be. Years before she sta
 
 The first logo was short-lived, though. Shruthi and Tim hired an outside agency to build out the visual identity and website. (another big step in launching a company!) and the agency noted that our logo looked a bit like barbed wire! Not super friendly or on brand for an organization with a mission built around sharing. Enter our immediately previous logo, a tomato and teal (or ‘chicken tikka masalacolored’ as Shruthi says) logo for a more mature, professional brand identity.
 
-![Vendia logo evolution ](https://user-images.githubusercontent.com/98492452/187510009-857f98b3-9b78-4ee5-8043-d3fc4b4e156f.png)
+![Vendia logo evolution](https://user-images.githubusercontent.com/98492452/187510009-857f98b3-9b78-4ee5-8043-d3fc4b4e156f.png)
 
 
 ## Logo 2.0 becomes 3.0 because we’re Kind Humans, after all
