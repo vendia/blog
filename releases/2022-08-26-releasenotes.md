@@ -106,9 +106,9 @@ This same mechanism is now also in place on our [Enterprise customers'](https://
 This additional layer of protection is one of many security mechanisms in place to keep your Vendia account, your Unis, and the _data in your Unis_ safe.
 
 # Improved Ingestion and Consensus Performance
-Vendia Share heavily leverages the serverless services of the major public cloud service providers.  The scale, resilience, and performance of those services is unmatched and, as a result, so is Vendia Share's own scale, resilienca, and performance.
+Vendia Share heavily leverages the serverless services of the major public cloud service providers.  The scale, resilience, and performance of those services is unmatched and, as a result, so is Vendia Share's own scale, resilience, and performance.
 
-Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (e.g. the number of transactions accepted by a Node in a given time period) and consensus performance (e.g. the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by 10x** and will continue to optimize our internal ingestion and consensus implementation to maximize the value of the serverless capabilities on which Vendia Share is built.
+Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (i.e., the number of transactions accepted by a Node in a given time period) and consensus performance (i.e., the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by 10x** and will continue to optimize our internal ingestion and consensus implementation to maximize the value of the serverless capabilities on which Vendia Share is built.
 
 For more information about Vendia Share's current and near-term performance targets, as well as the real-time data sharing workloads for which Share is unmatched, [contact us](https://www.vendia.net/contact-us).
 
