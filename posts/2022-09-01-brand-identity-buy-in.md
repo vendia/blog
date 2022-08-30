@@ -161,8 +161,6 @@ In this meeting, we heard descriptions that we didn’t expect to hear like, “
 
 It’s the moment of truth and you’re finally going to present all of your hard work to the leadership team. At this point, it’s likely that you already have a favorite style, and you’re excited to pick the new branding and start moving forward. Despite your excitement, you need to take a step back and explain to your leadership team how you got to this point.
 
-
-
 * Explain the challenges your current branding faces today
 * Highlight the objectives of the new branding
 * Explain seemingly, basic design concepts in a visual way (such as the color wheels below)
@@ -170,6 +168,7 @@ It’s the moment of truth and you’re finally going to present all of your har
 * End the presentation with a side-by-side comparison of each
 * Remain neutral as you open it up for discussion
 
+![Color wheels](https://user-images.githubusercontent.com/107442245/187560426-bd038393-76ce-4528-9740-cbb06dc73694.png)
 
 You’ll be surprised how much this helps. We got a lot of comments like:
 
