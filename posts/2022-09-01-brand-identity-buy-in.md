@@ -144,7 +144,7 @@ You’lll find that the core elements of each style will evolve and solidify dur
 
 ![IBrand explorations in web UI, etc.](https://user-images.githubusercontent.com/107442245/187558564-69f4f53b-4619-41bc-800b-e052c1beb2a3.png)
 
-INSERT IMG 11
+![A collection of icons such as a keyboard, search magnifying glass, and security lock in the new Vendia color palette](https://user-images.githubusercontent.com/107442245/187559295-af20f875-1dc7-4948-a8e9-310490e5ed10.png)
 
 ![Swag such as a travel mug, frisbee, sunglasses, and stationery featuring the new Vendia logo](https://user-images.githubusercontent.com/107442245/187559119-39db7da4-4718-4fb9-91c7-3db440a64c20.png)
 
