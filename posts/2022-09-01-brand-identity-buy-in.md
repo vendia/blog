@@ -48,7 +48,7 @@ While we did have color ramps that provided additional colors, the closest acces
 
 ![A screenshot showing Vendia Share's login UI](https://user-images.githubusercontent.com/107442245/187553967-e4268e6e-a68e-4ed7-a108-79a03d7592e9.png)
 
-![A side-by-side comparison of color blocks of Vendia Green 6 #4CCFA8 and its closest ramp Vendia Green 9 at #008260 and Vendia Orange 7 #FF8C5B and its closest ramp Vendia Orange 9 #B24B1F ](https://user-images.githubusercontent.com/107442245/187554819-7dbfdbe6-1241-41a6-aed5-78e6f1dd0bf7.png)
+![Hexcode and color comparison between Vendia Green and Orange](https://user-images.githubusercontent.com/107442245/187561146-6e0d76fd-a369-47e7-ae98-0af5434d3a22.png)
 
 We also had an issue with color contrast. Because our core colors held a similar saturation, they tended to mute each other rather than complementing each other or “making our branding pop.”
 
