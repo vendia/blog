@@ -1,6 +1,6 @@
 ---
-title: 'Introducing our new look and logo'
-description: 'We updated our logo and visual identity.'
+title: 'Introducing our new brand identity'
+description: 'Get the first look at our new look and logo with insights from our founders on why, and why now.'
 date: '2022-08-31'
 categories:
 - company
@@ -16,7 +16,7 @@ Even though it came together quickly, creating a logo is a milestone for any ent
 
 When Shruthi saw Tim’s logo, she knew it was meant to be. Years before she started Vendia, she had visited a fortune teller on a whim. The medium told her she would, “Start something where you are going to be connecting the whole world … I see lime green.” When Shruthi saw the lime green in the logo she was shaken. This was it—she was going to connect the whole world!
 
-The first logo was short-lived, though. Shruthi and Tim hired an outside agency to build out the visual identity and website. (another big step in launching a company!) and the agency noted that our logo looked a bit like barbed wire! Not super friendly or on brand for an organization with a mission built around sharing. Enter our immediately previous logo, a tomato and teal (or ‘chicken tikka masalacolored’ as Shruthi says) logo for a more mature, professional brand identity.
+The first logo was short-lived, though. Shruthi and Tim hired an outside agency to build out the visual identity and website (another big step in launching a company!) and the agency noted that our logo looked a bit like barbed wire! Not super friendly or on brand for an organization with a mission built around sharing. Enter our immediately previous logo, a tomato and teal (or ‘chicken tikka masalacolored’ as Shruthi says) logo for a more mature, professional brand identity.
 
 ![Vendia logo evolution](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..187510009-857f98b3-9b78-4ee5-8043-d3fc4b4e156f.png)
 
