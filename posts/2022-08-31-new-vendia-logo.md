@@ -37,7 +37,7 @@ So, Shruthi and Tim asked our Head of Design, Hailey Nevins and the design team 
 
 ![The Vendia 3.0 logo fresh for 2022 and beyond](https://user-images.githubusercontent.com/98492452/187538692-e16d9acc-a823-44c7-be8a-1eb7b20629a3.png)
 
-Coming soon: a behind the scenes look at Vendia’s creative process for our new logo and visual identity.
+Check out a behind the scenes look at Vendia’s creative process for our new logo and visual identity. [Read more.] (https://www.vendia.net/blog/brand-identity-buy-in)
 
 Here’s some final advice Shruthi and Tim would give to other founders navigating logos and visual identity development:
 
