@@ -40,25 +40,25 @@ At Vendia, we had a few challenges, and they’re not atypical in startups (let 
 
 While our colors were bright and warm they presented a few[ accessibility issues](https://www.w3.org/WAI/standards-guidelines/). The largest issue was that our core brand colors were not accessible as text on a white background.
 
-![A side-by-side comparison of Vendia's old brand colors, Brand Green and Brand Orange](https://user-images.githubusercontent.com/107442245/187552855-a03e251f-c138-41f5-a64e-07e7ce592c00.png)
+![A side-by-side comparison of Vendia's old brand colors, Brand Green and Brand Orange](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187552855-a03e251f-c138-41f5-a64e-07e7ce592c00.png)
 
 This presented an issue when people wanted to use the brand colors in presentations, advertisements, and print media. It was especially problematic when we used them on the web or in the product as it made buttons and links hard to read.
 
 While we did have color ramps that provided additional colors, the closest accessible colors were very far from the bright, warm vibe the original colors held.
 
-![A screenshot showing Vendia Share's login UI](https://user-images.githubusercontent.com/107442245/187553967-e4268e6e-a68e-4ed7-a108-79a03d7592e9.png)
+![A screenshot showing Vendia Share's login UI](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187553967-e4268e6e-a68e-4ed7-a108-79a03d7592e9.png)
 
-![Hexcode and color comparison between Vendia Green and Orange](https://user-images.githubusercontent.com/107442245/187561146-6e0d76fd-a369-47e7-ae98-0af5434d3a22.png)
+![Hexcode and color comparison between Vendia Green and Orange](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187561146-6e0d76fd-a369-47e7-ae98-0af5434d3a22.png)
 
 We also had an issue with color contrast. Because our core colors held a similar saturation, they tended to mute each other rather than complementing each other or “making our branding pop.”
 
-![A side-by-side comparison of the old Vendia logo in full color and greyscale illustrating there is no contrast at greyscale](https://user-images.githubusercontent.com/107442245/187555387-98eb19e7-3c1f-42ba-8fbf-3985ed902e99.png)
+![A side-by-side comparison of the old Vendia logo in full color and greyscale illustrating there is no contrast at greyscale](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187555387-98eb19e7-3c1f-42ba-8fbf-3985ed902e99.png)
 
 #### Conflicting visual messaging
 
 Conflicting visual messaging is a problem that’s somewhat unique to tech. Error and notification messages are widely used in web interfaces. There are four primary colors used to convey the difference in these messages: Blue = Information, Green = Success, Orange = Warning, Red = Error. In our case, our brand colors were nearly interchangeable with success and warning. Talk about sending a mixed message!
 
-![An illustration showing Vendia Green's affinity to a green success indicator marked with a checkmark inside a completion circle and Vendia Orange's affinity to an orange alert indicator marked with a checkmark inside a warning triangle](https://user-images.githubusercontent.com/107442245/187555577-ae06d04e-6ca0-4729-9def-92d08ac0a977.png)
+![An illustration showing Vendia Green's affinity to a green success indicator marked with a checkmark inside a completion circle and Vendia Orange's affinity to an orange alert indicator marked with a checkmark inside a warning triangle](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187555577-ae06d04e-6ca0-4729-9def-92d08ac0a977.png)
 
 Not only did this conflict make it hard to leverage the branding colors in the UI, but it was also hard to express well in product diagrams. We rarely used our brand Orange because it could be interpreted as meaning something bad.
 
@@ -67,7 +67,7 @@ Not only did this conflict make it hard to leverage the branding colors in the U
 
 While we did add a neutral blue ramp to improve accessibility, the overall color palette was limited to three main ramps. This made it difficult for people to leverage the brand colors in marketing and presentations.
 
-![A color palette showing the limitations of Vendia's old brand green, orange, and neutral blue](https://user-images.githubusercontent.com/107442245/187561881-82747e40-536c-4f29-a07a-5469763cd71e.png)
+![A color palette showing the limitations of Vendia's old brand green, orange, and neutral blue](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187561881-82747e40-536c-4f29-a07a-5469763cd71e.png)
 
 
 #### Inauthenticity
@@ -100,7 +100,7 @@ Always. Do. Research. This can be as extensive as interviewing customers, partne
 
 At Vendia, we did both:  We gathered initial reactions from investors and customers, and we followed that with a competitive analysis of companies in the industry. We then created a FigJam board with examples of logos, colors, iconography, and graphics to help us compare and contrast concepts.
 
-![A collection of screenshots showing unique tech brand graphics and color palettes](https://user-images.githubusercontent.com/107442245/187557484-ced470cf-1601-4047-975f-3881b7f05f14.png)
+![A collection of screenshots showing unique tech brand graphics and color palettes](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187557484-ced470cf-1601-4047-975f-3881b7f05f14.png)
 
 ### 4) Identify a few concept options to explore
 
@@ -117,13 +117,13 @@ Some questions to get you started are:
 
 For Vendia, we established three options. On the design team, we dubbed these options: “Fluffy Cloud,” “Neon,” and “Monochromatic.” Then, we created a mood board with examples of each.
 
-![Three moodboards showing the Fluffy Cloud, Neon, and Monochromatic brand design concepts](https://user-images.githubusercontent.com/107442245/187557917-19e95fbf-be74-4b49-b45d-330154dc1fe6.png)
+![Three moodboards showing the Fluffy Cloud, Neon, and Monochromatic brand design concepts](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187557917-19e95fbf-be74-4b49-b45d-330154dc1fe6.png)
 
 At a certain point, we realized that, while we loved the graphics we were pulling for inspiration, each one of those graphics would take us 5+ days to create. This would be fine if we had a small army of designers dedicated to creating these beautiful images. However, in reality, my team has one dedicated designer, she was usually turning out one to five images per day already. So. we needed a way to maintain this cadence while up-leveling the quality of the graphics.
 
 As a solution, we looked into graphic types that would be the fastest and easiest to create while still embracing the new styles. We found that each of the three options leveraged isometric graphics in some fashion. Because isometric graphics were consistent across all three of our design concepts, we could start making progress on this right away using the existing branding. Finding opportunities to make progress right away is one of the best things you can do to get the eventual buy-in.
 
-![Three sets of isometric graphics illustrating new brand design color stories](https://user-images.githubusercontent.com/107442245/187561393-543e2d63-0a20-4589-a1e2-97f9bada8b8d.png)
+![Three sets of isometric graphics illustrating new brand design color stories](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187561393-543e2d63-0a20-4589-a1e2-97f9bada8b8d.png)
 
 ### 5) Explore how each option will look in different areas
 
@@ -140,11 +140,11 @@ Some questions to get you started include:
 
 You’lll find that the core elements of each style will evolve and solidify during this step.
 
-![IBrand explorations in web UI, etc.](https://user-images.githubusercontent.com/107442245/187558564-69f4f53b-4619-41bc-800b-e052c1beb2a3.png)
+![IBrand explorations in web UI, etc.](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187558564-69f4f53b-4619-41bc-800b-e052c1beb2a3.png)
 
-![A collection of icons such as a keyboard, search magnifying glass, and security lock in the new Vendia color palette](https://user-images.githubusercontent.com/107442245/187559295-af20f875-1dc7-4948-a8e9-310490e5ed10.png)
+![A collection of icons such as a keyboard, search magnifying glass, and security lock in the new Vendia color palette](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187559295-af20f875-1dc7-4948-a8e9-310490e5ed10.png)
 
-![Swag such as a travel mug, frisbee, sunglasses, and stationery featuring the new Vendia logo](https://user-images.githubusercontent.com/107442245/187559119-39db7da4-4718-4fb9-91c7-3db440a64c20.png)
+![Swag such as a travel mug, frisbee, sunglasses, and stationery featuring the new Vendia logo](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187559119-39db7da4-4718-4fb9-91c7-3db440a64c20.png)
 
 
 
@@ -169,7 +169,7 @@ It’s the moment of truth and you’re finally going to present all of your har
 * End the presentation with a side-by-side comparison of each
 * Remain neutral as you open it up for discussion
 
-![Color wheels](https://user-images.githubusercontent.com/107442245/187560426-bd038393-76ce-4528-9740-cbb06dc73694.png)
+![Color wheels](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..187560426-bd038393-76ce-4528-9740-cbb06dc73694.png)
 
 You’ll be surprised how much this helps. We got a lot of comments like:
 

@@ -18,7 +18,7 @@ When Shruthi saw Tim’s logo, she knew it was meant to be. Years before she sta
 
 The first logo was short-lived, though. Shruthi and Tim hired an outside agency to build out the visual identity and website. (another big step in launching a company!) and the agency noted that our logo looked a bit like barbed wire! Not super friendly or on brand for an organization with a mission built around sharing. Enter our immediately previous logo, a tomato and teal (or ‘chicken tikka masalacolored’ as Shruthi says) logo for a more mature, professional brand identity.
 
-![Vendia logo evolution](https://user-images.githubusercontent.com/98492452/187510009-857f98b3-9b78-4ee5-8043-d3fc4b4e156f.png)
+![Vendia logo evolution](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..187510009-857f98b3-9b78-4ee5-8043-d3fc4b4e156f.png)
 
 
 ## Logo 2.0 becomes 3.0 because we’re Kind Humans, after all
@@ -35,7 +35,7 @@ But, it didn’t take long to see a few signals indicating it was time to reinve
 
 So, Shruthi and Tim asked our Head of Design, Hailey Nevins and the design team to revisit Vendia’s roots and bring the “fun” back to Vendia’s visual identity. The founders love where we landed.
 
-![The Vendia 3.0 logo fresh for 2022 and beyond](https://user-images.githubusercontent.com/98492452/187538692-e16d9acc-a823-44c7-be8a-1eb7b20629a3.png)
+![The Vendia 3.0 logo fresh for 2022 and beyond](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..187538692-e16d9acc-a823-44c7-be8a-1eb7b20629a3.png)
 
 Check out a behind the scenes look at Vendia’s creative process for our new logo and visual identity. [Read more.] (https://www.vendia.net/blog/brand-identity-buy-in)
 
