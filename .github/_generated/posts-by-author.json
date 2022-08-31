@@ -1,9 +1,24 @@
 {
+  "jake-partusch": [
+    {
+      "file": "/posts/2022-08-31-new-serverless-pricing.md",
+      "title": "Introducing developer-friendly pricing with our new Individual Plan",
+      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
+      "date": "2022-08-31",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Jake Partusch"
+      ]
+    }
+  ],
   "tim-wagner": [
     {
       "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
       "title": "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions",
-      "description": "Custom modeling and standard access platforms come together to make next-gen business APIs",
+      "description": "Custom modeling and standard access platforms come together to make next-gen business APIs.",
       "date": "2022-08-26",
       "categories": [
         "concepts",

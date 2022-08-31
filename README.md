@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Introducing developer-friendly pricing with our new Individual Plan](https://vendia.net/blog/new-serverless-pricing) <br/> Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction by Jake Partusch | 2022-08-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-08-31-new-serverless-pricing.md)
 | [When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions](https://vendia.net/blog/crud-new-rules-for-apis) <br/> Custom modeling and standard access platforms come together to make next-gen business APIs by Tim Wagner | 2022-08-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-08-26-crud-new-rules-for-apis.md)
 | [Q+A: Understanding Vendia Share’s approach to file sharing](https://vendia.net/blog/vendia-share-enterprise-file-sharing-platform) <br/> In Part 3 of our series on file sharing, we answer the top questions asked about controlled file sharing for enterprises and real-time file sharing outcomes for enterprises by Tim Wagner | 2022-08-24 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-08-24-vendia-share-enterprise-file-sharing-platform.md)
 | [Introduction to B2B data sharing with Vendia](https://vendia.net/blog/b2b-data-sharing) <br/> Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem by Vikrant Kahlir | 2022-08-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-02-24-b2b-data-sharing.md)
@@ -222,6 +223,13 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/hnevins"><sup><sub>Hailey Nevins</sub></sup></a>
   </td>
   <td align="center">
+      <a href="https://www.vendia.net/blog/author/jake-partusch">
+        <img src="https://avatars.githubusercontent.com/u/6424140?v=4&s=400" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/JakePartusch"><sup><sub>Jake Partusch</sub></sup></a>
+  </td>
+  <td align="center">
       <a href="https://www.vendia.net/blog/author/james-gimourginas">
         <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="76px;" alt=""/>
       </a>
@@ -249,6 +257,8 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/ryan_sb"><sup><sub>Ryan Scott Brown</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/shruthi-rao">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="76px;" alt=""/>
@@ -256,8 +266,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/shruthialways"><sup><sub>Shruthi Rao</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/tim-wagner">
         <img src="https://avatars3.githubusercontent.com/u/54867311?s=400" width="76px;" alt=""/>
