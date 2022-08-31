@@ -11,9 +11,9 @@ authors:
 
 # Introducing developer-friendly pricing with our new Individual Plan
 
-We love developers at Vendia and we appreciate those of you who are working on personal projects, testing and experimenting with a new idea. We wanted to support innovators and change makers like you (Yes, we are looking at you). For this reason, we are excited to announce our new Individual plan for Vendia Share. This new plan includes all of our latest features including multi-party data sharing, cross-cloud support, fine-grained access controls, data redaction, real-time notifications, and more.
+We love developers at Vendia and we appreciate those of you who are working on personal projects, testing and experimenting with a new idea. We want to support innovators and change makers like you (Yes, we are looking at you). For this reason, we are excited to announce our new Individual plan for Vendia Share. This new plan includes all of our latest features including multi-party data sharing, cross-cloud support, fine-grained access controls, data redaction, real-time notifications, and more.
 
-One of the benefits of building serverless applications is the ability to scale up (or down) with usage — with the new Individual plan, Vendia Share will scale to meet your needs.
+One of the benefits of building serverless applications is the ability to scale up (or down) with usage — with the new Individual plan, Vendia Share will scale to meet your needs without breaking the bank.
 
 ## Individual Plan Features
 
@@ -72,4 +72,8 @@ $3.90 real-time subscriptions
 
 **Total = $90.50**
 
-Ready to make your idea happen? Sign up for our [30 day free trial](https://vendia.net/pricing/individual).
+
+## Ready to make your idea happen? 
+As you can see, our new Individual plan gives you all the power and speed of Vendia at an affordable price. If you are ready to get started you can even try it for free for 30 days. [Sign up for a 30 day free trial here](https://vendia.net/pricing/individual).
+
+We can't wait to see what you end up building. 
