@@ -1,6 +1,18 @@
 {
   "company": [
     {
+      "file": "/posts/2022-09-01-brand-identity-buy-in.md",
+      "title": "How to get buy-in for a new brand identity",
+      "description": "Our Head of Design shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused.",
+      "date": "2022-09-01",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Hailey Nevins"
+      ]
+    },
+    {
       "file": "/posts/2022-08-31-new-serverless-pricing.md",
       "title": "Introducing developer-friendly pricing with our new Individual Plan",
       "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
