@@ -1,4 +1,89 @@
 {
+  "vikrant-kahlir": [
+    {
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "title": "Introduction to B2B data sharing with Vendia",
+      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
+      "date": "2022-08-23",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
+      "title": "What is operational data sharing?",
+      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "categories": [
+        "concepts"
+      ],
+      "date": "2022-07-26",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "title": "3 core use cases for Vendia Share in the semiconductor industry",
+      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
+      "draft": false,
+      "date": "2022-07-07",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
+      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
+      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
+      "draft": false,
+      "date": "2022-06-29",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "title": "13 Features You Need to Evaluate an Enterprise Blockchain Platform",
+      "description": "When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.",
+      "date": "2022-02-18",
+      "draft": false,
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
+      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
+      "draft": false,
+      "date": "2022-02-09",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "title": "Applying Domain Driven Design to Blockchains",
+      "description": "This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform",
+      "date": "2022-01-14",
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
   "caroll-casbeer": [
     {
       "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
@@ -639,79 +724,6 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
-    }
-  ],
-  "vikrant-kahlir": [
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "title": "Introduction to B2B data sharing with Vendia",
-      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
-      "date": "2022-08-23",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
-      "title": "What is operational data sharing?",
-      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
-      "categories": [
-        "concepts"
-      ],
-      "date": "2022-07-26",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
-      "title": "3 core use cases for Vendia Share in the semiconductor industry",
-      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
-      "draft": false,
-      "date": "2022-07-07",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
-      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
-      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
-      "draft": false,
-      "date": "2022-06-29",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
-      "title": "13 Features You Need to Evaluate an Enterprise Blockchain Platform",
-      "description": "When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.",
-      "date": "2022-02-18",
-      "draft": false,
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
-      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
-      "draft": false,
-      "date": "2022-02-09",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "title": "Applying Domain Driven Design to Blockchains",
-      "description": "This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform",
-      "date": "2022-01-14",
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
-      "authors": [
-        "Vikrant Kahlir"
       ]
     }
   ],

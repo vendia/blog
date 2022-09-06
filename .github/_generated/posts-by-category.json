@@ -1,6 +1,18 @@
 {
   "company": [
     {
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
       "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
       "title": "How to find your people: Notes on hiring and interviewing for kind humans",
       "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
