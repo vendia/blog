@@ -5,10 +5,14 @@ date: '2022-09-06'
 categories:
 - company
 authors:
-  - Renee Fujii
+  - Caroll Casbeer
 ---
 
-Hiring the right people is hard. As Leadership IQ [reports](https://www.leadershipiq.com/blogs/leadershipiq/35354241-why-new-hires-fail-emotional-intelligence-vs-skills), only 11% of new hire failures are due to lack of technical skills. The other 89% of new hire failures are related to attitude. So, when we recruit and grow our team at Vendia, finding kind humans is critical. After all, a great teammate is more than technically proficient. A great teammate elevates the company, their coworkers, and our work itself. At Vendia, we believe a big part of this greatness is kindness.
+_Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind._
+
+
+## Hiring the right people is hard: Kindness matters
+As Leadership IQ [reports](https://www.leadershipiq.com/blogs/leadershipiq/35354241-why-new-hires-fail-emotional-intelligence-vs-skills), only 11% of new hire failures are due to lack of technical skills. The other 89% of new hire failures are related to attitude. So, when we recruit and grow our team at Vendia, finding kind humans is critical. After all, a great teammate is more than technically proficient. A great teammate elevates the company, their coworkers, and our work itself. At Vendia, we believe a big part of this greatness is kindness.
 
 Our [co-founders](https://www.vendia.net/blog/meet-vendias-founders) created our the [Kind Humans Policy](https://www.vendia.net/kind-humans) (KHP) so that Vendia will be an environment where people can be their best selves and do their best work. We’re in the business of making sharing better, so we want to work with people who work well with a team but aren’t afraid to ask the hard questions. 
 
