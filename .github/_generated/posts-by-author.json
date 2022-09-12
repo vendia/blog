@@ -429,9 +429,12 @@
     },
     {
       "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
-      "title": "The three-body problem (NFTs), #4 | Better together: Using the best of centralized IT, private blockchains, and public blockchains",
-      "description": "While NFTs offer the promise of a global, tamperproof record of ownership but don’t support the business workflows and relationships required for commercialization.",
+      "title": "Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs",
+      "description": "Wrap up our four-part series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
       "date": "2022-04-26",
+      "categories": [
+        "concepts"
+      ],
       "authors": [
         "Tim Wagner"
       ]

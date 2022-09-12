@@ -473,6 +473,18 @@
       ]
     },
     {
+      "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
+      "title": "Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs",
+      "description": "Wrap up our four-part series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
+      "date": "2022-04-26",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
       "title": "How blockchain did (and did not) pan out as a modern IT solutions",
       "description": "Dive into Part 2 of our series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
