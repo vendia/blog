@@ -1,13 +1,13 @@
 ---
-title: 'Applying Domain Driven Design to Blockchains'
-description: 'This is the post about 4 DDD Patterns for your Next Distributed Ledger or Permissioned Private Blockchain created on Vendia Share data platform'
+title: 'Applying Domain Driven Design (DDD) to blockchains'
+description: 'Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.'
 date: '2022-01-14'
+categories:
+- product
 thumbnail: https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg
 authors:
   - Vikrant Kahlir
 ---
-
-# Applying Domain Driven Design to Blockchains
 
 Vendia Share is a platform that you can use to quickly build real-time data sharing applications which we call Universal Applications (or "Unis" for short). 
 
@@ -37,7 +37,7 @@ There are various ways in which you can come up with boundaries for your domains
 <p align="center">Figure 1 - eCommerce example domain model</p>
 
 
-## Business Meets Software
+## Business meets software
 
 In the real world where everything is software with an existing install base, it is very hard to define a DDD bounded context. The way the business is organized and the way technology is implemented may not align well. In such cases, it becomes a three-legged race. It is more art than science. You can come up with several DDD models. But, the model that will prove useful is the one that will remove bottlenecks to improve software time to market and to service the core use case of the domain.
 
@@ -60,7 +60,7 @@ Listed below are best practices for building services and data models for a boun
 Hopefully, this gives you a good introduction or refresher on DDD. Next, we develop an understanding of a Uni's structure, terms, and concepts. 
 
 
-## Uni Development Lifecycle
+## Uni development lifecycle
 
 A Uni is a cross-cloud, cross-party, cross-account, cross-region data and code sharing application powered by Vendia's serverless distributed ledger technology. A uni is composed of [nodes](https://www.vendia.net/docs/share/terms-and-definitions#node) modeling [participants](https://www.vendia.net/docs/share/terms-and-definitions#participants), each of which possesses an ordered, replicated distributed [ledger](https://www.vendia.net/docs/share/terms-and-definitions#ledger) that originates from a data model.
 
@@ -72,7 +72,7 @@ A Uni software development life cycle has five stages: Model, Design, Create, Op
 <p align="center">Figure 3 - Uni Development Lifecycle Stages</p>
 
 
-## Uni Schema Anatomy
+## Uni schema anatomy
 
 Let’s imagine a simple Uni schema that provides a datastore for core customer data attributes. Figure 4 breaks the Uni schema into parts and tries to map it to concepts you use in a relational database. This will help you quickly get started on building your own Uni. 
 
@@ -85,7 +85,7 @@ Let’s imagine a simple Uni schema that provides a datastore for core customer 
 ## Applying DDD to Vendia Share Unis
 
 
-### Pattern 1: Single Domain, Single Bounded Context, and a Single Uni
+### Pattern 1: Single domain, single bounded Context, and a single Uni
 
 This pattern is well suited for organizations that want to build small custom applications surrounding complex enterprise applications, or organizations that want to construct a new application to prove a new business idea. 
 
@@ -114,7 +114,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 </details>
 
 
-### Pattern 2: Single Domain, Multiple Bounded Contexts, and a Single Uni
+### Pattern 2: Single domain, multiple bounded contexts, and a single Uni
 
 This pattern is well suited for organizations that already have experience working with Unis and want to leverage an existing Uni implementation in their organization with more custom and new applications. This model is also a good fit for new analytics focused domains within the organization that have not built their software platform yet. These organizations can continue to operate lean by leveraging Unis owned by other domains with read-only copies of data for analytics and visualization. 
 
@@ -142,7 +142,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 </details> 
 
 
-### Pattern 3: Two Different Domains, Same Bounded Context,  a Single Uni
+### Pattern 3: Two different domains, same bounded context, a Single Uni
 
 This pattern is applicable for organizations that have software systems in an existing domain but want to leverage Unis owned and operated by other domains for access to a small part of the domain data model. The intent is to scale as much as on existing Unis owned by other domains before deploying a dedicated Uni for the domain.
 
@@ -172,7 +172,7 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 </details> 
 
 
-### Pattern 4: Multiple Domains, Multiple Bounded Contexts, and Multiple Unis
+### Pattern 4: Multiple domains, multiple bounded contexts, and multiple Unis
 
 This pattern is applicable to large enterprise customers with strong governance and control requirements for software owned and operated by each domain. You will also consider this pattern if the domain data model is complex, requires higher assurance and guarantee on throughput, or sensitivity of your domain justifies Uni level isolation. 
 
@@ -201,4 +201,4 @@ Follow the instructions in the [README](https://github.com/vendia/examples/blob/
 
 ## What’s next
 
-Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please engage with us on [Vendia Discourse](https://community.vendia.net/c/resources/8), and if you completed a Proof of Concept(PoC) tag us on Twitter at [@VendiaHQ](https://twitter.com/VendiaHQ) and to receive some Vendia SWAG.
+Now you have a solid understanding of using DDD concepts to design a Uni schema and create a Uni. As a next step, think about a business problem you can solve with a Uni. Creating a Uni doesn’t require a big team; you can easily do it as a side-hustle to prove your idea. If you need help getting started, please engage with us on [Vendia Discourse](https://community.vendia.net/c/resources/8), and if you completed a Proof of Concept(PoC) tag us on Twitter at [@VendiaHQ](https://twitter.com/VendiaHQ).
