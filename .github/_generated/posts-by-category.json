@@ -473,6 +473,18 @@
       ]
     },
     {
+      "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
+      "title": "How blockchain did (and did not) pan out as a modern IT solutions",
+      "description": "Dive into Part 2 of our series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
+      "date": "2022-04-01",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
       "title": "Multi-party data sharing with control",
       "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",

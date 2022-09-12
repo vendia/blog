@@ -484,9 +484,12 @@
     },
     {
       "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
-      "title": "The 3 Key Elements of Modern IT Solutions: Centralized IT, Private Chains, Public Chains",
-      "description": "Part 1 of our series examining the relationship between blockchain and centralized technologies ",
+      "title": "How blockchain did (and did not) pan out as a modern IT solutions",
+      "description": "Dive into Part 2 of our series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
       "date": "2022-04-01",
+      "categories": [
+        "concepts"
+      ],
       "authors": [
         "Tim Wagner"
       ]
