@@ -597,8 +597,8 @@
     },
     {
       "file": "/posts/2022-01-04-azure-eventing.md",
-      "title": "Real-Time Cross-Cloud Data Sharing",
-      "description": "Event-driven processing using Vendia Share's new Azure capabilities",
+      "title": "Real-Time cross-cloud data sharing",
+      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
       "date": "2022-01-04",
       "categories": [
         "architecture"
