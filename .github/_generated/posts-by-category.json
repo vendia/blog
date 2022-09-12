@@ -304,6 +304,19 @@
       "authors": [
         "David Brown"
       ]
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "title": "Applying Domain Driven Design (DDD) to blockchains",
+      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+      "date": "2022-01-14",
+      "categories": [
+        "product"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
     }
   ],
   "concepts": [
