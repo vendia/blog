@@ -1,7 +1,9 @@
 ---
-title: 'No More Burnout: Reflections after 6 months at Vendia'
-description: "Why I don't regret leaving the Fortune 100 tech industry to work for a startup."
+title: 'No more burnout: Reflections after 6 months at Vendia'
+description: "Head of Design, Hailey Nevins, sharees why she doesn't regret leaving the Fortune 100 tech industry to work for a startup."
 date: '2022-04-25'
+categories:
+- company
 authors:
   - Hailey Nevins
 ---
@@ -98,14 +100,12 @@ Often times when working remote, it can be hard to connect with coworkers and bu
 
 ## Take the leap
 
-So, do I regret my decision to leave the fortune 100 tech industry and join a rising startup?
-
-No. Not even a little.
+So, do I regret my decision to leave the fortune 100 tech industry and join a rising startup? No. Not even a little.
 
 Mentally, physically, emotionally - it was the best decision I ever made. When I spend time with family and friends, I am actually present. I am actually able to enjoy the time I have with them because the weight of my job is not trying to crush me every second of the day. I have time to exercise. I've lost 20 pounds. I have hobbies again. I read 12 books in the last month alone. I don't remember the last time I did that.
 
 Did I take a pay cut in exchange for more responsibility and title? Yes, a fairly sizable one too.
 
-Was it worth it? Absolutely. Because it turns out - you really can't put a price on happiness.
+Was it worth it? Absolutely. Because it turns out...you really can't put a price on happiness.
 
-If you're thinking about [joining Vendia](https://www.vendia.net/careers) - reach out. We are always looking for more Kind Humans.
+If you're thinking about a new role in tech or [joining Vendia](https://www.vendia.net/careers), reach out. We are always looking for more Kind Humans.
