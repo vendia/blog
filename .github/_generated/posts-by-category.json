@@ -306,6 +306,19 @@
       ]
     },
     {
+      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
+      "title": "Why we combined GraphQL and a serverless distributed ledger",
+      "description": "Learn why Vendia selected GraphQL as Vendia' Share's primary interface and how it can improve your development experience with Vendia Share with context from Brian McNamara, Sr. Solutions Architect.",
+      "date": "2022-01-18",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
+    },
+    {
       "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
       "title": "Applying Domain Driven Design (DDD) to blockchains",
       "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
@@ -488,11 +501,12 @@
     },
     {
       "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
-      "title": "Why We Combined GraphQL and a Serverless Distributed Ledger",
-      "description": "Making Strategic Decisions to Enable a Platform",
+      "title": "Why we combined GraphQL and a serverless distributed ledger",
+      "description": "Learn why Vendia selected GraphQL as Vendia' Share's primary interface and how it can improve your development experience with Vendia Share with context from Brian McNamara, Sr. Solutions Architect.",
       "date": "2022-01-18",
       "categories": [
-        "concepts"
+        "concepts",
+        "product"
       ],
       "authors": [
         "Brian McNamara"
