@@ -1,15 +1,14 @@
 ---
-title: 'The three-body problem (NFTs), #4 | Better together: Using the best of centralized IT, private blockchains, and public blockchains'
-description: 'While NFTs offer the promise of a global, tamperproof record of ownership but don’t support the business workflows and relationships required for commercialization.'
+title: 'Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs'
+description: 'Wrap up our four-part series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.'
 date: '2022-04-26'
+categories:
+- concepts
 authors:
   - Tim Wagner
 ---
 
-In the [previous post](https://www.vendia.net/blog/nft-it-business-example) we “built” an imaginary licensing business two ways: First as a centralized (conventional) implementation, then again as an NFT. Neither succeeded in giving us everything we wanted. In this post, we’ll try something different: We’ll use all centralized, private chains, and public chains in concert and see how that goes.
-
-## Quick refresher: How each party can contribute
-
+## Quick refresher
 Conventional (centralized) architectures provide a key set of benefits and suffer from a key set of gaps. NFTs offer the promise of a global, tamperproof record of ownership but don’t support the business workflows and relationships required to commercialize this example. A well-architected “three-body” approach seeks to preserve the advantages of existing (centralized) approaches while adding key functionality through the careful incorporation of private and public chain technologies.
 
  In this approach, each category plays a key role, chosen to align with its strengths and weaknesses profile as discussed in the previous posts:
@@ -24,7 +23,10 @@ Lower cost aggregate information is stored in a service such as IPFS, mapping pu
 Combining centralized, private, and public chain approaches yields the best business outcome, with each contributing its unique benefits.
 
 ### Read the backstory
-To track how we landed on this conclusion, revisit the three previous posts in this series:
+To track how we landed on this conclusion, revisit the three previous posts in this series led by Vendia CEO and co-founder Tim Wagner as he examines the relationship between public and private blockchains and their relationship with centralized IT technology:*
 1. The Three-body problem, Part 1 | [The 3 key elements of modern IT solutions](https://www.vendia.net/blog/private-vs-public-blockchains)
 2. The three-body problem, Part 2 | [Strengths and weaknesses of centralized IT, private chains, and public chains](https://www.vendia.net/blog/blockchains-vs-cloud-and-it)
-3. The three-body problem, Part 3 | [Comparing approaches with the Adobe Stock™️ example](https://www.vendia.net/blog/nft-it-business-example)
+3. The three-body problem, Part 3 | [Real-world examples: How the 3 bodies impact NFTs and the imaging business](https://www.vendia.net/blog/nft-it-business-example)
+
+## Discover next-gen blockchain
+**Vendia Share combines the trust of blockchain with the speed and scale of serverless, so your enterprise gets controlled, permissioned single source of truth for real-time data sharing across partners, geographies, clouds, and applications. [Learn more](https://www.vendia.net/use-cases/next-gen-blockchain)**
