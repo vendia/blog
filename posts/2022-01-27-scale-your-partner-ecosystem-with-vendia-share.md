@@ -1,6 +1,6 @@
 ---
-title: "Scale Your Partner Ecosystem with Vendia Share"
-description: "Addressing the Challenge with Minimal Friction"
+title: "How to scale your data ecosystem with Vendia Share"
+description: "Bring multiple data partners from your business network into a controlled, compliant real-time data sharing platform in just minutes with this tutorial from the Solution Architecture team."
 date: '2022-01-27'
 categories:
 - tutorials
@@ -11,31 +11,31 @@ authors:
 
 [Vendia Share](https://www.vendia.net/product) simplifies the process of sharing data in real-time between organizations in a controlled, secure, and ledgered manner. Traditionally, sharing data in this manner is tough. There are several challenges that come to mind.
 
-# Challenges 
+## Challenges in multi-partner data sharing
 
 Maintaining a single source of truth between organizations can be difficult. Databases are a popular information store, but securely sharing data from them with other organizations involves a number of compliance, security, and networking considerations that often mean slow action. Some organizations choose to share critical data with partners via spreadsheets. Using this method presents its own set of challenges. It's not apparent which spreadsheet is the latest and most complete source of truth.
 
-Vendia Share helps you solve this problem by provisioning a node for each organization that you wish to share data with. Each node provides a consistent view of the data that is shared with other parties, and each node has its own API endpoint dedicated to the organization that needs to securely access the data.
+[Vendia Share](https://www.vendia.net/product helps you solve this problem by provisioning a node for each organization that you wish to share data with. Each node provides a consistent view of the data that is shared with other parties, and each node has its own API endpoint dedicated to the organization that needs to securely access the data.
 
 Centralized approaches to data sharing often result in disjointed authentication (AuthN) and authorization (AuthZ). The central organization will likely have a preference for how partners will log in to access data. It will also likely have existing tooling and mechanisms in place to support users. However, partners in the data network may have different means of authenticating and managing users. Vendia Share is flexible enough to allow each participant in a Uni to configure their own authorization type.
 
 Onboarding new participants to a partner data network historically has been difficult. Often technical teams need to update topologies and networks for each new addition. The steps involved to bring in a new partner can take days if not months. Vendia Share reduces the time to minutes and does without the support of highly valuable engineers, as you will see in this post.
 
-# Getting Started with Partner Onboarding
+## Getting started with partner onboarding
 
-## Creating Vendia Share Accounts
+### Creating Vendia Share accounts
 
 Vendia customers share data using a Vendia Share Universal Application (or "Uni" for short). Each participant in a Uni has a dedicated node for reading and writing data. We will simulate two companies sharing data by using two Vendia Share accounts. If you are not familiar with how to create a Vendia Share account, please consult our [Getting Started](https://www.vendia.net/blog/getting-started-with-vendia-share#creating-an-account) documentation. We will refer to these accounts as **Account 1** and **Account 2**. You will create your Uni using **Account 1**. **Account 2** will be invited to join the Uni and create its own Vendia Share node. 
 
 **NOTE:** The example in the blog will use two separate Vendia Share accounts associated with the same email account. I've used the [plus ("+") sign](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) to associate two Vendia Share users with the same email account.
 
-## Creating a Uni
+### Creating a Uni
 
 For the purposes of this walkthrough, we will use the [Product Catalog](https://www.vendia.net/docs/share/quickstart/simple-product-catalog) from our Quick Starts. Once you've created a Uni using **Account 1**, feel free to proceed with the remainder of the steps in this blog.
 
 **NOTE:** The commands below assume a Uni name of `test-uni-management`. Adjust commands below that use the Uni name to match the one you used.
 
-## Inviting Your Partner
+### Inviting your partner(s0
 
 Now that the Uni is up and running, you will invite **Account 2** to the Uni. You can do this either with the Vendia Share web app or the Share CLI. For the purpose of this blog, you'll use the CLI syntax. My **Account 1** e-mail address format is `brian+account1@vendia.net` and my **Account 2** e-mail address is `brian+account2@vendia.net`. 
 
@@ -88,7 +88,7 @@ export VENDIA_TOKEN=12345678-abcd-1234-abcd-123456789012
 
 Your **Account 2** email address should have a message from Vendia, inviting you to join the Uni created by **Account 1**.
 
-## Joining the Uni with Account 2
+### Joining the Uni with Account 2
 
 You can use the Vendia Share web app when logged in as **Account 2** to complete the Uni join process. You can click on the link included in the invitation email. However, I will show you how to use the Share CLI to complete the same task.
 
@@ -158,7 +158,7 @@ To display schema & initial state, use the --json flag. Example: "share get test
 
 The node creation process will take a few minutes. When the node creation is complete, feel free to step through the [Product Catalog Quick Start](https://www.vendia.net/docs/share/quickstart/simple-product-catalog#step-3---query-catalog-data) and observe how data updates can be viewed by both participants in the Uni.
 
-## Cleanup
+### Cleanup
 
 Once you are finished running the example you can delete the Uni. You will run the `share uni delete` command as **Account 1**.
 
@@ -170,6 +170,6 @@ share uni delete --uni test-uni-management
 
 **NOTE:** The name of my Uni is `test-uni-management`. Be sure to adjust the command and use the name of the Uni you created.
 
-# Summary
+## You did it, so what's next?
 
-In this blog post, you created a Uni and added a second participant in minutes, allowing multiple partners to quickly and securely share data in real-time. Once you have completed the walkthrough, feel free to share your results on social media and tag Vendia (Twitter: [@VendiaHQ](https://twitter.com/VendiaHQ), Linkedin: [Vendia](https://www.linkedin.com/company/vendiahq/)) so that we can see what you built!
+Share your results on social media and tag Vendia (Twitter: [@VendiaHQ](https://twitter.com/VendiaHQ), Linkedin: [Vendia](https://www.linkedin.com/company/vendiahq/)) so that we can see what you built!
