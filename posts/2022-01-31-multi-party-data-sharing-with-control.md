@@ -1,6 +1,6 @@
 ---
 title: "Multi-party data sharing with control"
-description: "How Vendia Share's access controls enable trusted and secure real-time data sharing among partners"
+description: "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team."
 date: '2022-01-31'
 categories:
 - architecture
@@ -35,12 +35,12 @@ As captured in Figure 1, the user and Uni access controls protect the Vendia Sha
 
 Now let's examine each access control in depth.
 
-## User access controls
+### User access controls
 
-### Purpose
+#### Purpose
 User access controls protect the user account management operations provided by Vendia Share. This prevents unauthorized access to user management functions and enables features like self-service user management within an organization.
 
-### Approach
+#### Approach
 The Vendia Share control plane is where Vendia Share user accounts are stored. Authorization to specific user account management operations that act on user accounts is granted through a Role Based Access Control (RBAC) mechanism.
 
 <figure>
@@ -50,7 +50,7 @@ The Vendia Share control plane is where Vendia Share user accounts are stored. A
 
 Before going further, it's important to define a few key RBAC terms, as they relate to user access controls.
 
-#### Key terminology
+##### Key terminology
 * **Action** - the right to call one or more of Share's user account management operations
 * **Resource** - the user account against which an Action can be performed
 * **Capability** - a mapping of Action to Resource, linking the "right to call" (an operation) with the "right to manage" (a user account)
@@ -114,16 +114,16 @@ There are also a specific set of [Resource](https://www.vendia.net/docs/share/rb
 
 A Vendia Share user can use either a [default role](https://www.vendia.net/docs/share/rbac#types-of-users-and-default-roles) or a [custom role](https://www.vendia.net/docs/share/cli/commands/auth#auth-role-set) when attempting to invoke one of the user management operations made available through Vendia Share's control plane API. The Vendia Share [Command Line Interface (CLI)](https://www.vendia.net/docs/share/cli) provides a quick and easy way to invoke these operations but those same interactions can also be achieved using a GraphQL client of your choice.
 
-### Examples
+#### Examples
 We've created a [set of examples](https://github.com/vendia/examples/tree/main/features/share/access-controls/user-access-controls) to demonstrate how user controls can be viewed and managed and the implications of their settings on user account management operations.  These include invocation of control plane APIs using the [Vendia Share CLI](https://www.vendia.net/docs/share/cli) and a GraphQL client.
 
-### Enterprise-only features
+#### Enterprise-only features
 More advanced user controls scenarios and self-service features are available for our [Enterprise customers](https://www.vendia.net/pricing).  While we won't cover those in detail here, the permission necessary originates from the creation of an administrator role. An administrator can then invoke otherwise unauthorized API operations (e.g., createUser) or grant escalated privileges to other accounts within the administrator's organization (i.e., setUserRole).
 
-## Uni access controls
+### Uni access controls
 Uni access controls protect the Uni management operations provided by Vendia Share.  Authorization to specific Uni management operations is granted through an RBAC mechanism, very similar to the RBAC mechanism that protects user controls.
 
-### Approach
+#### Approach
 In addition to storing user accounts, Vendia Share's control plane also stores information about all Unis and nodes deployed across the platform.  Authorization to specific Uni management operations that act on Uni and node configuration is granted through an RBAC mechanism.
 
 <figure>
@@ -134,7 +134,7 @@ In addition to storing user accounts, Vendia Share's control plane also stores i
 
 We can slightly modify the RBAC terms from the previous section to make them specific to Uni management.
 
-#### Key terminology
+##### Key terminology
 * **Action** - the right to call one or more of Share's Uni management operations
 * **Resource** - the Uni or node against which an Action can be performed
 * **Capability** - a mapping of Action to Resource, linking the "right to call" (an operation) with the "right to manage" (a Uni or node)
@@ -215,17 +215,17 @@ There are a set of [Actions](https://www.vendia.net/docs/share/rbac#user-actions
 There are a different set of [Resource](https://www.vendia.net/docs/share/rbac#uni-formats) formats that are permitted for Uni management purposes. The formats can be used to describe one or more Unis in a single statement. These are the Unis against which an Action from above can act upon.
 
 
-### Examples
+#### Examples
 We've created [a set of examples](https://github.com/vendia/examples/tree/main/features/share/access-controls/uni-access-controls) to demonstrate how Uni Controls can be viewed and managed and the implications of their settings on Uni management operations. These include invocation of control plane APIs using the [Vendia Share CLI](https://www.vendia.net/docs/share/cli) and a GraphQL client.
 
 
-## Node Access Controls
+### Node Access Controls
 
-### Purpose
+#### Purpose
 Node Access Controls authorize requests to a specific node's GraphQL API. They can be thought of as the "coarse-grained" authorization to the GraphQL API. They act as an enforcement point, permitting or denying every request. Whether that authorization mechanism is direct (e.g. performed by Vendia Share) or indirect (e.g. delegated to another authorization service), the Node Access Controls are responsible for preventing unauthorized API access.
 
 
-### Approach
+#### Approach
 A Vendia Share Uni contains one or more nodes. Each node maintains its own authentication and authorization configuration, allowing authorization approaches across nodes to differ while still retaining a shared source of truth across nodes in the form of a serverless distributed ledger.
 
 The GraphQL API that provides access to the serverless distributed ledger available on a node is protected by the Node Access Control configured when a node is created. Each participant in a Uni can select a different authorization scheme, depending on their authorization preferences.
@@ -242,16 +242,16 @@ Within a single organization, it may be preferable to create a two-node Uni to i
 Across organizations, each participant is likely to have a unique set of authorization requirements and existing solutions. Giving each participant the ability to use their existing solutions without impacting the other is one of the key benefits of a decentralized platform like Vendia Share.
 
 
-### Examples
+#### Examples
 We've created a [set of examples](https://github.com/vendia/examples/tree/main/features/share/access-controls/node-access-controls) to demonstrate how Node Access Controls can be configured and the implications of their settings on clients interfacing with a node's GraphQL API.
 
 
-## Data access controls
+### Data access controls
 
-### Purpose
+#### Purpose
 Data Access Controls allow a data writer to dictate access rights to the data they've written to a Uni. They can be thought of as the "fine-grained" authorization to the data.  These controls take the form of an Access Control List (ACL), and can be applied to either at the object (e.g., a `PurchaseOrder`) or property (e.g., just the `price` field within a `PurchaseOrder`) level of a data structure.
 
-### Approach
+#### Approach
 Unlike centralized architectures, where a single data owner dictates the data access permissions of all participants, Vendia Share's decentralized architecture empowers every data writer with the ability to control data access (i.e., to act as a data owner). Data access controls protect the ability to read and the ability to modify. While Node Access Controls may permit a GraphQL query to be received by a node, Data Access Controls may restrict the data values returned to the caller. Likewise, while Node Access Controls may permit a GraphQL mutation to be received by a node, Data Access Controls may restrict data modification if the caller is not permitted to do so because of an existing ACL.
 
 <figure>
@@ -261,7 +261,7 @@ Unlike centralized architectures, where a single data owner dictates the data ac
 
 Figure 5 depicts a two-node Uni, each with [data access controls](https://www.vendia.net/docs/share/fine-grained-data-permissions) applied to data stored in the ledger. This allows the writer of any record to dictate the read and write permissions of other nodes, at the record or field level.
 
-#### Key terminology
+##### Key terminology
 * **Object** - An entity that can written to Vendia Share, consisting of one or more properties, including an optional `acl` property
 * **Path** - An optional path to a specific property within the object being protected by an ACL
 * **Principal** - A node in the Uni, against which an ACL will be applied
@@ -270,11 +270,10 @@ Figure 5 depicts a two-node Uni, each with [data access controls](https://www.ve
 
 Data Access Controls are a very important and deep topic. Check out the [docs](https://www.vendia.net/docs/share/fine-grained-data-permissions) for more information and this [blog post](https://www.vendia.net/blog/sharing-data-with-fine-grained-control) for a concrete scenario that will help you better understand the full set of capabilities they enable.
 
-### Examples
+#### Examples
 We've also created a [set of examples](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls) to demonstrate how Data Access Controls can be configured and the implications on the ability for other participants to read and write data using their node's GraphQL API.
 
-## Conclusion
+## Learn more
 Using the access controls outlined above, participants will quickly grow comfortable sharing more data, with more fellow participants, with confidence.  Increasing data sharing can unlock the participants' ability to optimize their collective operations, explore new business models, and maximize the value of their real-time data. Vendia Share's existing controls allow for a rich set of protections to be established before, during, and after a Uni is created to encourage secure data sharing. These controls are often a key element to participants becoming comfortable with the notion of _sharing with control_.
 
-## Learn more
 Explore our [FAQs](https://www.vendia.net/docs/share/faq) and take a closer look at real-time data sharing [use cases](https://www.vendia.net/use-cases). 
