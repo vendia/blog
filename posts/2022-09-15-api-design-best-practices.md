@@ -68,7 +68,7 @@ By starting with a well-defined and well-constructed data model:
 
 Use a set of standards and conventions to complement your API style choice. By adopting well-known standards and conventions, you’ll improve the adoption, simplicity, and speed to value of those using your API. One of the common pitfalls of API design is undervaluing the experience API users have using _other _APIs.  If your API is designed with standards and conventions incorporated, those experiences can make adoption of _your _API a breeze.
 
-Fortunately, REST APIs borrow heavily from the [HTTP specification](https://spec.graphql.org/June2018/#sec-Overview), while GraphQL has a [thorough specification](https://spec.graphql.org/June2018/#sec-Overview) as well. By sticking to the norms of either approach, your users will have a better initial experience with your API.
+Fortunately, REST APIs borrow heavily from the [HTTP specification](https://www.rfc-editor.org/rfc/rfc9110.html), while GraphQL has a [thorough specification](https://spec.graphql.org/June2018/#sec-Overview) as well. By sticking to the norms of either approach, your users will have a better initial experience with your API.
 
 ### Secure by design
 
