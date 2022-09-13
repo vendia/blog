@@ -38,5 +38,25 @@
   {
     "slug": "realtimedatasharing",
     "description": "Real time data sharing"
+  },
+  {
+    "slug": "blockchain",
+    "description": "Blockchain"
+  },
+  {
+    "slug": "dataalliance",
+    "description": "Data alliance"
+  },
+  {
+    "slug": "graphql",
+    "description": "Graph QL"
+  },
+  {
+    "slug": "Leanapps",
+    "description": "Lean apps"
+  },
+  {
+    "slug": "smartapis",
+    "description": "Smart APIs"
   }
 ]
