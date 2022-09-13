@@ -15,8 +15,8 @@ API design is a popular — and often contentious — topic. Interest in the lat
 While there are certainly different opinions on API design best practices, there is strong agreement that a high-quality API conveys a number of benefits to API users. These benefits can be grouped in a few simple categories:
 
 * **Ease of adoption** – Easy to learn about the API and get started
-* **Simplicity of development** –Simple API interactions that require minimal code
-* **Speed to value**– Made possible by the two items above
+* **Simplicity of development** – Simple API interactions that require minimal code
+* **Speed to value** – Made possible by the two items above
 * **Ease of expansion** – Easy to increase use of an API ( e.g., more operations, more complex interaction patterns) without substantial rework or additional technologies
 
 These benefits are usually made possible when a few overarching themes are prioritized in the API design process:
@@ -137,6 +137,6 @@ Vendia Share brings a similar [automated API approach](https://www.vendia.net/pr
 
 Well designed APIs are an important component of modern data sharing applications.  If you enjoyed this post, you may also want to:
 
-* Learn more about [Smart APIs](https://www.vendia.net/blog/ask-the-expert-apis) and how they simplify the complexity of automatically keeping data consistent, correct, and up-to-date across multiple parties
+* Learn more about [smart APIs](https://www.vendia.net/blog/ask-the-expert-apis) and how they simplify the complexity of automatically keeping data consistent, correct, and up-to-date across multiple parties
 * Explore how APIs, Blockchains, and Cloud Databases can [complement each other](https://www.vendia.net/blog/venn-diagramming-vendia-share) when building modern, real-time data sharing applications
-* Try [Vendia Share](https://www.vendia.net/pricing) for free to see how API design best practices, Smart APIs, and real-time data sharing come together in a unified platform
+* Try [Vendia Share](https://www.vendia.net/pricing) for free to see how API design best practices, smart APIs, and real-time data sharing come together in a unified platform
