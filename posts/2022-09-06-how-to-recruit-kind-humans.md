@@ -5,7 +5,7 @@ date: '2022-09-06'
 categories:
 - company
 authors:
-  - Caroll Casbeer
+  - Renee Fujii
 ---
 
 _Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind._
