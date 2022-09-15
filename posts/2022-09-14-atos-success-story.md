@@ -1,6 +1,6 @@
 ---
 title: 'How Atos streamlined the reinsurance process and built trust among financial services partners'
-description: 'Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design..'
+description: 'Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.'
 date: '2022-09-14'
 categories:
 - product
