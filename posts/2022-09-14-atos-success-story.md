@@ -68,4 +68,4 @@ Vendia Share also did much more than simply reduce the level of technical expert
 
 _If your data workflows across business networks are fragmented, delayed, and highly manual, you’re ill-prepared to respond quickly to market stress such as changes in consumer demands, supply chain issues, or new regulations._ 
 
-_Learn how Vendia Share can help enterprises automate and accelerate data workflows across business networks by facilitating secure, trusted, and controlled data exchange between multiple parties. Explore the platform [overview](https://www.vendia.net/product), check out [pricing](https://www.vendia.net/pricing), or request your [proof of concept](https://www.vendia.net/poc)_
+_Learn how Vendia Share can help enterprises automate and accelerate data workflows across business networks by facilitating secure, trusted, and controlled data exchange between multiple parties. Explore the platform [overview](https://www.vendia.net/product), check out [pricing](https://www.vendia.net/pricing), or request your [proof of concept](https://www.vendia.net/poc)._
