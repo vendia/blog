@@ -6,7 +6,7 @@ categories:
 - architecture
 - concepts
 authors:
-  - Alexa Johnson
+  - Caroll Casbeer
 ---
 
 If you prefer the TL;DR or engage with podcasts more than blogs, join our community of innovation leaders and disruptive developers for Season 1 of our new podcast, [Circles of Trust: Real talk on real-time data sharing](https://www.vendia.net/resources/circles-of-trust). 
