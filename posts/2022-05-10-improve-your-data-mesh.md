@@ -48,12 +48,12 @@ Not every company experiences the challenges above to the same degree.  Likewise
 
 Let's assume adopting a data mesh architecture solves all the challenges of its centralized, monolithic predecessor (I'm optimistic).  There are still some additional enterprise data challenges that a.) will make creating an ideal data mesh more challenging, time consuming, and expensive b.) can be solved, and solved well, using the same fundamentals that support a decentralized data mesh architecture.
 
-### Problems a data mesh will not Sslve
+### Problems a data mesh will not solve
 
 The problems outlined in this section are not deficiencies of a data mesh architecture.  Instead, they demonstrate that a data mesh, with a focus on the analytical data plane of enterprise data architecture, places some additional expectations and responsibilities on the operational data plane.  Specifically, the [real-time operational source systems](https://www.vendia.net/blog/what-is-real-time-data-sharing) - and the real-time systems they interact with across organizational boundaries - should be constructed in such a way that makes integration with a data mesh simple, easy, and repeatable (thanks to common architectural patterns).
 
 
-#### Engaging with real-time partner aata
+#### Engaging with real-time partner data
 
 While quite a bit has been written about data meshes, much less is written about extending the boundaries of the mesh _outside_ of a company's four walls.  There's nothing inherent to a decentralized data mesh that would prevent it from spanning organizational boundaries, but doing so places some new requirements on operational systems.  The value of producing data for partners and consuming  data from partners is [not a new or novel idea](https://hbr.org/1990/09/information-partnerships-shared-data-shared-scale).  The continued challenge is to do [so effectively and in real-time](https://www.vendia.net/blog/smart-apis), as if the data really was "shared" among partners and not a (batched) afterthought.
 
@@ -160,4 +160,4 @@ A data mesh architecture, heavily influenced by DDD, addresses many of the commo
 
 A real-time data sharing solution like Vendia Share helps organizations push the boundary, and impact,  of their data mesh beyond their four walls.  As seen in the Home Payment Assistance example, the combination provides many consumer benefits, as organizations can effectively share data with each other and effectively exploit the shared data to do what was previously not possible.
 
-By integrating an enterprise distributed ledger like Vendia Share with their data mesh, organizations can streamline the development of their enterprise data architecture while also maximizing their investment by extracting value from data sourced from inside and outside their organization.
+**By integrating an enterprise distributed ledger like Vendia Share with their data mesh, organizations can streamline the development of their enterprise data architecture while also maximizing their investment by extracting value from data sourced from inside and outside their organization. [Learn more about our solution](https://vendia.net/product).**
