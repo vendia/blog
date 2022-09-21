@@ -51,62 +51,62 @@ We’ll use the people-process-technology triangle as a framework to break down 
 **TABLE 1: Unpacking the variation between operational data and analytics using the people-process-technology framework**
 
 <table>
-	<tr>
-		<td></td>
-		<td><strong>Operational</strong></td>
-		<td><strong>Analytics</strong></td>
-	</tr>
-	<tr>
-		<td><strong>People</strong></td>
-		<td>
-			<ul>
-				<li>Technical skills with application development, APIs, and micro services</li>
-				<li>Business analysis design oriented around enabling business workflows</li>
-			</ul>
-		</td>
-		<td>
-			<ul>
-				<li>Technical skills with data development and (mostly) declarative language development</li>
-				<li>Business analysis design oriented around data derivations, aggregations, and calculations</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td><strong>Process</strong></td>
-		<td>
-			<ul>
-				<li>Design business workflows across applications and experiences</li>
-				<li>Enable day-to-day operations</li>
-			</ul>
-		</td>
-		<td>
-			<ul>
-				<li>Design cross-department insights to uncover trends</li>
-				<li>Enable prescriptive and predictive insights</li>
-			</ul>
-		</td>
-	</tr>
-	<tr>
-		<td><strong>Technology</strong></td>
-		<td>
-			<ul>
-				<li>Semi-structured data in objects of nested key-value pairs</li>
-				<li>Often in JSON or in SQL abstractions (e.g., ORMs)</li>
-				<li>Often in key-value, Graph, Document, or OLTP data stores</li>
-				<li>Access pattern targeted to full rows of data</li>
-				<li>Optimized for single record read and write of all attributes</li>
-			</ul>
-		</td>
-		<td>
-			<ul>
-				<li>Structured data in tables of rows and columns</li>
-				<li>Often indirect, complex SQL language</li>
-				<li>Often in OLAP data stores</li>
-				<li>Access pattern targeted to columns of data</li>
-				<li>Optimized for multi-record read and write of single columns</li>
-			</ul>
-		</td>
-	</tr>
+  <tr>
+    <td></td>
+    <td><strong>Operational</strong></td>
+    <td><strong>Analytics</strong></td>
+  </tr>
+  <tr>
+    <td><strong>People</strong></td>
+    <td>
+      <ul>
+        <li>Technical skills with application development, APIs, and micro services</li>
+        <li>Business analysis design oriented around enabling business workflows</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Technical skills with data development and (mostly) declarative language development</li>
+        <li>Business analysis design oriented around data derivations, aggregations, and calculations</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Process</strong></td>
+    <td>
+      <ul>
+        <li>Design business workflows across applications and experiences</li>
+        <li>Enable day-to-day operations</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Design cross-department insights to uncover trends</li>
+        <li>Enable prescriptive and predictive insights</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Technology</strong></td>
+    <td>
+      <ul>
+        <li>Semi-structured data in objects of nested key-value pairs</li>
+        <li>Often in JSON or in SQL abstractions (e.g., ORMs)</li>
+        <li>Often in key-value, Graph, Document, or OLTP data stores</li>
+        <li>Access pattern targeted to full rows of data</li>
+        <li>Optimized for single record read and write of all attributes</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Structured data in tables of rows and columns</li>
+        <li>Often indirect, complex SQL language</li>
+        <li>Often in OLAP data stores</li>
+        <li>Access pattern targeted to columns of data</li>
+        <li>Optimized for multi-record read and write of single columns</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 It’s not just the use cases for operational and analytics data that are disparate, it’s also…
