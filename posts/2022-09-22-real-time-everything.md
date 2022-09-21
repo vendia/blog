@@ -195,7 +195,7 @@ JSON structured object, with the airline attribute
               "description": "Information related to a coupon",
               "type": "object",
               "properties": {
-                "AirlineDesignator": {                    /* <-- 1. map to dimension */
+                "AirlineDesignator": {                    -- 1. map to dimension
                   "description": "The 2-letter code identifying the carrier for each coupon",
                   "type": "string",
                   "minLength": 1
@@ -212,9 +212,9 @@ JSON structured object, with the airline attribute
 \
 JSON to SQL flattener that parses the value intended for the dimension and creates the SQL table
 ```SQL
-CREATE TABLE D_AIRLINE as (                              /* <-- 3. create SQL table */
+CREATE TABLE D_AIRLINE as (                               -- 3. create SQL table 
   SELECT DISTINCT 
-  C.value:AirlineDesignator::varchar(255) AIRLINE_CODE   /* <-- 2. flatten JSON */
+  C.value:AirlineDesignator::varchar(255) AIRLINE_CODE    -- 2. flatten JSON
   FROM  ticket_object T,
   lateral flatten(outer => true, input => ticket_object:coupons)  C
 );
