@@ -200,7 +200,7 @@ A real-time data platform must leverage the best-of-breed solutions behind the o
 As an example, let’s look at a data sharing scenario where [airlines share ticket data across their business network](https://github.com/vendia/examples/tree/main/demos/travel-and-hospitality/alliance-ticket-sharing). In addition to operational sharing, they now want real-time analytics off this data — including only the data explicitly shared with them. This real-time platform is created by leveraging Vendia Share, an analytics-focused data warehouse that speaks JSON and query-on-demand dashboard solution. _See Figure 1._
 
 **FIGURE 1: Vendia Share for real-time operational and analytics data sharing**
-![Diagram showing sample architecture of data sharing coupled with real-time operational data and analytics solutions](https://user-images.githubusercontent.com/105127677/191390386-613a438e-1c5a-45b2-9814-189d0bfdb900.png "Sample architecture of data sharing coupled with real-time operational data and analytics solutions")
+![Diagram showing sample architecture of data sharing coupled with real-time operational data and analytics solutions](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..191390386-613a438e-1c5a-45b2-9814-189d0bfdb900.png "Sample architecture of data sharing coupled with real-time operational data and analytics solutions")
 
 * With Vendia, data can be shared, with control, across the entire business network.
 * With a distinct, isolated, real-time streaming warehouse, the shared data is unlocked for analytics while maintaining the sharing rules already applied upfront.
