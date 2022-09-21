@@ -167,7 +167,7 @@ However, anyone who has used Google Translate with idioms can attest, more than 
 
 Let’s do a quick example of this fluent translation: with a dimension attribute in JSON, use of a flattener translation, and SQL [DDL](https://en.wikipedia.org/wiki/Data_definition_language) to create a dimension:
 
-JSON structured object, with the airline attribute
+JSON structured object, with the airline attribute. Here, we identify `coupon.AirlineDesignator` as the attribute for the dimension.
 
 ```JSON
 { "$schema": "https://json-schema.org/draft-07/schema#",
@@ -195,7 +195,7 @@ JSON structured object, with the airline attribute
               "description": "Information related to a coupon",
               "type": "object",
               "properties": {
-                "AirlineDesignator": {                /* 1. map to dimensions */
+                "AirlineDesignator": {
                   "description": "The 2-letter code identifying the carrier for each coupon",
                   "type": "string",
                   "minLength": 1
@@ -210,11 +210,11 @@ JSON structured object, with the airline attribute
 }
 ```
 \
-JSON to SQL flattener that parses the value intended for the dimension and creates the SQL table
+JSON to SQL flattener that parses the value intended for the `D_AIRLINE` dimension and creates the SQL table
 ```SQL
-CREATE TABLE D_AIRLINE as (                               -- 3. create SQL table 
+CREATE TABLE D_AIRLINE as (
   SELECT DISTINCT 
-  C.value:AirlineDesignator::varchar(255) AIRLINE_CODE    -- 2. flatten JSON
+  C.value:AirlineDesignator::varchar(255) AIRLINE_CODE
   FROM  ticket_object T,
   lateral flatten(outer => true, input => ticket_object:coupons)  C
 );
