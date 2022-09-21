@@ -11,7 +11,6 @@ categories:
 authors:
   - Francine Klein
 ---
-## Real-time "everything" with operational and analytics data
 
 In the data world, nothing is as enticing as real-time everything:
 
