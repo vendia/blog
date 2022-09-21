@@ -169,7 +169,7 @@ Let’s do a quick example of this fluent translation: with a dimension attribut
 
 JSON structured object, with the airline attribute
 
-```JSON
+```
 { "$schema": "https://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
@@ -195,7 +195,7 @@ JSON structured object, with the airline attribute
               "description": "Information related to a coupon",
               "type": "object",
               "properties": {
-                "AirlineDesignator": {                    -- 1. map to dimension
+                "AirlineDesignator": {                -- 1. map to dimensions
                   "description": "The 2-letter code identifying the carrier for each coupon",
                   "type": "string",
                   "minLength": 1
