@@ -52,93 +52,62 @@ We’ll use the people-process-technology triangle as a framework to break down 
 
 <table>
   <tr>
-   <td>
-   </td>
-   <td><strong>Operational</strong>
-   </td>
-   <td><strong>Analytics</strong>
-   </td>
+    <td></td>
+    <td><strong>Operational</strong></td>
+    <td><strong>Analytics</strong></td>
   </tr>
   <tr>
-   <td><strong>People</strong>
-   </td>
-   <td>
-<ul>
-
-<li>Technical skills with application development, APIs, and micro services
-
-<li>Business analysis design oriented around enabling business workflows 
-</li>
-</ul>
-   </td>
-   <td>
-<ul>
-
-<li>Technical skills with data development and (mostly) declarative language development 
-
-<li>Business analysis design oriented around data derivations, aggregations, and calculations
-</li>
-</ul>
-   </td>
+    <td><strong>People</strong></td>
+    <td>
+      <ul>
+        <li>Technical skills with application development, APIs, and micro services</li>
+        <li>Business analysis design oriented around enabling business workflows</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Technical skills with data development and (mostly) declarative language development</li>
+        <li>Business analysis design oriented around data derivations, aggregations, and calculations</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-   <td><strong>Process</strong>
-   </td>
-   <td>
-<ul>
-
-<li>Design business workflows across applications and experiences
-
-<li>Enable day-to-day operations
-</li>
-</ul>
-   </td>
-   <td>
-<ul>
-
-<li>Design cross-department insights to uncover trends
-
-<li>Enable prescriptive and predictive insights
-</li>
-</ul>
-   </td>
+    <td><strong>Process</strong></td>
+    <td>
+      <ul>
+        <li>Design business workflows across applications and experiences</li>
+        <li>Enable day-to-day operations</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Design cross-department insights to uncover trends</li>
+        <li>Enable prescriptive and predictive insights</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-   <td><strong>Technology</strong>
-   </td>
-   <td>
-<ul>
-
-<li>Semi-structured data in objects of nested key-value pairs
-
-<li>Often in JSON or in SQL abstractions (e.g., ORMs) 
-
-<li>Often in key-value, Graph, Document, or OLTP data stores
-
-<li>Access pattern targeted to full rows of data
-
-<li>Optimized for single record read and write of all attributes
-</li>
-</ul>
-   </td>
-   <td>
-<ul>
-
-<li>Structured data in tables of rows and columns
-
-<li>Often indirect, complex SQL language
-
-<li>Often in OLAP data stores
-
-<li>Access pattern targeted to columns of data
-
-<li>Optimized for multi-record read and write of single columns
-</li>
-</ul>
-   </td>
+    <td><strong>Technology</strong></td>
+    <td>
+      <ul>
+        <li>Semi-structured data in objects of nested key-value pairs</li>
+        <li>Often in JSON or in SQL abstractions (e.g., ORMs)</li>
+        <li>Often in key-value, Graph, Document, or OLTP data stores</li>
+        <li>Access pattern targeted to full rows of data</li>
+        <li>Optimized for single record read and write of all attributes</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Structured data in tables of rows and columns</li>
+        <li>Often indirect, complex SQL language</li>
+        <li>Often in OLAP data stores</li>
+        <li>Access pattern targeted to columns of data</li>
+        <li>Optimized for multi-record read and write of single columns</li>
+      </ul>
+    </td>
   </tr>
 </table>
-
 
 It’s not just the use cases for operational and analytics data that are disparate, it’s also…
 
@@ -169,7 +138,7 @@ Let’s do a quick example of this fluent translation: with a dimension attribut
 
 JSON structured object, with the airline attribute `coupon.AirlineDesignator` as the target for the SQL dimension.
 
-```JSON
+```json
 { "$schema": "https://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
@@ -209,9 +178,10 @@ JSON structured object, with the airline attribute `coupon.AirlineDesignator` as
   }
 }
 ```
-\
+
 JSON to SQL flattener that parses the value intended for the `D_AIRLINE` dimension and creates the SQL table
-```SQL
+
+```sql
 CREATE TABLE D_AIRLINE as (
   SELECT DISTINCT 
   C.value:AirlineDesignator::varchar(255) AIRLINE_CODE
@@ -219,7 +189,7 @@ CREATE TABLE D_AIRLINE as (
   lateral flatten(outer => true, input => ticket_object:coupons)  C
 );
 ```
-\
+
 That’s it. Once the dimensions and facts are identified as metadata, the language translation can fall into place. The world is your oyster in how analytics-driven insights and timely business operational data can coexist, both unlocking seamless customer experiences and reducing the need to maintain layers of spider-web integration code. Your operational and analytics data worlds can combine, empowering you with the ability to automate and accelerate data workflows across your business networks.
 
 
@@ -240,8 +210,6 @@ As an example, let’s look at a data sharing scenario where [airlines share tic
 ### Become a real-time convert
 
 Real-time operational and analytics worlds can collide, and with that, unlock a new sense of data fluidity both within company walls and across business alliances.
-
-
 
 * Learn more about Vendia: Check out our [use cases](https://www.vendia.net/use-cases) and try out [Vendia Share](http://share.vendia.net/).
 * Reach out to build a real-time [proof of concept in 1 week](https://www.vendia.net/poc).
