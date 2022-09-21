@@ -1,411 +1,50 @@
 {
-  "james-gimourginas": [
+  "francine-klein": [
     {
-      "file": "/posts/2022-09-15-api-design-best-practices.md",
-      "title": "API Design Best Practices",
-      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-      "date": "2022-09-15",
+      "file": "/posts/2022-09-22-real-time-everything.md",
+      "title": "Real-time “everything” with operational and analytics data",
+      "description": "Breakdown the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL",
+      "date": "2022-09-22",
       "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-25-lean-apps-for-teams.md",
-      "title": "What does a \"lean app\" mean for teams?",
-      "description": "A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.",
-      "date": "2022-07-23",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-12-top-10-data-modeling-techniques.md",
-      "title": "The 10 data modeling techniques every Vendia user should know",
-      "description": "Step up your data modeling game to get the most value from Vendia Share.",
-      "date": "2022-07-12",
-      "categories": [
+        "architecture",
         "concepts",
-        "tutorials"
+        "tutorials",
+        "product",
+        "datamodeling"
       ],
       "authors": [
-        "James Gimourginas"
+        "Francine Klein"
       ]
     },
     {
-      "file": "/posts/2022-05-25-smart-contract-feature-example.md",
-      "title": "Applying Vendia Share smart contracts",
-      "description": "Examples of real-time data validation, computation, and enrichment",
-      "date": "2022-05-25",
-      "categories": [
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
-      "title": "Improve your data mesh with real-time data sharing",
-      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
-      "date": "2022-05-10",
+      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
+      "title": "Understanding real-time data lakes",
+      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
+      "date": "2022-08-03",
       "categories": [
         "architecture",
         "concepts"
       ],
       "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-04-azure-eventing.md",
-      "title": "Real-Time cross-cloud data sharing",
-      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
-      "date": "2022-01-04",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-12-13-log4j2-response.md",
-      "title": "Vendia's Response to CVE-2021-44228",
-      "description": "A note on the impact to Vendia and our customers",
-      "date": "2021-12-13",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "announcements"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-26-website-case-studies.md",
-      "title": "Website Case Studies",
-      "description": "Learn what Vendia customers and partners are building on the Share platform",
-      "date": "2021-10-26",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-12-open-beta-changes.md",
-      "title": "Open Beta Changes",
-      "description": "Changes to Vendia Share in advance of the Open Beta",
-      "date": "2021-10-12",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
-      "title": "Five Leadership Practices of an Ultramarathoner",
-      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
-      "date": "2021-09-27",
-      "tag": [
-        "developers"
-      ],
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
-      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    }
-  ],
-  "vikrant-kahlir": [
-    {
-      "file": "/posts/2022-09-07-kind-is-strong.md",
-      "title": "Kind is not weak, kind is strong",
-      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
-      "date": "2022-09-07",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "title": "Introduction to B2B data sharing with Vendia",
-      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
-      "date": "2022-08-23",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
-      "title": "What is operational data sharing?",
-      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
-      "categories": [
-        "concepts"
-      ],
-      "date": "2022-07-26",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
-      "title": "3 core use cases for Vendia Share in the semiconductor industry",
-      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
-      "draft": false,
-      "date": "2022-07-07",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
-      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
-      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
-      "draft": false,
-      "date": "2022-06-29",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
-      "title": "13 Features You Need to Evaluate an Enterprise Blockchain Platform",
-      "description": "When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.",
-      "date": "2022-02-18",
-      "draft": false,
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
-      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
-      "draft": false,
-      "date": "2022-02-09",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "title": "Applying Domain Driven Design (DDD) to blockchains",
-      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-      "date": "2022-01-14",
-      "categories": [
-        "product"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    }
-  ],
-  "caroll-casbeer": [
-    {
-      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
-      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
-      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
-      "date": "2022-09-06",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-31-new-vendia-logo.md",
-      "title": "Introducing our new brand identity",
-      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
-      "date": "2022-08-31",
-      "categories": [
-        "company"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
-      "title": "Webcast: How to build an enterprise blockchain with serverless",
-      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
-      "date": "2022-07-19",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-08-lean-apps-for-developers.md",
-      "title": "What does a ‘lean app’ mean for developers? ",
-      "description": "Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.",
-      "date": "2022-07-08",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
-      "title": "How to increase transparency in real estate transactions using blockchain and Vendia Share",
-      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
-      "date": "2022-06-24",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
-      "title": "Vendia guest contributor program",
-      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
-      "date": "2022-06-22",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "title": "Types of data: Real-time data vs. analytical data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data",
-      "null": null,
-      "date": "2022-05-05",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
-      "title": "Add Data via SFTP to Vendia Share",
-      "description": "Send a CSV via SFTP to add data to your Uni",
-      "date": "2022-03-23",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
-      "title": "Adding Data in a CSV to Vendia Share Using Email",
-      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
-      "draft": false,
-      "date": "2022-03-15",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
-      "title": "My first 30 days at Vendia",
-      "description": "Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.",
-      "date": "2022-02-09",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    }
-  ],
-  "hailey-nevins": [
-    {
-      "file": "/posts/2022-09-01-brand-identity-buy-in.md",
-      "title": "How to get buy-in for a new brand identity",
-      "description": "Our Head of Design, Hailey Nevins, shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused.",
-      "date": "2022-09-01",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Hailey Nevins"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-25-6-months-at-vendia.md",
-      "title": "No more burnout: Reflections after 6 months at Vendia",
-      "description": "Head of Design, Hailey Nevins, sharees why she doesn't regret leaving the Fortune 100 tech industry to work for a startup.",
-      "date": "2022-04-25",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Hailey Nevins"
-      ]
-    }
-  ],
-  "jake-partusch": [
-    {
-      "file": "/posts/2022-08-31-new-serverless-pricing.md",
-      "title": "Introducing developer-friendly pricing with our new Individual Plan",
-      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
-      "date": "2022-08-31",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Jake Partusch"
+        "Francine Klein"
       ]
     }
   ],
   "tim-wagner": [
+    {
+      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
+      "title": "Where blockchain fits into your data and application strategy",
+      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "datamodeling",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
       "title": "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions",
@@ -911,7 +550,309 @@
       ]
     }
   ],
+  "caroll-casbeer": [
+    {
+      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
+      "title": "Roundup: Real-time data sharing",
+      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-10-new-podcast.md",
+      "title": "New podcast: Circles of Trust launching this fall",
+      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
+      "date": "2022-09-10",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-31-new-vendia-logo.md",
+      "title": "Introducing our new brand identity",
+      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
+      "date": "2022-08-31",
+      "categories": [
+        "company"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
+      "title": "Webcast: How to build an enterprise blockchain with serverless",
+      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
+      "date": "2022-07-19",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-08-lean-apps-for-developers.md",
+      "title": "What does a ‘lean app’ mean for developers? ",
+      "description": "Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.",
+      "date": "2022-07-08",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
+      "title": "How to increase transparency in real estate transactions using blockchain and Vendia Share",
+      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
+      "date": "2022-06-24",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
+      "title": "Vendia guest contributor program",
+      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
+      "date": "2022-06-22",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "title": "Types of data: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data",
+      "null": null,
+      "date": "2022-05-05",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
+      "title": "Add Data via SFTP to Vendia Share",
+      "description": "Send a CSV via SFTP to add data to your Uni",
+      "date": "2022-03-23",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
+      "title": "Adding Data in a CSV to Vendia Share Using Email",
+      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
+      "draft": false,
+      "date": "2022-03-15",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
+      "title": "My first 30 days at Vendia",
+      "description": "Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.",
+      "date": "2022-02-09",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    }
+  ],
+  "james-gimourginas": [
+    {
+      "file": "/posts/2022-09-15-api-design-best-practices.md",
+      "title": "API Design Best Practices",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+      "date": "2022-09-15",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-25-lean-apps-for-teams.md",
+      "title": "What does a \"lean app\" mean for teams?",
+      "description": "A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.",
+      "date": "2022-07-23",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-12-top-10-data-modeling-techniques.md",
+      "title": "The 10 data modeling techniques every Vendia user should know",
+      "description": "Step up your data modeling game to get the most value from Vendia Share.",
+      "date": "2022-07-12",
+      "categories": [
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-25-smart-contract-feature-example.md",
+      "title": "Applying Vendia Share smart contracts",
+      "description": "Examples of real-time data validation, computation, and enrichment",
+      "date": "2022-05-25",
+      "categories": [
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
+      "title": "Improve your data mesh with real-time data sharing",
+      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
+      "date": "2022-05-10",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
+      "title": "Multi-party data sharing with control",
+      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+      "date": "2022-01-31",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-04-azure-eventing.md",
+      "title": "Real-Time cross-cloud data sharing",
+      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
+      "date": "2022-01-04",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-12-13-log4j2-response.md",
+      "title": "Vendia's Response to CVE-2021-44228",
+      "description": "A note on the impact to Vendia and our customers",
+      "date": "2021-12-13",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "announcements"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-26-website-case-studies.md",
+      "title": "Website Case Studies",
+      "description": "Learn what Vendia customers and partners are building on the Share platform",
+      "date": "2021-10-26",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
+      "title": "Five Leadership Practices of an Ultramarathoner",
+      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
+      "date": "2021-09-27",
+      "tag": [
+        "developers"
+      ],
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    }
+  ],
   "anders-maul": [
+    {
+      "file": "/posts/2022-09-14-atos-success-story.md",
+      "title": "How Atos streamlined the reinsurance process and built trust among financial services partners",
+      "description": "Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.",
+      "date": "2022-09-14",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
     {
       "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
       "title": "Highlights from the GBTA Panel on blockchain for the travel industry",
@@ -993,18 +934,146 @@
       ]
     }
   ],
-  "francine-klein": [
+  "vikrant-kahlir": [
     {
-      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
-      "title": "Understanding real-time data lakes",
-      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
-      "date": "2022-08-03",
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
       "categories": [
-        "architecture",
-        "concepts"
+        "company"
       ],
       "authors": [
-        "Francine Klein"
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "title": "Introduction to B2B data sharing with Vendia",
+      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
+      "date": "2022-08-23",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
+      "title": "What is operational data sharing?",
+      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "categories": [
+        "concepts"
+      ],
+      "date": "2022-07-26",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "title": "3 core use cases for Vendia Share in the semiconductor industry",
+      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
+      "draft": false,
+      "date": "2022-07-07",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
+      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
+      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
+      "draft": false,
+      "date": "2022-06-29",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "title": "13 Features You Need to Evaluate an Enterprise Blockchain Platform",
+      "description": "When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.",
+      "date": "2022-02-18",
+      "draft": false,
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
+      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
+      "draft": false,
+      "date": "2022-02-09",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "title": "Applying Domain Driven Design (DDD) to blockchains",
+      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+      "date": "2022-01-14",
+      "categories": [
+        "product"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
+  "renee-fujii": [
+    {
+      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
+      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
+      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
+      "date": "2022-09-06",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    }
+  ],
+  "hailey-nevins": [
+    {
+      "file": "/posts/2022-09-01-brand-identity-buy-in.md",
+      "title": "How to get buy-in for a new brand identity",
+      "description": "Our Head of Design, Hailey Nevins, shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused.",
+      "date": "2022-09-01",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Hailey Nevins"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-25-6-months-at-vendia.md",
+      "title": "No more burnout: Reflections after 6 months at Vendia",
+      "description": "Head of Design, Hailey Nevins, sharees why she doesn't regret leaving the Fortune 100 tech industry to work for a startup.",
+      "date": "2022-04-25",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Hailey Nevins"
+      ]
+    }
+  ],
+  "jake-partusch": [
+    {
+      "file": "/posts/2022-08-31-new-serverless-pricing.md",
+      "title": "Introducing developer-friendly pricing with our new Individual Plan",
+      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
+      "date": "2022-08-31",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Jake Partusch"
       ]
     }
   ],

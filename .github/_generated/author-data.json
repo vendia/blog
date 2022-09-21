@@ -14,11 +14,13 @@
     "jake-partusch",
     "james-gimourginas",
     "joydeep-das",
+    "renee-fujji",
     "ryan-green",
     "ryan-scott-brown",
     "shruthi-rao",
     "tim-wagner",
-    "vikrant-kahlir"
+    "vikrant-kahlir",
+    "alexa-johnson"
   ],
   "authors": [
     {
@@ -31,7 +33,7 @@
         "long": "Anders likes building things, travel, and word plays."
       },
       "slug": "anders-maul",
-      "postCount": 7
+      "postCount": 8
     },
     {
       "name": "Brett Andrews",
@@ -67,7 +69,7 @@
         "long": "Caroll likes, puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
       },
       "slug": "caroll-casbeer",
-      "postCount": 10
+      "postCount": 11
     },
     {
       "name": "Cory Forsythe",
@@ -115,7 +117,7 @@
         "long": "Francine enjoys all-things data, particularly how to empower companies on how they build data-driven solutions with the right design, architecture, tools, processes, and, of course, people"
       },
       "slug": "francine-klein",
-      "postCount": 1
+      "postCount": 2
     },
     {
       "name": "Gavin Yue",
@@ -189,6 +191,17 @@
       "postCount": 1
     },
     {
+      "name": "Renee Fujii",
+      "github": "renee-vendia",
+      "avatar": "https://avatars.githubusercontent.com/u/99047298?v=4",
+      "bio": {
+        "short": "Head of Talent",
+        "long": "Renee loves her two dogs, putting together costumes, and helping recruit brillant Kind Humans to Vendia."
+      },
+      "slug": "renee-fujji",
+      "postCount": 0
+    },
+    {
       "name": "Ryan Green",
       "github": "rpgreen",
       "twitter": "robotpatch",
@@ -234,7 +247,7 @@
         "long": "Dr. Tim Wagner started the Serverless movement when he created the AWS Lambda business and technology in 2012. His mission then, as now, was to make the creation of enterprise IT solutions easy, fast, and secure. After AWS, Dr. Wagner served as VP of Engineering at Coinbase, where he oversaw the largest mission-critical fleet of distributed ledgers in the US. Dr. Wagner continues to explore business and technology innovations, speaking frequently at conferences"
       },
       "slug": "tim-wagner",
-      "postCount": 45
+      "postCount": 46
     },
     {
       "name": "Vikrant Kahlir",
@@ -247,6 +260,18 @@
       },
       "slug": "vikrant-kahlir",
       "postCount": 8
+    },
+    {
+      "name": "Alexa Johnson",
+      "github": "alexa-vendia",
+      "twitter": "anders",
+      "avatar": "https://avatars.githubusercontent.com/u/107442245?v=4",
+      "bio": {
+        "short": "Content Strategy",
+        "long": "Alexa likes YA novels, gardening, and hazelnut lattes."
+      },
+      "slug": "alexa-johnson",
+      "postCount": 0
     }
   ]
 }

@@ -35,9 +35,14 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Real-time “everything” with operational and analytics data](https://vendia.net/blog/real-time-everything) <br/> Breakdown the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL by Francine Klein | 2022-09-22 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-22-real-time-everything.md)
+| [Where blockchain fits into your data and application strategy](https://vendia.net/blog/finserv-blockchain-data-strategy) <br/> Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing by Tim Wagner | 2022-09-20 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-20-finserv-blockchain-data-strategy.md)
+| [Roundup: Real-time data sharing](https://vendia.net/blog/real-time-data-sharing-roundup) <br/> Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup by Caroll Casbeer | 2022-09-20 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-20-real-time-data-sharing-roundup.md)
 | [API Design Best Practices](https://vendia.net/blog/api-design-best-practices) <br/> James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation by James Gimourginas | 2022-09-15 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-15-api-design-best-practices.md)
+| [How Atos streamlined the reinsurance process and built trust among financial services partners](https://vendia.net/blog/atos-success-story) <br/> Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design by Anders Maul | 2022-09-14 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-14-atos-success-story.md)
+| [New podcast: Circles of Trust launching this fall](https://vendia.net/blog/new-podcast) <br/> Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans. by Caroll Casbeer | 2022-09-10 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-10-new-podcast.md)
 | [Kind is not weak, kind is strong](https://vendia.net/blog/kind-is-strong) <br/> What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness by Vikrant Kahlir | 2022-09-07 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-07-kind-is-strong.md)
-| [How to find your people: Notes on hiring and interviewing for kind humans](https://vendia.net/blog/how-to-recruit-kind-humans) <br/> Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind by Caroll Casbeer | 2022-09-06 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-06-how-to-recruit-kind-humans.md)
+| [How to find your people: Notes on hiring and interviewing for kind humans](https://vendia.net/blog/how-to-recruit-kind-humans) <br/> Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind by Renee Fujii | 2022-09-06 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-06-how-to-recruit-kind-humans.md)
 | [How to get buy-in for a new brand identity](https://vendia.net/blog/brand-identity-buy-in) <br/> Our Head of Design, Hailey Nevins, shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused by Hailey Nevins | 2022-09-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-01-brand-identity-buy-in.md)
 | [Introducing developer-friendly pricing with our new Individual Plan](https://vendia.net/blog/new-serverless-pricing) <br/> Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction by Jake Partusch | 2022-08-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-08-31-new-serverless-pricing.md)
 | [Introducing our new brand identity](https://vendia.net/blog/new-vendia-logo) <br/> Get the first look at our new look and logo with insights from our founders on why, and why now by Caroll Casbeer | 2022-08-31 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-08-31-new-vendia-logo.md)
@@ -249,12 +254,21 @@ Welcome to the Vendia blog repo!
       <a href="https://twitter.com/joydeep02263451"><sup><sub>Joydeep Das</sub></sup></a>
   </td>
   <td align="center">
+      <a href="https://www.vendia.net/blog/author/renee-fujji">
+        <img src="https://avatars.githubusercontent.com/u/99047298?v=4" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://github.com/renee-vendia"><sup><sub>Renee Fujii</sub></sup></a>
+  </td>
+  <td align="center">
       <a href="https://www.vendia.net/blog/author/ryan-green">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://twitter.com/robotpatch"><sup><sub>Ryan Green</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/ryan-scott-brown">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="76px;" alt=""/>
@@ -262,8 +276,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/ryan_sb"><sup><sub>Ryan Scott Brown</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/shruthi-rao">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="76px;" alt=""/>
@@ -284,6 +296,13 @@ Welcome to the Vendia blog repo!
       </a>
       <br />
       <a href="https://twitter.com/vkahlir"><sup><sub>Vikrant Kahlir</sub></sup></a>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.net/blog/author/alexa-johnson">
+        <img src="https://avatars.githubusercontent.com/u/107442245?v=4" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/anders"><sup><sub>Alexa Johnson</sub></sup></a>
    </td>
 </tr>
 </table>
