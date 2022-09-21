@@ -161,7 +161,7 @@ There’s no argument that the way data is stored has been optimized for the nec
 
 But JSON and SQL _can_ now communicate better; they’ve found their love language. 
 
-Many data storage solutions can now parse JSON using dot-notation and flatten functions, turning the key-value pairs into distinct rows. This is the immediate translation that transforms JSON into SQL. 
+> Many data storage solutions can now parse JSON using dot-notation and flatten functions, turning the key-value pairs into distinct rows. This is the immediate translation that transforms JSON into SQL. 
 
 However, anyone who has used Google Translate with idioms can attest, more than straight-forward mappings are needed. (Otherwise, we’re left perplexed on why someone might be [chewing fat](https://www.theidioms.com/chew-the-fat/).) To be fluent in both, we must add in a metadata mapping of a JSON schema to an analytics-minded star schema. This creates a dynamic interpretation of key-value pairs into insight-enabling facts and dimensions. 
 
