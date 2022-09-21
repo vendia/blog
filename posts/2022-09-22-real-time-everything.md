@@ -45,7 +45,8 @@ As lofty as this is, it isn’t that far fetched. But, because we’re realists,
 
 Analytics and [operational data](https://www.vendia.net/blog/what-is-operational-data-sharing) solutions all use data, all store data, and all move data. So, why have these functions been so separate to-date?
 
-We’ll use the people-process-technology triangle as a framework to break down the divergent complexities between operational and analytical data. A picture is worth 1,000 words; a table, maybe 500. Let’s go with that. _See Table 1._
+We’ll use the people-process-technology triangle as a framework to break down the divergent complexities between operational and analytical data. A picture is worth 1,000 words; a table, maybe 500. Let’s go with that.
+
 
 **TABLE 1: Unpacking the variation between operational data and analytics using the people-process-technology framework**
 
