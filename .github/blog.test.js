@@ -173,6 +173,12 @@ test('Blog posts are all date prefixed', async () => {
     }
   })
 
+  paths.forEach((p) => {
+    if (p.match(/\s/)) {
+      errors.push(`File name contains whitespace in file name "${p}"`)
+    }
+  })
+
   throwErrors(errors)
   
   assert.is(paths.length > 0, true, 'Has blog posts')
