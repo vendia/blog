@@ -1,6 +1,6 @@
 ---
 title: 'Real-time “everything” with operational and analytics data'
-description: 'Breakdown the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL'
+description: 'Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.'
 date: '2022-09-22'
 categories:
 - architecture
