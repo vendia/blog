@@ -31,7 +31,7 @@ Let’s break down some of the most common questions we hear from developers and
 
     Vendia Share’s powerful consensus mechanism detects and automatically prevents collisions, such as an attempt by two or more parties to create a file with the same name at the same time. Our powerful distributed ledger implementation ensures a correct, accurate, and totally ordered set of updates among all parties—no matter how complex their file content or updates might become.
 
-3. _How can entire folders be transferred atomically without creating duplicative code in many applications to address the lack of batch operations in public cloud services?_
+3. _How can entire folders be transferred automatically without creating duplicative code in many applications to address the lack of batch operations in public cloud services?_
 
     Vendia Share automatically propagates updates, including verifying the integrity of multi-step transactions.
 
