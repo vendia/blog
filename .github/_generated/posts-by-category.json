@@ -1,6 +1,19 @@
 {
   "architecture": [
     {
+      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
+      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
+      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
+      "date": "2022-09-26",
+      "categories": [
+        "architecture",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
       "file": "/posts/2022-09-22-real-time-everything.md",
       "title": "Real-time “everything” with operational and analytics data",
       "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
@@ -198,6 +211,35 @@
       ],
       "tags": [
         "STAMTI"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    }
+  ],
+  "blockchain": [
+    {
+      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
+      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
+      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
+      "date": "2022-09-26",
+      "categories": [
+        "architecture",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
+      "title": "Where blockchain fits into your data and application strategy",
+      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "datamodeling",
+        "blockchain"
       ],
       "authors": [
         "Tim Wagner"
@@ -747,22 +789,6 @@
       "categories": [
         "architecture",
         "datamodeling"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    }
-  ],
-  "blockchain": [
-    {
-      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
-      "title": "Where blockchain fits into your data and application strategy",
-      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "datamodeling",
-        "blockchain"
       ],
       "authors": [
         "Tim Wagner"
