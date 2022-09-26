@@ -49,4 +49,4 @@ When applied correctly as part of a modern data and application strategy, next-g
 
 
 * Explore a reinsurance use case, featuring Atos. **[Read the case study](https://www.vendia.net/blog/atos-success-story)**
-* Download the full guide for the financial services industry with a comprehensive use case for mortgage servicing. **[Download the guide](vendia.net/resources/blockchain-in-modern-financial-services-2022)**
+* Download the full guide for the financial services industry with a comprehensive use case for mortgage servicing. **[Download the guide](https://www.vendia.net/resources/blockchain-in-modern-financial-services-2022))**
