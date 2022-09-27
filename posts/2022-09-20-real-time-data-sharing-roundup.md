@@ -52,7 +52,7 @@ Francine Klein, Senior Solutions Architect, paints a colorful picture to help ex
 James Gimourginas, Director of Solutions Architecture and Customer Success, explains how a data mesh rethinks modern enterprise data architecture, restructuring enterprise data platform architectures around domains and makes data products a top-priority output. Learn how to overcome the persistent challenges of real-time data sharing and improve your next-gen data mesh. [Read the post](https://www.vendia.net/blog/improve-your-data-mesh)
 
 
-#### [Real-Time cross-cloud data sharing for enterprises](https://www.vendia.net/blog/azure-eventing)
+#### [Real-time cross-cloud data sharing for enterprises](https://www.vendia.net/blog/azure-eventing)
 
 
 Director of Solutions Architecture and Customer Success James Gimourginas explains how to make integrating real-time data with Microsoft Azure services easier than ever before. He highlights our Azure capabilities from both a cross-cloud data sharing and event-driven programming perspective. [See the details](https://www.vendia.net/blog/azure-eventing)
