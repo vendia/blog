@@ -1,6 +1,7 @@
 ---
 title: 'The great equalizer: How data sharing can help communities overcome social inequities (transcript)'
 description: 'Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. '
+categories: 'podcast'
 date: '2022-10-01'
 ---
 
