@@ -4,6 +4,10 @@
     "description": "Company news & updates"
   },
   {
+    "slug": "podcast",
+    "description": "Podcast"
+  },
+  {
     "slug": "announcements",
     "description": "Company announcements"
   },
