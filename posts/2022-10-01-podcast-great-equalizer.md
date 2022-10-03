@@ -5,17 +5,16 @@ categories:
 - podcast
 date: '2022-10-01'
 ---
+## Listen on [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)
 
 
-## Show Notes
 ### Episode 1 | The Great Equalizer: How data sharing can help communities overcome social inequities
-**[SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)**
 
 **Guest: Jameila “Meme” Styles, Founder and President of MEASURE, Social Science Research Council, 2022 Just Tech Fellow, Data activist**
 
 Meme Styles and host Tim Zonca discuss how better data sharing — and more of it — will give community organizations and civic leaders a common language for solving complex problems like health, education, criminal justice, and economic inequities.
 
-
+## Show Notes
 
 Learn more about [MEASURE](https://wemeasure.org/), its mission, and impact. Then, [get involved](https://wemeasure.org/get-involved/).
 
@@ -171,5 +170,4 @@ Thank you, Tim.
 Thanks so much to our guest, Meme Styles, for all the real talk on data sharing. I really appreciate it. And thank you, too, for listening in. If you're interested in learning more about the various organizations, products, or research mentioned in this episode, visit [vendia.com/resources/circlesoftrust](vendia.com/resources/circlesoftrust) for all the links. When you're ready to keep the conversation going, download or stream all of our episodes on Spotify, Apple Music, and top streaming services. And if you have a point of view on the challenges, power, or potential of real-time data sharing and want to be a guest on the show, email us at [trust@vendia.com](mailto:trust@vendia.com) or DM [@VendiaHQ on Twitter](https://twitter.com/VendiaHQ) and mention Circles of Trust. Thanks again for joining us and Circles of Trust. And if you like what you hear, please take a moment to drop us a few stars in a favorable review, or share Circles of Trust with your colleagues and network. Until next time.
 
 # Join Circles of Trust and get more real talk on real-time data sharing
-Get Circles of Trust in [your inbox](https://www.vendia.net/resources/circles-of-trust) every time a new episode goes live. You can also listen to each episode on [Spotify](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) or [Apple Podcasts](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970)
-
+Get Circles of Trust in [your inbox](https://www.vendia.net/resources/circles-of-trust) every time a new episode goes live.
