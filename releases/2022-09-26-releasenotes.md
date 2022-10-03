@@ -67,7 +67,7 @@ You can now enforce ACL rules against specific properties of all coupons in the 
 
 In this example, we want to allow Node2 to read the name of the coupons, but not the coupons code.
 
-```gql
+```graphql
 mutation addTicket {
   add_Ticket(
     input: {
@@ -103,7 +103,7 @@ mutation addTicket {
 
 To see the ACL in action open up the GraphQL Explorer on Node2 and run the following list tickets query
 
-```gql
+```graphql
 query listTickets {
   list_TicketItems {
     nextToken
