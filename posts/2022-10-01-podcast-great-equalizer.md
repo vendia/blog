@@ -23,6 +23,7 @@ Learn more about [MEASURE](https://wemeasure.org/), its mission, and impact. The
 
 * [Social Science Research Council](https://www.ssrc.org/)
 * [Just Tech Fellowship](https://www.ssrc.org/programs/just-tech/just-tech-fellowship/)
+* [USPHS Syphilis Study at Tuskegee](https://www.cdc.gov/tuskegee/timeline.htm)
 * [Girlhood Interrupted: The Erasure of Black Girls’ Childhood](https://www.law.georgetown.edu/poverty-inequality-center/wp-content/uploads/sites/14/2017/08/girlhood-interrupted.pdf)
 * [The Crown Act](https://www.congress.gov/bill/117th-congress/house-bill/2116)
 * [The Innocence Initiative](https://wemeasure.org/sdm_downloads/the-innocence-initiative-2020/)
