@@ -1,16 +1,249 @@
 {
-  "podcast": [
+  "architecture": [
     {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "title": "No more multicloud: The emergence of supercloud",
+      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04",
       "categories": [
-        "podcast"
+        "architecture",
+        "concepts"
       ],
-      "date": "2022-10-01"
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
+      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
+      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
+      "date": "2022-09-26",
+      "categories": [
+        "architecture",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-22-real-time-everything.md",
+      "title": "Real-time “everything” with operational and analytics data",
+      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
+      "date": "2022-09-22",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials",
+        "product",
+        "datamodeling"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
+      "title": "Where blockchain fits into your data and application strategy",
+      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "datamodeling",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
+      "title": "Roundup: Real-time data sharing",
+      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
+      "title": "Why public cloud services aren’t enough for file sharing",
+      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
+      "date": "2022-08-17",
+      "categories": [
+        "product",
+        "architecture"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
+      "title": "Venn diagramming Vendia Share",
+      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
+      "date": "2022-08-04",
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
+      "title": "Understanding real-time data lakes",
+      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
+      "date": "2022-08-03",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive",
+      "date": "2022-07-29",
+      "categories": [
+        "architecture",
+        "datamodeling"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-28-ask-the-expert-apis.md",
+      "title": "Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs",
+      "description": "With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.",
+      "date": "2022-07-28",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
+      "title": "Improve your data mesh with real-time data sharing",
+      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
+      "date": "2022-05-10",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
+      "title": "Multi-party data sharing with control",
+      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+      "date": "2022-01-31",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-04-azure-eventing.md",
+      "title": "Real-Time cross-cloud data sharing",
+      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
+      "date": "2022-01-04",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-31-stamti.md",
+      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
+      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
+      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.",
+      "date": "2021-01-31",
+      "categories": [
+        "architecture"
+      ],
+      "tags": [
+        "STAMTI"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
     }
   ],
   "concepts": [
+    {
+      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "title": "No more multicloud: The emergence of supercloud",
+      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2022-09-27-data-sharing-obstacles.md",
       "title": "Obstacles to data sharing",
@@ -284,222 +517,15 @@
       ]
     }
   ],
-  "architecture": [
+  "podcast": [
     {
-      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
-      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
-      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
-      "date": "2022-09-26",
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
       "categories": [
-        "architecture",
-        "blockchain"
+        "podcast"
       ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-22-real-time-everything.md",
-      "title": "Real-time “everything” with operational and analytics data",
-      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
-      "date": "2022-09-22",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials",
-        "product",
-        "datamodeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
-      "title": "Where blockchain fits into your data and application strategy",
-      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "datamodeling",
-        "blockchain"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
-      "title": "Roundup: Real-time data sharing",
-      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
-      "title": "Why public cloud services aren’t enough for file sharing",
-      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
-      "date": "2022-08-17",
-      "categories": [
-        "product",
-        "architecture"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
-      "title": "Venn diagramming Vendia Share",
-      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
-      "date": "2022-08-04",
-      "categories": [
-        "architecture",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
-      "title": "Understanding real-time data lakes",
-      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
-      "date": "2022-08-03",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive",
-      "date": "2022-07-29",
-      "categories": [
-        "architecture",
-        "datamodeling"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-28-ask-the-expert-apis.md",
-      "title": "Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs",
-      "description": "With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.",
-      "date": "2022-07-28",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
-      "title": "Improve your data mesh with real-time data sharing",
-      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
-      "date": "2022-05-10",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-04-azure-eventing.md",
-      "title": "Real-Time cross-cloud data sharing",
-      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
-      "date": "2022-01-04",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
-      "title": "Authenticating Vendia Share Requests Using SAML",
-      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
-      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
-      "date": "2021-11-02",
-      "authors": [
-        "Brian McNamara"
-      ],
-      "categories": [
-        "architecture"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
-      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-31-stamti.md",
-      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
-      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
-      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.",
-      "date": "2021-01-31",
-      "categories": [
-        "architecture"
-      ],
-      "tags": [
-        "STAMTI"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
+      "date": "2022-10-01"
     }
   ],
   "blockchain": [
