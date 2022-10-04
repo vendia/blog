@@ -164,6 +164,6 @@ You can see below that the result contains the ticket name, and the name on each
 
 In line with our [Kind Human Policy](https://www.vendia.net/kind-humans) and culture we have updated our brand design to be more inclusive and bring back some of the fun.  You can read more about the design process on our [blog](https://www.vendia.net/blog/brand-identity-buy-in).
 
-The Share UI has been updated to incorporate the new brand design to make it more accessible and pleasant to use!
+The Share UI has been updated to incorporate the new design to make it more accessible and pleasant to use!
 
 See the changes yourself by logging in!
