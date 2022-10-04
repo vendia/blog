@@ -10,7 +10,7 @@ tags:
 
 Our engineering and design teams have been working hard to make your experience with Vendia Share more pleasant and productive.  As always, see our [Docs](https://www.vendia.net/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.
 
-## New Support for Defining ACL's on Array Paths
+## New Support for Defining ACLs on Arrays
 You can now apply access controls for a specific attribute of all objects in a list.  This gives you more control over how you share your data and opens up new use cases.
 
 For example, given the following schema for tickets:
