@@ -1,6 +1,6 @@
 ---
 title: 'Giving You Even More Control'
-description: "Vendia Share now supports defining ACL's on Array Path, UI updated to incorporate new brand design" 
+description: "Vendia Share now supports defining ACLs on arrays and brings a new design to the UI" 
 date: '2022-09-26'
 draft: false
 tags:
