@@ -39,8 +39,6 @@ Step 2: I used ZoomInfo to find companies that fit the profile — or got a list
 
 Step 3: Then, I created ads that either included the pain points or the solution with a call to action (CTA) that invited targets  to download a relevant white paper directly from LinkedIn. 
 
-![Little sketch of how this all works.](https://user-images.githubusercontent.com/98492452/194359728-18a2036f-9edf-4e1d-aa16-645f18bb4616.png) 
-
 While it would be awesome to say, “Ta-da, positioning exercise complete!”, we all know it’s not that simple. What this did help us do was figure out _what to stop considering for our positioning_. 
 
 >At startups, knowing what _not to do_ is just as valuable as knowing what to do.
