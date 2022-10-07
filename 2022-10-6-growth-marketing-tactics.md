@@ -7,7 +7,7 @@ authors:
   - Caroll Casbeer
 ---
 
-Marketing is hard — even at mature, highly successful companies. As with many jobs, you’re asked to do more with less and predict the unpredictable. I’ve found that developing a marketing engine at a startup is the hardest of both worlds… you’re trying to create product-market fit, find your best customers (without having lots of customers), be frugal, place a lot of bets you think _may_ work, all while fielding questions about the lifetime value (LTV) of a customer. (Seriously, just because I can _do _the LTV calculation doesn’t mean it’s important right now.)  
+Marketing is hard — even at mature, highly successful companies. As with many jobs, you’re asked to do more with less and predict the unpredictable. I’ve found that developing a marketing engine at a startup is the hardest of both worlds… you’re trying to create product-market fit, find your best customers (without having lots of customers), be frugal, place a lot of bets you think _may_ work, all while fielding questions about the lifetime value (LTV) of a customer. (Seriously, just because I can _do_ the LTV calculation doesn’t mean it’s important right now.)  
 
 With those musings, I thought I’d share a few tactics I’ve learned from building a growth marketing engine at Vendia. While the tactics may look #basic, I highlight some of the unique ways we’ve leveraged traditional channels to grow a robust marketing machine.  
 
