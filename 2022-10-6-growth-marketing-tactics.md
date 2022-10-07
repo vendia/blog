@@ -61,7 +61,7 @@ If you can, get some contractors. l liked freelancers over agencies, but to each
 
 While I’m inclined to focus on the classic mid-funnel motions (i.e., conversion to sale), at the early stage, we have seen real value in investing in top-of-funnel and awareness tactics. We picked our tactics and messaging very deliberately and strategically. Instead of hiring a large PR firm to get as much Vendia-centric press as possible, we’ve opted for a freelancer that helps us center our founders, Shruthi Rao and Tim Wagner, as leaders in the next-gen blockchain movement. We also hired a company to book Shruthi and Tim on relevant the tech, cloud, blockchain, and startup podcasts. 
 
-We see solid engagement and slight website upticks everytime our founder appears on a [podcast](https://www.thecloudcast.net/2022/08/real-time-data-cloud.html) or we are featured in the [press](vendia.net/perss). Just like content marketing, awareness helps scale your founders and build trust. 
+We see solid engagement and slight website upticks everytime our founder appears on a [podcast](https://www.thecloudcast.net/2022/08/real-time-data-cloud.html) or we are featured in the [press](https://www.vendia.net/press). Just like content marketing, awareness helps scale your founders and build trust. 
 
 You have to place a lot of bets at a startup. You won’t be sure what works so you can’t go “all-in” on one particular channel/strategy/tactic. On the other hand, place smart bets and don’t be afraid to give projects time to breathe.
 
