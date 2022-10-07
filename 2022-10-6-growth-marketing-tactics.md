@@ -54,7 +54,7 @@ It can be really overwhelming when you realize you have to post to the blog, pit
 
 For all the other marketing motions, I recommend making a simple plan with help from outside resources. 
 
-If you can, get some contractors. l liked freelancers over agencies, but to each their own. Freelancers tend to have lower upfront costs, undesrtand that you are small, and typically tailor their strategies 
+If you can, get some contractors. l liked freelancers over agencies, but to each their own. Freelancers tend to have lower upfront costs, undesrtand that you are small, and typically tailor their strategies to your needs.
 
 
 ## Example: PR and awareness
