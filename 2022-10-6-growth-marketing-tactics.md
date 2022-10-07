@@ -43,7 +43,7 @@ While it would be awesome to say, “Ta-da, positioning exercise complete!”, w
 
 >At startups, knowing what _not to do_ is just as valuable as knowing what to do.
 
-It’s also really helpful to test any sales plays with marketing first. Marketing tends to be more nimble than sales. You don’t have to build a 25-slide deck and train the team. It’s much cheaper and faster to launch a small LinkedIn Ad campaign to asses interest _and_ make sure this is a group you can even target before you start glorifyiing sales decks!
+It’s also really helpful to test any sales plays with marketing first. Marketing tends to be more nimble than sales. You don’t have to build a 25-slide deck and train the team. It’s much cheaper and faster to launch a small LinkedIn Ad campaign to asses interest _and_ make sure this is a group you can even target before you start glorifying sales decks!
 
 
 # Place a lot of bets — and give yourself some time
