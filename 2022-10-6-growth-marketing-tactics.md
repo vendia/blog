@@ -1,5 +1,5 @@
 ---
-title: 'Growth Marketing B2B SaaS'
+title: 'Startup marketing: How to get up and running'
 description: 'Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.'
 date: '2022-10-06'
 categories:
