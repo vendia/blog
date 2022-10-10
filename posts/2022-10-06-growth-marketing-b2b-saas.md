@@ -1,5 +1,5 @@
 ---
-title: 'Growth Marketing B2B SaaS'
+title: 'How to think about your growth marketing tactics at a startup'
 description: 'Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.'
 date: '2022-10-06'
 categories:
@@ -7,7 +7,7 @@ authors:
   - Caroll Casbeer
 ---
 
-Marketing is hard — even at mature, highly successful companies. As with many jobs, you’re asked to do more with less and predict the unpredictable. I’ve found that developing a marketing engine at a startup is the hardest of both worlds… you’re trying to create product-market fit, find your best customers (without having lots of customers), be frugal, place a lot of bets you think _may_ work, all while fielding questions about the lifetime value (LTV) of a customer. (Seriously, just because I can _do _the LTV calculation doesn’t mean it’s important right now.)  
+Marketing is hard — even at mature, highly successful companies. As with many jobs, you’re asked to do more with less and predict the unpredictable. I’ve found that developing a marketing engine at a startup is the hardest of both worlds… you’re trying to create product-market fit, find your best customers (without having lots of customers), be frugal, place a lot of bets you think _may_ work, all while fielding questions about the lifetime value (LTV) of a customer. (Seriously, just because I can _do_ the LTV calculation doesn’t mean it’s important right now.)  
 
 With those musings, I thought I’d share a few tactics I’ve learned from building a growth marketing engine at Vendia. While the tactics may look #basic, I highlight some of the unique ways we’ve leveraged traditional channels to grow a robust marketing machine.  
 
@@ -18,7 +18,7 @@ With those musings, I thought I’d share a few tactics I’ve learned from buil
 
 Content marketing is the basis for any B2B SaaS. Why? Because content is great at building trust, educating your customer, _and_ helping you articulate who you are and what you do. 
 
-Startups bring on their first marketer as they transition from founder-led sales to marketing or sales-led customer acquisition. Blog posts, videos, infographics, recorded webcasts, and white papers are vehicles that scale your founders’ high profile, high-octane stories. At Vendia, our co-founder, Tim Wagner, is our most [prolific writer ](https://www.vendia.net/blog/author/tim-wagner)— he probably writes a white paper a month. 
+Startups bring on their first marketer as they transition from founder-led sales to marketing or sales-led customer acquisition. Blog posts, videos, infographics, recorded webcasts, and white papers are vehicles that scale your founders’ high profile, high-octane stories. At Vendia, our co-founder, Tim Wagner, is our most [prolific writer](https://www.vendia.net/blog/author/tim-wagner)— he probably writes a white paper a month. 
 
 But wait, what about SEO and ranking on Google? Isn’t that what content marketing is _really_ all about? I want my “free” website traffic!
 
@@ -37,13 +37,13 @@ For {{Job title}} and {{company characteristics}} who are trying to {{pain point
 
 Step 2: I used ZoomInfo to find companies that fit the profile — or got a list of companies that use competitor technologies.
 
-Step 3: Then, I created ads that either included the pain points or the solution with a call to action (CTA) that invited targets  to download a relevant white paper directly from LinkedIn. 
+Step 3: Then, I created ads that either included the pain points or the solution with a call to action (CTA) that invited targets to download a relevant white paper directly from LinkedIn. 
 
 While it would be awesome to say, “Ta-da, positioning exercise complete!”, we all know it’s not that simple. What this did help us do was figure out _what to stop considering for our positioning_. 
 
 >At startups, knowing what _not to do_ is just as valuable as knowing what to do.
 
-It’s also really helpful to test any sales plays with marketing first. Marketing tends to be more nimble than sales. You don’t have to build a 25-slide deck and train the team. It’s much cheaper and faster to launch a small LinkedIn Ad campaign to asses interest _and _make sure this is a group you can even target before you start glorifyiing sales decks!
+It’s also really helpful to test any sales plays with marketing first. Marketing tends to be more nimble than sales. You don’t have to build a 25-slide deck and train the team. It’s much cheaper and faster to launch a small LinkedIn Ad campaign to asses interest _and_ make sure this is a group you can even target before you start glorifying sales decks!
 
 
 # Place a lot of bets — and give yourself some time
@@ -61,7 +61,7 @@ If you can, get some contractors. l liked freelancers over agencies, but to each
 
 While I’m inclined to focus on the classic mid-funnel motions (i.e., conversion to sale), at the early stage, we have seen real value in investing in top-of-funnel and awareness tactics. We picked our tactics and messaging very deliberately and strategically. Instead of hiring a large PR firm to get as much Vendia-centric press as possible, we’ve opted for a freelancer that helps us center our founders, Shruthi Rao and Tim Wagner, as leaders in the next-gen blockchain movement. We also hired a company to book Shruthi and Tim on relevant the tech, cloud, blockchain, and startup podcasts. 
 
-We see solid engagement and slight website upticks everytime our founder appears on a [podcast](https://www.thecloudcast.net/2022/08/real-time-data-cloud.html) or we are featured in the [press](vendia.net/perss). Just like content marketing, awareness helps scale your founders and build trust. 
+We see solid engagement and slight website upticks everytime our founder appears on a [podcast](https://www.thecloudcast.net/2022/08/real-time-data-cloud.html) or we are featured in the [press](https://vendia.net/press). Just like content marketing, awareness helps scale your founders and build trust. 
 
 You have to place a lot of bets at a startup. You won’t be sure what works so you can’t go “all-in” on one particular channel/strategy/tactic. On the other hand, place smart bets and don’t be afraid to give projects time to breathe.
 
