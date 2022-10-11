@@ -3,6 +3,7 @@ title: 'Startup marketing: How to get up and running'
 description: 'Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.'
 date: '2022-10-06'
 categories:
+draft: true
 authors:
   - Caroll Casbeer
 ---
@@ -66,6 +67,6 @@ We see solid engagement and slight website upticks everytime our founder appears
 You have to place a lot of bets at a startup. You won’t be sure what works so you can’t go “all-in” on one particular channel/strategy/tactic. On the other hand, place smart bets and don’t be afraid to give projects time to breathe.
 
 
-# Want to follow our latest ‘bet”? 
+# Want to follow our latest "bet"? 
 
-Check out [Circles of Trus](https://vendia.net/resources/circles-of-trust)t, a podcast for innovation leaders and disrupters all about data sharing. Listen on [Spotify](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK), [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M), and [Apple](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) podcasts.
+Check out [Circles of Trust](https://vendia.net/resources/circles-of-trust), a podcast for innovation leaders and disrupters all about data sharing. Listen on [Spotify](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK), [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M), and [Apple](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) podcasts.
