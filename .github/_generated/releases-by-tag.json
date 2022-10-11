@@ -1,5 +1,40 @@
 {
+  "Developer Experience": [
+    {
+      "file": "/releases/2022-09-26-releasenotes.md",
+      "title": "Giving You Even More Control",
+      "description": "Vendia Share now supports defining ACLs on arrays and brings a new design to the UI",
+      "date": "2022-09-26",
+      "draft": false,
+      "tags": [
+        "Developer Experience",
+        "New Features"
+      ]
+    },
+    {
+      "file": "/releases/2022-01-31-releasenotes.md",
+      "title": "Improved User Experience and Developer Experience",
+      "description": "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity",
+      "date": "2022-01-31",
+      "draft": false,
+      "tags": [
+        "User Experience",
+        "Developer Experience"
+      ]
+    }
+  ],
   "New Features": [
+    {
+      "file": "/releases/2022-09-26-releasenotes.md",
+      "title": "Giving You Even More Control",
+      "description": "Vendia Share now supports defining ACLs on arrays and brings a new design to the UI",
+      "date": "2022-09-26",
+      "draft": false,
+      "tags": [
+        "Developer Experience",
+        "New Features"
+      ]
+    },
     {
       "file": "/releases/2022-08-26-releasenotes.md",
       "title": "Staying Cool This Summer with New Features and Improvements",
@@ -155,19 +190,6 @@
     }
   ],
   "User Experience": [
-    {
-      "file": "/releases/2022-01-31-releasenotes.md",
-      "title": "Improved User Experience and Developer Experience",
-      "description": "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity",
-      "date": "2022-01-31",
-      "draft": false,
-      "tags": [
-        "User Experience",
-        "Developer Experience"
-      ]
-    }
-  ],
-  "Developer Experience": [
     {
       "file": "/releases/2022-01-31-releasenotes.md",
       "title": "Improved User Experience and Developer Experience",

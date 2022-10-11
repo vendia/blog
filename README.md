@@ -318,6 +318,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
 | Releases Details | Published-Date | edit |
 |:-----------------|:--------------:|:----:|
+| [Giving You Even More Control](https://vendia.net/releases/2022-09-26-releasenotes) <br/> Vendia Share now supports defining ACLs on arrays and brings a new design to the UI | 2022-09-26 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-09-26-releasenotes.md)
 | [Staying Cool This Summer with New Features and Improvements](https://vendia.net/releases/2022-08-26-releasenotes) <br/> Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more | 2022-08-26 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-08-26-releasenotes.md)
 | [Improved Security, Performance and Transparency](https://vendia.net/releases/2022-07-15-releasenotes) <br/> Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics | 2022-07-15 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-07-15-releasenotes.md)
 | [Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow](https://vendia.net/releases/2022-04-15-releasenotes) <br/> Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow | 2022-04-15 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-04-15-releasenotes.md)
