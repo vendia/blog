@@ -32,7 +32,7 @@ jobs:
         content="${content//'%'/'%25'}"
         # content="${content//$'\n'/'%0A'}"
         content="${content//$'\r'/'%0D'}"
-        echo 'ERRORS_JSON=$content"' >> $GITHUB_OUTPUT
+        echo ERRORS_JSON=$content >> $GITHUB_OUTPUT
     - name: Get value
       if: failure()
       run: echo '${{ steps.set_var.outputs.ERRORS_JSON }}'
