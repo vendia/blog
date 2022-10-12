@@ -27,7 +27,8 @@ jobs:
     - id: set_var
       if: failure()
       run: |
-        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
+        # Trim extra quotes and leading spaces from error json
+        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//')
         echo $cleanErrors
         errors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
         errors="${errors//'%'/'%25'}"
