@@ -24,42 +24,20 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
-    - id: set_var
+    - id: setErrorEnv
       if: failure()
       run: |
         # Trim extra quotes and leading spaces from error json
         cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//')
-        echo $cleanErrors
-        errors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
-        errors="${errors//'%'/'%25'}"
-        errors="${errors//$'\n'/'%0A'}"
-        errors="${errors//$'\r'/'%0D'}"
-        content=`cat ./errors.json`
-        # the following lines are only required for multi line json
-        content="${content//'%'/'%25'}"
-        content="${content//$'\n'/'%0A'}"
-        content="${content//$'\r'/'%0D'}"
-        echo ERRORS_JSON=$content >> $GITHUB_OUTPUT
-        echo ERRORS_TEXT=$errors >> $GITHUB_OUTPUT
+        echo "$cleanErrors"
         echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
-        # echo "environment_variable_name=$errors" >> $GITHUB_ENV
     - name: Get value env
       if: failure()
       run: |
         echo "env"
         echo "${{ env.JSON_RESPONSE }}"
-    - name: Get value json
-      if: failure()
-      run: |
-        echo "json"
-        echo '${{ steps.set_var.outputs.ERRORS_JSON }}'
-    - name: Get value
-      if: failure()
-      run: |
-        echo "text"
-        echo '${{ steps.set_var.outputs.ERRORS_TEXT }}'
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_test_failure
@@ -71,14 +49,14 @@ jobs:
         message: |
           ❌ Deploy failed!
 
-          ${{ steps.set_var.outputs.ERRORS_TEXT }}
-
-          ${{ steps.set_var.outputs.ERRORS_JSON }}
+          **Errors found:**
 
           ${{ env.JSON_RESPONSE }}
 
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
+
+          If tests passed but the site build failed, see:
           - https://github.com/vendia/site/actions/workflows/ci.yml
 
     # # Add comment

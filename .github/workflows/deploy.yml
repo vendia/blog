@@ -113,6 +113,17 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
+    # Get information about failed tests
+    - id: setErrorEnv
+      if: failure()
+      run: |
+        # Trim extra quotes and leading spaces from error json
+        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//')
+        echo "Failure details:"
+        echo "$cleanErrors"
+        echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+        echo "$cleanErrors" >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
     # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
@@ -126,6 +137,10 @@ jobs:
           ❌ Tests failed!
 
           (╯°□°)╯︵ ┻━┻
+
+          **Errors found:**
+
+          ${{ env.JSON_RESPONSE }}
 
           See why in [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "tests" section.
 
