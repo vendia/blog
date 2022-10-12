@@ -74,8 +74,8 @@ jobs:
           ${{ steps.set_var.outputs.ERRORS_JSON }}
 
           ${{ env.JSON_RESPONSE }}
-          
-          ${{ join(env.JSON_RESPONSE, ',\n') }}
+
+          ${{ join(toJSON(env.JSON_RESPONSE), ',\n') }}
 
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
