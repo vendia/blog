@@ -24,6 +24,12 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
+    - run: |
+      echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
+      cat ./errors.json >> $GITHUB_ENV
+      echo 'EOF' >> $GITHUB_ENV
+    - run: |
+      echo '${{ fromJson(env.PACKAGE_JSON) }}'
     - id: set_var
       if: failure()
       run: |
