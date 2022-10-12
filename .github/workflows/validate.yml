@@ -27,8 +27,8 @@ jobs:
     - id: set_var
       if: failure()
       run: |
-        cleanErrors=$(cat ./errors.json)
-        errors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$/\n/')
+        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
+        errors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
         errors="${errors//'%'/'%25'}"
         errors="${errors//$'\n'/'%0A'}"
         errors="${errors//$'\r'/'%0D'}"
@@ -75,7 +75,7 @@ jobs:
 
           ${{ env.JSON_RESPONSE }}
 
-          ${{ join(toJSON(env.JSON_RESPONSE), ',\n') }}
+          ${{ join(env.JSON_RESPONSE, ',\n') }}
 
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
