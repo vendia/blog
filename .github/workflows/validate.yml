@@ -32,8 +32,13 @@ jobs:
         content="${content//'%'/'%25'}"
         content="${content//$'\n'/'%0A'}"
         content="${content//$'\r'/'%0D'}"
-        echo "packageJson=$content" >> $GITHUB_OUTPUT
-
+        echo "ERRORS_JSON=$content" >> $GITHUB_OUTPUT
+    - name: Get value
+      if: failure()
+      run: echo "${{ steps.set_var.outputs.ERRORS_JSON }}"
+    - name: Get value json
+      if: failure()
+      run: echo "${{ fromJson(steps.set_var.outputs.ERRORS_JSON) }}"
     # Add comment
     - name: Add PR error comment
       if: failure()
@@ -41,12 +46,12 @@ jobs:
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
-          const errors = "${{fromJson(steps.set_var.outputs.packageJson)}}"
+          const errors = ${{fromJson(steps.set_var.outputs.ERRORS_JSON)}}
           console.log('errors', errors)
           // Write to PR
           github.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: ' Ups, something went wrong. Please checkout the following error:  ' + errors
+            body: 'Ups, something went wrong. Please checkout the following error:  '
           });
