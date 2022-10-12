@@ -27,14 +27,23 @@ jobs:
     - id: set_var
       if: failure()
       run: |
-        content=`cat ./errors.json`
-        echo "ERRORS_JSON=$content" >> $GITHUB_OUTPUT
-    - name: Get value
+        echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+        cat ./errors.json >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
+      # run: |
+      #   content=`cat ./errors.json`
+      #   echo "ERRORS_JSON=$content" >> $GITHUB_OUTPUT
+    - name: Use the value
+      id: step_two
       if: failure()
-      run: echo "${{ steps.set_var.outputs.ERRORS_JSON }}"
-    - name: Get value json
-      if: failure()
-      run: echo "${{ fromJson(steps.set_var.outputs.ERRORS_JSON) }}"
+      run: |
+        echo "${{ env.JSON_RESPONSE }}"
+    # - name: Get value
+    #   if: failure()
+    #   run: echo "${{ steps.set_var.outputs.ERRORS_JSON }}"
+    # - name: Get value json
+    #   if: failure()
+    #   run: echo "${{ fromJson(steps.set_var.outputs.ERRORS_JSON) }}"
     # Add comment
     - name: Add PR error comment
       if: failure()
@@ -42,12 +51,10 @@ jobs:
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
-          const errors = ${{fromJson(steps.set_var.outputs.ERRORS_JSON)}}
-          console.log('errors', errors)
           // Write to PR
           github.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: 'Ups, something went wrong. Please checkout the following error:  '
+            body: 'Ups, something went wrong. Please checkout the following error:  ${{ env.JSON_RESPONSE }}'
           });
