@@ -47,9 +47,13 @@ jobs:
         message: |
           ❌ Deploy failed!
 
-          See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
 
           ${{ steps.set_var.outputs.ERRORS_JSON }}
+
+          For additional information see Logs in 
+          - https://github.com/vendia/blog/actions/workflows/test.yml
+          - https://github.com/vendia/site/actions/workflows/ci.yml
+
     # # Add comment
     # - name: Add PR error comment
     #   if: failure()
