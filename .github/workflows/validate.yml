@@ -32,8 +32,8 @@ jobs:
         content="${content//'%'/'%25'}"
         content="${content//$'\n'/'%0A'}"
         content="${content//$'\r'/'%0D'}"
-        # end of optional handling for multi line json
-        echo "::set-output name=packageJson::$content"
+        echo "packageJson=$content" >> $GITHUB_OUTPUT
+
     # Add comment
     - name: Add PR error comment
       if: failure()
@@ -41,7 +41,7 @@ jobs:
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
-          const errors = ${{fromJson(steps.set_var.outputs.packageJson)}}
+          const errors = "${{fromJson(steps.set_var.outputs.packageJson)}}"
           console.log('errors', errors)
           // Write to PR
           github.issues.createComment({
