@@ -24,3 +24,21 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
+    # Add comment
+    - name: Add PR error comment
+      if: failure()
+      uses: actions/github-script@v3
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          const fs = require('fs')
+          const path = require('path')
+          const errors = fs.readFileSync(path.resolve(__dirname, 'errors.json'))
+          console.log('errors', errors)
+          // Write to PR
+          github.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: ' Ups, something went wrong. Please checkout the following error:  '
+          });

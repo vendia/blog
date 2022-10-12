@@ -1,4 +1,5 @@
 const path = require('path')
+const fs = require('fs')
 const { test } = require('uvu')
 const assert = require('uvu/assert')
 const {
@@ -9,7 +10,7 @@ const {
   DATE_FORMAT_REGEX
 } = require('./get-data')
 const { verifyMdExtension } =  require('./md-utils/verify-extension')
-
+process.env.CI = true
 const cwd = process.cwd()
 
 const GLOB_PATTERN = [
@@ -215,16 +216,20 @@ ${copy}
 ████████████████████████████████████████████████
 `
 function throwErrors(errors = []){
- if (errors.length) {
-   const messages = errors.map((err) => {
-     if (typeof err === 'object') {
-       if (err.message || err.error) {
-         return `  - ${err.message || err.error}\n${JSON.stringify(err, null, 2)}`
-       }
-       return JSON.stringify(err, null, 2)
-     }
-     return `  - ${err}`
-   })
+  if (errors.length) {
+    const messages = errors.map((err) => {
+      if (typeof err === 'object') {
+        if (err.message || err.error) {
+          return `  - ${err.message || err.error}\n${JSON.stringify(err, null, 2)}`
+        }
+        return JSON.stringify(err, null, 2)
+      }
+      return `  - ${err}`
+    })
+    // Write out to file in github action
+    if (process.env.CI) {
+      saveErrors(messages)
+    }
     throw new Error(`${errorHeading}
 Markdown Errors!
 ${messages.join('\n')}
@@ -232,4 +237,29 @@ ${messages.join('\n')}
   }
 }
 
+const ERROR_FILE_PATH = path.resolve(cwd, 'errors.json')
+
+function saveErrors(messages) {
+  fs.writeFileSync(ERROR_FILE_PATH, JSON.stringify(messages, null, 2))
+}
+
+function readErrors() {
+  const errors = JSON.parse(fs.readFileSync(ERROR_FILE_PATH, 'utf-8'))
+  return errors
+}
+
+test.after(() => {
+  if (process.env.CI) {
+    const errors = readErrors()
+    console.log()
+    console.log('───────────────────────')
+    console.log('Errors')
+    console.log(errors)
+    console.log('───────────────────────')
+    console.log()
+  }
+})
+
 test.run()
+
+
