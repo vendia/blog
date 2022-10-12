@@ -38,6 +38,15 @@ jobs:
         content="${content//$'\r'/'%0D'}"
         echo ERRORS_JSON=$content >> $GITHUB_OUTPUT
         echo ERRORS_TEXT=$errors >> $GITHUB_OUTPUT
+        echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+        echo $errors >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
+        # echo "environment_variable_name=$errors" >> $GITHUB_ENV
+    - name: Get value env
+      if: failure()
+      run: |
+        echo "env"
+        echo "${{ env.JSON_RESPONSE }}"
     - name: Get value json
       if: failure()
       run: |
@@ -62,6 +71,8 @@ jobs:
           ${{ steps.set_var.outputs.ERRORS_TEXT }}
 
           ${{ steps.set_var.outputs.ERRORS_JSON }}
+
+          ${{ env.JSON_RESPONSE }}
 
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
