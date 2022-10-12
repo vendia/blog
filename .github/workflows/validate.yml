@@ -27,15 +27,20 @@ jobs:
     - id: set_var
       if: failure()
       run: |
+        errors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
         content=`cat ./errors.json`
         # the following lines are only required for multi line json
         content="${content//'%'/'%25'}"
         # content="${content//$'\n'/'%0A'}"
         content="${content//$'\r'/'%0D'}"
         echo ERRORS_JSON=$content >> $GITHUB_OUTPUT
+        echo ERRORS_TEXT=$errors >> $GITHUB_OUTPUT
     - name: Get value
       if: failure()
-      run: echo '${{ steps.set_var.outputs.ERRORS_JSON }}'
+      run: |
+        echo '${{ steps.set_var.outputs.ERRORS_JSON }}'
+        echo "text"
+        echo '${{ steps.set_var.outputs.ERRORS_TEXT }}'
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_test_failure
@@ -47,6 +52,7 @@ jobs:
         message: |
           ❌ Deploy failed!
 
+          ${{ steps.set_var.outputs.ERRORS_TEXT }}
 
           ${{ steps.set_var.outputs.ERRORS_JSON }}
 
