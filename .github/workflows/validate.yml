@@ -28,6 +28,9 @@ jobs:
       if: failure()
       run: |
         cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$/\n/')
+        cleanErrors="${errors//'%'/'%25'}"
+        cleanErrors="${errors//$'\n'/'%0A'}"
+        cleanErrors="${errors//$'\r'/'%0D'}"
         echo $cleanErrors
         errors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//')
         errors="${errors//'%'/'%25'}"
@@ -41,7 +44,7 @@ jobs:
         echo ERRORS_JSON=$content >> $GITHUB_OUTPUT
         echo ERRORS_TEXT=$errors >> $GITHUB_OUTPUT
         echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
-        echo $(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$/\n/') >> $GITHUB_ENV
+        echo $cleanErrors >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
         # echo "environment_variable_name=$errors" >> $GITHUB_ENV
     - name: Get value env
