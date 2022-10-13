@@ -1,0 +1,44 @@
+name: Post Template
+description: Easy way to create a new post
+title: "[Post Template]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is an issue template to make it easier to setup a post. Copy/paste the below markdown into a new file.
+
+        [Click here to add a new markdown file to posts](https://github.com/vendia/blog/new/master/posts)
+
+        This issue template is just for getting the markdown syntax. No need to submit this!
+
+  - type: textarea
+    id: template
+    validations:
+      required: true
+    attributes:
+      label: Post template
+      description: copy / paste this into a markdown file!
+      placeholder: Tell us what you see!
+      value: |
+        ---
+        title: "Awesome title of this post"
+        description: "This is the description of this great post"
+        date: "2021-06-08"
+        categories:
+          - announcements
+          - company
+        tags:
+          - funding
+        authors:
+          - FirstName LastName
+          - SecondAuthor LastName 
+        ---
+
+        My post content
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a new post
+
+        [Click here to add a new markdown file to posts](https://github.com/vendia/blog/new/master/posts)
