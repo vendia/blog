@@ -7,6 +7,6 @@ body:
     validations:
       required: true
     attributes:
-      label: Issue
+      label: Issue Details
       placeholder: Leave a comment
-        
+      
