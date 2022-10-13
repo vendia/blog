@@ -136,7 +136,7 @@ jobs:
         message: |
           ❌ Oh snap! Validation failed! (╯°□°)╯︵ ┻━┻
 
-          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs/${{ github.job }}
 
           **Errors found:**
 
