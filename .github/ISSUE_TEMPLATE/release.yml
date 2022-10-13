@@ -1,11 +1,11 @@
-name: Post Template
-description: Easy way to create a new post
+name: Release Template
+description: Easy way to create a new release post
 title: "[Post Template] Don't Submit this issue 😃"
 body:
   - type: markdown
     attributes:
       value: |
-        This is an issue template to make it easier to setup a post. Copy/paste the below markdown into a new file.
+        This is an issue template to make it easier to setup a release post. Copy/paste the below markdown into a new file.
 
         ## 1. **Click in the textarea below 👇 to copy/paste the template**
 
@@ -19,17 +19,13 @@ body:
       placeholder: Tell us what you see!
       value: |
         ---
-        title: "Awesome title of this post"
-        description: "This is the description of this great post"
+        title: "The awesome features"
+        description: "This is the description of these great features"
         date: "2021-06-08"
-        categories:
-          - announcements
-          - company
         tags:
-          - funding
-        authors:
-          - FirstName LastName
-          - SecondAuthor LastName 
+        - Enhancements
+        - GraphQL
+        - Security
         ---
 
         My post content here in markdown
@@ -42,7 +38,7 @@ body:
 
         After copying the above textarea, click the link below to start a new post.
 
-        **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
+        **[🚀 Click here to add a new release post](https://github.com/vendia/blog/new/master/releases)**
 
         Remember to name your posts file names like this: `YYYY-MM-DD-blog-post-name.md` with the date prefix.
 

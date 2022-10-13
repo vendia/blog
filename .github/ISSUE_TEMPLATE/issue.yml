@@ -1,0 +1,12 @@
+name: Issue / Bug Report
+description: Report an issue
+title: ""
+body:
+  - type: textarea
+    id: issue
+    validations:
+      required: true
+    attributes:
+      label: Issue
+      placeholder: Leave a comment
+        
