@@ -1,133 +1,109 @@
-[
-  {
-    "slug": "company",
-    "description": "Company news & updates"
-  },
-  {
-    "slug": "announcements",
-    "description": "Company announcements"
-  },
-  {
-    "slug": "tutorials",
-    "description": "Developer tutorials"
-  },
-  {
-    "slug": "product",
-    "description": "Product updates & feature releases"
-  },
-  {
-    "slug": "architecture",
-    "description": "Software architecture"
-  },
-  {
-    "slug": "concepts",
-    "description": "Software concepts"
-  },
-  {
-    "slug": "api driven development",
-    "description": "Development for APIs and data sharing"
-  },
-  {
-    "slug": "lean apps",
-    "description": "Lean application development"
-  },
-]
+[{
+  "slug": "company",
+  "description": "Company news & updates"
+},
 {
-    "slug": "graphql",
-    "description": "Graphql"
-  },
-]
+  "slug": "announcements",
+  "description": "Company announcements"
+},
 {
-    "slug": "greenchains",
-    "description": "Environmentally-friendly blockchains"
-  },
-]
-
+  "slug": "tutorials",
+  "description": "Developer tutorials"
+},
 {
-    "slug": "infrastructure",
-    "description": "Infrastructure"
-  },
-]
-
+  "slug": "product",
+  "description": "Product updates & feature releases"
+},
 {
-    "slug": "leadership",
-    "description": "Leadership"
-  },
-]
-
+  "slug": "architecture",
+  "description": "Software architecture"
+},
 {
-    "slug": "open source",
-    "description": "Open-source Software"
-  },
-]
-
+  "slug": "concepts",
+  "description": "Software concepts"
+},
 {
-    "slug": "origin",
-    "description": "Vendias Origin store"
-  },
-]
-
+  "slug": "api driven development",
+  "description": "Development for APIs and data sharing"
+},
 {
-    "slug": "partners",
-    "description": "Partners"
-  },
-]
+  "slug": "lean apps",
+  "description": "Lean application development"
+},
 {
-    "slug": "product design",
-    "description": "Product Design"
-  },
-]
+  "slug": "graphql",
+  "description": "Graphql"
+},
 {
-    "slug": "security",
-    "description": "Security"
-  },
-]
+  "slug": "greenchains",
+  "description": "Environmentally-friendly blockchains"
+},
 {
-    "slug": "serverless",
-    "description": "Serverless"
-  },
-]
+  "slug": "infrastructure",
+  "description": "Infrastructure"
+},
 {
-    "slug": "smart apis",
-    "description": "Smart APIs"
-  },
-]
+  "slug": "leadership",
+  "description": "Leadership"
+},
 {
-    "slug": "smart apis",
-    "description": "Smart APIs"
-  },
-]
+  "slug": "open source",
+  "description": "Open-source Software"
+},
 {
-    "slug": "smart-contracts",
-    "description": "Smart Contracts"
-  },
-]
+  "slug": "origin",
+  "description": "Vendias Origin store"
+},
 {
-    "slug": "stami",
-    "description": "STAMI"
-  },
-]
+  "slug": "partners",
+  "description": "Partners"
+},
 {
-    "slug": "supply chain",
-    "description": "Smart APIs"
-  },
-]
+  "slug": "product design",
+  "description": "Product Design"
+},
 {
-    "slug": "track and trace",
-    "description": "Track and Trace"
-  },
-]
+  "slug": "security",
+  "description": "Security"
+},
 {
-    "slug": "universal application",
-    "description": "Universal Applications"
-  },
-]
+  "slug": "serverless",
+  "description": "Serverless"
+},
 {
-    "slug": "vendia share",
-    "description": "Vendia Share"
-  },
-]
+  "slug": "smart apis",
+  "description": "Smart APIs"
+},
 {
-    "slug": "web3",
-    "description": "Web3"
-  },
+  "slug": "smart apis",
+  "description": "Smart APIs"
+},
+{
+  "slug": "smart-contracts",
+  "description": "Smart Contracts"
+},
+{
+  "slug": "stami",
+  "description": "STAMI"
+},
+{
+  "slug": "supply chain",
+  "description": "Smart APIs"
+},
+{
+  "slug": "track and trace",
+  "description": "Track and Trace"
+},
+{
+  "slug": "universal application",
+  "description": "Universal Applications"
+},
+{
+  "slug": "vendia share",
+  "description": "Vendia Share"
+},
+{
+  "slug": "web3",
+  "description": "Web3"
+}
+]
