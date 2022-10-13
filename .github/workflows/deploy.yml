@@ -136,13 +136,13 @@ jobs:
         message: |
           ❌ Oh snap! Validation failed! (╯°□°)╯︵ ┻━┻
 
-          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs/${{ github.job }}
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs/${{ job.container.id }}
 
           **Errors found:**
 
           ${{ env.JSON_RESPONSE }}
 
-          For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "tests" section.
+          For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
