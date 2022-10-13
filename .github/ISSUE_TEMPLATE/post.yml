@@ -7,7 +7,7 @@ body:
       value: |
         This is an issue template to make it easier to setup a post. Copy/paste the below markdown into a new file.
 
-        **Click in the textarea below 👇 to copy/paste the template**
+        ## 1. **Click in the textarea below 👇 to copy/paste the template**
 
   - type: textarea
     id: template
@@ -38,7 +38,9 @@ body:
     attributes:
       value: |
         ‎
-        ## Add a new post
+        ## 2. Add a new post
+
+        After copying the above textarea, click the link below to start a new post.
 
         **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
 
