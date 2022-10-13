@@ -7,10 +7,6 @@ body:
       value: |
         This is an issue template to make it easier to setup a post. Copy/paste the below markdown into a new file.
 
-        **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
-
-        Remember to name your posts file names like this: `YYYY-MM-DD-blog-post-name.md` with the date prefix.
-
         **Click in the textarea below 👇 to copy/paste the template**
 
   - type: textarea
