@@ -1,6 +1,6 @@
 name: Issue / Bug Report
 description: Report an issue
-title: ""
+title: "Issue title"
 body:
   - type: textarea
     id: issue
