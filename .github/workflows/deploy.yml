@@ -118,7 +118,7 @@ jobs:
       if: failure()
       run: |
         # Trim extra quotes and leading spaces from error json & trim out github worker path
-        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*// | sed 's/\/home\/runner\/work\/blog//'')
+        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
         echo "Failure details:"
         echo "$cleanErrors"
         echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
