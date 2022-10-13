@@ -226,7 +226,7 @@ function throwErrors(errors = []){
       }
       return `  - ${err}`
     })
-    // Write out to file in github action
+    // Write out to file in github actions to add errors to the PR
     if (process.env.CI) {
       saveErrors(messages)
     }
@@ -240,23 +240,30 @@ ${messages.join('\n')}
 const ERROR_FILE_PATH = path.resolve(cwd, 'errors.json')
 
 function saveErrors(messages) {
-  fs.writeFileSync(ERROR_FILE_PATH, JSON.stringify(messages, null, 2))
+  try {
+    fs.writeFileSync(ERROR_FILE_PATH, JSON.stringify(messages, null, 2))
+  } catch (e) {}
 }
 
 function readErrors() {
-  const errors = JSON.parse(fs.readFileSync(ERROR_FILE_PATH, 'utf-8'))
+  let errors = []
+  try {
+    errors = JSON.parse(fs.readFileSync(ERROR_FILE_PATH, 'utf-8'))
+  } catch (e) {}
   return errors
 }
 
 test.after(() => {
   if (process.env.CI) {
     const errors = readErrors()
-    console.log()
-    console.log('───────────────────────')
-    console.log('Errors')
-    console.log(errors)
-    console.log('───────────────────────')
-    console.log()
+    if (errors.length) {
+      console.log()
+      console.log('───────────────────────')
+      console.log('Errors')
+      console.log(errors)
+      console.log('───────────────────────')
+      console.log()
+    }
   }
 })
 
