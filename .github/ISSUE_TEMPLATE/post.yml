@@ -1,6 +1,6 @@
 name: Post Template
 description: Easy way to create a new post
-title: "[Post Template]"
+title: "[Post Template] Don't Sumbit this issue 😃"
 body:
   - type: markdown
     attributes:
@@ -8,6 +8,8 @@ body:
         This is an issue template to make it easier to setup a post. Copy/paste the below markdown into a new file.
 
         **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
+
+        Remember to name your posts file names like this: `YYYY-MM-DD-blog-post-name.md` with the date prefix.
 
         **Click in the textarea below 👇 to copy/paste the template**
 
@@ -43,11 +45,18 @@ body:
 
         **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
 
+        Remember to name your posts file names like this: `YYYY-MM-DD-blog-post-name.md` with the date prefix.
+
         **Don't submit this as an issue**. Close this browser tab when you are done.
 
         Thank you! ❤️
 
-        ──────────────────────────────────────────────────────────────────────────────────
+        ───────────────────────────────────────────────────────
+        ‎
+        ‎
+        ‎
+        ‎
+        ‎
         ‎
         ‎
         ‎
