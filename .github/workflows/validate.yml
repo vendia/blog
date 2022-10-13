@@ -58,18 +58,3 @@ jobs:
 
           If tests passed but the site build failed, see:
           - https://github.com/vendia/site/actions/workflows/ci.yml
-
-    # # Add comment
-    # - name: Add PR error comment
-    #   if: failure()
-    #   uses: actions/github-script@v6
-    #   with:
-    #     github-token: ${{secrets.GITHUB_TOKEN}}
-    #     script: |
-    #       // Write to PR
-    #       github.issues.createComment({
-    #         issue_number: context.issue.number,
-    #         owner: context.repo.owner,
-    #         repo: context.repo.repo,
-    #         body: 'Ups, something went wrong. Please checkout the following error: ${{ steps.set_var.outputs.ERRORS_JSON }}'
-    #       });
