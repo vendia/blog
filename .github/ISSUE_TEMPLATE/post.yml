@@ -1,6 +1,6 @@
 name: Post Template
 description: Easy way to create a new post
-title: "[Post Template] Don't Sumbit this issue 😃"
+title: "[Post Template] Don't Submit this issue 😃"
 body:
   - type: markdown
     attributes:
@@ -41,6 +41,8 @@ body:
   - type: markdown
     attributes:
       value: |
+        ‎
+        ‎
         ## Add a new post
 
         **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
