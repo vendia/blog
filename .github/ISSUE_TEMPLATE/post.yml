@@ -7,9 +7,9 @@ body:
       value: |
         This is an issue template to make it easier to setup a post. Copy/paste the below markdown into a new file.
 
-        [Click here to add a new markdown file to posts](https://github.com/vendia/blog/new/master/posts)
+        **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
 
-        This issue template is just for getting the markdown syntax. No need to submit this!
+        **Click in the textarea below 👇 to copy/paste the template**
 
   - type: textarea
     id: template
@@ -41,4 +41,8 @@ body:
       value: |
         ## Add a new post
 
-        [Click here to add a new markdown file to posts](https://github.com/vendia/blog/new/master/posts)
+        **[🚀 Click here to add a new post](https://github.com/vendia/blog/new/master/posts)**
+
+        **Don't submit this as an issue**. Close this browser tab when you are done.
+
+        Thank you! ❤️
