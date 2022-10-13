@@ -10,8 +10,18 @@ const {
   DATE_FORMAT_REGEX
 } = require('./get-data')
 const { verifyMdExtension } =  require('./md-utils/verify-extension')
+
+/* // simulate CI env
 process.env.CI = true
+/** */
+
 const cwd = process.cwd()
+const ERROR_FILE_PATH = path.resolve(cwd, 'errors.json')
+
+if (process.env.CI) {
+  console.log('clear errors')
+  clearErrors()
+}
 
 const GLOB_PATTERN = [
   'posts/**/*.md',
@@ -35,11 +45,22 @@ test('File have correct extensions', async () => {
   const [ releaseErrors, releaseFiles ] = await verifyMdExtension(["releases/*"])
 
   if (errors.length) {
-    throw new Error(errors.join('\n'))
+    throwErrors(errors)
   }
 
   if (releaseErrors.length) {
-    throw new Error(releaseErrors.join('\n'))
+    throwErrors(releaseErrors)
+  }
+})
+
+test('Verify files in correct place', async () => {
+  const [ _errors, files ] = await verifyMdExtension(["*.md"])
+
+  if (files.length > 1) {
+    const extraFiles = files.filter((f) => f !== 'README.md')
+    throwErrors(extraFiles.map((f) => {
+      return `Extra markdown file found "${f}" in root directory. Make sure posts/releases are in /post or /releases folder`
+    }))
   }
 })
 
@@ -211,37 +232,39 @@ function validateAuthorFields(obj1, obj2) {
 const copy = '█ ✘ VALIDATION ERROR ───────────────────────────'
 const endz = '────────────────────────────────────────────────'
 const errorHeading = `
+
 ████████████████████████████████████████████████
 ${copy}
 ████████████████████████████████████████████████
+
 `
 function throwErrors(errors = []){
-  if (errors.length) {
-    const messages = errors.map((err) => {
-      if (typeof err === 'object') {
-        if (err.message || err.error) {
-          return `  - ${err.message || err.error}\n${JSON.stringify(err, null, 2)}`
-        }
-        return JSON.stringify(err, null, 2)
+  if (!errors.length) return
+  
+  const messages = errors.map((err) => {
+    if (typeof err === 'object') {
+      if (err.message || err.error) {
+        return `  - ${err.message || err.error}\n${JSON.stringify(err, null, 2)}`
       }
-      return `  - ${err}`
-    })
-    // Write out to file in github actions to add errors to the PR
-    if (process.env.CI) {
-      saveErrors(messages)
+      return JSON.stringify(err, null, 2)
     }
-    throw new Error(`${errorHeading}
+    return `  - ${err}`
+  })
+  // Write out to file in github actions to add errors to the PR
+  if (process.env.CI) {
+    saveErrors(messages)
+  }
+  throw new Error(`${errorHeading}
 Markdown Errors!
 ${messages.join('\n')}
 \n${endz}`)
-  }
 }
 
-const ERROR_FILE_PATH = path.resolve(cwd, 'errors.json')
-
 function saveErrors(messages) {
+  const existingErrors = readErrors()
+  const allErrors = existingErrors.concat(messages)
   try {
-    fs.writeFileSync(ERROR_FILE_PATH, JSON.stringify(messages, null, 2))
+    fs.writeFileSync(ERROR_FILE_PATH, JSON.stringify(allErrors, null, 2))
   } catch (e) {}
 }
 
@@ -251,6 +274,12 @@ function readErrors() {
     errors = JSON.parse(fs.readFileSync(ERROR_FILE_PATH, 'utf-8'))
   } catch (e) {}
   return errors
+}
+
+function clearErrors() {
+  try {
+    fs.unlinkSync(ERROR_FILE_PATH)
+  } catch (e) {}
 }
 
 test.after(() => {
