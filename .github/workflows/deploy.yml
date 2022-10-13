@@ -117,8 +117,8 @@ jobs:
     - id: setErrorEnv
       if: failure()
       run: |
-        # Trim extra quotes and leading spaces from error json
-        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//')
+        # Trim extra quotes and leading spaces from error json & trim out github worker path
+        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*// | sed 's/\/home\/runner\/work\/blog//'')
         echo "Failure details:"
         echo "$cleanErrors"
         echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
@@ -134,17 +134,15 @@ jobs:
         number: ${{ github.event.issue.number }}
         header: statusComment
         message: |
-          ❌ Tests failed!
+          ❌ Oh snap! Validation failed! (╯°□°)╯︵ ┻━┻
 
-          (╯°□°)╯︵ ┻━┻
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
           **Errors found:**
 
           ${{ env.JSON_RESPONSE }}
 
-          See why in [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "tests" section.
-
-          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "tests" section.
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
