@@ -24,3 +24,37 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
+    - id: setErrorEnv
+      if: failure()
+      run: |
+        # Trim extra quotes and leading spaces from error json
+        cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//')
+        echo "$cleanErrors"
+        echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+        echo "$cleanErrors" >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
+    - name: Get value env
+      if: failure()
+      run: |
+        echo "env"
+        echo "${{ env.JSON_RESPONSE }}"
+    - name: Add test failure status comment to PR
+      if: ${{ failure() }}
+      id: status_comment_test_failure
+      uses: marocchino/sticky-pull-request-comment@v1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        number: ${{ github.event.issue.number }}
+        header: testStatusComment
+        message: |
+          ❌ Deploy failed!
+
+          **Errors found:**
+
+          ${{ env.JSON_RESPONSE }}
+
+          For additional information see Logs in 
+          - https://github.com/vendia/blog/actions/workflows/test.yml
+
+          If tests passed but the site build failed, see:
+          - https://github.com/vendia/site/actions/workflows/ci.yml
