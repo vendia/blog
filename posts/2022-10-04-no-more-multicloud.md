@@ -23,7 +23,7 @@ If ever there were ever a need for an innovative alternative from the market, th
 “Supercloud describes an architecture, which taps the underlying services & primitives of hyperscale clouds to deliver additional value above and beyond what’s available from public cloud providers. A supercloud delivers capabilities through software, consumed as services; and can run on a single hyperscale cloud or span multiple clouds.” (Source: [Wikibon](https://wikibon.com/breaking-analysis-rise-supercloud/))
 
 
-    Simply put, supercloud is what comes after the public cloud. It’s a value-add layer that hides cloud complexity, exploits differentiated cloud service capabilities, and adds new business (and business network) leverage beyond the raw “Lego<sup>TM</sup> bricks” of existing public and private clouds.
+    Simply put, supercloud is what comes after the public cloud. It’s a value-add layer that hides cloud complexity, exploits differentiated cloud service capabilities, and adds new business (and business network) leverage beyond the raw “Lego™ bricks” of existing public and private clouds.
 
 Although it represents an evolution beyond just individual public cloud providers, supercloud is going through its rapid series of transformations. We can see it as three eras.
 
