@@ -13,8 +13,29 @@ collections:
     extension: md
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select",  multiple: true, options: ["Martina", "Bob", "Steve"]}
+      - {
+          label: "Authors", 
+          name: "authors", 
+          widget: "select",  
+          multiple: true, 
+          options: [
+            'Anders Maul',       'Brett Andrews',
+            'Brian McNamara',    'Caroll Casbeer',
+            'Cory Forsythe',     'David Brown',
+            'David Wells',       'Francine Klein',
+            'Gavin Yue',         'Glenn Dierkes',
+            'Hailey Nevins',     'Jake Partusch',
+            'James Gimourginas', 'Joydeep Das',
+            'Renee Fujii',       'Ryan Green',
+            'Ryan Scott Brown',  'Shruthi Rao',
+            'Tim Wagner',        'Vikrant Kahlir',
+            'Alexa Johnson'
+          ]
+        }
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "LongDescription", name: "longDescription", widget: "text"}
