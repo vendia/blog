@@ -6,5 +6,13 @@
     "description": "How Vendia uses the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers.",
     "url": "https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure",
     "publication": "AWS Developer Blog"
+  },
+  {
+    "title": "10 Essential Practices for Building Software for Cloud Scale",
+    "date": "2021-10-12",
+    "authors": ["James Gimourginas"],
+    "description": "Learn the technical practices, Lean product development, Lean management, and culture and work environment approaches in DORA are applicable no matter the intended scale of your software system.",
+    "url": "https://thenewstack.io/10-essential-practices-for-building-software-for-cloud-scale/",
+    "publication": "The New Stack"
   }
 ]
