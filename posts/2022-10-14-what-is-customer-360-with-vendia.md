@@ -18,7 +18,10 @@ We can’t talk about Customer 360 without the infamous “wheel.” You’ve se
 We can’t help ourselves — here’s our rendition: 
 
 **Customer 360 Wheel of all Stages**
-![Customer 360 Wheel](images/image1.png "Critical stages of a customer's complete journey")
+
+![Customer 360 Wheel](https://user-images.githubusercontent.com/105127677/196303087-2f926f8a-fd40-422e-883c-2deadbd2d9cb.png "Critical stages of a customer's complete journey")
+
+<br/>
 
 
 It’s 360 because it covers a full circle, all 360 degrees.
@@ -26,7 +29,9 @@ It’s 360 because it covers a full circle, all 360 degrees.
 Each stage involves a series of actions, updating various data entities, enabled through a stack of business system applications.
 
 **Customer 360 Wheel of all Stages, Actions, Data Entities, and Systems**
-![Customer 360 Wheel Detail](images/image2.png "Key actions that occur at each Customer 360 Stage, including the relevant data entities and supporting systems")
+![Customer 360 Wheel Detail](https://user-images.githubusercontent.com/105127677/196303105-a3817402-ea14-4bc3-bb16-20a6dee2d987.png "Key actions that occur at each Customer 360 Stage, including the relevant data entities and supporting systems")
+
+<br/>
 
 The stages may differ depending on the product. For example, a consumer good product has order processing and shipping, while a SaaS product has configuration, go-live, and usage. But, generally, it’s the same theme across them all:
 1. Market prospective customers
@@ -88,8 +93,9 @@ A purpose of a CDP is to add categorization, or segmentation, of customers based
 However, CDPs are not the full 360° view. CDPs are notorious for focusing on marketing interactions, website views, and [top-of-funnel](https://www.simplilearn.com/top-of-funnel-marketing-tactics-article) curation; meaning, it’s more of a Customer 45° view. It often forgets sales, support, success, product, and revenue activity. 
 
 **Customer 360 Wheel Only Partially Visible with CDP Solutions**
-![Customer 360 Top-Left Wheel](images/image3.png)
+![Customer 360 Top-Left Wheel](https://user-images.githubusercontent.com/105127677/196303129-57659044-708a-4aae-a540-169a193f49a2.png)
 
+<br/>
 
 Key features of these solutions include: 
 * Matching (deduplicating) customers across data streams from each connected business application
@@ -123,9 +129,6 @@ By consolidating data into a single tool, it solves the need for identifying a g
 [Data warehouse](https://www.vendia.net/blog/blockchains-vs-cloud-and-it) solutions will look to generate insights on aspects of the Customer 360 wheel, narrowing in on specific questions. For example, “What percentage of revenue has been recognized for deals that closed in the last quarter?”
 
 However, to accomplish this, analytics ETL/ELT logic must include the following aspects as a prerequisite to insight-generating logic:
-
-
-
 * Data deduplication and mapping of identifiers 
 * Attribute reconciliation across systems
 * Managing conflicting definitions or multiple version of the truth
@@ -140,7 +143,10 @@ We’ve established that Customer 360 can exist in many forms across many soluti
 Most often, Customer 360 solutions are more like Customer 45, or a dotted line around the 360° circle — bits and pieces of the journey are connected, but the full, end-to-end continuity is lacking. 
 
 **Customer 360 Wheel with Spotty Visibility**
-![Customer 360 Dotted Line Wheel](images/image4.png)
+
+![Customer 360 Dotted Line Wheel](https://user-images.githubusercontent.com/105127677/196303139-e08d4d8d-a876-44a8-959e-1869974c701d.png)
+
+<br/>
 
 It’s easy to say the tools are the reason, that MDM is archaic, that data governance tools don't have the right breadth of features, or that people are the problem (but that wouldn’t be [very kind](https://www.vendia.net/kind-humans)).
 
@@ -187,8 +193,10 @@ With Vendia, you no longer need to:
 
 The walled gardens around data silos, both among departments and now among companies, begin to vanish. Not only can you have a complete view of _your_ Customer, you can have a more complete view of what is actually _your_ Customer and _your partners’_ Customer.  
 
-**Customer 360 Wheel Linked with Partner's Customer 360 Wheel**
-![Customer 360 Partner Wheel](images/image5.png "image_tooltip")
+**Customer 360 Wheel Linked with a Partner's Customer 360 Wheel**
+![Customer 360 Partner Wheel](https://user-images.githubusercontent.com/105127677/196303143-0d97df23-72f9-4245-9097-330d4daf5999.png)
+
+<br/>
 
 Customer 360 is now short sighted. It’s time for Customer 720… or Customer 1080 or Customer 1440…
 
