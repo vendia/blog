@@ -6,6 +6,7 @@
   "author": "Vendia Inc",
   "main": "index.js",
   "scripts": {
+    "serve": "serve .github/admin",
     "test": "uvu .github .test.js",
     "docs": "node ./.github/generate-data.js",
     "new": "plop --plopfile .github/plopfile.js",
@@ -37,5 +38,8 @@
     "plop": "^2.7.4",
     "slugify": "^1.6.3",
     "uvu": "^0.5.1"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
   }
 }
