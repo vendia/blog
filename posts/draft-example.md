@@ -6,10 +6,10 @@ date: 2020-01-02
 authors:
   - David Wells
 relatedPosts:
-  - Welcome to Vendia
-  - Meet Vendia's founders
+  - 2020-07-01-meet-vendias-founders
+  - 2020-11-05-track-and-trace
 updatedBy: David Wells
-updatedAt: 2022-10-18T18:49:57.807Z
+updatedAt: 2022-10-18T18:51:03.699Z
 ---
 
 This post is a draft. Here is update. Again!
