@@ -6,11 +6,15 @@ date: 2020-01-02
 authors:
   - David Wells
 updatedBy: David Wells
-updatedAt: 2022-10-18T05:45:14.350Z
+updatedAt: 2022-10-18T06:12:59.273Z
 ---
 This post is a draft
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vxitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis
+
+<!-- ⛔️ MD-MAGIC-EXAMPLE:START (CODE:src=./examples/plugin-example.js) -->
+testLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vxitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollisstst
+<!-- ⛔️ MD-MAGIC-EXAMPLE:END -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis..
 
