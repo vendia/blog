@@ -49,8 +49,9 @@ Yes, when you love what you do, business and pleasure are not mutually exclusive
 
 
 
-INSERT PHOTO 2
-_Co-founder and CEO Tim Wagner presenting at our recent team event_
+![Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, "Automate and accelerate your data workflows across business networks"](https://user-images.githubusercontent.com/107442245/196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpeg)
+
+_Tim Wagner, Vendia Co-founder and CEO, presenting at our recent team event_
 
 
 ### On the pleasure side…
