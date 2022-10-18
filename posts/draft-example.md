@@ -2,7 +2,7 @@
 title: Draft post example
 draft: true
 description: This is an example post!
-date: 2020-01-03
+date: '2020-01-03'
 authors:
   - David Wells
 updatedBy: David Wells
