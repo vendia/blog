@@ -50,4 +50,4 @@ If your business is feeling the pain of the global supply chain crisis then it t
 
 If you are having a hard time aligning business use cases to the blockchain or think blockchain is challenging and complex, we at Vendia have a solution for both problems. We can work with you to identify use cases and demonstrate business value in weeks and time to market in a few months. 
 
-Drop us a note at [contact Vendia](https://www.vendia.net/contact-us).
+Drop us a note at [contact Vendia](https://www.vendia.com/contact-us).

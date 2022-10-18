@@ -9,13 +9,13 @@ authors:
 - Brian McNamara
 ---
 
-[Vendia Share](https://www.vendia.net/product) simplifies the process of sharing data in real-time between organizations in a controlled, secure, and ledgered manner. Traditionally, sharing data in this manner is tough. There are several challenges that come to mind.
+[Vendia Share](https://www.vendia.com/product) simplifies the process of sharing data in real-time between organizations in a controlled, secure, and ledgered manner. Traditionally, sharing data in this manner is tough. There are several challenges that come to mind.
 
 ## Challenges in multi-partner data sharing
 
 Maintaining a single source of truth between organizations can be difficult. Databases are a popular information store, but securely sharing data from them with other organizations involves a number of compliance, security, and networking considerations that often mean slow action. Some organizations choose to share critical data with partners via spreadsheets. Using this method presents its own set of challenges. It's not apparent which spreadsheet is the latest and most complete source of truth.
 
-[Vendia Share](https://www.vendia.net/product helps you solve this problem by provisioning a node for each organization that you wish to share data with. Each node provides a consistent view of the data that is shared with other parties, and each node has its own API endpoint dedicated to the organization that needs to securely access the data.
+[Vendia Share](https://www.vendia.com/product helps you solve this problem by provisioning a node for each organization that you wish to share data with. Each node provides a consistent view of the data that is shared with other parties, and each node has its own API endpoint dedicated to the organization that needs to securely access the data.
 
 Centralized approaches to data sharing often result in disjointed authentication (AuthN) and authorization (AuthZ). The central organization will likely have a preference for how partners will log in to access data. It will also likely have existing tooling and mechanisms in place to support users. However, partners in the data network may have different means of authenticating and managing users. Vendia Share is flexible enough to allow each participant in a Uni to configure their own authorization type.
 
@@ -25,19 +25,19 @@ Onboarding new participants to a partner data network historically has been diff
 
 ### Creating Vendia Share accounts
 
-Vendia customers share data using a Vendia Share Universal Application (or "Uni" for short). Each participant in a Uni has a dedicated node for reading and writing data. We will simulate two companies sharing data by using two Vendia Share accounts. If you are not familiar with how to create a Vendia Share account, please consult our [Getting Started](https://www.vendia.net/blog/getting-started-with-vendia-share#creating-an-account) documentation. We will refer to these accounts as **Account 1** and **Account 2**. You will create your Uni using **Account 1**. **Account 2** will be invited to join the Uni and create its own Vendia Share node. 
+Vendia customers share data using a Vendia Share Universal Application (or "Uni" for short). Each participant in a Uni has a dedicated node for reading and writing data. We will simulate two companies sharing data by using two Vendia Share accounts. If you are not familiar with how to create a Vendia Share account, please consult our [Getting Started](https://www.vendia.com/blog/getting-started-with-vendia-share#creating-an-account) documentation. We will refer to these accounts as **Account 1** and **Account 2**. You will create your Uni using **Account 1**. **Account 2** will be invited to join the Uni and create its own Vendia Share node. 
 
 **NOTE:** The example in the blog will use two separate Vendia Share accounts associated with the same email account. I've used the [plus ("+") sign](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html) to associate two Vendia Share users with the same email account.
 
 ### Creating a Uni
 
-For the purposes of this walkthrough, we will use the [Product Catalog](https://www.vendia.net/docs/share/quickstart/simple-product-catalog) from our Quick Starts. Once you've created a Uni using **Account 1**, feel free to proceed with the remainder of the steps in this blog.
+For the purposes of this walkthrough, we will use the [Product Catalog](https://www.vendia.com/docs/share/quickstart/simple-product-catalog) from our Quick Starts. Once you've created a Uni using **Account 1**, feel free to proceed with the remainder of the steps in this blog.
 
 **NOTE:** The commands below assume a Uni name of `test-uni-management`. Adjust commands below that use the Uni name to match the one you used.
 
 ### Inviting your partner(s0
 
-Now that the Uni is up and running, you will invite **Account 2** to the Uni. You can do this either with the Vendia Share web app or the Share CLI. For the purpose of this blog, you'll use the CLI syntax. My **Account 1** e-mail address format is `brian+account1@vendia.net` and my **Account 2** e-mail address is `brian+account2@vendia.net`. 
+Now that the Uni is up and running, you will invite **Account 2** to the Uni. You can do this either with the Vendia Share web app or the Share CLI. For the purpose of this blog, you'll use the CLI syntax. My **Account 1** e-mail address format is `brian+account1@vendia.com` and my **Account 2** e-mail address is `brian+account2@vendia.com`. 
 
 Vendia Share features RBAC support for controlling who has access to your Uni - we will be posting a more detailed blog of how that capability works in a future blog post. One of the RBAC features is the ability to invite another Vendia user to create a node and join your Uni. We accomplish this task with the following command.
 
@@ -46,19 +46,19 @@ First, ensure you have authenticated to the Share CLI using the `share login` co
 ```bash
 % share login
 > Enter your Vendia email address
-Enter your email: brian+account1@vendia.net
+Enter your email: brian+account1@vendia.com
 
-> Enter your password for brian+account1@vendia.net
+> Enter your password for brian+account1@vendia.com
 Password: *********
 
-✔  Logged in as brian+account1@vendia.net
+✔  Logged in as brian+account1@vendia.com
 
 ```
 
 Once you have authenticated successfully, use the `share uni invite` command to begin the invitation process.
 
 ```bash
-share uni invite --uni test-uni-management --user brian+account2@vendia.net
+share uni invite --uni test-uni-management --user brian+account2@vendia.com
 ```
 
 **NOTE:** The name of my Uni is `test-uni-management`. Be sure to adjust the command and use the name of the Uni you created.
@@ -68,10 +68,10 @@ You will see output that is similar to the following:
 ```
 Invite Successful
 
-User brian+account2@vendia.net successfully invited to Uni test-uni-management
-brian+account2@vendia.net has been sent an email invite link.
+User brian+account2@vendia.com successfully invited to Uni test-uni-management
+brian+account2@vendia.com has been sent an email invite link.
 
-For brian+account2@vendia.net to join, they must:
+For brian+account2@vendia.com to join, they must:
  - click email link
  - OR join by running the share uni join CLI command with the token below
 
@@ -98,17 +98,17 @@ You will need to log out using `share logout` and log back in with `share login`
 
 ```bash
 % share logout
-You are now logged out of brian+account1@vendia.net
+You are now logged out of brian+account1@vendia.com
 
 Run "share login" to log back in
 % share login
 > Enter your Vendia email address
-Enter your email: brian+account2@vendia.net
+Enter your email: brian+account2@vendia.com
 
-> Enter your password for brian+account2@vendia.net
+> Enter your password for brian+account2@vendia.com
 Password: *********
 
-✔  Logged in as brian+account2@vendia.net
+✔  Logged in as brian+account2@vendia.com
 ```
 
 Once you're authenticated as **Account 2** you can run `share uni join` to accept the invitation and specify your node's settings.
@@ -116,7 +116,7 @@ Once you're authenticated as **Account 2** you can run `share uni join` to accep
 ```bash
 share uni join --uni test-uni-management \
 --token $VENDIA_TOKEN \
---config '{"name":"account2-node","userId":"brian+account2@vendia.net", "region":"us-west-2", "settings": {"apiSettings": {"auth": {"authorizerType": "API_KEY"}}}}'
+--config '{"name":"account2-node","userId":"brian+account2@vendia.com", "region":"us-west-2", "settings": {"apiSettings": {"auth": {"authorizerType": "API_KEY"}}}}'
 ```
 
 You will see output similar to the following:
@@ -156,7 +156,7 @@ Nodes Info:
 To display schema & initial state, use the --json flag. Example: "share get test-uni-management.unis.vendia.net --json"
 ```
 
-The node creation process will take a few minutes. When the node creation is complete, feel free to step through the [Product Catalog Quick Start](https://www.vendia.net/docs/share/quickstart/simple-product-catalog#step-3---query-catalog-data) and observe how data updates can be viewed by both participants in the Uni.
+The node creation process will take a few minutes. When the node creation is complete, feel free to step through the [Product Catalog Quick Start](https://www.vendia.com/docs/share/quickstart/simple-product-catalog#step-3---query-catalog-data) and observe how data updates can be viewed by both participants in the Uni.
 
 ### Cleanup
 

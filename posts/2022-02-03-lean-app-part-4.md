@@ -9,7 +9,7 @@ authors:
 
 ## Flip the innovation iceberg!
 
-In [Part 3 ](https://www.vendia.net/blog/lean-app-part-3) of [ this series](https://www.vendia.net/blog/lean-app) we covered what infrastructure needs to do automatically and without impacting developers or operators. This post focuses on how we can shift away from undifferentiated work and “flip the iceberg” of IT innovation. 
+In [Part 3 ](https://www.vendia.com/blog/lean-app-part-3) of [ this series](https://www.vendia.com/blog/lean-app) we covered what infrastructure needs to do automatically and without impacting developers or operators. This post focuses on how we can shift away from undifferentiated work and “flip the iceberg” of IT innovation. 
 
 
 ## The lean app goal: “Flip the IT iceberg”
@@ -85,7 +85,7 @@ Serverless solutions – such as AWS’s Lambda and Fargate – while representi
 
 ## Vendia and lean apps
 
-Working on a green field application or feature? Companies like [Vendia](http://www.vendia.net/developers) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. And where wholesale adoption of the idea isn’t (yet) possible, developers and companies and still benefit from the concept through incremental steps in various areas of application development:
+Working on a green field application or feature? Companies like [Vendia](http://www.vendia.com/developers) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. And where wholesale adoption of the idea isn’t (yet) possible, developers and companies and still benefit from the concept through incremental steps in various areas of application development:
 
 
 ### APIs
@@ -125,14 +125,14 @@ Over time, companies will enjoy lower TCO, faster time to market, and better ROI
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.com/resources/lean-apps). 
 
 
 ### Build a lean app 
 
-It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.net/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
+It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.com/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
 
-Where wholesale adoption of the idea isn’t (yet) possible, developers and companies and still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.net/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
+Where wholesale adoption of the idea isn’t (yet) possible, developers and companies and still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.com/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
 
 
 ### About the author
@@ -143,4 +143,4 @@ Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader respo
 
 t: @timallenwagner
 
-[www.vendia.com/blog](http://www.vendia.net/blog)
+[www.vendia.com/blog](http://www.vendia.com/blog)

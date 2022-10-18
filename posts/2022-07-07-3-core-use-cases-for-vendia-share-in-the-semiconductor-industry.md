@@ -19,11 +19,11 @@ The need to enable end-to-end traceability spanning all the participants in the 
 * To maintain compliance with ever-shifting government regulations
 * To protect against counterfeiting, tampering, and intellectual property (IP) theft
 
-To enable such [traceability](https://www.vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia), semiconductor companies need a way to securely exchange data with each other so each participant can maintain control of the data they share. This allows them to protect their IP while simultaneously enabling the other participants to derive value from the data to improve yield, raise quality, and ensure compliance.
+To enable such [traceability](https://www.vendia.com/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia), semiconductor companies need a way to securely exchange data with each other so each participant can maintain control of the data they share. This allows them to protect their IP while simultaneously enabling the other participants to derive value from the data to improve yield, raise quality, and ensure compliance.
 
 This end-to-end traceability can enable multiple use cases for the semiconductor industry. It enables root cause analysis for defects, allowing chip manufacturers to find causes for defective chips—even when causes originate through an external supply chain participant. It also enables component traceability, which can help prevent counterfeiting and tampering.
 
-Learn more about how to build a modern, secure data exchange for semiconductor traceability on Vendia.net. [Learn more](https://www.vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
+Learn more about how to build a modern, secure data exchange for semiconductor traceability on Vendia.net. [Learn more](https://www.vendia.com/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
 
 ## Track Scope 2 and Scope 3 sustainability at the part- and component-level for a climate stable future 
 
@@ -69,7 +69,7 @@ Distributed ledger technology allows you to share data with partners in a secure
 
 While regulation around sustainability data reporting will take time to settle down. The customer preferences and leaders of large organizations will continue to push sustainability initiatives. Companies can start small and eventually build an experience that will allow buyers of your product to track sustainability data attached to an individual product from the end-to-end supply chain by scanning the barcode stamped on a device or equipment. 
 
-As you consider your approach to sustainability and strive to improve it, learn how you can build a secure data exchange hub for sustainability on [Vendia Share](https://www.vendia.net/) in just months. 
+As you consider your approach to sustainability and strive to improve it, learn how you can build a secure data exchange hub for sustainability on [Vendia Share](https://www.vendia.com/) in just months. 
 
 
 ## Blockchain + device BOM = (BOM)<sup>2</sup>
@@ -89,7 +89,7 @@ Service and maintenance are becoming more important with the adoption of subscri
 
 ### Overcoming supply chain challenges with distributed ledger technology
 
-You can bring the BOM of your complex electronic devices into a secure, interoperable [Vendia Share](https://www.vendia.net/) ledger to connect supplier and provider ecosystems. You can enrich it further with service and maintenance records to make information available for design improvement, service, and maintenance. The distributed ledger technology also provides built-in data versioning for all data updates so historical information is still available for audit and product improvement. 
+You can bring the BOM of your complex electronic devices into a secure, interoperable [Vendia Share](https://www.vendia.com/) ledger to connect supplier and provider ecosystems. You can enrich it further with service and maintenance records to make information available for design improvement, service, and maintenance. The distributed ledger technology also provides built-in data versioning for all data updates so historical information is still available for audit and product improvement. 
 
 The ledger provides a single, unified source of data, which creates a clear audit trail and consistency across all vendors involved in the manufacturing, supply, and service process. You can use product information in Vendia Share to answer the following painful questions:
 
@@ -104,7 +104,7 @@ A recent [study](https://www.ibm.com/downloads/cas/D6QBER28) by IBM found that, 
 
 ## Next steps
 
-Want to learn more about specific use cases in detail? Check out this post on enabling traceability with a secure data exchange. [Learn more](https://www.vendia.net/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
+Want to learn more about specific use cases in detail? Check out this post on enabling traceability with a secure data exchange. [Learn more](https://www.vendia.com/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
 
 
-**Interested customers can self-serve on [Vendia Share](https://www.vendia.net/poc), or you can purchase Vendia Share through [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-6rjbm2je2n6ki).**
+**Interested customers can self-serve on [Vendia Share](https://www.vendia.com/poc), or you can purchase Vendia Share through [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-6rjbm2je2n6ki).**

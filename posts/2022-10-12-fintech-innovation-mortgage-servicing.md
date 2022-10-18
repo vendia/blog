@@ -17,7 +17,7 @@ Without access to the right data in real-time, innovation and its impact are inh
 
 Currently, the data the industry relies on and shares amongst partners is siloed and processed slowly, linearly, even manually. The rigid nature of current systems (and the learned helplessness of expecting status quo) holds back data sharing processes and workflows. These constraints make data difficult to share, yes. But they also inhibit visibility to all parties and make data difficult to change — especially if the change needs to be consistent across parties. 
 
-As a result, [mortgages](https://www.vendia.net/blog/blockchain-mortgage-services) are processed slowly, and it’s still hard to ensure compliance and manage risk. It’s difficult to incorporate and share new data sources that inform mortgage servicing, too. Think of rent history, for example, that can help create a more fair and equitable housing finance system.
+As a result, [mortgages](https://www.vendia.com/blog/blockchain-mortgage-services) are processed slowly, and it’s still hard to ensure compliance and manage risk. It’s difficult to incorporate and share new data sources that inform mortgage servicing, too. Think of rent history, for example, that can help create a more fair and equitable housing finance system.
 
 There is a big opportunity to remake the housing finance system, and it all starts with easy and secure exchange of data across multiple parties through the formation of data alliances underpinned by business blockchain technology. If the industry considers the network as a whole and comes together around a shared source of truth that everyone trusts and relies on, financial institutions can operate in a data alliance where data is exchanged securely and with control. 
 
@@ -44,9 +44,9 @@ The way the financial services and mortgage services in the industry collaborate
 
 ## Business blockchain answers the call
 
-For years, many have held that [the promise of blockchain](https://www.vendia.net/blog/private-public-blockchain-and-cloud) will solve all data sharing challenges. But public blockchains fall woefully short of this promise. While blockchain has undergone a notable hype cycle, when it comes to enterprise experimentation, public blockchain pilots have been one of the most failed technology pilots. In particular, the solutions have fallen short in dealing with sensitive and regulated loan data in the complex and highly transactional multi-party ecosystem that is housing finance.  
+For years, many have held that [the promise of blockchain](https://www.vendia.com/blog/private-public-blockchain-and-cloud) will solve all data sharing challenges. But public blockchains fall woefully short of this promise. While blockchain has undergone a notable hype cycle, when it comes to enterprise experimentation, public blockchain pilots have been one of the most failed technology pilots. In particular, the solutions have fallen short in dealing with sensitive and regulated loan data in the complex and highly transactional multi-party ecosystem that is housing finance.  
 
-At Vendia, we have built a business blockchain which addresses traditional blockchain shortfalls and excels beyond other solutions. Our platform, [Vendia Share](https://vendia.net/product), delivers an enterprise-grade, private, permissioned, business blockchain suited for the housing finance ecosystem. [Our platform](https://www.vendia.net/blockchain) combines the decentralization and trust of blockchains with the scale of public clouds, all wrapped in the compliance and security features required by the industry. Furthermore, Vendia was engineered for rapid adoption irrespective of an organization’s technical maturity: 
+At Vendia, we have built a business blockchain which addresses traditional blockchain shortfalls and excels beyond other solutions. Our platform, [Vendia Share](https://vendia.com/product), delivers an enterprise-grade, private, permissioned, business blockchain suited for the housing finance ecosystem. [Our platform](https://www.vendia.com/blockchain) combines the decentralization and trust of blockchains with the scale of public clouds, all wrapped in the compliance and security features required by the industry. Furthermore, Vendia was engineered for rapid adoption irrespective of an organization’s technical maturity: 
 
 
 
@@ -63,7 +63,7 @@ In summary, Vendia Share eliminates the inefficiency of manual loan data reconci
 
 Sometimes data sharing partners in a data ecosystem will withhold data out of ownership and control or access concerns, but this brings compliance risk and other liabilities. 
 
-By connecting industry players and their data through a [business blockchain](https://www.vendia.net/blog/finserv-blockchain-data-strategy), the data is always up to date. Everyone enjoys a real-time view of the aggregate data, which helps ensure actions and results are compliant. The lineage created between every transaction allows for easier auditability, and the tamperproof nature of blockchain ensures the data can be trusted and verified. There’s even an opportunity to implement additional checks and balances through the use of rule-based [smart contracts](https://www.vendia.net/blog/smart-contract-feature-example) that can prevent or flag transactions or data that is outside the bounds of what is expected. 
+By connecting industry players and their data through a [business blockchain](https://www.vendia.com/blog/finserv-blockchain-data-strategy), the data is always up to date. Everyone enjoys a real-time view of the aggregate data, which helps ensure actions and results are compliant. The lineage created between every transaction allows for easier auditability, and the tamperproof nature of blockchain ensures the data can be trusted and verified. There’s even an opportunity to implement additional checks and balances through the use of rule-based [smart contracts](https://www.vendia.com/blog/smart-contract-feature-example) that can prevent or flag transactions or data that is outside the bounds of what is expected. 
 
 Ensuring immutable audit and regulatory oversight is straightforward with Vendia. Any auditor or regulator can simply provision a node on the network and, with participant approval, be granted full read access to all of the data in the network. For example, let’s look at a scenario where the Consumer Financial Protection Bureau ([CFPB](https://www.consumerfinance.gov/)) would like to monitor servicing activities and servicing transfers: While servicers on the network may only have access to read/write loan data within their portfolios or specific loans shared with them by another servicer as part of a servicing rights transfer, CFPB could have read access across all servicer nodes, but just to the data they need for regulatory purposes (including the full history and lineage of all transactions associated with that data).
 
@@ -72,7 +72,7 @@ Ensuring immutable audit and regulatory oversight is straightforward with Vendia
 
 The rigid nature of existing housing finance systems makes it difficult to change the way decisions are made and processes are worked because of the historical dependence on past technology implementations. Going forward, a more holistic and flexible system that easily combines varied and new data sources into the process opens up new innovations and opportunities now and in the future.
 
-Blockchain technology is maturing to the state where it is an excellent candidate for rethinking the mortgage and credit system. Private blockchains built for business, or what we call business blockchains, take into account [the needs of enterprises](https://www.vendia.net/blog/venn-diagramming-vendia-share), especially the need for speed and automation, plus:
+Blockchain technology is maturing to the state where it is an excellent candidate for rethinking the mortgage and credit system. Private blockchains built for business, or what we call business blockchains, take into account [the needs of enterprises](https://www.vendia.com/blog/venn-diagramming-vendia-share), especially the need for speed and automation, plus:
 
 
 
@@ -90,4 +90,4 @@ Vendia removes the historical obstacles, redundancies, and headaches in mortgage
 
 #### Get your one-week proof of concept
 
-See how much you can achieve in one week with Vendia Share. Invite us to automate and accelerate data workflows and processes with a [one-week proof of concept](https://www.vendia.net/poc), or reach out to our team to explore your questions and [poke at what’s possible](https://meetings.hubspot.com/tim-zonca/contact-an-expert). 
+See how much you can achieve in one week with Vendia Share. Invite us to automate and accelerate data workflows and processes with a [one-week proof of concept](https://www.vendia.com/poc), or reach out to our team to explore your questions and [poke at what’s possible](https://meetings.hubspot.com/tim-zonca/contact-an-expert). 

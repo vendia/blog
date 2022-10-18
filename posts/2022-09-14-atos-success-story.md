@@ -29,7 +29,7 @@ Murphy summarizes,
 
 >**“In a true blockchain, you need very good front and backend engineers to link all of the organizations in. If you have a consortium of three groups and invite another organization into it, you’ve got to tell your engineers you now need to code in this programming language, know these kinds of systems, and alter the chain code. That level of expertise is really high.”** 
 
-Atos was immediately impressed with Vendia Share because of its ease of use. Early on during the Vendia Proof of Concept, Atos realized each organization in the chain could not only own its own node, but each company could also provision it as it saw fit. Moreover, organizations could query one another’s data via more intuitive frameworks like [GraphQL](https://www.vendia.net/blog/graphql-and-blockchain), which was already popular in the reinsurance and insurance space, particularly compared to the programming required to manipulate APIs.
+Atos was immediately impressed with Vendia Share because of its ease of use. Early on during the Vendia Proof of Concept, Atos realized each organization in the chain could not only own its own node, but each company could also provision it as it saw fit. Moreover, organizations could query one another’s data via more intuitive frameworks like [GraphQL](https://www.vendia.com/blog/graphql-and-blockchain), which was already popular in the reinsurance and insurance space, particularly compared to the programming required to manipulate APIs.
 
 Murphy reveals,
 
@@ -37,9 +37,9 @@ Murphy reveals,
 
 #### #2 – Create a secure, trusted data ecosystem fast
 
-The main benefit was enabling almost [instantaneous updates](https://www.vendia.net/blog/b2b-data-sharing) of data for lengthy reinsurance chains while allowing life product insurers to continue to use their legacy systems—which is much more cost effective than a complete system overhaul. The single version of truth Vendia’s solution provides, has compounding value each time a member of the reinsurance chain accesses it—including flawless provenance for as many participants as needed. 
+The main benefit was enabling almost [instantaneous updates](https://www.vendia.com/blog/b2b-data-sharing) of data for lengthy reinsurance chains while allowing life product insurers to continue to use their legacy systems—which is much more cost effective than a complete system overhaul. The single version of truth Vendia’s solution provides, has compounding value each time a member of the reinsurance chain accesses it—including flawless provenance for as many participants as needed. 
 
-By considerably simplifying the [developer experience](https://www.vendia.net/developers), Vendia Share provides Atos’s end users everything they need to expedite the trusted exchange of data. Now, Atos’s entire ecosystem of reinsurance and insurance customers can leverage swift transaction validations to ensure that assets share the same value among all parties.
+By considerably simplifying the [developer experience](https://www.vendia.com/developers), Vendia Share provides Atos’s end users everything they need to expedite the trusted exchange of data. Now, Atos’s entire ecosystem of reinsurance and insurance customers can leverage swift transaction validations to ensure that assets share the same value among all parties.
 
 Murphy underscores,
 
@@ -50,7 +50,7 @@ Vendia Share’s low latency updating is also ideal for maintaining information 
 
 #### #3 – Onboard partners transparently as owners without red tape
 
-Additionally, Vendia Share allows Atos’s new clients and their new partners to join the chain easily, exchange their data just as readily, and review the lineage of what took place before they joined. Atos reports, now that each party can engage in data sharing while owning [its own node](https://www.vendia.net/blog/multi-party-data-sharing-with-control) without a centralized authority, there’s an even deeper sense of trust amongst partners. With customer support from Vendia just a click or two away, Atos now has everything it needs to accelerate the growth of its reinsurance business.
+Additionally, Vendia Share allows Atos’s new clients and their new partners to join the chain easily, exchange their data just as readily, and review the lineage of what took place before they joined. Atos reports, now that each party can engage in data sharing while owning [its own node](https://www.vendia.com/blog/multi-party-data-sharing-with-control) without a centralized authority, there’s an even deeper sense of trust amongst partners. With customer support from Vendia just a click or two away, Atos now has everything it needs to accelerate the growth of its reinsurance business.
 
 
 # The business results
@@ -61,11 +61,11 @@ As Murphy attests,
 
 >**“[Vendia Share] is transparent and the source of data is true; that’s the use case for us. You can try and solve that with other means, but it’s typically going to mean that there’s one person that has control. Distributed ledgers mean that the logic behind that gives everyone access to the data, which is distributed transparently.**
 
-Vendia Share also did much more than simply reduce the level of technical expertise required for near real-time data sharing between a multitude of Atos’s clients and their partners. In practical terms, [Vendia Share](https://www.vendia.net/product) substantially decreased the time to market to implement such a solution, bearing both quantitative and qualitative value in the world of insurers and reinsurers.
+Vendia Share also did much more than simply reduce the level of technical expertise required for near real-time data sharing between a multitude of Atos’s clients and their partners. In practical terms, [Vendia Share](https://www.vendia.com/product) substantially decreased the time to market to implement such a solution, bearing both quantitative and qualitative value in the world of insurers and reinsurers.
 
 
 ## Build unique and proprietary data applications that unlock new revenue
 
 _If your data workflows across business networks are fragmented, delayed, and highly manual, you’re ill-prepared to respond quickly to market stress such as changes in consumer demands, supply chain issues, or new regulations._ 
 
-_Learn how Vendia Share can help enterprises automate and accelerate data workflows across business networks by facilitating secure, trusted, and controlled data exchange between multiple parties. Explore the platform [overview](https://www.vendia.net/product), check out [pricing](https://www.vendia.net/pricing), or request your [proof of concept](https://www.vendia.net/poc)._
+_Learn how Vendia Share can help enterprises automate and accelerate data workflows across business networks by facilitating secure, trusted, and controlled data exchange between multiple parties. Explore the platform [overview](https://www.vendia.com/product), check out [pricing](https://www.vendia.com/pricing), or request your [proof of concept](https://www.vendia.com/poc)._

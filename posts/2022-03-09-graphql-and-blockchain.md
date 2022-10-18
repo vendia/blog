@@ -8,7 +8,7 @@ authors:
 ---
 
 
-We looked at the fundamentals of GraphQL in our earlier blog post [Why We Combined GraphQL and a Serverless Distributed Ledger](https://www.vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger). In this post, we're going to dig in a bit deeper on some of the features Vendia has added to improve the GraphQL developer experience and address known limitations to what the core GraphQL specification allows.
+We looked at the fundamentals of GraphQL in our earlier blog post [Why We Combined GraphQL and a Serverless Distributed Ledger](https://www.vendia.com/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger). In this post, we're going to dig in a bit deeper on some of the features Vendia has added to improve the GraphQL developer experience and address known limitations to what the core GraphQL specification allows.
 
 ## Vendia Transactions
 
@@ -80,7 +80,7 @@ query q @vendia_transaction {
 ```
 </details>
 
-Take a look at our [documentation](https://www.vendia.net/docs/share/vendia-transaction) for more information on using Vendia Transactions.
+Take a look at our [documentation](https://www.vendia.com/docs/share/vendia-transaction) for more information on using Vendia Transactions.
 
 ## Conditional Updates
 
@@ -106,7 +106,7 @@ You can include other operators like `_and`, `_not`,  and `_or` in your conditio
 
 ## Examining Changes to Data
 
-Vendia Share captures all changes to data in a Uni in a ledger. This is something that comes out of the box - customers automatically have the ability to determine who introduced change, when it was introduced, and what changes were made. Vendia stores this data in [blocks](https://www.vendia.net/docs/share/terms-and-definitions#block). Uni participants have the ability to issue GraphQL queries to get at data stored in blocks.
+Vendia Share captures all changes to data in a Uni in a ledger. This is something that comes out of the box - customers automatically have the ability to determine who introduced change, when it was introduced, and what changes were made. Vendia stores this data in [blocks](https://www.vendia.com/docs/share/terms-and-definitions#block). Uni participants have the ability to issue GraphQL queries to get at data stored in blocks.
 
 <details>
 <summary>Examine blocks in the ledger</summary>
@@ -131,7 +131,7 @@ query blocksQuery {
 
 </details>
 
-This has enormous implications. First, participants have full transparency into when changes are introduced. They are not dependent upon the auditing and reporting capabilities of a central data source. These are two characteristics of what our co-founder, Dr. Tim Wager, has described as a [Lean App](https://www.vendia.net/blog/lean-app-part-3#what-makes-an-app-lean). Second, because the data can be returned via a GraphQL query, participants can take this data and store it in a downstream search or analytics system.
+This has enormous implications. First, participants have full transparency into when changes are introduced. They are not dependent upon the auditing and reporting capabilities of a central data source. These are two characteristics of what our co-founder, Dr. Tim Wager, has described as a [Lean App](https://www.vendia.com/blog/lean-app-part-3#what-makes-an-app-lean). Second, because the data can be returned via a GraphQL query, participants can take this data and store it in a downstream search or analytics system.
 
 ## Conclusion
 

@@ -52,11 +52,11 @@ The main reason integrating multiple CRMs is so difficult comes down to API limi
 
 ## 4. **A new approach that will reshape the industry**
 
-James presented the [Vendia solution](https://www.vendia.net/use-cases/crm) which allows you to connect (virtually) an unlimited number of partners without adding complexity or additional cost to the development and maintenance of the solution. This is down to the fact that Vendia takes a Hub and Spoke approach, where every connection goes through the hub. Vendia intelligently evaluates and resolves any data conflicts in the hub and manages the data access restrictions between partners. This allows for data sharing in real time, across many partners, delivered in a scalable and zero maintenance environment. 
+James presented the [Vendia solution](https://www.vendia.com/use-cases/crm) which allows you to connect (virtually) an unlimited number of partners without adding complexity or additional cost to the development and maintenance of the solution. This is down to the fact that Vendia takes a Hub and Spoke approach, where every connection goes through the hub. Vendia intelligently evaluates and resolves any data conflicts in the hub and manages the data access restrictions between partners. This allows for data sharing in real time, across many partners, delivered in a scalable and zero maintenance environment. 
 
 ![Existing solutions cost more the more partners you add, with Vendia you can add as many partners as you like](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..532272..178831115-18b0e073-8991-4a6b-8308-f0ce25e1f377.png)
 
-The [Vendia CRM solution](https://www.vendia.net/use-cases/crm) removes the nightmares that you would normally have to deal with. No dependency on added Salesforce staffing for integration projects, the universal data model allows for easy onboarding of new partners and the sharing of any kind of data, Data privacy is managed and easily controlled, no exponential cost with additional partners, and finally, data that is synced and shared in real time leading to a trusted source that accelerates your sales teams.   
+The [Vendia CRM solution](https://www.vendia.com/use-cases/crm) removes the nightmares that you would normally have to deal with. No dependency on added Salesforce staffing for integration projects, the universal data model allows for easy onboarding of new partners and the sharing of any kind of data, Data privacy is managed and easily controlled, no exponential cost with additional partners, and finally, data that is synced and shared in real time leading to a trusted source that accelerates your sales teams.   
 
 
 ## 5. **A demo to prove it**

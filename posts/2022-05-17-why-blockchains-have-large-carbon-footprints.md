@@ -73,4 +73,4 @@ First generation private chains, such as Hyperledger Fabric and Quorum, rely on 
 
 Given that public cloud services have solved many of these challenges for _centralized_ data sharing solutions, it’s natural to wonder if they couldn’t be similarly applied to _decentralized_ data sharing solutions, i.e. blockchains. And indeed, second generation blockchain approaches have done just that.
 
-Keep reading: [Greenchain, Part 2: Vendia and green blockchain](https://www.vendia.net/blog/vendia-green-blockchain)
+Keep reading: [Greenchain, Part 2: Vendia and green blockchain](https://www.vendia.com/blog/vendia-green-blockchain)

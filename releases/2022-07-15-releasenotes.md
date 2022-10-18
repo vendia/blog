@@ -12,7 +12,7 @@ Our engineering teams have been hard at work improving the overall experience fo
 
 ## New API Keys and JWT authentication
 
-Security is our top priority at Vendia. We are always looking for ways to make using and interfacing with Vendia more secure. We recently overhauled our APIs with new, more secure [API keys](https://www.vendia.net/docs/share/node-authentication#api-keys) and new methods for securely authenticating users using [JSON Web Tokens (JWT)](https://www.vendia.net/docs/share/node-authentication#jwt-authentication). 
+Security is our top priority at Vendia. We are always looking for ways to make using and interfacing with Vendia more secure. We recently overhauled our APIs with new, more secure [API keys](https://www.vendia.com/docs/share/node-authentication#api-keys) and new methods for securely authenticating users using [JSON Web Tokens (JWT)](https://www.vendia.com/docs/share/node-authentication#jwt-authentication). 
 
 ### API Keys
 
@@ -30,11 +30,11 @@ You can manage API Keys and JWT authentication via the Vendia console, through t
 
 ## Low Latency Operations
 
-Vendia had chosen a default read-after-write consistency mode such that transactions would need to be written to the [world state](https://www.vendia.net/docs/share/terms-and-definitions#world-state) and the [ledger](https://www.vendia.net/docs/share/terms-and-definitions#ledger) on a node before you could query the data. We chose this design to prevent potential [dirty reads](https://www.vendia.net/docs/share/graphql#read-modes-for-queries).
+Vendia had chosen a default read-after-write consistency mode such that transactions would need to be written to the [world state](https://www.vendia.com/docs/share/terms-and-definitions#world-state) and the [ledger](https://www.vendia.com/docs/share/terms-and-definitions#ledger) on a node before you could query the data. We chose this design to prevent potential [dirty reads](https://www.vendia.com/docs/share/graphql#read-modes-for-queries).
 
 But, there may be cases where you prefer response speed over data completeness (_i.e_., potentially a dirty read). For example, an application that shows the approximate availability of inventory might prefer to show inventory data quickly—even if that data is from a few minutes ago, rather than waiting for the most up to date inventory count. Likewise, there may be use cases where you prefer data completeness over response speed (_i.e._, there can be no dirty reads). For example, you may have the need to only return data when **_all_** participants (nodes) have accepted and written the transaction into the world state **_and_** the ledger.
 
-To address the different needs of customers, we launched different consistency modes for [reading](https://www.vendia.net/docs/share/graphql#read-modes-for-queries) (querying or listing), subscribing, or performing [synchronous mutations](https://www.vendia.net/docs/share/graphql#sync-modes-for-mutations). Clients have the option of providing their preferred consistency mode when issuing a query, subscription or a synchronous mutation.
+To address the different needs of customers, we launched different consistency modes for [reading](https://www.vendia.com/docs/share/graphql#read-modes-for-queries) (querying or listing), subscribing, or performing [synchronous mutations](https://www.vendia.com/docs/share/graphql#sync-modes-for-mutations). Clients have the option of providing their preferred consistency mode when issuing a query, subscription or a synchronous mutation.
 
 ### Query Consistency Modes
 

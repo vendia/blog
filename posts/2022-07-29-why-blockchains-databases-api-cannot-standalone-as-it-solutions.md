@@ -43,7 +43,7 @@ First, let’s explore why APIs, databases, and blockchains don’t cut it as st
 
 ## APIs: Good at moving bits around, bad at storage and consistency
 
-[APIs](https://www.vendia.net/blog/ask-the-expert-apis) are the central building blocks of services, especially modern, cloud-based designs. 
+[APIs](https://www.vendia.com/blog/ask-the-expert-apis) are the central building blocks of services, especially modern, cloud-based designs. 
 
 They [encapsulate complexity](https://en.wikipedia.org/wiki/API#:~:text=trends%20data.%5B36%5D-,Design,-%5Bedit%5D) and provide operational and implementation isolation between different parties. Building great APIs _should_ be simple: All major cloud providers offer highly scalable, fully managed services that remove virtually all infrastructure challenges from both API owners and consumers.
 
@@ -74,7 +74,7 @@ So let’s look at database and blockchain technologies to see how they fare in 
 
 ## Databases: Good at storing state, terrible at sharing it
 
-Databases, particularly cloud ones, are good at storing scalar information. Modern SQL and NoSQL cloud databases offer unlimited storage, massive scalability, four or more “9s” of availability, and transactional semantics. They are also good at understanding data models, also known as schemas, and some of them even allow those [schemas](https://www.vendia.net/blog/schema-evolution) to evolve over time. This makes them the ideal solution as the operational storage tier of an application.
+Databases, particularly cloud ones, are good at storing scalar information. Modern SQL and NoSQL cloud databases offer unlimited storage, massive scalability, four or more “9s” of availability, and transactional semantics. They are also good at understanding data models, also known as schemas, and some of them even allow those [schemas](https://www.vendia.com/blog/schema-evolution) to evolve over time. This makes them the ideal solution as the operational storage tier of an application.
 
 Unfortunately, modern cloud databases are also designed to serve exactly _one_ customer (account) and to only work on a _single_ cloud. 
 
@@ -279,7 +279,7 @@ Next week, we’ll explore why that’s true and how customers can experience lo
 
 
 
-* To learn more about how Vendia can make API development and management easier for data-driven applications, download our [smart APIs ebook](https://www.vendia.net/resources/smart-apis). 
-* To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.net/resources/lean-apps). 
-* To explore customer use cases, visit Vendia’s [product page](https://www.vendia.net/product).
-* To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact us](https://www.vendia.net/contact-us).
+* To learn more about how Vendia can make API development and management easier for data-driven applications, download our [smart APIs ebook](https://www.vendia.com/resources/smart-apis). 
+* To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.com/resources/lean-apps). 
+* To explore customer use cases, visit Vendia’s [product page](https://www.vendia.com/product).
+* To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact us](https://www.vendia.com/contact-us).

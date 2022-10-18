@@ -23,7 +23,7 @@ To start sharing files, you'll need to create a Uni and you'll need a new or exi
 
 ### Create a Uni
 
-To get started, create a Uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share's Web UI. The Web UI makes creating a Uni easy, so we'll illustrate that approach below.  For more detailed steps (and more options) when creating a Uni, please reference any of the [Quickstart](https://vendia.net/docs/share/quickstart) guides.
+To get started, create a Uni with two nodes. You can do that through the Vendia Share API, the `share` command line, or through Vendia Share's Web UI. The Web UI makes creating a Uni easy, so we'll illustrate that approach below.  For more detailed steps (and more options) when creating a Uni, please reference any of the [Quickstart](https://vendia.com/docs/share/quickstart) guides.
 
 ![Create a new Uni](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088140418605-83717b5d-2a34-46dc-985c-9f0665c8df61.png)
 
@@ -49,7 +49,7 @@ Press the **Create** button.
 
 ### Setup an external S3 Bucket
 
-While we wait for the Uni to spin up (approximately 5 minutes) we can proceed with making an Amazon S3 bucket available to your Uni. While there are multiple ways to upload files to your uni, in this example we'll create some sample files in your personal bucket and then transfer them from there to the Uni. Follow the detailed instructions [here](https://vendia.net/docs/share/file-storage#granting-permissions-to-the-source-bucket) to set up permissions to allow files to be exchanged between your S3 bucket and your Uni node. These instructions assume that you already have an AWS account with an S3 bucket created; check out [AWS's documentation](https://aws.amazon.com/s3/getting-started/) if you need more guidance on S3 setup.
+While we wait for the Uni to spin up (approximately 5 minutes) we can proceed with making an Amazon S3 bucket available to your Uni. While there are multiple ways to upload files to your uni, in this example we'll create some sample files in your personal bucket and then transfer them from there to the Uni. Follow the detailed instructions [here](https://vendia.com/docs/share/file-storage#granting-permissions-to-the-source-bucket) to set up permissions to allow files to be exchanged between your S3 bucket and your Uni node. These instructions assume that you already have an AWS account with an S3 bucket created; check out [AWS's documentation](https://aws.amazon.com/s3/getting-started/) if you need more guidance on S3 setup.
 
 ### Add a File with "All Uni" Access
 
@@ -247,4 +247,4 @@ Now if you attempt to update this file from the second node, your mutation will 
 
 As we saw in the example above, Unis make it as easy to share files as is it to share scalar data like strings and numbers. Just as important, they also give the file's owner fine-grained access control: For each file, you can specify which other participants are able to read or update the file. Finally, remember that by default (i.e., when you don't provide explicit Read and Write settings), _all_ nodes will have read access but only the file's owning node will have write permission.
 
-There's even more you can do with files that we haven't covered here. To get a quick overview, check out this [document](https://vendia.net/docs/share/file-storage). To read about the full set of features available, such as cache settings, please visit the [API docs](https://vendia.net/docs/share/file-api).
+There's even more you can do with files that we haven't covered here. To get a quick overview, check out this [document](https://vendia.com/docs/share/file-storage). To read about the full set of features available, such as cache settings, please visit the [API docs](https://vendia.com/docs/share/file-api).

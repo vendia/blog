@@ -20,4 +20,4 @@ Compare and contrast the key features of event handlers and smart contracts as y
 
 
 ### Explore the value of smart contracts for your organization
-Build powerful data sharing apps–in record time—without giving up data security, compliance, or control. [Get your 1-week proof of value](https://www.vendia.net/poc)
+Build powerful data sharing apps–in record time—without giving up data security, compliance, or control. [Get your 1-week proof of value](https://www.vendia.com/poc)

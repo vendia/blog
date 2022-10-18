@@ -23,6 +23,6 @@ The benefit of hindsight exposes common pitfalls many organizations fall into wh
 - Building as little as possible in order to focus time and energy on their unique, differentiated value add.
 - Leveraging the best of cloud, central IT, and both public and private chains to minimize time to market for new and replatforming applications.
 
-Looking to learn more about integrating centralized and blockchain capabilities for IT use cases? The Vendia blog has a number of articles, including how these features surface in [modern applications](https://www.vendia.net/blog/lean-app) and get exposed through [data-aware APIs](http://vendia.net/blog/smart-api).
+Looking to learn more about integrating centralized and blockchain capabilities for IT use cases? The Vendia blog has a number of articles, including how these features surface in [modern applications](https://www.vendia.com/blog/lean-app) and get exposed through [data-aware APIs](http://vendia.com/blog/smart-api).
 
-If you have a business need not being met by your existing blockchain provider you can visit [www.vendia.net](http://www.vendia.net/) to learn more about supported use cases or [contact the team directly](https://www.vendia.net/contact-us) to dive deeper.
+If you have a business need not being met by your existing blockchain provider you can visit [www.vendia.com](http://www.vendia.com/) to learn more about supported use cases or [contact the team directly](https://www.vendia.com/contact-us) to dive deeper.

@@ -71,4 +71,4 @@ Unlike the built-in primitives offered by public cloud service providers, our so
 
  
 
-**Interested in a file sharing platforms that are scalable, secure, and offer low cost of ownership through SaaS-style hosting? With no servers, disks, or networks to manage, a file sharing solution like Vendia’s can start delivering value in under a day, with no need for long-term management, maintenance, or other operational staffing. [Contact us](https://www.vendia.net/contact-us) to learn more.**
+**Interested in a file sharing platforms that are scalable, secure, and offer low cost of ownership through SaaS-style hosting? With no servers, disks, or networks to manage, a file sharing solution like Vendia’s can start delivering value in under a day, with no need for long-term management, maintenance, or other operational staffing. [Contact us](https://www.vendia.com/contact-us) to learn more.**

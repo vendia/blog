@@ -15,4 +15,4 @@ Tim explores how organizations can use best-in-class solutoins across private an
 
 Just want the deck? [Check it out here!](https://www.slideshare.net/CarollCasbeer1/three-body-problem-by-tim-wagner)
 
-Want to dive deeper? [Download the whitepaper](https://www.vendia.net/resources/3-body-problem).
+Want to dive deeper? [Download the whitepaper](https://www.vendia.com/resources/3-body-problem).

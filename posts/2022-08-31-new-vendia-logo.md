@@ -37,7 +37,7 @@ So, Shruthi and Tim asked our Head of Design, Hailey Nevins and the design team 
 
 ![The Vendia 3.0 logo fresh for 2022 and beyond](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..187538692-e16d9acc-a823-44c7-be8a-1eb7b20629a3.png)
 
-Check out a behind the scenes look at Vendia’s creative process for our new logo and visual identity. [Read more.](https://www.vendia.net/blog/brand-identity-buy-in)
+Check out a behind the scenes look at Vendia’s creative process for our new logo and visual identity. [Read more.](https://www.vendia.com/blog/brand-identity-buy-in)
 
 Here’s some final advice Shruthi and Tim would give to other founders navigating logos and visual identity development:
 
@@ -48,4 +48,4 @@ Here’s some final advice Shruthi and Tim would give to other founders navigati
 
 ## Join our team
 
-At Vendia, sharing is at the core of what we do. We envision a world where, through better sharing, people are freed to innovate and make a great impact on those around them. Everyday, we pursue our mission by building a revolutionary SaaS platform that unshackles customers from the burdens of IT, empowering them to focus on creating and running highly scalable, fault-tolerant, cross-cloud, multi-party, real-time data applications. Won’t you join us? [Explore job opportunities](https://www.vendia.net/careers)
+At Vendia, sharing is at the core of what we do. We envision a world where, through better sharing, people are freed to innovate and make a great impact on those around them. Everyday, we pursue our mission by building a revolutionary SaaS platform that unshackles customers from the burdens of IT, empowering them to focus on creating and running highly scalable, fault-tolerant, cross-cloud, multi-party, real-time data applications. Won’t you join us? [Explore job opportunities](https://www.vendia.com/careers)

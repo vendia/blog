@@ -24,9 +24,9 @@ Combining centralized, private, and public chain approaches yields the best busi
 
 ### Read the backstory
 To track how we landed on this conclusion, revisit the three previous posts in this series led by Vendia CEO and co-founder Tim Wagner as he examines the relationship between public and private blockchains and their relationship with centralized IT technology:*
-1. The Three-body problem, Part 1 | [The 3 key elements of modern IT solutions](https://www.vendia.net/blog/private-vs-public-blockchains)
-2. The three-body problem, Part 2 | [Strengths and weaknesses of centralized IT, private chains, and public chains](https://www.vendia.net/blog/blockchains-vs-cloud-and-it)
-3. The three-body problem, Part 3 | [Real-world examples: How the 3 bodies impact NFTs and the imaging business](https://www.vendia.net/blog/nft-it-business-example)
+1. The Three-body problem, Part 1 | [The 3 key elements of modern IT solutions](https://www.vendia.com/blog/private-vs-public-blockchains)
+2. The three-body problem, Part 2 | [Strengths and weaknesses of centralized IT, private chains, and public chains](https://www.vendia.com/blog/blockchains-vs-cloud-and-it)
+3. The three-body problem, Part 3 | [Real-world examples: How the 3 bodies impact NFTs and the imaging business](https://www.vendia.com/blog/nft-it-business-example)
 
 ## Discover next-gen blockchain
-**Vendia Share combines the trust of blockchain with the speed and scale of serverless, so your enterprise gets controlled, permissioned single source of truth for real-time data sharing across partners, geographies, clouds, and applications. [Learn more](https://www.vendia.net/use-cases/next-gen-blockchain)**
+**Vendia Share combines the trust of blockchain with the speed and scale of serverless, so your enterprise gets controlled, permissioned single source of truth for real-time data sharing across partners, geographies, clouds, and applications. [Learn more](https://www.vendia.com/use-cases/next-gen-blockchain)**

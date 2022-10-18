@@ -51,7 +51,7 @@ Of the categories above, data APIs tend to be the hardest to build and maintain,
 - **Consistency and fidelity** – For a control API, the API call itself often *is* the “system of record”. This makes tracking and auditing relatively simple and straightforward. Metadata APIs tend to carry information that either changes rarely or that changes frequently but is advisory in nature, such as getting a “mostly correct” summary of recent usage over the last hour. But data APIs have to be right. For example, if you’re an airline sharing passenger list information with a partner airline on which a passenger is continuing, you can’t get the name of the passenger wrong, or accidentally include a passenger from a previous flight, or share private information about other passengers that shouldn’t be conveyed. Any kind of error, including under- or over-sharing, could be devastating to a business.
 - **Data drift** – Control APIs are usually called whenever the client has a need for something to happen. Metadata APIs are usually advisory in nature. But data APIs carry payloads that are both business critical *and* which can become out of date as soon as they “hit the wire”. That makes one-way APIs especially brittle: clients need to repeatedly, and quickly, poll them to catch data that may be drifting unpredictably at any moment, and which could affect mission-critical outcomes.
 
-**Data APIs are a public reflection of a company’s internal database, without the benefits of a database’s capabilities. If you’re interested in ‘smart APIs’ check out our blog post about [next-gen APIs.](https://www.vendia.net/blog/smart-apis)** 
+**Data APIs are a public reflection of a company’s internal database, without the benefits of a database’s capabilities. If you’re interested in ‘smart APIs’ check out our blog post about [next-gen APIs.](https://www.vendia.com/blog/smart-apis)** 
 
 Often, it’s not even just one database, but several, that need to be reflected in the APIs payloads. And to make the challenge even greater, it’s usually more than just a read-only relationship with the API’s clients: Often the clients themselves are implicitly adding or changing data in those database(s). 
 
@@ -71,7 +71,7 @@ Companies like Vendia and Fivetran focus on going further than conventional mana
 
 ### For real-time operational data
 
-For real-time operational data, [Vendia](http://www.vendia.net/) offers [schema-driven solutions to create data APIs that act like databases](http://vendia.net/product), providing not only the benefits of managed API services but also handling the larger challenge of keeping data correct, complete, and up to date among all parties with which it’s shared.
+For real-time operational data, [Vendia](http://www.vendia.com/) offers [schema-driven solutions to create data APIs that act like databases](http://vendia.com/product), providing not only the benefits of managed API services but also handling the larger challenge of keeping data correct, complete, and up to date among all parties with which it’s shared.
 
 Vendia also provides built-in compliance, privacy, and governance mechanisms that make it easy to decide (and then audit) who shared what with whom, and when. Vendia is a SaaS offering, so API owners don’t need to worry about deploying, scaling, or managing the underlying cloud infrastructure powering their APIs.
 
@@ -86,7 +86,7 @@ With the rise of SaaS companies, APIs *are* the business, and neither business o
 The mechanical task of deploying and hosting APIs has gotten easier over time with the rise of cloud-based API services, but the job of “wiring up” API payloads to their underlying systems of record to create a shared source of truth remains a difficult task for most companies and developers. Platforms like Fivetran, for analytics ETL, and Vendia, for real-time operational data, help tackle this challenge and lower the TCO of keeping critical business data consistent across companies, clouds, regions, and tech stacks.
 
 # Going Further
-Looking to build better, smarter APIs? The Vendia blog has a number of articles, including how these features surface in modern applications and get exposed through data-aware APIs (like this [one](https://www.vendia.net/blog/smart-apis) or [this series](https://www.vendia.net/blog/lean-app) on Lean Apps.
+Looking to build better, smarter APIs? The Vendia blog has a number of articles, including how these features surface in modern applications and get exposed through data-aware APIs (like this [one](https://www.vendia.com/blog/smart-apis) or [this series](https://www.vendia.com/blog/lean-app) on Lean Apps.
 
-If you have a business need not being met by your existing blockchain provider you can visit www.vendia.net to learn more about supported use cases or contact the team directly to dive deeper.
+If you have a business need not being met by your existing blockchain provider you can visit www.vendia.com to learn more about supported use cases or contact the team directly to dive deeper.
 

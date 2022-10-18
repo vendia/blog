@@ -24,10 +24,10 @@ In this three-part series originally shared on The New Stack, Dr. Tim Wagner, th
     Read Part 3: [Vendor checklist for real-time data meshes](https://thenewstack.io/vendor-checklist-for-real-time-data-meshes/)
 
 
-If you’re just getting your feet wet and want to build your foundational understanding before diving in extra deeply, start with [What Is Real-Time Data Sharing?](https://www.vendia.net/blog/what-is-real-time-data-sharing) Spoiler: Even the ancient Phoenicians solved for data sharing.
+If you’re just getting your feet wet and want to build your foundational understanding before diving in extra deeply, start with [What Is Real-Time Data Sharing?](https://www.vendia.com/blog/what-is-real-time-data-sharing) Spoiler: Even the ancient Phoenicians solved for data sharing.
 
 
 ### Want to know more about Vendia Share? 
 
-Learn how you can create [proof of value in less than a week](https://www.vendia.net/poc) and go to market in less than three months. **[Contact Vendia](https://www.vendia.net/contact-us)**
+Learn how you can create [proof of value in less than a week](https://www.vendia.com/poc) and go to market in less than three months. **[Contact Vendia](https://www.vendia.com/contact-us)**
 real-time-data-sharing-challenges-for-enterprises.md

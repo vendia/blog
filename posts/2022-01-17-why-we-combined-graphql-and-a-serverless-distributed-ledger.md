@@ -15,7 +15,7 @@ Each participant in a Uni has cloud resources created on their behalf. One of th
 
 While technical readers may be familiar with the concept of a REST API, there may be some among you who are not as familiar with GraphQL. For those of you with GraphQL experience, Vendia Share does take a non-traditional approach in some areas as well.
 
-In this post, we'll dive a bit deeper and explore GraphQL and look at why Vendia selected GraphQL as its primary interface. You'll learn more about GraphQL and how it can improve your development experience with [Vendia Share](https://www.vendia.net/product).
+In this post, we'll dive a bit deeper and explore GraphQL and look at why Vendia selected GraphQL as its primary interface. You'll learn more about GraphQL and how it can improve your development experience with [Vendia Share](https://www.vendia.com/product).
 
 # What is GraphQL?
 
@@ -73,4 +73,4 @@ In my experience, having context affords better understanding. We felt it import
 
 Explore some [code examples](https://github.com/vendia/examples/tree/main/features/share/graphql) that demonstrate how to interact with Vendia-generated GraphQL APIs using several programming languages.
 
-Or [try Vendia Share for free](https://www.vendia.net/pricing). 
+Or [try Vendia Share for free](https://www.vendia.com/pricing). 

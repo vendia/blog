@@ -8,7 +8,7 @@ tags:
 - New Features
 ---
 
-Our engineering and design teams have been working hard to make your experience with Vendia Share more pleasant and productive.  As always, see our [Docs](https://www.vendia.net/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.
+Our engineering and design teams have been working hard to make your experience with Vendia Share more pleasant and productive.  As always, see our [Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.
 
 ## New Support for Defining ACLs on Arrays
 You can now apply access controls for a specific attribute of all objects in a list.  This gives you more control over how you share your data and opens up new use cases.
@@ -18,7 +18,7 @@ For example, given the following schema for tickets:
 ```json
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "$id": "https://vendia.net/schemas/allianceticket-sharing/v1.0",
+  "$id": "https://vendia.com/schemas/allianceticket-sharing/v1.0",
   "title": "Alliance Partner Ticket Share",
   "description": "A ticket data model with ACLs that allows alliance partners to share ticket data in real-time and with control",
   "x-vendia-acls": {
@@ -162,7 +162,7 @@ You can see below that the result contains the ticket name, and the name on each
 
 ## Share UI
 
-In line with our [Kind Human Policy](https://www.vendia.net/kind-humans) and culture we have updated our brand design to be more inclusive and bring back some of the fun.  You can read more about the design process on our [blog](https://www.vendia.net/blog/brand-identity-buy-in).
+In line with our [Kind Human Policy](https://www.vendia.com/kind-humans) and culture we have updated our brand design to be more inclusive and bring back some of the fun.  You can read more about the design process on our [blog](https://www.vendia.com/blog/brand-identity-buy-in).
 
 The Share UI has been updated to incorporate the new design to make it more accessible and pleasant to use!
 

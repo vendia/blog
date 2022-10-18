@@ -42,8 +42,8 @@ This difference is exacerbated by the fact that not all information in a public 
 
 ## Discover next-gen blockchain
 *Vendia CEO and co-founder Tim Wagner examines the relationship between public and private blockchains and their relationship with centralized IT technology in this four-part series. Read them all:* 
-- [Introduction to the 3-body problem](https://www.vendia.net/blog/3-body-problem)
-- [Real-world examples: How the 3-bodies impact NFTs and the imaging business](https://www.vendia.net/blog/nft-it-business-example)
-- [Better together: How the best of all 3 bodies can impact NFTs and imaging](https://www.vendia.net/blog/3-body-problem-solution-example)
+- [Introduction to the 3-body problem](https://www.vendia.com/blog/3-body-problem)
+- [Real-world examples: How the 3-bodies impact NFTs and the imaging business](https://www.vendia.com/blog/nft-it-business-example)
+- [Better together: How the best of all 3 bodies can impact NFTs and imaging](https://www.vendia.com/blog/3-body-problem-solution-example)
 
-**Vendia Share combines the trust of blockchain with the speed and scale of serverless, so your enterprise gets controlled, permissioned single source of truth for real-time data sharing across partners, geographies, clouds, and applications. [Learn more](https://www.vendia.net/use-cases/next-gen-blockchain)**
+**Vendia Share combines the trust of blockchain with the speed and scale of serverless, so your enterprise gets controlled, permissioned single source of truth for real-time data sharing across partners, geographies, clouds, and applications. [Learn more](https://www.vendia.com/use-cases/next-gen-blockchain)**

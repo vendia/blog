@@ -21,7 +21,7 @@ Writing data to Vendia is a multi-step process. Vendia operates as a decentraliz
 
 1. Incoming data must pass integrity checks, such as ensuring a value is greater than 0 or that a string contains a certain value.
 2. Data must go through consensus, which involves all the participating nodes agreeing the transaction is valid and can be written to the database.
-3. Once consensus has approved the transaction, the data must be written to all the Node’s [world state](https://www.vendia.net/docs/share/terms-and-definitions#world-state) and into the ledger, which means replicating the data across parties and potentially across cloud providers.
+3. Once consensus has approved the transaction, the data must be written to all the Node’s [world state](https://www.vendia.com/docs/share/terms-and-definitions#world-state) and into the ledger, which means replicating the data across parties and potentially across cloud providers.
 
 All of these steps take time to complete. Until today, before you could query the data, the transaction would need to be written to the world state on that node and the ledger. We chose this design to prevent potential [dirty reads](https://en.wikipedia.org/wiki/Write%E2%80%93read_conflict).
 
@@ -147,4 +147,4 @@ With the read consistency modes, applications built on top of Vendia should beco
 
 If you have other ideas on how to make Vendia easier to use, or if you have any questions or concerns, please check out our [Discourse channel](https://community.vendia.net/). You can also contact your Vendia account team. 
 
-**Please see our [documentation](https://www.vendia.net/docs/share/graphql) for more information about the new read consistency modes.**
+**Please see our [documentation](https://www.vendia.com/docs/share/graphql) for more information about the new read consistency modes.**

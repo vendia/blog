@@ -15,9 +15,9 @@ _This post has been updated since it was first published._
 
 ## Overview
 
-Vendia Share is the real-time data cloud for rapidly building applications that securely share data across departments, companies, and clouds.  As we recently [announced](https://www.vendia.net/blog/announcing-new-features), Vendia Share now includes functionality that makes integrating real-time data with Microsoft Azure services easier than ever before.
+Vendia Share is the real-time data cloud for rapidly building applications that securely share data across departments, companies, and clouds.  As we recently [announced](https://www.vendia.com/blog/announcing-new-features), Vendia Share now includes functionality that makes integrating real-time data with Microsoft Azure services easier than ever before.
 
-The [maturity of real-time data sharing](https://www.vendia.net/blog/distributed-application-maturity-model) capabilities varies widely among organizations.  Less mature organizations still depend heavily on manual or batch processing for internal operations.  More mature organizations have created real-time, event-driven solutions for internal operations.  To date, the maturity of an organization's real-time data sharing capabilities for internal operations had little bearing on its real-time data sharing capabilities for _external operations with partners_.
+The [maturity of real-time data sharing](https://www.vendia.com/blog/distributed-application-maturity-model) capabilities varies widely among organizations.  Less mature organizations still depend heavily on manual or batch processing for internal operations.  More mature organizations have created real-time, event-driven solutions for internal operations.  To date, the maturity of an organization's real-time data sharing capabilities for internal operations had little bearing on its real-time data sharing capabilities for _external operations with partners_.
 
 For example, consider Organization A that adopts an event-driven microservices architecture for core systems and Organization B that still relies on error-prone batch processes.  Both organizations strive to share data in real time, but Organization B lacks the in-house experience to build such a system. The value of Organization A's investment is limited as soon as it attempts to collaborate with Organization B.  Whether the interaction among those organizations takes the form of periodic SFTP transfers (Organization B's only option) or point-to-point API interactions (Organization A's preference), neither duplicates the real-time, event-driven interactions from a shared source of truth which both organizations want to achieve.
 
@@ -43,7 +43,7 @@ To replicate the Retailer's environment on Azure, we'll first need to:
 * [Create a Vendia Share account](https://share.vendia.net/)
 * [Create an Azure account](https://azure.microsoft.com/en-us/free/)
 * Install the [Azure Command Line Interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) (CLI)
-* Install the [Vendia Command Line Interface](https://www.vendia.net/docs/share/cli) (CLI)
+* Install the [Vendia Command Line Interface](https://www.vendia.com/docs/share/cli) (CLI)
 
 ## Step 1 - Create a Cross-Cloud Vendia Uni
 
@@ -53,9 +53,9 @@ The first step is to create a cross-cloud Uni for this example, with the followi
 * A `Distributor` AWS Node (`us-west-2`)
 * A `Retailer` Azure Node (`eastus`)
 
-This is accomplished using a `registration.json` file that defines one Node per Uni participant.  Each Node definition includes a `csp` (short for cloud service provider) and a `region`, which is [unique to each CSP](https://www.vendia.net/docs/share/cli/guide#supported-cloud-platforms-and-regions).  Using the example below, we're able to provision a multi-cloud, multi-region Uni that connects all three participants in just about 5 minutes.
+This is accomplished using a `registration.json` file that defines one Node per Uni participant.  Each Node definition includes a `csp` (short for cloud service provider) and a `region`, which is [unique to each CSP](https://www.vendia.com/docs/share/cli/guide#supported-cloud-platforms-and-regions).  Using the example below, we're able to provision a multi-cloud, multi-region Uni that connects all three participants in just about 5 minutes.
 
-> Note: Please refer to our docs for more information about the modeling Uni participants using [a registration file](https://www.vendia.net/docs/share/uni-creation#registration-file) or modeling data using [a schema file](https://www.vendia.net/docs/share/data-modeling#sample-registration-files).
+> Note: Please refer to our docs for more information about the modeling Uni participants using [a registration file](https://www.vendia.com/docs/share/uni-creation#registration-file) or modeling data using [a schema file](https://www.vendia.com/docs/share/data-modeling#sample-registration-files).
 
 1. Save the following as `registration.json`. Replace `<UNI_NAME>` with a name for your Uni and each `<USER_ID>` with the email address associated with your Vendia account.
 
@@ -120,7 +120,7 @@ This is accomplished using a `registration.json` file that defines one Node per 
       ```json
       {
         "$schema": "http://json-schema.org/draft-07/schema#",
-        "$id": "http://vendia.net/schemas/demos/track-and-trace.json",
+        "$id": "http://vendia.com/schemas/demos/track-and-trace.json",
         "title": "Inventory Management",
         "description": "Managing inventory among supplier, distributor, and retailer",
         "type": "object",
@@ -490,6 +490,6 @@ The update to the Supplier Node will cause an event, a block notification, to be
 
 ## Key Takeaways
 
-Vendia Share's new Azure eventing mechanism allows partners - in this case a Supplier, a Distributor, and a Retailer - to keep each other informed, in real-time, and act on updates as they happen.  While this capability is still a beta feature, we'd love to [get your feedback](https://www.vendia.net/contact-us).
+Vendia Share's new Azure eventing mechanism allows partners - in this case a Supplier, a Distributor, and a Retailer - to keep each other informed, in real-time, and act on updates as they happen.  While this capability is still a beta feature, we'd love to [get your feedback](https://www.vendia.com/contact-us).
 
-Now that you've seen how simple it is to create an integration between a Vendia Share Node and an Azure Function, check out [one of several](https://www.vendia.net/docs/share/integrations#getting-started-with-azure-notifications) other Azure integration patterns that can be used to process events that transpire across a Uni.  Or, check out one of our other [Quick Starts](https://www.vendia.net/docs/share/quickstart) if you're relatively new to Vendia Share.
+Now that you've seen how simple it is to create an integration between a Vendia Share Node and an Azure Function, check out [one of several](https://www.vendia.com/docs/share/integrations#getting-started-with-azure-notifications) other Azure integration patterns that can be used to process events that transpire across a Uni.  Or, check out one of our other [Quick Starts](https://www.vendia.com/docs/share/quickstart) if you're relatively new to Vendia Share.

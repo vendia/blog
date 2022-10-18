@@ -14,4 +14,4 @@ Vendia now supports "dead letter" reporting to notify users asynchronously and e
 
 Failed transaction reporting is available immediately for all customers in all AWS regions (us-east-1, us-east-2, us-west-2, sa-east-1, eu-west-1, eu-west-2, eu-central-1, ap-northeast-1, ap-northeast-2, ap-south-1, ap-southeast-1, and ap-southeast-2). Delivery charges may apply to enterprise contracts.
 
-For more information, see the [developer documentation](https://vendia.net/docs/share/integrations#outbound).
+For more information, see the [developer documentation](https://vendia.com/docs/share/integrations#outbound).

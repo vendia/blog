@@ -225,4 +225,4 @@ The brand redesign process is, indeed, _a process._ It takes time, documentation
 
 At Vendia, sharing is at the core of what we do. We envision a world where, through better sharing, people are free to innovate and make a great impact on those around them. Everyday, we pursue our mission by building a revolutionary SaaS platform that unshackles customers from the opportunity costs and burdens of IT drudgery and maintenance expenses, empowering them to focus on creating and running highly scalable, fault-tolerant, cross-cloud, multi-party, real-time data applications. 
 
-Won’t you join us? [Explore job opportunities](https://www.vendia.net/careers) and follow along with Vendia and watch our [brand](https://vendia.net), [product](https://vendia.net/product), and our [community](https://www.linkedin.com/company/vendiahq/) continue to grow.
+Won’t you join us? [Explore job opportunities](https://www.vendia.com/careers) and follow along with Vendia and watch our [brand](https://vendia.com), [product](https://vendia.com/product), and our [community](https://www.linkedin.com/company/vendiahq/) continue to grow.

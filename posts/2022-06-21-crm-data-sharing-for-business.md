@@ -33,6 +33,6 @@ Unfortunately, building such solutions isn’t easy. There are several roadblock
     * Track historical change to shared data in a traceable, auditable ledger. 
     * Meet compliance mandates imposed by industry regulators
 
-There is a better way. At [Vendia](https://www.vendia.net/), we’ve built a robust, CRM-friendly data-sharing solution that overcomes all of the challenges outlined above. It’s the future of data sharing.
+There is a better way. At [Vendia](https://www.vendia.com/), we’ve built a robust, CRM-friendly data-sharing solution that overcomes all of the challenges outlined above. It’s the future of data sharing.
 
 **Curious to see the power of Vendia’s CRM data sharing solution? [Watch this webinar](https://us02web.zoom.us/webinar/register/2816530633756/WN_8kXDfUbNTsOd0Ht2j1x56w).**

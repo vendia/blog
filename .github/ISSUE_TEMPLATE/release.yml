@@ -7,7 +7,7 @@ body:
       value: |
         This is an issue template to make it easier to setup a release post. Copy/paste the below markdown into a new file.
 
-        See the [example post](https://www.vendia.net/blog/typography) & it's [source file](https://github.com/vendia/blog/edit/master/posts/typography.mdx) for markdown formatting tips.
+        See the [example post](https://www.vendia.com/blog/typography) & it's [source file](https://github.com/vendia/blog/edit/master/posts/typography.mdx) for markdown formatting tips.
 
         ## 1. **Click in the textarea below 👇 to copy/paste the template**
 

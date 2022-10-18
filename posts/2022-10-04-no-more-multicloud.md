@@ -13,7 +13,7 @@ updatedBy: David Wells
 
 Say "multicloud” to a public cloud salesperson or executive, and it’s practically profanity.
 
-Say it to CIOs and technical leaders, and it’s nearly as unloveable. The prospect of maintaining on-prem data centers, migrating to one public cloud, and redundantly staffing for two or more clouds is [mind-numbing](https://www.vendia.net/blog/data-sharing-obstacles). 
+Say it to CIOs and technical leaders, and it’s nearly as unloveable. The prospect of maintaining on-prem data centers, migrating to one public cloud, and redundantly staffing for two or more clouds is [mind-numbing](https://www.vendia.com/blog/data-sharing-obstacles). 
 
 And let’s be honest: Most businesses won’t achieve a viable multicloud strategy any time soon. Despite the strong and understandable reasons to get to multicloud, the cost, complexity, and staffing challenges of just getting two clouds (private and one public) to interact is burdensome. Pile on avoiding vendor lock-in, having access to best-of-breed services regardless of vendor, and owning the flexibility to successfully interact with business partners, M&A-acquired IT stacks, etc. 
 
@@ -48,12 +48,12 @@ Supercloud represents the natural democratization of the current “wall of comp
 
 Public cloud hyperscalers, though they possess the technological and personnel resources to attack the problem, are structurally disinclined to do so. Their balance sheets look better the higher their “garden walls” grow by keeping data, compute, and other cloud spend on their individual platforms. So, the natural outlet for this new supply/demand intersection will shift to a new generation of companies “born in the cloud.” This new breed will inherently understand both how to build their infrastructure in a multicloud fashion and, more importantly, understand how to deliver business value to customers in a cloud-agnostic way. 
 
-Though it’s still early days, those [techniques](https://www.vendia.net/blog/real-time-everything) are already becoming apparent.
+Though it’s still early days, those [techniques](https://www.vendia.com/blog/real-time-everything) are already becoming apparent.
 
 
 #### Delivered as SaaS, not infrastructure
 
-If the route to supercloud requires every developer in every company to be able to design, deploy, and operate every cloud provider, then it’s game over before it starts. Infrastructure in the supercloud era, to hide complexity and offer customers fast time to market, will focus on [API-based solutions](https://www.vendia.net/blog/api-design-best-practices) packaged as SaaS services, not as old-school Commercial Off-the-Shelf (COTS) software.
+If the route to supercloud requires every developer in every company to be able to design, deploy, and operate every cloud provider, then it’s game over before it starts. Infrastructure in the supercloud era, to hide complexity and offer customers fast time to market, will focus on [API-based solutions](https://www.vendia.com/blog/api-design-best-practices) packaged as SaaS services, not as old-school Commercial Off-the-Shelf (COTS) software.
 
 
 #### Focused on business networks, not individual accounts
@@ -63,14 +63,14 @@ In an (understandable) effort to limit migration complexity, public cloud hypers
 
 #### Designed for solution-oriented value, not low-level DIY
 
-[Public cloud providers](https://www.vendia.net/blog/public-cloud-file-sharing) have done a fantastic job of creating primitive building blocks that make it possible to compose an astonishing variety of outcomes. With the possible exceptions of high-frequency trading or fully custom supercomputer hardware, anything a company can do itself in an on-prem environment can be accomplished (with enough effort) in a public cloud. But delivering business value is about time to market and ROI, not just technical feasibility. 
+[Public cloud providers](https://www.vendia.com/blog/public-cloud-file-sharing) have done a fantastic job of creating primitive building blocks that make it possible to compose an astonishing variety of outcomes. With the possible exceptions of high-frequency trading or fully custom supercomputer hardware, anything a company can do itself in an on-prem environment can be accomplished (with enough effort) in a public cloud. But delivering business value is about time to market and ROI, not just technical feasibility. 
 
-Knowing how to assemble the hundreds of services on AWS, let alone make them interact with the thousands of services from other cloud vendors, isn’t easy. Supercloud vendors abstract this complexity away. Creating easy, immediate wins for business outcomes from BI and ML ([Snowflake](https://www.snowflake.com/en/)) to APM ([Datadog)](https://www.datadoghq.com/) to real-time data sharing ([Vendia](https://www.vendia.net/)) enables their customers to focus on their differentiated business problems instead of how to train their developers to compose the ever-changing, low-level public cloud services into useful outcomes.
+Knowing how to assemble the hundreds of services on AWS, let alone make them interact with the thousands of services from other cloud vendors, isn’t easy. Supercloud vendors abstract this complexity away. Creating easy, immediate wins for business outcomes from BI and ML ([Snowflake](https://www.snowflake.com/en/)) to APM ([Datadog)](https://www.datadoghq.com/) to real-time data sharing ([Vendia](https://www.vendia.com/)) enables their customers to focus on their differentiated business problems instead of how to train their developers to compose the ever-changing, low-level public cloud services into useful outcomes.
 
 
 ## Best practices for managing the coming supercloud migration
 
-As a technical or business leader, how can you make the most of the rise of this new supercloud category of vendors? What [best practices](https://www.vendia.net/blog/venn-diagramming-vendia-share) can be followed today, when supercloud is still an emerging concept? 
+As a technical or business leader, how can you make the most of the rise of this new supercloud category of vendors? What [best practices](https://www.vendia.com/blog/venn-diagramming-vendia-share) can be followed today, when supercloud is still an emerging concept? 
 
 Here are some basic guidelines for thinking about cloud investments during the era where both cloud-specific infrastructure and supercloud vendors will both remain critical elements of an IT portfolio:
 

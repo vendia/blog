@@ -82,12 +82,12 @@ Getting a company started, raising capital, creating a website, building an init
 
 Data sprawl affects every company, and is a limiting reagent to a successful digital and cloud journey. Our vision is to empower companies to serve their customers better through data — _wherever_ that data lives. By helping companies connect their code and data across clouds — securely, scalably, and with proper governance — we can make the task of creating modern IT solutions easier, faster, and more cost effective than ever before.
 
-Interested in experiencing Vendia for yourself? Check out [our website](https://vendia.net), join our mailing list, or [sign up](https://vendia.net/sign-up) to be part of our developer preview program, starting in late July. We'll also be posting more information about Vendia, use cases, and Universal Apps on [our blog](https://www.vendia.net/blog) in the coming weeks.
+Interested in experiencing Vendia for yourself? Check out [our website](https://vendia.com), join our mailing list, or [sign up](https://vendia.com/sign-up) to be part of our developer preview program, starting in late July. We'll also be posting more information about Vendia, use cases, and Universal Apps on [our blog](https://www.vendia.com/blog) in the coming weeks.
 
 Thanks for reading!
 
 [\-Shruthi](https://www.linkedin.com/in/shruthirao/) and [Tim](https://www.linkedin.com/in/timawagner/), Vendia co-founders
 
-Want to learn more about Vendia? Read [our welcome article](https://www.vendia.net/blog/welcome-to-vendia).
+Want to learn more about Vendia? Read [our welcome article](https://www.vendia.com/blog/welcome-to-vendia).
 
 _Love Serverless and building distributed applications,_ [_we're hiring_](http://jobs.vendia.net)_!_

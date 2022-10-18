@@ -8,7 +8,7 @@ authors:
   - Hailey Nevins
 ---
 
-When [Vendia](http://vendia.net) first reached out to me, I was at a bit of a crossroads in my career. I was making great money, helping improve customer and end user experiences and helping other designers grow their careers. On the surface, everything was great, but I knew a shift was coming.
+When [Vendia](http://vendia.com) first reached out to me, I was at a bit of a crossroads in my career. I was making great money, helping improve customer and end user experiences and helping other designers grow their careers. On the surface, everything was great, but I knew a shift was coming.
 
 ## Recognize the reality of burnout
 
@@ -108,4 +108,4 @@ Did I take a pay cut in exchange for more responsibility and title? Yes, a fairl
 
 Was it worth it? Absolutely. Because it turns out...you really can't put a price on happiness.
 
-If you're thinking about a new role in tech or [joining Vendia](https://www.vendia.net/careers), reach out. We are always looking for more Kind Humans.
+If you're thinking about a new role in tech or [joining Vendia](https://www.vendia.com/careers), reach out. We are always looking for more Kind Humans.

@@ -24,7 +24,7 @@ authors:
 
 And delivers it all with SaaS simplicity and zero infrastructure footprint to own or manage. Vendia relieves developers from having to “piece together” all the elements of cloud infrastructure, on different clouds, in order to build applications and data platforms that can effortlessly span those gaps.
 
-Customers use Vendia’s operational data and API platform to quickly create a variety of secure, fault-tolerant [solutions](https://vendia.net/use-cases): 
+Customers use Vendia’s operational data and API platform to quickly create a variety of secure, fault-tolerant [solutions](https://vendia.com/use-cases): 
 
 
 
@@ -39,8 +39,8 @@ Compared to manually building point-to-point solutions using bespoke code and se
 
 # Dive deeper
 
-Read more about [why and how](https://www.vendia.net/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) API, database, and blockchain technology can’t efficiently or sufficiently create a multi-party, real-time data sharing alliance on their own. 
+Read more about [why and how](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) API, database, and blockchain technology can’t efficiently or sufficiently create a multi-party, real-time data sharing alliance on their own. 
 
-Then, take a look at how Vendia Share combines blockchain, database, and API technology for [enterprise-grade data sharing](https://vendia.net/blog//venn-diagramming-vendia-share)—without sacrificing security or data governance.
+Then, take a look at how Vendia Share combines blockchain, database, and API technology for [enterprise-grade data sharing](https://vendia.com/blog//venn-diagramming-vendia-share)—without sacrificing security or data governance.
 
-To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.net/contact-us).
+To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.com/contact-us).

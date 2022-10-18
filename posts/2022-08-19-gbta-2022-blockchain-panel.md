@@ -10,7 +10,7 @@ authors:
 
 # Highlights from the GBTA panel: “Blockchain for the Travel Industry”
 
-This year, the GBTA Convention in San Diego hosted an education session exploring how blockchain may disrupt the travel industry. On the panel were two blockchain experts, [Shruthi Rao](https://www.linkedin.com/in/shruthirao/), CBO and co-founder of [Vendia](https://www.vendia.net/) and founder of AWS Blockchain, and [Johnny Thorsen](https://www.linkedin.com/in/johnnythorsen/), VP Strategy and Partnerships at Spotnana. 
+This year, the GBTA Convention in San Diego hosted an education session exploring how blockchain may disrupt the travel industry. On the panel were two blockchain experts, [Shruthi Rao](https://www.linkedin.com/in/shruthirao/), CBO and co-founder of [Vendia](https://www.vendia.com/) and founder of AWS Blockchain, and [Johnny Thorsen](https://www.linkedin.com/in/johnnythorsen/), VP Strategy and Partnerships at Spotnana. 
 
 Moderator, Scott Wayne, helped ask the tough questions to suss out what’s hype and what’s real about the technology, describing himself as “a little bit of a skeptic.”
 

@@ -8,7 +8,7 @@ authors:
 
 # Real-time data sharing: Pros and cons
 
-As the world of commerce moves increasingly faster, the demand for real-time data is on the rise. We have talked about the difference [between analytical and operational data](https://www.vendia.net/blog/real-time-vs-analytical-data) before. This blog will dive into the operational data that tends to be more urgent in nature and how you as a CTO, CIO, or CDO determine what data you should enable your organization with in real-time, what data is best suited for real-time data sharing, and what are the pros and cons of real-time data sharing.
+As the world of commerce moves increasingly faster, the demand for real-time data is on the rise. We have talked about the difference [between analytical and operational data](https://www.vendia.com/blog/real-time-vs-analytical-data) before. This blog will dive into the operational data that tends to be more urgent in nature and how you as a CTO, CIO, or CDO determine what data you should enable your organization with in real-time, what data is best suited for real-time data sharing, and what are the pros and cons of real-time data sharing.
 
 
 ## What is real-time data sharing?  
@@ -128,4 +128,4 @@ If you are ready to explore how real-time data sharing might help accelerate you
 
 In just five days you will get a working application that demonstrates proof-of-value including: Multi-party sharing, easy partner invitations, a resilient global serverless architecture with no operational overhead, and fine-grained data access controls — Everything you need to reap all the benefits of real-time data sharing.  
 
-Request a POC at [vendia.net/poc](https://www.vendia.net/poc) today. 
+Request a POC at [vendia.net/poc](https://www.vendia.com/poc) today. 

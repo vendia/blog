@@ -94,4 +94,4 @@ In a few short years, “saving the environment” has gone from a fringe moveme
 
 Focusing on data and compute – the two key drivers of cost and power consumption – will enable companies to identify areas of improvement. With the increasing role of blockchains as mechanisms to share both code and data across companies and clouds, understanding and identifying which blockchain technologies and providers can help _improve_ carbon footprint versus _worsen_ it is an important question facing IT decision makers and architects at all levels of an organization. The checklist provided in this article can serve as a vendor selection tool to help make informed decisions and guide a company towards a “carbon and cost” efficient solution.
 
-Want more context? Read [Greenchains, Part 1: Current blockchains' big carbon footprints](https://www.vendia.net/blog/why-blockchains-have-large-carbon-footprints)
+Want more context? Read [Greenchains, Part 1: Current blockchains' big carbon footprints](https://www.vendia.com/blog/why-blockchains-have-large-carbon-footprints)

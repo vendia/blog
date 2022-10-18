@@ -17,10 +17,10 @@ We’ve rounded up our top posts on featuring the good, the bad, and the best th
 
 
 
-* [Smart APIs](https://www.vendia.net/blog/smart-apis)
-* [What you need to know about APIs and API payloads](https://www.vendia.net/blog/what-are-apis)
-* [APIs don’t have to be so difficult](https://www.vendia.net/blog/apis-for-data)
-* [How to make your APIs "data-aware"](https://www.vendia.net/blog/apis-for-real-time-data-sharing)
+* [Smart APIs](https://www.vendia.com/blog/smart-apis)
+* [What you need to know about APIs and API payloads](https://www.vendia.com/blog/what-are-apis)
+* [APIs don’t have to be so difficult](https://www.vendia.com/blog/apis-for-data)
+* [How to make your APIs "data-aware"](https://www.vendia.com/blog/apis-for-real-time-data-sharing)
 
 
 ## 15 characteristics of smart APIs
@@ -31,14 +31,14 @@ As businesses and developers have evolved their demands on the data APIs need to
 
 But for all these advancements, the conceptual role of an API (which is that of an “ignorant pipe” that doesn’t understand, control, or mediate its content) has remained largely unchanged. The costs of ignorant pipes and the data gaps they maintain are huge: Sharing data, and keeping it consistent across companies, clouds, geographies (aka regions), accounts, and technology stacks is arguably the single hardest challenge in modern day applications.
 
-Get Tim’s take on the 15 characteristics of a new solution to fix the ignorant pipe problem with smart APIs in the full post, [Smart APIs](https://www.vendia.net/blog/smart-apis).
+Get Tim’s take on the 15 characteristics of a new solution to fix the ignorant pipe problem with smart APIs in the full post, [Smart APIs](https://www.vendia.com/blog/smart-apis).
 
 
 ## All about APIs and API payload management
 
 From payment APIs like Stripe and PayPal to communication services like Twilio to the ever-growing list of AWS services, it seems that every company and concept has an associated API. Despite their popularity and the abundance of tools and services to create, operate, and monitor them, developers and businesses still struggle with the high cost of creating APIs. And still, while aspects like security are obviously critical, APIs are only useful to the degree that they can carry information between two or more parties. Let’s examine the ways in which APIs are used as a way to understand why the content carried by the API can be even more challenging than developing and operating the API itself.
 
-Take a deep dive to explore what an API really is, why they exist, why carrying business data between companies still remains challenging and expensive, and what business and technical leaders can do to overcome those challenges. Keep reading: [What you need to know about APIs and API payloads](https://www.vendia.net/blog/what-are-apis).
+Take a deep dive to explore what an API really is, why they exist, why carrying business data between companies still remains challenging and expensive, and what business and technical leaders can do to overcome those challenges. Keep reading: [What you need to know about APIs and API payloads](https://www.vendia.com/blog/what-are-apis).
 
 
 ## How to overcome API limitations and make smart APIs
@@ -51,13 +51,13 @@ The answer is simple: It’s not the API that’s the problem, it’s the data t
 
 The moment that an API producer returns data to an API consumer, that data immediately becomes a stale copy of the data maintained by the API producer. With multiple sources of truth (i.e., the API producer’s truth and the one in the API consumers truth), “The Truth” immediately begins to drift apart. Worse, there are often many API consumers calling on truth at different times and creating competing snapshots and variations on “The Truth.”
 
-To better understand your data consistency problem, alternative architectures, and the potential for a real-time streaming architecture to get you and your data sharing partners to a shared, secure single source of truth, keep reading: [APIs don’t have to be so difficult](https://www.vendia.net/blog/apis-for-data).
+To better understand your data consistency problem, alternative architectures, and the potential for a real-time streaming architecture to get you and your data sharing partners to a shared, secure single source of truth, keep reading: [APIs don’t have to be so difficult](https://www.vendia.com/blog/apis-for-data).
 
-To learn how smart APIs always keep data consistent everywhere it lives for a single source of truth, keep reading: [How to make your APIs "data-aware."](https://www.vendia.net/blog/apis-for-real-time-data-sharing)
+To learn how smart APIs always keep data consistent everywhere it lives for a single source of truth, keep reading: [How to make your APIs "data-aware."](https://www.vendia.com/blog/apis-for-real-time-data-sharing)
 
 
 ### Explore smart APIs in action
 
-**Developers:** Tired of building with ignorant pipes? In 10  minutes, you can turn a JSON Schema into a production-ready, GraphQL-enabledAPI with a data layer built-in, and see how it works for yourself. Check out our [quick start guides](https://www.vendia.net/docs/share/quickstart) to get started.
+**Developers:** Tired of building with ignorant pipes? In 10  minutes, you can turn a JSON Schema into a production-ready, GraphQL-enabledAPI with a data layer built-in, and see how it works for yourself. Check out our [quick start guides](https://www.vendia.com/docs/share/quickstart) to get started.
 
-**Enterprise leaders:** Looking for a real-time data sharing solution with next-gen, smart APIs to help you stand up a single source of truth in your data sharing alliance? In five days, you can have a proof-of-concept (POC) that demonstrates how your organization can share data and code across regions, accounts, departments, and partners. [Request your POC](https://www.vendia.net/poc).
+**Enterprise leaders:** Looking for a real-time data sharing solution with next-gen, smart APIs to help you stand up a single source of truth in your data sharing alliance? In five days, you can have a proof-of-concept (POC) that demonstrates how your organization can share data and code across regions, accounts, departments, and partners. [Request your POC](https://www.vendia.com/poc).

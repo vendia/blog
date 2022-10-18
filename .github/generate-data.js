@@ -23,7 +23,7 @@ const config = {
       const url = ctx.originalPath
         .replace(/(README|readme|Readme)\.md/, '')
         .replace(/\.mdx?$/, '')
-      return `### [Read this on the Vendia docs site](https://www.vendia.net/docs/${url})`
+      return `### [Read this on the Vendia docs site](https://www.vendia.com/docs/${url})`
     },
     async POSTS_TABLE() {
       const [ mdData ] = await getMarkdownData([
@@ -44,7 +44,7 @@ const config = {
         const { data, file } = item
         const fileName = path.basename(file)
         const postSlug = fileName.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
-        const url = `https://vendia.net/blog/${postSlug}`
+        const url = `https://vendia.com/blog/${postSlug}`
         const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
@@ -69,8 +69,8 @@ const config = {
         const closeTr = '\n</tr>\n'
         const twitterLink = (twitter) ? `https://twitter.com/${twitter}` : ''
         const githubLink = (github) ? `https://github.com/${github}` : ''
-        const authorLink = `https://www.vendia.net/blog/author/${slug}`
-        const link = twitterLink || githubLink || authorLink || 'https://www.vendia.net/blog'
+        const authorLink = `https://www.vendia.com/blog/author/${slug}`
+        const link = twitterLink || githubLink || authorLink || 'https://www.vendia.com/blog'
         const image = avatar || 'https://www.fillmurray.com/100/100'
         // Add row
         md += `
@@ -110,7 +110,7 @@ const config = {
         const { data, file } = item
         const fileName = path.basename(file)
         const postSlug = fileName.replace(/\.mdx?$/, '')
-        const url = `https://vendia.net/releases/${postSlug}`
+        const url = `https://vendia.com/releases/${postSlug}`
         const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/releases/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''

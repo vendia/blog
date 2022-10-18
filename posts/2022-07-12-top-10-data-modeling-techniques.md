@@ -9,7 +9,7 @@ authors:
 - James Gimourginas
 ---
 
-One of Vendia Share's most powerful features gives you the ability to automatically convert a [data model](https://www.vendia.net/docs/share/data-modeling) into a production-grade, distributed application (called a [Universal Application](https://www.vendia.net/docs/share/dev-and-use-unis), or "Uni" for short) that’s composed of serverless public cloud resources. The data model input that Vendia Share accepts must follow the [JSON Schema specification](https://json-schema.org/draft/2020-12/json-schema-core.html). The Uni creation process takes that JSON Schema input and automatically generates a number of artifacts, including a GraphQL schema and its full implementation. In other words, the data model defined prior to Uni creation directly relates to the GraphQL interface you and your partners will leverage when integrating with the Uni.
+One of Vendia Share's most powerful features gives you the ability to automatically convert a [data model](https://www.vendia.com/docs/share/data-modeling) into a production-grade, distributed application (called a [Universal Application](https://www.vendia.com/docs/share/dev-and-use-unis), or "Uni" for short) that’s composed of serverless public cloud resources. The data model input that Vendia Share accepts must follow the [JSON Schema specification](https://json-schema.org/draft/2020-12/json-schema-core.html). The Uni creation process takes that JSON Schema input and automatically generates a number of artifacts, including a GraphQL schema and its full implementation. In other words, the data model defined prior to Uni creation directly relates to the GraphQL interface you and your partners will leverage when integrating with the Uni.
 
 This new [feature example](https://github.com/vendia/examples/tree/main/approaches/data-modeling) demonstrates ten powerful approaches that can be applied to the schema, either individually or together, when constructing a data model. In this post, we'll provide a high-level overview of each technique and why you should know it.
 
@@ -68,7 +68,7 @@ The `x-vendia-acls` section defines two ACLs, one per entity that requires fine-
 
 There's nothing else to do. Vendia Share's JSON Schema-to-GraphQL compiler will generate an appropriate GraphQL type for the defined ACL and append it to the model of each entity (_e.g._, `Employee` and `Office`) so it is available alongside all other (explicitly defined) fields.
 
-More information about Vendia Share's fine-grained data access controls, expressed as Access Control List (ACL) format, can be found [here](https://www.vendia.net/docs/share/fine-grained-data-permissions) and a detailed example of using them is [here]([https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls)).
+More information about Vendia Share's fine-grained data access controls, expressed as Access Control List (ACL) format, can be found [here](https://www.vendia.com/docs/share/fine-grained-data-permissions) and a detailed example of using them is [here]([https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls)).
 
 ## Approach 3: Define Indexes
 
@@ -97,7 +97,7 @@ For sufficiently large data sets, you will see lower query latencies when filter
 ## Approach 4: Leverage Types
 
 ### Why
-Selecting the most appropriate leverage type is an important part of [data modeling](https://www.vendia.net/docs/share/data-modeling). It allows you and your partners to maintain a high-quality single source of truth by constraining inputs appropriately when new data is added to a Uni.
+Selecting the most appropriate leverage type is an important part of [data modeling](https://www.vendia.com/docs/share/data-modeling). It allows you and your partners to maintain a high-quality single source of truth by constraining inputs appropriately when new data is added to a Uni.
 
 Using appropriate types also help ensure the GraphQL interface of your Uni matches the needs of the developers using it. In other words, your data model directly impacts the "JSON Schema type input » GraphQL type output" conversions Vendia Share performs during Uni creation.
 
@@ -283,8 +283,8 @@ Data models often evolve. As Uni participants grow, and as the fidelity of solut
 
 
 ### How
-See the [complete writeup](https://www.vendia.net/blog/schema-evolution) on how Vendia Share's schema evolution feature can be applied.
+See the [complete writeup](https://www.vendia.com/blog/schema-evolution) on how Vendia Share's schema evolution feature can be applied.
 
 
 ## Final Thoughts
-Balancing constraints (`type`, `format`, `pattern`, `required`) with future expansion flexibility (`share uni evolve`) can be a challenge. Often, this is more art than science. To validate you’ve achieved the right balance, collaborate and [review your data model with a Vendia SA](https://www.vendia.net/poc) as you get started with Vendia Share.
+Balancing constraints (`type`, `format`, `pattern`, `required`) with future expansion flexibility (`share uni evolve`) can be a challenge. Often, this is more art than science. To validate you’ve achieved the right balance, collaborate and [review your data model with a Vendia SA](https://www.vendia.com/poc) as you get started with Vendia Share.
