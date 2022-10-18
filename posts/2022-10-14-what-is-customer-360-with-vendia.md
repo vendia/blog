@@ -80,7 +80,7 @@ And these core capabilities may live across varying tools like those for catalog
 
 [Data governance](https://en.wikipedia.org/wiki/Data_governance) and cataloging solutions provide a way to track data about data. Think of them as a searchable dictionary, varying in how much each tool allows for the editing (or securing) of attributes. 
 
-More feature-rich solutions add layers of security policies and audit history on usage of data assets. Some solutions maintain data privacy requirements (ex. data retention or GDPR compliance) while others present a data lineage of all systems in which an attribute can be defined. Almost all data governance solutions include a ledger or data changes and control who can see or edit data.
+More feature-rich solutions add layers of security policies and audit history on usage of data assets. Some solutions maintain data privacy requirements (ex. data retention or GDPR compliance) while others present a data lineage of all systems in which an attribute can be defined. Almost all data governance solutions include a ledger of data changes and control who can see or edit data.
 
 In short, it’s mission is quality, security, reliability, and auditability of data. Data governance is a critical component of any master data management solution. 
 
@@ -179,7 +179,7 @@ If a set of attributes are defined, say a “schema” for a customer with ready
 
 Yes, at first glance, it’s not much different than an [Operational Data Store (ODS)](https://en.wikipedia.org/wiki/Operational_data_store) or an [Enterprise Data Hub (EDH)](https://en.wikipedia.org/wiki/Data_hub) built on a semi-structure data store (ex. [NoSQL DB](https://en.wikipedia.org/wiki/NoSQL)). However, insert stage left a new business need: Interface with partners, plural. The integrations to build, security to manage, data to deduplicate, and data to reconcile across partners becomes multiplied. The data development teams are then bogged down on undifferentiated value. If (or when) the technical landscape across these partners is not homogeneous, add months to the development timeline.
 
-With [Vendia](https://www.vendia.net/blog/venn-diagramming-vendia-share), it’s a few clicks to share data with partners Really. The schema is already established and the data exists with a golden record of the entity. With the use of [blockchain](https://www.vendia.net/blog/are-blockchains-databases), it also includes an immutable ledger, providing visibility into any changes made to any attribute at any time.
+With [Vendia](https://www.vendia.net/blog/venn-diagramming-vendia-share), it’s a few clicks to share data with partners. Really. The schema is already established and the data exists with a golden record of the entity. With the use of [blockchain](https://www.vendia.net/blog/are-blockchains-databases), it also includes an immutable ledger, providing visibility into any changes made to any attribute at any time.
 
 All that’s needed is to invite one (or many!) partner(s) to own a [node](https://www.vendia.net/docs/share/terms-and-definitions). Data can be shared, real-time, across partners and [across clouds](https://www.vendia.net/blog/azure-eventing). 
 
