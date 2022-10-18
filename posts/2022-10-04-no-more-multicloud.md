@@ -1,5 +1,5 @@
 ---
-title: new title two
+title: "No more multicloud: The emergence of supercloud"
 description: Learn how SaaS platforms in the post-cloud hyperscaler era are
   turning the multicloud mess into today’s biggest opportunity.
 date: 2022-10-04
@@ -9,7 +9,7 @@ categories:
   - architecture
   - concepts
 updatedBy: David Wells
-updatedAt: 2022-10-18T05:15:01.618Z
+updatedAt: 2022-10-18T05:16:40.406Z
 ---
 
 Say "multicloud” to a public cloud salesperson or executive, and it’s practically profanity.
