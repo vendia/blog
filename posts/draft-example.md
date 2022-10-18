@@ -5,8 +5,11 @@ description: This is an example post!
 date: 2020-01-02
 authors:
   - David Wells
+relatedPosts:
+  - Welcome to Vendia
+  - Meet Vendia's founders
 updatedBy: David Wells
-updatedAt: 2022-10-18T17:13:28.881Z
+updatedAt: 2022-10-18T18:49:57.807Z
 ---
 
 This post is a draft. Here is update. Again!
