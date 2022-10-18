@@ -5,6 +5,8 @@ date: 2020-01-02
 draft: true
 authors:
   - David Wells
+updatedBy: foobar
+updatedAt: foobar
 ---
 This post is a draft!
 
