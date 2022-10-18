@@ -19,7 +19,7 @@ We can’t help ourselves — here’s our rendition (see Figure 1):
 
 **Figure 1: Customer 360 Wheel of all Stages**
 
-![Customer 360 Wheel](https://user-images.githubusercontent.com/105127677/196303087-2f926f8a-fd40-422e-883c-2deadbd2d9cb.png "Critical stages of a customer's complete journey")
+![Customer 360 Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303087-2f926f8a-fd40-422e-883c-2deadbd2d9cb.png "Critical stages of a customer's complete journey")
 
 <br/>
 
@@ -30,7 +30,7 @@ Each stage involves a series of actions, updating various data entities, enabled
 
 **Figure 2: Customer 360 Wheel of all Stages, Actions, Data Entities, and Systems**
 
-![Customer 360 Wheel Detail](https://user-images.githubusercontent.com/105127677/196303105-a3817402-ea14-4bc3-bb16-20a6dee2d987.png "Key actions that occur at each Customer 360 Stage, including the relevant data entities and supporting systems")
+![Customer 360 Wheel Detail](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303105-a3817402-ea14-4bc3-bb16-20a6dee2d987.png "Key actions that occur at each Customer 360 Stage, including the relevant data entities and supporting systems")
 
 <br/>
 
@@ -95,7 +95,7 @@ However, CDPs are not the full 360° view. CDPs are notorious for focusing on ma
 
 **Figure 3: Customer 360 Wheel Only Partially Visible with CDP Solutions**
 
-![Customer 360 Top-Left Wheel](https://user-images.githubusercontent.com/105127677/196303129-57659044-708a-4aae-a540-169a193f49a2.png)
+![Customer 360 Top-Left Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303129-57659044-708a-4aae-a540-169a193f49a2.png)
 
 <br/>
 
@@ -146,7 +146,7 @@ Most often, Customer 360 solutions are more like Customer 45, or a dotted line a
 
 **Figure 4: Customer 360 Wheel with Spotty Visibility**
 
-![Customer 360 Dotted Line Wheel](https://user-images.githubusercontent.com/105127677/196303139-e08d4d8d-a876-44a8-959e-1869974c701d.png)
+![Customer 360 Dotted Line Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303139-e08d4d8d-a876-44a8-959e-1869974c701d.png)
 
 <br/>
 
@@ -197,7 +197,7 @@ The walled gardens around data silos, both among departments and now among compa
 
 **Figure 5: Customer 360 Wheel Linked with a Partner's Customer 360 Wheel**
 
-![Customer 360 Partner Wheel](https://user-images.githubusercontent.com/105127677/196303143-0d97df23-72f9-4245-9097-330d4daf5999.png)
+![Customer 360 Partner Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303143-0d97df23-72f9-4245-9097-330d4daf5999.png)
 
 <br/>
 
