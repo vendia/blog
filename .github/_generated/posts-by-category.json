@@ -16,16 +16,18 @@
     },
     {
       "file": "/posts/2022-10-04-no-more-multicloud.md",
-      "title": "No more multicloud: The emergence of supercloud",
+      "title": "new title two",
       "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
+      "date": "2022-10-04T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
       "categories": [
         "architecture",
         "concepts"
       ],
-      "authors": [
-        "Tim Wagner"
-      ]
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-10-18T05:15:01.618Z"
     },
     {
       "file": "/posts/2022-09-27-data-sharing-obstacles.md",
@@ -547,16 +549,18 @@
   "architecture": [
     {
       "file": "/posts/2022-10-04-no-more-multicloud.md",
-      "title": "No more multicloud: The emergence of supercloud",
+      "title": "new title two",
       "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
+      "date": "2022-10-04T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
       "categories": [
         "architecture",
         "concepts"
       ],
-      "authors": [
-        "Tim Wagner"
-      ]
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-10-18T05:15:01.618Z"
     },
     {
       "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
