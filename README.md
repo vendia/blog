@@ -37,7 +37,7 @@ Welcome to the Vendia blog repo!
 |:-------------|:--------------:|:---:|
 | [Your Customer 360 solution isn’t really 360](https://vendia.net/blog/what-is-customer-360-with-vendia) <br/> Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce) by Francine Klein | 2022-10-14 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-10-14-what-is-customer-360-with-vendia.md)
 | [How to think about your growth marketing tactics at a startup](https://vendia.net/blog/growth-marketing-b2b-saas) <br/> Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine by Caroll Casbeer | 2022-10-06 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-10-06-growth-marketing-b2b-saas.md)
-| [No more multicloud: The emergence of supercloud](https://vendia.net/blog/no-more-multicloud) <br/> Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity by Tim Wagner | Tue Oct 04 2022 00:00:00 GMT+0000 (Coordinated Universal Time) | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-10-04-no-more-multicloud.md)
+| [No more multicloud: The emergence of supercloud](https://vendia.net/blog/no-more-multicloud) <br/> Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity by Tim Wagner | 2022-10-04 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-10-04-no-more-multicloud.md)
 | [The great equalizer: How data sharing can help communities overcome social inequities (transcript)](https://vendia.net/blog/podcast-great-equalizer) <br/> Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems | 2022-10-01 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-10-01-podcast-great-equalizer.md)
 | [Obstacles to data sharing](https://vendia.net/blog/data-sharing-obstacles) <br/> Some obstacles to data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. This post will help you face both types of data sharing obstacles by Anders Maul | 2022-09-27 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-27-data-sharing-obstacles.md)
 | [Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing](https://vendia.net/blog/blockchain-mortgage-services) <br/> Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation by Tim Wagner | 2022-09-26 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-09-26-blockchain-mortgage-services.md)
@@ -202,12 +202,21 @@ Welcome to the Vendia blog repo!
       <a href="https://twitter.com/DavidBr47724582"><sup><sub>David Brown</sub></sup></a>
   </td>
   <td align="center">
+      <a href="https://www.vendia.net/blog/author/david-mcelligott">
+        <img src="https://avatars.githubusercontent.com/u/113389580?v=4" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://twitter.com/damcelligott"><sup><sub>David McElligott</sub></sup></a>
+  </td>
+  <td align="center">
       <a href="https://www.vendia.net/blog/author/david-wells">
         <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://twitter.com/DavidWells"><sup><sub>David Wells</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/francine-klein">
         <img src="https://avatars.githubusercontent.com/u/105127677?s=400&u=e2ad96f3458ea05767b15d8372ada969c3a16ece&v=4" width="76px;" alt=""/>
@@ -215,8 +224,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://github.com/francine-vendia"><sup><sub>Francine Klein</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/gavin-yue">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="76px;" alt=""/>
@@ -266,6 +273,8 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://github.com/renee-vendia"><sup><sub>Renee Fujii</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/ryan-green">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="76px;" alt=""/>
@@ -273,8 +282,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/robotpatch"><sup><sub>Ryan Green</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.net/blog/author/ryan-scott-brown">
         <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="76px;" alt=""/>
