@@ -47,7 +47,7 @@ The way the financial services and mortgage services in the industry collaborate
 
 For years, many have held that [the promise of blockchain](https://www.vendia.net/blog/private-public-blockchain-and-cloud) will solve all data sharing challenges. But public blockchains fall woefully short of this promise. While blockchain has undergone a notable hype cycle, when it comes to enterprise experimentation, public blockchain pilots have been one of the most failed technology pilots. In particular, the solutions have fallen short in dealing with sensitive and regulated loan data in the complex and highly transactional multi-party ecosystem that is housing finance.  
 
-At Vendia, we have built a “blockchain for business” which addresses traditional blockchain shortfalls and excels beyond other solutions. Our platform, [Vendia Share](https://vendia.net/product), delivers an enterprise-grade, private, permissioned, next-gen blockchain suited for the housing finance ecosystem. [Our platform](https://www.vendia.net/blockchain) combines the decentralization and trust of blockchains with the scale of public clouds, all wrapped in the compliance and security features required by the industry. Furthermore, Vendia was engineered for rapid adoption irrespective of an organization’s technical maturity: 
+At Vendia, we have built a business blockchain which addresses traditional blockchain shortfalls and excels beyond other solutions. Our platform, [Vendia Share](https://vendia.net/product), delivers an enterprise-grade, private, permissioned, business blockchain suited for the housing finance ecosystem. [Our platform](https://www.vendia.net/blockchain) combines the decentralization and trust of blockchains with the scale of public clouds, all wrapped in the compliance and security features required by the industry. Furthermore, Vendia was engineered for rapid adoption irrespective of an organization’s technical maturity: 
 
 
 
@@ -73,7 +73,7 @@ Ensuring immutable audit and regulatory oversight is straightforward with Vendia
 
 The rigid nature of existing housing finance systems makes it difficult to change the way decisions are made and processes are worked because of the historical dependence on past technology implementations. Going forward, a more holistic and flexible system that easily combines varied and new data sources into the process opens up new innovations and opportunities now and in the future.
 
-Blockchain technology is maturing to the state where it is an excellent candidate for rethinking the mortgage and credit system. Private blockchains built for business, or what we call business blockchains, take into account [the needs of enterprises](https://www.vendia.net/blog/venn-diagramming-vendia-share), especially the need for speed, plus more and automation:
+Blockchain technology is maturing to the state where it is an excellent candidate for rethinking the mortgage and credit system. Private blockchains built for business, or what we call business blockchains, take into account [the needs of enterprises](https://www.vendia.net/blog/venn-diagramming-vendia-share), especially the need for speed and automation, plus:
 
 
 
