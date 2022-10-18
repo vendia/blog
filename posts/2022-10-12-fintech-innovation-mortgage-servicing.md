@@ -33,7 +33,6 @@ From origination and underwriting through closing, GSE acquisition, securitizati
 In many cases, an organization may acquire then transfer then reacquire the same loan data several times over the course of the life of a loan.
 
 
-
 * A major seller/servicer originates a loan, but immediately transfers servicing rights to another party, then reacquires servicing rights
 * Once this loan is packaged into a mortgage backed security, the investment arm of the same seller/servicer may invest in the broader security the loan lives within, further necessitating access to the underlying data and loan history
 * All of this data is acquired and validated, sent, reacquired and revalidated, resent and then reacquired by the same party over the course of the life of the loan.
