@@ -99,6 +99,13 @@ test('Post validation', async () => {
 
     /* Verify frontmatter */
     const { title, date, description, authors, categories } = data
+    // let date = data.date
+    // if (typeof data.date === 'string') {
+    //   date = data.date
+    // } else {
+    //   var newDate = new Date(data.date.toString())
+    //   date = newDate.toISOString().substring(0, 10)
+    // }
 
     /* Titles must provided */
     if (!title) {
@@ -119,6 +126,7 @@ test('Post validation', async () => {
     }
     
     /* Date must be YYYY-MM-DD */
+    // console.log('file', file)
     if (date && !date.match(/\d{4}-\d{2}-\d{2}/)) {
       errors.push(`Malformed "date" field in ${file}
     "${date}" is invalid value.
