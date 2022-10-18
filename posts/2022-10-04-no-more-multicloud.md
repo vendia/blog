@@ -1,12 +1,15 @@
 ---
-title: 'No more multicloud: The emergence of supercloud'
-description: 'Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.'
-date: '2022-10-04'
-categories:
-- architecture
-- concepts
+title: new title two
+description: Learn how SaaS platforms in the post-cloud hyperscaler era are
+  turning the multicloud mess into today’s biggest opportunity.
+date: 2022-10-04
 authors:
   - Tim Wagner
+categories:
+  - architecture
+  - concepts
+updatedBy: David Wells
+updatedAt: 2022-10-18T05:15:01.618Z
 ---
 
 Say "multicloud” to a public cloud salesperson or executive, and it’s practically profanity.
@@ -23,7 +26,7 @@ If ever there were ever a need for an innovative alternative from the market, th
 “Supercloud describes an architecture, which taps the underlying services & primitives of hyperscale clouds to deliver additional value above and beyond what’s available from public cloud providers. A supercloud delivers capabilities through software, consumed as services; and can run on a single hyperscale cloud or span multiple clouds.” (Source: [Wikibon](https://wikibon.com/breaking-analysis-rise-supercloud/))
 
 
-    Simply put, supercloud is what comes after the public cloud. It’s a value-add layer that hides cloud complexity, exploits differentiated cloud service capabilities, and adds new business (and business network) leverage beyond the raw “Lego™ bricks” of existing public and private clouds.
+Simply put, supercloud is what comes after the public cloud. It’s a value-add layer that hides cloud complexity, exploits differentiated cloud service capabilities, and adds new business (and business network) leverage beyond the raw “Lego™ bricks” of existing public and private clouds.
 
 Although it represents an evolution beyond just individual public cloud providers, supercloud is going through its rapid series of transformations. We can see it as three eras.
 
@@ -64,9 +67,9 @@ In an (understandable) effort to limit migration complexity, public cloud hypers
 
 #### Designed for solution-oriented value, not low-level DIY
 
-[Public cloud providers](https://www.vendia.net/blog/public-cloud-file-sharing) have done a fantastic job of creating primitive building blocks that make it possible to compose an astonishing variety of outcomes. With the possible exceptions of high-frequency trading or fully custom supercomputer hardware, anything a company can do itself in an on-prem environment can be accomplished (with enough effort) in a public cloud.  \
+[Public cloud providers](https://www.vendia.net/blog/public-cloud-file-sharing) have done a fantastic job of creating primitive building blocks that make it possible to compose an astonishing variety of outcomes. With the possible exceptions of high-frequency trading or fully custom supercomputer hardware, anything a company can do itself in an on-prem environment can be accomplished (with enough effort) in a public cloud.
 
-    But delivering business value is about time to market and ROI, not just technical feasibility. 
+But delivering business value is about time to market and ROI, not just technical feasibility. 
 
 Knowing how to assemble the hundreds of services on AWS, let alone make them interact with the thousands of services from other cloud vendors, isn’t easy. Supercloud vendors abstract this complexity away. Creating easy, immediate wins for business outcomes from BI and ML ([Snowflake](https://www.snowflake.com/en/)) to APM ([Datadog)](https://www.datadoghq.com/) to real-time data sharing ([Vendia](https://www.vendia.net/)) enables their customers to focus on their differentiated business problems instead of how to train their developers to compose the ever-changing, low-level public cloud services into useful outcomes.
 
