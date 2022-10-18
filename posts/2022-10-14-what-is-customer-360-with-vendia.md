@@ -15,9 +15,9 @@ authors:
 
 We can’t talk about Customer 360 without the infamous “wheel.” You’ve seen it: The circle of all stages, channels, or phases that a customer (B2B or B2C) goes through as they interact with a company.
 
-We can’t help ourselves — here’s our rendition: 
+We can’t help ourselves — here’s our rendition (see Figure 1): 
 
-**Customer 360 Wheel of all Stages**
+**Figure 1: Customer 360 Wheel of all Stages**
 
 ![Customer 360 Wheel](https://user-images.githubusercontent.com/105127677/196303087-2f926f8a-fd40-422e-883c-2deadbd2d9cb.png "Critical stages of a customer's complete journey")
 
@@ -26,9 +26,10 @@ We can’t help ourselves — here’s our rendition:
 
 It’s 360 because it covers a full circle, all 360 degrees.
 
-Each stage involves a series of actions, updating various data entities, enabled through a stack of business system applications.
+Each stage involves a series of actions, updating various data entities, enabled through a stack of business system applications (see Figure 2).
 
-**Customer 360 Wheel of all Stages, Actions, Data Entities, and Systems**
+**Figure 2: Customer 360 Wheel of all Stages, Actions, Data Entities, and Systems**
+
 ![Customer 360 Wheel Detail](https://user-images.githubusercontent.com/105127677/196303105-a3817402-ea14-4bc3-bb16-20a6dee2d987.png "Key actions that occur at each Customer 360 Stage, including the relevant data entities and supporting systems")
 
 <br/>
@@ -90,9 +91,10 @@ If MDM solutions sit in the middle of the infamous Customer 360 wheel, CDPs can 
 
 A purpose of a CDP is to add categorization, or segmentation, of customers based on early-stage activity. It’s intended to enable personalization based on customer behavior patterns. 
 
-However, CDPs are not the full 360° view. CDPs are notorious for focusing on marketing interactions, website views, and [top-of-funnel](https://www.simplilearn.com/top-of-funnel-marketing-tactics-article) curation; meaning, it’s more of a Customer 45° view. It often forgets sales, support, success, product, and revenue activity. 
+However, CDPs are not the full 360° view. CDPs are notorious for focusing on marketing interactions, website views, and [top-of-funnel](https://www.simplilearn.com/top-of-funnel-marketing-tactics-article) curation; meaning, it’s more of a Customer 45° view. It often forgets sales, support, success, product, and revenue activity. (see Figure 3) 
 
-**Customer 360 Wheel Only Partially Visible with CDP Solutions**
+**Figure 3: Customer 360 Wheel Only Partially Visible with CDP Solutions**
+
 ![Customer 360 Top-Left Wheel](https://user-images.githubusercontent.com/105127677/196303129-57659044-708a-4aae-a540-169a193f49a2.png)
 
 <br/>
@@ -140,9 +142,9 @@ You see the pattern here: Every solution has the same characteristics for defini
 
 We’ve established that Customer 360 can exist in many forms across many solutions, but they have the same common themes. If the solutions are so prevalent, why do Customer 360 projects take months (or years) to complete? Why are there so many varying (similar but competing) solutions and approaches in the data world?
 
-Most often, Customer 360 solutions are more like Customer 45, or a dotted line around the 360° circle — bits and pieces of the journey are connected, but the full, end-to-end continuity is lacking. 
+Most often, Customer 360 solutions are more like Customer 45, or a dotted line around the 360° circle — bits and pieces of the journey are connected, but the full, end-to-end continuity is lacking. (see Figure 4) 
 
-**Customer 360 Wheel with Spotty Visibility**
+**Figure 4: Customer 360 Wheel with Spotty Visibility**
 
 ![Customer 360 Dotted Line Wheel](https://user-images.githubusercontent.com/105127677/196303139-e08d4d8d-a876-44a8-959e-1869974c701d.png)
 
@@ -150,7 +152,7 @@ Most often, Customer 360 solutions are more like Customer 45, or a dotted line a
 
 It’s easy to say the tools are the reason, that MDM is archaic, that data governance tools don't have the right breadth of features, or that people are the problem (but that wouldn’t be [very kind](https://www.vendia.net/kind-humans)).
 
-But, it’s not your fault. The lack of Customer 360 is the nature of growing companies. It’s a common tradeoff when companies need to do the job (ex. sell) and design the processes and tooling for operations (ex.. sales ops and application administration). To round it out, people with tribal knowledge of how customers are represented in each system come-and-go from organizations.  
+But, it’s not your fault. The lack of Customer 360 is the nature of growing companies. It’s a common tradeoff when companies need to do the job (ex. sell) and design the processes and tooling for operations (ex. sales ops and application administration). To round it out, people with tribal knowledge of how customers are represented in each system come-and-go from organizations.  
 
 Basically, the data within a company becomes no different than [our junk drawers](https://www.vendia.net/blog/understanding-real-time-data-lakes) — hard to navigate unless you know exactly what you’re looking for.
 
@@ -191,9 +193,10 @@ With Vendia, you no longer need to:
 * Add in multiple data wrangling tools for managing, governing, combining data
 * Manage APIs for each point-to-point integration and keep them current with evolving schemas
 
-The walled gardens around data silos, both among departments and now among companies, begin to vanish. Not only can you have a complete view of _your_ Customer, you can have a more complete view of what is actually _your_ Customer and _your partners’_ Customer.  
+The walled gardens around data silos, both among departments and now among companies, begin to vanish. Not only can you have a complete view of _your_ Customer, you can have a more complete view of what is actually _your_ Customer and _your partners’_ Customer. (see Figure 5) 
 
-**Customer 360 Wheel Linked with a Partner's Customer 360 Wheel**
+**Figure 5: Customer 360 Wheel Linked with a Partner's Customer 360 Wheel**
+
 ![Customer 360 Partner Wheel](https://user-images.githubusercontent.com/105127677/196303143-0d97df23-72f9-4245-9097-330d4daf5999.png)
 
 <br/>
