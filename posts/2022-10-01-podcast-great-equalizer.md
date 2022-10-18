@@ -5,7 +5,7 @@ categories:
 - podcast
 date: '2022-10-01'
 ---
-## Listen on [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)
+Listen on [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)
 
 
 ### Episode 1 | The Great Equalizer: How data sharing can help communities overcome social inequities
