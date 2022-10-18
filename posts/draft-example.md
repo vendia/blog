@@ -2,17 +2,12 @@
 title: Draft post example
 draft: true
 description: This is an example post!
-date: 2020-01-02
+date: 2020-01-01
 authors:
   - David Wells
 updatedBy: David Wells
-updatedAt: 2022-10-18T17:07:33.973Z
+updatedAt: 2022-10-18T17:09:56.342Z
 ---
-
-
-
-
-
 
 This post is a draft. Here is update. Again!
 
