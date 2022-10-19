@@ -1,5 +1,5 @@
 ---
-title: "3 tips for a successful company retreat when your team is remote-first"
+title: "3 tips for a successful company retreat when your team is remote first"
 description: "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips."
 date: "2022-10-11"
 categories:
