@@ -619,6 +619,32 @@
       ]
     }
   ],
+  "renee-fujii": [
+    {
+      "file": "/posts/2022-10-11-company-retreat-tips.md",
+      "title": "3 tips for a successful company retreat when your team is remote first",
+      "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips.",
+      "date": "2022-10-11",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
+      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
+      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
+      "date": "2022-09-06",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    }
+  ],
   "caroll-casbeer": [
     {
       "file": "/posts/2022-10-06-growth-marketing-b2b-saas.md",
@@ -1109,20 +1135,6 @@
       "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
       "authors": [
         "Vikrant Kahlir"
-      ]
-    }
-  ],
-  "renee-fujii": [
-    {
-      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
-      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
-      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
-      "date": "2022-09-06",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
       ]
     }
   ],
