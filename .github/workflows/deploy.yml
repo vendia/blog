@@ -284,7 +284,7 @@ jobs:
             ```
 
       # Deploy the site and wait
-      - name: Run remote action
+      - name: Run site deploy in vendia/site repo
         uses: convictional/trigger-workflow-and-wait@v1.3.0
         with:
           owner: vendia
