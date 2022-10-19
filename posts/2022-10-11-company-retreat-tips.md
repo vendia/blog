@@ -60,7 +60,7 @@ At Vendia, our first value is Trust, and we believe we are all responsible adult
 
 And for our team members who’ll never say no to a taco bar, a little early morning running club, or lower impact lawn games, we’ve got you covered, too. 
 
-And one last thing… because it must be said and underlined: <span style="text-decoration:underline;">Build in (and stick to the) time for breaks</span>. Here are some good rules of thumb: 
+And one last thing… because it must be said and underlined: <u>Build in (and stick to the) time for breaks</u>. Here are some good rules of thumb: 
 
 
 
