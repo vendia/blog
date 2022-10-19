@@ -24,7 +24,7 @@ But, if you’re going to ask your team to leave the comforts of home, be prepar
 For multi-day events, mix up your meeting rooms and gathering spaces. If you can host different events within the larger retreat at different locations, the fresh spaces offer two benefits. First, by moving the team around, you’re creating mini-travel experiences that help keep people fresh and engaged every day at the onsite. Second, you clearly delineate the more formal working session spaces and the more casual “after hours” spaces. This helps your team members show up with confidence, and it helps set expectations about what the time and place call for so there’s no confusion about “This is where we have breakout working sessions, and that is where we host breakdancing and karaoke contests.” 
 
 
-![Five colleagues wear matching Vendia t-shirts at the company retreat with palm trees in the background](https://user-images.githubusercontent.com/107442245/196541649-980e0574-e766-43ce-8448-8bd3d24789b5.jpeg)
+![Five colleagues wear matching Vendia t-shirts at the company retreat with palm trees in the background](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196541649-980e0574-e766-43ce-8448-8bd3d24789b5.jpg)
 
 _Front (l to r): Shruthi Rao (Co-founder and CBO), Caroll Casbeer (Head of Growth Marketing); Back (l to r): Dale Salter (Sr. Software Engineer), Vikrant Kalhir (PTech Lead), David McElligott (Sr. Solutions Architect), Tim Zonca (VP of Marketing)_
 
@@ -49,7 +49,7 @@ Yes, when you love what you do, business and pleasure are not mutually exclusive
 
 
 
-![Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, "Automate and accelerate your data workflows across business networks"](https://user-images.githubusercontent.com/107442245/196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpeg)
+![Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, "Automate and accelerate your data workflows across business networks"](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpg)
 
 _Tim Wagner, Vendia Co-founder and CEO, presenting at our recent team event_
 
