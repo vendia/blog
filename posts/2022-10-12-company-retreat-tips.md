@@ -26,7 +26,7 @@ For multi-day events, mix up your meeting rooms and gathering spaces. If you can
 
 ![Five colleagues wear matching Vendia t-shirts at the company retreat with palm trees in the background](https://user-images.githubusercontent.com/107442245/196541649-980e0574-e766-43ce-8448-8bd3d24789b5.jpeg)
 
-_Front (l to r): Shruthi Rao (Co-founder and CBO), Caroll Casbeer (Head of Growth); Back (l to r): Dale Salter (Sr. Software Engineer), Vikrant Kalhir (PTech Lead), David McElligott (Sr. Solutions Architect), Tim Zonca (VP of Marketing)_
+_Front (l to r): Shruthi Rao (Co-founder and CBO), Caroll Casbeer (Head of Growth Marketing); Back (l to r): Dale Salter (Sr. Software Engineer), Vikrant Kalhir (PTech Lead), David McElligott (Sr. Solutions Architect), Tim Zonca (VP of Marketing)_
 
 
 ## Tip 2: Create connection time
