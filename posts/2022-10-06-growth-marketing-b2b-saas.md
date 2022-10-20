@@ -18,7 +18,7 @@ With those musings, I thought I’d share a few tactics I’ve learned from buil
 
 Content marketing is the basis for any B2B SaaS. Why? Because content is great at building trust, educating your customer, _and_ helping you articulate who you are and what you do. 
 
-Startups bring on their first marketer as they transition from founder-led sales to marketing or sales-led customer acquisition. Blog posts, videos, infographics, recorded webcasts, and white papers are vehicles that scale your founders’ high profile, high-octane stories. At Vendia, our co-founder, Tim Wagner, is our most [prolific writer](https://www.vendia.com/blog/author/tim-wagner)— he probably writes a white paper a month. 
+Startups bring on their first marketer as they transition from founder-led sales to marketing or sales-led customer acquisition. Blog posts, videos, infographics, recorded webcasts, and white papers are vehicles that scale your founders’ high profile, high-octane stories. At Vendia, our co-founder, Tim Wagner, is our most [prolific writer](https://www.vendia.com/blog/author/tim-wagner) — he probably writes a white paper a month. 
 
 But wait, what about SEO and ranking on Google? Isn’t that what content marketing is _really_ all about? I want my “free” website traffic!
 
@@ -33,7 +33,7 @@ Here’s my step-by-step guide for finding product-market fit signal using Linke
 
 Step 1: I worked with the leadership team to create a [classic positioning statement:](https://blog.hubspot.com/sales/positioning-statement)
 
-For {{Job title}} and {{company characteristics}} who are trying to {{pain points/projects}} Vendia Share provides {{solution}}. Unlike competitors, {{insert competitors names}} Vendia is {{differintators}}. 
+For {{Job title}} and {{company characteristics}} who are trying to {{pain points/projects}} Vendia Share provides {{solution}}. Unlike competitors, {{insert competitors names}} Vendia is {{differentiators}}. 
 
 Step 2: I used ZoomInfo to find companies that fit the profile — or got a list of companies that use competitor technologies.
 
