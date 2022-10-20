@@ -44,7 +44,7 @@ With a next-gen real-time data sharing vendor, you can outsource and simplify wh
 
 After all, your IT environment likely produces or is responsible for managing large volumes of data. When you process and analyze this data in real time and make it available to others in your [data ecosystem](https://www.vendia.net/blog/scale-your-partner-ecosystem-with-vendia-share), you get access to critical information that affords timely insights you can use to tailor products, customer experiences, and even personalization.
 
-Additionally, processing real-time infrastructure data helps IT admin to detect system faults before they impact customers as well as predict and prevent errors, which is a significant advantage considering the average early downtime can be [as high as $400,000](https://www.statista.com/statistics/753938/worldwide-enterprise-server-hourly-downtime-cost/).
+Additionally, processing real-time infrastructure data helps IT admin to detect system faults before they impact customers as well as predict and prevent errors, which is a significant advantage considering the average early downtime costs [as much as $400,000](https://www.statista.com/statistics/753938/worldwide-enterprise-server-hourly-downtime-cost/).
 
 When you involve a real-time data sharing vendor in the mix, you share point-to-point (P2P) streaming data without having to purchase additional infrastructure. This saves you on a significant upfront costs for sharing data at scale, even between different network and system infrastructures. 
 
