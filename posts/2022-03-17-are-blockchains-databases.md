@@ -72,7 +72,7 @@ Similarly, blockchains are starting to take on some of the trappings of database
 
 * Many approaches exist to convert well-known blockchain ledger formats, [such as Ethereum](https://medium.com/validitylabs/how-to-interact-with-the-ethereum-blockchain-and-create-a-database-with-python-and-sql-3dcbd579b3c0), into more traditional databases; effectively enabling query languages such as SQL to be used on them, even though the fundamental Ethereum protocol doesn't support such functionality directly.
 
-* Companies like [Vendia](https://www.vendia.net) (of which I am the co-founder and CEO) are playing an active research role in combining classic database capabilities, such as dirty read avoidance and ACID transactions, with blockchain and distributed ledger technologies.
+* Companies like [Vendia](https://www.vendia.com) (of which I am the co-founder and CEO) are playing an active research role in combining classic database capabilities, such as dirty read avoidance and ACID transactions, with blockchain and distributed ledger technologies.
 
 In short, _we're going to see database and blockchain technologies continue to grow towards one another_. On the blockchain side, the reasons are obvious: database feature sets and the operational and cost expectations of businesses for these use cases have emerged over many decades for good reason, and those reasons aren't going away. Commercial blockchain solutions will have to meet those business expectations, or die trying.
 
@@ -86,4 +86,4 @@ The reasons are simple. All companies need to share data, both internally and ex
 
 ## Going Further
 
-Looking to learn more about blockchains or their integration with database capabilities for IT use cases? The [Vendia blog](https://www.vendia.net/blog) has a number of articles, including how these features surface in [modern applications](https://www.vendia.net/blog/lean-app) and get exposed through [data-aware APIs](http://vendia.net/blog/smart-api). If you have a business need not being met by your existing database or blockchain provider you can visit [www.vendia.net](http://www.vendia.net) to learn more about supported use cases or [contact the team directly](https://www.vendia.net/contact-us) to dive deeper.
+Looking to learn more about blockchains or their integration with database capabilities for IT use cases? The [Vendia blog](https://www.vendia.com/blog) has a number of articles, including how these features surface in [modern applications](https://www.vendia.com/blog/lean-app) and get exposed through [data-aware APIs](http://vendia.com/blog/smart-api). If you have a business need not being met by your existing database or blockchain provider you can visit [www.vendia.com](http://www.vendia.com) to learn more about supported use cases or [contact the team directly](https://www.vendia.com/contact-us) to dive deeper.

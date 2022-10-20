@@ -128,7 +128,7 @@ By consolidating data into a single tool, it solves the need for identifying a g
 
 #### Analytics 360
 
-[Data warehouse](https://www.vendia.net/blog/blockchains-vs-cloud-and-it) solutions will look to generate insights on aspects of the Customer 360 wheel, narrowing in on specific questions. For example, “What percentage of revenue has been recognized for deals that closed in the last quarter?”
+[Data warehouse](https://www.vendia.com/blog/blockchains-vs-cloud-and-it) solutions will look to generate insights on aspects of the Customer 360 wheel, narrowing in on specific questions. For example, “What percentage of revenue has been recognized for deals that closed in the last quarter?”
 
 However, to accomplish this, analytics ETL/ELT logic must include the following aspects as a prerequisite to insight-generating logic:
 * Data deduplication and mapping of identifiers 
@@ -150,11 +150,11 @@ Most often, Customer 360 solutions are more like Customer 45, or a dotted line a
 
 <br/>
 
-It’s easy to say the tools are the reason, that MDM is archaic, that data governance tools don't have the right breadth of features, or that people are the problem (but that wouldn’t be [very kind](https://www.vendia.net/kind-humans)).
+It’s easy to say the tools are the reason, that MDM is archaic, that data governance tools don't have the right breadth of features, or that people are the problem (but that wouldn’t be [very kind](https://www.vendia.com/kind-humans)).
 
 But, it’s not your fault. The lack of Customer 360 is the nature of growing companies. It’s a common tradeoff when companies need to do the job (ex. sell) and design the processes and tooling for operations (ex. sales ops and application administration). To round it out, people with tribal knowledge of how customers are represented in each system come-and-go from organizations.  
 
-Basically, the data within a company becomes no different than [our junk drawers](https://www.vendia.net/blog/understanding-real-time-data-lakes) — hard to navigate unless you know exactly what you’re looking for.
+Basically, the data within a company becomes no different than [our junk drawers](https://www.vendia.com/blog/understanding-real-time-data-lakes) — hard to navigate unless you know exactly what you’re looking for.
 
 There are two key reasons Customer 360 is often more like Customer 45:
 1. Business departments operate in silos and need to quickly scale without interfacing, procedurally or technically, with upstream and downstream teams or applications. 
@@ -171,17 +171,17 @@ However, with a data strategy and the right tooling that empowers the people and
 
 ## How can it be successful?
 
-At its core, all the above solutions are just a data sharing problem. If data is validated, reconciled, and shared early and often, the downstream layers of cleaning, reconciliation, and definition are not needed. Add it to [a ledger](https://www.vendia.net/use-cases/next-gen-blockchain) and sharing with control, and Customer 360 doesn’t feel like a pipedream. 
+At its core, all the above solutions are just a data sharing problem. If data is validated, reconciled, and shared early and often, the downstream layers of cleaning, reconciliation, and definition are not needed. Add it to [a ledger](https://www.vendia.com/use-cases/next-gen-blockchain) and sharing with control, and Customer 360 doesn’t feel like a pipedream. 
 
 Let’s go back to that wheel. 
 
-If a set of attributes are defined, say a “schema” for a customer with ready-to-go [GraphQL APIs](https://www.vendia.net/blog/apis-for-data) to modify that data, then it’s as simple as creating an integration to write those attributes. Each business application can send the pertinent information to this aligned schema, and it’s broadly available. There’s [no longer a need for point-to-point integrations](https://www.vendia.net/blog/improve-your-data-mesh) from each system to every other system (thereby creating a tangled web of integrations).
+If a set of attributes are defined, say a “schema” for a customer with ready-to-go [GraphQL APIs](https://www.vendia.com/blog/apis-for-data) to modify that data, then it’s as simple as creating an integration to write those attributes. Each business application can send the pertinent information to this aligned schema, and it’s broadly available. There’s [no longer a need for point-to-point integrations](https://www.vendia.com/blog/improve-your-data-mesh) from each system to every other system (thereby creating a tangled web of integrations).
 
 Yes, at first glance, it’s not much different than an [Operational Data Store (ODS)](https://en.wikipedia.org/wiki/Operational_data_store) or an [Enterprise Data Hub (EDH)](https://en.wikipedia.org/wiki/Data_hub) built on a semi-structure data store (ex. [NoSQL DB](https://en.wikipedia.org/wiki/NoSQL)). However, insert stage left a new business need: Interface with partners, plural. The integrations to build, security to manage, data to deduplicate, and data to reconcile across partners becomes multiplied. The data development teams are then bogged down on undifferentiated value. If (or when) the technical landscape across these partners is not homogeneous, add months to the development timeline.
 
-With [Vendia](https://www.vendia.net/blog/venn-diagramming-vendia-share), it’s a few clicks to share data with partners. Really. The schema is already established and the data exists with a golden record of the entity. With the use of [blockchain](https://www.vendia.net/blog/are-blockchains-databases), it also includes an immutable ledger, providing visibility into any changes made to any attribute at any time.
+With [Vendia](https://www.vendia.com/blog/venn-diagramming-vendia-share), it’s a few clicks to share data with partners. Really. The schema is already established and the data exists with a golden record of the entity. With the use of [blockchain](https://www.vendia.com/blog/are-blockchains-databases), it also includes an immutable ledger, providing visibility into any changes made to any attribute at any time.
 
-All that’s needed is to invite one (or many!) partner(s) to own a [node](https://www.vendia.net/docs/share/terms-and-definitions). Data can be shared, real-time, across partners and [across clouds](https://www.vendia.net/blog/azure-eventing). 
+All that’s needed is to invite one (or many!) partner(s) to own a [node](https://www.vendia.com/docs/share/terms-and-definitions). Data can be shared, real-time, across partners and [across clouds](https://www.vendia.com/blog/azure-eventing). 
 
 With Vendia, not only can you share your data, but you can: 
 * Control what you share, including only a subset of information 
@@ -205,6 +205,6 @@ Customer 360 is now short sighted. It’s time for Customer 720… or Customer 1
 
 ## Begin (or get back on the rails with) your Customer 360 journey
 
-Start thinking about a holistic data ecosystem — one with a Customer 360xN view that is interconnected with the entire enterprise data landscape for [real-time everything](https://www.vendia.net/blog/real-time-everything). Then, let’s build a [proof of concept in 1 week](https://www.vendia.net/poc).
+Start thinking about a holistic data ecosystem — one with a Customer 360xN view that is interconnected with the entire enterprise data landscape for [real-time everything](https://www.vendia.com/blog/real-time-everything). Then, let’s build a [proof of concept in 1 week](https://www.vendia.com/poc).
 
-Particularly interested in CRM? Check out our [CRM Data Share](https://www.vendia.net/use-cases/crm) feature and [video demo](https://fast.wistia.net/embed/channel/d1mxqbj9xw?wchannelid=d1mxqbj9xw&wmediaid=6ujrd8iwnt).  You can also check out our [use cases](https://www.vendia.net/use-cases) and trial [Vendia Share](http://share.vendia.net/) for free.
+Particularly interested in CRM? Check out our [CRM Data Share](https://www.vendia.com/use-cases/crm) feature and [video demo](https://fast.wistia.net/embed/channel/d1mxqbj9xw?wchannelid=d1mxqbj9xw&wmediaid=6ujrd8iwnt).  You can also check out our [use cases](https://www.vendia.com/use-cases) and trial [Vendia Share](http://share.vendia.net/) for free.

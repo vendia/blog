@@ -10,7 +10,7 @@ authors:
 
 Join Tim Zonca, Vendia’s VP of Marketing (and former Sr. VP of Worldwide Marketing at Puppet and CEO at Stackery), as he hosts the premiere season of Vendia’s new podcast, Circles of Trust: Real talk on real-time data sharing. 
 
-**Be first to hear the episodes when they go live this fall. [Sign up now](https://www.vendia.net/resources/circles-of-trust)**
+**Be first to hear the episodes when they go live this fall. [Sign up now](https://www.vendia.com/resources/circles-of-trust)**
 
 
 ## Sneak preview
@@ -42,4 +42,4 @@ Erin Kelly and Francine Klein talk with host Tim Zonca about the differences bet
 
 ## Join our new podcast community, Circles of Trust
 
-Be first to hear the episodes when they go live this fall. [Sign up now](https://www.vendia.net/resources/circles-of-trust)
+Be first to hear the episodes when they go live this fall. [Sign up now](https://www.vendia.com/resources/circles-of-trust)

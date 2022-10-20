@@ -51,7 +51,7 @@ We can view the deployed schema from the Vendia Share web application.
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://vendia.net/schemas/demos/product.json",
+  "$id": "http://vendia.com/schemas/demos/product.json",
   "title": "Product",
   "description": "Product information",
   "type": "object",
@@ -121,7 +121,7 @@ NOTE: Make sure to save the schema below as evolved-schema.json.
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://vendia.net/schemas/demos/product.json",
+  "$id": "http://vendia.com/schemas/demos/product.json",
   "title": "Product",
   "description": "Product information",
   "type": "object",

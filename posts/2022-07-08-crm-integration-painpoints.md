@@ -58,7 +58,7 @@ Once your system is set up, you will have to consider security and privacy compl
 
 Companies collaborating with businesses in the same industry will also need to consider anti-trust regulations, which might require an even higher level of reliability and transparency.
 
-Not convinced? Read this blog post to learn more about [why CRM data sharing is business-critical](https://www.vendia.net/blog/crm-data-sharing-for-business).
+Not convinced? Read this blog post to learn more about [why CRM data sharing is business-critical](https://www.vendia.com/blog/crm-data-sharing-for-business).
 
 
 
@@ -71,4 +71,4 @@ By combining CRMs, you can open up new co-selling opportunities, unlock new insi
 
 The sooner you can reap these benefits, the higher your ROI will be on your investments, and the more valuable your CRM will be to your organization. 
 
-**If you are looking to combine or integrate multiple CRMs, watch our webcast, [The future of CRM data sharing](https://fast.wistia.com/embed/channel/d1mxqbj9xw). Jump to 22:36 to learn more about how Vendia tackles these challenges, or go to [vendia.net/meet](https://vendia.net/meet?utm_source=content&utm_medium=blog&utm_campaign=crm-integration-painpoints&utm_content=cta-meet) to request a meeting with one of our CRM integration and real-time data sharing experts.**
+**If you are looking to combine or integrate multiple CRMs, watch our webcast, [The future of CRM data sharing](https://fast.wistia.com/embed/channel/d1mxqbj9xw). Jump to 22:36 to learn more about how Vendia tackles these challenges, or go to [vendia.net/meet](https://vendia.com/meet?utm_source=content&utm_medium=blog&utm_campaign=crm-integration-painpoints&utm_content=cta-meet) to request a meeting with one of our CRM integration and real-time data sharing experts.**

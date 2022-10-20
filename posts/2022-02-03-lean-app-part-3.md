@@ -10,7 +10,7 @@ authors:
 
 ## Stop the undifferentiated heavy lifting!
 
-In [Part 2](https://www.vendia.net/blog/lean-app-part-2) of [this series](https://www.vendia.net/blog/lean-app) we identified the elements of a lean app. But for those elements to be sufficient, the infrastructure on which the application depends _needs to start doing a whole lot more than it does today_. 
+In [Part 2](https://www.vendia.com/blog/lean-app-part-2) of [this series](https://www.vendia.com/blog/lean-app) we identified the elements of a lean app. But for those elements to be sufficient, the infrastructure on which the application depends _needs to start doing a whole lot more than it does today_. 
 
 
 ## What makes an app lean?
@@ -143,24 +143,24 @@ Cloud-based data lake companies like Snowflake made the leap of treating cross-c
 
 Blockchains, such as Hyperledger Fabric and Ethereum, embody the idea of distributed data models that can span companies, clouds, and technology stacks, but are missing the scalability, performance, fault tolerance, cloud integration, and application code support that would be necessary to host typical IT business solutions, especially those with serious privacy, compliance, and scalability requirements. 
 
-Open source software achieves “zero marginal cost” sharing, but isn’t a solution for delivering SaaS-style operations without manually hosting, scaling, and managing it all. By bringing all these elements together, companies like [Vendia](https://www.vendia.net) make lean apps possible – offering an application framework that enables developers to express, deploy, and operate a lean app _today_.
+Open source software achieves “zero marginal cost” sharing, but isn’t a solution for delivering SaaS-style operations without manually hosting, scaling, and managing it all. By bringing all these elements together, companies like [Vendia](https://www.vendia.com) make lean apps possible – offering an application framework that enables developers to express, deploy, and operate a lean app _today_.
 
 
 ## Next post – Lean Apps Part 4: The Lean App Manifesto
 
-In the Part 4 of [this series](https://www.vendia.net/blog/lean-app), we talk more about the lean app movement and how it can “flip the iceberg” of IT innovation.
+In the Part 4 of [this series](https://www.vendia.com/blog/lean-app), we talk more about the lean app movement and how it can “flip the iceberg” of IT innovation.
 
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.com/resources/lean-apps). 
 
 
 ### Build a lean app 
 
-It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.net/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
+It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.com/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
 
-Where wholesale adoption of the idea isn’t (yet) possible, developers and companies still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.net/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
+Where wholesale adoption of the idea isn’t (yet) possible, developers and companies still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.com/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
 
 
 ### About the author
@@ -171,7 +171,7 @@ Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader respo
 
 t: @timallenwagner
 
-[www.vendia.com/blog](https://www.vendia.net/blog)
+[www.vendia.com/blog](https://www.vendia.com/blog)
 
 
 <!-- Footnotes themselves at the bottom. -->

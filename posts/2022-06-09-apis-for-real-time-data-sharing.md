@@ -7,7 +7,7 @@ authors:
 ---
 
 # An alternative architecture for smart, “data-aware” APIs
-_Note_ This is part 2 in our Data APIs series. [Read part 1](https://www.vendia.net/blog/apis-for-data). 
+_Note_ This is part 2 in our Data APIs series. [Read part 1](https://www.vendia.com/blog/apis-for-data). 
 
 In our previous post we talked through why APIs are still so difficult for teams to implement and maintain and why legacy options fail to meet current business needs. In this blog we will walk through modern APIs that help provide a single source of truth while also providing a ledgered lookback. 
 
@@ -93,4 +93,4 @@ Solutions to data sharing include centralized databases, real-time streaming pla
 
 # Learn more
 
-To learn more about how Vendia can make API development and management easier for data-driven applications, check out the [Smart APIs ebook](https://www.vendia.net/resources/smart-apis). To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.net/resources/lean-apps) on Vendia’s blog. To see use cases where APIs for data-intensive applications have been successfully applied, visit Vendia’s [product  page.](https://www.vendia.net/product) To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.net/contact-us).
+To learn more about how Vendia can make API development and management easier for data-driven applications, check out the [Smart APIs ebook](https://www.vendia.com/resources/smart-apis). To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.com/resources/lean-apps) on Vendia’s blog. To see use cases where APIs for data-intensive applications have been successfully applied, visit Vendia’s [product  page.](https://www.vendia.com/product) To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.com/contact-us).

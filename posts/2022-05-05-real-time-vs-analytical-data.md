@@ -37,7 +37,7 @@ Real-time data is the common, crucial element powering the apps and tools we all
 
 Let's take a look at two real-time data use cases in a little more detail:
 
-**Supply chain tracking**: Using a mobile app, BMW tracks and traces all parts, across all its supply chain partners, in real time. Data, such as part details, potential defects, photos, and videos, are collected via a mobile application at each inspection point in the supply chain. That data is immediately shared with all partners—creating trust and a common truth throughout the supply chain. [Read more about how BMW is benefitting from real-time data in its supply chain](https://www.vendia.net/bmw-case-study).
+**Supply chain tracking**: Using a mobile app, BMW tracks and traces all parts, across all its supply chain partners, in real time. Data, such as part details, potential defects, photos, and videos, are collected via a mobile application at each inspection point in the supply chain. That data is immediately shared with all partners—creating trust and a common truth throughout the supply chain. [Read more about how BMW is benefitting from real-time data in its supply chain](https://www.vendia.com/bmw-case-study).
 
 **Logistics and GPS tracking**: [Trucking companies can now track their fleets in real-time with up-to-the-second data](https://www.samsara.com/blog/7-ways-real-time-gps-tracking-helps-you-run-safer-fleets). By integrating GPS and other real-time data, such as engine fault codes and driving conditions, they can decrease theft, dispatch drivers, and provide customers with accurate ETAs, while improving the efficiency, safety, and reliability of their fleets.
 
@@ -97,4 +97,4 @@ Streaming data is another aptly named technology. In this case "streaming" refer
 
 We hope this helped unravel the subtle differences between real-time data, operational data, analytical data, and streaming data, along with illustrating how important they all are to the success of modern organizations. While it comes in a few flavors, a couple things are clear—real-time data is a key driver of success for modern organizations and it's responsible for many of the conveniences we enjoy every day. Whether it's real-time operational data driving e-commerce transactions or real-time analytical data that companies use to make their most important decisions, real-time data is the critical, irreplaceable element. 
 
-Real-time data can become even more valuable when it's shared and integrated across companies, clouds, and SaaS applications. Learn more about real-time data sharing in [What is Real-Time Data Sharing?](https://www.vendia.net/blog/what-is-real-time-data-sharing).
+Real-time data can become even more valuable when it's shared and integrated across companies, clouds, and SaaS applications. Learn more about real-time data sharing in [What is Real-Time Data Sharing?](https://www.vendia.com/blog/what-is-real-time-data-sharing).

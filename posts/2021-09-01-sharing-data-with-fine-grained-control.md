@@ -33,7 +33,7 @@ Save the file below as `schema.json`.
 ```graphql
 {
    "$schema": "http://json-schema.org/draft-07/schema#",
-   "$id": "http://vendia.net/schemas/blog/fine_grained_control.json",
+   "$id": "http://vendia.com/schemas/blog/fine_grained_control.json",
    "title": "Sample schema for setting fine-grained access controls",
    "description": "Model bakery recipes",
    "x-vendia-acls": {
@@ -119,7 +119,7 @@ Save the file below as `registration.json`.
     "nodes": [
         {
           "name": "Alice",
-          "userId": "user@vendia.net",
+          "userId": "user@vendia.com",
           "region": "us-east-2",
           "settings": {
             "apiSettings": {
@@ -131,7 +131,7 @@ Save the file below as `registration.json`.
         },
         {
           "name": "Bob",
-          "userId": "user@vendia.net",
+          "userId": "user@vendia.com",
           "region": "us-east-2",
           "settings": {
             "apiSettings": {
@@ -143,7 +143,7 @@ Save the file below as `registration.json`.
         },
         {
           "name": "Eve",
-          "userId": "user@vendia.net",
+          "userId": "user@vendia.com",
           "region": "us-east-2",
           "settings": {
             "apiSettings": {
@@ -158,7 +158,7 @@ Save the file below as `registration.json`.
 ```
 </details>
 
-We can use the [Vendia CLI](https://www.vendia.net/docs/share/cli) to deploy our Uni. Use the following command to get our sample Uni up and running.
+We can use the [Vendia CLI](https://www.vendia.com/docs/share/cli) to deploy our Uni. Use the following command to get our sample Uni up and running.
 
 ```bash
 share uni create -c registration.json
@@ -422,7 +422,7 @@ Since no one has yet bought the recipe, _only the catalog data is available to B
 
 ![Red Velvet Cake Visibility Before Purchase](https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-09-01-sharing-data-with-fine-grained-control/02-fine-grained-share-red-velvet-before-purchase.png)
 
-In our scenario, `Eve` has set up [notifications](https://www.vendia.net/docs/share/integrations#outbound) when a new recipe has been added. `Eve` has been keeping an eye out for a Red Velvet Cake recipe and decides to buy `Alice`'s recipe. After going through the purchase process, `Alice` can update Eve's permissions to allow full read access to the Red Velvet Cake recipe. Let's update the Red Velvet Cake recipe to allow `Eve` to view all the attributes.
+In our scenario, `Eve` has set up [notifications](https://www.vendia.com/docs/share/integrations#outbound) when a new recipe has been added. `Eve` has been keeping an eye out for a Red Velvet Cake recipe and decides to buy `Alice`'s recipe. After going through the purchase process, `Alice` can update Eve's permissions to allow full read access to the Red Velvet Cake recipe. Let's update the Red Velvet Cake recipe to allow `Eve` to view all the attributes.
 
 ### Update ACLs on the Existing Red Velvet Cake Recipe
 
@@ -682,4 +682,4 @@ Both _directions_ and _ingredients_ are available for the Red Velvet Cake recipe
 
 ## Conclusion
 
-Vendia makes it easy, fast, and fun to share data with partners.  With the introduction of fine-grained data access control, it's now even easier for companies to control how their data is used, and for developers to quickly convert those policies into secure Universal Applications (Unis). Review our [product documentation](https://www.vendia.net/docs/share/fine-grained-data-permissions) for more information.
+Vendia makes it easy, fast, and fun to share data with partners.  With the introduction of fine-grained data access control, it's now even easier for companies to control how their data is used, and for developers to quickly convert those policies into secure Universal Applications (Unis). Review our [product documentation](https://www.vendia.com/docs/share/fine-grained-data-permissions) for more information.

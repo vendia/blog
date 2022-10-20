@@ -8,13 +8,13 @@ authors:
   - Vikrant Kahlir
 ---
 
-I joined Vendia in December 2021, and one thing that caught my attention was the [“Kind Humans Only”](https://www.vendia.net/kind-humans) policy. “Kind” in the business world can be perceived as a weakness. But, what I observed at Vendia is that kind is not weak, kind is strong. 
+I joined Vendia in December 2021, and one thing that caught my attention was the [“Kind Humans Only”](https://www.vendia.com/kind-humans) policy. “Kind” in the business world can be perceived as a weakness. But, what I observed at Vendia is that kind is not weak, kind is strong. 
 
 I have spent nine months at Vendia and have interacted with most people (some virtually, some in person), and I see some patterns that make me believe Vendia is evolving nicely as a company with “kind human” as a genetic code. That code holds us together during ebbs and flows as we grow our business. 
 
 At Vendia, kind is both considerate about other feelings, and kind is our strength that fuels our confidence. You experience it in a matter of hours when you spend time with a Vendian, even at first contact. 
 
-For example, when I was [interviewing for Vendia](https://www.vendia.net/blog/how-to-recruit-kind-humans), I got stuck with an issue while playing with the product. The Vendian who supported me was so kind and patient while we worked through the issue. He patiently explained how things worked and where I might have missed a few things. Even for things that I missed, he made a comment indicating that the product experience could be improved. I felt seen and respected and safe, even during my interview.
+For example, when I was [interviewing for Vendia](https://www.vendia.com/blog/how-to-recruit-kind-humans), I got stuck with an issue while playing with the product. The Vendian who supported me was so kind and patient while we worked through the issue. He patiently explained how things worked and where I might have missed a few things. Even for things that I missed, he made a comment indicating that the product experience could be improved. I felt seen and respected and safe, even during my interview.
 
 But, there are situations and scenarios where just being nice and considerate about other feelings will not help either party. In such situations, Vendians make tough calls. We think beyond just one individual, taking actions that demonstrate strength for the benefit of the bigger picture and bigger group. Of course, we don’t force decisions. We empower people to make choices and commit to it. Here’s an example.
 
@@ -51,4 +51,4 @@ But, leadership isn’t just practiced here because someone has a leadership tit
 
 ## Join us
 
-If you are interested in working with kind humans and influencing excellent performance with strength, consideration, and kindness, we’d love to connect with you. [Explore our careers page](https://www.vendia.net/careers) and follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) or [Twitter](https://twitter.com/VendiaHQ).
+If you are interested in working with kind humans and influencing excellent performance with strength, consideration, and kindness, we’d love to connect with you. [Explore our careers page](https://www.vendia.com/careers) and follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) or [Twitter](https://twitter.com/VendiaHQ).

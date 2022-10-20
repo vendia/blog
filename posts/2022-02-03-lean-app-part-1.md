@@ -74,19 +74,19 @@ Twenty years ago, new software projects often started by creating (and staffing)
 
 ### Next post – Lean Apps Part 2: The Elements of a Lean App
 
-In the Part 2 (coming soon!)of [this series](https://www.vendia.net/blog/lean-app), we turn our gaze from the past to the future, to see what these learnings tell us about the future of software development.
+In the Part 2 (coming soon!)of [this series](https://www.vendia.com/blog/lean-app), we turn our gaze from the past to the future, to see what these learnings tell us about the future of software development.
 
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.com/resources/lean-apps). 
 
 
 ### Build a lean app 
 
-It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.net/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
+It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.com/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
 
-Where wholesale adoption of the idea isn’t (yet) possible, developers and companies and still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.net/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
+Where wholesale adoption of the idea isn’t (yet) possible, developers and companies and still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.com/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
 
 
 ### About the author
@@ -97,4 +97,4 @@ Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader respo
 
 t: @timallenwagner
 
-[www.vendia.com/blog](https://www.vendia.net/blog)
+[www.vendia.com/blog](https://www.vendia.com/blog)

@@ -25,7 +25,7 @@ What if the worlds of operational data, analytics, and data sharing were (1) mer
 
 ### The art of the possible
 
-**Real-time operational data** is the ability for data to flow between [business applications](https://www.vendia.net/product#universal-apps) for seamless business workflows. For example, real-time operational data enables customers to receive shipping confirmations immediately after placing an order.
+**Real-time operational data** is the ability for data to flow between [business applications](https://www.vendia.com/product#universal-apps) for seamless business workflows. For example, real-time operational data enables customers to receive shipping confirmations immediately after placing an order.
 
 **Real-time analytics** is the ability to have timely insights after operational activities happen. But, it’s often narrowly scoped to presenting targeted insights embedded, real-time, in operational processes for a singularly-focused question. These insights are not calculated real-time as a common setup for data warehouses is to sync operational data overnight, perform transformations and deduplication, and _then_ calculate the insights. Because of this, these insights are often one to two days lagging behind “truthful” data. Moreover, incorporating these calculated insights back into the operational process requires building customized data integrations, yet still they can only answer the question at-hand.
 
@@ -43,7 +43,7 @@ As lofty as this is, it isn’t that far fetched. But, because we’re realists,
 
 ### The complexities of operational and analytics data sharing
 
-Analytics and [operational data](https://www.vendia.net/blog/what-is-operational-data-sharing) solutions all use data, all store data, and all move data. So, why have these functions been so separate to-date?
+Analytics and [operational data](https://www.vendia.com/blog/what-is-operational-data-sharing) solutions all use data, all store data, and all move data. So, why have these functions been so separate to-date?
 
 We’ll use the people-process-technology triangle as a framework to break down the divergent complexities between operational and analytical data. A picture is worth 1,000 words; a table, maybe 500. Let’s go with that.
 
@@ -195,7 +195,7 @@ That’s it. Once the dimensions and facts are identified as metadata, the langu
 
 ### Let’s make it real
 
-A real-time data platform must leverage the best-of-breed solutions behind the operational and analytics workflows while minimizing the stops-and-starts between them. By building on the power of [Vendia Share](https://vendia.net/product), coupled with the data solutions that clearly used Duolingo for JSON, a real-time data platform is a real-time possibility.
+A real-time data platform must leverage the best-of-breed solutions behind the operational and analytics workflows while minimizing the stops-and-starts between them. By building on the power of [Vendia Share](https://vendia.com/product), coupled with the data solutions that clearly used Duolingo for JSON, a real-time data platform is a real-time possibility.
 
 As an example, let’s look at a data sharing scenario where [airlines share ticket data across their business network](https://github.com/vendia/examples/tree/main/demos/travel-and-hospitality/alliance-ticket-sharing). In addition to operational sharing, they now want real-time analytics off this data — including only the data explicitly shared with them. This real-time platform is created by leveraging Vendia Share, an analytics-focused data warehouse that speaks JSON and query-on-demand dashboard solution. _See Figure 1._
 
@@ -211,7 +211,7 @@ As an example, let’s look at a data sharing scenario where [airlines share tic
 
 Real-time operational and analytics worlds can collide, and with that, unlock a new sense of data fluidity both within company walls and across business alliances.
 
-* Learn more about Vendia: Check out our [use cases](https://www.vendia.net/use-cases) and try out [Vendia Share](http://share.vendia.net/).
-* Reach out to build a real-time [proof of concept in 1 week](https://www.vendia.net/poc).
+* Learn more about Vendia: Check out our [use cases](https://www.vendia.com/use-cases) and try out [Vendia Share](http://share.vendia.net/).
+* Reach out to build a real-time [proof of concept in 1 week](https://www.vendia.com/poc).
 
-Meanwhile, if you have real thoughts on real-time data, we’d love to hear from you in our [guest contributor program](https://www.vendia.net/blog/vendia-guest-contributor-program). And join our community committed to real talk on real-time data sharing with our new podcast, [Circles of Trust](https://vendia.net/resources/circles-of-trust).
+Meanwhile, if you have real thoughts on real-time data, we’d love to hear from you in our [guest contributor program](https://www.vendia.com/blog/vendia-guest-contributor-program). And join our community committed to real talk on real-time data sharing with our new podcast, [Circles of Trust](https://vendia.com/resources/circles-of-trust).

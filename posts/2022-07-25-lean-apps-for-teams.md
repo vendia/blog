@@ -8,11 +8,11 @@ authors:
 - James Gimourginas
 ---
 
-In a [prior post](https://www.vendia.net/blog/lean-apps-for-developers), you read about how the [lean apps movement](https://www.vendia.net/blog/lean-app) will increase productivity and decrease toil for individual developers. But its impact isn't isolated exclusively to developers. Through the efficiency and effectiveness gains at the individual developer level, the lean apps movement will also impact how cross-functional teams plan, design, implement, test, and release new products. This post will explore the lean apps philosophy's influence on teams and how those influences will change the way product delivery teams operate.
+In a [prior post](https://www.vendia.com/blog/lean-apps-for-developers), you read about how the [lean apps movement](https://www.vendia.com/blog/lean-app) will increase productivity and decrease toil for individual developers. But its impact isn't isolated exclusively to developers. Through the efficiency and effectiveness gains at the individual developer level, the lean apps movement will also impact how cross-functional teams plan, design, implement, test, and release new products. This post will explore the lean apps philosophy's influence on teams and how those influences will change the way product delivery teams operate.
 
 ## What does “lean app” mean?
 
-Let's quickly review what makes an app _lean_. A lean app [flips the IT iceberg](https://www.vendia.net/blog/lean-app-part-4#the-lean-app-goal-flip-the-it-iceberg) by allowing development teams to _focus primarily_ on tasks that result in differentiated business value. The goal is to maximize the value and innovation a team produces by drastically reducing the time spent on undifferentiated, repetitive tasks that aren't material to the business. Those high-toil tasks are certainly necessary for a working system, but ideally, those tasks are offloaded through automation and platform capabilities so that (highly creative, competent, and compensated) people don't have to spend much time on them.
+Let's quickly review what makes an app _lean_. A lean app [flips the IT iceberg](https://www.vendia.com/blog/lean-app-part-4#the-lean-app-goal-flip-the-it-iceberg) by allowing development teams to _focus primarily_ on tasks that result in differentiated business value. The goal is to maximize the value and innovation a team produces by drastically reducing the time spent on undifferentiated, repetitive tasks that aren't material to the business. Those high-toil tasks are certainly necessary for a working system, but ideally, those tasks are offloaded through automation and platform capabilities so that (highly creative, competent, and compensated) people don't have to spend much time on them.
 
 ### How the lean app differs from established developer frameworks
 
@@ -20,7 +20,7 @@ Lean apps leverage existing, proven approaches to common challenges. By combinin
 
 For example, consider APIs. Connecting applications through APIs was once viewed as an implementation detail best left to developers. Over time, APIs became a [business imperative](https://www2.deloitte.com/us/en/insights/focus/tech-trends/2018/api-program-strategy.html)—one that companies created holistic, cross-functional strategies to pursue. Unfortunately, the technology underpinnings of APIs didn't evolve in proportion to the importance APIs gained within most organizations.
 
-Lean apps bolster the stagnant approach to API development by requiring that APIs _do more_—moving feature expectations off of a team's backlog and onto the platform backing the API. The idea of doing more (sometimes called "[smart APIs](https://www.vendia.net/blog/smart-apis)") breaks the tradition of "ignorant pipes" for API solutions and addresses their inherent limitations. For example:
+Lean apps bolster the stagnant approach to API development by requiring that APIs _do more_—moving feature expectations off of a team's backlog and onto the platform backing the API. The idea of doing more (sometimes called "[smart APIs](https://www.vendia.com/blog/smart-apis)") breaks the tradition of "ignorant pipes" for API solutions and addresses their inherent limitations. For example:
 
 * Developers have ready access to countless REST and GraphQL libraries and frameworks used to create APIs from scratch. But is API _implementation_ a high-value activity that developers should focus on?
 * APIs use a rich set of authentication (authN) and authorization (authZ) approaches and protocols to ensure only authenticated, authorized clients can interact with an API. But what about protecting the data, at a granular level, sent to or retrieved from an API? And how does that approach scale as the number of API producers and consumers grows large?
@@ -63,7 +63,7 @@ Here are the six rules for a lean app:
 
 1. **Differentiated business logic over undifferentiated, commodity code and activities**: Focus on tasks that will truly differentiate your product and wow your customers. What percentage of work in your next iteration/sprint/release cycle will satisfy those criteria?
 2. **Smart APIs over ignorant pipes**: Focus on tasks where API creation or integration leaves much to be desired. How many tasks could you remove from your product backlog if the APIs you were producing or consuming were "smart"?
-3. **Schemas over code**: Focus on places where you can replace custom implementation with [schema-based](https://www.vendia.net/blog/schema-evolution) automation. Are there any stories or tasks that are essentially templatized and would easily benefit from automation?
+3. **Schemas over code**: Focus on places where you can replace custom implementation with [schema-based](https://www.vendia.com/blog/schema-evolution) automation. Are there any stories or tasks that are essentially templatized and would easily benefit from automation?
 4. **Automation over manual effort**: Focus on toil, the tasks you and your team members really dislike. Are there ways to automate yourself out of those high-toil tasks?
 5. **Off-the-shelf data sharing over costly DIY data**: Focus on keeping data consistent and ordered among you and your partners. How long after data is "current" do you and your partners finally gain access to it? And how do you and your partners know when that "current" data becomes stale or invalid?
 6. **SaaS over IaaS; serverless over serverful**: Focus on your team composition and backlog. What percentage of that backlog focuses on maintaining the infrastructure of one type or another? And what percentage of your team is required to maintain and operate that infrastructure?
@@ -73,7 +73,7 @@ Here are the six rules for a lean app:
 
 Vendia Share is the best way to build and run lean apps, and it’s the best way to optimize your team's output by adopting a less over more philosophy. Vendia includes all the core lean app features (e.g., smart APIs, cross-cloud distributed ledger, run as a service) needed to get your team refocused on value creation and product differentiation.
 
-For teams considering a lean app as the foundation of their next product, [Vendia Share](https://www.vendia.net/product) provides a simple way to get started. You start with a [data model](https://www.vendia.net/docs/share/data-modeling); in about five minutes, Vendia uses that data model as its input and produces an enterprise-grade Universal Application (or "Uni") that’s backed by a serverless distributed ledger and a completed automated API design and implementation. As you interact with the Uni, note its adherence to the lean apps philosophy.
+For teams considering a lean app as the foundation of their next product, [Vendia Share](https://www.vendia.com/product) provides a simple way to get started. You start with a [data model](https://www.vendia.com/docs/share/data-modeling); in about five minutes, Vendia uses that data model as its input and produces an enterprise-grade Universal Application (or "Uni") that’s backed by a serverless distributed ledger and a completed automated API design and implementation. As you interact with the Uni, note its adherence to the lean apps philosophy.
 
 To help highlight the value of a Uni, consider the challenges with API development using ignorant pipes and point-to-point integrations:
 
@@ -86,8 +86,8 @@ Universal Applications (or "Unis") built on Vendia Share realize the lean app ph
 
 ## Take action
 
-**Brand new to Vendia Share?** We recommend exploring one of our [quickstarts](https://www.vendia.net/docs/share/quickstart). Create a sample Universal Application to get hands-on with a lean app in minutes. Pay attention to the ease of deployment and the robust feature set available in less time than it'll take you to complete your next team standup.
+**Brand new to Vendia Share?** We recommend exploring one of our [quickstarts](https://www.vendia.com/docs/share/quickstart). Create a sample Universal Application to get hands-on with a lean app in minutes. Pay attention to the ease of deployment and the robust feature set available in less time than it'll take you to complete your next team standup.
 
 **Worked with Vendia Share before?** Check out some of our [feature examples](https://github.com/vendia/examples) to go more in depth on advanced features, including security and integration with other systems.
 
-Stay tuned for more from the Vendia team, as we continue to define the [lean app](https://www.vendia.net/blog/lean-app) movement.
+Stay tuned for more from the Vendia team, as we continue to define the [lean app](https://www.vendia.com/blog/lean-app) movement.

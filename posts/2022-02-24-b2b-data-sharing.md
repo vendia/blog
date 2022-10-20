@@ -19,7 +19,7 @@ Enterprise data is a strategic resource for business growth and economic progres
 
 **B2B data sharing occurs when two or more businesses agree to share their data or access data from other businesses. **
 
-Companies share data with one another in order to [improve operational efficiency](https://www.vendia.net/blog/supply-chain-is-broken-can-blockchain-fix-it) or to achieve long-term growth. Depending on the business need, data sharing can take several forms, ranging from unilateral to collaborative in the form of data platforms and data marketplaces. In terms of monetization, companies share data for free in order to seek community effort at solving strategic business problems relevant to the company or through the provision of services.
+Companies share data with one another in order to [improve operational efficiency](https://www.vendia.com/blog/supply-chain-is-broken-can-blockchain-fix-it) or to achieve long-term growth. Depending on the business need, data sharing can take several forms, ranging from unilateral to collaborative in the form of data platforms and data marketplaces. In terms of monetization, companies share data for free in order to seek community effort at solving strategic business problems relevant to the company or through the provision of services.
 
 
 ## Why businesses adopt B2B data sharing
@@ -59,12 +59,12 @@ Let’s explore some use cases for B2B data sharing in the supply chain, financi
 
 Supply and demand is highly unpredictable. In a global economy, the supply chain pendulum swings both ways at a high frequency. Unexpected events because of climate changes, military or political conflicts, and even human error have a direct impact on supply and demand. One-up and one-down visibility is not enough: The OEMs that can proactively and timely adapt during a crisis or in the face of any unforeseen blocker have done better than others who can't. 
 
-OEMs now have to understand the deep physics of their supply chain network and how all pieces fit together. However, to understand all the pieces and how they are operating in [real time, data sharing](https://www.vendia.net/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) needs to happen between partners. All partners, not just one- up and one-down.
+OEMs now have to understand the deep physics of their supply chain network and how all pieces fit together. However, to understand all the pieces and how they are operating in [real time, data sharing](https://www.vendia.com/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) needs to happen between partners. All partners, not just one- up and one-down.
 
 
 ### Settlements
 
-The financial services industry could be the biggest beneficiary of B2B data sharing technology, especially [real-time, multi-party data sharing](https://vendia.net/product). Financial services is a heavy regulated industry, and there are several processes that are repetitive, For instance, when a customer moves between different banking consortium partners, the bank has to onboard the same customer already in consortium with other banks again. It is inefficient. But, with real-time, multi-party B2B data sharing, the Know Your Customer (KYC) process could be automated and trusted as accurate: If a customer X has completed KYC with Bank A, Bank B can use the same information when customer X approaches Bank B. This will create operational efficiencies, and improve customer experience as well. 
+The financial services industry could be the biggest beneficiary of B2B data sharing technology, especially [real-time, multi-party data sharing](https://vendia.com/product). Financial services is a heavy regulated industry, and there are several processes that are repetitive, For instance, when a customer moves between different banking consortium partners, the bank has to onboard the same customer already in consortium with other banks again. It is inefficient. But, with real-time, multi-party B2B data sharing, the Know Your Customer (KYC) process could be automated and trusted as accurate: If a customer X has completed KYC with Bank A, Bank B can use the same information when customer X approaches Bank B. This will create operational efficiencies, and improve customer experience as well. 
 
 
 ### Multi-party research collaboration
@@ -83,11 +83,11 @@ Another example comes from Estonia, where a study found that [X-Road](https://x-
 
 ## Challenges for B2B data sharing
 
-Despite the proven benefits of data-driven decision making and positive externalities of combining data across organizations, few companies share data outside of their organizational boundaries. The challenges to B2B data sharing include legal, data privacy and interoperability issues, as well as the absence of common standards for B2B data sharing and a lack of [scale in IT infrastructure](https://www.vendia.net/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions).
+Despite the proven benefits of data-driven decision making and positive externalities of combining data across organizations, few companies share data outside of their organizational boundaries. The challenges to B2B data sharing include legal, data privacy and interoperability issues, as well as the absence of common standards for B2B data sharing and a lack of [scale in IT infrastructure](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions).
 
-For data sharing to work, [new models and methods](https://www.vendia.net/blog/venn-diagramming-vendia-share) will need new systems and institutions to enable data sharing across organizations. But, technical solutions to socio-economic problems are not enough. Businesses should understand the value of data sharing and learn to trust technology to overcome negative externalities such as privacy infringement. 
+For data sharing to work, [new models and methods](https://www.vendia.com/blog/venn-diagramming-vendia-share) will need new systems and institutions to enable data sharing across organizations. But, technical solutions to socio-economic problems are not enough. Businesses should understand the value of data sharing and learn to trust technology to overcome negative externalities such as privacy infringement. 
 
-In the data-driven economy, companies should rethink their data value chain. They should move from data silos and a transactional approach to [a new concept](https://www.vendia.net/blog/data-lakes-file-sharing-use-cases) of 'ecosystem' enabled by B2B data sharing. 
+In the data-driven economy, companies should rethink their data value chain. They should move from data silos and a transactional approach to [a new concept](https://www.vendia.com/blog/data-lakes-file-sharing-use-cases) of 'ecosystem' enabled by B2B data sharing. 
 
 
 ## Common approaches to B2B data sharing
@@ -105,9 +105,9 @@ The B2B [data sharing model](https://www.bcg.com/publications/2021/broad-data-sh
 
 Enterprise blockchain technology, powered by distributed ledger databases, helps to achieve coherent, effective and secure ways of sharing data across business and industry. 
 
-To appreciate [the role of enterprise blockchain](https://www.vendia.net/use-cases/next-gen-blockchain), think of the mess that is transactions: Modern business is a world of siloed repositories for data. The data is still siloed even after leveraging p2p interfaces because they don't guarantee auto-reconciliation of data from across the network of systems owned by different companies where the lifecycle of data lives. Each organization keeps a separate copy of their data because there is no collective trust. Not only does this place companies at a data security risk, it’s severely wasteful. 
+To appreciate [the role of enterprise blockchain](https://www.vendia.com/use-cases/next-gen-blockchain), think of the mess that is transactions: Modern business is a world of siloed repositories for data. The data is still siloed even after leveraging p2p interfaces because they don't guarantee auto-reconciliation of data from across the network of systems owned by different companies where the lifecycle of data lives. Each organization keeps a separate copy of their data because there is no collective trust. Not only does this place companies at a data security risk, it’s severely wasteful. 
 
-Enterprise blockchain technology will not only reconcile your data, it will keep your data in sync across different systems and companies so you don't have to wonder where to go to get the latest on a customer or asset. [Vendia Share](https://vendia.net/product) will push the change as soon as it happens in an eventually consistent way.  The blockchain-based data sharing solution is the core technology that will power your data sharing solution. But, that is not enough.
+Enterprise blockchain technology will not only reconcile your data, it will keep your data in sync across different systems and companies so you don't have to wonder where to go to get the latest on a customer or asset. [Vendia Share](https://vendia.com/product) will push the change as soon as it happens in an eventually consistent way.  The blockchain-based data sharing solution is the core technology that will power your data sharing solution. But, that is not enough.
 
 For an end-to-end solution, you have to do more to integrate blockchain-based data sharing into your environment:
 
@@ -117,14 +117,14 @@ For an end-to-end solution, you have to do more to integrate blockchain-based da
 2. Not all connected parties will need all data from all sources. Your partners will ask for partial views of data and support for targeted data sharing, so you want technology where you won't have to create a private channel for every pair of parties to exchange data with privacy and control. In order to support complex sharing scenarios, **you will need a simple and flexible governance layer.** 
 3. Your network will not look the same it is today. It will grow. You will add more partners. Some partners may decide to leave or create their own new network. These are all viable possibilities that will happen sooner than you will anticipate. **Pick a technology that simplifies partner management. **
 
-[IT is hard](https://www.vendia.net/blog/blockchains-vs-cloud-and-it). Servers, databases, and API are complex affairs to operate. Running a blockchain is 10x harder. Writing a [smart contract](https://www.vendia.net/blog/smart-contract-feature-example) (business logic) is a new craft. You will have a hard time recruiting the right team that will move the needle for you. Yes, blockchain will allow you to build data sharing solutions that are 10X better. But, it will pull you down into the rabbit hole—if you don't pick the right abstraction of blockchain for enterprise adoption. 
+[IT is hard](https://www.vendia.com/blog/blockchains-vs-cloud-and-it). Servers, databases, and API are complex affairs to operate. Running a blockchain is 10x harder. Writing a [smart contract](https://www.vendia.com/blog/smart-contract-feature-example) (business logic) is a new craft. You will have a hard time recruiting the right team that will move the needle for you. Yes, blockchain will allow you to build data sharing solutions that are 10X better. But, it will pull you down into the rabbit hole—if you don't pick the right abstraction of blockchain for enterprise adoption. 
 
 You need to consider all the above factors while picking the right enterprise data sharing solution for your business and partners. Having just one and not other features will not cut it. You need all the above to realize value out of data sharing in a timely and cost-effective manner.  
 
 
 ## The Vendia approach to B2B data sharing
 
-[Vendia Share](https://vendia.net/product) blockchain allows you to bring your data model and set up a common schema for data sharing between partners. Vendia Share automatically generates API (GraphQL-based) for CRUD operations, admin operations, and for smart contract configuration and execution. 
+[Vendia Share](https://vendia.com/product) blockchain allows you to bring your data model and set up a common schema for data sharing between partners. Vendia Share automatically generates API (GraphQL-based) for CRUD operations, admin operations, and for smart contract configuration and execution. 
 
 
 
@@ -134,9 +134,9 @@ You need to consider all the above factors while picking the right enterprise da
 * The partner management in Vendia Share is extremely simplified. In just one click, you can provide  a partner’s email address and initiate a request to join the network. The partner will register on the Vendia Share portal and accept the invitation. Once the invite is accepted, you are assigned a node to share and receive transactions and execute smart contracts locally through node. Partners also have the option to remove them from the network and archive the data they have so far received and shared. 
 * The Vendia Share experience is close to the SaaS platform. Infrastructure is completely invisible and developers interact with Vendia APIs to perform data operations. 
 
-Vendia brings to market an enhanced blockchain platform that is easy to use, [easy to build](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Case%20studies/Atos%20Case%20study.pdf), and doesn't have any operational burden. Vendia provides an[ accelerated path](https://vendia.net/poc) from concept to value using data sharing enabled by blockchain technology. 
+Vendia brings to market an enhanced blockchain platform that is easy to use, [easy to build](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Case%20studies/Atos%20Case%20study.pdf), and doesn't have any operational burden. Vendia provides an[ accelerated path](https://vendia.com/poc) from concept to value using data sharing enabled by blockchain technology. 
 
 
 ### Act now so you don’t fall behind
 
-The data ecosystem worked on today will drive innovation tomorrow. If your organization is ready to start working on (or updating) the building blocks of your data ecosystem, [contact us](https://www.vendia.net/contact-us) and we’ll field your questions to help you find the right solution for your real-time, multi-party B2B data sharing needs.                                                                                                          
+The data ecosystem worked on today will drive innovation tomorrow. If your organization is ready to start working on (or updating) the building blocks of your data ecosystem, [contact us](https://www.vendia.com/contact-us) and we’ll field your questions to help you find the right solution for your real-time, multi-party B2B data sharing needs.                                                                                                          

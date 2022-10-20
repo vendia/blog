@@ -19,7 +19,7 @@ These examples are in the context of centralized software development (Web2), bu
 
 So far, I am impressed by the progress and improvement in the tooling required to build and deploy decentralized software on public and private blockchain platforms. But, current experience and tooling are far from optimal for the rapid development of blockchain application proof of concepts, value, and delivery of value. 
 
-Managed Blockchain Services are evolving rapidly-heavyweights such as [Microsoft](https://azure.microsoft.com/en-us/solutions/blockchain/#overview) and [Amazon](https://aws.amazon.com/managed-blockchain/) support the blockchain ecosystem by launching new services. In 2020, [Vendia](https://www.vendia.net/) launched [Vendia Share](https://www.vendia.net/docs/share), a Serverless Blockchain Service. 
+Managed Blockchain Services are evolving rapidly-heavyweights such as [Microsoft](https://azure.microsoft.com/en-us/solutions/blockchain/#overview) and [Amazon](https://aws.amazon.com/managed-blockchain/) support the blockchain ecosystem by launching new services. In 2020, [Vendia](https://www.vendia.com/) launched [Vendia Share](https://www.vendia.com/docs/share), a Serverless Blockchain Service. 
 
 I know choices in blockchain platform services are still limited. Still, it is good to look at the fundamental list of features your organization needs to support the business needs for blockchain application development before you pick a platform for blockchain application development. 
 
@@ -135,4 +135,4 @@ Here is the best effort compilation of features and questions your decentralized
 * _How much of the platform runs on renewable energy sources?_
 * _Does the platform use inefficient algorithms?_
 
-At [Vendia](https://www.vendia.net/), we believe blockchain development doesn't have to be complicated. Enterprise customers don't have to wait any longer to address business pain points and needs that blockchain can solve. We have made it simple for you to develop and deploy blockchain applications. Learn more, [contact us](https://www.vendia.net/contact-us).
+At [Vendia](https://www.vendia.com/), we believe blockchain development doesn't have to be complicated. Enterprise customers don't have to wait any longer to address business pain points and needs that blockchain can solve. We have made it simple for you to develop and deploy blockchain applications. Learn more, [contact us](https://www.vendia.com/contact-us).

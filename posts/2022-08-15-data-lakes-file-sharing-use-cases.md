@@ -64,13 +64,13 @@ Here are just a few examples:
 
 ## Keep reading
 
-Learn more about real-time data sharing [use cases](https://www.vendia.net/use-cases) for your industry, or imagine what’s possible for your organization when you review some of our case studies:
+Learn more about real-time data sharing [use cases](https://www.vendia.com/use-cases) for your industry, or imagine what’s possible for your organization when you review some of our case studies:
 
-[BMW and Rolls Royce accelerate car delivery at lower costs with Vendia Share](https://www.vendia.net/case-studies/bmw)
+[BMW and Rolls Royce accelerate car delivery at lower costs with Vendia Share](https://www.vendia.com/case-studies/bmw)
 
 The world’s leading manufacturer of premium automobiles and motorcycles provides transparency across the supply chain—reducing overall costs, and continuously improving the end-to-end build process.
 
-[Slalom eliminates the overhead costs of building blockchain implementations with Vendia Share](https://www.vendia.net/case-studies/slalom)
+[Slalom eliminates the overhead costs of building blockchain implementations with Vendia Share](https://www.vendia.com/case-studies/slalom)
 
 The modern strategy, technology, and business transformation consulting firm accelerates multi-party and supply chain solution delivery for its clients.
 

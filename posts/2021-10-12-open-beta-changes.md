@@ -23,9 +23,9 @@ We value the experience of our current and future customers and, while we strive
 
 * **Improved GraphQL Schema and Type Names** - Improved naming conventions, naming consistency, and customer naming collision avoidance
 * **Increased GraphQL Type Support** - Expanded support for native GraphQL types (e.g. enums) and their validations 
-* **Removal of Secure Message Feature** - Superseded by [fine-grained data access controls](https://www.vendia.net/blog/sharing-data-with-fine-grained-control), which offer a much richer set of data protection features
+* **Removal of Secure Message Feature** - Superseded by [fine-grained data access controls](https://www.vendia.com/blog/sharing-data-with-fine-grained-control), which offer a much richer set of data protection features
 
-To create a new Uni that has access to these improvements, no further action is required. Create a new Uni [as you normally would](https://www.vendia.net/docs/share/uni-creation) and you'll have access to the latest and great features of Vendia Share. [Our documentation](https://www.vendia.net/docs/share) has been updated to reflect all of the recent changes so please read through carefully as you get reacclimated with Share.
+To create a new Uni that has access to these improvements, no further action is required. Create a new Uni [as you normally would](https://www.vendia.com/docs/share/uni-creation) and you'll have access to the latest and great features of Vendia Share. [Our documentation](https://www.vendia.com/docs/share) has been updated to reflect all of the recent changes so please read through carefully as you get reacclimated with Share.
 
 The remainder of this post focuses on the Vendia Share client changes that may be required to access a Uni using the latest and greatest features of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
 
@@ -37,7 +37,7 @@ _Examples in this section were updated on 10/29/2021 to account for additional f
 
 GraphQL is a primary interface for Vendia Share clients - both synchronous and asynchronous - and making that interface as simple, consistent, and descriptive as possible is our goal.
 
-Vendia Share accepts a user-provided [data model](https://www.vendia.net/docs/share/data-modeling) and generates a GraphQL interface as part of [Uni creation](https://www.vendia.net/docs/share/uni-creation).  The generated GraphQL API includes [GraphQL types](https://graphql.org/learn/schema/) that reflect the properties provided in the user-provided data model _as well as_ Vendia-provided types related to Node and Uni settings and features.
+Vendia Share accepts a user-provided [data model](https://www.vendia.com/docs/share/data-modeling) and generates a GraphQL interface as part of [Uni creation](https://www.vendia.com/docs/share/uni-creation).  The generated GraphQL API includes [GraphQL types](https://graphql.org/learn/schema/) that reflect the properties provided in the user-provided data model _as well as_ Vendia-provided types related to Node and Uni settings and features.
 
 The combination of a user-provided data model and Vendia-provided types can, in certain situations, result in type collisions.  Further,  the risk of type collisions increases as more customers adopt more complex data models.
 
@@ -616,7 +616,7 @@ Vendia Share GraphQL schema is automatically generated based on the provided JSO
 
 GraphQL Enumerations (enums) are a special kind of scalar that is restricted to a specified set of values. Vendia Share customers will continue to model enums in JSON Schema using the [enum keyword](http://json-schema.org/understanding-json-schema/reference/generic.html#enumerated-values). We’ve modified our internal JSON Schema 7 to GraphQL Schema compiler to produce GraphQL enums that correspond to those modeled in the JSON Schema 7. This will affect how GraphQL queries and mutations involving enums are written.
 
-For example, the sample schema file in [Vendia's simple product catalog quick start](https://www.vendia.net/docs/share/quickstart/simple-product-catalog) shows how a product's size can be constrained to a fixed set of values - "S", "M", "L", and "XL". The way you model your enum in the schema file doesn't change. However, the way you insert your data when enums are used changes.
+For example, the sample schema file in [Vendia's simple product catalog quick start](https://www.vendia.com/docs/share/quickstart/simple-product-catalog) shows how a product's size can be constrained to a fixed set of values - "S", "M", "L", and "XL". The way you model your enum in the schema file doesn't change. However, the way you insert your data when enums are used changes.
 
 Previously, adding a product required a query similar to the following:
 
@@ -660,11 +660,11 @@ Vendia Share Unis are designed to make it easy to share data and code across com
 
 We've removed secure messaging in favor of fine-grained data permissions. There are several advantages to using this capability. Secure messaging only allows for a message to be sent to one or more recipients; the data contained in the message is not written to the shared data model. It is not available to be read, updated, or deleted at a later point. In contrast, data written with fine-grained permission is stored in your model. As such, it is available to be read, updated, or deleted at a later point. In addition, permissions can be updated at any time to change the principal, path, or operations allowed on the data as your data sharing needs evolve.
 
-Please refer to our [blog post](https://www.vendia.net/blog/sharing-data-with-fine-grained-control) and [product documentation](https://www.vendia.net/docs/share/fine-grained-data-permissions) for how to make use of Share's fine grained data access controls.
+Please refer to our [blog post](https://www.vendia.com/blog/sharing-data-with-fine-grained-control) and [product documentation](https://www.vendia.com/docs/share/fine-grained-data-permissions) for how to make use of Share's fine grained data access controls.
 
 ## Requiring Authorizer Type During Uni Creation
 
-Vendia Share Unis are created via either the [Command Line Interface](https://www.vendia.net/docs/share/cli) or the [Web Console](https://share.vendia.net).  In either case, a [registration.json](https://www.vendia.net/docs/share/cli/guide#format-of-the-registration-schema-and-initial-state-files) file provides initial information about the Uni.
+Vendia Share Unis are created via either the [Command Line Interface](https://www.vendia.com/docs/share/cli) or the [Web Console](https://share.vendia.net).  In either case, a [registration.json](https://www.vendia.com/docs/share/cli/guide#format-of-the-registration-schema-and-initial-state-files) file provides initial information about the Uni.
 
 ### Change Area
 
@@ -694,4 +694,4 @@ A `registration.json` file must now contain an `authorizerType` element within a
     ]
 }
 ```
-**NOTE:** While `API_KEY` was our previous default when `authorizerType` was not explicitly set, we do not recommend `API_KEY` for production Unis. API keys are generally used to track or meter API usage but are not a secure authorization mechanism.  For production usage, please consider the [other authorization options](https://www.vendia.net/docs/share/node-access-control#how-to-set) available.
+**NOTE:** While `API_KEY` was our previous default when `authorizerType` was not explicitly set, we do not recommend `API_KEY` for production Unis. API keys are generally used to track or meter API usage but are not a secure authorization mechanism.  For production usage, please consider the [other authorization options](https://www.vendia.com/docs/share/node-access-control#how-to-set) available.

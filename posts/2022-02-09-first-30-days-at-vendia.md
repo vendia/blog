@@ -34,7 +34,7 @@ Company culture is hard to pinpoint. It’s not solved with a policy, rarely doe
 
 ### Vendia's Kind Human Policy
 
-However, the [Kind Human Policy](https://www.vendia.net/kind-humans) seems to actually be real. From the top down and from left to right we are kind humans first. 
+However, the [Kind Human Policy](https://www.vendia.com/kind-humans) seems to actually be real. From the top down and from left to right we are kind humans first. 
 
 Here are just a few ways I’ve seen the kind human policy in action:
 
@@ -61,15 +61,15 @@ The beautiful thing about growth marketing at a start up is that you basically b
 
 The tough thing about growth marketing at a start up is that you basically build from scratch (see what I did there?). I’m finding myself trying to quickly build programs that mimic the mature programs from my previous roles. For example, I am launching a “baby ABM” program - complete with automation, customer segmentation, and a bunch of new ads on LinkedIn. 
 
-I also got to experience working with our [co-founders](https://www.vendia.net/blog/meet-vendias-founders) first hand at an offsite in Seattle. I observed how Shruthi and Tim think about Vendia and our customers. There’s always something exciting about working with founders - their passion and insights are on a whole other level. 
+I also got to experience working with our [co-founders](https://www.vendia.com/blog/meet-vendias-founders) first hand at an offsite in Seattle. I observed how Shruthi and Tim think about Vendia and our customers. There’s always something exciting about working with founders - their passion and insights are on a whole other level. 
 
 They were anxious not just to share their thoughts but to also get mine - it made for a dynamic and energetic two days. We talked about everything from strategizing short-term content strategy to crazy ideas around our first user conference - Shruthi wants to drive a monster truck!
 
 ## What’s next?
 
-I’m pretty excited to see what the next 30 days at Vendia holds. We are working on building out the marketing team ([see open roles!](https://www.vendia.net/careers/sales-and-marketing)) and continue to build our marketing engine. 
+I’m pretty excited to see what the next 30 days at Vendia holds. We are working on building out the marketing team ([see open roles!](https://www.vendia.com/careers/sales-and-marketing)) and continue to build our marketing engine. 
 
-If you're a kind human with experience in product, software engineering, and solutions architecture, take a look at our [open roles](https://www.vendia.net/careers/) and join us at Vendia.
+If you're a kind human with experience in product, software engineering, and solutions architecture, take a look at our [open roles](https://www.vendia.com/careers/) and join us at Vendia.
 
 
 P.S. My two truths and a lie...

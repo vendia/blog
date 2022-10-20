@@ -28,4 +28,4 @@ In reality, **all three categories are likely to emerge as key elements of moder
 
 In the upcoming series we will go over how the 3 key categories of tech work today, their strengths and weaknesses, and an example of how Adobe Stock™️ may use a private blockchain and centralized IT to improve thier licensing tracking.
 
-If you want to stay up-to-date for the lastest on the series follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) or download the [whitepaper](https://www.vendia.net/resources/3-body-problem).
+If you want to stay up-to-date for the lastest on the series follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) or download the [whitepaper](https://www.vendia.com/resources/3-body-problem).

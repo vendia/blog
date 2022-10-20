@@ -10,7 +10,7 @@ tags:
 
 ## New Folder and File Experience
 
-Vendia Share has the ability to store files as well as transactional data.  While some of our users manage files through the [Vendia Share GraphQL interface](https://www.vendia.net/docs/share/file-api), others prefer to use the Vendia Share web interface.
+Vendia Share has the ability to store files as well as transactional data.  While some of our users manage files through the [Vendia Share GraphQL interface](https://www.vendia.com/docs/share/file-api), others prefer to use the Vendia Share web interface.
 
 We've updated the user experience for file management, which covers folder and file management as well as version history.
 

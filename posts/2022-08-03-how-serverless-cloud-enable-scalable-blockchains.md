@@ -8,7 +8,7 @@ categories:
 authors:
   - Anders Maul
 ---
-Dr. Peter Sbarski, AWS Serverless Hero, interviews our own [Dr. Tim Wagner](https://www.vendia.net/blog/author/tim-wagner), Vendia co-founder and the inventor of serverless and AWS Lambda in this webcast, “Build an enterprise-grade blockchain: How serverless and cloud enable scalable blockchains.” They chat about everything from how Lambda was invented to how serverless and blockchain can be combined and deployed effectively.
+Dr. Peter Sbarski, AWS Serverless Hero, interviews our own [Dr. Tim Wagner](https://www.vendia.com/blog/author/tim-wagner), Vendia co-founder and the inventor of serverless and AWS Lambda in this webcast, “Build an enterprise-grade blockchain: How serverless and cloud enable scalable blockchains.” They chat about everything from how Lambda was invented to how serverless and blockchain can be combined and deployed effectively.
 
 Watch the full webcast [here](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Videos/Webcasts/How%20to%20build%20an%20enterprise%20blockchain.mp4) (run time: 59:25) or scan a few highlights from their conversation:
 
@@ -33,7 +33,7 @@ _As another example, the first time we successfully ran a massive flash sale, a 
 
 **Peter: Why are people so crazy about blockchain?**
 
-_Tim: When we’re talking about [blockchain](https://www.vendia.net/use-cases/next-gen-blockchain) at Vendia, we’re thinking about distributed ledger technology. It’s not a conversation about cryptocurrency or how to buy sketchy stuff on the dark web. Our focus is on enterprise-grade solutions and cloud services._
+_Tim: When we’re talking about [blockchain](https://www.vendia.com/use-cases/next-gen-blockchain) at Vendia, we’re thinking about distributed ledger technology. It’s not a conversation about cryptocurrency or how to buy sketchy stuff on the dark web. Our focus is on enterprise-grade solutions and cloud services._
 
 _When I went to VP of Coinbase, I was really excited about distributed ledgers as technology that can stitch together the content of other people’s database, taking your own data and making it consistent with somebody else’s. We’ve been struggling to do that with APIs and various infrastructure for years, so that was the dream. In reality Ethereum can only do 14 transactions/second on a good day with up to 15 minutes settle time, and it might cost you up to $5 per transaction. Compare that to Amazon DynamoDB, which enables up to 150 million transactions per second per user, takes 15 milliseconds to settle, and costs 1/1000 of a penny per transaction._
 
@@ -55,7 +55,7 @@ _All of those different parties running on different hardware, systems, in cloud
 
 _But what if it was? What if any of us could accomplish that kind of data sharing and make it as easy as creating a database table today in the cloud or a single API without having to write any code, manage a database or a server._
 
-_And that’s the idea behind [Vendia](https://vendia.net/product)._
+_And that’s the idea behind [Vendia](https://vendia.com/product)._
 
 **Peter: How are you really trying to get serverless and blockchain to play together nicely?**
 
@@ -70,13 +70,13 @@ _And despite first generation blockchain’s weaknesses (lack of data modeling, 
 
 **Peter: What are the use cases for the technology?**
 
-_Tim: If you have sensitive, operational data that needs to be shared in real-time, but governed by access control, and it needs to be shared across some kind of boundary (applications, clouds, organizations, compliance needs), [Vendia’s tech](https://vendia.net/product) is for you._
+_Tim: If you have sensitive, operational data that needs to be shared in real-time, but governed by access control, and it needs to be shared across some kind of boundary (applications, clouds, organizations, compliance needs), [Vendia’s tech](https://vendia.com/product) is for you._
 
-_We’ve got a ton of use cases and customer stories across industries, but let me share this one in manufacturing and supply chain courtesy of our customer, [BMW](https://vendia.net/case-studies/bmw). With our technology, BMW can make real-time decisions and have data transparency, thus empowering them to catch defects or supply chain issues so they can ship cars faster with lower cost of goods sold (COGS). We launched their new tracking app across four supply chain partners in six weeks with 50% of an engineer’s time. With the proof of value, they asked us to extend the app to include additional workflows for paint finishing, and we did it in three weeks._
+_We’ve got a ton of use cases and customer stories across industries, but let me share this one in manufacturing and supply chain courtesy of our customer, [BMW](https://vendia.com/case-studies/bmw). With our technology, BMW can make real-time decisions and have data transparency, thus empowering them to catch defects or supply chain issues so they can ship cars faster with lower cost of goods sold (COGS). We launched their new tracking app across four supply chain partners in six weeks with 50% of an engineer’s time. With the proof of value, they asked us to extend the app to include additional workflows for paint finishing, and we did it in three weeks._
 
 **Peter: As a solo developer, can I use Vendia Share? How will it help me?**
 
-_Tim: Almost all of us have created APIs. Even if we don’t think we have to solve for multi-party data sharing, we still have to solve dating sharing challenges across APIs. This is a really nice way to [evolve your data model](https://www.vendia.net/docs/share), make it multi-region fault tolerant or add other partners. Use Vendia Share to broaden your solution over time as your application grows in complexity and maybe in ways you didn’t initially predict._
+_Tim: Almost all of us have created APIs. Even if we don’t think we have to solve for multi-party data sharing, we still have to solve dating sharing challenges across APIs. This is a really nice way to [evolve your data model](https://www.vendia.com/docs/share), make it multi-region fault tolerant or add other partners. Use Vendia Share to broaden your solution over time as your application grows in complexity and maybe in ways you didn’t initially predict._
 
 
 # Get all the takeaways

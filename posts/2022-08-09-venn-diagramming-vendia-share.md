@@ -8,7 +8,7 @@ categories:
 authors:
   - Tim Wagner
 ---
-In [Part 1](https://www.vendia.net/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) of this two-part series, we explored the limitations of blockchain, database, and “ignorant” API technology as standalone or unintegrated solutions for real-time, multiparty, enterprise-grade data sharing ecosystems. Now, we’ll take a closer look at how Vendia Share combines these technologies to create a platform that offers the strengths and benefits of each constituent technolog and overcomes their respective limitations. We’ll also explore how customers can adopt our platform for a variety of [use cases](https://www.vendia.net/use-cases).
+In [Part 1](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) of this two-part series, we explored the limitations of blockchain, database, and “ignorant” API technology as standalone or unintegrated solutions for real-time, multiparty, enterprise-grade data sharing ecosystems. Now, we’ll take a closer look at how Vendia Share combines these technologies to create a platform that offers the strengths and benefits of each constituent technolog and overcomes their respective limitations. We’ll also explore how customers can adopt our platform for a variety of [use cases](https://www.vendia.com/use-cases).
 
 
 ## Vendia Share: Smart, “data-aware” APIs across parties and clouds
@@ -66,7 +66,7 @@ As in a conventional database, the customer brings a data model (i.e.,, a descri
 * A consensus protocol that handles data replication across parties and clouds, maintaining consistency and guaranteeing ACID transaction semantics
 * A modern, GraphQL API that makes it easy to build create, read, updated, deleted (CRUD) application logic that’s generated from the data model without the need to hand craft
 
-Developers using [Vendia Share](https://vendia.net/product) don’t have to concern themselves with how these elements interact, nor do they have to worry about complex infrastructure hosting or deployment. All the elements above are delivered in SaaS fashion, fully managed and cloud-hosted.
+Developers using [Vendia Share](https://vendia.com/product) don’t have to concern themselves with how these elements interact, nor do they have to worry about complex infrastructure hosting or deployment. All the elements above are delivered in SaaS fashion, fully managed and cloud-hosted.
 
 
 ## Vendia’s sharing topology creates easy connection with low lift
@@ -119,7 +119,7 @@ For fields that don’t match, the resulting record needs to preserve the source
 
 ![A table showing the potential for matched customer information based on data fields and real-time data sharing permissions in a multi-party data alliance](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..184259025-c5fb2a02-0543-4c3f-b202-d725097a1561.png)
 
-Creating this solution on [Vendia Share](https://vendia.net/product) requires uploading a data model, then creating a smart contract to perform the name comparisons and create the matching records. This can be accomplished easily, in under an hour, resulting in a fully scaled, production-grade deployment.
+Creating this solution on [Vendia Share](https://vendia.com/product) requires uploading a data model, then creating a smart contract to perform the name comparisons and create the matching records. This can be accomplished easily, in under an hour, resulting in a fully scaled, production-grade deployment.
 
 After that, each party can load their data, _and then continue to add data over time_. Vendia will continuously process records when either party adds them, automatically scaling up or down to handle varying workloads (see Figure 4).
 
@@ -143,7 +143,7 @@ To do that, they need to modify their data schema to incorporate additional fiel
 
 **Vendia Share’s sophisticated schema compiler can understand schema additions and changes over time. It can incrementally modify the production-grade deployment to add new fields to existing data types as well as entirely new data types to the existing solution—without compromising the security or integrity of existing data and without requiring API clients to be rewritten.**
 
-That latter point is especially crucial: If APIs have been shared with mobile or web clients, changing those APIs could break every app instantly. To avoid that, Vendia Share uses a [sophisticated GraphQL API](https://www.vendia.net/blog/graphql-and-blockchain) that is evolution-aware, and its schema compiler automatically detects and prevents any changes that could damage API clients. 
+That latter point is especially crucial: If APIs have been shared with mobile or web clients, changing those APIs could break every app instantly. To avoid that, Vendia Share uses a [sophisticated GraphQL API](https://www.vendia.com/blog/graphql-and-blockchain) that is evolution-aware, and its schema compiler automatically detects and prevents any changes that could damage API clients. 
 
 The result? Changes are simple, seamless, and guaranteed to be safe for all clients. 
 
@@ -172,10 +172,10 @@ Vendia’s customers use these capabilities to create secure, compliant solution
 
 # Learn more
 
-To learn more about how Vendia can make API development and management easier for data-driven applications, download our [Smart APIs ebook](https://www.vendia.net/resources/smart-apis).
+To learn more about how Vendia can make API development and management easier for data-driven applications, download our [Smart APIs ebook](https://www.vendia.com/resources/smart-apis).
 
-To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.net/resources/lean-apps) on Vendia’s blog. 
+To explore modern application design that leverages modern data platforms, [read about the Lean App movement](https://www.vendia.com/resources/lean-apps) on Vendia’s blog. 
 
-To explore customer use cases, visit Vendia’s [product page](https://www.vendia.net/product). 
+To explore customer use cases, visit Vendia’s [product page](https://www.vendia.com/product). 
 
-To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.net/contact-us).
+To see if your use case could benefit from a data-centric API approach or a data sharing platform, [contact Vendia](https://www.vendia.com/contact-us).

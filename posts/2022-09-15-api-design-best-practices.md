@@ -8,7 +8,7 @@ authors:
 - James Gimourginas
 ---
 
-API design is a popular — and often contentious — topic. Interest in the latest API design best practices often spikes for development teams during initial API design, during API reworks ( e.g., transitioning from REST to GraphQL), and as part of ongoing API refinements based on user feedback or operational challenges. If you're a technology leader embarking on these types of initiatives, this post provides you with a set of general purpose [API design](https://www.vendia.net/blog/apis-for-data) best practices to inform your work.  It explores how you can realize those practices with REST and GraphQL, and then provides an approach that simplifies API design and implementation.
+API design is a popular — and often contentious — topic. Interest in the latest API design best practices often spikes for development teams during initial API design, during API reworks ( e.g., transitioning from REST to GraphQL), and as part of ongoing API refinements based on user feedback or operational challenges. If you're a technology leader embarking on these types of initiatives, this post provides you with a set of general purpose [API design](https://www.vendia.com/blog/apis-for-data) best practices to inform your work.  It explores how you can realize those practices with REST and GraphQL, and then provides an approach that simplifies API design and implementation.
 
 ## What does a well-designed API look like?
 
@@ -54,7 +54,7 @@ By doing so, by default, you will start with a set of standards, easily instill 
 
 ### Invest in a data model
 
-Whether adopting a REST or GraphQL API, it’s valuable to invest design effort on the underlying data model. Once you've selected an API style, the resources or entities exposed by the API can be modeled along with their relationships with other resources or entities.  Often, it's best to follow a [domain driven design](https://www.vendia.net/blog/applying-domain-driven-design-to-blockchains) (DDD) approach to find the most appropriate boundaries within your business context.  Your data model should emanate from your well-constructed domain model.
+Whether adopting a REST or GraphQL API, it’s valuable to invest design effort on the underlying data model. Once you've selected an API style, the resources or entities exposed by the API can be modeled along with their relationships with other resources or entities.  Often, it's best to follow a [domain driven design](https://www.vendia.com/blog/applying-domain-driven-design-to-blockchains) (DDD) approach to find the most appropriate boundaries within your business context.  Your data model should emanate from your well-constructed domain model.
 
 For example, a REST API would model a set of resources (e.g., things) to be acted upon and the relationships ( e.g., hypermedia links) among them. For GraphQL, the data model would include the various parent/child relationships required to "walk the graph" from a top-level entity to its underlying elements.
 
@@ -106,7 +106,7 @@ Ultimately, you must make changes "safe" for API providers and consumers, and yo
 
 Despite your best efforts to select and fully embrace an API style, and adopt as many standards and conventions as possible, there will be a feature or pattern that you must create from scratch. And you will need to create it without as much guidance as you might like. In those cases, it's important to strive for consistency as you apply that feature or pattern in your API.
 
-For example, consider the many forms [result paging](https://graphql.org/learn/pagination/) may take in GraphQL or the [lack of transactional support](https://www.vendia.net/blog/graphql-and-blockchain#vendia-transactions) in the GraphQL spec. Selecting an approach from many options or coming up with a completely new feature is prone to adoption risk:
+For example, consider the many forms [result paging](https://graphql.org/learn/pagination/) may take in GraphQL or the [lack of transactional support](https://www.vendia.com/blog/graphql-and-blockchain#vendia-transactions) in the GraphQL spec. Selecting an approach from many options or coming up with a completely new feature is prone to adoption risk:
 
 * Users will not have worked with the pattern or feature you've designed elsewhere
 * Users will need detailed documentation and examples to quickly fill that void
@@ -131,12 +131,12 @@ The best practices in this post will help drive ease of adoption, simplicity of 
 
 If you find the practices above daunting, using that tooling may be the fastest and most complete way to produce a well-designed API for your users. For example, tools like [Swagger](https://swagger.io/tools/swagger-codegen/) and platforms like [Amplify](https://aws.amazon.com/amplify/) and [Hasura](https://hasura.io/) can accelerate API design and development while ensuring best practices are applied.
 
-Vendia Share brings a similar [automated API approach](https://www.vendia.net/product#Schema-to-API) to an enterprise-grade serverless blockchain. Starting with a well-defined data model, Vendia Share generates all APIs required to store, retrieve, and execute against data stored on a blockchain. The API design and implementation are automatic, and you get an API that’s fully compliant with the best practices highlighted in this post. This is how we built the world's fastest and most scalable way to share operational data across applications, data stores, clouds, and partners, with well-designed [GraphQL API](https://www.vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger) serving as the primary interface.
+Vendia Share brings a similar [automated API approach](https://www.vendia.com/product#Schema-to-API) to an enterprise-grade serverless blockchain. Starting with a well-defined data model, Vendia Share generates all APIs required to store, retrieve, and execute against data stored on a blockchain. The API design and implementation are automatic, and you get an API that’s fully compliant with the best practices highlighted in this post. This is how we built the world's fastest and most scalable way to share operational data across applications, data stores, clouds, and partners, with well-designed [GraphQL API](https://www.vendia.com/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger) serving as the primary interface.
 
 ### Learn more
 
 Well designed APIs are an important component of modern data sharing applications.  If you enjoyed this post, you may also want to:
 
-* Learn more about [smart APIs](https://www.vendia.net/blog/ask-the-expert-apis) and how they simplify the complexity of automatically keeping data consistent, correct, and up-to-date across multiple parties
-* Explore how APIs, Blockchains, and Cloud Databases can [complement each other](https://www.vendia.net/blog/venn-diagramming-vendia-share) when building modern, real-time data sharing applications
-* Try [Vendia Share](https://www.vendia.net/pricing) for free to see how API design best practices, smart APIs, and real-time data sharing come together in a unified platform
+* Learn more about [smart APIs](https://www.vendia.com/blog/ask-the-expert-apis) and how they simplify the complexity of automatically keeping data consistent, correct, and up-to-date across multiple parties
+* Explore how APIs, Blockchains, and Cloud Databases can [complement each other](https://www.vendia.com/blog/venn-diagramming-vendia-share) when building modern, real-time data sharing applications
+* Try [Vendia Share](https://www.vendia.com/pricing) for free to see how API design best practices, smart APIs, and real-time data sharing come together in a unified platform

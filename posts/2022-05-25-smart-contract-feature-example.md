@@ -13,7 +13,7 @@ authors:
 
 Vendia Share enables companies to rapidly build applications that securely share data across departments, companies, and clouds.  When participants create a new Universal Application (or "Uni" for short) using Vendia Share, _sharing data_ is usually their first motivation.  Once participants have access to a real-time, shared source of truth, _acting on the data_ is almost always their next focus area.
 
-There are many ways to act on the data using Vendia Share: auto-generated [GraphQL APIs](https://www.vendia.net/docs/share/graphql), event-driven [inbound and outbound integrations](https://www.vendia.net/docs/share/integrations), and, more recently, the introduction of [smart contracts](https://www.vendia.net/docs/share/smart-contracts).
+There are many ways to act on the data using Vendia Share: auto-generated [GraphQL APIs](https://www.vendia.com/docs/share/graphql), event-driven [inbound and outbound integrations](https://www.vendia.com/docs/share/integrations), and, more recently, the introduction of [smart contracts](https://www.vendia.com/docs/share/smart-contracts).
 
 Smart contracts allow participants to take action on data stored in a Uni in a predefined way, one that is versioned and ledgered for the improved transparency of all participants.  This allows predefined and versioned functions to be created by a single participant for the benefit of one or more participants.  Further, the ledgered nature of smart contracts provides an added level of transparency and auditability that the "off-chain" data processing approaches do not.  For example, smart contract invocations include a reference to the exact input, parameters, and source code used to produce an output.
 
@@ -160,7 +160,7 @@ function isValidLoanAmount(balance, creditScore) {
 }
 ```
 
-The `outputMutation` maps the return value from the AWS Lambda function to a predefined mutation that will result in data being written back to the Uni.  The expected result of executing the validation smart contract is a change to a loan's `validationStatus` field and, only if validation was successful, a change to the loan's [data access controls](https://www.vendia.net/blog/multi-party-data-sharing-with-control#data-access-controls) to allow the Servicer to see the (now-validated) loan information.
+The `outputMutation` maps the return value from the AWS Lambda function to a predefined mutation that will result in data being written back to the Uni.  The expected result of executing the validation smart contract is a change to a loan's `validationStatus` field and, only if validation was successful, a change to the loan's [data access controls](https://www.vendia.com/blog/multi-party-data-sharing-with-control#data-access-controls) to allow the Servicer to see the (now-validated) loan information.
 
 ```graphql
 mutation ValidationOutputMutation($id: ID!,  $validationStatus: Self_Loan_validationStatusEnum!, $acl: [Vendia_Acl_Input_!]) {

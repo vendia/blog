@@ -45,4 +45,4 @@ Another example of making an asynchronous mutation:
 
 ## Wrapping up
 
-With the new APsI, we hope building applications on top of Vendia will be easier. If you have other ideas on how to make Vendia easier to use or if you have any questions or concerns, please check out our [Discourse channel](https://community.vendia.net/) or contact your Vendia account team. Please see our [documentation](https://www.vendia.net/docs/share/graphql) for more information about the new API endpoints. 
+With the new APsI, we hope building applications on top of Vendia will be easier. If you have other ideas on how to make Vendia easier to use or if you have any questions or concerns, please check out our [Discourse channel](https://community.vendia.net/) or contact your Vendia account team. Please see our [documentation](https://www.vendia.com/docs/share/graphql) for more information about the new API endpoints. 

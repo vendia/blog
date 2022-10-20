@@ -27,11 +27,11 @@ In this post, we're going to show how unis make it easy to create powerful web, 
 
 For our example, a weather station application, we'll create a data model to capture weather-related properties - timestamp, airport code, and air temperature.  Our Uni is made of two nodes, each representing a weather station - one at Newark Liberty International Airport (EWR) and the other Los Angeles International Airport (LAX). While we won't go into details of how data is initially collected or used, you can imagine a full-blown use case where "writes" of data represent IoT sensors operating in each locale, while "reads" of data represent report generation, mobile device usage, or other presentations of the aggregated data. The rest of our application will benefit from the simplicity of the uni's automated generated GraphQL API and its straightforward read-after-write consistency semantics.
 
-To follow along, start with the three reference files provided below - we'll pass them to Vendia Share's Command Line Interface (CLI) to create our `test-weather-station` uni.  [You can read more about the role of these files in the quickstart](https://www.vendia.net/docs/share/quickstart/shopping-list-cli).
+To follow along, start with the three reference files provided below - we'll pass them to Vendia Share's Command Line Interface (CLI) to create our `test-weather-station` uni.  [You can read more about the role of these files in the quickstart](https://www.vendia.com/docs/share/quickstart/shopping-list-cli).
 
 ## Setup
 
-We'll be deploying our uni using the Vendia share CLI.  Follow the instructions on our [documentation site](https://vendia.net/docs/share/cli) to download and install it.  You'll also need to [register for the Vendia Share service](https://share.vendia.net/signup) if you haven't already done so.  We'll be using your user information to deploy our uni.
+We'll be deploying our uni using the Vendia share CLI.  Follow the instructions on our [documentation site](https://vendia.com/docs/share/cli) to download and install it.  You'll also need to [register for the Vendia Share service](https://share.vendia.net/signup) if you haven't already done so.  We'll be using your user information to deploy our uni.
 
 ## The schema.json File
 
@@ -40,7 +40,7 @@ The schema file defines the shape of data in your application, and is used to cr
 ```json
 {
  "$schema": "http://json-schema.org/draft-07/schema#",
- "$id": "http://vendia.net/schemas/demos/weather-station.json",
+ "$id": "http://vendia.com/schemas/demos/weather-station.json",
  "title": "Weather Station Demo",
  "description": "Store temperature data from fictitious weather stations",
  "type": "object",

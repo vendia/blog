@@ -8,13 +8,13 @@ tags:
 - Improvements
 ---
 
-Our engineering teams have released a number of cool new features and improvements over the last month.  As always, see our [Docs](https://www.vendia.net/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.
+Our engineering teams have released a number of cool new features and improvements over the last month.  As always, see our [Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.
 
 # New Authorization Options
-Vendia Share now supports [multiple forms of authorization](https://www.vendia.net/docs/share/node-authentication) to a Node within a Uni.  
+Vendia Share now supports [multiple forms of authorization](https://www.vendia.com/docs/share/node-authentication) to a Node within a Uni.  
 
 ## API Keys
-For those who prefer to create and use API Keys for authorization, this can now be performed through the [Share UI](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-in-vendia), the [Share GraphQL API](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-via-graphql-mutation), or the [Share CLI](https://www.vendia.net/docs/share/node-authentication#creating-an-api-key-via-the-cli).  A Node can now support multiple API Keys and each key can have a unique expiration time.
+For those who prefer to create and use API Keys for authorization, this can now be performed through the [Share UI](https://www.vendia.com/docs/share/node-authentication#creating-an-api-key-in-vendia), the [Share GraphQL API](https://www.vendia.com/docs/share/node-authentication#creating-an-api-key-via-graphql-mutation), or the [Share CLI](https://www.vendia.com/docs/share/node-authentication#creating-an-api-key-via-the-cli).  A Node can now support multiple API Keys and each key can have a unique expiration time.
 
 ```shell
 share node add-api-key \
@@ -36,7 +36,7 @@ curl 'https://xxxxxxx.execute-api.us-west-2.amazonaws.com/graphql/' \
 ```
 
 ## JWTs
-For those who prefer to use [JSON Web Tokens (JWTs)](https://jwt.io/) for authorization, this can now be configured through the [Share UI](https://www.vendia.net/docs/share/node-authentication#creating-jwt-authentication-in-vendia) or the [Share GraphQL API](https://www.vendia.net/docs/share/node-authentication#create-jwt-authentication-via-graphql).  JWT authorization requires a small handful of configuration properties, from which your Vendia Share Node can perform all the necessary JWT verifications needed on subsequent GraphQL API calls.
+For those who prefer to use [JSON Web Tokens (JWTs)](https://jwt.io/) for authorization, this can now be configured through the [Share UI](https://www.vendia.com/docs/share/node-authentication#creating-jwt-authentication-in-vendia) or the [Share GraphQL API](https://www.vendia.com/docs/share/node-authentication#create-jwt-authentication-via-graphql).  JWT authorization requires a small handful of configuration properties, from which your Vendia Share Node can perform all the necessary JWT verifications needed on subsequent GraphQL API calls.
 
 When using a JWT, place the value of the key in the `Authorization` header when submitting GraphQL requests to the Node whose configuration reflects the identity provider that issued the JWT.  Note the `Bearer` prefix in the `Authorization` header value below.
 
@@ -54,7 +54,7 @@ With the release of these new authorization options comes the end of the legacy 
 # Sorting Results
 The ability to sort results based on a field was a frequent request from our users over the last few quarters.  We ranked your feedback (in ascending order) and got to work!
 
-Now, any [indexed field](https://www.vendia.net/docs/share/data-modeling#indexes) can be used to sort the results returned by a `list` operation.  For example, if the `name` field of the `Inventory` entity is indexed, the list of products can be returned in order by name: 
+Now, any [indexed field](https://www.vendia.com/docs/share/data-modeling#indexes) can be used to sort the results returned by a `list` operation.  For example, if the `name` field of the `Inventory` entity is indexed, the list of products can be returned in order by name: 
 
 ## GraphQL
 ```graphql
@@ -71,7 +71,7 @@ query OrderedInventoryList {
 ```
 
 ## Client SDK
-Even better, the [Vendia Share Client SDK](https://www.vendia.net/docs/share/vendia-client-sdk) makes sorting extremely simple.
+Even better, the [Vendia Share Client SDK](https://www.vendia.com/docs/share/vendia-client-sdk) makes sorting extremely simple.
 
 ```graphql
 const orderedProducts = await entities.inventory.list({ limit: 100, order: { name: 'DESC' } })
@@ -81,7 +81,7 @@ const orderedProducts = await entities.inventory.list({ limit: 100, order: { nam
 Because indexes can now be used to sort results, we've also made it easier to manage indexes (i.e. add and remove) during scheme evolution.  
 
 ## Share CLI
-You can now remove an index, which was previously deemed a breaking change, using the `--allow-breaking-change=INDEX_REMOVED` flag available through the `share uni evolve` [CLI command](https://www.vendia.net/docs/share/cli/commands/uni#uni-evolve).  This allows a user to add or remove an index simply and easily, likely enabling filtering and sorting on the fields of most interest to your users and applications.
+You can now remove an index, which was previously deemed a breaking change, using the `--allow-breaking-change=INDEX_REMOVED` flag available through the `share uni evolve` [CLI command](https://www.vendia.com/docs/share/cli/commands/uni#uni-evolve).  This allows a user to add or remove an index simply and easily, likely enabling filtering and sorting on the fields of most interest to your users and applications.
 
 ## Share UI
 Likewise, the Share UI has been enhanced to allow schema evolution from the Schema view of a Uni.
@@ -99,9 +99,9 @@ The Share UI view also includes a very helpful "diff" feature that allows you vi
 <p align="center">Schema Diffs in Share UI</p>
 
 # Control Plane and Data Plane Geo-Blocking
-To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.net/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking), blocks traffic originating from IP addresses in specified geographic regions.
+To help protect our customers, Vendia Share's Control Plane and [all of its operations](https://www.vendia.com/docs/share/share-graphql-schema#vendia-share-graphql-schema-reference) are now *inaccessible to traffic* originating from a set of high-risk countries.  This technique, known as [geo-blocking](https://en.wikipedia.org/wiki/Geo-blocking), blocks traffic originating from IP addresses in specified geographic regions.
 
-This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.net/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your Nodes).  
+This same mechanism is now also in place on our [Enterprise customers'](https://www.vendia.com/pricing) Data Planes (i.e. protecting the GraphQL interfaces of your Nodes).  
 
 This additional layer of protection is one of many security mechanisms in place to keep your Vendia account, your Unis, and the _data in your Unis_ safe.
 
@@ -110,7 +110,7 @@ Vendia Share heavily leverages the serverless services of the major public cloud
 
 Over the last month, we've made substantial improvements to the throughput available to our customers.  This includes both ingestion performance (i.e., the number of transactions accepted by a Node in a given time period) and consensus performance (i.e., the number of transactions ledgered across a Uni in a given time period).  We have successfully **increased ingestion performance and consensus performance by 10x** and will continue to optimize our internal ingestion and consensus implementation to maximize the value of the serverless capabilities on which Vendia Share is built.
 
-For more information about Vendia Share's current and near-term performance targets, as well as the real-time data sharing workloads for which Share is unmatched, [contact us](https://www.vendia.net/contact-us).
+For more information about Vendia Share's current and near-term performance targets, as well as the real-time data sharing workloads for which Share is unmatched, [contact us](https://www.vendia.com/contact-us).
 
 # Developer Tooling
 For those who are new to Share, you may find these packages helpful as you explore these new and improved Share features:

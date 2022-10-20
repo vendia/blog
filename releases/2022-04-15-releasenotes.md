@@ -14,9 +14,9 @@ One of the fundamental principles at Vendia is to make the developer experience 
 
 Vendia currently provides customers with a powerful real-time data sharing platform accessible via GraphQL APIs. GraphQL APIs are awesome and there’s no shortage of amazing tools and frameworks for working with GraphQL. But not everyone is familiar with GraphQL or they haven’t put in the time and energy to navigate the vast landscape of GraphQL tooling.
 
-One of our goals at Vendia is to provide our customers best-in-class tools to get up and running with Vendia quickly. We are excited to announce the launch of our [Typescript SDK](https://www.vendia.net/docs/share/vendia-client-sdk). This SDK allows users to create applications on top of their Uni without requiring GraphQL familiarity or the need to navigate the GraphQL tools ecosystem to assemble the right set of libraries.
+One of our goals at Vendia is to provide our customers best-in-class tools to get up and running with Vendia quickly. We are excited to announce the launch of our [Typescript SDK](https://www.vendia.com/docs/share/vendia-client-sdk). This SDK allows users to create applications on top of their Uni without requiring GraphQL familiarity or the need to navigate the GraphQL tools ecosystem to assemble the right set of libraries.
 
-The Typescript SDK provides autocomplete (intellisense) in your favorite IDE, built-in support for both HTTP and [websocket GraphQL APIs](https://www.vendia.net/docs/share/vendia-client-sdk#realtime-data-graphql-subscriptions), multiple authentication methods, and file upload/download. The SDK will auto-generate the code during installation based on your Unis schema, making it customized to your data model. For example, if your schema included a "product" entity, your generated client would include the following methods:
+The Typescript SDK provides autocomplete (intellisense) in your favorite IDE, built-in support for both HTTP and [websocket GraphQL APIs](https://www.vendia.com/docs/share/vendia-client-sdk#realtime-data-graphql-subscriptions), multiple authentication methods, and file upload/download. The SDK will auto-generate the code during installation based on your Unis schema, making it customized to your data model. For example, if your schema included a "product" entity, your generated client would include the following methods:
 
 ```javascript
 // List all the products
@@ -38,7 +38,7 @@ The SDK is currently in developer preview and we need your help by providing fee
 
 Sharing data is at the core of the Vendia Platform. In the past, you added scalar data to be shared through asynchronous GraphQL mutations. The asynchronous nature of the mutations required clients to either poll the database or use GraphQL subscriptions over websockets in order to know when a mutation was committed. This pattern is unfamiliar for many developers with experience in other request/response systems and makes it difficult to get started building interactive applications with Vendia. 
 
-We are pleased to announce support for [synchronous mutations](https://www.vendia.net/docs/share/graphql). With the addition of synchronous mutations, Vendia now supports multiple synchronization modes for mutations, specified by the `syncMode` parameter. This determines when the operation returns the result to the client.
+We are pleased to announce support for [synchronous mutations](https://www.vendia.com/docs/share/graphql). With the addition of synchronous mutations, Vendia now supports multiple synchronization modes for mutations, specified by the `syncMode` parameter. This determines when the operation returns the result to the client.
 * `ASYNC`: Queues the transaction for consensus and returns immediately. With `ASYNC`, the result property in the response will always be empty. Clients can configure GraphQL subscriptions to receive notifications when transactions are committed.
 * `NODE_LEDGERED`: This synchronous mode returns the result once the transaction has been committed and ledgered on the local node. The transaction is guaranteed to be eventually replicated to all the nodes in the Uni.
 

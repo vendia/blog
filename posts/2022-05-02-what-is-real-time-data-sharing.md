@@ -17,7 +17,7 @@ Like it or not, building and operating modern business applications now involves
 
 #### Why the “real-time” moniker?
 
-Because this data is not restricted to “analytical” data. (See our blog post on [real-time vs. analytical data](https://www.vendia.net/blog/real-time-vs-analytical-data)) 
+Because this data is not restricted to “analytical” data. (See our blog post on [real-time vs. analytical data](https://www.vendia.com/blog/real-time-vs-analytical-data)) 
 
 Many systems that produce and consume data can not wait for batch processing or overnight runs.  
 They include real time outcomes like 
@@ -122,7 +122,7 @@ While the limited subsets of sharing patterns above are important to recognize, 
 
 Going it alone in these circumstances is equally problematic. Building a multi-cloud, multi-party real-time data sharing platform is a big task. 
 
-Platforms like [Vendia](www.vendia.net) offer a simple, SaaS-based solution for real-time data sharing that supports multiple parties while handling the challenges of efficiently and securely replicating data across multiple clouds, regions, and infrastructure types. SaaS-based data sharing platforms like Vendia effectively enable companies to outsource their real-time data platform needs without incurring additional infrastructure costs or having to redevelop complex and undifferentiated data sharing technologies in house.
+Platforms like [Vendia](www.vendia.com) offer a simple, SaaS-based solution for real-time data sharing that supports multiple parties while handling the challenges of efficiently and securely replicating data across multiple clouds, regions, and infrastructure types. SaaS-based data sharing platforms like Vendia effectively enable companies to outsource their real-time data platform needs without incurring additional infrastructure costs or having to redevelop complex and undifferentiated data sharing technologies in house.
 
 Selecting any platform provider, including one that assists with a mission-critical outcome like real-time data sharing, is a significant decision. The next section expands on the requirements for a complete data sharing solution, and establishes vendor selection criteria that can be used in the process of evaluating alternatives.
 
@@ -188,4 +188,4 @@ Choosing “green tech” becomes ever more important for investors and transpar
 
 Data sharing solutions are, by their very nature, the target of many regulatory, security, and information handling policies and controls. Building out not just the solution but the necessary monitoring, reporting, and management capabilities needed to ensure constant compliance across assurance programs such as SOC2, PCI, GDPR, CCPA, HIPAA, FedRAMP, and more is time consuming and costly, and typifies the sort of “undifferentiated heavy lifting” that can be transferred to a platform vendor whose sole job is to deliver on these outcomes 24x7.
 
-Want to learn more about data-sharing and Vendia? Read [Improve Your Data Mesh with Real-Time Data Sharing](https://www.vendia.net/blog/improve-your-data-mesh)
+Want to learn more about data-sharing and Vendia? Read [Improve Your Data Mesh with Real-Time Data Sharing](https://www.vendia.com/blog/improve-your-data-mesh)

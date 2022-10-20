@@ -6,7 +6,7 @@ authors:
   - Caroll Casbeer
 ---
 
-In our[ Lean Apps Manifesto](https://www.vendia.net/blog/lean-app-part-4), Dr. Tim Wagner outlines the next wave of application development to ‘flip the IT iceberg’ and accelerate innovation. 
+In our[ Lean Apps Manifesto](https://www.vendia.com/blog/lean-app-part-4), Dr. Tim Wagner outlines the next wave of application development to ‘flip the IT iceberg’ and accelerate innovation. 
 
 But what does this mean for developers? It means developers can focus on writing clean, elegant code that meets customers' needs—not reinventing the wheel or building clunky apps from scratch. 
 
@@ -35,7 +35,7 @@ And here are other ways to keep it simple:
 
 ### How the Lean App Differs from Today’s Development Frameworks
 
-Lean apps leverage other frameworks’ strengths to outweigh other frameworks’ weaknesses. To put it more simply, piecing together lean applications means looking for [what is missing](https://www.vendia.net/blog/lean-app-part-3) from one framework, (i.e., how serveresless doesn’t really account for data models), with the best solution for the missing piece (cloud-based databases). 
+Lean apps leverage other frameworks’ strengths to outweigh other frameworks’ weaknesses. To put it more simply, piecing together lean applications means looking for [what is missing](https://www.vendia.com/blog/lean-app-part-3) from one framework, (i.e., how serveresless doesn’t really account for data models), with the best solution for the missing piece (cloud-based databases). 
 
 
 <table>
@@ -94,9 +94,9 @@ Lean Apps are the [Tom Sawyer](https://medium.com/@thenthgen/the-most-important-
 
 **The business logic.** Focus on what your customers need and build solutions and iterations rapidly by focusing on just your business. If your scope of work becomes laser-focused, you’ll move faster, get better at it, and create a true differentiator.
 
-When it makes sense, your lean app should be [schema-based](https://www.vendia.net/blog/schema-evolution), rather than written into application code or deployment instructions. Why? Because data-centric expressions are better than code. 
+When it makes sense, your lean app should be [schema-based](https://www.vendia.com/blog/schema-evolution), rather than written into application code or deployment instructions. Why? Because data-centric expressions are better than code. 
 
-Here’s another bit of “fence painting” to automate: API design and generation. While we are all guilty of overengineering custom APIs, what we need are clear, _easily scaled, and secured APIs. _That’s where automated API generation comes in. Automated API generation helps move [beyond “dumb pipes”](https://www.vendia.net/blog/smart-apis) to APIs that are aware of the data they carry. 
+Here’s another bit of “fence painting” to automate: API design and generation. While we are all guilty of overengineering custom APIs, what we need are clear, _easily scaled, and secured APIs. _That’s where automated API generation comes in. Automated API generation helps move [beyond “dumb pipes”](https://www.vendia.com/blog/smart-apis) to APIs that are aware of the data they carry. 
 
 If you’re working with data ledgering and versioning, smart, stateful APIs are becoming a must-have, not just a nice to have. They should be automatic, meaning there’s no need to manually maintain logs, perform backups, or audit controls. Similarly, automated access controls and privacy protection should be shited to the infrastructure and follow your business logic. If you’re relying on your homegrown system for security, you’re at risk. 
 
@@ -117,7 +117,7 @@ Lean application development allows you to become really good at your craft. Ima
 There are six simple guidelines for building a lean app: 
 
 1. Develop differentiated business logic over undifferentiated, commodity code.
-2. Evolve from “dumb pipes” to [smart API](https://www.vendia.net/blog/smart-apis)s.
+2. Evolve from “dumb pipes” to [smart API](https://www.vendia.com/blog/smart-apis)s.
 3. Write schemas over code.
 4. Automate, automate, automate.
 5. No more DIY. Buy your data-sharing solution. DIYing cross-company, cross-cloud, cross-region, and cross-account data sharing is too costly and already done. 
@@ -143,5 +143,5 @@ You are Tom Sawyer. Let us be your Ben Rodgers. We don’t mind painting fences.
 
 
 
-* Want to learn more about lean apps? [Download the white paper](https://www.vendia.net/resources/lean-apps). 
-* Ready to build your own lean app? Start with [Vendia Share’s Quickstart Guides](https://www.vendia.net/docs/share/quickstart).
+* Want to learn more about lean apps? [Download the white paper](https://www.vendia.com/resources/lean-apps). 
+* Ready to build your own lean app? Start with [Vendia Share’s Quickstart Guides](https://www.vendia.com/docs/share/quickstart).

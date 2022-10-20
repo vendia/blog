@@ -11,8 +11,8 @@ This is our third post in our series on file sharing. Catch up with the entire s
 
 
 
-* Part 1: [Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing](https://www.vendia.net/blog/data-lakes-file-sharing-use-cases)
-* Part 2: [Why public cloud services aren’t enough for file sharing](https://www.vendia.net/blog/public-cloud-file%20sharing)
+* Part 1: [Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing](https://www.vendia.com/blog/data-lakes-file-sharing-use-cases)
+* Part 2: [Why public cloud services aren’t enough for file sharing](https://www.vendia.com/blog/public-cloud-file%20sharing)
 
 
 ## Top 5 questions on controlled file sharing for enterprises
@@ -95,4 +95,4 @@ Public cloud providers focus on durability and high availability at the cost of 
 
 #### Contact us 
 
-Platform solutions, such as Vendia Share, offer an alternative: A simple, cloud-compatible way to share and manage files and directories across companies, clouds, geographic regions, and differing technology stacks. Powered by a serverless blockchain, Vendia’s file sharing solutions are simultaneously easy to adopt while also offering immutability, automatic integrity checking, cost efficient cross-cloud replication, and a host of advanced features. Set up [your free account](https://www.vendia.net/pricing), contact us to book a [demo](https://www.vendia.net/contact-us), or request your[ one-week proof of concept](https://www.vendia.net/poc).
+Platform solutions, such as Vendia Share, offer an alternative: A simple, cloud-compatible way to share and manage files and directories across companies, clouds, geographic regions, and differing technology stacks. Powered by a serverless blockchain, Vendia’s file sharing solutions are simultaneously easy to adopt while also offering immutability, automatic integrity checking, cost efficient cross-cloud replication, and a host of advanced features. Set up [your free account](https://www.vendia.com/pricing), contact us to book a [demo](https://www.vendia.com/contact-us), or request your[ one-week proof of concept](https://www.vendia.com/poc).

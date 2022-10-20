@@ -13,8 +13,8 @@ authors:
   - Shruthi Rao
 ---
 
-It's an exciting day for Vendia - we're pleased to [announce a $15.5M Series A investment](https://vendia.net/blog/series-a-announcement),
-the launch of our [Developer Preview](https://vendia.net/blog/getting-started-with-vendia-share)
+It's an exciting day for Vendia - we're pleased to [announce a $15.5M Series A investment](https://vendia.com/blog/series-a-announcement),
+the launch of our [Developer Preview](https://vendia.com/blog/getting-started-with-vendia-share)
 for Vendia Share, and share some of our customers' use cases!
 
 ![Image for post](https://d24nhiikxn5jns.cloudfront.net/images/product/2021-02-02-vendia-explorer.jpg)
@@ -122,5 +122,5 @@ tolerance, scalability, and lack of infrastructure complexity is
 just as useful for developers who prefer containers, servers, or even API calls
 from an on-prem mainframe.
 
-To get started, visit vendia.net/developers to learn more and register, or
-check out our [welcome blog for developers](https://vendia.net/blog/getting-started-with-vendia-share).
+To get started, visit vendia.com/developers to learn more and register, or
+check out our [welcome blog for developers](https://vendia.com/blog/getting-started-with-vendia-share).

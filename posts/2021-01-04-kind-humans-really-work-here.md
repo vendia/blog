@@ -6,7 +6,7 @@ authors:
   - Brian McNamara
 ---
 
-At Vendia, we have a ["Kind Humans Only"](https://vendia.net/kind-humans) policy.  All employees are required to sign a document acknowledging adherence to it.  We share it on our public website so everyone can see what we hold as important.  I'm here to say these words are not empty - kindness really matters at Vendia.  The way we treat each other - the way we look after each other with kindness - is genuine.  I'd like to illustrate this with a story.
+At Vendia, we have a ["Kind Humans Only"](https://vendia.com/kind-humans) policy.  All employees are required to sign a document acknowledging adherence to it.  We share it on our public website so everyone can see what we hold as important.  I'm here to say these words are not empty - kindness really matters at Vendia.  The way we treat each other - the way we look after each other with kindness - is genuine.  I'd like to illustrate this with a story.
 
 My son, Aidan, has a pretty rare genetic disorder called [Angelman Syndrome](https://www.angelman.org/).  People who have Angelman Syndrome will oftentimes have scoliosis - an abnormal curvature of the spine.  As Aidan grew older, his scoliosis required he wear a back brace.  As a parent, it wasn't great news, but my wife and I understood why he had to wear the brace.  If scoliosis becomes severe enough and is left uncorrected it can lead to long-term medical problems.  We were doing what we could to avoid those problems without requiring surgery.
 

@@ -56,7 +56,7 @@ This powerful new feature should be used cautiously, as any form of node leave (
 
 Another common user request is to store and ledger larger files in a Uni.  Previously, the maximum supported file size was 1GB.
 
-Today, we're happy to announce **a new maximum file size limit of 5GB**.  This file size increase allows users to transfer files up to 5GB to their Uni.  For the moment, **files larger than 1GB can only be added to Share programmatically**, using the [File API](https://www.vendia.net/docs/share/file-api).
+Today, we're happy to announce **a new maximum file size limit of 5GB**.  This file size increase allows users to transfer files up to 5GB to their Uni.  For the moment, **files larger than 1GB can only be added to Share programmatically**, using the [File API](https://www.vendia.com/docs/share/file-api).
 
 The Share web app continues to support manual file uploads for files up to 1GB.
 
@@ -74,7 +74,7 @@ Vendia Share is now listed on the [AWS Marketplace](https://aws.amazon.com/marke
 </p>
 <p align="center">Figure 4: AWS Marketplace Listing</p>
 
-Check out [this page](https://www.vendia.net/pricing) for more information on the right licensing plan for you.
+Check out [this page](https://www.vendia.com/pricing) for more information on the right licensing plan for you.
 
 ## Do You Have Feature Requests?
 

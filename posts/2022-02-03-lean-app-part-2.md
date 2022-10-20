@@ -9,7 +9,7 @@ authors:
 
 ## Defining the ideal model of what a software application should look like
 
-In [Part 1](https://www.vendia.net/blog/lean-app-part-1) of [this series](https://www.vendia.net/blog/lean-app) we gazed into the rearview mirror to see how software has evolved towards lower “surface area” over time. But what does all this tell us about the future of software development? If the major trends have been focused on the continual removal of surface area (and the resulting decrease in complexity and cost of ownership), what’s the eventual result? 
+In [Part 1](https://www.vendia.com/blog/lean-app-part-1) of [this series](https://www.vendia.com/blog/lean-app) we gazed into the rearview mirror to see how software has evolved towards lower “surface area” over time. But what does all this tell us about the future of software development? If the major trends have been focused on the continual removal of surface area (and the resulting decrease in complexity and cost of ownership), what’s the eventual result? 
 
 If we imagine these trends continuing, it’s also natural to ask an interesting question: 
 
@@ -81,19 +81,19 @@ To make a lean app possible, _the infrastructure has to start doing more for app
 
 ## Next post – Lean Apps Part 3: Letting Infrastructure do the Dirty Work
 
-In the Part 3(coming soon) of [this series](https://www.vendia.net/blog/lean-app), we cover what infrastructure needs to do automatically and without impacting developers or operators.
+In the Part 3(coming soon) of [this series](https://www.vendia.com/blog/lean-app), we cover what infrastructure needs to do automatically and without impacting developers or operators.
 
 
 ### Get the whitepaper
 
-If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.net/resources/lean-apps). 
+If you don’t want to flip through four separate posts, you can download the full white paper [here](https://www.vendia.com/resources/lean-apps). 
 
 
 ### Build a lean app 
 
-It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.net/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
+It’s possible to create lean apps today. Companies like [Vendia](https://www.vendia.com/) will let you move directly to a lean app methodology for new application development or to layer a significant new feature or capability on top of an existing application. You can get started for free and deploy a sample lean app in less than ten minutes [here](https://share.vendia.net/). 
 
-Where wholesale adoption of the idea isn’t (yet) possible, developers and companies still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.net/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
+Where wholesale adoption of the idea isn’t (yet) possible, developers and companies still benefit from the concept through incremental steps in various areas of application development. [Contact us](https://www.vendia.com/contact-us) and we’ll help you learn how to start applying a lean approach to your development today. 
 
 
 ### About the author
@@ -104,4 +104,4 @@ Dr. Tim Wagner, the “Father of Serverless,” is the inventor and leader respo
 
 t: @timallenwagner
 
-[www.vendia.com/blog](https://www.vendia.net/blog)
+[www.vendia.com/blog](https://www.vendia.com/blog)

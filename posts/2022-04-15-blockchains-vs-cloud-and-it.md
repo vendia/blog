@@ -7,9 +7,9 @@ authors:
 ---
 
 _Part 2 of our 5 part series “The 3 Body Problem” 
-Previous posts: [Overview](https://www.vendia.net/blog/3-body-problem) & [Part 1](https://www.vendia.net/blog/private-vs-public-blockchains)_
+Previous posts: [Overview](https://www.vendia.com/blog/3-body-problem) & [Part 1](https://www.vendia.com/blog/private-vs-public-blockchains)_
 
-In our previous [Three Body Problem post](https://www.vendia.net/blog/private-vs-public-blockchains) we looked at the continuum on which these technologies sit. In this post we’ll dive deeper into the relative strengths (and weaknesses) of each, to help us understand how to compose them to best effect. Let’s get started...
+In our previous [Three Body Problem post](https://www.vendia.com/blog/private-vs-public-blockchains) we looked at the continuum on which these technologies sit. In this post we’ll dive deeper into the relative strengths (and weaknesses) of each, to help us understand how to compose them to best effect. Let’s get started...
 
 ![Overview of Service Offerings](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..98492452..163490545-47567f11-9178-4097-a8b0-39dd19325e62.png)
 

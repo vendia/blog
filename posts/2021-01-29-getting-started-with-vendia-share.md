@@ -16,7 +16,7 @@ of being able to build data-driven applications for supply chains,
 logistics tracking, AI/ML data sharing and much more. Starting today,
 developers can also experience the ease of using Vendia Share on AWS to
 create serverless applications that seamlessly integrate data and code across
-different regions, accounts, and owners. (Read our full announcement [here](https://vendia.net/blog/welcome-to-developer-preview).)
+different regions, accounts, and owners. (Read our full announcement [here](https://vendia.com/blog/welcome-to-developer-preview).)
 
 Our experience launching services like AWS Lambda in the past taught us that
 developers are the most important audience for any technology platform.
@@ -61,14 +61,14 @@ Creating a uni requires zero code, however you do need a plan for your data mode
 
 For more information on unis, checkout our ["What is a uni?" video](https://youtu.be/8HmwVOo17BE)
 
-Read more about unis and how they work [https://vendia.net/docs/share/dev-and-use-unis](https://vendia.net/docs/share/dev-and-use-unis)
+Read more about unis and how they work [https://vendia.com/docs/share/dev-and-use-unis](https://vendia.com/docs/share/dev-and-use-unis)
 
 ## Creating your first uni
 Ready to get started? The Vendia team has put together some great quick starts to help guide you through the creation of your first Uni.
 
-If you prefer to use a web interface you can follow along at [Web Quick Start](https://www.vendia.net/docs/share/quickstart/shopping-list-web)
+If you prefer to use a web interface you can follow along at [Web Quick Start](https://www.vendia.com/docs/share/quickstart/shopping-list-web)
 
-Prefer a terminal?  We have you covered - check out the [CLI Quick Start](https://www.vendia.net/docs/share/quickstart/shopping-list-cli)
+Prefer a terminal?  We have you covered - check out the [CLI Quick Start](https://www.vendia.com/docs/share/quickstart/shopping-list-cli)
 
 ## Diving Deeper
 Once you are comfortable with the Vendia Share service and are ready to dive deeper, we encourage you to explore our more advanced quick starts.  
@@ -78,25 +78,25 @@ We believe that practical examples are a fantastic way to learn. As such, we hav
 ### Shopping List
 Get started with real-time data sharing strategies with this easy to understand quick start. You will build a uni that helps solve a common problem we all deal with, managing a shopping list.
 
-[https://vendia.net/docs/share/quickstart/shopping-list-cli](https://vendia.net/docs/share/quickstart/shopping-list-cli)
+[https://vendia.com/docs/share/quickstart/shopping-list-cli](https://vendia.com/docs/share/quickstart/shopping-list-cli)
 
 ### Track And Trace
 The ability to share and work with data in real-time with partners is critical in supply chain management. This quick start demonstrates how you can quickly build a system to track goods and trace problems in a modern supply chain.
 
-[https://vendia.net/docs/share/quickstart/track-and-trace](https://vendia.net/docs/share/quickstart/track-and-trace)
+[https://vendia.com/docs/share/quickstart/track-and-trace](https://vendia.com/docs/share/quickstart/track-and-trace)
 
 ### Product Catalog
 Build a product catalog with Vendia Share and get more familiar with some of our data management capabilities. You will expand your knowledge from prior quick starts and learn how to constrain data and work with multiple data types.
 
-[https://vendia.net/docs/share/quickstart/simple-product-catalog](https://vendia.net/docs/share/quickstart/simple-product-catalog)
+[https://vendia.com/docs/share/quickstart/simple-product-catalog](https://vendia.com/docs/share/quickstart/simple-product-catalog)
 
 ### Inventory Management
 
 Deploy a sample inventory channel involving multiple parties such as a distribution center and two retailers. Build upon your existing knowledge by using our integrations.
 
-[https://vendia.net/docs/share/quickstart/inventory-management](https://vendia.net/docs/share/quickstart/inventory-management)
+[https://vendia.com/docs/share/quickstart/inventory-management](https://vendia.com/docs/share/quickstart/inventory-management)
 	
-You can view all of our quick starts [here](https://vendia.net/docs/share/quickstart)
+You can view all of our quick starts [here](https://vendia.com/docs/share/quickstart)
 
 ## Developer Resources
 
@@ -112,14 +112,14 @@ Vendia Share APIs are generated with zero code from your data models. These APIs
 
 Vendia Share works upon a data model (we call it Schema) that you define.  Share uses an industry standard specification for this model. Read more about that specification and find examples of its use here.
 
-[https://vendia.net/docs/share/data-modeling](https://vendia.net/docs/share/data-modeling)
+[https://vendia.com/docs/share/data-modeling](https://vendia.com/docs/share/data-modeling)
 
 ### Integrating with other systems
 
 The ability to connect Vendia Share with other systems opens numerous possibilities. The fact that these integrations may exist in any given account, region, cloud, or partner, gives developers the flexibility to intelligently design solutions with Vendia Share.  Read more about our integration capabilities here.
 
-[https://vendia.net/docs/share/integrations](https://vendia.net/docs/share/integrations)
+[https://vendia.com/docs/share/integrations](https://vendia.com/docs/share/integrations)
 
 ## Getting Touch
 
-Need a little extra help? Have an exciting use case you would like to vet further?  We would enjoy hearing more about your experiences and where Vendia can help. [Reach out today](https://vendia.net/contact-us)
+Need a little extra help? Have an exciting use case you would like to vet further?  We would enjoy hearing more about your experiences and where Vendia can help. [Reach out today](https://vendia.com/contact-us)

@@ -22,17 +22,17 @@ And that challenge is complex:
 
 * How can you scale solutions for immediate impact and easy adoption? 
 * How can you ensure seamless integration with legacy, DIY, or partners’ enterprise systems, transact quickly and securely, and guarantee uptime? 
-* And [how can you do it](https://www.vendia.net/blog/venn-diagramming-vendia-share) without exhausting internal resources and IT budgets or by building systems that require costly ongoing maintenance, compliance, and operational overhead?
+* And [how can you do it](https://www.vendia.com/blog/venn-diagramming-vendia-share) without exhausting internal resources and IT budgets or by building systems that require costly ongoing maintenance, compliance, and operational overhead?
 
 
 ## When will blockchain live up to its promise?
 
-During the last ten years, blockchain technology has offered financial institutions the promise of a shared data ecosystem. But too many of those first-generation blockchains — whether public or private — [fell short](https://www.vendia.net/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) of their potential. They lacked the enterprise readiness, scalability, and cloud compatibility required for success. 
+During the last ten years, blockchain technology has offered financial institutions the promise of a shared data ecosystem. But too many of those first-generation blockchains — whether public or private — [fell short](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) of their potential. They lacked the enterprise readiness, scalability, and cloud compatibility required for success. 
 
 
 ### Next-gen blockchains offer a way forward 
 
-Next-gen blockchains offer a way forward and help financial institutions overcome the problems and limitations of those early systems. These [modern solutions](https://vendia.net/blockchain) are built for business [use cases](https://www.vendia.net/use-cases) and meet the stringent enterprise requirements of financial services organizations. In the pages ahead, we’ll help you understand:
+Next-gen blockchains offer a way forward and help financial institutions overcome the problems and limitations of those early systems. These [modern solutions](https://vendia.com/blockchain) are built for business [use cases](https://www.vendia.com/use-cases) and meet the stringent enterprise requirements of financial services organizations. In the pages ahead, we’ll help you understand:
 
 
 
@@ -48,5 +48,5 @@ When applied correctly as part of a modern data and application strategy, next-g
 
 
 
-* Explore a reinsurance use case, featuring Atos. **[Read the case study](https://www.vendia.net/blog/atos-success-story)**
-* Download the full guide for the financial services industry with a comprehensive use case for mortgage servicing. **[Download the guide](https://www.vendia.net/resources/blockchain-in-modern-financial-services-2022))**
+* Explore a reinsurance use case, featuring Atos. **[Read the case study](https://www.vendia.com/blog/atos-success-story)**
+* Download the full guide for the financial services industry with a comprehensive use case for mortgage servicing. **[Download the guide](https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022))**

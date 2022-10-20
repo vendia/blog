@@ -21,7 +21,7 @@ Operational data is produced by and records your organization's day-to-day activ
 
 A data silo (or information silo) is a repository of information in a department or an application that is not easily or fully accessible by other departments or applications. Marketing, sales, HR, and other departments rely on specific information to function, and those collections of often overlapping-but-inconsistent data are in separate silos. This can result in duplicate and inconsistent records, and it’s a major drag on efficiency.
 
-Imagine, for instance, that a marketing department runs its automated marketing campaigns through Marketo while the sales department maintains its [customer data in Salesforce](https://www.vendia.net/blog/crm-integration-painpoints). Without proper integration, the marketing outreach data is isolated within the marketing department, and the sales information is also siloed. This isolation makes it difficult or impossible to attribute sales to a particular marketing campaign since neither department can see where leads come from, accurately measure campaign performance, or develop strategies for increasing lead flow and conversions from ideal prospects.
+Imagine, for instance, that a marketing department runs its automated marketing campaigns through Marketo while the sales department maintains its [customer data in Salesforce](https://www.vendia.com/blog/crm-integration-painpoints). Without proper integration, the marketing outreach data is isolated within the marketing department, and the sales information is also siloed. This isolation makes it difficult or impossible to attribute sales to a particular marketing campaign since neither department can see where leads come from, accurately measure campaign performance, or develop strategies for increasing lead flow and conversions from ideal prospects.
 
 The direct costs of silos are not visible, but they waste company resources and reduce employee efficiency.
 
@@ -70,7 +70,7 @@ If properly designed, leveraging operational data shared by multiple sources, ba
 
 #### Business automation in investment banking
 
-According to a London School of Economics [study](https://blogs.lse.ac.uk/businessreview/2020/01/27/business-automation-in-investment-banking-fast-forward-or-not/), at least two-thirds of staff time was spent in a parallel world outside core IT systems, running on email and Excel, and generating enormous communications complexity. There is an opportunity to automate human tasks with a combination of AI and  "[data-aware](https://www.vendia.net/blog/apis-for-real-time-data-sharing)" APIs. 
+According to a London School of Economics [study](https://blogs.lse.ac.uk/businessreview/2020/01/27/business-automation-in-investment-banking-fast-forward-or-not/), at least two-thirds of staff time was spent in a parallel world outside core IT systems, running on email and Excel, and generating enormous communications complexity. There is an opportunity to automate human tasks with a combination of AI and  "[data-aware](https://www.vendia.com/blog/apis-for-real-time-data-sharing)" APIs. 
 
 
 #### People transportation businesses
@@ -80,7 +80,7 @@ Organizations in people transportation have improved their services and effectiv
 
 #### The opaque supply chain
 
-Opaque [supply chains](https://www.vendia.net/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) are another big area full of issues due to a lack of operational data sharing amongst partners. If cargo ships become stuck in the Suez Canal, factories in Guangzhou close due to stay-at-home orders, or transport routes are disrupted by war, it is difficult for organizations to determine how much the total worth of goods is stuck in transit or how the delays in parts and equipment supplies will impact production. The shortage of parts and equipment leads to a flow of counterfeit in the market to fulfill demand. Now you have a vicious circle that gets worse every day. This is not only a revenue loss, but it tarnishes the image of your brand. Organizations invested in data sharing prior to pandemic have fared better during pandemic supply chain crises than others that haven't. The pandemic tested the adaptability of an organization's supply chain. Organizations with good visibility into the end-to-end supply chain can quickly adapt and proactively react to global and local crises as soon as signals become visible.
+Opaque [supply chains](https://www.vendia.com/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) are another big area full of issues due to a lack of operational data sharing amongst partners. If cargo ships become stuck in the Suez Canal, factories in Guangzhou close due to stay-at-home orders, or transport routes are disrupted by war, it is difficult for organizations to determine how much the total worth of goods is stuck in transit or how the delays in parts and equipment supplies will impact production. The shortage of parts and equipment leads to a flow of counterfeit in the market to fulfill demand. Now you have a vicious circle that gets worse every day. This is not only a revenue loss, but it tarnishes the image of your brand. Organizations invested in data sharing prior to pandemic have fared better during pandemic supply chain crises than others that haven't. The pandemic tested the adaptability of an organization's supply chain. Organizations with good visibility into the end-to-end supply chain can quickly adapt and proactively react to global and local crises as soon as signals become visible.
 
 
 ## Operational vs. analytical data sharing
@@ -121,7 +121,7 @@ Organizations cannot avoid operating in multiple regions, either. Data privacy r
 
 ## How Vendia can help
 
-Data is on everyone's mind, and even with the plethora of tools on the market, there hasn’t been a good solution for solving data problems. We need a new discipline, a "[data-aware](https://www.vendia.net/blog/apis-for-real-time-data-sharing)" discipline to start thinking about data in a more specialized way to solve data problems.
+Data is on everyone's mind, and even with the plethora of tools on the market, there hasn’t been a good solution for solving data problems. We need a new discipline, a "[data-aware](https://www.vendia.com/blog/apis-for-real-time-data-sharing)" discipline to start thinking about data in a more specialized way to solve data problems.
 
 There will never be one data solution for all problems:
 
@@ -134,7 +134,7 @@ There will never be one data solution for all problems:
 
 You’ll need an intermediate (interoperable) data store consistent with your siloed operational systems and its infrastructure to be cost-efficient and easy to maintain to build data-aware APIs for operational data sharing.
 
-This is where [Vendia](https://www.vendia.net/blog/gartner-cool-vendor) can help. As a "[data-aware](https://www.vendia.net/blog/apis-for-real-time-data-sharing)" solution, we make your data agile. This agility further improves data integrity, scalability, and performance so you can achieve new successes you once thought were impossible:
+This is where [Vendia](https://www.vendia.com/blog/gartner-cool-vendor) can help. As a "[data-aware](https://www.vendia.com/blog/apis-for-real-time-data-sharing)" solution, we make your data agile. This agility further improves data integrity, scalability, and performance so you can achieve new successes you once thought were impossible:
 
 
 
@@ -142,7 +142,7 @@ This is where [Vendia](https://www.vendia.net/blog/gartner-cool-vendor) can help
 2. Eliminate inefficiencies for which you created workarounds
 3. Form partnerships that no longer make you feel anxious due to trust issues 
 
-You can use [Vendia](https://www.vendia.net/product) to build the following architectural patterns for operational data sharing:
+You can use [Vendia](https://www.vendia.com/product) to build the following architectural patterns for operational data sharing:
 
 #### Ledgered data hub
 
@@ -176,4 +176,4 @@ Vendia provides distributed ledger technology with a data-centric API (bring you
 
 However, it is your responsibility to foster a data-sharing culture, rather than a data-ownership culture, by identifying and addressing the emotional impacts and inherent biases that impede data sharing.
 
-[Set up a meeting](http://vendia.net/meet) to learn more about how to bridge those silos, or request your [proof of concept](http://vendia.net/poc).
+[Set up a meeting](http://vendia.com/meet) to learn more about how to bridge those silos, or request your [proof of concept](http://vendia.com/poc).

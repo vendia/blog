@@ -26,9 +26,9 @@ One of the benefits of building serverless applications is the ability to scale 
 - No storage or transaction limits
 - Real-time notifications and support for GraphQL subscriptions
 - 99% Availability SLA
-- [Full list of features](https://vendia.net/pricing/individual)
+- [Full list of features](https://vendia.com/pricing/individual)
 
-Get started today with a [30-day free trial](https://vendia.net/pricing/individual)
+Get started today with a [30-day free trial](https://vendia.com/pricing/individual)
 
 ## Pricing Example
 
@@ -74,6 +74,6 @@ $3.90 real-time subscriptions
 
 
 ## Ready to make your idea happen? 
-As you can see, our new Individual plan gives you all the power and speed of Vendia at an affordable price. If you are ready to get started you can even try it for free for 30 days. [Sign up for a 30 day free trial here](https://vendia.net/pricing/individual).
+As you can see, our new Individual plan gives you all the power and speed of Vendia at an affordable price. If you are ready to get started you can even try it for free for 30 days. [Sign up for a 30 day free trial here](https://vendia.com/pricing/individual).
 
 We can't wait to see what you end up building. 
