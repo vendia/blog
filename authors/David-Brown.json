@@ -1,10 +1,10 @@
 {
-    "name": "David Brown",
-    "github": "db-vendia",
-    "twitter": "DavidBr47724582",
-    "avatar": "https://avatars.githubusercontent.com/u/92179243?s=400",
-    "bio": {
-      "short": "Principal Product Manager",
-      "long": "David is a principal product manager at Vendia focusing on amazing features for Vendia Share. Prior to Vendia, David was a product manager at AWS focusing on serverless edge computing."
-    }
+  "name": "David Brown",
+  "github": "db-vendia",
+  "twitter": "DavidBr47724582",
+  "avatar": "https://avatars.githubusercontent.com/u/92179243?s=400",
+  "bio": {
+    "short": "Principal Product Manager",
+    "long": "David is a principal product manager at Vendia focusing on amazing features for Vendia Share. Prior to Vendia, David was a product manager at AWS focusing on serverless edge computing."
   }
+}
