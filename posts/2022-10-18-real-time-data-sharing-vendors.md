@@ -67,41 +67,26 @@ These solutions (and their associated toolsets) help cut down the cost of buildi
 
 <table>
   <tr>
-   <td>
-<h4>Advantages</h4>
-
-
-<ul>
-
-<li>Streamlined data exchange
-
-<li>Reduces P2P integrations of business applications
-
-<li>Allows for leveraging a single connector across multiple targets (like a data warehouse to an ERP)
-
-<li>Helps save time and minimize human error
-
-<li>Reduced labor costs
-</li>
-</ul>
-   </td>
-   <td>
-<h4>Disadvantages</h4>
-
-
-<ul>
-
-<li>Overly complex “in the middle” after connecting to each application
-
-<li>Challenging to incorporate the business logic that must happen when moving data across applications
-
-<li>Risk of accidental data exposure 
-</li>
-</ul>
-   </td>
+    <td>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Streamlined data exchange</li>
+        <li>Reduces P2P integrations of business applications</li>
+        <li>Allows for leveraging a single connector across multiple targets (like a data warehouse to an ERP)</li>
+        <li>Helps save time and minimize human error</li>
+        <li>Reduced labor costs</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Overly complex “in the middle” after connecting to each application</li>
+        <li>Challenging to incorporate the business logic that must happen when moving data across applications</li>
+        <li>Risk of accidental data exposure</li>
+      </ul>
+    </td>
   </tr>
 </table>
-
 
 
 ### Type 2: ERP systems to store and use data 
@@ -117,37 +102,24 @@ What’s more, a traditional ERP solution is a pre-cloud development, making the
 
 <table>
   <tr>
-   <td>
-<h4>Advantages</h4>
-
-
-<ul>
-
-<li>Streamlined workflows
-
-<li>Improved data accessibility and security
-
-<li>Improved communication 
-</li>
-</ul>
-   </td>
-   <td>
-<h4>Disadvantages</h4>
-
-
-<ul>
-
-<li>Slow data migration
-
-<li>Mandatory same-choice ERP systems to share data or integrate AAP components
-
-<li>Expensive (requires both heavy upfront and ongoing investment) 
-</li>
-</ul>
-   </td>
+    <td>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Streamlined workflows</li>
+        <li>Improved data accessibility and security</li>
+        <li>Improved communication</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Slow data migration</li>
+        <li>Mandatory same-choice ERP systems to share data or integrate AAP components</li>
+        <li>Expensive (requires both heavy upfront and ongoing investment)</li>
+      </ul>
+    </td>
   </tr>
 </table>
-
 
 
 ### Type 3: Public cloud platforms to store and build on data
@@ -165,38 +137,24 @@ For example, a public cloud's [feature sets](https://www.vendia.net/blog/public-
 
 <table>
   <tr>
-   <td>
-<h4>Advantages</h4>
-
-
-<ul>
-
-<li>Enhanced reliability for maximum uptime
-
-<li>Disaster recovery
-
-<li>Improved scalability and flexibility
-</li>
-</ul>
-   </td>
-   <td>
-<h4>Disadvantages</h4>
-
-
-<ul>
-
-<li>Possible security and compliance issues
-
-<li>Requires bespoke solutions to access, harness, and share data
-
-<li>Tends to be expensive 
-</li>
-</ul>
-   </td>
+    <td>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Enhanced reliability for maximum uptime</li>
+        <li>Disaster recovery</li>
+        <li>Improved scalability and flexibility</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Possible security and compliance issues</li>
+        <li>Requires bespoke solutions to access, harness, and share data</li>
+        <li>Tends to be expensive</li>
+      </ul>
+    </td>
   </tr>
 </table>
-
-
 
 ### Type 4: Conventional data lakes to store data
 
@@ -209,35 +167,23 @@ Getting the data to your data lake can add lag time if it’s not done with the 
 
 <table>
   <tr>
-   <td>
-<h4>Advantages</h4>
-
-
-<ul>
-
-<li>High-level architecture for easy scaling 
-
-<li>Superior storage capacity
-
-<li>Access to big data analytics tools
-</li>
-</ul>
-   </td>
-   <td>
-<h4>Disadvantages</h4>
-
-
-<ul>
-
-<li>Data quality issues can stem from complex reconciliation when combining/pooling data from disparate sources
-
-<li>Security risks
-</li>
-</ul>
-   </td>
+    <td>
+      <h4>Advantages</h4>
+      <ul>
+        <li>High-level architecture for easy scaling</li>
+        <li>Superior storage capacity</li>
+        <li>Access to big data analytics tools</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Data quality issues can stem from complex reconciliation when combining/pooling data from disparate sources</li>
+        <li>Security risks</li>
+      </ul>
+    </td>
   </tr>
 </table>
-
 
 
 ### Type 5: Legacy blockchains to store and govern data availability
@@ -251,39 +197,25 @@ The issue here is that legacy blockchains are _not_ the right operational fit fo
 
 <table>
   <tr>
-   <td>
-<h4>Advantages</h4>
-
-
-<ul>
-
-<li>Greater reliability 
-
-<li>New application and business model creation support
-
-<li>24/7 availability
-</li>
-</ul>
-   </td>
-   <td>
-<h4>Disadvantages</h4>
-
-
-<ul>
-
-<li>Complexity in sending data to/from the blockchain system
-
-<li>Limited scalability
-
-<li>Inadequate data security
-
-<li>Expensive to develop and maintain
-</li>
-</ul>
-   </td>
+    <td>
+      <h4>Advantages</h4>
+      <ul>
+        <li>Greater reliability</li>
+        <li>New application and business model creation support</li>
+        <li>24/7 availability</li>
+      </ul>
+    </td>
+    <td>
+      <h4>Disadvantages</h4>
+      <ul>
+        <li>Complexity in sending data to/from the blockchain system</li>
+        <li>Limited scalability</li>
+        <li>Inadequate data security</li>
+        <li>Expensive to develop and maintain</li>
+      </ul>
+    </td>
   </tr>
 </table>
-
 
 NOTE: Some organizations might also consider streaming data an approach to data sharing. It’s core advantage is making large-scale data available, but there are significant disadvantages like not knowing what's in the data and having "piles" of data to parse through for insights.
 
