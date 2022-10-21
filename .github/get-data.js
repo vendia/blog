@@ -82,7 +82,8 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, opts = {}) {
 
 async function getCategories() {
   const categoriesContents = await fs.readFile(path.join(cwd, 'categories/categories.json'), 'utf8')
-  return JSON.parse(categoriesContents)
+  const data = JSON.parse(categoriesContents)
+  return data.categories || data
 }
 
 async function getExternalPosts() {

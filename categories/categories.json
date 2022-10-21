@@ -1,66 +1,68 @@
-[
-  {
-    "slug": "company",
-    "description": "Company news & updates"
-  },
-  {
-    "slug": "podcast",
-    "description": "Podcast"
-  },
-  {
-    "slug": "announcements",
-    "description": "Company announcements"
-  },
-  {
-    "slug": "tutorials",
-    "description": "Developer tutorials"
-  },
-  {
-    "slug": "product",
-    "description": "Product updates & feature releases"
-  },
-  {
-    "slug": "architecture",
-    "description": "Software architecture"
-  },
-  {
-    "slug": "concepts",
-    "description": "Software concepts"
-  },
-  {
-    "slug": "smartcontracts",
-    "description": "Smart contracts"
-  },
-  {
-    "slug": "datamodeling",
-    "description": "Data modeling"
-  },
-  {
-    "slug": "timwagner",
-    "description": "Tim Wagner"
-  },
-  {
-    "slug": "realtimedatasharing",
-    "description": "Real time data sharing"
-  },
-  {
-    "slug": "blockchain",
-    "description": "Blockchain"
-  },
-  {
-    "slug": "dataalliance",
-    "description": "Data alliance"
-  },
-  {
-    "slug": "graphql",
-    "description": "Graph QL"
-  },
-  {
-    "slug": "Leanapps",
-    "description": "Lean apps"
-  },
-  {
-    "slug": "smartapis",
-    "description": "Smart APIs"
-  }
-]
+{
+  "categories": [
+    {
+      "slug": "company",
+      "description": "Company news & updates"
+    },
+    {
+      "slug": "podcast",
+      "description": "Podcast"
+    },
+    {
+      "slug": "announcements",
+      "description": "Company announcements"
+    },
+    {
+      "slug": "tutorials",
+      "description": "Developer tutorials"
+    },
+    {
+      "slug": "product",
+      "description": "Product updates & feature releases"
+    },
+    {
+      "slug": "architecture",
+      "description": "Software architecture"
+    },
+    {
+      "slug": "concepts",
+      "description": "Software concepts"
+    },
+    {
+      "slug": "smartcontracts",
+      "description": "Smart contracts"
+    },
+    {
+      "slug": "datamodeling",
+      "description": "Data modeling"
+    },
+    {
+      "slug": "timwagner",
+      "description": "Tim Wagner"
+    },
+    {
+      "slug": "realtimedatasharing",
+      "description": "Real time data sharing"
+    },
+    {
+      "slug": "blockchain",
+      "description": "Blockchain"
+    },
+    {
+      "slug": "dataalliance",
+      "description": "Data alliance"
+    },
+    {
+      "slug": "graphql",
+      "description": "Graph QL"
+    },
+    {
+      "slug": "Leanapps",
+      "description": "Lean apps"
+    },
+    {
+      "slug": "smartapis",
+      "description": "Smart APIs"
+    }
+  ]
+}
