@@ -9,10 +9,14 @@ relatedPosts:
   - 2020-07-01-meet-vendias-founders
   - 2020-11-05-track-and-trace
 updatedBy: David Wells
-updatedAt: 2022-10-21T21:45:38.820Z
+updatedAt: 2022-10-21T23:56:42.908Z
 ---
 
 This post is a draft. Here is update. Again!
+
+<!-- MD-MAGIC-EXAMPLE:START nice -->
+coool
+<!-- MD-MAGIC-EXAMPLE:END -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vxitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis
 
