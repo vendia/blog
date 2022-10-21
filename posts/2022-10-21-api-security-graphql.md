@@ -41,11 +41,11 @@ Credentials (e.g., passwords) and authentication protocol (e.g., single- vs. mul
 
 #### Authorization
 
-Incorrectly configuring authorization policies, or omitting authorization policies entirely, are two common mistakes that lead to "broken access control", as referenced by OWASP. Another mistake is creating design or implementation flaws that allow an elevation of privilege to an authenticated, but not necessarily authorized, user. This category of broken access control can be thought of as authorization_ _failures.
+Incorrectly configuring authorization policies, or omitting authorization policies entirely, are two common mistakes that lead to "broken access control", as referenced by OWASP. Another mistake is creating design or implementation flaws that allow an elevation of privilege to an authenticated, but not necessarily authorized, user. This category of broken access control can be thought of as authorization failures.
 
 #### Data Access Control
 
-Another category of broken access control can be thought of as data access control_ _failures. These failures stem from poor design, poor implementation, or, more basically, incorrect assumptions. For example, assuming that _any _user authorized with access to a piece of data should _also _have permission to update or delete that piece of data is likely untrue to start with — or will quickly become untrue as the number of users increases.
+Another category of broken access control can be thought of as data access control failures. These failures stem from poor design, poor implementation, or, more basically, incorrect assumptions. For example, assuming that _any_ user authorized with access to a piece of data should _also_ have permission to update or delete that piece of data is likely untrue to start with — or will quickly become untrue as the number of users increases.
 
 These are just a handful of common vulnerabilities related to a subset of API security. Maintaining highly secure APIs can be a daunting task.
 
@@ -55,7 +55,7 @@ GraphQL is a query language for APIs. Like most APIs, a GraphQL endpoint accepts
 
 ### How developers approach authentication with a GraphQL API
 
-Authentication is orthogonal to GraphQL. In fact, if you search the [GraphQL specification](https://spec.graphql.org/October2021/) for the word "authentication" you'll find 0 results. But for a GraphQL API to be secure, something_ _must authenticate each client prior to the client making an API request. Most likely, that something is a separate [Identity Provider](https://en.wikipedia.org/wiki/Identity_provider) (IdP). Generally, upon verifying client credentials through whatever authentication mechanism is provided, the client will receive some form of proof authentication was successful.
+Authentication is orthogonal to GraphQL. In fact, if you search the [GraphQL specification](https://spec.graphql.org/October2021/) for the word "authentication" you'll find 0 results. But for a GraphQL API to be secure, something must authenticate each client prior to the client making an API request. Most likely, that something is a separate [Identity Provider](https://en.wikipedia.org/wiki/Identity_provider) (IdP). Generally, upon verifying client credentials through whatever authentication mechanism is provided, the client will receive some form of proof authentication was successful.
 
 This means that GraphQL APIs can only be as secure as the IdP servicing its GraphQL API clients. This also means that time and energy focused on correctly configuring and managing the IdP will help minimize these OWASP threats:
 
