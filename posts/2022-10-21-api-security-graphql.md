@@ -66,7 +66,7 @@ This means that GraphQL APIs can only be as secure as the IdP servicing its Grap
 
 One popular proof of authentication is a [JSON Web Token](https://jwt.io/) (JWT). JWTs contain a rich set of information, within the JWT's claim set, as shown in Figure 1.
 
-![Figure1](https://user-images.githubusercontent.com/85032783/197203260-e362ca51-f4b8-432c-acff-3aec1ed1bd08.png)
+![Figure1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..197203260-e362ca51-f4b8-432c-acff-3aec1ed1bd08.png)
 
 **_Figure 1 - A decoded JWT_**
 
@@ -82,7 +82,7 @@ Authorization is also orthogonal to GraphQL. As with "authentication", if you se
 
 The HTTP specification provides a means — via the ["Authorization" header](https://www.rfc-editor.org/rfc/rfc9110.html#name-authorization) — for a GraphQL client to send its proof of authentication (obtained from an IdP) to a GraphQL API. Whether that proof is a JWT or another agreed upon token type that will allow the GraphQL API to make an authorization decision, the Authorization header is the typical means to send that information from client to server. A "Bearer" prefix is often included in the value to denote the token came from another system, as shown in Figure 2.
 
-![Figure2](https://user-images.githubusercontent.com/85032783/197203258-a6a59bac-7c5f-45a8-8d8d-bce1277f4913.png)
+![Figure2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..197203258-a6a59bac-7c5f-45a8-8d8d-bce1277f4913.png)
 
 **_Figure 2 - An authorization header populated with a JWT_**
 
@@ -102,7 +102,7 @@ One of the benefits of the schema and the types it defines is the ability to bui
 
 Figure 3 shows what data access controls represented in a GraphQL schema might look like.
 
-![Figure3](https://user-images.githubusercontent.com/85032783/197203261-ee8d6929-d7b3-44fe-a9df-4e79e118582e.png)
+![Figure3](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..197203261-ee8d6929-d7b3-44fe-a9df-4e79e118582e.png)
 
 **_Figure 3 - A GraphQL mutation with schema-compliant access controls_**
 
