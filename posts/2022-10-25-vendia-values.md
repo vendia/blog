@@ -10,16 +10,13 @@ authors:
 
 Our name, [Vendia](https://www.vendia.com/blog/welcome-to-vendia), is derived from “Venn Diagram.” The name reflects our inventive [combination](https://www.vendia.com/blog/venn-diagramming-vendia-share) of business blockchain, database tech, and smart APIs that, together, as [Vendia Share](https://vendia.com/product), achieve what no one single technology is capable of in isolation: Automated, real-time, multi-party data sharing — with control — across workflows and business networks.
 
-Our name and that Venn Diagram concept also reflect our commitment to centering our work around our [Kind Humans Policy](https://www.vendia.com/kind-humans).
-
-
 
 ![A diagram showing the Vendia logo at the center or a networked nexus of cloud, API, database, security, and blockchain imagery](https://user-images.githubusercontent.com/107442245/198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png)
 
 
 _Vendia gives enterprises the technology to automate and accelerate data workflows across business networks._
 
-So, as we celebrate another great year with [customers](https://www.vendia.com/industry) and each other, here’s an overview of the five values that make us great: Trust, ingenuity, growth, responsibility, and results (or TIGRR 🐯 if you’re feeling sassy).
+Our cultural cornerstone is our [Kind Humans Policy](https://www.vendia.com/kind-humans), and as we celebrate another great year with [customers](https://www.vendia.com/industry) and each other, here’s an overview of the five values that make us great: Trust, ingenuity, growth, responsibility, and results (or TIGRR 🐯 if you’re feeling sassy).
 
 
 ## Trust
