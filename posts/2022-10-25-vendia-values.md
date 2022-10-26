@@ -14,7 +14,7 @@ Our name and that Venn Diagram concept also reflect the [what](https://www.vendi
 
 
 
-INSERT IMG HERE
+![A diagram showing the Vendia logo at the center or a networked nexus of cloud, API, database, security, and blockchain imagery](https://user-images.githubusercontent.com/107442245/198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png)
 
 
 _Vendia gives enterprises the technology to automate and accelerate data workflows across business networks._
@@ -57,7 +57,7 @@ Meanwhile, the best conditions for ingenuity arise when you are in a community p
 
 Our customers’ success and our commitment to effectiveness as a team drive our high standards. After all, as [a startup](https://www.vendia.com/blog/vendia-announces-series-b), and as a community of [kind humans](https://www.vendia.com/kind-humans) who operate from a growth mindset, we are here to deliver, build, scale, and win — and keep winning as we raise the bar for growth quarter upon quarter, year after year.
 
-We are also invested in our own and one another’s growth. From [leaders who coach](https://www.vendia.com/blog/leadership-practices-of-an-ultramarathoner) for individual success to learning and development budgets for supporting self-directed soft and hard skill-building, we know a business cannot grow in a healthy, sustainable fashion if we aren’t also holding space and supporting that growth amongst our individual team members.
+We are also invested in our own and one another’s growth. From [leaders who coach](https://www.vendia.com/blog/leadership-practices-of-an-ultramarathoner) for individual success to supporting career advancement, we know a business cannot grow in a healthy, sustainable fashion if individual team members don't feel they can grow, too.
 
 
 ## Responsibility
