@@ -24,7 +24,7 @@ Together, the activities form constellations across the value chain, making the 
 
 ## Examples of industries that depend on supply chain visibility
 
-Supply chain visibility affects almost every industry. But, some are affected more than others. Some of the industries most significantly hit by global supply chain shortages include semiconductors, [automobiles](https://www.vendia.net/industry/automotive), industrials, retail, and food. 
+Supply chain visibility affects almost every industry. But, some are affected more than others. Some of the products most industries hit by global supply chain shortages include semiconductor manufacturing, [automotive](https://www.vendia.net/industry/automotive), industrials, retail, and x. 
 
 NOTE: Global supply chains are a maze. The maze spreads across industries, and some supply chain components, like semiconductor devices, affect multiple industries. The same is true for shipping and logistics, which are like a physical internet, and the cost of containers and shortage of containers affect multiple industries.
 
