@@ -29,7 +29,8 @@ Supply chain visibility affects almost every industry. But, some are affected mo
 NOTE: Global supply chains are a maze. The maze spreads across industries, and some supply chain components, like semiconductor devices, affect multiple industries. The same is true for shipping and logistics, which are like a physical internet, and the cost of containers and shortage of containers affect multiple industries.
 
 
-IMG GOES HERE
+
+![A flat map of the world with misc. supply chain partner locations marked with pins and infrastructural elements like an airplane, shipping containers in port, trucks, and tanker boats](https://user-images.githubusercontent.com/107442245/198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
  
 
 _Supply chain visibility is a problem to solve with better partner collaboration through real-time data sharing across companies, clouds, and the entire value chain._
