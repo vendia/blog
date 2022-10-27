@@ -30,6 +30,7 @@ As Vendia Share provides new features, we also ensure the SDK includes the lates
 We all do it: sometimes we forget to include fields and our queries fail (it's the keyboard's fault). But, Vendia is here to help. When building mutations within the GraphQL Explorer, and expanding the `result`, the `_id` field will be automatically added to ensure the mutation is valid.  User experience improved: check. 
 
 **FIGURE 1: Example of the auto-inclusion of _id in the response{}**
+
 ![GraphQL Explorer AutoFill_ID](https://user-images.githubusercontent.com/105127677/198167182-cfd9108c-492f-42c2-8791-2a0e13353bf0.png)
 
 
