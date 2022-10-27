@@ -142,7 +142,7 @@ Better collaboration is not possible without data sharing. In all these models, 
 2. **Increased transparency in value chains** – Manufacturers increasingly need more visibility into products (including their origin, authenticity, location and condition) and production processes in the end-to-end value chain. They can gain this transparency by establishing tracking and monitoring systems, continuous digital records and process automation along the value chain.
 
 
-## But, two categories of challenges remain to be solved, trust-related barriers and technical barriers. 
+But, two categories of challenges remain to be solved, trust-related barriers and technical barriers. 
 
 **Trust-related barriers**
 
