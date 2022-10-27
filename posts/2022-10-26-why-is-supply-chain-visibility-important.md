@@ -161,7 +161,7 @@ Better collaboration is not possible without data sharing. In all these models, 
 3. Different digital maturity levels among participants in the same solution 
 4. Costs of switching technologies (or fear of technological lock-in)
 
-##How Vendia can help##
+## How Vendia can help
 
 During the last ten years, blockchain technology has promised a shared data ecosystem for supply chain partners. But too many of those first-generation blockchains — whether public or private — [fell short](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) of their potential. They lacked the enterprise readiness, scalability, and cloud compatibility required for success.
 
