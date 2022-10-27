@@ -1,24 +1,28 @@
 ---
 title: 'We're .COMical and Always Hardening'
-description: 'Vendia is on .com, advanced Azure beta features, expanded success rate for a variety of transaction scenarios, updated SDK defaults, and enhanced experience within GraphQL Explorer'
+description: 'Nested filtering on any level, Vendia is on .com, expanded success rate for a variety of transaction scenarios, updated SDK defaults, and enhanced experience within GraphQL Explorer'
 date: '2022-10-28'
 draft: false
 tags:
 - Improvements
-- Azure
 - Developer Experience
 ---
 
 They're at it again! The Vendia Engineering team has a series of new improvements to continue advancing the experience building on Vendia.  
 
-As always, see our [Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance. 
+As always, see [our Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and [our Examples](https://github.com/vendia/examples) for more guidance. 
 Questions? Please [contact us](https://www.vendia.com/contact-us).
 
-# We're COMical 
-While we are quite amusing, we are also officially on [Vendia.com](https://www.vendia.com)! Previously we were nothing-but-net [(Vendia.net)](https://vendia.net/) but now our website is live on Vendia.com. Check it out yourself! Don't worry; development is still on [share.vendia.net](https://share.vendia.net).
+# Neatly Nested Nuggets
+With your data neatly organized in nested layers, it allows for a flexible structure. Further solidifying Share as the solution for all data operations, filtering is now available on any attribute within any (yes any!) depth of the nesting hierarch - these nested nuggets can be used in your GraphQL filters.
 
-# Advancing Azure Beta Feature
-Sharing, without limitation, is our ethos and we continue expanding the surface area on which to share. We've added validations and stabilization for sharing between two azure-backed nodes by resolving errors associated with metadata availability, handling mutations, and cross-cloud file sharing.
+**FIGURE: Example of the result sets filtered by nested attribute**
+
+![Filtering on Nested Attribute](https://user-images.githubusercontent.com/105127677/198392310-636b9718-549b-4914-92ad-b7f6056f499e.png)
+
+
+# We're COMical 
+While we are quite amusing, we are also officially on [vendia.com](https://www.vendia.com)! Previously we were nothing-but-net [(vendia.net)](https://vendia.net/) but now our website is live on vendia.com. Check it out yourself! Don't worry; development is still on [share.vendia.net](https://share.vendia.net).
 
 # Ensuring Transaction Success
 We continue to make improvements to the speed of [consensus](https://www.vendia.com/docs/share/terms-and-definitions#consensus) and success rate of transactions by reducing scenarios in which errors might display. This release focused on resolving errors due to empty versions of data, complex access rules (ACLs), duplicate attribute names exist in different nested paths, and various uni deployments. We also removed any restrictions caused by WAF API limits.
@@ -29,7 +33,7 @@ As Vendia Share provides new features, we also ensure the SDK includes the lates
 # GraphQL Explorer Help
 We all do it: sometimes we forget to include fields and our queries fail (it's the keyboard's fault). But, Vendia is here to help. When building mutations within the GraphQL Explorer, and expanding the `result`, the `_id` field will be automatically added to ensure the mutation is valid.  User experience improved: check. 
 
-**FIGURE 1: Example of the auto-inclusion of _id in the response{}**
+**FIGURE: Example of the auto-inclusion of _id in the response{}**
 
 ![GraphQL Explorer AutoFill_ID](https://user-images.githubusercontent.com/105127677/198167182-cfd9108c-492f-42c2-8791-2a0e13353bf0.png)
 
