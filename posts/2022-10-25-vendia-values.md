@@ -11,7 +11,7 @@ authors:
 Our name, [Vendia](https://www.vendia.com/blog/welcome-to-vendia), is derived from “Venn Diagram.” The name reflects our inventive [combination](https://www.vendia.com/blog/venn-diagramming-vendia-share) of business blockchain, database tech, and smart APIs that, together, as [Vendia Share](https://vendia.com/product), achieve what no one single technology is capable of in isolation: Automated, real-time, multi-party data sharing — with control — across workflows and business networks.
 
 
-![A diagram showing the Vendia logo at the center or a networked nexus of cloud, API, database, security, and blockchain imagery](https://user-images.githubusercontent.com/107442245/198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png)
+![A diagram showing the Vendia logo at the center or a networked nexus of cloud, API, database, security, and blockchain imagery](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png)
 
 
 _Vendia gives enterprises the technology to automate and accelerate data workflows across business networks._
