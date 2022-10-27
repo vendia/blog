@@ -10,7 +10,7 @@ tags:
 
 They're at it again! The Vendia Engineering team has a series of new improvements to continue advancing the experience building on Vendia.  
 
-As always, see [our Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and [our Examples](https://github.com/vendia/examples) for more guidance. 
+As always, see [our docs](https://www.vendia.com/docs/share) for the complete details of each new feature and [our examples](https://github.com/vendia/examples) for more guidance. 
 Questions? Please [contact us](https://www.vendia.com/contact-us).
 
 # Neatly Nested Nuggets
