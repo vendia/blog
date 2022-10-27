@@ -2,7 +2,7 @@
 title: 'We're .COMical and Always Hardening'
 description: 'Vendia is on .com, advnced Azure beta features, expanded success rate for a variety of transaction scenarios, updated SDK defults, and enhanced experience within GraphQL Explorer'
 date: '2022-10-28'
-draft: true
+draft: false
 tags:
 - Improvements
 - Azure
