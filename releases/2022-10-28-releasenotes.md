@@ -1,6 +1,6 @@
 ---
 title: 'We're .COMical and Always Hardening'
-description: 'Vendia is on .com, advnced Azure beta features, expanded success rate for a variety of transaction scenarios, updated SDK defults, and enhanced experience within GraphQL Explorer'
+description: 'Vendia is on .com, advanced Azure beta features, expanded success rate for a variety of transaction scenarios, updated SDK defaults, and enhanced experience within GraphQL Explorer'
 date: '2022-10-28'
 draft: false
 tags:
@@ -24,7 +24,7 @@ Sharing, without limitation, is our ethos and we continue expanding the surface 
 We continue to make improvements to the speed of [consensus](https://www.vendia.com/docs/share/terms-and-definitions#consensus) and success rate of transactions by reducing scenarios in which errors might display. This release focused on resolving errors due to empty versions of data, complex access rules (ACLs), duplicate attribute names exist in different nested paths, and various uni deployments. We also removed any restrictions caused by WAF API limits.
 
 # Keeping the SDK Current
-As Vendia Share provides new features, we also ensure the SDK includes the latest best-practices as well. In this release, the SDK was updated to default with `node_committed` [readMode](https://www.vendia.com/docs/share/graphql#read-modes-for-queries) and includes retries to ensure transaction succcess. 
+As Vendia Share provides new features, we also ensure the SDK includes the latest best-practices as well. In this release, the SDK was updated to default with `node_committed` [readMode](https://www.vendia.com/docs/share/graphql#read-modes-for-queries) and includes retries to ensure transaction success. 
 
 # GraphQL Explorer Help
 We all do it: sometimes we forget to include fields and our queries fail (it's the keyboard's fault). But, Vendia is here to help. When building mutations within the GraphQL Explorer, and expanding the `result`, the `_id` field will be automatically added to ensure the mutation is valid.  User experience improved: check. 
