@@ -30,7 +30,7 @@ NOTE: Global supply chains are a maze. The maze spreads across industries, and s
 
 
 
-![A flat map of the world with misc. supply chain partner locations marked with pins and infrastructural elements like an airplane, shipping containers in port, trucks, and tanker boats](https://user-images.githubusercontent.com/107442245/198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
+![A flat map of the world with misc. supply chain partner locations marked with pins and infrastructural elements like an airplane, shipping containers in port, trucks, and tanker boats](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
  
 
 _Supply chain visibility is a problem to solve with better partner collaboration through real-time data sharing across companies, clouds, and the entire value chain._
