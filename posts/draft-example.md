@@ -16,13 +16,13 @@ tags:
   - rad
 tweet: sdasdasdasdasd sddadasd
 updatedBy: David Wells
-updatedAt: 2022-10-28T22:26:01.271Z
+updatedAt: 2022-10-28T22:27:05.271Z
 ---
 
 This post is a draft. Here is update. Again!!!! z
 
-  <details>
-    <summary>Click to expand</summary>
+<details>
+ <summary>Click to expand</summary>
   
     Enter details here
 
@@ -32,7 +32,7 @@ stuff
 
 here
 
-  </details>
+</details>
   
 
 fdgdfd
