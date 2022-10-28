@@ -37,7 +37,7 @@ Lorum
 coool
 <!-- MD-MAGIC-EXAMPLE:END -->
 
-<YouTube url="https://www.youtube.com/watch?v=P0BJC1rgI3w" title="hello" aspectRatio="16:9" ="undefined" />
+<YouTube url="https://www.youtube.com/watch?v=P0BJC1rgI3w" title="hello" aspectRatio="16:9" />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vxitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis
 
