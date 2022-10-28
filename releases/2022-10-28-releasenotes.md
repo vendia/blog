@@ -1,6 +1,6 @@
 ---
 title: 'We're .COMical and Always Hardening'
-description: 'Vendia is on .com, allow fitlering on any nested attribute, increased list{} result set, expanded success rate for a variety of transaction scenarios, updated SDK defaults, enhanced experience within GraphQL Explorer and bug-squashed Block Notification unsubscribe'
+description: 'Vendia is on .com, allow filtering on any nested attribute, increased list{} result set, expanded success rate for a variety of transaction scenarios, updated SDK defaults, enhanced experience within GraphQL Explorer and bug-squashed Block Notification unsubscribe'
 date: '2022-10-28'
 draft: false
 tags:
@@ -24,7 +24,7 @@ Further solidifying Share as the solution for all data operations, filtering is 
 ![Filtering on Nested Attribute](https://user-images.githubusercontent.com/105127677/198392310-636b9718-549b-4914-92ad-b7f6056f499e.png)
 
 # Returning More in Lists
-We heard you: more data right now. The result set for `list_{}` is no longer subject to 1MB limits and now returns up to 1000 items per page. In addition, the occurance of empty pages is reduced when filtering on unindexed field.
+We heard you: more data right now. The result set for `list_{}` is no longer subject to 1MB limits and now returns up to 1000 items per page. In addition, the occurrence of empty pages is reduced when filtering on an unindexed field.
 
 # Ensuring Transaction Success
 We continue to make improvements to the speed of [consensus](https://www.vendia.com/docs/share/terms-and-definitions#consensus) and success rate of transactions by reducing scenarios in which errors might display. This release focused on resolving errors due to empty versions of data, complex access rules (ACLs), duplicate attribute names in different nested paths, use of `$ref` for array definitions, and various uni deployments. We also removed restrictions caused by WAF API limits.
