@@ -1,5 +1,96 @@
 {
+  "Improvements": [
+    {
+      "file": "/releases/2022-10-28-releasenotes.md",
+      "title": "We're .COMical, Neatly Nested, and More",
+      "description": "Vendia is on .com, allows filtering on any nested attribute, updated SDK defaults, and enhanced experience within GraphQL Explorer",
+      "date": "2022-10-28",
+      "draft": false,
+      "tags": [
+        "Improvements",
+        "Developer Experience"
+      ]
+    },
+    {
+      "file": "/releases/2022-08-26-releasenotes.md",
+      "title": "Staying Cool This Summer with New Features and Improvements",
+      "description": "Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more",
+      "date": "2022-08-26",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
+    {
+      "file": "/releases/2022-07-15-releasenotes.md",
+      "title": "Improved Security, Performance and Transparency",
+      "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
+      "date": "2022-07-15",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
+    {
+      "file": "/releases/2022-04-15-releasenotes.md",
+      "title": "Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow",
+      "description": "Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow.",
+      "date": "2022-04-15",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements"
+      ]
+    },
+    {
+      "file": "/releases/2022-03-11-releasenotes.md",
+      "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
+      "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
+      "date": "2022-03-11",
+      "draft": false,
+      "tags": [
+        "New Features",
+        "Improvements",
+        "AWS"
+      ]
+    },
+    {
+      "file": "/releases/2022-01-14-releasenotes.md",
+      "title": "Improved Usability, Reliability, and Speed…as a Service",
+      "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
+      "date": "2022-01-14",
+      "draft": false,
+      "tags": [
+        "Improvements",
+        "Operations"
+      ]
+    },
+    {
+      "file": "/releases/2021-12-24-releasenotes.md",
+      "title": "Improving Smart Contracts Validation",
+      "description": "Delivering improved validation and error handling",
+      "date": "2021-12-24",
+      "draft": false,
+      "tags": [
+        "Smart Contracts",
+        "Improvements"
+      ]
+    }
+  ],
   "Developer Experience": [
+    {
+      "file": "/releases/2022-10-28-releasenotes.md",
+      "title": "We're .COMical, Neatly Nested, and More",
+      "description": "Vendia is on .com, allows filtering on any nested attribute, updated SDK defaults, and enhanced experience within GraphQL Explorer",
+      "date": "2022-10-28",
+      "draft": false,
+      "tags": [
+        "Improvements",
+        "Developer Experience"
+      ]
+    },
     {
       "file": "/releases/2022-09-26-releasenotes.md",
       "title": "Giving You Even More Control",
@@ -103,75 +194,6 @@
         "New Features",
         "GraphQL",
         "Share Web"
-      ]
-    }
-  ],
-  "Improvements": [
-    {
-      "file": "/releases/2022-08-26-releasenotes.md",
-      "title": "Staying Cool This Summer with New Features and Improvements",
-      "description": "Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more",
-      "date": "2022-08-26",
-      "draft": false,
-      "tags": [
-        "New Features",
-        "Improvements"
-      ]
-    },
-    {
-      "file": "/releases/2022-07-15-releasenotes.md",
-      "title": "Improved Security, Performance and Transparency",
-      "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
-      "date": "2022-07-15",
-      "draft": false,
-      "tags": [
-        "New Features",
-        "Improvements"
-      ]
-    },
-    {
-      "file": "/releases/2022-04-15-releasenotes.md",
-      "title": "Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow",
-      "description": "Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow.",
-      "date": "2022-04-15",
-      "draft": false,
-      "tags": [
-        "New Features",
-        "Improvements"
-      ]
-    },
-    {
-      "file": "/releases/2022-03-11-releasenotes.md",
-      "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
-      "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
-      "date": "2022-03-11",
-      "draft": false,
-      "tags": [
-        "New Features",
-        "Improvements",
-        "AWS"
-      ]
-    },
-    {
-      "file": "/releases/2022-01-14-releasenotes.md",
-      "title": "Improved Usability, Reliability, and Speed…as a Service",
-      "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
-      "date": "2022-01-14",
-      "draft": false,
-      "tags": [
-        "Improvements",
-        "Operations"
-      ]
-    },
-    {
-      "file": "/releases/2021-12-24-releasenotes.md",
-      "title": "Improving Smart Contracts Validation",
-      "description": "Delivering improved validation and error handling",
-      "date": "2021-12-24",
-      "draft": false,
-      "tags": [
-        "Smart Contracts",
-        "Improvements"
       ]
     }
   ],
