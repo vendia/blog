@@ -29,7 +29,7 @@ This post is a draft. Here is update. Again!!!!
 
 Lorum
 
-<Author name="cool" href="nice" ="undefined" />
+<Author name="cool" href="nice" />
 
 ![](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1666889990/user-images.githubusercontent.com..107442245..198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
 
