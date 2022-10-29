@@ -16,7 +16,7 @@ tags:
   - rad
 tweet: sdasdasdasdasd sddadasd
 updatedBy: David Wells
-updatedAt: 2022-10-29T03:52:15.333Z
+updatedAt: 2022-10-29T03:54:23.075Z
 ---
 
 This post is a draft. Here is update. Again!!!! z
@@ -25,17 +25,13 @@ This post is a draft. Here is update. Again!!!! z
 <details>
   <summary>Click to expand</summary>
 
+  Enter details here
 
-    Enter details here
-
-  <Author name="block" href="here"  />
+  <Author name="block" href="here"   />
 
   stuff
 
   here
-
-
-
 
 </details>
   
