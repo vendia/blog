@@ -21,20 +21,18 @@ updatedAt: 2022-10-29T03:54:23.075Z
 
 This post is a draft. Here is update. Again!!!! z
 
-
 <details>
   <summary>Click to expand</summary>
 
-  Enter details here
+Enter details here
 
-  <Author name="block" href="here"   />
+<Author name="block" href="here"   />
 
-  stuff
+stuff
 
-  here
+here
 
 </details>
-  
 
 fdgdfd
 
