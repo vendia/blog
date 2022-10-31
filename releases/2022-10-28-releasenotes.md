@@ -36,7 +36,7 @@ mutation _files__add($input: Vendia_File_Input_!, $syncMode: Vendia_SyncMode = N
 
 To override the default, include the `syncMode` option as such:
 
-```graphql
+```js
 const response = await entities.product.add(
   {
     name: 'super-widget',
