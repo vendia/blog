@@ -26,15 +26,31 @@ For example, the sample schema file in [Vendia's simple product catalog quick st
 Previously, adding a product required a query similar to the following:
 
 ```graphql
-mutation AddProduct {add_Product(input: {name: "Awesome shirt", sku: "abc123", price: 10, size: "XL"} syncMode: NODE_LEDGERED) {result {_owner}}}
+mutation AddProduct {
+  add_Product(
+    input: { name: "Awesome shirt", sku: "abc123", price: 10, size: "XL" }
+    syncMode: NODE_LEDGERED
+  ) {
+    result {
+      _owner
+    }
+  }
+}
 ```
 
 Now, adding a product requires changing the size attribute from a string to a valid enum value.
 
 ```graphql
-
-mutation AddProduct {add_Product(input: {name: "Awesome shirt", sku: "abc123", price: 10, size: XL} syncMode: NODE_LEDGERED) {result {_owner}}}
-
+mutation AddProduct {
+  add_Product(
+    input: { name: "Awesome shirt", sku: "abc123", price: 10, size: XL }
+    syncMode: NODE_LEDGERED
+  ) {
+    result {
+      _owner
+    }
+  }
+}
 ```
 
 Similarly, we now offer a consistent and GraphQL-centric approach to querying for or filtering enumerated values.
@@ -42,17 +58,31 @@ Similarly, we now offer a consistent and GraphQL-centric approach to querying fo
 Previously, filtering for a product required a query similar to the following:
 
 ```graphql
-
-list_ProductItems( filter: { size: { eq: "XL" } } ) { _ProductItems { name sku price size } }
-
+query listProducts {
+  list_ProductItems(filter: { size: { eq: "XL" } }) {
+    _ProductItems {
+      name
+      sku
+      price
+      size
+    }
+  }
+}
 ```
 
 Now, filtering for a product requires changing the size attribute from a string to a valid enum value.
 
 ```graphql
-
-list_ProductItems( filter: { size: { eq: XL } } ) { _ProductItems { name sku price size } }
-
+query listProducts {
+  list_ProductItems(filter: { size: { eq: XL } }) {
+    _ProductItems {
+      name
+      sku
+      price
+      size
+    }
+  }
+}
 ```
 
 
@@ -65,43 +95,24 @@ We've updated Vendia Share to require clients to explicitly set a value for auth
 A `registration.json` file must now contain an `authorizerType` element within a Node's `settings`
 
 ```json
-
 {
-
-    "name": "test-BasicUni",
-
-    "schema": "schema.json",
-
-    "nodes": [
-
-        {
-
-            "name": "TestNode",
-
-            "userId": "user@email.com",
-
-            "region": "us-east-1",
-
-            "settings": {
-
-                "apiSettings": {
-
-                    "auth": {
-
-                        "authorizerType": "VENDIA_USER"
-
-                    }
-
-                }
-
-            }
-
+  "name": "test-BasicUni",
+  "schema": "schema.json",
+  "nodes": [
+    {
+      "name": "TestNode",
+      "userId": "user@email.com",
+      "region": "us-east-1",
+      "settings": {
+        "apiSettings": {
+          "auth": {
+            "authorizerType": "VENDIA_USER"
+          }
         }
-
-    ]
-
+      }
+    }
+  ]
 }
-
 ```
 
 **NOTE:** While `API_KEY` was our previous default when `authorizerType` was not explicitly set, we do not recommend `API_KEY` for production Unis. API keys are generally used to track or meter API usage but are not a secure authorization mechanism.  For production usage, please consider the [other authorization options](https://www.vendia.com/docs/share/node-access-control#how-to-set) available.
