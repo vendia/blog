@@ -14,9 +14,11 @@ As always, see [our docs](https://www.vendia.com/docs/share) for the complete de
 Questions? Please [contact us](https://www.vendia.com/contact-us).
 
 # We're COMical 
+
 While we are quite amusing, we are also officially on [vendia.com](https://www.vendia.com)! Previously we were nothing-but-net [(vendia.net)](https://vendia.net/) but now our website is live on vendia.com. Check it out yourself! Don't worry; development is still on [share.vendia.net](https://share.vendia.net).
 
 # Neatly Nested Nuggets
+
 Further solidifying Share as the solution for all data operations, filtering is now available on any attribute within any (yes any!) depth of the neatly nested hierarchy - these nested nuggets (attributes) can be used in your GraphQL filters.
 
 **FIGURE: Example of a result set filtered by a nested attribute**
