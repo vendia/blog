@@ -23,7 +23,7 @@ Further solidifying Share as the solution for all data operations, filtering is 
 
 **FIGURE: Example of a result set filtered by a nested attribute**
 
-![Filtering on Nested Attribute](https://user-images.githubusercontent.com/105127677/198698735-28fdc85a-8c0b-441b-a982-2c3e5aeb1062.png)
+![Filtering on Nested Attribute](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..198698735-28fdc85a-8c0b-441b-a982-2c3e5aeb1062.png)
 
 # Keeping the SDK Current
 As Vendia Share provides new features, we also ensure the SDK includes the latest best-practices as well. In this release, the SDK was updated to use the Vendia Share default for `node_committed` [syncMode](https://www.vendia.com/docs/share/graphql#sync-modes-for-mutations) and includes retries to ensure transaction success. 
@@ -58,7 +58,7 @@ We all do it: sometimes we forget to include fields and our queries fail (it's t
 
 **FIGURE: Example of the auto-inclusion of _id**
 
-![GraphQL Explorer AutoFill_ID](https://user-images.githubusercontent.com/105127677/198167182-cfd9108c-492f-42c2-8791-2a0e13353bf0.png)
+![GraphQL Explorer AutoFill_ID](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..198167182-cfd9108c-492f-42c2-8791-2a0e13353bf0.png)
 
 
 For more information about Vendia Share's current and near-term product releases, as well as the real-time data sharing workloads for which Share is unmatched, [contact us](https://www.vendia.com/contact-us) as we'd love to _share_ more.
