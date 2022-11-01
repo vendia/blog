@@ -181,4 +181,4 @@ And for those of you listening, there's a few things that we mentioned over the 
 
 ## Get Circles of Trust in your inbox
 
-Join the [Circles of Trust community](https://www.vendia.net/resources/circles-of-trust) to real talk on real-time data sharing right in [your inbox](https://www.vendia.net/resources/circles-of-trust).
+Join the [Circles of Trust community](https://www.vendia.net/resources/circles-of-trust) to get real talk on real-time data sharing right in [your inbox](https://www.vendia.net/resources/circles-of-trust).
