@@ -1,4 +1,47 @@
 {
+  "alexa-johnson": [
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtimedatasharing",
+        "dataalliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
+      "title": "Guide to real-time data sharing vendor types",
+      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
+      "date": "2022-10-18",
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    }
+  ],
   "tim-wagner": [
     {
       "file": "/posts/2022-10-27-codeless-apis.md",
@@ -894,34 +937,6 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
-    }
-  ],
-  "alexa-johnson": [
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
-      "title": "Guide to real-time data sharing vendor types",
-      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
-      "date": "2022-10-18",
-      "categories": [
-        "product",
-        "concepts"
-      ],
-      "authors": [
-        "Alexa Johnson"
       ]
     }
   ],

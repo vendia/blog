@@ -1,4 +1,106 @@
 {
+  "podcast": [
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtimedatasharing",
+        "dataalliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01"
+    }
+  ],
+  "realtimedatasharing": [
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtimedatasharing",
+        "dataalliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27",
+      "categories": [
+        "product",
+        "datamodeling",
+        "realtimedatasharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "realtimedatasharing",
+        "blockchain",
+        "dataalliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
+  "dataalliance": [
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtimedatasharing",
+        "dataalliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "realtimedatasharing",
+        "blockchain",
+        "dataalliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
   "product": [
     {
       "file": "/posts/2022-10-27-codeless-apis.md",
@@ -324,36 +426,6 @@
       ]
     }
   ],
-  "realtimedatasharing": [
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27",
-      "categories": [
-        "product",
-        "datamodeling",
-        "realtimedatasharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "realtimedatasharing",
-        "blockchain",
-        "dataalliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    }
-  ],
   "blockchain": [
     {
       "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
@@ -394,22 +466,6 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
-    }
-  ],
-  "dataalliance": [
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "realtimedatasharing",
-        "blockchain",
-        "dataalliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
       ]
     }
   ],
@@ -1240,17 +1296,6 @@
       "authors": [
         "Tim Wagner"
       ]
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01"
     }
   ],
   "tutorials": [
