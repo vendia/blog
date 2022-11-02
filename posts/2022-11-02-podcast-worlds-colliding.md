@@ -6,7 +6,7 @@ categories:
 - podcast
 - realtimedatasharing
 - dataalliance
-thumbnail: 'http://url-to-thumbnail.jpg'
+thumbnail: 'https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png'
 authors:
   - Alexa Johnson
 ---
