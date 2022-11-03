@@ -54,7 +54,7 @@ We know that it’s better to partner a “detail-oriented” person with a “b
 * With Sales and Solution teams creating an allyship, they can better respond to customers with tailored demos that meet their needs, guide customers through a white-glove onboarding experience, and add technical coverage should those questions arise.
 
 **FIGURE 1: Overlapping circles of people-oriented teams**
-
+![Vendia Circles of Teams](https://user-images.githubusercontent.com/105127677/199636005-cf656c70-7f07-4f96-9261-05e2d8be3c29.jpg)
 
 
 NOTE: There are many more teams involved beyond those mentioned above. A sampling includes Internal Operations, Talent, and Product. They are very much a critical part of the success of these intersections. But, our circle got messy, and we opted for simplicity.
