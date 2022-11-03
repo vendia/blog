@@ -90,7 +90,7 @@ Commercial solutions must simultaneously address two sets of requirements:
 1. Conventional database features like strong consistency, data modeling, query languages, etc. 
 2. Enterprise-level scalability and performance similar to the existing state-of-the-art cloud databases
 
-Applying deterministic database technologies to these [blockchain](https://www.vendia.net/blockchain) applications</span> enables commercial outcomes that can address myriad use cases, giving companies the flexibility to build business networks without the historical challenges of living with inconsistent, incomplete or out-of-date information from their partners.
+Applying deterministic database technologies to these [blockchain](https://www.vendia.net/blockchain) applications enables commercial outcomes that can address myriad use cases, giving companies the flexibility to build business networks without the historical challenges of living with inconsistent, incomplete or out-of-date information from their partners.
 
 
 ## Take a closer look at enterprise blockchain
