@@ -1,48 +1,18 @@
 {
-  "alexa-johnson": [
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "realtimedatasharing",
-        "dataalliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
-      "title": "Guide to real-time data sharing vendor types",
-      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
-      "date": "2022-10-18",
-      "categories": [
-        "product",
-        "concepts"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    }
-  ],
   "tim-wagner": [
+    {
+      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "title": "The future of data sharing with deterministic databases",
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04",
+      "categories": [
+        "blockchain",
+        "realtimedatasharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
     {
       "file": "/posts/2022-10-27-codeless-apis.md",
       "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
@@ -616,6 +586,106 @@
       ]
     }
   ],
+  "alexa-johnson": [
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtimedatasharing",
+        "dataalliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
+      "title": "Guide to real-time data sharing vendor types",
+      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
+      "date": "2022-10-18",
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    }
+  ],
+  "francine-klein": [
+    {
+      "file": "/posts/2022-11-01-venya-do-it-right.md",
+      "title": "Veny’a doing it right",
+      "description": "Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.",
+      "date": "2022-11-01",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
+      "title": "Your Customer 360 solution isn’t really 360",
+      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
+      "date": "2022-10-14",
+      "categories": [
+        "concepts",
+        "product",
+        "datamodeling"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-22-real-time-everything.md",
+      "title": "Real-time “everything” with operational and analytics data",
+      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
+      "date": "2022-09-22",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials",
+        "product",
+        "datamodeling"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
+      "title": "Understanding real-time data lakes",
+      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
+      "date": "2022-08-03",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    }
+  ],
   "vikrant-kahlir": [
     {
       "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
@@ -937,51 +1007,6 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
-    }
-  ],
-  "francine-klein": [
-    {
-      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
-      "title": "Your Customer 360 solution isn’t really 360",
-      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
-      "date": "2022-10-14",
-      "categories": [
-        "concepts",
-        "product",
-        "datamodeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-22-real-time-everything.md",
-      "title": "Real-time “everything” with operational and analytics data",
-      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
-      "date": "2022-09-22",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials",
-        "product",
-        "datamodeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
-      "title": "Understanding real-time data lakes",
-      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
-      "date": "2022-08-03",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Francine Klein"
       ]
     }
   ],
