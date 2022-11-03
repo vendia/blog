@@ -26,7 +26,7 @@ All databases ledger (keep a copy of) updates to the data — it’s the algorit
 
 Recently, deterministic databases have emerged as an alternative to conventional databases. In a deterministic system, changes are organized up front, _then_ applied. This approach offers some [important advantages](https://www.cs.umd.edu/~abadi/papers/abadi-cacm2018.pdf). For example, geographically distributed replicas can be given the same input and be guaranteed to produce the same result, making data replication (and replay) easier to implement.
 
-These techniques can be used to create a conventional SQL or NoSQL database. Companies like[FaunaDB](https://fauna.com/) are[doing exactly that](https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-protocol), leveraging the advantages of deterministic database design to improve the efficiency, cost structure and performance of a conventional distributed cloud database.
+These techniques can be used to create a conventional SQL or NoSQL database. Companies like [FaunaDB](https://fauna.com/) are [doing exactly that](https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-protocol), leveraging the advantages of deterministic database design to improve the efficiency, cost structure and performance of a conventional distributed cloud database.
 
 
 ### Blockchains can serve as deterministic databases
@@ -90,7 +90,7 @@ Commercial solutions must simultaneously address two sets of requirements:
 1. Conventional database features like strong consistency, data modeling, query languages, etc. 
 2. Enterprise-level scalability and performance similar to the existing state-of-the-art cloud databases
 
-Applying deterministic database technologies to these [blockchain](https://www.vendia.net/blockchain)<span style="text-decoration:underline;"> applications</span> enables commercial outcomes that can address myriad use cases, giving companies the flexibility to build business networks without the historical challenges of living with inconsistent, incomplete or out-of-date information from their partners.
+Applying deterministic database technologies to these [blockchain](https://www.vendia.net/blockchain) applications</span> enables commercial outcomes that can address myriad use cases, giving companies the flexibility to build business networks without the historical challenges of living with inconsistent, incomplete or out-of-date information from their partners.
 
 
 ## Take a closer look at enterprise blockchain
