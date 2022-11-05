@@ -1,6 +1,7 @@
 ---
-title: Draft post example
 draft: true
+slug: my-custom-slug
+title: Draft post example
 description: This is an example post!
 date: 2020-01-02
 authors:
@@ -16,7 +17,7 @@ tags:
   - rad
 tweet: sdasdasdasdasd sddadasd
 updatedBy: David Wells
-updatedAt: 2022-11-02T20:16:43.383Z
+updatedAt: 2022-11-05T16:58:31.305Z
 ---
 
 This post is a draft. Here is update. Again!!!! z
