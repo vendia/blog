@@ -5,7 +5,7 @@ title: Draft post example
 description: This is an example post!
 date: 2020-01-02
 authors:
-  - David Wells
+  - Vendia
 categories:
   - company
   - announcements
@@ -13,8 +13,7 @@ relatedPosts:
   - 2020-07-01-meet-vendias-founders
   - 2020-11-05-track-and-trace
 tags:
-  - cool
-  - rad
+  - funding
 tweet: sdasdasdasdasd sddadasd
 updatedBy: David Wells
 updatedAt: 2022-11-07T17:40:44.518Z

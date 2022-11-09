@@ -20,6 +20,7 @@
     "ryan-scott-brown",
     "shruthi-rao",
     "tim-wagner",
+    "vendia",
     "vikrant-kahlir",
     "alexa-johnson"
   ],
@@ -263,6 +264,18 @@
       "postCount": 51
     },
     {
+      "name": "Vendia",
+      "github": "vendia",
+      "twitter": "VendiaHQ",
+      "avatar": "https://avatars.githubusercontent.com/u/69701311?v=4",
+      "bio": {
+        "short": "Automate and accelerate data workflows across business networks.",
+        "long": "Automate and accelerate data workflows across business networks."
+      },
+      "slug": "vendia",
+      "postCount": 0
+    },
+    {
       "name": "Vikrant Kahlir",
       "github": "vikrant-vendia",
       "twitter": "vkahlir",
@@ -284,7 +297,7 @@
         "long": "Alexa likes YA novels, gardening, and hazelnut lattes."
       },
       "slug": "alexa-johnson",
-      "postCount": 3
+      "postCount": 4
     }
   ]
 }

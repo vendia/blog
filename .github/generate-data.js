@@ -15,7 +15,8 @@ const {
   DATE_FORMAT_REGEX
 } = require('./get-data')
 
-let markdownData = []
+let fullMarkdownData = []
+let filteredMarkdownData = []
 
 const BASE_DIR = path.resolve(__dirname, '../')
 const GENERATED_DIR = path.resolve(__dirname, '_generated')
@@ -36,14 +37,20 @@ const config = {
         '!README.md',
         '!node_modules/**'
       ])
+    
+      fullMarkdownData = mdData
 
-      markdownData = mdData
-      // console.log('mdData', mdData)
+      const IGNORE_LIST = ['draft-example.md', 'typography.mdx']
+      const mdDataToUse = mdData.filter((p) => {
+        return !IGNORE_LIST.includes(path.basename(p.file))
+      })
+
+      filteredMarkdownData = mdDataToUse
       
       /* Make Markdown Table */
       let md = `| Post Details | Published-Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
-      mdData.sort(sortByDate('date')).forEach((item) => {
+      mdDataToUse.sort(sortByDate('date')).forEach((item) => {
         const { data, file } = item
         const fileName = path.basename(file)
         const postSlug = fileName.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
@@ -64,7 +71,12 @@ const config = {
       // console.log('longest name', max)
       let md = `<table>\n <tr>`
       let count = 0
-      authors.forEach((person, i) => {
+
+      const IGNORE_LIST = ['vendia']
+
+      authors.filter(({ name, slug }) => {
+        return !IGNORE_LIST.includes(name) && !IGNORE_LIST.includes(slug)
+      }).forEach((person, i) => {
         const { twitter, github, name, avatar, slug } = person
         count = count + 1
         const isLast = i === (authors.length - 1)
@@ -139,6 +151,13 @@ const formatFns = {
   releases: formatReleaseSlug
 }
 
+async function saveSlugMap(data, kind) {
+  /* Save post slug map for faster lookups in build */
+  const slugMap = getSlugMap(data, BASE_DIR, formatFns[kind])
+  console.log('slugMap', slugMap)
+  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-slug.json`), JSON.stringify(slugMap, null, 2))
+}
+
 async function saveGeneratedIndexes(mdData, type = 'post') {
   const kind = type.match(/s$/) ? type : `${type}s`
   const externalPosts = await getExternalPosts()
@@ -147,11 +166,6 @@ async function saveGeneratedIndexes(mdData, type = 'post') {
   const posts = getPostsByCategory(mdData, externalPosts)
   // console.log('posts', posts)
   await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-category.json`), JSON.stringify(posts, null, 2))
-
-  /* Save post slug map for faster lookups in build */
-  const slugMap = getSlugMap(mdData, BASE_DIR, formatFns[type])
-  // console.log('slugMap', slugMap)
-  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-slug.json`), JSON.stringify(slugMap, null, 2))
 
   /* Save post tag map for faster lookups in build */
   const postByTag = getPostsByTag(mdData, externalPosts)
@@ -226,8 +240,11 @@ markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
   console.log('ℹ Generating index information...')
   // console.log('authorsData', authorsData)
   /* Generate & save blog post data */
-  const { postsByAuthor } = await saveGeneratedIndexes(markdownData, 'posts')
+  const { postsByAuthor } = await saveGeneratedIndexes(filteredMarkdownData, 'posts')
   // console.log('postsByAuthor', postsByAuthor)
+
+  /* Save slug maps for posts */
+  await saveSlugMap(fullMarkdownData, 'posts')
   /* Add post count to author data */
   let authorsData = await getAuthors()
   const updatedAuthors = authorsData.authors.map((author) => {
@@ -250,6 +267,8 @@ markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
   ])
 
   await saveGeneratedIndexes(releaseMdData, 'releases')
+  /* Save slug maps for releases */
+  await saveSlugMap(releaseMdData, 'releases')
   console.log('✔ Generating index information complete')
   console.log('\n🎉 Doc generation complete\n')
 })

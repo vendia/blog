@@ -28,6 +28,7 @@ const GLOB_PATTERN = [
 async function getMarkdownData(globPattern = GLOB_PATTERN, opts = {}) {
   const {
     baseDir = cwd,
+    ignoreList = []
   } = opts
   const cacheKey = globPattern.toString()
   const matches = await globby(globPattern)
@@ -40,13 +41,14 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, opts = {}) {
     }
   }
   let errors = []
-  /* Ignore example posts */
-  const IGNORE_LIST = ['draft-example.md', 'typography.mdx']
-  const filePaths = matches
-    .map((match) => path.resolve(baseDir, match))
-    .filter((p) => {
-      return !IGNORE_LIST.includes(path.basename(p))
+
+  let filePaths = matches.map((match) => path.resolve(baseDir, match))
+  /* Ignore files */
+  if (ignoreList.length) {
+    filePaths = filePaths.filter((p) => {
+      return !ignoreList.includes(path.basename(p))
     })
+  }
 
   const contents = (
     await Promise.all(filePaths.map((filePath) => {

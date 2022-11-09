@@ -1,4 +1,5 @@
 {
+  "vendia-engineering-team-spotlight": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
   "data-sharing-deterministic-databases": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
   "podcast-worlds-colliding": "/posts/2022-11-02-podcast-worlds-colliding.md",
   "venya-do-it-right": "/posts/2022-11-01-venya-do-it-right.md",
@@ -125,5 +126,7 @@
   "tools-that-shape-products": "/posts/2020-11-16-tools-that-shape-products.md",
   "track-and-trace": "/posts/2020-11-05-track-and-trace.md",
   "meet-vendias-founders": "/posts/2020-07-01-meet-vendias-founders.md",
-  "welcome-to-vendia": "/posts/2020-06-30-welcome-to-vendia.md"
+  "welcome-to-vendia": "/posts/2020-06-30-welcome-to-vendia.md",
+  "my-custom-slug": "/posts/draft-example.md",
+  "typography": "/posts/typography.mdx"
 }
