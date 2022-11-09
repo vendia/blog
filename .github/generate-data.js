@@ -17,6 +17,9 @@ const {
 
 let markdownData = []
 
+const BASE_DIR = path.resolve(__dirname, '../')
+const GENERATED_DIR = path.resolve(__dirname, '_generated')
+
 const config = {
   transforms: {
     siteLink(_content, _options, ctx) {
@@ -131,23 +134,42 @@ function longest(arr, prop) {
   return arr.reduce((n, c) => Math.max((c[prop] + '').length, n), 0)
 }
 
+const formatFns = {
+  posts: formatPostSlug,
+  releases: formatReleaseSlug
+}
+
 async function saveGeneratedIndexes(mdData, type = 'post') {
   const kind = type.match(/s$/) ? type : `${type}s`
   const externalPosts = await getExternalPosts()
+
+  /* Save post category map for faster lookups in build */
   const posts = getPostsByCategory(mdData, externalPosts)
-  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-category.json`), JSON.stringify(posts, null, 2))
   // console.log('posts', posts)
+  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-category.json`), JSON.stringify(posts, null, 2))
+
+  /* Save post slug map for faster lookups in build */
+  const slugMap = getSlugMap(mdData, BASE_DIR, formatFns[type])
+  // console.log('slugMap', slugMap)
+  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-slug.json`), JSON.stringify(slugMap, null, 2))
+
+  /* Save post tag map for faster lookups in build */
   const postByTag = getPostsByTag(mdData, externalPosts)
-  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-tag.json`), JSON.stringify(postByTag, null, 2))
   // console.log('postByTag', postByTag)
+  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-tag.json`), JSON.stringify(postByTag, null, 2))
+  
+  /* Save all posts by authors for entity type */
   const postsByAuthor = getPostsByAuthor(mdData, externalPosts)
-  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-by-author.json`), JSON.stringify(postsByAuthor, null, 2))
   // console.log('postsByAuthor', postsByAuthor)
+  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-author.json`), JSON.stringify(postsByAuthor, null, 2))
+  
+  /* Save all tags for entity type */
   const tags = getTags(mdData, externalPosts).reduce((acc, curr) => {
     acc[slugify(curr).toLowerCase()] = curr
     return acc
   }, {})
-  await fs.writeFile(path.resolve(__dirname, `_generated/${kind}-tags.json`), JSON.stringify(tags, null, 2))
+  await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-tags.json`), JSON.stringify(tags, null, 2))
+
   // console.log('tags', tags)
   return {
     postsByAuthor,
@@ -155,25 +177,68 @@ async function saveGeneratedIndexes(mdData, type = 'post') {
   }
 }
 
+function formatPostSlug(str = '') {
+  return removeLeadingAndTrailingSlashes(
+    removeDate(
+      removeExt(str)
+    )
+  )
+}
+
+function formatReleaseSlug(str = '') {
+  return removeLeadingAndTrailingSlashes(
+    removeExt(str)
+  )
+}
+
+function removeDate(str = '') {
+  return str.replace(DATE_FORMAT_REGEX, '')
+}
+
+function removeExt(str = '') {
+  return str.replace(/\.(.*)?$/i, '')
+}
+
+function removeLeadingAndTrailingSlashes(str = '') {
+  return str.replace(/^\/|\/$/g, '')
+}
+
+function getSlugMap(data, baseDir, formatFn) {
+  return data.reduce((acc, post) => {
+    let slug = (post.data.slug) ? post.data.slug : path.basename(post.file)
+    const nicePath = post.file.replace(baseDir, '')
+    if (formatFn) {
+      slug = formatFn(slug)
+    }
+    /* Ensure no duplicate slugs are used */
+    if (acc[slug]) {
+      throw new Error(`Slug "${slug}" already exists in ${acc[slug]}. 
+Change duplicate slug "${slug}" in ${nicePath} to fix this error.
+`)
+    }
+    acc[slug] = nicePath
+    return acc
+  }, {})
+}
+
 console.log('🏃‍♂️ Doc generation initialized...\n')
 markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
   console.log('ℹ Generating index information...')
-  /* Save author data */
-  let authorsData = await getAuthors()
   // console.log('authorsData', authorsData)
-  /* Save blog post data */
+  /* Generate & save blog post data */
   const { postsByAuthor } = await saveGeneratedIndexes(markdownData, 'posts')
   // console.log('postsByAuthor', postsByAuthor)
   /* Add post count to author data */
-  const authors = authorsData.authors.map((author) => {
+  let authorsData = await getAuthors()
+  const updatedAuthors = authorsData.authors.map((author) => {
     const authorPosts = postsByAuthor[author.slug]
     return {
       ...author,
       postCount: (authorPosts) ? authorPosts.length : 0
     }
   })
-  authorsData.authors = authors
-  await fs.writeFile(path.resolve(__dirname, '_generated/author-data.json'), JSON.stringify(authorsData, null, 2))
+  authorsData.authors = updatedAuthors
+  await fs.writeFile(path.resolve(GENERATED_DIR, 'author-data.json'), JSON.stringify(authorsData, null, 2))
 
   /* Save releases data */
   const [ releaseMdData ] = await getMarkdownData([
