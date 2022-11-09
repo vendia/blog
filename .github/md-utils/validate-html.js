@@ -2,6 +2,9 @@ const { HtmlValidate } = require("html-validate")
 const htmlTags = require('html-tags')
 
 // Alt https://github.com/codsen/codsen/tree/main/packages/codsen-parser
+// Alt for image validation https://github.com/Mermade/mdv
+// Alt for link validation https://github.com/tcort/markdown-link-check
+// For roam style backlinks https://github.com/andymatuschak/note-link-janitor
 
 const GET_TAG = /(?:Missing close-tag|Mismatched close-tag), expected '<\/(\S*)>'/
 const GET_NAME = /<\/(\S*)> is not a valid element name/
