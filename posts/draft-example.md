@@ -1,6 +1,7 @@
 ---
-title: Draft post example
 draft: true
+slug: my-custom-slug
+title: Draft post example
 description: This is an example post!
 date: 2020-01-02
 authors:
@@ -16,12 +17,12 @@ tags:
   - rad
 tweet: sdasdasdasdasd sddadasd
 updatedBy: David Wells
-updatedAt: 2022-11-02T20:16:43.383Z
+updatedAt: 2022-11-07T17:40:44.518Z
 ---
 
 This post is a draft. Here is update. Again!!!! z
 
-<HubSpotForm formId="dd89e67f-cb06-48a2-964b-df9b5f152b67" />
+<HubSpotForm formId="9910bf05-90c9-4f34-b7aa-74cfcf61c164" />
 
 Form! ^
 
