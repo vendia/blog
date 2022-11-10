@@ -1,7 +1,7 @@
 ---
 draft: true
 slug: my-custom-slug
-title: Draft post example!
+title: Draft post example!!!!
 description: This is an example post!
 date: 2020-01-02
 authors:
@@ -19,7 +19,7 @@ seo:
   title: Draft
   description: descr
 updatedBy: David Wells
-updatedAt: 2022-11-10T17:44:36.950Z
+updatedAt: 2022-11-10T18:25:42.556Z
 ---
 
 This post is a draft. Here is update. Again!!!! z
