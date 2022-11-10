@@ -14,6 +14,7 @@ const {
   sortByDate,
   DATE_FORMAT_REGEX
 } = require('./get-data')
+const { convertDateToString } = require('./md-utils/utils')
 
 let fullMarkdownData = []
 let filteredMarkdownData = []
@@ -59,7 +60,7 @@ const config = {
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${data.title}](${url}) ${description}${authors} | ${data.date} | [✍️](${editLink})\n`;
+        md += `| [${data.title}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
       });
 
       return md;
@@ -130,7 +131,7 @@ const config = {
         const editLink = `https://github.com/vendia/blog/edit/master/releases/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${data.title}](${url}) ${description}${authors} | ${data.date} | [✍️](${editLink})\n`;
+        md += `| [${data.title}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
       });
 
       return md;

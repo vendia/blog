@@ -4,7 +4,7 @@ description: "Tim Wagner, the Father of Serverless and Vendia Co-founder explore
 date: "2022-11-04"
 categories:
   - blockchain
-  - realtimedatasharing
+  - realtime-data-sharing
 authors:
   - Tim Wagner
 ---

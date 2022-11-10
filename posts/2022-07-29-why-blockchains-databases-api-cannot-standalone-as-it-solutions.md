@@ -4,7 +4,7 @@ description: 'Why sharing real-time data across apps, companies, clouds, geograp
 date: '2022-07-29'
 categories:
 - architecture
-- datamodeling
+- data-modeling
 authors:
   - Tim Wagner
 ---

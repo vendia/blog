@@ -7,7 +7,7 @@ categories:
 - concepts
 - tutorials
 - product
-- datamodeling
+- data-modeling
 authors:
   - Francine Klein
 ---

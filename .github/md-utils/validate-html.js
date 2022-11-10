@@ -1,3 +1,4 @@
+const path = require('path')
 const { HtmlValidate } = require("html-validate")
 const htmlTags = require('html-tags')
 
@@ -78,7 +79,10 @@ function validateHtmlTags(tags, filePath) {
 function validateHtml(text = '', filePath = '') {
   const htmlvalidate = new HtmlValidate(config)
   const report = htmlvalidate.validateString(text)
-  // console.log('report', report)
+  // if (path.basename(filePath) === 'typography.mdx') {
+  //   console.log('report', report)
+  //   console.log('report', report.results[0].messages)
+  // }
   const fpMessage = (filePath) ? ` in ${filePath}` : ''
   // console.log('report', report.results[0].messages)
   const errs = filterReport(report, fpMessage);

@@ -274,7 +274,34 @@
       ]
     }
   ],
-  "blockchain": [
+  "realtime-data-sharing": [
+    {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-11-10T18:44:48.220Z"
+    },
     {
       "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
       "title": "The future of data sharing with deterministic databases",
@@ -282,7 +309,36 @@
       "date": "2022-11-04",
       "categories": [
         "blockchain",
-        "realtimedatasharing"
+        "realtime-data-sharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtime-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27",
+      "categories": [
+        "product",
+        "data-modeling",
+        "realtime-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -294,9 +350,38 @@
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
       "date": "2022-10-26",
       "categories": [
-        "realtimedatasharing",
+        "realtime-data-sharing",
         "blockchain",
-        "dataalliance"
+        "data-alliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
+  "blockchain": [
+    {
+      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "title": "The future of data sharing with deterministic databases",
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04",
+      "categories": [
+        "blockchain",
+        "realtime-data-sharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "realtime-data-sharing",
+        "blockchain",
+        "data-alliance"
       ],
       "authors": [
         "Vikrant Kahlir"
@@ -322,69 +407,11 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "datamodeling",
+        "data-modeling",
         "blockchain"
       ],
       "authors": [
         "Tim Wagner"
-      ]
-    }
-  ],
-  "realtimedatasharing": [
-    {
-      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
-      "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
-      "categories": [
-        "blockchain",
-        "realtimedatasharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "realtimedatasharing",
-        "dataalliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27",
-      "categories": [
-        "product",
-        "datamodeling",
-        "realtimedatasharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "realtimedatasharing",
-        "blockchain",
-        "dataalliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
       ]
     }
   ],
@@ -396,8 +423,8 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtimedatasharing",
-        "dataalliance"
+        "realtime-data-sharing",
+        "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
       "authors": [
@@ -414,7 +441,7 @@
       "date": "2022-10-01"
     }
   ],
-  "dataalliance": [
+  "data-alliance": [
     {
       "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
       "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
@@ -422,8 +449,8 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtimedatasharing",
-        "dataalliance"
+        "realtime-data-sharing",
+        "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
       "authors": [
@@ -436,9 +463,9 @@
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
       "date": "2022-10-26",
       "categories": [
-        "realtimedatasharing",
+        "realtime-data-sharing",
         "blockchain",
-        "dataalliance"
+        "data-alliance"
       ],
       "authors": [
         "Vikrant Kahlir"
@@ -453,8 +480,8 @@
       "date": "2022-10-27",
       "categories": [
         "product",
-        "datamodeling",
-        "realtimedatasharing"
+        "data-modeling",
+        "realtime-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -494,7 +521,7 @@
       "categories": [
         "concepts",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -510,7 +537,7 @@
         "concepts",
         "tutorials",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -670,7 +697,7 @@
       ]
     }
   ],
-  "datamodeling": [
+  "data-modeling": [
     {
       "file": "/posts/2022-10-27-codeless-apis.md",
       "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
@@ -678,8 +705,8 @@
       "date": "2022-10-27",
       "categories": [
         "product",
-        "datamodeling",
-        "realtimedatasharing"
+        "data-modeling",
+        "realtime-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -693,7 +720,7 @@
       "categories": [
         "concepts",
         "graphql",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "James Gimourginas"
@@ -707,7 +734,7 @@
       "categories": [
         "concepts",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -720,7 +747,7 @@
       "date": "2022-10-12",
       "categories": [
         "concepts",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Tim Wagner"
@@ -736,7 +763,7 @@
         "concepts",
         "tutorials",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -749,7 +776,7 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "datamodeling",
+        "data-modeling",
         "blockchain"
       ],
       "authors": [
@@ -763,7 +790,7 @@
       "date": "2022-07-29",
       "categories": [
         "architecture",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Tim Wagner"
@@ -779,7 +806,7 @@
       "categories": [
         "concepts",
         "graphql",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "James Gimourginas"
@@ -806,7 +833,7 @@
       "categories": [
         "concepts",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -819,7 +846,7 @@
       "date": "2022-10-12",
       "categories": [
         "concepts",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Tim Wagner"
@@ -861,7 +888,7 @@
         "concepts",
         "tutorials",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -1121,7 +1148,7 @@
       "categories": [
         "concepts",
         "graphql",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "James Gimourginas"
@@ -1166,7 +1193,7 @@
         "concepts",
         "tutorials",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"
@@ -1179,7 +1206,7 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "datamodeling",
+        "data-modeling",
         "blockchain"
       ],
       "authors": [
@@ -1245,7 +1272,7 @@
       "date": "2022-07-29",
       "categories": [
         "architecture",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Tim Wagner"
@@ -1371,7 +1398,7 @@
         "concepts",
         "tutorials",
         "product",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Francine Klein"

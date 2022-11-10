@@ -31,8 +31,8 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtimedatasharing",
-        "dataalliance"
+        "realtime-data-sharing",
+        "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
       "authors": [
@@ -68,13 +68,40 @@
   ],
   "tim-wagner": [
     {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-11-10T18:44:48.220Z"
+    },
+    {
       "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
       "title": "The future of data sharing with deterministic databases",
       "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
       "date": "2022-11-04",
       "categories": [
         "blockchain",
-        "realtimedatasharing"
+        "realtime-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -87,8 +114,8 @@
       "date": "2022-10-27",
       "categories": [
         "product",
-        "datamodeling",
-        "realtimedatasharing"
+        "data-modeling",
+        "realtime-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -101,7 +128,7 @@
       "date": "2022-10-12",
       "categories": [
         "concepts",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Tim Wagner"
@@ -141,7 +168,7 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "datamodeling",
+        "data-modeling",
         "blockchain"
       ],
       "authors": [
@@ -231,7 +258,7 @@
       "date": "2022-07-29",
       "categories": [
         "architecture",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "Tim Wagner"
@@ -653,204 +680,34 @@
       ]
     }
   ],
-  "francine-klein": [
-    {
-      "file": "/posts/2022-11-01-venya-do-it-right.md",
-      "title": "Veny’a doing it right",
-      "description": "Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.",
-      "date": "2022-11-01",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
-      "title": "Your Customer 360 solution isn’t really 360",
-      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
-      "date": "2022-10-14",
-      "categories": [
-        "concepts",
-        "product",
-        "datamodeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-22-real-time-everything.md",
-      "title": "Real-time “everything” with operational and analytics data",
-      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
-      "date": "2022-09-22",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials",
-        "product",
-        "datamodeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
-      "title": "Understanding real-time data lakes",
-      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
-      "date": "2022-08-03",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    }
-  ],
-  "vikrant-kahlir": [
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "realtimedatasharing",
-        "blockchain",
-        "dataalliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-07-kind-is-strong.md",
-      "title": "Kind is not weak, kind is strong",
-      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
-      "date": "2022-09-07",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "title": "Introduction to B2B data sharing with Vendia",
-      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
-      "date": "2022-08-23",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
-      "title": "What is operational data sharing?",
-      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
-      "categories": [
-        "concepts"
-      ],
-      "date": "2022-07-26",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
-      "title": "3 core use cases for Vendia Share in the semiconductor industry",
-      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
-      "draft": false,
-      "date": "2022-07-07",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
-      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
-      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
-      "draft": false,
-      "date": "2022-06-29",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
-      "title": "13 Features You Need to Evaluate an Enterprise Blockchain Platform",
-      "description": "When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.",
-      "date": "2022-02-18",
-      "draft": false,
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
-      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
-      "draft": false,
-      "date": "2022-02-09",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "title": "Applying Domain Driven Design (DDD) to blockchains",
-      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-      "date": "2022-01-14",
-      "categories": [
-        "product"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    }
-  ],
-  "renee-fujii": [
-    {
-      "file": "/posts/2022-10-25-vendia-values.md",
-      "title": "The five values that make us Vendia",
-      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other in this post from Head of Talent, Renee Fujii.",
-      "date": "2022-10-25",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-11-company-retreat-tips.md",
-      "title": "3 tips for a successful company retreat when your team is remote first",
-      "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips.",
-      "date": "2022-10-11",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
-      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
-      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
-      "date": "2022-09-06",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
-      ]
-    }
-  ],
   "james-gimourginas": [
+    {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-11-10T18:44:48.220Z"
+    },
     {
       "file": "/posts/2022-10-21-api-security-graphql.md",
       "title": "Understanding API Security with GraphQL",
@@ -859,7 +716,7 @@
       "categories": [
         "concepts",
         "graphql",
-        "datamodeling"
+        "data-modeling"
       ],
       "authors": [
         "James Gimourginas"
@@ -1031,6 +888,203 @@
       ],
       "authors": [
         "James Gimourginas"
+      ]
+    }
+  ],
+  "francine-klein": [
+    {
+      "file": "/posts/2022-11-01-venya-do-it-right.md",
+      "title": "Veny’a doing it right",
+      "description": "Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.",
+      "date": "2022-11-01",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
+      "title": "Your Customer 360 solution isn’t really 360",
+      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
+      "date": "2022-10-14",
+      "categories": [
+        "concepts",
+        "product",
+        "data-modeling"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-22-real-time-everything.md",
+      "title": "Real-time “everything” with operational and analytics data",
+      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
+      "date": "2022-09-22",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials",
+        "product",
+        "data-modeling"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
+      "title": "Understanding real-time data lakes",
+      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
+      "date": "2022-08-03",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    }
+  ],
+  "vikrant-kahlir": [
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "realtime-data-sharing",
+        "blockchain",
+        "data-alliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "title": "Introduction to B2B data sharing with Vendia",
+      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
+      "date": "2022-08-23",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
+      "title": "What is operational data sharing?",
+      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "categories": [
+        "concepts"
+      ],
+      "date": "2022-07-26",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "title": "3 core use cases for Vendia Share in the semiconductor industry",
+      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
+      "draft": false,
+      "date": "2022-07-07",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
+      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
+      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
+      "draft": false,
+      "date": "2022-06-29",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "title": "13 Features You Need to Evaluate an Enterprise Blockchain Platform",
+      "description": "When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.",
+      "date": "2022-02-18",
+      "draft": false,
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "title": "The Global Supply Chain is Broken. Can Blockchain Help?",
+      "description": "Enterprise blockchain adoption is slowly but steadily progressing",
+      "draft": false,
+      "date": "2022-02-09",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "title": "Applying Domain Driven Design (DDD) to blockchains",
+      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+      "date": "2022-01-14",
+      "categories": [
+        "product"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    }
+  ],
+  "renee-fujii": [
+    {
+      "file": "/posts/2022-10-25-vendia-values.md",
+      "title": "The five values that make us Vendia",
+      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other in this post from Head of Talent, Renee Fujii.",
+      "date": "2022-10-25",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-11-company-retreat-tips.md",
+      "title": "3 tips for a successful company retreat when your team is remote first",
+      "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips.",
+      "date": "2022-10-11",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
+      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
+      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
+      "date": "2022-09-06",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
       ]
     }
   ],

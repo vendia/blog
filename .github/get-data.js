@@ -228,6 +228,7 @@ function formatMD(text, filePath) {
   const contents = frontmatter.content.replace(REMOVE_CODE_BLOCK_REGEX, '')
   const htmlValidation = validateHtml(contents, filePath)
   if (htmlValidation && htmlValidation.length) {
+    // console.log('htmlValidation', htmlValidation)
     errors = errors.concat(htmlValidation)
   }
 
