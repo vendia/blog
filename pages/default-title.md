@@ -4,7 +4,7 @@ template: page
 path: /foo/bar
 title: Default title
 components:
-  - type: content
+  - type: MDX
     content: >-
       Over the last few weeks, the Vendia Engineering team has been hard at work
       finalizing a number of changes that will greatly improve the data modeling
@@ -23,7 +23,7 @@ components:
       stuff
 
       ---
-  - type: content
+  - type: MDX
     content: Even more content
 seo:
   title: xyz
