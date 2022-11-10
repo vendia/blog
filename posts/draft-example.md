@@ -1,7 +1,7 @@
 ---
 draft: true
 slug: my-custom-slug
-title: Draft post example
+title: Draft post example!
 description: This is an example post!
 date: 2020-01-02
 authors:
@@ -15,8 +15,11 @@ relatedPosts:
 tags:
   - funding
 tweet: sdasdasdasdasd sddadasd
+seo:
+  title: Draft
+  description: descr
 updatedBy: David Wells
-updatedAt: 2022-11-07T17:40:44.518Z
+updatedAt: 2022-11-10T17:44:36.950Z
 ---
 
 This post is a draft. Here is update. Again!!!! z
