@@ -4,7 +4,7 @@ template: page
 path: /foo/bar
 title: Default title
 components:
-  - type: MDX
+  - type: Mdx
     content: >-
       Over the last few weeks, the Vendia Engineering team has been hard at work
       finalizing a number of changes that will greatly improve the data modeling
@@ -14,7 +14,7 @@ components:
 
 
       In doing so, we made the difficult choice to address several known issues in ways that will not be backwards compatible. Because some of these changes will impact existing Unis, we've created a [detailed blog post](https://www.vendia.com/blog/open-beta-changes) to help those with the migration process. We're confident these changes, once released, will make for a significantly better experience for current and future users.
-  - type: MDX
+  - type: Mdx
     content: |-
       More content
 
@@ -23,7 +23,7 @@ components:
       stuff
 
       ---
-  - type: MDX
+  - type: Mdx
     content: Even more content
 seo:
   title: xyz
