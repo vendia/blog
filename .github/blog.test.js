@@ -2,6 +2,8 @@ const path = require('path')
 const fs = require('fs')
 const { test } = require('uvu')
 const assert = require('uvu/assert')
+const { convertDateToString } = require('./md-utils/utils')
+const { verifyMdExtension } =  require('./md-utils/verify-extension')
 const {
   getTags,
   getAuthors, 
@@ -9,9 +11,6 @@ const {
   getMarkdownData,
   DATE_FORMAT_REGEX
 } = require('./get-data')
-const { convertDateToString } = require('./md-utils/utils')
-const { verifyMdExtension } =  require('./md-utils/verify-extension')
-
 /* // simulate CI env
 process.env.CI = true
 /** */
