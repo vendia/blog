@@ -147,6 +147,7 @@ function longest(arr, prop) {
 }
 
 const formatFns = {
+  pages: formatReleaseSlug,
   posts: formatPostSlug,
   releases: formatReleaseSlug
 }
@@ -154,7 +155,7 @@ const formatFns = {
 async function saveSlugMap(data, kind) {
   /* Save post slug map for faster lookups in build */
   const slugMap = getSlugMap(data, BASE_DIR, formatFns[kind])
-  console.log('slugMap', slugMap)
+  // console.log('slugMap', slugMap)
   await fs.writeFile(path.resolve(GENERATED_DIR, `${kind}-by-slug.json`), JSON.stringify(slugMap, null, 2))
 }
 
@@ -219,7 +220,8 @@ function removeLeadingAndTrailingSlashes(str = '') {
 
 function getSlugMap(data, baseDir, formatFn) {
   return data.reduce((acc, post) => {
-    let slug = (post.data.slug) ? post.data.slug : path.basename(post.file)
+    const frontMatterSlug = post.data.slug || post.data.path
+    let slug = (frontMatterSlug) ? frontMatterSlug : path.basename(post.file)
     const nicePath = post.file.replace(baseDir, '')
     if (formatFn) {
       slug = formatFn(slug)
@@ -265,10 +267,20 @@ markdownMagic(['**/*.md', '!node_modules/**'], config, async () => {
     '!README.md',
     '!node_modules/**'
   ])
-
   await saveGeneratedIndexes(releaseMdData, 'releases')
   /* Save slug maps for releases */
   await saveSlugMap(releaseMdData, 'releases')
+
+  /* Save releases data */
+  const [ pageMdData ] = await getMarkdownData([
+    'pages/**/*.md',
+    'pages/**/*.mdx',
+    '!node_modules/**'
+  ])
+  // console.log('pageMdData', pageMdData)
+  // process.exit(1)
+  /* Save slug maps for releases */
+  await saveSlugMap(pageMdData, 'pages')
   console.log('✔ Generating index information complete')
   console.log('\n🎉 Doc generation complete\n')
 })
