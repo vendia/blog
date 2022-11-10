@@ -29,19 +29,19 @@
       "description": "Software concepts"
     },
     {
-      "slug": "smartcontracts",
+      "slug": "smart-contracts",
       "description": "Smart contracts"
     },
     {
-      "slug": "datamodeling",
+      "slug": "data-modeling",
       "description": "Data modeling"
     },
     {
-      "slug": "timwagner",
+      "slug": "tim-wagner",
       "description": "Tim Wagner"
     },
     {
-      "slug": "realtimedatasharing",
+      "slug": "realtime-data-sharing",
       "description": "Real time data sharing"
     },
     {
@@ -49,7 +49,7 @@
       "description": "Blockchain"
     },
     {
-      "slug": "dataalliance",
+      "slug": "data-alliance",
       "description": "Data alliance"
     },
     {
@@ -57,11 +57,11 @@
       "description": "Graph QL"
     },
     {
-      "slug": "Leanapps",
+      "slug": "lean-apps",
       "description": "Lean apps"
     },
     {
-      "slug": "smartapis",
+      "slug": "smart-apis",
       "description": "Smart APIs"
     }
   ]

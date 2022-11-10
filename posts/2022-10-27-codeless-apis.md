@@ -4,8 +4,8 @@ description: "Learn how codeless APIs free up teams from relentless grunt work a
 date: "2022-10-27"
 categories:
   - product
-  - datamodeling
-  - realtimedatasharing
+  - data-modeling
+  - realtime-data-sharing
 authors:
   - Tim Wagner
 ---

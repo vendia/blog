@@ -4,7 +4,7 @@ description: 'Get our new guide for innovation leaders and developers in the fin
 date: '2022-09-20'
 categories:
 - architecture
-- datamodeling
+- data-modeling
 - blockchain
 authors:
   - Tim Wagner

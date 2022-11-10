@@ -5,7 +5,7 @@ date: '2022-10-14'
 categories:
 - concepts
 - product
-- datamodeling
+- data-modeling
 authors:
   - Francine Klein
 ---

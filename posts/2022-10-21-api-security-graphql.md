@@ -5,7 +5,7 @@ date: '2022-10-21'
 categories:
 - concepts
 - graphql
-- datamodeling
+- data-modeling
 authors:
 - James Gimourginas
 ---
