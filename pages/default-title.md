@@ -4,6 +4,9 @@ template: page
 path: /foo/bar
 title: Default title
 components:
+  - type: PageHeading
+    heading: Nice
+    subHeading: Add it
   - type: content
     content: >-
       Over the last few weeks, the Vendia Engineering team has been hard at work
@@ -29,5 +32,5 @@ seo:
   title: xyz
   description: seo description here
 updatedBy: David Wells
-updatedAt: 2022-11-10T01:22:32.860Z
+updatedAt: 2022-11-10T01:52:37.383Z
 ---
