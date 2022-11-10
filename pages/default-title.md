@@ -14,7 +14,7 @@ components:
 
 
       In doing so, we made the difficult choice to address several known issues in ways that will not be backwards compatible. Because some of these changes will impact existing Unis, we've created a [detailed blog post](https://www.vendia.com/blog/open-beta-changes) to help those with the migration process. We're confident these changes, once released, will make for a significantly better experience for current and future users.
-  - type: content
+  - type: MDX
     content: |-
       More content
 
