@@ -5,7 +5,7 @@ date: "2022-10-26"
 categories:
   - realtime-data-sharing
   - blockchain
-  - dataalliance
+  - data-alliance
 authors:
   - Vikrant Kahlir
 ---

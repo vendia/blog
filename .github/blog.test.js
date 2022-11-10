@@ -9,6 +9,7 @@ const {
   getMarkdownData,
   DATE_FORMAT_REGEX
 } = require('./get-data')
+const { convertDateToString } = require('./md-utils/utils')
 const { verifyMdExtension } =  require('./md-utils/verify-extension')
 
 /* // simulate CI env
@@ -26,6 +27,9 @@ if (process.env.CI) {
 const GLOB_PATTERN = [
   'posts/**/*.md',
   'posts/**/*.mdx',
+  /* Ignore test posts */
+  '!posts/**/draft-example.md',
+  '!posts/**/typography.mdx',
   '!CONTRIBUTING.md',
   '!README.md',
   '!node_modules/**'
@@ -98,14 +102,9 @@ test('Post validation', async () => {
     }
 
     /* Verify frontmatter */
-    const { title, date, description, authors, categories } = data
-    // let date = data.date
-    // if (typeof data.date === 'string') {
-    //   date = data.date
-    // } else {
-    //   var newDate = new Date(data.date.toString())
-    //   date = newDate.toISOString().substring(0, 10)
-    // }
+    const { title, description, authors, categories } = data
+    /* Formate date to string */
+    const date = convertDateToString(data.date)
 
     /* Titles must provided */
     if (!title) {
@@ -127,6 +126,7 @@ test('Post validation', async () => {
     
     /* Date must be YYYY-MM-DD */
     // console.log('file', file)
+    // console.log('date', date)
     if (date && !date.match(/\d{4}-\d{2}-\d{2}/)) {
       errors.push(`Malformed "date" field in ${file}
     "${date}" is invalid value.
