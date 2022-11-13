@@ -13,7 +13,7 @@ authors:
 
 Our company name, _Vendia_, comes from Venn Diagram. It's intended to reflect our core mission — helping customers share code and data across companies, clouds, and technology stacks. But it's also a reflection of us: individuals with unique skills and experiences, coming together to create something amazing. We'd like to tell you a little about ourselves and how Vendia came to be.
 
-![Image for post](https://miro.medium.com/max/1920/1*t4f5OdXCd8DlDaNPtn7Kdw.png)
+![Image for post](https://d24nhiikxn5jns.cloudfront.net/optimized/miro.medium.com%252Fmax%252F1920%252F1%2At4f5OdXCd8DlDaNPtn7Kdw.png)
 
 Vendia's Origin Story
 =====================
@@ -50,7 +50,7 @@ I eventually left AWS and went to work at Coinbase, the largest cryptocurrency b
 
 But putting those systems into production (and keeping them up and running) also taught me the downside to existing blockchain technology: It was a distributed system invented by people who were better at math than at high-scale, multi-tenanted services. For all their exotic math and interesting approaches to consensus, at the networking and storage layer all blockchains were just old fashioned “p2p” networks. Ethereum, Hyperledger Fabric, and all distributed ledger technologies were designed with a “single box” model, forever limiting them to the computational, memory, and network capacity of an individual machine. Adding more people to these network didn't make the network more powerful, as it would have in a service like Lambda, it just made more replicas of the same, limited, single-box deployment.
 
-![Image for post](https://miro.medium.com/max/1920/1*DY19C6Yjszv6xA-YPZ35JA.png)
+![Image for post](https://d24nhiikxn5jns.cloudfront.net/optimized/miro.medium.com%252Fmax%252F1920%252F1%2ADY19C6Yjszv6xA-YPZ35JA.png)
 
 ### The inspiration for Universal Apps
 

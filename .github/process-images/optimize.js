@@ -20,7 +20,7 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   if (!imageFiles) {
     imageFiles = await globby(globPatterns)
   }
-  console.log('imageFiles', imageFiles)
+  // console.log('imageFiles', imageFiles)
 
   const alreadyProcessedImagePaths = await globby(getGlobPattern(outputDir))
   // console.log('alreadyProcessedImages', alreadyProcessedImagePaths)
@@ -36,7 +36,9 @@ async function optimizeImages({ inputDir, outputDir, images }) {
       ...details,
     }
   })
-  console.log('persistedImageData', persistedImageData)
+  // console.log('persistedImageData', persistedImageData)
+  // console.log('imageFiles', imageFiles)
+  // process.exit(1)
   /* debugger for just a couple files
   imageFiles = [ imageFiles[0], imageFiles[1] ]
   /***/
@@ -48,12 +50,13 @@ async function optimizeImages({ inputDir, outputDir, images }) {
 
   if (remoteCloudinaryFiles.length) {
     console.log(`Remote cloudinary files:`)
-    remoteCloudinaryFiles.forEach((remote) => {
+    remoteCloudinaryFiles.forEach((remote, i) => {
       if (remote && (remote.secure_url || remote.url)) {
-        console.log(`> ${remote.secure_url || remote.url}`)
+        console.log(`${i + 1}. ${remote.secure_url || remote.url}`)
       }
     })
   }
+  // console.log('remoteCloudinaryFiles', remoteCloudinaryFiles)
 
   const remoteImageData = remoteCloudinaryFiles.map((remote) => {
     // console.log('remote', remote)
@@ -64,29 +67,39 @@ async function optimizeImages({ inputDir, outputDir, images }) {
     const matchingFile = persistedImageData.find((local) => {
       return (remote.public_id === local.imageId) && (remote.version === local.version)
     })
+    let needsLocalUpdate = false
+    if (remote.public_id) {
+      needsLocalUpdate = !Boolean(matchingFile)
+    } else if (remote.isCloudinaryUrl) {
+      needsLocalUpdate = !Boolean(remote.isCloudinaryUrl)
+    }
     return {
       ...remote,
       /* If remote cloudinary src file has been altered mark it for a force download */
-      needsLocalUpdate: !Boolean(matchingFile)
+      needsLocalUpdate
     }
   })
+  // console.log('remoteImageData', remoteImageData)
 
   const existingRemoteImages = remoteImageData.filter((img) => !img.notFound)
   const existingLocalImages = remoteImageData.filter((img) => !img.notFound)
 
+  // console.log('existingRemoteImages', existingRemoteImages)
   if (existingRemoteImages.length) {
     console.log(`Found ${existingRemoteImages.length} files in cloudinary`)
     // console.log('existingRemoteImages', existingRemoteImages)
   }
-  
+  // process.exit(1)
+
   const filesToUpload = remoteImageData.filter((img) => {
     if (img.notFound) console.log(`Schedule upload ${img.filePath}`)
     return img.notFound
   })
+  // console.log('existingRemoteImages', existingRemoteImages)
   // console.log('filesToUpload', filesToUpload)
-
+  // process.exit(1)
   if (!filesToUpload.length) {
-    console.log('All images already uploaded')
+    console.log('\nAll images already uploaded\n')
     // return existingRemoteImages
   }
 
@@ -94,17 +107,21 @@ async function optimizeImages({ inputDir, outputDir, images }) {
     return uploadImage(image.filePath)
   })
   
-  const newImages = await Promise.all(newlyUploadedImages)
+  const newImages = (await Promise.all(newlyUploadedImages)).map((data) => {
+    return {
+      filePath: image.filePath,
+      ...data
+    }
+  })
   const allImageData = newImages.concat(existingRemoteImages)
-  // console.log('allImageData', allImageData)
 
   const downloadPromises = allImageData.map((cloudinaryData) => {
-    // console.log('cloudinaryData', cloudinaryData)
-    const outputPath = path.join(outputDir, path.basename(cloudinaryData.secure_url))
+    const outputPath = path.join(outputDir, path.basename(cloudinaryData.filePath))
     const optimizedUrl = getImageUrl(cloudinaryData.secure_url)
-    return download({ 
+    // console.log('outputPath', outputPath)
+    return download({
       url: optimizedUrl,
-      outputPath, 
+      outputPath,
       meta: {
         fileName: `${cloudinaryData.public_id}${path.extname(cloudinaryData.secure_url)}`,
         ...cloudinaryData
@@ -112,6 +129,8 @@ async function optimizeImages({ inputDir, outputDir, images }) {
       forceDownload: cloudinaryData.needsLocalUpdate
     })
   })
+  // console.log('allImageData', allImageData)
+  // process.exit(1)
   const dlInfo = await Promise.all(downloadPromises)
   // console.log('dlInfo', dlInfo)
 
@@ -130,11 +149,12 @@ async function optimizeImages({ inputDir, outputDir, images }) {
     return {
       filePath: file.output,
       meta: {
-        version: file.meta.version,
+        version: file.meta.version || getVersion(file.secure_url),
       }
     }
   })
-
+  // console.log('updateImageDetails', updateImageDetails)
+  // process.exit(1)
   /* Save cloudinary version info to the downloaded image */
   console.log('Updating image meta...')
   await writeImageMeta(updateImageDetails)
@@ -162,6 +182,12 @@ function safeParse(value) {
     val = JSON.parse(value)
   } catch (e) {}
   return val
+}
+
+function getVersion(imageUrl = '') {
+  const versionMatch = imageUrl.match(/\/upload\/v([A-Za-z0-9]+)\//)
+  if (versionMatch) return versionMatch[1]
+  return ''
 }
 
 // Make images 90% quality to shrink them

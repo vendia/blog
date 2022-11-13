@@ -2,8 +2,9 @@
 const path = require('path')
 const { collectImages, makeRegex } = require('./collect')
 const { optimizeImages } = require('./optimize')
-const { uploadObjects } = require('./utils/s3')
+const { uploadObjects, encodeS3URI } = require('./utils/s3')
 const { readFile, writeFile } = require('./utils/fs')
+const { deepLog } = require('../utils/logs')
 const {
   CDN_ROOT_URL,
   S3_BUCKET_NAME, 
@@ -19,7 +20,7 @@ const bucketDirectory = S3_BUCKET_DIRECTORY || 'optimized'
 
 async function imagePipeline() {
   /* 1. collect all non cdn images from files */
-  console.log('Collecting all images from markdown...')
+  console.log('🔎  Collecting all images from markdown...\n')
   // @TODO optimize this and only pull back md files that have changed
   const allMdFiles = [
     'posts/**/*.md',
@@ -31,6 +32,7 @@ async function imagePipeline() {
     '!node_modules/**'
   ]
 
+  /* Download images */
   const originalImages = await collectImages({
     outputDir: TEMP_DOWNLOAD_DIR,
     markdownGlob: allMdFiles,
@@ -41,20 +43,30 @@ async function imagePipeline() {
       // 'https://d24nhiikxn5jns.cloudfront.net/images/blogs/2021-05-10-dont-'
     ]
   })
+  const foundNoneCDNImages = Boolean(originalImages.downloadedImages.length)
+
+  if (!foundNoneCDNImages) {
+    console.log(`0 non-CDN image links found. Exiting early.\n`)
+    return
+  }
+
   console.log(`Found ${originalImages.downloadedImages.length} images`)
-  // console.log('originalImages', originalImages)
+  // console.log('originalImages')
+  // deepLog(originalImages.imageData.byFile)
   // process.exit(1)
 
   /* 2. Optimize all downloaded files */
-  console.log('Optimizing Images...')
+  console.log('\n🪄  Optimizing Images...\n')
   const optimizedImages = await optimizeImages({
     inputDir: TEMP_DOWNLOAD_DIR,
     outputDir: OPTIMIZED_OUTPUT_DIR
   })
-  console.log('optimizedImages', optimizedImages)
+  // console.log('optimizedImages', optimizedImages)
+  // deepLog(originalImages.downloadedImages)
   // process.exit(1)
 
   /* 3. Upload image files */
+  console.log('\n🚀  Uploading Images...\n')
   const bucketPrefix = (bucketDirectory) ? `${bucketDirectory.replace(/\/$/, '')}/` : ''
   // console.log('bucketPrefix', bucketPrefix)
   /* Original image urls and files they exist in */
@@ -67,24 +79,28 @@ async function imagePipeline() {
       path: path.resolve(OPTIMIZED_OUTPUT_DIR, updatedFileName)
     }
   })
+  // console.log('Upload images to s3')
+  // console.log(uploadPaths)
+  // process.exit(1)
 
-  console.log('Upload images to s3')
-  console.log(uploadPaths)
-  const s3Response = await uploadObjects(bucketName, uploadPaths)
+  const s3Response = await uploadObjects(bucketName, uploadPaths, { cdnPrefix })
   // console.log('s3Response', s3Response)
+  // process.exit(1)
 
   /* 4. Replace existing image link */
+  console.log('\n✏️  Replacing image links...\n')
   await asyncForEach(originalImages.downloadedImages, async (imgData) => {
     const { meta, url } = imgData
     // console.log('imgData', imgData)
     const newUrl = s3Response.find(({ id }) => {
       return path.basename(id) === fixJpg(meta.updatedFileName) 
     })
-    const cdnLink = `${cdnPrefix}/${newUrl.id}`
+    const cdnLink = `${cdnPrefix}/${encodeS3URI(newUrl.id)}`
     console.log(`Replace`)
-    console.log('> url', url)
+    console.log('> url ', url)
     console.log(`> with ${cdnLink}`)
     console.log('> in file', meta.location)
+    console.log()
     const content = await readFile(meta.location, 'utf-8')
     // console.log('content', content)
     const linkPattern = makeRegex(url, 'g')
@@ -110,5 +126,5 @@ async function asyncForEach(array, callback) {
 }
 
 imagePipeline().then(() => {
-  console.log('done')
+  console.log('✅  Image pipeline done')
 })

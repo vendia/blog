@@ -1,4 +1,4 @@
-const { countLines, getLineNumber } = require('./utils')
+const { getLineCount, getLineNumberFromMatch } = require('./utils')
 
 // https://regex101.com/r/nIlW1U/6
 const CODE_BLOCK_REGEX = /^([A-Za-z \t]*)```([A-Za-z]*)?\n([\s\S]*?)```([A-Za-z \t]*)*$/gm
@@ -23,7 +23,7 @@ function findCodeBlocks(block, filePath = '') {
       CODE_BLOCK_REGEX.lastIndex++ // avoid infinite loops with zero-width matches
     }
     const [ match, prefix, syntax, content, postFix ] = matches
-    const lineNumber = getLineNumber(block, matches)
+    const lineNumber = getLineNumberFromMatch(block, matches)
     let hasError = false
     /* // debug
     console.log(`prefix: "${prefix}"`)
@@ -39,17 +39,17 @@ function findCodeBlocks(block, filePath = '') {
       hasError = true
       errors.push({
         line: lineNumber,
-        position: matches.index,
+        index: matches.index,
         message: `Prefix "${prefix}" not allowed on line ${lineNumber}. Fix the code block${msg}.`,
         block: match
       })
     }
     if (postFix && postFix.match(/\S/)) {
       hasError = true
-      const line = lineNumber + (countLines(match) - 1)
+      const line = lineNumber + (getLineCount(match) - 1)
       errors.push({
         line,
-        position: matches.index + match.length,
+        index: matches.index + match.length,
         message: `Postfix "${postFix}" not allowed on line ${line}. Fix the code block${msg}.`,
         block: match
       })
@@ -58,7 +58,7 @@ function findCodeBlocks(block, filePath = '') {
     if (!hasError) {
       blocks.push({
         line: lineNumber,
-        position: matches.index,
+        index: matches.index,
         syntax: syntax || '',
         block: match,
         code: content.trim()

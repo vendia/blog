@@ -1,16 +1,9 @@
 const path = require('path')
 const fs = require('fs').promises
-const { globby } = require('markdown-magic')
-const matter = require('gray-matter')
 const slugify = require('slugify')
-const { validateHtml, validateHtmlTags } = require('./md-utils/validate-html')
-const { findFrontmatter } = require('./md-utils/find-frontmatter')
-const { findHtmlTags } = require('./md-utils/find-html-tags')
-const { findCodeBlocks, REMOVE_CODE_BLOCK_REGEX } = require('./md-utils/find-code-blocks')
-const { findRelativeLinks } = require('./md-utils/find-links-relative')
-const { findLiveLinks } = require('./md-utils/find-links-live')
-const { findImageLinks } = require('./md-utils/find-image-links')
-const { findUnmatchedHtmlTags } = require('./md-utils/find-unmatched-html-tags')
+const { globby } = require('markdown-magic')
+const { parseMarkdown } = require('./md-utils/parse')
+const { deepLog } = require('./utils/logs')
 
 let cache = {}
 const cwd = process.cwd()
@@ -49,7 +42,7 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, opts = {}) {
       return !ignoreList.includes(path.basename(p))
     })
   }
-
+  // console.log('filePaths', filePaths)
   const contents = (
     await Promise.all(filePaths.map((filePath) => {
       return fs.readFile(filePath, 'utf-8')
@@ -57,8 +50,7 @@ async function getMarkdownData(globPattern = GLOB_PATTERN, opts = {}) {
   ).map((content) => (content || '').trim())
 
   const data = contents.map((text, i) => {
-    // console.log('contents', filePaths[i])
-    const markdownData = formatMD(text, filePaths[i])
+    const markdownData = parseMarkdown(text, { filePath: filePaths[i] })
     // console.log(markdownData)
     if (markdownData.errors) {
       errors = errors.concat(markdownData.errors)
@@ -178,82 +170,6 @@ function formatIndexData(post, extra = {}) {
   return post
 }
 
-function formatMD(text, filePath) {
-  let errors = []
-  const { frontMatter, rawFrontMatter } = findFrontmatter(text)
-  
-  /* Missing all frontmatter */
-  if (!frontMatter) {
-    errors.push(`Missing or broken frontmatter in ${filePath}. Double check file for --- frontmatter tags`)
-  }
-
-  const newContent = text
-    // Replace frontmatter brackets
-    .replace(rawFrontMatter, frontMatter)
-    // Replace leading lines
-    .replace(/---+\s+\n/g, '---\n')
-
-  let frontmatter = { data: {} }
-  try {
-    frontmatter = matter(newContent)
-  } catch(err) {
-    console.log(`Broken frontmatter ${filePath}`)
-    console.log(err.message)
-    console.log('Failed on frontmatter:')
-    console.log(rawFrontMatter)
-    errors.push(`Broken frontmatter in ${filePath}\n  ${rawFrontMatter}`)
-  }
-
-  // if (frontmatter.errors) {
-  //   console.log("frontmatter.errors", frontmatter.errors)
-  // }
-
-  const { links } = findLiveLinks(text, filePath)
-  // console.log(`links ${filePath}`, links)
-  const relativeLinks = findRelativeLinks(text)
-  // console.log(`relativeLinks ${filePath}`, relativeLinks)
-  const images = findImageLinks(links.concat(relativeLinks))
-  // console.log(`images ${filePath}`, images)
-  const htmlTags = findHtmlTags(text)
-  // console.log(`htmlTags ${filePath}`, htmlTags)
-  const codeBlocks = findCodeBlocks(text, filePath)
-  // console.log(`codeBlocks ${filePath}`, codeBlocks)
-  const tagsErrors = findUnmatchedHtmlTags(text, filePath)
-
-  // const htmlValidationTags = validateHtmlTags(htmlTags, filePath)
-  // if (htmlValidationTags && htmlValidationTags.length) {
-  //   errors = errors.concat(htmlValidationTags)
-  // }
-
-  const contents = frontmatter.content.replace(REMOVE_CODE_BLOCK_REGEX, '')
-  const htmlValidation = validateHtml(contents, filePath)
-  if (htmlValidation && htmlValidation.length) {
-    // console.log('htmlValidation', htmlValidation)
-    errors = errors.concat(htmlValidation)
-  }
-
-  if (tagsErrors && tagsErrors.length) {
-    errors = errors.concat(tagsErrors)
-  }
-
-  if (codeBlocks.errors && codeBlocks.errors.length) {
-    errors = errors.concat(codeBlocks.errors)
-  }
-
-  return {
-    errors,
-    file: filePath,
-    ...(frontmatter.data.date) ? { date : frontmatter.data.date } : {},
-    links: links,
-    relativeLinks,
-    images: images,
-    htmlTags: htmlTags,
-    codeBlocks,
-    frontMatterRaw: rawFrontMatter,
-    ...frontmatter
-  }
-}
-
 function fixImageTags(content) {
   const removeTrailingImg = /<\/img>/gm 
   const fixMissingClosingImgTag = /(<img("[^"]*"|[^>])+)(?<!\/)>/gm
@@ -276,9 +192,8 @@ function sortByDate(dateKey = 'date', order) {
 }
 
 module.exports = {
+  parseMarkdown,
   getMarkdownData,
-  getLinks: findLiveLinks,
-  getImageLinks: findImageLinks,
   getCategories,
   getAuthors,
   getTags,

@@ -3,7 +3,7 @@ const { ExifTool } = require("exiftool-vendored")
 async function readImageMeta(images) {
   const exiftool = new ExifTool({ taskTimeoutMillis: 5000 })
   const meta = images.map(async (imagePath) => {
-    console.log(imagePath)
+    // console.log('readImageMeta', imagePath)
     let data = {}
     try {
       // alt npmjs.com/package/exifr

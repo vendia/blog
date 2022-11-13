@@ -1,4 +1,4 @@
-const { countLines, getLineNumber } = require('./utils')
+const { getLineNumberFromMatch } = require('./utils')
 
 // https://regex101.com/r/he9l06/2
 // http://xahlee.info/js/html5_non-closing_tag.html
@@ -14,12 +14,12 @@ function findUnmatchedHtmlTags(block, filePath) {
     }
     // console.log(matches)
     const [ _, tag, insideOrEnd ] = matches
-    const lineNumber = getLineNumber(block, matches)
+    const lineNumber = getLineNumberFromMatch(block, matches)
     const fixed = (insideOrEnd === '>') ? '/>' : `${insideOrEnd.substring(0, insideOrEnd.length - 1)}/>`
     errors.push({
-      message: `Unclosing HTML tag on ${lineNumber}${msg}.\n    Need closing tag "/>" on:   \n${_}`,
-      broken: _,
-      fixed: `<${tag}${fixed}`
+      message: `Unclosing HTML tag on line ${lineNumber}${msg}.\n    Need closing tag "/>" on:   \n${_}`,
+      brokenTag: _,
+      correctUsage: `<${tag}${fixed}`
     })
   }
   return errors

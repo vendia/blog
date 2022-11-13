@@ -3,14 +3,14 @@ const fs = require('fs')
 const { test } = require('uvu')
 const assert = require('uvu/assert')
 const { convertDateToString } = require('./md-utils/utils')
-const { verifyMdExtension } =  require('./md-utils/verify-extension')
+const { verifyMdExtension } =  require('./md-utils/validate-file-ext')
 const {
   getTags,
   getAuthors, 
   getCategories,
   getMarkdownData,
   DATE_FORMAT_REGEX
-} = require('./get-data')
+} = require('./get-md-data')
 /* // simulate CI env
 process.env.CI = true
 /** */

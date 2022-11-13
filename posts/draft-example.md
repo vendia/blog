@@ -24,7 +24,7 @@ updatedAt: 2022-11-10T21:10:56.060Z
 
 This post is a draft. Here is update. Again!!!! z
 
-![](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1668114635/what-you-can-build_p8uape.png)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1668114635%252Fwhat-you-can-build_p8uape.png)
 
 
 
@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 <Author name="cool" href="nice" />
 
-![](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1666889990/user-images.githubusercontent.com..107442245..198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1666889990%252Fuser-images.githubusercontent.com..107442245..198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
 
 <!-- MD-MAGIC-EXAMPLE:START transformName foo=bar baz="cool" -->
 coool

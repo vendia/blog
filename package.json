@@ -8,7 +8,8 @@
   "scripts": {
     "serve": "serve .github/admin",
     "test": "uvu .github .test.js",
-    "docs": "node ./.github/generate-data.js",
+    "test:md": "uvu .github 'md.test.([mc]js|[jt]sx?)$'",
+    "docs": "node ./.github/generate.js",
     "new": "plop --plopfile .github/plopfile.js",
     "process": "node .github/process-images",
     "checklinks": "npm run checklinks:posts && npm run checklinks:releases",

@@ -1,0 +1,25 @@
+const path = require('path')
+const fs = require('fs')
+const { test } = require('uvu')
+const assert = require('uvu/assert')
+const { findLinks } = require('./find-links')
+const { findFrontmatter } = require('./find-frontmatter')
+const { parseMarkdown } = require('../get-md-data')
+const { deepLog } = require('../utils/logs')
+
+const cwd = process.cwd()
+const FILE_PATH = path.join(__dirname, 'fixtures/file-with-links.md')
+const fileWithLinks = fs.readFileSync(FILE_PATH, 'utf-8')
+
+test('File have correct extensions', async () => {
+  const { data } = findFrontmatter(fileWithLinks, FILE_PATH)
+  // console.log('frontmatter data', data)
+  const links = findLinks(fileWithLinks, { frontmatter: data })
+  // console.log('links', links)
+  console.log('FILE_PATH', FILE_PATH)
+  console.log('parseMarkdown')
+  const x = parseMarkdown(fileWithLinks, { filePath: FILE_PATH })
+  deepLog(x)
+})
+
+test.run()

@@ -1,10 +1,15 @@
 
-function countLines(text = '') {
-  return text.split('\n').length
+
+function getLineNumberFromMatch(text = '', matches) {
+  return getLineCount(text.substr(0, matches.index))
 }
 
-function getLineNumber(text = '', matches) {
-  return countLines(text.substr(0, matches.index))
+function getLines(str = '') {
+  return str.split(/\r\n|\r|\n/)
+}
+
+function getLineCount(str = '') {
+  return getLines(str).length
 }
 
 function convertDateToString(dateValue) {
@@ -19,7 +24,8 @@ function convertDateToString(dateValue) {
 }
 
 module.exports = {
-  countLines,
-  getLineNumber,
-  convertDateToString
+  getLines,
+  getLineCount,
+  getLineNumberFromMatch,
+  convertDateToString,
 }

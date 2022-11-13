@@ -13,12 +13,16 @@ const {
   getMarkdownData,
   sortByDate,
   DATE_FORMAT_REGEX
-} = require('./get-data')
+} = require('./get-md-data')
 const { convertDateToString } = require('./md-utils/utils')
 
 let fullMarkdownData = []
 let filteredMarkdownData = []
 
+const SITE_URL = 'https://www.vendia.com'
+const BLOG_URL = `${SITE_URL}/blog`
+const DOCS_URL = `${SITE_URL}/docs`
+const RELEASES_URL = `${SITE_URL}/releases`
 const BASE_DIR = path.resolve(__dirname, '../')
 const GENERATED_DIR = path.resolve(__dirname, '_generated')
 
@@ -26,9 +30,9 @@ const config = {
   transforms: {
     siteLink(_content, _options, ctx) {
       const url = ctx.originalPath
-        .replace(/(README|readme|Readme)\.md/, '')
+        .replace(/README\.md/i, '')
         .replace(/\.mdx?$/, '')
-      return `### [Read this on the Vendia docs site](https://www.vendia.com/docs/${url})`
+      return `### [Read this on the Vendia docs site](${DOCS_URL}/${url})`
     },
     async POSTS_TABLE() {
       const [ mdData ] = await getMarkdownData([
@@ -38,7 +42,16 @@ const config = {
         '!README.md',
         '!node_modules/**'
       ])
-    
+
+      /* // debugger
+      mdData.forEach((mdInfo) => {
+        if (path.basename(mdInfo.file) === '2020-06-30-welcome-to-vendia.md') {
+          console.log('mdInfo', mdInfo)
+          process.exit(1)
+        }
+      })
+      /** */
+
       fullMarkdownData = mdData
 
       const IGNORE_LIST = ['draft-example.md', 'typography.mdx']
@@ -55,13 +68,13 @@ const config = {
         const { data, file } = item
         const fileName = path.basename(file)
         const postSlug = fileName.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
-        const url = `https://vendia.com/blog/${postSlug}`
+        const url = `${SITE_URL}/blog/${postSlug}`
         const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
         md += `| [${data.title}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
-      });
+      })
 
       return md;
     },
@@ -85,8 +98,8 @@ const config = {
         const closeTr = '\n</tr>\n'
         const twitterLink = (twitter) ? `https://twitter.com/${twitter}` : ''
         const githubLink = (github) ? `https://github.com/${github}` : ''
-        const authorLink = `https://www.vendia.com/blog/author/${slug}`
-        const link = twitterLink || githubLink || authorLink || 'https://www.vendia.com/blog'
+        const authorLink = `${SITE_URL}/blog/author/${slug}`
+        const link = twitterLink || githubLink || authorLink || BLOG_URL
         const image = avatar || 'https://www.fillmurray.com/100/100'
         // Add row
         md += `
@@ -126,15 +139,15 @@ const config = {
         const { data, file } = item
         const fileName = path.basename(file)
         const postSlug = fileName.replace(/\.mdx?$/, '')
-        const url = `https://vendia.com/releases/${postSlug}`
+        const url = `${RELEASES_URL}/${postSlug}`
         const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/releases/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
         md += `| [${data.title}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
-      });
+      })
 
-      return md;
+      return md
     },
   },
 }

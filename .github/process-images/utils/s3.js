@@ -34,7 +34,7 @@ async function uploadObjects(bucketName, objects, options = {}) {
   const limit = pLimit(5)
   const fileStatuses = await Promise.all(
     (objects.map((obj) => {
-      return limit(() => checkForItem(bucketName, obj))
+      return limit(() => checkForItem(bucketName, obj, options.cdnPrefix))
     }))
   )
   // console.log('fileStatuses', fileStatuses)
@@ -55,8 +55,8 @@ async function uploadObjects(bucketName, objects, options = {}) {
   while (uploaded < unknownFiles.length) {
     const chunk = unknownFiles.slice(uploaded, uploaded + maxTransfers)
     await Promise.all(chunk.map(async ({ id, path: objectPath }) => {
-      console.log(`Uploading file to ${bucketName}/${id}...`)
-      console.log('objectPath', objectPath)
+      console.log(`Uploading file to s3 ${bucketName}/${id}...`)
+      // console.log('objectPath', objectPath)
       const stream = fs.createReadStream(objectPath)
       const upload = new Promise((resolve) => stream.on('end', resolve))
       await s3.send(new PutObjectCommand({
@@ -72,7 +72,7 @@ async function uploadObjects(bucketName, objects, options = {}) {
             ...item,
             exists: true,
             isNew: true,
-            // todo updat size
+            // todo update size
           }
         }
         return item
@@ -87,12 +87,13 @@ async function uploadObjects(bucketName, objects, options = {}) {
   return modifiedUploadData
 }
 
-async function checkForItem(bucketName, object) {
+async function checkForItem(bucketName, object, cdnPrefix) {
+  const bucket = bucketName || S3_BUCKET_NAME
   const key = object.id
   let data = {}
   try {
     data = await s3.send(new HeadObjectCommand({
-      Bucket: bucketName || S3_BUCKET_NAME,
+      Bucket: bucket,
       Key: key,
     }))
   } catch (err) {
@@ -101,7 +102,8 @@ async function checkForItem(bucketName, object) {
       id: key,
       path: object.path,
       exists: false,
-      size: 0 
+      size: 0,
+      uri: getS3Url({ bucketName: bucket, key, cdnPrefix }),
     }
   }
   console.log(`Item already exists in bucket "${bucketName}/${key}"`)
@@ -109,8 +111,50 @@ async function checkForItem(bucketName, object) {
     id: key,
     path: object.path,
     exists: true,
-    size: data.ContentLength 
+    size: data.ContentLength,
+    uri: getS3Url({ bucketName: bucket, key, cdnPrefix }),
   }
+}
+
+// Because s3 urls are annoying
+function getS3Url({
+  bucketName,
+  cdnPrefix,
+  key,
+}) {
+  const encodedKey = encodeS3URI(key)
+  return {
+    key: encodedKey,
+    s3: `https://${bucketName}.s3.amazonaws.com/${encodedKey}`,
+    ...(cdnPrefix) ? { cdn: `${cdnPrefix}/${encodedKey}` } : {}
+  }
+}
+
+const encodings = {
+  '\+': "%2B",
+  '\!': "%21",
+  '\"': "%22",
+  '\#': "%23",
+  '\$': "%24",
+  '\&': "%26",
+  '\'': "%27",
+  '\(': "%28",
+  '\)': "%29",
+  '\*': "%2A",
+  '\,': "%2C",
+  '\:': "%3A",
+  '\;': "%3B",
+  '\=': "%3D",
+  '\?': "%3F",
+  '\@': "%40",
+};
+
+function encodeS3URI(filename) {
+  return encodeURI(filename) // Do the standard url encoding
+    .replace(
+        /(\+|!|"|#|\$|&|'|\(|\)|\*|\+|,|:|;|=|\?|@)/img,
+        function(match) { return encodings[match]; }
+    );
 }
 
 /*
@@ -124,4 +168,5 @@ checkForItem(filePath).then((d) => {
 
 module.exports = {
   uploadObjects,
+  encodeS3URI,
 }
