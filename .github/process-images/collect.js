@@ -128,7 +128,7 @@ function escapeStringRegexp(string) {
   if (endsWith) {
     newString = newString.replace(/\$$/, 'DOLLAR_PLACEHOLDER')
   }
-	return newString
+  return newString
     .replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
     .replace(/-/g, '\\x2d')
     .replace(/^CARET_PLACEHOLDER/, '^')
