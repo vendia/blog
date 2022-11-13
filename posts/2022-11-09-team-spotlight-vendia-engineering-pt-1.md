@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: vendia-engineering-team-spotlight
 title: "Team spotlight: Vendia Engineering (Pt. 1)"
 description: Get to know some of our world-class engineers with pedigrees from
@@ -18,8 +18,9 @@ seo:
   description: Get to know some of our world-class engineers with pedigrees from
     AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see
     what it’s like to be a part of Vendia.
+  title: "Team spotlight: Vendia Engineering"
 updatedBy: Caroll Casbeer
-updatedAt: 2022-11-09T18:51:58.831Z
+updatedAt: 2022-11-10T23:38:24.031Z
 ---
 
 At Vendia, our international, remote-first team of [kind humans](https://www.vendia.com/kind-humans) helps our customers automate and accelerate their data workflows across business networks. And while our [product](https://www.vendia.com/product) is pretty dang cool, the teams that help us share it with the world are [even cooler](https://www.vendia.com/blog/vendia-values). 
