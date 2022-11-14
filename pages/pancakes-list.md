@@ -36,17 +36,6 @@ components:
       image: https://www.vendia.com/images/illustrations/home-two.svg
   - type: MediaWithText
     text: >-
-      ## **Media with text**
-
-
-      **Using video and position left**
-
-
-      **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.**
-    mediaPosition: right
-    videoURL: https://player.vimeo.com/video/708017694
-  - type: MediaWithText
-    text: >-
       ## Media with text
 
 
@@ -56,6 +45,24 @@ components:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
     mediaPosition: left
     videoURL: https://player.vimeo.com/video/708017988
+  - type: MediaWithText
+    text: >-
+      ## **Media with text**
+
+
+      **Using video and position right**
+
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    mediaPosition: right
+    videoURL: https://player.vimeo.com/video/708017694
+  - type: MediaFullScreen
+    intro:
+      title: Media full screen
+      text: with image
+    image:
+      image: https://staging-preview-244--vendia-site.netlify.app/images/full-screen-image.png
+      caption: Optional caption here
   - type: MediaFullScreen
     intro:
       title: Media full screen
@@ -71,18 +78,11 @@ components:
 
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-  - type: MediaFullScreen
-    intro:
-      title: Media full screen
-      text: with image
-    image:
-      image: https://staging-preview-244--vendia-site.netlify.app/images/full-screen-image.png
-      caption: Optional caption here
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T18:26:04.277Z
+updatedAt: 2022-11-14T20:59:23.341Z
 ---
 
 Body is required to show pancakes
