@@ -6,6 +6,11 @@ components:
   - type: MediaFullScreen
     intro:
       title: Media full screen
+      text: with video
+    videoURL: https://player.vimeo.com/video/708017694
+  - type: MediaFullScreen
+    intro:
+      title: Media full screen
       text: "with image! "
     image:
       image: https://staging-preview-244--vendia-site.netlify.app/images/full-screen-image.png
@@ -35,7 +40,7 @@ seo:
   title: Title
   description: D
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T15:28:01.368Z
+updatedAt: 2022-11-14T15:38:47.443Z
 ---
 
 Some body
