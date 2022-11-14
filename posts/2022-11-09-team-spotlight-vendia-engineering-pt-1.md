@@ -20,7 +20,7 @@ seo:
     what it’s like to be a part of Vendia.
   title: "Team spotlight: Vendia Engineering"
 updatedBy: alexa-vendia
-updatedAt: 2022-11-14T19:37:42.896Z
+updatedAt: 2022-11-14T23:19:32.060Z
 ---
 
 At Vendia, our international, remote-first team of [kind humans](https://www.vendia.com/kind-humans) helps our customers automate and accelerate their data workflows across business networks. And while our [product](https://www.vendia.com/product) is pretty dang cool, the teams that help us share it with the world are [even cooler](https://www.vendia.com/blog/vendia-values). 
@@ -140,7 +140,7 @@ I’m solving a new set of problems in my current role at Vendia, but I still cr
 - **Role:** Software Engineering Intern
 - **Homebase:** Mississauga, Ontario, Canada
 - **Hobbies:** Food and travel, rock climbing
-- **Find Victor** on [LinkedIn](https://www.linkedin.com/in/vzheng1/) | [GitHub](https://github.com/victorzheng1)
+- **Find Victor** on [LinkedIn](https://www.linkedin.com/in/vzheng1/) | [GitHub](https://github.com/smilesthesad)
 
 **What drew you to engineering as a discipline?** I love the ability to create incredible software no matter where I am. Being able to work on many cool products by just clicking buttons on a keyboard still astounds me to this day.
 
