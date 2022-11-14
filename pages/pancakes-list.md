@@ -8,6 +8,17 @@ components:
       ## Media with text
 
 
+      **Using video and position right**
+
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    mediaPosition: right
+    videoURL: https://player.vimeo.com/video/708017988
+  - type: MediaWithText
+    text: >-
+      ## Media with text
+
+
       **Using video and position left**
 
 
@@ -42,7 +53,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T16:18:38.901Z
+updatedAt: 2022-11-14T16:20:41.958Z
 ---
 
 Body is required to show pancakes
