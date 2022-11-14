@@ -3,6 +3,14 @@ draft: false
 template: page
 path: pancakes-list
 components:
+  - type: MediaFullScreen
+    intro:
+      title: Media full screen
+      text: "with image! "
+    image:
+      image: https://staging-preview-244--vendia-site.netlify.app/images/full-screen-image.png
+      altText: Graphc
+      caption: Some nice caption goes here
   - type: TextWithImage
     text: >-
       ## Lorem ipsum
@@ -27,7 +35,7 @@ seo:
   title: Title
   description: D
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T14:36:37.745Z
+updatedAt: 2022-11-14T15:28:01.368Z
 ---
 
 Some body
