@@ -3,6 +3,13 @@ draft: false
 template: page
 path: pancakes-list
 components:
+  - type: Contact
+    text: >-
+      ## Contact pancake
+
+
+       Nulla nisl risus, pellentesque quis elit vel, feugiat efficitur sem. Duis nec elit ligula.
+    person: Ben Steward
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -75,7 +82,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T18:11:50.761Z
+updatedAt: 2022-11-14T18:26:04.277Z
 ---
 
 Body is required to show pancakes
