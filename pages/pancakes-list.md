@@ -3,13 +3,6 @@ draft: false
 template: page
 path: pancakes-list
 components:
-  - type: Contact
-    text: >-
-      ## Contact pancake
-
-
-       Nulla nisl risus, pellentesque quis elit vel, feugiat efficitur sem. Duis nec elit ligula.
-    person: Ben Steward
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -78,11 +71,23 @@ components:
 
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  - type: Contact
+    text: >-
+      ## Contact pancake
+
+
+       Nulla nisl risus, pellentesque quis elit vel, feugiat efficitur sem. Duis nec elit ligula.
+    person: Ben Steward
+  - type: Pricing
+    version: short
+    intro:
+      title: Pricing pancake
+      text: Short version
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T20:59:23.341Z
+updatedAt: 2022-11-14T21:12:38.920Z
 ---
 
 Body is required to show pancakes
