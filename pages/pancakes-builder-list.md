@@ -5,6 +5,17 @@ path: pancakes-builder-list
 components:
   - type: MediaWithImage
     text: >-
+      ## Media with text
+
+
+      **Using video and position left**
+
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non malesuada tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    mediaPosition: left
+    videoURL: https://player.vimeo.com/video/708017988
+  - type: MediaWithImage
+    text: >-
       ## Media with image
 
 
@@ -31,7 +42,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T15:57:28.612Z
+updatedAt: 2022-11-14T15:58:32.888Z
 ---
 
 Body is required. Needs to fix this
