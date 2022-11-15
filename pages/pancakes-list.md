@@ -3,6 +3,10 @@ draft: false
 template: page
 path: pancakes-list
 components:
+  - type: Quote
+    text: "**Fusce porttitor**, lacus vel aliquam cursus, lorem ex mattis tellus,
+      sed commodo elit felis quis tortor."
+    author: Caroll Casbeer
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -83,11 +87,16 @@ components:
     intro:
       title: Pricing pancake
       text: Short version
+  - type: Pricing
+    version: long
+    intro:
+      title: Pricing pancake
+      text: Long version
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-14T21:12:38.920Z
+updatedAt: 2022-11-15T03:54:33.321Z
 ---
 
 Body is required to show pancakes
