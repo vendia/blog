@@ -3,6 +3,14 @@ draft: false
 template: page
 path: /pancakes-list
 components:
+  - type: Hero
+    title: Hero pancake
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    callToActions:
+      - label: Get started
+        url: "#"
+      - label: Contact sales
+        url: "#"
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -105,7 +113,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T04:25:44.021Z
+updatedAt: 2022-11-15T04:37:39.846Z
 ---
 
 Body is required to show pancakes
