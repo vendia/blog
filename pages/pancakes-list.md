@@ -3,6 +3,26 @@ draft: false
 template: page
 path: /pancakes-list
 components:
+  - type: Columns
+    intro:
+      title: Columns pancake
+      text: Three columns
+    columns:
+      - text: >-
+          ## Feature 1
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue in diam ut convallis. Maecenas eu diam eget tortor iaculis maximus in at odio.
+      - text: >-
+          ## Feature 2
+
+
+          Vestibulum laoreet ligula ut diam tincidunt, at placerat purus maximus. Mauris ex felis, auctor sit amet nisi eu, ornare sollicitudin tellus. Pellentesque molestie auctor volutpat.
+      - text: >-
+          ## Feature 3
+
+
+          Mauris libero mi, viverra eu ante sit amet, gravida dictum tortor. Suspendisse dictum non lorem sit amet vestibulum.
   - type: Hero
     title: Hero pancake
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -113,7 +133,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T04:37:39.846Z
+updatedAt: 2022-11-15T15:19:31.851Z
 ---
 
 Body is required to show pancakes
