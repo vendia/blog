@@ -20,7 +20,7 @@ seo:
     what it’s like to be a part of Vendia.
   title: "Team spotlight: Vendia Engineering"
 updatedBy: alexa-vendia
-updatedAt: 2022-11-14T23:19:32.060Z
+updatedAt: 2022-11-15T00:40:12.295Z
 ---
 
 At Vendia, our international, remote-first team of [kind humans](https://www.vendia.com/kind-humans) helps our customers automate and accelerate their data workflows across business networks. And while our [product](https://www.vendia.com/product) is pretty dang cool, the teams that help us share it with the world are [even cooler](https://www.vendia.com/blog/vendia-values). 
@@ -165,9 +165,9 @@ NOTE: Dan’s an invaluable member of our Vendia engineering team. He’s also s
 - **Now pod-ing:** [Smash Boom Best](https://www.smashboom.org/) (w/ said kids); [99 PI](https://99percentinvisible.org/) and [Cautionary Tales](https://timharford.com/articles/cautionarytales/)
 - **Find Kevin** on [LinkedIn](https://www.linkedin.com/in/kevindurdle/) | [Github](https://github.com/kdurdle-vendia)
 
-**What’s the best advice you’ve received in your career?** One of the things that I’ve learned, in part because my mentors have taught me this, is that it’s really hard to predict the future, but it’s essential to make plans. For Vendia, especially as such a young company, we can make predictions. We absolutely place bets. But, we also have plans that help us create, iterate, pivot when needed, and win. 
+**What’s the best advice you’ve received in your career?** One of the things that I’ve learned through mentors is that it’s really hard to predict the future, but it’s essential to make plans. For Vendia, especially as such a young company, we can make predictions. We absolutely place bets. But, the key to our success is going to be listening to our customers and ensuring we create, iterate, and pivot when needed. 
 
-**What do you love about working on the Vendia Engineering team?** What we do in engineering directly impacts every aspect of our company. And my role is pretty fantastic because I’m so close to our customers: I’m at the intersection of what we at Vendia want the future to be and what our customers tell us the future *should* be. And I get to work with really smart people who can help me realize BOTH of those outcomes. 
+**What do you love about working on the Vendia Engineering team?** My role is pretty fantastic: Of course, engineering directly impacts every aspect of our company, but I'm also super close to our customers. I’m at the intersection of what we at Vendia want the future to be and what our customers tell us the future *should* be. And I get to work with really smart people who can help me realize BOTH of those outcomes. 
 
 ---
 
