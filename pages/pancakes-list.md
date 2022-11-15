@@ -3,15 +3,6 @@ draft: false
 template: page
 path: /pancakes-list
 components:
-  - type: Text
-    text: >-
-      ## Text pancake
-
-
-      Maecenas egestas enim eget varius tempor. **Proin at hendrerit est**. Quisque magna enim, lobortis vel auctor ut, luctus ac est. Sed scelerisque tristique lorem, [sed vehicula arcu rhoncus](https://www.vendia.com) eu. Cras sodales, ante sit amet vehicula tempus, enim purus imperdiet enim.
-
-
-      In venenatis justo ipsum interdum turpis. Pellentesque vitae nulla quis arcu euismod ultrices. Quisque sed lorem sed est fermentum interdum.
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -101,11 +92,20 @@ components:
     intro:
       title: Pricing pancake
       text: Long version
+  - type: Text
+    text: >-
+      ## Text pancake
+
+
+      Maecenas egestas enim eget varius tempor. **Proin at hendrerit est**. Quisque magna enim, lobortis vel auctor ut, luctus ac est. Sed scelerisque tristique lorem, [sed vehicula arcu rhoncus](https://www.vendia.com) eu. Cras sodales, ante sit amet vehicula tempus, enim purus imperdiet enim.
+
+
+      In venenatis justo ipsum interdum turpis. Pellentesque vitae nulla quis arcu euismod ultrices. Quisque sed lorem sed est fermentum interdum.
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T04:21:14.993Z
+updatedAt: 2022-11-15T04:25:44.021Z
 ---
 
 Body is required to show pancakes
