@@ -3,14 +3,6 @@ draft: false
 template: page
 path: /pancakes-list
 components:
-  - type: Logos
-    logos:
-      - BMW
-      - Unfi
-      - Resolution Life
-      - Atos
-      - Purina
-      - Aerotrax Technologies
   - type: Hero
     title: Hero pancake
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -19,6 +11,14 @@ components:
         url: "#"
       - label: Contact sales
         url: "#"
+  - type: Logos
+    logos:
+      - BMW
+      - Unfi
+      - Resolution Life
+      - Atos
+      - Purina
+      - Aerotrax Technologies
   - type: Columns
     intro:
       title: Columns pancake
@@ -165,7 +165,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T17:13:39.285Z
+updatedAt: 2022-11-15T17:25:31.609Z
 ---
 
 Body is required to show pancakes
