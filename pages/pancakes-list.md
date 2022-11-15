@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: pancakes-list
+path: /pancakes-list
 components:
   - type: MediaWithText
     text: >-
@@ -96,7 +96,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T04:08:31.692Z
+updatedAt: 2022-11-15T04:08:39.130Z
 ---
 
 Body is required to show pancakes
