@@ -161,7 +161,7 @@ test('Post validation', async () => {
         if (!allCategorySlugs.includes(cat)) {
           errors.push(`Invalid category "${cat}" in ${file}. 
 Must be one of ${JSON.stringify(allCategorySlugs)}
-Add categories in the ./categories/categories.json file`)
+Add categories in the ./settings/categories.json file`)
         }
       })
     }

@@ -1,0 +1,69 @@
+{
+  "description": "Vendia blog categories",
+  "categories": [
+    {
+      "slug": "company",
+      "description": "Company news & updates"
+    },
+    {
+      "slug": "podcast",
+      "description": "Podcast"
+    },
+    {
+      "slug": "announcements",
+      "description": "Company announcements"
+    },
+    {
+      "slug": "tutorials",
+      "description": "Developer tutorials"
+    },
+    {
+      "slug": "product",
+      "description": "Product updates & feature releases"
+    },
+    {
+      "slug": "architecture",
+      "description": "Software architecture"
+    },
+    {
+      "slug": "concepts",
+      "description": "Software concepts"
+    },
+    {
+      "slug": "smart-contracts",
+      "description": "Smart contracts"
+    },
+    {
+      "slug": "data-modeling",
+      "description": "Data modeling"
+    },
+    {
+      "slug": "tim-wagner",
+      "description": "Tim Wagner"
+    },
+    {
+      "slug": "realtime-data-sharing",
+      "description": "Real time data sharing"
+    },
+    {
+      "slug": "blockchain",
+      "description": "Blockchain"
+    },
+    {
+      "slug": "data-alliance",
+      "description": "Data alliance"
+    },
+    {
+      "slug": "graphql",
+      "description": "Graph QL"
+    },
+    {
+      "slug": "lean-apps",
+      "description": "Lean apps"
+    },
+    {
+      "slug": "smart-apis",
+      "description": "Smart APIs"
+    }
+  ]
+}
