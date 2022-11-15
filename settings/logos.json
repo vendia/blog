@@ -2,8 +2,24 @@
   "description": "Logos used in various landing pages",
   "logos": [
     {
-      "name": "BMWx",
-      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1667483628/user-images.githubusercontent.com..105127677..199636005-cf656c70-7f07-4f96-9261-05e2d8be3c29.jpg"
+      "name": "Aerotrax Technologies",
+      "logo": "https://vendia.com/images/customers/Aerotrax.svg",
+    },
+    {
+      "name": "Atos",
+      "logo": "https://vendia.com/images/customers/Atos.svg",
+    },
+    {
+      "name": "BMW",
+      "logo": "https://vendia.com/images/customers/BMW.svg"
+    },
+    {
+      "name": "Resolution Life",
+      "logo": "https://vendia.com/images/customers/ResolutionLife.svg"
+    },
+    {
+      "name": "Unfi",
+      "logo": "https://vendia.com/images/customers/UNFI.svg"
     }
   ],
   "updatedAt": "2022-11-15T21:38:56.362Z",
