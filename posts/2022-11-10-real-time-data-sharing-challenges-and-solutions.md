@@ -25,8 +25,8 @@ seo:
     explore a more modern one with Vendia Share.
 
   keywords: real-time data, real-time data sharing
-updatedBy: David Wells
-updatedAt: 2022-11-10T18:44:48.220Z
+updatedBy: alexa-vendia
+updatedAt: 2022-11-15T17:44:24.221Z
 ---
 
 By 2025, global data growth is expected to reach [181 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/), up from 79 zettabytes in 2021. As countries and communities make new investments in internet and broadband access, mobile phone use expands and uptime grows, and social media [drives](https://ourworldindata.org/internet) a new generation of consumers and data makers, businesses are struggling to build or buy a [real-time data sharing platform](vendia.com/product) that scales for multiple data sharing partners, is cloud-based, fault tolerant, secure, compliant, and delivers an automatically reconciled single source of truth for everyone (or everyone with the right permissions) in a data alliance.
@@ -45,7 +45,7 @@ Still, real-time data sharing requires sharing operational data, and there are m
 
 With operational data sharing, you create visibility and transparency to support hourly, daily, and weekly tactical business decisions.
 
-- How many business-class seats remain unbooked booked on the flight?
+- How many business-class seats remain unbooked on the flight?
 - Will the microchips [ship out on time](https://www.vendia.com/blog/why-is-supply-chain-visibility-important) tomorrow in the quantity we need?
 - How many transactions are lenders processing, at what rates this week?
 - What’s the overall inventory on our high-velocity items across the region today?
