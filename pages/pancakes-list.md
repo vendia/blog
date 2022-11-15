@@ -3,10 +3,6 @@ draft: false
 template: page
 path: pancakes-list
 components:
-  - type: Quote
-    text: "**Fusce porttitor**, lacus vel aliquam cursus, lorem ex mattis tellus,
-      sed commodo elit felis quis tortor."
-    author: Caroll Casbeer
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -82,6 +78,10 @@ components:
 
        Nulla nisl risus, pellentesque quis elit vel, feugiat efficitur sem. Duis nec elit ligula.
     person: Ben Steward
+  - type: Quote
+    text: "**Fusce porttitor**, lacus vel aliquam cursus, lorem ex mattis tellus,
+      sed commodo elit felis quis tortor."
+    author: Caroll Casbeer
   - type: Pricing
     version: short
     intro:
@@ -96,7 +96,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T03:54:33.321Z
+updatedAt: 2022-11-15T04:08:31.692Z
 ---
 
 Body is required to show pancakes
