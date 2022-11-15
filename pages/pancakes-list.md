@@ -40,6 +40,21 @@ components:
 
 
           Mauris libero mi, viverra eu ante sit amet, gravida dictum tortor. Suspendisse dictum non lorem sit amet vestibulum.
+  - type: Columns
+    intro:
+      title: Columns pancake
+      text: Two columns
+    columns:
+      - text: >-
+          ## Feature 1
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue in diam ut convallis. Maecenas eu diam eget tortor iaculis maximus in at odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue in diam ut convallis. Maecenas eu diam eget tortor iaculis maximus in at odio.
+      - text: >-
+          ## Feature 2
+
+
+          Vestibulum laoreet ligula ut diam tincidunt, at placerat purus maximus. Mauris ex felis, auctor sit amet nisi eu, ornare sollicitudin tellus. Pellentesque molestie auctor volutpat.Vestibulum laoreet ligula ut diam tincidunt, at placerat purus maximus. Mauris ex felis, auctor sit amet nisi eu, ornare sollicitudin tellus. Pellentesque molestie auctor volutpat.
   - type: MediaWithText
     text: >-
       ## Media with text
@@ -142,7 +157,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T15:21:18.200Z
+updatedAt: 2022-11-15T15:22:28.116Z
 ---
 
 Body is required to show pancakes
