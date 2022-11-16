@@ -1,12 +1,18 @@
 ---
-title: 'Applying Vendia Share smart contracts'
-description: 'Examples of real-time data validation, computation, and enrichment'
-date: '2022-05-25'
-categories:
-- concepts
-- tutorials
+title: Applying Vendia Share smart contracts
+description: Examples of real-time data validation, computation, and enrichment
+date: 2022-05-25
 authors:
-- James Gimourginas
+  - James Gimourginas
+categories:
+  - concepts
+  - tutorials
+tweet: Learn how to applying Vendia Share smart contracts
+seo:
+  title: Applying Vendia Share smart contracts
+  description: Applying Vendia Share smart contracts
+updatedBy: David Wells
+updatedAt: 2022-11-16T19:45:40.052Z
 ---
 
 ## Overview
@@ -66,7 +72,9 @@ The `inputQuery` retrieves information from the Uni and provides it as input dur
 
 ```graphql
 query ValidationInputQuery($loanIdentifier: String!) {
-  list_LoanItems(filter: {loanIdentifier: {eq: $loanIdentifier}}) {
+  list_LoanItems(filter: { 
+    loanIdentifier: { eq: $loanIdentifier }
+  }) {
     _LoanItems {
       ... on Self_Loan {
         _id
@@ -87,57 +95,62 @@ The AWS Lambda function uses the data provided by the `inputQuery`, applies the 
  * Performs a set of validations against a loan provided as part of the event input.
  *
  * @param event that contains a loan to be validated, among other fields
- * @returns Promise of an object that contains the validation results and ACL modifications, as expected by the associated smart contract's outputMutation
+ * @returns Promise of an object that contains the validation results 
+ 	and ACL modifications, as expected by the associated smart contract's outputMutation
  */
 exports.handler = async (event) => {
-
-    let loan = {}
-    let validationStatus
-    let acls
-
-    try {
-        console.log("Event is", event)
-
-        loan = event.queryResult.list_LoanItems._LoanItems[0]
-
-        console.log("Loan is", loan)
-        
-        let isValid = isValidOrigination(loan.originationDate) &&
-            isValidLoanAmount(loan.unpaidPrincipalBalance, loan.borrowerCreditScore)
-
-        console.log("Validation function determined the loan" + (isValid ? " IS " : " IS NOT ") + "valid");
-
-        if(isValid) {
-            validationStatus = "VALID"
-            acls = [
-                { principal: {nodes: "LenderNode"}, operations: ["ALL", "UPDATE_ACL"] },
-                { principal: {nodes: "ServicerNode"}, operations: ["READ"] }
-            ]
-        } else {
-            validationStatus = "INVALID"
-            acls = [
-                {principal: {nodes: "LenderNode"}, operations: ["ALL", "UPDATE_ACL"]}
-            ]
+  let loan = {}
+  let validationStatus
+  let acls
+  try {
+    console.log("Event is", event)
+    loan = event.queryResult.list_LoanItems._LoanItems[0]
+    console.log("Loan is", loan)
+    let isValid = isValidOrigination(loan.originationDate) &&
+      isValidLoanAmount(loan.unpaidPrincipalBalance, loan.borrowerCreditScore)
+    console.log("Validation function determined the loan" + (isValid ? " IS " : " IS NOT ") + "valid");
+    if (isValid) {
+      validationStatus = "VALID"
+      acls = [{
+          principal: {
+            nodes: "LenderNode"
+          },
+          operations: ["ALL", "UPDATE_ACL"]
+        },
+        {
+          principal: {
+            nodes: "ServicerNode"
+          },
+          operations: ["READ"]
         }
-    } catch (error) {
-        console.error("Unexpected exception during validation", error)
-
-        validationStatus = "ERROR"
-        acls = [
-            { principal: {nodes: "LenderNode"}, operations: ["ALL", "UPDATE_ACL"] }
-        ]
-
-    } finally {
-        console.log("Returning " + validationStatus + " and " + acls + " for loan " + loan._id)
-
-        return {
-            id: loan._id,
-            validationStatus: validationStatus,
-            acl: acls
-        }
+      ]
+    } else {
+      validationStatus = "INVALID"
+      acls = [{
+        principal: {
+          nodes: "LenderNode"
+        },
+        operations: ["ALL", "UPDATE_ACL"]
+      }]
     }
+  } catch (error) {
+    console.error("Unexpected exception during validation", error)
+    validationStatus = "ERROR"
+    acls = [{
+      principal: {
+        nodes: "LenderNode"
+      },
+      operations: ["ALL", "UPDATE_ACL"]
+    }]
+  } finally {
+    console.log("Returning " + validationStatus + " and " + acls + " for loan " + loan._id)
+    return {
+      id: loan._id,
+      validationStatus: validationStatus,
+      acl: acls
+    }
+  }
 }
-
 /**
  * True if originationDate is prior to now, false otherwise
  * @param originationDate of a loan
@@ -146,12 +159,11 @@ exports.handler = async (event) => {
 function isValidOrigination(originationDate) {
   return Date.parse(originationDate) < Date.now()
 }
-
 /**
  * True if balance is less than or equal to borrower's credit score multiplied by 1000
  * @param balance on the loan
  * @param creditScore of the borrower
- * @returns {boolean} true if credit score is sufficiently large for the balance provided, false otherwise
+ * @returns {boolean} true if credit score is sufficiently large for the balance provided
  */
 function isValidLoanAmount(balance, creditScore) {
   // A very simplistic check, which can easily be replaced by a more complex algorithm
@@ -163,15 +175,15 @@ function isValidLoanAmount(balance, creditScore) {
 The `outputMutation` maps the return value from the AWS Lambda function to a predefined mutation that will result in data being written back to the Uni.  The expected result of executing the validation smart contract is a change to a loan's `validationStatus` field and, only if validation was successful, a change to the loan's [data access controls](https://www.vendia.com/blog/multi-party-data-sharing-with-control#data-access-controls) to allow the Servicer to see the (now-validated) loan information.
 
 ```graphql
-mutation ValidationOutputMutation($id: ID!,  $validationStatus: Self_Loan_validationStatusEnum!, $acl: [Vendia_Acl_Input_!]) {
+mutation ValidationOutputMutation(
+  $id: ID!
+  $validationStatus: Self_Loan_validationStatusEnum!
+  $acl: [Vendia_Acl_Input_!]
+) {
   update_Loan_async(
-    id: $id, 
-    input: {
-      validationStatus: $validationStatus
-    },
-    aclInput: {
-        acl: $acl
-    }
+    id: $id
+    input: { validationStatus: $validationStatus }
+    aclInput: { acl: $acl }
   ) {
     error
   }
@@ -237,4 +249,3 @@ Selecting one of the ledger entries provides more detail about the ledgered tran
 ## Conclusion
 
 Smart contracts can be used for a variety of purposes, including data validation, computation, and enrichment.  The recently published [smart contract feature example](https://github.com/vendia/examples/blob/main/features/share/smart-contracts) provides a step-by-step guide to create and invoke a set of smart contracts, each demonstrating slightly different interaction patterns and smart contract composition approaches.  Using smart contracts allows data _and code_ to be shared and ledgered for real-time awareness and full transparency across a network of Uni participants.
-
