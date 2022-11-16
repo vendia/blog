@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: podcast-patient-experience-with-teeth
 title: "Patient experience with teeth: How the world’s leading dental laboratory
   uses data sharing to improve healthcare"
@@ -24,7 +24,7 @@ seo:
     data sharing across the medical device value chain.
   keywords: circles of trust
 updatedBy: Caroll Casbeer
-updatedAt: 2022-11-16T18:47:29.820Z
+updatedAt: 2022-11-16T18:47:39.994Z
 ---
 
 **Listen on [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)**
