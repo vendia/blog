@@ -24,8 +24,10 @@ seo:
     data sharing across the medical device value chain.
   keywords: circles of trust
 updatedBy: Caroll Casbeer
-updatedAt: 2022-11-16T18:47:39.994Z
+updatedAt: 2022-11-16T18:51:12.336Z
 ---
+
+<YouTube aspectRatio="16:9" title="" url="https://youtu.be/ugsednfx2ik" />
 
 **Listen on [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)**
 
