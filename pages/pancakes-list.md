@@ -161,11 +161,14 @@ components:
 
 
       In venenatis justo ipsum interdum turpis. Pellentesque vitae nulla quis arcu euismod ultrices. Quisque sed lorem sed est fermentum interdum.
+  - type: HubspotForm
+    text: Text here
+    formID: "123"
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-15T17:25:31.609Z
+updatedAt: 2022-11-17T22:12:35.449Z
 ---
 
 Body is required to show pancakes
