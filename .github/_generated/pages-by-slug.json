@@ -1,5 +1,14 @@
 {
-  "foo/bar": "/pages/default-title.md",
-  "new-slug-on/site": "/pages/new-slug-on-site.md",
-  "pancakes-list": "/pages/pancakes-list.md"
+  "foo/bar": {
+    "file": "/pages/default-title.md",
+    "draft": true
+  },
+  "new-slug-on/site": {
+    "file": "/pages/new-slug-on-site.md",
+    "draft": true
+  },
+  "pancakes-list": {
+    "file": "/pages/pancakes-list.md",
+    "draft": true
+  }
 }

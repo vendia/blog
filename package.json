@@ -9,6 +9,7 @@
     "serve": "serve .github/admin",
     "test": "uvu .github .test.js",
     "test:md": "uvu .github 'md.test.([mc]js|[jt]sx?)$'",
+    "test:fm": "uvu .github 'find-frontmatter.test.([mc]js|[jt]sx?)$'",
     "docs": "node ./.github/generate.js",
     "new": "plop --plopfile .github/plopfile.js",
     "process": "node .github/process-images",

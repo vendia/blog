@@ -234,6 +234,7 @@ function removeLeadingAndTrailingSlashes(str = '') {
 
 function getSlugMap(data, baseDir, formatFn) {
   return data.reduce((acc, post) => {
+    // console.log('post', post)
     const frontMatterSlug = post.data.slug || post.data.path
     let slug = (frontMatterSlug) ? frontMatterSlug : path.basename(post.file)
     const nicePath = post.file.replace(baseDir, '')
@@ -246,7 +247,10 @@ function getSlugMap(data, baseDir, formatFn) {
 Change duplicate slug "${slug}" in ${nicePath} to fix this error.
 `)
     }
-    acc[slug] = nicePath
+    acc[slug] = { 
+      file: nicePath,
+      draft: Boolean(post.data.draft),
+    }
     return acc
   }, {})
 }

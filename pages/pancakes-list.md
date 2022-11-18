@@ -30,6 +30,8 @@ components:
 
           ## Feature 1
 
+          ---
+
 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue in diam ut convallis. Maecenas eu diam eget tortor iaculis maximus in at odio.
       - text: >-
@@ -169,7 +171,7 @@ components:
       Connect dispersed data in real-time.
 
 
-        Gain a single source of truth across applications, datastores, and even partner systems of record.
+      Gain a single source of truth across applications, datastores, and even partner systems of record.
 
 
       Whether sharing data across applications, clouds, geographies, or companies, Vendia is designed to make it easy to share real-time data across those boundaries.

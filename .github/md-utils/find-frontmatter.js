@@ -1,19 +1,37 @@
 const matter = require('gray-matter')
 /* Match <!-- frontmatter --> */
-const HIDDEN_FRONTMATTER_REGEX = /^<!--.*((.|\r?\n)*?.*-->)/g
+// https://regex101.com/r/Q9bBxC/1
+const HIDDEN_FRONTMATTER_REGEX = /^<!--+(?:\r\n|\r|\n)([\w\W]*?)--+>/g
+// const HIDDEN_FRONTMATTER_REGEX = /^<!--.*((.|\r?\n)*?.*-->)/g
 /* Match --- frontmatter --- */
-const FRONTMATTER_REGEX = /^---.*((.|\r?\n)*?.*---)/g
+// https://regex101.com/r/d7eAw4/1
+const FRONTMATTER_REGEX = /(^--+(?:\r\n|\r|\n)([\w\W]*?)--+)/
+// const FRONTMATTER_REGEX = /^---.*((.|\r?\n)*?.*---)/gm
+
+function removeConflictingContent(str) {
+  return str
+    .replace(/[\t ]{1}---/g, '__LINE_BREAK__')
+    .replace(/[\t ]--+>/g, '__CLOSE_COMMENT__')
+    // TODO also handle nested <!-- comments -->
+}
+
+function replaceConflictingContent(str) {
+  return str
+    .replace(/__LINE_BREAK__/g, ' ---')
+    .replace(/__CLOSE_COMMENT__/g, ' -->')
+}
 
 function findFrontmatterRaw(content = '') {
-  const text = content.trim()
+  const text = removeConflictingContent(content.trim())
   const hasFrontMatter = text.match(FRONTMATTER_REGEX)
   const hasHiddenFrontMatter = text.match(HIDDEN_FRONTMATTER_REGEX)
   let raw = ''
   let match = ''
   let isHidden = false
-
+  // console.log('hasFrontMatter', hasFrontMatter)
+  // console.log('hasHiddenFrontMatter', hasHiddenFrontMatter)
   if (hasFrontMatter) {
-    raw = hasFrontMatter[0]
+    raw = hasFrontMatter[1]
     match = raw.trim()
       // Fix Leading frontmatter brackets
       .replace(/^---+/, '---')
@@ -21,7 +39,7 @@ function findFrontmatterRaw(content = '') {
       .replace(/--+$/, `---`)
   } else if (hasHiddenFrontMatter) {
     isHidden = true
-    raw = hasHiddenFrontMatter[0]
+    raw = hasHiddenFrontMatter[1]
     match = raw.trim()
       // Leading frontmatter brackets
       .replace(/<!--+/, '---')
@@ -29,14 +47,15 @@ function findFrontmatterRaw(content = '') {
       .replace(/--+>/, `---`)
   }
   return {
-    rawFrontMatter: raw,
-    frontMatter: match,
+    rawFrontMatter: replaceConflictingContent(raw),
+    frontMatter: replaceConflictingContent(match),
     isHidden
   }
 }
 
 function findFrontmatter(text) {
   const { frontMatter, rawFrontMatter } = findFrontmatterRaw(text)
+  // console.log('frontMatter', frontMatter)
   let frontmatter = { data: {}, content: '' }
   /* Missing all frontmatter */
   if (!frontMatter) {
