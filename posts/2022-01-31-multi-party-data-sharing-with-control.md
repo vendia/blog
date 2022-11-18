@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Multi-party data sharing with control"
 description: "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team."
 date: '2022-01-31'

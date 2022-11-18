@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Don't Rip and Replace - Integrate"
 description: "Use Vendia Share to Complement Existing Data Stores."
 longDescription: >

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?"
 description: "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia."
 date: "2022-10-19"

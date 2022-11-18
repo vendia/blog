@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Why is supply chain visibility important? "
 description: "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
 date: "2022-10-26"

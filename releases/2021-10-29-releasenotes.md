@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Namespaces, Types, GraphQL Enums, and More!'
 description: 'Changes that will greatly improve data modeling capabilities for our users'
 date: '2021-10-29'

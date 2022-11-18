@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Welcome to Vendia
 description: 'Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.'
 date: '2020-06-30'

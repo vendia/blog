@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Announcing the Vendia Share Developer Preview!"
 description: "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A"
 longDescription: "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures."

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'New Features and a Fresh Look for the Vendia Share Web Application'
 description: "We're excited to share the new Vendia Share user interface with you"
 date: '2021-11-26'

@@ -1,7 +1,7 @@
 ---
+draft: false
 title: "Announcing Synchronous Mutations for Vendia Share"
 description: 'Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.'
-draft: false
 date: '2022-03-21'
 categories:
   - product

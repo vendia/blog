@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'How to effectively address the challenges of real-time data sharing at the enterprise level'
 description: 'In this three-part series, dive deep into the challenges and solutions for evaluating and implementing real-time data sharing with confidence and control.'
 date: '2022-06-29'

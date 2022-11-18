@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'The three body problem: Looking ahead'
 description: 'In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do.'
 date: '2022-05-03'

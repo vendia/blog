@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Understanding real-time data lakes'
 description: 'Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges'
 date: '2022-08-03'
@@ -8,6 +9,7 @@ categories:
 authors:
   - Francine Klein
 ---
+
 ## Understanding real-time data lakes
 
 Too many articles on data lakes cover abstractions, and the stories they tell can leave you thinking it will solve all your data problems (and world hunger, while you’re at it). They may also leave you paddling around in water puns. (Warning: We couldn’t resist it, either).

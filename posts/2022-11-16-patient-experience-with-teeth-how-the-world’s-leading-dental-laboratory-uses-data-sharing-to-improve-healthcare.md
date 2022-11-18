@@ -1,7 +1,7 @@
 ---
 draft: false
 slug: podcast-patient-experience-with-teeth
-title: "Patient experience with teeth: How the world’s leading dental laboratory
+title: "Patient experience with teeth: How the world's leading dental laboratory
   uses data sharing to improve healthcare"
 description: Robert Edwards, Director of Software Development at Glidewell
   Laboratories, talks about the challenges and pending promise of real-time data

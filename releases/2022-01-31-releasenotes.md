@@ -1,18 +1,14 @@
 ---
+draft: false
 title: 'Improved User Experience and Developer Experience'
 description: "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity"
 date: '2022-01-31'
-draft: false
 tags:
 - User Experience
 - Developer Experience
 ---
 
-
-
-
 Our design and engineering teams worked diligently on a node details view redesign, which we're excited to share with you today. You'll also see noticeable developer experience improvements on the smart contracts details and the smart contract edit views. 
-
 
 ## Node Details Redesign
 

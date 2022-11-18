@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Creating a Cross Region Serverless Application in 5 Minutes'
 description: How to create cross region serverless appplications
 longDescription: >

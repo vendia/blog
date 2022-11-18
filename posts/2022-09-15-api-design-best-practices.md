@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'API Design Best Practices'
 description: 'James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.'
 date: '2022-09-15'

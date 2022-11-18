@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Vendia Announces Series A Investment"
 description: 'Vendia announces a $15.5M Series A investment, led by Canvas Ventures'
 longDescription: 'Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors'

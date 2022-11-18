@@ -1,8 +1,8 @@
 ---
+draft: false
 title: "We're .COMical, Neatly Nested, and More"
 description: "Vendia is on .com, allows filtering on any nested attribute, updated SDK defaults, and enhanced experience within GraphQL Explorer"
 date: '2022-10-28'
-draft: false
 tags:
 - Improvements
 - Developer Experience
@@ -43,7 +43,7 @@ const response = await entities.product.add(
     inventory: 100,
   },
   {
-    syncMode: 'ASYNC',    <-- example syncMode instruction
+    syncMode: 'ASYNC',  // <-- example syncMode instruction
   }
 );
 

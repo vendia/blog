@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Introducing developer-friendly pricing with our new Individual Plan"
 description: "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction."
 date: "2022-08-31"

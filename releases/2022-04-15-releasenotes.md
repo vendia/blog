@@ -1,8 +1,8 @@
 ---
+draft: false
 title: 'Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow'
 description: 'Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow.'
 date: '2022-04-15'
-draft: false
 tags:
 - New Features
 - Improvements

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Vendia's Inspiring Vision"
 description: "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team."
 date: '2021-07-23'

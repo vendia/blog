@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Your Customer 360 solution isn’t really 360'
 description: 'Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)'
 date: '2022-10-14'

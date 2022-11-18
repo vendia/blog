@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Roundup: Real-time data sharing'
 description: 'Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.'
 date: '2022-09-20'

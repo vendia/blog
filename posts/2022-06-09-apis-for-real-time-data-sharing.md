@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'How to make your APIs "data-aware"'
 description: 'Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth.'
 date: '2022-06-09'

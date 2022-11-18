@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'No more burnout: Reflections after 6 months at Vendia'
 description: "Head of Design, Hailey Nevins, sharees why she doesn't regret leaving the Fortune 100 tech industry to work for a startup."
 date: '2022-04-25'

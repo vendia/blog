@@ -1,8 +1,8 @@
 ---
+draft: false
 title: 'At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!'
 description: 'Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace'
 date: '2022-03-11'
-draft: false
 tags:
 - New Features
 - Improvements
@@ -10,7 +10,6 @@ tags:
 ---
 
 At Vendia, we pride ourselves on customer obsession.  Over the last month we've released a number of new features covering everything from platform security upgrades, to improved deployment and operations automation, to foundational elements for soon-to-be-released new Share capabilities.  Of the many features we've released, three stand apart because they were created in direct response to user feedback.
-
 
 ## Node Leave
 

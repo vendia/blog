@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Track and Trace using Vendia Unis + Blobs'
 description: 'Learn about how Vendia Unis + Blobs functionality can help streamline common supply chain track & trace issues'
 date: '2020-11-05'

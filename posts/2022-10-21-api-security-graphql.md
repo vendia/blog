@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Understanding API Security with GraphQL'
 description: 'Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.'
 date: '2022-10-21'

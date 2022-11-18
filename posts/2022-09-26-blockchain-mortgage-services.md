@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing'
 description: 'Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.'
 date: '2022-09-26'

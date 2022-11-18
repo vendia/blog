@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions"
 description: 'Custom modeling and standard access platforms come together to make next-gen business APIs.'
 date: '2022-08-26'

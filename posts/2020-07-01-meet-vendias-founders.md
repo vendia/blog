@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Meet Vendia's founders"
 description: "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO"
 date: '2020-07-01'

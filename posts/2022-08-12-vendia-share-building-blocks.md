@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'The basic building blocks of Vendia Share'
 description: 'How Vendia Share combines API, operational database, and blockchain technology to resolve the limitations of each and deliver serverless, real-time data sharing at scale'
 date: '2022-08-12'

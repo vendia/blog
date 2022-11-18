@@ -1,8 +1,8 @@
 ---
+draft: false
 title: 'Improved Security, Performance and Transparency'
 description: 'Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.'
 date: '2022-07-15'
-draft: false
 tags:
 - New Features
 - Improvements

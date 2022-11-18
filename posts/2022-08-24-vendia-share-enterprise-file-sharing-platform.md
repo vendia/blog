@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Q+A: Understanding Vendia Share’s approach to file sharing'
 description: 'In Part 3 of our series on file sharing, we answer the top questions asked about controlled file sharing for enterprises and real-time file sharing outcomes for enterprises.'
 date: '2022-08-24'
@@ -7,9 +8,8 @@ categories:
 authors:
   - Tim Wagner
 ---
+
 This is our third post in our series on file sharing. Catch up with the entire series:
-
-
 
 * Part 1: [Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing](https://www.vendia.com/blog/data-lakes-file-sharing-use-cases)
 * Part 2: [Why public cloud services aren’t enough for file sharing](https://www.vendia.com/blog/public-cloud-file%20sharing)

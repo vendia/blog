@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "What's that \"csp\" property doing in my Uni info configuration?"
 description: "A first step toward an announcement we'll be able to share in the weeks ahead"
 date: '2021-11-12'

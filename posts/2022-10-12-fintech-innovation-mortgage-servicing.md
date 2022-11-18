@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Fintech innovation for housing and finance data ecosystems"
 description: "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology."
 date: "2022-10-12"
@@ -8,6 +9,7 @@ categories:
 authors:
   - Tim Wagner
 ---
+
 The housing and finance industries have [invested billions](https://www.mckinsey.com/industries/financial-services/our-insights/financial-data-unbound-the-value-of-open-data-for-individuals-and-institutions) in data and IT infrastructure. Despite that investment, the industry remains highly fragmented, lacks shared standards, and depends on siloed or inefficient partnerships. While the industry once focused on data and IT infrastructure _within_ an organization, now organizations need to put the same type of systems and workflows in place to work _across_ business networks. 
 
 

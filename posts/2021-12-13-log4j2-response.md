@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Vendia's Response to CVE-2021-44228"
 description: "A note on the impact to Vendia and our customers"
 date: '2021-12-13'

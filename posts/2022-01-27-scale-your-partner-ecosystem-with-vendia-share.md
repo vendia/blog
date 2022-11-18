@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "How to scale your data ecosystem with Vendia Share"
 description: "Bring multiple data partners from your business network into a controlled, compliant real-time data sharing platform in just minutes with this tutorial from the Solution Architecture team."
 date: '2022-01-27'

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Greenchain, Part 1: Current blockchains' big carbon footprints"
 description: 'Why current blockchain technologies have large carbon footprints'
 date: '2022-05-17'

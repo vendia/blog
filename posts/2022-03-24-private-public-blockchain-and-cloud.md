@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Cloudy with Chance of Blockchain'
 description: 'How the cloud and public and private chains will power the web3 world'
 date: '2022-03-24'

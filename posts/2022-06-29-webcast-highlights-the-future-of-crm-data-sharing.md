@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Webcast highlights: The future of CRM data sharing'
 description: 'We have summed up five highlights from the webcast on CRM data sharing'
 date: '2022-06-29'

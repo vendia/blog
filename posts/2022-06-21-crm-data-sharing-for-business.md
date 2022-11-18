@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Why CRM data sharing is business critical'
 description: 'Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.'
 date: '2022-06-21'

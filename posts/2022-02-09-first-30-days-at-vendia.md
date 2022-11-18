@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'My first 30 days at Vendia'
 description: 'Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.'
 date: '2022-02-09'

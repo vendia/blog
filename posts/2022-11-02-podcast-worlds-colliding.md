@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale'
 description: 'Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.'
 date: '2022-11-02'

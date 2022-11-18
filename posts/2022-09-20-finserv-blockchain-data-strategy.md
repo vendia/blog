@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Where blockchain fits into your data and application strategy'
 description: 'Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.'
 date: '2022-09-20'

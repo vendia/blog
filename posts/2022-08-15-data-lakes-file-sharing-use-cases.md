@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing'
 description: 'Understand the sharing scenarios for multimedia and data-centric files across organizations, regions, and clouds in healthcare, automotive, semicon, and construction'
 date: '2022-08-15'

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'How blockchain did (and did not) pan out as a modern IT solutions'
 description: 'Dive into Part 2 of our series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.'
 date: '2022-04-01'

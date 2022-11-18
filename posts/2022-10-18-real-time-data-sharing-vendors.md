@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Guide to real-time data sharing vendor types"
 description: "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia."
 date: "2022-10-18"

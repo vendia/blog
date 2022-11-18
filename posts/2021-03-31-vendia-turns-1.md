@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Vendia Turns 1'
 description: 'Vendia celebrates its first year as a C-corporation'
 date: '2021-03-31'

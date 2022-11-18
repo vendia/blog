@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Codeless APIs: Why generating APIs from data models makes application development easier and safer"
 description: "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
 date: "2022-10-27"

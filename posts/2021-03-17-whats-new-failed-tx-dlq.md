@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Announcing Vendia Share DLQ Support'
 description: 'Vendia Share now reports failed transactions'
 date: '2021-03-17'

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Open Beta Changes"
 description: "Changes to Vendia Share in advance of the Open Beta"
 date: "2021-10-12"

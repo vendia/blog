@@ -1,8 +1,8 @@
 ---
+draft: false
 title: 'A Sleigh Full of New Features'
 description: 'Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!'
 date: '2021-12-10'
-draft: false
 tags:
 - New Features
 - Azure

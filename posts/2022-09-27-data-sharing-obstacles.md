@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Obstacles to data sharing'
 description: 'Some obstacles to data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. This post will help you face both types of data sharing obstacles.'
 date: '2022-09-27'
@@ -7,6 +8,7 @@ categories:
 authors:
   - Anders Maul
 ---
+
 Data is [the new oil](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data), and this comparison is more than a metaphor. Both oil and data are transported through pipelines and stored in silos. Likewise, the limitations and obstacles we see for tangible goods like oil have also manifested themselves in the digital world of data.
 
 

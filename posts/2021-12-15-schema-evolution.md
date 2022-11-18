@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Schema Evolution"
 description: "Exploring the ability to update the data model in a Universal Application (Uni)"
 date: "2021-12-15"

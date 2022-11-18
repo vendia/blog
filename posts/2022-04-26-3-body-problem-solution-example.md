@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs'
 description: 'Wrap up our four-part series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.'
 date: '2022-04-26'

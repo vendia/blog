@@ -1,7 +1,7 @@
 ---
+draft: false
 title: 'The Global Supply Chain is Broken. Can Blockchain Help?'
 description: 'Enterprise blockchain adoption is slowly but steadily progressing'
-draft: false
 date: '2022-02-09'
 authors:
   - Vikrant Kahlir

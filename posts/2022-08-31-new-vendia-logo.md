@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Introducing our new brand identity'
 description: 'Get the first look at our new look and logo with insights from our founders on why, and why now.'
 date: '2022-08-31'

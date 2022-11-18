@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Part 2: Vendia Share and Smart APIs'
 description: 'How Vendia helps APIs do more for you'
 date: '2022-04-06'

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Understanding Decentralization in the Cloud"
 description: 'Explore how decentralization works in a cloud-native setting and how it can impact your business'
 longDescription: 'In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.'

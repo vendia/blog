@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Real-Time cross-cloud data sharing"
 description: "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success."
 date: '2022-01-04'

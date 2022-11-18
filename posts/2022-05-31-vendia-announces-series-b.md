@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Vendia announces Series B funding'
 description: "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology"
 date: '2022-05-31'

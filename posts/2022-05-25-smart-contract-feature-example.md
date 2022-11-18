@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Applying Vendia Share smart contracts
 description: Examples of real-time data validation, computation, and enrichment
 date: 2022-05-25

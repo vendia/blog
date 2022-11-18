@@ -1,6 +1,7 @@
 ---
+draft: false
 title: 'Smart APIs'
-description: 'Evolve from “dumb pipes” to APIs that work for you'
+description: 'Evolve from "dumb pipes" to APIs that work for you'
 date: '2022-04-04'
 authors:
   - Tim Wagner

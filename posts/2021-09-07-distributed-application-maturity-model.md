@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Toward a Distributed Application Maturity Model'
 description: 'A Maturity Model to help you assess the distributed applications used by your organization.'
 longDescription: 'A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.'

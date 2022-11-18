@@ -1,6 +1,6 @@
 ---
-template: page
 draft: true
+template: page
 path: /new-slug-on/site
 title: Default title
 components:

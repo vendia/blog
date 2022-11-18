@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Veny’a doing it right"
 description: 'Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.'
 date: '2022-11-01'

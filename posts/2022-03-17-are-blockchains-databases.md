@@ -1,7 +1,7 @@
 ---
+draft: false
 title: "Are Blockchains Databases?"
 description: 'With some databases now supporting versioning and checksums and blockchains storing more types of data, are these technologies on a path to merge?'
-draft: false
 date: '2022-03-17'
 authors:
   - Tim Wagner

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'How to get buy-in for a new brand identity'
 description: 'Our Head of Design, Hailey Nevins, shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused.'
 date: '2022-09-01'

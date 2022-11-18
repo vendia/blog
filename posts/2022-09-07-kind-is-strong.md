@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Kind is not weak, kind is strong'
 description: 'What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.'
 date: '2022-09-07'

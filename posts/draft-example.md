@@ -14,7 +14,6 @@ relatedPosts:
   - 2020-11-05-track-and-trace
 tags:
   - funding
-tweet: sdasdasdasdasd sddadasd
 seo:
   title: Draft
   description: descr

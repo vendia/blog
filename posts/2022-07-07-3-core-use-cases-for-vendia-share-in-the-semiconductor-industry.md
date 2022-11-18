@@ -1,7 +1,7 @@
 ---
+draft: false
 title: '3 core use cases for Vendia Share in the semiconductor industry'
 description: 'How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)'
-draft: false
 date: '2022-07-07'
 authors:
   - Vikrant Kahlir

@@ -1,7 +1,7 @@
 ---
+draft: false
 title: 'Build a modern, secure data exchange for semiconductor traceability with Vendia'
 description: 'To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.'
-draft: false
 date: '2022-06-29'
 authors:
   - Vikrant Kahlir

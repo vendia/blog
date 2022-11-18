@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Announcing Vendia Share Indexing Feature'
 description: 'Vendia Share now support customer indices to improve data retrieval performance'
 date: '2021-03-10'

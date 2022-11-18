@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Authenticating Vendia Share Requests Using SAML'
 description: Taking advantage of existing SAML Identity Providers when using Vendia Share
 longDescription: >

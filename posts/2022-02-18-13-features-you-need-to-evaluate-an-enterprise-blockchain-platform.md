@@ -1,8 +1,8 @@
 ---
+draft: false
 title: '13 Features You Need to Evaluate an Enterprise Blockchain Platform'
 description: 'When evaluating an enterprise-grade blockchain solution there are some key features and questions you should investigate before investing in new infrastructure.'
 date: '2022-02-18'
-draft: false
 authors:
   - Vikrant Kahlir
 ---

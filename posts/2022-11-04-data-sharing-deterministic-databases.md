@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "The future of data sharing with deterministic databases"
 description: "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing."
 date: "2022-11-04"

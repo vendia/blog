@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'How to find your people: Notes on hiring and interviewing for kind humans'
 description: 'Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.'
 date: '2022-09-06'

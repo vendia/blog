@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Website Case Studies"
 description: "Learn what Vendia customers and partners are building on the Share platform"
 date: "2021-10-26"

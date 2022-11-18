@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Tools That Shape Products'
 description: 'How do the tools we have available shape what we build?'
 authors:

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "The five values that make us Vendia"
 description: "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other in this post from Head of Talent, Renee Fujii."
 date: "2022-10-25"

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Add Data via SFTP to Vendia Share'
 description: 'Send a CSV via SFTP to add data to your Uni'
 date: '2022-03-23'

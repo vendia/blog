@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Blockchain is disrupting every industry vertical—could business travel be next?'
 description: 'Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.'
 date: '2022-08-05'

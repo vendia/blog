@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Improve your data mesh with real-time data sharing'
 description: 'Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share'
 date: '2022-05-10'

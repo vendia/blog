@@ -1,8 +1,8 @@
 ---
+draft: false
 title: 'Improved Usability, Reliability, and Speed…as a Service'
 description: "We operate and maintain the Vendia Share platform as a service so you don't have to"
 date: '2022-01-14'
-draft: false
 tags:
 - Improvements
 - Operations

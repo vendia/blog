@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Applying Domain Driven Design (DDD) to blockchains'
 description: 'Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.'
 date: '2022-01-14'

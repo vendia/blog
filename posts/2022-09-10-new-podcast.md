@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'New podcast: Circles of Trust launching this fall'
 description: 'Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..'
 date: '2022-09-10'

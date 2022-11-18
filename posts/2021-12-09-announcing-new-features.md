@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Announcing Azure support, smart contracts, and new pricing plans for Vendia Share'
 description: 'Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.'
 date: '2021-12-09'

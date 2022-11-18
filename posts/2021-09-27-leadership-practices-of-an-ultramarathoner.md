@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Five Leadership Practices of an Ultramarathoner"
 description: "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development"
 date: '2021-09-27'

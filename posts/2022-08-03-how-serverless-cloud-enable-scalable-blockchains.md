@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'Q+A: How serverless and cloud enable scalable blockchains'
 description: 'Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda'
 date: '2022-08-03'

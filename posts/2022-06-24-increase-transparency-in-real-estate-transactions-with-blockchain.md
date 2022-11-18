@@ -1,4 +1,5 @@
 ---
+draft: false
 title: 'How to increase transparency in real estate transactions using blockchain and Vendia Share'
 description: 'Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!'
 date: '2022-06-24'

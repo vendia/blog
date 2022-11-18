@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Why we combined GraphQL and a serverless distributed ledger"
 description: "Learn why Vendia selected GraphQL as Vendia' Share's primary interface and how it can improve your development experience with Vendia Share with context from Brian McNamara, Sr. Solutions Architect."
 date: '2022-01-18'
