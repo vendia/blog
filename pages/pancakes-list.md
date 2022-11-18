@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: page
 path: /pancakes-list
 components:

@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: page
 path: /foo/bar
 title: Default title
