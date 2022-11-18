@@ -178,11 +178,14 @@ components:
 
 
       In venenatis justo ipsum interdum turpis. Pellentesque vitae nulla quis arcu euismod ultrices. Quisque sed lorem sed est fermentum interdum.
+
+
+      <Button label="Call to action" href="https://www.vendia.com" kind="primary" />
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-18T22:10:34.820Z
+updatedAt: 2022-11-18T22:12:06.553Z
 ---
 
 Body is required to show pancakes
