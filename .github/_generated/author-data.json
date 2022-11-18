@@ -191,7 +191,7 @@
         "long": "James is passionate about matching digital innovation with customer challenges to create novel and impactful solutions at scale."
       },
       "slug": "james-gimourginas",
-      "postCount": 15
+      "postCount": 16
     },
     {
       "name": "Joydeep Das",
@@ -308,10 +308,15 @@
       "jobTitle": "Managing Director, Financial Services",
       "linkedin": "bdsteward",
       "email": "ben@vendia.net",
+      "github": "",
       "hubspotMeeting": "https://meetings.hubspot.com/shruthi1/2023-reinvent-coffee-website",
       "avatar": "https://vendia.com/images/illustrations/ben.png",
       "updatedAt": "2022-11-14T18:19:33.006Z",
       "updatedBy": "Hugues Tennier",
+      "bio": {
+        "short": "Managing Director, Financial Services",
+        "long": ""
+      },
       "slug": "ben-steward",
       "postCount": 0
     }
