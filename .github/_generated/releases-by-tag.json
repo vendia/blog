@@ -2,10 +2,10 @@
   "Improvements": [
     {
       "file": "/releases/2022-10-28-releasenotes.md",
+      "draft": false,
       "title": "We're .COMical, Neatly Nested, and More",
       "description": "Vendia is on .com, allows filtering on any nested attribute, updated SDK defaults, and enhanced experience within GraphQL Explorer",
       "date": "2022-10-28",
-      "draft": false,
       "tags": [
         "Improvements",
         "Developer Experience"
@@ -13,10 +13,10 @@
     },
     {
       "file": "/releases/2022-08-26-releasenotes.md",
+      "draft": false,
       "title": "Staying Cool This Summer with New Features and Improvements",
       "description": "Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more",
       "date": "2022-08-26",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements"
@@ -24,10 +24,10 @@
     },
     {
       "file": "/releases/2022-07-15-releasenotes.md",
+      "draft": false,
       "title": "Improved Security, Performance and Transparency",
       "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
       "date": "2022-07-15",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements"
@@ -35,10 +35,10 @@
     },
     {
       "file": "/releases/2022-04-15-releasenotes.md",
+      "draft": false,
       "title": "Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow",
       "description": "Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow.",
       "date": "2022-04-15",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements"
@@ -46,10 +46,10 @@
     },
     {
       "file": "/releases/2022-03-11-releasenotes.md",
+      "draft": false,
       "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
       "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
       "date": "2022-03-11",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements",
@@ -58,10 +58,10 @@
     },
     {
       "file": "/releases/2022-01-14-releasenotes.md",
+      "draft": false,
       "title": "Improved Usability, Reliability, and Speed…as a Service",
       "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
       "date": "2022-01-14",
-      "draft": false,
       "tags": [
         "Improvements",
         "Operations"
@@ -69,10 +69,10 @@
     },
     {
       "file": "/releases/2021-12-24-releasenotes.md",
+      "draft": false,
       "title": "Improving Smart Contracts Validation",
       "description": "Delivering improved validation and error handling",
       "date": "2021-12-24",
-      "draft": false,
       "tags": [
         "Smart Contracts",
         "Improvements"
@@ -82,10 +82,10 @@
   "Developer Experience": [
     {
       "file": "/releases/2022-10-28-releasenotes.md",
+      "draft": false,
       "title": "We're .COMical, Neatly Nested, and More",
       "description": "Vendia is on .com, allows filtering on any nested attribute, updated SDK defaults, and enhanced experience within GraphQL Explorer",
       "date": "2022-10-28",
-      "draft": false,
       "tags": [
         "Improvements",
         "Developer Experience"
@@ -93,10 +93,10 @@
     },
     {
       "file": "/releases/2022-09-26-releasenotes.md",
+      "draft": false,
       "title": "Giving You Even More Control",
       "description": "Vendia Share now supports defining ACLs on arrays and brings a new design to the UI",
       "date": "2022-09-26",
-      "draft": false,
       "tags": [
         "Developer Experience",
         "New Features"
@@ -104,10 +104,10 @@
     },
     {
       "file": "/releases/2022-01-31-releasenotes.md",
+      "draft": false,
       "title": "Improved User Experience and Developer Experience",
       "description": "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity",
       "date": "2022-01-31",
-      "draft": false,
       "tags": [
         "User Experience",
         "Developer Experience"
@@ -117,10 +117,10 @@
   "New Features": [
     {
       "file": "/releases/2022-09-26-releasenotes.md",
+      "draft": false,
       "title": "Giving You Even More Control",
       "description": "Vendia Share now supports defining ACLs on arrays and brings a new design to the UI",
       "date": "2022-09-26",
-      "draft": false,
       "tags": [
         "Developer Experience",
         "New Features"
@@ -128,10 +128,10 @@
     },
     {
       "file": "/releases/2022-08-26-releasenotes.md",
+      "draft": false,
       "title": "Staying Cool This Summer with New Features and Improvements",
       "description": "Result sorting, enhanced schema evolution, improved ingestion and consensus performance, geo-blocking and more",
       "date": "2022-08-26",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements"
@@ -139,10 +139,10 @@
     },
     {
       "file": "/releases/2022-07-15-releasenotes.md",
+      "draft": false,
       "title": "Improved Security, Performance and Transparency",
       "description": "Vendia Share supports more seure API Keys, JWT authentication, low latency operations, and Vendia Metrics.",
       "date": "2022-07-15",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements"
@@ -150,10 +150,10 @@
     },
     {
       "file": "/releases/2022-04-15-releasenotes.md",
+      "draft": false,
       "title": "Developer Experience Improvements: a New SDK, Sync Mutations, and Invite Flow",
       "description": "Vendia Share now has a Typescript SDK, new synchronous mutations and an improved node invite flow.",
       "date": "2022-04-15",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements"
@@ -161,10 +161,10 @@
     },
     {
       "file": "/releases/2022-03-11-releasenotes.md",
+      "draft": false,
       "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
       "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
       "date": "2022-03-11",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements",
@@ -173,10 +173,10 @@
     },
     {
       "file": "/releases/2021-12-10-releasenotes.md",
+      "draft": false,
       "title": "A Sleigh Full of New Features",
       "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
       "date": "2021-12-10",
-      "draft": false,
       "tags": [
         "New Features",
         "Azure",
@@ -187,6 +187,7 @@
     },
     {
       "file": "/releases/2021-11-26-releasenotes.md",
+      "draft": false,
       "title": "New Features and a Fresh Look for the Vendia Share Web Application",
       "description": "We're excited to share the new Vendia Share user interface with you",
       "date": "2021-11-26",
@@ -200,10 +201,10 @@
   "AWS": [
     {
       "file": "/releases/2022-03-11-releasenotes.md",
+      "draft": false,
       "title": "At Your Request: Managing Nodes, Bigger Files, and AWS Marketplace!",
       "description": "Vendia Share now supports node departure, 5GB file sharing, and can be purchased on the AWS Marketplace",
       "date": "2022-03-11",
-      "draft": false,
       "tags": [
         "New Features",
         "Improvements",
@@ -214,10 +215,10 @@
   "User Experience": [
     {
       "file": "/releases/2022-01-31-releasenotes.md",
+      "draft": false,
       "title": "Improved User Experience and Developer Experience",
       "description": "Vendia Share Node Details View gets a New Look, and Smart Contracts Editor improves developer productivity",
       "date": "2022-01-31",
-      "draft": false,
       "tags": [
         "User Experience",
         "Developer Experience"
@@ -227,10 +228,10 @@
   "Operations": [
     {
       "file": "/releases/2022-01-14-releasenotes.md",
+      "draft": false,
       "title": "Improved Usability, Reliability, and Speed…as a Service",
       "description": "We operate and maintain the Vendia Share platform as a service so you don't have to",
       "date": "2022-01-14",
-      "draft": false,
       "tags": [
         "Improvements",
         "Operations"
@@ -240,10 +241,10 @@
   "Smart Contracts": [
     {
       "file": "/releases/2021-12-24-releasenotes.md",
+      "draft": false,
       "title": "Improving Smart Contracts Validation",
       "description": "Delivering improved validation and error handling",
       "date": "2021-12-24",
-      "draft": false,
       "tags": [
         "Smart Contracts",
         "Improvements"
@@ -251,10 +252,10 @@
     },
     {
       "file": "/releases/2021-12-10-releasenotes.md",
+      "draft": false,
       "title": "A Sleigh Full of New Features",
       "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
       "date": "2021-12-10",
-      "draft": false,
       "tags": [
         "New Features",
         "Azure",
@@ -267,10 +268,10 @@
   "Azure": [
     {
       "file": "/releases/2021-12-10-releasenotes.md",
+      "draft": false,
       "title": "A Sleigh Full of New Features",
       "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
       "date": "2021-12-10",
-      "draft": false,
       "tags": [
         "New Features",
         "Azure",
@@ -283,10 +284,10 @@
   "Share Tiers and Pricing": [
     {
       "file": "/releases/2021-12-10-releasenotes.md",
+      "draft": false,
       "title": "A Sleigh Full of New Features",
       "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
       "date": "2021-12-10",
-      "draft": false,
       "tags": [
         "New Features",
         "Azure",
@@ -299,10 +300,10 @@
   "ACID Semantics": [
     {
       "file": "/releases/2021-12-10-releasenotes.md",
+      "draft": false,
       "title": "A Sleigh Full of New Features",
       "description": "Smart contracts, a pay-as-you-go pricing plan, the beta release of Azure support, and more!",
       "date": "2021-12-10",
-      "draft": false,
       "tags": [
         "New Features",
         "Azure",
@@ -315,6 +316,7 @@
   "GraphQL": [
     {
       "file": "/releases/2021-11-26-releasenotes.md",
+      "draft": false,
       "title": "New Features and a Fresh Look for the Vendia Share Web Application",
       "description": "We're excited to share the new Vendia Share user interface with you",
       "date": "2021-11-26",
@@ -326,6 +328,7 @@
     },
     {
       "file": "/releases/2021-10-29-releasenotes.md",
+      "draft": false,
       "title": "Namespaces, Types, GraphQL Enums, and More!",
       "description": "Changes that will greatly improve data modeling capabilities for our users",
       "date": "2021-10-29",
@@ -339,6 +342,7 @@
   "Share Web": [
     {
       "file": "/releases/2021-11-26-releasenotes.md",
+      "draft": false,
       "title": "New Features and a Fresh Look for the Vendia Share Web Application",
       "description": "We're excited to share the new Vendia Share user interface with you",
       "date": "2021-11-26",
@@ -352,6 +356,7 @@
   "Polycloud": [
     {
       "file": "/releases/2021-11-12-releasenotes.md",
+      "draft": false,
       "title": "What's that \"csp\" property doing in my Uni info configuration?",
       "description": "A first step toward an announcement we'll be able to share in the weeks ahead",
       "date": "2021-11-12",
@@ -363,6 +368,7 @@
   "Enhancements": [
     {
       "file": "/releases/2021-10-29-releasenotes.md",
+      "draft": false,
       "title": "Namespaces, Types, GraphQL Enums, and More!",
       "description": "Changes that will greatly improve data modeling capabilities for our users",
       "date": "2021-10-29",
@@ -376,6 +382,7 @@
   "Security": [
     {
       "file": "/releases/2021-10-29-releasenotes.md",
+      "draft": false,
       "title": "Namespaces, Types, GraphQL Enums, and More!",
       "description": "Changes that will greatly improve data modeling capabilities for our users",
       "date": "2021-10-29",
