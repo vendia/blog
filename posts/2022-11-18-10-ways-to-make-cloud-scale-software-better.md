@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "10 ways to make your software better when building for cloud scale "
 description: "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices."
 date: "2022-11-18"
