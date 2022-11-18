@@ -1,8 +1,35 @@
 {
   "alexa-johnson": [
     {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-11-16T18:51:12.336Z"
+    },
+    {
       "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
-      "draft": true,
+      "draft": false,
       "slug": "vendia-engineering-team-spotlight",
       "title": "Team spotlight: Vendia Engineering (Pt. 1)",
       "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
@@ -19,10 +46,11 @@
       ],
       "tweet": "Learn about the engineering team at Vendia!",
       "seo": {
-        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia."
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
       },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-11-09T18:51:58.831Z"
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-15T00:40:12.295Z"
     },
     {
       "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
@@ -91,8 +119,8 @@
         "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
         "keywords": "real-time data, real-time data sharing"
       },
-      "updatedBy": "David Wells",
-      "updatedAt": "2022-11-10T18:44:48.220Z"
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-15T17:44:24.221Z"
     },
     {
       "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
@@ -705,8 +733,8 @@
         "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
         "keywords": "real-time data, real-time data sharing"
       },
-      "updatedBy": "David Wells",
-      "updatedAt": "2022-11-10T18:44:48.220Z"
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-15T17:44:24.221Z"
     },
     {
       "file": "/posts/2022-10-21-api-security-graphql.md",
@@ -763,14 +791,21 @@
       "file": "/posts/2022-05-25-smart-contract-feature-example.md",
       "title": "Applying Vendia Share smart contracts",
       "description": "Examples of real-time data validation, computation, and enrichment",
-      "date": "2022-05-25",
+      "date": "2022-05-25T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
       "categories": [
         "concepts",
         "tutorials"
       ],
-      "authors": [
-        "James Gimourginas"
-      ]
+      "tweet": "Learn how to applying Vendia Share smart contracts",
+      "seo": {
+        "title": "Applying Vendia Share smart contracts",
+        "description": "Applying Vendia Share smart contracts"
+      },
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-11-16T19:45:40.052Z"
     },
     {
       "file": "/posts/2022-05-10-improve-your-data-mesh.md",

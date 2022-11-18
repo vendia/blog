@@ -22,7 +22,8 @@
     "tim-wagner",
     "vendia",
     "vikrant-kahlir",
-    "alexa-johnson"
+    "alexa-johnson",
+    "ben-steward"
   ],
   "authors": [
     {
@@ -260,6 +261,9 @@
         "short": "Vendia CEO and co-founder",
         "long": "Dr. Tim Wagner started the Serverless movement when he created the AWS Lambda business and technology in 2012. His mission then, as now, was to make the creation of enterprise IT solutions easy, fast, and secure. After AWS, Dr. Wagner served as VP of Engineering at Coinbase, where he oversaw the largest mission-critical fleet of distributed ledgers in the US. Dr. Wagner continues to explore business and technology innovations, speaking frequently at conferences"
       },
+      "jobTitle": "CEO",
+      "updatedAt": "2022-11-15T21:57:25.626Z",
+      "updatedBy": "David Wells",
       "slug": "tim-wagner",
       "postCount": 52
     },
@@ -297,7 +301,19 @@
         "long": "Alexa likes YA novels, gardening, and hazelnut lattes."
       },
       "slug": "alexa-johnson",
-      "postCount": 4
+      "postCount": 5
+    },
+    {
+      "name": "Ben Steward",
+      "jobTitle": "Managing Director, Financial Services",
+      "linkedin": "bdsteward",
+      "email": "ben@vendia.net",
+      "hubspotMeeting": "https://meetings.hubspot.com/shruthi1/2023-reinvent-coffee-website",
+      "avatar": "https://vendia.com/images/illustrations/ben.png",
+      "updatedAt": "2022-11-14T18:19:33.006Z",
+      "updatedBy": "Hugues Tennier",
+      "slug": "ben-steward",
+      "postCount": 0
     }
   ]
 }

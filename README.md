@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare](https://www.vendia.com/blog/patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare) <br/> Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain by Alexa Johnson | 2022-11-16 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md)
 | [Team spotlight: Vendia Engineering (Pt. 1)](https://www.vendia.com/blog/team-spotlight-vendia-engineering-pt-1) <br/> Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia by Alexa Johnson | 2022-11-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md)
 | [Real-time data sharing challenges (and solutions)](https://www.vendia.com/blog/real-time-data-sharing-challenges-and-solutions) <br/> Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share by Tim Wagner + James Gimourginas | 2022-11-08 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md)
 | [The future of data sharing with deterministic databases](https://www.vendia.com/blog/data-sharing-deterministic-databases) <br/> Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing by Tim Wagner | 2022-11-04 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-04-data-sharing-deterministic-databases.md)
@@ -329,6 +330,13 @@ Welcome to the Vendia blog repo!
       </a>
       <br />
       <a href="https://twitter.com/anders"><sup><sub>Alexa Johnson</sub></sup></a>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.com/blog/author/ben-steward">
+        <img src="https://vendia.com/images/illustrations/ben.png" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://www.vendia.com/blog/author/ben-steward"><sup><sub>Ben Steward</sub></sup></a>
    </td>
 </tr>
 </table>

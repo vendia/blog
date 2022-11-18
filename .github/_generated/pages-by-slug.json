@@ -1,4 +1,5 @@
 {
   "foo/bar": "/pages/default-title.md",
-  "new-slug-on/site": "/pages/new-slug-on-site.md"
+  "new-slug-on/site": "/pages/new-slug-on-site.md",
+  "pancakes-list": "/pages/pancakes-list.md"
 }
