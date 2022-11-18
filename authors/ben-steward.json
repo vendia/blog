@@ -3,8 +3,13 @@
   "jobTitle": "Managing Director, Financial Services",
   "linkedin": "bdsteward",
   "email": "ben@vendia.net",
+  "github": "",
   "hubspotMeeting": "https://meetings.hubspot.com/shruthi1/2023-reinvent-coffee-website",
   "avatar": "https://vendia.com/images/illustrations/ben.png",
   "updatedAt": "2022-11-14T18:19:33.006Z",
-  "updatedBy": "Hugues Tennier"
+  "updatedBy": "Hugues Tennier",
+  "bio": {
+    "short": "Managing Director, Financial Services",
+    "long": ""
+  }
 }
