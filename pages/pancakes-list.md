@@ -32,6 +32,9 @@ components:
 
 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue in diam ut convallis. Maecenas eu diam eget tortor iaculis maximus in at odio.
+
+
+          <Button label="Call to action" href="https://www.vendia.com" kind="vendorGhost" />
       - text: >-
           ![](https://www.vendia.com/images/illustrations/resource-1.svg)
 
@@ -179,7 +182,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-18T21:44:34.959Z
+updatedAt: 2022-11-18T22:10:34.820Z
 ---
 
 Body is required to show pancakes
