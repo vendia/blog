@@ -12,6 +12,8 @@ components:
       - label: Contact sales
         url: "#"
     contentAlignment: Left
+    image:
+      image: https://www.vendia.com/images/illustrations/Vendia_HPIcon.svg
   - type: Logos
     logos:
       - BMW
@@ -190,7 +192,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-21T02:09:36.457Z
+updatedAt: 2022-11-21T02:34:01.965Z
 ---
 
 Body is required to show pancakes
