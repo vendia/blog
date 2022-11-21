@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Understanding shared data architecture"
-description: "Go in-depth on shared data architecture as James Gimourginas, Director of Solutions Architecture and Customer Success explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases."
+description: "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases."
 date: "2022-11-21"
 categories:
   - concepts
