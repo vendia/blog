@@ -4,8 +4,17 @@ template: page
 path: /pancakes-list
 components:
   - type: Hero
+    contentAlignment: Center
+    title: Hero Pancake
+    text: Content is aligned to the center by default
+    callToActions:
+      - label: Get started
+        url: "#"
+      - label: Contact sales
+        url: "#"
+  - type: Hero
     title: Hero pancake
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    text: Content aligned to the left with an image
     callToActions:
       - label: Get started
         url: "#"
@@ -192,7 +201,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-21T02:34:01.965Z
+updatedAt: 2022-11-21T03:32:53.924Z
 ---
 
 Body is required to show pancakes
