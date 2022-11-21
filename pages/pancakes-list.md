@@ -11,6 +11,7 @@ components:
         url: "#"
       - label: Contact sales
         url: "#"
+    contentAlignment: Left
   - type: Logos
     logos:
       - BMW
@@ -189,7 +190,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-21T01:44:28.309Z
+updatedAt: 2022-11-21T02:09:36.457Z
 ---
 
 Body is required to show pancakes
