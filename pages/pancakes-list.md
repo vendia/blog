@@ -19,6 +19,9 @@ components:
       - Atos
       - Purina
       - Aerotrax Technologies
+    intro:
+      title: Logos pancake
+      text: This text is optional
   - type: Columns
     intro:
       title: Columns pancake
@@ -186,7 +189,7 @@ seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-18T22:12:06.553Z
+updatedAt: 2022-11-21T01:44:28.309Z
 ---
 
 Body is required to show pancakes
