@@ -3,12 +3,20 @@
     "file": "/pages/default-title.md",
     "draft": true
   },
+  "legal/abc": {
+    "file": "/pages/legal-abc.md",
+    "draft": true
+  },
   "new-slug-on/site": {
     "file": "/pages/new-slug-on-site.md",
     "draft": true
   },
   "pancakes-list": {
     "file": "/pages/pancakes-list.md",
+    "draft": true
+  },
+  "test-components-with-data-fetching": {
+    "file": "/pages/test-components-with-data-fetching.md",
     "draft": true
   }
 }
