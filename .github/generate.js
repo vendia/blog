@@ -65,9 +65,10 @@ const config = {
       let md = `| Post Details | Published-Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
       mdDataToUse.sort(sortByDate('date')).forEach((item) => {
+        // console.log('item', item)
         const { data, file } = item
         const fileName = path.basename(file)
-        const postSlug = fileName.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
+        const postSlug = getSlug(fileName, data)
         const url = `${SITE_URL}/blog/${postSlug}`
         const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
@@ -158,6 +159,13 @@ function escapeName(name) {
 
 function longest(arr, prop) {
   return arr.reduce((n, c) => Math.max((c[prop] + '').length, n), 0)
+}
+
+function getSlug(file, data) {
+  if (data.slug) {
+    return data.slug
+  }
+  return file.replace(/\.mdx?$/, '').replace(DATE_FORMAT_REGEX, '')
 }
 
 const formatFns = {

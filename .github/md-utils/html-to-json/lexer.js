@@ -70,7 +70,7 @@ function lexer (str, options) {
 
 function lex (state) {
   const {str, options: {childlessTags}} = state
-  const len = str.length
+  const len = str?.length || 0
   while (state.position.index < len) {
     const start = state.position.index
     lexText(state)

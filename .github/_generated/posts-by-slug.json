@@ -1,4 +1,8 @@
 {
+  "shared-data-architecture": {
+    "file": "/posts/2022-11-21-shared-data-architecture.md",
+    "draft": false
+  },
   "10-ways-to-make-cloud-scale-software-better": {
     "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
     "draft": false
