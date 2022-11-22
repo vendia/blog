@@ -18,7 +18,7 @@ components:
 
 
       Just making sure **bold works** and [links too](https://www.vendia.com).
-    theme: White
+    theme: Light
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-22T19:12:48.828Z
+updatedAt: 2022-11-22T19:13:10.611Z
 ---
