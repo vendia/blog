@@ -11,6 +11,8 @@ authors:
   - Alexa Johnson
 ---
 
+<YouTube aspectRatio="16:9" title="Connecting Pets and their Humans" url="https://youtu.be/34FDbI0tvKI" />
+
 **Listen on [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK)** | **[APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970)** | **[GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)**
 
 **Guest:** [Angela Embree](https://www.linkedin.com/in/angela-embree-959a05a/), retired CIO of Best Friends Animal Society
