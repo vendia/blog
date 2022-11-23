@@ -5,7 +5,7 @@ path: /careers-new
 components:
   - type: ThinHeadline
     button:
-      kind: primary
+      kind: vendorGhost
       label: Find opportunities
       href: "#jobs-opening"
     theme: White
@@ -68,5 +68,5 @@ components:
 
           Benefits and perks
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-23T20:58:16.027Z
+updatedAt: 2022-11-23T21:05:03.453Z
 ---
