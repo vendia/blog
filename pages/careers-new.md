@@ -17,6 +17,9 @@ components:
       We deliver on that mission as a community of kind humans who value and behave with trust, ingenuity, a growth mindset, responsibility, and a bias toward results.
     mediaPosition: left
     theme: Light
+    image:
+      image: https://user-images.githubusercontent.com/6691035/203636244-cea8b68c-51fc-4003-8d1d-3a266cd38483.jpg
+      altText: Vendia’s team in a group picture
   - type: Columns
     theme: White
     intro:
@@ -57,5 +60,5 @@ components:
 
           Benefits and perks
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-23T19:57:27.220Z
+updatedAt: 2022-11-23T20:02:25.513Z
 ---
