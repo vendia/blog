@@ -3,6 +3,14 @@ draft: true
 template: page
 path: /careers-new
 components:
+  - type: ThinHeadline
+    button:
+      kind: primary
+      label: Find opportunities
+      href: "#jobs-opening"
+    theme: White
+    title: Careers
+    text: Solve hard problems with kind humans
   - type: MediaWithText
     text: >-
       ## Our mission
@@ -60,5 +68,5 @@ components:
 
           Benefits and perks
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-23T20:02:25.513Z
+updatedAt: 2022-11-23T20:58:16.027Z
 ---
