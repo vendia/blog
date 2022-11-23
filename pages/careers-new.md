@@ -3,6 +3,20 @@ draft: true
 template: page
 path: /careers-new
 components:
+  - type: MediaWithText
+    text: >-
+      ## Our mission
+
+
+      We help people forge deeper, more valuable, and lasting connections through better sharing — across teams, departments, and business networks.
+
+
+      Every day, we pursue our mission by building and evolving a world-class SaaS platform that makes real-time, cross-cloud, multi-party data sharing highly scalable, fault-tolerant, and secure.
+
+
+      We deliver on that mission as a community of kind humans who value and behave with trust, ingenuity, a growth mindset, responsibility, and a bias toward results.
+    mediaPosition: left
+    theme: Light
   - type: Columns
     theme: White
     intro:
@@ -43,5 +57,5 @@ components:
 
           Benefits and perks
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-23T19:49:41.855Z
+updatedAt: 2022-11-23T19:57:27.220Z
 ---
