@@ -79,8 +79,8 @@ components:
   - type: JobsListing
     theme: Light
     intro:
-      title: Jobs
-      text: Text description
+      title: ""
+      text: ""
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-24T20:38:17.729Z
+updatedAt: 2022-11-24T20:58:30.562Z
 ---
