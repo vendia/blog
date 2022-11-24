@@ -35,6 +35,9 @@ components:
       text: Enjoy all the energy of startup life without exhaustion or drama
     columns:
       - text: >-
+          ![](https://res.cloudinary.com/vendia/image/upload/c_fill,w_2000/v1669319829/Group_48095931_mgwd2a.svg)
+
+
           ### Responsibly run
 
 
@@ -68,5 +71,5 @@ components:
 
           Benefits and perks
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-23T21:05:03.453Z
+updatedAt: 2022-11-24T20:15:11.686Z
 ---
