@@ -49,6 +49,9 @@ components:
 
           [Meet the founders](https://www.vendia.com/blog/meet-vendias-founders)
       - text: >-
+          ![](https://res.cloudinary.com/vendia/image/upload/c_fill,w_2000/v1669320168/Group_48095931_1_wffbh5.svg)
+
+
           ### Kind Humans
 
 
@@ -60,6 +63,9 @@ components:
 
           [Kind Humans Policy](https://www.vendia.com/kind-humans)
       - text: >-
+          ![](https://res.cloudinary.com/vendia/image/upload/c_fill,w_2000/v1669320206/Group_48095931_2_rdgcuo.svg)
+
+
           ### Perks
 
 
@@ -71,5 +77,5 @@ components:
 
           Benefits and perks
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-24T20:15:11.686Z
+updatedAt: 2022-11-24T20:15:47.889Z
 ---
