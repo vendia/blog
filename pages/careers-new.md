@@ -76,6 +76,11 @@ components:
 
 
           Benefits and perks
+  - type: JobsListing
+    theme: Light
+    intro:
+      title: Jobs
+      text: Text description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-24T20:15:47.889Z
+updatedAt: 2022-11-24T20:38:17.729Z
 ---
