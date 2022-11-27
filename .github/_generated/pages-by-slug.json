@@ -1,4 +1,8 @@
 {
+  "careers-new": {
+    "file": "/pages/careers-new.md",
+    "draft": true
+  },
   "foo/bar": {
     "file": "/pages/default-title.md",
     "draft": true
