@@ -1,7 +1,9 @@
 const { getLineNumberFromMatch } = require('./utils')
+// const { voidTags } = require('./html-to-json/tags')
 
 // https://regex101.com/r/he9l06/2
 // http://xahlee.info/js/html5_non-closing_tag.html
+// voidTags
 const CLOSE_TAG_REGEX = /<(br|hr|img|embed|col|link|meta)(([^>]*)([^/])(>)|>)/g
 
 function findUnmatchedHtmlTags(block, filePath) {

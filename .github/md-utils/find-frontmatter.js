@@ -3,6 +3,7 @@ const matter = require('gray-matter')
 // https://regex101.com/r/Q9bBxC/1
 const HIDDEN_FRONTMATTER_REGEX = /^<!--+(?:\r\n|\r|\n)([\w\W]*?)--+>/g
 // const HIDDEN_FRONTMATTER_REGEX = /^<!--.*((.|\r?\n)*?.*-->)/g
+
 /* Match --- frontmatter --- */
 // https://regex101.com/r/d7eAw4/1
 const FRONTMATTER_REGEX = /(^--+(?:\r\n|\r|\n)([\w\W]*?)--+)/

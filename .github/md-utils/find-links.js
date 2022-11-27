@@ -5,6 +5,7 @@ const LIVE_LINKS_REGEX = /(?:['"(])((?:https?:\/\/)[\w\d\-_,./?=#%:+&]{3,})/gmi
 const RELATIVE_LINKS_REGEX = /(src|href|\()=?(['"/])(?!(?:(?:https?|ftp):\/\/|data:))(\.?\/)?([\w\d-_./,?=#%:+&]+)(?:['")])?/gim
 // https://regex101.com/r/u2DwY2/2/
 const MARKDOWN_IMAGE_REGEX = /!\[[^\]]*\]\((.*?)\s*("(?:.*[^"])")?\s*\)/g
+
 const LINK_PATTERN = /^https?:\/\//
 
 function isLocal(link) {

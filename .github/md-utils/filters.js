@@ -1,5 +1,5 @@
 
-const RELATIVE_LINK = /^(?!(?:(?:https?|ftp):\/\/|data:))((?:\.\.?\/)*)*([\w\d\-_./?=#%:+&]+)/
+const RELATIVE_LINK_REGEX = /^(?!(?:(?:https?|ftp):\/\/|data:))((?:\.\.?\/)*)*([\w\d\-_./?=#%:+&]+)/
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
@@ -10,7 +10,7 @@ function isImage(link) {
 }
 
 function isRelative(filepath) {
-  return RELATIVE_LINK.test(filepath)
+  return RELATIVE_LINK_REGEX.test(filepath)
 }
 
 module.exports = {
