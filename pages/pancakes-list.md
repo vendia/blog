@@ -197,11 +197,17 @@ components:
       In venenatis justo ipsum interdum turpis. Pellentesque vitae nulla quis arcu euismod ultrices. Quisque sed lorem sed est fermentum interdum.
 
       <Button label="Call to action" href="https://www.vendia.com" kind="primary" />
+  - type: Resources
+    intro:
+      title: Great resources
+      text: Download them
+    resourcesType: White papers
+    resources: []
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-21T03:32:53.924Z
+updatedAt: 2022-11-28T15:04:08.378Z
 ---
 
 Body is required to show pancakes
