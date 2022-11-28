@@ -202,12 +202,29 @@ components:
       title: ""
       text: ""
     resourcesType: White papers
-    resources: []
+    resources:
+      - text: How to build toil-less applications quickly for real customer value with
+          Vendia Share
+        title: The Lean app movement
+        button:
+          label: Download
+          url: "#"
+      - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis
+          maximus sapien id posuere.
+        title: 2nd card
+        button:
+          label: Learn more
+          url: "#"
+      - text: ""
+        title: "3rd card Lorem "
+        button:
+          label: Download
+          url: "#"
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-28T15:33:47.286Z
+updatedAt: 2022-11-28T15:58:16.392Z
 ---
 
 Body is required to show pancakes
