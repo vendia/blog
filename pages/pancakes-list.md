@@ -199,15 +199,15 @@ components:
       <Button label="Call to action" href="https://www.vendia.com" kind="primary" />
   - type: Resources
     intro:
-      title: Great resources
-      text: Download them
+      title: ""
+      text: ""
     resourcesType: White papers
     resources: []
 seo:
   title: Title
   description: Description
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-28T15:04:08.378Z
+updatedAt: 2022-11-28T15:33:47.286Z
 ---
 
 Body is required to show pancakes
