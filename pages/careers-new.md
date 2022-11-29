@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /careers-new
+path: careers
 components:
   - type: ThinHeadline
     button:
@@ -82,5 +82,5 @@ components:
       title: ""
       text: ""
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T21:22:52.065Z
+updatedAt: 2022-11-29T21:23:10.928Z
 ---
