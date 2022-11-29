@@ -29,5 +29,5 @@ components:
 seo:
   title: Three body problem
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:28:11.027Z
+updatedAt: 2022-11-29T03:30:57.451Z
 ---
