@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: shared-data-architecture
 title: Shared data architecture patterns
 description: Organizing shared data to gain new insights and maximize resources
@@ -24,7 +24,7 @@ seo:
     most compatible architecture for your company’s needs.
   keywords: shared data architecture
 updatedBy: Caroll Casbeer
-updatedAt: 2022-11-29T18:41:00.925Z
+updatedAt: 2022-11-29T18:41:26.003Z
 ---
 
 # Shared data architecture patterns
