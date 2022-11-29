@@ -1,76 +1,312 @@
 {
-  "podcast": [
+  "architecture": [
     {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of shelters.",
-      "date": "2022-11-23",
-      "categories": [
-        "podcast"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
       "draft": false,
-      "slug": "podcast-patient-experience-with-teeth",
-      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
-      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-      "date": "2022-11-16T00:00:00.000Z",
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
       "authors": [
-        "Alexa Johnson"
+        "Caroll Casbeer"
       ],
       "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer"
-      ],
-      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "tweet": "Check out the latest episode of Circles of Trust",
-      "seo": {
-        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
-        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-        "keywords": "circles of trust"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-18T21:53:26.118Z"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
+        "architecture",
         "realtime-data-sharing",
         "data-alliance"
       ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-11-29T18:41:26.003Z"
+    },
+    {
+      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "draft": false,
+      "title": "No more multicloud: The emergence of supercloud",
+      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04",
       "authors": [
-        "Alexa Johnson"
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "updatedBy": "David Wells"
+    },
+    {
+      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
+      "draft": false,
+      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
+      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
+      "date": "2022-09-26",
+      "categories": [
+        "architecture",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
       ]
     },
     {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "file": "/posts/2022-09-22-real-time-everything.md",
       "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "title": "Real-time “everything” with operational and analytics data",
+      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
+      "date": "2022-09-22",
       "categories": [
-        "podcast"
+        "architecture",
+        "concepts",
+        "tutorials",
+        "product",
+        "data-modeling"
       ],
-      "date": "2022-10-01"
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
+      "draft": false,
+      "title": "Where blockchain fits into your data and application strategy",
+      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "data-modeling",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
+      "draft": false,
+      "title": "Roundup: Real-time data sharing",
+      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
+      "draft": false,
+      "title": "Why public cloud services aren’t enough for file sharing",
+      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
+      "date": "2022-08-17",
+      "categories": [
+        "product",
+        "architecture"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
+      "draft": false,
+      "title": "Venn diagramming Vendia Share",
+      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
+      "date": "2022-08-04",
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
+      "draft": false,
+      "title": "Understanding real-time data lakes",
+      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
+      "date": "2022-08-03",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive",
+      "date": "2022-07-29",
+      "categories": [
+        "architecture",
+        "data-modeling"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-28-ask-the-expert-apis.md",
+      "draft": false,
+      "title": "Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs",
+      "description": "With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.",
+      "date": "2022-07-28",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
+      "draft": false,
+      "title": "Improve your data mesh with real-time data sharing",
+      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
+      "date": "2022-05-10",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
+      "draft": false,
+      "title": "Multi-party data sharing with control",
+      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+      "date": "2022-01-31",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-04-azure-eventing.md",
+      "draft": false,
+      "title": "Real-Time cross-cloud data sharing",
+      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
+      "date": "2022-01-04",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
+      "draft": false,
+      "title": "Authenticating Vendia Share Requests Using SAML",
+      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
+      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
+      "date": "2021-11-02",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "architecture"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "draft": false,
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "draft": false,
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-31-stamti.md",
+      "draft": false,
+      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
+      "date": "2021-01-31",
+      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
+      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.\n",
+      "categories": [
+        "architecture"
+      ],
+      "tags": [
+        "STAMTI"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
     }
   ],
   "realtime-data-sharing": [
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "categories": [
+        "architecture",
+        "realtime-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-11-29T18:41:26.003Z"
+    },
     {
       "file": "/posts/2022-11-21-shared-data-architecture.md",
       "draft": false,
@@ -175,6 +411,35 @@
   ],
   "data-alliance": [
     {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "categories": [
+        "architecture",
+        "realtime-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-11-29T18:41:26.003Z"
+    },
+    {
       "file": "/posts/2022-11-21-shared-data-architecture.md",
       "draft": false,
       "title": "Understanding shared data architecture",
@@ -218,6 +483,77 @@
       "authors": [
         "Vikrant Kahlir"
       ]
+    }
+  ],
+  "podcast": [
+    {
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of shelters.",
+      "date": "2022-11-23",
+      "categories": [
+        "podcast"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-18T21:53:26.118Z"
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "realtime-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01"
     }
   ],
   "concepts": [
@@ -1329,255 +1665,6 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
-    }
-  ],
-  "architecture": [
-    {
-      "file": "/posts/2022-10-04-no-more-multicloud.md",
-      "draft": false,
-      "title": "No more multicloud: The emergence of supercloud",
-      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "updatedBy": "David Wells"
-    },
-    {
-      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
-      "draft": false,
-      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
-      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
-      "date": "2022-09-26",
-      "categories": [
-        "architecture",
-        "blockchain"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-22-real-time-everything.md",
-      "draft": false,
-      "title": "Real-time “everything” with operational and analytics data",
-      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
-      "date": "2022-09-22",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials",
-        "product",
-        "data-modeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
-      "draft": false,
-      "title": "Where blockchain fits into your data and application strategy",
-      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "data-modeling",
-        "blockchain"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
-      "draft": false,
-      "title": "Roundup: Real-time data sharing",
-      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
-      "draft": false,
-      "title": "Why public cloud services aren’t enough for file sharing",
-      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
-      "date": "2022-08-17",
-      "categories": [
-        "product",
-        "architecture"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
-      "draft": false,
-      "title": "Venn diagramming Vendia Share",
-      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
-      "date": "2022-08-04",
-      "categories": [
-        "architecture",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
-      "draft": false,
-      "title": "Understanding real-time data lakes",
-      "description": "Data lakes enable smarter apps and faster development. Let’s look at the basics of data lake architecture, use cases, benefits, and challenges",
-      "date": "2022-08-03",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Why sharing real-time data across apps, companies, clouds, geographies, and stacks is difficult and expensive",
-      "date": "2022-07-29",
-      "categories": [
-        "architecture",
-        "data-modeling"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-28-ask-the-expert-apis.md",
-      "draft": false,
-      "title": "Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs",
-      "description": "With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.",
-      "date": "2022-07-28",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
-      "draft": false,
-      "title": "Improve your data mesh with real-time data sharing",
-      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
-      "date": "2022-05-10",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "draft": false,
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-04-azure-eventing.md",
-      "draft": false,
-      "title": "Real-Time cross-cloud data sharing",
-      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
-      "date": "2022-01-04",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
-      "draft": false,
-      "title": "Authenticating Vendia Share Requests Using SAML",
-      "description": "Taking advantage of existing SAML Identity Providers when using Vendia Share",
-      "longDescription": "Learn how to use existing SAML identity providers to work with Vendia Share\n",
-      "date": "2021-11-02",
-      "authors": [
-        "Brian McNamara"
-      ],
-      "categories": [
-        "architecture"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "draft": false,
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
-      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "draft": false,
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-31-stamti.md",
-      "draft": false,
-      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
-      "date": "2021-01-31",
-      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
-      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.\n",
-      "categories": [
-        "architecture"
-      ],
-      "tags": [
-        "STAMTI"
-      ],
-      "authors": [
-        "Tim Wagner"
       ]
     }
   ],

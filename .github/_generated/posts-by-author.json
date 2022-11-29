@@ -1,4 +1,173 @@
 {
+  "caroll-casbeer": [
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "categories": [
+        "architecture",
+        "realtime-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-11-29T18:41:26.003Z"
+    },
+    {
+      "file": "/posts/2022-10-06-growth-marketing-b2b-saas.md",
+      "draft": false,
+      "title": "How to think about your growth marketing tactics at a startup",
+      "description": "Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.",
+      "date": "2022-10-06",
+      "categories": null,
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
+      "draft": false,
+      "title": "Roundup: Real-time data sharing",
+      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-10-new-podcast.md",
+      "draft": false,
+      "title": "New podcast: Circles of Trust launching this fall",
+      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
+      "date": "2022-09-10",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-31-new-vendia-logo.md",
+      "draft": false,
+      "title": "Introducing our new brand identity",
+      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
+      "date": "2022-08-31",
+      "categories": [
+        "company"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
+      "draft": false,
+      "title": "Webcast: How to build an enterprise blockchain with serverless",
+      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
+      "date": "2022-07-19",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-08-lean-apps-for-developers.md",
+      "draft": false,
+      "title": "What does a ‘lean app’ mean for developers? ",
+      "description": "Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.",
+      "date": "2022-07-08",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
+      "draft": false,
+      "title": "How to increase transparency in real estate transactions using blockchain and Vendia Share",
+      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
+      "date": "2022-06-24",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
+      "draft": false,
+      "title": "Vendia guest contributor program",
+      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
+      "date": "2022-06-22",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Types of data: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
+      "draft": false,
+      "title": "Add Data via SFTP to Vendia Share",
+      "description": "Send a CSV via SFTP to add data to your Uni",
+      "date": "2022-03-23",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
+      "draft": false,
+      "title": "Adding Data in a CSV to Vendia Share Using Email",
+      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
+      "date": "2022-03-15",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
+      "draft": false,
+      "title": "My first 30 days at Vendia",
+      "description": "Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.",
+      "date": "2022-02-09",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    }
+  ],
   "alexa-johnson": [
     {
       "file": "/posts/2022-11-23-connecting-pets-humans.md",
@@ -1240,146 +1409,6 @@
       ],
       "authors": [
         "Renee Fujii"
-      ]
-    }
-  ],
-  "caroll-casbeer": [
-    {
-      "file": "/posts/2022-10-06-growth-marketing-b2b-saas.md",
-      "draft": false,
-      "title": "How to think about your growth marketing tactics at a startup",
-      "description": "Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.",
-      "date": "2022-10-06",
-      "categories": null,
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
-      "draft": false,
-      "title": "Roundup: Real-time data sharing",
-      "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-10-new-podcast.md",
-      "draft": false,
-      "title": "New podcast: Circles of Trust launching this fall",
-      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
-      "date": "2022-09-10",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-31-new-vendia-logo.md",
-      "draft": false,
-      "title": "Introducing our new brand identity",
-      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
-      "date": "2022-08-31",
-      "categories": [
-        "company"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
-      "draft": false,
-      "title": "Webcast: How to build an enterprise blockchain with serverless",
-      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
-      "date": "2022-07-19",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-08-lean-apps-for-developers.md",
-      "draft": false,
-      "title": "What does a ‘lean app’ mean for developers? ",
-      "description": "Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.",
-      "date": "2022-07-08",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
-      "draft": false,
-      "title": "How to increase transparency in real estate transactions using blockchain and Vendia Share",
-      "description": "Learn how Vendia Share makes real estate transactions and multi-party data interactions secure, traceable, transparent, and real time with a shared, single source of truth via serverless blockchain!",
-      "date": "2022-06-24",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
-      "draft": false,
-      "title": "Vendia guest contributor program",
-      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
-      "date": "2022-06-22",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "draft": false,
-      "title": "Types of data: Real-time data vs. analytical data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-      "date": "2022-05-05",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
-      "draft": false,
-      "title": "Add Data via SFTP to Vendia Share",
-      "description": "Send a CSV via SFTP to add data to your Uni",
-      "date": "2022-03-23",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
-      "draft": false,
-      "title": "Adding Data in a CSV to Vendia Share Using Email",
-      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
-      "date": "2022-03-15",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
-      "draft": false,
-      "title": "My first 30 days at Vendia",
-      "description": "Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.",
-      "date": "2022-02-09",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Caroll Casbeer"
       ]
     }
   ],

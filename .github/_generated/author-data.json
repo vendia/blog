@@ -23,7 +23,8 @@
     "vendia",
     "vikrant-kahlir",
     "alexa-johnson",
-    "ben-steward"
+    "ben-steward",
+    "li-dai"
   ],
   "authors": [
     {
@@ -72,7 +73,7 @@
         "long": "Caroll likes, puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
       },
       "slug": "caroll-casbeer",
-      "postCount": 12
+      "postCount": 13
     },
     {
       "name": "Cory Forsythe",
@@ -318,6 +319,20 @@
         "long": ""
       },
       "slug": "ben-steward",
+      "postCount": 0
+    },
+    {
+      "bio": {
+        "short": "Li Dai loves helping customers adopt the lastest innovative technologies. When not working on his own entrepreneurial efforts and mentoring he likes spending time with his family and learning new skills. ",
+        "long": ""
+      },
+      "name": "Li Dai",
+      "jobTitle": "Sr. Solution Architect",
+      "github": "li-vendia",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg",
+      "updatedAt": "2022-11-29T18:29:24.781Z",
+      "updatedBy": "Caroll Casbeer",
+      "slug": "li-dai",
       "postCount": 0
     }
   ]

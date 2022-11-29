@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Published-Date | edit |
 |:-------------|:--------------:|:---:|
+| [Shared data architecture patterns](https://www.vendia.com/blog/shared-data-architecture-patterns) <br/> Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs by Caroll Casbeer | 2022-11-29 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-29-shared-data-architecture-patterns.md)
 | [Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster](https://www.vendia.com/blog/connecting-pets-humans) <br/> Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of shelters by Alexa Johnson | 2022-11-23 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-23-connecting-pets-humans.md)
 | [Understanding shared data architecture](https://www.vendia.com/blog/shared-data-architecture) <br/> Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases by James Gimourginas | 2022-11-21 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-21-shared-data-architecture.md)
 | [10 ways to make your software better when building for cloud scale ](https://www.vendia.com/blog/10-ways-to-make-cloud-scale-software-better) <br/> How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices by James Gimourginas | 2022-11-18 | [✍️](https://github.com/vendia/blog/edit/master/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md)
@@ -340,8 +341,16 @@ Welcome to the Vendia blog repo!
       </a>
       <br />
       <a href="https://www.vendia.com/blog/author/ben-steward"><sup><sub>Ben Steward</sub></sup></a>
-   </td>
+  </td>
+  <td align="center">
+      <a href="https://www.vendia.com/blog/author/li-dai">
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://github.com/li-vendia"><sup><sub>Li Dai</sub></sup></a>
+  </td>
 </tr>
+<tr>
 </table>
 <!-- ⛔️ AUTO-GENERATED-CONTENT:END -->
 
