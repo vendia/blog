@@ -1,6 +1,6 @@
 ---
 draft: false
-slug: shared-data-architecture
+slug: shared-data-architecture-patterns
 title: Shared data architecture patterns
 description: Organizing shared data to gain new insights and maximize resources
   starts with the right blockchain-based solution. Learn how to choose the most
