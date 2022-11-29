@@ -75,12 +75,12 @@ components:
           **Take care of yourself.**
 
 
-          Benefits and perks
+          [Benefits and perks](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Careers%20and%20recruiting/Vendia_Benefits_perks.pdf)
   - type: JobsListing
     theme: Light
     intro:
       title: ""
       text: ""
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-24T20:58:30.562Z
+updatedAt: 2022-11-29T21:21:29.836Z
 ---
