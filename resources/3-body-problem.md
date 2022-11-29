@@ -2,6 +2,7 @@
 draft: true
 template: resource
 path: 3-body-problem
+resourceType: white-papers
 components:
   - type: HubspotForm
     text: >-
@@ -29,5 +30,5 @@ components:
 seo:
   title: Three body problem
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:30:57.451Z
+updatedAt: 2022-11-29T04:06:54.726Z
 ---
