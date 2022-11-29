@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /careers
+path: /careers-new
 components:
   - type: ThinHeadline
     button:
