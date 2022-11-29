@@ -7,7 +7,7 @@ components:
     button:
       kind: vendorGhost
       label: Find opportunities
-      href: "#jobs-opening"
+      href: "#job-openings"
     theme: White
     title: Careers
     text: Solve hard problems with kind humans
@@ -82,5 +82,5 @@ components:
       title: ""
       text: ""
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T21:21:29.836Z
+updatedAt: 2022-11-29T21:22:52.065Z
 ---
