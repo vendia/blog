@@ -1,0 +1,26 @@
+{
+  "resourcesTypes": [
+    {
+      "slug": "white-papers",
+      "description": "White papers"
+    },
+    {
+      "slug": "case-studies",
+      "description": "Case studies"
+    },
+    {
+      "slug": "webcasts",
+      "description": "Webcasts"
+    },
+    {
+      "slug": "videos",
+      "description": "Videos"
+    },
+    {
+      "slug": "podcasts",
+      "description": "Podcasts"
+    }
+  ],
+  "updatedAt": "2022-11-29T04:04:38.089Z",
+  "updatedBy": "Hugues Tennier"
+}
