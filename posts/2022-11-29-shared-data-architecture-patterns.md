@@ -16,7 +16,7 @@ relatedPosts:
   - 2022-11-29-shared-data-architecture-patterns
   - 2021-01-29-getting-started-with-vendia-share
   - 2021-02-01-decentralization
-thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746822/Blog%20images/Blog___Shared_data_architecture_patterns___202211_2_xtlhgk.png
+thumbnail: https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png
 seo:
   title: Shared data architecture patterns
   description: Organizing shared data to gain new insights and maximize resources
@@ -100,7 +100,7 @@ Let’s unpack the various architecture patterns for enabling data sharing and b
 
 ### Point-to-point sharing
 
-![Point-to-point data sharing diagram](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746822/Blog%20images/Blog___Shared_data_architecture_patterns___point-to-point.png "Point-to-point data sharing diagram")
+![Point-to-point data sharing diagram](https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___point-to-point.png "Point-to-point data sharing diagram")
 
 Just as the image shows, this pattern requires each participant to send their data to each other to ensure all data is kept in sync. Example implementations include:
 
@@ -150,7 +150,7 @@ Just as the image shows, this pattern requires each participant to send their da
 
 ### Centralized Hub
 
-![Central hub architecture diagram ](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746822/Blog%20images/Blog___Shared_data_architecture_patterns___202211_1_miaoac.png)
+![Central hub architecture diagram ](https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_1_miaoac.png)
 
 When data is scattered across multiple sources and multiple parties need some portion of the data to do their job, it makes sense to pull data from those sources and store them together in a single centralized system.
 
@@ -203,7 +203,7 @@ Some examples include:
 
 ### Real-time data sharing
 
-![Real-time data sharing platform diagram](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746822/Blog%20images/Blog___Shared_data_architecture_patterns___202211_2_xtlhgk.png)
+![Real-time data sharing platform diagram](https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png)
 
 As its name suggests, this pattern shares data with multiple parties as it happens. But typically in a decentralized, ledgered, and consistent manner with access control to limit participants to only what they need. A mature real-time sharing includes considerations for both the data itself and the history of data changes. Not only is the process continuous, it allows each party to modify data as required. In addition, it allows all participants to know about a change as soon as it happens. Such a pattern could be achieved with building databases with change data capture (CDCs) and Kafka in the picture. But that is not the most cost effective setup nor is it trivial to set up a scalable Kafka cluster. Also, they require additional layers of integration to consume the CDC data, parse it, and apply the changes to have a consistent definition of the data across all parties. 
 
