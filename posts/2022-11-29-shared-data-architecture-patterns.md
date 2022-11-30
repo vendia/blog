@@ -23,8 +23,8 @@ seo:
     starts with the right blockchain-based solution. Learn how to choose the
     most compatible architecture for your company’s needs.
   keywords: shared data architecture
-updatedBy: Caroll Casbeer
-updatedAt: 2022-11-30T00:34:25.699Z
+updatedBy: David Wells
+updatedAt: 2022-11-30T06:47:35.065Z
 ---
 
 # Shared data architecture patterns
@@ -110,11 +110,11 @@ Just as the image shows, this pattern requires each participant to send their da
 
 <table>
   <tr>
-    <td>Decentralized</td>
-    <td>Real-time</td>
-    <td>Consistent</td>
-    <td>Ledgered</td>
-    <td>Access controlled</td>
+    <th>Decentralized</th>
+    <th>Real-time</th>
+    <th>Consistent</th>
+    <th>Ledgered</th>
+    <th>Access controlled</th>
   </tr>
   <tr>
     <td>High</td>
@@ -147,11 +147,11 @@ Some examples include:
 
 <table>
   <tr>
-    <td>Decentralized</td>
-    <td>Real-time</td>
-    <td>Consistent</td>
-    <td>Ledgered</td>
-    <td>Access controlled</td>
+    <th>Decentralized</th>
+    <th>Real-time</th>
+    <th>Consistent</th>
+    <th>Ledgered</th>
+    <th>Access controlled</th>
   </tr>
   <tr>
     <td>Low</td>
@@ -181,14 +181,11 @@ But it can, however, be done in under 5 minutes with Vendia Share.
 
 <table>
   <tr>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Decentralized</td>
-    <td>Real-time</td>
-    <td>Consistent</td>
-    <td>Ledgered</td>
-    <td>Access controlled</td>
+    <th>Decentralized</th>
+    <th>Real-time</th>
+    <th>Consistent</th>
+    <th>Ledgered</th>
+    <th>Access controlled</th>
   </tr>
   <tr>
     <td>Medium</td>
@@ -210,11 +207,11 @@ Vendia’s real-time sharing
 
 <table>
   <tr>
-    <td>Decentralized</td>
-    <td>Real-time</td>
-    <td>Consistent</td>
-    <td>Ledgered</td>
-    <td>Access controlled</td>
+    <th>Decentralized</th>
+    <th>Real-time</th>
+    <th>Consistent</th>
+    <th>Ledgered</th>
+    <th>Access controlled</th>
   </tr>
   <tr>
     <td>High</td>
