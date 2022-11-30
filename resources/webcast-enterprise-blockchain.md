@@ -2,6 +2,7 @@
 draft: true
 template: resource
 slug: webcast-enterprise-blockchain
+date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
@@ -15,8 +16,12 @@ components:
 
       The result: the ability to share data across boundaries, in real-time.
     formId: 0efa686b-0f52-4f45-9428-c882eef57f21
+    theme: White
+resourceType: webcasts
 seo:
   title: How to build an enterprise blockchain
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:54:22.848Z
+  description: Peter Sbarski and Tim Wagner as they chat serverless, blockchain,
+    and what exactly is Vendia Share.
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T22:07:46.918Z
 ---
