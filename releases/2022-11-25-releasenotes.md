@@ -74,7 +74,7 @@ x-amzn-trace-id: Root=1-63866c38-38b964043a2d77c240da4981;Sampled=0
 {"data": null, "errors": [{"message": "Syntax Error: Expected '{', found <EOF>.", "locations": [{"line": 1, "column": 7}]}]}%
 ```
 
-It is recommended to understand the [common GraphQL error handling techniques](https://the-guild.dev/blog/graphql-error-handling-with-fp).
+See [common GraphQL error handling techniques](https://the-guild.dev/blog/graphql-error-handling-with-fp) for more information on properly handling errors.
 
 # Up to 1000 for your query results
 As the number of entities increase, the result set for `list` operations will be too large to return in a single http response. To optimize resource usage, Vendia continues limits results to 1000 results per query.  However, in cases where a `filter` is applied, Vendia previously did not fully populate the result set.  With some recent changes, each `page` of results should be more complete (i.e. fewer if any empty pages) than they were previously.
