@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Handle errors the GraphQL way and more results to your query"
+title: "Handling errors the GraphQL way and adding more results to your queries"
 description: "Vendia Share updated the response status code and allowing up to 1000 query results"
 date: '2022-11-25'
 authors:
