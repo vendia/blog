@@ -7,9 +7,9 @@ components:
     text: >-
       # AWS Immersion Day
 
-      ![Blockchain](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/.Vendia%20Iso%20Images%20(approved)/Blockchain.png)
+      ![Blockchain](https://user-images.githubusercontent.com/532272/204734067-39af4e83-ee7d-4d6c-9e20-4705241ae426.png)
 
-      **POSTPONED ****\
+      ## **POSTPONED**
 
       Stay tuned for future events from the AWS and Vendia team.**
     formId: 2f9c76e7-0d44-4705-8977-fd582136ba50
