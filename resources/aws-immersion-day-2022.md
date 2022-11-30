@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: aws-immersion-day-2022
 components:
