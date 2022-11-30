@@ -2,6 +2,7 @@
 draft: true
 template: resource
 slug: failed-blockchain
+date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
@@ -11,8 +12,12 @@ components:
 
       With Shruthi Rao, former Head of Blockchain at AWS and co-founder of Vendia
     formId: decf91e3-796e-42b0-a79b-79c9e7101f71
+    theme: White
+resourceType: webcasts
 seo:
   title: Failed Blockchain
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:46:30.301Z
+  description: "Most blockchain projects fail. Learn why and what you can do to
+    avoid failure to launch. "
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T22:00:42.668Z
 ---
