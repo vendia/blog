@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Handling errors the GraphQL way and adding more results to your queries"
-description: "Vendia Share updated the response status code and allowing up to 1000 query results"
+description: "We've updated response status codes and now allow up to 1000 results per query."
 date: '2022-11-25'
 authors:
   - Li Dai
@@ -15,7 +15,7 @@ Vendia Engineers worked tirelessly to improve our product and leverage industry 
 
 # Error handling the way it should with GraphQL. 
 
-Errors are not scary as long as we handle them well. In the past Vendia's end point would return 4XX and 5XX status codes for any http request failures. But that has changed as we decided to follow GraphQL's [recommended approach](https://graphql.github.io/graphql-over-http/draft/#sec-Field-errors-encountered-during-execution) over http calls.
+GraphQL errors are not scary as long as they are returned and properly handled. In the past Vendia Share would return 4XX and 5XX status codes for any http request failures. But that has changed with a move to GraphQL's [recommended approach](https://graphql.github.io/graphql-over-http/draft/#sec-Field-errors-encountered-during-execution).
 
 In short, it means the GraphQL end point will always return a 2XX. But, when an error occurs, an `errors` field will be included in the response payload. Note that this does not mean our end point will never return anything else. This change is at handler level. It means once your request actually reach GraphQL handler, you will only get 2XX. Here's a table for the changes:
 
@@ -85,7 +85,7 @@ x-amzn-trace-id: Root=1-63866c38-38b964043a2d77c240da4981;Sampled=0
 See [common GraphQL error handling techniques](https://the-guild.dev/blog/graphql-error-handling-with-fp) for more information on properly handling errors.
 
 # Up to 1000 for your query results
-As your entity lists grow, eventually they will be large enough such that rendering all of them will not be ideal. To optimize resource usage, Vendia now allows up to 1000 results being returned in a single query.
+As the number of entities increase, the result set for `list` operations will be too large to return in a single http response. To optimize resource usage, Vendia continues limits results to 1000 results per query.  However, in cases where a `filter` is applied, Vendia previously did not fully populate the result set.  With some recent changes, each `page` of results should be more complete (i.e. fewer if any empty pages) than they were previously.
 
 Here are couple samples in a testing environment.
 
