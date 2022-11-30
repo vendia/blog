@@ -27,8 +27,12 @@ components:
       Download the **Future of APIs** to learn more about the challenges of building modern data-sharing solutions with traditional APIs, and how to overcome them rapidly.
     formId: ce132e75-4bde-4312-88eb-a0dc7a89a5d2
     theme: White
+resourceType: white-papers
 seo:
   title: APIs plus Databases – The Future of APIs eBook
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-30T21:43:57.826Z
+  description: "Learn how Vendia Share combines APIs and Databases to automate
+    data workflows across your business network. No more point-to-point
+    integrations with out of date information. "
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T21:47:42.781Z
 ---
