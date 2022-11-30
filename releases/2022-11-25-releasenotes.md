@@ -91,73 +91,12 @@ Here are couple samples in a testing environment.
 
 1. A basic query with `limit` set to `1000`:
 
-```
-query MyQuery {
-  list_ProductItems(limit: 1000, filter: {name: {contains: "Item1"}}) {
-    nextToken
-    _ProductItems {
-      name
-      price
-    }
-  }
-}
-```
-
-You will see all or up to 1000 results which ever is lower:
-```
-{
-  "data": {
-    "list_ProductItems": {
-      "nextToken": null,
-      "_ProductItems": [
-        {
-          "name": "Item1",
-          "price": 0.99
-        }
-      ]
-    }
-  }
-}
-```
+![GraphQL UI 1](https://user-images.githubusercontent.com/116586196/204875180-333d3eb0-69ea-49ee-8582-ba45c924fe54.png)
 
 2. A query attempt to set `limit` for more than `1000`:
-```
-query MyQuery {
-  list_ProductItems(limit: 1001, filter: {name: {contains: "Item1"}}) {
-    nextToken
-    _ProductItems {
-      name
-      price
-    }
-  }
-}
 
-```
-The query will then return null. It will provide you with the error message informing you that `the supplied list limit must be <= 1000`.
-```
-{
-  "data": {
-    "list_ProductItems": null
-  },
-  "errors": [
-    {
-      "message": "the supplied list limit must be <= 1000",
-      "locations": [
-        {
-          "line": 2,
-          "column": 3
-        }
-      ],
-      "path": [
-        "list_ProductItems"
-      ],
-      "extensions": {
-        "code": "VALIDATION_ERROR"
-      }
-    }
-  ]
-}
-```
+![GraphQL UI 2](https://user-images.githubusercontent.com/116586196/204875185-b5f8dbd4-866c-44a4-a7b9-e206626696ac.png)
+
 # Believe in Real-Time Data Sharing?
 
 Vendia leads the way in data sharing and business blockchains. [Get started for free](https://www.vendia.com/pricing) to see how Vendia can power your business..
