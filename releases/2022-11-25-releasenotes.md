@@ -15,7 +15,7 @@ Vendia Engineers worked tirelessly to improve our product and ensure that we fol
 
 # Error handling the way it should with [GraphQL](https://graphql.org/). 
 
-Errors are not scary as long as we handle them well. In the past Vendia's end point would return 4XX and 5XX status codes for any http request failures. But that has changed as we decided to follow GraphQL's [recommended approach](https://graphql.github.io/graphql-over-http/draft/#sec-Field-errors-encountered-during-execution) over http calls.
+GraphQL errors are not scary as long as they are returned and properly handled. In the past Vendia Share would return 4XX and 5XX status codes for any http request failures. But that has changed with a move to GraphQL's [recommended approach](https://graphql.github.io/graphql-over-http/draft/#sec-Field-errors-encountered-during-execution).
 
 In short, it means the GraphQL end point will always return a 2XX. But, when an error occurs, an `errors` field will be included in the response payload. 
 
