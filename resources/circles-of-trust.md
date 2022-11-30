@@ -2,13 +2,14 @@
 draft: true
 template: resource
 slug: circles-of-trust
+date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
       # Circles of Trust
-      
+
       ![Circles of Trust Logo](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Circles%20of%20Trust/Circles%20of%20Trust%20Logo.png)
-      
+
       Real-talk on real-time data sharing and strategy
 
       *Launching fall 2022**
@@ -26,8 +27,12 @@ components:
       Worlds colliding: The unstoppable impact of analytical and operational data sharing at scale with [Erin Kelly](https://www.linkedin.com/in/erinannkelly/) (SVP of Enterprise Solutions & Strategy, Kraft Analytics Group) and [Francine Klein](https://www.linkedin.com/in/francine-klein-31a99834/) (Sr. Solutions Architect, Vendia)
     formTitle: Get on the list
     formId: bd46a7df-ec96-414b-8d80-9b077aa24cf1
+    theme: White
+resourceType: podcasts
 seo:
   title: Circles of Trust
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:43:30.626Z
+  description: Real-talk on real-time data sharing.  A podcast for leaders that
+    believe data sharing will unlock the next wave of innovation.
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T21:52:10.322Z
 ---
