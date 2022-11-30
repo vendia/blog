@@ -135,12 +135,11 @@ Quote break.
 
 # Collapsable Details
 
-Using the `details` tag to collapse contents.
+Using the `<details>` tag to collapse contents.
 
 ```html
 <details>
   <summary>Preview text of details</summary>
-  
   Contents
 </details>
 ```
@@ -411,7 +410,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
 
 ## Table with inline markdown styles
 
-<div>
+<div style={{"overflowX": "auto"}}>
 
 | Inline | Markdow | In  | Table  |
 | ----------| -------- | ----------------- | ------ |
@@ -428,6 +427,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris ar
   | _italics_   | **bold**     | ~~strikethrough~~ | `code` |
   ```
 </details>
+
+## Larger HTML table
+
+<table>
+  <tr>
+    <th>Decentralized</th>
+    <th>Real-time</th>
+    <th>Consistent</th>
+    <th>Ledgered</th>
+    <th>Access controlled</th>
+  </tr>
+  <tr>
+    <td>Low</td>
+    <td>Medium</td>
+    <td>Medium</td>
+    <td>Medium</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>
+      These solutions have similar drawbacks to the traditional <a href="https://www.oreilly.com/radar/microservices-adoption-in-2020/">“monolithic” architectures</a>.
+    </td>
+    <td>Many of these hubs utilize connectors to connect to platforms continuously.</td>
+    <td>There is no general consensus across participants.</td>
+    <td>Often the hub does not have change logs for the data.</td>
+    <td>The hub itself collects all the data and we can set up limited access to that data.</td>
+  </tr>
+</table>
 
 ---
 
@@ -743,7 +770,7 @@ Figure with caption
 ## Video
 
 <video controls name="create-api-key" width="750">
-  <source src="https://user-images.githubusercontent.com/95232537/164252013-b0d70ae8-eb34-473f-bf0c-eaf62405c8bc.mp4" type="video/mp4" />
+  <source src="https://user-images.githubusercontent.com/95232537/164252013-b0d70ae8-eb34-473f-bf0c-eaf62405c8bc.mp4" type="video/mp4"></source>
 </video>
 
 ---
