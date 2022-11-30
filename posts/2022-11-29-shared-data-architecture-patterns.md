@@ -110,41 +110,25 @@ Just as the image shows, this pattern requires each participant to send their da
 
 <table>
   <tr>
-   <td>
-Decentralized
-   </td>
-   <td>Real-time
-   </td>
-   <td>Consistent
-   </td>
-   <td>Ledgered
-   </td>
-   <td>Access controlled
-   </td>
+    <td>Decentralized</td>
+    <td>Real-time</td>
+    <td>Consistent</td>
+    <td>Ledgered</td>
+    <td>Access controlled</td>
   </tr>
   <tr>
-   <td>High
-   </td>
-   <td>Low
-   </td>
-   <td>Low
-   </td>
-   <td>Low
-   </td>
-   <td>Low
-   </td>
+    <td>High</td>
+    <td>Low</td>
+    <td>Low</td>
+    <td>Low</td>
+    <td>Low</td>
   </tr>
   <tr>
-   <td>Each Party will hold a copy of data to use.
-   </td>
-   <td>The process is not continuous and often triggered manually, with each integration point having its own schedule.
-   </td>
-   <td>It’s hard to keep track of the most up to date version of the data with duplicative logic needed for each integration point.
-   </td>
-   <td>These solutions don’t track data changes over time nor who made the changes.
-   </td>
-   <td>Typically, it’s a none or all approach. As the data is sprawled across each integrating system, there is a loss of visibility in who has access to what data
-   </td>
+    <td>Each Party will hold a copy of data to use.</td>
+    <td>The process is not continuous and often triggered manually, with each integration point having its own schedule.</td>
+    <td>It’s hard to keep track of the most up to date version of the data with duplicative logic needed for each integration point.</td>
+    <td>These solutions don’t track data changes over time nor who made the changes.</td>
+    <td>Typically, it’s a none or all approach. As the data is sprawled across each integrating system, there is a loss of visibility in who has access to what data</td>
   </tr>
 </table>
 
@@ -163,41 +147,27 @@ Some examples include:
 
 <table>
   <tr>
-   <td>
-Decentralized
-   </td>
-   <td>Real-time
-   </td>
-   <td>Consistent
-   </td>
-   <td>Ledgered
-   </td>
-   <td>Access controlled
-   </td>
+    <td>Decentralized</td>
+    <td>Real-time</td>
+    <td>Consistent</td>
+    <td>Ledgered</td>
+    <td>Access controlled</td>
   </tr>
   <tr>
-   <td>Low
-   </td>
-   <td>Medium
-   </td>
-   <td>Medium
-   </td>
-   <td>Medium
-   </td>
-   <td>High
-   </td>
+    <td>Low</td>
+    <td>Medium</td>
+    <td>Medium</td>
+    <td>Medium</td>
+    <td>High</td>
   </tr>
   <tr>
-   <td>Centralized hub is meant to put all data in a central location for efficient processing.  These solutions have similar drawbacks to the traditional <a href="https://www.oreilly.com/radar/microservices-adoption-in-2020/">“monolithic” architectures</a>.
-   </td>
-   <td>Many of these hubs utilize connectors to connect to platforms continuously.
-   </td>
-   <td>There is no general consensus across participants.
-   </td>
-   <td>Often the hub does not have change logs for the data.
-   </td>
-   <td>The hub itself collects all the data and we can set up limited access to that data.
-   </td>
+    <td>
+      Centralized hub is meant to put all data in a central location for efficient processing. These solutions have similar drawbacks to the traditional <a href="https://www.oreilly.com/radar/microservices-adoption-in-2020/">“monolithic” architectures</a>.
+    </td>
+    <td>Many of these hubs utilize connectors to connect to platforms continuously.</td>
+    <td>There is no general consensus across participants.</td>
+    <td>Often the hub does not have change logs for the data.</td>
+    <td>The hub itself collects all the data and we can set up limited access to that data.</td>
   </tr>
 </table>
 
@@ -211,43 +181,28 @@ But it can, however, be done in under 5 minutes with Vendia Share.
 
 <table>
   <tr>
-   <table>
-  <tr>
-   <td>
-Decentralized
-   </td>
-   <td>Real-time
-   </td>
-   <td>Consistent
-   </td>
-   <td>Ledgered
-   </td>
-   <td>Access controlled
-   </td>
+    <td></td>
   </tr>
   <tr>
-   <td>Medium
-   </td>
-   <td>High
-   </td>
-   <td>High
-   </td>
-   <td>Medium
-   </td>
-   <td>Medium
-   </td>
+    <td>Decentralized</td>
+    <td>Real-time</td>
+    <td>Consistent</td>
+    <td>Ledgered</td>
+    <td>Access controlled</td>
   </tr>
   <tr>
-   <td>There is no guarantee of decentralization in implementation.
-   </td>
-   <td>Any changes should be continuous and synced across all resources.
-   </td>
-   <td>The data should be in sync with other replicas.
-   </td>
-   <td>This feature is not necessarily in all implementations.
-   </td>
-   <td>Security is one of the things that’s typically hard to be built right. 
-   </td>
+    <td>Medium</td>
+    <td>High</td>
+    <td>High</td>
+    <td>Medium</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>There is no guarantee of decentralization in implementation.</td>
+    <td>Any changes should be continuous and synced across all resources.</td>
+    <td>The data should be in sync with other replicas.</td>
+    <td>This feature is not necessarily in all implementations.</td>
+    <td>Security is one of the things that’s typically hard to be built right.</td>
   </tr>
 </table>
 
@@ -255,41 +210,25 @@ Vendia’s real-time sharing
 
 <table>
   <tr>
-   <td>
-Decentralized
-   </td>
-   <td>Real-time
-   </td>
-   <td>Consistent
-   </td>
-   <td>Ledgered
-   </td>
-   <td>Access controlled
-   </td>
+    <td>Decentralized</td>
+    <td>Real-time</td>
+    <td>Consistent</td>
+    <td>Ledgered</td>
+    <td>Access controlled</td>
   </tr>
   <tr>
-   <td>High
-   </td>
-   <td>High
-   </td>
-   <td>High
-   </td>
-   <td>High
-   </td>
-   <td>High
-   </td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
+    <td>High</td>
   </tr>
   <tr>
-   <td>Same data will be held across multiple nodes. All nodes can be read and written.
-   </td>
-   <td>Changes can be picked up continuously without human intervention.
-   </td>
-   <td>Data is consistent across all nodes to provide a single source of truth.
-   </td>
-   <td>All data changes logs are available for compliance audits.
-   </td>
-   <td>Access can be limited by various aspects to ensure minimum required access for each participant.
-   </td>
+    <td>Same data will be held across multiple nodes. All nodes can be read and written.</td>
+    <td>Changes can be picked up continuously without human intervention.</td>
+    <td>Data is consistent across all nodes to provide a single source of truth.</td>
+    <td>All data changes logs are available for compliance audits.</td>
+    <td>Access can be limited by various aspects to ensure minimum required access for each participant.</td>
   </tr>
 </table>
 
