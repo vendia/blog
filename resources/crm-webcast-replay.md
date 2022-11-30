@@ -2,6 +2,7 @@
 draft: true
 template: resource
 slug: crm-webcast-replay
+date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
@@ -13,8 +14,12 @@ components:
 
       Get the latest on CRM data sharing including how Vendia can share data across Salesforce Orgs and keep a ledgered single source of truth for all partners.
     formId: b7650853-d9a5-471e-ba30-e1621a12512a
+    theme: White
+resourceType: webcasts
 seo:
   title: CRM Data Sharing with Vendia Share – Webcast
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:44:23.566Z
+  description: "Learn how Vendia Share can exchange data among multiple Salesforce
+    instances — in real-time. "
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T21:52:58.700Z
 ---
