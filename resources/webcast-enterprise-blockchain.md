@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: webcast-enterprise-blockchain
+slug: webcast-enterprise-blockchain
 components:
   - type: HubspotForm
     text: >-

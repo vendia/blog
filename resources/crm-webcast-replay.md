@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: crm-webcast-replay
+slug: crm-webcast-replay
 components:
   - type: HubspotForm
     text: >-

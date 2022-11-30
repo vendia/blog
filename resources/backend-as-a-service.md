@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: backend-as-a-service
+slug: backend-as-a-service
 components:
   - type: HubspotForm
     text: >-

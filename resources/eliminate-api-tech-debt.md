@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: eliminate-api-tech-debt
+slug: eliminate-api-tech-debt
 components:
   - type: HubspotForm
     text: >-

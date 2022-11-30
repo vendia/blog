@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: circles-of-trust
+slug: circles-of-trust
 components:
   - type: HubspotForm
     text: >-

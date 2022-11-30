@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: aws-immersion-day-2022
+slug: aws-immersion-day-2022
 components:
   - type: HubspotForm
     text: >-

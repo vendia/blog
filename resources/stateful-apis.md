@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: stateful-apis
+slug: stateful-apis
 components:
   - type: HubspotForm
     text: >-

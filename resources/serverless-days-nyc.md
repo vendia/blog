@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: serverless-days-nyc
+slug: serverless-days-nyc
 components:
   - type: HubspotForm
     text: >-

@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: understanding-polycloud
+slug: understanding-polycloud
 components:
   - type: HubspotForm
     text: >-

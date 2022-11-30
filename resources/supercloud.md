@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: supercloud
+slug: supercloud
 components:
   - type: HubspotForm
     text: >-

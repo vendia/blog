@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: data-exchange
+slug: data-exchange
 components:
   - type: HubspotForm
     text: >-

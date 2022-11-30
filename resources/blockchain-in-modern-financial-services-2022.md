@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: blockchain-in-modern-financial-services-2022
+slug: blockchain-in-modern-financial-services-2022
 components:
   - type: HubspotForm
     text: >-

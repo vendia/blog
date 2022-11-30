@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: failed-blockchain
+slug: failed-blockchain
 components:
   - type: HubspotForm
     text: >-

@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: 3-body-problem
+slug: 3-body-problem
 resourceType: white-papers
 components:
   - type: HubspotForm

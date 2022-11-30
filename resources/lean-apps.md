@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: lean-apps
+slug: lean-apps
 components:
   - type: HubspotForm
     text: >-

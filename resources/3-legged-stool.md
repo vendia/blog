@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: 3-legged-stool
+slug: 3-legged-stool
 components:
   - type: HubspotForm
     text: >-

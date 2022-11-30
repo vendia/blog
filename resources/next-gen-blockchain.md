@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: next-gen-blockchain
+slug: next-gen-blockchain
 components:
   - type: HubspotForm
     text: >-

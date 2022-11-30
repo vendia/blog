@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: smart-apis
+slug: smart-apis
 components:
   - type: HubspotForm
     text: >-

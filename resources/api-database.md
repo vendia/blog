@@ -1,7 +1,7 @@
 ---
 draft: true
 template: resource
-path: api-database
+slug: api-database
 components:
   - type: HubspotForm
     text: >-
