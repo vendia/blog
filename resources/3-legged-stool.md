@@ -2,6 +2,7 @@
 draft: true
 template: resource
 slug: 3-legged-stool
+date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
@@ -17,15 +18,16 @@ components:
 
       Included:
 
-      - Strengths and weaknesses of APIs, databases, and blockchains
-      - How Vendia Share brings them together
-      - What this means for data sharing between two orgs
-      - How you can get started today
-
+      - Strengths and weaknesses of APIs, databases, and blockchains - How Vendia Share brings them together - What this means for data sharing between two orgs - How you can get started today
     formId: 18dac822-7e97-4800-ac04-70e23d3d6384
     formTitle: Download the paper
+    theme: White
+resourceType: white-papers
 seo:
   title: "Three-legged stool: test"
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:34:44.626Z
+  description: How Vendia Share remakes the building blocks of modern IT
+    infrastructure into secure, compliant real-time data sharing across business
+    networks.
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T21:44:53.894Z
 ---
