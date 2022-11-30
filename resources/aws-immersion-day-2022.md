@@ -5,9 +5,9 @@ slug: aws-immersion-day-2022
 components:
   - type: HubspotForm
     text: >-
-      # AWS Immersion Day —
-      Blockchain![Blockchain](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/.Vendia%20Iso%20Images%20(approved)/Blockchain.png)
+      # AWS Immersion Day
 
+      ![Blockchain](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/.Vendia%20Iso%20Images%20(approved)/Blockchain.png)
 
       **POSTPONED ****\
 
