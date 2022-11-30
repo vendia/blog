@@ -11,13 +11,21 @@ tags:
 - GraphQL
 ---
 
-Vendia Engineers worked tirelessly to improve our product and ensure that we follow and set best practices for industrial standards. Here are the newest updates!
+Vendia Engineers worked tirelessly to improve our product and leverage industry standards.. Here are the newest updates!
 
-# Error handling the way it should with [GraphQL](https://graphql.org/). 
+# Error handling the way it should with GraphQL. 
 
 Errors are not scary as long as we handle them well. In the past Vendia's end point would return 4XX and 5XX status codes for any http request failures. But that has changed as we decided to follow GraphQL's [recommended approach](https://graphql.github.io/graphql-over-http/draft/#sec-Field-errors-encountered-during-execution) over http calls.
 
-In short, it means the GraphQL end point will always return a 2XX. But, when an error occurs, an `errors` field will be included in the response payload. 
+In short, it means the GraphQL end point will always return a 2XX. But, when an error occurs, an `errors` field will be included in the response payload. Note that this does not mean our end point will never return anything else. This change is at handler level. It means once your request actually reach GraphQL handler, you will only get 2XX. Here's a table for the changes:
+
+| Scenario                    | Previous Status Code | Current Status Code |
+| --------------------------- | -------------------- | ------------------- |
+| Rate Limit Sync Mutation    | 400                  | 200                 |
+| Malformed Graphql Request   | 400                  | 200                 |
+| Sync mutation timeout       | 400                  | 200                 |
+| Internal Server Error       | 400                  | 200                 |
+
 
 Here's two examples using `Curl`:
 
@@ -74,7 +82,7 @@ x-amzn-trace-id: Root=1-63866c38-38b964043a2d77c240da4981;Sampled=0
 {"data": null, "errors": [{"message": "Syntax Error: Expected '{', found <EOF>.", "locations": [{"line": 1, "column": 7}]}]}%
 ```
 
-It is recommended to understand the [common GraphQL error handling techniques](https://the-guild.dev/blog/graphql-error-handling-with-fp).
+See [common GraphQL error handling techniques](https://the-guild.dev/blog/graphql-error-handling-with-fp) for more information on properly handling errors.
 
 # Up to 1000 for your query results
 As your entity lists grow, eventually they will be large enough such that rendering all of them will not be ideal. To optimize resource usage, Vendia now allows up to 1000 results being returned in a single query.
@@ -85,10 +93,11 @@ Here are couple samples in a testing environment.
 
 ```
 query MyQuery {
-  list_ProductItems(limit: 1000) {
+  list_ProductItems(limit: 1000, filter: {name: {contains: "Item1"}}) {
     nextToken
     _ProductItems {
       name
+      price
     }
   }
 }
@@ -102,10 +111,8 @@ You will see all or up to 1000 results which ever is lower:
       "nextToken": null,
       "_ProductItems": [
         {
-          "name": "Item1"
-        },
-        {
-          "name": "item2"
+          "name": "Item1",
+          "price": 0.99
         }
       ]
     }
@@ -116,13 +123,15 @@ You will see all or up to 1000 results which ever is lower:
 2. A query attempt to set `limit` for more than `1000`:
 ```
 query MyQuery {
-  list_ProductItems(limit: 1001) {
+  list_ProductItems(limit: 1001, filter: {name: {contains: "Item1"}}) {
     nextToken
     _ProductItems {
       name
+      price
     }
   }
 }
+
 ```
 The query will then return null. It will provide you with the error message informing you that `the supplied list limit must be <= 1000`.
 ```
@@ -149,6 +158,6 @@ The query will then return null. It will provide you with the error message info
   ]
 }
 ```
-# Believe in Real Time Data Sharing?
+# Believe in Real-Time Data Sharing?
 
-Vendia will continue to lead the data sharing and blockchain infrastructure field. [Get started for free](https://www.vendia.com/pricing) to see how data sharing can empower your business.
+Vendia leads the way in data sharing and business blockchains. [Get started for free](https://www.vendia.com/pricing) to see how Vendia can power your business..
