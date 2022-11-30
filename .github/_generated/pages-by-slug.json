@@ -1,7 +1,7 @@
 {
-  "careers-new": {
-    "file": "/pages/careers-new.md",
-    "draft": true
+  "careers": {
+    "file": "/pages/careers.md",
+    "draft": false
   },
   "foo/bar": {
     "file": "/pages/default-title.md",
