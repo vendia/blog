@@ -2,6 +2,7 @@
 draft: true
 template: resource
 slug: blockchain-in-modern-financial-services-2022
+date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
@@ -12,15 +13,15 @@ components:
 
       **In this white paper, we explore:**\
 
-      1. The pros and cons of public chains, private chains, and centralized solutions for financial data sharing\
-      2. How to bring all three approaches together for a differentiated solution.
-      3. Example of mortgage servicing with Vendia Share.
-      4. How to create a single source of truth without sacrificing control.
-      
+      1. The pros and cons of public chains, private chains, and centralized solutions for financial data sharing\ 2. How to bring all three approaches together for a differentiated solution. 3. Example of mortgage servicing with Vendia Share. 4. How to create a single source of truth without sacrificing control.
     formId: 7e1857d5-e2bb-4ff4-8630-fffdbaad07c2
     formTitle: Send to my inbox
+    theme: White
+resourceType: white-papers
 seo:
   title: Blockchain in modern financial services data applications
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:42:24.282Z
+  description: "Pros and cons of public chains, private chains, and centralized
+    solutions for financial data sharing. "
+updatedBy: Caroll Casbeer
+updatedAt: 2022-11-30T21:50:45.348Z
 ---
