@@ -2,7 +2,7 @@
   "tim-wagner": [
     {
       "file": "/posts/2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient.md",
-      "draft": true,
+      "draft": false,
       "slug": "how-blockchain-makes-supply-chains-predictable",
       "title": "How blockchain can make global supply chains more predictable and efficient",
       "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility.",
@@ -23,7 +23,7 @@
         "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-01T23:35:57.145Z"
+      "updatedAt": "2022-12-01T23:37:44.683Z"
     },
     {
       "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
