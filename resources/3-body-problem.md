@@ -9,7 +9,7 @@ components:
       # The Three-Body Problem
 
 
-      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="" />
+      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="" class="image-float-right" width="280" />
 
 
       How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
@@ -28,5 +28,5 @@ seo:
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T15:15:33.478Z
+updatedAt: 2022-12-01T15:16:25.192Z
 ---
