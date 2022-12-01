@@ -9,10 +9,10 @@ components:
       # APIs and Databases
 
 
+      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_150/f_auto,q_auto/v1669844608/frame_sqytcq.webp" alt="" />
+
+
       **Together at last, for next-gen data sharing**
-
-
-      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/c_scale,w_150/f_auto,q_auto/v1669844608/frame_sqytcq.webp" alt="" />
 
 
       Buying databases and API services separately – and then plugging them together yourself is costly, error-prone, time-consuming, and requires a team. To make matters worse, the biggest weakness of API services today is that they can’t “remember” anything, which makes managing shared data even more difficult.
@@ -33,5 +33,5 @@ seo:
     data workflows across your business network. No more point-to-point
     integrations with out of date information. "
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T04:04:29.780Z
+updatedAt: 2022-12-01T04:10:40.580Z
 ---
