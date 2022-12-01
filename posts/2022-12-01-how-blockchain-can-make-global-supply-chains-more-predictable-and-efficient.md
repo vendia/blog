@@ -19,15 +19,15 @@ seo:
   description: In the face of supply chain shortages and data breakdowns, next-gen
     blockchain is emerging as a smart way to decentralize multi-party data
     sharing with full, yet finely grained, end-to-end visibility.
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-01T19:15:15.027Z
+updatedBy: alexa-vendia
+updatedAt: 2022-12-01T23:35:57.145Z
 ---
 
 It’s estimated that [90% of the world’s goods](https://www.weforum.org/agenda/2021/10/global-shortagof-shipping-containers/) are shipped by sea in roughly 60,000 cargo vessels. The largest cargo vessels carry 24,000 containers. And at that scale, it’s not hard to imagine why everything from the chair you’re sitting in to the microchip in the device you are reading this on can be lost or delayed anywhere (and everywhere) in its lifecycle before reaching you.
 
 From hurricanes and tankers running aground to poor business networking and inconsistent partner promises, there have been problems with [supply chains](https://venturebeat.com/datadecisionmakers/using-supply-chain-data-for-better-decision-making/) long before the COVID-19 pandemic. That’s why, over the past few decades, businesses have made IT investments in ERP systems, EDI exchanges, and standards such as ISO 9001. These investments and innovations have helped make global supply chains more efficient. But as both business and consumers can attest, there is [plenty more](https://www.vendia.com/blog/are-blockchains-databases) work to do.
 
-![Data sharing is great](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669912270/blockchain_jqtj4r.webp "Data sharing figure")
+![]()
 
 ### Supply chain agility relies on multi-party data sharing networks
 
