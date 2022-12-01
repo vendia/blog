@@ -10,7 +10,7 @@ components:
       strategy
 
 
-      <img  src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_246/f_auto,q_90/v1669869725/housing_hp9nao.webp" alt="" />
+      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/c_scale,w_500/f_auto,q_90/v1669869725/housing_hp9nao.webp" alt="" />
 
 
       **In this white paper, we explore:**
@@ -32,5 +32,5 @@ seo:
   description: "Pros and cons of public chains, private chains, and centralized
     solutions for financial data sharing. "
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T04:42:29.090Z
+updatedAt: 2022-12-01T14:58:56.662Z
 ---
