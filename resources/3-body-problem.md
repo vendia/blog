@@ -6,10 +6,10 @@ date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
-      # The Three-Body Problem 
+      # The Three-Body Problem
 
 
-      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_280/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="Cloud Image" />
+      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="" width=280 height=200 />
 
 
       How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
@@ -28,5 +28,5 @@ seo:
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T14:51:05.259Z
+updatedAt: 2022-12-01T15:10:15.879Z
 ---
