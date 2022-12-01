@@ -9,11 +9,20 @@ components:
       # Using blockchain in a modern financial services data and application
       strategy
 
-      ![Housing Iso](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/.Vendia%20Iso%20Images%20(approved)/Housing%20Iso.png)
 
-      **In this white paper, we explore:**\
+      <img  src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_246/f_auto,q_90/v1669869725/housing_hp9nao.webp" alt="" />
 
-      1. The pros and cons of public chains, private chains, and centralized solutions for financial data sharing\ 2. How to bring all three approaches together for a differentiated solution. 3. Example of mortgage servicing with Vendia Share. 4. How to create a single source of truth without sacrificing control.
+
+      **In this white paper, we explore:**
+
+
+      1. The pros and cons of public chains, private chains, and centralized solutions for financial data sharing
+
+      2. How to bring all three approaches together for a differentiated solution.
+
+      3. Example of mortgage servicing with Vendia Share.
+
+      4. How to create a single source of truth without sacrificing control.
     formId: 7e1857d5-e2bb-4ff4-8630-fffdbaad07c2
     formTitle: Send to my inbox
     theme: White
@@ -22,6 +31,6 @@ seo:
   title: Blockchain in modern financial services data applications
   description: "Pros and cons of public chains, private chains, and centralized
     solutions for financial data sharing. "
-updatedBy: Caroll Casbeer
-updatedAt: 2022-11-30T21:50:45.348Z
+updatedBy: Hugues Tennier
+updatedAt: 2022-12-01T04:42:29.090Z
 ---
