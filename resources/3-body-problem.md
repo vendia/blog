@@ -15,6 +15,9 @@ components:
       How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
 
 
+      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="" width="500" />
+
+
       **Synopsis** Tim Wagner investigates the relationship and tensions between centralized IT, private ledgers and public blockchains for application development. Instead of a 'winner' Wagner proposes that all three will need to work together for optimal business solutions and technical outcomes. 
 
 
@@ -28,5 +31,5 @@ seo:
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:11:58.982Z
+updatedAt: 2022-12-01T16:12:22.101Z
 ---
