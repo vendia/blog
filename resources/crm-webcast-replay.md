@@ -9,7 +9,7 @@ components:
       # CRM Data Sharing with Vendia Share
 
 
-      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_220/f_auto,q_90/v1669869802/crm-webcast_y1luum.webp" alt="" />
+      <img src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_500/f_auto,q_90/v1669869802/crm-webcast_y1luum.webp" alt="" class="image-float-right" width="220" />
 
 
       Sharing data between two Salesforce organizations is a pain...then try to share between 3 or more and it's near impossible.
@@ -23,5 +23,5 @@ seo:
   description: "Learn how Vendia Share can exchange data among multiple Salesforce
     instances — in real-time. "
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T04:46:51.933Z
+updatedAt: 2022-12-01T16:23:04.613Z
 ---
