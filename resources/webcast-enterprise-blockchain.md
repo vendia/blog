@@ -22,6 +22,7 @@ seo:
   title: How to build an enterprise blockchain
   description: Peter Sbarski and Tim Wagner as they chat serverless, blockchain,
     and what exactly is Vendia Share.
-updatedBy: Caroll Casbeer
-updatedAt: 2022-11-30T22:07:46.918Z
+updatedBy: David Wells
+updatedAt: 2022-12-01T07:03:28.186Z
+redirect: https://www.vendia.com/resources
 ---
