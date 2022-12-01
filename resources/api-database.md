@@ -9,7 +9,7 @@ components:
       # APIs and Databases
 
 
-      <img class="image-float-right" src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_150/f_auto,q_auto/v1669844608/frame_sqytcq.webp" alt="" />
+      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669844608/frame_sqytcq.webp" alt="" class="image-float-right" width="150" />
 
 
       **Together at last, for next-gen data sharing**
@@ -33,5 +33,5 @@ seo:
     data workflows across your business network. No more point-to-point
     integrations with out of date information. "
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T04:10:40.580Z
+updatedAt: 2022-12-01T16:21:19.752Z
 ---
