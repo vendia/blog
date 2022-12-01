@@ -18,8 +18,13 @@ components:
       Fill out the form to download the article.
     formId: d8682ba7-4783-4760-a7a5-6f5c062e3a42
     theme: white
+resourceType: white-papers
 seo:
   title: Smart APIs
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:35:59.217Z
+  description: >+
+    Evolve from 'ignorant pipes' to APIs that automatically keep data
+    consistent, correct, and up-to-date.
+
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-01T19:57:07.164Z
 ---
