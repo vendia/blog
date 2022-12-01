@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: serverless-days-nyc
 components:
