@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: how-blockchain-makes-supply-chains-predictable
 title: How blockchain can make global supply chains more predictable and efficient
 description: In the face of supply chain shortages and data breakdowns, next-gen
@@ -20,7 +20,7 @@ seo:
     blockchain is emerging as a smart way to decentralize multi-party data
     sharing with full, yet finely grained, end-to-end visibility.
 updatedBy: alexa-vendia
-updatedAt: 2022-12-01T23:35:57.145Z
+updatedAt: 2022-12-01T23:37:44.683Z
 ---
 
 It’s estimated that [90% of the world’s goods](https://www.weforum.org/agenda/2021/10/global-shortagof-shipping-containers/) are shipped by sea in roughly 60,000 cargo vessels. The largest cargo vessels carry 24,000 containers. And at that scale, it’s not hard to imagine why everything from the chair you’re sitting in to the microchip in the device you are reading this on can be lost or delayed anywhere (and everywhere) in its lifecycle before reaching you.
