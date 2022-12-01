@@ -12,8 +12,7 @@ components:
       **Together at last, for next-gen data sharing**
 
 
-      ![](https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669844608/frame_sqytcq.webp)
-
+      ![](https://res.cloudinary.com/vendia/image/upload/c_scale,w_175/f_auto,q_auto/c_fill,w_1200/v1669844608/frame_sqytcq.webp)
 
 
       Buying databases and API services separately – and then plugging them together yourself is costly, error-prone, time-consuming, and requires a team. To make matters worse, the biggest weakness of API services today is that they can’t “remember” anything, which makes managing shared data even more difficult.
@@ -33,6 +32,6 @@ seo:
   description: "Learn how Vendia Share combines APIs and Databases to automate
     data workflows across your business network. No more point-to-point
     integrations with out of date information. "
-updatedBy: Caroll Casbeer
-updatedAt: 2022-11-30T21:47:42.781Z
+updatedBy: Hugues Tennier
+updatedAt: 2022-12-01T02:53:26.900Z
 ---
