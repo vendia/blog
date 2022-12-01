@@ -2,16 +2,24 @@
 draft: true
 template: resource
 slug: stateful-apis
+date: 2022-12-01
 components:
   - type: HubspotForm
     text: >-
       # Stateful APIs
 
-      Why API management for businesses remains a challenge - and what we can do about it. 
 
+      by Tim Wagner, CEO and co-founder of Vendia
+
+
+      Why API management for businesses remains a challenge - and what we can do about it.
+
+
+      Fill out the form to download the article.
     formId: b9df78e0-e9f4-4d27-b8ae-89e7bc1f8eaf
+    theme: white
 seo:
   title: Stateful APIs
 updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T03:51:45.781Z
+updatedAt: 2022-12-01T16:36:42.933Z
 ---
