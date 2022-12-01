@@ -8,8 +8,8 @@ components:
       Some text
 
 
-      <img class="image-float-none" src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/v1669844608/frame_sqytcq.webp" alt="Alt" title="Title" />
+      <CustomImage class="image-float-none" src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/v1669746437/li_oxqbbs.jpg" alt="Alt" title="" />
     theme: White
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T03:48:41.953Z
+updatedAt: 2022-12-01T03:52:41.425Z
 ---
