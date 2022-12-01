@@ -23,9 +23,9 @@ components:
     theme: White
 resourceType: white-papers
 seo:
-  title: Three body problem
+  title: The Three-Body Problem
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T04:39:33.542Z
+updatedAt: 2022-12-01T04:39:45.785Z
 ---
