@@ -12,6 +12,9 @@ components:
       <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="Graphic" class="image-float-right" width="280" height="200" />
 
 
+      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869725/housing_hp9nao.webp" alt="" />
+
+
       How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
 
 
@@ -28,5 +31,5 @@ seo:
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T15:22:05.589Z
+updatedAt: 2022-12-01T15:24:24.338Z
 ---
