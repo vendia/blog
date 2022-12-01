@@ -7,7 +7,7 @@ description: Organizing shared data to gain new insights and maximize resources
   compatible architecture for your company’s needs.
 date: 2022-11-29
 authors:
-  - Caroll Casbeer
+  - Li Dai
 categories:
   - architecture
   - realtime-data-sharing
@@ -23,8 +23,8 @@ seo:
     starts with the right blockchain-based solution. Learn how to choose the
     most compatible architecture for your company’s needs.
   keywords: shared data architecture
-updatedBy: David Wells
-updatedAt: 2022-11-30T06:47:35.065Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-01T19:22:33.839Z
 ---
 
 # Shared data architecture patterns
