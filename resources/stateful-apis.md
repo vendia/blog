@@ -18,8 +18,11 @@ components:
       Fill out the form to download the article.
     formId: b9df78e0-e9f4-4d27-b8ae-89e7bc1f8eaf
     theme: white
+resourceType: white-papers
 seo:
   title: Stateful APIs
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:36:42.933Z
+  description: Why API management for businesses remains a challenge - and what we
+    can do about it.
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-01T19:52:02.518Z
 ---
