@@ -21,11 +21,12 @@ components:
       This is a must read for any CIO, CTO, cloud architect, and professional developers responsible for delivering reliable, data-based solutions.
     formId: b07131ac-1b80-47d1-9b87-25bb91c83d2d
     theme: White
+    formTitle: Send to my inbox
 resourceType: white-papers
 seo:
   title: The Three-Body Problem
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T04:39:45.785Z
+updatedAt: 2022-12-01T14:51:05.259Z
 ---
