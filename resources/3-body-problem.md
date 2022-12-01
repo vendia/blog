@@ -9,13 +9,10 @@ components:
       # The Three-Body Problem
 
 
-      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869725/housing_hp9nao.webp" alt="Alt text" class="image-float-right" width="280" height="200" />
+      <img src="https://res.cloudinary.com/vendia/image/upload/c_scale,q_100,w_600/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="" class="image-float-right" width="280" />
 
 
       How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869535/cloud_o6tkx5.webp" alt="" width="500" />
 
 
       **Synopsis** Tim Wagner investigates the relationship and tensions between centralized IT, private ledgers and public blockchains for application development. Instead of a 'winner' Wagner proposes that all three will need to work together for optimal business solutions and technical outcomes. 
@@ -31,5 +28,5 @@ seo:
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:12:22.101Z
+updatedAt: 2022-12-01T16:14:13.179Z
 ---
