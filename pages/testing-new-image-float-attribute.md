@@ -8,8 +8,8 @@ components:
       Some text here
 
 
-      <img class="image-float-none" src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/v1669844608/frame_sqytcq.webp" alt=" ">
+      <img class="image-float-none" src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/v1669844608/frame_sqytcq.webp" alt="" ">
     theme: White
 updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T03:23:05.007Z
+updatedAt: 2022-12-01T03:25:17.462Z
 ---
