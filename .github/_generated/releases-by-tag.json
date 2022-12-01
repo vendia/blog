@@ -1,6 +1,21 @@
 {
   "Improvements": [
     {
+      "file": "/releases/2022-11-25-releasenotes.md",
+      "draft": false,
+      "title": "Handling errors the GraphQL way and adding more results to your queries",
+      "description": "We've updated response status codes and now allow up to 1000 results per query.",
+      "date": "2022-11-25",
+      "authors": [
+        "Li Dai"
+      ],
+      "tags": [
+        "Improvements",
+        "Developer Experience",
+        "GraphQL"
+      ]
+    },
+    {
       "file": "/releases/2022-10-28-releasenotes.md",
       "draft": false,
       "title": "We're .COMical, Neatly Nested, and More",
@@ -81,6 +96,21 @@
   ],
   "Developer Experience": [
     {
+      "file": "/releases/2022-11-25-releasenotes.md",
+      "draft": false,
+      "title": "Handling errors the GraphQL way and adding more results to your queries",
+      "description": "We've updated response status codes and now allow up to 1000 results per query.",
+      "date": "2022-11-25",
+      "authors": [
+        "Li Dai"
+      ],
+      "tags": [
+        "Improvements",
+        "Developer Experience",
+        "GraphQL"
+      ]
+    },
+    {
       "file": "/releases/2022-10-28-releasenotes.md",
       "draft": false,
       "title": "We're .COMical, Neatly Nested, and More",
@@ -111,6 +141,47 @@
       "tags": [
         "User Experience",
         "Developer Experience"
+      ]
+    }
+  ],
+  "GraphQL": [
+    {
+      "file": "/releases/2022-11-25-releasenotes.md",
+      "draft": false,
+      "title": "Handling errors the GraphQL way and adding more results to your queries",
+      "description": "We've updated response status codes and now allow up to 1000 results per query.",
+      "date": "2022-11-25",
+      "authors": [
+        "Li Dai"
+      ],
+      "tags": [
+        "Improvements",
+        "Developer Experience",
+        "GraphQL"
+      ]
+    },
+    {
+      "file": "/releases/2021-11-26-releasenotes.md",
+      "draft": false,
+      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
+      "description": "We're excited to share the new Vendia Share user interface with you",
+      "date": "2021-11-26",
+      "tags": [
+        "New Features",
+        "GraphQL",
+        "Share Web"
+      ]
+    },
+    {
+      "file": "/releases/2021-10-29-releasenotes.md",
+      "draft": false,
+      "title": "Namespaces, Types, GraphQL Enums, and More!",
+      "description": "Changes that will greatly improve data modeling capabilities for our users",
+      "date": "2021-10-29",
+      "tags": [
+        "Enhancements",
+        "GraphQL",
+        "Security"
       ]
     }
   ],
@@ -310,32 +381,6 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
-    }
-  ],
-  "GraphQL": [
-    {
-      "file": "/releases/2021-11-26-releasenotes.md",
-      "draft": false,
-      "title": "New Features and a Fresh Look for the Vendia Share Web Application",
-      "description": "We're excited to share the new Vendia Share user interface with you",
-      "date": "2021-11-26",
-      "tags": [
-        "New Features",
-        "GraphQL",
-        "Share Web"
-      ]
-    },
-    {
-      "file": "/releases/2021-10-29-releasenotes.md",
-      "draft": false,
-      "title": "Namespaces, Types, GraphQL Enums, and More!",
-      "description": "Changes that will greatly improve data modeling capabilities for our users",
-      "date": "2021-10-29",
-      "tags": [
-        "Enhancements",
-        "GraphQL",
-        "Security"
       ]
     }
   ],

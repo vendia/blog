@@ -322,16 +322,18 @@
       "postCount": 0
     },
     {
+      "github": "li-vendia",
       "bio": {
         "short": "Li Dai loves helping customers adopt the lastest innovative technologies. When not working on his own entrepreneurial efforts and mentoring he likes spending time with his family and learning new skills. ",
         "long": ""
       },
       "name": "Li Dai",
-      "jobTitle": "Sr. Solution Architect",
-      "github": "li-vendia",
+      "updatedAt": "2022-12-01T19:29:59.940Z",
+      "updatedBy": "Li Dai",
       "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg",
-      "updatedAt": "2022-11-29T18:29:24.781Z",
-      "updatedBy": "Caroll Casbeer",
+      "jobTitle": "Solution Architect",
+      "email": "li@vendia.net",
+      "linkedin": "https://www.linkedin.com/in/li-dai-vet/",
       "slug": "li-dai",
       "postCount": 1
     }

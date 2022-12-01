@@ -1,6 +1,7 @@
 {
   "improvements": "Improvements",
   "developer-experience": "Developer Experience",
+  "graphql": "GraphQL",
   "new-features": "New Features",
   "aws": "AWS",
   "user-experience": "User Experience",
@@ -9,7 +10,6 @@
   "azure": "Azure",
   "share-tiers-and-pricing": "Share Tiers and Pricing",
   "acid-semantics": "ACID Semantics",
-  "graphql": "GraphQL",
   "share-web": "Share Web",
   "polycloud": "Polycloud",
   "enhancements": "Enhancements",
