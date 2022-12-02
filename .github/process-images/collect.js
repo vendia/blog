@@ -15,6 +15,7 @@ async function collectImages({
   exclude = [],
   include = []
 }) {
+  let missingLinks = []
   const [ mdData ] = await getMarkdownData(markdownGlob)
   // debugLog('mdData', mdData)
   // console.log(mdData)
@@ -25,6 +26,11 @@ async function collectImages({
 
     const foundImages = findLiveImages(content).map((link) => {
       return [ link, mdInfo.file ]
+    }).filter(([ link, file ]) => {
+      if (!link) {
+        missingLinks.push(`${file} has broken links`)
+      }
+      return Boolean(link)
     })
     /* // Debugger
     const fileNameToCheck = '2020-06-30-welcome-to-vendia.md'
@@ -57,6 +63,11 @@ async function collectImages({
     images: []
   })
 
+  if (missingLinks.length) {
+    console.log('missingLinks:')
+    console.log(missingLinks)
+  }
+
   // debugLog('imageData', imageData)
   // process.exit(1)
   /* Exclude patterns */
@@ -64,7 +75,7 @@ async function collectImages({
     return !exclude.some((pat) => url.match(makeRegex(pat)))
   })
   // console.log('trimmedList', trimmedList)
-  /* Re-include includee patterns */
+  /* Re-include include patterns */
   const includeList = imageData.images.filter(([url]) => {
     return include.some((pat) => url.match(makeRegex(pat)))
   })
@@ -91,7 +102,7 @@ async function collectImages({
   const downloadedImages = await Promise.all(dowloadPromises)
   // console.log('downloadedImages', downloadedImages)
   // process.exit(1)
-  return { 
+  return {
    downloadedImages,
    imageData,
    imagesToProcess
