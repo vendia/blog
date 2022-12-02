@@ -109,7 +109,7 @@ async function optimizeImages({ inputDir, outputDir, images }) {
   
   const newImages = (await Promise.all(newlyUploadedImages)).map((data) => {
     return {
-      filePath: image.filePath,
+      filePath: data.filePath,
       ...data
     }
   })

@@ -62,13 +62,12 @@ async function collectImages({
     byFile: {},
     images: []
   })
-
+  debugLog('imageData', imageData)
   if (missingLinks.length) {
     console.log('missingLinks:')
     console.log(missingLinks)
   }
-
-  // debugLog('imageData', imageData)
+  
   // process.exit(1)
   /* Exclude patterns */
   const trimmedList = imageData.images.filter(([url]) => {

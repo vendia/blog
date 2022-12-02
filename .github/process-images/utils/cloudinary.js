@@ -33,7 +33,10 @@ async function uploadImage(filePath, opts = {}) {
     public_id: fileId
   })
 
-  return res
+  return {
+    filePath: filePath,
+    ...res
+  }
 }
 
 async function getImageDetails(filePath, opts = {}) {
