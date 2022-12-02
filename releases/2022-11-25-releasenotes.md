@@ -91,11 +91,11 @@ Here are couple samples in a testing environment.
 
 1. A basic query with `limit` set to `1000`:
 
-![GraphQL UI 1](https://user-images.githubusercontent.com/116586196/204875180-333d3eb0-69ea-49ee-8582-ba45c924fe54.png)
+![GraphQL UI 1](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com%252F116586196%252F204875180-333d3eb0-69ea-49ee-8582-ba45c924fe54.png)
 
 2. A query attempt to set `limit` for more than `1000`:
 
-![GraphQL UI 2](https://user-images.githubusercontent.com/116586196/204875185-b5f8dbd4-866c-44a4-a7b9-e206626696ac.png)
+![GraphQL UI 2](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com%252F116586196%252F204875185-b5f8dbd4-866c-44a4-a7b9-e206626696ac.png)
 
 # Believe in Real-Time Data Sharing?
 
