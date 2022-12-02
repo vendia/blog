@@ -1572,14 +1572,20 @@
       "file": "/posts/2022-04-25-6-months-at-vendia.md",
       "draft": false,
       "title": "No more burnout: Reflections after 6 months at Vendia",
-      "description": "Head of Design, Hailey Nevins, sharees why she doesn't regret leaving the Fortune 100 tech industry to work for a startup.",
-      "date": "2022-04-25",
+      "description": "Head of Design, Hailey Nevins, shares why she doesn't regret leaving the Fortune 100 tech industry to work for a startup.",
+      "date": "2022-04-25T00:00:00.000Z",
+      "authors": [
+        "Hailey Nevins"
+      ],
       "categories": [
         "company"
       ],
-      "authors": [
-        "Hailey Nevins"
-      ]
+      "seo": {
+        "description": "Vendia's Head of Design, Hailey Nevins, shares why she doesn't regret leaving the Fortune 100 tech industry to work for a startup filled with kind humans.",
+        "title": "No more burnout: Reflections after 6 months at Vendia"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-02T01:44:23.082Z"
     }
   ],
   "jake-partusch": [
