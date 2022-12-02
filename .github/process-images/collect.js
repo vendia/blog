@@ -6,7 +6,8 @@ const { findLiveImages, findRelativeImages } = require('../md-utils/find-images'
 const { findLiveLinks } = require('../md-utils/find-links')
 const { deepLog } = require('../utils/logs')
 
-const debugLog = (process.env.DEBUG) ? console.log : () => {}
+const debug = true || process.env.DEBUG
+const debugLog = (debug) ? console.log : () => {}
 
 async function collectImages({
   outputDir,
@@ -41,18 +42,23 @@ async function collectImages({
     const uniqueTags = new Set(foundImages.concat(acc.images))
     acc.images = Array.from(uniqueTags)
     foundImages.forEach((img) => {
-      if (!acc.byFile[mdInfo.file]) {
-        acc.byFile[mdInfo.file] = []
+      /* Ensure image url exists. to avoid empty ![]() */
+      if (img[0]) {
+        /* Initialize array if it doesnt exist yet */
+        if (!acc.byFile[mdInfo.file]) {
+          acc.byFile[mdInfo.file] = []
+        }
+        acc.byFile[mdInfo.file] = acc.byFile[mdInfo.file].concat(img[0])
       }
-      acc.byFile[mdInfo.file] = acc.byFile[mdInfo.file].concat(img[0])
     })
     return acc
   }, {
     byFile: {},
     images: []
   })
-  debugLog('imageData', imageData)
-  
+
+  // debugLog('imageData', imageData)
+  // process.exit(1)
   /* Exclude patterns */
   const trimmedList = imageData.images.filter(([url]) => {
     return !exclude.some((pat) => url.match(makeRegex(pat)))
