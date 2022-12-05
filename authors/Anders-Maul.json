@@ -1,10 +1,14 @@
 {
-  "name": "Anders Maul",
   "github": "anders-vendia",
-  "twitter": "anders",
-  "avatar": "https://avatars.githubusercontent.com/u/104795928?v=4",
   "bio": {
-    "short": "product marketer",
-    "long": "Anders likes building things, travel, and word plays."
-  }
+    "short": "Anders likes building things, travel, and word plays.",
+    "long": ""
+  },
+  "name": "Anders Maul",
+  "updatedAt": "2022-12-05T22:32:33.216Z",
+  "updatedBy": "alexa-vendia",
+  "twitter": "",
+  "avatar": "https://avatars.githubusercontent.com/u/104795928?v=4",
+  "jobTitle": "Head of Product Marketing",
+  "linkedin": "https://www.linkedin.com/in/andersmaul/"
 }
