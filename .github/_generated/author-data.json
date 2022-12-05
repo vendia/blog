@@ -161,11 +161,15 @@
     {
       "name": "Hailey Nevins",
       "github": "hnevins",
-      "avatar": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png",
       "bio": {
-        "short": "Product Design",
-        "long": "Hailey read 12 books in January."
+        "short": "Hailey Nevins is Head of Design at Vendia.",
+        "long": ""
       },
+      "jobTitle": "Head of Design",
+      "linkedin": "https://www.linkedin.com/in/haileynevins/",
+      "updatedAt": "2022-12-02T23:52:24.818Z",
+      "updatedBy": "alexa-vendia",
       "slug": "hailey-nevins",
       "postCount": 2
     },

@@ -1305,11 +1305,17 @@
       "draft": false,
       "title": "How to think about your growth marketing tactics at a startup",
       "description": "Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.",
-      "date": "2022-10-06",
-      "categories": null,
+      "date": "2022-10-06T00:00:00.000Z",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "categories": null,
+      "seo": {
+        "title": "How to think about your growth marketing tactics at a startup",
+        "description": "Growth marketing tactics for startups."
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-05T18:54:20.364Z"
     },
     {
       "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",

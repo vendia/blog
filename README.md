@@ -259,7 +259,7 @@ Welcome to the Vendia blog repo!
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/hailey-nevins">
-        <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/hnevins"><sup><sub>Hailey Nevins</sub></sup></a>
