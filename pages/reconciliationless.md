@@ -38,7 +38,9 @@ components:
           Bonus: our distributed ledger technology means your data and files are traceable. Gain confidence in knowing who changed what and when.
 
 
-          Download the e-book
+
+
+          <Button kind="secondary" label="Get the e-book" href="https://vendia.com/resources/blockchain-in-modern-financial-services-2022" />
   - type: MediaWithText
     text: >-
       ### Atos and Vendia
@@ -54,5 +56,5 @@ components:
       altText: Vendia Share
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-05T21:13:26.327Z
+updatedAt: 2022-12-05T22:59:04.199Z
 ---
