@@ -1,10 +1,14 @@
 {
-  "name": "Vikrant Kahlir",
   "github": "vikrant-vendia",
-  "twitter": "vkahlir",
-  "avatar": "https://avatars.githubusercontent.com/u/96793170",
   "bio": {
-    "short": "Solutions Architect",
-    "long": "Vikrant is a Solutions Architect focused on enabling customers to develop products and services using Vendia data platform. Prior to Vendia, Vikrant worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
-  }
+    "short": "",
+    "long": "Vikrant is a Solutions Architect helping customers automate and accelerate their data workflows across business networks using Vendia Share. Prior to Vendia, Vikrant worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
+  },
+  "name": "Vikrant Kahlir",
+  "updatedAt": "2022-12-05T22:35:35.963Z",
+  "updatedBy": "alexa-vendia",
+  "twitter": "",
+  "avatar": "https://avatars.githubusercontent.com/u/96793170",
+  "jobTitle": "Principal Tech Lead, Data and Web3",
+  "linkedin": "https://www.linkedin.com/in/vikrantkahlir/"
 }
