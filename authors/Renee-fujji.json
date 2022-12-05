@@ -1,9 +1,13 @@
 {
   "name": "Renee Fujii",
   "github": "renee-vendia",
-  "avatar": "https://avatars.githubusercontent.com/u/99047298?v=4",
+  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670279895/Headshots/Renee_Fujii_mug_1_-_Renee_Fujii_a26k26.jpg",
   "bio": {
-    "short": "Head of Talent",
+    "short": "",
     "long": "Renee loves her two dogs, putting together costumes, and helping recruit brillant Kind Humans to Vendia."
-  }
+  },
+  "jobTitle": "Head of Talent",
+  "linkedin": "https://www.linkedin.com/in/reneefujii/",
+  "updatedAt": "2022-12-05T22:39:38.667Z",
+  "updatedBy": "alexa-vendia"
 }
