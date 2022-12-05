@@ -30,7 +30,7 @@ seo:
     the financial institutions serving them.
   keywords: data sharing, b2b data sharing, data ecosystem, data alliance
 updatedBy: alexa-vendia
-updatedAt: 2022-12-05T22:25:38.008Z
+updatedAt: 2022-12-05T22:27:11.159Z
 ---
 
 **Listen on** [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)
@@ -47,7 +47,7 @@ Brian Kale and James Gimourginas talk with host Tim Zonca about the complex chal
 - [Brian Kale](https://www.linkedin.com/in/brianmkale/) on LinkedIn
 - [James Gimourginas](https://www.linkedin.com/in/jamesgimourginas/) on LinkedIn
 - [Bank of America](https://www.bankofamerica.com/)
-- [NonStop (server computers)](https://en.wikipedia.org/wiki/NonStop_(server_computers))
+- [NonStop](https://en.wikipedia.org/wiki/NonStop_(server_computers)
 - [Tandem Computers](https://www.linkedin.com/company/tandem-computers-inc/)
 - [Cognos Analytics](https://www.ibm.com/products/cognos-analytics)
 - [Tableau](https://www.tableau.com/)
@@ -332,8 +332,6 @@ And to socialize the understanding. You think, you know, James says it took six 
 **Tim Zonca  56:34**
 
 Great. Well, thanks, you guys. This was awesome to get a chance to have you on the show, have the two of you dive into some of these topics that you're both, you know, interested in, and also, you know, experts in. So I appreciate it. As we wrap up, yeah, so thanks to our guests, you know, Brian, and James for all the talk on real-time data sharing. For those of you listening who want to learn more about some of the organizations or research/products that we've mentioned in today's episode or any of our episodes, if you visit vendia.com/podcast, we have all our links there that you can find. When you're ready to keep the conversation going, you could download or stream all of our episodes on Spotify, Apple Music, any of the top streaming services. And if you have a point of view on the challenges or power or potential of real-time data sharing or you want to be a guest on the show, just go ahead to either Twitter or LinkedIn and just DM us or at mention us and include the phrase "Circles of Trust." Thanks again for joining us. If you like what you hear, take a moment to drop us a few stars and a favorable review and share with your colleagues and your network. So until next time, thanks, everybody. Thank you, guys.
-
-
 
 # Get Circles of Trust in your inbox
 
