@@ -184,7 +184,7 @@ Welcome to the Vendia blog repo!
         <img src="https://avatars.githubusercontent.com/u/104795928?v=4" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://twitter.com/anders"><sup><sub>Anders Maul</sub></sup></a>
+      <a href="https://github.com/anders-vendia"><sup><sub>Anders Maul</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/brett-andrews">
@@ -205,7 +205,7 @@ Welcome to the Vendia blog repo!
         <img src="https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://twitter.com/caroll_casbeert"><sup><sub>Caroll Casbeer</sub></sup></a>
+      <a href="https://github.com/caroll-vendia"><sup><sub>Caroll Casbeer</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/cory-forsythe">
@@ -288,7 +288,7 @@ Welcome to the Vendia blog repo!
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/renee-fujji">
-        <img src="https://avatars.githubusercontent.com/u/99047298?v=4" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670279895/Headshots/Renee_Fujii_mug_1_-_Renee_Fujii_a26k26.jpg" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/renee-vendia"><sup><sub>Renee Fujii</sub></sup></a>
@@ -328,14 +328,14 @@ Welcome to the Vendia blog repo!
         <img src="https://avatars.githubusercontent.com/u/96793170" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://twitter.com/vkahlir"><sup><sub>Vikrant Kahlir</sub></sup></a>
+      <a href="https://github.com/vikrant-vendia"><sup><sub>Vikrant Kahlir</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/alexa-johnson">
-        <img src="https://avatars.githubusercontent.com/u/107442245?v=4" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://twitter.com/anders"><sup><sub>Alexa Johnson</sub></sup></a>
+      <a href="https://github.com/alexa-vendia"><sup><sub>Alexa Johnson</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/ben-steward">

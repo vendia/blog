@@ -28,14 +28,18 @@
   ],
   "authors": [
     {
-      "name": "Anders Maul",
       "github": "anders-vendia",
-      "twitter": "anders",
-      "avatar": "https://avatars.githubusercontent.com/u/104795928?v=4",
       "bio": {
-        "short": "product marketer",
-        "long": "Anders likes building things, travel, and word plays."
+        "short": "Anders likes building things, travel, and word plays.",
+        "long": ""
       },
+      "name": "Anders Maul",
+      "updatedAt": "2022-12-05T22:32:33.216Z",
+      "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://avatars.githubusercontent.com/u/104795928?v=4",
+      "jobTitle": "Head of Product Marketing",
+      "linkedin": "https://www.linkedin.com/in/andersmaul/",
       "slug": "anders-maul",
       "postCount": 9
     },
@@ -64,14 +68,18 @@
       "postCount": 12
     },
     {
-      "name": "Caroll Casbeer",
       "github": "caroll-vendia",
-      "twitter": "caroll_casbeert",
-      "avatar": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
       "bio": {
         "short": "Marketer",
         "long": "Caroll likes, puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
       },
+      "name": "Caroll Casbeer",
+      "updatedAt": "2022-12-05T22:40:38.604Z",
+      "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "jobTitle": "Head of Growth",
+      "linkedin": "https://www.linkedin.com/in/carollc/",
       "slug": "caroll-casbeer",
       "postCount": 12
     },
@@ -124,14 +132,18 @@
       "postCount": 0
     },
     {
-      "name": "Francine Klein",
       "github": "francine-vendia",
+      "bio": {
+        "short": "",
+        "long": "Francine enjoys all-things data, particularly how to empower companies on how they build data-driven solutions with the right design, architecture, tools, processes, and, of course, people."
+      },
+      "name": "Francine Klein",
+      "updatedAt": "2022-12-05T22:36:39.335Z",
+      "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/105127677?s=400&u=e2ad96f3458ea05767b15d8372ada969c3a16ece&v=4",
-      "bio": {
-        "short": "Solutions Architect",
-        "long": "Francine enjoys all-things data, particularly how to empower companies on how they build data-driven solutions with the right design, architecture, tools, processes, and, of course, people"
-      },
+      "jobTitle": "Sr. Solutions Architect",
+      "linkedin": "https://www.linkedin.com/in/francine-klein-31a99834/",
       "slug": "francine-klein",
       "postCount": 4
     },
@@ -186,15 +198,18 @@
       "postCount": 1
     },
     {
-      "name": "James Gimourginas",
       "github": "james-vendia",
-      "twitter": "",
-      "linkedin": "https://www.linkedin.com/in/jamesgimourginas/",
-      "avatar": "https://avatars.githubusercontent.com/u/85032783?s=400&v=4",
       "bio": {
         "short": "Director of Solution Architecture and Customer Success",
         "long": "James is passionate about matching digital innovation with customer challenges to create novel and impactful solutions at scale."
       },
+      "name": "James Gimourginas",
+      "updatedAt": "2022-12-05T22:31:17.664Z",
+      "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://avatars.githubusercontent.com/u/85032783?s=400&v=4",
+      "jobTitle": "Directo fo Solution Architecture and Customer Success",
+      "linkedin": "https://www.linkedin.com/in/jamesgimourginas/",
       "slug": "james-gimourginas",
       "postCount": 17
     },
@@ -213,11 +228,15 @@
     {
       "name": "Renee Fujii",
       "github": "renee-vendia",
-      "avatar": "https://avatars.githubusercontent.com/u/99047298?v=4",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670279895/Headshots/Renee_Fujii_mug_1_-_Renee_Fujii_a26k26.jpg",
       "bio": {
-        "short": "Head of Talent",
+        "short": "",
         "long": "Renee loves her two dogs, putting together costumes, and helping recruit brillant Kind Humans to Vendia."
       },
+      "jobTitle": "Head of Talent",
+      "linkedin": "https://www.linkedin.com/in/reneefujii/",
+      "updatedAt": "2022-12-05T22:39:38.667Z",
+      "updatedBy": "alexa-vendia",
       "slug": "renee-fujji",
       "postCount": 0
     },
@@ -285,26 +304,34 @@
       "postCount": 0
     },
     {
-      "name": "Vikrant Kahlir",
       "github": "vikrant-vendia",
-      "twitter": "vkahlir",
-      "avatar": "https://avatars.githubusercontent.com/u/96793170",
       "bio": {
-        "short": "Solutions Architect",
-        "long": "Vikrant is a Solutions Architect focused on enabling customers to develop products and services using Vendia data platform. Prior to Vendia, Vikrant worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
+        "short": "",
+        "long": "Vikrant is a Solutions Architect helping customers automate and accelerate their data workflows across business networks using Vendia Share. Prior to Vendia, Vikrant worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
       },
+      "name": "Vikrant Kahlir",
+      "updatedAt": "2022-12-05T22:35:35.963Z",
+      "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://avatars.githubusercontent.com/u/96793170",
+      "jobTitle": "Principal Tech Lead, Data and Web3",
+      "linkedin": "https://www.linkedin.com/in/vikrantkahlir/",
       "slug": "vikrant-kahlir",
       "postCount": 9
     },
     {
-      "name": "Alexa Johnson",
       "github": "alexa-vendia",
-      "twitter": "anders",
-      "avatar": "https://avatars.githubusercontent.com/u/107442245?v=4",
       "bio": {
         "short": "Content Strategy",
         "long": "Alexa likes YA novels, gardening, and hazelnut lattes."
       },
+      "name": "Alexa Johnson",
+      "updatedAt": "2022-12-05T22:42:15.725Z",
+      "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg",
+      "jobTitle": "Head of Content Strategy",
+      "linkedin": "https://www.linkedin.com/in/alexa-b-johnson/",
       "slug": "alexa-johnson",
       "postCount": 7
     },
