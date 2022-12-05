@@ -12,7 +12,7 @@ components:
     text: Eliminate errors, streamline operations, and create a golden record across
       parties with Vendia Share's business blockchain
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669869725/housing_hp9nao.webp
+      image: ""
   - type: Columns
     theme: White
     intro:
@@ -54,5 +54,5 @@ components:
       altText: Vendia Share
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-05T19:19:40.367Z
+updatedAt: 2022-12-05T21:13:26.327Z
 ---
