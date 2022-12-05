@@ -1,10 +1,14 @@
 {
-  "name": "Alexa Johnson",
   "github": "alexa-vendia",
-  "twitter": "anders",
-  "avatar": "https://avatars.githubusercontent.com/u/107442245?v=4",
   "bio": {
     "short": "Content Strategy",
     "long": "Alexa likes YA novels, gardening, and hazelnut lattes."
-  }
+  },
+  "name": "Alexa Johnson",
+  "updatedAt": "2022-12-05T22:42:15.725Z",
+  "updatedBy": "alexa-vendia",
+  "twitter": "",
+  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg",
+  "jobTitle": "Head of Content Strategy",
+  "linkedin": "https://www.linkedin.com/in/alexa-b-johnson/"
 }
