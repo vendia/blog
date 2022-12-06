@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: understanding-polycloud
 date: 2022-11-30
@@ -35,6 +35,6 @@ seo:
   title: Understanding Polycloud whitepaper
   description: How Enterprises are tackling the reality of multi-partner,
     multi-cloud applications, and data design.
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:39:22.447Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:19:26.983Z
 ---
