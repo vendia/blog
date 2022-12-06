@@ -461,6 +461,34 @@
       "authors": [
         "Tim Wagner"
       ]
+    },
+    {
+      "file": "/posts/2020-11-05-track-and-trace.md",
+      "draft": false,
+      "title": "Track and trace using Vendia Unis and Blobs",
+      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
+      "date": "2020-11-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "architecture"
+      ],
+      "relatedPosts": [
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
+        "2021-02-18-sharing-files-in-a-uni",
+        "2021-02-01-decentralization"
+      ],
+      "tags": [
+        "supply chain, manufacturing, traceability, uni"
+      ],
+      "seo": {
+        "title": "Track and trace using Vendia Unis and Blobs",
+        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
+        "keywords": "supply chain traceability, track and trace"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:53:54.828Z"
     }
   ],
   "realtime-data-sharing": [
