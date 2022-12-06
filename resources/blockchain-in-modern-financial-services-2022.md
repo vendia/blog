@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: blockchain-in-modern-financial-services-2022
 date: 2022-11-30
@@ -31,6 +31,6 @@ seo:
   title: Blockchain in modern financial services data applications
   description: "Pros and cons of public chains, private chains, and centralized
     solutions for financial data sharing. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:22:22.895Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T05:48:24.559Z
 ---
