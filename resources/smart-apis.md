@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: smart-apis
 date: 2022-12-01
@@ -25,6 +25,6 @@ seo:
     Evolve from 'ignorant pipes' to APIs that automatically keep data
     consistent, correct, and up-to-date.
 
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-01T19:57:07.164Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:18:43.743Z
 ---
