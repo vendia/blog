@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: next-gen-blockchain
 date: 2022-11-30
@@ -34,6 +34,6 @@ seo:
   description: "What do we mean by \"next-gen blockchain\"? Learn how Vendia
     Share's blockchain technology enables modern, secure, multi-party data
     sharing. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:32:12.730Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:19:21.099Z
 ---
