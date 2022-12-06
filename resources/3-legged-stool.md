@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: 3-legged-stool
 date: 2022-11-30
@@ -35,6 +35,6 @@ seo:
   description: How Vendia Share remakes the building blocks of modern IT
     infrastructure into secure, compliant real-time data sharing across business
     networks.
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T14:53:07.512Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T05:44:04.235Z
 ---
