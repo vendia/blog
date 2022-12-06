@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 excludeFromIndex: true
 slug: serverless-days-nyc
@@ -36,5 +36,5 @@ components:
 seo:
   title: Vendia Serverless Distributed Ledger – Guest Blog Submission
 updatedBy: David Wells
-updatedAt: 2022-12-06T05:38:18.339Z
+updatedAt: 2022-12-06T06:20:00.319Z
 ---
