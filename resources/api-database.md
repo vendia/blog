@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: api-database
 date: 2022-11-30
@@ -32,6 +32,6 @@ seo:
   description: "Learn how Vendia Share combines APIs and Databases to automate
     data workflows across your business network. No more point-to-point
     integrations with out of date information. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:21:19.752Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T05:47:51.466Z
 ---
