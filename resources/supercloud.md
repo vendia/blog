@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: supercloud
 date: 2022-11-30
@@ -31,6 +31,6 @@ seo:
   title: Vendia Share's Supercloud
   description: "Supercloud, Mutli-cloud, Hybrid Cloud... it all means the same
     thing, you need to have a strategy for working across clouds. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:38:24.021Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:18:51.351Z
 ---
