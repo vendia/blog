@@ -18,7 +18,7 @@
     },
     {
       "slug": "tutorials",
-      "description": "Tutorials | Get helpful tips, instructions, and code call outs from our Developers and Solutions Architects",
+      "description": "Tutorials | Get helpful tips, instructions, and code callouts from our Developers and Solutions Architects",
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367728/Marketing_02_kjkjsx.png"
     },
     {
@@ -77,6 +77,6 @@
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670368463/Work_01_i04ycn.png"
     }
   ],
-  "updatedAt": "2022-12-06T23:17:26.211Z",
+  "updatedAt": "2022-12-06T23:24:04.680Z",
   "updatedBy": "alexa-vendia"
 }
