@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: lean-apps
 date: 2022-11-30
@@ -35,6 +35,6 @@ resourceType: white-papers
 seo:
   title: Lean Apps Whitepaper
   description: "Move over Serverless, the next wave of development is here, and it's lean. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:29:52.517Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:20:06.985Z
 ---
