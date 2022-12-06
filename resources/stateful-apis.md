@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: stateful-apis
 date: 2022-12-01
@@ -23,6 +23,6 @@ seo:
   title: Stateful APIs
   description: Why API management for businesses remains a challenge - and what we
     can do about it.
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-01T19:52:02.518Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:18:35.138Z
 ---
