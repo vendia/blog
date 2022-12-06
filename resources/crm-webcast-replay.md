@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: crm-webcast-replay
 date: 2022-11-30
@@ -22,6 +22,6 @@ seo:
   title: CRM Data Sharing with Vendia Share – Webcast
   description: "Learn how Vendia Share can exchange data among multiple Salesforce
     instances — in real-time. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:23:04.613Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:17:30.791Z
 ---
