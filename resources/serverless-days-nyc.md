@@ -1,6 +1,7 @@
 ---
-draft: false
+draft: true
 template: resource
+excludeFromIndex: true
 slug: serverless-days-nyc
 date: 2022-12-01
 components:
@@ -34,6 +35,6 @@ components:
     theme: white
 seo:
   title: Vendia Serverless Distributed Ledger – Guest Blog Submission
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:35:17.450Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T05:38:18.339Z
 ---
