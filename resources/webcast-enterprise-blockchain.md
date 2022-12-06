@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: webcast-enterprise-blockchain
 date: 2022-11-30
@@ -29,7 +29,7 @@ seo:
   title: How to build an enterprise blockchain
   description: Peter Sbarski and Tim Wagner as they chat serverless, blockchain,
     and what exactly is Vendia Share.
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:41:06.762Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:19:33.821Z
 redirect: https://www.vendia.com/resources
 ---
