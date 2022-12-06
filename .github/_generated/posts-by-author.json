@@ -816,14 +816,25 @@
       "draft": false,
       "title": "Welcome to Vendia",
       "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30",
-      "categories": [
-        "company"
-      ],
+      "date": "2020-06-30T00:00:00.000Z",
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2021-01-04-kind-humans-really-work-here"
+      ],
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
   "li-dai": [
@@ -1779,14 +1790,25 @@
       "draft": false,
       "title": "Welcome to Vendia",
       "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30",
-      "categories": [
-        "company"
-      ],
+      "date": "2020-06-30T00:00:00.000Z",
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2021-01-04-kind-humans-really-work-here"
+      ],
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
   "brian-mcnamara": [
