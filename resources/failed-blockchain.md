@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: failed-blockchain
 date: 2022-11-30
@@ -22,6 +22,6 @@ seo:
   title: Failed Blockchain
   description: "Most blockchain projects fail. Learn why and what you can do to
     avoid failure to launch. "
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:28:51.738Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T06:18:19.836Z
 ---
