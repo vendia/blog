@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: backend-as-a-service
 date: 2022-12-01
@@ -28,6 +28,6 @@ components:
     theme: white
 seo:
   title: Backend-as-a-Service – The Future of APIs eBook
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:21:46.593Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T05:48:14.739Z
 ---
