@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: 3-body-problem
 date: 2022-11-30
@@ -27,6 +27,6 @@ seo:
   title: The Three-Body Problem
   description: How conventional IT, private ledgers, and public blockchains will
     work together to usher in the Web 3.0 era
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-01T16:14:13.179Z
+updatedBy: David Wells
+updatedAt: 2022-12-06T05:21:14.970Z
 ---
