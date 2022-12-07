@@ -301,7 +301,7 @@ jobs:
           number: ${{ github.event.issue.number }}
           header: statusComment
           message: |
-            ⚠️ Preview deploying to stage "${{ steps.deploy-info.outputs.deployContext }}"... Should be live soon.
+            ⌛️ Preview deploying to stage "${{ steps.deploy-info.outputs.deployContext }}"... Should be live soon.
 
             Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml
 
