@@ -9,6 +9,7 @@ yarn-error.log*
 .github/process-images/.images
 _misc
 errors.json
+warnings.json
 
 # Runtime data
 pids

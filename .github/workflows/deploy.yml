@@ -114,6 +114,16 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
+    # Get information about test warnings
+    - id: setWarningEnv
+      run: |
+        # Trim extra quotes and leading spaces from error json & trim out github worker path
+        cleanWarnings=$(cat ./warnings.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
+        echo "Warning details:"
+        echo "$cleanErrors"
+        echo 'TEST_WARNINGS_JSON<<EOF' >> $GITHUB_ENV
+        echo "$cleanWarnings" >> $GITHUB_ENV
+        echo 'EOF' >> $GITHUB_ENV
     # Get information about failed tests
     - id: setErrorEnv
       if: failure()
@@ -122,7 +132,7 @@ jobs:
         cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
         echo "Failure details:"
         echo "$cleanErrors"
-        echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+        echo 'TEST_ERRORS_JSON<<EOF' >> $GITHUB_ENV
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
     # If tests failed, add message
@@ -139,9 +149,13 @@ jobs:
 
           ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
+          **Warnings found:**
+
+          ${{ env.TEST_WARNINGS_JSON }}
+
           **Errors found:**
 
-          ${{ env.JSON_RESPONSE }}
+          ${{ env.TEST_ERRORS_JSON }}
 
           For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
 
@@ -326,6 +340,10 @@ jobs:
             ```graphql
             ${{ steps.formatFileNames.outputs.files }}
             ```
+
+            **Warnings found:**
+
+            ${{ env.TEST_WARNINGS_JSON }}
 
             **PR Tips**
 
