@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 excludeFromIndex: false
 slug: resolution-life
@@ -111,5 +111,5 @@ seo:
     distributed ledger design while celebrating the solution’s new single source
     of truth across reinsurance partners.
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-07T17:11:48.286Z
+updatedAt: 2022-12-07T18:10:15.920Z
 ---
