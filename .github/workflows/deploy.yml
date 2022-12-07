@@ -121,9 +121,19 @@ jobs:
         cleanWarnings=$(cat ./warnings.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
         echo "Warning details:"
         echo "$cleanErrors"
-        echo 'TEST_WARNINGS_JSON<<EOF' >> $GITHUB_ENV
-        echo "$cleanWarnings" >> $GITHUB_ENV
-        echo 'EOF' >> $GITHUB_ENV
+        WARNING_OUTPUT=''
+        if [ -n "${cleanWarnings}" ]; then
+          echo 'TEST_WARNINGS_JSON<<EOF' >> $GITHUB_ENV
+          echo "**Warnings found:**" >> $GITHUB_ENV
+          echo "$cleanWarnings" >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+          WARNING_OUTPUT="${cleanWarnings//'%'/'%25'}"
+          WARNING_OUTPUT="${WARNING_OUTPUT//$'\n'/'%0A'}"
+          WARNING_OUTPUT="${WARNING_OUTPUT//$'\r'/'%0D'}"
+        else
+          echo "No md warnings found"
+        fi
+        echo "::set-output name=warningContent::$WARNING_OUTPUT"
     # Get information about failed tests
     - id: setErrorEnv
       if: failure()
@@ -148,8 +158,6 @@ jobs:
           ❌ Oh snap! Validation failed! (╯°□°)╯︵ ┻━┻
 
           ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-          **Warnings found:**
 
           ${{ env.TEST_WARNINGS_JSON }}
 
@@ -185,6 +193,8 @@ jobs:
           echo "${{ needs.setup.outputs.changedFiles }}"
           echo "Changed markdown files:"
           echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
+          echo "Warnings:"
+          echo "${{ needs.test.outputs.warningContent }}"
           echo "─────────────────────────────────────────────────"
       # Get the name of the current branch
       - name: Get branch name
@@ -340,8 +350,6 @@ jobs:
             ```graphql
             ${{ steps.formatFileNames.outputs.files }}
             ```
-
-            **Warnings found:**
 
             ${{ env.TEST_WARNINGS_JSON }}
 
