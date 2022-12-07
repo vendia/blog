@@ -1794,6 +1794,35 @@
       "updatedAt": "2022-12-07T01:05:21.832Z"
     },
     {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "draft": false,
+      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+      "date": "2021-01-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "features"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "tags": [
+        "quickstart, supply chain traceability, track and trace"
+      ],
+      "seo": {
+        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "keywords": "track and trace, supply chain traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T19:12:29.677Z"
+    },
+    {
       "file": "/posts/2020-11-05-track-and-trace.md",
       "draft": false,
       "title": "Track and trace using Vendia Unis and Blobs",
@@ -2098,17 +2127,6 @@
       ]
     },
     {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
-      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
-      "date": "2021-01-25",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
       "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
       "draft": false,
       "title": "Kind Humans Really Work Here",
@@ -2139,17 +2157,6 @@
       "description": "Learn how to share code and data across accounts, regions, clouds, and partners with Vendia share",
       "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
       "date": "2021-01-29",
-      "authors": [
-        "Cory Forsythe",
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "Track & Trace Quickstart - Solving supply chain visibility through data sharing",
-      "description": "How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.\n",
-      "date": "2021-01-25",
       "authors": [
         "Cory Forsythe",
         "Brian McNamara"
