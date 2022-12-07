@@ -1,14 +1,28 @@
 ---
 draft: false
-title: 'Understanding API Security with GraphQL'
-description: 'Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.'
-date: '2022-10-21'
-categories:
-- concepts
-- graphql
-- data-modeling
+title: Understanding API security with GraphQL
+description: Explore common forms of API security, how they specifically relate
+  to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the
+  API security burden often faced by development teams.
+date: 2022-10-21
 authors:
-- James Gimourginas
+  - James Gimourginas
+categories:
+  - concepts
+  - smart-apis
+relatedPosts:
+  - 2022-05-27-apis-for-data
+  - 2021-05-10-dont-rip-and-replace-integrate
+  - 2022-09-15-api-design-best-practices
+tags:
+  - security
+seo:
+  title: Understanding API security with GraphQL
+  description: Explore common forms of API security, how they specifically relate
+    to GraphQL APIs, and how fully managed platforms like Vendia Share reduce
+    the API security burden often faced by development teams.
+updatedBy: alexa-vendia
+updatedAt: 2022-12-07T18:45:47.542Z
 ---
 
 Security is a critical aspect of API development, which requires focused attention from design, to implementation, to testing, to operations. The time, effort, and investment needed to secure APIs is often shortchanged, despite security’s importance and prevalence throughout the API development lifecycle. Unfortunately, shortchanging the focus on security leads to [insecure APIs](https://www.prnewswire.com/news-releases/salt-security-state-of-api-security-report-reveals-94-of-companies-experienced-security-incidents-in-production-apis-in-the-past-year-301598797.html) reaching users (and adversaries).
