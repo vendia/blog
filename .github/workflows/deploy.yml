@@ -145,6 +145,24 @@ jobs:
         echo 'TEST_ERRORS_JSON<<EOF' >> $GITHUB_ENV
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
+    # If tests have warnings, add message
+    - name: Add test warning status comment to PR
+      if: ${{ success() && steps.my_string.outputs.warningContent != '' }}
+      id: status_comment_failure
+      uses: marocchino/sticky-pull-request-comment@v1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        number: ${{ github.event.issue.number }}
+        header: statusComment
+        message: |
+          ⚠️ Validation warnings
+
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          ${{ env.TEST_WARNINGS_JSON }}
+
+          For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
+
     # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
