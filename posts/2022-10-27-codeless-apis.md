@@ -1,14 +1,28 @@
 ---
 draft: false
-title: "Codeless APIs: Why generating APIs from data models makes application development easier and safer"
-description: "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
-date: "2022-10-27"
-categories:
-  - product
-  - data-modeling
-  - realtime-data-sharing
+title: "Codeless APIs: Why generating APIs from data models makes application
+  development easier and safer"
+description: Learn how codeless APIs free up teams from relentless grunt work
+  and makes it easy, safe, and secure to share critical business data in your
+  data alliance.
+date: 2022-10-27
 authors:
   - Tim Wagner
+categories:
+  - smart-apis
+  - real-time-data-sharing
+relatedPosts:
+  - 2022-01-27-scale-your-partner-ecosystem-with-vendia-share
+  - 2022-08-15-data-lakes-file-sharing-use-cases
+  - 2021-09-01-sharing-data-with-fine-grained-control
+seo:
+  title: "Codeless APIs: Why generating APIs from data models makes application
+    development easier and safer"
+  description: Learn how codeless APIs free up teams from relentless grunt work
+    and makes it easy, safe, and secure to share critical business data in your
+    data alliance.
+updatedBy: alexa-vendia
+updatedAt: 2022-12-07T18:51:02.571Z
 ---
 
 ## Coding can be boring
@@ -108,5 +122,4 @@ If you’d like to see how Vendia Share handles codeless APIs, [sign up](https:/
 
 ### Join the team 
 
-Interested in joining Vendia’s remote-first engineering team? Check out our [kind humans policy,](https://www.vendia.com/kind-humans) follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/mycompany/) or [Twitter](https://twitter.com/VendiaHQ), and apply for the role that excites you most at [vendia.com/careers.](https://www.vendia.com/careers) 
-
+Interested in joining Vendia’s remote-first engineering team? Check out our [kind humans policy,](https://www.vendia.com/kind-humans) follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/mycompany/) or [Twitter](https://twitter.com/VendiaHQ), and apply for the role that excites you most at [vendia.com/careers.](https://www.vendia.com/careers)
