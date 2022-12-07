@@ -12,7 +12,7 @@ const fileWithLinks = fs.readFileSync(FILE_PATH, 'utf-8')
 
 test('Find frontmatter', async () => {
   const frontmatter = findFrontmatter(fileWithLinks, FILE_PATH)
-  console.log('frontmatter', frontmatter)
+  // console.log('frontmatter', frontmatter)
   assert.is(typeof frontmatter.data, 'object')
 })
 

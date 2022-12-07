@@ -5,7 +5,6 @@ description: "The finance, housing, and mortgage servicing system can be transfo
 date: "2022-10-12"
 categories:
   - concepts
-  - data-modeling
 authors:
   - Tim Wagner
 ---

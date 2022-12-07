@@ -17,6 +17,7 @@ process.env.CI = true
 
 const cwd = process.cwd()
 const ERROR_FILE_PATH = path.resolve(cwd, 'errors.json')
+const DESCRIPTION_MAX_LENGTH = 300 // should be 200
 
 if (process.env.CI) {
   console.log('clear errors')
@@ -142,10 +143,10 @@ test('Post validation', async () => {
     }
 
     /* Descriptions must less than 200 characters */
-    if (description && description.length > 200) {
+    if (description && description.length > DESCRIPTION_MAX_LENGTH) {
       errors.push(`"description" field too long in ${file}
     It is currently ${description.length} characters long
-    Must be under 200 characters long`);
+    Must be under ${DESCRIPTION_MAX_LENGTH} characters long`)
     }
 
     /* File names must be lowercase */

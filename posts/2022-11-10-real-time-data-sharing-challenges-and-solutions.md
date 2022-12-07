@@ -12,7 +12,7 @@ authors:
   - Tim Wagner
   - James Gimourginas
 categories:
-  - realtime-data-sharing
+  - real-time-data-sharing
 relatedPosts:
   - 2022-05-02-what-is-real-time-data-sharing
   - 2022-09-22-real-time-everything

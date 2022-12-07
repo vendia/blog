@@ -10,7 +10,7 @@ authors:
   - Li Dai
 categories:
   - architecture
-  - realtime-data-sharing
+  - real-time-data-sharing
   - data-alliance
 relatedPosts:
   - 2022-11-29-shared-data-architecture-patterns

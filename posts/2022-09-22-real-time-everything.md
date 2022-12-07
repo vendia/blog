@@ -8,7 +8,6 @@ categories:
 - concepts
 - tutorials
 - product
-- data-modeling
 authors:
   - Francine Klein
 ---
