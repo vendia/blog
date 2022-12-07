@@ -327,6 +327,8 @@ jobs:
             ${{ steps.formatFileNames.outputs.files }}
             ```
 
+            ${{ needs.test.outputs.warningContent }}
+
       # Deploy the site and wait
       - name: Run site deploy in vendia/site repo
         uses: convictional/trigger-workflow-and-wait@v1.3.0
@@ -371,7 +373,7 @@ jobs:
             ${{ steps.formatFileNames.outputs.files }}
             ```
 
-            ${{ env.TEST_WARNINGS_JSON }}
+            ${{ needs.test.outputs.warningContent }}
 
             **PR Tips**
 
