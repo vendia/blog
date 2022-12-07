@@ -129,7 +129,9 @@ jobs:
           echo "**Warnings found:**" >> $GITHUB_ENV
           echo "$cleanWarnings" >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
-          WARNING_OUTPUT="${cleanWarnings//'%'/'%25'}"
+          warnings=$'**Warnings found:**\n\n'
+          warnings+="$cleanWarnings"
+          WARNING_OUTPUT="${warnings//'%'/'%25'}"
           WARNING_OUTPUT="${WARNING_OUTPUT//$'\n'/'%0A'}"
           WARNING_OUTPUT="${WARNING_OUTPUT//$'\r'/'%0D'}"
         else
