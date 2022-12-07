@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /privacy-policy-new
 components:
@@ -434,5 +434,5 @@ components:
 seo:
   noindex: false
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-07T22:51:53.429Z
+updatedAt: 2022-12-07T22:53:58.013Z
 ---
