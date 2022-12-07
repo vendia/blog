@@ -1,13 +1,27 @@
 ---
 draft: false
-title: 'Announcing new low latency operations and Vendia Metrics'
-description: 'Announcing two new features on Vendia Share: Low latency operations for better read after write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes'
-date: '2022-07-07'
+title: NEW low latency operations and Vendia Metrics
+description: "We're excited to announce two new features on Vendia Share: Low
+  latency operations for better read-after-write performance and Vendia Metrics
+  for insights into the operational health of your Uni and Nodes."
+date: 2022-07-07
 authors:
-  - David Brown
+  - Vendia
+categories:
+  - features
+  - product
+relatedPosts:
+  - 2021-02-03-welcome-to-developer-preview
+  - 2021-03-17-whats-new-failed-tx-dlq
+  - 2022-07-07-low-latency-operations-metrics
+seo:
+  title: NEW low latency operations and Vendia Metrics | Vendia Share
+  description: "We're excited to announce two new features on Vendia Share: Low
+    latency operations for better read-after-write performance and Vendia
+    Metrics for insights into the operational health of your Uni and Nodes."
+updatedBy: alexa-vendia
+updatedAt: 2022-12-07T01:05:21.832Z
 ---
-
-# Announcing New Low Latency Operations and Vendia Metrics
 
 At Vendia, we listen to the needs of our customers and we try to put ourselves in their shoes. The best way for us to know what it’s like to walk in their shoes is by asking them. Recently, two major themes have emerged:
 
@@ -26,7 +40,7 @@ Writing data to Vendia is a multi-step process. Vendia operates as a decentraliz
 
 All of these steps take time to complete. Until today, before you could query the data, the transaction would need to be written to the world state on that node and the ledger. We chose this design to prevent potential [dirty reads](https://en.wikipedia.org/wiki/Write%E2%80%93read_conflict).
 
-But, there may be cases where you prefer response speed over data completeness (_i.e_., potentially a dirty read). For example, an application that shows the approximate availability of inventory might prefer to show inventory data quickly—even if that data is from a few minutes ago, rather than waiting for the most up to date inventory count. Likewise, there may be use cases where you prefer data completeness over response speed (_i.e._, there can be no dirty reads). For example, you may have the need to only return data when **_all_** participants have accepted and written the transaction into the world state **_and_** the ledger.
+But, there may be cases where you prefer response speed over data completeness (*i.e*., potentially a dirty read). For example, an application that shows the approximate availability of inventory might prefer to show inventory data quickly—even if that data is from a few minutes ago, rather than waiting for the most up to date inventory count. Likewise, there may be use cases where you prefer data completeness over response speed (*i.e.*, there can be no dirty reads). For example, you may have the need to only return data when ***all*** participants have accepted and written the transaction into the world state ***and*** the ledger.
 
 To address the different needs of customers, we’re introducing different consistency modes for reading (querying or listing), subscribing, or performing synchronous mutations (Table 1). Clients have the option of providing their preferred consistency mode when issuing a query, subscription or a synchronous mutation.
 
@@ -85,7 +99,7 @@ To address the different needs of customers, we’re introducing different consi
   </tr>
 </table>
 
-*The Synchronous E2E Response is the overall latency as compared to the other consistency modes. Our definition of “slowest” simply means this is the slowest end-to-end latency of all four  consistency modes. 
+\*The Synchronous E2E Response is the overall latency as compared to the other consistency modes. Our definition of “slowest” simply means this is the slowest end-to-end latency of all four  consistency modes. 
 
 Prior to this change, `NODE_LEDGERED` was the default mode for reads and synchronous writes. As part of this change, we have made `NODE_COMMITTED` as the default mode if you don’t provide a consistency mode as part of a query, subscription or synchronous mutation. 
 
@@ -123,18 +137,17 @@ Most companies will go through an operational readiness review (ORR) before laun
 
 Today we are excited to announce Vendia Metrics, a set of operational metrics for nodes and unis. Vendia metrics are enabled for all Nodes and Unis in your account without any additional configuration. The following metrics are now available:
 
-* Mutation Count
-* Number of transactions queued
-* Transaction queuing time
-* Number of consensus errors queued
-* Consensus error queueing time
-* GraphQL API request count
-* GraphQL API latency
-* GraphQL API error rate
-* End-to-end mutation latency
+- Mutation Count
+- Number of transactions queued
+- Transaction queuing time
+- Number of consensus errors queued
+- Consensus error queueing time
+- GraphQL API request count
+- GraphQL API latency
+- GraphQL API error rate
+- End-to-end mutation latency
 
 All Vendia Metrics are visible over a 24-hour period. To view the Vendia Metrics, navigate to a Uni in the [Share console](https://share.vendia.net) and click on the “Metrics” button along the left hand column. 
-
 
 ![Screenshot of Vendia Share Console showing the Vendia Metrics dashboard](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..177821363-2f52856d-b038-42d2-af56-e8bd7625bce6.png)
 
