@@ -1,12 +1,28 @@
 ---
-draft: false
-title: 'The Global Supply Chain is Broken. Can Blockchain Help?'
-description: 'Enterprise blockchain adoption is slowly but steadily progressing'
-date: '2022-02-09'
+draft: true
+title: The global supply chain is broken — can blockchain help?
+description: Multi-party data sharing with fine-grained controls is gaining
+  traction with more and more organizations looking to resolve failed blockchain
+  initiatives with next-gen enterprise blockchain solutions.
+date: 2022-02-09
 authors:
   - Vikrant Kahlir
+categories:
+  - blockchain
+relatedPosts:
+  - 2020-11-05-track-and-trace
+  - 2022-10-26-why-is-supply-chain-visibility-important
+  - 2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient
+tags:
+  - supply chain, manufacturing
+seo:
+  title: The global supply chain is broken — can blockchain help?
+  description: Multi-party data sharing with fine-grained controls is gaining
+    traction with more and more organizations looking to resolve failed
+    blockchain initiatives with next-gen enterprise blockchain solutions.
+updatedBy: alexa-vendia
+updatedAt: 2022-12-07T00:29:17.674Z
 ---
-
 
 _"We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs."_, _Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_
 
