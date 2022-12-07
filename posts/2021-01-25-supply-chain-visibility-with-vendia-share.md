@@ -1,38 +1,47 @@
 ---
 draft: false
-title: 'Track & Trace Quickstart - Solving supply chain visibility through data sharing'
-description: > 
-  How to manage logistics across multiple parties regardless of their location and technology stack; forming the foundation of a real-world risk-management focused supply chain system.
-date: '2021-01-25'
+title: NEW Track and Trace Quickstart for solving supply chain visibility problems
+description: Use this Vendia Share Track and Trace Quickstart for managing
+  logistics across multiple parties, regardless of their location and technology
+  stack.
+date: 2021-01-25
 authors:
-  - Cory Forsythe
-  - Brian McNamara
+  - Vendia
+categories:
+  - product
+  - features
+relatedPosts:
+  - 2022-10-26-why-is-supply-chain-visibility-important
+  - 2021-03-10-whats-new-indices
+  - 2022-07-07-low-latency-operations-metrics
+tags:
+  - quickstart, supply chain traceability, track and trace
+seo:
+  title: NEW Track and Trace Quickstart for solving supply chain visibility problems
+  description: Use this Vendia Share Track and Trace Quickstart for managing
+    logistics across multiple parties, regardless of their location and
+    technology stack.
+  keywords: track and trace, supply chain traceability
+updatedBy: alexa-vendia
+updatedAt: 2022-12-07T19:12:29.677Z
 ---
 
-# New Track and Trace Quickstart!
+We are excited to introduce our new [Track and Trace Quickstart Guide](https://vendia.com/docs/share/quickstart/track-and-trace).  
 
-Today we are excited to introduce our new [Track and Trace Quick Start Guide](https://vendia.com/docs/share/quickstart/track-and-trace).  This Quick Start will walk you through the creation of a distributed supply-chain system using Vendia Share.  Once deployed, you will interact with your new supply-chain system to simulate tracking and tracing capabilities from the point of view of manufacturers, shippers, and storefronts. 
+This Quickstart will walk you through creating a distributed supply chain system using Vendia Share.  Once deployed, you will interact with your new supply-chain system to simulate tracking and tracing capabilities from the point of view of manufacturers, shippers, and storefronts. 
 
-## Why Track and Trace?
+## Why track and trace?
 
-It's happened to all of us… We buy something online at a big-box store, opt for the free shipping with tracking, and for one reason or another, our package never arrives. It can be a frustrating experience, especially when the package is marked as delivered or other data-discrepancies make tracking your item an impossibility. **What can we do?**
+It's happened to all of us. We buy something online at a big box store, opt for free shipping with tracking, and for one reason or another, our package never arrives. It can be a frustrating experience, especially when the package is marked as delivered or other data discrepancies make tracking your item an impossibility.
 
-Personally, I don't enjoy the guessing games, so I will take advantage of customer support numbers and chat tools to work with a storefront or shipping company to locate a lost item.  Chances are, you have done this recently, and despite the convenience, it probably wasn't a thrilling experience.  **Can you imagine a need to do this daily for hundreds or thousands of items?**
+### $46B is a lot of money
 
-## $46 Billion is a lot of money  
+In the corporate world, manufacturers, shipping agencies, and storefronts all have a stake in the tracking of goods.  In the United States alone, the annual cost due to loss of inventory, shipping errors, theft, and damage, may reach more than $[46 billion dollars](https://cdn.nrf.com/sites/default/files/2018-10/NRF-NRSS-Industry-Research-Survey-2018.pdf).
 
-In the corporate world, manufacturers, shipping agencies, and storefronts, all have a stake in the tracking of goods.  In the United States alone, the annual cost due to loss of inventory, shipping errors, theft, and damage, may reach more than **46 billion dollars** according to a [2018 National Retail Security Survey](https://cdn.nrf.com/sites/default/files/2018-10/NRF-NRSS-Industry-Research-Survey-2018.pdf).
+Shrinkage, which is the loss of inventory, is a critical focus of corporate logistics and risk management programs. To address the problem, corporate strategy and budgeting processes often introduce new systems that must be integrated, tested, operationalized, and maintained.  This results in large investments of human resources and digital solutions, often at great expense.  
 
-Shrinkage, which is the loss of inventory, is a critical focus of corporate logistics and risk management programs. To address the problem, corporate strategy and budgeting processes often introduce new systems that must be integrated, tested, operationalized, and maintained.  This results in large investments of human resources and digital solutions, often at great expense.  **What if there is a better way?**
+What if there is a better way?
 
-## Vendia Unis - Better tracking through data sharing  
+## Vendia Unis for better tracking through data sharing
 
-The good news is that there is a better way to solve our problem using Vendia's Universal Applications (Unis). 
-
-Think back to our own experience tracking packages with the big-box stores.  Missing orders and packages incorrectly marked as delivered are attributable to the same issues that affect corporate logistics… **Incorrect or unavailable data.**
-
-The underlying causes of inventory shrinkage are difficult if not impossible to identify without a mechanism to reliably share a consistent view of data with partners that produce, transport, or sell goods.  Vendia unis give us this view.
-
-## See it in action!  
-
-**[Click here try the new Track and Trace Quickstart today!](https://vendia.com/docs/share/quickstart/track-and-trace)**
+Indeed, there is a better way to solve track and traceability using Vendia's Universal Applications (Unis). See it in action! **[Try the new Track and Trace Quickstart.](https://vendia.com/docs/share/quickstart/track-and-trace)**
