@@ -121,15 +121,15 @@ jobs:
       run: |
         # Trim extra quotes and leading spaces from error json & trim out github worker path
         cleanWarnings=$(cat ./warnings.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
-        echo "Warning details:"
-        echo "$cleanErrors"
+        echo "⚠️ Validation Warning details:"
+        echo "$cleanWarnings"
         WARNING_OUTPUT=''
         if [ -n "${cleanWarnings}" ]; then
           echo 'TEST_WARNINGS_JSON<<EOF' >> $GITHUB_ENV
-          echo "**Warnings found:**" >> $GITHUB_ENV
+          echo "**⚠️ Validation Warnings found:**" >> $GITHUB_ENV
           echo "$cleanWarnings" >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
-          warnings=$'**Warnings found:**\n\n'
+          warnings=$'**⚠️ Validation Warnings found:**\n\n'
           warnings+="$cleanWarnings"
           WARNING_OUTPUT="${warnings//'%'/'%25'}"
           WARNING_OUTPUT="${WARNING_OUTPUT//$'\n'/'%0A'}"
@@ -149,24 +149,6 @@ jobs:
         echo 'TEST_ERRORS_JSON<<EOF' >> $GITHUB_ENV
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
-    # If tests have warnings, add message
-    - name: Add test warning status comment to PR
-      if: ${{ success() && steps.setWarningEnv.outputs.warningContent != '' }}
-      id: status_comment_warning
-      uses: marocchino/sticky-pull-request-comment@v1
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        number: ${{ github.event.issue.number }}
-        header: statusComment
-        message: |
-          ⚠️ Validation warnings
-
-          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-          ${{ env.TEST_WARNINGS_JSON }}
-
-          For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
-
     # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
@@ -177,7 +159,7 @@ jobs:
         number: ${{ github.event.issue.number }}
         header: statusComment
         message: |
-          ❌ Oh snap! Validation failed! (╯°□°)╯︵ ┻━┻
+          ❌ Oh snap! Content Validation failed! (╯°□°)╯︵ ┻━┻
 
           ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
@@ -215,7 +197,7 @@ jobs:
           echo "${{ needs.setup.outputs.changedFiles }}"
           echo "Changed markdown files:"
           echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
-          echo "Md Warnings:"
+          echo "Validation Warnings:"
           echo "${{ needs.test.outputs.warningContent }}"
           echo "─────────────────────────────────────────────────"
       # Get the name of the current branch
@@ -409,4 +391,8 @@ jobs:
           message: |
             ❌ Site deployment failed!
 
+            Next.js site failed to build.
+
             See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
+
+            ${{ needs.test.outputs.warningContent }}
