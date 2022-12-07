@@ -81,7 +81,7 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
@@ -134,7 +134,7 @@
       "date": "2022-11-04",
       "categories": [
         "blockchain",
-        "realtime-data-sharing"
+        "real-time-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -147,7 +147,7 @@
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
       "date": "2022-10-26",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "blockchain",
         "data-alliance"
       ],
@@ -177,7 +177,6 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "data-modeling",
         "blockchain"
       ],
       "authors": [
@@ -307,7 +306,7 @@
       ],
       "categories": [
         "architecture",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "relatedPosts": [
@@ -363,8 +362,7 @@
         "architecture",
         "concepts",
         "tutorials",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -378,7 +376,6 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "data-modeling",
         "blockchain"
       ],
       "authors": [
@@ -614,7 +611,7 @@
       "updatedAt": "2022-12-06T23:53:54.828Z"
     }
   ],
-  "realtime-data-sharing": [
+  "real-time-data-sharing": [
     {
       "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
       "draft": false,
@@ -627,7 +624,7 @@
       ],
       "categories": [
         "architecture",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "relatedPosts": [
@@ -651,7 +648,7 @@
       "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
       "date": "2022-11-21",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "authors": [
@@ -670,7 +667,7 @@
         "James Gimourginas"
       ],
       "categories": [
-        "realtime-data-sharing"
+        "real-time-data-sharing"
       ],
       "relatedPosts": [
         "2022-05-02-what-is-real-time-data-sharing",
@@ -693,7 +690,7 @@
       "date": "2022-11-04",
       "categories": [
         "blockchain",
-        "realtime-data-sharing"
+        "real-time-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -707,7 +704,7 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
@@ -716,19 +713,72 @@
       ]
     },
     {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "draft": false,
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-08-15-data-lakes-file-sharing-use-cases",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:51:55.009Z"
+    },
+    {
       "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
       "draft": false,
       "title": "Why is supply chain visibility important? ",
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
       "date": "2022-10-26",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "blockchain",
         "data-alliance"
       ],
       "authors": [
         "Vikrant Kahlir"
       ]
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z"
     }
   ],
   "data-alliance": [
@@ -744,7 +794,7 @@
       ],
       "categories": [
         "architecture",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "relatedPosts": [
@@ -768,7 +818,7 @@
       "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
       "date": "2022-11-21",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "authors": [
@@ -783,7 +833,7 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
@@ -798,7 +848,7 @@
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
       "date": "2022-10-26",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "blockchain",
         "data-alliance"
       ],
@@ -875,8 +925,7 @@
       "date": "2022-10-14",
       "categories": [
         "concepts",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -889,8 +938,7 @@
       "description": "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology.",
       "date": "2022-10-12",
       "categories": [
-        "concepts",
-        "data-modeling"
+        "concepts"
       ],
       "authors": [
         "Tim Wagner"
@@ -934,8 +982,7 @@
         "architecture",
         "concepts",
         "tutorials",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -1654,61 +1701,6 @@
       "updatedAt": "2022-12-07T18:59:43.875Z"
     }
   ],
-  "real-time-data-sharing": [
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "draft": false,
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-08-15-data-lakes-file-sharing-use-cases",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z"
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z"
-    }
-  ],
   "product": [
     {
       "file": "/posts/2022-10-19-podcast-founders-session.md",
@@ -1746,8 +1738,7 @@
       "date": "2022-10-14",
       "categories": [
         "concepts",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -1763,8 +1754,7 @@
         "architecture",
         "concepts",
         "tutorials",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -2000,69 +1990,6 @@
       "updatedAt": "2022-12-07T19:12:29.677Z"
     }
   ],
-  "data-modeling": [
-    {
-      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
-      "draft": false,
-      "title": "Your Customer 360 solution isn’t really 360",
-      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
-      "date": "2022-10-14",
-      "categories": [
-        "concepts",
-        "product",
-        "data-modeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-12-fintech-innovation-mortgage-servicing.md",
-      "draft": false,
-      "title": "Fintech innovation for housing and finance data ecosystems",
-      "description": "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology.",
-      "date": "2022-10-12",
-      "categories": [
-        "concepts",
-        "data-modeling"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-22-real-time-everything.md",
-      "draft": false,
-      "title": "Real-time “everything” with operational and analytics data",
-      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
-      "date": "2022-09-22",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials",
-        "product",
-        "data-modeling"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
-      "draft": false,
-      "title": "Where blockchain fits into your data and application strategy",
-      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "data-modeling",
-        "blockchain"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    }
-  ],
   "tutorials": [
     {
       "file": "/posts/2022-09-22-real-time-everything.md",
@@ -2074,8 +2001,7 @@
         "architecture",
         "concepts",
         "tutorials",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"

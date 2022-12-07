@@ -106,7 +106,7 @@
       "date": "2022-11-02",
       "categories": [
         "podcast",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
@@ -181,7 +181,7 @@
         "James Gimourginas"
       ],
       "categories": [
-        "realtime-data-sharing"
+        "real-time-data-sharing"
       ],
       "relatedPosts": [
         "2022-05-02-what-is-real-time-data-sharing",
@@ -204,7 +204,7 @@
       "date": "2022-11-04",
       "categories": [
         "blockchain",
-        "realtime-data-sharing"
+        "real-time-data-sharing"
       ],
       "authors": [
         "Tim Wagner"
@@ -242,8 +242,7 @@
       "description": "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology.",
       "date": "2022-10-12",
       "categories": [
-        "concepts",
-        "data-modeling"
+        "concepts"
       ],
       "authors": [
         "Tim Wagner"
@@ -286,7 +285,6 @@
       "date": "2022-09-20",
       "categories": [
         "architecture",
-        "data-modeling",
         "blockchain"
       ],
       "authors": [
@@ -889,7 +887,7 @@
       ],
       "categories": [
         "architecture",
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "relatedPosts": [
@@ -915,7 +913,7 @@
       "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
       "date": "2022-11-21",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "data-alliance"
       ],
       "authors": [
@@ -951,7 +949,7 @@
         "James Gimourginas"
       ],
       "categories": [
-        "realtime-data-sharing"
+        "real-time-data-sharing"
       ],
       "relatedPosts": [
         "2022-05-02-what-is-real-time-data-sharing",
@@ -1222,8 +1220,7 @@
       "date": "2022-10-14",
       "categories": [
         "concepts",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -1239,8 +1236,7 @@
         "architecture",
         "concepts",
         "tutorials",
-        "product",
-        "data-modeling"
+        "product"
       ],
       "authors": [
         "Francine Klein"
@@ -1269,7 +1265,7 @@
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
       "date": "2022-10-26",
       "categories": [
-        "realtime-data-sharing",
+        "real-time-data-sharing",
         "blockchain",
         "data-alliance"
       ],
