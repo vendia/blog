@@ -103,6 +103,36 @@
       ]
     }
   ],
+  "security": [
+    {
+      "file": "/posts/2022-10-21-api-security-graphql.md",
+      "draft": false,
+      "title": "Understanding API security with GraphQL",
+      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
+      "date": "2022-10-21T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "smart-apis"
+      ],
+      "relatedPosts": [
+        "2022-05-27-apis-for-data",
+        "2021-05-10-dont-rip-and-replace-integrate",
+        "2022-09-15-api-design-best-practices"
+      ],
+      "tags": [
+        "security"
+      ],
+      "seo": {
+        "title": "Understanding API security with GraphQL",
+        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:45:47.542Z"
+    }
+  ],
   "supply chain, manufacturing": [
     {
       "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
