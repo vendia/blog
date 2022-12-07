@@ -185,6 +185,31 @@
       ]
     },
     {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "draft": false,
+      "title": "13 features you need to evaluate an enterprise blockchain platform",
+      "description": "When evaluating an enterprise-grade blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+      "date": "2022-02-18T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-09-15-api-design-best-practices",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "seo": {
+        "description": "When evaluating an enterprise-grade blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+        "keywords": "blockchain, failed blockchain, enterprise blockchain",
+        "title": "13 features you need to evaluate an enterprise blockchain platform"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:49:07.256Z"
+    },
+    {
       "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
       "draft": true,
       "title": "The global supply chain is broken — can blockchain help?",
