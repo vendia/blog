@@ -1709,6 +1709,31 @@
       "authors": [
         "Brian McNamara"
       ]
+    },
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "draft": false,
+      "title": "NEW Vendia Share indexing feature",
+      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
+      "date": "2021-03-10T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-07-07-low-latency-operations-metrics",
+        "2022-03-21-synchronous-mutations",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "title": "What's new in Vendia Share? Customer-selected index feature",
+        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:59:46.041Z"
     }
   ],
   "data-modeling": [
@@ -2107,6 +2132,33 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:38:48.273Z"
+    }
+  ],
+  "features": [
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "draft": false,
+      "title": "NEW Vendia Share indexing feature",
+      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
+      "date": "2021-03-10T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-07-07-low-latency-operations-metrics",
+        "2022-03-21-synchronous-mutations",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "title": "What's new in Vendia Share? Customer-selected index feature",
+        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:59:46.041Z"
     }
   ]
 }
