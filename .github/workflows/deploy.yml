@@ -96,6 +96,8 @@ jobs:
     needs: setup
     if: ${{needs.setup.outputs.dataChanged == 'true' || github.event.inputs.environment != ''}}
     timeout-minutes: 4
+    outputs:
+      warningContent: ${{ steps.setWarningEnv.outputs.warningContent }}
     steps:
     - uses: actions/checkout@v2.3.2
     # Debug
@@ -211,7 +213,7 @@ jobs:
           echo "${{ needs.setup.outputs.changedFiles }}"
           echo "Changed markdown files:"
           echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
-          echo "Warnings:"
+          echo "Md Warnings:"
           echo "${{ needs.test.outputs.warningContent }}"
           echo "─────────────────────────────────────────────────"
       # Get the name of the current branch
