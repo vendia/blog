@@ -1713,42 +1713,59 @@
       ]
     }
   ],
-  "david-brown": [
+  "vendia": [
     {
       "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
       "draft": false,
-      "title": "Announcing new low latency operations and Vendia Metrics",
-      "description": "Announcing two new features on Vendia Share: Low latency operations for better read after write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes",
-      "date": "2022-07-07",
+      "title": "NEW low latency operations and Vendia Metrics",
+      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07T00:00:00.000Z",
       "authors": [
-        "David Brown"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-21-synchronous-mutations.md",
-      "draft": false,
-      "title": "Announcing Synchronous Mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
-      "date": "2022-03-21",
+        "Vendia"
+      ],
       "categories": [
+        "features",
         "product"
       ],
-      "authors": [
-        "David Brown"
-      ]
+      "relatedPosts": [
+        "2021-02-03-welcome-to-developer-preview",
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "seo": {
+        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
+        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T01:05:21.832Z"
     },
     {
-      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "file": "/posts/2020-11-05-track-and-trace.md",
       "draft": false,
-      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
-      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09",
+      "title": "Track and trace using Vendia Unis and Blobs",
+      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
+      "date": "2020-11-05T00:00:00.000Z",
       "authors": [
-        "David Brown"
+        "Vendia"
       ],
       "categories": [
-        "announcements"
-      ]
+        "architecture"
+      ],
+      "relatedPosts": [
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
+        "2021-02-18-sharing-files-in-a-uni",
+        "2021-02-01-decentralization"
+      ],
+      "tags": [
+        "supply chain, manufacturing, traceability, uni"
+      ],
+      "seo": {
+        "title": "Track and trace using Vendia Unis and Blobs",
+        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
+        "keywords": "supply chain traceability, track and trace"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:53:54.828Z"
     }
   ],
   "joydeep-das": [
@@ -1871,6 +1888,34 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:38:48.273Z"
+    }
+  ],
+  "david-brown": [
+    {
+      "file": "/posts/2022-03-21-synchronous-mutations.md",
+      "draft": false,
+      "title": "Announcing Synchronous Mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
+      "date": "2022-03-21",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "David Brown"
+      ]
+    },
+    {
+      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "draft": false,
+      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
+      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
+      "date": "2021-12-09",
+      "authors": [
+        "David Brown"
+      ],
+      "categories": [
+        "announcements"
+      ]
     }
   ],
   "brian-mcnamara": [
@@ -2080,36 +2125,6 @@
         "Ryan Scott Brown"
       ],
       "date": "2020-11-16"
-    }
-  ],
-  "vendia": [
-    {
-      "file": "/posts/2020-11-05-track-and-trace.md",
-      "draft": false,
-      "title": "Track and trace using Vendia Unis and Blobs",
-      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
-      "date": "2020-11-05T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "architecture"
-      ],
-      "relatedPosts": [
-        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
-        "2021-02-18-sharing-files-in-a-uni",
-        "2021-02-01-decentralization"
-      ],
-      "tags": [
-        "supply chain, manufacturing, traceability, uni"
-      ],
-      "seo": {
-        "title": "Track and trace using Vendia Unis and Blobs",
-        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
-        "keywords": "supply chain traceability, track and trace"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:53:54.828Z"
     }
   ],
   "ryan-green": [
