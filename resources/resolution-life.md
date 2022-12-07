@@ -20,7 +20,7 @@ components:
       Resolution Llife, needed to overcome hardships around their reinsurance processes. It was difficult for Resolution Life to share documents with its own departments and with partners while keeping full lineage of changes over time. With insurers assigning the liability of paying customers to other insurance companies, it’s not uncommon for multiple reinsurers to take on this responsibility. But, because many life product insurers employ legacy technologies, they commonly experience problems updating information across their multiple reinsurers. Consequently, there’s a lack of trust in each other’s systems, and partners suffer from the inability to maintain accurate information for assigning, assessing, and paying for liability. 
 
 
-      Ben Murphy, Chief Digital Officer, summarizes the problem:
+      Ben Murphy, Head of Data and Reinsurance Technology, summarizes the problem:
 
 
       <BlockQuote text="“You never have trust in the data throughout the chain because you don't know what's happened from start to end. You don't know what the true version of the truth is because, in the end, you may not have seen the original data. And, even if you're in the middle, you don't know if the others are using the same version that you are.”
@@ -111,5 +111,5 @@ seo:
     distributed ledger design while celebrating the solution’s new single source
     of truth across reinsurance partners.
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-07T16:28:40.895Z
+updatedAt: 2022-12-07T17:11:48.286Z
 ---
