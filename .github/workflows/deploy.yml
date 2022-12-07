@@ -148,7 +148,7 @@ jobs:
     # If tests have warnings, add message
     - name: Add test warning status comment to PR
       if: ${{ success() && steps.my_string.outputs.warningContent != '' }}
-      id: status_comment_failure
+      id: status_comment_warning
       uses: marocchino/sticky-pull-request-comment@v1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
