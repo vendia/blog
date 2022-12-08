@@ -37,7 +37,7 @@
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367263/Work_05_zohavr.png"
     },
     {
-      "slug": "real-time-data-sharing",
+      "slug": "realtime-data-sharing",
       "description": "Real-time data sharing | Bust up myths and rethink what’s possible for your team with multi-party, real-time data sharing",
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670366427/Tech_12_lhpkwb.png"
     },
@@ -77,6 +77,6 @@
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670368463/Work_01_i04ycn.png"
     }
   ],
-  "updatedAt": "2022-12-06T23:24:04.680Z",
+  "updatedAt": "2022-12-08T23:30:15.913Z",
   "updatedBy": "alexa-vendia"
 }
