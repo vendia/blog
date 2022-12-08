@@ -121,6 +121,8 @@ seo:
   noindex: false
   title: Cookie policy
   description: Vendia's cookie policy.
+createdBy: David Wells
+createdAt: 2022-12-08T00:49:02.972Z
 updatedBy: David Wells
 updatedAt: 2022-12-08T00:49:02.972Z
 ---

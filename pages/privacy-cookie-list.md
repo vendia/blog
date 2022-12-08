@@ -415,6 +415,8 @@ components:
 seo:
   noindex: false
   title: Vendia Cookie List
+createdBy: David Wells
+createdAt: 2022-12-08T00:46:52.240Z
 updatedBy: David Wells
 updatedAt: 2022-12-08T00:46:52.240Z
 ---

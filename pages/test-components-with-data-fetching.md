@@ -19,6 +19,8 @@ components:
       - Aerotrax Technologies
     intro:
       title: Logos with custom list
+createdBy: Hugues Tennier
+createdAt: 2022-11-21T03:40:53.309Z
 updatedBy: Hugues Tennier
 updatedAt: 2022-11-21T03:40:53.309Z
 ---

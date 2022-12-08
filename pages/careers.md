@@ -81,6 +81,8 @@ components:
     intro:
       title: ""
       text: ""
+createdBy: Hugues Tennier
+createdAt: 2022-11-29T21:34:09.623Z
 updatedBy: Hugues Tennier
 updatedAt: 2022-11-29T21:34:09.623Z
 ---

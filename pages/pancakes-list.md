@@ -223,6 +223,8 @@ components:
 seo:
   title: Title
   description: Description
+createdBy: Hugues Tennier
+createdAt: 2022-11-28T15:58:16.392Z
 updatedBy: Hugues Tennier
 updatedAt: 2022-11-28T15:58:16.392Z
 ---
