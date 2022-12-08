@@ -1837,6 +1837,34 @@
       "updatedAt": "2022-12-07T19:12:29.677Z"
     },
     {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering, SQL, event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z"
+    },
+    {
       "file": "/posts/2020-11-05-track-and-trace.md",
       "draft": false,
       "title": "Track and trace using Vendia Unis and Blobs",
@@ -2188,18 +2216,6 @@
         "Tim Wagner"
       ],
       "date": "2020-12-07"
-    }
-  ],
-  "ryan-scott-brown": [
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "Tools That Shape Products",
-      "description": "How do the tools we have available shape what we build?",
-      "authors": [
-        "Ryan Scott Brown"
-      ],
-      "date": "2020-11-16"
     }
   ],
   "ryan-green": [
