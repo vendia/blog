@@ -3,10 +3,6 @@
     "file": "/pages/careers.md",
     "draft": false
   },
-  "privacy/cookie-policy": {
-    "file": "/pages/cookie-policy-new.md",
-    "draft": false
-  },
   "foo/bar": {
     "file": "/pages/default-title.md",
     "draft": true
@@ -23,12 +19,16 @@
     "file": "/pages/pancakes-list.md",
     "draft": true
   },
-  "privacy/cookies-list": {
-    "file": "/pages/privacy-cookies-list.md",
+  "privacy/cookie-list": {
+    "file": "/pages/privacy-cookie-list.md",
     "draft": false
   },
-  "privacy-policy-new": {
-    "file": "/pages/privacy-policy-new.md",
+  "privacy/cookie-policy": {
+    "file": "/pages/privacy-cookie-policy.md",
+    "draft": false
+  },
+  "privacy/policy": {
+    "file": "/pages/privacy-policy.md",
     "draft": false
   },
   "reconciliationless": {
