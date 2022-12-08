@@ -96,6 +96,8 @@ jobs:
     needs: setup
     if: ${{needs.setup.outputs.dataChanged == 'true' || github.event.inputs.environment != ''}}
     timeout-minutes: 4
+    outputs:
+      warningContent: ${{ steps.setWarningEnv.outputs.warningContent }}
     steps:
     - uses: actions/checkout@v2.3.2
     # Debug
@@ -114,6 +116,28 @@ jobs:
     - uses: bahmutov/npm-install@v1
     # Run tests
     - run: npm t
+    # Get information about test warnings
+    - id: setWarningEnv
+      run: |
+        # Trim extra quotes and leading spaces from error json & trim out github worker path
+        cleanWarnings=$(cat ./warnings.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
+        echo "⚠️ Validation Warning details:"
+        echo "$cleanWarnings"
+        WARNING_OUTPUT=''
+        if [ -n "${cleanWarnings}" ]; then
+          echo 'TEST_WARNINGS_JSON<<EOF' >> $GITHUB_ENV
+          echo "**⚠️ Validation Warnings found:**" >> $GITHUB_ENV
+          echo "$cleanWarnings" >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+          warnings=$'**⚠️ Validation Warnings found:**\n\n'
+          warnings+="$cleanWarnings"
+          WARNING_OUTPUT="${warnings//'%'/'%25'}"
+          WARNING_OUTPUT="${WARNING_OUTPUT//$'\n'/'%0A'}"
+          WARNING_OUTPUT="${WARNING_OUTPUT//$'\r'/'%0D'}"
+        else
+          echo "No md warnings found"
+        fi
+        echo "::set-output name=warningContent::$WARNING_OUTPUT"
     # Get information about failed tests
     - id: setErrorEnv
       if: failure()
@@ -122,7 +146,7 @@ jobs:
         cleanErrors=$(cat ./errors.json | jq '.[]' | sed -e 's/^"//' -e 's/"$//' | sed 's/^[ \t]*//' | sed 's/\/home\/runner\/work\/blog//')
         echo "Failure details:"
         echo "$cleanErrors"
-        echo 'JSON_RESPONSE<<EOF' >> $GITHUB_ENV
+        echo 'TEST_ERRORS_JSON<<EOF' >> $GITHUB_ENV
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
     # If tests failed, add message
@@ -135,13 +159,15 @@ jobs:
         number: ${{ github.event.issue.number }}
         header: statusComment
         message: |
-          ❌ Oh snap! Validation failed! (╯°□°)╯︵ ┻━┻
+          ❌ Oh snap! Content Validation failed! (╯°□°)╯︵ ┻━┻
 
           ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
+          ${{ env.TEST_WARNINGS_JSON }}
+
           **Errors found:**
 
-          ${{ env.JSON_RESPONSE }}
+          ${{ env.TEST_ERRORS_JSON }}
 
           For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
 
@@ -171,6 +197,8 @@ jobs:
           echo "${{ needs.setup.outputs.changedFiles }}"
           echo "Changed markdown files:"
           echo "${{ needs.setup.outputs.changedMarkdownFiles }}"
+          echo "Validation Warnings:"
+          echo "${{ needs.test.outputs.warningContent }}"
           echo "─────────────────────────────────────────────────"
       # Get the name of the current branch
       - name: Get branch name
@@ -273,7 +301,7 @@ jobs:
           number: ${{ github.event.issue.number }}
           header: statusComment
           message: |
-            ⚠️ Preview deploying to stage "${{ steps.deploy-info.outputs.deployContext }}"... Should be live soon.
+            ⌛️ Preview deploying to stage "${{ steps.deploy-info.outputs.deployContext }}"... Should be live soon.
 
             Running CI job in https://github.com/vendia/site/actions/workflows/ci.yml
 
@@ -282,6 +310,8 @@ jobs:
             ```graphql
             ${{ steps.formatFileNames.outputs.files }}
             ```
+
+            ${{ needs.test.outputs.warningContent }}
 
       # Deploy the site and wait
       - name: Run site deploy in vendia/site repo
@@ -327,6 +357,8 @@ jobs:
             ${{ steps.formatFileNames.outputs.files }}
             ```
 
+            ${{ needs.test.outputs.warningContent }}
+
             **PR Tips**
 
             <details>
@@ -359,4 +391,8 @@ jobs:
           message: |
             ❌ Site deployment failed!
 
+            Next.js site failed to build.
+
             See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
+
+            ${{ needs.test.outputs.warningContent }}

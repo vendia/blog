@@ -17,7 +17,10 @@ process.env.CI = true
 
 const cwd = process.cwd()
 const ERROR_FILE_PATH = path.resolve(cwd, 'errors.json')
-const DESCRIPTION_MAX_LENGTH = 300 // should be 200
+const WARNING_FILE_PATH = path.resolve(cwd, 'warnings.json')
+const DESCRIPTION_MAX_LENGTH = 200 // should be 200
+const ALLOW_LONGER_DESCRIPTIONS = true
+const ALLOW_ARBITRARY_CATEGORIES = true
 
 if (process.env.CI) {
   console.log('clear errors')
@@ -69,6 +72,7 @@ test('Verify files in correct place', async () => {
 })
 
 test('Post validation', async () => {
+  let warnings = []
   const [ mdData, errors ] = await getMarkdownData(GLOB_PATTERN)
   const allAuthorsData = await getAuthors()
   const allAuthors = allAuthorsData.authors
@@ -144,9 +148,8 @@ test('Post validation', async () => {
 
     /* Descriptions must less than 200 characters */
     if (description && description.length > DESCRIPTION_MAX_LENGTH) {
-      errors.push(`"description" field too long in ${file}
-    It is currently ${description.length} characters long
-    Must be under ${DESCRIPTION_MAX_LENGTH} characters long`)
+      const messages = (ALLOW_LONGER_DESCRIPTIONS) ? warnings: errors
+      messages.push(`"description" field must be under ${DESCRIPTION_MAX_LENGTH} characters. Fix "description" in ${nicePath(file)} that is ${description.length} characters.`)
     }
 
     /* File names must be lowercase */
@@ -160,9 +163,9 @@ test('Post validation', async () => {
     if (categories) {
       data.categories.forEach((cat) => {
         if (!allCategorySlugs.includes(cat)) {
-          errors.push(`Invalid category "${cat}" in ${file}. 
-Must be one of ${JSON.stringify(allCategorySlugs)}
-Add categories in the ./settings/categories.json file`)
+          const catMessage = `Invalid category "${cat}" in ${nicePath(file)}. Must be one of ${JSON.stringify(allCategorySlugs)}. Add categories in the ./settings/categories.json file`
+          const messages = (ALLOW_ARBITRARY_CATEGORIES) ? warnings : errors
+          messages.push(catMessage)
         }
       })
     }
@@ -189,6 +192,7 @@ Add categories in the ./settings/categories.json file`)
       }
     }
   })
+  logWarnings(warnings)
   throwErrors(errors)
   assert.is(errors.length, 0)
 })
@@ -239,13 +243,17 @@ function validateAuthorFields(obj1, obj2) {
 
 const copy = '█ ✘ VALIDATION ERROR ───────────────────────────'
 const endz = '────────────────────────────────────────────────'
-const errorHeading = `
+
+function headerLog(copy) {
+  return `
 
 ████████████████████████████████████████████████
 ${copy}
 ████████████████████████████████████████████████
 
 `
+}
+
 function throwErrors(errors = []){
   if (!errors.length) return
   
@@ -260,39 +268,75 @@ function throwErrors(errors = []){
   })
   // Write out to file in github actions to add errors to the PR
   if (process.env.CI) {
-    saveErrors(messages)
+    saveFile(ERROR_FILE_PATH, messages)
   }
-  throw new Error(`${errorHeading}
+  throw new Error(`${headerLog(copy)}
 Markdown Errors!
 ${messages.join('\n')}
 \n${endz}`)
 }
 
-function saveErrors(messages) {
-  const existingErrors = readErrors()
+function logWarnings(warnings = []) {
+  if (!warnings.length) return
+  
+  const messages = warnings.map((err) => {
+    if (typeof err === 'object') {
+      if (err.message || err.error) {
+        return `  - ${err.message || err.error}\n${JSON.stringify(err, null, 2)}`
+      }
+      return JSON.stringify(err, null, 2)
+    }
+    return `  - ${err}`
+  })
+  // Write out to file in github actions to add errors to the PR
+  if (process.env.CI) {
+    saveFile(WARNING_FILE_PATH, messages)
+  }
+  console.log(`${headerLog('█ VALIDATION WARNINGS ──────────────────────────')}
+Markdown Warnings!
+${messages.join('\n')}
+\n${endz}`)
+}
+
+function nicePath(filePath = '') {
+  return filePath.replace(cwd, '')
+}
+
+function saveFile(filePath, messages) {
+  const existingErrors = readAndParseFile(filePath)
   const allErrors = existingErrors.concat(messages)
   try {
-    fs.writeFileSync(ERROR_FILE_PATH, JSON.stringify(allErrors, null, 2))
+    fs.writeFileSync(filePath, JSON.stringify(allErrors, null, 2))
   } catch (e) {}
 }
 
-function readErrors() {
-  let errors = []
+function readAndParseFile(filePath) {
+  let data = []
   try {
-    errors = JSON.parse(fs.readFileSync(ERROR_FILE_PATH, 'utf-8'))
+    data = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
   } catch (e) {}
-  return errors
+  return data
 }
 
 function clearErrors() {
   try {
     fs.unlinkSync(ERROR_FILE_PATH)
+    fs.unlinkSync(WARNING_FILE_PATH)
   } catch (e) {}
 }
 
 test.after(() => {
   if (process.env.CI) {
-    const errors = readErrors()
+    const warnings = readAndParseFile(WARNING_FILE_PATH)
+    if (warnings.length) {
+      console.log()
+      console.log('───────────────────────')
+      console.log('Warnings')
+      console.log(warnings)
+      console.log('───────────────────────')
+      console.log()
+    }
+    const errors = readAndParseFile(ERROR_FILE_PATH)
     if (errors.length) {
       console.log()
       console.log('───────────────────────')

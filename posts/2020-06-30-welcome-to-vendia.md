@@ -23,6 +23,7 @@ updatedAt: 2022-12-06T23:38:48.273Z
 
 **Welcome to Vendia!** Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks. With a name inspired by Venn Diagrams, Vendia arose from two powerful concepts: Public cloud architectures, with their unlimited horizontal scalability, and distributed ledgers, with their ability to replicate data across multiple parties. Our unique combination of these technologies helps companies share code and data with a simplicity and scale never before possible. We recently exited "stealth mode" with our [keynote presentation](https://youtu.be/A1bL4pHuivU) at the AWS Serverless Community Day. Today, we’re excited to announce a seed round investment of $5.1M, led by Neotribe’s Swaroop ‘Kittu’ Kolluri with participation from Correlation Ventures, WestWave Capital, HWVP, Firebolt Ventures, Floodgate and Future\\Perfect Ventures. We’ve learned a lot from our initial customers and we’re excited to start expanding our team so we can deliver even more!
 
+
 Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia at the AWS Serverless Community Day.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6x6SHpkKbuo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
