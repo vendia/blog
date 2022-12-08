@@ -3,7 +3,7 @@
     "file": "/pages/careers.md",
     "draft": false
   },
-  "cookie-policy-new": {
+  "privacy/cookie-policy": {
     "file": "/pages/cookie-policy-new.md",
     "draft": false
   },
@@ -22,6 +22,10 @@
   "pancakes-list": {
     "file": "/pages/pancakes-list.md",
     "draft": true
+  },
+  "privacy/cookies-list": {
+    "file": "/pages/privacy-cookies-list.md",
+    "draft": false
   },
   "privacy-policy-new": {
     "file": "/pages/privacy-policy-new.md",
