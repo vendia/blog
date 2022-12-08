@@ -1694,13 +1694,31 @@
     {
       "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
       "draft": false,
-      "title": "Webcast highlights: The future of CRM data sharing",
-      "description": "We have summed up five highlights from the webcast on CRM data sharing",
-      "date": "2022-06-29",
-      "thumbnail": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:00:56.763Z"
     },
     {
       "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
