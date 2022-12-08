@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /cookie-policy-new
+path: /privacy/cookie-policy
 components:
   - type: Text
     text: >-
@@ -29,7 +29,7 @@ components:
       ### What type of cookies do we use and what is their function?
 
 
-      The specific types of first and third party cookies served through our website and the purposes they perform are listed below. See the complete list of the cookies used by Vendia.
+      The specific types of first and third party cookies served through our website and the purposes they perform are listed below. See the [complete list of the cookies ](https://www.vendia.com/privacy/cookies-list)used by Vendia.
 
 
       1. Essential cookies: These cookies are strictly necessary to provide you with the services available through our website.
@@ -121,6 +121,6 @@ seo:
   noindex: false
   title: Cookie policy
   description: Vendia's cookie policy.
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-08T00:19:24.514Z
+updatedBy: David Wells
+updatedAt: 2022-12-08T00:49:02.972Z
 ---
