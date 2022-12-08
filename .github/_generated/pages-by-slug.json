@@ -3,6 +3,10 @@
     "file": "/pages/careers.md",
     "draft": false
   },
+  "cookie-policy-new": {
+    "file": "/pages/cookie-policy-new.md",
+    "draft": false
+  },
   "foo/bar": {
     "file": "/pages/default-title.md",
     "draft": true
