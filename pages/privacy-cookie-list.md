@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /privacy/cookies-list
+path: /privacy/cookie-list
 components:
   - type: Text
     text: >-

@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /privacy-policy-new
+path: /privacy/policy
 components:
   - type: Text
     text: >-

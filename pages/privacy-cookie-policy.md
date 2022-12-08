@@ -29,7 +29,7 @@ components:
       ### What type of cookies do we use and what is their function?
 
 
-      The specific types of first and third party cookies served through our website and the purposes they perform are listed below. See the [complete list of the cookies ](https://www.vendia.com/privacy/cookies-list)used by Vendia.
+      The specific types of first and third party cookies served through our website and the purposes they perform are listed below. See the [complete list of the cookies ](https://www.vendia.com/privacy/cookie-list)used by Vendia.
 
 
       1. Essential cookies: These cookies are strictly necessary to provide you with the services available through our website.
