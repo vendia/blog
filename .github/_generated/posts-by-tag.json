@@ -107,6 +107,35 @@
       "authors": [
         "Alexa Johnson"
       ]
+    },
+    {
+      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
+      "draft": false,
+      "title": "Obstacles to real-time data sharing",
+      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+      "date": "2022-09-27T00:00:00.000Z",
+      "authors": [
+        "Anders Maul"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-07-20-real-time-data-sharing-solution-elements",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "real-time data sharing"
+      ],
+      "seo": {
+        "title": "Obstacles to real-time data sharing",
+        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-09T19:49:33.872Z"
     }
   ],
   "cloud": [
