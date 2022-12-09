@@ -40,7 +40,7 @@ components:
 
       Worlds colliding: The unstoppable impact of analytical and operational data sharing at scale with [Erin Kelly](https://www.linkedin.com/in/erinannkelly/) (SVP of Enterprise Solutions & Strategy, Kraft Analytics Group) and [Francine Klein](https://www.linkedin.com/in/francine-klein-31a99834/) (Sr. Solutions Architect, Vendia)
     formTitle: Get on the list
-    formId: bd46a7df-ec96-414b-8d80-9b077aa24cf1
+    formId: 9748c844-6c96-4e39-a9ed-2ec2b99eed95
     theme: White
 resourceType: podcasts
 seo:
@@ -48,5 +48,5 @@ seo:
   description: Real-talk on real-time data sharing.  A podcast for leaders that
     believe data sharing will unlock the next wave of innovation.
 updatedBy: David Wells
-updatedAt: 2022-12-06T05:52:05.923Z
+updatedAt: 2022-12-09T00:32:12.386Z
 ---
