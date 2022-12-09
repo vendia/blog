@@ -129,7 +129,7 @@
     },
     {
       "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
-      "draft": false,
+      "draft": true,
       "title": "Top challenges with data traceability",
       "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions.",
       "date": "2022-12-08T00:00:00.000Z",
@@ -152,8 +152,8 @@
         "keywords": "data traceability, data lineage",
         "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions."
       },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-09T00:06:43.325Z"
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-12-09T02:40:56.721Z"
     },
     {
       "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
@@ -470,7 +470,7 @@
   "concepts": [
     {
       "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
-      "draft": false,
+      "draft": true,
       "title": "Top challenges with data traceability",
       "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions.",
       "date": "2022-12-08T00:00:00.000Z",
@@ -493,8 +493,8 @@
         "keywords": "data traceability, data lineage",
         "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions."
       },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-09T00:06:43.325Z"
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-12-09T02:40:56.721Z"
     },
     {
       "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
