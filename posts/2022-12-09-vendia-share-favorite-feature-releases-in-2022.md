@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Vendia Share: Favorite feature releases in 2022"
 description: "Watch Francine Klein, Sr. Solutions Architect, walk through three
   of her favorite Vendia Share features released in 2022: Immutable ledger,
@@ -24,7 +24,7 @@ seo:
   title: "Vendia Share: Favorite feature releases in 2022"
   keywords: Vendia Share features
 updatedBy: alexa-vendia
-updatedAt: 2022-12-09T17:18:16.476Z
+updatedAt: 2022-12-09T17:18:24.777Z
 ---
 
 Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.
