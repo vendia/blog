@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: resource
 excludeFromIndex: true
 slug: smart-apis
@@ -27,5 +27,5 @@ seo:
     consistent, correct, and up-to-date.
 
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-09T23:53:59.852Z
+updatedAt: 2022-12-09T23:57:40.247Z
 ---
