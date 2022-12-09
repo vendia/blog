@@ -1,7 +1,7 @@
 ---
 draft: false
 template: resource
-excludeFromIndex: false
+excludeFromIndex: true
 slug: resolution-life
 date: 2022-12-07
 components:
@@ -111,5 +111,5 @@ seo:
     distributed ledger design while celebrating the solution’s new single source
     of truth across reinsurance partners.
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-07T18:10:15.920Z
+updatedAt: 2022-12-09T23:53:35.704Z
 ---
