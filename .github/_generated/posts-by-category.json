@@ -917,28 +917,33 @@
   "features": [
     {
       "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
-      "draft": true,
+      "draft": false,
       "title": "Vendia Share: Favorite feature releases in 2022",
-      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.",
+      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022: Immutable ledger, metrics, and connectors and integrations.",
       "date": "2022-12-06T00:00:00.000Z",
       "authors": [
         "Francine Klein"
       ],
       "categories": [
-        "features"
+        "features",
+        "product"
       ],
       "relatedPosts": [
         "2021-03-10-whats-new-indices",
         "2022-07-07-low-latency-operations-metrics",
         "2021-03-17-whats-new-failed-tx-dlq"
       ],
+      "tags": [
+        "distributed ledger technology, metrics, integrations, video"
+      ],
       "seo": {
         "noindex": false,
-        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.",
-        "title": "Vendia Share: Favorite feature releases in 2022"
+        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022: Immutable ledger, metrics, and connectors and integrations.",
+        "title": "Vendia Share: Favorite feature releases in 2022",
+        "keywords": "Vendia Share features"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-09T00:34:57.163Z"
+      "updatedAt": "2022-12-09T17:18:24.777Z"
     },
     {
       "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
@@ -964,6 +969,325 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T01:05:21.832Z"
+    },
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "draft": false,
+      "title": "NEW Vendia Share indexing feature",
+      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
+      "date": "2021-03-10T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-07-07-low-latency-operations-metrics",
+        "2022-03-21-synchronous-mutations",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "title": "What's new in Vendia Share? Customer-selected index feature",
+        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:59:46.041Z"
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "draft": false,
+      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+      "date": "2021-01-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "features"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "tags": [
+        "quickstart, supply chain traceability, track and trace"
+      ],
+      "seo": {
+        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "keywords": "track and trace, supply chain traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T19:12:29.677Z"
+    }
+  ],
+  "product": [
+    {
+      "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
+      "draft": false,
+      "title": "Vendia Share: Favorite feature releases in 2022",
+      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022: Immutable ledger, metrics, and connectors and integrations.",
+      "date": "2022-12-06T00:00:00.000Z",
+      "authors": [
+        "Francine Klein"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "tags": [
+        "distributed ledger technology, metrics, integrations, video"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022: Immutable ledger, metrics, and connectors and integrations.",
+        "title": "Vendia Share: Favorite feature releases in 2022",
+        "keywords": "Vendia Share features"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-09T17:18:24.777Z"
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
+      "draft": false,
+      "title": "Guide to real-time data sharing vendor types",
+      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
+      "date": "2022-10-18",
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
+      "draft": false,
+      "title": "Your Customer 360 solution isn’t really 360",
+      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
+      "date": "2022-10-14",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-22-real-time-everything.md",
+      "draft": false,
+      "title": "Real-time “everything” with operational and analytics data",
+      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
+      "date": "2022-09-22",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials",
+        "product"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-14-atos-success-story.md",
+      "draft": false,
+      "title": "How Atos streamlined the reinsurance process and built trust among financial services partners",
+      "description": "Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.",
+      "date": "2022-09-14",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-31-new-serverless-pricing.md",
+      "draft": false,
+      "title": "Introducing developer-friendly pricing with our new Individual Plan",
+      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
+      "date": "2022-08-31",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Jake Partusch"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
+      "draft": false,
+      "title": "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions",
+      "description": "Custom modeling and standard access platforms come together to make next-gen business APIs.",
+      "date": "2022-08-26",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-24-vendia-share-enterprise-file-sharing-platform.md",
+      "draft": false,
+      "title": "Q+A: Understanding Vendia Share’s approach to file sharing",
+      "description": "In Part 3 of our series on file sharing, we answer the top questions asked about controlled file sharing for enterprises and real-time file sharing outcomes for enterprises.",
+      "date": "2022-08-24",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
+      "draft": false,
+      "title": "Why public cloud services aren’t enough for file sharing",
+      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
+      "date": "2022-08-17",
+      "categories": [
+        "product",
+        "architecture"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-15-data-lakes-file-sharing-use-cases.md",
+      "draft": false,
+      "title": "Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing",
+      "description": "Understand the sharing scenarios for multimedia and data-centric files across organizations, regions, and clouds in healthcare, automotive, semicon, and construction",
+      "date": "2022-08-15",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-12-vendia-share-building-blocks.md",
+      "draft": false,
+      "title": "The basic building blocks of Vendia Share",
+      "description": "How Vendia Share combines API, operational database, and blockchain technology to resolve the limitations of each and deliver serverless, real-time data sharing at scale",
+      "date": "2022-08-12",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
+      "draft": false,
+      "title": "Venn diagramming Vendia Share",
+      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
+      "date": "2022-08-04",
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "Q+A: How serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
+      "draft": false,
+      "title": "NEW low latency operations and Vendia Metrics",
+      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-02-03-welcome-to-developer-preview",
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "seo": {
+        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
+        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T01:05:21.832Z"
+    },
+    {
+      "file": "/posts/2022-03-21-synchronous-mutations.md",
+      "draft": false,
+      "title": "Announcing Synchronous Mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
+      "date": "2022-03-21",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "David Brown"
+      ]
+    },
+    {
+      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
+      "draft": false,
+      "title": "Why we combined GraphQL and a serverless distributed ledger",
+      "description": "Learn why Vendia selected GraphQL as Vendia' Share's primary interface and how it can improve your development experience with Vendia Share with context from Brian McNamara, Sr. Solutions Architect.",
+      "date": "2022-01-18",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Brian McNamara"
+      ]
     },
     {
       "file": "/posts/2021-03-10-whats-new-indices.md",
@@ -2059,295 +2383,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T18:59:43.875Z"
-    }
-  ],
-  "product": [
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "draft": false,
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
-      "draft": false,
-      "title": "Guide to real-time data sharing vendor types",
-      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
-      "date": "2022-10-18",
-      "categories": [
-        "product",
-        "concepts"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
-      "draft": false,
-      "title": "Your Customer 360 solution isn’t really 360",
-      "description": "Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)",
-      "date": "2022-10-14",
-      "categories": [
-        "concepts",
-        "product"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-22-real-time-everything.md",
-      "draft": false,
-      "title": "Real-time “everything” with operational and analytics data",
-      "description": "Break down the walls between operational and analytics for real-time data sharing, starting with a shared love language to translate between JSON and SQL.",
-      "date": "2022-09-22",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials",
-        "product"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-14-atos-success-story.md",
-      "draft": false,
-      "title": "How Atos streamlined the reinsurance process and built trust among financial services partners",
-      "description": "Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.",
-      "date": "2022-09-14",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-31-new-serverless-pricing.md",
-      "draft": false,
-      "title": "Introducing developer-friendly pricing with our new Individual Plan",
-      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
-      "date": "2022-08-31",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Jake Partusch"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
-      "draft": false,
-      "title": "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions",
-      "description": "Custom modeling and standard access platforms come together to make next-gen business APIs.",
-      "date": "2022-08-26",
-      "categories": [
-        "concepts",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-24-vendia-share-enterprise-file-sharing-platform.md",
-      "draft": false,
-      "title": "Q+A: Understanding Vendia Share’s approach to file sharing",
-      "description": "In Part 3 of our series on file sharing, we answer the top questions asked about controlled file sharing for enterprises and real-time file sharing outcomes for enterprises.",
-      "date": "2022-08-24",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
-      "draft": false,
-      "title": "Why public cloud services aren’t enough for file sharing",
-      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
-      "date": "2022-08-17",
-      "categories": [
-        "product",
-        "architecture"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-15-data-lakes-file-sharing-use-cases.md",
-      "draft": false,
-      "title": "Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing",
-      "description": "Understand the sharing scenarios for multimedia and data-centric files across organizations, regions, and clouds in healthcare, automotive, semicon, and construction",
-      "date": "2022-08-15",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-12-vendia-share-building-blocks.md",
-      "draft": false,
-      "title": "The basic building blocks of Vendia Share",
-      "description": "How Vendia Share combines API, operational database, and blockchain technology to resolve the limitations of each and deliver serverless, real-time data sharing at scale",
-      "date": "2022-08-12",
-      "categories": [
-        "concepts",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
-      "draft": false,
-      "title": "Venn diagramming Vendia Share",
-      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
-      "date": "2022-08-04",
-      "categories": [
-        "architecture",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
-      "draft": false,
-      "title": "NEW low latency operations and Vendia Metrics",
-      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
-      "date": "2022-07-07T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-02-03-welcome-to-developer-preview",
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "seo": {
-        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
-        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T01:05:21.832Z"
-    },
-    {
-      "file": "/posts/2022-03-21-synchronous-mutations.md",
-      "draft": false,
-      "title": "Announcing Synchronous Mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
-      "date": "2022-03-21",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "David Brown"
-      ]
-    },
-    {
-      "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
-      "draft": false,
-      "title": "Why we combined GraphQL and a serverless distributed ledger",
-      "description": "Learn why Vendia selected GraphQL as Vendia' Share's primary interface and how it can improve your development experience with Vendia Share with context from Brian McNamara, Sr. Solutions Architect.",
-      "date": "2022-01-18",
-      "categories": [
-        "concepts",
-        "product"
-      ],
-      "authors": [
-        "Brian McNamara"
-      ]
-    },
-    {
-      "file": "/posts/2021-03-10-whats-new-indices.md",
-      "draft": false,
-      "title": "NEW Vendia Share indexing feature",
-      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
-      "date": "2021-03-10T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-07-07-low-latency-operations-metrics",
-        "2022-03-21-synchronous-mutations",
-        "2021-03-17-whats-new-failed-tx-dlq"
-      ],
-      "seo": {
-        "title": "What's new in Vendia Share? Customer-selected index feature",
-        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:59:46.041Z"
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-      "date": "2021-01-25T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "features"
-      ],
-      "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2021-03-10-whats-new-indices",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "tags": [
-        "quickstart, supply chain traceability, track and trace"
-      ],
-      "seo": {
-        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-        "keywords": "track and trace, supply chain traceability"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z"
     }
   ],
   "tutorials": [
