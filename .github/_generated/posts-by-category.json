@@ -103,7 +103,7 @@
   "real-time-data-sharing": [
     {
       "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
-      "draft": true,
+      "draft": false,
       "title": "5 patterns for successful data traceability",
       "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
       "date": "2022-12-08T00:00:00.000Z",
@@ -125,7 +125,7 @@
         "title": "5 patterns for successful data traceability"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T21:30:40.004Z"
+      "updatedAt": "2022-12-09T00:43:06.979Z"
     },
     {
       "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
@@ -384,7 +384,7 @@
   "guidance": [
     {
       "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
-      "draft": true,
+      "draft": false,
       "title": "5 patterns for successful data traceability",
       "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
       "date": "2022-12-08T00:00:00.000Z",
@@ -406,7 +406,7 @@
         "title": "5 patterns for successful data traceability"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T21:30:40.004Z"
+      "updatedAt": "2022-12-09T00:43:06.979Z"
     },
     {
       "file": "/posts/2022-09-15-api-design-best-practices.md",
