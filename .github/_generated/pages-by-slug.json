@@ -27,6 +27,10 @@
     "file": "/pages/privacy-cookie-policy.md",
     "draft": false
   },
+  "privacy-policy-new": {
+    "file": "/pages/privacy-policy-new.md",
+    "draft": false
+  },
   "privacy/policy": {
     "file": "/pages/privacy-policy.md",
     "draft": false
