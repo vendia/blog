@@ -914,6 +914,112 @@
       ]
     }
   ],
+  "features": [
+    {
+      "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
+      "draft": true,
+      "title": "Vendia Share: Favorite feature releases in 2022",
+      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.",
+      "date": "2022-12-06T00:00:00.000Z",
+      "authors": [
+        "Francine Klein"
+      ],
+      "categories": [
+        "features"
+      ],
+      "relatedPosts": [
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.",
+        "title": "Vendia Share: Favorite feature releases in 2022"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-09T00:34:57.163Z"
+    },
+    {
+      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
+      "draft": false,
+      "title": "NEW low latency operations and Vendia Metrics",
+      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-02-03-welcome-to-developer-preview",
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "seo": {
+        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
+        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T01:05:21.832Z"
+    },
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "draft": false,
+      "title": "NEW Vendia Share indexing feature",
+      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
+      "date": "2021-03-10T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-07-07-low-latency-operations-metrics",
+        "2022-03-21-synchronous-mutations",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "title": "What's new in Vendia Share? Customer-selected index feature",
+        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:59:46.041Z"
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "draft": false,
+      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+      "date": "2021-01-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "features"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "tags": [
+        "quickstart, supply chain traceability, track and trace"
+      ],
+      "seo": {
+        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "keywords": "track and trace, supply chain traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T19:12:29.677Z"
+    }
+  ],
   "blockchain": [
     {
       "file": "/posts/2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient.md",
@@ -2515,87 +2621,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:38:48.273Z"
-    }
-  ],
-  "features": [
-    {
-      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
-      "draft": false,
-      "title": "NEW low latency operations and Vendia Metrics",
-      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
-      "date": "2022-07-07T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-02-03-welcome-to-developer-preview",
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "seo": {
-        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
-        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T01:05:21.832Z"
-    },
-    {
-      "file": "/posts/2021-03-10-whats-new-indices.md",
-      "draft": false,
-      "title": "NEW Vendia Share indexing feature",
-      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
-      "date": "2021-03-10T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-07-07-low-latency-operations-metrics",
-        "2022-03-21-synchronous-mutations",
-        "2021-03-17-whats-new-failed-tx-dlq"
-      ],
-      "seo": {
-        "title": "What's new in Vendia Share? Customer-selected index feature",
-        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:59:46.041Z"
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-      "date": "2021-01-25T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "features"
-      ],
-      "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2021-03-10-whats-new-indices",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "tags": [
-        "quickstart, supply chain traceability, track and trace"
-      ],
-      "seo": {
-        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-        "keywords": "track and trace, supply chain traceability"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z"
     }
   ]
 }

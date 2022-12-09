@@ -984,6 +984,31 @@
       "updatedAt": "2022-12-09T00:06:43.325Z"
     },
     {
+      "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
+      "draft": true,
+      "title": "Vendia Share: Favorite feature releases in 2022",
+      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.",
+      "date": "2022-12-06T00:00:00.000Z",
+      "authors": [
+        "Francine Klein"
+      ],
+      "categories": [
+        "features"
+      ],
+      "relatedPosts": [
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.",
+        "title": "Vendia Share: Favorite feature releases in 2022"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-09T00:34:57.163Z"
+    },
+    {
       "file": "/posts/2022-11-01-venya-do-it-right.md",
       "draft": false,
       "title": "Veny’a doing it right",
