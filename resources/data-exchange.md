@@ -1,6 +1,7 @@
 ---
-draft: false
+draft: true
 template: resource
+excludeFromIndex: true
 slug: data-exchange
 date: 2022-12-01
 components:
@@ -34,6 +35,6 @@ components:
     theme: white
 seo:
   title: Modern, Secure Data Exchange
-updatedBy: David Wells
-updatedAt: 2022-12-06T06:17:37.584Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-09T23:54:27.918Z
 ---
