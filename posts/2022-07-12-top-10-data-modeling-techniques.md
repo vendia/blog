@@ -69,7 +69,7 @@ The `x-vendia-acls` section defines two ACLs, one per entity that requires fine-
 
 There's nothing else to do. Vendia Share's JSON Schema-to-GraphQL compiler will generate an appropriate GraphQL type for the defined ACL and append it to the model of each entity (_e.g._, `Employee` and `Office`) so it is available alongside all other (explicitly defined) fields.
 
-More information about Vendia Share's fine-grained data access controls, expressed as Access Control List (ACL) format, can be found [here](https://www.vendia.com/docs/share/fine-grained-data-permissions) and a detailed example of using them is [here]([https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls)).
+More information about Vendia Share's fine-grained data access controls, expressed as Access Control List (ACL) format, can be found [here](https://www.vendia.com/docs/share/fine-grained-data-permissions) and a detailed example of using them is [here](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls).
 
 ## Approach 3: Define Indexes
 
