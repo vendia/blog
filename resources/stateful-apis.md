@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: resource
 excludeFromIndex: true
 slug: stateful-apis
@@ -25,5 +25,5 @@ seo:
   description: Why API management for businesses remains a challenge - and what we
     can do about it.
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-09T23:54:09.374Z
+updatedAt: 2022-12-09T23:57:29.705Z
 ---
