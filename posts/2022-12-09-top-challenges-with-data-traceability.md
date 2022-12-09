@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Top challenges with data traceability
 description: Get familiar with the historical and modern challenges of data
   traceability, so you can better understand your own (and your data sharing
@@ -23,7 +23,7 @@ seo:
     traceability, so you can better understand your own (and your data sharing
     partners’) data lineage mistakes and solutions.
 updatedBy: alexa-vendia
-updatedAt: 2022-12-09T00:06:14.952Z
+updatedAt: 2022-12-09T00:06:43.325Z
 ---
 
 Solutions that address data traceability are often built outside of the systems in which the business data is generated — [if they’re built at all](https://www.vendia.com/blog/5-patterns-for-successful-data-traceability). Historically, data traceability was tracked in many different ways, and the repositories used to store it (e.g. audit trails, application logs, or secondary databases) and the owners of those systems usually determined how this information was accessed, described, and handled.  
