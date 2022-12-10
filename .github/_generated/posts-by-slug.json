@@ -1,7 +1,7 @@
 {
   "sharing-data-financial-services": {
     "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
-    "draft": false
+    "draft": true
   },
   "5-patterns-for-successful-data-traceability": {
     "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
@@ -9,7 +9,7 @@
   },
   "top-challenges-with-data-traceability": {
     "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
-    "draft": true
+    "draft": false
   },
   "vendia-share-favorite-feature-releases-in-2022": {
     "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
