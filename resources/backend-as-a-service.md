@@ -1,6 +1,7 @@
 ---
-draft: false
+draft: true
 template: resource
+excludeFromIndex: true
 slug: backend-as-a-service
 date: 2022-12-01
 components:
@@ -28,6 +29,6 @@ components:
     theme: white
 seo:
   title: Backend-as-a-Service – The Future of APIs eBook
-updatedBy: David Wells
-updatedAt: 2022-12-06T05:48:14.739Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-10T00:07:32.699Z
 ---
