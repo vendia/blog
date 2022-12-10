@@ -1,6 +1,7 @@
 ---
-draft: false
+draft: true
 template: resource
+excludeFromIndex: true
 slug: eliminate-api-tech-debt
 date: 2022-12-01
 components:
@@ -29,6 +30,6 @@ components:
     theme: white
 seo:
   title: Eliminate API Tech Debt – The Future of APIs eBook
-updatedBy: David Wells
-updatedAt: 2022-12-06T06:18:02.019Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-10T00:19:34.810Z
 ---
