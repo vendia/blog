@@ -28,7 +28,7 @@ components:
     formId: 2ce1b8ce-75bd-407b-8179-bd0eca14faff
     theme: white
 seo:
-  title: Backend-as-a-Service – The Future of APIs eBook
+  title: "White paper: Backend-as-a-Service – The Future of APIs eBook"
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-10T00:15:23.883Z
+updatedAt: 2022-12-10T00:31:29.461Z
 ---
