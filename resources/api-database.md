@@ -28,10 +28,10 @@ components:
     theme: White
 resourceType: white-papers
 seo:
-  title: APIs plus Databases – The Future of APIs eBook
+  title: "White papers: APIs plus databases – The Future of APIs eBook"
   description: "Learn how Vendia Share combines APIs and Databases to automate
     data workflows across your business network. No more point-to-point
     integrations with out of date information. "
-updatedBy: David Wells
-updatedAt: 2022-12-06T05:47:51.466Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-10T00:23:52.644Z
 ---
