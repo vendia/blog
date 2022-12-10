@@ -28,9 +28,9 @@ components:
     theme: White
 resourceType: white-papers
 seo:
-  title: Blockchain in modern financial services data applications
+  title: "White paper: Blockchain in modern financial services data applications"
   description: "Pros and cons of public chains, private chains, and centralized
     solutions for financial data sharing. "
-updatedBy: David Wells
-updatedAt: 2022-12-06T05:48:24.559Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-10T00:29:13.169Z
 ---
