@@ -19,9 +19,9 @@ components:
     theme: white
 resourceType: webcasts
 seo:
-  title: Failed Blockchain
+  title: "Webcast: Failed blockchain and what to do about it"
   description: "Most blockchain projects fail. Learn why and what you can do to
     avoid failure to launch. "
-updatedBy: David Wells
-updatedAt: 2022-12-06T06:18:19.836Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-10T00:27:52.407Z
 ---
