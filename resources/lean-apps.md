@@ -33,8 +33,8 @@ components:
     theme: white
 resourceType: white-papers
 seo:
-  title: Lean Apps Whitepaper
+  title: "White paper: Lean Apps"
   description: "Move over Serverless, the next wave of development is here, and it's lean. "
-updatedBy: David Wells
-updatedAt: 2022-12-06T06:20:06.985Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-10T00:22:12.579Z
 ---
