@@ -433,8 +433,9 @@ components:
     theme: white
 seo:
   noindex: false
-createdBy: Caroll Casbeer
-createdAt: 2022-12-07T22:53:58.013Z
+  keywords: "Privacy Policy "
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-07T22:53:58.013Z
+updatedAt: 2022-12-12T20:49:54.800Z
+createdAt: 2022-12-07T22:53:58.013Z
+createdBy: Caroll Casbeer
 ---
