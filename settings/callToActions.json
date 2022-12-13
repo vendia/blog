@@ -7,8 +7,16 @@
         "label": "Get answers",
         "url": "http://vendia.com/resources/next-gen-blockchain"
       }
+    },
+    {
+      "title": "The Future of APIs",
+      "text": "Turn your “ignorant pipes” into smart, stateful, and secure connectors.",
+      "button": {
+        "label": "Download the eBook",
+        "url": "https://www.vendia.com/resources/smart-apis"
+      }
     }
   ],
-  "updatedAt": "2022-12-13T14:10:37.878Z",
+  "updatedAt": "2022-12-13T14:11:10.345Z",
   "updatedBy": "Hugues Tennier"
 }
