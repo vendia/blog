@@ -22,8 +22,10 @@ seo:
     mission-critical data are well protected.
   keywords: data traceability, data lineage
   title: 5 patterns for successful data traceability
-updatedBy: alexa-vendia
-updatedAt: 2022-12-09T00:43:06.979Z
+callToAction:
+  - What’s a business blockchain?
+updatedBy: Hugues Tennier
+updatedAt: 2022-12-13T16:15:38.941Z
 ---
 
 Given the growing concerns and unexpected [impacts from global health issues](https://www.deloitte.com/content/dam/assets-shared/legacy/docs/perspectives/2022/gx-covid-19-Privacy-Security-in-the-next-normal.pdf) around personally identifiable information (PII) and protected health information (PHI) handling, data traceability needs to be a top concern for Chief Information Officers (CIOs) and Chief Information Security Officers (CISOs). There’s an accelerating [migration ](https://www.vendia.com/blog/decentralization)of corporate data to business partners and SaaS service providers. And the growing volume of business data from automating workflows and applications will only continue to compound.
