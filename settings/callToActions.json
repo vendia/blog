@@ -31,8 +31,24 @@
         "label": "Keep me updated",
         "url": "https://www.vendia.com/resources/circles-of-trust"
       }
+    },
+    {
+      "title": "Supercloud? Poly-cloud? Multi-Cloud? ",
+      "text": "Struggling to share data across clouds, accounts, and regions? Learn how our next-gen platform can bridge the gaps. ",
+      "button": {
+        "label": "Download the guide",
+        "url": "https://www.vendia.com/resources/supercloud"
+      }
+    },
+    {
+      "title": "Vendia Share: what it is and how it works",
+      "text": "Learn how our tech uses automated APIs, cloud databases, and blockchain to create a next-gen solution for data sharing across business networks. ",
+      "button": {
+        "label": "I want to know",
+        "url": "http://vendia.com/resources/resources/3-legged-stool"
+      }
     }
   ],
-  "updatedAt": "2022-12-13T14:11:55.931Z",
+  "updatedAt": "2022-12-13T14:12:45.025Z",
   "updatedBy": "Hugues Tennier"
 }
