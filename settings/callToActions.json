@@ -1,0 +1,14 @@
+{
+  "callToActions": [
+    {
+      "title": "What’s a business blockchain?",
+      "text": "Learn how Vendia Share helps teams build compliant, secure, enterprise-ready blockchains with zero ops. ",
+      "button": {
+        "label": "Get answers",
+        "url": "http://vendia.com/resources/next-gen-blockchain"
+      }
+    }
+  ],
+  "updatedAt": "2022-12-13T14:10:37.878Z",
+  "updatedBy": "Hugues Tennier"
+}
