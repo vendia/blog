@@ -1,12 +1,24 @@
 ---
 draft: false
-title: 'Namespaces, Types, GraphQL Enums, and More!'
-description: 'Changes that will greatly improve data modeling capabilities for our users'
-date: '2021-10-29'
+title: Namespaces, Types, GraphQL Enums, and More!
+description: Changes that will greatly improve data modeling capabilities for our users
+date: 2021-10-29
 tags:
-- Enhancements
-- GraphQL
-- Security
+  - Enhancements
+  - GraphQL
+  - Security
+seo:
+  title: Vendia adds support for Namespaces, Types and GraphQL Enums
+  description: Over the last few weeks, the Vendia Engineering team has been hard
+    at work finalizing a number of changes that will greatly improve the data
+    modeling capabilities for our users. In addition, the automatically
+    generated GraphQL interface and resolvers have also been improved to provide
+    native GraphQL support for enumerations.
+createdBy: ""
+createdAt: ""
+updatedBy: David Wells
+updatedAt: 2022-12-14T22:06:06.568Z
+id: 994420ce-56ef-4422-9aec-20ff7bcfff8a
 ---
 
 ## Summary
