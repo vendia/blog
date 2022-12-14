@@ -2,7 +2,7 @@
   "financial services, architecture, circles of trust": [
     {
       "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
-      "draft": true,
+      "draft": false,
       "slug": "sharing-data-financial-services",
       "title": "Sharing data in financial services: How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
       "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
@@ -28,7 +28,7 @@
         "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-10T00:20:24.995Z"
+      "updatedAt": "2022-12-14T17:08:02.927Z"
     }
   ],
   "Healthcare, data traceability, distributed ledger technology, data lineage": [
@@ -55,8 +55,11 @@
         "keywords": "data traceability, data lineage",
         "title": "5 patterns for successful data traceability"
       },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-09T00:43:06.979Z"
+      "callToAction": [
+        "What’s a business blockchain?"
+      ],
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2022-12-13T16:15:38.941Z"
     }
   ],
   "distributed ledger technology, metrics, integrations, video": [
