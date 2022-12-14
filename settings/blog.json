@@ -1,7 +1,10 @@
 {
   "callToAction": [
-    "Supercloud? Poly-cloud? Multi-Cloud? "
+    "Want to learn more about Vendia?"
   ],
-  "updatedAt": "2022-12-14T15:39:47.110Z",
-  "updatedBy": "Hugues Tennier"
+  "updatedAt": "2022-12-14T19:32:36.792Z",
+  "updatedBy": "Hugues Tennier",
+  "sidebarCallToAction": [
+    "Try Vendia Share"
+  ]
 }
