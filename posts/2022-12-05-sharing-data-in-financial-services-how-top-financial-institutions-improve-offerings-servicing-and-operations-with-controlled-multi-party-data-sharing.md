@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: sharing-data-financial-services
 title: "Sharing data in financial services: How top financial institutions
   improve offerings, servicing, and operations with controlled multi-party data
@@ -30,7 +30,7 @@ seo:
     the financial institutions serving them.
   keywords: data sharing, b2b data sharing, data ecosystem, data alliance
 updatedBy: alexa-vendia
-updatedAt: 2022-12-10T00:20:24.995Z
+updatedAt: 2022-12-14T17:08:02.927Z
 ---
 
 **Listen on** [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)
