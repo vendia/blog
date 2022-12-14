@@ -4,7 +4,10 @@
     {
       "slug": "company",
       "description": "Company | Get to know the #kindhumans at Vendia with insights into our teams, values, and culture",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367893/New_icon_-_6_yy2yiw.png"
+      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367893/New_icon_-_6_yy2yiw.png",
+      "callToAction": [
+        "Try Vendia Share"
+      ]
     },
     {
       "slug": "podcast",
@@ -77,6 +80,6 @@
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670368463/Work_01_i04ycn.png"
     }
   ],
-  "updatedAt": "2022-12-08T23:30:15.913Z",
-  "updatedBy": "alexa-vendia"
+  "updatedAt": "2022-12-14T14:45:17.941Z",
+  "updatedBy": "Hugues Tennier"
 }
