@@ -47,8 +47,13 @@
         "label": "I want to know",
         "url": "http://vendia.com/resources/resources/3-legged-stool"
       }
+    },
+    {
+      "text": "Get the whitepaper directly to your inbox.",
+      "formId": "1a84f777-0c61-47e4-b09f-521bb82006b6",
+      "title": "Want to learn more about Vendia?"
     }
   ],
-  "updatedAt": "2022-12-13T14:12:45.025Z",
+  "updatedAt": "2022-12-14T19:24:22.251Z",
   "updatedBy": "Hugues Tennier"
 }
