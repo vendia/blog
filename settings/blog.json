@@ -1,5 +1,7 @@
 {
-  "callToAction": "Supercloud? Poly-cloud? Multi-Cloud? ",
-  "updatedAt": "2022-12-14T15:26:33.082Z",
+  "callToAction": [
+    "Supercloud? Poly-cloud? Multi-Cloud? "
+  ],
+  "updatedAt": "2022-12-14T15:39:47.110Z",
   "updatedBy": "Hugues Tennier"
 }
