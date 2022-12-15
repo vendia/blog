@@ -22,16 +22,16 @@ seo:
   keywords: business blockchain, the future of blockchain
   title: 6 predictions about the future of blockchain in 2023
 updatedBy: alexa-vendia
-updatedAt: 2022-12-15T21:38:14.201Z
+updatedAt: 2022-12-15T21:40:50.123Z
 ---
 
-Where is blockchain headed in 2023? We surveyed our founders, Solutions Architects, and key leaders for their insights and hot takes. Here are the highlights:
+Where is blockchain headed in 2023? We surveyed our founders, Solutions Architects, and key leaders for their insights and hot takes. Here are the highlights.
 
 ## Prediction #1 – Good-bye crypto, hello business blockchain
 
 2022 was a rollercoaster of a year for [crypto](https://www.cnbc.com/cryptoworld/). From [“crypto craze”](https://www.npr.org/2022/06/17/1105343423/cryptocurrencies-winter-crash-bitcoin-celcius) and Super Bowl ads to runs on crypto “banks”, there were significant crashes and collapses. What effect will it have on blockchain in 2023?
 
-<BlockQuote author="Shruthi Rao, CBO and co-founder" text= In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery and hype is left out, and the focus is on delivering blockchain solutions for enterprises.  text="In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery and hype is left out, and the focus is on delivering blockchain solutions for enterprises. " />
+<BlockQuote author="Shruthi Rao, CBO and co-founder" text= In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery and hype is left out, and the focus is on delivering blockchain solutions for enterprises.  text="In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery, hype, and dumpster fires are left out, and the focus is on delivering blockchain solutions for enterprises." />
 
 ## Prediction #2 – Blockchains and databases will (start to) merge
 
