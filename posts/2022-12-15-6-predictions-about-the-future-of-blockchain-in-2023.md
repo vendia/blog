@@ -22,7 +22,7 @@ seo:
   keywords: business blockchain, the future of blockchain
   title: 6 predictions about the future of blockchain in 2023
 updatedBy: alexa-vendia
-updatedAt: 2022-12-15T21:18:02.927Z
+updatedAt: 2022-12-15T21:22:08.260Z
 ---
 
 Where is blockchain headed in 2023? We surveyed our founders, Solutions Architects, and key leaders for their insights and hot takes. Here are the highlights:
@@ -31,7 +31,7 @@ Where is blockchain headed in 2023? We surveyed our founders, Solutions Architec
 
 2022 was a rollercoaster of a year for [crypto](https://www.cnbc.com/cryptoworld/). From [“crypto craze”](https://www.npr.org/2022/06/17/1105343423/cryptocurrencies-winter-crash-bitcoin-celcius) and Super Bowl ads to runs on crypto “banks”, there were significant some surprising crashes and collapses. What effect will it have on blockchain in 2023?
 
-<BlockQuote author="Shruthi Rao, CBO and co-founder" text=" In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery and hype is left out, and the focus is on delivering blockchain solutions for enterprises." />
+<BlockQuote author="Shruthi Rao, CBO and co-founder" text= In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery and hype is left out, and the focus is on delivering blockchain solutions for enterprises.  />
 
 ## Prediction #2 – Blockchains and databases will (start to) merge
 
@@ -45,8 +45,6 @@ Blockchain was the prodigy child for years with a lot of hype surrounding it. 20
 
 <BlockQuote author="James Gimourginas, Director of Solutions Architecture and Customer Success" text="When’s the last time you talked about page-level locks in an Oracle database or internal scaling algorithms in a distributed NoSQL cloud database? T Never, right? Blockchain is on a similar path. As a technology, it will be adopted as solutions that [blend it](https://www.vendia.com/blog/venn-diagramming-vendia-share) with other enterprise technologies — both new and old. Businesses will buy solutions that just happen to incorporate distributed ledgers, gaining benefits from immutable data." />
 
-
-
 ## Prediction #4 – Regulation will be a driver for blockchain adoption in the manufacturing industry 
 
 Even if you don’t want to change, sometimes regulation means you have to. 
@@ -59,39 +57,23 @@ Even if you don’t want to change, sometimes regulation means you have to. 
 
 And when regulation isn’t coming, the threat can come from new industry players and challengers. The combination of inertia with existing players and the potential value-add, creates a perfect environment for new players to disrupt the field. 
 
-### The financial services and travel industries are both still relying heavily on manual processing for managing transactions and settlements for the many partners in the highly fragmented industries. Both industries are ripe for disruption. There is a lot of value to be captured by using a business blockchain to connect multiple parties and [automating](https://www.vendia.com/blog/real-time-everything) many of the manual workflows. — Anders Maul, Head of Product Marketing
-
-
+<BlockQuote author="Anders Maul, Head of Product Marketing" text="The financial services and travel industries are both still relying heavily on manual processing for managing transactions and settlements for the many partners in the highly fragmented industries. Both industries are ripe for disruption. There is a lot of value to be captured by using a business blockchain to connect multiple parties and [automating](https://www.vendia.com/blog/real-time-everything) many of the manual workflows." />
 
 Insurance is ripe for a shake-up. Weather events are costing more and more, and with that, these firms will need to better plan for the anticipated cost and logistics. First, looking internally to reduce the significant overhead to provide insurance, receive and investigate claims, and reimburse funds. These processes have layers and back-and-forth data in collaboration with local services, receipt of forms, sending of information to-and-from banks, investigation reports, and validating recipient received funds. A solution in which there is a set network of parties (i.e. a business alliance) that owns their data, leveraging a distributed, decentralized storage solution, and an immutable ledger to maintain traceability and trust of changes would advance [insurance providers](https://www.vendia.com/blog/atos-success-story) to focus on their risk assessment rather than the logistics of data reconciliation. — [Francine Klein](mailto:francine@vendia.net), Sr. Solutions Architect
 
-
-
 While financial services are likely to garner the most [benefits from blockchain](https://www.vendia.com/blog/blockchain-mortgage-services) and distributed ledger technology over time, they also have high inertia and will take time to get there. But, in the long run, [financial services](https://www.vendia.com/blog/finserv-blockchain-data-strategy) will benefit the most from blockchains, simply for structural reasons: The lower the marginal cost of storing, moving, sharing, and reconciling financial data, the more effective and efficient these businesses can be. These activities are the essence of what they do — there are no physical objects to manufacture, seats on an airline to sell, or groceries to deliver in this sector, so reducing the cost of digital accounting is THE primary driver of both cost savings and new revenue streams.— [Tim Wagner](mailto:tim@vendia.net), CEO and co-founder
-
-
 
 ## Prediction #6 – Just-in-time supply chains will require just-in-time data and greater flexibility 
 
 When consumers expect two-day delivery and instead have to wait two months, someone or something is stuck somewhere. 
 
-
-
 “The events of the last few years put a strain on the supply chain network operating on just-in-time inventory. The delicate dependency on raw goods and global trading agreements showed how vulnerable supply chains were to local or global market shocks. And the threat hasn’t faded. With climate change and severe weather looming in most places, and the availability of raw goods becoming increasingly scarce, the modern supply chain network will need to be able to pivot at a moment’s notice to new more local suppliers or alternatives. Supply chain networks will need to become more agile and expand their business networks with new partners.” — Francine Klein, Sr. Solutions Architect
-
-
 
 And it sounds like that might mean faster adoption of business blockchain by the supply chain and manufacturing industries.
 
-
-
 Manufacturing and supply chain have a huge upside if they are able to bring all (or most of) their parties together around a single source of truth. — Anders Maul, Head of Product Marketing
 
-
-
 The fastest use case to see adoption of business blockchain is likely to be in supply chain and manufacturing workflows. With the obvious (and very visible) problems in global supply chain tracking affecting everything from cars to toilet paper, gaining more insight into upstream inventories and downstream logistics is paramount for almost every form of manufacturing. These use cases can leverage benefits such as data immutability and reconciliation-free data sharing on an incremental basis: Even having two or three parties improve their inventory data sharing can offer substantial savings and delivery benefits to the businesses involved…and then as more members of the ecosystem join in, the benefits keep increasing. — [Tim Wagner](mailto:tim@vendia.net), CEO and co-founder
-
-
 
 ## What do you see happening with blockchain in 2023?
 
