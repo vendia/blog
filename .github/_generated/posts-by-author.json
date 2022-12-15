@@ -1,4 +1,145 @@
 {
+  "vendia": [
+    {
+      "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",
+      "draft": true,
+      "title": "6 predictions about the future of blockchain in 2023",
+      "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
+      "date": "2022-12-28T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-20-finserv-blockchain-data-strategy"
+      ],
+      "tags": [
+        "supply chain visibility, manufacturing, financial services, distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
+        "keywords": "business blockchain, the future of blockchain",
+        "title": "6 predictions about the future of blockchain in 2023"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-15T21:18:02.927Z"
+    },
+    {
+      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
+      "draft": false,
+      "title": "NEW low latency operations and Vendia Metrics",
+      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-02-03-welcome-to-developer-preview",
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "seo": {
+        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
+        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T01:05:21.832Z"
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "draft": false,
+      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+      "date": "2021-01-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "features"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "tags": [
+        "quickstart, supply chain traceability, track and trace"
+      ],
+      "seo": {
+        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "keywords": "track and trace, supply chain traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T19:12:29.677Z"
+    },
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering, SQL, event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z"
+    },
+    {
+      "file": "/posts/2020-11-05-track-and-trace.md",
+      "draft": false,
+      "title": "Track and trace using Vendia Unis and Blobs",
+      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
+      "date": "2020-11-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "architecture"
+      ],
+      "relatedPosts": [
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
+        "2021-02-18-sharing-files-in-a-uni",
+        "2021-02-01-decentralization"
+      ],
+      "tags": [
+        "supply chain, manufacturing, traceability, uni"
+      ],
+      "seo": {
+        "title": "Track and trace using Vendia Unis and Blobs",
+        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
+        "keywords": "supply chain traceability, track and trace"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:53:54.828Z"
+    }
+  ],
   "alexa-johnson": [
     {
       "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
@@ -1939,118 +2080,6 @@
       "authors": [
         "Jake Partusch"
       ]
-    }
-  ],
-  "vendia": [
-    {
-      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
-      "draft": false,
-      "title": "NEW low latency operations and Vendia Metrics",
-      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
-      "date": "2022-07-07T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-02-03-welcome-to-developer-preview",
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "seo": {
-        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
-        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T01:05:21.832Z"
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-      "date": "2021-01-25T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "features"
-      ],
-      "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2021-03-10-whats-new-indices",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "tags": [
-        "quickstart, supply chain traceability, track and trace"
-      ],
-      "seo": {
-        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-        "keywords": "track and trace, supply chain traceability"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z"
-    },
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "How tools impact products for real-time, multi-party data sharing",
-      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-      "date": "2020-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "guidance",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-10-whats-new-indices"
-      ],
-      "tags": [
-        "engineering, SQL, event"
-      ],
-      "seo": {
-        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-        "title": "How tools impact products for real-time, multi-party data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z"
-    },
-    {
-      "file": "/posts/2020-11-05-track-and-trace.md",
-      "draft": false,
-      "title": "Track and trace using Vendia Unis and Blobs",
-      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
-      "date": "2020-11-05T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "architecture"
-      ],
-      "relatedPosts": [
-        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
-        "2021-02-18-sharing-files-in-a-uni",
-        "2021-02-01-decentralization"
-      ],
-      "tags": [
-        "supply chain, manufacturing, traceability, uni"
-      ],
-      "seo": {
-        "title": "Track and trace using Vendia Unis and Blobs",
-        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
-        "keywords": "supply chain traceability, track and trace"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:53:54.828Z"
     }
   ],
   "joydeep-das": [

@@ -1,4 +1,35 @@
 {
+  "supply chain visibility, manufacturing, financial services, distributed ledger technology": [
+    {
+      "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",
+      "draft": true,
+      "title": "6 predictions about the future of blockchain in 2023",
+      "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
+      "date": "2022-12-28T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-20-finserv-blockchain-data-strategy"
+      ],
+      "tags": [
+        "supply chain visibility, manufacturing, financial services, distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
+        "keywords": "business blockchain, the future of blockchain",
+        "title": "6 predictions about the future of blockchain in 2023"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-15T21:18:02.927Z"
+    }
+  ],
   "financial services, architecture, circles of trust": [
     {
       "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
