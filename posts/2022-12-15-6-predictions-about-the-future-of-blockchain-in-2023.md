@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: 6 predictions about the future of blockchain in 2023
 description: Where is blockchain headed in 2023? We surveyed our founders,
   solutions architects, and key leaders for their insights and hot takes.
@@ -22,7 +22,7 @@ seo:
   keywords: business blockchain, the future of blockchain
   title: 6 predictions about the future of blockchain in 2023
 updatedBy: alexa-vendia
-updatedAt: 2022-12-15T21:57:34.676Z
+updatedAt: 2022-12-15T21:59:36.045Z
 ---
 
 Where is blockchain headed in 2023? We surveyed our founders, Solutions Architects, and key leaders for their insights and hot takes. Here are the highlights.
