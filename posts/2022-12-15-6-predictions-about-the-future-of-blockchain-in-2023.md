@@ -22,7 +22,7 @@ seo:
   keywords: business blockchain, the future of blockchain
   title: 6 predictions about the future of blockchain in 2023
 updatedBy: alexa-vendia
-updatedAt: 2022-12-15T21:49:40.927Z
+updatedAt: 2022-12-15T21:57:34.676Z
 ---
 
 Where is blockchain headed in 2023? We surveyed our founders, Solutions Architects, and key leaders for their insights and hot takes. Here are the highlights.
@@ -35,19 +35,19 @@ Where is blockchain headed in 2023? We surveyed our founders, Solutions Architec
 
 ## Prediction #2 – Blockchains and databases will (start to) merge
 
-As blockchain technology goes beyond crypto, it will start to evolve around how enterprises are using the technology in concert with other tech. 
+As blockchain technology goes [beyond crypto](https://www.vendia.com/blog/venn-diagramming-vendia-share), it will start to evolve around how enterprises are using the technology in concert with other tech. 
 
 <BlockQuote author="Tim Wagner, CEO and co-founder" text="This is really going to take more like a quarter century, but the process of blockchains and databases merging has begun. The use of blockchain at enterprises is really a form of a distributed database, where the “distributed” now means across partners, clouds, and regions, not just within a single AWS or Azure account. Deterministic database  theory and blockchain theory are already on a convergence path at the research level. The news just hasn’t made its way to the general public yet. 2023 will start to accelerate this merger." />
 
 ## Prediction #3 – Blockchain transitions from being a single technology to becoming part of the modern IT stack
 
-Blockchain was the prodigy child for years with a lot of hype surrounding it. 2023 seems to be the year where its solo career ends and blockchain joins the band of technologies that power the modern IT stack.
+Blockchain was the prodigy child for years with a lot of hype surrounding it. 2023 seems to be the year where [its solo career ends](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) and blockchain joins the band of technologies that power the modern IT stack.
 
 <BlockQuote author="Tim Wagner, CEO and co-founder" text="When’s the last time you talked about page-level locks in an Oracle database or internal scaling algorithms in a distributed NoSQL cloud database? Never, right? Blockchain is on a similar path. As a technology, it will be adopted as solutions that blend it with other enterprise technologies — both new and old. Businesses will buy solutions that just happen to incorporate distributed ledgers, gaining benefits from immutable data." />
 
 ## Prediction #4 – Regulation will be a driver for blockchain adoption in the manufacturing industry 
 
-Even if you don’t want to change, sometimes regulation means you have to. 
+Even if you don’t want to [change,](https://www.vendia.com/blog/how-blockchain-makes-supply-chains-predictable) sometimes regulation means you have to. 
 
 <BlockQuote text="The Food and Beverage and Semiconductor industries face potential regulation and increased government focus on security and reliability. These regulations will require the industry to adopt business blockchain solutions that span supply chains within the respective industries." author="Vikrant Kahlir, Tech Lead, Data and Web3" />
 
@@ -55,11 +55,11 @@ Even if you don’t want to change, sometimes regulation means you have to. 
 
 ## Prediction #5 – Travel and Financial Services are at an increased risk of disruption by business blockchains solutions.
 
-And when regulation isn’t coming, the threat can come from new industry players and challengers.
+And when regulation isn’t coming, the threat can come from [new industry players](https://www.vendia.com/blog/blockchain-mortgage-services) and challengers.
 
 <BlockQuote author="Anders Maul, Head of Product Marketing" text="The financial services and travel industries are both still relying heavily on manual processing for managing transactions and settlements for the many partners in the highly fragmented industries. Both industries are ripe for disruption. There is a lot of value to be captured by using a business blockchain to connect multiple parties and automating many of the manual workflows." />
 
-Innovation forced by external levers like climate change and the potential for a controlled, compliant data alliances can also be driven by partners adopting business blockchain (and shifting their infrastructure from DIY/roll your own to SaaS. 
+Innovation forced by external levers like climate change and the potential for a controlled, compliant data alliances can also be [driven by partners](https://www.vendia.com/blog/atos-success-story) adopting business blockchain (and shifting their infrastructure from DIY/roll your own to SaaS). 
 
 <BlockQuote text="Insurance is ripe for a shake-up. Weather events are costing more and more, and these firms will need to better plan for the anticipated cost and logistics. First, looking internally to reduce the significant overhead to provide insurance, receive and investigate claims, and reimburse funds. These processes have layers and back-and-forth data in collaboration with local services, receipt of forms, sending of information to-and-from banks, investigation reports, and validating recipient received funds. A solution in which there is a set network of parties (i.e. a business alliance) that owns their data, leveraging a distributed, decentralized storage solution and an immutable ledger to maintain traceability and trust of changes would advance insurance providers to focus on their risk assessment rather than the logistics of data reconciliation." author=" Francine Klein, Sr. Solutions Architect" />
 
@@ -73,7 +73,7 @@ When consumers expect two-day delivery and instead have to wait two months, some
 
 <BlockQuote author="Francine Klein, Sr. Solutions Architect" text="The events of the last few years put a strain on the supply chain network operating on just-in-time inventory. The delicate dependency on raw goods and global trading agreements showed supply chains' v to local or global market shocks. And the threat hasn’t faded. With climate change and severe weather looming in most places and the availability of raw goods becoming increasingly scarce, the modern supply chain network will need to be able to pivot at a moment’s notice to new, more local suppliers or alternatives. Supply chain networks will need to become more agile and expand their business networks with new partners." />
 
-And it sounds like that might mean faster adoption of business blockchain by the supply chain and manufacturing industries.
+And it sounds like that might mean faster [adoption of business blockchain](https://www.vendia.com/case-studies/bmw) by the [supply chain and manufacturing](https://www.vendia.com/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) industries.
 
 <BlockQuote text="The fastest use case to see adoption of business blockchain is likely to be in supply chain and manufacturing workflows. With the obvious (and very visible) problems in global supply chain tracking affecting everything from cars to toilet paper, gaining more insight into upstream inventories and downstream logistics is paramount for almost every form of manufacturing. These use cases can leverage benefits such as data immutability and reconciliation-free data sharing on an incremental basis: Even having two or three parties improve their inventory data sharing can offer substantial savings and delivery benefits to the businesses involved…and then as more members of the ecosystem join in, the benefits keep increasing. " author="Tim Wagner, CEO and co-founder" />
 
