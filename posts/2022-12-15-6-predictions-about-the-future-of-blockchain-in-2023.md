@@ -33,11 +33,13 @@ Where is blockchain headed in 2023? We surveyed our founders, Solutions Architec
 
 <BlockQuote author="Shruthi Rao, CBO and co-founder" text="In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery, hype, and dumpster fires are left out, and the focus is on delivering blockchain solutions for enterprises." />
 
+
 ## Prediction #2 – Blockchains and databases will (start to) merge
 
 As blockchain technology goes [beyond crypto](https://www.vendia.com/blog/venn-diagramming-vendia-share), it will start to evolve around how enterprises are using the technology in concert with other tech. 
 
 <BlockQuote author="Tim Wagner, CEO and co-founder" text="This is really going to take more like a quarter century, but the process of blockchains and databases merging has begun. The use of blockchain at enterprises is really a form of a distributed database, where the “distributed” now means across partners, clouds, and regions, not just within a single AWS or Azure account. Deterministic database  theory and blockchain theory are already on a convergence path at the research level. The news just hasn’t made its way to the general public yet. 2023 will start to accelerate this merger." />
+
 
 ## Prediction #3 – Blockchain transitions from being a single technology to becoming part of the modern IT stack
 
