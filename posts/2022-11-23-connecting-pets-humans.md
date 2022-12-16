@@ -1,14 +1,33 @@
 ---
-title: "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster"
-description: "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of shelters."
-date: "2022-11-23"
+draft: false
+title: "Connecting pets and their humans: How Best Friends Animal Society uses
+  data sharing to connect pets to their human families, faster"
+description: Angela Embree, retired CIO of Best Friends Animal Society, talks
+  about the lifesaving power of data sharing across thousands of animal shelters
+  and its impact on helping pets find their humans faster.
+date: 2022-11-23
+authors:
+  - Vendia
 categories:
   - podcast
+relatedPosts:
+  - 2022-12-16-circles-of-trust-season-1-recap
+  - 2022-11-02-podcast-worlds-colliding
+  - 2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare
 tags:
   - real-time data sharing
   - cloud
-authors:
-  - Alexa Johnson
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp
+seo:
+  description: Angela Embree, retired CIO of Best Friends Animal Society, talks
+    about the lifesaving power of data sharing across thousands of animal
+    shelters and its impact on helping pets find their humans faster.
+  title: "Connecting pets and their humans: How Best Friends Animal Society uses
+    data sharing to connect pets to their human families, faster"
+  keywords: circles of trust, b2b data sharing
+updatedBy: alexa-vendia
+updatedAt: 2022-12-16T21:36:05.197Z
+id: d2c938e1-aed8-42e0-8a55-7ff6fc5e603a
 ---
 
 <YouTube aspectRatio="16:9" title="Connecting Pets and their Humans" url="https://youtu.be/34FDbI0tvKI" />
