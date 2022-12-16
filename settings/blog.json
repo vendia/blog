@@ -2,7 +2,7 @@
   "callToAction": [
     "Want to learn more about Vendia?"
   ],
-  "updatedAt": "2022-12-16T19:46:03.633Z",
+  "updatedAt": "2022-12-16T21:05:40.358Z",
   "updatedBy": "Hugues Tennier",
   "sidebarCallToAction": [
     "Supercloud? Poly-cloud? Multi-Cloud? "
@@ -11,5 +11,10 @@
     "company",
     "announcements",
     "product"
+  ],
+  "popularAuthors": [
+    "Tim Wagner",
+    "David Wells",
+    "Caroll Casbeer"
   ]
 }
