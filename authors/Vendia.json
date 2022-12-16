@@ -1,10 +1,14 @@
 {
-  "name": "Vendia",
   "github": "vendia",
+  "bio": {
+    "short": "",
+    "long": ""
+  },
+  "name": "Vendia",
+  "updatedAt": "2022-12-16T21:50:17.059Z",
+  "updatedBy": "alexa-vendia",
   "twitter": "VendiaHQ",
   "avatar": "https://avatars.githubusercontent.com/u/69701311?v=4",
-  "bio": {
-    "short": "Automate and accelerate data workflows across business networks.",
-    "long": "Automate and accelerate data workflows across business networks."
-  }
+  "jobTitle": "",
+  "linkedin": "VendiaHQ"
 }
