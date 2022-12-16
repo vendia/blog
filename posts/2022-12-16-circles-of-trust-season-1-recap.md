@@ -29,7 +29,7 @@ seo:
     welfare."
   keywords: real-time data sharing, b2b data sharing, circles of trust
 updatedBy: alexa-vendia
-updatedAt: 2022-12-16T21:03:41.248Z
+updatedAt: 2022-12-16T21:09:06.867Z
 id: 5ba9bf50-05ef-4b72-b3c1-a4565033fe69
 ---
 
@@ -79,8 +79,20 @@ Listen on [Apple Podcasts](https://podcasts.apple.com/us/podcast/worlds-collidin
 
 [Robert Edwards](https://www.linkedin.com/in/bobbyedwards/), Director of Software Development at [Glidewell](https://glidewelldental.com/), one of the world’s largest producers of custom dental services, talks with host Tim Zonca about data sharing across the medical device value chain. They discuss the changing landscape in multi-party B2B data sharing and patient care as Millennial and soon Gen-Z dentists open practices and expect legit real-time data at their fingertips.
 
-<BlockQuote text="The TikTok generation of dentists are coming in. They, just naturally, do things a different way. And so they expect more real-time as immediacy: "I should be able to look at my phone and know where the 10 cases I sent you are." author="Robert Edwards" />
+<BlockQuote text="The TikTok generation of dentists are coming in. They, just naturally, do things a different way. And so they expect more real-time as immediacy — I should be able to look at my phone and know where the 10 cases I sent you are." author="Robert Edwards" />
 
 Listen on [Apple Podcasts](https://podcasts.apple.com/us/podcast/patient-experience-with-teeth-how-the-worlds/id1645908970?i=1000586473614) or [Spotify](https://open.spotify.com/episode/0iCtUjSdnuKhghUHQv1jth?si=95862c648f80460a) | Watch on [YouTube](https://www.youtube.com/watch?v=ugsednfx2ik)
 
 <YouTube aspectRatio="16:9" url="https://www.youtube.com/watch?v=ugsednfx2ik" />
+
+## Ep. 5 – Connecting pets and their humans
+
+### How Best Friends Animal Society uses data sharing to connect pets to their human families, faster
+
+[Angela Embree](https://www.linkedin.com/in/angela-embree-959a05a/), recently retired CIO of [Best Friends Animal Society](https://bestfriends.org/), talks with host Tim Zonca about data sharing across animal care providers and shelters. They explore the complex challenges of sharing data across thousands of organizations, and share the Best Friends approach to creating a data ecosystem that [saves lives](https://bestfriends.org/no-kill-2025) and connects pets to their humans faster.
+
+<BlockQuote text="We helped one of our shelter partners with the worst save rate go from a 30% save rate, which means 70% of the animals were dying in the shelter, to a save rate above 90%. Having that impact for the animals — and proving it — was really important." author="Angela Emree" />
+
+Listen on [Apple Podcasts](https://podcasts.apple.com/us/podcast/connecting-pets-and-their-humans-how-best-friends/id1645908970?i=1000588192446) or [Spotify](https://open.spotify.com/episode/1P9g1uysZWJ2mWkQRoqN0B?si=6269b7f7ef214ad2) | Watch on [YouTube](https://www.youtube.com/watch?v=34FDbI0tvKI&list=PLTl1YD8dYVqGVPb-hxcJDpKT4oG__AKcJ&index=4)
+
+<YouTube aspectRatio="16:9" url="https://www.youtube.com/watch?v=34FDbI0tvKI&list=PLTl1YD8dYVqGVPb-hxcJDpKT4oG__AKcJ&index=4" />
