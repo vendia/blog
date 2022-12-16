@@ -116,6 +116,9 @@
         "short": "Solutions Architect",
         "long": "David likes helping customers solve hard problems, building fun solutions to life's little problems, and enjoying time outdoors with his wife and son."
       },
+      "jobTitle": "Sr. Solutions Architect",
+      "updatedAt": "2022-12-16T21:46:32.808Z",
+      "updatedBy": "alexa-vendia",
       "slug": "david-mcelligott",
       "postCount": 0
     },
@@ -204,11 +207,11 @@
         "long": "James is passionate about matching digital innovation with customer challenges to create novel and impactful solutions at scale."
       },
       "name": "James Gimourginas",
-      "updatedAt": "2022-12-05T22:31:17.664Z",
+      "updatedAt": "2022-12-16T21:48:40.274Z",
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/85032783?s=400&v=4",
-      "jobTitle": "Directo fo Solution Architecture and Customer Success",
+      "jobTitle": "Director of SolutionsArchitecture and Customer Success",
       "linkedin": "https://www.linkedin.com/in/jamesgimourginas/",
       "slug": "james-gimourginas",
       "postCount": 18
@@ -292,14 +295,18 @@
       "postCount": 55
     },
     {
-      "name": "Vendia",
       "github": "vendia",
+      "bio": {
+        "short": "",
+        "long": ""
+      },
+      "name": "Vendia",
+      "updatedAt": "2022-12-16T21:50:17.059Z",
+      "updatedBy": "alexa-vendia",
       "twitter": "VendiaHQ",
       "avatar": "https://avatars.githubusercontent.com/u/69701311?v=4",
-      "bio": {
-        "short": "Automate and accelerate data workflows across business networks.",
-        "long": "Automate and accelerate data workflows across business networks."
-      },
+      "jobTitle": "",
+      "linkedin": "VendiaHQ",
       "slug": "vendia",
       "postCount": 7
     },
@@ -322,11 +329,11 @@
     {
       "github": "alexa-vendia",
       "bio": {
-        "short": "Content Strategy",
-        "long": "Alexa likes YA novels, gardening, and hazelnut lattes."
+        "short": "",
+        "long": "**Alexa is a content strategist**, brand and marketing creative, and diehard copywriter who always strives to share valuable ideas and important stories with a clear (and sometimes provocative) point of view. When she's not planting more shrubs and perennials in her garden or frothing milk for the perfect hazelnut latte, she may be off the deep end reading too much YA fiction."
       },
       "name": "Alexa Johnson",
-      "updatedAt": "2022-12-05T22:42:15.725Z",
+      "updatedAt": "2022-12-16T21:45:30.078Z",
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg",
