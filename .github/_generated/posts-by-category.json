@@ -348,6 +348,139 @@
       "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
+  "podcast": [
+    {
+      "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
+      "draft": true,
+      "title": "Circles of Trust: Season 1 recap",
+      "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+      "date": "2022-12-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2021-06-08-gartner-cool-vendor",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Circles of Trust: Season 1 recap",
+        "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+        "keywords": "real-time data sharing, b2b data sharing, circles of trust"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-16T20:56:39.495Z",
+      "id": "5ba9bf50-05ef-4b72-b3c1-a4565033fe69"
+    },
+    {
+      "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
+      "draft": false,
+      "slug": "sharing-data-financial-services",
+      "title": "Sharing data in financial services: How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
+      "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
+      "date": "2022-12-14T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2021-06-08-gartner-cool-vendor",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "financial services, architecture, circles of trust"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "title": "Sharing data in financial services:  How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
+        "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
+        "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-16T16:32:35.178Z",
+      "id": "defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e"
+    },
+    {
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of shelters.",
+      "date": "2022-11-23",
+      "categories": [
+        "podcast"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-18T21:53:26.118Z"
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01"
+    }
+  ],
   "blockchain": [
     {
       "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",
@@ -568,108 +701,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:57:26.226Z"
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
-      "draft": false,
-      "slug": "sharing-data-financial-services",
-      "title": "Sharing data in financial services: How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
-      "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
-      "date": "2022-12-14T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2021-06-08-gartner-cool-vendor",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "financial services, architecture, circles of trust"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "title": "Sharing data in financial services:  How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
-        "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
-        "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-16T16:32:35.178Z",
-      "id": "defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e"
-    },
-    {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of shelters.",
-      "date": "2022-11-23",
-      "categories": [
-        "podcast"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
-      "draft": false,
-      "slug": "podcast-patient-experience-with-teeth",
-      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
-      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-      "date": "2022-11-16T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer"
-      ],
-      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "tweet": "Check out the latest episode of Circles of Trust",
-      "seo": {
-        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
-        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-        "keywords": "circles of trust"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-18T21:53:26.118Z"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01"
     }
   ],
   "real-time-data-sharing": [

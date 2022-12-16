@@ -331,6 +331,37 @@
   ],
   "vendia": [
     {
+      "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
+      "draft": true,
+      "title": "Circles of Trust: Season 1 recap",
+      "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+      "date": "2022-12-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2021-06-08-gartner-cool-vendor",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Circles of Trust: Season 1 recap",
+        "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+        "keywords": "real-time data sharing, b2b data sharing, circles of trust"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-16T20:56:39.495Z",
+      "id": "5ba9bf50-05ef-4b72-b3c1-a4565033fe69"
+    },
+    {
       "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",
       "draft": false,
       "title": "6 predictions about the future of blockchain in 2023",
