@@ -2,9 +2,14 @@
   "callToAction": [
     "Want to learn more about Vendia?"
   ],
-  "updatedAt": "2022-12-16T16:38:20.286Z",
+  "updatedAt": "2022-12-16T19:46:03.633Z",
   "updatedBy": "Hugues Tennier",
   "sidebarCallToAction": [
     "Supercloud? Poly-cloud? Multi-Cloud? "
+  ],
+  "topCategories": [
+    "company",
+    "announcements",
+    "product"
   ]
 }
