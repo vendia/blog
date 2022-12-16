@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Circles of Trust: Season 1 recap"
 description: "Find your favorite episode from Season 1 of our podcast, Circles
   of Trust: Real talk on real-time data sharing. We talk with everyone from our
