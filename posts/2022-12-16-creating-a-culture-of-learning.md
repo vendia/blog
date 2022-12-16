@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: creating-a-culture-of-learning
 title: Creating a Culture of Learning
 description: See some of our values in action as James Gimourginas, Director of
@@ -29,8 +29,8 @@ seo:
     Solutions Architecture at Vendia, shares the ways Vendia is creating a
     culture of learning for our colleagues and customers.
   keywords: Creating a culture of learning
-updatedBy: james-vendia
-updatedAt: 2022-12-16T16:46:32.546Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-16T17:01:04.170Z
 id: 12d95f91-39f4-49ad-829b-a9430c9b6b19
 ---
 
