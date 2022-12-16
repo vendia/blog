@@ -29,9 +29,14 @@ seo:
     financial services and the impact better data sharing has on customers and
     the financial institutions serving them.
   keywords: data sharing, b2b data sharing, data ecosystem, data alliance
-updatedBy: alexa-vendia
-updatedAt: 2022-12-14T17:08:02.927Z
+updatedBy: Caroll Casbeer
+updatedAt: 2022-12-16T16:32:35.178Z
+id: defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e
 ---
+
+<YouTube aspectRatio="16:9" url="https://youtu.be/dNIlo8O74MI" />
+
+
 
 **Listen on** [SPOTIFY](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [APPLE](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) | [GOOGLE](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M/episode/NzQzNGZjNmItYmFjNC00MmNmLWIxNDctY2E0ZGJiNTE0Njhh?sa=X&ved=0CAgQuIEEahcKEwjYxcrM_rr6AhUAAAAAHQAAAAAQLA)
 
@@ -47,7 +52,7 @@ Brian Kale and James Gimourginas talk with host Tim Zonca about the complex chal
 - [Brian Kale](https://www.linkedin.com/in/brianmkale/) on LinkedIn
 - [James Gimourginas](https://www.linkedin.com/in/jamesgimourginas/) on LinkedIn
 - [Bank of America](https://www.bankofamerica.com/)
-- [NonStop](https://en.wikipedia.org/wiki/NonStop_(server_computers))
+- \[NonStop](https://en.wikipedia.org/wiki/NonStop_(server_computers)
 - [Tandem Computers](https://www.linkedin.com/company/tandem-computers-inc/)
 - [Cognos Analytics](https://www.ibm.com/products/cognos-analytics)
 - [Tableau](https://www.tableau.com/)
