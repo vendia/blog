@@ -31,7 +31,6 @@ seo:
   keywords: Creating a culture of learning
 updatedBy: alexa-vendia
 updatedAt: 2022-12-16T20:41:06.408Z
-id: 12d95f91-39f4-49ad-829b-a9430c9b6b19
 ---
 
 As many leading technology companies know, a [learning culture](https://cloud.google.com/architecture/devops/devops-culture-learning-culture) drives higher software delivery and organizational performance. To truly establish a learning _culture_, an organization must embrace their set of shared attitudes, values, goals, and practices — the qualities that characterize them as an institution..
