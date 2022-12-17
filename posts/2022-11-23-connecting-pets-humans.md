@@ -27,7 +27,6 @@ seo:
   keywords: circles of trust, b2b data sharing
 updatedBy: alexa-vendia
 updatedAt: 2022-12-16T21:36:05.197Z
-id: d2c938e1-aed8-42e0-8a55-7ff6fc5e603a
 ---
 
 <YouTube aspectRatio="16:9" title="Connecting Pets and their Humans" url="https://youtu.be/34FDbI0tvKI" />
