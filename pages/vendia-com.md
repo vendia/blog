@@ -17,9 +17,18 @@ components:
         url: https://share.vendia.net/login
       - label: Contact sales
         url: https://www.vendia.com/contact-us
+  - type: Logos
+    logos:
+      - BMW
+      - Unfi
+      - Resolution Life
+      - Atos
+      - Purina
+      - Aerotrax Technologies
+    theme: white
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-19T18:40:48.391Z
+updatedAt: 2022-12-19T18:41:24.677Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
