@@ -42,5 +42,9 @@
   "test-components-with-data-fetching": {
     "file": "/pages/test-components-with-data-fetching.md",
     "draft": true
+  },
+  "vendia": {
+    "file": "/pages/vendia-com.md",
+    "draft": true
   }
 }
