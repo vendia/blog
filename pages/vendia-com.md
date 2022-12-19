@@ -17,6 +17,32 @@ components:
         url: https://share.vendia.net/login
       - label: Contact sales
         url: https://www.vendia.com/contact-us
+  - type: Columns
+    theme: white
+    intro:
+      title: ""
+      text: ""
+    columns:
+      - text: >-
+          **Instant and automatic reconciliation**
+
+
+          Eliminate the costs of manual, error-prone, and lengthy reconciliation from partner data. Vendia offers real-time reconciliation with an accurate, trusted source of truth.
+      - text: >-
+          **Transparent chain of custody**
+
+
+          Track and trace product DNA, inventory, warranty data, and shipping information across supply chain partners. Vendia provides a fully auditable, versioned, and immutable source of truth across partners.
+      - text: >-
+          **Simple partner onboarding**
+
+
+          From quick, mobile access to rich, cross-company data integrations, Vendia’s platform makes it easy to connect partners—without costly integration development and maintenance.
+      - text: >-
+          **Global scale**
+
+
+          Share and synchronize data across companies, continents, and clouds with high throughput, low latency, fault tolerance, and disaster recovery built-in.
   - type: Logos
     logos:
       - BMW
@@ -29,6 +55,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-19T18:41:24.677Z
+updatedAt: 2022-12-19T18:46:45.431Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
