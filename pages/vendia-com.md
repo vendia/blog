@@ -5,18 +5,29 @@ path: vendia.com
 components:
   - type: Hero
     contentAlignment: Left
-    title: A complete partner data sharing platform
-    text: Automate reconciliation and prove chain of custody with Vendia’s low code
-      platform designed to eliminate the costs of synchronizing and sharing data
-      across companies.
+    title: The complete data consensus platform
+    text: Settle transactions and prove chain of custody with Vendia’s platform
+      designed to eliminate the cost of reconciling data.
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
-      altText: Vendia – the only complete partner data sharing platform.
+      altText: Vendia – the only complete data consensus platform.
     callToActions:
       - label: Start now
         url: https://share.vendia.net/login
       - label: Contact sales
         url: https://www.vendia.com/contact-us
+  - type: Resources
+    intro:
+      title: Designed for sensitive data in regulated industries
+    resources:
+      - text: Copy for FS
+        title: Financial Services
+      - text: Copy for HC
+        title: Healthcare
+      - text: Copy for manufacturing
+        title: Manufacturing
+      - text: Copy for travel
+        title: Travel
   - type: Columns
     theme: white
     intro:
@@ -52,18 +63,6 @@ components:
       - Purina
       - Aerotrax Technologies
     theme: white
-  - type: Resources
-    intro:
-      title: Designed for sensitive data in regulated industries
-    resources:
-      - text: Copy for FS
-        title: Financial Services
-      - text: Copy for HC
-        title: Healthcare
-      - text: Copy for manufacturing
-        title: Manufacturing
-      - text: Copy for travel
-        title: Travel
   - type: MediaWithText
     text: >-
       # Complete platform
@@ -80,6 +79,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-19T19:47:18.646Z
+updatedAt: 2022-12-19T21:27:55.520Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
