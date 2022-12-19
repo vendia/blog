@@ -56,11 +56,30 @@ components:
     intro:
       title: Designed for sensitive data in regulated industries
     resources:
-      - text: Copy
-        title: Title
+      - text: Copy for FS
+        title: Financial Services
+      - text: Copy for HC
+        title: Healthcare
+      - text: Copy for manufacturing
+        title: Manufacturing
+      - text: Copy for travel
+        title: Travel
+  - type: MediaWithText
+    text: >-
+      # Complete platform
+
+
+      Vendia is the only platform that combines a business blockchain, Smart APIs, and cloud storage and compute in a single, unified SaaS platform.
+
+
+      <Button kind="primary" label="Explore the Vendia Share platform  " href="https://www.vendia.com/product" />
+    mediaPosition: right
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669912270/blockchain_jqtj4r.webp
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-19T19:03:36.119Z
+updatedAt: 2022-12-19T19:47:18.646Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
