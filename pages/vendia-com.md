@@ -102,6 +102,17 @@ components:
 
 
           Share and synchronize data across companies, continents, and clouds with high throughput, low latency, fault tolerance, and disaster recovery built-in.
+  - type: Quote
+    text: >-
+      A multicloud strategy is inevitable for global enterprise, but it brings
+      security, integration, cost and governance challenges. CIOs should assess
+      these [Cool Vendors](https://www.vendia.com/blog/gartner-cool-vendor) that
+      are disrupting the cloud market.
+
+
+      **Gartner Research**
+    theme: white
+    author: Caroll Casbeer
   - type: MediaWithText
     text: >-
       ## A complete platform
@@ -146,6 +157,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T02:34:33.566Z
+updatedAt: 2022-12-20T02:41:38.215Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
