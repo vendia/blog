@@ -16,18 +16,60 @@ components:
         url: https://share.vendia.net/login
       - label: Contact sales
         url: https://www.vendia.com/contact-us
-  - type: Resources
+  - type: Columns
+    theme: white
     intro:
       title: Designed for sensitive data in regulated industries
-    resources:
-      - text: Copy for FS
-        title: Financial Services
-      - text: Copy for HC
-        title: Healthcare
-      - text: Copy for manufacturing
-        title: Manufacturing
-      - text: Copy for travel
-        title: Travel
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671490139/Website/Icons/Money_07_eeqneq.png"
+          alt="" class="image-float-center" width="42" />
+
+
+          ### Financial Services
+
+
+          Banks, insurance companies, and lenders leave error-prone batch processes behind and reduce the risk of outstanding balances and manual disputes.
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671490515/Website/Icons/People_30-p_pibnyi.png"
+          alt="" class="image-float-center" width="42" />
+
+
+          ### Healthcare
+
+
+          Providers, labs, and affiliates automate sharing workflows, with privacy, governance, and access control built in.
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671490139/Website/Icons/Travel_06_c6disu.png"
+          alt="" class="image-float-center" width="42" />
+
+
+          ### Travel
+
+
+          Airlines and their partners ensure fare, schedule, loyalty, and ticket updates happen in-real time, automatically, with proof of data accuracy, lineage, and ATI compliance.
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671490139/Website/Icons/Supply_chain_11_yfgxrg.png"
+          alt="" class="image-float-center" width="42" />
+
+
+          ### Manufacturing
+
+
+          From farm-to-table and wafer-to-wearable, partners across the supply chain gain a trusted source of truth.
+  - type: Logos
+    logos:
+      - BMW
+      - Unfi
+      - Resolution Life
+      - Atos
+      - Purina
+      - Aerotrax Technologies
+    theme: white
   - type: Columns
     theme: white
     intro:
@@ -54,15 +96,6 @@ components:
 
 
           Share and synchronize data across companies, continents, and clouds with high throughput, low latency, fault tolerance, and disaster recovery built-in.
-  - type: Logos
-    logos:
-      - BMW
-      - Unfi
-      - Resolution Life
-      - Atos
-      - Purina
-      - Aerotrax Technologies
-    theme: white
   - type: MediaWithText
     text: >-
       # Complete platform
@@ -79,6 +112,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-19T21:27:55.520Z
+updatedAt: 2022-12-20T00:01:02.556Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
