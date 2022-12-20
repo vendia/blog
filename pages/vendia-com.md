@@ -86,7 +86,7 @@ components:
           **Instant and automatic reconciliation**
 
 
-          Eliminate the costs of manual, error-prone, and lengthy reconciliation from partner data. Vendia offers real-time reconciliation with an accurate, trusted source of truth.
+          Eliminate the costs of manual, error-prone reconciliation from partner data. Vendia offers real-time reconciliation with an accurate, trusted source of truth.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png"
@@ -96,21 +96,11 @@ components:
           **Transparent chain of custody**
 
 
-          Track and trace product DNA, inventory, warranty data, and shipping information across supply chain partners. Vendia provides a fully auditable, versioned, and immutable source of truth across partners.
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1671500629/Website/Iso/Blockchain_rmmdjm.png"
-          alt="" class="image-float-center" width="200" />
-
-
-          **Simple partner onboarding**
-
-
-          From quick, mobile access to rich, cross-company data integrations, Vendia’s platform makes it easy to connect partners—without costly integration development and maintenance.
+          Track and trace product DNA, inventory, and shipping information across supply chain partners. Vendia provides a fully auditable, versioned, and immutable source of truth.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500250/Website/Iso/Global_scale_ssafji.png"
-          alt="" class="image-float-left" height="300" />
+          alt="" class="image-float-left" width="290" />
 
 
           **Global scale**
@@ -133,6 +123,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T01:48:02.244Z
+updatedAt: 2022-12-20T01:52:14.570Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
