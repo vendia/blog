@@ -357,6 +357,33 @@
       "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
     },
     {
+      "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
+      "draft": false,
+      "slug": "extreme-testing-with-vendia",
+      "title": "Vendia Presents: Extreme Testing",
+      "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-06-30-welcome-to-vendia",
+        "2020-07-01-meet-vendias-founders"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Vendia presents: Extreme Testing",
+        "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
+        "keywords": "Blockchain, data sharing, supply chain"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-20T21:34:50.864Z",
+      "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
+    },
+    {
       "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
       "draft": false,
       "title": "5 patterns for successful data traceability",
