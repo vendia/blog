@@ -107,12 +107,12 @@ components:
       ## A complete platform
 
 
-      Vendia is the only platform that combines a business blockchain, Smart APIs, and cloud databases in a single, unified SaaS platform.
+      Vendia is the only partner data sharing platform that combines a business blockchain, Smart APIs, and cloud databases in a single, unified SaaS platform.
 
 
       - Partner data sharing, with control
 
-      - Security and compliance built in
+      - Security and compliance built-in
 
       - Zero-code partner onboarding
 
@@ -146,6 +146,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T02:33:32.288Z
+updatedAt: 2022-12-20T02:34:33.566Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
