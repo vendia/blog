@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: 2023-predictions-tim-wagner
 title: Blockchain, cloud, and IT in 2023 and beyond
 description: Predictions from Dr. Tim Wagner, CEO at Vendia
@@ -19,7 +19,7 @@ seo:
     Predictions from Dr. Tim Wagner, CEO at Vendia
 
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-20T21:28:25.939Z
+updatedAt: 2022-12-20T21:30:24.079Z
 id: 8a2cc1df-27c9-46db-82ab-152ffaa04549
 ---
 
