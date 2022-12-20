@@ -31,7 +31,7 @@ components:
           ### Financial Services
 
 
-          Banks, insurance companies, and lenders leave error-prone batch processes behind and reduce the risk of outstanding balances and manual disputes.
+          Banks, insurance companies, and lenders leave error-prone batch processes behind and reduce the risk of outstanding balances and disputes.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671497688/Website/Icons/Travel_02-grad_hqx46g.png"
@@ -62,15 +62,10 @@ components:
 
 
           From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted source of truth.
-  - type: Logos
-    logos:
-      - BMW
-      - Unfi
-      - Resolution Life
-      - Atos
-      - Purina
-      - Aerotrax Technologies
+  - type: MediaFullScreen
     theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671501683/Website/Screenshot_2022-12-19_at_18.00.25_aljhli.png
   - type: Columns
     theme: white
     intro:
@@ -109,20 +104,27 @@ components:
           Share and synchronize data across companies, continents, and clouds with high throughput, low latency, fault tolerance, and disaster recovery built-in.
   - type: MediaWithText
     text: >-
-      # A complete platform
+      ## A complete platform
 
 
       Vendia is the only platform that combines a business blockchain, Smart APIs, and cloud databases in a single, unified SaaS platform.
 
 
-      <Button kind="secondary" label="Explore the Vendia Share platform  " href="https://www.vendia.com/product" />
+      - Partner data sharing, with control
+
+      - Security and compliance built in
+
+      - Zero-code partner onboarding
+
+
+      <Button kind="clear" label="Explore the Vendia Share platform  " href="https://www.vendia.com/product" />
     mediaPosition: right
-    theme: white
+    theme: light
     image:
-      image: ""
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671496689/Website/Venn_of_Vendia_zk28in.png
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T01:59:56.529Z
+updatedAt: 2022-12-20T02:14:40.227Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
