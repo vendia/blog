@@ -19,7 +19,7 @@ seo:
     Predictions from Dr. Tim Wagner, CEO at Vendia
 
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-20T19:52:52.153Z
+updatedAt: 2022-12-20T21:28:25.939Z
 id: 8a2cc1df-27c9-46db-82ab-152ffaa04549
 ---
 
@@ -75,4 +75,4 @@ Meanwhile, conventional ways of gaining leverage as a developer (more powerful I
 
 ### Hear more from Tim Wagner
 
-Go deeper with Tim Wagner, the inventor of Serverless and Vendia’s co-founder and CEO. Pick from [Tim’s library](https://www.vendia.com/blog/author/tim-wagner) of posts, and join our mailing list to catch up with Tim’s latest insights and ideas on IT innovation.
+Go deeper with Tim Wagner, the inventor of Serverless and Vendia’s co-founder and CEO. Pick from [Tim’s library](https://www.vendia.com/blog/author/tim-wagner) of posts, and join our [mailing list](vendia.com/resources/wagner-newsletter) to catch up with Tim’s latest insights and ideas on IT innovation.
