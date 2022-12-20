@@ -1,7 +1,7 @@
 ---
 draft: false
 template: resource
-excludeFromIndex: false
+excludeFromIndex: true
 slug: wagner-newsletter
 date: 2022-12-20
 components:
@@ -22,6 +22,6 @@ resourceType: white-papers
 seo:
   noindex: true
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-20T21:30:47.455Z
+updatedAt: 2022-12-20T21:30:54.575Z
 id: ddbfeb33-97b3-4ebe-bc54-980d07fc31f5
 ---
