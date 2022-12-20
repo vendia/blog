@@ -9,7 +9,7 @@ components:
     text: Settle transactions and prove chain of custody with Vendia’s powerful
       platform designed to eliminate the cost of reconciling data.
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671499818/Website/Iso/Vendia-Uni_bveueo.svg
       altText: Vendia – the only complete partner data sharing platform.
     callToActions:
       - label: Start now
@@ -20,6 +20,7 @@ components:
     theme: white
     intro:
       title: Designed for sensitive data in regulated industries
+      text: ""
     columns:
       - text: >-
           <img
@@ -77,21 +78,41 @@ components:
       text: ""
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671500456/Website/Iso/Cloud_brdq9h.png"
+          alt="" class="image-float-left" height="300" />
+
+
           **Instant and automatic reconciliation**
 
 
           Eliminate the costs of manual, error-prone, and lengthy reconciliation from partner data. Vendia offers real-time reconciliation with an accurate, trusted source of truth.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png"
+          alt="" class="image-float-left" height="300" />
+
+
           **Transparent chain of custody**
 
 
           Track and trace product DNA, inventory, warranty data, and shipping information across supply chain partners. Vendia provides a fully auditable, versioned, and immutable source of truth across partners.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671500629/Website/Iso/Blockchain_rmmdjm.png"
+          alt="" class="image-float-left" height="300" />
+
+
           **Simple partner onboarding**
 
 
           From quick, mobile access to rich, cross-company data integrations, Vendia’s platform makes it easy to connect partners—without costly integration development and maintenance.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671500250/Website/Iso/Global_scale_ssafji.png"
+          alt="" class="image-float-left" height="300" />
+
+
           **Global scale**
 
 
@@ -108,10 +129,10 @@ components:
     mediaPosition: right
     theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671496689/Website/Venn_of_Vendia_zk28in.png
+      image: ""
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T00:57:16.109Z
+updatedAt: 2022-12-20T01:45:41.304Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
