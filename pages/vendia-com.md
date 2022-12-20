@@ -80,7 +80,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500456/Website/Iso/Cloud_brdq9h.png"
-          alt="" class="image-float-left" height="300" />
+          alt="" class="image-float-left" width="296" />
 
 
           **Instant and automatic reconciliation**
@@ -90,7 +90,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png"
-          alt="" class="image-float-left" height="300" />
+          alt="" class="image-float-left" width="300" />
 
 
           **Transparent chain of custody**
@@ -100,7 +100,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500629/Website/Iso/Blockchain_rmmdjm.png"
-          alt="" class="image-float-left" height="300" />
+          alt="" class="image-float-center" width="200" />
 
 
           **Simple partner onboarding**
@@ -133,6 +133,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T01:45:41.304Z
+updatedAt: 2022-12-20T01:48:02.244Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
