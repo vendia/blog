@@ -90,7 +90,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png"
-          alt="" class="image-float-center" width="300" />
+          alt="" class="image-float-center" width="298" />
 
 
           **Transparent chain of custody**
@@ -100,7 +100,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1671500250/Website/Iso/Global_scale_ssafji.png"
-          alt="" class="image-float-center" width="300" />
+          alt="" class="image-float-center" width="285" />
 
 
           **Global scale**
@@ -123,6 +123,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T01:55:25.548Z
+updatedAt: 2022-12-20T01:59:56.529Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
