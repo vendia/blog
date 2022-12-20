@@ -117,14 +117,15 @@ components:
       - Zero-code partner onboarding
 
 
-      <Button kind="clear" label="Explore the Vendia Share platform  " href="https://www.vendia.com/product" />
+      <Button kind="secondary" label="Explore the Vendia Share platform  " href="https://www.vendia.com/product" />
     mediaPosition: right
-    theme: light
+    theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671496689/Website/Venn_of_Vendia_zk28in.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png
+  - type: Resources
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T02:14:40.227Z
+updatedAt: 2022-12-20T02:21:08.731Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
