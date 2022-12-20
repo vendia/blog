@@ -123,9 +123,29 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png
   - type: Resources
+    intro:
+      title: Title text
+      text: Text text
+    resourcesType: Resources type
+    resources:
+      - text: |-
+          Blurb about signing up. 
+
+          Include a secondar CTA to contact sales.
+        title: Ready to get started?
+        button:
+          label: Start now
+      - text: Blurb on step two
+        title: Get pricing
+        button:
+          label: See pricing
+      - text: Blurb about getting a value assessment
+        title: Value assessment
+        button:
+          label: Schedule
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T02:21:08.731Z
+updatedAt: 2022-12-20T02:28:50.289Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
