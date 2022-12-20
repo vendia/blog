@@ -367,6 +367,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
 | Releases Details | Published-Date | edit |
 |:-----------------|:--------------:|:----:|
+| [Better Error Code, Tightened Security, and Less Timeouts](https://www.vendia.com/releases/2022-12-20-releasenotes) <br/> changed error code, better security, and less timeouts | 2022-12-23 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-12-20-releasenotes.md)
 | [Handling errors the GraphQL way and adding more results to your queries](https://www.vendia.com/releases/2022-11-25-releasenotes) <br/> We've updated response status codes and now allow up to 1000 results per query by Li Dai | 2022-11-25 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-11-25-releasenotes.md)
 | [We're .COMical, Neatly Nested, and More](https://www.vendia.com/releases/2022-10-28-releasenotes) <br/> Vendia is on .com, allows filtering on any nested attribute, updated SDK defaults, and enhanced experience within GraphQL Explorer | 2022-10-28 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-10-28-releasenotes.md)
 | [Giving You Even More Control](https://www.vendia.com/releases/2022-09-26-releasenotes) <br/> Vendia Share now supports defining ACLs on arrays and brings a new design to the UI | 2022-09-26 | [✍️](https://github.com/vendia/blog/edit/master/releases/2022-09-26-releasenotes.md)

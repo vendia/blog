@@ -1,4 +1,7 @@
 {
+  "security": "Security",
+  "error": "Error",
+  "improvement": "Improvement",
   "improvements": "Improvements",
   "developer-experience": "Developer Experience",
   "graphql": "GraphQL",
@@ -12,6 +15,5 @@
   "acid-semantics": "ACID Semantics",
   "share-web": "Share Web",
   "polycloud": "Polycloud",
-  "enhancements": "Enhancements",
-  "security": "Security"
+  "enhancements": "Enhancements"
 }

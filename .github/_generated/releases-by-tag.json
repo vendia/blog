@@ -1,4 +1,90 @@
 {
+  "Security": [
+    {
+      "file": "/releases/2022-12-20-releasenotes.md",
+      "draft": true,
+      "title": "Better Error Code, Tightened Security, and Less Timeouts",
+      "description": "changed error code, better security, and less timeouts",
+      "date": "2022-12-23T00:00:00.000Z",
+      "tags": [
+        "Security",
+        "Error",
+        "Improvement"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Better Error Code, Tightened Security, and Less Timeouts",
+        "description": "changed error code, better security, and less timeouts"
+      },
+      "updatedBy": "Li Dai",
+      "updatedAt": "2022-12-20T19:48:44.246Z",
+      "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
+    },
+    {
+      "file": "/releases/2021-10-29-releasenotes.md",
+      "draft": false,
+      "title": "Namespaces, Types, GraphQL Enums, and More!",
+      "description": "Changes that will greatly improve data modeling capabilities for our users",
+      "date": "2021-10-29T00:00:00.000Z",
+      "tags": [
+        "Enhancements",
+        "GraphQL",
+        "Security"
+      ],
+      "seo": {
+        "title": "Vendia adds support for Namespaces, Types and GraphQL Enums",
+        "description": "Over the last few weeks, the Vendia Engineering team has been hard at work finalizing a number of changes that will greatly improve the data modeling capabilities for our users. In addition, the automatically generated GraphQL interface and resolvers have also been improved to provide native GraphQL support for enumerations."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-12-14T22:06:06.568Z"
+    }
+  ],
+  "Error": [
+    {
+      "file": "/releases/2022-12-20-releasenotes.md",
+      "draft": true,
+      "title": "Better Error Code, Tightened Security, and Less Timeouts",
+      "description": "changed error code, better security, and less timeouts",
+      "date": "2022-12-23T00:00:00.000Z",
+      "tags": [
+        "Security",
+        "Error",
+        "Improvement"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Better Error Code, Tightened Security, and Less Timeouts",
+        "description": "changed error code, better security, and less timeouts"
+      },
+      "updatedBy": "Li Dai",
+      "updatedAt": "2022-12-20T19:48:44.246Z",
+      "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
+    }
+  ],
+  "Improvement": [
+    {
+      "file": "/releases/2022-12-20-releasenotes.md",
+      "draft": true,
+      "title": "Better Error Code, Tightened Security, and Less Timeouts",
+      "description": "changed error code, better security, and less timeouts",
+      "date": "2022-12-23T00:00:00.000Z",
+      "tags": [
+        "Security",
+        "Error",
+        "Improvement"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Better Error Code, Tightened Security, and Less Timeouts",
+        "description": "changed error code, better security, and less timeouts"
+      },
+      "updatedBy": "Li Dai",
+      "updatedAt": "2022-12-20T19:48:44.246Z",
+      "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
+    }
+  ],
   "Improvements": [
     {
       "file": "/releases/2022-11-25-releasenotes.md",
@@ -419,28 +505,6 @@
     }
   ],
   "Enhancements": [
-    {
-      "file": "/releases/2021-10-29-releasenotes.md",
-      "draft": false,
-      "title": "Namespaces, Types, GraphQL Enums, and More!",
-      "description": "Changes that will greatly improve data modeling capabilities for our users",
-      "date": "2021-10-29T00:00:00.000Z",
-      "tags": [
-        "Enhancements",
-        "GraphQL",
-        "Security"
-      ],
-      "seo": {
-        "title": "Vendia adds support for Namespaces, Types and GraphQL Enums",
-        "description": "Over the last few weeks, the Vendia Engineering team has been hard at work finalizing a number of changes that will greatly improve the data modeling capabilities for our users. In addition, the automatically generated GraphQL interface and resolvers have also been improved to provide native GraphQL support for enumerations."
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2022-12-14T22:06:06.568Z"
-    }
-  ],
-  "Security": [
     {
       "file": "/releases/2021-10-29-releasenotes.md",
       "draft": false,
