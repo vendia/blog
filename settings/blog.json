@@ -2,7 +2,7 @@
   "callToAction": [
     "Want to learn more about Vendia?"
   ],
-  "updatedAt": "2022-12-16T21:47:26.652Z",
+  "updatedAt": "2022-12-20T15:24:27.172Z",
   "updatedBy": "Hugues Tennier",
   "sidebarCallToAction": [
     "Supercloud? Poly-cloud? Multi-Cloud? "
@@ -21,5 +21,22 @@
     "Real-time “everything” with operational and analytics data",
     "6 predictions about the future of blockchain in 2023",
     "5 patterns for successful data traceability"
+  ],
+  "featuredPosts": [
+    {
+      "posts": [
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ]
+    },
+    {
+      "resources": [
+        "webcast-enterprise-blockchain"
+      ]
+    },
+    {
+      "resources": [
+        "3-body-problem"
+      ]
+    }
   ]
 }
