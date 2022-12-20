@@ -124,28 +124,28 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png
   - type: Resources
     intro:
-      title: Title text
-      text: Text text
-    resourcesType: Resources type
+      title: ""
+      text: ""
+    resourcesType: ""
     resources:
       - text: |-
           Blurb about signing up. 
 
-          Include a secondar CTA to contact sales.
+          Include a secondary CTA to contact sales.
         title: Ready to get started?
         button:
           label: Start now
-      - text: Blurb on step two
-        title: Get pricing
+      - text: Blurb on the 1-week POC
+        title: Get help
         button:
-          label: See pricing
+          label: 1-Week POC
       - text: Blurb about getting a value assessment
-        title: Value assessment
+        title: "Need to show ROI? "
         button:
-          label: Schedule
+          label: Schedule an assessment
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T02:28:50.289Z
+updatedAt: 2022-12-20T02:33:32.288Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
