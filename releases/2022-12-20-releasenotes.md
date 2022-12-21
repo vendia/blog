@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Tightened Security and Less Timeouts
-description: changed error code, better security, and less timeouts
+description: We now have even better security and less timeouts!
 date: 2022-12-23
 tags:
   - Security
@@ -9,10 +9,10 @@ tags:
   - Improvement
 seo:
   noindex: false
-  title: Better Error Code, Tightened Security, and Less Timeouts
-  description: changed error code, better security, and less timeouts
+  title: Tightened Security and Less Timeouts
+  description: We now have better security and less timeouts
 updatedBy: Li Dai
-updatedAt: 2022-12-21T15:37:34.415Z
+updatedAt: 2022-12-21T15:45:23.340Z
 id: 2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0
 ---
 
