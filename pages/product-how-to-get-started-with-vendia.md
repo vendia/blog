@@ -11,12 +11,7 @@ components:
       - label: Request POC
         url: /poc
     image:
-      image: ""
-  - type: Text
-    text: <img
-      src="https://res.cloudinary.com/vendia/image/upload/v1671650134/Website/Iso/Graph_09-2_iudf1q.png"
-      alt="" class="image-float-center" height="50" />
-    theme: white
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671650134/Website/Iso/Graph_09-2_iudf1q.png
   - type: Columns
     theme: white
     intro:
@@ -55,7 +50,7 @@ components:
       text: "Vendia handles all the synchronization and sharing and adapts to any
         changes in your data model, data, or partners. "
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671650134/Website/Iso/Graph_09-2_iudf1q.png
+      image: ""
   - type: Text
     text: >-
       <img
@@ -63,11 +58,7 @@ components:
       alt="" class="image-float-left" height="200" />
 
 
-      ### No other platform makes it this easy to launch and scale a multi-party data solution. Request a 1-week POC to see how it would work for your company.
-
-
-
-
+      ### Request a 1-week POC to see how it would work for your company.
 
 
       <Button kind="primary" label="Request POC" href="/poc" />
@@ -82,13 +73,13 @@ components:
     theme: white
     author: Anders Maul
   - type: Text
-    text: text
+    text: ---
     theme: white
 seo:
   noindex: false
   title: How to get started with Vendia
   description: "Get started with Vendia in three easy steps. "
 updatedBy: Anders Maul
-updatedAt: 2022-12-21T19:20:33.005Z
+updatedAt: 2022-12-21T19:24:31.891Z
 id: cf02c8f5-7c19-42da-ba3b-5390e021ef77
 ---
