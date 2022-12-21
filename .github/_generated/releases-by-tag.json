@@ -2,8 +2,8 @@
   "Security": [
     {
       "file": "/releases/2022-12-20-releasenotes.md",
-      "draft": true,
-      "title": "Better Error Code, Tightened Security, and Less Timeouts",
+      "draft": false,
+      "title": "Tightened Security and Less Timeouts",
       "description": "changed error code, better security, and less timeouts",
       "date": "2022-12-23T00:00:00.000Z",
       "tags": [
@@ -17,7 +17,7 @@
         "description": "changed error code, better security, and less timeouts"
       },
       "updatedBy": "Li Dai",
-      "updatedAt": "2022-12-20T19:48:44.246Z",
+      "updatedAt": "2022-12-21T14:44:53.014Z",
       "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
     },
     {
@@ -44,8 +44,8 @@
   "Error": [
     {
       "file": "/releases/2022-12-20-releasenotes.md",
-      "draft": true,
-      "title": "Better Error Code, Tightened Security, and Less Timeouts",
+      "draft": false,
+      "title": "Tightened Security and Less Timeouts",
       "description": "changed error code, better security, and less timeouts",
       "date": "2022-12-23T00:00:00.000Z",
       "tags": [
@@ -59,15 +59,15 @@
         "description": "changed error code, better security, and less timeouts"
       },
       "updatedBy": "Li Dai",
-      "updatedAt": "2022-12-20T19:48:44.246Z",
+      "updatedAt": "2022-12-21T14:44:53.014Z",
       "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
     }
   ],
   "Improvement": [
     {
       "file": "/releases/2022-12-20-releasenotes.md",
-      "draft": true,
-      "title": "Better Error Code, Tightened Security, and Less Timeouts",
+      "draft": false,
+      "title": "Tightened Security and Less Timeouts",
       "description": "changed error code, better security, and less timeouts",
       "date": "2022-12-23T00:00:00.000Z",
       "tags": [
@@ -81,7 +81,7 @@
         "description": "changed error code, better security, and less timeouts"
       },
       "updatedBy": "Li Dai",
-      "updatedAt": "2022-12-20T19:48:44.246Z",
+      "updatedAt": "2022-12-21T14:44:53.014Z",
       "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
     }
   ],
