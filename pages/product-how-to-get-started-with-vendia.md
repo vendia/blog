@@ -16,8 +16,8 @@ components:
     theme: light
     intro:
       title: Get Started with Vendia in three easy steps
-      text: "You only need three elements to be in place to launch a data alliance. A
-        data model, data, and partners. "
+      text: "You only need three elements to be in place to launch a multi-party data
+        alliance: A data model, data, and partners. "
     columns:
       - text: >-
           > ### Step 1
@@ -42,7 +42,7 @@ components:
           ## Invite your data alliance partners
 
 
-          Add business partners at any time as easily as sending an email. Vendia will automatically create all required resources and populate historical data for them. Invite two, ten, or a hundred partners.
+          Add business partners at any time as easily as sending an email. Vendia will automatically create all required infrastructure and populate historical data for them. Invite two, ten, or a hundred partners.
   - type: MediaFullScreen
     theme: light
     intro:
@@ -76,6 +76,6 @@ seo:
   title: How to get started with Vendia
   description: "Get started with Vendia in three easy steps. "
 updatedBy: Anders Maul
-updatedAt: 2022-12-21T18:52:58.377Z
+updatedAt: 2022-12-21T18:55:21.512Z
 id: cf02c8f5-7c19-42da-ba3b-5390e021ef77
 ---
