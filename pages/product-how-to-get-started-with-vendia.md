@@ -20,17 +20,26 @@ components:
         data model, data, and partners. "
     columns:
       - text: >-
-          ### 1. Design your data model
+          > ### Step 1
 
 
-          Create a data model using JSON. You can choose an existing industry standard data schema or customize your own. You can always change it later, Vendia will adapt automatically.
+          ## Design your data model
+
+
+          Create a data model using JSON. You can choose an existing industry standard data schema or customize your own. You can always change it later, Vendia will adapt its infrastructure automatically.
       - text: >-
-          ### 2. Connect your data and applications
+          > ### Step 2
+
+
+          ## Connect your data and applications
 
 
           Configure connectors to third-party data sources and integrate with web, mobile, and cloud applications using Vendia's automatically generated APIs. We even offer multiple connectors that are ready to go.
       - text: >-
-          ### 3. Invite your data alliance partners
+          > ### Step 3
+
+
+          ## Invite your data alliance partners
 
 
           Add business partners at any time as easily as sending an email. Vendia will automatically create all required resources and populate historical data for them. Invite two, ten, or a hundred partners.
@@ -67,6 +76,6 @@ seo:
   title: How to get started with Vendia
   description: "Get started with Vendia in three easy steps. "
 updatedBy: Anders Maul
-updatedAt: 2022-12-21T18:44:24.441Z
+updatedAt: 2022-12-21T18:50:20.773Z
 id: cf02c8f5-7c19-42da-ba3b-5390e021ef77
 ---
