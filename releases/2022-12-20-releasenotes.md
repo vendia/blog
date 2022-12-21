@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Tightened Security and Less Timeouts
 description: changed error code, better security, and less timeouts
 date: 2022-12-23
@@ -12,7 +12,7 @@ seo:
   title: Better Error Code, Tightened Security, and Less Timeouts
   description: changed error code, better security, and less timeouts
 updatedBy: Li Dai
-updatedAt: 2022-12-21T14:44:32.859Z
+updatedAt: 2022-12-21T14:44:53.014Z
 id: 2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0
 ---
 
