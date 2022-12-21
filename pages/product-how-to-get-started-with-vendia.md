@@ -4,14 +4,14 @@ template: page
 path: /product/how-to-get-started-with-vendia
 components:
   - type: Hero
-    contentAlignment: Center
+    contentAlignment: Left
     title: How to get started with Vendia
     text: "From model to production in a matter of days not months. "
     callToActions:
       - label: Request POC
         url: /poc
     image:
-      image: ""
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671581266/Website/Iso/Launch-3_uz1ppr.png
   - type: Columns
     theme: light
     intro:
@@ -76,6 +76,6 @@ seo:
   title: How to get started with Vendia
   description: "Get started with Vendia in three easy steps. "
 updatedBy: Anders Maul
-updatedAt: 2022-12-21T18:50:20.773Z
+updatedAt: 2022-12-21T18:52:58.377Z
 id: cf02c8f5-7c19-42da-ba3b-5390e021ef77
 ---
