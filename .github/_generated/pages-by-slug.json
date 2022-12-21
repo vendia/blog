@@ -35,6 +35,10 @@
     "file": "/pages/privacy-policy.md",
     "draft": false
   },
+  "product/how-to-get-started-with-vendia": {
+    "file": "/pages/product-how-to-get-started-with-vendia.md",
+    "draft": true
+  },
   "reconciliationless": {
     "file": "/pages/reconciliationless.md",
     "draft": false
