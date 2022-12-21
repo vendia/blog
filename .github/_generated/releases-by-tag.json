@@ -2,7 +2,7 @@
   "Security": [
     {
       "file": "/releases/2022-12-20-releasenotes.md",
-      "draft": true,
+      "draft": false,
       "title": "Tightened Security and Less Timeouts",
       "description": "changed error code, better security, and less timeouts",
       "date": "2022-12-23T00:00:00.000Z",
@@ -17,7 +17,7 @@
         "description": "changed error code, better security, and less timeouts"
       },
       "updatedBy": "Li Dai",
-      "updatedAt": "2022-12-21T15:12:41.154Z",
+      "updatedAt": "2022-12-21T15:37:34.415Z",
       "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
     },
     {
@@ -44,7 +44,7 @@
   "Error": [
     {
       "file": "/releases/2022-12-20-releasenotes.md",
-      "draft": true,
+      "draft": false,
       "title": "Tightened Security and Less Timeouts",
       "description": "changed error code, better security, and less timeouts",
       "date": "2022-12-23T00:00:00.000Z",
@@ -59,14 +59,14 @@
         "description": "changed error code, better security, and less timeouts"
       },
       "updatedBy": "Li Dai",
-      "updatedAt": "2022-12-21T15:12:41.154Z",
+      "updatedAt": "2022-12-21T15:37:34.415Z",
       "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
     }
   ],
   "Improvement": [
     {
       "file": "/releases/2022-12-20-releasenotes.md",
-      "draft": true,
+      "draft": false,
       "title": "Tightened Security and Less Timeouts",
       "description": "changed error code, better security, and less timeouts",
       "date": "2022-12-23T00:00:00.000Z",
@@ -81,7 +81,7 @@
         "description": "changed error code, better security, and less timeouts"
       },
       "updatedBy": "Li Dai",
-      "updatedAt": "2022-12-21T15:12:41.154Z",
+      "updatedAt": "2022-12-21T15:37:34.415Z",
       "id": "2d3f2e4a-1007-4cdb-b71f-b25ea9deb8f0"
     }
   ],
