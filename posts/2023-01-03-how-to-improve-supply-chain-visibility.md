@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to improve supply chain visibility
 description: Explore supply chain visibility challenges and discover three
   strategies for improving multi-party data sharing and management in the name
@@ -25,7 +25,7 @@ seo:
   keywords: improve supply chain visibility
   title: How to improve supply chain visibility
 updatedBy: alexa-vendia
-updatedAt: 2023-01-03T23:15:08.945Z
+updatedAt: 2023-01-03T23:16:26.678Z
 id: c803ef20-a91e-4fff-8506-838f8de11cdf
 ---
 
