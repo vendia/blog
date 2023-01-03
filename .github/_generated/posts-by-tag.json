@@ -116,7 +116,7 @@
   "supply chain visibility": [
     {
       "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
-      "draft": true,
+      "draft": false,
       "title": "How to improve supply chain visibility",
       "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
       "date": "2023-01-03T00:00:00.000Z",
@@ -143,7 +143,7 @@
         "title": "How to improve supply chain visibility"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-03T23:15:08.945Z",
+      "updatedAt": "2023-01-03T23:16:26.678Z",
       "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
     }
   ],
