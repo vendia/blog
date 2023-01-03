@@ -21,8 +21,9 @@ seo:
     solutions architects, and key leaders for their insights and hot takes.
   keywords: business blockchain, the future of blockchain
   title: 6 predictions about the future of blockchain in 2023
-updatedBy: alexa-vendia
-updatedAt: 2022-12-15T21:59:36.045Z
+updatedBy: David McElligott
+updatedAt: 2023-01-03T15:03:36.889Z
+id: 1af70b4b-e67f-4cd1-9e74-6ff8e10c371f
 ---
 
 Where is blockchain headed in 2023? We surveyed our founders, Solutions Architects, and key leaders for their insights and hot takes. Here are the highlights.
@@ -33,13 +34,11 @@ Where is blockchain headed in 2023? We surveyed our founders, Solutions Architec
 
 <BlockQuote author="Shruthi Rao, CBO and co-founder" text="In light of the recent crypto meltdown, people will have renewed skepticism towards anything with “blockchain” in the name. As we know, crypto requires blockchain, but blockchain has many uses outside crypto. Regardless, the current environment means enterprises will focus more on real solutions for tangible problems and with clear ROI. That’s why 2023 will be the year of business blockchain — where the mystery, hype, and dumpster fires are left out, and the focus is on delivering blockchain solutions for enterprises." />
 
-
 ## Prediction #2 – Blockchains and databases will (start to) merge
 
 As blockchain technology goes [beyond crypto](https://www.vendia.com/blog/venn-diagramming-vendia-share), it will start to evolve around how enterprises are using the technology in concert with other tech. 
 
 <BlockQuote author="Tim Wagner, CEO and co-founder" text="This is really going to take more like a quarter century, but the process of blockchains and databases merging has begun. The use of blockchain at enterprises is really a form of a distributed database, where the “distributed” now means across partners, clouds, and regions, not just within a single AWS or Azure account. Deterministic database  theory and blockchain theory are already on a convergence path at the research level. The news just hasn’t made its way to the general public yet. 2023 will start to accelerate this merger." />
-
 
 ## Prediction #3 – Blockchain transitions from being a single technology to becoming part of the modern IT stack
 
@@ -63,7 +62,7 @@ And when regulation isn’t coming, the threat can come from [new industry playe
 
 Innovation forced by external levers like climate change and the potential for a controlled, compliant data alliances can also be [driven by partners](https://www.vendia.com/blog/atos-success-story) adopting business blockchain (and shifting their infrastructure from DIY/roll your own to SaaS). 
 
-<BlockQuote text="Insurance is ripe for a shake-up. Weather events are costing more and more, and these firms will need to better plan for the anticipated cost and logistics. First, looking internally to reduce the significant overhead to provide insurance, receive and investigate claims, and reimburse funds. These processes have layers and back-and-forth data in collaboration with local services, receipt of forms, sending of information to-and-from banks, investigation reports, and validating recipient received funds. A solution in which there is a set network of parties (i.e. a business alliance) that owns their data, leveraging a distributed, decentralized storage solution and an immutable ledger to maintain traceability and trust of changes would advance insurance providers to focus on their risk assessment rather than the logistics of data reconciliation." author=" Francine Klein, Sr. Solutions Architect" />
+<BlockQuote text="Insurance is ripe for a shake-up. Weather events are costing more and more, and these firms will need to better plan for the anticipated cost and logistics. First, looking internally to reduce the significant overhead to provide insurance, receive and investigate claims, and reimburse funds. These processes have layers and back-and-forth data in collaboration with local services, receipt of forms, sending of information to-and-from banks, investigation reports, and validating recipient received funds. A solution in which there is a set network of parties (i.e. a business alliance) that owns their data, leveraging a distributed, decentralized storage solution and an immutable ledger to maintain traceability and trust of changes would advance insurance providers to focus on their risk assessment rather than the logistics of data reconciliation." author= Francine Klein, Sr. Solutions Architect  />
 
 Meanwhile, the combination of inertia with existing players and the potential value-adds from business blockchain creates a perfect environment for new players to disrupt the field. 
 
@@ -73,7 +72,7 @@ Meanwhile, the combination of inertia with existing players and the potential va
 
 When consumers expect two-day delivery and instead have to wait two months, someone or something is stuck somewhere. 
 
-<BlockQuote author="Francine Klein, Sr. Solutions Architect" text="The events of the last few years put a strain on the supply chain network operating on just-in-time inventory. The delicate dependency on raw goods and global trading agreements showed supply chains' v to local or global market shocks. And the threat hasn’t faded. With climate change and severe weather looming in most places and the availability of raw goods becoming increasingly scarce, the modern supply chain network will need to be able to pivot at a moment’s notice to new, more local suppliers or alternatives. Supply chain networks will need to become more agile and expand their business networks with new partners." />
+<BlockQuote author="Francine Klein, Sr. Solutions Architect" text="The events of the last few years put a strain on the supply chain network operating on just-in-time inventory. The delicate dependency on raw goods and global trading agreements showed supply chains are vulnerable to local or global market shocks. And the threat hasn’t faded. With climate change and severe weather looming in most places and the availability of raw goods becoming increasingly scarce, the modern supply chain network will need to be able to pivot at a moment’s notice to new, more local suppliers or alternatives. Supply chain networks will need to become more agile and expand their business networks with new partners." />
 
 And it sounds like that might mean faster [adoption of business blockchain](https://www.vendia.com/case-studies/bmw) by the [supply chain and manufacturing](https://www.vendia.com/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry) industries.
 
