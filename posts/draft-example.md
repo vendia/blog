@@ -18,10 +18,15 @@ seo:
   title: Draft
   description: descr
 updatedBy: David Wells
-updatedAt: 2022-12-06T06:11:15.218Z
+updatedAt: 2023-01-03T06:35:50.069Z
+id: a5802429-67fd-4e1d-ae3c-78d07feb2dc5
 ---
 
 This post is a draft. Here is update. Again!!!!
+
+<CTA ctas={["fae91eb2-be1c-405c-bb84-b6119def1d70","893c2969-3b41-4ac0-86d2-df2d90f6a103"]} />
+
+test
 
 <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1668114635%252Fwhat-you-can-build_p8uape.png" alt="test" class="image-float-left" width="300" />
 
