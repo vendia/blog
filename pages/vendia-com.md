@@ -5,9 +5,9 @@ path: vendia.com
 components:
   - type: Hero
     contentAlignment: Left
-    title: A complete partner data sharing platform
-    text: Settle transactions and prove chain of custody with Vendia’s powerful
-      platform designed to eliminate the cost of reconciling data.
+    title: Eliminate the costs of reconciling data
+    text: Make data sharing across partners automatic, trusted, and secure with a
+      complete partner data sharing platform.
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671499818/Website/Iso/Vendia-Uni_bveueo.svg
       altText: Vendia – the only complete partner data sharing platform.
@@ -121,14 +121,11 @@ components:
       Vendia is the only partner data sharing platform that combines a business blockchain, Smart APIs, and cloud databases in a single, unified SaaS platform.
 
 
-      - Partner data sharing, with control
+      - Share data across partners, with control
 
-      - Security and compliance built-in
+      - Get security and compliance built-in
 
-      - Zero-code partner onboarding
-
-
-      <Button kind="secondary" label="Explore the Vendia Share platform  " href="https://www.vendia.com/product" />
+      - Onboard partners quickly, without coding
     mediaPosition: right
     theme: white
     image:
@@ -157,6 +154,6 @@ components:
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2022-12-20T02:41:38.215Z
+updatedAt: 2023-01-04T18:47:40.694Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
