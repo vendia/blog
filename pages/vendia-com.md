@@ -5,9 +5,9 @@ path: vendia.com
 components:
   - type: Hero
     contentAlignment: Left
-    title: Eliminate the costs of reconciling data
-    text: Make data sharing across partners automatic, trusted, and secure with a
-      complete partner data sharing platform.
+    title: A complete partner data sharing platform
+    text: Settle transactions and prove chain of custody with Vendia’s powerful
+      platform designed to eliminate the cost of reconciling data.
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671499818/Website/Iso/Vendia-Uni_bveueo.svg
       altText: Vendia – the only complete partner data sharing platform.
@@ -69,8 +69,10 @@ components:
   - type: Columns
     theme: white
     intro:
-      title: ""
-      text: ""
+      title: A complete platform
+      text: Vendia is the only partner data sharing platform that combines a business
+        blockchain, Smart APIs, and cloud databases in a single, unified SaaS
+        platform.
     columns:
       - text: >-
           <img
@@ -113,26 +115,30 @@ components:
       **Gartner Research**
     theme: white
     author: Caroll Casbeer
-  - type: MediaWithText
-    text: >-
-      ## A complete platform
+  - type: Resources
+    intro:
+      title: ""
+      text: ""
+    resourcesType: ""
+    resources:
+      - text: |-
+          Blurb about signing up. 
 
-
-      Vendia is the only partner data sharing platform that combines a business blockchain, Smart APIs, and cloud databases in a single, unified SaaS platform.
-
-
-      - Share data across partners, with control
-
-      - Get security and compliance built-in
-
-      - Onboard partners quickly, without coding
-    mediaPosition: right
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png
+          Include a secondary CTA to contact sales.
+        title: Ready to get started?
+        button:
+          label: Start now
+      - text: Blurb on the 1-week POC
+        title: Get help
+        button:
+          label: 1-Week POC
+      - text: Blurb about getting a value assessment
+        title: "Need to show ROI? "
+        button:
+          label: Schedule an assessment
 seo:
   noindex: false
 updatedBy: tz-vendia
-updatedAt: 2023-01-04T18:48:50.535Z
+updatedAt: 2023-01-05T21:53:29.179Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
