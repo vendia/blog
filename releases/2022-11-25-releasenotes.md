@@ -42,7 +42,8 @@ curl 'https://<some-domain>/graphql/' \
 We can see that it returns `200` status code. But also gives detailed error messages pointing out that `listVedia_BlockItems` is incorrect and suggested other available options.
 
 Sample Response:
-```
+
+```bash
 HTTP/2 200
 date: Tue, 29 Nov 2022 20:31:27 GMT
 content-type: application/json
@@ -57,7 +58,7 @@ x-amzn-trace-id: XXXXXX
 
 2. A request with meaningless query body:
 
-```
+```bash
 curl 'https://<some-domain>/graphql/' \
     -H 'Authorization: <api-token>' \
     -H 'content-type: application/json' \
@@ -69,7 +70,8 @@ curl 'https://<some-domain>/graphql/' \
 Again, we see a `200` status code. The message informs us that the syntax is not right which makes sense since our query body has nothing.
 
 Sample Response:
-```
+
+```bash
 HTTP/2 200
 date: Tue, 29 Nov 2022 20:31:52 GMT
 content-type: application/json
