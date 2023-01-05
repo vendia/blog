@@ -2,9 +2,11 @@
   "name": "Ryan Scott Brown",
   "github": "ryansb",
   "twitter": "ryan_sb",
-  "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg",
+  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958560/Headshots/rsb_lpasf1.png",
   "bio": {
     "short": "Core Software Engineer",
     "long": "Ryan is a Python software engineer and AWS Solutions architect with a background in operations, infrastructure tooling, and serverless."
-  }
+  },
+  "updatedAt": "2023-01-05T22:42:48.654Z",
+  "updatedBy": "David Wells"
 }
