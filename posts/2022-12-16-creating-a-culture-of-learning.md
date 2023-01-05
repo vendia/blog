@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: creating-a-culture-of-learning
 title: Creating a culture of learning
 description: See some of our values in action as James Gimourginas, Director of
@@ -30,7 +30,8 @@ seo:
     culture of learning for our colleagues and customers.
   keywords: Creating a culture of learning
 updatedBy: alexa-vendia
-updatedAt: 2022-12-16T20:41:06.408Z
+updatedAt: 2023-01-05T00:40:35.730Z
+id: adcfc398-f98b-4e39-81a6-867b11472d71
 ---
 
 As many leading technology companies know, a [learning culture](https://cloud.google.com/architecture/devops/devops-culture-learning-culture) drives higher software delivery and organizational performance. To truly establish a learning _culture_, an organization must embrace their set of shared attitudes, values, goals, and practices — the qualities that characterize them as an institution..
