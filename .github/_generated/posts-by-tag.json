@@ -2,7 +2,7 @@
   "Culture": [
     {
       "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
-      "draft": true,
+      "draft": false,
       "slug": "creating-a-culture-of-learning",
       "title": "Creating a culture of learning",
       "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
@@ -34,13 +34,14 @@
         "keywords": "Creating a culture of learning"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T20:41:06.408Z"
+      "updatedAt": "2023-01-05T00:40:35.730Z",
+      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
     }
   ],
   "Continuous Improvement": [
     {
       "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
-      "draft": true,
+      "draft": false,
       "slug": "creating-a-culture-of-learning",
       "title": "Creating a culture of learning",
       "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
@@ -72,13 +73,14 @@
         "keywords": "Creating a culture of learning"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T20:41:06.408Z"
+      "updatedAt": "2023-01-05T00:40:35.730Z",
+      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
     }
   ],
   "Learning": [
     {
       "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
-      "draft": true,
+      "draft": false,
       "slug": "creating-a-culture-of-learning",
       "title": "Creating a culture of learning",
       "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
@@ -110,7 +112,8 @@
         "keywords": "Creating a culture of learning"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T20:41:06.408Z"
+      "updatedAt": "2023-01-05T00:40:35.730Z",
+      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
     }
   ],
   "supply chain visibility": [
