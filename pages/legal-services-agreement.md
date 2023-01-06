@@ -404,7 +404,8 @@ components:
     theme: white
 seo:
   noindex: false
+  title: Vendia Services Agreement
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T18:09:17.581Z
+updatedAt: 2023-01-06T18:10:13.117Z
 id: e5b39fa8-67c7-40fd-928c-fecfee29ca27
 ---
