@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: legal/dpa
 components:
@@ -632,6 +632,6 @@ seo:
   noindex: false
   title: Vendia Data Processing Agreement
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T17:16:38.056Z
+updatedAt: 2023-01-06T17:16:51.815Z
 id: aeefe23c-cb08-4674-81d1-a1a89bae55aa
 ---
