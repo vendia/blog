@@ -190,7 +190,7 @@ Welcome to the Vendia blog repo!
  <tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/anders-maul">
-        <img src="https://avatars.githubusercontent.com/u/104795928?v=4" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958196/Headshots/anders_viun0t.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/anders-vendia"><sup><sub>Anders Maul</sub></sup></a>
@@ -255,7 +255,7 @@ Welcome to the Vendia blog repo!
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/gavin-yue">
-        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg" width="76px;" alt=""/>
+        <img src="https://user-images.githubusercontent.com/6691035/210914364-9a797953-9be0-4393-bb5a-05c17e375c51.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/gavinyue-vendia"><sup><sub>Gavin Yue</sub></sup></a>
@@ -306,21 +306,21 @@ Welcome to the Vendia blog repo!
 <tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/ryan-green">
-        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958584/Headshots/ryanGreen_gnddrp.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://twitter.com/robotpatch"><sup><sub>Ryan Green</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/ryan-scott-brown">
-        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958560/Headshots/rsb_lpasf1.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://twitter.com/ryan_sb"><sup><sub>Ryan Scott Brown</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/shruthi-rao">
-        <img src="https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg" width="76px;" alt=""/>
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://twitter.com/shruthialways"><sup><sub>Shruthi Rao</sub></sup></a>

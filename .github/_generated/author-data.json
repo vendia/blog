@@ -34,10 +34,10 @@
         "long": ""
       },
       "name": "Anders Maul",
-      "updatedAt": "2022-12-05T22:32:33.216Z",
-      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-05T22:36:48.580Z",
+      "updatedBy": "David Wells",
       "twitter": "",
-      "avatar": "https://avatars.githubusercontent.com/u/104795928?v=4",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958196/Headshots/anders_viun0t.png",
       "jobTitle": "Head of Product Marketing",
       "linkedin": "https://www.linkedin.com/in/andersmaul/",
       "slug": "anders-maul",
@@ -154,7 +154,7 @@
       "name": "Gavin Yue",
       "github": "gavinyue-vendia",
       "twitter": "",
-      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/gavin-yue.jpg",
+      "avatar": "https://user-images.githubusercontent.com/6691035/210914364-9a797953-9be0-4393-bb5a-05c17e375c51.png",
       "bio": {
         "short": "Core engineer",
         "long": "Gavin Yue is a core engineer working on design and development of ServerLess and blockchain based systems"
@@ -211,7 +211,7 @@
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/85032783?s=400&v=4",
-      "jobTitle": "Director of SolutionsArchitecture and Customer Success",
+      "jobTitle": "Director of Solutions Architecture and Customer Success",
       "linkedin": "https://www.linkedin.com/in/jamesgimourginas/",
       "slug": "james-gimourginas",
       "postCount": 18
@@ -247,11 +247,13 @@
       "name": "Ryan Green",
       "github": "rpgreen",
       "twitter": "robotpatch",
-      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-green.jpg",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958584/Headshots/ryanGreen_gnddrp.png",
       "bio": {
         "short": "Senior software engineer",
         "long": "Ryan Green is a professional software engineer with over 13 years of experience building large-scale, highly-available cloud systems and SaaS applications with a focus on serverless and cloud-native architecture, DevOps, scalability, and security. Ryan contributed to several foundational serverless technologies at Amazon Web Services where he was a founding engineer on Amazon API Gateway and AWS Lambda. In his spare time, Ryan enjoys traveling and enjoying the outdoors with his family, mountain biking, skiing, and cooking."
       },
+      "updatedAt": "2023-01-05T22:43:13.790Z",
+      "updatedBy": "David Wells",
       "slug": "ryan-green",
       "postCount": 1
     },
@@ -259,11 +261,13 @@
       "name": "Ryan Scott Brown",
       "github": "ryansb",
       "twitter": "ryan_sb",
-      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/ryan-scott-brown.jpg",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958560/Headshots/rsb_lpasf1.png",
       "bio": {
         "short": "Core Software Engineer",
         "long": "Ryan is a Python software engineer and AWS Solutions architect with a background in operations, infrastructure tooling, and serverless."
       },
+      "updatedAt": "2023-01-05T22:42:48.654Z",
+      "updatedBy": "David Wells",
       "slug": "ryan-scott-brown",
       "postCount": 0
     },
@@ -271,11 +275,13 @@
       "name": "Shruthi Rao",
       "github": "shruthialways",
       "twitter": "shruthialways",
-      "avatar": "https://60d4c06b5c0ad246f6391187--vendia-site.netlify.app/images/team/shruthi.jpg",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png",
       "bio": {
         "short": "Vendia Co-Founder and CBO",
         "long": "Shruthi has been at the crux of innovation in multiple industries throughout her career, which served as a starting point to customer empathy. At AWS, Shruthi led over 1,000 customer conversations to solve the multi-party and cross-cloud data and code aggregation problem using Blockchains. She quickly realized that legacy blockchains were not suitable due to their high cost, low scalability, and complex enterprise integrations. Shruthi is a first generation Indian immigrant, mother to a 5 year old boy and frequently speaks at various conferences."
       },
+      "updatedAt": "2023-01-05T22:43:33.350Z",
+      "updatedBy": "David Wells",
       "slug": "shruthi-rao",
       "postCount": 6
     },

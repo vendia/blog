@@ -11,6 +11,10 @@
     "file": "/pages/legal-abc.md",
     "draft": true
   },
+  "legal/dpa": {
+    "file": "/pages/legal-dpa.md",
+    "draft": true
+  },
   "new-slug-on/site": {
     "file": "/pages/new-slug-on-site.md",
     "draft": true
