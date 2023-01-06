@@ -220,11 +220,18 @@ components:
         button:
           label: Download
           url: "#"
+  - type: ThinHeadline
+    title: TODO title here
+    text: TODO text here
+    button:
+      label: TODO Click me
+      kind: primary
+    theme: white
 seo:
   title: Title
   description: Description
 updatedBy: David Wells
-updatedAt: 2023-01-06T05:34:12.048Z
+updatedAt: 2023-01-06T19:14:57.084Z
 id: e9d8df13-0860-4450-9a24-a73e5df0cd91
 createdAt: 2022-11-28T15:58:16.392Z
 createdBy: Hugues Tennier
