@@ -36,7 +36,7 @@ components:
       text: This text is optional
   - type: Columns
     intro:
-      title: Columns pancake
+      title: 3 Columns pancake
       text: Three columns
     columns:
       - text: >-
@@ -70,7 +70,7 @@ components:
           Mauris libero mi, viverra eu ante sit amet, gravida dictum tortor. Suspendisse dictum non lorem sit amet vestibulum.
   - type: Columns
     intro:
-      title: Columns pancake
+      title: 2 Columns pancake
       text: Two columns
     columns:
       - text: >-
@@ -223,10 +223,11 @@ components:
 seo:
   title: Title
   description: Description
-createdBy: Hugues Tennier
+updatedBy: David Wells
+updatedAt: 2023-01-06T05:27:29.423Z
+id: e9d8df13-0860-4450-9a24-a73e5df0cd91
 createdAt: 2022-11-28T15:58:16.392Z
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-28T15:58:16.392Z
+createdBy: Hugues Tennier
 ---
 
 Body is required to show pancakes
