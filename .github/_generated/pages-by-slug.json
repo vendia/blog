@@ -7,10 +7,6 @@
     "file": "/pages/default-title.md",
     "draft": true
   },
-  "legal/abc": {
-    "file": "/pages/legal-abc.md",
-    "draft": true
-  },
   "legal/dpa": {
     "file": "/pages/legal-dpa.md",
     "draft": false
