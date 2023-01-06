@@ -34,6 +34,13 @@ components:
     intro:
       title: Logos pancake
       text: This text is optional
+  - type: ThinHeadline
+    title: Thin headline title
+    text: Thin headline text here
+    button:
+      label: Click me
+      kind: primary
+    theme: white
   - type: Columns
     intro:
       title: 3 Columns pancake
@@ -220,18 +227,11 @@ components:
         button:
           label: Download
           url: "#"
-  - type: ThinHeadline
-    title: TODO title here
-    text: TODO text here
-    button:
-      label: TODO Click me
-      kind: primary
-    theme: white
 seo:
   title: Title
   description: Description
 updatedBy: David Wells
-updatedAt: 2023-01-06T19:14:57.084Z
+updatedAt: 2023-01-06T19:15:24.292Z
 id: e9d8df13-0860-4450-9a24-a73e5df0cd91
 createdAt: 2022-11-28T15:58:16.392Z
 createdBy: Hugues Tennier
