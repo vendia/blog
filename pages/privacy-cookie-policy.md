@@ -119,10 +119,10 @@ components:
     theme: white
 seo:
   noindex: false
-  title: Cookie policy
+  title: Cookies policy
   description: Vendia's cookie policy.
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T17:57:21.996Z
+updatedAt: 2023-01-06T18:10:22.690Z
 id: 90887efc-6e5c-4ad0-9bc3-192d6e186f10
 createdAt: 2022-12-08T00:49:02.972Z
 createdBy: David Wells
