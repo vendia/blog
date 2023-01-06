@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /privacy/cookie-policy
+path: /legal/cookie-policy
 components:
   - type: Text
     text: >-
@@ -121,8 +121,9 @@ seo:
   noindex: false
   title: Cookie policy
   description: Vendia's cookie policy.
-createdBy: David Wells
+updatedBy: Caroll Casbeer
+updatedAt: 2023-01-06T17:31:09.601Z
+id: 90887efc-6e5c-4ad0-9bc3-192d6e186f10
 createdAt: 2022-12-08T00:49:02.972Z
-updatedBy: David Wells
-updatedAt: 2022-12-08T00:49:02.972Z
+createdBy: David Wells
 ---
