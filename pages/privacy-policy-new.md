@@ -434,8 +434,9 @@ components:
 seo:
   noindex: false
   keywords: "Privacy Policy "
+  title: Privacy Policy
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T17:32:09.314Z
+updatedAt: 2023-01-06T18:10:45.038Z
 id: 95e02ba3-c3c8-4998-9a2e-0153b17ff039
 createdAt: 2022-12-07T22:53:58.013Z
 createdBy: Caroll Casbeer
