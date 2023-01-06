@@ -13,7 +13,7 @@
   },
   "legal/dpa": {
     "file": "/pages/legal-dpa.md",
-    "draft": true
+    "draft": false
   },
   "new-slug-on/site": {
     "file": "/pages/new-slug-on-site.md",
