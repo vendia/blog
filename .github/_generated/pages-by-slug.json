@@ -15,6 +15,10 @@
     "file": "/pages/legal-dpa.md",
     "draft": false
   },
+  "legal/services-agreement ": {
+    "file": "/pages/legal-services-agreement.md",
+    "draft": false
+  },
   "new-slug-on/site": {
     "file": "/pages/new-slug-on-site.md",
     "draft": true
