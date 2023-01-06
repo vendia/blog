@@ -5,7 +5,7 @@ path: /pancakes-list
 components:
   - type: Hero
     contentAlignment: Center
-    title: Hero Pancake
+    title: Hero Pancake Centered
     text: Content is aligned to the center by default
     callToActions:
       - label: Get started
@@ -224,7 +224,7 @@ seo:
   title: Title
   description: Description
 updatedBy: David Wells
-updatedAt: 2023-01-06T05:27:29.423Z
+updatedAt: 2023-01-06T05:34:12.048Z
 id: e9d8df13-0860-4450-9a24-a73e5df0cd91
 createdAt: 2022-11-28T15:58:16.392Z
 createdBy: Hugues Tennier
