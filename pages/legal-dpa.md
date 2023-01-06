@@ -254,29 +254,58 @@ components:
       (C) Demonstration of Compliance. Vendia will make all information reasonably necessary to demonstrate compliance with this DPA available to CUSTOMER and allow for and contribute to audits, including inspections conducted by CUSTOMER or its auditor in order to assess compliance with this DPA. CUSTOMER acknowledges and agrees that it will exercise its audit rights under this DPA and Clause 8.9 of the Standard Contractual Clauses by instructing Vendia to comply with the audit measures described in this 'Demonstration of Compliance' section. CUSTOMER acknowledge that the Vendia Services are hosted by Vendia’s hosting Sub-Processors who maintain independently validated security programs (including SOC 2) and that Vendia’s systems are audited annually as part of SOC 2 compliance and regularly tested by independent third party penetration testing firms. Upon request, Vendia will supply (on a confidential basis) its SOC 2 report and summary copies of its penetration testing report(s) to CUSTOMER so that CUSTOMER can verify Vendia’s compliance with such DPA. Further, at CUSTOMER’s written request, Vendia will provide written responses (on a confidential basis) to all reasonable requests for information made by CUSTOMER necessary to confirm Vendia’s compliance with this DPA, provided that CUSTOMER will not exercise this right more than once per calendar year unless it has reasonable evidence to suspect non-compliance with the DPA.
 
 
-      25. **Additional Provisions for California Personal Information**
-
-          31. <span style="text-decoration:underline;">Roles of the Parties</span>. When Processing California Personal Information in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is a Business and Vendia is a Service Provider for the purposes of the CCPA.
-          32. <span style="text-decoration:underline;">Responsibilities</span>. The Parties agree that Vendia will Process California Personal Information as a Service Provider strictly for the purpose of performing the Vendia Services under the Agreement(s) (the “**Business Purpose**”) or as otherwise permitted by the CCPA, including as described in Vendia’s Privacy Policy, which resides at <https://vendia.com/legal/privacy-policy>.
+      **12. Additional Provisions for California Personal Information**
 
 
+      12.1 Roles of the Parties. When Processing California Personal Information in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is a Business and Vendia is a Service Provider for the purposes of the CCPA.
 
 
+      12.2 Responsibilities. The Parties agree that Vendia will Process California Personal Information as a Service Provider strictly for the purpose of performing the Vendia Services under the Agreement(s) (the “**Business Purpose**”) or as otherwise permitted by the CCPA, including as described in Vendia’s Privacy Policy, which resides at <https://vendia.com/legal/privacy-policy>.
 
-      25. **General**
 
-          34. <span style="text-decoration:underline;">Amendments</span>. Notwithstanding anything else to the contrary in the Agreement(s) and without prejudice to *Section 3.1 – Compliance with Instructions* and *Section(s) 2.3 / 3.3 – Security* of this DPA, Vendia reserves the right to make any updates and changes to this DPA. This DPA will be updated periodically, to ensure compliance with Applicable Privacy Laws. Vendia will ensure the updated copy of DPA will reside at <https://www.vendia.com/legal/dpa>.
-          35. <span style="text-decoration:underline;">Severability</span>. If any individual provisions of this DPA are determined to be invalid or unenforceable, the validity and enforceability of the other provisions of this DPA will not be affected.
-          36. <span style="text-decoration:underline;">Limitation of Liability</span>. Each Party and each of their Affiliates' liability, taken in aggregate, arising out of or related to this DPA (and any other DPAs between the Parties) and the Standard Contractual Clauses (where applicable), whether in contract, tort or under any other theory of liability, will be subject to the limitations and exclusions of liability set out in the _Limitation and Liability _section of the Agreement(s), and any reference in such section to the liability of a Party means aggregate liability of that Party and all of its Affiliates under the Agreement (including this DPA). In no event will either Party's liability be limited with respect to any individual's data protection rights under this DPA (including the Standard Contractual Clauses) or otherwise.
-          37. <span style="text-decoration:underline;">Governing Law</span>. This DPA will be governed by and construed in accordance with the laws of the State of California, unless required otherwise by Data Protection Laws.
-          38. <span style="text-decoration:underline;">Authorization</span>. The legal entity agreeing to this DPA as CUSTOMER represents that it is authorized to agree and enter into this DPA for and on behalf of itself, and as applicable, each of its Affiliates.
-          39. <span style="text-decoration:underline;">Remedies</span>. The Parties agree that: (a) CUSTOMER will exercise any right or seek any remedy any Affiliate may have under this DPA on behalf of its Affiliates, and (b) CUSTOMER will exercise any such rights under this DPA not separately for each Affiliate individually but in a combined manner for itself and all of its Affiliates together. The CUSTOMER shall remain responsible for coordinating all Instructions, authorizations, and communications with Vendia under this DPA and will be entitled to make and receive any communications related to this DPA on behalf of its Affiliates.
-          40. <span style="text-decoration:underline;">Audit Measures</span>. The Parties agree that CUSTOMER will, when reviewing Vendia’s compliance with this DPA pursuant to *Section 11.6(C)  – Demonstration of Compliance*, take all reasonable measures to limit any impact to Vendia by combining several audit requests carried out by CUSTOMER into one single audit. CUSTOMER acknowledges and agrees that any and all audits requested by CUSTOMER shall take place no more than once per calendar year, unless otherwise required by applicable law or by request of law enforcement.
-          41. Except for the changes made by this DPA, the Agreement(s) remain unchanged and in full force and effect. If there is any conflict between any provision in this DPA and any provision in the Agreement(s), this DPA controls and takes precedence. With effect from the effective date, this DPA is part of, and incorporated into the Agreement(s).
-          42. The obligations placed upon Vendia under this DPA shall survive so long as Vendia and/or its Sub-Processors, Processes Personal Data on behalf of a CUSTOMER.
-          43. Notwithstanding anything else to the contrary in the Agreement(s) Vendia acknowledges and agrees that it shall be liable for any loss of data (including Personal Data) arising under or in connection with the Agreement(s) and this DPA to the extent such loss results from any failure of Vendia (or its Sub-Processors) to comply with its obligations under this DPA and/or Applicable Privacy Laws.
+      **13. General**
 
-      **Annex A – Details of the Processing**
+
+      13.1 Amendments. Notwithstanding anything else to the contrary in the Agreement(s) and without prejudice to *Section 3.1 – Compliance with Instructions* and *Section(s) 2.3 / 3.3 – Security* of this DPA, Vendia reserves the right to make any updates and changes to this DPA. This DPA will be updated periodically, to ensure compliance with Applicable Privacy Laws. Vendia will ensure the updated copy of DPA will reside at <https://www.vendia.com/legal/dpa>.
+
+
+      13.2 Severability. If any individual provisions of this DPA are determined to be invalid or unenforceable, the validity and enforceability of the other provisions of this DPA will not be affected.
+
+
+      13.3 Limitation of Liability. Each Party and each of their Affiliates' liability, taken in aggregate, arising out of or related to this DPA (and any other DPAs between the Parties) and the Standard Contractual Clauses (where applicable), whether in contract, tort or under any other theory of liability, will be subject to the limitations and exclusions of liability set out in the **Limitation and Liability** section of the Agreement(s), and any reference in such section to the liability of a Party means aggregate liability of that Party and all of its Affiliates under the Agreement (including this DPA). In no event will either Party's liability be limited with respect to any individual's data protection rights under this DPA (including the Standard Contractual Clauses) or otherwise.
+
+
+      13.4 Governing Law. This DPA will be governed by and construed in accordance with the laws of the State of California, unless required otherwise by Data Protection Laws.
+
+
+      13.5 Authorization. The legal entity agreeing to this DPA as CUSTOMER represents that it is authorized to agree and enter into this DPA for and on behalf of itself, and as applicable, each of its Affiliates.
+
+
+      13.6 Remedies. The Parties agree that: 
+
+
+      (a) CUSTOMER will exercise any right or seek any remedy any Affiliate may have under this DPA on behalf of its Affiliates, and 
+
+
+      (b) CUSTOMER will exercise any such rights under this DPA not separately for each Affiliate individually but in a combined manner for itself and all of its Affiliates together. The CUSTOMER shall remain responsible for coordinating all Instructions, authorizations, and communications with Vendia under this DPA and will be entitled to make and receive any communications related to this DPA on behalf of its Affiliates.
+
+
+      13.7 Audit Measures. The Parties agree that CUSTOMER will, when reviewing Vendia’s compliance with this DPA pursuant to *Section 11.6(C)  – Demonstration of Compliance*, take all reasonable measures to limit any impact to Vendia by combining several audit requests carried out by CUSTOMER into one single audit. CUSTOMER acknowledges and agrees that any and all audits requested by CUSTOMER shall take place no more than once per calendar year, unless otherwise required by applicable law or by request of law enforcement.
+
+
+      13. 8 Except for the changes made by this DPA, the Agreement(s) remain unchanged and in full force and effect. If there is any conflict between any provision in this DPA and any provision in the Agreement(s), this DPA controls and takes precedence. With effect from the effective date, this DPA is part of, and incorporated into the Agreement(s).
+
+
+      13.9 The obligations placed upon Vendia under this DPA shall survive so long as Vendia and/or its Sub-Processors, Processes Personal Data on behalf of a CUSTOMER.
+
+
+      13.10 Notwithstanding anything else to the contrary in the Agreement(s) Vendia acknowledges and agrees that it shall be liable for any loss of data (including Personal Data) arising under or in connection with the Agreement(s) and this DPA to the extent such loss results from any failure of Vendia (or its Sub-Processors) to comply with its obligations under this DPA and/or Applicable Privacy Laws.
+
+
+      ---
+
+
+      ## **Annex A – Details of the Processing**
 
 
       **Description of Controller:** 
@@ -374,17 +403,16 @@ components:
       - Controls to grant access only to authorized personnel and to assign only the minimum permissions necessary for those personnel to access Personal Data in the performance of their role
 
 
-      ** \
-
-      Data Transmission Control**
+      **Data Transmission Control**
 
 
       Personal Data must not be read, copied, modified or removed without authorization during transfer or storage and it shall be possible to establish to whom Personal Data was transferred. All Personal Data is encrypted during any transmission. 
 
 
-      **Data Entry Control** \
+      **Data Entry Control** 
 
-      Vendia shall be able retrospectively to examine and establish whether and by whom Personal Data have been entered into data Processing systems, modified, or removed. Vendia has (without limitation) implemented the following controls: \
+
+      Vendia shall be able retrospectively to examine and establish whether and by whom Personal Data have been entered into data Processing systems, modified, or removed. Vendia has (without limitation) implemented the following controls: 
 
 
       - Controls to log administrators’ and users’ activities
@@ -408,7 +436,7 @@ components:
       **Availability Control**
 
 
-      Personal Data shall be protected against disclosure, accidental or unauthorized destruction or loss. Vendia has (without limitation) implemented the following controls: \
+      Personal Data shall be protected against disclosure, accidental or unauthorized destruction or loss. Vendia has (without limitation) implemented the following controls: 
 
 
       - Arrangements to create backup copies stored in specially protected environments
@@ -518,7 +546,10 @@ components:
       </table>
 
 
-      **Appendix 1 – Standard Contractual Clauses (SCCs)**
+      ---
+
+
+      ## **Appendix 1 – Standard Contractual Clauses (SCCs)**
 
 
       **COMMISSION IMPLEMENTING DECISION**
@@ -530,28 +561,19 @@ components:
       **on standard contractual clauses between controllers and processors under Article 28 (7) of Regulation (EU) 2016/679 of the European Parliament and of the Council and Article 29 (7) of Regulation (EU) 2018/1725 of the European Parliament and of the Council**
 
 
-      (Text with EEA relevance)
-
-
       THE EUROPEAN COMMISSION,
 
 
       Having regard to the Treaty on the Functioning of the European Union,
 
 
-      Having regard to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (GDPR)[^1](```), and in particular Article 28(7) thereof, 
+      Having regard to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (GDPR)[](```), and in particular Article 28(7) thereof, 
 
 
       Having regard to Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) N 45/2001 and Decision No 1247/2002/EC (EUDPR)[^2], and in particular Article 29(7) thereof,
 
 
       Whereas:
-
-
-      ```
-
-
-      ```
 
 
       HAS ADOPTED THIS DECISION: 
@@ -581,51 +603,35 @@ components:
       This Decision shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
 
 
-      Done at Brussels, 4.6.2021
+      Done at Brussels, 4.6.202
 
 
-      ```
-
-      *For the Commission*
-
-      ```
+      For the Commission
 
 
-      ```
+      The President
 
 
-      ```
+      Ursula VON DER LEYEN
 
 
-      <!-- Footnotes themselves at the bottom. -->
 
 
       ## Notes
 
 
-      ```
-
-      [^2]:
-
-      ```
+      OJ L 119, 4.5.2016, p. 1.
 
 
-      ```
-
-      [^3]:
-
-      ```
+      OJ L 295, 21.11.2018, p. 39.
 
 
-      ```
-
-
-      ```
+      EDPB - EDPS Joint Opinion 1/2021 on the European Commission’s Implementing Decision on standard contractual clauses between controllers and processors for the matters referred to in Article 28 (7) of Regulation (EU) 2016/679 and Article 29 (7) of Regulation (EU) 2018/1725
     theme: white
 seo:
   noindex: false
   title: Vendia Data Processing Agreement
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T17:05:17.507Z
+updatedAt: 2023-01-06T17:16:38.056Z
 id: aeefe23c-cb08-4674-81d1-a1a89bae55aa
 ---
