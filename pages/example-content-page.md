@@ -5,7 +5,7 @@ path: example-content-page
 components:
   - type: Text
     text: >-
-      This page includes the markdown needed for various styles/layouts.
+      This post includes the markdown needed for various styles/layouts.
 
 
       ## Typography
@@ -119,21 +119,17 @@ components:
 
 
       1. Item one
-
-         1. Ordered list child 1
-         2. Ordered list child 2
+          1. Ordered list child 1
+          2. Ordered list child 2
       2. Item two
-
-         1. Ordered list child one
-         2. Ordered list child two
-
-            1. grandchildren one
-            2. grandchildren two
-            3. grandchildren three
+          1. Ordered list child one
+          2. Ordered list child two
+              1. grandchildren one
+              2. grandchildren two
+              3. grandchildren three
       3. Item with unordered children
-
-         - One
-         - Two
+          - One
+          - Two
 
       ## Unordered List with children
 
@@ -143,25 +139,20 @@ components:
       - Item Two
 
       - Item Four with children
-
         - child 1
         - child 2
         - child 3
         - child 4 with children
-
           - grandchild one
           - grandchild two
       - Item Five with children
-
         1. child 1
         2. child 2
-
-        - unordered child 1
-        - unordered child 2
-        - unordered child 3 with children
-
-          - grandchild one
-          - grandchild two
+          - unordered child 1
+          - unordered child 2
+          - unordered child 3 with children
+            - grandchild one
+            - grandchild two
       - Last item
 
 
@@ -169,23 +160,23 @@ components:
 
 
       - Item
-
         1. First Sub-item
         2. Second Sub-item
-      - **Bold Text**. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
 
-      - **Nested list with paragraph**. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+      * **Bold Text**. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
 
-        - list item 1
-        - list item 2
-        - list item 3
-        - list item long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper.
-      - **Nested ordered list with paragraph**. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
 
-        1. list item 1
-        2. list item 2
-        3. list item 3
-        4. list item long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper.
+      * **Nested list with paragraph**. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+          * list item 1
+          * list item 2
+          * list item 3
+          * list item long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper.
+
+      * **Nested ordered list with paragraph**. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
+          1. list item 1
+          2. list item 2
+          3. list item 3
+          4. list item long Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper.
 
       ---
 
@@ -193,7 +184,7 @@ components:
       # Collapsable Details
 
 
-      Using the details tag to collapse contents.
+      Using the `<details>` tag to collapse contents.
 
 
       ```html
@@ -252,100 +243,104 @@ components:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. 
 
 
-      1. Using the Vendia Share Web Application's GraphQL Explorer of the Supplier's AWS Node, identify a Purchase Order to modify, noting the `_id` for one of the Purchase Orders listed for the subsequent step, referred to hereafter as PO_ID
+      1. Using the Vendia Share Web Application's GraphQL Explorer of the Supplier's AWS Node, identify a Purchase Order to modify, noting the `_id` for one of the Purchase Orders listed for the subsequent step, referred to hereafter as `<PO_ID>`
 
-         <details>
-           <summary>List Purchase Orders Query</summary>
+          <details>
+            <summary>List Purchase Orders Query</summary>
+          
+            ```graphql
+            query listPurchaseOrders {
+              list_PurchaseOrderItems {
+                _PurchaseOrderItems {
+                  _id
+                  _owner
+                  created
+                  expected
+                  fulfilled
+                  orderId
+                  updated
+                  items {
+                    quantity
+                    sku
+                  }
+                }
+              }
+            }
+            ```
+          </details>
 
-           ```graphql
-           query listPurchaseOrders {
-             list_PurchaseOrderItems {
-               _PurchaseOrderItems {
-                 _id
-                 _owner
-                 created
-                 expected
-                 fulfilled
-                 orderId
-                 updated
-                 items {
-                   quantity
-                   sku
-                 }
-               }
-             }
-           }
-           ```
-         </details>
-      2. Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
+      1. Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
 
-         <details>
-           <summary>Update Purchase Order Mutation</summary>
+          <details>
+            <summary>Update Purchase Order Mutation</summary>
+          
+            ```graphql
+            mutation updatePurchaseOrder {
+              update_PurchaseOrder(
+                id: "<PO_ID>",
+                input: {
+                  expected: "2022-01-03T00:00:00Z"
+                }
+              ) {
+                transaction {
+                  submissionTime
+                  transactionId
+                  version
+                }
+              }
+            }
+            ```
+          </details>
 
-           ```graphql
-           mutation updatePurchaseOrder {
-             update_PurchaseOrder(
-               id: "PO_ID",
-               input: {
-                 expected: "2022-01-03T00:00:00Z"
-               }
-             ) {
-               transaction {
-                 submissionTime
-                 transactionId
-                 version
-               }
-             }
-           }
-           ```
-         </details>
-      3. Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
 
-         Multiple Things 
+      1. Execute a GraphQL mutation (or use Vendia Share's Entity Explorer to make an equivalent update without any GraphQL) to modify the PO identified in the previous step
 
-         <details>
-           <summary>Update Purchase Order Mutation</summary>
+          Multiple Things 
 
-           ```graphql
-           mutation updatePurchaseOrder {
-             update_PurchaseOrder(
-               id: "PO_ID",
-               input: {
-                 expected: "2022-01-03T00:00:00Z"
-               }
-             ) {
-               transaction {
-                 submissionTime
-                 transactionId
-                 version
-               }
-             }
-           }
-           ```
-         </details>
+          <details>
+            <summary>Update Purchase Order Mutation</summary>
+          
+            ```graphql
+            mutation updatePurchaseOrder {
+              update_PurchaseOrder(
+                id: "<PO_ID>",
+                input: {
+                  expected: "2022-01-03T00:00:00Z"
+                }
+              ) {
+                transaction {
+                  submissionTime
+                  transactionId
+                  version
+                }
+              }
+            }
+            ```
+          </details>
 
-         In here
+          In here
 
-         <details>
-           <summary>Update Purchase Order Mutation</summary>
+          <details>
+            <summary>Update Purchase Order Mutation</summary>
+          
+            ```graphql
+            mutation updatePurchaseOrder {
+              update_PurchaseOrder(
+                id: "<PO_ID>",
+                input: {
+                  expected: "2022-01-03T00:00:00Z"
+                }
+              ) {
+                transaction {
+                  submissionTime
+                  transactionId
+                  version
+                }
+              }
+            }
+            ```
+          </details>
 
-           ```graphql
-           mutation updatePurchaseOrder {
-             update_PurchaseOrder(
-               id: "PO_ID",
-               input: {
-                 expected: "2022-01-03T00:00:00Z"
-               }
-             ) {
-               transaction {
-                 submissionTime
-                 transactionId
-                 version
-               }
-             }
-           }
-           ```
-         </details>
 
       ---
 
@@ -422,13 +417,13 @@ components:
 
       | Tables        | Are           | Cool  |
 
-      | ------------- | ------------- | ----- |
+      | ------------- |:-------------:| -----:|
 
       | col 3 is      | right-aligned | $1600 |
 
-      | col 2 is      | centered      | $12   |
+      | col 2 is      | centered      |   $12 |
 
-      | zebra stripes | are neat      | $1    |
+      | zebra stripes | are neat      |    $1 |
 
 
       <details>
@@ -500,11 +495,11 @@ components:
       <div style={{"overflowX": "auto"}}>
 
 
-      | Inline    | Markdow  | In                | Table  |
+      | Inline | Markdow | In  | Table  |
 
-      | --------- | -------- | ----------------- | ------ |
+      | ----------| -------- | ----------------- | ------ |
 
-      | *italics* | **bold** | ~~strikethrough~~ | `code` |
+      | _italics_ | **bold** | ~~strikethrough~~ | `code` |
 
 
       </div>
@@ -569,7 +564,7 @@ components:
       ## Code blocks
 
 
-      For code blocks that allows multiple lines, syntax highlighting, line numbers and line highlighting, use triple backticks for code fencing: `.
+      For code blocks that allows multiple lines, syntax highlighting, line numbers and line highlighting, use triple backticks for code fencing: ```.
 
 
       Javascript example:
@@ -635,6 +630,7 @@ components:
         ```
         ````
       </details>
+
 
 
       Python example:
@@ -811,13 +807,13 @@ components:
 
 
       <div>
-        Full width content in a div. If elements are \`span\` or \`div\` they will stretch full width. 
+        Full width content in a div. If elements are `span` or `div` they will stretch full width. 
         Praesent fringilla ornare ullamcorper.
         Pellentesque diam orci, sodales in blandit ut, placerat quis felis.
         Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio.
         Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna.
         Suspendisse potenti. Quisque eget massa a massa semper mollis.
-        Full width content in a div. If elements are \`span\` or \`div\` they will stretch full width. 
+        Full width content in a div. If elements are `span` or `div` they will stretch full width. 
         Praesent fringilla ornare ullamcorper.
         Pellentesque diam orci, sodales in blandit ut, placerat quis felis.
         Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio.
@@ -835,7 +831,7 @@ components:
       ### Left alignment
 
 
-      <img src="https://www.fillmurray.com/100/100" alt="" width="100" height="100" />
+      <img align="left" width="100" height="100" src="https://picsum.photos/100/100" />
 
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis.
@@ -846,7 +842,7 @@ components:
 
       ```html
 
-      <img align="left" width="100" height="100" src="https://www.fillmurray.com/100/100" />
+      <img align="left" width="100" height="100" src="https://picsum.photos/100/100" />
 
       ```
 
@@ -858,7 +854,7 @@ components:
 
 
       <p>
-        <img align="right" width="100" height="100" src="https://www.fillmurray.com/100/100" />
+        <img align="right" width="100" height="100" src="https://picsum.photos/100/100" />
       </p>
 
 
@@ -871,7 +867,7 @@ components:
       ```html
 
       <p>
-        <img align="right" width="100" height="100" src="https://www.fillmurray.com/100/100" />
+        <img align="right" width="100" height="100" src="https://picsum.photos/100/100" />
       </p>
 
       ```
@@ -887,7 +883,7 @@ components:
 
 
       <p align="center">
-        <img width="460" height="300" src="https://www.fillmurray.com/460/300" />
+        <img width="460" height="300" src="https://picsum.photos/460/300" />
       </p>
 
 
@@ -897,7 +893,7 @@ components:
       ```html
 
       <p align="center">
-        <img width="460" height="300" src="https://www.fillmurray.com/460/300" />
+        <img width="460" height="300" src="https://picsum.photos/460/300" />
       </p>
 
       ```
@@ -909,7 +905,7 @@ components:
       ### Full width image
 
 
-      <img src="https://www.fillmurray.com/1400/500" alt="" width="100%" height="500" />
+      <img width="100%" height="500" src="https://picsum.photos/1400/500" />
 
 
       **Full width image snippet:**
@@ -917,7 +913,7 @@ components:
 
       ```html
 
-      <img width="100%" height="500" src="https://www.fillmurray.com/1400/500" />
+      <img width="100%" height="500" src="https://picsum.photos/1400/500" />
 
       ```
 
@@ -1043,14 +1039,14 @@ components:
 
 
       <div className='content'>
-        <img src="https://www.fillmurray.com/300/300" />
+        <img src="https://picsum.photos/300/300" />
       </div>
 
 
       <u>Underlined text</u>
 
 
-      ## Other Elements
+      ## Other Elements 
 
 
       ### abbr, sub, sup, kbd, mark
@@ -1075,6 +1071,6 @@ components:
 seo:
   noindex: false
 updatedBy: David Wells
-updatedAt: 2023-01-06T19:24:01.399Z
+updatedAt: 2023-01-08T02:06:31.428Z
 id: c346610c-4eea-4cd1-94a3-5e1544cbce00
 ---
