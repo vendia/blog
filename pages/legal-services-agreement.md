@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: "/legal/services-agreement "
+path: /legal/services-agreement
 components:
   - type: Text
     text: >-
@@ -405,7 +405,7 @@ components:
 seo:
   noindex: false
   title: Vendia Services Agreement
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T18:10:13.117Z
+updatedBy: David Wells
+updatedAt: 2023-01-09T20:28:57.925Z
 id: e5b39fa8-67c7-40fd-928c-fecfee29ca27
 ---
