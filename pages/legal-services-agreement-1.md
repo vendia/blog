@@ -14,7 +14,7 @@ components:
       #### **1. Use of the Services.**
 
 
-      1.1 Generally. You may access and use the Services in accordance with this Agreement. Service Level Agreements and Service Terms apply to certain Service Offerings (all as defined below). You will comply with the terms of this Agreement and all laws, rules and regulations applicable to your use of the Services.
+      **1.1** Generally. You may access and use the Services in accordance with this Agreement. Service Level Agreements and Service Terms apply to certain Service Offerings (all as defined below). You will comply with the terms of this Agreement and all laws, rules and regulations applicable to your use of the Services.
 
 
       **1.2.** You may not transfer outside the Services any software (exclusive of public Github repository content) you obtain from us or third party licensors in connection with the Services without specific authorization to do so.
@@ -122,7 +122,7 @@ components:
       6.1 Generally. We may suspend your or any End User’s right to access or use any portion or all of the Services immediately upon notice to you if we determine:
 
 
-      &ensp;&ensp;&ensp;&ensp;(a) your or an End User’s use of the Services (i) poses a security risk to the Services or any third party, (ii) could adversely impact our systems, the Services or the systems or Content of any other Vendia customer, (iii) could subject us to liability, or (iv) could be fraudulent;
+      &nsp;&nsp;&nsp;&nsp;(a) your or an End User’s use of the Services (i) poses a security risk to the Services or any third party, (ii) could adversely impact our systems, the Services or the systems or Content of any other Vendia customer, (iii) could subject us to liability, or (iv) could be fraudulent;
           
       &ensp;&ensp;&ensp;&ensp;(b) you are, or any End User is, in breach of this Agreement;
 
@@ -373,6 +373,6 @@ components:
 seo:
   noindex: false
 updatedBy: Hugues Tennier
-updatedAt: 2023-01-09T21:10:16.329Z
+updatedAt: 2023-01-09T21:11:47.066Z
 id: 33bde1c1-cb6d-4241-b7c6-bab84034f3b8
 ---
