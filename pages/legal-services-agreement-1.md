@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /legal/services-agreement
+path: /legal/services-agreement-old
 components:
   - type: Text
     text: >
@@ -372,7 +372,9 @@ components:
     theme: white
 seo:
   noindex: false
+createdBy: ""
+createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-01-09T21:11:47.066Z
+updatedAt: 2023-01-09T21:48:57.732Z
 id: 33bde1c1-cb6d-4241-b7c6-bab84034f3b8
 ---
