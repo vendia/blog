@@ -13,11 +13,7 @@ categories:
 relatedPosts:
   - 2022-10-25-vendia-values
   - 2022-11-18-10-ways-to-make-cloud-scale-software-better
-  - 2022-09-01-brand-identity-buy-in
   - 2021-10-22-serverless-distributed-ledger-for-enterprises
-  - 2022-09-22-real-time-everything
-  - 2022-10-04-no-more-multicloud
-  - 2022-02-09-first-30-days-at-vendia
 tags:
   - Culture
   - Continuous Improvement
@@ -30,7 +26,7 @@ seo:
     culture of learning for our colleagues and customers.
   keywords: Creating a culture of learning
 updatedBy: alexa-vendia
-updatedAt: 2023-01-05T00:41:21.353Z
+updatedAt: 2023-01-09T18:38:40.443Z
 id: adcfc398-f98b-4e39-81a6-867b11472d71
 ---
 
