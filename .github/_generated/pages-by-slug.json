@@ -7,6 +7,10 @@
     "file": "/pages/default-title.md",
     "draft": true
   },
+  "example-content-page": {
+    "file": "/pages/example-content-page.md",
+    "draft": true
+  },
   "legal/dpa": {
     "file": "/pages/legal-dpa.md",
     "draft": false
