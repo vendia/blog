@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: legal/share-service-level
+path: /legal/share-service-level
 components:
   - type: Text
     text: >
@@ -141,6 +141,6 @@ components:
 seo:
   noindex: false
 updatedBy: Hugues Tennier
-updatedAt: 2023-01-09T21:06:37.807Z
+updatedAt: 2023-01-09T21:09:48.533Z
 id: 9595c3c0-a192-4e55-9734-ef04148d84ba
 ---
