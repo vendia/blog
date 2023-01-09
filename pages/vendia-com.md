@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: vendia.com
+path: /test-new-homepage
 components:
   - type: Hero
     contentAlignment: Left
@@ -138,7 +138,7 @@ components:
           label: Schedule an assessment
 seo:
   noindex: false
-updatedBy: tz-vendia
-updatedAt: 2023-01-05T21:53:29.179Z
+updatedBy: David Wells
+updatedAt: 2023-01-09T18:53:38.369Z
 id: 1f621bb1-42db-4fc2-a275-150f6c4aff55
 ---
