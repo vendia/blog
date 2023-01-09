@@ -67,6 +67,10 @@
     "file": "/pages/test-components-with-data-fetching.md",
     "draft": true
   },
+  "thank-you/circles-of-trust-opt-in": {
+    "file": "/pages/thank-you-circles-of-trust-opt-in.md",
+    "draft": true
+  },
   "test-new-homepage": {
     "file": "/pages/vendia-com.md",
     "draft": true
