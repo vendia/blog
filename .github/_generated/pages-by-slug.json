@@ -15,9 +15,21 @@
     "file": "/pages/legal-dpa.md",
     "draft": false
   },
+  "legal/services-agreement-old": {
+    "file": "/pages/legal-services-agreement-1.md",
+    "draft": true
+  },
   "legal/services-agreement": {
     "file": "/pages/legal-services-agreement.md",
     "draft": false
+  },
+  "legal/share-service-level": {
+    "file": "/pages/legal-share-service-level.md",
+    "draft": true
+  },
+  "legal/share-service-terms": {
+    "file": "/pages/legal-share-service-terms.md",
+    "draft": true
   },
   "new-slug-on/site": {
     "file": "/pages/new-slug-on-site.md",
