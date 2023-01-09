@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: legal/share-service-terms
+path: /legal/share-service-terms
 components:
   - type: Text
     text: >
@@ -37,6 +37,6 @@ components:
 seo:
   noindex: false
 updatedBy: Hugues Tennier
-updatedAt: 2023-01-09T21:07:58.694Z
+updatedAt: 2023-01-09T21:09:25.786Z
 id: b2258e6f-a779-41ac-80bc-e8f2614dfab8
 ---
