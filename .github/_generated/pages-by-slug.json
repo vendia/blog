@@ -7,7 +7,7 @@
     "file": "/pages/default-title.md",
     "draft": true
   },
-  "example-content-page": {
+  "example-content-only-page": {
     "file": "/pages/example-content-page.md",
     "draft": true
   },
@@ -15,7 +15,7 @@
     "file": "/pages/legal-dpa.md",
     "draft": false
   },
-  "legal/services-agreement ": {
+  "legal/services-agreement": {
     "file": "/pages/legal-services-agreement.md",
     "draft": false
   },
@@ -55,7 +55,7 @@
     "file": "/pages/test-components-with-data-fetching.md",
     "draft": true
   },
-  "vendia": {
+  "test-new-homepage": {
     "file": "/pages/vendia-com.md",
     "draft": true
   }
