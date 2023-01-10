@@ -15,10 +15,6 @@
     "file": "/pages/legal-dpa.md",
     "draft": false
   },
-  "legal/services-agreement-old": {
-    "file": "/pages/legal-services-agreement-1.md",
-    "draft": true
-  },
   "legal/services-agreement": {
     "file": "/pages/legal-services-agreement.md",
     "draft": false
