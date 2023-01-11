@@ -29,8 +29,8 @@ sidebarCta:
   - What’s a business blockchain?
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-11T18:58:35.215Z
+updatedBy: james-vendia
+updatedAt: 2023-01-11T20:20:00.541Z
 id: dc7afa12-3605-477d-8156-028fc3d5e7a1
 ---
 
@@ -76,7 +76,7 @@ Here are some examples of poor solutions to the chain of custody problem some or
 
 #### Centralized data hubs don’t solve chain of custody challenges
 
-In an attempt to solve the opaque or incomplete change history challenge, one organization may take on the burden of aggregating data from its immediate upstream and downstream partners. That organization makes a significant investment in the interest of helping the collective group be more connected. But the organization cannot justify the return on investment primarily because each required integration is "different" and the centralized team performing each integration lacks business context. Further, that organization is unlikely to convince its partners to share all the data it wants because of fear of data protection and the data controls in place within the aggregating company. At best, this approach will provide "1-hop" visibility from the aggregating organization, which is often insufficient to optimize real-world chain of custody ecosystems.
+In an attempt to solve the opaque or incomplete change history challenge, one organization may take on the burden of aggregating data from its immediate upstream and downstream partners. That organization makes a significant investment in the interest of helping the collective group be more connected. But the organization cannot justify the return on investment primarily because each required integration is "different" and the centralized team performing each integration lacks business context. Further, that organization is unlikely to convince its partners to share all the data it wants because of fear of data protection and the data controls in place within the aggregating company. At best, this approach will provide "1-hop" visibility from the aggregating organization, which is often insufficient to optimize real-world business networks.
 
 #### Industry-specific track and trace solutions don't solve the end-to-end chain of custody problem either
 
@@ -84,7 +84,7 @@ In an attempt to solve the stale or incorrect data problem, an organization may 
 
 #### Lineage tools don’t actually work for chain of custody needs
 
-In an attempt to solve the incomplete or unverifiable lineage challenge, an organization may decide to leverage one (or more) data lineage products. These products are purpose-built to solve the data lineage challenge within an organization but not across organizations. To establish a comprehensive view of an entity over its lifecycle, lineage must be tracked across organizational boundaries. It’s unlikely that attempts to turn one of these tools into a ubiquitous, comprehensive lineage system across industries will ever pan out. Those tools are not designed for that purpose, scale, or resilience. They require a significant data consolidation effort that is often too removed from the business value itself, often losing funding midway through the undertaking. They result in the same centralization and narrow funnel backlog challenges as centralized data hubs.
+In an attempt to solve the incomplete or unverifiable lineage challenge, an organization may decide to leverage one (or more) data lineage products. These products are purpose-built to solve the data lineage challenge _within an organization_ but not _across organizations_. To establish a comprehensive view of an entity over its lifecycle, lineage must be tracked across organizational boundaries. It’s unlikely that attempts to turn one of these tools into a ubiquitous, comprehensive lineage system across industries will ever pan out. Those tools are not designed for that purpose, scale, or resilience. They require a significant data consolidation effort that is often too removed from the business value itself, often losing funding midway through the undertaking. They result in the same centralization and narrow funnel backlog challenges as centralized data hubs.
 
 ### Chain of custody examples
 
@@ -93,7 +93,7 @@ There are many examples of industry-specific use cases that highlight the value 
 Here are some example chain of custody use cases.
 
 - **Supply chain** – The chain of custody pattern is often referred to as "track and trace" in the manufacturing and supply chain domains. Because of the potential for increased supply chain optimization, increasing visibility among an original equipment manufacturer (OEM), Tier 1, Tier 2, and Tier 3 suppliers, and others is a high-value opportunity.
-- **Home loans** – Most home loans progress from origination to servicing to securitization. Each of those steps is, itself, a multi-step process, meaning what sounds like a simple three-step process is really a combination of three complicated, many-step processes.
+- **Home loans** – Most home loans progress from origination to servicing to securitization. Each of those steps is, itself, a multi-step process, meaning what sounds like a simple three-step business flow is really a combination of three complicated, many-step processes.
 - **Insurance claims** – When an insurance claim is filed, multiple participants often must collect necessary information, adjudicate claims, approve payment, and reimburse the right individuals or organizations. Providing a detailed history for every claim, from start to finish, can make for a game-changing customer experience.
 
 ### Chain of custody solutions
@@ -112,7 +112,7 @@ The "ledger" provides traceability and auditability to track the entity, whereas
 
 The multi-party data sharing pattern brings different pieces of data together from different organizations to provide a more comprehensive understanding. Think of this as multiple items that, when combined, are more valuable together than in isolation. For example, consider all the data related to a vehicle. There's its as-built specification and manufacturing record, its service record, its accident history, its insurance coverage (past and present), its inspection and tax status, and its traffic record…nearly an endless set of information so that no one today has a truly comprehensive understanding of that vehicle.
 
-The multi-party data sharing pattern allows companies to build a more comprehensive view of an entity. It allows them to derive new insights, identify new opportunities, and offer a tailored (and differentiating) customer or business experience. As just one example, it would allow an insurance company to, for example, offer a discounted insurance premium to cover a well-built, accident-free, well-serviced, parking-ticket-free vehicle. 
+The multi-party data sharing pattern allows companies to build a more comprehensive view of an entity. It allows them to derive new insights, identify new opportunities, and offer a tailored (and differentiating) customer or business experience. That comprehensive view would allow an insurance company to, for example, offer a discounted insurance premium to cover a well-built, accident-free, well-serviced, parking-ticket-free vehicle.
 
 ### Multi-party data sharing challenges
 
@@ -159,11 +159,11 @@ Here are a few examples of multi-party data sharing solutions.
 - **Customers** – A distributed ledger is the most effective way for companies to share information about [customer behavior](https://www.vendia.com/blog/what-is-customer-360-with-vendia). For example, Company A and Company B may both be a favorite of Customer Z. Company A may be able to learn more about Customer Z based on its behavior with Customer B. More interestingly, by collaborating, Company A and Company B can provide a differentiating experience for Customer Z.
 - **Pets** – After a natural disaster, pets are often separated from their owners. Reuniting those pets is [one beneficial outcome](https://www.vendia.com/blog/connecting-pets-humans) of bringing together lost and found information from leading shelter management systems. Similarly, when a lost pet is found, having a simple way to look up its vaccination status, veterinary care provider, and even (if authorized) its home address can be critical.
 
-## Vendia is driving innovation in chain of custody and multi-party data sharing patterns
+## Vendia is driving innovation with chain of custody and multi-party data sharing patterns
 
 The chain of custody and multi-party data sharing patterns are ubiquitous across industries. Because of that, Vendia is driving innovation in industries like [financial services](https://www.vendia.com/blog/fintech-innovation-mortgage-servicing) and insurance, automotive and semiconductor manufacturing, travel and hospitality, healthcare and pharmaceuticals, and nonprofit spaces. These two essential patterns can solve many [longstanding challenges](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-forward/data-ecosystems-made-simple) elegantly.
 
-What's been missing is a comprehensive platform that can be used to create a chain of custody or multi-party data sharing solution — one that includes all of the benefits of distributed ledger, the scale and resilience of the cloud, and that's accessible through low-code APIs. Now that our platform exists, companies can focus on creating these solutions with [Vendia Share](https://www.vendia.com/product). For instance, supply chain [visibility and predictability](https://www.youtube.com/watch?v=e97fpHcqTg4) will improve with the delegation of [traceability](https://www.vendia.com/blog/5-patterns-for-successful-data-traceability) to a decentralized platform. [Customer information](https://fast.wistia.net/embed/channel/d1mxqbj9xw?wchannelid=d1mxqbj9xw&wmediaid=6ujrd8iwnt) will be more easily shared across alliance partners to [disrupt entire industries](https://vendia.wistia.com/medias/7owrco9oa2), from retail to corporate travel. And more and more use cases across industries will be in play, thanks to the two simple patterns at the heart of what we do here at Vendia.
+What's been missing is a comprehensive platform that can be used to create chain of custody or multi-party data sharing solutions — one that includes all of the benefits of distributed ledger, the scale and resilience of the cloud, and that's accessible through low-code APIs. Now that our platform exists, companies can focus on creating these solutions with [Vendia Share](https://www.vendia.com/product). For instance, supply chain [visibility and predictability](https://www.youtube.com/watch?v=e97fpHcqTg4) will improve with the delegation of [traceability](https://www.vendia.com/blog/5-patterns-for-successful-data-traceability) to a decentralized platform. [Customer information](https://fast.wistia.net/embed/channel/d1mxqbj9xw?wchannelid=d1mxqbj9xw&wmediaid=6ujrd8iwnt) will be more easily shared across alliance partners to [disrupt entire industries](https://vendia.wistia.com/medias/7owrco9oa2), from retail to corporate travel. And more and more use cases across industries will be in play, thanks to the two simple patterns at the heart of what we do here at Vendia.
 
 ## Explore your use case
 
