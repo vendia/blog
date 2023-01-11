@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Distributed ledger challenges and solutions
 description: Distributed ledger technology solutions can solve complex chain of
   custody and multi-party data sharing challenges. See use cases for solutions
@@ -30,7 +30,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: james-vendia
-updatedAt: 2023-01-11T20:20:00.541Z
+updatedAt: 2023-01-11T20:22:04.296Z
 id: dc7afa12-3605-477d-8156-028fc3d5e7a1
 ---
 
