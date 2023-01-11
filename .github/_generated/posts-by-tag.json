@@ -1,4 +1,42 @@
 {
+  "distributed ledger technology, use cases, financial services, travel and hospitality, supply chain": [
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": true,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "distributed ledger technology, use cases, financial services, travel and hospitality, supply chain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-11T18:54:13.050Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
+    }
+  ],
   "Culture": [
     {
       "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
