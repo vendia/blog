@@ -204,7 +204,7 @@
       "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
       "date": "2022-09-27T00:00:00.000Z",
       "authors": [
-        "Anders Maul"
+        "Vendia"
       ],
       "categories": [
         "concepts",
@@ -223,8 +223,11 @@
         "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
         "keywords": "real-time data sharing"
       },
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-09T19:49:33.872Z"
+      "updatedAt": "2023-01-12T20:58:44.743Z",
+      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
     },
     {
       "file": "/posts/2022-09-22-real-time-everything.md",
@@ -1393,7 +1396,7 @@
       "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
       "date": "2022-09-27T00:00:00.000Z",
       "authors": [
-        "Anders Maul"
+        "Vendia"
       ],
       "categories": [
         "concepts",
@@ -1412,8 +1415,11 @@
         "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
         "keywords": "real-time data sharing"
       },
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-09T19:49:33.872Z"
+      "updatedAt": "2023-01-12T20:58:44.743Z",
+      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
     }
   ],
   "podcast": [
