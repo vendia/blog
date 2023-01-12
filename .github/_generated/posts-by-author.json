@@ -1527,7 +1527,8 @@
       ],
       "seo": {
         "title": "How to share Files in Vendia Share Unis",
-        "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions."
+        "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions.",
+        "keywords": "Universal applications, file sharing, cross-cloud file sharing"
       },
       "sidebarCta": [
         "Try Vendia Share"
@@ -1535,7 +1536,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-12T20:51:53.179Z",
+      "updatedAt": "2023-01-12T20:57:26.237Z",
       "id": "7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0"
     },
     {
