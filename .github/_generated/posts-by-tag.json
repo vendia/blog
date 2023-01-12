@@ -733,6 +733,42 @@
         "Tim Wagner",
         "Shruthi Rao"
       ]
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "draft": false,
+      "title": "The developer's punchlist for getting started with Vendia Share",
+      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
+      "date": "2021-01-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-10-21-api-security-graphql",
+        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
+      ],
+      "tags": [
+        "quick starts",
+        "documents",
+        "developers"
+      ],
+      "seo": {
+        "title": "The developer's punchlist for getting started with Vendia Share",
+        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
+      },
+      "sidebarCta": [
+        "Want to learn more about Vendia?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T21:16:57.470Z",
+      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
     }
   ],
   "decentralization": [
@@ -771,6 +807,82 @@
       "authors": [
         "Tim Wagner"
       ]
+    }
+  ],
+  "quick starts": [
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "draft": false,
+      "title": "The developer's punchlist for getting started with Vendia Share",
+      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
+      "date": "2021-01-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-10-21-api-security-graphql",
+        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
+      ],
+      "tags": [
+        "quick starts",
+        "documents",
+        "developers"
+      ],
+      "seo": {
+        "title": "The developer's punchlist for getting started with Vendia Share",
+        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
+      },
+      "sidebarCta": [
+        "Want to learn more about Vendia?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T21:16:57.470Z",
+      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
+    }
+  ],
+  "documents": [
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "draft": false,
+      "title": "The developer's punchlist for getting started with Vendia Share",
+      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
+      "date": "2021-01-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-10-21-api-security-graphql",
+        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
+      ],
+      "tags": [
+        "quick starts",
+        "documents",
+        "developers"
+      ],
+      "seo": {
+        "title": "The developer's punchlist for getting started with Vendia Share",
+        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
+      },
+      "sidebarCta": [
+        "Want to learn more about Vendia?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T21:16:57.470Z",
+      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
     }
   ],
   "quickstart, supply chain traceability, track and trace": [
