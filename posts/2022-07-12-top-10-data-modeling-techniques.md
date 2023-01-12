@@ -20,8 +20,10 @@ This new [feature example](https://github.com/vendia/examples/tree/main/approach
 Definitions define a new type that can be reused across multiple objects and properties. This keeps your schema [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), increases readability, and ensures identical "things" adhere to the same standard syntax requirements. In turn, you improve the data quality of your Uni.
 
 ### How
+
 Create a `definitions` section in your data model:
-```
+
+```json
 "definitions": {
  "Name": {
    "type": "object",
@@ -39,7 +41,8 @@ Create a `definitions` section in your data model:
 ```
 
 Then, reference those reusable type definitions in properties:
-```
+
+```json
 "employeeName": {
    "description": "Name of the employee",
    "$ref": "#/definitions/Name"
@@ -50,13 +53,14 @@ Then, reference those reusable type definitions in properties:
 ## Approach 2: Define Access Control Lists
 
 ### Why
+
 Data Access Controls allow a data writer to dictate access rights to the data they've written to a Uni. They can be thought of as the "fine-grained" authorization to the data. These controls take the form of an Access Control List (ACL), and they can be applied to either at the object (_e.g_., a Product) or property (_e.g._, just the margin field within a Product) level of a data structure. This is a powerful feature that allows partners to confidently share even potentially sensitive data with each other. Data Access Controls must be defined during original schema creation in order to be used in subsequent GraphQL mutations.
 
 
 ### How
 The `x-vendia-acls` section defines two ACLs, one per entity that requires fine-grained access control protections - `Employee` and `Office`.
 
-```
+```json
 "x-vendia-acls": {
    "EmployeeAcl": {
      "type": "Employee"
@@ -74,13 +78,14 @@ More information about Vendia Share's fine-grained data access controls, express
 ## Approach 3: Define Indexes
 
 ### Why
+
 An index can improve query performance if it’s applied to entities that have many records and to fields that are frequently used for filtering query results. With some forethought that analyzes both size and likely query patterns for a given data set, an index can decrease query latencies and increase throughput.
 
 
 ### How
 The `x-vendia-indexes` shown below places an index on the `employeeId` field of the `Employee` entity and the `officeId` of the `Office` entity.
 
-```
+```json
 "x-vendia-indexes": {
   "EmployeeIdIndex": {
     "type": "Employee",
@@ -98,6 +103,7 @@ For sufficiently large data sets, you will see lower query latencies when filter
 ## Approach 4: Leverage Types
 
 ### Why
+
 Selecting the most appropriate leverage type is an important part of [data modeling](https://www.vendia.com/docs/share/data-modeling). It allows you and your partners to maintain a high-quality single source of truth by constraining inputs appropriately when new data is added to a Uni.
 
 Using appropriate types also help ensure the GraphQL interface of your Uni matches the needs of the developers using it. In other words, your data model directly impacts the "JSON Schema type input » GraphQL type output" conversions Vendia Share performs during Uni creation.
@@ -105,7 +111,7 @@ Using appropriate types also help ensure the GraphQL interface of your Uni match
 ### How
 The `type` attributes shown below are only a subset of [those supported](https://json-schema.org/understanding-json-schema/reference/type.html).
 
-```
+```json
 "properties": {
   "officeId": {
     "description": "Unique identifier of the office",
@@ -149,12 +155,14 @@ The types selected for each field cannot be modified after a Uni is created, so 
 ## Approach 5: Leverage Formats
 
 ### Why
+
 When using the `string` type, you may also want to apply one of the pre-defined `format` values [supported by JSON Schema](https://json-schema.org/understanding-json-schema/reference/string.html#built-in-formats). This not only makes the schema more understandable by your partners (who may be sharing data with you), it also adds another layer of syntax validation for all GraphQL mutations.
 
 ### How
+
 The `date` value in the `format` attribute shown below is just one of many predefined formats available.
 
-```
+```json
 "dateOpened": {
   "description": "Date the office opened",
   "type": "string",
@@ -167,11 +175,14 @@ The formats available to further restrict `string` fields are certainly helpful,
 ## Approach 6: Leverage Patterns
 
 ### Why
+
 Pre-defined formats are not always sufficient. For cases where a custom format is needed to restrict valid `string` field formats, a `pattern` can be defined.  A `pattern`, similar to the benefits of using `format`, makes your schema more understandable and adds an additional layer of syntax validation for all GraphQL mutation operations.
 
 ### How
+
 The `pattern` value must be a valid JavaScript ([EMCA 262](https://www.ecma-international.org/publications/standards/Ecma-262.htm)) regular expression, as shown below.
-```
+
+```json
 "state": {
   "description": "The state",
   "type": "string",
@@ -189,12 +200,14 @@ Any mutation that includes a field that has a `pattern` applied must match that 
 ## Approach 7: Define Required Fields
 
 ### Why
+
 Often an object will be composed of many properties—some required, some optional. Using the required definition makes those expectations clear (through the schema) and enforced (when new mutations are submitted).
 
 ### How
+
 The `Employee` entity in the [corresponding example](https://github.com/vendia/examples/tree/main/approaches/data-modeling) includes a `required` section to ensure all Employee records include at least a minimum set of fields.
 
-```
+```json
 "required": [
   "employeeId",
   "employeeName",
@@ -209,14 +222,17 @@ Required fields are exactly that, and with a `required` definition in place, bot
 ## Approach 8: Model Parent → Child and Child → Parent Relationships
 
 ### Why
+
 One common data structure is an entity that "contains" other entities, often called a parent-child relationship. Unlike in relational schemas (_e.g._, SQL's DDL), parent-child relationships cannot be explicitly captured because of the non-relational nature of JSON Schema . However, the data model can still contain these relationships and, with the right application code, those relationships can be captured in the model as well.
 
 
 ### How
+
 Consider an `Employee` entity that can be either a parent or a child or both. An `Employee` can manage one or more other employees, and that relationship is captured by the `employeeIds` field of the `Employee`.  In the case of the `Employee` entity, both the parent-child and child-parent relationships are maintained.
 
 **Parent-Child Relationship**
-```
+
+```json
 "employeeIds": {
   "description": "Unique identifier of the employees this person manages",
   "type": "array",
@@ -228,7 +244,8 @@ Consider an `Employee` entity that can be either a parent or a child or both. An
 ```
 
 **Child-Parent Relationship**
-```
+
+```json
 "managerId": {
   "description": "Unique identifier of the employee's manager",
   "type": {
@@ -254,13 +271,15 @@ In return for that additional complexity when adding or updating `Employee` enti
 ## Approach 9: Model Aggregates
 
 ### Why
+
 One limitation of GraphQL is its inherent lack of aggregation functions (_e.g._, count, sum, average, etc.). While those functions don't come out-of-the-box from GraphQL, with a bit of additional application code you can model and maintain those values at the application layer. This allows aggregates to be implemented in a single place and their results to be queryable by _all_ GraphQL clients.
 
 
 ### How
+
 Consider an `Office` entity that includes one aggregate - `currentOccupancy` - and one helpful boolean value - `isFull`. The expectation is that any time a new `Employee` is added, its assigned `Office` will be updated as well (by application code) to reflect an increase in `currentOccupancy` and, optionally, an update to the `isFull` value.
 
-```
+```json
 "currentOccupancy": {
   "description": "Current number of employees reporting to this office",
   "type": "integer"
@@ -280,12 +299,12 @@ While both values could be computed client-side by listing all `Employee` record
 ## Approach 10: Leave Room to Evolve
 
 ### Why
+
 Data models often evolve. As Uni participants grow, and as the fidelity of solutions increase over time, users to want to evolve the original data model used to create the Uni. An ideal solution allows users the agility to evolve as business or participant needs change.
 
-
 ### How
-See the [complete writeup](https://www.vendia.com/blog/schema-evolution) on how Vendia Share's schema evolution feature can be applied.
 
+See the [complete writeup](https://www.vendia.com/blog/schema-evolution) on how Vendia Share's schema evolution feature can be applied.
 
 ## Final Thoughts
 Balancing constraints (`type`, `format`, `pattern`, `required`) with future expansion flexibility (`share uni evolve`) can be a challenge. Often, this is more art than science. To validate you’ve achieved the right balance, collaborate and [review your data model with a Vendia SA](https://www.vendia.com/poc) as you get started with Vendia Share.
