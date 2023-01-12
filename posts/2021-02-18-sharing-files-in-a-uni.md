@@ -22,12 +22,13 @@ seo:
     used to be hard. This step-by-step example shows how Vendia Share makes it
     easy to share files in Unis and how to share files with other participants
     in a Uni while controlling read and write permissions.
+  keywords: Universal applications, file sharing, cross-cloud file sharing
 sidebarCta:
   - Try Vendia Share
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-12T20:51:53.179Z
+updatedAt: 2023-01-12T20:57:26.237Z
 id: 7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0
 ---
 
@@ -243,12 +244,12 @@ mutation AddFile3 {
 
 Now if you attempt to update this file from the second node, your mutation will be successful! Of course, we could also have provided an explicit list of node names instead of using "*" to indicate that only a subset of nodes have write permissions.
 
-### Summary and Next Steps
+### Do even more with files
 
-Unis make it as easy to share files as is it to share scalar data like strings and numbers. Just as important, they also give the file's owner fine-grained access control: For each file, you can specify which other participants are able to read or update the file. Finally, remember that by default (i.e., when you don't provide explicit Read and Write settings), *all* nodes will have read access but only the file's owning node will have write permission.
+Unis make it as easy to share files as is it to share scalar data like strings and numbers. They also give the file's owner fine-grained access control: For each file, you can specify which other participants are able to read or update the file. By default (i.e., when you don't provide explicit Read and Write settings), *all* nodes will have read access but only the file's owning node will have write permission.
 
-There's even more you can do with files that we haven't covered here: 
+There's even more you can do with files: 
 
-- To get a quick overview, check out this [document](https://vendia.com/docs/share/file-storage). To read about the full set of features available, such as cache settings, please visit the [API docs](https://vendia.com/docs/share/file-api).
-- Download the app and start
--
+- To get a quick overview, check out our [documentation](https://vendia.com/docs/share/file-storage) on working with file types
+- Read about the full set of features available, such as cache settings, in the [API docs](https://vendia.com/docs/share/file-api)
+- Download [the app](https://share.vendia.net/) and start your free trial
