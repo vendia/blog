@@ -2876,6 +2876,39 @@
       "authors": [
         "Brian McNamara"
       ]
+    },
+    {
+      "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
+      "draft": false,
+      "title": "How to share Files in Vendia Share Unis",
+      "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions.",
+      "date": "2021-02-18T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "tutorials"
+      ],
+      "relatedPosts": [
+        "2022-08-24-vendia-share-enterprise-file-sharing-platform",
+        "2022-08-17-public-cloud-file-sharing",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "file sharing"
+      ],
+      "seo": {
+        "title": "How to share Files in Vendia Share Unis",
+        "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions."
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T20:51:53.179Z",
+      "id": "7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0"
     }
   ],
   "announcements": [
