@@ -6,7 +6,7 @@ description: Some obstacles to real-time, multi-party data sharing are built
   mindsets. Learn new ideas on how you can face both types of obstacles.
 date: 2022-09-27
 authors:
-  - Anders Maul
+  - Vendia
 categories:
   - concepts
   - realtime-data-sharing
@@ -22,8 +22,11 @@ seo:
     into common data infrastructure. Other obstacles come from fearful business
     mindsets. Learn new ideas on how you can face both types of obstacles.
   keywords: real-time data sharing
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2022-12-09T19:49:33.872Z
+updatedAt: 2023-01-12T20:58:44.743Z
+id: 7c42f372-8b33-42d3-b7a9-8a2d69d67480
 ---
 
 Data is [the new oil](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data), and this comparison is more than a metaphor. Both oil and data are transported through pipelines and stored in silos. Likewise, the limitations and obstacles we see for tangible goods like oil have also manifested themselves in the digital world of data.
