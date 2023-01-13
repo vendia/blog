@@ -30,7 +30,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-13T00:11:15.199Z
+updatedAt: 2023-01-13T00:11:25.451Z
 id: 4f9c9686-7eac-40fa-b6aa-43cee8520834
 ---
 
