@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: 3 things to do right now for better supply chain visibility
 description: What does it take to break data silos and build a trustworthy
   connected data ecosystem that ensures track and traceability and compliance
@@ -30,7 +30,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-13T00:11:25.451Z
+updatedAt: 2023-01-13T00:11:45.807Z
 id: 4f9c9686-7eac-40fa-b6aa-43cee8520834
 ---
 
