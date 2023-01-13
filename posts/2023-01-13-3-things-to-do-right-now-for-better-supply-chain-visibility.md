@@ -50,7 +50,7 @@ Supply chain visibility projects are [complex and challenging](https://www.vendi
 
 ##### **FIGURE 1:  TWO EXAMPLES TYING YOUR SUPPLY CHAIN VISIBILITY STRATEGY TO BUSINESS GOALS AND KPIS**
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673561720/Blog%20images/SCV_udgav0.png" alt="A flow chart showing two goals ('Trim cycle time' and 'Reduce warehouse inventory') and their respective KPIs (Customer satisfaction and Avg. shipments per transaaction) tied into a supply chain optimization strategy and implementing Vendia Share as a tactical solution" class="image-float-center" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1673561720%252FBlog%252520images%252FSCV_udgav0.png" alt="A flow chart showing two goals ('Trim cycle time' and 'Reduce warehouse inventory') and their respective KPIs (Customer satisfaction and Avg. shipments per transaaction) tied into a supply chain optimization strategy and implementing Vendia Share as a tactical solution" class="image-float-center" />
 
 ## 3. Choose technology that is simple, flexible, and scalable
 
