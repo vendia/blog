@@ -29,8 +29,8 @@ sidebarCta:
   - What’s a business blockchain?
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-13T00:11:45.807Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-01-13T01:09:40.612Z
 id: 4f9c9686-7eac-40fa-b6aa-43cee8520834
 ---
 
@@ -50,7 +50,7 @@ Supply chain visibility projects are [complex and challenging](https://www.vendi
 
 ##### **FIGURE 1:  TWO EXAMPLES TYING YOUR SUPPLY CHAIN VISIBILITY STRATEGY TO BUSINESS GOALS AND KPIS**
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673561720/Blog%20images/SCV_udgav0.png" alt="A flow chart showing two goals ("Trim cycle time" and "Reduce warehouse inventory") and their respective KPIs (Customer satisfaction and Avg. shipments per transaaction) tied into a supply chain optimization strategy and implementing Vendia Share as a tactical solution" class="image-float-center" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673561720/Blog%20images/SCV_udgav0.png" alt="A flow chart showing two goals ('Trim cycle time' and 'Reduce warehouse inventory') and their respective KPIs (Customer satisfaction and Avg. shipments per transaaction) tied into a supply chain optimization strategy and implementing Vendia Share as a tactical solution" class="image-float-center" />
 
 ## 3. Choose technology that is simple, flexible, and scalable
 
