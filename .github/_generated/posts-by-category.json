@@ -1,6 +1,42 @@
 {
   "concepts": [
     {
+      "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
+      "draft": false,
+      "title": "3 things to do right now for better supply chain visibility",
+      "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy.",
+      "date": "2023-01-12T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry"
+      ],
+      "tags": [
+        "chain of custody",
+        "supply chain visibility"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "3 things to do right now for better supply chain visibility",
+        "keywords": "supply chain visibility, supply chain optimization, chain of custody",
+        "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-13T00:11:45.807Z",
+      "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
+    },
+    {
       "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
       "draft": false,
       "title": "Distributed ledger challenges and solutions",
