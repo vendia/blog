@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: meet-josh-epstein
 title: Introducing our new VP of Revenue, Josh Epstein
 description: Meet Josh Epstein, Vendia's new VP of Revenue
@@ -23,7 +23,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-14T00:18:51.862Z
+updatedAt: 2023-01-14T00:21:48.173Z
 id: 19793709-9362-4266-9953-aae7256f33aa
 ---
 
