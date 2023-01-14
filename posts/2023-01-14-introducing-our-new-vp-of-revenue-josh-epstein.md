@@ -34,7 +34,6 @@ Josh is excited to lead the sales and customer success teams to enable customers
 ## About Josh
 
 
-
 In addition to two decades worth of sales and customer service experience, Josh has also dedicated time building go-to-market teams from scratch. His success also includes leading teams to define new markets by disrupting legacy infrastructure, security, and operations vendors.
 
 Most recently, Josh built and ran the global accounts team at HashiCorp to help the company’s largest, most complex customers move to a multi-cloud, multi-platform world using HashiCorp. While at HashiCorp, Josh helped scale the company’s growth during a critical time for the business by prioritizing the customers' success and helping to mature HashiCorp’s customer-facing teams.
