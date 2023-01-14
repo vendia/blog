@@ -1,4 +1,145 @@
 {
+  "shruthi-rao": [
+    {
+      "file": "/posts/2023-01-14-introducing-our-new-vp-of-revenue-josh-epstein.md",
+      "draft": true,
+      "slug": "meet-josh-epstein",
+      "title": "Introducing our new VP of Revenue, Josh Epstein",
+      "description": "Meet Josh Epstein, Vendia's new VP of Revenue",
+      "date": "2023-01-13T00:00:00.000Z",
+      "authors": [
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673655108/Josh_w9wpmg.jpg",
+      "seo": {
+        "noindex": false,
+        "title": "Josh Epstein, Vendia's new VP of Revenue",
+        "description": "Meet Josh Epstein, Vendia's new VP of Revenue. With twenty-plus years of experience, he is excited to lead the sales and customer success teams to help our customers share data across their partner ecoystems and reduce costs. "
+      },
+      "sidebarCta": [
+        "Want to learn more about Vendia?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-01-14T00:18:51.862Z",
+      "id": "19793709-9362-4266-9953-aae7256f33aa"
+    },
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
+      "date": "2022-05-31",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "draft": false,
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
+      "draft": false,
+      "title": "Announcing the Vendia Share Developer Preview!",
+      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
+      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
+      "date": "2021-02-03",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding",
+        "developers"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-02-series-a-announcement.md",
+      "draft": false,
+      "title": "Vendia Announces Series A Investment",
+      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
+      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
+      "date": "2021-02-02",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "draft": false,
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
+      "date": "2020-07-01",
+      "categories": [
+        "company"
+      ],
+      "tags": [
+        "origin"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "draft": false,
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2021-01-04-kind-humans-really-work-here"
+      ],
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:38:48.273Z"
+    }
+  ],
   "vendia": [
     {
       "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
@@ -32,8 +173,8 @@
       ],
       "createdBy": "",
       "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-13T00:11:45.807Z",
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2023-01-13T01:09:40.612Z",
       "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
     },
     {
@@ -2403,116 +2544,6 @@
       "authors": [
         "Joydeep Das"
       ]
-    }
-  ],
-  "shruthi-rao": [
-    {
-      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
-      "draft": false,
-      "title": "Vendia announces Series B funding",
-      "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
-      "date": "2022-05-31",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
-      "draft": false,
-      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
-      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
-      "date": "2021-06-08",
-      "categories": [
-        "announcements",
-        "company"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
-      "draft": false,
-      "title": "Announcing the Vendia Share Developer Preview!",
-      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
-      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
-      "date": "2021-02-03",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding",
-        "developers"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-02-series-a-announcement.md",
-      "draft": false,
-      "title": "Vendia Announces Series A Investment",
-      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
-      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
-      "date": "2021-02-02",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
-      "date": "2020-07-01",
-      "categories": [
-        "company"
-      ],
-      "tags": [
-        "origin"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-06-30-welcome-to-vendia.md",
-      "draft": false,
-      "title": "Welcome to Vendia",
-      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2022-05-31-vendia-announces-series-b",
-        "2021-01-04-kind-humans-really-work-here"
-      ],
-      "seo": {
-        "title": "Welcome to Vendia",
-        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
   "david-brown": [

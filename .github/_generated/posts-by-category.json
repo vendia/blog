@@ -1,4 +1,435 @@
 {
+  "company": [
+    {
+      "file": "/posts/2023-01-14-introducing-our-new-vp-of-revenue-josh-epstein.md",
+      "draft": true,
+      "slug": "meet-josh-epstein",
+      "title": "Introducing our new VP of Revenue, Josh Epstein",
+      "description": "Meet Josh Epstein, Vendia's new VP of Revenue",
+      "date": "2023-01-13T00:00:00.000Z",
+      "authors": [
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673655108/Josh_w9wpmg.jpg",
+      "seo": {
+        "noindex": false,
+        "title": "Josh Epstein, Vendia's new VP of Revenue",
+        "description": "Meet Josh Epstein, Vendia's new VP of Revenue. With twenty-plus years of experience, he is excited to lead the sales and customer success teams to help our customers share data across their partner ecoystems and reduce costs. "
+      },
+      "sidebarCta": [
+        "Want to learn more about Vendia?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-01-14T00:18:51.862Z",
+      "id": "19793709-9362-4266-9953-aae7256f33aa"
+    },
+    {
+      "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
+      "draft": false,
+      "slug": "creating-a-culture-of-learning",
+      "title": "Creating a culture of learning",
+      "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
+      "date": "2023-01-05T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises"
+      ],
+      "tags": [
+        "Culture",
+        "Continuous Improvement",
+        "Learning"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Creating a Culture of Learning",
+        "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers.",
+        "keywords": "Creating a culture of learning"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-09T18:38:40.443Z",
+      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
+    },
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain",
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-20T21:30:24.079Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
+      "draft": false,
+      "slug": "extreme-testing-with-vendia",
+      "title": "Vendia Presents: Extreme Testing",
+      "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-06-30-welcome-to-vendia",
+        "2020-07-01-meet-vendias-founders"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Vendia presents: Extreme Testing",
+        "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
+        "keywords": "Blockchain, data sharing, supply chain"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-20T21:34:50.864Z",
+      "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
+    },
+    {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "tweet": "Learn about the engineering team at Vendia!",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-04T20:01:13.216Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
+    },
+    {
+      "file": "/posts/2022-11-01-venya-do-it-right.md",
+      "draft": false,
+      "title": "Veny’a doing it right",
+      "description": "Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.",
+      "date": "2022-11-01",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Francine Klein"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-25-vendia-values.md",
+      "draft": false,
+      "title": "The five values that make us Vendia",
+      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other in this post from Head of Talent, Renee Fujii.",
+      "date": "2022-10-25",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-11-company-retreat-tips.md",
+      "draft": false,
+      "title": "3 tips for a successful company retreat when your team is remote first",
+      "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips.",
+      "date": "2022-10-11",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "draft": false,
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
+      "draft": false,
+      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
+      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
+      "date": "2022-09-06",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Renee Fujii"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-01-brand-identity-buy-in.md",
+      "draft": false,
+      "title": "How to get buy-in for a new brand identity",
+      "description": "Our Head of Design, Hailey Nevins, shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused.",
+      "date": "2022-09-01",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Hailey Nevins"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-31-new-serverless-pricing.md",
+      "draft": false,
+      "title": "Introducing developer-friendly pricing with our new Individual Plan",
+      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
+      "date": "2022-08-31",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Jake Partusch"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-31-new-vendia-logo.md",
+      "draft": false,
+      "title": "Introducing our new brand identity",
+      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
+      "date": "2022-08-31",
+      "categories": [
+        "company"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
+      "draft": false,
+      "title": "Highlights from the GBTA Panel on blockchain for the travel industry",
+      "description": "Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana.",
+      "date": "2022-08-19",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
+      "draft": false,
+      "title": "Blockchain is disrupting every industry vertical—could business travel be next?",
+      "description": "Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.",
+      "date": "2022-08-05",
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "thumbnail": null,
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "Q+A: How serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03",
+      "categories": [
+        "company",
+        "product"
+      ],
+      "authors": [
+        "Anders Maul"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-25-6-months-at-vendia.md",
+      "draft": false,
+      "title": "No more burnout: Reflections after 6 months at Vendia",
+      "description": "Head of Design, Hailey Nevins, shares why she doesn't regret leaving the Fortune 100 tech industry to work for a startup.",
+      "date": "2022-04-25T00:00:00.000Z",
+      "authors": [
+        "Hailey Nevins"
+      ],
+      "categories": [
+        "company"
+      ],
+      "seo": {
+        "description": "Vendia's Head of Design, Hailey Nevins, shares why she doesn't regret leaving the Fortune 100 tech industry to work for a startup filled with kind humans.",
+        "title": "No more burnout: Reflections after 6 months at Vendia"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-02T01:44:23.082Z"
+    },
+    {
+      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
+      "draft": false,
+      "title": "My first 30 days at Vendia",
+      "description": "Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.",
+      "date": "2022-02-09",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ]
+    },
+    {
+      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
+      "draft": false,
+      "title": "Five Leadership Practices of an Ultramarathoner",
+      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
+      "date": "2021-09-27",
+      "tag": [
+        "developers"
+      ],
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "draft": false,
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "draft": false,
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "draft": false,
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
+      "date": "2020-07-01",
+      "categories": [
+        "company"
+      ],
+      "tags": [
+        "origin"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "draft": false,
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2021-01-04-kind-humans-really-work-here"
+      ],
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:38:48.273Z"
+    }
+  ],
   "concepts": [
     {
       "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
@@ -32,8 +463,8 @@
       ],
       "createdBy": "",
       "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-13T00:11:45.807Z",
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2023-01-13T01:09:40.612Z",
       "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
     },
     {
@@ -853,406 +1284,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:57:26.226Z"
-    }
-  ],
-  "company": [
-    {
-      "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
-      "draft": false,
-      "slug": "creating-a-culture-of-learning",
-      "title": "Creating a culture of learning",
-      "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
-      "date": "2023-01-05T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2021-10-22-serverless-distributed-ledger-for-enterprises"
-      ],
-      "tags": [
-        "Culture",
-        "Continuous Improvement",
-        "Learning"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Creating a Culture of Learning",
-        "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers.",
-        "keywords": "Creating a culture of learning"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-09T18:38:40.443Z",
-      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
-    },
-    {
-      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
-      "draft": false,
-      "slug": "2023-predictions-tim-wagner",
-      "title": "Blockchain, cloud, and IT in 2023 and beyond",
-      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain",
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Blockchain, cloud, and IT in 2023 and beyond",
-        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:30:24.079Z",
-      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    },
-    {
-      "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
-      "draft": false,
-      "slug": "extreme-testing-with-vendia",
-      "title": "Vendia Presents: Extreme Testing",
-      "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-06-30-welcome-to-vendia",
-        "2020-07-01-meet-vendias-founders"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Vendia presents: Extreme Testing",
-        "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
-        "keywords": "Blockchain, data sharing, supply chain"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:34:50.864Z",
-      "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
-    },
-    {
-      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
-      "draft": false,
-      "slug": "vendia-engineering-team-spotlight",
-      "title": "Team spotlight: Vendia Engineering",
-      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-25-6-months-at-vendia"
-      ],
-      "seo": {
-        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-        "title": "Team spotlight: Vendia Engineering"
-      },
-      "tweet": "Learn about the engineering team at Vendia!",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-04T20:01:13.216Z",
-      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
-    },
-    {
-      "file": "/posts/2022-11-01-venya-do-it-right.md",
-      "draft": false,
-      "title": "Veny’a doing it right",
-      "description": "Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.",
-      "date": "2022-11-01",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Francine Klein"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-25-vendia-values.md",
-      "draft": false,
-      "title": "The five values that make us Vendia",
-      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other in this post from Head of Talent, Renee Fujii.",
-      "date": "2022-10-25",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "draft": false,
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-11-company-retreat-tips.md",
-      "draft": false,
-      "title": "3 tips for a successful company retreat when your team is remote first",
-      "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips.",
-      "date": "2022-10-11",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-07-kind-is-strong.md",
-      "draft": false,
-      "title": "Kind is not weak, kind is strong",
-      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
-      "date": "2022-09-07",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
-      "draft": false,
-      "title": "How to find your people: Notes on hiring and interviewing for kind humans",
-      "description": "Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind.",
-      "date": "2022-09-06",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Renee Fujii"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-01-brand-identity-buy-in.md",
-      "draft": false,
-      "title": "How to get buy-in for a new brand identity",
-      "description": "Our Head of Design, Hailey Nevins, shares the creative process and her top tips for developing a brand identity, especially when resources are lean and business priorities are revenue-focused.",
-      "date": "2022-09-01",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Hailey Nevins"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-31-new-serverless-pricing.md",
-      "draft": false,
-      "title": "Introducing developer-friendly pricing with our new Individual Plan",
-      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
-      "date": "2022-08-31",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Jake Partusch"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-31-new-vendia-logo.md",
-      "draft": false,
-      "title": "Introducing our new brand identity",
-      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
-      "date": "2022-08-31",
-      "categories": [
-        "company"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
-      "draft": false,
-      "title": "Highlights from the GBTA Panel on blockchain for the travel industry",
-      "description": "Learn about some of the key takeaways from the GBTA session on how blockchain is disrupting the travel industry with blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana.",
-      "date": "2022-08-19",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
-      "draft": false,
-      "title": "Blockchain is disrupting every industry vertical—could business travel be next?",
-      "description": "Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.",
-      "date": "2022-08-05",
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "thumbnail": null,
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-25-6-months-at-vendia.md",
-      "draft": false,
-      "title": "No more burnout: Reflections after 6 months at Vendia",
-      "description": "Head of Design, Hailey Nevins, shares why she doesn't regret leaving the Fortune 100 tech industry to work for a startup.",
-      "date": "2022-04-25T00:00:00.000Z",
-      "authors": [
-        "Hailey Nevins"
-      ],
-      "categories": [
-        "company"
-      ],
-      "seo": {
-        "description": "Vendia's Head of Design, Hailey Nevins, shares why she doesn't regret leaving the Fortune 100 tech industry to work for a startup filled with kind humans.",
-        "title": "No more burnout: Reflections after 6 months at Vendia"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-02T01:44:23.082Z"
-    },
-    {
-      "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
-      "draft": false,
-      "title": "My first 30 days at Vendia",
-      "description": "Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.",
-      "date": "2022-02-09",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
-      "draft": false,
-      "title": "Five Leadership Practices of an Ultramarathoner",
-      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
-      "date": "2021-09-27",
-      "tag": [
-        "developers"
-      ],
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "draft": false,
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
-      "draft": false,
-      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
-      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
-      "date": "2021-06-08",
-      "categories": [
-        "announcements",
-        "company"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
-      "date": "2020-07-01",
-      "categories": [
-        "company"
-      ],
-      "tags": [
-        "origin"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-06-30-welcome-to-vendia.md",
-      "draft": false,
-      "title": "Welcome to Vendia",
-      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2022-05-31-vendia-announces-series-b",
-        "2021-01-04-kind-humans-really-work-here"
-      ],
-      "seo": {
-        "title": "Welcome to Vendia",
-        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
   "data-alliance": [
