@@ -22,8 +22,8 @@ sidebarCta:
   - Want to learn more about Vendia?
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-14T00:21:48.173Z
+updatedBy: alexa-vendia
+updatedAt: 2023-01-15T19:31:57.991Z
 id: 19793709-9362-4266-9953-aae7256f33aa
 ---
 
@@ -32,7 +32,6 @@ We are thrilled to welcome our new Vice President of Revenue, Josh Epstein. Josh
 Josh is excited to lead the sales and customer success teams to enable customers to share their data with any partner they choose *without* the cost and lost time associated with building and maintaining legacy systems. For new services built on Vendia Share, this means they can get to market much faster and without worrying about data privacy or compliance from day one.
 
 ## About Josh
-
 
 In addition to two decades worth of sales and customer service experience, Josh has also dedicated time building go-to-market teams from scratch. His success also includes leading teams to define new markets by disrupting legacy infrastructure, security, and operations vendors.
 
@@ -52,7 +51,7 @@ I was talking to a few interesting companies, but I could not stop thinking abou
 
 It’s more about helping companies solve hard problems.
 
-Today, the world requires us to be more thoughtful about where and how we spend money — so these old-school complex, expensive relationships are not viable anymore. There is a huge opportunity to help companies figure out how to securely automate their external relationships. The problem is bigger than one company can solve, and so it will be important for us to find partners that want to work with us. I am convinced that Vendia will be an important part of this sea change. But the clouds, service providers, and others will play a critical role, so we need to build with the ecosystem in mind.
+Today, the world requires us to be more thoughtful about where and how we spend money — so these old-school, complex, expensive relationships are not viable anymore. There is a huge opportunity to help companies figure out how to securely automate their external relationships. The problem is bigger than one company can solve, and so it will be important for us to find partners that want to work with us. I am convinced that Vendia will be an important part of this sea change. But the clouds, service providers, and others will play a critical role, so we need to build with the ecosystem in mind.
 
 ### What’s the best career advice you’ve ever received?
 
@@ -64,12 +63,12 @@ The other one that comes to mind is something I learned at HashiCorp, and that i
 
 ### Any book recommendations?
 
-The books that I carry with me in my work bag and reference all the time are *The Qualified Sales Leader* by John McMahon, Angela Duckworth’s *Grit,* and Frank Slootmans *Amp It Up*. 
+The books that I carry with me in my work bag and reference all the time are *The Qualified Sales Leader* by John McMahon, Angela Duckworth’s *Grit,* and Frank Slootman's *Amp It Up*. 
 
 ### What do you like to do in your free time?
 
 Honestly, my favorite thing to do these days is drive my kids to school in the morning; it’s the most time I get to spend with them during the week. When I was off these past few months, I did a lot of walking, hanging with my wife and my new(ish) dog, and trying to get back into shape. Other than that, it’s reading, puzzles, and watching sports. I am a huge Michigan fan (Go Blue!) and 49ers fan!
 
-<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1673655435%252FJosh_Headshot_circle_yx0eb1.png" alt=""VP of Revenue, Josh Epstein"" class="image-float-center" width="250" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1673655435%252FJosh_Headshot_circle_yx0eb1.png" alt="""" class="image-float-center" width="250" />
 
 \**We are thrilled to have Josh join Vendia’s leadership team. If you’re interested in joining a team of kind humans solving hard, interesting, important problems, check out our [current opportunities.](https://www.vendia.com/careers)*
