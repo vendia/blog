@@ -1,4 +1,80 @@
 {
+  "recruiting": [
+    {
+      "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
+      "draft": false,
+      "title": "My first 60 days: Trust is the chain that connects everything else",
+      "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
+      "date": "2023-01-15T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-04-25-6-months-at-vendia",
+        "2022-09-06-how-to-recruit-kind-humans"
+      ],
+      "tags": [
+        "recruiting",
+        "team"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "My first 60 days: Trust is the chain that connects everything else",
+        "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
+        "keywords": "working at Vendia, Vendia careers"
+      },
+      "sidebarCta": [
+        "Circles of Trust"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-15T20:13:05.385Z",
+      "id": "07d7a91b-a83a-414e-978d-0b0b5cb90681"
+    }
+  ],
+  "team": [
+    {
+      "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
+      "draft": false,
+      "title": "My first 60 days: Trust is the chain that connects everything else",
+      "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
+      "date": "2023-01-15T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-04-25-6-months-at-vendia",
+        "2022-09-06-how-to-recruit-kind-humans"
+      ],
+      "tags": [
+        "recruiting",
+        "team"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "My first 60 days: Trust is the chain that connects everything else",
+        "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
+        "keywords": "working at Vendia, Vendia careers"
+      },
+      "sidebarCta": [
+        "Circles of Trust"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-15T20:13:05.385Z",
+      "id": "07d7a91b-a83a-414e-978d-0b0b5cb90681"
+    }
+  ],
   "chain of custody": [
     {
       "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
