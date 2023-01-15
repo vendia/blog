@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "My first 60 days: Trust is the chain that connects everything else"
 description: Li Dai, Sr. Solutions Architect, shares his top three observations
   (and delights) from his first 60 days on our remote-first tech startup. Get to
@@ -28,7 +28,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-15T20:12:46.983Z
+updatedAt: 2023-01-15T20:13:05.385Z
 id: 07d7a91b-a83a-414e-978d-0b0b5cb90681
 ---
 
