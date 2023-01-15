@@ -261,13 +261,13 @@ components:
       12.1 **Roles of the Parties.** When Processing California Personal Information in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is a Business and Vendia is a Service Provider for the purposes of the CCPA.
 
 
-      12.2 **Responsibilities.** The Parties agree that Vendia will Process California Personal Information as a Service Provider strictly for the purpose of performing the Vendia Services under the Agreement(s) (the “**Business Purpose**”) or as otherwise permitted by the CCPA, including as described in Vendia’s Privacy Policy, which resides at <https://vendia.com/legal/privacy-policy>.
+      12.2 **Responsibilities.** The Parties agree that Vendia will Process California Personal Information as a Service Provider strictly for the purpose of performing the Vendia Services under the Agreement(s) (the “**Business Purpose**”) or as otherwise permitted by the CCPA, including as described in Vendia’s Privacy Policy, which resides at [https://vendia.com/legal/privacy-policy](https://vendia.com/legal/privacy-policy).
 
 
       **13. General**
 
 
-      13.1 **Amendments.** Notwithstanding anything else to the contrary in the Agreement(s) and without prejudice to *Section 3.1 – Compliance with Instructions* and *Section(s) 2.3 / 3.3 – Security* of this DPA, Vendia reserves the right to make any updates and changes to this DPA. This DPA will be updated periodically, to ensure compliance with Applicable Privacy Laws. Vendia will ensure the updated copy of DPA will reside at <https://www.vendia.com/legal/dpa>.
+      13.1 **Amendments.** Notwithstanding anything else to the contrary in the Agreement(s) and without prejudice to *Section 3.1 – Compliance with Instructions* and *Section(s) 2.3 / 3.3 – Security* of this DPA, Vendia reserves the right to make any updates and changes to this DPA. This DPA will be updated periodically, to ensure compliance with Applicable Privacy Laws. Vendia will ensure the updated copy of DPA will reside at [https://www.vendia.com/legal/dpa](https://www.vendia.com/legal/dpa).
 
 
       13.2 **Severability.** If any individual provisions of this DPA are determined to be invalid or unenforceable, the validity and enforceability of the other provisions of this DPA will not be affected.

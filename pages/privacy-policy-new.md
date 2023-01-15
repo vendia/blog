@@ -294,7 +294,7 @@ components:
       If you are based in one of these jurisdictions, Vendia is the controller of your personal data collected in the following instances:
 
 
-      1. When you visit our website at <https://www.vendia.com/> 
+      1. When you visit our website at [https://www.vendia.com/](https://www.vendia.com/) 
 
       2. When we process your personal data for sales and marketing purposes
 

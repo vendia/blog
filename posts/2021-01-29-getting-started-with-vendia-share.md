@@ -51,7 +51,7 @@ Vendia Share doesn't just make it easy to share...it also makes it easy to integ
 
 ## Create an account with Vendia Share
 
-Before you can start creating, you will need a Vendia Share account.  Sign up at <https://share.vendia.net/signup>.
+Before you can start creating, you will need a Vendia Share account.  Sign up at [https://share.vendia.net/signup](https://share.vendia.net/signup).
 
 ## Start thinking 'Uni-versally'
 
@@ -59,7 +59,7 @@ Universal Applications, or Unis, are the foundation upon which you build with Ve
 
 - Creating a uni requires zero code; however, you do need a plan for your data model.
 - For more information on unis, check out our ["What is a uni?" video](https://youtu.be/8HmwVOo17BE)
-- Read more about unis and how they work <https://vendia.com/docs/share/dev-and-use-unis>
+- Read more about unis and how they work [https://vendia.com/docs/share/dev-and-use-unis](https://vendia.com/docs/share/dev-and-use-unis)
 
 ## Create your first Uni
 
@@ -78,25 +78,25 @@ We believe that practical examples are a fantastic way to learn. As such, we hav
 
 Get started with real-time data sharing strategies with this easy to understand quick start. You will build a uni that helps solve a common problem we all deal with, managing a shopping list.
 
-<https://vendia.com/docs/share/quickstart/shopping-list-cli>
+[https://vendia.com/docs/share/quickstart/shopping-list-cli](https://vendia.com/docs/share/quickstart/shopping-list-cli)
 
 ### Track and Trace
 
 The ability to share and work with data in real-time with partners is critical in supply chain management. This quick start demonstrates how you can quickly build a system to track goods and trace problems in a modern supply chain.
 
-<https://vendia.com/docs/share/quickstart/track-and-trace>
+[https://vendia.com/docs/share/quickstart/track-and-trace](https://vendia.com/docs/share/quickstart/track-and-trace)
 
 ### Product Catalog
 
 Build a product catalog with Vendia Share and get more familiar with some of our data management capabilities. You will expand your knowledge from prior quick starts and learn how to constrain data and work with multiple data types.
 
-<https://vendia.com/docs/share/quickstart/simple-product-catalog>
+[https://vendia.com/docs/share/quickstart/simple-product-catalog](https://vendia.com/docs/share/quickstart/simple-product-catalog)
 
 ### Inventory Management
 
 Deploy a sample inventory channel involving multiple parties such as a distribution center and two retailers. Build upon your existing knowledge by using our integrations.
 
-<https://vendia.com/docs/share/quickstart/inventory-management>
+[https://vendia.com/docs/share/quickstart/inventory-management](https://vendia.com/docs/share/quickstart/inventory-management)
 	
 You can view all of our quick starts [here](https://vendia.com/docs/share/quickstart)
 
@@ -108,16 +108,16 @@ Developers find learning Vendia Share is quick and easy. Our zero-code approach 
 
 Vendia Share APIs are generated with zero code from your data models. These APIs take advantage of GraphQL to make working with your data and sharing your code easy.  If you have not worked with GraphQL prior, this is a great place to start learning more.
 
-<https://graphql.org/learn/>
+[https://graphql.org/learn/](https://graphql.org/learn/)
 
 ### Data Modeling
 
 Vendia Share works upon a data model (we call it Schema) that you define.  Share uses an industry standard specification for this model. Read more about that specification and find examples of its use here.
 
-<https://vendia.com/docs/share/data-modeling>
+[https://vendia.com/docs/share/data-modeling](https://vendia.com/docs/share/data-modeling)
 
 ### Integrating with other systems
 
 The ability to connect Vendia Share with other systems opens numerous possibilities. The fact that these integrations may exist in any given account, region, cloud, or partner, gives developers the flexibility to intelligently design solutions with Vendia Share.  Read more about our integration capabilities here.
 
-<https://vendia.com/docs/share/integrations>
+[https://vendia.com/docs/share/integrations](https://vendia.com/docs/share/integrations)
