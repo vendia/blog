@@ -69,6 +69,6 @@ The books that I carry with me in my work bag and reference all the time are *Th
 
 Honestly, my favorite thing to do these days is drive my kids to school in the morning; it’s the most time I get to spend with them during the week. When I was off these past few months, I did a lot of walking, hanging with my wife and my new(ish) dog, and trying to get back into shape. Other than that, it’s reading, puzzles, and watching sports. I am a huge Michigan fan (Go Blue!) and 49ers fan!
 
-<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1673655435%252FJosh_Headshot_circle_yx0eb1.png" alt=""Josh Epstein’s profile picture"" class="image-float-center" width="250" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1673655435%252FJosh_Headshot_circle_yx0eb1.png" alt="Josh Epstein’s profile picture" class="image-float-center" width="250" />
 
 \**We are thrilled to have Josh join Vendia’s leadership team. If you’re interested in joining a team of kind humans solving hard, interesting, important problems, check out our [current opportunities.](https://www.vendia.com/careers)*
