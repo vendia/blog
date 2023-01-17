@@ -2,7 +2,7 @@
   "callToAction": [
     "Want to learn more about Vendia?"
   ],
-  "updatedAt": "2022-12-20T15:38:12.766Z",
+  "updatedAt": "2023-01-17T20:13:53.149Z",
   "updatedBy": "Hugues Tennier",
   "sidebarCta": [
     "Supercloud? Poly-cloud? Multi-Cloud? "
@@ -27,10 +27,12 @@
       "posts": "6 predictions about the future of blockchain in 2023"
     },
     {
-      "resources": "3-body-problem"
+      "resources": "",
+      "posts": "Vendia Presents: Extreme Testing"
     },
     {
-      "resources": "crm-webcast-replay"
+      "resources": "",
+      "posts": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?"
     }
   ]
 }
