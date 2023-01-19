@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Vendia Share: Favorite feature releases in 2022"
+title: "Vendia Share: Feature spotlight"
 description: "Watch Francine Klein, Sr. Solutions Architect, walk through three
   of her favorite Vendia Share features released in 2022: Immutable ledger,
   metrics, and connectors and integrations."
@@ -23,23 +23,26 @@ seo:
     metrics, and connectors and integrations."
   title: "Vendia Share: Favorite feature releases in 2022"
   keywords: Vendia Share features
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2022-12-16T00:40:12.982Z
+updatedAt: 2023-01-19T21:57:36.715Z
+id: 77c1b28f-788c-45a5-8152-443dcb7fda93
 ---
 
 Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022.
 
 ## Vendia Share's immutable ledger
 
-<YouTube aspectRatio="16:9" title="Favorite feature: Immutable Ledger" url="https://www.youtube.com/watch?v=qarGKCXQrec" />
+<YouTube aspectRatio="16:9" title="Immutable Ledger" url="https://www.youtube.com/watch?v=qarGKCXQrec" />
 
 ## Metrics dashboard on Vendia Share
 
-<YouTube aspectRatio="16:9" title="Favorite feature: Metrics" url="https://www.youtube.com/watch?v=7heRgdMf6vY" />
+<YouTube aspectRatio="16:9" title="Metrics" url="https://www.youtube.com/watch?v=7heRgdMf6vY" />
 
 ## Connectors and integrations with Vendia Share
 
-<YouTube aspectRatio="16:9" title="Favorite feature: Connectors and integrations" url="https://www.youtube.com/watch?v=zWy5_RB77vs" />
+<YouTube aspectRatio="16:9" title="Connectors and integrations" url="https://www.youtube.com/watch?v=zWy5_RB77vs" />
 
 ### Developers, try Vendia Share for free
 
