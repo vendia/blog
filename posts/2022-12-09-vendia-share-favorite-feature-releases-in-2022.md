@@ -1,9 +1,9 @@
 ---
 draft: false
-title: "Vendia Share: Feature spotlight"
+title: Vendia Share feature spotlight
 description: "Watch Francine Klein, Sr. Solutions Architect, walk through three
-  of her favorite Vendia Share features released in 2022: Immutable ledger,
-  metrics, and connectors and integrations."
+  of her favorite Vendia Share features: Immutable ledger, metrics, and
+  connectors and integrations."
 date: 2022-12-06
 authors:
   - Francine Klein
@@ -21,12 +21,12 @@ seo:
   description: "Watch Francine Klein, Sr. Solutions Architect, walk through three
     of her favorite Vendia Share features released in 2022: Immutable ledger,
     metrics, and connectors and integrations."
-  title: "Vendia Share: Favorite feature releases in 2022"
+  title: Vendia Share feature spotlight
   keywords: Vendia Share features
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-19T21:57:36.715Z
+updatedAt: 2023-01-19T21:59:49.729Z
 id: 77c1b28f-788c-45a5-8152-443dcb7fda93
 ---
 
