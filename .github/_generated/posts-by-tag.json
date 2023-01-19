@@ -35,6 +35,39 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-15T20:13:05.385Z",
       "id": "07d7a91b-a83a-414e-978d-0b0b5cb90681"
+    },
+    {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "tags": [
+        "recruiting",
+        "team",
+        "engineering"
+      ],
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "tweet": "Learn about the engineering team at Vendia!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-19T22:05:53.596Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     }
   ],
   "team": [
@@ -73,6 +106,39 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-15T20:13:05.385Z",
       "id": "07d7a91b-a83a-414e-978d-0b0b5cb90681"
+    },
+    {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "tags": [
+        "recruiting",
+        "team",
+        "engineering"
+      ],
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "tweet": "Learn about the engineering team at Vendia!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-19T22:05:53.596Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     }
   ],
   "chain of custody": [
@@ -619,6 +685,39 @@
       "authors": [
         "James Gimourginas"
       ]
+    },
+    {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "tags": [
+        "recruiting",
+        "team",
+        "engineering"
+      ],
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "tweet": "Learn about the engineering team at Vendia!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-19T22:05:53.596Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     }
   ],
   "security": [

@@ -335,6 +335,39 @@
       "updatedAt": "2022-12-16T21:36:05.197Z"
     },
     {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "tags": [
+        "recruiting",
+        "team",
+        "engineering"
+      ],
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "tweet": "Learn about the engineering team at Vendia!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-19T22:05:53.596Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
+    },
+    {
       "file": "/posts/2022-09-27-data-sharing-obstacles.md",
       "draft": false,
       "title": "Obstacles to real-time data sharing",
@@ -1995,32 +2028,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-11-18T21:53:26.118Z"
-    },
-    {
-      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
-      "draft": false,
-      "slug": "vendia-engineering-team-spotlight",
-      "title": "Team spotlight: Vendia Engineering",
-      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-25-6-months-at-vendia"
-      ],
-      "seo": {
-        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-        "title": "Team spotlight: Vendia Engineering"
-      },
-      "tweet": "Learn about the engineering team at Vendia!",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-04T20:01:13.216Z",
-      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     },
     {
       "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
