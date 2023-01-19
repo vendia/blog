@@ -15,6 +15,10 @@
     "file": "/pages/legal-dpa.md",
     "draft": false
   },
+  "legal/huguesdpa": {
+    "file": "/pages/legal-huguesdpa.md",
+    "draft": true
+  },
   "legal/services-agreement": {
     "file": "/pages/legal-services-agreement.md",
     "draft": false
