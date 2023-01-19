@@ -7,20 +7,26 @@ description: Get to know some of our world-class engineers with pedigrees from
   what it’s like to be a part of Vendia.
 date: 2022-11-08
 authors:
-  - Alexa Johnson
+  - Vendia
 categories:
   - company
 relatedPosts:
   - 2020-07-01-meet-vendias-founders
   - 2022-04-25-6-months-at-vendia
+tags:
+  - recruiting
+  - team
+  - engineering
 seo:
   description: Get to know some of our world-class engineers with pedigrees from
     AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see
     what it’s like to be a part of Vendia.
   title: "Team spotlight: Vendia Engineering"
 tweet: Learn about the engineering team at Vendia!
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-04T20:01:13.216Z
+updatedAt: 2023-01-19T22:05:53.596Z
 id: 828764e9-b3dd-4ec5-aab3-a6c05d5094db
 ---
 
