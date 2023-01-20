@@ -12,12 +12,8 @@
     "draft": true
   },
   "legal/dpa": {
-    "file": "/pages/legal-dpa.md",
-    "draft": true
-  },
-  "legal/huguesdpa": {
     "file": "/pages/legal-huguesdpa.md",
-    "draft": true
+    "draft": false
   },
   "legal/services-agreement": {
     "file": "/pages/legal-services-agreement.md",
