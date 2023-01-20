@@ -2,7 +2,7 @@
   "callToAction": [
     "Vendia Share: what it is and how it works"
   ],
-  "updatedAt": "2023-01-20T18:17:18.668Z",
+  "updatedAt": "2023-01-20T18:19:06.675Z",
   "updatedBy": "alexa-vendia",
   "sidebarCta": [
     "Join the Founder's Circle"
@@ -13,9 +13,9 @@
     "architecture"
   ],
   "popularAuthors": [
-    "Tim Wagner",
     "Vikrant Kahlir",
-    "James Gimourginas"
+    "James Gimourginas",
+    "Francine Klein"
   ],
   "mostPopularPosts": [
     "10 ways to make your software better when building for cloud scale ",
@@ -28,11 +28,11 @@
     },
     {
       "resources": "",
-      "posts": "Distributed ledger challenges and solutions"
+      "posts": "Vendia Share feature spotlight"
     },
     {
       "resources": "",
-      "posts": "Vendia Share feature spotlight"
+      "posts": "Distributed ledger challenges and solutions"
     }
   ]
 }
