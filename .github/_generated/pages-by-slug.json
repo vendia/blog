@@ -13,7 +13,7 @@
   },
   "legal/dpa": {
     "file": "/pages/legal-dpa.md",
-    "draft": false
+    "draft": true
   },
   "legal/huguesdpa": {
     "file": "/pages/legal-huguesdpa.md",
