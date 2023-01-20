@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /thank-you/founders-circle
 components:
@@ -30,6 +30,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-20T18:40:45.759Z
+updatedAt: 2023-01-20T19:24:47.664Z
 id: 3eb6de55-22b7-4073-a914-8ada0ad1cb52
 ---
