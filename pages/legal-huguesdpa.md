@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 template: page
-path: /legal/huguesdpa
+path: /legal/data-processing-agreement
 components:
   - type: Text
     text: >+
@@ -1324,7 +1324,7 @@ seo:
   noindex: false
 createdBy: ""
 createdAt: ""
-updatedBy: kdurdle-vendia
-updatedAt: 2023-01-20T20:40:16.554Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-01-20T23:58:05.911Z
 id: 39a6aa79-7530-44d0-8c13-2defb1976291
 ---
