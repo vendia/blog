@@ -1,5 +1,129 @@
 {
-  "recruiting": [
+  "engineering": [
+    {
+      "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
+      "draft": true,
+      "title": "Team spotlight: Vendia Software Development",
+      "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2023-01-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-11-09-team-spotlight-vendia-engineering-pt-1",
+        "2022-10-25-vendia-values"
+      ],
+      "tags": [
+        "engineering",
+        "team",
+        "recruiting"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Software Development"
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-20T01:35:55.037Z",
+      "id": "13373d57-30db-4b71-b540-b39aac7e7ab6"
+    },
+    {
+      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
+      "draft": false,
+      "title": "10 ways to make your software better when building for cloud scale ",
+      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+      "date": "2022-11-18",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "engineering",
+        "cloud"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "tags": [
+        "recruiting",
+        "team",
+        "engineering"
+      ],
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "tweet": "Learn about the engineering team at Vendia!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-19T22:05:53.596Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
+    }
+  ],
+  "team": [
+    {
+      "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
+      "draft": true,
+      "title": "Team spotlight: Vendia Software Development",
+      "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2023-01-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-11-09-team-spotlight-vendia-engineering-pt-1",
+        "2022-10-25-vendia-values"
+      ],
+      "tags": [
+        "engineering",
+        "team",
+        "recruiting"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Software Development"
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-20T01:35:55.037Z",
+      "id": "13373d57-30db-4b71-b540-b39aac7e7ab6"
+    },
     {
       "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
       "draft": false,
@@ -70,7 +194,43 @@
       "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     }
   ],
-  "team": [
+  "recruiting": [
+    {
+      "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
+      "draft": true,
+      "title": "Team spotlight: Vendia Software Development",
+      "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2023-01-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-11-09-team-spotlight-vendia-engineering-pt-1",
+        "2022-10-25-vendia-values"
+      ],
+      "tags": [
+        "engineering",
+        "team",
+        "recruiting"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Software Development"
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-20T01:35:55.037Z",
+      "id": "13373d57-30db-4b71-b540-b39aac7e7ab6"
+    },
     {
       "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
       "draft": false,
@@ -666,58 +826,6 @@
       "authors": [
         "James Gimourginas"
       ]
-    }
-  ],
-  "engineering": [
-    {
-      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
-      "draft": false,
-      "title": "10 ways to make your software better when building for cloud scale ",
-      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
-      "date": "2022-11-18",
-      "categories": [
-        "concepts"
-      ],
-      "tags": [
-        "engineering",
-        "cloud"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
-      "draft": false,
-      "slug": "vendia-engineering-team-spotlight",
-      "title": "Team spotlight: Vendia Engineering",
-      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-25-6-months-at-vendia"
-      ],
-      "tags": [
-        "recruiting",
-        "team",
-        "engineering"
-      ],
-      "seo": {
-        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-        "title": "Team spotlight: Vendia Engineering"
-      },
-      "tweet": "Learn about the engineering team at Vendia!",
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-19T22:05:53.596Z",
-      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     }
   ],
   "security": [

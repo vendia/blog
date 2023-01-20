@@ -1,213 +1,41 @@
 {
-  "li-dai": [
-    {
-      "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
-      "draft": false,
-      "title": "My first 60 days: Trust is the chain that connects everything else",
-      "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
-      "date": "2023-01-15T00:00:00.000Z",
-      "authors": [
-        "Li Dai"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-04-25-6-months-at-vendia",
-        "2022-09-06-how-to-recruit-kind-humans"
-      ],
-      "tags": [
-        "recruiting",
-        "team"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "My first 60 days: Trust is the chain that connects everything else",
-        "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
-        "keywords": "working at Vendia, Vendia careers"
-      },
-      "sidebarCta": [
-        "Circles of Trust"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-15T20:13:05.385Z",
-      "id": "07d7a91b-a83a-414e-978d-0b0b5cb90681"
-    },
-    {
-      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
-      "draft": false,
-      "slug": "shared-data-architecture-patterns",
-      "title": "Shared data architecture patterns",
-      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-      "date": "2022-11-29T00:00:00.000Z",
-      "authors": [
-        "Li Dai"
-      ],
-      "categories": [
-        "architecture",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-02-01-decentralization"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
-      "seo": {
-        "title": "Shared data architecture patterns",
-        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-        "keywords": "shared data architecture"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z"
-    }
-  ],
-  "shruthi-rao": [
-    {
-      "file": "/posts/2023-01-14-introducing-our-new-vp-of-revenue-josh-epstein.md",
-      "draft": false,
-      "slug": "meet-josh-epstein",
-      "title": "Introducing our new VP of Revenue, Josh Epstein",
-      "description": "Meet Josh Epstein, Vendia's new VP of Revenue",
-      "date": "2023-01-13T00:00:00.000Z",
-      "authors": [
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673655108/Josh_w9wpmg.jpg",
-      "seo": {
-        "noindex": false,
-        "title": "Josh Epstein, Vendia's new VP of Revenue",
-        "description": "Meet Josh Epstein, Vendia's new VP of Revenue. With twenty-plus years of experience, he is excited to lead the sales and customer success teams to help our customers share data across their partner ecoystems and reduce costs. "
-      },
-      "sidebarCta": [
-        "Want to learn more about Vendia?"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2023-01-15T22:07:18.836Z",
-      "id": "19793709-9362-4266-9953-aae7256f33aa"
-    },
-    {
-      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
-      "draft": false,
-      "title": "Vendia announces Series B funding",
-      "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
-      "date": "2022-05-31",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
-      "draft": false,
-      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
-      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
-      "date": "2021-06-08",
-      "categories": [
-        "announcements",
-        "company"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
-      "draft": false,
-      "title": "Announcing the Vendia Share Developer Preview!",
-      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
-      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
-      "date": "2021-02-03",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding",
-        "developers"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-02-series-a-announcement.md",
-      "draft": false,
-      "title": "Vendia Announces Series A Investment",
-      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
-      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
-      "date": "2021-02-02",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
-      "date": "2020-07-01",
-      "categories": [
-        "company"
-      ],
-      "tags": [
-        "origin"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2020-06-30-welcome-to-vendia.md",
-      "draft": false,
-      "title": "Welcome to Vendia",
-      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2022-05-31-vendia-announces-series-b",
-        "2021-01-04-kind-humans-really-work-here"
-      ],
-      "seo": {
-        "title": "Welcome to Vendia",
-        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z"
-    }
-  ],
   "vendia": [
+    {
+      "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
+      "draft": true,
+      "title": "Team spotlight: Vendia Software Development",
+      "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2023-01-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-11-09-team-spotlight-vendia-engineering-pt-1",
+        "2022-10-25-vendia-values"
+      ],
+      "tags": [
+        "engineering",
+        "team",
+        "recruiting"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Software Development"
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-20T01:35:55.037Z",
+      "id": "13373d57-30db-4b71-b540-b39aac7e7ab6"
+    },
     {
       "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
       "draft": false,
@@ -578,6 +406,214 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:53:54.828Z"
+    }
+  ],
+  "li-dai": [
+    {
+      "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
+      "draft": false,
+      "title": "My first 60 days: Trust is the chain that connects everything else",
+      "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
+      "date": "2023-01-15T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-04-25-6-months-at-vendia",
+        "2022-09-06-how-to-recruit-kind-humans"
+      ],
+      "tags": [
+        "recruiting",
+        "team"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "My first 60 days: Trust is the chain that connects everything else",
+        "description": "Li Dai, Sr. Solutions Architect, shares his top three observations (and delights) from his first 60 days on our remote-first tech startup. Get to know Li, and learn if you’d thrive at Vendia, too.",
+        "keywords": "working at Vendia, Vendia careers"
+      },
+      "sidebarCta": [
+        "Circles of Trust"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-15T20:13:05.385Z",
+      "id": "07d7a91b-a83a-414e-978d-0b0b5cb90681"
+    },
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "architecture",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-01T19:22:33.839Z"
+    }
+  ],
+  "shruthi-rao": [
+    {
+      "file": "/posts/2023-01-14-introducing-our-new-vp-of-revenue-josh-epstein.md",
+      "draft": false,
+      "slug": "meet-josh-epstein",
+      "title": "Introducing our new VP of Revenue, Josh Epstein",
+      "description": "Meet Josh Epstein, Vendia's new VP of Revenue",
+      "date": "2023-01-13T00:00:00.000Z",
+      "authors": [
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1673655108/Josh_w9wpmg.jpg",
+      "seo": {
+        "noindex": false,
+        "title": "Josh Epstein, Vendia's new VP of Revenue",
+        "description": "Meet Josh Epstein, Vendia's new VP of Revenue. With twenty-plus years of experience, he is excited to lead the sales and customer success teams to help our customers share data across their partner ecoystems and reduce costs. "
+      },
+      "sidebarCta": [
+        "Want to learn more about Vendia?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2023-01-15T22:07:18.836Z",
+      "id": "19793709-9362-4266-9953-aae7256f33aa"
+    },
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
+      "date": "2022-05-31",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "draft": false,
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
+      "draft": false,
+      "title": "Announcing the Vendia Share Developer Preview!",
+      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
+      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
+      "date": "2021-02-03",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding",
+        "developers"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-02-series-a-announcement.md",
+      "draft": false,
+      "title": "Vendia Announces Series A Investment",
+      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
+      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
+      "date": "2021-02-02",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "draft": false,
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner Vendia's CEO and Shruthi Rao Vendia's Vendia CBO",
+      "date": "2020-07-01",
+      "categories": [
+        "company"
+      ],
+      "tags": [
+        "origin"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "draft": false,
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2021-01-04-kind-humans-really-work-here"
+      ],
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
   "james-gimourginas": [
