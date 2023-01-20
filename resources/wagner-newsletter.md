@@ -21,9 +21,10 @@ components:
 resourceType: white-papers
 seo:
   noindex: true
+  title: The Founder's Circle
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-19T19:24:44.393Z
+updatedAt: 2023-01-20T21:00:05.321Z
 id: ddbfeb33-97b3-4ebe-bc54-980d07fc31f5
 ---
