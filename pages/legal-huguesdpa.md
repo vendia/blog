@@ -94,6 +94,7 @@ components:
           
           3.3. <span style="text-decoration:underline;">Security.</span> CUSTOMER is responsible for independently determining whether the data security provided for Services adequately meets CUSTOMER’s and CUSTOMER Affiliate(s) obligations under Data Protection Laws. For more information on how Vendia protects Controller Data, please see Annex III to this DPA (“Security Measures”). CUSTOMER is also responsible for its secure use of Services, including protecting the security of Controller Data and Personal Data in transit to and from Services. 
 
+
           
       4. Vendia Obligations
           4.1. <span style="text-decoration:underline;">Compliance with Instructions</span>. Vendia will only Process Controller Data and Personal Data subject to the Agreement for the purposes described in this DPA.
@@ -117,19 +118,21 @@ components:
           
           5.3. If a Data Subject Request or other communication regarding the Processing of Personal Data under the Agreement is made directly to Vendia, Vendia will promptly inform CUSTOMER and will advise the Data Subject to submit their request to CUSTOMER. CUSTOMER will be solely responsible for responding substantively to any such Data Subject Requests or communications involving Personal Data.
 
-      6. Sub-Processing
+      ### 6. Sub-Processing ###
 
-          6.1. CUSTOMER acknowledges and agrees to Vendia’s use of Sub-Processors to Process Personal Data under this Agreement as outlined in Annex IV (“Sub-Processors”). 
+      6.1. CUSTOMER acknowledges and agrees to Vendia’s use of Sub-Processors to Process Personal Data under this Agreement as outlined in Annex IV (“Sub-Processors”). 
           
-          6.2. Vendia shall not delegate any Processing of Personal Data to additional Sub-Processor without the prior written consent of CUSTOMER. Notwithstanding this, CUSTOMER consents to Vendia engaging Sub-Processors to Process the Personal Data provided that:
+      6.2. Vendia shall not delegate any Processing of Personal Data to additional Sub-Processor without the prior written consent of CUSTOMER. Notwithstanding this, CUSTOMER consents to Vendia engaging Sub-Processors to Process the Personal Data provided that:
 
-          a. Vendia provides at least 14 days prior written notice to CUSTOMER of the engagement of any new Sub-Processors (including details of the Processing and location) and Vendia shall update the list of all Sub-Processors engaged to Process Personal Data under this Agreement at Annex IV and send such updated version to CUSTOMER prior to the engagement of the Sub-Processor; 
+          (a) Vendia provides at least 14 days prior written notice to CUSTOMER of the engagement of any new Sub-Processors (including details of the Processing and location) and Vendia shall update the list of all Sub-Processors engaged to Process Personal Data under this Agreement at Annex IV and send such updated version to CUSTOMER prior to the engagement of the Sub-Processor;
+
+          (b) Vendia imposes the same protection terms on any Sub-Processor it engages as contained in this DPA (including, where appropriate, the Standard Contractual Clauses) and other data transfer provisions, where applicable; and 
+
+          (c) Vendia remains fully liable for any breach of this DPA or the Agreement that is caused by an act, error, or omission of such Sub-Processor.
+
           
-          b. Vendia imposes the same protection terms on any Sub-Processor it engages as contained in this DPA (including, where appropriate, the Standard Contractual Clauses) and other data transfer provisions, where applicable; and 
-          
-          c. Vendia remains fully liable for any breach of this DPA or the Agreement that is caused by an act, error, or omission of such Sub-Processor.
-          
-          6.3. If CUSTOMER objects to the engagement of additional Sub-Processor as defined in Section 6.2 on data protection grounds, then either Vendia will not engage the Sub-Processor to Process the Personal Data or CUSTOMER shall elect to suspend or terminate the affected Services in accordance with the termination provisions of the Agreement without liability to either party (but without prejudice to any fees incurred by CUSTOMER prior to suspension or termination). The Parties agree that by complying with this subsection, Vendia fulfils its obligations under Section 9 of the SCCs.
+      6.3. If CUSTOMER objects to the engagement of additional Sub-Processor as defined in Section 6.2 on data protection grounds, then either Vendia will not engage the Sub-Processor to Process the Personal Data or CUSTOMER shall elect to suspend or terminate the affected Services in accordance with the termination provisions of the Agreement without liability to either party (but without prejudice to any fees incurred by CUSTOMER prior to suspension or termination). The Parties agree that by complying with this subsection, Vendia fulfils its obligations under Section 9 of the SCCs.
+
 
       7. Cooperation
           7.1. Vendia, through Services under Agreement, provides CUSTOMER with self-service controls to respond to any requests, complaints or other communications from Data Subjects and regulatory or judicial bodies relating to the Processing of Personal Data under the Agreement, including requests from Data Subjects seeking to exercise their rights under Applicable Privacy Laws. To the extent CUSTOMER is unable to independently address a Data Subject Request, Vendia will provide reasonable assistance in exchange for reasonable costs arising from this assistance. In the event that any such request, complaint or communication is made directly to Vendia, Vendia shall promptly pass this onto CUSTOMER; CUSTOMER shall be solely responsible for responding to any such request. 
@@ -1256,7 +1259,7 @@ seo:
   noindex: false
 createdBy: ""
 createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-01-19T19:57:04.442Z
+updatedBy: kdurdle-vendia
+updatedAt: 2023-01-20T19:47:00.031Z
 id: 39a6aa79-7530-44d0-8c13-2defb1976291
 ---
