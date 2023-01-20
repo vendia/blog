@@ -2,7 +2,7 @@
   "callToAction": [
     "Vendia Share: what it is and how it works"
   ],
-  "updatedAt": "2023-01-20T18:15:39.608Z",
+  "updatedAt": "2023-01-20T18:17:18.668Z",
   "updatedBy": "alexa-vendia",
   "sidebarCta": [
     "Join the Founder's Circle"
@@ -18,21 +18,21 @@
     "James Gimourginas"
   ],
   "mostPopularPosts": [
-    "Real-time “everything” with operational and analytics data",
-    "No more multicloud: The emergence of supercloud",
-    "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing"
+    "10 ways to make your software better when building for cloud scale ",
+    "5 patterns for successful data traceability",
+    "13 features you need to evaluate an enterprise blockchain platform"
   ],
   "featuredPosts": [
     {
-      "posts": "10 ways to make your software better when building for cloud scale "
+      "posts": "Sharing data in financial services: How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing"
     },
     {
       "resources": "",
-      "posts": "5 patterns for successful data traceability"
+      "posts": "Distributed ledger challenges and solutions"
     },
     {
       "resources": "",
-      "posts": "13 features you need to evaluate an enterprise blockchain platform"
+      "posts": "Vendia Share feature spotlight"
     }
   ]
 }
