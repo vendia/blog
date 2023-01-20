@@ -8,49 +8,42 @@ components:
       # Vendia Data Processing Addendum
 
 
-      **Revision History**
-
-
-      * 1/13/2023 - Version 1.0, ready to be published
-
-
-      ---
-
-
       Last Modified: January 13, 2023
 
 
       This Data Processing Addendum (“DPA”) is entered into as of the Effective Date of the applicable SaaS Services Agreement (“Agreement”) between Vendia, Inc. (“Vendia”) and the party designated as (“CUSTOMER”) in said Agreement (each, a “Party”, and collectively, the “Parties”), and is made part of, and incorporated into, said Agreement between the Parties.
 
 
-      #### Recitals
+      ### Recitals
 
 
-      1. Vendia has entered into one or more purchase orders, contracts and/or agreements with CUSTOMER and/or CUSTOMER Affiliates. In delivering Services under the Agreement, under Instruction by CUSTOMER Vendia will Process Personal Data controlled by CUSTOMER, a CUSTOMER Affiliate and/or their respective customers, contacts or partners. For the avoidance of doubt, “partners” shall mean any third-parties who are invited into the Vendia Offerings by CUSTOMER, to act in a capacity as Controller (as defined below) with respect to their specific Personal Data.
+      Vendia has entered into one or more purchase orders, contracts and/or agreements with CUSTOMER and/or CUSTOMER Affiliates. In delivering Services under the Agreement, under Instruction by CUSTOMER Vendia will Process Personal Data controlled by CUSTOMER, a CUSTOMER Affiliate and/or their respective customers, contacts or partners. For the avoidance of doubt, “partners” shall mean any third-parties who are invited into the Vendia Offerings by CUSTOMER, to act in a capacity as Controller (as defined below) with respect to their specific Personal Data.
 
 
-      #### Agreement
+      ### Agreement
 
 
-      1. Custody of Personal Data 
+      #### 1. Custody of Personal Data 
 
-          For the avoidance of doubt, CUSTOMER acknowledges and agrees that CUSTOMER shall remain the custodian of Controller Data Processed under the Agreement and therefore, CUSTOMER (in their capacity as Controller) will explicitly provide Instruction (as defined below) to Vendia as to the requested location for the Processing and Data Location of Controller Data with respect to the Agreement.
+      For the avoidance of doubt, CUSTOMER acknowledges and agrees that CUSTOMER shall remain the custodian of Controller Data Processed under the Agreement and therefore, CUSTOMER (in their capacity as Controller) will explicitly provide Instruction (as defined below) to Vendia as to the requested location for the Processing and Data Location of Controller Data with respect to the Agreement.
 
-      2. Definitions
 
-          **“Affiliate” **means any entity which owns or controls, is owned or controlled by, or is under common ownership or control with respect to either Party.
+      #### 2. Definitions
+
+
+      "**Affiliate**" means any entity which owns or controls, is owned or controlled by, or is under common ownership or control with respect to either Party.
           
-          "**Applicable Privacy Law(s)**" means all worldwide data protection and privacy laws and regulations applicable to the Personal Data in question, including, where applicable, EU Data Protection Law, European Union General Data Protection Regulation (EU GDPR) and the California Consumer Privacy Act of 2018 (CCPA).
+      "**Applicable Privacy Law(s)**" means all worldwide data protection and privacy laws and regulations applicable to the Personal Data in question, including, where applicable, EU Data Protection Law, European Union General Data Protection Regulation (EU GDPR) and the California Consumer Privacy Act of 2018 (CCPA).
           
-          "**Authorized Person(s)**" means any person who Processes Personal Data on Vendia’s behalf.
+      "**Authorized Person(s)**" means any person who Processes Personal Data on Vendia’s behalf.
           
-          “**California Personal Information”** means Personal Data that is subject to the protection of the CCPA. 
+      "**California Personal Information**" means Personal Data that is subject to the protection of the CCPA. 
           
-          “**CCPA” **means California Civil Code Sec. 1798.100 et seq. (also known as the California Consumer Privacy Act of 2018).
+      "**CCPA**" means California Civil Code Sec. 1798.100 et seq. (also known as the California Consumer Privacy Act of 2018).
           
-          “**Consumer**”, “**Business**”, **“Sell**” and “**Service Provider**” each will have the meanings given to them in the CCPA. 
+      "**Consumer**", “**Business**”, “**Sell**” and “**Service Provider**” each will have the meanings given to them in the CCPA. 
           
-          “**Controller**” means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the Processing of Personal Data. In the event of an Instruction that involves multiple Controllers, an originating Controller (“Sender or Sending Controller”) shall issue the Instruction to Vendia; any such Instruction shall necessitate the Processing of Personal Data on behalf of a single or multiple recipient Controllers (“Receiver or Receiving Controller(s)”). The Sending Controller and Receiving Controller are defined by Instruction and may or may not be CUSTOMER Affiliates.
+      “**Controller**” means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the Processing of Personal Data. In the event of an Instruction that involves multiple Controllers, an originating Controller (“Sender or Sending Controller”) shall issue the Instruction to Vendia; any such Instruction shall necessitate the Processing of Personal Data on behalf of a single or multiple recipient Controllers (“Receiver or Receiving Controller(s)”). The Sending Controller and Receiving Controller are defined by Instruction and may or may not be CUSTOMER Affiliates.
           
           “**Controller Data**” means any data owned and under CUSTOMER’s custodianship. CUSTOMER shall own all rights, title, interest and responsibility in and to Controller Data, as well as any and all intellectual property rights. Controller Data may or may not include Personal Data. The Services under Agreement may be used to Process Controller Data. For clarity, Controller Data does not include resource identifiers, attributes, or other data labels.
           
@@ -118,7 +111,7 @@ components:
           
           5.3. If a Data Subject Request or other communication regarding the Processing of Personal Data under the Agreement is made directly to Vendia, Vendia will promptly inform CUSTOMER and will advise the Data Subject to submit their request to CUSTOMER. CUSTOMER will be solely responsible for responding substantively to any such Data Subject Requests or communications involving Personal Data.
 
-      ### 6. Sub-Processing ###
+      ### 6. Sub-Processing
 
       6.1. CUSTOMER acknowledges and agrees to Vendia’s use of Sub-Processors to Process Personal Data under this Agreement as outlined in Annex IV (“Sub-Processors”). 
           
@@ -1260,6 +1253,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: kdurdle-vendia
-updatedAt: 2023-01-20T19:47:00.031Z
+updatedAt: 2023-01-20T19:52:50.842Z
 id: 39a6aa79-7530-44d0-8c13-2defb1976291
 ---
