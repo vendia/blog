@@ -45,7 +45,7 @@ components:
           
       “**Controller**” means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the Processing of Personal Data. In the event of an Instruction that involves multiple Controllers, an originating Controller (“Sender or Sending Controller”) shall issue the Instruction to Vendia; any such Instruction shall necessitate the Processing of Personal Data on behalf of a single or multiple recipient Controllers (“Receiver or Receiving Controller(s)”). The Sending Controller and Receiving Controller are defined by Instruction and may or may not be CUSTOMER Affiliates.
           
-          “**Controller Data**” means any data owned and under CUSTOMER’s custodianship. CUSTOMER shall own all rights, title, interest and responsibility in and to Controller Data, as well as any and all intellectual property rights. Controller Data may or may not include Personal Data. The Services under Agreement may be used to Process Controller Data. For clarity, Controller Data does not include resource identifiers, attributes, or other data labels.
+      “**Controller Data**” means any data owned and under CUSTOMER’s custodianship. CUSTOMER shall own all rights, title, interest and responsibility in and to Controller Data, as well as any and all intellectual property rights. Controller Data may or may not include Personal Data. The Services under Agreement may be used to Process Controller Data. For clarity, Controller Data does not include resource identifiers, attributes, or other data labels.
           
           **“Data Location”** means the geographical location in which data resides at rest. Controllers Instruct Vendia on the region where the Services will store Controller Data. Unless Instructed, the Services do not limit the location from which Controller may access Controller Data.
           
@@ -74,42 +74,48 @@ components:
           
           "**Sub-Processor**" means any third party (including any Vendia affiliates) engaged directly or indirectly by Vendia to Process any Personal Data. This definition shall also include any third party appointed by a Sub-Processor to Process any Personal Data.
 
-      3. CUSTOMER Obligations
-          3.1. <span style="text-decoration:underline;">Compliance with Laws</span>. Within the scope of the Agreement and the DPA and in their use of Services, CUSTOMER will be responsible for complying with all requirements that apply to it under applicable Data Protection Laws with respect to its Processing of Personal Data and the Instructions it issues to Vendia.
+      ####3. CUSTOMER Obligations
 
-          CUSTOMER agrees and acknowledges that under Instruction, Vendia will Process (e.g. transfer) data between a Sending Controller and a Receiving Controller(s). Such transferred data is now subject to the Agreement, DPA and other contracted relationship between Vendia and the Receiving Controller(s). Furthermore, the Receiving Controller(s) may be subject to different Data Protection Laws, and may not be in the same geographic region or use the same Sub-Processors as the Sending Controller and that the Agreement and any applicable laws governing Sending Controller may or may not apply to the Receiving Controller. It is the sole responsibility of the Sending Controller to determine whether such sharing is permitted under any applicable laws governing the Sending and Receiving Controller(s).
-
-          In particular but without prejudice to the generality of the foregoing, CUSTOMER acknowledges and agrees that it will be solely responsible for: (a) the accuracy, quality, and legality of Controller Data and the means by which it acquired Personal Data; (b) complying with all necessary transparency and lawfulness requirements under applicable Data Protection Laws for the collection and use of the Personal Data, including obtaining any necessary consents and authorizations (particularly for use by CUSTOMER for marketing purposes); (c) ensuring it has the right to transfer, or provide access to, the Personal Data to Vendia for Processing in accordance with the terms of the Agreement (including this DPA); (d) ensuring that its Instructions to Vendia regarding the Processing of Personal Data comply with applicable laws, including Data Protection Laws; and (e) complying with all laws (including Data Protection Laws) applicable to any emails or other content created, sent or managed through Services, including those related to obtaining consent (where required) to send emails or other forms of data transmission, the content of the emails and transmissions, and its email and data transmission deployment practices. CUSTOMER will inform Vendia without undue delay if it is not able to comply with its responsibilities under this Section 3 - CUSTOMER Obligations or applicable Data Protection Laws.
-          
-          3.2. <span style="text-decoration:underline;">Instructions</span>. The Parties agree that the Agreement (including this DPA), together with CUSTOMER’s use of Services in accordance with the Agreement, constitute Controller’s complete Instructions to Vendia in relation to the Processing of Personal Data; Controller shall provide additional Instructions that are consistent with the Agreement (including this DPA), the nature and lawful use of services provided by Vendia.
-
-          In particular but without prejudice to the generality of the foregoing, CUSTOMER acknowledges and agrees that it will be solely responsible for following the currently documented best practices and procedures provided by Services regarding the controls and Instructions under Agreement, including: (a) agreeing to prerequisites that Personal Data be modelled appropriately; (b) agreeing to specify the Data Location of Controller Data; (c) agreeing that certain Instructions shall result in the Processing (e.g. transfer) of Data from a Sending Controller to a Receiving Controller(s); and (d) agreeing to utilize Instructions to modify or restrict the Processing of Personal Data to comply with the terms of the Agreement and the DPA. 
-          
-          3.3. <span style="text-decoration:underline;">Security.</span> CUSTOMER is responsible for independently determining whether the data security provided for Services adequately meets CUSTOMER’s and CUSTOMER Affiliate(s) obligations under Data Protection Laws. For more information on how Vendia protects Controller Data, please see Annex III to this DPA (“Security Measures”). CUSTOMER is also responsible for its secure use of Services, including protecting the security of Controller Data and Personal Data in transit to and from Services. 
+      3.1. <span style="text-decoration:underline;">Compliance with Laws</span>. Within the scope of the Agreement and the DPA and in their use of Services, CUSTOMER will be responsible for complying with all requirements that apply to it under applicable Data Protection Laws with respect to its Processing of Personal Data and the Instructions it issues to Vendia.
 
 
-          
-      4. Vendia Obligations
-          4.1. <span style="text-decoration:underline;">Compliance with Instructions</span>. Vendia will only Process Controller Data and Personal Data subject to the Agreement for the purposes described in this DPA.
-          
-          CUSTOMER agrees and acknowledges that under Instruction, Vendia will Process Personal Data between a Sending Controller and a Receiving Controller(s). Vendia’s sole responsibility shall be Processing Personal Data as Instructed by the Sending Controller and not to independently confirm whether such sharing is permitted under either the Sending Controller or Receiving Controller(s) applicable Data Protection Laws.
-          
-          4.2. <span style="text-decoration:underline;">Conflict of Laws</span>. If Vendia becomes aware that it cannot Process Personal Data in accordance with Controller’s Instructions due to a legal requirement under any applicable law, Vendia will: (a) promptly notify Controller of that legal requirement to the extent permitted by the applicable law; and (b) where necessary, cease all Processing (other than merely storing and maintaining the security of the affected Personal Data) until such time as Controller issues new Instructions with which Vendia is able to comply. In any such event , Vendia will not be liable to Controller under the Agreement for any failure to perform the Services until such time as Controller issues new lawful Instructions to Vendia with respect to the Processing of Personal Data.
-          
-          4.3. <span style="text-decoration:underline;">Security</span>. Vendia will implement and maintain appropriate technical and organizational measures to protect Personal Data from Personal Data Breaches, as described under Annex III. Notwithstanding any provision to the contrary, Vendia may modify or update the Security Measures at its discretion provided that such modification or update does not result in a material degradation in the protection offered by the Security Measures.
-          
-          4.4. <span style="text-decoration:underline;">Confidentiality. </span>Vendia will ensure that any personnel whom Vendia authorizes to Process Personal Data on its behalf is subject to appropriate confidentiality obligations (whether a contractual or statutory duty) with respect to that Personal Data. 
-          
-          4.5. <span style="text-decoration:underline;">Personal Data Breaches</span>. Vendia will notify CUSTOMER without undue delay after Vendia becomes aware of any Personal Data Breach and will provide timely information relating to the Personal Data Breach as it becomes known or as reasonably requested by CUSTOMER. At CUSTOMER’s request, Vendia will promptly provide CUSTOMER with such reasonable assistance as necessary to enable CUSTOMER to notify competent authorities and affected Data Subjects of relevant Personal Data Breaches, if CUSTOMER is required to do so under Data Protection Laws.
-          
-          4.6. <span style="text-decoration:underline;">Deletion or Return of Personal Data</span>. Upon CUSTOMER's Instruction, or upon termination or expiration of this DPA and/or Agreement, Vendia shall in a timely fashion destroy or return to CUSTOMER all Controller Data (including copies) in its possession or control (including any Personal Data Processed by its Sub-Processors). This requirement shall not apply to the extent that Vendia is required by any applicable law to retain some or all of the Personal Data, in which event Vendia shall isolate and protect the Personal Data from any further Processing except to the extent required by such law. This provision shall not apply to data transferred (copied) to Receiving Controller(s) that are no longer subject to the Sending Controller’s Agreement.
+      CUSTOMER agrees and acknowledges that under Instruction, Vendia will Process (e.g. transfer) data between a Sending Controller and a Receiving Controller(s). Such transferred data is now subject to the Agreement, DPA and other contracted relationship between Vendia and the Receiving Controller(s). Furthermore, the Receiving Controller(s) may be subject to different Data Protection Laws, and may not be in the same geographic region or use the same Sub-Processors as the Sending Controller and that the Agreement and any applicable laws governing Sending Controller may or may not apply to the Receiving Controller. It is the sole responsibility of the Sending Controller to determine whether such sharing is permitted under any applicable laws governing the Sending and Receiving Controller(s).
 
-      5. Data Subject Requests
-          5.1. Services provide CUSTOMER with a number of controls that it can use to issue Instructions to Vendia to Process Personal Data (including but not limited to, retrieval, correction, deletion or restriction). CUSTOMER agrees to the use of Services for issuing Instructions to meet their obligations under Data Protection Laws, including CUSTOMER’s obligations relating to responding to requests from Data Subjects to exercise their rights under applicable Data Protection Laws (“Data Subject Requests”).
+
+      In particular but without prejudice to the generality of the foregoing, CUSTOMER acknowledges and agrees that it will be solely responsible for: (a) the accuracy, quality, and legality of Controller Data and the means by which it acquired Personal Data; (b) complying with all necessary transparency and lawfulness requirements under applicable Data Protection Laws for the collection and use of the Personal Data, including obtaining any necessary consents and authorizations (particularly for use by CUSTOMER for marketing purposes); (c) ensuring it has the right to transfer, or provide access to, the Personal Data to Vendia for Processing in accordance with the terms of the Agreement (including this DPA); (d) ensuring that its Instructions to Vendia regarding the Processing of Personal Data comply with applicable laws, including Data Protection Laws; and (e) complying with all laws (including Data Protection Laws) applicable to any emails or other content created, sent or managed through Services, including those related to obtaining consent (where required) to send emails or other forms of data transmission, the content of the emails and transmissions, and its email and data transmission deployment practices. CUSTOMER will inform Vendia without undue delay if it is not able to comply with its responsibilities under this Section 3 - CUSTOMER Obligations or applicable Data Protection Laws.
           
-          5.2. To the extent that CUSTOMER is unable to independently address a Data Subject Request through Services, then upon CUSTOMER’s written request Vendia will provide reasonable assistance to CUSTOMER to respond to any Data Subject Requests or requests from data protection authorities relating to the Processing of Personal Data under the Agreement. CUSTOMER agrees to reimburse Vendia for any commercially reasonable costs arising from such assistance.
+      3.2. <span style="text-decoration:underline;">Instructions</span>. The Parties agree that the Agreement (including this DPA), together with CUSTOMER’s use of Services in accordance with the Agreement, constitute Controller’s complete Instructions to Vendia in relation to the Processing of Personal Data; Controller shall provide additional Instructions that are consistent with the Agreement (including this DPA), the nature and lawful use of services provided by Vendia.
+
+
+      In particular but without prejudice to the generality of the foregoing, CUSTOMER acknowledges and agrees that it will be solely responsible for following the currently documented best practices and procedures provided by Services regarding the controls and Instructions under Agreement, including: (a) agreeing to prerequisites that Personal Data be modelled appropriately; (b) agreeing to specify the Data Location of Controller Data; (c) agreeing that certain Instructions shall result in the Processing (e.g. transfer) of Data from a Sending Controller to a Receiving Controller(s); and (d) agreeing to utilize Instructions to modify or restrict the Processing of Personal Data to comply with the terms of the Agreement and the DPA. 
           
-          5.3. If a Data Subject Request or other communication regarding the Processing of Personal Data under the Agreement is made directly to Vendia, Vendia will promptly inform CUSTOMER and will advise the Data Subject to submit their request to CUSTOMER. CUSTOMER will be solely responsible for responding substantively to any such Data Subject Requests or communications involving Personal Data.
+      3.3. <span style="text-decoration:underline;">Security.</span> CUSTOMER is responsible for independently determining whether the data security provided for Services adequately meets CUSTOMER’s and CUSTOMER Affiliate(s) obligations under Data Protection Laws. For more information on how Vendia protects Controller Data, please see Annex III to this DPA (“Security Measures”). CUSTOMER is also responsible for its secure use of Services, including protecting the security of Controller Data and Personal Data in transit to and from Services. 
+          
+      ####4. Vendia Obligations
+
+      4.1. <span style="text-decoration:underline;">Compliance with Instructions</span>. Vendia will only Process Controller Data and Personal Data subject to the Agreement for the purposes described in this DPA.
+          
+      CUSTOMER agrees and acknowledges that under Instruction, Vendia will Process Personal Data between a Sending Controller and a Receiving Controller(s). Vendia’s sole responsibility shall be Processing Personal Data as Instructed by the Sending Controller and not to independently confirm whether such sharing is permitted under either the Sending Controller or Receiving Controller(s) applicable Data Protection Laws.
+          
+      4.2. <span style="text-decoration:underline;">Conflict of Laws</span>. If Vendia becomes aware that it cannot Process Personal Data in accordance with Controller’s Instructions due to a legal requirement under any applicable law, Vendia will: (a) promptly notify Controller of that legal requirement to the extent permitted by the applicable law; and (b) where necessary, cease all Processing (other than merely storing and maintaining the security of the affected Personal Data) until such time as Controller issues new Instructions with which Vendia is able to comply. In any such event , Vendia will not be liable to Controller under the Agreement for any failure to perform the Services until such time as Controller issues new lawful Instructions to Vendia with respect to the Processing of Personal Data.
+          
+      4.3. <span style="text-decoration:underline;">Security</span>. Vendia will implement and maintain appropriate technical and organizational measures to protect Personal Data from Personal Data Breaches, as described under Annex III. Notwithstanding any provision to the contrary, Vendia may modify or update the Security Measures at its discretion provided that such modification or update does not result in a material degradation in the protection offered by the Security Measures.
+          
+      4.4. <span style="text-decoration:underline;">Confidentiality. </span>Vendia will ensure that any personnel whom Vendia authorizes to Process Personal Data on its behalf is subject to appropriate confidentiality obligations (whether a contractual or statutory duty) with respect to that Personal Data. 
+          
+      4.5. <span style="text-decoration:underline;">Personal Data Breaches</span>. Vendia will notify CUSTOMER without undue delay after Vendia becomes aware of any Personal Data Breach and will provide timely information relating to the Personal Data Breach as it becomes known or as reasonably requested by CUSTOMER. At CUSTOMER’s request, Vendia will promptly provide CUSTOMER with such reasonable assistance as necessary to enable CUSTOMER to notify competent authorities and affected Data Subjects of relevant Personal Data Breaches, if CUSTOMER is required to do so under Data Protection Laws.
+          
+      4.6. <span style="text-decoration:underline;">Deletion or Return of Personal Data</span>. Upon CUSTOMER's Instruction, or upon termination or expiration of this DPA and/or Agreement, Vendia shall in a timely fashion destroy or return to CUSTOMER all Controller Data (including copies) in its possession or control (including any Personal Data Processed by its Sub-Processors). This requirement shall not apply to the extent that Vendia is required by any applicable law to retain some or all of the Personal Data, in which event Vendia shall isolate and protect the Personal Data from any further Processing except to the extent required by such law. This provision shall not apply to data transferred (copied) to Receiving Controller(s) that are no longer subject to the Sending Controller’s Agreement.
+
+
+      #### 5. Data Subject Requests
+
+      5.1. Services provide CUSTOMER with a number of controls that it can use to issue Instructions to Vendia to Process Personal Data (including but not limited to, retrieval, correction, deletion or restriction). CUSTOMER agrees to the use of Services for issuing Instructions to meet their obligations under Data Protection Laws, including CUSTOMER’s obligations relating to responding to requests from Data Subjects to exercise their rights under applicable Data Protection Laws (“Data Subject Requests”).
+          
+      5.2. To the extent that CUSTOMER is unable to independently address a Data Subject Request through Services, then upon CUSTOMER’s written request Vendia will provide reasonable assistance to CUSTOMER to respond to any Data Subject Requests or requests from data protection authorities relating to the Processing of Personal Data under the Agreement. CUSTOMER agrees to reimburse Vendia for any commercially reasonable costs arising from such assistance.
+          
+      5.3. If a Data Subject Request or other communication regarding the Processing of Personal Data under the Agreement is made directly to Vendia, Vendia will promptly inform CUSTOMER and will advise the Data Subject to submit their request to CUSTOMER. CUSTOMER will be solely responsible for responding substantively to any such Data Subject Requests or communications involving Personal Data.
+
 
       ### 6. Sub-Processing
 
@@ -117,105 +123,128 @@ components:
           
       6.2. Vendia shall not delegate any Processing of Personal Data to additional Sub-Processor without the prior written consent of CUSTOMER. Notwithstanding this, CUSTOMER consents to Vendia engaging Sub-Processors to Process the Personal Data provided that:
 
-          (a) Vendia provides at least 14 days prior written notice to CUSTOMER of the engagement of any new Sub-Processors (including details of the Processing and location) and Vendia shall update the list of all Sub-Processors engaged to Process Personal Data under this Agreement at Annex IV and send such updated version to CUSTOMER prior to the engagement of the Sub-Processor;
 
-          (b) Vendia imposes the same protection terms on any Sub-Processor it engages as contained in this DPA (including, where appropriate, the Standard Contractual Clauses) and other data transfer provisions, where applicable; and 
+      * a. Vendia provides at least 14 days prior written notice to CUSTOMER of the engagement of any new Sub-Processors (including details of the Processing and location) and Vendia shall update the list of all Sub-Processors engaged to Process Personal Data under this Agreement at Annex IV and send such updated version to CUSTOMER prior to the engagement of the Sub-Processor;
 
-          (c) Vendia remains fully liable for any breach of this DPA or the Agreement that is caused by an act, error, or omission of such Sub-Processor.
 
-          
+      * b. Vendia imposes the same protection terms on any Sub-Processor it engages as contained in this DPA (including, where appropriate, the Standard Contractual Clauses) and other data transfer provisions, where applicable; and 
+
+
+      * c. Vendia remains fully liable for any breach of this DPA or the Agreement that is caused by an act, error, or omission of such Sub-Processor.
+
+
       6.3. If CUSTOMER objects to the engagement of additional Sub-Processor as defined in Section 6.2 on data protection grounds, then either Vendia will not engage the Sub-Processor to Process the Personal Data or CUSTOMER shall elect to suspend or terminate the affected Services in accordance with the termination provisions of the Agreement without liability to either party (but without prejudice to any fees incurred by CUSTOMER prior to suspension or termination). The Parties agree that by complying with this subsection, Vendia fulfils its obligations under Section 9 of the SCCs.
 
 
-      7. Cooperation
-          7.1. Vendia, through Services under Agreement, provides CUSTOMER with self-service controls to respond to any requests, complaints or other communications from Data Subjects and regulatory or judicial bodies relating to the Processing of Personal Data under the Agreement, including requests from Data Subjects seeking to exercise their rights under Applicable Privacy Laws. To the extent CUSTOMER is unable to independently address a Data Subject Request, Vendia will provide reasonable assistance in exchange for reasonable costs arising from this assistance. In the event that any such request, complaint or communication is made directly to Vendia, Vendia shall promptly pass this onto CUSTOMER; CUSTOMER shall be solely responsible for responding to any such request. 
-          
-          7.2. If Vendia receives a subpoena, court order, warrant or other legal demand from a third party (including law enforcement or other public or judicial authorities) seeking the disclosure of Personal Data, Vendia shall not disclose any information but shall immediately notify CUSTOMER in writing of such request, and reasonably cooperate with CUSTOMER if it wishes to limit, challenge or protect against such disclosure, to the extent permitted by applicable laws, or as directed by a court or official with appropriate jurisdiction.
-          
-          7.3. To the extent Vendia is required under Applicable Privacy Laws, Vendia will assist CUSTOMER to conduct a data protection impact assessment and, where legally required, consult with applicable data protection authorities in respect of any proposed Processing activity that present a high risk to Data Subjects.
-          
-          7.4. Nothing in this Section shall be construed to limit or contravene Section 5.1.
+      #### 7. Cooperation
 
-      8. Data Access & Security Measures
+      7.1. Vendia, through Services under Agreement, provides CUSTOMER with self-service controls to respond to any requests, complaints or other communications from Data Subjects and regulatory or judicial bodies relating to the Processing of Personal Data under the Agreement, including requests from Data Subjects seeking to exercise their rights under Applicable Privacy Laws. To the extent CUSTOMER is unable to independently address a Data Subject Request, Vendia will provide reasonable assistance in exchange for reasonable costs arising from this assistance. In the event that any such request, complaint or communication is made directly to Vendia, Vendia shall promptly pass this onto CUSTOMER; CUSTOMER shall be solely responsible for responding to any such request. 
           
-          8.1. Vendia shall ensure that any Authorized Person is subject to a strict duty of confidentiality (whether a contractual or statutory duty) and that they Process the Personal Data only for the purpose of delivering Services under the Agreement to CUSTOMER.
+      7.2. If Vendia receives a subpoena, court order, warrant or other legal demand from a third party (including law enforcement or other public or judicial authorities) seeking the disclosure of Personal Data, Vendia shall not disclose any information but shall immediately notify CUSTOMER in writing of such request, and reasonably cooperate with CUSTOMER if it wishes to limit, challenge or protect against such disclosure, to the extent permitted by applicable laws, or as directed by a court or official with appropriate jurisdiction.
           
-          8.2. Vendia will implement and maintain all appropriate technical and organizational security measures to protect from Security Incidents and to preserve the security, integrity and confidentiality of Personal Data ("Security Measures"). Such measures shall have regard to the state of the art, the costs of implementation and the nature, scope, context and purposes of Processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons. At a minimum, Vendia agrees to the Security Measures identified at Annex III. 
-
-      9. Personal Data Breaches
-          9.1. In the event of a Personal Data Breach, without undue delay, Vendia shall inform CUSTOMER and provide written details of the Security Incident, including the type of data affected and the identity of affected person(s) as soon as such information becomes known or available to Vendia.
+      7.3. To the extent Vendia is required under Applicable Privacy Laws, Vendia will assist CUSTOMER to conduct a data protection impact assessment and, where legally required, consult with applicable data protection authorities in respect of any proposed Processing activity that present a high risk to Data Subjects.
           
-          9.2. Furthermore, in the event of a Security Incident, Vendia shall:
-          
-          (a) Provide timely information and cooperation as CUSTOMER may require to** **fulfil CUSTOMER's data breach reporting obligations under Applicable Privacy Laws; and 
-          
-          (b) Take such measures and actions as are appropriate to remedy or mitigate the effects of the Security Incident and shall keep CUSTOMER up-to-date about all developments in connection with the Security Incident.
-          
-          9.3. The content and provision of any notification, public/regulatory communication or press release concerning the Security Incident with respect to CUSTOMER’s data shall be solely at CUSTOMER’s discretion, except as otherwise required by applicable laws. 
-
-      10. Data Transfers
-
-          CUSTOMER acknowledges and agrees that CUSTOMER will Instruct Vendia on the Data Location of Controller Data and jurisdiction for Processing mechanisms as outlined in Section 3. Vendia will only store Controller Data at rest in the Instructed Data Location.
-
-          Notwithstanding the foregoing, CUSTOMER acknowledges and agrees that Vendia may Process Controller Data in any country in which Vendia or its Affiliates have operations only as necessary to provide Services in accordance with the Agreement. In particular, Vendia may temporarily transfer and Process Controller Data when such measures are required for the continuance of Vendia Offerings; such measures (without limitation) may be required in the event of: (i) emergency efforts to restore Services in the event of a Service disruption; (ii) the implementation of remedies of Section 9 - Personal Data Breach; (iii) vital operational or technical support; (iv) written Instruction by CUSTOMER. Wherever Controller Data is transferred outside its country of origin, each Party will ensure such transfers are made in compliance with the requirements of Data Protection Laws and Vendia will promptly destroy or remove such data once normal operations have been restored.
-
-      11. Additional Provisions for European Data
-
-          11.1. <span style="text-decoration:underline;">Scope</span>. This Section in its entirety will apply only with respect to European Data.
-          
-          11.2. <span style="text-decoration:underline;">Roles of the Parties</span>. When Processing European Data in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is the Controller of European Data and Vendia is the Processor.
-          
-          11.3. <span style="text-decoration:underline;">Sub-Processor Agreements</span>. For the purposes of Clause 9(c) of the SCCs, CUSTOMER acknowledges that Vendia may be restricted from disclosing Sub-Processor agreements, but will use reasonable efforts to require any Sub-Processor that Vendia appoints to permit such Sub-Processor to disclose the Sub-Processor agreement to CUSTOMER and will provide (on a confidential basis) all information that Vendia reasonably can.
-          
-          11.4. <span style="text-decoration:underline;">Data Protection Impact Assessments and Consultation with Supervisory Authorities</span>. To the extent that the required information is reasonably available to Vendia, and CUSTOMER does not otherwise have access to the required information, Vendia will provide reasonable assistance to CUSTOMER with any data protection impact assessments, and prior consultations with supervisory authorities or other competent data privacy authorities to the extent required by European Data Protection Laws.
-          
-          11.5. <span style="text-decoration:underline;">Transfer Mechanisms for Data Transfers</span>. 
-
-        (A) The Parties agree that Vendia will Process European Data as a Service Provider strictly for the purpose of performing Services under the Agreement or as otherwise permitted by GDPR, including as described in Vendia’s Privacy Policy, which resides at [www.vendia.com/legal/privacy-policy](https://www.vendia.com/legal/privacy-policy).
-
-        (B) CUSTOMER acknowledges that in connection with the performance of Services, Vendia may be a recipient of European Data in the United States. Subject to (C) under this Section, the Parties agree that the SCCs will be incorporated by reference and form part of the Agreement as follows:
-
-        (a) <span style="text-decoration:underline;">EEA Transfers</span>. In relation to European Data that is subject to the GDPR: (i) CUSTOMER is the "data exporter" and Vendia, Inc. is the "data importer"; (ii) the Module Two and Module Four terms apply to the extent the CUSTOMER is a Controller of European Data and Vendia is a Processor of European Data; (iii) in Clause 7, the optional docking clause applies; (iv) in Clause 9, Option 2 applies and changes to Sub-Processors will be notified in accordance with the ‘Sub-Processing’ Section of this DPA; (v) in Clause 11, the optional language is deleted; (vi) in Clauses 17 and 18, the Parties agree that the governing law and forum for disputes for the SCCs will be determined in accordance with the Agreement or, if such Agreement do not specify an EU Member State, the Republic of Ireland (without reference to conflicts of law principles); (vii) the Annexes of the SCCs will be deemed completed with the information set out in the Annexes of this DPA; and (viii) if and to the extent the SCCs conflict with any provision of this DPA the SCCs will prevail to the extent of such conflict.
-
-          (b) <span style="text-decoration:underline;">UK Transfers</span>. In relation to European Data that is subject to the UK GDPR, the SCCs will apply in accordance with subsection (ii) and the following modifications: (i) the SCCs will be modified and interpreted in accordance with the UK Addendum, which will be incorporated by reference and form an integral part of the Agreement; (ii) Tables 1, 2 and 3 of the UK Addendum will be deemed completed with the information set out in the Annexes of this DPA and Table 4 will be deemed completed by selecting “neither Party”; and (iii) any conflict between the terms of the SCCs and the UK Addendum will be resolved in accordance with Section 10 and Section 11 of the UK Addendum.
-
-          (c) <span style="text-decoration:underline;">Swiss Transfers</span>. In relation to European Data that is subject to the Swiss DPA, the SCCs will apply in accordance with subsection (a) and the following modifications (i) references to "Regulation (EU) 2016/679" will be interpreted as references to the Swiss DPA; (ii) references to "EU", "Union" and "Member State law" will be interpreted as references to Swiss law; and (iii) references to the "competent supervisory authority" and "competent courts" will be replaced with the "the Swiss Federal Data Protection and Information Commissioner " and the "relevant courts in Switzerland"1
-
-      12. Additional Provisions for California Personal Information
-
-          12.1. <span style="text-decoration:underline;">Scope</span>. This Section of the DPA in its entirety will apply only with respect to California Personal Information.
-          
-          12.2. <span style="text-decoration:underline;">Roles of the Parties</span>. When Processing California Personal Information in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is a Business and Vendia is a Service Provider for the purposes of the CCPA.
-          
-          12.3. <span style="text-decoration:underline;">Responsibilities</span>. The Parties agree that Vendia will Process California Personal Information as a Service Provider strictly for the purpose of performing Services under the Agreement (the “**Business Purpose**”) or as otherwise permitted by the CCPA, including as described in Vendia’s Privacy Policy, which resides at [www.vendia.com/legal/privacy-policy](https://www.vendia.com/legal/privacy-policy).
-
-      13. General
-          13.1. <span style="text-decoration:underline;">Amendments</span>. Notwithstanding anything else to the contrary in the Agreement and without prejudice to Section 3.1 – Compliance with Instructions and Section(s) 2.3 / 3.3 – Security of this DPA, Vendia reserves the right to make any updates and changes to this DPA. This DPA will be updated periodically, to ensure compliance with Applicable Privacy Laws. Vendia will ensure the updated copy of DPA will reside at [www.vendia.com/legal/dpa](https://www.vendia.com/legal/dpa).
-          
-          13.2. <span style="text-decoration:underline;">Severability</span>. If any individual provisions of this DPA are determined to be invalid or unenforceable, the validity and enforceability of the other provisions of this DPA will not be affected.
-          
-          13.3. <span style="text-decoration:underline;">Limitation of Liability</span>. Each Party and each of their Affiliates' liability, taken in aggregate, arising out of or related to this DPA (and any other DPAs between the Parties) and the SCCs (where applicable), whether in contract, tort or under any other theory of liability, will be subject to the limitations and exclusions of liability set out in the _Limitation and Liability _section of the Agreement, and any reference in such section to the liability of a Party means aggregate liability of that Party and all of its Affiliates under the Agreement (including this DPA). In no event will either Party's liability be limited with respect to any individual's data protection rights under this DPA (including the SCCs) or otherwise.
-          
-          13.4. <span style="text-decoration:underline;">Governing Law</span>. This DPA will be governed by and construed in accordance with the laws of the State of California, unless required otherwise by Data Protection Laws.
-          
-          13.5. <span style="text-decoration:underline;">Authorization</span>. The legal entity agreeing to this DPA as CUSTOMER represents that it is authorized to agree and enter into this DPA for and on behalf of itself, and as applicable, each of its Affiliates.
-          
-          13.6. <span style="text-decoration:underline;">Remedies</span>. The Parties agree that: (a) CUSTOMER will exercise any right or seek any remedy any Affiliate may have under this DPA on behalf of its Affiliates, and (b) CUSTOMER will exercise any such rights under this DPA not separately for each Affiliate individually but in a combined manner for itself and all of its Affiliates together. The CUSTOMER shall remain responsible for coordinating all Instructions, authorizations, and communications with Vendia under this DPA and will be entitled to make and receive any communications related to this DPA on behalf of its Affiliates.
-          
-          13.7. <span style="text-decoration:underline;">Demonstration of Compliance</span>. Vendia will make all information reasonably necessary to demonstrate compliance with this DPA available to CUSTOMER and allow for and contribute to audits, including inspections conducted by CUSTOMER or its auditor in order to assess compliance with this DPA. CUSTOMER acknowledges and agrees that it will exercise its audit rights under this DPA and Clause 8.9 of the SCCs by instructing Vendia to comply with the audit measures described in this 'Demonstration of Compliance' section. CUSTOMER acknowledges that Services are hosted by Vendia’s hosting Sub-Processors who maintain independently validated security programs (including SOC 2) and that Vendia’s systems are audited annually as part of SOC 2 compliance and regularly tested by independent third party penetration testing firms. Upon request, Vendia will supply (on a confidential basis) its SOC 2 report and summary copies of its penetration testing report(s) to CUSTOMER so that CUSTOMER can verify Vendia’s compliance with such DPA. Further, at CUSTOMER’s written request, Vendia will provide written responses (on a confidential basis) to all reasonable requests for information made by CUSTOMER necessary to confirm Vendia’s compliance with this DPA, provided that CUSTOMER will not exercise this right more than once per calendar year unless it has reasonable evidence to suspect non-compliance with the DPA.
-          
-          13.8. <span style="text-decoration:underline;">Audit Measures</span>. The Parties agree that CUSTOMER will, when reviewing Vendia’s compliance with this DPA pursuant to Section 13.7 – Demonstration of Compliance, take all reasonable measures to limit any impact to Vendia by combining several audit requests carried out by CUSTOMER into one single audit. CUSTOMER acknowledges and agrees that any and all audits requested by CUSTOMER shall take place no more than once per calendar year, unless otherwise required by applicable law or by request of law enforcement.
-          
-          13.9. Except as modified herein, the Agreement remain unchanged and in full force and effect. If there is any conflict between any section in this DPA and any provision in the Agreement, this DPA controls and takes precedence. With effect from the effective date, this DPA is part of, and incorporated into the Agreement.
-          
-          13.10. The obligations placed upon Vendia under this DPA shall survive so long as Vendia and/or its Sub-Processors, Processes Personal Data on behalf of a CUSTOMER.
-          
-          13.11. Notwithstanding anything else to the contrary in the Agreement Vendia acknowledges and agrees that it shall be liable for any loss of data (including Personal Data) arising under or in connection with the Agreement and this DPA to the extent such loss results from any failure of Vendia (or its Sub-Processors) to comply with its obligations under this DPA and/or Applicable Privacy Laws.
-          
-          13.12. <span style="text-decoration:underline;">No Modification of SCCs</span>. Nothing in this Addendum is intended to modify or contradict any SCCs or prejudice the fundamental rights or freedoms of data subjects under European Data Protection Law.
+      7.4. Nothing in this Section shall be construed to limit or contravene Section 5.1.
 
 
-      ### APPENDIX I - Vendia Service: EU Standard Contractual Clauses
+      #### 8. Data Access & Security Measures
+          
+      8.1. Vendia shall ensure that any Authorized Person is subject to a strict duty of confidentiality (whether a contractual or statutory duty) and that they Process the Personal Data only for the purpose of delivering Services under the Agreement to CUSTOMER.
+          
+      8.2. Vendia will implement and maintain all appropriate technical and organizational security measures to protect from Security Incidents and to preserve the security, integrity and confidentiality of Personal Data ("Security Measures"). Such measures shall have regard to the state of the art, the costs of implementation and the nature, scope, context and purposes of Processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons. At a minimum, Vendia agrees to the Security Measures identified at Annex III. 
+
+
+      ####9. Personal Data Breaches
+
+      9.1. In the event of a Personal Data Breach, without undue delay, Vendia shall inform CUSTOMER and provide written details of the Security Incident, including the type of data affected and the identity of affected person(s) as soon as such information becomes known or available to Vendia.
+          
+      9.2. Furthermore, in the event of a Security Incident, Vendia shall:
+
+
+      * (a) Provide timely information and cooperation as CUSTOMER may require to** **fulfil CUSTOMER's data breach reporting obligations under Applicable Privacy Laws; and 
+          
+      * (b) Take such measures and actions as are appropriate to remedy or mitigate the effects of the Security Incident and shall keep CUSTOMER up-to-date about all developments in connection with the Security Incident.
+
+
+      9.3. The content and provision of any notification, public/regulatory communication or press release concerning the Security Incident with respect to CUSTOMER’s data shall be solely at CUSTOMER’s discretion, except as otherwise required by applicable laws. 
+
+
+      #### 10. Data Transfers
+
+
+      CUSTOMER acknowledges and agrees that CUSTOMER will Instruct Vendia on the Data Location of Controller Data and jurisdiction for Processing mechanisms as outlined in Section 3. Vendia will only store Controller Data at rest in the Instructed Data Location.
+
+
+      Notwithstanding the foregoing, CUSTOMER acknowledges and agrees that Vendia may Process Controller Data in any country in which Vendia or its Affiliates have operations only as necessary to provide Services in accordance with the Agreement. In particular, Vendia may temporarily transfer and Process Controller Data when such measures are required for the continuance of Vendia Offerings; such measures (without limitation) may be required in the event of: (i) emergency efforts to restore Services in the event of a Service disruption; (ii) the implementation of remedies of Section 9 - Personal Data Breach; (iii) vital operational or technical support; (iv) written Instruction by CUSTOMER. Wherever Controller Data is transferred outside its country of origin, each Party will ensure such transfers are made in compliance with the requirements of Data Protection Laws and Vendia will promptly destroy or remove such data once normal operations have been restored.
+
+
+      #### 11. Additional Provisions for European Data
+
+
+      11.1. <span style="text-decoration:underline;">Scope</span>. This Section in its entirety will apply only with respect to European Data.
+          
+      11.2. <span style="text-decoration:underline;">Roles of the Parties</span>. When Processing European Data in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is the Controller of European Data and Vendia is the Processor.
+          
+      11.3. <span style="text-decoration:underline;">Sub-Processor Agreements</span>. For the purposes of Clause 9(c) of the SCCs, CUSTOMER acknowledges that Vendia may be restricted from disclosing Sub-Processor agreements, but will use reasonable efforts to require any Sub-Processor that Vendia appoints to permit such Sub-Processor to disclose the Sub-Processor agreement to CUSTOMER and will provide (on a confidential basis) all information that Vendia reasonably can.
+          
+      11.4. <span style="text-decoration:underline;">Data Protection Impact Assessments and Consultation with Supervisory Authorities</span>. To the extent that the required information is reasonably available to Vendia, and CUSTOMER does not otherwise have access to the required information, Vendia will provide reasonable assistance to CUSTOMER with any data protection impact assessments, and prior consultations with supervisory authorities or other competent data privacy authorities to the extent required by European Data Protection Laws.
+          
+      11.5. <span style="text-decoration:underline;">Transfer Mechanisms for Data Transfers</span>. 
+
+
+      * (A) The Parties agree that Vendia will Process European Data as a Service Provider strictly for the purpose of performing Services under the Agreement or as otherwise permitted by GDPR, including as described in Vendia’s Privacy Policy, which resides at [www.vendia.com/legal/privacy-policy](https://www.vendia.com/legal/privacy-policy).
+
+
+      * (B) CUSTOMER acknowledges that in connection with the performance of Services, Vendia may be a recipient of European Data in the United States. Subject to (C) under this Section, the Parties agree that the SCCs will be incorporated by reference and form part of the Agreement as follows:
+
+          * (a) <span style="text-decoration:underline;">EEA Transfers</span>. In relation to European Data that is subject to the GDPR: (i) CUSTOMER is the "data exporter" and Vendia, Inc. is the "data importer"; (ii) the Module Two and Module Four terms apply to the extent the CUSTOMER is a Controller of European Data and Vendia is a Processor of European Data; (iii) in Clause 7, the optional docking clause applies; (iv) in Clause 9, Option 2 applies and changes to Sub-Processors will be notified in accordance with the ‘Sub-Processing’ Section of this DPA; (v) in Clause 11, the optional language is deleted; (vi) in Clauses 17 and 18, the Parties agree that the governing law and forum for disputes for the SCCs will be determined in accordance with the Agreement or, if such Agreement do not specify an EU Member State, the Republic of Ireland (without reference to conflicts of law principles); (vii) the Annexes of the SCCs will be deemed completed with the information set out in the Annexes of this DPA; and (viii) if and to the extent the SCCs conflict with any provision of this DPA the SCCs will prevail to the extent of such conflict.
+
+          * (b) <span style="text-decoration:underline;">UK Transfers</span>. In relation to European Data that is subject to the UK GDPR, the SCCs will apply in accordance with subsection (ii) and the following modifications: (i) the SCCs will be modified and interpreted in accordance with the UK Addendum, which will be incorporated by reference and form an integral part of the Agreement; (ii) Tables 1, 2 and 3 of the UK Addendum will be deemed completed with the information set out in the Annexes of this DPA and Table 4 will be deemed completed by selecting “neither Party”; and (iii) any conflict between the terms of the SCCs and the UK Addendum will be resolved in accordance with Section 10 and Section 11 of the UK Addendum.
+
+          * (c) <span style="text-decoration:underline;">Swiss Transfers</span>. In relation to European Data that is subject to the Swiss DPA, the SCCs will apply in accordance with subsection (a) and the following modifications (i) references to "Regulation (EU) 2016/679" will be interpreted as references to the Swiss DPA; (ii) references to "EU", "Union" and "Member State law" will be interpreted as references to Swiss law; and (iii) references to the "competent supervisory authority" and "competent courts" will be replaced with the "the Swiss Federal Data Protection and Information Commissioner " and the "relevant courts in Switzerland"1
+
+      #### 12. Additional Provisions for California Personal Information
+
+
+      12.1. <span style="text-decoration:underline;">Scope</span>. This Section of the DPA in its entirety will apply only with respect to California Personal Information.
+          
+      12.2. <span style="text-decoration:underline;">Roles of the Parties</span>. When Processing California Personal Information in accordance with Controller’s Instructions, the Parties acknowledge and agree that CUSTOMER is a Business and Vendia is a Service Provider for the purposes of the CCPA.
+          
+      12.3. <span style="text-decoration:underline;">Responsibilities</span>. The Parties agree that Vendia will Process California Personal Information as a Service Provider strictly for the purpose of performing Services under the Agreement (the “**Business Purpose**”) or as otherwise permitted by the CCPA, including as described in Vendia’s Privacy Policy, which resides at [www.vendia.com/legal/privacy-policy](https://www.vendia.com/legal/privacy-policy).
+
+
+      #### 13. General
+
+      13.1. <span style="text-decoration:underline;">Amendments</span>. Notwithstanding anything else to the contrary in the Agreement and without prejudice to Section 3.1 – Compliance with Instructions and Section(s) 2.3 / 3.3 – Security of this DPA, Vendia reserves the right to make any updates and changes to this DPA. This DPA will be updated periodically, to ensure compliance with Applicable Privacy Laws. Vendia will ensure the updated copy of DPA will reside at [www.vendia.com/legal/dpa](https://www.vendia.com/legal/dpa).
+          
+      13.2. <span style="text-decoration:underline;">Severability</span>. If any individual provisions of this DPA are determined to be invalid or unenforceable, the validity and enforceability of the other provisions of this DPA will not be affected.
+          
+      13.3. <span style="text-decoration:underline;">Limitation of Liability</span>. Each Party and each of their Affiliates' liability, taken in aggregate, arising out of or related to this DPA (and any other DPAs between the Parties) and the SCCs (where applicable), whether in contract, tort or under any other theory of liability, will be subject to the limitations and exclusions of liability set out in the _Limitation and Liability _section of the Agreement, and any reference in such section to the liability of a Party means aggregate liability of that Party and all of its Affiliates under the Agreement (including this DPA). In no event will either Party's liability be limited with respect to any individual's data protection rights under this DPA (including the SCCs) or otherwise.
+          
+      13.4. <span style="text-decoration:underline;">Governing Law</span>. This DPA will be governed by and construed in accordance with the laws of the State of California, unless required otherwise by Data Protection Laws.
+          
+      13.5. <span style="text-decoration:underline;">Authorization</span>. The legal entity agreeing to this DPA as CUSTOMER represents that it is authorized to agree and enter into this DPA for and on behalf of itself, and as applicable, each of its Affiliates.
+          
+      13.6. <span style="text-decoration:underline;">Remedies</span>. The Parties agree that: (a) CUSTOMER will exercise any right or seek any remedy any Affiliate may have under this DPA on behalf of its Affiliates, and (b) CUSTOMER will exercise any such rights under this DPA not separately for each Affiliate individually but in a combined manner for itself and all of its Affiliates together. The CUSTOMER shall remain responsible for coordinating all Instructions, authorizations, and communications with Vendia under this DPA and will be entitled to make and receive any communications related to this DPA on behalf of its Affiliates.
+          
+      13.7. <span style="text-decoration:underline;">Demonstration of Compliance</span>. Vendia will make all information reasonably necessary to demonstrate compliance with this DPA available to CUSTOMER and allow for and contribute to audits, including inspections conducted by CUSTOMER or its auditor in order to assess compliance with this DPA. CUSTOMER acknowledges and agrees that it will exercise its audit rights under this DPA and Clause 8.9 of the SCCs by instructing Vendia to comply with the audit measures described in this 'Demonstration of Compliance' section. CUSTOMER acknowledges that Services are hosted by Vendia’s hosting Sub-Processors who maintain independently validated security programs (including SOC 2) and that Vendia’s systems are audited annually as part of SOC 2 compliance and regularly tested by independent third party penetration testing firms. Upon request, Vendia will supply (on a confidential basis) its SOC 2 report and summary copies of its penetration testing report(s) to CUSTOMER so that CUSTOMER can verify Vendia’s compliance with such DPA. Further, at CUSTOMER’s written request, Vendia will provide written responses (on a confidential basis) to all reasonable requests for information made by CUSTOMER necessary to confirm Vendia’s compliance with this DPA, provided that CUSTOMER will not exercise this right more than once per calendar year unless it has reasonable evidence to suspect non-compliance with the DPA.
+          
+      13.8. <span style="text-decoration:underline;">Audit Measures</span>. The Parties agree that CUSTOMER will, when reviewing Vendia’s compliance with this DPA pursuant to Section 13.7 – Demonstration of Compliance, take all reasonable measures to limit any impact to Vendia by combining several audit requests carried out by CUSTOMER into one single audit. CUSTOMER acknowledges and agrees that any and all audits requested by CUSTOMER shall take place no more than once per calendar year, unless otherwise required by applicable law or by request of law enforcement.
+          
+      13.9. Except as modified herein, the Agreement remain unchanged and in full force and effect. If there is any conflict between any section in this DPA and any provision in the Agreement, this DPA controls and takes precedence. With effect from the effective date, this DPA is part of, and incorporated into the Agreement.
+          
+      13.10. The obligations placed upon Vendia under this DPA shall survive so long as Vendia and/or its Sub-Processors, Processes Personal Data on behalf of a CUSTOMER.
+          
+      13.11. Notwithstanding anything else to the contrary in the Agreement Vendia acknowledges and agrees that it shall be liable for any loss of data (including Personal Data) arising under or in connection with the Agreement and this DPA to the extent such loss results from any failure of Vendia (or its Sub-Processors) to comply with its obligations under this DPA and/or Applicable Privacy Laws.
+          
+      13.12. <span style="text-decoration:underline;">No Modification of SCCs</span>. Nothing in this Addendum is intended to modify or contradict any SCCs or prejudice the fundamental rights or freedoms of data subjects under European Data Protection Law.
+
+
+
+      --- 
+
+
+      ## APPENDIX I - Vendia Service: EU Standard Contractual Clauses
 
 
       **(Module 2: Controller-to- Processor; Module 4: Transfer processor to controller)**
@@ -225,11 +254,11 @@ components:
 
 
 
-      ##### SECTION I
+      ### SECTION I
 
 
 
-      ###### Clause 1
+      #### Clause 1
 
 
       **Purpose and scope**
@@ -241,15 +270,13 @@ components:
       (b) The Parties:
 
 
-
-      (i) the natural or legal person(s), public authority/ies, agency/ies or other body/ies (hereinafter “entity/ies”) transferring the personal data, as listed in Annex I.A. (hereinafter each “data exporter”), and
-
+      * (i) the natural or legal person(s), public authority/ies, agency/ies or other body/ies (hereinafter “entity/ies”) transferring the personal data, as listed in Annex I.A. (hereinafter each “data exporter”), and
 
 
-      (ii) the entity/ies in a third country receiving the personal data from the data exporter, directly or indirectly via another entity also Party to these Clauses, as listed in Annex I.A. (hereinafter each “data importer”)
+      * (ii) the entity/ies in a third country receiving the personal data from the data exporter, directly or indirectly via another entity also Party to these Clauses, as listed in Annex I.A. (hereinafter each “data importer”)
 
 
-      have agreed to these standard contractual clauses (hereinafter: “Clauses”).
+      * have agreed to these standard contractual clauses (hereinafter: “Clauses”).
 
 
       (c) These Clauses apply with respect to the transfer of personal data as specified in Annex II.
@@ -258,8 +285,7 @@ components:
       (d) The Appendix to these Clauses containing the Annexes referred to therein forms an integral part of these Clauses.
 
 
-
-      ###### Clause 2
+      #### Clause 2
 
 
       **Effect and invariability of the Clauses**
@@ -272,7 +298,7 @@ components:
 
 
 
-      ###### Clause 3
+      #### Clause 3
 
 
       **Third-party beneficiaries**
@@ -281,43 +307,35 @@ components:
       (a) Data subjects may invoke and enforce these Clauses, as third-party beneficiaries, against the data exporter and/or data importer, with the following exceptions:
 
 
-
-      (i) Clause 1, Clause 2, Clause 3, Clause 6, Clause 7;
-
+      * (i) Clause 1, Clause 2, Clause 3, Clause 6, Clause 7;
 
 
-      (ii) Clause 8 - Module Two: Clause 8.1(b), 8.9(a), (c), (d) and (e); Module Four: Clause 8.1 (b) and Clause 8.3(b);
+      * (ii) Clause 8 - Module Two: Clause 8.1(b), 8.9(a), (c), (d) and (e); Module Four: Clause 8.1 (b) and Clause 8.3(b);
 
 
-
-      (iii) Clause 9 - Module Two: Clause 9(a), (c), (d) and (e)
-
+      * (iii) Clause 9 - Module Two: Clause 9(a), (c), (d) and (e)
 
 
-      (iv) Clause 12 - Modules Two: Clause 12(a), (d) and (f);
+      * (iv) Clause 12 - Modules Two: Clause 12(a), (d) and (f);
 
 
-
-      (v) Clause 13;
-
+      * (v) Clause 13;
 
 
-      (vi) Clause 15.1(c), (d) and (e);
+      * (vi) Clause 15.1(c), (d) and (e);
 
 
-
-      (vii) Clause 16(e);
-
+      * (vii) Clause 16(e);
 
 
-      (viii) Clause 18 - Module Two: Clause 18(a) and (b); Module Four: Clause 18.
+      * (viii) Clause 18 - Module Two: Clause 18(a) and (b); Module Four: Clause 18.
 
 
       (b) Paragraph (a) is without prejudice to rights of data subjects under Regulation (EU) 2016/679.
 
 
 
-      ###### Clause 4
+      #### Clause 4
 
 
       **Interpretation**
@@ -333,7 +351,7 @@ components:
 
 
 
-      ###### Clause 5
+      #### Clause 5
 
 
       **Hierarchy**
@@ -343,7 +361,7 @@ components:
 
 
 
-      ###### Clause 6
+      #### Clause 6
 
 
       **Description of the transfer(s)**
@@ -353,7 +371,7 @@ components:
 
 
 
-      ###### Clause 7
+      #### Clause 7
 
 
       **Docking clause**
@@ -368,12 +386,14 @@ components:
       (c) The acceding entity shall have no rights or obligations arising under these Clauses from the period prior to becoming a Party.
 
 
-
-      ##### SECTION II – OBLIGATIONS OF THE PARTIES
-
+      --- 
 
 
-      ###### Clause 8
+      ### SECTION II – OBLIGATIONS OF THE PARTIES
+
+
+
+      #### Clause 8
 
 
       **Data protection safeguards**
@@ -384,7 +404,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       8.1 Instructions
@@ -447,20 +467,16 @@ components:
       The data importer shall only disclose the personal data to a third party on documented instructions from the data exporter. In addition, the data may only be disclosed to a third party located outside the European Union<sup>[4]</sup> (in the same country as the data importer or in another third country, hereinafter “onward transfer”) if the third party is or agrees to be bound by these Clauses, under the appropriate Module, or if:
 
 
-
-      (i) the onward transfer is to a country benefiting from an adequacy decision pursuant to Article 45 of Regulation (EU) 2016/679 that covers the onward transfer;
-
+      * (i) the onward transfer is to a country benefiting from an adequacy decision pursuant to Article 45 of Regulation (EU) 2016/679 that covers the onward transfer;
 
 
-      (ii) the third party otherwise ensures appropriate safeguards pursuant to Articles 46 or 47 Regulation of (EU) 2016/679 with respect to the processing in question;
+      * (ii) the third party otherwise ensures appropriate safeguards pursuant to Articles 46 or 47 Regulation of (EU) 2016/679 with respect to the processing in question;
 
 
-
-      (iii) the onward transfer is necessary for the establishment, exercise or defence of legal claims in the context of specific administrative, regulatory or judicial proceedings; or
-
+      * (iii) the onward transfer is necessary for the establishment, exercise or defence of legal claims in the context of specific administrative, regulatory or judicial proceedings; or
 
 
-      (iv) the onward transfer is necessary in order to protect the vital interests of the data subject or of another natural person.
+      * (iv) the onward transfer is necessary in order to protect the vital interests of the data subject or of another natural person.
 
 
       Any onward transfer is subject to compliance by the data importer with all the other safeguards under these Clauses, in particular purpose limitation. 
@@ -484,7 +500,7 @@ components:
       (e) The Parties shall make the information referred to in paragraphs (b) and (c), including the results of any audits, available to the competent supervisory authority on request.
 
 
-      ###### MODULE FOUR: Transfer processor to controller
+      ##### MODULE FOUR: Transfer processor to controller
 
 
       8.1 Instructions
@@ -524,7 +540,7 @@ components:
 
 
 
-      ###### Clause 9
+      #### Clause 9
 
 
       **Use of sub-processors**
@@ -532,7 +548,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       (a) SPECIFIC PRIOR AUTHORISATION The data importer shall not sub-contract any of its processing activities performed on behalf of the data exporter under these Clauses to a sub-processor without the data exporter’s prior specific written authorisation. The data importer shall submit the request for specific authorisation at least 14 days prior to the engagement of the sub-processor, together with the information necessary to enable the data exporter to decide on the authorisation. The list of sub-processors already authorised by the data exporter can be found in Annex IV. The Parties shall keep Annex IV up to date.
@@ -551,7 +567,7 @@ components:
 
 
 
-      ###### Clause 10
+      #### Clause 10
 
 
       **Data subject rights**
@@ -559,7 +575,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       (a) The data importer shall promptly notify the data exporter of any request it has received from a data subject. It shall not respond to that request itself unless it has been authorised to do so by the data exporter.
@@ -572,15 +588,14 @@ components:
 
 
 
-
-      ###### MODULE FOUR: Transfer processor to controller
+      ##### MODULE FOUR: Transfer processor to controller
 
 
       The Parties shall assist each other in responding to enquiries and requests made by data subjects under the local law applicable to the data importer or, for data processing by the data exporter in the EU, under Regulation (EU) 2016/679.
 
 
 
-      ###### Clause 11
+      #### Clause 11
 
 
       **Redress**
@@ -594,7 +609,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       (b) In case of a dispute between a data subject and one of the Parties as regards compliance with these Clauses, that Party shall use its best efforts to resolve the issue amicably in a timely fashion. The Parties shall keep each other informed about such disputes and, where appropriate, cooperate in resolving them.
@@ -621,7 +636,7 @@ components:
 
 
 
-      ###### Clause 12
+      #### Clause 12
 
 
       **Liability**
@@ -629,7 +644,7 @@ components:
 
 
 
-      ###### MODULE FOUR: Transfer processor to controller
+      ##### MODULE FOUR: Transfer processor to controller
 
 
       (a) Each Party shall be liable to the other Party/ies for any damages it causes the other Party/ies by any breach of these Clauses.
@@ -649,7 +664,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       (a) Each Party shall be liable to the other Party/ies for any damages it causes the other Party/ies by any breach of these Clauses.
@@ -674,7 +689,7 @@ components:
 
 
 
-      ###### Clause 13
+      #### Clause 13
 
 
       **Supervision**
@@ -682,7 +697,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       (a) [Where the data exporter is established in an EU Member State:] The supervisory authority with responsibility for ensuring compliance by the data exporter with Regulation (EU) 2016/679 as regards the data transfer, as indicated in Annex I.C, shall act as competent supervisory authority.
@@ -697,25 +712,23 @@ components:
       (b) The data importer agrees to submit itself to the jurisdiction of and cooperate with the competent supervisory authority in any procedures aimed at ensuring compliance with these Clauses. In particular, the data importer agrees to respond to enquiries, submit to audits and comply with the measures adopted by the supervisory authority, including remedial and compensatory measures. It shall provide the supervisory authority with written confirmation that the necessary actions have been taken. 
 
 
-
-      ##### SECTION III – LOCAL LAWS AND OBLIGATIONS IN CASE OF ACCESS BY PUBLIC AUTHORITIES
-
+      --- 
 
 
-      ###### Clause 14
+      ### SECTION III – LOCAL LAWS AND OBLIGATIONS IN CASE OF ACCESS BY PUBLIC AUTHORITIES
+
+
+
+      #### Clause 14
 
 
       **Local laws and practices affecting compliance with the Clauses**
 
 
 
+      ##### MODULE TWO: Transfer controller to processor
 
-      ###### MODULE TWO: Transfer controller to processor
-
-
-
-
-      ###### MODULE FOUR: Transfer processor to controller (where the EU processor combines the personal data received from the third country-controller with personal data collected by the processor in the EU)
+      ##### MODULE FOUR: Transfer processor to controller (where the EU processor combines the personal data received from the third country-controller with personal data collected by the processor in the EU)
 
 
       (a) The Parties warrant that they have no reason to believe that the laws and practices in the third country of destination applicable to the processing of the personal data by the data importer, including any requirements to disclose personal data or measures authorising access by public authorities, prevent the data importer from fulfilling its obligations under these Clauses. This is based on the understanding that laws and practices that respect the essence of the fundamental rights and freedoms and do not exceed what is necessary and proportionate in a democratic society to safeguard one of the objectives listed in Article 23(1) of Regulation (EU) 2016/679, are not in contradiction with these Clauses.
@@ -749,7 +762,7 @@ components:
 
 
 
-      ###### Clause 15
+      #### Clause 15
 
 
       **Obligations of the data importer in case of access by public authorities**
@@ -757,12 +770,12 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
 
 
-      ###### MODULE FOUR: Transfer processor to controller (where the EU processor combines the personal data received from the third country-controller with personal data collected by the processor in the EU)
+      ##### MODULE FOUR: Transfer processor to controller (where the EU processor combines the personal data received from the third country-controller with personal data collected by the processor in the EU)
 
 
       15.1 Notification
@@ -803,12 +816,14 @@ components:
       (c) The data importer agrees to provide the minimum amount of information permissible when responding to a request for disclosure, based on a reasonable interpretation of the request.
 
 
-
-      ##### SECTION IV – FINAL PROVISIONS
-
+      --- 
 
 
-      ###### Clause 16
+      ### SECTION IV – FINAL PROVISIONS
+
+
+
+      #### Clause 16
 
 
       **Non-compliance with the Clauses and termination**
@@ -845,7 +860,7 @@ components:
 
 
 
-      ###### Clause 17
+      #### Clause 17
 
 
       **Governing law**
@@ -853,7 +868,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       These Clauses shall be governed by the law of one of the EU Member States, provided such law allows for third-party beneficiary rights. The Parties agree that this shall be the law of the EU Member State specified in the Agreement.
@@ -861,14 +876,14 @@ components:
 
 
 
-      ###### MODULE FOUR: Transfer processor to controller
+      ##### MODULE FOUR: Transfer processor to controller
 
 
       These Clauses shall be governed by the law of a country allowing for third-party beneficiary rights. The Parties agree that this shall be the law of the EU Member State specified in the Agreement).
 
 
 
-      ###### Clause 18
+      #### Clause 18
 
 
       **Choice of forum and jurisdiction**
@@ -876,7 +891,7 @@ components:
 
 
 
-      ###### MODULE TWO: Transfer controller to processor
+      ##### MODULE TWO: Transfer controller to processor
 
 
       (a) Any dispute arising from these Clauses shall be resolved by the courts of an EU Member State.
@@ -893,7 +908,7 @@ components:
 
 
 
-      ###### MODULE FOUR: Transfer processor to controller
+      ##### MODULE FOUR: Transfer processor to controller
 
 
       Any dispute arising from these Clauses shall be resolved by the courts of the EU Member State specified in the Agreement.
@@ -1253,6 +1268,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: kdurdle-vendia
-updatedAt: 2023-01-20T19:52:50.842Z
+updatedAt: 2023-01-20T20:15:39.334Z
 id: 39a6aa79-7530-44d0-8c13-2defb1976291
 ---
