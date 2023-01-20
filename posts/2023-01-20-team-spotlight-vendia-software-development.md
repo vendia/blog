@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Team spotlight: Vendia Software Development"
 description: Get to know some of our world-class software developers and
   engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab,
@@ -28,11 +28,11 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-20T01:35:55.037Z
+updatedAt: 2023-01-20T18:46:45.513Z
 id: 13373d57-30db-4b71-b540-b39aac7e7ab6
 ---
 
-Get to know some of our incredible teammates, and learn what it’s like to be a part of Vendia. Then, check out our [careers](https://www.vendia.com/careers) page, and see if you’d like to join us!
+Get to know some of our talented teammates, and learn what it’s like to be a part of Vendia. Then, check out our [careers](https://www.vendia.com/careers) page, and see if you’d like to join us!
 
 ## Meet the team
 
