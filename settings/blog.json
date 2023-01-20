@@ -2,7 +2,7 @@
   "callToAction": [
     "Vendia Share: what it is and how it works"
   ],
-  "updatedAt": "2023-01-19T22:00:52.510Z",
+  "updatedAt": "2023-01-20T18:15:39.608Z",
   "updatedBy": "alexa-vendia",
   "sidebarCta": [
     "Join the Founder's Circle"
@@ -10,7 +10,7 @@
   "topCategories": [
     "blockchain",
     "realtime-data-sharing",
-    "lean-apps"
+    "architecture"
   ],
   "popularAuthors": [
     "Tim Wagner",
@@ -24,15 +24,15 @@
   ],
   "featuredPosts": [
     {
-      "posts": "Understanding API security with GraphQL"
+      "posts": "10 ways to make your software better when building for cloud scale "
     },
     {
       "resources": "",
-      "posts": "Vendia Presents: Extreme Testing"
+      "posts": "5 patterns for successful data traceability"
     },
     {
       "resources": "",
-      "posts": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?"
+      "posts": "13 features you need to evaluate an enterprise blockchain platform"
     }
   ]
 }
