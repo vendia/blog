@@ -73,7 +73,7 @@
   },
   "thank-you/founders-circle": {
     "file": "/pages/thank-you-founders-circle.md",
-    "draft": true
+    "draft": false
   },
   "test-new-homepage": {
     "file": "/pages/vendia-com.md",
