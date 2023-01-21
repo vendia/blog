@@ -28,7 +28,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-20T18:46:45.513Z
+updatedAt: 2023-01-21T01:32:31.069Z
 id: 13373d57-30db-4b71-b540-b39aac7e7ab6
 ---
 
@@ -88,6 +88,21 @@ I chose engineering as a field of study because I’ve always possessed a curios
 I have two young kids, so my day always starts and ends with some quality play time and making sure everyone is well-fed.
 
 I contribute best when I’m prepared for deep thinking and creativity — for me, this means being well-rested and exercised. Often, my best solutions and ideas come when I’m not in front of a screen. I try to prioritize getting a good night's sleep and getting outside around lunchtime — usually a quick mountain bike ride on the coastal trails near my home.
+
+---
+
+### Philipp Hussels
+
+- **Role:**
+- **Homebase:**
+- **Enjoys:**
+
+**What’s the best advice you’ve received so far in your career?**
+
+There are (almost) no absolutes when it comes to business and technical decisions. Everything is gray, and we always need to probe our assumptions. One important exception to this is, of course, our [Kind Human Policy](https://www.vendia.com/kind-humans). We do not compromise on that.
+
+**What do you love about working in the Vendia dev team?**\
+There are several things that are important to me when I pick a role. First, I want to work on a meaningful mission. At Vendia, we make it possible for our customers to collaborate more efficiently and share sensitive data (including personal data) in a way that sets a new standard for privacy and security. Second, I look for learning opportunities. The fact that we break new ground in product development and engineering is a big motivation for me. Finally, I want to work with highly capable and kind co-workers who challenge and teach me in a respectful manner. Vendia’s company culture is attracting exactly this type of co-worker.
 
 ---
 
