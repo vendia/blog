@@ -19,9 +19,12 @@ components:
     theme: White
 resourceType: webcasts
 seo:
-  title: "Webcast: CRM Data Sharing with Vendia Share"
+  title: CRM Data Sharing with Vendia Share
   description: "Learn how Vendia Share can exchange data among multiple Salesforce
     instances — in real-time. "
+createdBy: ""
+createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-10T00:22:35.423Z
+updatedAt: 2023-01-23T23:07:12.451Z
+id: 25c8b150-52fc-4511-bcc7-11cb0150f08b
 ---
