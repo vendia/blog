@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 excludeFromIndex: false
 slug: connecting-business-networks
@@ -23,6 +23,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T22:28:52.577Z
+updatedAt: 2023-01-23T22:36:12.105Z
 id: 5364e94e-aaa7-4ddd-9d6a-d5b3ec4a5b17
 ---
