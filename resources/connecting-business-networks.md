@@ -16,7 +16,7 @@ components:
       Multi-party data sharing is hard. The APIs you built for one to one sharing and collaboration just don't work when you need to create a singular, secure, view across multiple parties. Enter Vendia.
     theme: white
     formId: 1a84f777-0c61-47e4-b09f-521bb82006b6
-resourceType: webcasts
+resourceType: white-papers
 seo:
   noindex: false
   title: "Connecting business networks "
@@ -24,6 +24,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T22:47:14.858Z
+updatedAt: 2023-01-23T22:47:21.554Z
 id: 5364e94e-aaa7-4ddd-9d6a-d5b3ec4a5b17
 ---
