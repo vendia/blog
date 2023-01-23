@@ -30,10 +30,13 @@ components:
     theme: White
 resourceType: white-papers
 seo:
-  title: "White paper: Vendia Blockchain "
+  title: "Vendia Blockchain "
   description: "What do we mean by \"next-gen blockchain\"? Learn how Vendia
     Share's blockchain technology enables modern, secure, multi-party data
     sharing. "
+createdBy: ""
+createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-10T00:25:34.027Z
+updatedAt: 2023-01-23T21:57:02.090Z
+id: 7c0b27b2-9331-4e5e-89be-cd7d1573b8f7
 ---
