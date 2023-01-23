@@ -22,6 +22,9 @@ seo:
   title: "Webcast: Failed blockchain and what to do about it"
   description: "Most blockchain projects fail. Learn why and what you can do to
     avoid failure to launch. "
+createdBy: ""
+createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-10T00:27:52.407Z
+updatedAt: 2023-01-23T21:29:58.958Z
+id: 41254fa2-3cc1-40cc-9cb2-d025bbac2d92
 ---
