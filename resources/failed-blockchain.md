@@ -6,10 +6,10 @@ date: 2022-11-30
 components:
   - type: HubspotForm
     text: >-
-      # Webcast: Business Use Cases for Next-Gen Blockchain
+      #  Business use cases for next-gen blockchain
 
 
-      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869881/webcast-blockchain_lletq5.webp" alt="" class="image-float-right" width="220" />
+      <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669869881/webcast-blockchain_lletq5.webp" alt="""" class="image-float-right" width="220" />
 
 
       Why most DIY blockchain projects take too long and cost too much and what you can do about it.
@@ -19,12 +19,12 @@ components:
     theme: white
 resourceType: webcasts
 seo:
-  title: "Webcast: Failed blockchain and what to do about it"
+  title: Failed blockchain and what to do about it
   description: "Most blockchain projects fail. Learn why and what you can do to
     avoid failure to launch. "
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T21:29:58.958Z
+updatedAt: 2023-01-23T21:30:43.142Z
 id: 41254fa2-3cc1-40cc-9cb2-d025bbac2d92
 ---
