@@ -28,12 +28,12 @@ components:
     theme: white
 resourceType: white-papers
 seo:
-  title: "White paper: Vendia Share's Supercloud"
+  title: Vendia Share's Supercloud
   description: "Supercloud, Mutli-cloud, Hybrid Cloud... it all means the same
     thing, you need to have a strategy for working across clouds. "
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T21:41:52.270Z
+updatedAt: 2023-01-23T21:44:51.659Z
 id: 34e283c8-712f-45a6-bf57-e7468660a27f
 ---
