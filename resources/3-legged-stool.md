@@ -31,10 +31,13 @@ components:
     theme: White
 resourceType: white-papers
 seo:
-  title: "White paper: Three-legged stool, Venn diagramming Vendia"
+  title: Three-legged stool, Venn diagramming Vendia
   description: How Vendia Share remakes the building blocks of modern IT
     infrastructure into secure, compliant real-time data sharing across business
     networks.
+createdBy: ""
+createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-10T00:24:59.635Z
+updatedAt: 2023-01-23T22:08:19.694Z
+id: cbdd08de-b3ae-47e5-94d1-2744c2bfed11
 ---
