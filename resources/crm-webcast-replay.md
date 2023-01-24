@@ -6,7 +6,8 @@ date: 2022-11-30
 components:
   - type: Hero
     title: CRM Data Sharing with Vendia Share
-    text: Watch the webcast featuring our favorite Salesforce MVP, Rebecca Lammers
+    text: "Watch the webcast and learn how to get a golden record across multiple
+      Salesforce instances in real time "
     contentAlignment: Left
     hideSeparator: false
     image:
@@ -20,7 +21,7 @@ components:
       Get the latest on CRM data sharing from Salesforce MVP, Rebecca Lammers at Slalom and James Gimourginas, Vendia's Director of Solutions Architecture. You'll learn how the Vendia Share platform can share data across Salesforce orgs and keep a ledgered, single source of truth for all partners in the data ecosystem. Plus...
 
 
-      - Five reasons why real-time CRM data sharing among partners is often (prohibitively) complex
+      - Five reasons why real-time CRM data sharing among partners is often so complex
 
       - How CRM data sharing will reshape the industry
 
@@ -38,6 +39,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T23:42:10.521Z
+updatedAt: 2023-01-24T23:45:25.778Z
 id: 25c8b150-52fc-4511-bcc7-11cb0150f08b
 ---
