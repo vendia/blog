@@ -1,11 +1,13 @@
 {
-  "title": "Vendia Share: what it is and how it works",
+  "title": "Vendia Share: What it is and how it works",
   "text": "Learn how our tech uses automated APIs, cloud databases, and blockchain to create a next-gen solution for data sharing across business networks. ",
   "button": {
     "label": "I want to know",
-    "url": "http://vendia.com/resources/resources/3-legged-stool"
+    "url": "https://vendia.com/resources/resources/3-legged-stool"
   },
-  "updatedAt": "2023-01-03T06:06:48.584Z",
-  "updatedBy": "David Wells",
-  "id": "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+  "updatedAt": "2023-01-24T00:10:31.650Z",
+  "updatedBy": "alexa-vendia",
+  "id": "ad9381ab-c314-4028-a7da-0dffdf31ae68",
+  "createdBy": "",
+  "createdAt": ""
 }
