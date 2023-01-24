@@ -4,36 +4,48 @@ template: resource
 slug: blockchain-in-modern-financial-services-2022
 date: 2022-11-30
 components:
+  - type: Hero
+    title: The guide for using business blockchain in the financial services industry
+    text: How to create a winning data and application strategy with distributed
+      ledger technology
+    contentAlignment: Left
+    hideSeparator: false
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502214/Website/Iso/Blocks_k4hbjm.png
   - type: HubspotForm
     text: >-
-      # Using blockchain in a modern financial services data and application
-      strategy
+      During the last ten years, blockchain technology — whether public or
+      private — fell short of its potential to deliver financial institutions a
+      trusted, golden, real-time record in a shared data ecosystem.
 
 
-      <img src="https://res.cloudinary.com/vendia/image/upload/c_scale,w_500/f_auto,q_90/v1669869725/housing_hp9nao.webp" alt="" class="image-float-right" width="246" />
+      But business blockchain offers a way forward because, unlike initial solutions, these newer platforms are built for business use cases, and they meet the stringent requirements of financial services organizations. 
 
 
-      **In this white paper, we explore:**
+      Get our guide to learn more about the potential for business blockchain in financial services.
 
 
-      1. The pros and cons of public chains, private chains, and centralized solutions for financial data sharing
+      - Understand the benefits and limitations of different blockchain types
 
-      2. How to bring all three approaches together for a differentiated solution.
+      - Get best practices for integrating them with existing centralized IT architectures
 
-      3. Example of mortgage servicing with Vendia Share.
+      - Explore a mortgage servicing use case and other examples of how to accelerate business results and lower delivery costs and risks for data-centric projects
 
-      4. How to create a single source of truth without sacrificing control.
+      - Get more familiar with how Vendia Share combines the trust of blockchain with the scale of the cloud, offering the fastest time to market for secure, operational data sharing
     formId: 7e1857d5-e2bb-4ff4-8630-fffdbaad07c2
-    formTitle: Send to my inbox
-    theme: White
+    formTitle: Send it to my inbox
+    theme: light
 resourceType: white-papers
+tags:
+  - business blockchain
+  - financial services
 seo:
-  title: Blockchain in modern financial services data applications
-  description: "Pros and cons of public chains, private chains, and centralized
-    solutions for financial data sharing. "
+  title: The guide for using business blockchain in the financial services industry
+  description: How to create a winning data and application strategy with
+    distributed ledger technology
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T21:34:09.934Z
+updatedBy: alexa-vendia
+updatedAt: 2023-01-24T23:10:04.072Z
 id: a4eb6679-8cdd-46d9-b406-769cedde75ba
 ---
