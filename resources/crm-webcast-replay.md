@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: crm-webcast-replay
 date: 2022-11-30
@@ -38,6 +38,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T23:41:55.659Z
+updatedAt: 2023-01-24T23:42:10.521Z
 id: 25c8b150-52fc-4511-bcc7-11cb0150f08b
 ---
