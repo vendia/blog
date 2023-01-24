@@ -11,7 +11,7 @@ components:
     contentAlignment: Left
     hideSeparator: false
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502214/Website/Iso/Blocks_k4hbjm.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500629/Website/Iso/Blockchain_rmmdjm.png
   - type: HubspotForm
     text: >-
       During the last ten years, blockchain technology — whether public or
@@ -46,6 +46,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T23:10:04.072Z
+updatedAt: 2023-01-24T23:28:54.218Z
 id: a4eb6679-8cdd-46d9-b406-769cedde75ba
 ---
