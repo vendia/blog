@@ -9,30 +9,29 @@ components:
     text: How Vendia Share remakes the building blocks of modern IT infrastructure
       into secure, compliant real-time data connectivity and sharing solutions
     contentAlignment: Left
-    hideSeparator: true
+    hideSeparator: false
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png
   - type: HubspotForm
     text: >-
-      ### **Download "The three-legged stool: Venn diagramming Vendia Share" to
-      learn more about APIs, databases, and blockchain and how they complement
-      one another.** 
+      APIs, databases, and blockchains all fall short on key aspects of secure,
+      real-time data sharing needed to meet business needs. Vendia Share
+      combines the three to make up for everything each one lacks.
 
 
-      APIs, databases, and blockchains all fall short on key aspects of secure, real-time data sharing needed to meet business needs. Vendia Share combines the three to make up for everything each one lacks.
+      Learn more about this trusted multi-party data sharing platform, and its place in your tech stack:
 
 
-      Included:
+      - Dive into the strengths and weaknesses of APIs, databases, and blockchains
+
+      - Learn how Vendia Share brings the best of those three technologies together
+
+      - What this means for data sharing across clouds, regions, and organizations today and tomorrow
 
 
-      - Strengths and weaknesses of APIs, databases, and blockchains
-
-      - How Vendia Share brings them together
-
-      - What this means for data sharing between two orgs - How you can get started today
-
-
-      ![](https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669906370/3Legged_Fig01_bohruk.webp)
+      <img src="" alt="""" class="image-float-right" />
     formId: 18dac822-7e97-4800-ac04-70e23d3d6384
-    formTitle: Download this think piece
+    formTitle: Dig into the building blocks of Vendia Share
     theme: light
 resourceType: white-papers
 seo:
@@ -43,6 +42,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T21:52:08.029Z
+updatedAt: 2023-01-24T22:07:58.167Z
 id: cbdd08de-b3ae-47e5-94d1-2744c2bfed11
 ---
