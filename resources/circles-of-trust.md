@@ -14,7 +14,7 @@ components:
       image: ""
   - type: HubspotForm
     text: >-
-      ## **Real-talk on real-time data sharing and strategy**
+      # **Real-talk on real-time data sharing and strategy**
 
 
       **Join our community of guests from grassroots nonprofits to the Global 2000** as they talk with host Tim Zonca about IT innovation, real-time data sharing, and data strategy challenges and solutions in the Web3 world and beyond.
@@ -37,6 +37,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T00:08:37.141Z
+updatedAt: 2023-01-25T17:20:11.219Z
 id: cd3b5df5-91cd-470f-a4a8-b36f05a3dd65
 ---
