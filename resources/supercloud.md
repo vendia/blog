@@ -29,12 +29,13 @@ components:
     formTitle: Send me the white paper
 resourceType: white-papers
 seo:
-  title: Vendia Share's Supercloud
-  description: "Supercloud, mutli-cloud, hybrid Cloud...it all means the same
-    thing: You need to have a strategy for working across clouds. "
+  title: Understanding supercloud
+  description: Call it supercloud, multi-cloud, or hybrid cloud...they all mean
+    you need to have a strategy for working across clouds including when vendor
+    redundancy is required and when it should be avoided.
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:06:09.530Z
+updatedAt: 2023-01-25T00:44:19.838Z
 id: 34e283c8-712f-45a6-bf57-e7468660a27f
 ---
