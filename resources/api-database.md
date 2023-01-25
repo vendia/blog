@@ -29,13 +29,13 @@ components:
     formTitle: Download "The future of APIs"
 resourceType: white-papers
 seo:
-  title: The Future of APIs
+  title: The future of APIs
   description: "Learn how Vendia Share combines APIs and Databases to automate
     data workflows across your business network. No more point-to-point
     integrations with out of date information. "
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T22:34:36.379Z
+updatedAt: 2023-01-25T00:35:14.051Z
 id: 196619a9-a154-4e6f-8b66-86fd6b5d74e4
 ---
