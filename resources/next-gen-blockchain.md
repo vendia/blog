@@ -27,7 +27,7 @@ components:
 
       - How Vendia’s unique technology combines the trust of blockchain with the scale of the cloud, offering the fastest time to market for secure, operational data sharing
     formId: 7eebe88e-3640-43a2-8804-3b074039b379
-    theme: White
+    theme: light
     formTitle: Explore business blockchain for your use case
 resourceType: white-papers
 seo:
@@ -38,6 +38,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:29:08.601Z
+updatedAt: 2023-01-25T00:34:20.522Z
 id: 7c0b27b2-9331-4e5e-89be-cd7d1573b8f7
 ---
