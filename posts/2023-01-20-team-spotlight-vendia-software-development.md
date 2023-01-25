@@ -28,7 +28,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-21T01:32:31.069Z
+updatedAt: 2023-01-25T03:09:07.480Z
 id: 13373d57-30db-4b71-b540-b39aac7e7ab6
 ---
 
@@ -93,9 +93,9 @@ I contribute best when I’m prepared for deep thinking and creativity — for m
 
 ### Philipp Hussels
 
-- **Role:**
-- **Homebase:**
-- **Enjoys:**
+- **Role:** Director and Head of Engineering
+- **Homebase:** Seattle, WA, USA
+- **Enjoys:** Hiking, mountaineering, mountain biking, cycling, back-country skiing, farming
 
 **What’s the best advice you’ve received so far in your career?**
 
