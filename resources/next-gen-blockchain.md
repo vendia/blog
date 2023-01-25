@@ -28,15 +28,16 @@ components:
       - How Vendia’s unique technology combines the trust of blockchain with the scale of the cloud, offering the fastest time to market for secure, operational data sharing
     formId: 7eebe88e-3640-43a2-8804-3b074039b379
     theme: White
+    formTitle: Explore business blockchain for your use case
 resourceType: white-papers
 seo:
-  title: "Vendia Blockchain "
-  description: "What do we mean by \"next-gen blockchain\"? Learn how Vendia
-    Share's blockchain technology enables modern, secure, multi-party data
-    sharing. "
+  title: "eBook | Vendia Blockchain "
+  description: "What do we mean by \"next-gen blockchain?\" Learn how Vendia
+    Share's blockchain technology enables trusted, secure, real-time multi-party
+    data sharing. "
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T21:57:02.090Z
+updatedBy: alexa-vendia
+updatedAt: 2023-01-25T00:29:08.601Z
 id: 7c0b27b2-9331-4e5e-89be-cd7d1573b8f7
 ---
