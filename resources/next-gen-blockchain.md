@@ -31,13 +31,12 @@ components:
     formTitle: Explore business blockchain for your use case
 resourceType: white-papers
 seo:
-  title: "eBook | Vendia Blockchain "
-  description: "What do we mean by \"next-gen blockchain?\" Learn how Vendia
-    Share's blockchain technology enables trusted, secure, real-time multi-party
-    data sharing. "
+  title: Blockchain in a modern data and application strategy
+  description: How Vendia Share's business blockchain technology enables trusted,
+    secure, real-time multi-party data sharing
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:34:20.522Z
+updatedAt: 2023-01-25T00:40:24.183Z
 id: 7c0b27b2-9331-4e5e-89be-cd7d1573b8f7
 ---
