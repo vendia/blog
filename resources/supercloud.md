@@ -30,12 +30,11 @@ components:
 resourceType: white-papers
 seo:
   title: Understanding supercloud
-  description: Call it supercloud, multi-cloud, or hybrid cloud...they all mean
-    you need to have a strategy for working across clouds including when vendor
-    redundancy is required and when it should be avoided.
+  description: Call it supercloud, multi-cloud, or hybrid cloud...no matter what
+    you call it, here's what you need to know for your cross-cloud data strategy
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:44:19.838Z
+updatedAt: 2023-01-25T01:01:43.080Z
 id: 34e283c8-712f-45a6-bf57-e7468660a27f
 ---
