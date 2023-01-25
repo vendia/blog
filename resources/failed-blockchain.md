@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: resource
 slug: failed-blockchain
 date: 2022-11-30
@@ -24,7 +24,7 @@ seo:
     avoid failure to launch. "
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-23T21:30:43.142Z
+updatedBy: alexa-vendia
+updatedAt: 2023-01-25T00:41:18.560Z
 id: 41254fa2-3cc1-40cc-9cb2-d025bbac2d92
 ---
