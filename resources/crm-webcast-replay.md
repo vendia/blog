@@ -32,13 +32,16 @@ components:
     theme: White
     formTitle: Want to take a look?
 resourceType: webcasts
+tags:
+  - Slalom
+  - CRM
 seo:
-  title: CRM Data Sharing with Vendia Share
-  description: "Learn how Vendia Share can exchange data among multiple Salesforce
-    instances — in real-time. "
+  title: CRM data sharing with Vendia Share
+  description: How to exchange data among multiple Salesforce instances for a
+    real-time golden record
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-24T23:45:25.778Z
+updatedAt: 2023-01-25T00:38:43.376Z
 id: 25c8b150-52fc-4511-bcc7-11cb0150f08b
 ---
