@@ -33,11 +33,11 @@ tags:
   - developers
   - lean apps
 seo:
-  title: Lean Apps
-  description: "Move over Serverless, the next wave of development is here, and it's lean. "
+  title: The Lean App movement
+  description: "Move over Serverless, the next wave of development is here — and it's lean "
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:33:31.571Z
+updatedAt: 2023-01-25T00:36:46.413Z
 id: 9fbbd1b7-7590-40ce-bd5a-75f81362f183
 ---
