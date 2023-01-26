@@ -20,16 +20,13 @@ components:
       Want to hear from IT and data strategy leaders in our larger community of experts? 
 
 
-      <Button kind="primary" label="Spotify" href="https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK" />
-
-
-      <Button kind="secondary" label="Apple Podcasts" href="https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970" />
+      [Spotify](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK) | [Apple](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970)
     theme: white
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-20T19:24:47.664Z
+updatedAt: 2023-01-26T23:33:36.328Z
 id: 3eb6de55-22b7-4073-a914-8ada0ad1cb52
 ---
