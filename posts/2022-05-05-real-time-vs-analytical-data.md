@@ -1,12 +1,31 @@
 ---
 draft: false
-title: 'Types of data: Real-time data vs. analytical data'
-description: 'What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?'
-date: '2022-05-05'
+title: "Data types 101: Real-time data vs. analytical data"
+description: What is real-time data? How is it used? How does it compare to
+  other popular data types like analytical or real-time analytical data?
+date: 2022-05-05
 authors:
-  - Caroll Casbeer
+  - Vendia
+categories:
+  - concepts
+  - realtime-data-sharing
+relatedPosts:
+  - 2022-09-22-real-time-everything
+  - 2022-11-02-podcast-worlds-colliding
+  - 2021-09-01-sharing-data-with-fine-grained-control
+seo:
+  title: "Data types 101: Real-time data vs. analytical data"
+  description: What is real-time data? How is it used? How does it compare to
+    other popular data types like analytical or real-time analytical data?
+  keywords: real-time data
+sidebarCta:
+  - What’s a business blockchain?
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-01-26T19:11:45.041Z
+id: ff8337bb-89bc-4231-91e1-a47fa64101e4
 ---
-# Making sense of real-time data
 
 "Real-time data" is a term being thrown around a lot these days. It's likely still ringing in your ears from your last Zoom call. As it turns out, its day in the sun is actually well earned, since it powers many of the applications we rely on every day and serves as the foundation of most online transactions.
 
@@ -18,17 +37,16 @@ First, let's establish exactly what real-time data means. For data to be conside
 
 Real-time data can be:
 
-* Dynamic: This refers to data that is continuously changing. For example, the location of your package out for delivery changes in real time as it moves across the country.
-
-* Static: For example, you could receive a real-time update about where your package was at a specific time. This is a snapshot in time.
+- **Dynamic**: This refers to data that is continuously changing. For example, the location of your package out for delivery changes in real time as it moves across the country.
+- **Static:** For example, you could receive a real-time update about where your package was at a specific time. This is a snapshot in time.
 
 It also comes with a long list of benefits, including:
 
-* Speed: As implied in the name, real-time data delivers speed. The result? Faster applications and decision making.
-* Understanding the current situation: Provides visibility into what is happening in the moment, instead of analyzing past events or predicting future outcomes.
-* Accuracy: More timely data means more accurate answers to what the "current answer" is to many types of questions
-* Less "cleaning up after the fact": With multiple parties sharing a single source of truth, there's no need for costly reconciliation between different, inconsistent "copies" of data.
-* Better customer experience: Powers personalized experiences at the moment of interaction.
+- **Speed**: As implied in the name, real-time data delivers speed. The result? Faster applications and decision making.
+- **Understanding the current situation:** Provides visibility into what is happening in the moment, instead of analyzing past events or predicting future outcomes.
+- **Accuracy**: More timely data means more accurate answers to what the "current answer" is to many types of questions
+- **Less "cleaning up after the fact"**: With multiple parties sharing a single source of truth, there's no need for costly reconciliation between different, inconsistent "copies" of data.
+- **Better customer experiences**: Powers personalized experiences at the moment of interaction.
 
 Real-time data usage continues to escalate, especially as an expanding array of apps rely on up-to-the-second information. Let's explore a few use cases.
 
@@ -38,9 +56,8 @@ Real-time data is the common, crucial element powering the apps and tools we all
 
 Let's take a look at two real-time data use cases in a little more detail:
 
-**Supply chain tracking**: Using a mobile app, BMW tracks and traces all parts, across all its supply chain partners, in real time. Data, such as part details, potential defects, photos, and videos, are collected via a mobile application at each inspection point in the supply chain. That data is immediately shared with all partners—creating trust and a common truth throughout the supply chain. [Read more about how BMW is benefitting from real-time data in its supply chain](https://www.vendia.com/bmw-case-study).
-
-**Logistics and GPS tracking**: [Trucking companies can now track their fleets in real-time with up-to-the-second data](https://www.samsara.com/blog/7-ways-real-time-gps-tracking-helps-you-run-safer-fleets). By integrating GPS and other real-time data, such as engine fault codes and driving conditions, they can decrease theft, dispatch drivers, and provide customers with accurate ETAs, while improving the efficiency, safety, and reliability of their fleets.
+1. **Supply chain tracking**: Using a mobile app, BMW tracks and traces all parts, across all its supply chain partners, in real time. Data, such as part details, potential defects, photos, and videos, are collected via a mobile application at each inspection point in the supply chain. That data is immediately shared with all partners—creating trust and a common truth throughout the supply chain. [Read more about how BMW is benefitting from real-time data in its supply chain](https://www.vendia.com/bmw-case-study).
+2. **Logistics and GPS tracking**: [Trucking companies can now track their fleets in real-time with up-to-the-second data](https://www.samsara.com/blog/7-ways-real-time-gps-tracking-helps-you-run-safer-fleets). By integrating GPS and other real-time data, such as engine fault codes and driving conditions, they can decrease theft, dispatch drivers, and provide customers with accurate ETAs, while improving the efficiency, safety, and reliability of their fleets.
 
 ## Is real-time data the same as operational data?
 
@@ -92,10 +109,10 @@ Real-time analytics are a crucial weapon in the ever-escalating war against hack
 
 ## Real-time data and streaming data
 
-Streaming data is another aptly named technology. In this case "streaming" refers to a flow of data, from a variety of sources, that is continuously generated and delivered. Each data point represents an event that happened at a particular time. That's why streaming data is often called event data. Streaming data is typically used in OLTP systems. In these environments, real-time stream processing technology is used to store, process, analyze, and act upon incoming data streams, at the very moment they're created. This is in stark contrast to batch processing where these functions have to be completed separately before data can be used.
+Streaming data is another aptly named technology. In this case "streaming" refers to a flow of data, from a variety of sources, that is continuously generated and delivered. Each data point represents an event that happened at a particular time. That's why streaming data is often called event data. Streaming data is typically used in OLTP systems. In these environments, real-time stream processing technology is used to store, process, analyze, and act upon incoming data streams, at the very moment they're created. This is in stark contrast to batch processing where these functions must be completed separately before data can be used.
 
-## Next steps: Learn how to extend the value of real-time data
+### Learn how to extend the value of real-time data
 
-We hope this helped unravel the subtle differences between real-time data, operational data, analytical data, and streaming data, along with illustrating how important they all are to the success of modern organizations. While it comes in a few flavors, a couple things are clear—real-time data is a key driver of success for modern organizations and it's responsible for many of the conveniences we enjoy every day. Whether it's real-time operational data driving e-commerce transactions or real-time analytical data that companies use to make their most important decisions, real-time data is the critical, irreplaceable element. 
+We hope this helped unravel the subtle differences between real-time data, operational data, analytical data, and streaming data. While it comes in a few flavors, a couple of things are clear. First, real-time data is a key driver of success for modern organizations. Second, it's responsible for many of our daily conveniences. Whether it's real-time operational data driving e-commerce transactions or real-time analytical data that companies use to make their most important decisions, real-time data is the critical, irreplaceable element. 
 
-Real-time data can become even more valuable when it's shared and integrated across companies, clouds, and SaaS applications. Learn more about real-time data sharing in [What is Real-Time Data Sharing?](https://www.vendia.com/blog/what-is-real-time-data-sharing).
+#### Want to improve your data strategy and achieve both trust and speed with real-time data sharing, chain of custody, and reconciliation processes? Learn more about [Vendia Share](https://www.vendia.com/product) and book your [demo](https://meetings.hubspot.com/tim-zonca/contact-an-expert).
