@@ -890,6 +890,258 @@
       "updatedAt": "2022-12-07T18:48:44.323Z"
     }
   ],
+  "blockchain": [
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "Servereless": [
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "Lambda": [
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "Tim Wagner": [
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "webcast": [
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "Peter Sbarski": [
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
   "CRM, API": [
     {
       "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",

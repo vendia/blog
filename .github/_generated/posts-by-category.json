@@ -381,20 +381,6 @@
       ]
     },
     {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Anders Maul"
-      ]
-    },
-    {
       "file": "/posts/2022-04-25-6-months-at-vendia.md",
       "draft": false,
       "title": "No more burnout: Reflections after 6 months at Vendia",
@@ -1263,6 +1249,46 @@
       "authors": [
         "Tim Wagner"
       ]
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
     },
     {
       "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
@@ -2459,16 +2485,42 @@
     {
       "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
       "draft": false,
-      "title": "Q+A: How serverless and cloud enable scalable blockchains",
+      "title": "How Serverless and cloud enable scalable blockchains",
       "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03",
-      "categories": [
-        "company",
-        "product"
-      ],
+      "date": "2022-08-03T00:00:00.000Z",
       "authors": [
-        "Anders Maul"
-      ]
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T17:51:10.556Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
     },
     {
       "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
