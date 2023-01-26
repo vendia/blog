@@ -1,14 +1,28 @@
 ---
 draft: false
-title: "Guide to real-time data sharing vendor types"
-description: "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia."
-date: "2022-10-18"
+title: Guide to real-time data sharing vendor types
+description: Want to scale up and streamline your real-time data sharing
+  capabilities? Explore five common vendor approaches and compare and contrast
+  them with Vendia Share.
+date: 2022-10-18
+authors:
+  - Vendia
 categories:
   - product
   - concepts
-authors:
-  - Alexa Johnson 
+seo:
+  title: Guide to real-time data sharing vendor types
+  description: Want to scale up and streamline your real-time data sharing
+    capabilities? Explore five common vendor approaches and compare and contrast
+    them with Vendia.
+  keywords: real-time data sharing vendors
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-01-26T19:27:21.087Z
+id: b7cb373b-5ee2-49a7-9177-a935993c47c9
 ---
+
 Real-time data sharing facilitates informed decision-making by making data available as soon as it’s created or acquired amongst multiple business network partners. With real-time data sharing inside and outside your four walls, you can get insights into improving your customer experience, developing better products and services, and creating efficiencies in your business processes. 
 
 But, moving, storing, and managing data (especially large batches of data [across clouds](https://www.vendia.net/blog/no-more-multicloud), regions, and companies) in a way that’s visible, transparent, and compliant has, historically, been fraught with [obstacles](https://www.vendia.net/blog/data-sharing-obstacles), including infrastructure and resourcing challenges. 
@@ -249,4 +263,3 @@ With Vendia connecting partners with ease and eliminating the need for ongoing m
 Your organization's data ecosystem today will drive innovation tomorrow. If you’re ready to explore and leverage real-time data sharing to accelerate your business’s growth, [try the app](https://www.vendia.net/developers) for free or [contact our team](https://www.vendia.net/contact-us). 
 
 We’ll help you find the right real-time data sharing solution and can get you started with a [one-week proof of concept](https://vendia.net/poc).
-
