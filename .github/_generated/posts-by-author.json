@@ -293,6 +293,38 @@
       "updatedAt": "2022-12-07T01:05:21.832Z"
     },
     {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Data types 101: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-02-podcast-worlds-colliding",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Data types 101: Real-time data vs. analytical data",
+        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+        "keywords": "real-time data"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:11:45.041Z",
+      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
+    },
+    {
       "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
       "draft": false,
       "title": "How to share Files in Vendia Share Unis",
@@ -2489,16 +2521,6 @@
       "title": "Vendia guest contributor program",
       "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
       "date": "2022-06-22",
-      "authors": [
-        "Caroll Casbeer"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "draft": false,
-      "title": "Types of data: Real-time data vs. analytical data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-      "date": "2022-05-05",
       "authors": [
         "Caroll Casbeer"
       ]

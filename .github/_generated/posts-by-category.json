@@ -1009,6 +1009,38 @@
       ]
     },
     {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Data types 101: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-02-podcast-worlds-colliding",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Data types 101: Real-time data vs. analytical data",
+        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+        "keywords": "real-time data"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:11:45.041Z",
+      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
+    },
+    {
       "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
       "draft": false,
       "title": "Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs",
@@ -1622,6 +1654,38 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-12T20:58:44.743Z",
       "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
+    },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Data types 101: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-02-podcast-worlds-colliding",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Data types 101: Real-time data vs. analytical data",
+        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+        "keywords": "real-time data"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:11:45.041Z",
+      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
     }
   ],
   "podcast": [
