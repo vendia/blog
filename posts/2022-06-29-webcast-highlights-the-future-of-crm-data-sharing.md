@@ -6,7 +6,7 @@ description: "Webinar highlights: Salesforce MVP Rebecca Lammers talks with
   the challenges and solutions for CRM data sharing. "
 date: 2022-06-29
 authors:
-  - Anders Maul
+  - Vendia
 categories:
   - real-time-data-sharing
   - data-alliance
@@ -22,8 +22,11 @@ seo:
   description: "Webinar highlights: Salesforce MVP Rebecca Lammers talks with
     James Gimourginas, Director of Solutions Architecture and Customer Success
     on the challenges and solutions for CRM data sharing. "
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2022-12-08T00:00:56.763Z
+updatedAt: 2023-01-26T19:22:14.787Z
+id: 199fbd39-8617-4feb-be92-48874ae0c8e0
 ---
 
 Thanks to Rebecca Lammers, Director at Slalom and one of only 200 Salesforce MVPs in the world, and James Gimourginas, Director of Solutions Architecture and Customer Success at Vendia for hosting our webcast, [The future of CRM data sharing. ](https://fast.wistia.com/embed/channel/d1mxqbj9xw)Here are four key highlights:
