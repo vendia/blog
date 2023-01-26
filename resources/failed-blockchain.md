@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 slug: failed-blockchain
 date: 2022-11-30
@@ -36,7 +36,7 @@ seo:
     avoid failure to launch. "
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:59:21.879Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-01-26T13:47:20.362Z
 id: 41254fa2-3cc1-40cc-9cb2-d025bbac2d92
 ---
