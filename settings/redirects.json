@@ -4,8 +4,13 @@
       "status": 301,
       "from": "/foo",
       "to": "/bar"
+    },
+    {
+      "status": 301,
+      "from": "/blog/announcing-new-features",
+      "to": "/blog/azure-support-smart-contracts"
     }
   ],
-  "updatedAt": "2023-01-10T02:31:26.243Z",
+  "updatedAt": "2023-01-27T19:35:24.768Z",
   "updatedBy": "David Wells"
 }
