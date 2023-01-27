@@ -8,7 +8,9 @@ components:
     callToActions:
       - label: Schedule a demo
         url: https://meetings.hubspot.com/aashish3/mortgage-transfers
-    title: Reconciliationless solutions are here
+      - label: Get the e-book
+        url: https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022
+    title: Automated reconciliation solutions are here
     text: Eliminate errors, streamline operations, and create a golden record across
       parties with Vendia Share's business blockchain
     image:
@@ -58,5 +60,6 @@ components:
 createdBy: Caroll Casbeer
 createdAt: 2022-12-05T22:59:04.199Z
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-05T22:59:04.199Z
+updatedAt: 2023-01-27T17:15:39.916Z
+id: f8fe0d1e-d159-4d44-ba24-0f30fdbb9814
 ---
