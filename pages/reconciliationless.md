@@ -10,17 +10,16 @@ components:
         url: https://meetings.hubspot.com/aashish3/mortgage-transfers
       - label: Get the e-book
         url: https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022
-    title: Automated reconciliation solutions are here
-    text: Eliminate errors, streamline operations, and create a golden record across
-      parties with Vendia Share's business blockchain
+    title: Eliminate costs and reconcile in real-time
+    text: Streamline operations, say 'good-bye' to costly investigations, and create
+      a golden record across parties.
     image:
       image: ""
   - type: Columns
     theme: White
     intro:
       title: Spending too much time reconciling?
-      text: Meet your next-gen solution for reconciliationless operations across
-        banking and financial services
+      text: ""
     columns:
       - text: >-
           ### Cut costs and eliminate the pain of MSR transfers
@@ -60,6 +59,6 @@ components:
 createdBy: Caroll Casbeer
 createdAt: 2022-12-05T22:59:04.199Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-27T17:15:39.916Z
+updatedAt: 2023-01-27T17:17:42.724Z
 id: f8fe0d1e-d159-4d44-ba24-0f30fdbb9814
 ---
