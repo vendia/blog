@@ -19,6 +19,8 @@ Vendia strives to constantly improve our product. Preventing potentially expensi
 ## No More Accidents!
 When we see something that has the potential to allow for user error, we fix it right away. Our engineering team added a dropdown menu for namespace choice in the process of Uni creation.
 
+![Uni_space](to be replaced)
+
 This change will prevent Unis from being created outside of the customer's namespace by accident.  This ensures Unis for all Enterprise customers to get the single-tenant, complaint, and secure they expect.
 
 ## CLI Changes
