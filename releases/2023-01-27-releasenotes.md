@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: No more creating unis in the wrong namespace and better CI/CD process
 description: A release focusing on improved UI and additional CLI options
 date: 2023-01-27
@@ -10,7 +10,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Li Dai
-updatedAt: 2023-01-27T20:50:56.724Z
+updatedAt: 2023-01-27T21:12:35.060Z
 id: aae57332-15d6-4f0d-8c45-da39b9c93075
 ---
 
