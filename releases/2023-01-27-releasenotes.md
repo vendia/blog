@@ -19,7 +19,7 @@ Vendia strives to constantly improve our product. Preventing potentially expensi
 ## No More Accidents!
 When we see something that has the potential to allow for user error, we fix it right away. Our engineering team added a dropdown menu for namespace choice in the process of Uni creation.
 
-![Uni_space](to be replaced)
+![Uni_space](https://user-images.githubusercontent.com/116586196/215199955-c1af7800-fef0-42d6-99ea-1c13556696f7.png)
 
 This change will prevent Unis from being created outside of the customer's namespace by accident.  This ensures Unis for all Enterprise customers to get the single-tenant, complaint, and secure they expect.
 
@@ -31,5 +31,5 @@ Users can now bypass interactive prompts when evolving their schemas using the C
 share uni evolve --uni <uniName> –approval-required=NEVER  --schema schema.json
 ```
 
-Try us out
-Vendia is powered by the scale of serverless and reliability of blockchain to make data sharing easy across teams and organizations. Get started for free to see how Vendia can help you advance in your data sharing journey.
+## Try us out
+Vendia is powered by the scale of serverless and reliability of blockchain to make data sharing easy across teams and organizations. [Get started for free](https://www.vendia.com/pricing) to see how Vendia can help you advance in your data sharing journey.
