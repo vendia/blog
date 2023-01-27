@@ -1,12 +1,25 @@
 ---
 draft: false
-title: 'Announcing Azure support, smart contracts, and new pricing plans for Vendia Share'
-description: 'Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.'
-date: '2021-12-09'
+slug: azure-support-smart-contracts
+title: Announcing Azure support, smart contracts, and new pricing plans for
+  Vendia Share
+description: Today, we are excited to announce a new set of features for Vendia
+  Share to further help developers build secure, decentralized data
+  applications. Let’s jump into some of the new features.
+date: 2021-12-09
 authors:
   - David Brown
 categories:
   - announcements
+seo:
+  title: Vendia Supports Azure and Smart Contracts
+  description: "Learn about Vendia Share's latest features including Azure-support
+    and Smart Contracts. "
+createdBy: ""
+createdAt: ""
+updatedBy: Caroll Casbeer
+updatedAt: 2023-01-27T17:28:00.714Z
+id: 789c617b-e018-43fd-86f3-2be90de9797f
 ---
 
 **Announcing Azure support, smart contracts, and new pricing plans for Vendia Share**
@@ -49,4 +62,4 @@ Clicking into the `_id` for any of the rows, will open the ability to edit, dele
 
 We are also announcing pricing plans that meets customers' demand and allows them to scale their usage from single users through large enterprises. All pricing plans include the new features, along with the established capabilities for building and running highly scalable, fault-tolerant, cross-cloud, multi-account, multi-region, multi-party applications. Share is available in three plans: Starter, Individual, and Enterprise. Starter is our free plan that offers developers generous limits to test Vendia at no cost. The Individual plan removes most of the limits of the Starter plan and starts at $99 per month. The Starter and Individual plans are currently in beta and available for all customers. For more information, see the [pricing page](https://www.vendia.com/pricing). 
 
-All these great new features for Vendia Share are now available for everyone starting today. To learn more about Vendia Share, see our [documentation](https://www.vendia.com/docs/share). To get started using all the new features, [create an account](https://share.vendia.net/). 
+All these great new features for Vendia Share are now available for everyone starting today. To learn more about Vendia Share, see our [documentation](https://www.vendia.com/docs/share). To get started using all the new features, [create an account](https://share.vendia.net/).
