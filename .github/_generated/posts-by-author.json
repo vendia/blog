@@ -2757,15 +2757,25 @@
     {
       "file": "/posts/2021-12-09-announcing-new-features.md",
       "draft": false,
+      "slug": "azure-support-smart-contracts",
       "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
       "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09",
+      "date": "2021-12-09T00:00:00.000Z",
       "authors": [
         "David Brown"
       ],
       "categories": [
         "announcements"
-      ]
+      ],
+      "seo": {
+        "title": "Vendia Supports Azure and Smart Contracts",
+        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-01-27T17:28:00.714Z",
+      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
     }
   ],
   "brian-mcnamara": [
