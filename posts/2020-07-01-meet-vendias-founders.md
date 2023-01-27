@@ -32,26 +32,28 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-26T18:00:54.613Z
+updatedAt: 2023-01-27T18:48:11.236Z
 id: 95117065-4cca-4aec-b8f8-614f4472aa30
 ---
 
-Our company name, Vendia, comes from "[Venn Diagram](https://www.vendia.com/blog/venn-diagramming-vendia-share)." Our name reflects our core mission — helping customers share code and data across companies, clouds, and technology stacks. But it's also a reflection of how we show up as individuals with unique skills and experiences, coming together to create something amazing. 
+Our company name, Vendia, comes from "[Venn Diagram](https://www.vendia.com/blog/venn-diagramming-vendia-share)." Our name reflects our core mission — helping customers share code and data across companies, clouds, and technology stacks. But it also reflects [how we show up](https://www.vendia.com/blog/creating-a-culture-of-learning) as individuals with unique skills and experiences, coming together to create something amazing. 
 
 We'd like to tell you a little about ourselves and how Vendia came to be.
 
 ## Vendia's origin story
 
-Given our unique backgrounds (we're two of the only people who've ever worked on both Serverless *and* blockchains) and having partnered successfully once before to grow the AWS Lambda and Serverless business, it was a natural fit for us to co-found a company. We first chatted about the idea in late 2019. 
+Given our unique backgrounds (we're two of the only people who've ever worked on both Serverless *and* blockchains) and having partnered successfully once before to grow the AWS Lambda and Serverless business, it was a natural fit for us to co-found a company. 
 
-- Tim had left Coinbase with the kernel of an idea: That the weaknesses of blockchains — their poor performance, scaling limitations, and difficult deployment models — could be addressed through a radically different architecture, informed by his time building massively multi-tenanted cloud services for AWS. Similarly, the challenges of existing serverless compute approaches — their “single cloud, single account” nature and lack of a built-in state model — might be fixable with ideas from blockchains.
-- Meanwhile, Shruthi was running business development for AWS's blockchain division, including Amazon Managed Blockchain (a productization of the open source Hyperledger Fabric code) and QLDB — a centralized (single owner) database with ledger-like capabilities. In that role, Shruthi got to speak to hundreds of companies from every possible industry sector and learn about their challenges. They explored questions like...Why were they interested in blockchains in the first place? What were the common problems they were trying to solve? And on the negative side, why did so many of their experiments (POCs or Proofs of Concept) fail?
+We first chatted about partnering in late 2019:
+
+- Tim ([on LinkedIn](https://www.linkedin.com/in/timawagner/)) had left Coinbase with the kernel of an idea: That the weaknesses of blockchains — their poor performance, scaling limitations, and difficult deployment models — could be addressed through a radically different architecture, informed by his time building massively multi-tenanted cloud services for AWS. Similarly, the challenges of existing serverless compute approaches — their “single cloud, single account” nature and lack of a built-in state model — might be fixable with ideas from blockchains.
+- Meanwhile, Shruthi ([on LinkedIn](https://www.linkedin.com/in/shruthirao/)) was running business development for AWS's blockchain division, including Amazon Managed Blockchain (a productization of the open source Hyperledger Fabric code) and QLDB — a centralized (single owner) database with ledger-like capabilities. In that role, Shruthi got to speak to hundreds of companies from every possible industry sector and learn about their challenges. They explored questions like...Why were they interested in blockchains in the first place? What were the common problems they were trying to solve? And on the negative side, why did so many of their experiments (POCs or Proofs of Concept) fail?
 
 ![Image for post](https://d24nhiikxn5jns.cloudfront.net/optimized/miro.medium.com%252Fmax%252F1920%252F1%2At4f5OdXCd8DlDaNPtn7Kdw.png)
 
-### Where our questions turned into answers 
+### Where our questions turned into answers
 
-We realized we were onto something: when we had that moment of “Hey, there's a huge market need here and a set of incumbent technologies that aren't meeting customer needs yet” while we chatted excitedly on the phone. The seed of an idea had been planted.
+We realized we were onto something when we realized, “Hey, there's a huge market need here and a set of incumbent technologies that aren't meeting customer needs yet” while chatting excitedly on the phone. The seed of an idea had been planted.
 
 In early 2020, we started “shopping the concept.” We made mock pitches to friends, family, and some venture capitalists (VCs) we knew. It was a chance to hone our ideas, work on our technique, and prepare ourselves for what was to come. 
 
@@ -89,11 +91,7 @@ We brought in other investors who could help complement our own experiences, inc
 
 *But putting those systems into production (and keeping them up and running) also taught me the downside to existing blockchain technology: It was a distributed system invented by people who were better at math than at high-scale, multi-tenanted services. For all their exotic math and interesting approaches to consensus, at the networking and storage layer all blockchains were just old fashioned “p2p” networks. Ethereum, Hyperledger Fabric, and all distributed ledger technologies were designed with a “single box” model, forever limiting them to the computational, memory, and network capacity of an individual machine. Adding more people to these network didn't make the network more powerful, as it would have in a service like Lambda, it just made more replicas of the same, limited, single-box deployment.*
 
-![Image for post](https://d24nhiikxn5jns.cloudfront.net/optimized/miro.medium.com%252Fmax%252F1920%252F1%2ADY19C6Yjszv6xA-YPZ35JA.png)
-
-### The inspiration for Universal Apps
-
-*Having spent many years building multi-tenanted systems that use millions of servers at AWS, I had a realization: The “missing link” for Serverless was a stateful data model that could work across different clouds and owners, something distributed ledgers had already figured out how to do. The “missing link” for blockchains was an architecture that offered unlimited scalability and ease of deployment. The idea that would become Vendia was born! After leaving Coinbase, I got to work designing an entirely new approach, one that would enable serverless, distributed apps…what we eventually came to call Universal Apps, or unis.*
+***Having spent many years building multi-tenanted systems that use millions of servers at AWS, I had a realization: The missing link for Serverless was a stateful data model that could work across different clouds and owners, something distributed ledgers had already figured out how to do; the missing link for blockchains was an architecture that offered unlimited scalability and ease of deployment. The idea that would become Vendia was born!***
 
 ## Shruthi Rao
 
@@ -101,19 +99,30 @@ We brought in other investors who could help complement our own experiences, inc
 
 *I have spent most of my professional life scaling businesses — taking things from zero to one, sometimes from zero to ten. At McKinsey & Co, I built roadmaps to launch new businesses for retail and banking. At AT&T, I launched AT&T Uverse at the height of the 2008 economic meltdown and played a pivotal role in the AT&T and DirecTV merger and then with the Bank of America, Countrywide, and Merryl Lynch merger and integration.*
 
-*I met Tim in person for the first time while interviewing for a business development lead role on his Serverless team. I had already done some Bitcoin mining, so I was familiar with distributed ledgers, and during the interview, I asked Tim why no one had attempted to apply Serverless approaches to Blockchain workloads. That was the beginning of our friendship and partnership. As Tim's BizDev partner for Serverless, I incubated and launched Serverless App Repository and helped build the Serverless business internationally and in Startup and SMB segments.*
+*I met Tim in person for the first time while interviewing for a business development lead role on his Serverless team. I had already done some Bitcoin mining, so I was familiar with distributed ledgers. During the interview, I asked Tim why no one had attempted to apply Serverless approaches to blockchain workloads. That was the beginning of our friendship and partnership. As Tim's BizDev partner for Serverless, I incubated and launched Serverless App Repository and helped build the Serverless business internationally and in Startup and SMB segments.*
 
-*In 2018 I founded the Blockchain movement at AWS and launched and ran the Amazon Managed Blockchain business to help customers get access to multi-party data. At AWS I had the privilege to meet with executives from 1,092 unique companies — -a rare opportunity to work backwards from real customer pain to product outcomes! The good news? Companies were trialling blockchains solutions at a very high rate through proofs of concept (POCs) and pilots. The bad news? The churn rate was also very high, as enterprises and SMBs alike struggled to put Hyperledger-based blockchains into service.*
+*In 2018, I founded the blockchain movement at AWS and launched and ran the Amazon Managed Blockchain business to help customers get access to multi-party data. At AWS, I had the privilege to meet with executives from 1,092 unique companies — a rare opportunity to work backwards from real customer pain to product outcomes!* 
+
+- *The good news? Companies were trialling blockchains solutions at a very high rate through proofs of concept (POCs) and pilots.*
+- *The bad news? The churn rate was also very high as enterprises and SMBs alike struggled to put Hyperledger-based blockchains into service.*
 
 *No customer has a blockchain problem, just as no customer has a database problem. I was on a quest to learn why customers were gravitating towards blockchains, despite the challenges. What was motivating so many companies from every possible sector to spend time and energy researching a new technology?*
 
-*Public blockchains focus on trust — much of their innovative implementation is focused on keeping critical financial transactions, such as balance transfers, safe and correct. But interestingly, of all the companies I personally talked to, not a single one had a ‘trust' problem with their partners. For enterprises, trust was often established by legal contracts and provisions already in place. Their real problem was something quite different.*
+***Public blockchains focus on trust — much of their innovative implementation is focused on keeping critical financial transactions, such as balance transfers, safe and correct. But interestingly, of all the companies I personally talked to, not a single one had a ‘trust' problem with their partners. For enterprises, trust was often established by legal contracts and provisions already in place. Their real problem was something quite different.***
 
-*These companies had made investments in IoT and Edge devices that were now gathering massive amounts of data — much of it outside each company's four walls, residing with supply chain, logistics, manufacturing, and financial partners. Not only did their digital and cloud journeys suddenly have these companies producing more data, they were also consuming more data than ever before: Investments in AI/ML and Analytics solutions were intended to improve business decision making and outcomes, but were often limited by having access to only a company's own data…leading to poor quality, stale outcomes, and limited business intelligence. I heard virtually the same story from every company — -they wanted to use blockchains to solve a data sprawl problem. The words varied a bit, but they were always some variant of, “My data is dispersed across clouds, partners and tech stacks and I need access to **all** of it, in real time, if I want to run ML or other optimizations to improve my business”.*
+*These companies had made investments in IoT and Edge devices that were now gathering massive amounts of data — much of it outside each company's four walls, residing with supply chain, logistics, manufacturing, and financial partners. Not only did their digital and cloud journeys suddenly have these companies producing more data, they were also consuming more data than ever before: Investments in AI/ML and Analytics solutions were intended to improve business decision making and outcomes, but were often limited by having access to only a company's own data…leading to poor quality, stale outcomes, and limited business intelligence. I heard virtually the same story from every company — they wanted to use blockchains to solve a data sprawl problem. The words varied a bit, but they were always some variant of, “My data is dispersed across clouds, partners and tech stacks and I need access to ALL of it, in real time, if I want to run machine leanring (ML) or other optimizations to improve my business.”*
 
-*The causes of failure were also always the same: Difficult deployments that exposed all the complexity of wiring servers together across companies and clouds, the inability to scale in any dimension (code, storage, or network throughput), and the lack of built-in solutions for cloud and mobile integration left most companies frustrated. Existing blockchain approaches, rooted in solving a “public trust” problem weren't succeeding. Running nodes was prohibitively difficult for even the largest and most capable enterprises. Hiring a team of blockchain engineers with special language expertise, such as Solidity, in order to create smart contracts was a nonstarter for companies of all sizes. Worst of all, when a multi-party organization involves participants with more limited IT capabilities — such as a coffee bean farmer, trucking company, or retail sales unit — standing up a Kubernetes cluster or scaling EC2 servers hosting Hyperledger Fabric simply wasn't even possible.*
+*The causes of failure were also always the same:* 
 
-*The missing link for companies with multiple partners in the value chain was a mechanism to share data without giving up control. Companies needed this mechanism to be easy to use, operationally light for all parties irrespective of their IT capabilities, and to work with the resources that they already had — both their existing technology stacks and their existing developers. They needed the ability to quickly experiment, the flexibility to evolve schemas and participants as business needs changed, and a quick “time to value” that could demonstrate ROI and also be simple to put into production to complement their AI/ML and IoT investments. I partnered with my dear friend Tim to work backwards from every customer I spoke with to create this missing link: Vendia, inspired by the tenets of blockchains, but with an entirely new approach, one that would enable the future of distributed business models.*
+- *Difficult deployments that exposed all the complexity of wiring servers together across companies and clouds, the inability to scale in any dimension (code, storage, or network throughput), and the lack of built-in solutions for cloud and mobile integration left most companies frustrated.* 
+- *Existing blockchain approaches, rooted in solving a “public trust” problem, weren't succeeding.* 
+- *Running nodes was prohibitively difficult for even the largest and most capable enterprises.* 
+- *Hiring a team of blockchain engineers with special language expertise, such as Solidity, in order to create smart contracts was a nonstarter for companies of all sizes.* 
+- *Worst of all, when a multi-party organization involves participants with more limited IT capabilities (such as a coffee bean farmer, trucking company, or retail sales unit) standing up a Kubernetes cluster or scaling EC2 servers hosting Hyperledger Fabric simply wasn't even possible.*
+
+***The missing link for companies with multiple partners in the value chain was a mechanism to share data without giving up control. Companies needed this mechanism to be easy to use, operationally light for all parties irrespective of their IT capabilities, and to work with the resources that they already had — both their existing technology stacks and their existing developers. They needed the ability to quickly experiment, the flexibility to evolve schemas and participants as business needs changed, and a quick “time to value” that could demonstrate ROI and also be simple to put into production to complement their AI/ML and IoT investments.*** 
+
+*I partnered with my dear friend Tim to work backwards from every customer I spoke with to create this missing link: Vendia and our flagship product [Vendia Share](https://www.vendia.com/product), inspired by the tenets of blockchains, but with an entirely new approach, one that would enable the future of distributed business models.*
 
 # Our vision for the future
 
@@ -125,4 +134,6 @@ Data sprawl affects every company, and is a limiting reagent to a successful dig
 
 Follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/mycompany/) and join the [Founder's Circle](https://www.vendia.com/resources/newsletter-vendia-founders-circle), a monthly newsletter Shruthi and Tim share covering what they're reading, writing, and sharing in the worlds of IT innovation, data strategy, and business blockchain.
 
-Love Serverless and building distributed applications, [we're hiring](http://jobs.vendia.net)!
+Want to get into the product and see what it's all about? [Download the free app](https://share.vendia.net/)
+
+Love Serverless and building distributed applications, [we're hiring](http://jobs.vendia.net). Won't you join us?[](http://jobs.vendia.net)
