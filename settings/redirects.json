@@ -9,8 +9,13 @@
       "status": 301,
       "from": "/blog/announcing-new-features",
       "to": "/blog/azure-support-smart-contracts"
+    },
+    {
+      "status": 301,
+      "from": "/hiring",
+      "to": "/careers"
     }
   ],
-  "updatedAt": "2023-01-27T19:35:24.768Z",
-  "updatedBy": "David Wells"
+  "updatedAt": "2023-01-30T17:01:48.302Z",
+  "updatedBy": "tz-vendia"
 }
