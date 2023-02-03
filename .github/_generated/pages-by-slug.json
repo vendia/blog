@@ -11,6 +11,10 @@
     "file": "/pages/example-content-page.md",
     "draft": true
   },
+  "legal/acceptable-use-policy": {
+    "file": "/pages/legal-acceptable-use-policy.md",
+    "draft": false
+  },
   "legal/dpa": {
     "file": "/pages/legal-huguesdpa.md",
     "draft": false
