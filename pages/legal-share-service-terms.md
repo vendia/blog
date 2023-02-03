@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /legal/share-service-terms
 components:
@@ -45,6 +45,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-03T23:29:42.036Z
+updatedAt: 2023-02-03T23:30:41.896Z
 id: b2258e6f-a779-41ac-80bc-e8f2614dfab8
 ---
