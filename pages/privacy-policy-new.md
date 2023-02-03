@@ -7,6 +7,9 @@ components:
     text: >-
       # Vendia Privacy Notice
 
+      Last Modified: 13 January 2023 
+
+
 
       We at Vendia are committed to protecting the privacy of both companies and individuals alike (each singularly referred to as “you / your”). This Privacy Notice describes how we collect and use your personal information in relation to Vendia websites, applications, products, services, events, and experiences that reference this Privacy Notice (together, “Vendia Offerings”). 
 
@@ -435,9 +438,9 @@ seo:
   noindex: false
   keywords: "Privacy Policy "
   title: Privacy Policy
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T18:10:45.038Z
-id: 95e02ba3-c3c8-4998-9a2e-0153b17ff039
-createdAt: 2022-12-07T22:53:58.013Z
 createdBy: Caroll Casbeer
+createdAt: 2022-12-07T22:53:58.013Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-03T22:59:29.817Z
+id: 95e02ba3-c3c8-4998-9a2e-0153b17ff039
 ---
