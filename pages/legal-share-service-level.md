@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /legal/share-service-level
+path: /legal/share-service-level-agreement
 components:
   - type: Text
     text: >
@@ -140,9 +140,10 @@ components:
     theme: white
 seo:
   noindex: false
+  title: Share Service Level Agreement
 createdBy: ""
 createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-02-03T16:56:32.691Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-03T23:16:39.325Z
 id: 9595c3c0-a192-4e55-9734-ef04148d84ba
 ---
