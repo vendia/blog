@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /legal/cookie-list
 components:
@@ -418,6 +418,6 @@ seo:
 createdBy: David Wells
 createdAt: 2022-12-08T00:46:52.240Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-03T23:33:00.188Z
+updatedAt: 2023-02-03T23:33:11.628Z
 id: e7dfdd89-9a88-4733-b243-595fc084f7e7
 ---
