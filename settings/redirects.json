@@ -34,8 +34,13 @@
       "status": 301,
       "from": "/share-service-terms",
       "to": "/legal/share-service-terms"
+    },
+    {
+      "status": 301,
+      "from": "/privacy/cookie-list",
+      "to": "/legal/cookie-list"
     }
   ],
-  "updatedAt": "2023-02-03T23:27:02.879Z",
+  "updatedAt": "2023-02-03T23:35:12.600Z",
   "updatedBy": "Caroll Casbeer"
 }
