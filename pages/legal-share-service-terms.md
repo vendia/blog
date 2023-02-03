@@ -36,7 +36,9 @@ components:
     theme: white
 seo:
   noindex: false
-updatedBy: Hugues Tennier
-updatedAt: 2023-01-09T21:09:25.786Z
+createdBy: ""
+createdAt: ""
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-03T23:27:18.114Z
 id: b2258e6f-a779-41ac-80bc-e8f2614dfab8
 ---
