@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /legal/share-service-level
 components:
@@ -140,7 +140,9 @@ components:
     theme: white
 seo:
   noindex: false
+createdBy: ""
+createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-01-09T21:09:48.533Z
+updatedAt: 2023-02-03T16:56:32.691Z
 id: 9595c3c0-a192-4e55-9734-ef04148d84ba
 ---
