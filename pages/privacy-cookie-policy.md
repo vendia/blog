@@ -7,8 +7,11 @@ components:
     text: >-
       # Vendia Cookies Policy
 
+      Last Modified: 4 January 2023
+
 
       This Cookie Policy explains how Vendia and its subsidiaries and affiliates use cookies and similar technologies to recognize you when you visit our websites, including at [www.vendia.com](https://www.vendia.net). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+
 
 
       ### What are cookies?
@@ -20,31 +23,38 @@ components:
       Cookies set by the website owner (Vendia in this case) are called ‘first party cookies’. Cookies set by parties other than the website owner are called ‘third party cookies’. Third party cookies enable third party features or functionality to be provided on or through the website (examples include advertising, interactive content and analytics). The parties that set these third party cookies can recognize your computer both when it visits the website in question, as well as when it visits certain other websites.
 
 
+
       ### Why do we use cookies?
 
 
       We use first party and third party cookies for several reasons. Some cookies are required for technical reasons in order for our website to operate, and we refer to these as "essential" or "strictly necessary" cookies. Other cookies also enable us to track and target the interests of our users to enhance the experience on our website. This data is used to deliver customized content to customers whose behavior indicates that they are interested in a particular subject area. Third parties serve cookies through our Websites for advertising, analytics and other purposes. This is described in more detail below.
 
 
+
       ### What type of cookies do we use and what is their function?
 
 
-      The specific types of first and third party cookies served through our website and the purposes they perform are listed below. See the [complete list of the cookies ](https://www.vendia.com/privacy/cookie-list)used by Vendia.
+      The specific types of first and third party cookies served through our website and the purposes they perform are listed below. See the complete list of the cookies used by Vendia.
 
 
-      1. Essential cookies: These cookies are strictly necessary to provide you with the services available through our website.
-
-      2. Performance cookies: These cookies are used to enhance the performance and functionality of our website but are non-essential to its use. All information these cookies collect is aggregated and is therefore anonymous. 
-
-      3. Functional cookies: These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies, then some or all of these services may not function properly.
-
-      4. Targeting cookies: These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed for advertisers, and in some cases selecting advertisements that are based on your interests.
 
 
-      ### How do we use cookies?
+      1. **Essential cookies**: These cookies are strictly necessary to provide you with the services available through our website.
+
+      2. **Performance cookies**: These cookies are used to enhance the performance and functionality of our website but are non-essential to its use. All information these cookies collect is aggregated and is therefore anonymous. 
+
+      3. **Functional Cookies**: These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies, then some or all of these services may not function properly.
+
+      4. **Targeting Cookies**: These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed for advertisers, and in some cases selecting advertisements that are based on your interests.
+
+
+
+      ### How do we use cookies? 
 
 
       To enable our systems to recognize your browser or device and to provide Vendia Offerings, we use cookies, pixels, and other similar technologies (collectively, “cookies”). We use these to  recognize your browser or device, learn more about your interests, and provide you with essential features and services. Additional purposes include:
+
+
 
 
       1. Recognizing you when you sign in to use our Offerings. This allows us to provide you with recommendations, display personalized content, and provide other customized features and services.
@@ -63,10 +73,13 @@ components:
       Some cookies are deleted at the end of your browsing session, while others persist between sessions. Essential cookies remain on your device for up to 365 days from your last visit to our site. Other cookies remain on your device for up to 365 days from their last use.
 
 
-      ### What type of information do we collect with cookies?
+
+      ### What type of information do we collect with cookies? 
 
 
       Examples of the information we automatically collect through cookies include:
+
+
 
 
       1. Network and connection information, such as the Internet protocol (IP) address used to connect your computer or other device to the Internet and information about your Internet service provider
@@ -82,6 +95,7 @@ components:
       6. The full Uniform Resource Locators (URL) clickstream to, through, and from our site (including date and time) and Vendia Offerings, content you viewed or searched for, page response times, download errors, and page interaction information (such as scrolling, clicks, and mouse-overs)
 
 
+
       ### How do I control cookies?
 
 
@@ -94,10 +108,12 @@ components:
       In addition, most advertising networks offer you a way to opt out of targeted advertising.  If you would like to find out more information, please visit [www.aboutads.info/choices](http://www.aboutads.info/choices) or [www.youronlinechoices.com](http://www.youronlinechoices.com/).
 
 
+
       ### What about other tracking technologies, like web beacons?
 
 
       Cookies are not the only tool used to track visitors to a website. We employ a software technology called clear gifs (Web Beacons/Web Bugs), that helps us better manage the website by informing us which content is most effective. Clear gifs are tiny graphics with a unique identifier, similar in function to cookies, and are used to track the online movements of web users. In contrast to cookies, which are stored on a user’s hard drive, clear gifs are embedded invisibly on web pages or in emails. For example, we use clear gifs or pixels in our HTML-based emails to let us know which emails have been opened by recipients. This allows us to gauge the effectiveness of certain communications and the effectiveness of our marketing campaigns
+
 
 
       ### Do you serve targeted advertising?
@@ -106,10 +122,12 @@ components:
       Third parties may serve cookies on your computer or mobile device to serve advertising through our website. These companies may use information about your visits to our website in order to provide relevant advertisements about goods and services that you may be interested in. They may also employ technology that is used to measure the effectiveness of advertisements. This can be accomplished by using cookies or web beacons to collect information about your visits. The information collected through this process does not enable us or them to identify your name, contact details or other personally identifying details unless you choose to provide these.
 
 
+
       ### How often will you update this Cookie Policy?
 
 
       We may update this Cookie Policy from time to time in order to reflect, for example, changes to the cookies we use or for other operational, legal or regulatory reasons. We will notify you of any material changes to this Policy by posting the changes on this page and providing a notice with on-site or email notifications. Any changes to our use of cookies and related technologies will be updated on this Cookie Policy
+
 
 
       ### Where can I get further information?
@@ -121,9 +139,9 @@ seo:
   noindex: false
   title: Cookies policy
   description: Vendia's cookie policy.
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-06T18:10:22.690Z
-id: 90887efc-6e5c-4ad0-9bc3-192d6e186f10
-createdAt: 2022-12-08T00:49:02.972Z
 createdBy: David Wells
+createdAt: 2022-12-08T00:49:02.972Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-03T23:38:52.514Z
+id: 90887efc-6e5c-4ad0-9bc3-192d6e186f10
 ---
