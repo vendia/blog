@@ -1322,9 +1322,10 @@ components:
     theme: white
 seo:
   noindex: false
+  title: Vendia Data Processing Addendum
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-01-20T23:58:29.314Z
+updatedAt: 2023-02-03T23:31:07.600Z
 id: 39a6aa79-7530-44d0-8c13-2defb1976291
 ---
