@@ -29,7 +29,7 @@
   },
   "legal/share-service-terms": {
     "file": "/pages/legal-share-service-terms.md",
-    "draft": true
+    "draft": false
   },
   "new-slug-on/site": {
     "file": "/pages/new-slug-on-site.md",
