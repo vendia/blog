@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /legal/acceptable-use-policy
 components:
@@ -62,6 +62,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-03T22:44:52.187Z
+updatedAt: 2023-02-03T22:45:00.095Z
 id: 235dea81-2598-46c0-be06-a3a934380eab
 ---
