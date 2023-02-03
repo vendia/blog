@@ -21,7 +21,7 @@
   },
   "legal/share-service-level": {
     "file": "/pages/legal-share-service-level.md",
-    "draft": true
+    "draft": false
   },
   "legal/share-service-terms": {
     "file": "/pages/legal-share-service-terms.md",
