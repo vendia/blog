@@ -19,8 +19,13 @@
       "status": 301,
       "from": "https://www.vendia.com/acceptable-use",
       "to": "https://www.vendia.com/legal/acceptable-use-policy"
+    },
+    {
+      "status": 301,
+      "to": "/legal/privacy-policy",
+      "from": "/privacy"
     }
   ],
-  "updatedAt": "2023-02-03T22:46:27.690Z",
+  "updatedAt": "2023-02-03T23:02:47.545Z",
   "updatedBy": "Caroll Casbeer"
 }
