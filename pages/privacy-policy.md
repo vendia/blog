@@ -433,8 +433,10 @@ components:
     theme: white
 seo:
   noindex: false
+  title: Vendia Privacy Notice
 createdBy: Caroll Casbeer
 createdAt: 2022-12-07T22:53:58.013Z
 updatedBy: Caroll Casbeer
-updatedAt: 2022-12-07T22:53:58.013Z
+updatedAt: 2023-02-03T23:31:57.931Z
+id: cf3ac3d4-79ba-4add-bd05-9f03f0fd48d3
 ---
