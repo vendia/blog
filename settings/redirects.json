@@ -24,8 +24,13 @@
       "status": 301,
       "to": "/legal/privacy-policy",
       "from": "/privacy"
+    },
+    {
+      "status": 301,
+      "from": "/share-service-level",
+      "to": "legal/share-service-level-agreement"
     }
   ],
-  "updatedAt": "2023-02-03T23:07:12.561Z",
+  "updatedAt": "2023-02-03T23:19:38.315Z",
   "updatedBy": "Caroll Casbeer"
 }
