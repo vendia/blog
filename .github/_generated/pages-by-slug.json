@@ -31,10 +31,6 @@
     "file": "/pages/new-slug-on-site.md",
     "draft": true
   },
-  "pancakes-list": {
-    "file": "/pages/pancakes-list.md",
-    "draft": true
-  },
   "privacy/cookie-list": {
     "file": "/pages/privacy-cookie-list.md",
     "draft": false
@@ -59,10 +55,6 @@
     "file": "/pages/reconciliationless.md",
     "draft": false
   },
-  "test-components-with-data-fetching": {
-    "file": "/pages/test-components-with-data-fetching.md",
-    "draft": true
-  },
   "thank-you/circles-of-trust-opt-in": {
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
     "draft": true
@@ -70,9 +62,5 @@
   "thank-you/founders-circle": {
     "file": "/pages/thank-you-founders-circle.md",
     "draft": false
-  },
-  "test-new-homepage": {
-    "file": "/pages/vendia-com.md",
-    "draft": true
   }
 }
