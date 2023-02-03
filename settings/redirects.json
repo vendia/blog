@@ -14,8 +14,13 @@
       "status": 301,
       "from": "/hiring",
       "to": "/careers"
+    },
+    {
+      "status": 301,
+      "from": "https://www.vendia.com/acceptable-use",
+      "to": "https://www.vendia.com/legal/acceptable-use-policy"
     }
   ],
-  "updatedAt": "2023-01-30T17:01:48.302Z",
-  "updatedBy": "tz-vendia"
+  "updatedAt": "2023-02-03T22:46:27.690Z",
+  "updatedBy": "Caroll Casbeer"
 }
