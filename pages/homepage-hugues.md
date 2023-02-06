@@ -71,16 +71,31 @@ components:
         up-to-date, governed, compliant, and auditable.
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"
+          alt="""" class="image-float-left" width="80" />
+
+
           ##### Instant reconciliation
 
 
           Eliminate the costs of manual, error-prone reconciliation from partner data. Vendia Share offers automatic, real-time reconciliation with an accurate, indisputable, and trusted source of truth.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095798_hlzws8.png"
+          alt="""" class="image-float-left" width="80" />
+
+
           ##### Full chain of custody
 
 
           Track and trace product DNA, inventory, and shipping information across supply chain partners. Vendia Share provides a fully auditable, versioned, and immutable source of truth.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095799_s3lmzl.png"
+          alt="""" class="image-float-left" width="80" />
+
+
           ##### Automatic compliance
 
 
@@ -93,21 +108,41 @@ components:
         Smart APIs, and cloud databases in a single, unified SaaS platform.
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Tech_41_xcbsqo.png"
+          alt="""" class="image-float-left" width="185" />
+
+
           ##### Truth as a service
 
 
           Provide partners with a single source of truth designed for secure, compliant, trusted B2B data sharing – all delivered as a service.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Cloud_36_gipsdd.png"
+          alt="""" class="image-float-left" width="184" />
+
+
           ##### Multi-cloud, multi-partner
 
 
           Bring trust to data that spans clouds, companies, regions, accounts, data warehouses, applications, and more.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Security_05_la1yrn.png"
+          alt="""" class="image-float-left" width="185" />
+
+
           ##### Compliance and security
 
 
           Get built-in compliance for SOC2, GDPR, CCPA, CPRA, and PII/PCI, plus out-of-the-box forensics on ransomware attacks.
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Tech_45_hj69pe.png"
+          alt="""" class="image-float-left" width="185" />
+
+
           ##### Global scale
 
 
@@ -186,6 +221,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T20:55:56.809Z
+updatedAt: 2023-02-06T21:04:45.126Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
