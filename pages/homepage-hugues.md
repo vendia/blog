@@ -91,6 +91,16 @@ components:
 
 
           Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing.
+  - type: Carousel
+    slides:
+      - text: >-
+          ## Gartner Cool Vendor
+
+
+          “A multicloud strategy is inevitable for global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market.”
+
+
+          <Button kind="primary" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -147,6 +157,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T19:15:46.204Z
+updatedAt: 2023-02-06T20:18:43.101Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
