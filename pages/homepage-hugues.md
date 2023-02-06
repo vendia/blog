@@ -106,7 +106,7 @@ components:
       Every customer delivers new innovation faster.
 
 
-      <Button kind="secondary" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
+      <Button kind="secondaryGhostPurple" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
     theme: white
   - type: Columns
     theme: white
@@ -147,6 +147,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T18:34:57.481Z
+updatedAt: 2023-02-06T19:15:46.204Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
