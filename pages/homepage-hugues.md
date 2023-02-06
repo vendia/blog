@@ -91,11 +91,28 @@ components:
 
 
           Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing.
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ## Eliminate costs. Accelerate innovation.
+
+
+      Every Vendia customer eliminates costs associated with manual, error-prone reconciliation.
+
+
+      Every Vendia customer reduces the costs of building, running, and maintaining complex data sharing systems.
+
+
+      Every customer delivers new innovation faster.
+
+
+      <Button kind="secondary" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
+    theme: white
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T17:58:08.197Z
+updatedAt: 2023-02-06T18:00:34.316Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
