@@ -101,6 +101,14 @@ components:
 
 
           <Button kind="primary" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
+      - text: >-
+          ## 1,092 Enterprises
+
+
+          We interviewed 1,092 enterprises and uncovered the top challenges of real-time data sharing. Learn how serverless distributed ledgers help overcome the most common data sharing obstacles.
+
+
+          <Button kind="primary" label="Get the research" href="https://www.vendia.com/blog/serverless-distributed-ledger-for-enterprises" />
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -157,6 +165,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T20:18:43.101Z
+updatedAt: 2023-02-06T20:41:16.655Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
