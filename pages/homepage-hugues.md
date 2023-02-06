@@ -108,11 +108,27 @@ components:
 
       <Button kind="secondary" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
     theme: white
+  - type: Columns
+    theme: white
+    intro:
+      title: Resources
+      text: Learn how business blockchains, Smart APIs and cloud databases unlock the
+        next-generation of data sharing.
+    columns:
+      - text: >-
+          ##### Blockchains + Centralized IT
+
+
+          Learn how conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
+
+
+          [Read more](https://www.vendia.com/blog/private-vs-public-blockchains)
+        wrapTheColumnInACard: true
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T18:00:34.316Z
+updatedAt: 2023-02-06T18:24:32.532Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
