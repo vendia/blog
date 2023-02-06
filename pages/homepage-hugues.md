@@ -9,7 +9,7 @@ components:
       title: Designed for sensitive data in regulated industries
     columns:
       - text: >-
-          ### Financial Services
+          ##### Financial Services
 
 
           Banks, insurance companies, and lenders leave batch processes behind and reduce the risk of outstanding unpaid balances and data disputes.
@@ -17,7 +17,7 @@ components:
 
           [Learn more](https://www.vendia.com/industry/financial-services)
       - text: >-
-          ### Healthcare
+          ##### Healthcare
 
 
           Providers, labs, and affiliates automate data sharing workflows with privacy, governance, and access control built in.
@@ -25,7 +25,7 @@ components:
 
           [Learn more](https://www.vendia.com/industry#healthcare)
       - text: >-
-          ### Travel
+          ##### Travel
 
 
           Airlines and their partners ensure that fare, loyalty, and ticket updates happen in real time with proof of data accuracy and ATI compliance.
@@ -33,7 +33,7 @@ components:
 
           [Learn more](https://www.vendia.com/industry/travel-hospitality)
       - text: >-
-          ### Manufacturing
+          ##### Manufacturing
 
 
           From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth.
@@ -50,17 +50,17 @@ components:
         up-to-date, governed, compliant, and auditable.
     columns:
       - text: >-
-          ### Instant reconciliation
+          ##### Instant reconciliation
 
 
           Eliminate the costs of manual, error-prone reconciliation from partner data. Vendia Share offers automatic, real-time reconciliation with an accurate, indisputable, and trusted source of truth.
       - text: >-
-          ### Full chain of custody
+          ##### Full chain of custody
 
 
           Track and trace product DNA, inventory, and shipping information across supply chain partners. Vendia Share provides a fully auditable, versioned, and immutable source of truth.
       - text: >-
-          ### Automatic compliance
+          ##### Automatic compliance
 
 
           Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
@@ -72,22 +72,22 @@ components:
         Smart APIs, and cloud databases in a single, unified SaaS platform.
     columns:
       - text: >-
-          ### Truth as a service
+          ##### Truth as a service
 
 
           Provide partners with a single source of truth designed for secure, compliant, trusted B2B data sharing – all delivered as a service.
       - text: >-
-          ### Multi-cloud, multi-partner
+          ##### Multi-cloud, multi-partner
 
 
           Bring trust to data that spans clouds, companies, regions, accounts, data warehouses, applications, and more.
       - text: >-
-          ### Compliance and security
+          ##### Compliance and security
 
 
           Get built-in compliance for SOC2, GDPR, CCPA, CPRA, and PII/PCI, plus out-of-the-box forensics on ransomware attacks.
       - text: >-
-          ### Global scale
+          ##### Global scale
 
 
           Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing.
@@ -124,11 +124,29 @@ components:
 
           [Read more](https://www.vendia.com/blog/private-vs-public-blockchains)
         wrapTheColumnInACard: true
+      - text: >-
+          ##### The Future of APIs
+
+
+          Building APIs for businesses remains challenging. Learn how to evolve from “dumb pipes” to APIs that automatically keep data consistent, correct, and up to date.
+
+
+          [Read more](https://www.vendia.com/blog/smart-apis)
+        wrapTheColumnInACard: true
+      - text: >-
+          ##### Are Blockchains Databases?
+
+
+          Will blockchain and database technologies remain forever independent? Or is the ultimate expression of data storage a combination of both?
+
+
+          [Read more](https://www.vendia.com/blog/are-blockchains-databases)
+        wrapTheColumnInACard: true
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T18:24:32.532Z
+updatedAt: 2023-02-06T18:34:57.481Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
