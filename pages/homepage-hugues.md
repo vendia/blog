@@ -9,6 +9,11 @@ components:
       title: Designed for sensitive data in regulated industries
     columns:
       - text: >-
+          
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png" alt="""" class="image-float-left" width="83" />
+
+
           ##### Financial Services
 
 
@@ -16,7 +21,13 @@ components:
 
 
           [Learn more](https://www.vendia.com/industry/financial-services)
+        wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095798_fqcslk.png"
+          alt="""" class="image-float-left" width="80" />
+
+
           ##### Healthcare
 
 
@@ -25,6 +36,11 @@ components:
 
           [Learn more](https://www.vendia.com/industry#healthcare)
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"
+          alt="""" class="image-float-left" width="80" />
+
+
           ##### Travel
 
 
@@ -33,6 +49,11 @@ components:
 
           [Learn more](https://www.vendia.com/industry/travel-hospitality)
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"
+          alt="""" class="image-float-left" width="80" />
+
+
           ##### Manufacturing
 
 
@@ -165,6 +186,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T20:41:16.655Z
+updatedAt: 2023-02-06T20:55:56.809Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
