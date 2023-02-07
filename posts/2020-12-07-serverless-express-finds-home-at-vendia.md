@@ -24,11 +24,11 @@ seo:
   title: AWS Serverless Express sponsored by Vendia
   keywords: ""
 sidebarCta:
-  - Try Vendia Share
+  - 930c3aa9-f2f4-4b0a-9cc5-488b6f804412
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-02-07T00:15:13.224Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T21:04:03.851Z
 id: c57867dc-5eb2-4568-88e0-0c4315e618bf
 ---
 
