@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Wait, aren't blockchains databases?
+title: Are blockchains databases?
 description: With some databases now supporting versioning and checksums and
   blockchains storing more types of data, are databases and blockchain
   technologies on a path to merge?
@@ -42,7 +42,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-06T23:35:01.118Z
+updatedAt: 2023-02-07T19:29:42.690Z
 id: d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1
 ---
 
