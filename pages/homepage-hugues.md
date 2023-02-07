@@ -3,6 +3,15 @@ draft: true
 template: page
 path: /homepage-hugues
 components:
+  - type: Logos
+    logos:
+      - BMW
+      - Unfi
+      - Resolution Life
+      - Atos
+      - Purina
+      - Aerotrax Technologies
+    theme: white
   - type: Columns
     theme: white
     intro:
@@ -267,6 +276,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-07T16:46:00.795Z
+updatedAt: 2023-02-07T17:02:51.443Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
