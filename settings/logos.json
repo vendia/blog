@@ -2,6 +2,14 @@
   "description": "Logos used in various landing pages",
   "logos": [
     {
+      "name": "United",
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675790059/Customer%20logos/United-Airlines-Logo_gl7m86.png"
+    },
+    {
+      "name": "Best Friends Animal Society",
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675789864/Customer%20logos/Group_1_uuxkuw.png"
+    },
+    {
       "name": "Aerotrax Technologies",
       "logo": "https://vendia.com/images/customers/Aerotrax.svg"
     },
@@ -22,6 +30,6 @@
       "logo": "https://vendia.com/images/customers/UNFI.svg"
     }
   ],
-  "updatedAt": "2022-11-15T21:38:56.362Z",
-  "updatedBy": "David Wells"
+  "updatedAt": "2023-02-07T17:15:20.712Z",
+  "updatedBy": "Hugues Tennier"
 }
