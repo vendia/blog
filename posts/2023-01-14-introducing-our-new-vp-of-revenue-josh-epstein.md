@@ -19,11 +19,11 @@ seo:
     teams to help our customers share data across their partner ecoystems and
     reduce costs. "
 sidebarCta:
-  - Want to learn more about Vendia?
+  - a12ef328-491c-4bb6-a6a9-bf816e949e8c
 createdBy: ""
 createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-01-15T22:07:18.836Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T21:01:00.570Z
 id: 19793709-9362-4266-9953-aae7256f33aa
 ---
 
