@@ -9,8 +9,8 @@ components:
       - Unfi
       - Resolution Life
       - Atos
-      - Purina
-      - Aerotrax Technologies
+      - United
+      - Best Friends Animal Society
     theme: white
   - type: Columns
     theme: white
@@ -276,6 +276,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-07T17:02:51.443Z
+updatedAt: 2023-02-07T17:16:04.324Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
