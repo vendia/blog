@@ -24,7 +24,7 @@ seo:
     to know Li, and learn if you’d thrive at Vendia, too.
   keywords: working at Vendia, Vendia careers
 sidebarCta:
-  - Circles of Trust
+  - fae91eb2-be1c-405c-bb84-b6119def1d70
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
