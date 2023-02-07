@@ -930,6 +930,55 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-26T17:51:10.556Z",
       "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
     }
   ],
   "Servereless": [
@@ -1176,6 +1225,788 @@
       "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
     }
   ],
+  "Hyperledger Fabric": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "decentralization": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    },
+    {
+      "file": "/posts/2021-02-01-decentralization.md",
+      "draft": false,
+      "title": "Understanding Decentralization in the Cloud",
+      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
+      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
+      "date": "2021-02-01",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "decentralization"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    }
+  ],
+  "Amazon DynamoDB": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Amazon Aurora": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Azure CosmosDB": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Infura": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Alchemy": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Coinbase": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Google Spanner": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Oracle Blockchain Tables": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Amazon GQLD": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Snowflake": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "Ethereum": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "trends": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "database": [
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Wait, aren't blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-06T23:35:01.118Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
   "supply chain, manufacturing": [
     {
       "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
@@ -1386,25 +2217,6 @@
       "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
     }
   ],
-  "decentralization": [
-    {
-      "file": "/posts/2021-02-01-decentralization.md",
-      "draft": false,
-      "title": "Understanding Decentralization in the Cloud",
-      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
-      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
-      "date": "2021-02-01",
-      "categories": [
-        "concepts"
-      ],
-      "tags": [
-        "decentralization"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    }
-  ],
   "STAMTI": [
     {
       "file": "/posts/2021-01-31-stamti.md",
@@ -1529,6 +2341,206 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T19:12:29.677Z"
+    }
+  ],
+  "AWS Lambda": [
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T00:15:13.224Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
+    }
+  ],
+  "Serverless Express": [
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T00:15:13.224Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
+    }
+  ],
+  "Serverless": [
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T00:15:13.224Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
+    }
+  ],
+  "AWS": [
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T00:15:13.224Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
+    }
+  ],
+  "Brett Andrews": [
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "Try Vendia Share"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T00:15:13.224Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
     }
   ],
   "engineering, SQL, event": [
