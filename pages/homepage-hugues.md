@@ -35,6 +35,7 @@ components:
 
 
           [Learn more](https://www.vendia.com/industry#healthcare)
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"
@@ -48,6 +49,7 @@ components:
 
 
           [Learn more](https://www.vendia.com/industry/travel-hospitality)
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"
@@ -61,6 +63,7 @@ components:
 
 
           [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
+        wrapTheColumnInACard: false
   - type: Columns
     theme: white
     intro:
@@ -80,6 +83,7 @@ components:
 
 
           Eliminate the costs of manual, error-prone reconciliation from partner data. Vendia Share offers automatic, real-time reconciliation with an accurate, indisputable, and trusted source of truth.
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095798_hlzws8.png"
@@ -90,6 +94,7 @@ components:
 
 
           Track and trace product DNA, inventory, and shipping information across supply chain partners. Vendia Share provides a fully auditable, versioned, and immutable source of truth.
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095799_s3lmzl.png"
@@ -100,6 +105,7 @@ components:
 
 
           Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
+        wrapTheColumnInACard: false
   - type: Columns
     theme: white
     intro:
@@ -117,6 +123,7 @@ components:
 
 
           Provide partners with a single source of truth designed for secure, compliant, trusted B2B data sharing – all delivered as a service.
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Cloud_36_gipsdd.png"
@@ -127,6 +134,7 @@ components:
 
 
           Bring trust to data that spans clouds, companies, regions, accounts, data warehouses, applications, and more.
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Security_05_la1yrn.png"
@@ -137,6 +145,7 @@ components:
 
 
           Get built-in compliance for SOC2, GDPR, CCPA, CPRA, and PII/PCI, plus out-of-the-box forensics on ransomware attacks.
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Tech_45_hj69pe.png"
@@ -147,6 +156,7 @@ components:
 
 
           Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing.
+        wrapTheColumnInACard: false
   - type: Carousel
     slides:
       - text: >-
@@ -182,6 +192,27 @@ components:
 
       <Button kind="secondaryGhostPurple" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
     theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png
+  - type: MediaWithText
+    mediaPosition: right
+    text: >-
+      ## Proof delivered in less than a week
+
+
+      Deliver a working proof-of-concept of how to elimiate manual reconciliation, including a partner integration, in five business days.
+
+
+      Let us help you succeed in sharing. For free.
+
+
+      <Button kind="primary" label="Free 1-week POC" href="/poc" />
+
+
+      <Button kind="secondaryGhostPurple" label="Talk to our sales team" href="/contact-us" />
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675741440/Website/Iso/Frame_hjihe3.png
   - type: Columns
     theme: white
     intro:
@@ -190,6 +221,11 @@ components:
         next-generation of data sharing.
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1671502214/Website/Iso/Blocks_k4hbjm.png"
+          alt="""" class="image-float-center" width="285" />
+
+
           ##### Blockchains + Centralized IT
 
 
@@ -199,6 +235,11 @@ components:
           [Read more](https://www.vendia.com/blog/private-vs-public-blockchains)
         wrapTheColumnInACard: true
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1674599129/Website/Iso/Build_apps_rrf6c2.png"
+          alt="""" class="image-float-center" width="295" />
+
+
           ##### The Future of APIs
 
 
@@ -208,6 +249,11 @@ components:
           [Read more](https://www.vendia.com/blog/smart-apis)
         wrapTheColumnInACard: true
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1674599204/Website/Iso/Files_ocmuhx.png"
+          alt="""" class="image-float-center" width="337" />
+
+
           ##### Are Blockchains Databases?
 
 
@@ -221,6 +267,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-06T21:04:45.126Z
+updatedAt: 2023-02-07T03:52:04.451Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
