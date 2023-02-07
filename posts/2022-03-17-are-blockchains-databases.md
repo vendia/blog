@@ -72,7 +72,7 @@ When we peer more closely, however, database and blockchain technologies start t
 
 ##### Table 1: A high-level feature comparison of databases and first-generation blockchains | NOTE: Database companies outside of cloud service providers may offer multi-cloud capabilities, but none with the reach of a self-deployed blockchain.
 
-<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088..158864064-4df1f9da-a70a-4ab9-964b-0e90114d4dd7.png" alt="""" class="image-float-center" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..71095088..158864064-4df1f9da-a70a-4ab9-964b-0e90114d4dd7.png" class="image-float-center" />
 
 ### Examples of blockchain capabilities and characteristics
 
