@@ -31,11 +31,11 @@ seo:
     across clouds, accounts, regions, and partners without sacrificing
     compliance or control.
 sidebarCta:
-  - Want to learn more about Vendia?
+  - a12ef328-491c-4bb6-a6a9-bf816e949e8c
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-12T21:16:57.470Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T21:01:35.880Z
 id: 8dfe59e9-b843-46c2-892f-c6b967ebcbd9
 ---
 
