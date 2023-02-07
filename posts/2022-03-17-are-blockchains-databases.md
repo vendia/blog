@@ -38,7 +38,7 @@ seo:
     characteristics and capabilities as enterprise tools in a modern,
     multi-cloud IT environment.
 sidebarCta:
-  - What’s a business blockchain?
+  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
