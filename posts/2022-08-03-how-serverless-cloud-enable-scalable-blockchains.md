@@ -28,11 +28,11 @@ seo:
     inventor of Serverless and AWS Lambda.
   keywords: ""
 sidebarCta:
-  - What’s a business blockchain?
+  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-26T17:51:10.556Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T21:00:25.728Z
 id: aa03ab96-1906-40ce-b2b6-f84d938d43d2
 ---
 
