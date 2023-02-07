@@ -24,11 +24,11 @@ seo:
     in a Uni while controlling read and write permissions.
   keywords: Universal applications, file sharing, cross-cloud file sharing
 sidebarCta:
-  - Try Vendia Share
+  - 930c3aa9-f2f4-4b0a-9cc5-488b6f804412
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-12T20:57:26.237Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T20:58:44.416Z
 id: 7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0
 ---
 
