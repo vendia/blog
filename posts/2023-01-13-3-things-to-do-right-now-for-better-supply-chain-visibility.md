@@ -26,7 +26,7 @@ seo:
     with supply chain partners up and downstream? Consider these three
     principles for your business and data strategy.
 sidebarCta:
-  - What’s a business blockchain?
+  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
