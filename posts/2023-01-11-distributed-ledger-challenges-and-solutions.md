@@ -26,11 +26,11 @@ seo:
   keywords: distributed ledger, distributed ledger technology, DLT, chain of
     custody solutions, multi-party data sharing solutions
 sidebarCta:
-  - What’s a business blockchain?
+  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
 createdBy: ""
 createdAt: ""
-updatedBy: james-vendia
-updatedAt: 2023-01-11T20:22:04.296Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T21:03:15.903Z
 id: dc7afa12-3605-477d-8156-028fc3d5e7a1
 ---
 
