@@ -166,7 +166,7 @@ components:
           “A multicloud strategy is inevitable for global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market.”
 
 
-          <Button kind="secondaryGhost" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
+          <Button kind="secondaryGhostDark" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
       - text: >-
           ## 1,092 Enterprises
 
@@ -174,7 +174,7 @@ components:
           We interviewed 1,092 enterprises and uncovered the top challenges of real-time data sharing. Learn how serverless distributed ledgers help overcome the most common data sharing obstacles.
 
 
-          <Button kind="primary" label="Get the research" href="https://www.vendia.com/blog/serverless-distributed-ledger-for-enterprises" />
+          <Button kind="secondaryGhostDark" label="Get the research" href="https://www.vendia.com/blog/serverless-distributed-ledger-for-enterprises" />
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -267,6 +267,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-07T15:38:51.921Z
+updatedAt: 2023-02-07T16:46:00.795Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
