@@ -166,7 +166,7 @@ components:
           “A multicloud strategy is inevitable for global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market.”
 
 
-          <Button kind="primary" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
+          <Button kind="secondaryGhost" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
       - text: >-
           ## 1,092 Enterprises
 
@@ -267,6 +267,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Hugues Tennier
-updatedAt: 2023-02-07T03:52:04.451Z
+updatedAt: 2023-02-07T15:38:51.921Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
