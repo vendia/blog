@@ -24,11 +24,11 @@ seo:
     Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.
   title: "Team spotlight: Vendia Software Development"
 sidebarCta:
-  - Try Vendia Share
+  - 930c3aa9-f2f4-4b0a-9cc5-488b6f804412
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-25T03:22:39.001Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T20:57:04.996Z
 id: 13373d57-30db-4b71-b540-b39aac7e7ab6
 ---
 
