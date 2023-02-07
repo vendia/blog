@@ -28,11 +28,11 @@ seo:
     Vendia came to life as an idea, a funded startup, and a breakthrough data
     sharing platform for the Web3 era.
 sidebarCta:
-  - Join the Founder's Circle
+  - d9bbe106-8c72-4f2e-a55d-d4c53073653f
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-27T18:48:11.236Z
+updatedBy: David Wells
+updatedAt: 2023-02-07T21:04:34.302Z
 id: 95117065-4cca-4aec-b8f8-614f4472aa30
 ---
 
