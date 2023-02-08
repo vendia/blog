@@ -892,6 +892,269 @@
       "updatedAt": "2022-12-07T18:45:47.542Z"
     }
   ],
+  "founders": [
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "draft": false,
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
+      "date": "2020-07-01T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-05-31-vendia-announces-series-b",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "tim wagner",
+        "shruthi rao",
+        "founders",
+        "origin"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
+      "seo": {
+        "title": "Meet Vendia's founders",
+        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
+      },
+      "sidebarCta": [
+        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:04:34.302Z",
+      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
+    }
+  ],
+  "Circles of Trust": [
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    }
+  ],
+  "podcast": [
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    }
+  ],
+  "Tim Wagner": [
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:00:25.728Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "Shruthi Rao": [
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    }
+  ],
   "data modeling, security, best practices": [
     {
       "file": "/posts/2022-09-15-api-design-best-practices.md",
@@ -1058,48 +1321,6 @@
     }
   ],
   "Lambda": [
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "How Serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
-      ],
-      "tags": [
-        "blockchain",
-        "Servereless",
-        "Lambda",
-        "Tim Wagner",
-        "webcast",
-        "Peter Sbarski"
-      ],
-      "seo": {
-        "title": "How Serverless and cloud enable scalable blockchains",
-        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:00:25.728Z",
-      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
-    }
-  ],
-  "Tim Wagner": [
     {
       "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
       "draft": false,
@@ -2750,46 +2971,6 @@
     }
   ],
   "shruthi rao": [
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
-      "date": "2020-07-01T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-05-31-vendia-announces-series-b",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "tim wagner",
-        "shruthi rao",
-        "founders",
-        "origin"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
-      "seo": {
-        "title": "Meet Vendia's founders",
-        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
-      },
-      "sidebarCta": [
-        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:04:34.302Z",
-      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
-    }
-  ],
-  "founders": [
     {
       "file": "/posts/2020-07-01-meet-vendias-founders.md",
       "draft": false,
