@@ -64,7 +64,7 @@
         "keywords": "working at Vendia, Vendia careers"
       },
       "sidebarCta": [
-        "Circles of Trust"
+        "fae91eb2-be1c-405c-bb84-b6119def1d70"
       ],
       "createdBy": "",
       "createdAt": "",
@@ -554,7 +554,7 @@
         "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy."
       },
       "sidebarCta": [
-        "What’s a business blockchain?"
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
       ],
       "createdBy": "",
       "createdAt": "",
@@ -1008,15 +1008,35 @@
       "file": "/posts/2022-05-10-improve-your-data-mesh.md",
       "draft": false,
       "title": "Improve your data mesh with real-time data sharing",
-      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
-      "date": "2022-05-10",
+      "description": "Learn why organizations exploring a data mesh should also consider the benefits of integrating a real-time data sharing solution like Vendia Share.",
+      "date": "2022-05-10T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
       "categories": [
         "architecture",
         "concepts"
       ],
-      "authors": [
-        "James Gimourginas"
-      ]
+      "relatedPosts": [
+        "2022-07-12-top-10-data-modeling-techniques",
+        "2022-06-09-apis-for-real-time-data-sharing",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "domain driven design",
+        "data mesh"
+      ],
+      "seo": {
+        "title": "Improve your data mesh with real-time data sharing",
+        "keywords": "data mesh, real-time data sharing",
+        "description": "Learn how real-time data sharing solutions help organizations push beyond persistent data challenges and increase the value of a data mesh architecture. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T17:31:31.023Z",
+      "id": "a7c8c05a-7e98-4ae7-8604-26eb1bb208e4"
     },
     {
       "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
@@ -1042,7 +1062,7 @@
         "keywords": "real-time data"
       },
       "sidebarCta": [
-        "What’s a business blockchain?"
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
       ],
       "createdBy": "",
       "createdAt": "",
@@ -1741,7 +1761,7 @@
         "keywords": "real-time data"
       },
       "sidebarCta": [
-        "What’s a business blockchain?"
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
       ],
       "createdBy": "",
       "createdAt": "",
@@ -2980,15 +3000,35 @@
       "file": "/posts/2022-05-10-improve-your-data-mesh.md",
       "draft": false,
       "title": "Improve your data mesh with real-time data sharing",
-      "description": "Organizations exploring a data mesh should also consider exploring the benefits of integrating a real-time data sharing solution like Vendia Share",
-      "date": "2022-05-10",
+      "description": "Learn why organizations exploring a data mesh should also consider the benefits of integrating a real-time data sharing solution like Vendia Share.",
+      "date": "2022-05-10T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
       "categories": [
         "architecture",
         "concepts"
       ],
-      "authors": [
-        "James Gimourginas"
-      ]
+      "relatedPosts": [
+        "2022-07-12-top-10-data-modeling-techniques",
+        "2022-06-09-apis-for-real-time-data-sharing",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "domain driven design",
+        "data mesh"
+      ],
+      "seo": {
+        "title": "Improve your data mesh with real-time data sharing",
+        "keywords": "data mesh, real-time data sharing",
+        "description": "Learn how real-time data sharing solutions help organizations push beyond persistent data challenges and increase the value of a data mesh architecture. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T17:31:31.023Z",
+      "id": "a7c8c05a-7e98-4ae7-8604-26eb1bb208e4"
     },
     {
       "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
