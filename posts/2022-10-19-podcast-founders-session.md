@@ -7,10 +7,20 @@ description: In this podcast episode of Circles of Trust, Vendia co-founders,
   founded Vendia.
 date: 2022-10-19
 authors:
-  - Alexa Johnson
+  - Vendia
 categories:
   - company
-  - product
+relatedPosts:
+  - 2020-07-01-meet-vendias-founders
+  - 2022-04-01-private-vs-public-blockchains
+  - 2021-06-08-gartner-cool-vendor
+tags:
+  - founders
+  - Circles of Trust
+  - podcast
+  - Tim Wagner
+  - Shruthi Rao
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png
 seo:
   title: "Circles of Trust Episode 2: Vendia's Founders"
   description: >+
@@ -22,8 +32,8 @@ seo:
 
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-17T19:53:41.246Z
+updatedBy: alexa-vendia
+updatedAt: 2023-02-08T23:46:23.669Z
 id: c0cf2402-204b-44c5-801c-dab2a69dacfd
 ---
 
