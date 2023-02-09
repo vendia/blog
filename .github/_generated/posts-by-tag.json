@@ -1,4 +1,514 @@
 {
+  "closing the books": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "podcast": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    }
+  ],
+  "Circles of Trust": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    }
+  ],
+  "reconciliation": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "data transformation": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "MUFG": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "financial services": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "Joyce Clinton": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "Francine Klein": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
+  "Tim Zonca": [
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": true,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-09T21:52:30.411Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    }
+  ],
   "engineering": [
     {
       "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
@@ -965,80 +1475,6 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-07T21:04:34.302Z",
       "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
-    }
-  ],
-  "Circles of Trust": [
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "draft": false,
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-01-private-vs-public-blockchains",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "founders",
-        "Circles of Trust",
-        "podcast",
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
-      "seo": {
-        "title": "Circles of Trust Episode 2: Vendia's Founders",
-        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-08T23:46:23.669Z",
-      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "draft": false,
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-01-private-vs-public-blockchains",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "founders",
-        "Circles of Trust",
-        "podcast",
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
-      "seo": {
-        "title": "Circles of Trust Episode 2: Vendia's Founders",
-        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-08T23:46:23.669Z",
-      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
     }
   ],
   "Tim Wagner": [
