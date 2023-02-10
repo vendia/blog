@@ -27,7 +27,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-10T21:27:38.428Z
+updatedAt: 2023-02-10T21:36:16.115Z
 id: df003e7c-b2d5-43ce-ba83-6badfaa6b5ce
 ---
 
@@ -99,7 +99,7 @@ If your organization has been collecting large amounts of data over time without
 
 Once you’ve identified the types and locations of data within your organization, it’s time to select the [technology](https://www.vendia.com/blog/real-time-data-sharing-vendors#vendia-combines-the-best-of-breed-from-each-type-for-a-new-solution) that not only make it possible to enable tracking, storage, and transfer within your system — you want to build a tech stack that makes it easy to build, manage, govern, and scale without sacrificing quality, insight access, and compliance.
 
-From your data sources like an ERP, [CRM](https://www.vendia.com/blog/what-is-customer-360-with-vendia), or [OLTP](https://www.vendia.com/blog/2023-predictions-tim-wagner#1-were-entering-the-postmodern-cloud-era-of-technology-mergers) (or spreadsheets?) all the way through the ecosystem “food chain” across to data reporting and visualizations a la [Tableau](https://www.tableau.com/), there are so many choices and configurations. Meanwhile, even with the best technology, organizations struggle to ensure data accuracy, uniformity, and timeliness. There is no golden record, or at least not one that leaders can trust. 
+From your data sources like an ERP, [CRM](https://www.vendia.com/blog/what-is-customer-360-with-vendia), or OLTP (or spreadsheets?) all the way through the ecosystem “food chain” across to data reporting and visualizations a la [Tableau](https://www.tableau.com/), there are so many choices and configurations. Meanwhile, even with the best technology, organizations struggle to ensure data accuracy, uniformity, and timeliness. There is no golden record, or at least not one that leaders can trust. 
 
 ##### **♟️Potential challenges with choosing the right technology for your data ecosystem**
 
@@ -163,4 +163,4 @@ Our team of solutions architects can help you eliminate cost and accelerate inno
 
 Our Serverless platform, Vendia Share, combines the best of API, distributed ledger, and database technology, so you can build an automated data ecosystem that’s always up-to-date and empowers all parties with a single source of truth.
 
-**Ask us for [more information](https://meetings.hubspot.com/tim-zonca/contact-an-expert), sign up for the app to explore the platform’s [building blocks](https://share.vendia.net/), or ask us to build you a[ proof of concept](https://www.vendia.com/poc) in five business days.**
+**Ask us for [more information](https://meetings.hubspot.com/tim-zonca/contact-an-expert), sign up for [the app](https://share.vendia.net/) to explore the platform’s building blocks, or ask us to build you a[ proof of concept](https://www.vendia.com/poc) in five business days.**
