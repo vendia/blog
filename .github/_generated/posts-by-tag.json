@@ -1,4 +1,148 @@
 {
+  "use cases": [
+    {
+      "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
+      "draft": true,
+      "title": "How to build a data ecosystem",
+      "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
+      "date": "2023-02-10T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-05-10-improve-your-data-mesh",
+        "2021-01-29-getting-started-with-vendia-share"
+      ],
+      "tags": [
+        "use cases",
+        "data trust",
+        "data alliance",
+        "data ecosystem"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "How to build a data ecosystem",
+        "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-10T21:05:19.848Z",
+      "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
+    }
+  ],
+  "data trust": [
+    {
+      "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
+      "draft": true,
+      "title": "How to build a data ecosystem",
+      "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
+      "date": "2023-02-10T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-05-10-improve-your-data-mesh",
+        "2021-01-29-getting-started-with-vendia-share"
+      ],
+      "tags": [
+        "use cases",
+        "data trust",
+        "data alliance",
+        "data ecosystem"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "How to build a data ecosystem",
+        "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-10T21:05:19.848Z",
+      "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
+    }
+  ],
+  "data alliance": [
+    {
+      "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
+      "draft": true,
+      "title": "How to build a data ecosystem",
+      "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
+      "date": "2023-02-10T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-05-10-improve-your-data-mesh",
+        "2021-01-29-getting-started-with-vendia-share"
+      ],
+      "tags": [
+        "use cases",
+        "data trust",
+        "data alliance",
+        "data ecosystem"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "How to build a data ecosystem",
+        "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-10T21:05:19.848Z",
+      "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
+    }
+  ],
+  "data ecosystem": [
+    {
+      "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
+      "draft": true,
+      "title": "How to build a data ecosystem",
+      "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
+      "date": "2023-02-10T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-05-10-improve-your-data-mesh",
+        "2021-01-29-getting-started-with-vendia-share"
+      ],
+      "tags": [
+        "use cases",
+        "data trust",
+        "data alliance",
+        "data ecosystem"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "How to build a data ecosystem",
+        "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-10T21:05:19.848Z",
+      "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
+    }
+  ],
   "closing the books": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
