@@ -70,7 +70,7 @@ Here are a few use cases for data ecosystems:
 
 ###### *FIGURE 1: An example of a supply chain ecosystem*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676063516/Blog%20images/Supplychaindataecoystem_w7vbb3.png" alt=""A series of icons showing the relationships between supply chain touchpoints and data ecosystem value"" class="image-float-center" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1676063516%252FBlog%252520images%252FSupplychaindataecoystem_w7vbb3.png" alt=""A series of icons showing the relationships between supply chain touchpoints and data ecosystem value"" class="image-float-center" />
 
 ## How do you build a real-time data ecosystem across clouds and organizations?
 
@@ -119,7 +119,7 @@ Most technological solutions [still fall short](https://www.vendia.com/blog/why-
 
 
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676064308/Blog%20images/Figure_3_1_hbxvtr.png" alt=""A diagram showing an API icon in the center and polling actions where polling too slowly leads to out-of-date copies of data and polling too quickly leads to operational problems and high costs "" class="image-float-center" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1676064308%252FBlog%252520images%252FFigure_3_1_hbxvtr.png" alt=""A diagram showing an API icon in the center and polling actions where polling too slowly leads to out-of-date copies of data and polling too quickly leads to operational problems and high costs "" class="image-float-center" />
 
 ### Step 3: Create a system or process for analyzing data so you get the data you want and can trust
 
