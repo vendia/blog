@@ -27,7 +27,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-10T21:19:11.008Z
+updatedAt: 2023-02-10T21:27:38.428Z
 id: df003e7c-b2d5-43ce-ba83-6badfaa6b5ce
 ---
 
@@ -117,7 +117,9 @@ Most technological solutions [still fall short](https://www.vendia.com/blog/why-
 
 *FIGURE 2: Traditional APIs can’t keep data consistent, at all times, everywhere the data lives. Polling too quickly keeps data up to date, but it leads to operational problems and high costs. Polling too slowly leads to data that exists as out-of-date copies of “the real data.”*
 
-*{INSERT FIGURE 2}*
+
+
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676064308/Blog%20images/Figure_3_1_hbxvtr.png" alt=""A diagram showing an API icon in the center and polling actions where polling too slowly leads to out-of-date copies of data and polling too quickly leads to operational problems and high costs "" class="image-float-center" />
 
 ### Step 3: Create a system or process for analyzing data so you get the data you want and can trust
 
