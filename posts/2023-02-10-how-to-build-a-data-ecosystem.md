@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to build a data ecosystem
 description: Ready to build a sustainable cross-cloud data ecosystem? Explore
   our five-step guide, including elements of an effective data ecosystem, plus
@@ -27,7 +27,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-10T21:36:16.115Z
+updatedAt: 2023-02-10T21:36:53.307Z
 id: df003e7c-b2d5-43ce-ba83-6badfaa6b5ce
 ---
 
