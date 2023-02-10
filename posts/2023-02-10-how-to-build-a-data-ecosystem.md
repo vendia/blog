@@ -27,7 +27,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-10T21:05:19.848Z
+updatedAt: 2023-02-10T21:19:11.008Z
 id: df003e7c-b2d5-43ce-ba83-6badfaa6b5ce
 ---
 
@@ -68,9 +68,9 @@ Here are a few use cases for data ecosystems:
 2. **Marketing** – When marketers can “[stop admiring their data and start using it](https://www.forbes.com/sites/forbestechcouncil/2022/02/16/stop-admiring-your-data-and-use-it/?sh=6187bd5a4fd2),” brands can create personalized marketing campaigns and compelling sales offers that target specific customer segments more effectively than ever before. With higher conversion rates and more significant ROI also comes the potential for richer customer experiences that build brand equity and shareholder value and increase the value of a customer for life. 
 3. **Operations** – Look at the financial services industry, notably a [mortgage-servicing](https://www.vendia.com/blog/blockchain-mortgage-services#mortgage-servicing-with-next-gen-blockchain) use case. Lenders and their partners in loan servicing, loan packaging, and payment processing are already using new technology to automate manual reconciliation, reduce errors, and speed up transaction time. For the first time, it’s possible for every party involved to have tamperproof records of every transaction and know the status of every transaction to which it has access *within seconds* of it taking place — no matter which party the transaction initiates with.
 
-*FIGURE 1: An example of a supply chain ecosystem*
+###### *FIGURE 1: An example of a supply chain ecosystem*
 
-<img src="undefined" alt="""" class="image-float-left" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676063516/Blog%20images/Supplychaindataecoystem_w7vbb3.png" alt=""A series of icons showing the relationships between supply chain touchpoints and data ecosystem value"" class="image-float-center" />
 
 ## How do you build a real-time data ecosystem across clouds and organizations?
 
@@ -139,7 +139,7 @@ The goal for your data outputs is to have trusted [business intelligence](https:
 - When it comes to partner data sharing, how will you access, transform, or deliver shared data outputs?
 - What format do you want inputs from partners in your data ecosystem, and how do you need to transform them for your analysis or activation?
 
-##### **♟️Potential challenges in defining (and leveraging) data outputs** 
+##### **♟️Potential challenges in defining (and leveraging) data outputs**
 
 Your outputs are only as good as the quality of your inputs and your data architecture and [solution patterns](https://www.vendia.com/blog/5-patterns-for-successful-data-traceability).
 
