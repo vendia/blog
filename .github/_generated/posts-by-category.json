@@ -906,14 +906,30 @@
       "file": "/posts/2022-10-25-vendia-values.md",
       "draft": false,
       "title": "The five values that make us Vendia",
-      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other in this post from Head of Talent, Renee Fujii.",
-      "date": "2022-10-25",
+      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other.",
+      "date": "2022-10-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "company"
       ],
-      "authors": [
-        "Renee Fujii"
-      ]
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-01-04-kind-humans-really-work-here",
+        "2022-05-31-vendia-announces-series-b"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324704/Blog%20images/Remote_work_vngluh.png",
+      "seo": {
+        "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other.",
+        "keywords": "company values",
+        "title": "Vendia's company values"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-13T21:47:06.968Z",
+      "id": "f997ca15-bef1-4c99-b9cc-ad017d17ecb0"
     },
     {
       "file": "/posts/2022-10-19-podcast-founders-session.md",
