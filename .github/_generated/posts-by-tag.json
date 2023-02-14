@@ -2667,7 +2667,7 @@
         "Vendia"
       ],
       "categories": [
-        "podcast"
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2021-06-08-gartner-cool-vendor",
@@ -2684,8 +2684,11 @@
         "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
         "keywords": "real-time data sharing, b2b data sharing, circles of trust"
       },
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T23:38:49.517Z"
+      "updatedAt": "2023-02-14T21:52:55.351Z",
+      "id": "59d67ac2-806e-4452-8825-938c4b223134"
     }
   ],
   "supply chain visibility, manufacturing, financial services, distributed ledger technology": [

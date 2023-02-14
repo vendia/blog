@@ -158,6 +158,39 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:49:14.410Z",
       "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
+      "draft": false,
+      "title": "Circles of Trust: Season 1 recap",
+      "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+      "date": "2022-12-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-06-08-gartner-cool-vendor",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Circles of Trust: Season 1 recap",
+        "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+        "keywords": "real-time data sharing, b2b data sharing, circles of trust"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:52:55.351Z",
+      "id": "59d67ac2-806e-4452-8825-938c4b223134"
     }
   ],
   "concepts": [
@@ -1653,36 +1686,6 @@
     }
   ],
   "podcast": [
-    {
-      "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
-      "draft": false,
-      "title": "Circles of Trust: Season 1 recap",
-      "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
-      "date": "2022-12-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2021-06-08-gartner-cool-vendor",
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "noindex": false,
-        "title": "Circles of Trust: Season 1 recap",
-        "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
-        "keywords": "real-time data sharing, b2b data sharing, circles of trust"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T23:38:49.517Z"
-    },
     {
       "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
       "draft": false,
