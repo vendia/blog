@@ -37,8 +37,8 @@ sidebarCta:
   - The Future of APIs
 createdBy: ""
 createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:26:51.425Z
+updatedBy: David Wells
+updatedAt: 2023-02-14T22:04:06.910Z
 id: a33cef80-ad0f-46bc-b1b6-26ebefcd21d2
 ---
 
@@ -139,10 +139,7 @@ These newer [supercloud](https://www.vendia.com/blog/no-more-multicloud) approac
 
 [Customers](https://www.vendia.com/blog/atos-success-story) who choose these platforms can dramatically reduce both near-term and long-term IT investments by eliminating the undifferentiated heavy lifting required to build their own secure, compliant, cross-cloud data infrastructure. And then, they can immediately apply their cost savings to the business challenges they’re looking to solve with their partners or through the insights gained from a multi-party data exchange.
 
-<BlockQuote text="Supercloud data strategies delivered as SaaS and serverless platforms can dramatically reduce near- and long-term IT investments by eliminating the undifferentiated heavy lifting required to DIY secure, compliant, cross-cloud data infrastructure.
-
-Then, they offer cost savings business owners can apply to the challenges they’re looking to solve with their partners or through the insights gained from their new data trust.
-" />
+<BlockQuote text="Supercloud data strategies delivered as SaaS and serverless platforms can dramatically reduce near- and long-term IT investments by eliminating the undifferentiated heavy lifting required to DIY secure, compliant, cross-cloud data infrastructure. Then, they offer cost savings business owners can apply to the challenges they’re looking to solve with their partners or through the insights gained from their new data trust." />
 
 ## Creating and operating modern business data networks
 
