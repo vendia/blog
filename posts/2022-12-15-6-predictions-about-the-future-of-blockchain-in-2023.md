@@ -7,7 +7,7 @@ date: 2022-12-15
 authors:
   - Vendia
 categories:
-  - blockchain
+  - thought-leadership
 relatedPosts:
   - 2022-04-01-private-vs-public-blockchains
   - 2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions
@@ -21,8 +21,12 @@ seo:
     solutions architects, and key leaders for their insights and hot takes.
   keywords: business blockchain, the future of blockchain
   title: 6 predictions about the future of blockchain in 2023
-updatedBy: David McElligott
-updatedAt: 2023-01-03T15:03:36.889Z
+sidebarCta:
+  - The Future of APIs
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-14T21:54:02.082Z
 id: 1af70b4b-e67f-4cd1-9e74-6ff8e10c371f
 ---
 
