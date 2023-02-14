@@ -1726,533 +1726,43 @@
       "updatedAt": "2022-12-06T23:57:26.226Z"
     }
   ],
-  "real-time-data-sharing": [
-    {
-      "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
-      "draft": false,
-      "title": "5 patterns for successful data traceability",
-      "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
-      "date": "2022-12-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Francine Klein"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "guidance"
-      ],
-      "tags": [
-        "Healthcare, data traceability, distributed ledger technology, data lineage"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
-        "keywords": "data traceability, data lineage",
-        "title": "5 patterns for successful data traceability"
-      },
-      "callToAction": [
-        "What’s a business blockchain?"
-      ],
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2022-12-13T16:15:38.941Z"
-    },
-    {
-      "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
-      "draft": false,
-      "title": "Top challenges with data traceability",
-      "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions.",
-      "date": "2022-12-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Francine Klein"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-12-08-5-patterns-for-successful-data-traceability",
-        "2022-06-07-real-time-data-sharing-pros-cons",
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Top challenges with data traceability",
-        "keywords": "data traceability, data lineage",
-        "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-10T00:20:43.301Z"
-    },
-    {
-      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
-      "draft": false,
-      "slug": "shared-data-architecture-patterns",
-      "title": "Shared data architecture patterns",
-      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-      "date": "2022-11-29T00:00:00.000Z",
-      "authors": [
-        "Li Dai"
-      ],
-      "categories": [
-        "architecture",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-02-01-decentralization"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
-      "seo": {
-        "title": "Shared data architecture patterns",
-        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-        "keywords": "shared data architecture"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z"
-    },
-    {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
-      "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21",
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
-      "draft": false,
-      "slug": "real-time-data-sharing-challenges",
-      "title": "Real-time data sharing challenges (and solutions)",
-      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "James Gimourginas"
-      ],
-      "categories": [
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-09-22-real-time-everything"
-      ],
-      "tweet": "Check out Vendia's real-time data sharing mega guide!",
-      "seo": {
-        "title": "Real-time data sharing challenges (and solutions)",
-        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-        "keywords": "real-time data, real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z"
-    },
-    {
-      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
-      "draft": false,
-      "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
-      "categories": [
-        "blockchain",
-        "real-time-data-sharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "draft": false,
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-08-15-data-lakes-file-sharing-use-cases",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z"
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z"
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM, API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    },
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "How tools impact products for real-time, multi-party data sharing",
-      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-      "date": "2020-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "guidance",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-10-whats-new-indices"
-      ],
-      "tags": [
-        "engineering, SQL, event"
-      ],
-      "seo": {
-        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-        "title": "How tools impact products for real-time, multi-party data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z"
-    }
-  ],
-  "guidance": [
-    {
-      "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
-      "draft": false,
-      "title": "5 patterns for successful data traceability",
-      "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
-      "date": "2022-12-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Francine Klein"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "guidance"
-      ],
-      "tags": [
-        "Healthcare, data traceability, distributed ledger technology, data lineage"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
-        "keywords": "data traceability, data lineage",
-        "title": "5 patterns for successful data traceability"
-      },
-      "callToAction": [
-        "What’s a business blockchain?"
-      ],
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2022-12-13T16:15:38.941Z"
-    },
-    {
-      "file": "/posts/2022-09-15-api-design-best-practices.md",
-      "draft": false,
-      "title": "API design best practices",
-      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-      "date": "2022-09-15T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "smart-apis",
-        "guidance"
-      ],
-      "relatedPosts": [
-        "2022-10-27-codeless-apis",
-        "2022-08-26-crud-new-rules-for-apis",
-        "2021-02-17-multiregion-serverless-apps"
-      ],
-      "tags": [
-        "data modeling, security, best practices"
-      ],
-      "seo": {
-        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-        "title": "API design best practices",
-        "keywords": "API design best practices"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:48:44.323Z"
-    },
-    {
-      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
-      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
-      "draft": false,
-      "title": "The developer's punchlist for getting started with Vendia Share",
-      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
-      "date": "2021-01-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "guidance"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-10-21-api-security-graphql",
-        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
-      ],
-      "tags": [
-        "quick starts",
-        "documents",
-        "developers"
-      ],
-      "seo": {
-        "title": "The developer's punchlist for getting started with Vendia Share",
-        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
-      },
-      "sidebarCta": [
-        "a12ef328-491c-4bb6-a6a9-bf816e949e8c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:01:35.880Z",
-      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
-    },
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "How tools impact products for real-time, multi-party data sharing",
-      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-      "date": "2020-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "guidance",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-10-whats-new-indices"
-      ],
-      "tags": [
-        "engineering, SQL, event"
-      ],
-      "seo": {
-        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-        "title": "How tools impact products for real-time, multi-party data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z"
-    }
-  ],
-  "features": [
-    {
-      "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
-      "draft": false,
-      "title": "Vendia Share feature spotlight",
-      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features: Immutable ledger, metrics, and connectors and integrations.",
-      "date": "2022-12-06T00:00:00.000Z",
-      "authors": [
-        "Francine Klein"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-03-10-whats-new-indices",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-17-whats-new-failed-tx-dlq"
-      ],
-      "tags": [
-        "distributed ledger technology, metrics, integrations, video"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022: Immutable ledger, metrics, and connectors and integrations.",
-        "title": "Vendia Share feature spotlight",
-        "keywords": "Vendia Share features"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-19T21:59:49.729Z",
-      "id": "77c1b28f-788c-45a5-8152-443dcb7fda93"
-    },
-    {
-      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
-      "draft": false,
-      "title": "NEW low latency operations and Vendia Metrics",
-      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
-      "date": "2022-07-07T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-02-03-welcome-to-developer-preview",
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "seo": {
-        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
-        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T01:05:21.832Z"
-    },
-    {
-      "file": "/posts/2021-03-10-whats-new-indices.md",
-      "draft": false,
-      "title": "NEW Vendia Share indexing feature",
-      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
-      "date": "2021-03-10T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-07-07-low-latency-operations-metrics",
-        "2022-03-21-synchronous-mutations",
-        "2021-03-17-whats-new-failed-tx-dlq"
-      ],
-      "seo": {
-        "title": "What's new in Vendia Share? Customer-selected index feature",
-        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:59:46.041Z"
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-      "date": "2021-01-25T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "features"
-      ],
-      "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2021-03-10-whats-new-indices",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "tags": [
-        "quickstart, supply chain traceability, track and trace"
-      ],
-      "seo": {
-        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-        "keywords": "track and trace, supply chain traceability"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z"
-    }
-  ],
   "product": [
+    {
+      "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
+      "draft": false,
+      "title": "5 patterns for successful data traceability",
+      "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
+      "date": "2022-12-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Francine Klein"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-11-29-shared-data-architecture-patterns"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedAt": "2023-02-14T21:58:45.076Z",
+      "callToAction": [
+        "What’s a business blockchain?"
+      ],
+      "tags": [
+        "Healthcare, data traceability, distributed ledger technology, data lineage"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
+        "keywords": "data traceability, data lineage",
+        "title": "5 patterns for successful data traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "id": "9a171a65-97f7-42fc-aa3a-ae296d442f05"
+    },
     {
       "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
       "draft": false,
@@ -2540,6 +2050,378 @@
       "authors": [
         "Brian McNamara"
       ]
+    },
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "draft": false,
+      "title": "NEW Vendia Share indexing feature",
+      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
+      "date": "2021-03-10T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-07-07-low-latency-operations-metrics",
+        "2022-03-21-synchronous-mutations",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "title": "What's new in Vendia Share? Customer-selected index feature",
+        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:59:46.041Z"
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "draft": false,
+      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+      "date": "2021-01-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "features"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "tags": [
+        "quickstart, supply chain traceability, track and trace"
+      ],
+      "seo": {
+        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "keywords": "track and trace, supply chain traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T19:12:29.677Z"
+    }
+  ],
+  "real-time-data-sharing": [
+    {
+      "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
+      "draft": false,
+      "title": "Top challenges with data traceability",
+      "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions.",
+      "date": "2022-12-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Francine Klein"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-12-08-5-patterns-for-successful-data-traceability",
+        "2022-06-07-real-time-data-sharing-pros-cons",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Top challenges with data traceability",
+        "keywords": "data traceability, data lineage",
+        "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-10T00:20:43.301Z"
+    },
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "architecture",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-01T19:22:33.839Z"
+    },
+    {
+      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "draft": false,
+      "title": "Understanding shared data architecture",
+      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+      "date": "2022-11-21",
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-15T17:44:24.221Z"
+    },
+    {
+      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "draft": false,
+      "title": "The future of data sharing with deterministic databases",
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04",
+      "categories": [
+        "blockchain",
+        "real-time-data-sharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "draft": false,
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-08-15-data-lakes-file-sharing-use-cases",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:51:55.009Z"
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "real-time-data-sharing",
+        "blockchain",
+        "data-alliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z"
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    },
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering, SQL, event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z"
+    }
+  ],
+  "features": [
+    {
+      "file": "/posts/2022-12-09-vendia-share-favorite-feature-releases-in-2022.md",
+      "draft": false,
+      "title": "Vendia Share feature spotlight",
+      "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features: Immutable ledger, metrics, and connectors and integrations.",
+      "date": "2022-12-06T00:00:00.000Z",
+      "authors": [
+        "Francine Klein"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "tags": [
+        "distributed ledger technology, metrics, integrations, video"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Watch Francine Klein, Sr. Solutions Architect, walk through three of her favorite Vendia Share features released in 2022: Immutable ledger, metrics, and connectors and integrations.",
+        "title": "Vendia Share feature spotlight",
+        "keywords": "Vendia Share features"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-19T21:59:49.729Z",
+      "id": "77c1b28f-788c-45a5-8152-443dcb7fda93"
+    },
+    {
+      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
+      "draft": false,
+      "title": "NEW low latency operations and Vendia Metrics",
+      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-02-03-welcome-to-developer-preview",
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "seo": {
+        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
+        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T01:05:21.832Z"
     },
     {
       "file": "/posts/2021-03-10-whats-new-indices.md",
@@ -3420,6 +3302,102 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-07T20:58:44.416Z",
       "id": "7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0"
+    }
+  ],
+  "guidance": [
+    {
+      "file": "/posts/2022-09-15-api-design-best-practices.md",
+      "draft": false,
+      "title": "API design best practices",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+      "date": "2022-09-15T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "smart-apis",
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2022-10-27-codeless-apis",
+        "2022-08-26-crud-new-rules-for-apis",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "tags": [
+        "data modeling, security, best practices"
+      ],
+      "seo": {
+        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+        "title": "API design best practices",
+        "keywords": "API design best practices"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:48:44.323Z"
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "draft": false,
+      "title": "The developer's punchlist for getting started with Vendia Share",
+      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
+      "date": "2021-01-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-10-21-api-security-graphql",
+        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
+      ],
+      "tags": [
+        "quick starts",
+        "documents",
+        "developers"
+      ],
+      "seo": {
+        "title": "The developer's punchlist for getting started with Vendia Share",
+        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
+      },
+      "sidebarCta": [
+        "a12ef328-491c-4bb6-a6a9-bf816e949e8c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:01:35.880Z",
+      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
+    },
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering, SQL, event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z"
     }
   ],
   "announcements": [
