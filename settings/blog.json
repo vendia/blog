@@ -2,15 +2,15 @@
   "callToAction": [
     "ad9381ab-c314-4028-a7da-0dffdf31ae68"
   ],
-  "updatedAt": "2023-01-20T18:19:06.675Z",
-  "updatedBy": "alexa-vendia",
+  "updatedAt": "2023-02-14T23:21:09.286Z",
+  "updatedBy": "David Wells",
   "sidebarCta": [
     "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
   ],
   "topCategories": [
-    "blockchain",
-    "realtime-data-sharing",
-    "architecture"
+    "company",
+    "concepts",
+    "product"
   ],
   "popularAuthors": [
     "Vikrant Kahlir",
@@ -24,7 +24,7 @@
   ],
   "featuredPosts": [
     {
-      "posts": "Sharing data in financial services: How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing"
+      "posts": "How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing"
     },
     {
       "resources": "",
