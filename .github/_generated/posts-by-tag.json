@@ -2,7 +2,7 @@
   "Tim Wagner": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -45,7 +45,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     },
     {
@@ -127,7 +127,7 @@
   "Data network": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -170,14 +170,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "SFTP": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -220,14 +220,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "MFT": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -270,14 +270,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "EDI": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -320,14 +320,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "public cloud": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -370,14 +370,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "cloud": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -420,7 +420,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     },
     {
@@ -474,7 +474,7 @@
   "supercloud": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -517,14 +517,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "AWS": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -567,7 +567,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     },
     {
@@ -612,7 +612,7 @@
   "Azure": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -655,14 +655,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "Amazon S3": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -705,14 +705,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "GDPR": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -755,14 +755,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "CCPA": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -805,14 +805,14 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
   "CPRA/Prop 24": [
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": true,
+      "draft": false,
       "title": "A short history of business data networks",
       "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
       "date": "2023-02-14T00:00:00.000Z",
@@ -855,7 +855,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:11:44.288Z",
+      "updatedAt": "2023-02-14T21:26:51.425Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     }
   ],
@@ -893,6 +893,46 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-10T21:36:53.307Z",
       "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
+    },
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": false,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-14T21:28:01.569Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     }
   ],
   "data trust": [
@@ -1379,6 +1419,46 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-09T21:53:55.427Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    },
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": false,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-14T21:28:01.569Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     }
   ],
   "Joyce Clinton": [
@@ -1923,7 +2003,7 @@
       "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
     }
   ],
-  "distributed ledger technology, use cases, financial services, travel and hospitality, supply chain": [
+  "supply chain": [
     {
       "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
       "draft": false,
@@ -1943,7 +2023,11 @@
         "2022-03-17-are-blockchains-databases"
       ],
       "tags": [
-        "distributed ledger technology, use cases, financial services, travel and hospitality, supply chain"
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
       ],
       "seo": {
         "noindex": false,
@@ -1957,7 +2041,91 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:03:15.903Z",
+      "updatedAt": "2023-02-14T21:28:01.569Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
+    }
+  ],
+  "travel and hospitality": [
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": false,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-14T21:28:01.569Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
+    }
+  ],
+  "distributed ledger technology": [
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": false,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-14T21:28:01.569Z",
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     }
   ],
