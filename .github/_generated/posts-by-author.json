@@ -77,7 +77,7 @@
     },
     {
       "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
-      "draft": false,
+      "draft": true,
       "slug": "extreme-testing-with-vendia",
       "title": "Vendia Presents: Extreme Testing",
       "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
@@ -98,8 +98,10 @@
         "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
         "keywords": "Blockchain, data sharing, supply chain"
       },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:34:50.864Z",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:41:14.448Z",
       "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
     },
     {
@@ -2288,9 +2290,7 @@
         "Vikrant Kahlir"
       ],
       "categories": [
-        "concepts",
-        "data-alliance",
-        "realtime-data-sharing"
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-09-20-finserv-blockchain-data-strategy",
@@ -2306,8 +2306,13 @@
         "keywords": "improve supply chain visibility",
         "title": "How to improve supply chain visibility"
       },
+      "sidebarCta": [
+        "Supercloud? Poly-cloud? Multi-Cloud? "
+      ],
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-03T23:16:26.678Z",
+      "updatedAt": "2023-02-14T21:40:50.047Z",
       "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
     },
     {

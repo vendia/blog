@@ -83,6 +83,41 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:31:28.033Z",
       "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
+    },
+    {
+      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
+      "draft": false,
+      "title": "How to improve supply chain visibility",
+      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
+      "date": "2023-01-03T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-20-finserv-blockchain-data-strategy",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2022-10-26-why-is-supply-chain-visibility-important"
+      ],
+      "tags": [
+        "supply chain visibility"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
+        "keywords": "improve supply chain visibility",
+        "title": "How to improve supply chain visibility"
+      },
+      "sidebarCta": [
+        "Supercloud? Poly-cloud? Multi-Cloud? "
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:40:50.047Z",
+      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
     }
   ],
   "concepts": [
@@ -163,38 +198,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:39:12.072Z",
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
-    },
-    {
-      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
-      "draft": false,
-      "title": "How to improve supply chain visibility",
-      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-      "date": "2023-01-03T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "concepts",
-        "data-alliance",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-09-20-finserv-blockchain-data-strategy",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2022-10-26-why-is-supply-chain-visibility-important"
-      ],
-      "tags": [
-        "supply chain visibility"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-        "keywords": "improve supply chain visibility",
-        "title": "How to improve supply chain visibility"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-03T23:16:26.678Z",
-      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
     },
     {
       "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
@@ -894,7 +897,7 @@
     },
     {
       "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
-      "draft": false,
+      "draft": true,
       "slug": "extreme-testing-with-vendia",
       "title": "Vendia Presents: Extreme Testing",
       "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
@@ -915,8 +918,10 @@
         "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
         "keywords": "Blockchain, data sharing, supply chain"
       },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:34:50.864Z",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:41:14.448Z",
       "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
     },
     {
@@ -1659,244 +1664,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:57:26.226Z"
-    }
-  ],
-  "data-alliance": [
-    {
-      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
-      "draft": false,
-      "title": "How to improve supply chain visibility",
-      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-      "date": "2023-01-03T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "concepts",
-        "data-alliance",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-09-20-finserv-blockchain-data-strategy",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2022-10-26-why-is-supply-chain-visibility-important"
-      ],
-      "tags": [
-        "supply chain visibility"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-        "keywords": "improve supply chain visibility",
-        "title": "How to improve supply chain visibility"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-03T23:16:26.678Z",
-      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
-    },
-    {
-      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
-      "draft": false,
-      "slug": "shared-data-architecture-patterns",
-      "title": "Shared data architecture patterns",
-      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-      "date": "2022-11-29T00:00:00.000Z",
-      "authors": [
-        "Li Dai"
-      ],
-      "categories": [
-        "architecture",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-02-01-decentralization"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
-      "seo": {
-        "title": "Shared data architecture patterns",
-        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-        "keywords": "shared data architecture"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z"
-    },
-    {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
-      "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21",
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM, API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    }
-  ],
-  "realtime-data-sharing": [
-    {
-      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
-      "draft": false,
-      "title": "How to improve supply chain visibility",
-      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-      "date": "2023-01-03T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "concepts",
-        "data-alliance",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-09-20-finserv-blockchain-data-strategy",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2022-10-26-why-is-supply-chain-visibility-important"
-      ],
-      "tags": [
-        "supply chain visibility"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-        "keywords": "improve supply chain visibility",
-        "title": "How to improve supply chain visibility"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-03T23:16:26.678Z",
-      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
-    },
-    {
-      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
-      "draft": false,
-      "title": "Obstacles to real-time data sharing",
-      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
-      "date": "2022-09-27T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-07-20-real-time-data-sharing-solution-elements",
-        "2022-09-22-real-time-everything"
-      ],
-      "tags": [
-        "real-time data sharing"
-      ],
-      "seo": {
-        "title": "Obstacles to real-time data sharing",
-        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
-        "keywords": "real-time data sharing"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-12T20:58:44.743Z",
-      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "draft": false,
-      "title": "Data types 101: Real-time data vs. analytical data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-      "date": "2022-05-05T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-09-22-real-time-everything",
-        "2022-11-02-podcast-worlds-colliding",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Data types 101: Real-time data vs. analytical data",
-        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-        "keywords": "real-time data"
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:11:45.041Z",
-      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
     }
   ],
   "podcast": [
@@ -3253,6 +3020,114 @@
       "updatedAt": "2022-12-06T23:53:54.828Z"
     }
   ],
+  "data-alliance": [
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "architecture",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-01T19:22:33.839Z"
+    },
+    {
+      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "draft": false,
+      "title": "Understanding shared data architecture",
+      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+      "date": "2022-11-21",
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "real-time-data-sharing",
+        "blockchain",
+        "data-alliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    }
+  ],
   "smart-apis": [
     {
       "file": "/posts/2022-10-27-codeless-apis.md",
@@ -3364,6 +3239,72 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T18:59:43.875Z"
+    }
+  ],
+  "realtime-data-sharing": [
+    {
+      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
+      "draft": false,
+      "title": "Obstacles to real-time data sharing",
+      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+      "date": "2022-09-27T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-07-20-real-time-data-sharing-solution-elements",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "real-time data sharing"
+      ],
+      "seo": {
+        "title": "Obstacles to real-time data sharing",
+        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+        "keywords": "real-time data sharing"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T20:58:44.743Z",
+      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
+    },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Data types 101: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-02-podcast-worlds-colliding",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Data types 101: Real-time data vs. analytical data",
+        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+        "keywords": "real-time data"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:11:45.041Z",
+      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
     }
   ],
   "tutorials": [
