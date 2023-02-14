@@ -15,8 +15,11 @@ relatedPosts:
   - 2021-10-22-serverless-distributed-ledger-for-enterprises
   - 2022-03-17-are-blockchains-databases
 tags:
-  - distributed ledger technology, use cases, financial services, travel and
-    hospitality, supply chain
+  - supply chain
+  - travel and hospitality
+  - financial services
+  - use cases
+  - distributed ledger technology
 seo:
   noindex: false
   title: Distributed ledger challenges and solutions
@@ -30,7 +33,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: David Wells
-updatedAt: 2023-02-07T21:03:15.903Z
+updatedAt: 2023-02-14T21:28:01.569Z
 id: dc7afa12-3605-477d-8156-028fc3d5e7a1
 ---
 
