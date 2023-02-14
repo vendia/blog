@@ -3,98 +3,38 @@
   "categories": [
     {
       "slug": "company",
-      "description": "Get to know the #kindhumans at Vendia with insights into our teams, values, and culture",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367893/New_icon_-_6_yy2yiw.png",
+      "description": "Get to know the #kindhumans at Vendia through company announcements, values, and culture",
+      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324704/Blog%20images/Remote_work_vngluh.png",
       "callToAction": [
-        "Try Vendia Share"
+        "Join the Founders' Circle"
       ],
       "title": "Company"
     },
     {
-      "slug": "podcast",
-      "description": "Catch up on Circles of Trust, conversations with real-time data sharing innovation leaders",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367976/Audio_02_euhunz.png",
-      "title": "Podcast"
-    },
-    {
-      "slug": "announcements",
-      "description": "Be first to hear what’s new and next for Vendia and the Vendia Share platform",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367112/Celebration_10_ngtvbc.png",
-      "title": "Announcements"
-    },
-    {
-      "slug": "tutorials",
-      "description": "Get helpful tips, instructions, and code callouts from our Developers and Solutions Architects",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367728/Marketing_02_kjkjsx.png",
-      "title": "Tutorials"
-    },
-    {
       "slug": "product",
       "description": "Dive deep into the Vendia Share platform with product-centric features, benefits, and updates",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367597/Environment_09_kvthux.png",
-      "title": "Product"
-    },
-    {
-      "slug": "architecture",
-      "description": "Explore the principles and practices of data architecture in modern and next-gen IT solutions",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367436/Tech_10_aolwef.png",
-      "title": "Architecture"
+      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599388/Website/Iso/Smart_contract_umed2h.png",
+      "title": "Product and technology",
+      "callToAction": [
+        "Try Vendia Share"
+      ]
     },
     {
       "slug": "concepts",
       "description": "Unpack and reframe legacy and modern data sharing concepts, challenges, and solutions",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670367263/Work_05_zohavr.png",
+      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
       "title": "Concepts"
     },
     {
-      "slug": "realtime-data-sharing",
-      "description": "Bust up myths and rethink what’s possible for your team with multi-party, real-time data sharing",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670366427/Tech_12_lhpkwb.png",
-      "title": "Real-time data sharing"
-    },
-    {
-      "slug": "blockchain",
-      "description": "Explore next-gen, enterprise-level blockchain tech for your multi-party data sharing applications",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670366480/Tech_48_zbpwng.png",
-      "title": "Blockchain"
-    },
-    {
-      "slug": "data-alliance",
-      "description": "Discover tools and insights to help you scale, yet control data sharing with partners",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670366535/Tech_11_jdiwjw.png",
-      "title": "Data alliance"
-    },
-    {
-      "slug": "lean-apps",
-      "description": "Learn how the lean apps movement will decrease toil and increase productivity for teams",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670366791/Electronics_08_jpjacu.png",
-      "title": "Lean apps"
-    },
-    {
-      "slug": "smart-apis",
-      "description": "Explore new ways to turn your “ignorant pipes” into data-aware APIs for multi-party data sharing",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670366593/Tech_47_qzqkll.png",
-      "title": "Smart APIs"
-    },
-    {
-      "slug": "guidance",
-      "description": "Learn the most effective principles and practices for building on the Vendia Share platform",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670368638/Environment_16_lxgusb.png",
-      "title": "Guidance"
-    },
-    {
-      "description": "Deep dive into a specific feature or set of features of the Vendia Share Platform",
-      "slug": "features",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670368317/Actions_03_i9sxkf.png",
-      "title": "Features"
-    },
-    {
-      "slug": "case-study",
-      "description": "Dig into industry use cases and success stories from teams wielding Vendia Share",
-      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670368463/Work_01_i04ycn.png",
-      "title": "Case studies"
+      "title": "Thought leadership",
+      "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671581338/Website/Iso/Launch-4_viwhxa.png",
+      "slug": "thought-leadership",
+      "description": "Explore our team's big ideas around data sharing technology and all things real-time data sharing",
+      "callToAction": [
+        "Try Vendia Share"
+      ]
     }
   ],
-  "updatedAt": "2022-12-16T14:13:55.309Z",
-  "updatedBy": "Hugues Tennier"
+  "updatedAt": "2023-02-14T19:15:48.561Z",
+  "updatedBy": "alexa-vendia"
 }
