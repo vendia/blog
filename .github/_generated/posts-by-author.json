@@ -1,4 +1,957 @@
 {
+  "tim-wagner": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:16:58.143Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    },
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain",
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-20T21:30:24.079Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
+      "draft": false,
+      "slug": "extreme-testing-with-vendia",
+      "title": "Vendia Presents: Extreme Testing",
+      "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-06-30-welcome-to-vendia",
+        "2020-07-01-meet-vendias-founders"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Vendia presents: Extreme Testing",
+        "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
+        "keywords": "Blockchain, data sharing, supply chain"
+      },
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2022-12-20T21:34:50.864Z",
+      "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
+    },
+    {
+      "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
+      "draft": false,
+      "title": "5 patterns for successful data traceability",
+      "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
+      "date": "2022-12-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Francine Klein"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "guidance"
+      ],
+      "tags": [
+        "Healthcare, data traceability, distributed ledger technology, data lineage"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
+        "keywords": "data traceability, data lineage",
+        "title": "5 patterns for successful data traceability"
+      },
+      "callToAction": [
+        "What’s a business blockchain?"
+      ],
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2022-12-13T16:15:38.941Z"
+    },
+    {
+      "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
+      "draft": false,
+      "title": "Top challenges with data traceability",
+      "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions.",
+      "date": "2022-12-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Francine Klein"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-12-08-5-patterns-for-successful-data-traceability",
+        "2022-06-07-real-time-data-sharing-pros-cons",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Top challenges with data traceability",
+        "keywords": "data traceability, data lineage",
+        "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-10T00:20:43.301Z"
+    },
+    {
+      "file": "/posts/2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient.md",
+      "draft": false,
+      "slug": "how-blockchain-makes-supply-chains-predictable",
+      "title": "How blockchain can make global supply chains more predictable and efficient",
+      "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility.",
+      "date": "2022-12-01T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-05-13-green-blockchain-intro",
+        "2022-03-17-are-blockchains-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains"
+      ],
+      "seo": {
+        "title": "How blockchain can make global supply chains more predictable and efficient",
+        "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility."
+      },
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-12-02T20:22:13.068Z"
+    },
+    {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-15T17:44:24.221Z"
+    },
+    {
+      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "draft": false,
+      "title": "The future of data sharing with deterministic databases",
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04",
+      "categories": [
+        "blockchain",
+        "real-time-data-sharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "draft": false,
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-08-15-data-lakes-file-sharing-use-cases",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:51:55.009Z"
+    },
+    {
+      "file": "/posts/2022-10-12-fintech-innovation-mortgage-servicing.md",
+      "draft": false,
+      "title": "Fintech innovation for housing and finance data ecosystems",
+      "description": "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology.",
+      "date": "2022-10-12",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "draft": false,
+      "title": "No more multicloud: The emergence of supercloud",
+      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "updatedBy": "David Wells"
+    },
+    {
+      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
+      "draft": false,
+      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
+      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
+      "date": "2022-09-26",
+      "categories": [
+        "architecture",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
+      "draft": false,
+      "title": "Where blockchain fits into your data and application strategy",
+      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
+      "date": "2022-09-20",
+      "categories": [
+        "architecture",
+        "blockchain"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
+      "draft": false,
+      "title": "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions",
+      "description": "Custom modeling and standard access platforms come together to make next-gen business APIs.",
+      "date": "2022-08-26",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-24-vendia-share-enterprise-file-sharing-platform.md",
+      "draft": false,
+      "title": "Q+A: Understanding Vendia Share’s approach to file sharing",
+      "description": "In Part 3 of our series on file sharing, we answer the top questions asked about controlled file sharing for enterprises and real-time file sharing outcomes for enterprises.",
+      "date": "2022-08-24",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
+      "draft": false,
+      "title": "Why public cloud services aren’t enough for file sharing",
+      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
+      "date": "2022-08-17",
+      "categories": [
+        "product",
+        "architecture"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-15-data-lakes-file-sharing-use-cases.md",
+      "draft": false,
+      "title": "Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing",
+      "description": "Understand the sharing scenarios for multimedia and data-centric files across organizations, regions, and clouds in healthcare, automotive, semicon, and construction",
+      "date": "2022-08-15",
+      "categories": [
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-12-vendia-share-building-blocks.md",
+      "draft": false,
+      "title": "The basic building blocks of Vendia Share",
+      "description": "How Vendia Share combines API, operational database, and blockchain technology to resolve the limitations of each and deliver serverless, real-time data sharing at scale",
+      "date": "2022-08-12",
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
+      "draft": false,
+      "title": "Venn diagramming Vendia Share",
+      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
+      "date": "2022-08-04",
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z"
+    },
+    {
+      "file": "/posts/2022-07-28-ask-the-expert-apis.md",
+      "draft": false,
+      "title": "Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs",
+      "description": "With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.",
+      "date": "2022-07-28",
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-07-13-event-handlers-vs-smart-contracts.md",
+      "draft": false,
+      "title": "How to choose between event handlers and smart contracts",
+      "description": "Compare and contrast event handlers and smart contracts as you consider modeling applications for real-time data sharing with partners across organizations, clouds, and geographies.",
+      "date": "2022-07-13",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-29-real-time-data-sharing-challenges-for-enterprises.md",
+      "draft": false,
+      "title": "How to effectively address the challenges of real-time data sharing at the enterprise level",
+      "description": "In this three-part series, dive deep into the challenges and solutions for evaluating and implementing real-time data sharing with confidence and control.",
+      "date": "2022-06-29",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
+      "draft": false,
+      "title": "How to make your APIs \"data-aware\"",
+      "description": "Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth.",
+      "date": "2022-06-09",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
+      "date": "2022-05-31",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-27-apis-for-data.md",
+      "draft": false,
+      "title": "APIs don’t have to be so difficult",
+      "description": "APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs.",
+      "date": "2022-05-27",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-19-vendia-green-blockchain.md",
+      "draft": false,
+      "title": "Greenchain, Part 2: Vendia and green blockchain",
+      "description": "How Vendia's serverless distributed ledger is the green way to do data sharing",
+      "date": "2022-05-19",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md",
+      "draft": false,
+      "title": "Greenchain, Part 1: Current blockchains' big carbon footprints",
+      "description": "Why current blockchain technologies have large carbon footprints",
+      "date": "2022-05-17",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-13-green-blockchain-intro.md",
+      "draft": false,
+      "title": "Greenchains: Can blockchains save the environment?",
+      "description": "Many current blockchains solutions have a large carbon footprint, but next-gen blockchains have fewer carbon emissions—and can help in sustianability tracking",
+      "date": "2022-05-13",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-02-what-is-real-time-data-sharing.md",
+      "draft": false,
+      "title": "What is real-time data sharing?",
+      "description": "The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration",
+      "date": "2022-05-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-05-03-future-of-it-conclusion.md",
+      "draft": false,
+      "title": "The three body problem: Looking ahead",
+      "description": "In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do.",
+      "date": "2022-05-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
+      "draft": false,
+      "title": "Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs",
+      "description": "Wrap up our four-part series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
+      "date": "2022-04-26",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-20-nft-it-business-example.md",
+      "draft": true,
+      "title": "3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example",
+      "description": "Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses",
+      "date": "2022-04-20",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-15-blockchains-vs-cloud-and-it.md",
+      "draft": false,
+      "title": "Strengths and Weakness of Centralized IT, Private Chains, and Public Chains",
+      "description": "In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT",
+      "date": "2022-04-15",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-06-smart-apis-and-vendia-share.md",
+      "draft": false,
+      "title": "Part 2: Vendia Share and Smart APIs",
+      "description": "How Vendia helps APIs do more for you",
+      "date": "2022-04-06",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-06-what-are-apis.md",
+      "draft": false,
+      "title": "What you need to know about APIs",
+      "description": "And why building them is still such a challenge",
+      "date": "2022-04-06",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-04-smart-apis.md",
+      "draft": false,
+      "title": "Smart APIs",
+      "description": "Evolve from \"dumb pipes\" to APIs that work for you",
+      "date": "2022-04-04",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
+      "draft": false,
+      "title": "How blockchain did (and did not) pan out as a modern IT solutions",
+      "description": "Dive into Part 2 of our series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
+      "date": "2022-04-01",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-30-3-body-problem.md",
+      "draft": false,
+      "title": "The Three-Body Problem",
+      "description": "Forecast: Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era",
+      "date": "2022-03-30",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-24-private-public-blockchain-and-cloud.md",
+      "draft": false,
+      "title": "Cloudy with Chance of Blockchain",
+      "description": "How the cloud and public and private chains will power the web3 world",
+      "date": "2022-03-24",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T19:29:42.690Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-4.md",
+      "draft": false,
+      "title": "Lean Apps Part 4: The Lean App Manifesto",
+      "description": "Flip the innovation iceberg!",
+      "date": "2022-02-22",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-3.md",
+      "draft": false,
+      "title": "Lean Apps Part 3: Let Infrastructure do the Dirty Work",
+      "description": "Stop the undifferentiated heavy lifting!",
+      "date": "2022-02-15",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-2.md",
+      "draft": false,
+      "title": "Lean Apps Part 2: The Elements of a Lean App",
+      "description": "Defining the ideal model of what a software application should look like",
+      "date": "2022-02-09",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app-part-1.md",
+      "draft": false,
+      "title": "Lean Apps Part 1: Lessons from the Past",
+      "description": "Build software based on customer value, not technological ownership",
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2022-02-03-lean-app.md",
+      "draft": false,
+      "title": "The Lean App Movement",
+      "description": "Optimize for outcomes that matter – not pointless, repetitive drudgery",
+      "date": "2022-02-03",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md",
+      "draft": false,
+      "title": "A Serverless Distributed Ledger for Enterprises",
+      "description": "HICSS Talk Summary & Full Research Paper",
+      "date": "2021-10-22",
+      "tag": [
+        "serverless",
+        "distributed-ledger"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "draft": false,
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-03-31-vendia-turns-1.md",
+      "draft": false,
+      "title": "Vendia Turns 1",
+      "description": "Vendia celebrates its first year as a C-corporation",
+      "date": "2021-03-31",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-03-17-whats-new-failed-tx-dlq.md",
+      "draft": false,
+      "title": "Announcing Vendia Share DLQ Support",
+      "description": "Vendia Share now reports failed transactions",
+      "date": "2021-03-17",
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-03-10-whats-new-indices.md",
+      "draft": false,
+      "title": "NEW Vendia Share indexing feature",
+      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
+      "date": "2021-03-10T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-07-07-low-latency-operations-metrics",
+        "2022-03-21-synchronous-mutations",
+        "2021-03-17-whats-new-failed-tx-dlq"
+      ],
+      "seo": {
+        "title": "What's new in Vendia Share? Customer-selected index feature",
+        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T00:59:46.041Z"
+    },
+    {
+      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
+      "draft": false,
+      "title": "Announcing the Vendia Share Developer Preview!",
+      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
+      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
+      "date": "2021-02-03",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding",
+        "developers"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-02-series-a-announcement.md",
+      "draft": false,
+      "title": "Vendia Announces Series A Investment",
+      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
+      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
+      "date": "2021-02-02",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ]
+    },
+    {
+      "file": "/posts/2021-02-01-decentralization.md",
+      "draft": false,
+      "title": "Understanding Decentralization in the Cloud",
+      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
+      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
+      "date": "2021-02-01",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "decentralization"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2021-01-31-stamti.md",
+      "draft": false,
+      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
+      "date": "2021-01-31",
+      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
+      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.\n",
+      "categories": [
+        "architecture"
+      ],
+      "tags": [
+        "STAMTI"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ]
+    },
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "930c3aa9-f2f4-4b0a-9cc5-488b6f804412"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:04:03.851Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "draft": false,
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
+      "date": "2020-07-01T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-05-31-vendia-announces-series-b",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "tim wagner",
+        "shruthi rao",
+        "founders",
+        "origin"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
+      "seo": {
+        "title": "Meet Vendia's founders",
+        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
+      },
+      "sidebarCta": [
+        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:04:34.302Z",
+      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "draft": false,
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2021-01-04-kind-humans-really-work-here"
+      ],
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:38:48.273Z"
+    }
+  ],
   "vendia": [
     {
       "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
@@ -1471,935 +2424,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:57:26.226Z"
-    }
-  ],
-  "tim-wagner": [
-    {
-      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
-      "draft": false,
-      "slug": "2023-predictions-tim-wagner",
-      "title": "Blockchain, cloud, and IT in 2023 and beyond",
-      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain",
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Blockchain, cloud, and IT in 2023 and beyond",
-        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:30:24.079Z",
-      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    },
-    {
-      "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
-      "draft": false,
-      "slug": "extreme-testing-with-vendia",
-      "title": "Vendia Presents: Extreme Testing",
-      "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-06-30-welcome-to-vendia",
-        "2020-07-01-meet-vendias-founders"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Vendia presents: Extreme Testing",
-        "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
-        "keywords": "Blockchain, data sharing, supply chain"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:34:50.864Z",
-      "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
-    },
-    {
-      "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
-      "draft": false,
-      "title": "5 patterns for successful data traceability",
-      "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
-      "date": "2022-12-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Francine Klein"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "guidance"
-      ],
-      "tags": [
-        "Healthcare, data traceability, distributed ledger technology, data lineage"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
-        "keywords": "data traceability, data lineage",
-        "title": "5 patterns for successful data traceability"
-      },
-      "callToAction": [
-        "What’s a business blockchain?"
-      ],
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2022-12-13T16:15:38.941Z"
-    },
-    {
-      "file": "/posts/2022-12-09-top-challenges-with-data-traceability.md",
-      "draft": false,
-      "title": "Top challenges with data traceability",
-      "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions.",
-      "date": "2022-12-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Francine Klein"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-12-08-5-patterns-for-successful-data-traceability",
-        "2022-06-07-real-time-data-sharing-pros-cons",
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Top challenges with data traceability",
-        "keywords": "data traceability, data lineage",
-        "description": "Get familiar with the historical and modern challenges of data traceability, so you can better understand your own (and your data sharing partners’) data lineage mistakes and solutions."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-10T00:20:43.301Z"
-    },
-    {
-      "file": "/posts/2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient.md",
-      "draft": false,
-      "slug": "how-blockchain-makes-supply-chains-predictable",
-      "title": "How blockchain can make global supply chains more predictable and efficient",
-      "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility.",
-      "date": "2022-12-01T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-05-13-green-blockchain-intro",
-        "2022-03-17-are-blockchains-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains"
-      ],
-      "seo": {
-        "title": "How blockchain can make global supply chains more predictable and efficient",
-        "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility."
-      },
-      "updatedBy": "David Wells",
-      "updatedAt": "2022-12-02T20:22:13.068Z"
-    },
-    {
-      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
-      "draft": false,
-      "slug": "real-time-data-sharing-challenges",
-      "title": "Real-time data sharing challenges (and solutions)",
-      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "James Gimourginas"
-      ],
-      "categories": [
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-09-22-real-time-everything"
-      ],
-      "tweet": "Check out Vendia's real-time data sharing mega guide!",
-      "seo": {
-        "title": "Real-time data sharing challenges (and solutions)",
-        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-        "keywords": "real-time data, real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z"
-    },
-    {
-      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
-      "draft": false,
-      "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
-      "categories": [
-        "blockchain",
-        "real-time-data-sharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "draft": false,
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-08-15-data-lakes-file-sharing-use-cases",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z"
-    },
-    {
-      "file": "/posts/2022-10-12-fintech-innovation-mortgage-servicing.md",
-      "draft": false,
-      "title": "Fintech innovation for housing and finance data ecosystems",
-      "description": "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology.",
-      "date": "2022-10-12",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-10-04-no-more-multicloud.md",
-      "draft": false,
-      "title": "No more multicloud: The emergence of supercloud",
-      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "updatedBy": "David Wells"
-    },
-    {
-      "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
-      "draft": false,
-      "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
-      "description": "Read this use case for combining the best of blockchain and central IT to securely share real-time data, eliminate errors, and forgo massive, endless reconciliation.",
-      "date": "2022-09-26",
-      "categories": [
-        "architecture",
-        "blockchain"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
-      "draft": false,
-      "title": "Where blockchain fits into your data and application strategy",
-      "description": "Get our new guide for innovation leaders and developers in the financial services industry. It features an in-depth use case for real-time, multi-party data sharing in mortgage servicing.",
-      "date": "2022-09-20",
-      "categories": [
-        "architecture",
-        "blockchain"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
-      "draft": false,
-      "title": "When CRUD APIs aren't enough: How custom models and smart APIs create better data sharing solutions",
-      "description": "Custom modeling and standard access platforms come together to make next-gen business APIs.",
-      "date": "2022-08-26",
-      "categories": [
-        "concepts",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-24-vendia-share-enterprise-file-sharing-platform.md",
-      "draft": false,
-      "title": "Q+A: Understanding Vendia Share’s approach to file sharing",
-      "description": "In Part 3 of our series on file sharing, we answer the top questions asked about controlled file sharing for enterprises and real-time file sharing outcomes for enterprises.",
-      "date": "2022-08-24",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
-      "draft": false,
-      "title": "Why public cloud services aren’t enough for file sharing",
-      "description": "With over a decade and a half in production, why hasn’t the industry solved the problem of multi-party, multi-cloud file sharing?",
-      "date": "2022-08-17",
-      "categories": [
-        "product",
-        "architecture"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-15-data-lakes-file-sharing-use-cases.md",
-      "draft": false,
-      "title": "Use cases for secure, ad-hoc data lakes with multi-cloud and multi-party file sharing",
-      "description": "Understand the sharing scenarios for multimedia and data-centric files across organizations, regions, and clouds in healthcare, automotive, semicon, and construction",
-      "date": "2022-08-15",
-      "categories": [
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-12-vendia-share-building-blocks.md",
-      "draft": false,
-      "title": "The basic building blocks of Vendia Share",
-      "description": "How Vendia Share combines API, operational database, and blockchain technology to resolve the limitations of each and deliver serverless, real-time data sharing at scale",
-      "date": "2022-08-12",
-      "categories": [
-        "concepts",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
-      "draft": false,
-      "title": "Venn diagramming Vendia Share",
-      "description": "How to combine blockchain, database and API technology for enterprise-grade data sharing without sacrificing security or data governance",
-      "date": "2022-08-04",
-      "categories": [
-        "architecture",
-        "product"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z"
-    },
-    {
-      "file": "/posts/2022-07-28-ask-the-expert-apis.md",
-      "draft": false,
-      "title": "Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs",
-      "description": "With the rise of SaaS companies, APIs aren’t just part of your business, they are the business. Take a deep dive on all things API with Vendia co-founder & “The Father of Serverless,” Dr. Tim Wagner.",
-      "date": "2022-07-28",
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-07-13-event-handlers-vs-smart-contracts.md",
-      "draft": false,
-      "title": "How to choose between event handlers and smart contracts",
-      "description": "Compare and contrast event handlers and smart contracts as you consider modeling applications for real-time data sharing with partners across organizations, clouds, and geographies.",
-      "date": "2022-07-13",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-29-real-time-data-sharing-challenges-for-enterprises.md",
-      "draft": false,
-      "title": "How to effectively address the challenges of real-time data sharing at the enterprise level",
-      "description": "In this three-part series, dive deep into the challenges and solutions for evaluating and implementing real-time data sharing with confidence and control.",
-      "date": "2022-06-29",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
-      "draft": false,
-      "title": "How to make your APIs \"data-aware\"",
-      "description": "Data APIs continue to be a challenge for teams. What if your APIs did the heavy lifting and kept a single source of truth.",
-      "date": "2022-06-09",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
-      "draft": false,
-      "title": "Vendia announces Series B funding",
-      "description": "We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology",
-      "date": "2022-05-31",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-27-apis-for-data.md",
-      "draft": false,
-      "title": "APIs don’t have to be so difficult",
-      "description": "APIs continue to be a challenge for organizations - we dive into why, and how we can make faster, smarter APIs.",
-      "date": "2022-05-27",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-19-vendia-green-blockchain.md",
-      "draft": false,
-      "title": "Greenchain, Part 2: Vendia and green blockchain",
-      "description": "How Vendia's serverless distributed ledger is the green way to do data sharing",
-      "date": "2022-05-19",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md",
-      "draft": false,
-      "title": "Greenchain, Part 1: Current blockchains' big carbon footprints",
-      "description": "Why current blockchain technologies have large carbon footprints",
-      "date": "2022-05-17",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-13-green-blockchain-intro.md",
-      "draft": false,
-      "title": "Greenchains: Can blockchains save the environment?",
-      "description": "Many current blockchains solutions have a large carbon footprint, but next-gen blockchains have fewer carbon emissions—and can help in sustianability tracking",
-      "date": "2022-05-13",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-02-what-is-real-time-data-sharing.md",
-      "draft": false,
-      "title": "What is real-time data sharing?",
-      "description": "The basics of real-time data sharing: what it is, how it works, common use cases, and how management platforms enable better data sharing and collaboration",
-      "date": "2022-05-03",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-05-03-future-of-it-conclusion.md",
-      "draft": false,
-      "title": "The three body problem: Looking ahead",
-      "description": "In the final part of the Three Body Problem we summarize our findings and look ahead for what successful companies will do.",
-      "date": "2022-05-03",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
-      "draft": false,
-      "title": "Better together: Using the best of centralized IT, private blockchains, and public blockchains for NFTs",
-      "description": "Wrap up our four-part series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
-      "date": "2022-04-26",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-20-nft-it-business-example.md",
-      "draft": true,
-      "title": "3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example",
-      "description": "Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses",
-      "date": "2022-04-20",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-15-blockchains-vs-cloud-and-it.md",
-      "draft": false,
-      "title": "Strengths and Weakness of Centralized IT, Private Chains, and Public Chains",
-      "description": "In part 2 of the 3 Body Problem we explore the strengths and weaknesses of blockchains and IT",
-      "date": "2022-04-15",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-06-smart-apis-and-vendia-share.md",
-      "draft": false,
-      "title": "Part 2: Vendia Share and Smart APIs",
-      "description": "How Vendia helps APIs do more for you",
-      "date": "2022-04-06",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-06-what-are-apis.md",
-      "draft": false,
-      "title": "What you need to know about APIs",
-      "description": "And why building them is still such a challenge",
-      "date": "2022-04-06",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-04-smart-apis.md",
-      "draft": false,
-      "title": "Smart APIs",
-      "description": "Evolve from \"dumb pipes\" to APIs that work for you",
-      "date": "2022-04-04",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
-      "draft": false,
-      "title": "How blockchain did (and did not) pan out as a modern IT solutions",
-      "description": "Dive into Part 2 of our series examining the relationship between public blockchain, private blockchain and centralized IT technologies with Vendia CEO and co-founder, Tim Wagner.",
-      "date": "2022-04-01",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-30-3-body-problem.md",
-      "draft": false,
-      "title": "The Three-Body Problem",
-      "description": "Forecast: Cloudy with a chance of Blockchain. How conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era",
-      "date": "2022-03-30",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-24-private-public-blockchain-and-cloud.md",
-      "draft": false,
-      "title": "Cloudy with Chance of Blockchain",
-      "description": "How the cloud and public and private chains will power the web3 world",
-      "date": "2022-03-24",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-07T19:29:42.690Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
-    },
-    {
-      "file": "/posts/2022-02-03-lean-app-part-4.md",
-      "draft": false,
-      "title": "Lean Apps Part 4: The Lean App Manifesto",
-      "description": "Flip the innovation iceberg!",
-      "date": "2022-02-22",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-03-lean-app-part-3.md",
-      "draft": false,
-      "title": "Lean Apps Part 3: Let Infrastructure do the Dirty Work",
-      "description": "Stop the undifferentiated heavy lifting!",
-      "date": "2022-02-15",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-03-lean-app-part-2.md",
-      "draft": false,
-      "title": "Lean Apps Part 2: The Elements of a Lean App",
-      "description": "Defining the ideal model of what a software application should look like",
-      "date": "2022-02-09",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-03-lean-app-part-1.md",
-      "draft": false,
-      "title": "Lean Apps Part 1: Lessons from the Past",
-      "description": "Build software based on customer value, not technological ownership",
-      "date": "2022-02-03",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2022-02-03-lean-app.md",
-      "draft": false,
-      "title": "The Lean App Movement",
-      "description": "Optimize for outcomes that matter – not pointless, repetitive drudgery",
-      "date": "2022-02-03",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md",
-      "draft": false,
-      "title": "A Serverless Distributed Ledger for Enterprises",
-      "description": "HICSS Talk Summary & Full Research Paper",
-      "date": "2021-10-22",
-      "tag": [
-        "serverless",
-        "distributed-ledger"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
-      "draft": false,
-      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
-      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
-      "date": "2021-06-08",
-      "categories": [
-        "announcements",
-        "company"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-03-31-vendia-turns-1.md",
-      "draft": false,
-      "title": "Vendia Turns 1",
-      "description": "Vendia celebrates its first year as a C-corporation",
-      "date": "2021-03-31",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2021-03-17-whats-new-failed-tx-dlq.md",
-      "draft": false,
-      "title": "Announcing Vendia Share DLQ Support",
-      "description": "Vendia Share now reports failed transactions",
-      "date": "2021-03-17",
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2021-03-10-whats-new-indices.md",
-      "draft": false,
-      "title": "NEW Vendia Share indexing feature",
-      "description": "Vendia Share now supports customer indices to improve data retrieval performance.",
-      "date": "2021-03-10T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-07-07-low-latency-operations-metrics",
-        "2022-03-21-synchronous-mutations",
-        "2021-03-17-whats-new-failed-tx-dlq"
-      ],
-      "seo": {
-        "title": "What's new in Vendia Share? Customer-selected index feature",
-        "description": "Vendia Share now supports customer indices to improve data retrieval performance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:59:46.041Z"
-    },
-    {
-      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
-      "draft": false,
-      "title": "Announcing the Vendia Share Developer Preview!",
-      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
-      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
-      "date": "2021-02-03",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding",
-        "developers"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-02-series-a-announcement.md",
-      "draft": false,
-      "title": "Vendia Announces Series A Investment",
-      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
-      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
-      "date": "2021-02-02",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ]
-    },
-    {
-      "file": "/posts/2021-02-01-decentralization.md",
-      "draft": false,
-      "title": "Understanding Decentralization in the Cloud",
-      "description": "Explore how decentralization works in a cloud-native setting and how it can impact your business",
-      "longDescription": "In this post we explore how to think about the concept of decentralization in the cloud, and what it means from a trust and ownership perspective.",
-      "date": "2021-02-01",
-      "categories": [
-        "concepts"
-      ],
-      "tags": [
-        "decentralization"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2021-01-31-stamti.md",
-      "draft": false,
-      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
-      "date": "2021-01-31",
-      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
-      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.\n",
-      "categories": [
-        "architecture"
-      ],
-      "tags": [
-        "STAMTI"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ]
-    },
-    {
-      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
-      "draft": false,
-      "title": "AWS Serverless Express finds a loving home at Vendia",
-      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
-      "date": "2020-12-07T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-12-09-announcing-new-features",
-        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
-      ],
-      "tags": [
-        "AWS Lambda",
-        "Serverless Express",
-        "Serverless",
-        "AWS",
-        "Brett Andrews"
-      ],
-      "seo": {
-        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
-        "title": "AWS Serverless Express sponsored by Vendia",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "930c3aa9-f2f4-4b0a-9cc5-488b6f804412"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:04:03.851Z",
-      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
-      "date": "2020-07-01T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-05-31-vendia-announces-series-b",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "tim wagner",
-        "shruthi rao",
-        "founders",
-        "origin"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
-      "seo": {
-        "title": "Meet Vendia's founders",
-        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
-      },
-      "sidebarCta": [
-        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:04:34.302Z",
-      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
-    },
-    {
-      "file": "/posts/2020-06-30-welcome-to-vendia.md",
-      "draft": false,
-      "title": "Welcome to Vendia",
-      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2022-05-31-vendia-announces-series-b",
-        "2021-01-04-kind-humans-really-work-here"
-      ],
-      "seo": {
-        "title": "Welcome to Vendia",
-        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z"
     }
   ],
   "alexa-johnson": [
