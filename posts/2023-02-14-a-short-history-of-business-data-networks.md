@@ -38,13 +38,13 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:11:44.288Z
+updatedAt: 2023-02-14T21:26:42.734Z
 id: a33cef80-ad0f-46bc-b1b6-26ebefcd21d2
 ---
 
-Most business-critical data now lives [outside](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/harnessing-the-power-of-external-data) a company’s four walls, even while it remains very much inside the company’s legal, regulatory, and business responsibilities. As a result, the most important data infrastructure a company manages today isn’t server racks or even databases; it’s the company’s business data network.
+Most business-critical data now lives [outside](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/harnessing-the-power-of-external-data) a company’s four walls, even while it remains very much inside the company’s legal, regulatory, and business responsibilities. As a result, the most important data infrastructure a company manages today isn’t server racks or even databases. 
 
-<BlockQuote text="The most important data infrastructure a company manages today is its business data network." />
+The most important data infrastructure a company manages is its business data network.
 
 ## Business data networks through time
 
@@ -118,9 +118,9 @@ On the operational data side, companies like Vendia represent a similar approach
 
 These newer supercloud approaches to data, delivered as SaaS and serverless offerings, are designed to remove some of the key challenges facing IT:
 
-* Zero footprint – There are no servers to purchase, rent, secure, scale, or manage
-* Subscription- and usage-based – No CapEx expenditures and cost-following OpEx
-* Deployment, integration, and multi-cloud “out of the box” – These capabilities don’t require months of analysis and an expensive IT lift; they’re ready to deliver (and proven out by other customers) on Day 0
+- **Zero footprint** – There are no servers to purchase, rent, secure, scale, or manage
+- **Subscription**- and usage-based – No CapEx expenditures and cost-following OpEx
+- **Deployment, integration, and multi-cloud “out of the box”** – These capabilities don’t require months of analysis and an expensive IT lift; they’re ready to deliver (and proven out by other customers) on Day 0
 
 Customers who choose these platforms can dramatically reduce both near-term and long-term IT investments by eliminating the undifferentiated heavy lifting required to build their own secure, compliant, cross-cloud data infrastructure. And then, they can immediately apply their cost savings to the business challenges they’re looking to solve with their partners or through the insights gained from a multi-party data exchange.
 
@@ -131,7 +131,7 @@ Neither a single public cloud (nor a private cloud) can solve a company’s data
 - **On the analytics data side**, Snowflake is a great example. A company using [Snowflake](https://www.snowflake.com/en/) can share its data with a business partner regardless of what public cloud the partner happens to be on. [AWS](https://aws.amazon.com/) to Azure, [Azure](https://azure.microsoft.com/en-us) to GCP, [GCP](https://cloud.google.com/) to AWS, it doesn’t matter. Instead of simply supporting deployments to different clouds (and making cross-cloud data sharing the customer’s problem to solve), Snowflake created a seamless, “virtual” data cloud that spans all the public clouds…and all their users.
 - **On the operational data side**, companies like [Vendia](https://vendia.com) represent a similar approach for real-time and application data, providing a data sharing platform that allows partners to share fine-grained information about supply chains, financial transactions, or other mission-critical processes regardless of who’s using which cloud provider.
 
-These newer [supercloud approaches to data](vendia.com/product), delivered as SaaS and serverless offerings, are designed to remove some of the key challenges facing IT:
+These newer [supercloud](https://www.vendia.com/blog/no-more-multicloud) approaches to data, delivered as [SaaS and serverless](https://www.vendia.com/product) offerings, are designed to remove some of the key challenges facing IT:
 
 - **Zero footprint** – There are no servers to purchase, rent, secure, scale, or manage
 - **Subscription- and usage-based** – No CapEx expenditures and cost-following OpEx
@@ -170,7 +170,7 @@ In the absence of real-time data sharing and a single source of truth, IT and op
 
 ## Why data networks are good for business owners 
 
-Hint: better outcomes at lower cost.
+Hint, hint. They deliver far better outcomes at much lower cost.
 
 Data networks aren’t just technically and operationally savvy; they’re good for all the businesses involved. After all, slow, erratic, or costly data sharing mechanisms inhibit sales, add friction to customer experiences, and create or exacerbate security and compliance problems that could have been easily avoided. Building a strong and well-managed data network has multiple benefits, including addressing regulatory and customer concerns, offering cost savings, and delivering better customer experiences and service outcomes.
 
