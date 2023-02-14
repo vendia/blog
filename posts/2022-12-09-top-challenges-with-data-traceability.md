@@ -9,12 +9,21 @@ authors:
   - Tim Wagner
   - Francine Klein
 categories:
-  - real-time-data-sharing
-  - concepts
+  - thought-leadership
 relatedPosts:
   - 2022-12-08-5-patterns-for-successful-data-traceability
   - 2022-06-07-real-time-data-sharing-pros-cons
   - 2022-01-27-scale-your-partner-ecosystem-with-vendia-share
+tags:
+  - data lineage
+  - Conway's Lay
+  - reconcilation
+  - visibility
+  - snapshots
+  - nesting
+  - Francine Klein
+  - Tim Wagner
+  - data traceability
 seo:
   noindex: false
   title: Top challenges with data traceability
@@ -22,8 +31,13 @@ seo:
   description: Get familiar with the historical and modern challenges of data
     traceability, so you can better understand your own (and your data sharing
     partners’) data lineage mistakes and solutions.
+sidebarCta:
+  - The Future of APIs
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2022-12-10T00:20:43.301Z
+updatedAt: 2023-02-14T22:01:23.135Z
+id: 14e2faaa-7134-4f00-9a61-662719990ea4
 ---
 
 Solutions that address data traceability are often built outside of the systems in which the business data is generated — [if they’re built at all](https://www.vendia.com/blog/5-patterns-for-successful-data-traceability). Historically, data traceability was tracked in many different ways, and the repositories used to store it (e.g. audit trails, application logs, or secondary databases) and the owners of those systems usually determined how this information was accessed, described, and handled.  
