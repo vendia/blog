@@ -1,4 +1,864 @@
 {
+  "Tim Wagner": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T23:46:23.669Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:00:25.728Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    }
+  ],
+  "Data network": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "SFTP": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "MFT": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "EDI": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "public cloud": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "cloud": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    },
+    {
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
+      "draft": false,
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+      "date": "2022-11-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-12-16-circles-of-trust-season-1-recap",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+        "keywords": "circles of trust, b2b data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-16T21:36:05.197Z"
+    },
+    {
+      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
+      "draft": false,
+      "title": "10 ways to make your software better when building for cloud scale ",
+      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+      "date": "2022-11-18",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "engineering",
+        "cloud"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ]
+    }
+  ],
+  "supercloud": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "AWS": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    },
+    {
+      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
+      "draft": false,
+      "title": "AWS Serverless Express finds a loving home at Vendia",
+      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+      "date": "2020-12-07T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
+      ],
+      "tags": [
+        "AWS Lambda",
+        "Serverless Express",
+        "Serverless",
+        "AWS",
+        "Brett Andrews"
+      ],
+      "seo": {
+        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
+        "title": "AWS Serverless Express sponsored by Vendia",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "930c3aa9-f2f4-4b0a-9cc5-488b6f804412"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:04:03.851Z",
+      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
+    }
+  ],
+  "Azure": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "Amazon S3": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "GDPR": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "CCPA": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "CPRA/Prop 24": [
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": true,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T19:24:31.246Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
   "use cases": [
     {
       "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
@@ -1467,55 +2327,6 @@
       "id": "a7c8c05a-7e98-4ae7-8604-26eb1bb208e4"
     }
   ],
-  "cloud": [
-    {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "draft": false,
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-      "date": "2022-11-23T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-12-16-circles-of-trust-season-1-recap",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-        "keywords": "circles of trust, b2b data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z"
-    },
-    {
-      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
-      "draft": false,
-      "title": "10 ways to make your software better when building for cloud scale ",
-      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
-      "date": "2022-11-18",
-      "categories": [
-        "concepts"
-      ],
-      "tags": [
-        "engineering",
-        "cloud"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ]
-    }
-  ],
   "security": [
     {
       "file": "/posts/2022-10-21-api-security-graphql.md",
@@ -1619,83 +2430,6 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-07T21:04:34.302Z",
       "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
-    }
-  ],
-  "Tim Wagner": [
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "draft": false,
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-01-private-vs-public-blockchains",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "founders",
-        "Circles of Trust",
-        "podcast",
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
-      "seo": {
-        "title": "Circles of Trust Episode 2: Vendia's Founders",
-        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-08T23:46:23.669Z",
-      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "How Serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
-      ],
-      "tags": [
-        "blockchain",
-        "Servereless",
-        "Lambda",
-        "Tim Wagner",
-        "webcast",
-        "Peter Sbarski"
-      ],
-      "seo": {
-        "title": "How Serverless and cloud enable scalable blockchains",
-        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:00:25.728Z",
-      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
     }
   ],
   "Shruthi Rao": [
@@ -3331,46 +4065,6 @@
     }
   ],
   "Serverless": [
-    {
-      "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
-      "draft": false,
-      "title": "AWS Serverless Express finds a loving home at Vendia",
-      "description": "Huzzah! The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
-      "date": "2020-12-07T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-12-09-announcing-new-features",
-        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger"
-      ],
-      "tags": [
-        "AWS Lambda",
-        "Serverless Express",
-        "Serverless",
-        "AWS",
-        "Brett Andrews"
-      ],
-      "seo": {
-        "description": "The AWS Serverless Express open source project graduates from AWS Labs and is now sponsored by Vendia. ",
-        "title": "AWS Serverless Express sponsored by Vendia",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "930c3aa9-f2f4-4b0a-9cc5-488b6f804412"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:04:03.851Z",
-      "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
-    }
-  ],
-  "AWS": [
     {
       "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
       "draft": false,
