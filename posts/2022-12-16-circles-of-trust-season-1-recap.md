@@ -9,7 +9,7 @@ date: 2022-12-16
 authors:
   - Vendia
 categories:
-  - podcast
+  - thought-leadership
 relatedPosts:
   - 2021-06-08-gartner-cool-vendor
   - 2022-01-27-scale-your-partner-ecosystem-with-vendia-share
@@ -31,7 +31,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:52:33.127Z
+updatedAt: 2023-02-14T21:52:55.351Z
 id: 59d67ac2-806e-4452-8825-938c4b223134
 ---
 
