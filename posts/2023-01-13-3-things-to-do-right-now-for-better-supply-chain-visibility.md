@@ -9,7 +9,7 @@ date: 2023-01-12
 authors:
   - Vendia
 categories:
-  - concepts
+  - thought-leadership
 relatedPosts:
   - 2021-01-25-supply-chain-visibility-with-vendia-share
   - 2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient
@@ -26,11 +26,11 @@ seo:
     with supply chain partners up and downstream? Consider these three
     principles for your business and data strategy.
 sidebarCta:
-  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
+  - "Vendia Share: What it is and how it works"
 createdBy: ""
 createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-01-13T01:09:40.612Z
+updatedBy: alexa-vendia
+updatedAt: 2023-02-14T21:31:28.033Z
 id: 4f9c9686-7eac-40fa-b6aa-43cee8520834
 ---
 
