@@ -52,7 +52,7 @@ Data networks aren’t new. [The Roman Empire](https://www.scmglobe.com/supply-c
 
 ###### Figure 1: Part of the Roman Empire’s supply chain, circa [146 B.C. - 439 A.D.](https://www.historyhit.com/the-marvel-of-north-africa-during-roman-times/)
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676402955/Blog%20images/Roman_Empire_supply_chain_xwhyvj.png" alt="A map of the Mediterranean region showing an olive oil supply chain originating from seven cities in North Africa and delivering to the City of Rome" class="image-float-left" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1676402955%252FBlog%252520images%252FRoman_Empire_supply_chain_xwhyvj.png" alt="A map of the Mediterranean region showing an olive oil supply chain originating from seven cities in North Africa and delivering to the City of Rome" class="image-float-left" />
 
 ###### This supply chain moved olive oil, wheat, and dates from provinces in Roman North Africa (now Tunisia and Libya) across the Tyrrhenian Sea in the Mediterranean to supply the City of Rome (Image source: [scmglobe.com](https://www.scmglobe.com/supply-chains-roman-empire/))
 
