@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: A short history of business data networks
 description: Learn how data sharing has evolved and how business and technology
   leaders can scale and optimize their data networks today and for the future
@@ -38,7 +38,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:26:42.734Z
+updatedAt: 2023-02-14T21:26:51.425Z
 id: a33cef80-ad0f-46bc-b1b6-26ebefcd21d2
 ---
 
