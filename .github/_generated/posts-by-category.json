@@ -118,6 +118,46 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:40:50.047Z",
       "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
+    },
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
     }
   ],
   "concepts": [
@@ -869,33 +909,6 @@
       "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
     },
     {
-      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
-      "draft": false,
-      "slug": "2023-predictions-tim-wagner",
-      "title": "Blockchain, cloud, and IT in 2023 and beyond",
-      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain",
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Blockchain, cloud, and IT in 2023 and beyond",
-        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:30:24.079Z",
-      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    },
-    {
       "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
       "draft": true,
       "slug": "extreme-testing-with-vendia",
@@ -1327,33 +1340,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:39:12.072Z",
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
-    },
-    {
-      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
-      "draft": false,
-      "slug": "2023-predictions-tim-wagner",
-      "title": "Blockchain, cloud, and IT in 2023 and beyond",
-      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain",
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Blockchain, cloud, and IT in 2023 and beyond",
-        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-20T21:30:24.079Z",
-      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
     },
     {
       "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",

@@ -424,6 +424,46 @@
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     },
     {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
       "file": "/posts/2022-11-23-connecting-pets-humans.md",
       "draft": false,
       "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
@@ -2268,6 +2308,354 @@
       "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
     }
   ],
+  "OLAP": [
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    }
+  ],
+  "OLTP": [
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    }
+  ],
+  "trends": [
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T19:29:42.690Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "distributed database": [
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    }
+  ],
+  "blockchain": [
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:00:25.728Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T19:29:42.690Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
   "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas": [
     {
       "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
@@ -2701,97 +3089,6 @@
       },
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T18:48:44.323Z"
-    }
-  ],
-  "blockchain": [
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "How Serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
-      ],
-      "tags": [
-        "blockchain",
-        "Servereless",
-        "Lambda",
-        "Tim Wagner",
-        "webcast",
-        "Peter Sbarski"
-      ],
-      "seo": {
-        "title": "How Serverless and cloud enable scalable blockchains",
-        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:00:25.728Z",
-      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
-    },
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-07T19:29:42.690Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
     }
   ],
   "Servereless": [
@@ -3698,57 +3995,6 @@
     }
   ],
   "Ethereum": [
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-07T19:29:42.690Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
-    }
-  ],
-  "trends": [
     {
       "file": "/posts/2022-03-17-are-blockchains-databases.md",
       "draft": false,
