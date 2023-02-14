@@ -2,7 +2,7 @@
 draft: false
 slug: meet-josh-epstein
 title: Introducing our new VP of Revenue, Josh Epstein
-description: Meet Josh Epstein, Vendia's new VP of Revenue
+description: Meet Josh Epstein, Vendia's new VP of Revenue.
 date: 2023-01-13
 authors:
   - Shruthi Rao
@@ -23,7 +23,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:38:21.377Z
+updatedAt: 2023-02-14T21:38:34.121Z
 id: 19793709-9362-4266-9953-aae7256f33aa
 ---
 
