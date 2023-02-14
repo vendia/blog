@@ -1,9 +1,8 @@
 ---
 draft: false
 slug: sharing-data-financial-services
-title: "Sharing data in financial services: How top financial institutions
-  improve offerings, servicing, and operations with controlled multi-party data
-  sharing"
+title: How top financial institutions improve offerings, servicing, and
+  operations with controlled multi-party data sharing
 description: In this episode of Circles of Trust, Brian Kale and James
   Gimourginas talk with Tim Zonca about the complexities of data sharing in
   financial services and the impact better data sharing has on customers and the
@@ -12,7 +11,7 @@ date: 2022-12-14
 authors:
   - Alexa Johnson
 categories:
-  - podcast
+  - thought-leadership
 relatedPosts:
   - 2021-06-08-gartner-cool-vendor
   - 2022-11-02-podcast-worlds-colliding
@@ -29,8 +28,12 @@ seo:
     financial services and the impact better data sharing has on customers and
     the financial institutions serving them.
   keywords: data sharing, b2b data sharing, data ecosystem, data alliance
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-16T16:32:35.178Z
+sidebarCta:
+  - "Vendia Share: What it is and how it works"
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-14T21:54:59.001Z
 id: defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e
 ---
 
