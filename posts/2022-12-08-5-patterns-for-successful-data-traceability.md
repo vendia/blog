@@ -10,8 +10,16 @@ authors:
   - Tim Wagner
   - Francine Klein
 categories:
-  - real-time-data-sharing
-  - guidance
+  - product
+relatedPosts:
+  - 2022-09-22-real-time-everything
+  - 2021-01-25-supply-chain-visibility-with-vendia-share
+  - 2022-11-29-shared-data-architecture-patterns
+createdBy: ""
+createdAt: ""
+updatedAt: 2023-02-14T21:58:45.076Z
+callToAction:
+  - What’s a business blockchain?
 tags:
   - Healthcare, data traceability, distributed ledger technology, data lineage
 seo:
@@ -22,10 +30,8 @@ seo:
     mission-critical data are well protected.
   keywords: data traceability, data lineage
   title: 5 patterns for successful data traceability
-callToAction:
-  - What’s a business blockchain?
-updatedBy: Hugues Tennier
-updatedAt: 2022-12-13T16:15:38.941Z
+updatedBy: alexa-vendia
+id: 9a171a65-97f7-42fc-aa3a-ae296d442f05
 ---
 
 Given the growing concerns and unexpected [impacts from global health issues](https://www.deloitte.com/content/dam/assets-shared/legacy/docs/perspectives/2022/gx-covid-19-Privacy-Security-in-the-next-normal.pdf) around personally identifiable information (PII) and protected health information (PHI) handling, data traceability needs to be a top concern for Chief Information Officers (CIOs) and Chief Information Security Officers (CISOs). There’s an accelerating [migration ](https://www.vendia.com/blog/decentralization)of corporate data to business partners and SaaS service providers. And the growing volume of business data from automating workflows and applications will only continue to compound.
