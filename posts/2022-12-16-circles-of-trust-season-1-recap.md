@@ -28,8 +28,11 @@ seo:
     manufacturing, sports and entertainment, social justice, and animal
     welfare."
   keywords: real-time data sharing, b2b data sharing, circles of trust
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2022-12-16T23:38:49.517Z
+updatedAt: 2023-02-14T21:52:33.127Z
+id: 59d67ac2-806e-4452-8825-938c4b223134
 ---
 
 # Circles of Trust: Season 1 recap
@@ -123,11 +126,8 @@ Vendia co-founders, [Shruthi Rao](https://www.linkedin.com/in/shruthirao/) and [
 ---
 
 ## Join us as a Circles of Trust guest
+* Have a vested interest in B2B data sharing? 
+* Want to talk about the challenges and wins in your industry or with partners in your data alliance? 
+* Has data sharing made a positive impact on your mission as a nonprofit or for your customers?
 
-- Have a vested interest in B2B data sharing? 
-- Want to talk about the challenges and wins in your industry or with partners in your data alliance? 
-- Has data sharing made a positive impact on your mission as a nonprofit or for your customers?
-
-We’d love to hear from you. Email [podcast@vendia.net](mailto:podcast@vendia.net) and mention being a Circles of Trust in your message. 
-
-And, if after listening to Circles of Trust, you’d love to chat with a member of our Sales or Solutions Architecture team about how to create or participate in a multi-party data alliance for collaboration within a trusted, single source of truth while maintaining control of your data and stay compliant, [contact us](http://vendia.com/contact-us).
+** We’d love to hear from you. Email [podcast@vendia.net](mailto:podcast@vendia.net) and mention being a guest on Circles of Trust.**
