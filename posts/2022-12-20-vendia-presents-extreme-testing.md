@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 slug: extreme-testing-with-vendia
 title: "Vendia Presents: Extreme Testing"
 description: Tim Wagner, CEO of Vendia, talks about how the past few years'
@@ -20,8 +20,10 @@ seo:
     bottlenecks, shortages, and high volatility are really a symptom of a bigger
     business problem.
   keywords: Blockchain, data sharing, supply chain
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-20T21:34:50.864Z
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-14T21:41:14.448Z
 id: 9a31cf04-62d0-45f8-8170-87c36b4331fc
 ---
 
