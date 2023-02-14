@@ -21,15 +21,11 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-13T21:47:06.968Z
+updatedAt: 2023-02-14T00:50:18.075Z
 id: f997ca15-bef1-4c99-b9cc-ad017d17ecb0
 ---
 
 Our name, [Vendia](https://www.vendia.com/blog/welcome-to-vendia), is derived from “Venn Diagram.” The name reflects our inventive [combination](https://www.vendia.com/blog/venn-diagramming-vendia-share) of business blockchain, database tech, and smart APIs. Together, we've built [Vendia Share](https://vendia.com/product) for automated, real-time, multi-party data sharing — with control — across workflows and business networks.
-
-![A diagram showing the Vendia logo at the center or a networked nexus of cloud, API, database, security, and blockchain imagery](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png)
-
-*Vendia gives enterprises the technology to automate and accelerate data workflows across business networks.*
 
 Our cultural cornerstone is our [Kind Humans Policy](https://www.vendia.com/kind-humans), and as we celebrate another great year with [customers](https://www.vendia.com/industry) and each other, here’s an overview of the five values that make us great: Trust, ingenuity, growth, responsibility, and results (or TIGRR 🐯 if you’re feeling sassy).
 
@@ -81,4 +77,6 @@ To be successful at Vendia, we must operate with a bias for action, define and d
 
 ## Are you a TIGRR, too? Join us
 
-If you’re looking for a place where you can show up as your best self and trust your colleagues to do the same, we’re hiring kind, responsible, ingenuitive humans. [Explore careers ](https://www.vendia.com/careers)at Vendia — and follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) or [Twitter](https://twitter.com/VendiaHQ) to hear about new job opportunities first.
+**If you’re looking for a place where you can show up as your best self and trust your colleagues to do the same, we’re hiring kind, responsible, ingenuitive humans.**
+
+**[Explore careers ](https://www.vendia.com/careers)at Vendia — and follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq) or [Twitter](https://twitter.com/VendiaHQ) to hear about new job opportunities first.**
