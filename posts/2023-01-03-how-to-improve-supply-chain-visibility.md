@@ -8,9 +8,7 @@ date: 2023-01-03
 authors:
   - Vikrant Kahlir
 categories:
-  - concepts
-  - data-alliance
-  - realtime-data-sharing
+  - thought-leadership
 relatedPosts:
   - 2022-09-20-finserv-blockchain-data-strategy
   - 2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient
@@ -24,8 +22,12 @@ seo:
     of visibility.
   keywords: improve supply chain visibility
   title: How to improve supply chain visibility
+sidebarCta:
+  - "Supercloud? Poly-cloud? Multi-Cloud? "
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-03T23:16:26.678Z
+updatedAt: 2023-02-14T21:40:50.047Z
 id: c803ef20-a91e-4fff-8506-838f8de11cdf
 ---
 
