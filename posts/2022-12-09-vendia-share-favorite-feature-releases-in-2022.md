@@ -23,10 +23,12 @@ seo:
     metrics, and connectors and integrations."
   title: Vendia Share feature spotlight
   keywords: Vendia Share features
+sidebarCta:
+  - Try Vendia Share
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-19T21:59:49.729Z
+updatedAt: 2023-02-14T22:33:40.669Z
 id: 77c1b28f-788c-45a5-8152-443dcb7fda93
 ---
 
