@@ -24,10 +24,13 @@ seo:
   description: Ready to build a sustainable cross-cloud data ecosystem? Explore
     our five-step guide, including elements of an effective data ecosystem, plus
     examples and use cases of ecosystems across industries.
+  keywords: how to build a data ecosystem
+sidebarCta:
+  - "Vendia Share: What it is and how it works"
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-10T21:36:53.307Z
+updatedAt: 2023-02-14T21:29:51.150Z
 id: df003e7c-b2d5-43ce-ba83-6badfaa6b5ce
 ---
 
