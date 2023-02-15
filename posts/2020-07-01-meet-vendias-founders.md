@@ -31,8 +31,8 @@ sidebarCta:
   - d9bbe106-8c72-4f2e-a55d-d4c53073653f
 createdBy: ""
 createdAt: ""
-updatedBy: David Wells
-updatedAt: 2023-02-07T21:04:34.302Z
+updatedBy: alexa-vendia
+updatedAt: 2023-02-15T19:36:55.806Z
 id: 95117065-4cca-4aec-b8f8-614f4472aa30
 ---
 
@@ -76,6 +76,12 @@ At a time when many of our discussions with VCs were becoming more challenging â
 From that moment on, the process became easier.
 
 We brought in other investors who could help complement our own experiences, including [Correlation Ventures](https://correlationvc.com/), [WestWave Capital](https://www.westwavecapital.com/), [HWVP](https://www.hwvp.com/), [Firebolt Ventures](https://www.fireboltventures.com/), [Floodgate](https://www.floodgate.com/), and [Future\Perfect Ventures](https://www.futureperfectventures.com/). Our seed round funding was completed on 6/25/2020, the same day we exited stealth and presented Vendia to the world in a [keynote address](https://www.youtube.com/watch?v=A1bL4pHuivU) at an AWS event. Covid, though it had made things much harder, hadn't stopped us after all. Vendia was off to the races!
+
+---
+
+**Update: May 2022: [Vendia announces Series B funding](https://www.vendia.com/blog/vendia-announces-series-b)**
+
+---
 
 # Meet the founders, in their own words
 
