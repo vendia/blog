@@ -9,6 +9,7 @@ categories:
   - architecture
 authors:
   - James Gimourginas
+id: 'd2f1840a-13d1-4e27-ab72-4db1673f4931'
 ---
 
 # Vendia's Inspiring Vision

@@ -25,6 +25,7 @@ seo:
   keywords: DDD, Domain Driven Design
 updatedBy: alexa-vendia
 updatedAt: 2022-12-06T23:57:26.226Z
+id: 'c11e7985-5204-4774-b8ef-91aa756f183d'
 ---
 
 Vendia Share is a platform that you can use to quickly build real-time data sharing applications which we call Universal Applications (or "Unis" for short). 

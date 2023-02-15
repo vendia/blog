@@ -5,6 +5,7 @@ description: 'Learn how Vendia Share makes real estate transactions and multi-pa
 date: '2022-06-24'
 authors:
   - Caroll Casbeer
+id: 'dbf120dc-3aa7-473d-ab78-c44d7018378e'
 ---
 
 Because real estate transactions involve a number of unique parties and highly sensitive information, transaction complexities slow down transaction time while increasing costs to all parties and elevating transaction risk.  But, Vendia’s figured out how to overcome these challenges and increase transparency in real time for residential real estate transactions with [Vendia Share](http://vendia.com).

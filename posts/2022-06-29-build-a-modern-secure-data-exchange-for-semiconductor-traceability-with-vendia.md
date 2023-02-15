@@ -5,6 +5,7 @@ description: 'To produce high-quality, high-yielding chips, semiconductor compan
 date: '2022-06-29'
 authors:
   - Vikrant Kahlir
+id: '1fc38399-c271-4904-8f30-467837b0345e'
 ---
 
 

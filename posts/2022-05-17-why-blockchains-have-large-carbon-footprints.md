@@ -5,6 +5,7 @@ description: 'Why current blockchain technologies have large carbon footprints'
 date: '2022-05-17'
 authors:
   - Tim Wagner
+id: 'e555ed46-d352-4cc1-b0c0-7d5e8918bd0d'
 ---
 
 # The table stakes and background

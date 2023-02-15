@@ -5,6 +5,7 @@ description: 'Forecast: Cloudy with a chance of Blockchain. How conventional IT,
 date: '2022-03-30'
 authors:
   - Tim Wagner
+id: '3ecee1ca-e5be-4fdc-94e5-95ee0f7e511e'
 ---
 _Is this series for you?_
 

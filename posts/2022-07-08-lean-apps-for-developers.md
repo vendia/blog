@@ -5,6 +5,7 @@ description: 'Examine the lean app approach to development, including its precur
 date: '2022-07-08'
 authors:
   - Caroll Casbeer
+id: '99ad4b41-1f64-4587-9d88-1744e701019d'
 ---
 
 In our[ Lean Apps Manifesto](https://www.vendia.com/blog/lean-app-part-4), Dr. Tim Wagner outlines the next wave of application development to ‘flip the IT iceberg’ and accelerate innovation. 

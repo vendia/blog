@@ -24,6 +24,7 @@ seo:
   keywords: track and trace, supply chain traceability
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T19:12:29.677Z
+id: '63cb48e2-097b-45ae-bdc6-7e53ef82fad8'
 ---
 
 We are excited to introduce our new [Track and Trace Quickstart Guide](https://vendia.com/docs/share/quickstart/track-and-trace).  

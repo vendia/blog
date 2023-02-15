@@ -8,6 +8,7 @@ categories:
 - blockchain
 authors:
   - Tim Wagner
+id: 'f2a02df0-9ea4-4b35-bd80-7178dfda67ce'
 ---
 
 Centralized IT and blockchain technologies don’t need to be at odds with one another. Next-gen platforms give financial institutions the best of blockchain, plus the best of central IT to empower transformation, securely [share real-time data](https://www.vendia.com/blog/real-time-data-sharing-roundup), and eliminate errors and the need for massive reconciliation.

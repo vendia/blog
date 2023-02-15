@@ -8,6 +8,7 @@ categories:
   - product
 authors:
   - Jake Partusch
+id: '0bf61472-1ffc-42dd-a101-4f27cc33da9d'
 ---
 
 # Introducing developer-friendly pricing with our new Individual Plan

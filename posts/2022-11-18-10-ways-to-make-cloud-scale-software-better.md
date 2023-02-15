@@ -10,6 +10,7 @@ tags:
   - cloud
 authors:
   - James Gimourginas
+id: '8b9b13c9-13ba-476b-bf64-9c820b32edaf'
 ---
 
 Scale. It’s one of the most common stressors to complex software systems. So how do public cloud services companies do it? And what differentiating practices can we apply from their toolkit, even when developing solutions that don’t require “cloud scale”?

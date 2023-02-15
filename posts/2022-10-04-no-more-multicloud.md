@@ -10,6 +10,7 @@ categories:
   - architecture
   - concepts
 updatedBy: David Wells
+id: '18c7bc4d-b785-4ad4-8b49-a89a5563869a'
 ---
 
 Say "multicloud” to a public cloud salesperson or executive, and it’s practically profanity.

@@ -11,6 +11,7 @@ tags:
 authors:
   - Tim Wagner
   - Shruthi Rao
+id: '4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0'
 ---
 
 We're excited to announce that Vendia has raised a $15.5M Series A round, led

@@ -5,6 +5,7 @@ description: 'Putting a company policy to the test'
 date: '2021-01-04'
 authors:
   - Brian McNamara
+id: 'bff43a5b-b563-4841-9f20-dfc0c90ca0a0'
 ---
 
 At Vendia, we have a ["Kind Humans Only"](https://vendia.com/kind-humans) policy.  All employees are required to sign a document acknowledging adherence to it.  We share it on our public website so everyone can see what we hold as important.  I'm here to say these words are not empty - kindness really matters at Vendia.  The way we treat each other - the way we look after each other with kindness - is genuine.  I'd like to illustrate this with a story.

@@ -8,6 +8,7 @@ categories:
 - concepts
 authors:
   - Francine Klein
+id: '792a7f70-09b0-4ea0-9d5e-b35bf2c9c8b4'
 ---
 
 ## Understanding real-time data lakes

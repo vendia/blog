@@ -5,7 +5,9 @@ description: 'In this three-part series, dive deep into the challenges and solut
 date: '2022-06-29'
 authors:
   - Tim Wagner
+id: '5364dd89-1676-4170-aca4-0dab5b37570f'
 ---
+
 # How to effectively address the challenges of real-time data sharing at the enterprise level
 
 In this three-part series originally shared on The New Stack, Dr. Tim Wagner, the inventor of AWS Lambda and CEO and co-founder at Vendia, thoroughly unpacks the challenges and solutions for effective real-time data sharing at the enterprise level. 

@@ -7,6 +7,7 @@ longDescription: >
 date: '2021-09-01'
 authors:
   - Brian McNamara
+id: '25cf5e11-64c0-4ee4-8978-fb43d66db789'
 ---
 
 Vendia Share offers customers the ability to share data with internal and external partners. Our customers often want to share data while also enforcing fine-grained access controls restricting partners to only the data elements they're authorized to access. Vendia Share has had the ability to enforce access controls on files. Today, we're proud to announce the release of these same controls on data elements. With this release, Uni nodes can specify which party has the ability to read or write data on a per-data-element basis.

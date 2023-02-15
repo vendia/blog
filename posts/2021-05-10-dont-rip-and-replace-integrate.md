@@ -7,6 +7,7 @@ longDescription: >
 date: '2021-05-10'
 authors:
   - Brian McNamara
+id: 'b40e14bb-9d23-4ee8-baea-26ad5cdc0b0c'
 ---
 
 Vendia Share is a SaaS offering that makes it easy for companies and organizations to share code and data across clouds, regions, accounts, and technology stacks with control and lineage without any up-front infrastructure investment or operational overhead.

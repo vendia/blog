@@ -5,6 +5,7 @@ description: "How Vendia's serverless distributed ledger is the green way to do 
 date: '2022-05-19'
 authors:
   - Tim Wagner
+id: '6cf444e2-7db8-4d69-906c-9e550c11dd56'
 ---
 
 

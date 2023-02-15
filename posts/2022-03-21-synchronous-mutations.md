@@ -7,6 +7,7 @@ categories:
   - product
 authors:
   - David Brown
+id: 'd96b74bc-9e5f-499e-b9f0-d8b9c887f0cd'
 ---
 
 Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to **execute synchronous mutations on Vendia Share. **

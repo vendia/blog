@@ -8,6 +8,7 @@ categories:
 - tutorials
 authors:
 - James Gimourginas
+id: '676ff9bc-3b83-4bac-bfae-900714a29c4b'
 ---
 
 One of Vendia Share's most powerful features gives you the ability to automatically convert a [data model](https://www.vendia.com/docs/share/data-modeling) into a production-grade, distributed application (called a [Universal Application](https://www.vendia.com/docs/share/dev-and-use-unis), or "Uni" for short) that’s composed of serverless public cloud resources. The data model input that Vendia Share accepts must follow the [JSON Schema specification](https://json-schema.org/draft/2020-12/json-schema-core.html). The Uni creation process takes that JSON Schema input and automatically generates a number of artifacts, including a GraphQL schema and its full implementation. In other words, the data model defined prior to Uni creation directly relates to the GraphQL interface you and your partners will leverage when integrating with the Uni.

@@ -5,6 +5,7 @@ description: 'Build software based on customer value, not technological ownershi
 date: '2022-02-03'
 authors:
   - Tim Wagner
+id: '3ce7d80b-4662-48d2-b865-5742c9c98253'
 ---
 
 ## Build software based on _customer value_, not _technological ownership_

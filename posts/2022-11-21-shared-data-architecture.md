@@ -8,6 +8,7 @@ categories:
   - data-alliance
 authors:
   - James Gimourginas
+id: 'd44e70c7-8faf-4c05-9f25-3c12d36b7277'
 ---
 
 Technological advances, ongoing academic research, and new product offerings are all contributing to an emerging new architectural paradigm — a _shared data architecture_.  This new paradigm is changing how organizations design their systems, how they interact with their partners, and how they think about data ownership, data protection, and data resilience.  Technical leaders should read on to learn more about the key components of shared data architecture, its place in the enterprise, its potential value to an organization, and its increasing influence within a variety of industries.

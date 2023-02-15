@@ -25,6 +25,7 @@ seo:
   keywords: supply chain traceability, track and trace
 updatedBy: alexa-vendia
 updatedAt: 2022-12-06T23:53:54.828Z
+id: '73f7d2de-58a8-46f1-9194-f520e8258aaa'
 ---
 
 Producers, shippers, and retailers face many logistical issues when dealing with physical goods. With large quantities of merchandise, invariably some of the products will get lost, damaged, or stolen. Knowing when something goes wrong would provide valuable information to help these entities improve their processes and lower costs.

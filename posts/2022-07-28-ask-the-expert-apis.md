@@ -8,6 +8,7 @@ categories:
 - concepts
 authors:
   - Tim Wagner
+id: 'f0c22beb-9cf9-4d05-b0e5-90e63121ec18'
 ---
 
 # Ask the expert: Dr. Tim Wagner explains why APIs break down and how to fix your data inconsistencies with smart APIs

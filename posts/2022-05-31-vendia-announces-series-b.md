@@ -6,7 +6,9 @@ date: '2022-05-31'
 authors:
   - Tim Wagner
   - Shruthi Rao
+id: '061e0286-2471-43e4-9418-9d3a762aa378'
 ---
+
 ## We've raised $30M in series B funding to usher in the web3 era with our next-gen blockchain technology
 
 Today we're excited to announce the latest milestone for Vendia. We've raised an additional $30M in Series B funding led by NewView Capital – with new investment from the Neythri Futures Fund, Operator Partners, and Lux Capital. The funding also includes additional investment from Neotribe Ventures, Aspenwood Ventures, Sorenson Capital, Canvas Ventures, and BMW iVentures. This latest round brings our total funding to $50M, and it will help us grow our internal teams, invest in our go-to-market engine, as well as scale partnerships and new areas of compliance certifications.

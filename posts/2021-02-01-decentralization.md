@@ -10,6 +10,7 @@ tags:
   - decentralization
 authors:
   - Tim Wagner
+id: '73d423f3-afe9-4f99-ba9f-8001e06754cc'
 ---
 
 "Classic" decentralization is defined by server ownership. What does that mean in a world where IT applications and their components are increasingly virtualized and serverless?

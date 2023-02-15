@@ -5,6 +5,7 @@ description: 'Vendia Share now reports failed transactions'
 date: '2021-03-17'
 authors:
   - Tim Wagner
+id: '2f9620f1-6690-442f-a8f3-1d7bc1e0fa2a'
 ---
 
 # What's New in Vendia Share: Event Reporting for Failed Transactions

@@ -7,6 +7,7 @@ categories:
   - company
 authors:
   - Renee Fujii
+id: 'f8517b45-6463-44a3-8acc-c9123b782fc9'
 ---
 
 As team Vendia journeys through our seed, Series A, and now [Series B](https://www.vendia.net/blog/vendia-announces-series-b) rounds, we have both the capital and the mandate to  grow, grow, grow. But, unlike many startups (and heritage brands for that matter), our leadership team believes that we should grow thoughtfully and not at the expense of our culture. In fact, we believe, if we take care of each other as we take care of our work, our community of [kind humans](https://www.vendia.net/kind-humans) can only help us grow faster, stronger, smarter. 

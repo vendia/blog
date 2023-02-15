@@ -5,7 +5,9 @@ description: 'The basics of real-time data sharing: what it is, how it works, co
 date: '2022-05-03'
 authors:
   - Tim Wagner
+id: 'eab67a32-f85c-49f6-b190-e9fc914dd5cb'
 ---
+
 ## What is real-time data sharing?
 
 **Real-time data sharing is the ability of a company to use, update, govern, and build mission-critical outcomes from data it needs to power its business, _even when that data lives in different applications, clouds, and business partners_.**

@@ -15,6 +15,7 @@ seo:
   title: "No more burnout: Reflections after 6 months at Vendia"
 updatedBy: alexa-vendia
 updatedAt: 2022-12-02T01:44:23.082Z
+id: '93c83ed0-caff-4398-b65d-ed404a729106'
 ---
 
 When [Vendia](http://vendia.com) first reached out to me, I was at a bit of a crossroads in my career. I was making great money, helping improve customer and end user experiences and helping other designers grow their careers. On the surface, everything was great, but I knew a shift was coming.

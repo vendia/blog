@@ -5,6 +5,7 @@ description: 'Vendia celebrates its first year as a C-corporation'
 date: '2021-03-31'
 authors:
   - Tim Wagner
+id: 'e218e8c6-4cf5-4beb-99e9-57fced80e2b6'
 ---
 
 # Happy Birthday, Vendia!

@@ -5,6 +5,7 @@ description: 'Compare and contrast event handlers and smart contracts as you con
 date: '2022-07-13'
 authors:
   - Tim Wagner
+id: '410d361f-f62f-4518-baec-b4b004612ed7'
 ---
 
 

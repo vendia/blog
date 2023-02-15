@@ -19,6 +19,7 @@ seo:
     retrieval performance.
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T00:59:46.041Z
+id: 'ece76589-7aa4-4a3a-b534-b164354c9222'
 ---
 
 Vendia Share now offers customer-selected indexes to support efficient data retrieval regardless of the size of the data set. 

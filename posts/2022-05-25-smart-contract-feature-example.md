@@ -14,6 +14,7 @@ seo:
   description: Applying Vendia Share smart contracts
 updatedBy: David Wells
 updatedAt: 2022-11-16T19:45:40.052Z
+id: 'a9fe11e1-f1da-4247-a9a2-ce01d22d555f'
 ---
 
 ## Overview

@@ -4,9 +4,10 @@ title: 'My first 30 days at Vendia'
 description: 'Caroll Casbeer, Head of Growth Marketing, shares her thoughts on her first 30 days at Vendia — from onboarding to an offsite.'
 date: '2022-02-09'
 categories:
-- company
+  - company
 authors:
   - Caroll Casbeer
+id: '4225ea79-7340-4e65-b3f2-d43e7fa911ad'
 ---
 
 As anyone who works at a startup knows, that is about 6 months in ‘normal’ company life. It’s been a fast few weeks but diving right in is the only way to get started. 

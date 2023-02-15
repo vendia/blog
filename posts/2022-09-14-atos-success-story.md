@@ -7,6 +7,7 @@ categories:
 - product
 authors:
   - Anders Maul
+id: '42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9'
 ---
 
 ### _Atos lauds Vendia Share’s low code development and distributed ledger design while celebrating the solution’s new single source of truth across reinsurance partners._

@@ -23,6 +23,7 @@ seo:
     data alliance.
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T18:51:55.009Z
+id: '6aff4695-eb94-4e62-98af-ec9c56d24fac'
 ---
 
 ## Coding can be boring

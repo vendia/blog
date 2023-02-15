@@ -5,6 +5,7 @@ description: 'And why building them is still such a challenge'
 date: '2022-04-06'
 authors:
   - Tim Wagner
+id: 'da2ccbb6-b4c6-4820-95bc-592507cdb7d0'
 ---
 
 APIs are ubiquitous in our industry. From payment APIs like Stripe and PayPal to communication services like Twilio to the ever-growing list of AWS services, it seems that every company and concept has an associated API. 

@@ -7,6 +7,7 @@ categories:
 - company
 authors:
   - Renee Fujii
+id: '0442a6b8-d71a-45f4-8c56-bb387ce7cce4'
 ---
 
 _Our Head of Talent, Renee Fujii shares interview tips and our cultural philosophy in this post about how we hire people at the intersection of smart and kind._

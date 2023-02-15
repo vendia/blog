@@ -5,6 +5,7 @@ description: 'Send a CSV via SFTP to add data to your Uni'
 date: '2022-03-23'
 authors:
   - Caroll Casbeer
+id: 'ee831905-de2a-468a-a982-59292eec49a4'
 ---
 
 In Part 1 of our series about Integrating Data Stores with Vendia Share, we dove into adding a [CSV via Email](https://www.vendia.com/blog/add-csv-to-vendia-share), but what about adding data via STFP? We can help with that!

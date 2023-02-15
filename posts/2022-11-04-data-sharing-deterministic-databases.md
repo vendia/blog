@@ -8,6 +8,7 @@ categories:
   - real-time-data-sharing
 authors:
   - Tim Wagner
+id: '80436f0b-5ff3-43f6-ae0b-cd615b669b08'
 ---
 
 From tapping a phone to pay for an Americano to coordinating global supply chain systems, data consistency across companies, clouds, geographies and applications is critical to every aspect of both B2C and B2B experiences. But, accurate data sharing has gone largely unaddressed despite advances in cloud technology:
