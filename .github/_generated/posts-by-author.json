@@ -220,7 +220,8 @@
         "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility."
       },
       "updatedBy": "David Wells",
-      "updatedAt": "2022-12-02T20:22:13.068Z"
+      "updatedAt": "2022-12-02T20:22:13.068Z",
+      "id": "4eb01820-fdce-4971-8a42-d567be720651"
     },
     {
       "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
@@ -247,7 +248,8 @@
         "keywords": "real-time data, real-time data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z"
+      "updatedAt": "2022-11-15T17:44:24.221Z",
+      "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
     },
     {
       "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
@@ -261,7 +263,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
     },
     {
       "file": "/posts/2022-10-27-codeless-apis.md",
@@ -286,7 +289,8 @@
         "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z"
+      "updatedAt": "2022-12-07T18:51:55.009Z",
+      "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
     },
     {
       "file": "/posts/2022-10-12-fintech-innovation-mortgage-servicing.md",
@@ -299,7 +303,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "708d9217-d8d2-4ee1-8120-f86bee9b4a3f"
     },
     {
       "file": "/posts/2022-10-04-no-more-multicloud.md",
@@ -314,7 +319,8 @@
         "architecture",
         "concepts"
       ],
-      "updatedBy": "David Wells"
+      "updatedBy": "David Wells",
+      "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
     },
     {
       "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
@@ -328,7 +334,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "f2a02df0-9ea4-4b35-bd80-7178dfda67ce"
     },
     {
       "file": "/posts/2022-09-20-finserv-blockchain-data-strategy.md",
@@ -342,7 +349,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "4d6cdf52-8d6f-4b51-b4b2-5f6559807f44"
     },
     {
       "file": "/posts/2022-08-26-crud-new-rules-for-apis.md",
@@ -356,7 +364,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "56029f06-d9d7-448a-a1a5-69968bf741e8"
     },
     {
       "file": "/posts/2022-08-24-vendia-share-enterprise-file-sharing-platform.md",
@@ -369,7 +378,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "750bfbde-4291-4cae-9d11-90116ac95099"
     },
     {
       "file": "/posts/2022-08-17-public-cloud-file-sharing.md",
@@ -383,7 +393,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "d4ad1bde-6e44-4ed3-8ff6-80fb8e778d5b"
     },
     {
       "file": "/posts/2022-08-15-data-lakes-file-sharing-use-cases.md",
@@ -396,7 +407,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "e1c17bd4-81cf-4012-8185-859d991fe37a"
     },
     {
       "file": "/posts/2022-08-12-vendia-share-building-blocks.md",
@@ -410,7 +422,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "92ae72a0-191b-4b23-9edb-da38044c1d99"
     },
     {
       "file": "/posts/2022-08-09-venn-diagramming-vendia-share.md",
@@ -424,7 +437,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "3165220d-fba2-421e-8355-70904d22733a"
     },
     {
       "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
@@ -452,7 +466,8 @@
         "keywords": "real-time data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z"
+      "updatedAt": "2022-12-07T18:59:43.875Z",
+      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
     },
     {
       "file": "/posts/2022-07-28-ask-the-expert-apis.md",
@@ -466,7 +481,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "f0c22beb-9cf9-4d05-b0e5-90e63121ec18"
     },
     {
       "file": "/posts/2022-07-13-event-handlers-vs-smart-contracts.md",
@@ -476,7 +492,8 @@
       "date": "2022-07-13",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "410d361f-f62f-4518-baec-b4b004612ed7"
     },
     {
       "file": "/posts/2022-06-29-real-time-data-sharing-challenges-for-enterprises.md",
@@ -486,7 +503,8 @@
       "date": "2022-06-29",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "5364dd89-1676-4170-aca4-0dab5b37570f"
     },
     {
       "file": "/posts/2022-06-09-apis-for-real-time-data-sharing.md",
@@ -496,7 +514,8 @@
       "date": "2022-06-09",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "3798da4e-5631-45f6-aa3f-eb11be30c17d"
     },
     {
       "file": "/posts/2022-05-31-vendia-announces-series-b.md",
@@ -507,7 +526,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
     },
     {
       "file": "/posts/2022-05-27-apis-for-data.md",
@@ -517,7 +537,8 @@
       "date": "2022-05-27",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "e5524e68-9035-438c-ad47-ee239e59d147"
     },
     {
       "file": "/posts/2022-05-19-vendia-green-blockchain.md",
@@ -527,7 +548,8 @@
       "date": "2022-05-19",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "6cf444e2-7db8-4d69-906c-9e550c11dd56"
     },
     {
       "file": "/posts/2022-05-17-why-blockchains-have-large-carbon-footprints.md",
@@ -537,7 +559,8 @@
       "date": "2022-05-17",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "e555ed46-d352-4cc1-b0c0-7d5e8918bd0d"
     },
     {
       "file": "/posts/2022-05-13-green-blockchain-intro.md",
@@ -547,7 +570,8 @@
       "date": "2022-05-13",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "7535edca-7f61-4d06-b137-326607d881f6"
     },
     {
       "file": "/posts/2022-05-02-what-is-real-time-data-sharing.md",
@@ -557,7 +581,8 @@
       "date": "2022-05-03",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "eab67a32-f85c-49f6-b190-e9fc914dd5cb"
     },
     {
       "file": "/posts/2022-05-03-future-of-it-conclusion.md",
@@ -567,7 +592,8 @@
       "date": "2022-05-03",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "94de6ca0-e208-4052-a75f-0aa6349ce3f2"
     },
     {
       "file": "/posts/2022-04-26-3-body-problem-solution-example.md",
@@ -580,7 +606,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "4ae3e722-f7ee-4882-aa9e-30e8f4734929"
     },
     {
       "file": "/posts/2022-04-20-nft-it-business-example.md",
@@ -590,7 +617,8 @@
       "date": "2022-04-20",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "f8d55d96-ed4b-4ba6-b4a5-4298bee49e03"
     },
     {
       "file": "/posts/2022-04-15-blockchains-vs-cloud-and-it.md",
@@ -600,7 +628,8 @@
       "date": "2022-04-15",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "4fc16985-53d7-4058-96c3-5235849846f1"
     },
     {
       "file": "/posts/2022-04-06-smart-apis-and-vendia-share.md",
@@ -610,7 +639,8 @@
       "date": "2022-04-06",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "ce3aed63-1e2d-4cc2-980d-35a54fa80aa8"
     },
     {
       "file": "/posts/2022-04-06-what-are-apis.md",
@@ -620,7 +650,8 @@
       "date": "2022-04-06",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "da2ccbb6-b4c6-4820-95bc-592507cdb7d0"
     },
     {
       "file": "/posts/2022-04-04-smart-apis.md",
@@ -630,7 +661,8 @@
       "date": "2022-04-04",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "80e2b511-07b8-478e-b1ec-5a3322737bee"
     },
     {
       "file": "/posts/2022-04-01-private-vs-public-blockchains.md",
@@ -643,7 +675,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "c068da9b-f8a5-4684-8f7c-5ccc07ef1d31"
     },
     {
       "file": "/posts/2022-03-30-3-body-problem.md",
@@ -653,7 +686,8 @@
       "date": "2022-03-30",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "3ecee1ca-e5be-4fdc-94e5-95ee0f7e511e"
     },
     {
       "file": "/posts/2022-03-24-private-public-blockchain-and-cloud.md",
@@ -663,7 +697,8 @@
       "date": "2022-03-24",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "4fb2e425-5664-41b1-98c0-45f8a357d325"
     },
     {
       "file": "/posts/2022-03-17-are-blockchains-databases.md",
@@ -722,7 +757,8 @@
       "date": "2022-02-22",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "909c24bb-bc1e-48ba-a6b1-7572821ceb9f"
     },
     {
       "file": "/posts/2022-02-03-lean-app-part-3.md",
@@ -732,7 +768,8 @@
       "date": "2022-02-15",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "98b64b73-230f-48fa-8dd7-37695a553b9d"
     },
     {
       "file": "/posts/2022-02-03-lean-app-part-2.md",
@@ -742,7 +779,8 @@
       "date": "2022-02-09",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "d4200c79-9b83-4700-a517-892b9dbd7248"
     },
     {
       "file": "/posts/2022-02-03-lean-app-part-1.md",
@@ -752,7 +790,8 @@
       "date": "2022-02-03",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "3ce7d80b-4662-48d2-b865-5742c9c98253"
     },
     {
       "file": "/posts/2022-02-03-lean-app.md",
@@ -762,7 +801,8 @@
       "date": "2022-02-03",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "98ca6fa7-7c7a-4b76-8024-910c11241e81"
     },
     {
       "file": "/posts/2021-10-22-serverless-distributed-ledger-for-enterprises.md",
@@ -776,7 +816,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "c0a48341-0487-471d-84d4-90f8cb9f1857"
     },
     {
       "file": "/posts/2021-06-08-gartner-cool-vendor.md",
@@ -794,7 +835,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "b2ee0975-09a3-454d-9f62-b9bfe13faac0"
     },
     {
       "file": "/posts/2021-03-31-vendia-turns-1.md",
@@ -804,7 +846,8 @@
       "date": "2021-03-31",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "e218e8c6-4cf5-4beb-99e9-57fced80e2b6"
     },
     {
       "file": "/posts/2021-03-17-whats-new-failed-tx-dlq.md",
@@ -814,7 +857,8 @@
       "date": "2021-03-17",
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "2f9620f1-6690-442f-a8f3-1d7bc1e0fa2a"
     },
     {
       "file": "/posts/2021-03-10-whats-new-indices.md",
@@ -839,7 +883,8 @@
         "description": "Vendia Share now supports customer indices to improve data retrieval performance."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:59:46.041Z"
+      "updatedAt": "2022-12-07T00:59:46.041Z",
+      "id": "ece76589-7aa4-4a3a-b534-b164354c9222"
     },
     {
       "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
@@ -858,7 +903,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "66021bbe-3ffa-45b3-90fc-26348e448573"
     },
     {
       "file": "/posts/2021-02-02-series-a-announcement.md",
@@ -876,7 +922,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
     },
     {
       "file": "/posts/2021-02-01-decentralization.md",
@@ -893,7 +940,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "73d423f3-afe9-4f99-ba9f-8001e06754cc"
     },
     {
       "file": "/posts/2021-01-31-stamti.md",
@@ -910,7 +958,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "8b661b20-e780-482b-a71a-bc29d6ebdff3"
     },
     {
       "file": "/posts/2020-12-07-serverless-express-finds-home-at-vendia.md",
@@ -1011,7 +1060,8 @@
         "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z"
+      "updatedAt": "2022-12-06T23:38:48.273Z",
+      "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
     }
   ],
   "vendia": [
@@ -1263,7 +1313,8 @@
         "keywords": "circles of trust, b2b data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z"
+      "updatedAt": "2022-12-16T21:36:05.197Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
     },
     {
       "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
@@ -1481,7 +1532,8 @@
         "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T01:05:21.832Z"
+      "updatedAt": "2022-12-07T01:05:21.832Z",
+      "id": "12318435-38a9-4065-baff-ea6e84f240de"
     },
     {
       "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
@@ -1644,7 +1696,8 @@
         "keywords": "track and trace, supply chain traceability"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z"
+      "updatedAt": "2022-12-07T19:12:29.677Z",
+      "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     },
     {
       "file": "/posts/2020-11-16-tools-that-shape-products.md",
@@ -1672,7 +1725,8 @@
         "title": "How tools impact products for real-time, multi-party data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z"
+      "updatedAt": "2022-12-08T00:31:47.144Z",
+      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
     },
     {
       "file": "/posts/2020-11-05-track-and-trace.md",
@@ -1700,7 +1754,8 @@
         "keywords": "supply chain traceability, track and trace"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:53:54.828Z"
+      "updatedAt": "2022-12-06T23:53:54.828Z",
+      "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
     }
   ],
   "li-dai": [
@@ -1767,7 +1822,8 @@
         "keywords": "shared data architecture"
       },
       "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z"
+      "updatedAt": "2022-12-01T19:22:33.839Z",
+      "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
     }
   ],
   "shruthi-rao": [
@@ -1811,7 +1867,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
     },
     {
       "file": "/posts/2021-06-08-gartner-cool-vendor.md",
@@ -1829,7 +1886,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "b2ee0975-09a3-454d-9f62-b9bfe13faac0"
     },
     {
       "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
@@ -1848,7 +1906,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "66021bbe-3ffa-45b3-90fc-26348e448573"
     },
     {
       "file": "/posts/2021-02-02-series-a-announcement.md",
@@ -1866,7 +1925,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
     },
     {
       "file": "/posts/2020-07-01-meet-vendias-founders.md",
@@ -1929,7 +1989,8 @@
         "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z"
+      "updatedAt": "2022-12-06T23:38:48.273Z",
+      "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
     }
   ],
   "james-gimourginas": [
@@ -2023,7 +2084,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
     },
     {
       "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
@@ -2040,7 +2102,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
     },
     {
       "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
@@ -2067,7 +2130,8 @@
         "keywords": "real-time data, real-time data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z"
+      "updatedAt": "2022-11-15T17:44:24.221Z",
+      "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
     },
     {
       "file": "/posts/2022-10-21-api-security-graphql.md",
@@ -2095,7 +2159,8 @@
         "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:45:47.542Z"
+      "updatedAt": "2022-12-07T18:45:47.542Z",
+      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
     },
     {
       "file": "/posts/2022-09-15-api-design-best-practices.md",
@@ -2125,7 +2190,8 @@
         "keywords": "API design best practices"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:48:44.323Z"
+      "updatedAt": "2022-12-07T18:48:44.323Z",
+      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
     },
     {
       "file": "/posts/2022-07-25-lean-apps-for-teams.md",
@@ -2138,7 +2204,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "2ffeac57-9577-4781-b3a3-7d14b859cafb"
     },
     {
       "file": "/posts/2022-07-12-top-10-data-modeling-techniques.md",
@@ -2152,7 +2219,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "676ff9bc-3b83-4bac-bfae-900714a29c4b"
     },
     {
       "file": "/posts/2022-05-25-smart-contract-feature-example.md",
@@ -2173,7 +2241,8 @@
         "description": "Applying Vendia Share smart contracts"
       },
       "updatedBy": "David Wells",
-      "updatedAt": "2022-11-16T19:45:40.052Z"
+      "updatedAt": "2022-11-16T19:45:40.052Z",
+      "id": "a9fe11e1-f1da-4247-a9a2-ce01d22d555f"
     },
     {
       "file": "/posts/2022-05-10-improve-your-data-mesh.md",
@@ -2222,7 +2291,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
     },
     {
       "file": "/posts/2022-01-04-azure-eventing.md",
@@ -2235,7 +2305,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "ddbf3341-2b4b-4e3a-bcfe-c291080d1f08"
     },
     {
       "file": "/posts/2021-12-13-log4j2-response.md",
@@ -2248,7 +2319,8 @@
       ],
       "categories": [
         "announcements"
-      ]
+      ],
+      "id": "c61580b6-5364-49fa-8b17-2b38b156fd66"
     },
     {
       "file": "/posts/2021-10-26-website-case-studies.md",
@@ -2261,7 +2333,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "d4343c26-dd76-4b56-8051-05ae2497bbd5"
     },
     {
       "file": "/posts/2021-10-12-open-beta-changes.md",
@@ -2275,7 +2348,8 @@
       "authors": [
         "James Gimourginas",
         "Brian McNamara"
-      ]
+      ],
+      "id": "ff605ef6-07ae-47e2-bdc8-94e229d58ce5"
     },
     {
       "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
@@ -2291,7 +2365,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "40f18bfb-8755-4ae0-9fdd-e91139773e5a"
     },
     {
       "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
@@ -2305,7 +2380,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "9b00f8a3-b2a7-4eb8-81e5-038b127e0582"
     },
     {
       "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
@@ -2320,7 +2396,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "d2f1840a-13d1-4e27-ab72-4db1673f4931"
     }
   ],
   "vikrant-kahlir": [
@@ -2372,7 +2449,8 @@
       ],
       "authors": [
         "Vikrant Kahlir"
-      ]
+      ],
+      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
     },
     {
       "file": "/posts/2022-09-07-kind-is-strong.md",
@@ -2385,7 +2463,8 @@
       ],
       "authors": [
         "Vikrant Kahlir"
-      ]
+      ],
+      "id": "43a8caa8-6d4b-4d5f-b020-60c43337811b"
     },
     {
       "file": "/posts/2022-02-24-b2b-data-sharing.md",
@@ -2395,7 +2474,8 @@
       "date": "2022-08-23",
       "authors": [
         "Vikrant Kahlir"
-      ]
+      ],
+      "id": "9d1d9ccc-a249-4172-a948-226ad494e206"
     },
     {
       "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
@@ -2408,7 +2488,8 @@
       "date": "2022-07-26",
       "authors": [
         "Vikrant Kahlir"
-      ]
+      ],
+      "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
     },
     {
       "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
@@ -2418,7 +2499,8 @@
       "date": "2022-07-07",
       "authors": [
         "Vikrant Kahlir"
-      ]
+      ],
+      "id": "8bddfc2e-340c-4b8e-8771-b34427b85c51"
     },
     {
       "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
@@ -2428,7 +2510,8 @@
       "date": "2022-06-29",
       "authors": [
         "Vikrant Kahlir"
-      ]
+      ],
+      "id": "1fc38399-c271-4904-8f30-467837b0345e"
     },
     {
       "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
@@ -2453,7 +2536,8 @@
         "title": "13 features you need to evaluate an enterprise blockchain platform"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:49:07.256Z"
+      "updatedAt": "2022-12-07T00:49:07.256Z",
+      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
     },
     {
       "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
@@ -2480,7 +2564,8 @@
         "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:29:17.674Z"
+      "updatedAt": "2022-12-07T00:29:17.674Z",
+      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
     },
     {
       "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
@@ -2509,7 +2594,8 @@
         "keywords": "DDD, Domain Driven Design"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:57:26.226Z"
+      "updatedAt": "2022-12-06T23:57:26.226Z",
+      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
     }
   ],
   "alexa-johnson": [
@@ -2574,7 +2660,8 @@
         "keywords": "circles of trust"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-18T21:53:26.118Z"
+      "updatedAt": "2022-11-18T21:53:26.118Z",
+      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
     },
     {
       "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
@@ -2590,7 +2677,8 @@
       "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
       "authors": [
         "Alexa Johnson"
-      ]
+      ],
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
     }
   ],
   "francine-klein": [
@@ -2721,7 +2809,8 @@
       ],
       "authors": [
         "Francine Klein"
-      ]
+      ],
+      "id": "845be41f-78b8-4ced-8621-d4a5d8385220"
     },
     {
       "file": "/posts/2022-10-14-what-is-customer-360-with-vendia.md",
@@ -2735,7 +2824,8 @@
       ],
       "authors": [
         "Francine Klein"
-      ]
+      ],
+      "id": "5068291c-4eba-49dd-b506-87586f398101"
     },
     {
       "file": "/posts/2022-09-22-real-time-everything.md",
@@ -2751,7 +2841,8 @@
       ],
       "authors": [
         "Francine Klein"
-      ]
+      ],
+      "id": "85b3ceb0-c492-404c-80a2-a0c819ce4f7c"
     },
     {
       "file": "/posts/2022-08-03-understanding-real-time-data-lakes.md",
@@ -2765,7 +2856,8 @@
       ],
       "authors": [
         "Francine Klein"
-      ]
+      ],
+      "id": "792a7f70-09b0-4ea0-9d5e-b35bf2c9c8b4"
     }
   ],
   "renee-fujii": [
@@ -2780,7 +2872,8 @@
       ],
       "authors": [
         "Renee Fujii"
-      ]
+      ],
+      "id": "f8517b45-6463-44a3-8acc-c9123b782fc9"
     },
     {
       "file": "/posts/2022-09-06-how-to-recruit-kind-humans.md",
@@ -2793,7 +2886,8 @@
       ],
       "authors": [
         "Renee Fujii"
-      ]
+      ],
+      "id": "0442a6b8-d71a-45f4-8c56-bb387ce7cce4"
     }
   ],
   "caroll-casbeer": [
@@ -2812,7 +2906,8 @@
         "description": "Growth marketing tactics for startups."
       },
       "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-05T18:54:20.364Z"
+      "updatedAt": "2022-12-05T18:54:20.364Z",
+      "id": "00b609d6-87a8-4795-b810-ae3c025b64fe"
     },
     {
       "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
@@ -2826,7 +2921,8 @@
       ],
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "d049842f-8968-4cd1-b9f2-175a664c9266"
     },
     {
       "file": "/posts/2022-09-10-new-podcast.md",
@@ -2839,7 +2935,8 @@
       ],
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "0403d3c0-3347-4cfa-8b45-3fde05224350"
     },
     {
       "file": "/posts/2022-08-31-new-vendia-logo.md",
@@ -2853,7 +2950,8 @@
       "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "a6662e71-c7c9-4381-b5e6-3da3501f6274"
     },
     {
       "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
@@ -2866,7 +2964,8 @@
       ],
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "f5898f08-43e2-43ee-9524-4679bd5cbf40"
     },
     {
       "file": "/posts/2022-07-08-lean-apps-for-developers.md",
@@ -2876,7 +2975,8 @@
       "date": "2022-07-08",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "99ad4b41-1f64-4587-9d88-1744e701019d"
     },
     {
       "file": "/posts/2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain.md",
@@ -2886,7 +2986,8 @@
       "date": "2022-06-24",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "dbf120dc-3aa7-473d-ab78-c44d7018378e"
     },
     {
       "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
@@ -2896,7 +2997,8 @@
       "date": "2022-06-22",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "94e30367-7c01-480f-ab7f-5630bfdb83d2"
     },
     {
       "file": "/posts/2022-03-24-adding-data-via-sftp.md",
@@ -2906,7 +3008,8 @@
       "date": "2022-03-23",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "ee831905-de2a-468a-a982-59292eec49a4"
     },
     {
       "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
@@ -2916,7 +3019,8 @@
       "date": "2022-03-15",
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "ab8170c1-018a-4515-b3fe-753640994d1d"
     },
     {
       "file": "/posts/2022-02-09-first-30-days-at-vendia.md",
@@ -2929,7 +3033,8 @@
       ],
       "authors": [
         "Caroll Casbeer"
-      ]
+      ],
+      "id": "4225ea79-7340-4e65-b3f2-d43e7fa911ad"
     }
   ],
   "anders-maul": [
@@ -2944,7 +3049,8 @@
       ],
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "id": "42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9"
     },
     {
       "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
@@ -2957,7 +3063,8 @@
       ],
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "id": "01a72d51-7c3c-4fc0-85ce-3a00692ce5bf"
     },
     {
       "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
@@ -2972,7 +3079,8 @@
       "thumbnail": null,
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "id": "16922299-f93b-4d47-8673-3e9c481d55ae"
     },
     {
       "file": "/posts/2022-07-20-real-time-data-sharing-solution-elements.md",
@@ -2985,7 +3093,8 @@
       ],
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "id": "969be1f8-7c59-441e-90c7-cdb168099024"
     },
     {
       "file": "/posts/2022-07-08-crm-integration-painpoints.md",
@@ -2996,7 +3105,8 @@
       "thumbnail": "https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/5%20headaches%20of%20CRM%20integrations%20_%20July%2008%202022.png",
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "id": "3de43979-705d-4773-a643-338db91955f4"
     },
     {
       "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
@@ -3006,7 +3116,8 @@
       "date": "2022-06-07",
       "authors": [
         "Anders Maul"
-      ]
+      ],
+      "id": "be3be101-2a20-4780-afd0-16d6f82cbb0f"
     }
   ],
   "hailey-nevins": [
@@ -3021,7 +3132,8 @@
       ],
       "authors": [
         "Hailey Nevins"
-      ]
+      ],
+      "id": "2fc52bc4-fee7-4ff1-b63b-b8f23ba90063"
     },
     {
       "file": "/posts/2022-04-25-6-months-at-vendia.md",
@@ -3040,7 +3152,8 @@
         "title": "No more burnout: Reflections after 6 months at Vendia"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-02T01:44:23.082Z"
+      "updatedAt": "2022-12-02T01:44:23.082Z",
+      "id": "93c83ed0-caff-4398-b65d-ed404a729106"
     }
   ],
   "jake-partusch": [
@@ -3056,7 +3169,8 @@
       ],
       "authors": [
         "Jake Partusch"
-      ]
+      ],
+      "id": "0bf61472-1ffc-42dd-a101-4f27cc33da9d"
     }
   ],
   "joydeep-das": [
@@ -3068,7 +3182,8 @@
       "date": "2022-06-21",
       "authors": [
         "Joydeep Das"
-      ]
+      ],
+      "id": "dbad4df5-9f4d-4978-a08b-d0181da91bd2"
     }
   ],
   "david-brown": [
@@ -3083,7 +3198,8 @@
       ],
       "authors": [
         "David Brown"
-      ]
+      ],
+      "id": "d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd"
     },
     {
       "file": "/posts/2021-12-09-announcing-new-features.md",
@@ -3118,7 +3234,8 @@
       "date": "2022-03-09",
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "6f36bf4a-cb33-458a-80f3-2e4800184cf6"
     },
     {
       "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
@@ -3132,7 +3249,8 @@
       ],
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
     },
     {
       "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
@@ -3146,7 +3264,8 @@
       ],
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "a4d8c7be-5285-471e-80c7-218996319a36"
     },
     {
       "file": "/posts/2021-12-15-schema-evolution.md",
@@ -3159,7 +3278,8 @@
       ],
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "30175eac-f523-4101-839c-cadff149e4d1"
     },
     {
       "file": "/posts/2021-11-02-authenticating-requests-using-saml.md",
@@ -3173,7 +3293,8 @@
       ],
       "categories": [
         "architecture"
-      ]
+      ],
+      "id": "54bc39f9-52ae-4f48-b88a-6d856363b694"
     },
     {
       "file": "/posts/2021-10-12-open-beta-changes.md",
@@ -3187,7 +3308,8 @@
       "authors": [
         "James Gimourginas",
         "Brian McNamara"
-      ]
+      ],
+      "id": "ff605ef6-07ae-47e2-bdc8-94e229d58ce5"
     },
     {
       "file": "/posts/2021-09-01-sharing-data-with-fine-grained-control.md",
@@ -3198,7 +3320,8 @@
       "date": "2021-09-01",
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "25cf5e11-64c0-4ee4-8978-fb43d66db789"
     },
     {
       "file": "/posts/2021-05-10-dont-rip-and-replace-integrate.md",
@@ -3209,7 +3332,8 @@
       "date": "2021-05-10",
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "b40e14bb-9d23-4ee8-baea-26ad5cdc0b0c"
     },
     {
       "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
@@ -3220,7 +3344,8 @@
       "date": "2021-02-17",
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "b7ccb6d3-e773-4820-8aa0-3935496fe960"
     },
     {
       "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
@@ -3230,7 +3355,8 @@
       "date": "2021-01-04",
       "authors": [
         "Brian McNamara"
-      ]
+      ],
+      "id": "bff43a5b-b563-4841-9f20-dfc0c90ca0a0"
     }
   ],
   "ryan-green": [

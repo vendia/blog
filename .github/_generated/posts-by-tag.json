@@ -535,7 +535,8 @@
         "keywords": "circles of trust, b2b data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z"
+      "updatedAt": "2022-12-16T21:36:05.197Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
     },
     {
       "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
@@ -552,7 +553,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
     }
   ],
   "supercloud": [
@@ -1789,7 +1791,8 @@
       ],
       "authors": [
         "James Gimourginas"
-      ]
+      ],
+      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
     },
     {
       "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
@@ -3281,7 +3284,8 @@
         "keywords": "circles of trust, b2b data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z"
+      "updatedAt": "2022-12-16T21:36:05.197Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
     },
     {
       "file": "/posts/2022-09-27-data-sharing-obstacles.md",
@@ -3377,7 +3381,8 @@
         "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:45:47.542Z"
+      "updatedAt": "2022-12-07T18:45:47.542Z",
+      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
     }
   ],
   "founders": [
@@ -3521,7 +3526,8 @@
         "keywords": "API design best practices"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:48:44.323Z"
+      "updatedAt": "2022-12-07T18:48:44.323Z",
+      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
     }
   ],
   "Servereless": [
@@ -3914,7 +3920,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "73d423f3-afe9-4f99-ba9f-8001e06754cc"
     }
   ],
   "Amazon DynamoDB": [
@@ -4555,7 +4562,8 @@
         "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:29:17.674Z"
+      "updatedAt": "2022-12-07T00:29:17.674Z",
+      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
     }
   ],
   "DDD, Domain Driven Design, private blockchain, distributed ledger technology, uni": [
@@ -4586,7 +4594,8 @@
         "keywords": "DDD, Domain Driven Design"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:57:26.226Z"
+      "updatedAt": "2022-12-06T23:57:26.226Z",
+      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
     }
   ],
   "funding": [
@@ -4606,7 +4615,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "b2ee0975-09a3-454d-9f62-b9bfe13faac0"
     },
     {
       "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
@@ -4625,7 +4635,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "66021bbe-3ffa-45b3-90fc-26348e448573"
     },
     {
       "file": "/posts/2021-02-02-series-a-announcement.md",
@@ -4643,7 +4654,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
     }
   ],
   "file sharing": [
@@ -4700,7 +4712,8 @@
       "authors": [
         "Tim Wagner",
         "Shruthi Rao"
-      ]
+      ],
+      "id": "66021bbe-3ffa-45b3-90fc-26348e448573"
     },
     {
       "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
@@ -4755,7 +4768,8 @@
       ],
       "authors": [
         "Tim Wagner"
-      ]
+      ],
+      "id": "8b661b20-e780-482b-a71a-bc29d6ebdff3"
     }
   ],
   "quick starts": [
@@ -4862,7 +4876,8 @@
         "keywords": "track and trace, supply chain traceability"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z"
+      "updatedAt": "2022-12-07T19:12:29.677Z",
+      "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     }
   ],
   "AWS Lambda": [
@@ -5052,7 +5067,8 @@
         "title": "How tools impact products for real-time, multi-party data sharing"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z"
+      "updatedAt": "2022-12-08T00:31:47.144Z",
+      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
     }
   ],
   "supply chain, manufacturing, traceability, uni": [
@@ -5082,7 +5098,8 @@
         "keywords": "supply chain traceability, track and trace"
       },
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:53:54.828Z"
+      "updatedAt": "2022-12-06T23:53:54.828Z",
+      "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
     }
   ],
   "tim wagner": [
