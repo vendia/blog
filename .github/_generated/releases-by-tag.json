@@ -38,7 +38,8 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "David Wells",
-      "updatedAt": "2022-12-14T22:06:06.568Z"
+      "updatedAt": "2022-12-14T22:06:06.568Z",
+      "id": "7f21ea85-1b78-495b-88a1-669ad613aed3"
     }
   ],
   "Error": [
@@ -99,7 +100,8 @@
         "Improvements",
         "Developer Experience",
         "GraphQL"
-      ]
+      ],
+      "id": "c8438e0f-74d6-4ae3-804d-fdbd7cf97ff1"
     },
     {
       "file": "/releases/2022-10-28-releasenotes.md",
@@ -110,7 +112,8 @@
       "tags": [
         "Improvements",
         "Developer Experience"
-      ]
+      ],
+      "id": "1df9406d-aca4-446d-a77c-5c8ecbed49ab"
     },
     {
       "file": "/releases/2022-08-26-releasenotes.md",
@@ -121,7 +124,8 @@
       "tags": [
         "New Features",
         "Improvements"
-      ]
+      ],
+      "id": "6b200044-7725-486f-9015-ae1b05a45f9e"
     },
     {
       "file": "/releases/2022-07-15-releasenotes.md",
@@ -132,7 +136,8 @@
       "tags": [
         "New Features",
         "Improvements"
-      ]
+      ],
+      "id": "4d97d968-0daa-44df-a832-a353604ec279"
     },
     {
       "file": "/releases/2022-04-15-releasenotes.md",
@@ -143,7 +148,8 @@
       "tags": [
         "New Features",
         "Improvements"
-      ]
+      ],
+      "id": "0f8d32d1-5a05-41f8-a698-7efaaf62945e"
     },
     {
       "file": "/releases/2022-03-11-releasenotes.md",
@@ -155,7 +161,8 @@
         "New Features",
         "Improvements",
         "AWS"
-      ]
+      ],
+      "id": "03d467e6-303a-4756-9fc2-f1d8b5d4e819"
     },
     {
       "file": "/releases/2022-01-14-releasenotes.md",
@@ -166,7 +173,8 @@
       "tags": [
         "Improvements",
         "Operations"
-      ]
+      ],
+      "id": "96d08441-e773-4d21-ba5a-a228c988f6c3"
     },
     {
       "file": "/releases/2021-12-24-releasenotes.md",
@@ -177,7 +185,8 @@
       "tags": [
         "Smart Contracts",
         "Improvements"
-      ]
+      ],
+      "id": "490de530-7714-4488-9279-caebeb1925cc"
     }
   ],
   "Developer Experience": [
@@ -194,7 +203,8 @@
         "Improvements",
         "Developer Experience",
         "GraphQL"
-      ]
+      ],
+      "id": "c8438e0f-74d6-4ae3-804d-fdbd7cf97ff1"
     },
     {
       "file": "/releases/2022-10-28-releasenotes.md",
@@ -205,7 +215,8 @@
       "tags": [
         "Improvements",
         "Developer Experience"
-      ]
+      ],
+      "id": "1df9406d-aca4-446d-a77c-5c8ecbed49ab"
     },
     {
       "file": "/releases/2022-09-26-releasenotes.md",
@@ -216,7 +227,8 @@
       "tags": [
         "Developer Experience",
         "New Features"
-      ]
+      ],
+      "id": "0d720dbc-ed1e-4a3f-82d2-39e5b58fa5cd"
     },
     {
       "file": "/releases/2022-01-31-releasenotes.md",
@@ -227,7 +239,8 @@
       "tags": [
         "User Experience",
         "Developer Experience"
-      ]
+      ],
+      "id": "0d0da7a1-37c9-470e-9431-f1aaceaffcee"
     }
   ],
   "GraphQL": [
@@ -244,7 +257,8 @@
         "Improvements",
         "Developer Experience",
         "GraphQL"
-      ]
+      ],
+      "id": "c8438e0f-74d6-4ae3-804d-fdbd7cf97ff1"
     },
     {
       "file": "/releases/2021-11-26-releasenotes.md",
@@ -256,7 +270,8 @@
         "New Features",
         "GraphQL",
         "Share Web"
-      ]
+      ],
+      "id": "c08f5038-2033-4b2b-a025-7daecc13d6a5"
     },
     {
       "file": "/releases/2021-10-29-releasenotes.md",
@@ -276,7 +291,8 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "David Wells",
-      "updatedAt": "2022-12-14T22:06:06.568Z"
+      "updatedAt": "2022-12-14T22:06:06.568Z",
+      "id": "7f21ea85-1b78-495b-88a1-669ad613aed3"
     }
   ],
   "New Features": [
@@ -289,7 +305,8 @@
       "tags": [
         "Developer Experience",
         "New Features"
-      ]
+      ],
+      "id": "0d720dbc-ed1e-4a3f-82d2-39e5b58fa5cd"
     },
     {
       "file": "/releases/2022-08-26-releasenotes.md",
@@ -300,7 +317,8 @@
       "tags": [
         "New Features",
         "Improvements"
-      ]
+      ],
+      "id": "6b200044-7725-486f-9015-ae1b05a45f9e"
     },
     {
       "file": "/releases/2022-07-15-releasenotes.md",
@@ -311,7 +329,8 @@
       "tags": [
         "New Features",
         "Improvements"
-      ]
+      ],
+      "id": "4d97d968-0daa-44df-a832-a353604ec279"
     },
     {
       "file": "/releases/2022-04-15-releasenotes.md",
@@ -322,7 +341,8 @@
       "tags": [
         "New Features",
         "Improvements"
-      ]
+      ],
+      "id": "0f8d32d1-5a05-41f8-a698-7efaaf62945e"
     },
     {
       "file": "/releases/2022-03-11-releasenotes.md",
@@ -334,7 +354,8 @@
         "New Features",
         "Improvements",
         "AWS"
-      ]
+      ],
+      "id": "03d467e6-303a-4756-9fc2-f1d8b5d4e819"
     },
     {
       "file": "/releases/2021-12-10-releasenotes.md",
@@ -348,7 +369,8 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
+      ],
+      "id": "5d319b83-f833-4a46-9488-7647c6eb2ce9"
     },
     {
       "file": "/releases/2021-11-26-releasenotes.md",
@@ -360,7 +382,8 @@
         "New Features",
         "GraphQL",
         "Share Web"
-      ]
+      ],
+      "id": "c08f5038-2033-4b2b-a025-7daecc13d6a5"
     }
   ],
   "AWS": [
@@ -374,7 +397,8 @@
         "New Features",
         "Improvements",
         "AWS"
-      ]
+      ],
+      "id": "03d467e6-303a-4756-9fc2-f1d8b5d4e819"
     }
   ],
   "User Experience": [
@@ -387,7 +411,8 @@
       "tags": [
         "User Experience",
         "Developer Experience"
-      ]
+      ],
+      "id": "0d0da7a1-37c9-470e-9431-f1aaceaffcee"
     }
   ],
   "Operations": [
@@ -400,7 +425,8 @@
       "tags": [
         "Improvements",
         "Operations"
-      ]
+      ],
+      "id": "96d08441-e773-4d21-ba5a-a228c988f6c3"
     }
   ],
   "Smart Contracts": [
@@ -413,7 +439,8 @@
       "tags": [
         "Smart Contracts",
         "Improvements"
-      ]
+      ],
+      "id": "490de530-7714-4488-9279-caebeb1925cc"
     },
     {
       "file": "/releases/2021-12-10-releasenotes.md",
@@ -427,7 +454,8 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
+      ],
+      "id": "5d319b83-f833-4a46-9488-7647c6eb2ce9"
     }
   ],
   "Azure": [
@@ -443,7 +471,8 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
+      ],
+      "id": "5d319b83-f833-4a46-9488-7647c6eb2ce9"
     }
   ],
   "Share Tiers and Pricing": [
@@ -459,7 +488,8 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
+      ],
+      "id": "5d319b83-f833-4a46-9488-7647c6eb2ce9"
     }
   ],
   "ACID Semantics": [
@@ -475,7 +505,8 @@
         "Smart Contracts",
         "Share Tiers and Pricing",
         "ACID Semantics"
-      ]
+      ],
+      "id": "5d319b83-f833-4a46-9488-7647c6eb2ce9"
     }
   ],
   "Share Web": [
@@ -489,7 +520,8 @@
         "New Features",
         "GraphQL",
         "Share Web"
-      ]
+      ],
+      "id": "c08f5038-2033-4b2b-a025-7daecc13d6a5"
     }
   ],
   "Polycloud": [
@@ -501,7 +533,8 @@
       "date": "2021-11-12",
       "tags": [
         "Polycloud"
-      ]
+      ],
+      "id": "f4fb7934-371e-4064-90b9-09e7c98a9d6c"
     }
   ],
   "Enhancements": [
@@ -523,7 +556,8 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "David Wells",
-      "updatedAt": "2022-12-14T22:06:06.568Z"
+      "updatedAt": "2022-12-14T22:06:06.568Z",
+      "id": "7f21ea85-1b78-495b-88a1-669ad613aed3"
     }
   ]
 }
