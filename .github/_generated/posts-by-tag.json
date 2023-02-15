@@ -166,6 +166,53 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-07T21:00:25.728Z",
       "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    },
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
     }
   ],
   "Data network": [
@@ -3495,6 +3542,53 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-08T23:46:23.669Z",
       "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    },
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
     }
   ],
   "data modeling, security, best practices": [
@@ -3730,6 +3824,603 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-26T19:22:14.787Z",
       "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    }
+  ],
+  "BMW iVentures": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Canvas Ventures": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Sorenson Capital": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Aspenwood Ventures": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Neotribe Ventures": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Lux Capital": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Operator Partners": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "Neythri Futures Fund": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "NewView Capital": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    }
+  ],
+  "funding": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    },
+    {
+      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
+      "draft": false,
+      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
+      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
+      "date": "2021-06-08",
+      "categories": [
+        "announcements",
+        "company"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "id": "b2ee0975-09a3-454d-9f62-b9bfe13faac0"
+    },
+    {
+      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
+      "draft": false,
+      "title": "Announcing the Vendia Share Developer Preview!",
+      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
+      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
+      "date": "2021-02-03",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding",
+        "developers"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "id": "66021bbe-3ffa-45b3-90fc-26348e448573"
+    },
+    {
+      "file": "/posts/2021-02-02-series-a-announcement.md",
+      "draft": false,
+      "title": "Vendia Announces Series A Investment",
+      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
+      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
+      "date": "2021-02-02",
+      "categories": [
+        "announcements"
+      ],
+      "tags": [
+        "funding"
+      ],
+      "authors": [
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
+    }
+  ],
+  "Series B funding": [
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
     }
   ],
   "domain driven design": [
@@ -4596,66 +5287,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:57:26.226Z",
       "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
-    }
-  ],
-  "funding": [
-    {
-      "file": "/posts/2021-06-08-gartner-cool-vendor.md",
-      "draft": false,
-      "title": "Vendia Named a 2021 Gartner Cool Vendor in Cloud Computing",
-      "description": "Vendia is included in Gartner's May 2021 Cool Vendors in Cloud Computing report",
-      "date": "2021-06-08",
-      "categories": [
-        "announcements",
-        "company"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "id": "b2ee0975-09a3-454d-9f62-b9bfe13faac0"
-    },
-    {
-      "file": "/posts/2021-02-03-welcome-to-developer-preview.md",
-      "draft": false,
-      "title": "Announcing the Vendia Share Developer Preview!",
-      "description": "Launch announcement for the Vendia Share Developer Preview and Vendia's Series A",
-      "longDescription": "Vendia is excited to announce the launch of our Developer Preview release for Vendia Share, enabling developers to experience the platform at no cost. Vendia is also pleased to announce the completion of our Series A investment, led by Canvas Ventures.",
-      "date": "2021-02-03",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding",
-        "developers"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "id": "66021bbe-3ffa-45b3-90fc-26348e448573"
-    },
-    {
-      "file": "/posts/2021-02-02-series-a-announcement.md",
-      "draft": false,
-      "title": "Vendia Announces Series A Investment",
-      "description": "Vendia announces a $15.5M Series A investment, led by Canvas Ventures",
-      "longDescription": "Vendia is excited to announce the completion of a $15.5M Series A investment, led by Canvas Ventures with participation from BMW i Ventures, Sorenson Ventures, and our existing seed investors",
-      "date": "2021-02-02",
-      "categories": [
-        "announcements"
-      ],
-      "tags": [
-        "funding"
-      ],
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
     }
   ],
   "file sharing": [

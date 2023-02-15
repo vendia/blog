@@ -1309,6 +1309,53 @@
       "id": "16922299-f93b-4d47-8673-3e9c481d55ae"
     },
     {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    },
+    {
       "file": "/posts/2022-04-25-6-months-at-vendia.md",
       "draft": false,
       "title": "No more burnout: Reflections after 6 months at Vendia",
