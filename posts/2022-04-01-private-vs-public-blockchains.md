@@ -7,6 +7,7 @@ categories:
 - concepts
 authors:
   - Tim Wagner
+id: 'c068da9b-f8a5-4684-8f7c-5ccc07ef1d31'
 ---
 
 ## The emergence of blockchain in a centralized world

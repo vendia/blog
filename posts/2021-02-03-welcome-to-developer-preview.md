@@ -12,6 +12,7 @@ tags:
 authors:
   - Tim Wagner
   - Shruthi Rao
+id: '66021bbe-3ffa-45b3-90fc-26348e448573'
 ---
 
 It's an exciting day for Vendia - we're pleased to [announce a $15.5M Series A investment](https://vendia.com/blog/series-a-announcement),

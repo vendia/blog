@@ -5,7 +5,9 @@ description: 'Many current blockchains solutions have a large carbon footprint, 
 date: '2022-05-13'
 authors:
   - Tim Wagner
+id: '7535edca-7f61-4d06-b137-326607d881f6'
 ---
+
 # Greenchains: Can blockchains save the environment?
 
 Early blockchains had devastating environmental impacts. But could newer approaches actually help us fix the dirty little secret of IT's carbon footprint?

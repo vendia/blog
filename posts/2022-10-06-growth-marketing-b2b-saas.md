@@ -12,6 +12,7 @@ seo:
   description: Growth marketing tactics for startups.
 updatedBy: Caroll Casbeer
 updatedAt: 2022-12-05T18:54:20.364Z
+id: '00b609d6-87a8-4795-b810-ae3c025b64fe'
 ---
 
 Marketing is hard — even at mature, highly successful companies. As with many jobs, you’re asked to do more with less and predict the unpredictable. I’ve found that developing a marketing engine at a startup is the hardest of both worlds… you’re trying to create product-market fit, find your best customers (without having lots of customers), be frugal, place a lot of bets you think *may* work, all while fielding questions about the lifetime value (LTV) of a customer. (Seriously, just because I can *do* the LTV calculation doesn’t mean it’s important right now.)  

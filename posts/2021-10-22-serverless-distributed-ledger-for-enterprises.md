@@ -8,6 +8,7 @@ tag:
   - distributed-ledger
 authors:
   - Tim Wagner
+id: 'c0a48341-0487-471d-84d4-90f8cb9f1857'
 ---
 
 In January I will be presenting at the [Hawaii International Conference on System Sciences](https://hicss.hawaii.edu/) (HICSS – 55). I’m happy to have our publication selected – and it was great to see a record-breaking volume of submissions this year! After the event, HICSS participants can download conference papers and view video presentations on-demand. Until then, this post summarizes our presentation and provides a link to our original research.

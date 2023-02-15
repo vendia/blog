@@ -8,6 +8,7 @@ categories:
 - concepts
 authors:
   - Caroll Casbeer
+id: 'd049842f-8968-4cd1-b9f2-175a664c9266'
 ---
 
 If you prefer the TL;DR or engage with podcasts more than blogs, join our community of innovation leaders and disruptive developers for Season 1 of our new podcast, [Circles of Trust: Real talk on real-time data sharing](https://www.vendia.com/resources/circles-of-trust). 

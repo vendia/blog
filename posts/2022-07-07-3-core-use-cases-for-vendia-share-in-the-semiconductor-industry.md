@@ -5,6 +5,7 @@ description: 'How to reduce supply chain complexity and improve business outcome
 date: '2022-07-07'
 authors:
   - Vikrant Kahlir
+id: '8bddfc2e-340c-4b8e-8771-b34427b85c51'
 ---
 
 Electronic technology providers place a strong emphasis on performance, dependability, and trust. However, constant monitoring and inspection of the entire supply chain (design, assembly, maintenance, and warranty...) is necessary for consistent assurance. In this blog, we discuss three key use cases that semiconductor firms must implement in order to keep their promises of performance, dependability, and trust, while also keeping sustainibility in mind.

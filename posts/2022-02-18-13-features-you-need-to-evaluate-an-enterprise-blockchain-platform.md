@@ -23,6 +23,7 @@ seo:
   title: 13 features you need to evaluate an enterprise blockchain platform
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T00:49:07.256Z
+id: '88831551-d9af-45bd-a7ae-4a191d9ae14c'
 ---
 
 ## What is the right platform for decentralized applications?

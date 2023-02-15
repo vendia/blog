@@ -7,6 +7,7 @@ categories:
 - company
 authors:
   - Anders Maul
+id: '01a72d51-7c3c-4fc0-85ce-3a00692ce5bf'
 ---
 
 # Highlights from the GBTA panel: “Blockchain for the Travel Industry”

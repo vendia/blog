@@ -11,6 +11,7 @@ tags:
 authors:
   - Tim Wagner
   - Shruthi Rao
+id: 'b2ee0975-09a3-454d-9f62-b9bfe13faac0'
 ---
 
 A little over a year ago we came out of stealth (in the midst of a pandemic),  and launched our first preview of Vendia Share. Since then, we've been hard at work building out one-week proof of concepts and helping our customers deploy Vendia to production, and closed a Series A investment round. Today, we're thrilled to be included in Gartner's May 2021 "[Cool Vendors in Cloud Computing](https://www.gartner.com/doc/4001590?ref=clientFriendlyURL)" report by Arun Chandrasekaran, Sid Nag, and David Wright!

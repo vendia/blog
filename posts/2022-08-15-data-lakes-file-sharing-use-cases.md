@@ -7,7 +7,9 @@ categories:
 - product
 authors:
   - Tim Wagner
+id: 'e1c17bd4-81cf-4012-8185-859d991fe37a'
 ---
+
 Despite the many advances in databases over the years, both multimedia and data-centric files remain as one of IT architecture and business applications’ core building blocks. From spreadsheets encoded as CSVs to PDFs to analytics-optimized formats like Parquet and Iceberg, files in one form or another represent the largest percentage of storage across all company sizes, types, and sectors.
 
 Yet, as central and critical as files are to operational business functions and applications, it’s still a challenging proposition to share files with business partners, across public clouds, or even among different departments with their own compliance and security requirements. For example:

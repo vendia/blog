@@ -9,6 +9,7 @@ categories:
   - data-alliance
 authors:
   - Vikrant Kahlir
+id: 'af555eaf-8b9b-442e-a8c6-19135a2c897d'
 ---
 
 20th century technology cannot fulfill the needs of the 21st century supply chain. Replacing paper-based systems with modern technology is only a part of the solution. The main drivers of innovation for growth and profitability lie in redrawing operating models, unlocking liquidity, and reducing friction for customers. 

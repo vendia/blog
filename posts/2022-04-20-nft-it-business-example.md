@@ -5,6 +5,7 @@ description: 'Let’s look at how Centralized IT and NFTs may solve for tracking
 date: '2022-04-20'
 authors:
   - Tim Wagner
+id: 'f8d55d96-ed4b-4ba6-b4a5-4298bee49e03'
 ---
 
 ## Building an Image Licensing Business that makes everyone smile. ## 

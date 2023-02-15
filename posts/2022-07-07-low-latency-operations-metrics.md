@@ -21,6 +21,7 @@ seo:
     Metrics for insights into the operational health of your Uni and Nodes."
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T01:05:21.832Z
+id: '12318435-38a9-4065-baff-ea6e84f240de'
 ---
 
 At Vendia, we listen to the needs of our customers and we try to put ourselves in their shoes. The best way for us to know what it’s like to walk in their shoes is by asking them. Recently, two major themes have emerged:

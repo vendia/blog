@@ -9,6 +9,7 @@ authors:
   - Brian McNamara
 categories:
   - architecture
+id: '54bc39f9-52ae-4f48-b88a-6d856363b694'
 ---
 
 Vendia Share is a Universal Application platform that accelerates the development of multi-party applications. Each party, or participant, has access to their own node within a Universal Application (Uni), allowing them to control a number of settings. One of the settings available is the authentication mechanisms participants can use to access their node programmatically using APIs.

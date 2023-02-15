@@ -6,6 +6,7 @@ date: '2022-07-08'
 thumbnail: 'https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Blog%20post%20images/5%20headaches%20of%20CRM%20integrations%20_%20July%2008%202022.png'
 authors:
   - Anders Maul
+id: '3de43979-705d-4773-a643-338db91955f4'
 ---
 
 # Top 5 headaches of CRM integrations according to a Salesforce MVP

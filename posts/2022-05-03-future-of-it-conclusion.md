@@ -5,6 +5,7 @@ description: 'In the final part of the Three Body Problem we summarize our findi
 date: '2022-05-03'
 authors:
   - Tim Wagner
+id: '94de6ca0-e208-4052-a75f-0aa6349ce3f2'
 ---
 
 # Final thoughts: Adoption guidelines and conclusions

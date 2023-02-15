@@ -5,7 +5,9 @@ description: 'APIs continue to be a challenge for organizations - we dive into w
 date: '2022-05-27'
 authors:
   - Tim Wagner
+id: 'e5524e68-9035-438c-ad47-ee239e59d147'
 ---
+
 ### Overcome the limitations of APIs and build a better future
 [APIs](https://www.vendia.com/blog/what-are-apis) are the central building blocks of services, especially modern, cloud-based designs. They [encapsulate complexity](https://en.wikipedia.org/wiki/API#:~:text=trends%20data.%5B36%5D-,Design,-%5Bedit%5D), can provide both operational and implementation isolation among different teams , and serve as the literal embodiment of [domain driven designs](https://martinfowler.com/bliki/DomainDrivenDesign.html). Proficiency in developing, deploying, and consuming APIs is one of the hallmarks of a healthy, effective IT organization; for many modern SaaS and financial service companies, such as Twilio and Stripe, APIs literally _are_ the business.
 

@@ -8,6 +8,7 @@ categories:
 - product
 authors:
 - Brian McNamara
+id: 'a4d8c7be-5285-471e-80c7-218996319a36'
 ---
 
 Vendia Share is a SaaS offering that takes away the toil required to share data with partners in a controlled, secure, and ledgered manner. We do this by allowing customers to create Universal Applications (Unis) and inviting their partners to participate.

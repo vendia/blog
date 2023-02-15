@@ -8,7 +8,9 @@ categories:
 thumbnail: 'https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png'
 authors:
   - Caroll Casbeer
+id: 'a6662e71-c7c9-4381-b5e6-3da3501f6274'
 ---
+
 ## Logo 1.0 built for investor decks…and prophecies
 
 While Vendia founders, Shruthi Rao and Tim Wagner admit they spent A LOT of time coming up with the name “Vendia” (short for Venn Diagram), they also admit they spent all of five minutes coming up with Vendia’s first logo. Tim, who was putting together an investor deck and claims to have “the design skills of an ant,” designed it in Google slides using default colors. He simply rotated two “V”s 90 degrees and overlapped them. Tada! Vendia’s first visual identity was born. 

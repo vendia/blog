@@ -5,6 +5,7 @@ description: 'How Vendia helps APIs do more for you'
 date: '2022-04-06'
 authors:
   - Tim Wagner
+id: 'ce3aed63-1e2d-4cc2-980d-35a54fa80aa8'
 ---
 
 The [previous post's](https://www.vendia.com/blog/smart-apis) list of API needs might sound like a pipe dream (pun very much intended), but it reflects an actual product offering: [Vendia Share](http://www.vendia.com/). 

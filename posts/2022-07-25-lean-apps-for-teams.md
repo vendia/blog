@@ -7,6 +7,7 @@ categories:
 - concepts
 authors:
 - James Gimourginas
+id: '2ffeac57-9577-4781-b3a3-7d14b859cafb'
 ---
 
 In a [prior post](https://www.vendia.com/blog/lean-apps-for-developers), you read about how the [lean apps movement](https://www.vendia.com/blog/lean-app) will increase productivity and decrease toil for individual developers. But its impact isn't isolated exclusively to developers. Through the efficiency and effectiveness gains at the individual developer level, the lean apps movement will also impact how cross-functional teams plan, design, implement, test, and release new products. This post will explore the lean apps philosophy's influence on teams and how those influences will change the way product delivery teams operate.

@@ -5,6 +5,7 @@ description: 'In part 2 of the 3 Body Problem we explore the strengths and weakn
 date: '2022-04-15'
 authors:
   - Tim Wagner
+id: '4fc16985-53d7-4058-96c3-5235849846f1'
 ---
 
 _Part 2 of our 5 part series “The 3 Body Problem” 

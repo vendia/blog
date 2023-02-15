@@ -25,6 +25,7 @@ seo:
   keywords: API design best practices
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T18:48:44.323Z
+id: '190b0b33-f281-41c8-a55d-5c9148715454'
 ---
 
 API design is a popular — and often contentious — topic. Interest in the latest API design best practices often spikes for development teams during initial API design, during API reworks ( e.g., transitioning from REST to GraphQL), and as part of ongoing API refinements based on user feedback or operational challenges. If you're a technology leader embarking on these types of initiatives, this post provides you with a set of general purpose [API design](https://www.vendia.com/blog/apis-for-data) best practices to inform your work.  It explores how you can realize those practices with REST and GraphQL, and then provides an approach that simplifies API design and implementation.

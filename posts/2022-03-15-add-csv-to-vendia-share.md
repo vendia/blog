@@ -5,6 +5,7 @@ description: 'How to add a CSV file to your private blockchain with Vendia Share
 date: '2022-03-15'
 authors:
   - Caroll Casbeer
+id: 'ab8170c1-018a-4515-b3fe-753640994d1d'
 ---
 
 (Note, this is Part 1 of our series about Integrating Data Stores with Vendia Share)

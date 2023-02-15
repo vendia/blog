@@ -8,7 +8,9 @@ categories:
 - product
 authors:
   - Tim Wagner
+id: '92ae72a0-191b-4b23-9edb-da38044c1d99'
 ---
+
 **APIs** are commonly used to “bridge gaps,” enabling organizations to ship critical business data between departments, companies, applications, clouds, geographies, or across other IT/infosec boundaries. Despite progress in API tooling, APIs themselves stubbornly remain “ignorant pipes.” Without massive, continuous API polling activity, data sharing parties are left with data that becomes inconsistent, incorrect, and outdated. 
 
 **Operational databases** offer low latency, high-throughput, and (at least in the cloud) highly available solutions for application storage and transaction processing. But by their nature, they are owned and operated by a single entity, not multiple parties. This makes it impossible to materialize content in another company’s IT infrastructure so that it’s guaranteed to be accurate without massive custom investment from all parties. And, despite knowing the customer’s data model in detail, databases offer no help when it comes to crafting model-centric APIs or other elements of a data sharing stack.

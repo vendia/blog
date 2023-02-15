@@ -7,6 +7,7 @@ categories:
 - announcements
 authors:
   - Caroll Casbeer
+id: '0403d3c0-3347-4cfa-8b45-3fde05224350'
 ---
 
 Join Tim Zonca, Vendia’s VP of Marketing (and former Sr. VP of Worldwide Marketing at Puppet and CEO at Stackery), as he hosts the premiere season of Vendia’s new podcast, Circles of Trust: Real talk on real-time data sharing. 

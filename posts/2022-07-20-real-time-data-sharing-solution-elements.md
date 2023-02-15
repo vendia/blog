@@ -7,7 +7,9 @@ categories:
 - concepts
 authors:
   - Anders Maul
+id: '969be1f8-7c59-441e-90c7-cdb168099024'
 ---
+
 # Elements of a real-time data sharing solution
 
 Data powers your business, but to turn data into your superpower, you need to inject, analyze, and draw on the right data at the right time. Ideally, you want it all in real-time. Let’s explore [what makes real-time data sharing so challenging](https://thenewstack.io/addressing-the-challenges-of-real-time-data-sharing/), and better, let’s consider the individual elements of a real-time data sharing solution that can overcome legacy challenges.

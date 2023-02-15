@@ -7,6 +7,7 @@ authors:
 - James Gimourginas
 categories:
 - announcements
+id: 'c61580b6-5364-49fa-8b17-2b38b156fd66'
 ---
 
 Vendia is aware of the recently disclosed [security issue](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) relating to the open-source Apache “Log4j2" library.

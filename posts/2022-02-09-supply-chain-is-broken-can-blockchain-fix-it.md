@@ -22,6 +22,7 @@ seo:
     blockchain initiatives with next-gen enterprise blockchain solutions.
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T00:29:17.674Z
+id: '331d15fc-6e35-426b-af42-cd7b6baf6ccf'
 ---
 
 _"We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs."_, _Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_

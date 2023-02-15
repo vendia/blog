@@ -7,6 +7,7 @@ categories:
   - announcements
 authors:
   - James Gimourginas
+id: 'd4343c26-dd76-4b56-8051-05ae2497bbd5'
 ---
 
 One of the most compelling aspects of Vendia's [inspiring vision](https://www.vendia.com/blog/vendias-inspiring-vision) is that we allow our customers to do what wasn't possible before.  For some of our customers, the primary limitation preventing the art of the possible is technical.  By adopting a [comprehensive platform](https://www.vendia.com/blog/distributed-application-maturity-model) like Vendia Share, customers can quickly increase their distributed application development maturity and overcome their previous technical challenges.  For other customers, the primary limitation preventing the art of the possible is mindset and traditional ways of working, based on years of solving the same problem in the same way with the same (sub-optimal) set of partners.  Vendia Share makes cross-party collaboration possible and easily accessible, allowing a shift in mindset from _highly complex/highly expensive/highly centralized_ to _less complex/less expensive/decentralized and shared._

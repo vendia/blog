@@ -21,6 +21,7 @@ seo:
     sharing with full, yet finely grained, end-to-end visibility.
 updatedBy: David Wells
 updatedAt: 2022-12-02T20:22:13.068Z
+id: '4eb01820-fdce-4971-8a42-d567be720651'
 ---
 
 It’s estimated that [90% of the world’s goods](https://www.weforum.org/agenda/2021/10/global-shortagof-shipping-containers/) are shipped by sea in roughly 60,000 cargo vessels. The largest cargo vessels carry 24,000 containers. And at that scale, it’s not hard to imagine why everything from the chair you’re sitting in to the microchip in the device you are reading this on can be lost or delayed anywhere (and everywhere) in its lifecycle before reaching you.

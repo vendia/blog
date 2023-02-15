@@ -23,6 +23,7 @@ seo:
   title: How tools impact products for real-time, multi-party data sharing
 updatedBy: alexa-vendia
 updatedAt: 2022-12-08T00:31:47.144Z
+id: '347e1a2f-b751-4282-b6fb-59f7dcda6023'
 ---
 
 Think of the design of a simple item — a chair.

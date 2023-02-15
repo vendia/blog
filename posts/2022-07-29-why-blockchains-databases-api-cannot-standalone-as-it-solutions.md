@@ -24,6 +24,7 @@ seo:
   keywords: real-time data sharing
 updatedBy: alexa-vendia
 updatedAt: 2022-12-07T18:59:43.875Z
+id: '945f5978-6c67-484f-8e8b-6b3d1e62f64a'
 ---
 
 Enterprises and developers have been on a decades-long quest to simplify the challenge (and lower the cost and risk) associated with building IT solutions. In recent years, IT heavy lifts have grown even heavier: Lift is driven by the growth in mobile and web apps on the front end and the growth of APIs and automation on the back end. Combined, these trend lines have had two major impacts:

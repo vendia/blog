@@ -7,6 +7,7 @@ categories:
 - company
 authors:
   - Vikrant Kahlir
+id: '43a8caa8-6d4b-4d5f-b020-60c43337811b'
 ---
 
 I joined Vendia in December 2021, and one thing that caught my attention was the [“Kind Humans Only”](https://www.vendia.com/kind-humans) policy. “Kind” in the business world can be perceived as a weakness. But, what I observed at Vendia is that kind is not weak, kind is strong. 

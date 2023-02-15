@@ -5,6 +5,7 @@ description: 'Enriching GraphQL with Transactions, Condition Updates, and Ledger
 date: '2022-03-09'
 authors:
   - Brian McNamara
+id: '6f36bf4a-cb33-458a-80f3-2e4800184cf6'
 ---
 
 

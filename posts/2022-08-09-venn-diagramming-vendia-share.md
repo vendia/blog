@@ -8,6 +8,7 @@ categories:
 - product
 authors:
   - Tim Wagner
+id: '3165220d-fba2-421e-8355-70904d22733a'
 ---
 
 In [Part 1](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions) of this two-part series, we explored the limitations of blockchain, database, and “ignorant” API technology as standalone or unintegrated solutions for real-time, multiparty, enterprise-grade data sharing ecosystems. Now, we’ll take a closer look at how Vendia Share combines these technologies to create a platform that offers the strengths and benefits of each constituent technolog and overcomes their respective limitations. We’ll also explore how customers can adopt our platform for a variety of [use cases](https://www.vendia.com/use-cases).

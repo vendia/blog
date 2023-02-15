@@ -7,6 +7,7 @@ categories:
   - concepts
 authors:
   - Tim Wagner
+id: '708d9217-d8d2-4ee1-8120-f86bee9b4a3f'
 ---
 
 The housing and finance industries have [invested billions](https://www.mckinsey.com/industries/financial-services/our-insights/financial-data-unbound-the-value-of-open-data-for-individuals-and-institutions) in data and IT infrastructure. Despite that investment, the industry remains highly fragmented, lacks shared standards, and depends on siloed or inefficient partnerships. While the industry once focused on data and IT infrastructure _within_ an organization, now organizations need to put the same type of systems and workflows in place to work _across_ business networks. 

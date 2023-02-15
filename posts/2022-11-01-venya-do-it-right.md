@@ -7,6 +7,7 @@ categories:
 - company
 authors:
   - Francine Klein
+id: '845be41f-78b8-4ced-8621-d4a5d8385220'
 ---
 
 While we mostly [talk data](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970), sometimes, when I’m in the (Zoom) room, we dabble in Yiddish. I draw on the language of my ancestors, particularly when telling allegories intermingled with anecdotes. Whether using an analogy to get a message across or sharing an example from past experiences, one thing stands at Vendia: When you’ve done it before, you know when (_“ven”_) you’re (“_y’a_”) doing it right because it lands in a Venn diagram.

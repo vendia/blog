@@ -9,6 +9,7 @@ categories:
   - company
 authors:
   - James Gimourginas
+id: '40f18bfb-8755-4ae0-9fdd-e91139773e5a'
 ---
 
 When I [joined Vendia](https://www.vendia.com/blog/vendias-inspiring-vision) this past summer I knew I was joining an amazing team.  Engineers who convey complex ideas in a [readable and digestible](https://www.vendia.com/blog/tools-that-shape-products) way.  SAs with [deep technical knowledge](https://www.vendia.com/blog/sharing-data-with-fine-grained-control), customer obsession, and domain expertise.  Developer relations experts who empathize with those [doing the hard work](https://www.youtube.com/watch?v=OLnUHz_42YQ) to bring new products to market and truly exceed customer expectations.  Founders who not only see the [art of the possible](https://www.vendia.com/blog/stamti) but know how to create it from the ground up at a world-class yet sustainable pace.

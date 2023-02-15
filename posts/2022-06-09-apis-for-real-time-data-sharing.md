@@ -5,6 +5,7 @@ description: 'Data APIs continue to be a challenge for teams. What if your APIs 
 date: '2022-06-09'
 authors:
   - Tim Wagner
+id: '3798da4e-5631-45f6-aa3f-eb11be30c17d'
 ---
 
 # An alternative architecture for smart, “data-aware” APIs

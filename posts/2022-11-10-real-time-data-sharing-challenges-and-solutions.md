@@ -27,6 +27,7 @@ seo:
   keywords: real-time data, real-time data sharing
 updatedBy: alexa-vendia
 updatedAt: 2022-11-15T17:44:24.221Z
+id: '2ea8fb61-c5e8-4f33-8399-e05bd680d160'
 ---
 
 By 2025, global data growth is expected to reach [181 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/), up from 79 zettabytes in 2021. As countries and communities make new investments in internet and broadband access, mobile phone use expands and uptime grows, and social media [drives](https://ourworldindata.org/internet) a new generation of consumers and data makers, businesses are struggling to build or buy a [real-time data sharing platform](vendia.com/product) that scales for multiple data sharing partners, is cloud-based, fault tolerant, secure, compliant, and delivers an automatically reconciled single source of truth for everyone (or everyone with the right permissions) in a data alliance.

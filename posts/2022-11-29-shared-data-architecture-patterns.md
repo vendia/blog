@@ -25,6 +25,7 @@ seo:
   keywords: shared data architecture
 updatedBy: Caroll Casbeer
 updatedAt: 2022-12-01T19:22:33.839Z
+id: 'eebe1b77-1b29-41df-8a6c-03a2ee199d4d'
 ---
 
 # Shared data architecture patterns

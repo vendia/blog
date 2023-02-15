@@ -5,6 +5,7 @@ description: 'Create a tutorial using Vendia as part of our "Write for Vendia Pr
 date: '2022-06-22'
 authors:
   - Caroll Casbeer
+id: '94e30367-7c01-480f-ab7f-5630bfdb83d2'
 ---
 
 Create a tutorial using Vendia as part of our Write for Vendia Program. Participants receive a $500 Visa gift card.

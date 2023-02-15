@@ -5,6 +5,7 @@ description: 'Real-time data sharing enables faster, more comprehensive, and mor
 date: '2022-06-07'
 authors:
   - Anders Maul
+id: 'be3be101-2a20-4780-afd0-16d6f82cbb0f'
 ---
 
 # Real-time data sharing: Pros and cons

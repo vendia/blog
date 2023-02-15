@@ -5,6 +5,7 @@ description: 'Evolve from "dumb pipes" to APIs that work for you'
 date: '2022-04-04'
 authors:
   - Tim Wagner
+id: '80e2b511-07b8-478e-b1ec-5a3322737bee'
 ---
 
 ## **APIs: A Tradition of “Dumb Pipes”** 🔧

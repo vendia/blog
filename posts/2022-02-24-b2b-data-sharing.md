@@ -5,6 +5,7 @@ description: 'Learn about B2B data sharing use cases, benefits, challenges, and 
 date: '2022-08-23'
 authors:
   - Vikrant Kahlir
+id: '9d1d9ccc-a249-4172-a948-226ad494e206'
 ---
 
 # Introduction to B2B data sharing

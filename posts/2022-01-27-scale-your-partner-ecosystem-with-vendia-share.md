@@ -8,6 +8,7 @@ categories:
 - concepts
 authors:
 - Brian McNamara
+id: '26144e30-be2d-4f67-8fd6-8f3f624c72ac'
 ---
 
 [Vendia Share](https://www.vendia.com/product) simplifies the process of sharing data in real-time between organizations in a controlled, secure, and ledgered manner. Traditionally, sharing data in this manner is tough. There are several challenges that come to mind.
