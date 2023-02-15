@@ -7,8 +7,7 @@ description: Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They
   platform for the Web3 era.
 date: 2020-07-01
 authors:
-  - Tim Wagner
-  - Shruthi Rao
+  - Vendia
 categories:
   - company
 relatedPosts:
@@ -32,7 +31,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-15T19:36:55.806Z
+updatedAt: 2023-02-15T20:10:58.893Z
 id: 95117065-4cca-4aec-b8f8-614f4472aa30
 ---
 
