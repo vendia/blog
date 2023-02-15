@@ -988,44 +988,6 @@
       "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
     },
     {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
-      "date": "2020-07-01T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-05-31-vendia-announces-series-b",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "tim wagner",
-        "shruthi rao",
-        "founders",
-        "origin"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
-      "seo": {
-        "title": "Meet Vendia's founders",
-        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
-      },
-      "sidebarCta": [
-        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-15T19:36:55.806Z",
-      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
-    },
-    {
       "file": "/posts/2020-06-30-welcome-to-vendia.md",
       "draft": false,
       "title": "Welcome to Vendia",
@@ -1791,6 +1753,43 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:53:54.828Z",
       "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
+    },
+    {
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
+      "draft": false,
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
+      "date": "2020-07-01T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-05-31-vendia-announces-series-b",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "tim wagner",
+        "shruthi rao",
+        "founders",
+        "origin"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
+      "seo": {
+        "title": "Meet Vendia's founders",
+        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
+      },
+      "sidebarCta": [
+        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T20:10:58.893Z",
+      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
     }
   ],
   "li-dai": [
@@ -1950,44 +1949,6 @@
         "Shruthi Rao"
       ],
       "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
-      "date": "2020-07-01T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-05-31-vendia-announces-series-b",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "tim wagner",
-        "shruthi rao",
-        "founders",
-        "origin"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
-      "seo": {
-        "title": "Meet Vendia's founders",
-        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
-      },
-      "sidebarCta": [
-        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-15T19:36:55.806Z",
-      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
     },
     {
       "file": "/posts/2020-06-30-welcome-to-vendia.md",
