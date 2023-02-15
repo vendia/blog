@@ -9,6 +9,7 @@ tags:
 - Improvements
 - Developer Experience
 - GraphQL
+id: 'c8438e0f-74d6-4ae3-804d-fdbd7cf97ff1'
 ---
 
 Vendia Engineers worked tirelessly to improve our product and leverage industry standards.. Here are the newest updates!

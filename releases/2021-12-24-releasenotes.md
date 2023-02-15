@@ -6,6 +6,7 @@ date: '2021-12-24'
 tags:
 - Smart Contracts
 - Improvements
+id: '490de530-7714-4488-9279-caebeb1925cc'
 ---
 
 The Vendia team has been hard at work improving the capabilities of Vendia Share [Smart Contracts](https://www.vendia.com/docs/share/smart-contracts).

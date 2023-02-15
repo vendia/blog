@@ -6,6 +6,7 @@ date: '2022-10-28'
 tags:
 - Improvements
 - Developer Experience
+id: '1df9406d-aca4-446d-a77c-5c8ecbed49ab'
 ---
 
 They're at it again! The Vendia Engineering team has a series of new improvements to continue advancing the experience building on Vendia.  

@@ -32,4 +32,5 @@ seo:
   title: Eliminate API Tech Debt – The Future of APIs eBook
 updatedBy: Caroll Casbeer
 updatedAt: 2022-12-10T00:19:34.810Z
+id: 'f58aeb65-d1f6-4637-9ed9-5189424ef15d'
 ---

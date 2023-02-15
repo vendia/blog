@@ -37,4 +37,5 @@ seo:
   title: Vendia Serverless Distributed Ledger – Guest Blog Submission
 updatedBy: Caroll Casbeer
 updatedAt: 2022-12-10T00:05:13.655Z
+id: 'a37a9b48-dede-4111-8dfd-5c2bd8e628cf'
 ---

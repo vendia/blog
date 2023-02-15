@@ -6,6 +6,7 @@ date: '2022-08-26'
 tags:
 - New Features
 - Improvements
+id: '6b200044-7725-486f-9015-ae1b05a45f9e'
 ---
 
 Our engineering teams have released a number of cool new features and improvements over the last month.  As always, see our [Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.

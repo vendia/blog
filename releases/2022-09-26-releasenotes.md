@@ -6,6 +6,7 @@ date: '2022-09-26'
 tags:
 - Developer Experience
 - New Features
+id: '0d720dbc-ed1e-4a3f-82d2-39e5b58fa5cd'
 ---
 
 Our engineering and design teams have been working hard to make your experience with Vendia Share more pleasant and productive.  As always, see our [Docs](https://www.vendia.com/docs/share) for the complete details of each new feature and our [Examples](https://github.com/vendia/examples) for more guidance.

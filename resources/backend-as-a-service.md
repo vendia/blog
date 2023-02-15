@@ -31,4 +31,5 @@ seo:
   title: "White paper: Backend-as-a-Service – The Future of APIs eBook"
 updatedBy: Caroll Casbeer
 updatedAt: 2022-12-10T00:31:29.461Z
+id: '5ae4d626-64e4-4f20-b1fc-3a3f36139aab'
 ---

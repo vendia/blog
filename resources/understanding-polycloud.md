@@ -38,4 +38,5 @@ seo:
     multi-cloud applications, and data design.
 updatedBy: Caroll Casbeer
 updatedAt: 2022-12-10T00:08:49.703Z
+id: '869cf1ce-8f04-4a4b-a5a0-de8a3204a050'
 ---

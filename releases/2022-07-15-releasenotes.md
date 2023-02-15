@@ -6,6 +6,7 @@ date: '2022-07-15'
 tags:
 - New Features
 - Improvements
+id: '4d97d968-0daa-44df-a832-a353604ec279'
 ---
 
 Our engineering teams have been hard at work improving the overall experience for our customers. We continue to focus on ways to make Vendia more secure, more performant, and more transparent. With recent launches we have made strides in each of these areas. While these are not all the things we've been working on, we think these are the ones you will be most excited to try out. 

@@ -6,6 +6,7 @@ date: '2022-04-15'
 tags:
 - New Features
 - Improvements
+id: '0f8d32d1-5a05-41f8-a698-7efaaf62945e'
 ---
 
 One of the fundamental principles at Vendia is to make the developer experience as easy and seamless as possible. Over the past few months, we have been pushing ourselves to experience what our customers experience using Vendia. If we find a sharp edge, an experience that doesn’t feel optimized or is overly cumbersome, we set out to fix it. In the past month, we have been busy addressing some of the biggest challenges we think customers experience when using Vendia. We continue to launch new and exciting developer experience improvements, but below are the three that we think will have the most impact to our developer community. 

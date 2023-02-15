@@ -9,6 +9,7 @@ tags:
 - Smart Contracts
 - Share Tiers and Pricing
 - ACID Semantics
+id: '5d319b83-f833-4a46-9488-7647c6eb2ce9'
 ---
 
 The Vendia team has been hard at work building out new features that we know will bring cheer to our users.  We've been so busy and have so much to share that we've also created a [blog post](https://www.vendia.com/blog/announcing-new-features) to delve into more details about each new feature.
