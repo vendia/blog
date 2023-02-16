@@ -1,5 +1,581 @@
 {
+  "cloud": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    },
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": false,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-14T22:04:06.910Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    },
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
+      "draft": false,
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+      "date": "2022-11-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-12-16-circles-of-trust-season-1-recap",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+        "keywords": "circles of trust, b2b data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-16T21:36:05.197Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
+    },
+    {
+      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
+      "draft": false,
+      "title": "10 ways to make your software better when building for cloud scale ",
+      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+      "date": "2022-11-18",
+      "categories": [
+        "concepts"
+      ],
+      "tags": [
+        "engineering",
+        "cloud"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
+    }
+  ],
+  "public cloud": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    },
+    {
+      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
+      "draft": false,
+      "title": "A short history of business data networks",
+      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+      "date": "2023-02-14T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-15-api-design-best-practices",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "Tim Wagner",
+        "Data network",
+        "SFTP",
+        "MFT",
+        "EDI",
+        "public cloud",
+        "cloud",
+        "supercloud",
+        "AWS",
+        "Azure",
+        "Amazon S3",
+        "GDPR",
+        "CCPA",
+        "CPRA/Prop 24"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "A short history of business data networks",
+        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
+        "keywords": "history of business data networks"
+      },
+      "sidebarCta": [
+        "The Future of APIs"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-14T22:04:06.910Z",
+      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
+    }
+  ],
+  "database": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-07T19:29:42.690Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "data lake": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    }
+  ],
+  "Zero ETL": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    }
+  ],
+  "hub and spoke model": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    }
+  ],
+  "data network": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    }
+  ],
   "Tim Wagner": [
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": true,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T18:03:48.829Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    },
     {
       "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
       "draft": false,
@@ -413,195 +989,6 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-14T22:04:06.910Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
-    }
-  ],
-  "public cloud": [
-    {
-      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": false,
-      "title": "A short history of business data networks",
-      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
-      "date": "2023-02-14T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-09-15-api-design-best-practices",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
-        "2022-09-22-real-time-everything"
-      ],
-      "tags": [
-        "Tim Wagner",
-        "Data network",
-        "SFTP",
-        "MFT",
-        "EDI",
-        "public cloud",
-        "cloud",
-        "supercloud",
-        "AWS",
-        "Azure",
-        "Amazon S3",
-        "GDPR",
-        "CCPA",
-        "CPRA/Prop 24"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "A short history of business data networks",
-        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
-        "keywords": "history of business data networks"
-      },
-      "sidebarCta": [
-        "The Future of APIs"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-14T22:04:06.910Z",
-      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
-    }
-  ],
-  "cloud": [
-    {
-      "file": "/posts/2023-02-14-a-short-history-of-business-data-networks.md",
-      "draft": false,
-      "title": "A short history of business data networks",
-      "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
-      "date": "2023-02-14T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-09-15-api-design-best-practices",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
-        "2022-09-22-real-time-everything"
-      ],
-      "tags": [
-        "Tim Wagner",
-        "Data network",
-        "SFTP",
-        "MFT",
-        "EDI",
-        "public cloud",
-        "cloud",
-        "supercloud",
-        "AWS",
-        "Azure",
-        "Amazon S3",
-        "GDPR",
-        "CCPA",
-        "CPRA/Prop 24"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "A short history of business data networks",
-        "description": "Learn how data sharing has evolved and how business and technology leaders can scale and optimize their data networks today and for the future",
-        "keywords": "history of business data networks"
-      },
-      "sidebarCta": [
-        "The Future of APIs"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-14T22:04:06.910Z",
-      "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
-    },
-    {
-      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
-      "draft": false,
-      "slug": "2023-predictions-tim-wagner",
-      "title": "Blockchain, cloud, and IT in 2023 and beyond",
-      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
-      ],
-      "tags": [
-        "OLAP",
-        "OLTP",
-        "trends",
-        "cloud",
-        "distributed database",
-        "blockchain"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Blockchain, cloud, and IT in 2023 and beyond",
-        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
-        "keywords": "business blockchain trends"
-      },
-      "sidebarCta": [
-        "What’s a business blockchain?"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:49:14.410Z",
-      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    },
-    {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "draft": false,
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-      "date": "2022-11-23T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-12-16-circles-of-trust-season-1-recap",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-        "keywords": "circles of trust, b2b data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z",
-      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
-    },
-    {
-      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
-      "draft": false,
-      "title": "10 ways to make your software better when building for cloud scale ",
-      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
-      "date": "2022-11-18",
-      "categories": [
-        "concepts"
-      ],
-      "tags": [
-        "engineering",
-        "cloud"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
     }
   ],
   "supercloud": [
@@ -5125,57 +5512,6 @@
     }
   ],
   "Ethereum": [
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-07T19:29:42.690Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
-    }
-  ],
-  "database": [
     {
       "file": "/posts/2022-03-17-are-blockchains-databases.md",
       "draft": false,
