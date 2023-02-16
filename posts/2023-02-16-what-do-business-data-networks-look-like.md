@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: What do business data networks look like?
 description: "Explore the four phases of building data sharing networks. Plus,
   learn how the hub and spoke model helps leaders leverage business initiatives
@@ -33,13 +33,17 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-16T21:33:02.788Z
+updatedAt: 2023-02-16T21:36:20.251Z
 id: edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b
 ---
 
-In practice, most data networks tend to look like a hub and spoke model, even if the parties involved are equal in a legal or technical sense (Figure 1). This is as much an operational and pragmatic observation as a comment on relationship structure. Generally speaking, to build a network, one organization has to take the first step by deciding whether an existing data sharing network requires improvement or whether the partnerships would benefit from a new data network.
+Generally speaking, to build a network, one organization has to take the first step by deciding whether an existing data sharing network requires improvement or whether the partnerships would benefit from a new data network.
 
-Data networks expand in three ways: hubs growing more spokes over time, existing hub and spoke ecosystems adding new use cases and spokes that convert into hubs for their own partner ecosystems.
+In practice, most data networks tend to look like a hub and spoke model, even if the parties involved are equal in a legal or technical sense (Figure 1). This is as much an operational and pragmatic observation as a comment on relationship structure. Data networks expand in three ways: 
+
+1. Hubs growing more spokes over time
+2. Existing hub and spoke ecosystems adding new use cases
+3. Spokes that convert into hubs for their own partner ecosystems
 
 ###### Figure 1: The hub and spoke model for initiating and growing business data networks
 
