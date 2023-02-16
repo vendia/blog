@@ -2,8 +2,12 @@
   "description": "Logos used in various landing pages",
   "logos": [
     {
-      "name": "United",
-      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675790059/Customer%20logos/United-Airlines-Logo_gl7m86.png"
+      "name": "AeroMexico",
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564126/Customer%20logos/IMG_3132_p8nilz.jpg"
+    },
+    {
+      "name": "Delta",
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564106/Customer%20logos/IMG_3131_pgf3g9.jpg"
     },
     {
       "name": "Best Friends Animal Society",
@@ -30,6 +34,6 @@
       "logo": "https://vendia.com/images/customers/UNFI.svg"
     }
   ],
-  "updatedAt": "2023-02-07T17:15:20.712Z",
-  "updatedBy": "Hugues Tennier"
+  "updatedAt": "2023-02-16T16:16:22.394Z",
+  "updatedBy": "Caroll Casbeer"
 }
