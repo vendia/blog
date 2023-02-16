@@ -2,7 +2,7 @@
   "thought-leadership": [
     {
       "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
-      "draft": true,
+      "draft": false,
       "title": "What do business data networks look like?",
       "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
       "date": "2023-02-16T00:00:00.000Z",
@@ -13,7 +13,9 @@
         "thought-leadership"
       ],
       "relatedPosts": [
-        "2023-02-14-a-short-history-of-business-data-networks"
+        "2023-02-14-a-short-history-of-business-data-networks",
+        "2022-01-31-multi-party-data-sharing-with-control",
+        "2022-05-10-improve-your-data-mesh"
       ],
       "tags": [
         "cloud",
@@ -38,7 +40,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T21:33:02.788Z",
+      "updatedAt": "2023-02-16T21:36:50.967Z",
       "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
     },
     {
