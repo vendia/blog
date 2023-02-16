@@ -74,6 +74,24 @@ components:
 
           [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
         wrapTheColumnInACard: false
+  - type: Carousel
+    slides:
+      - text: >-
+          ## Gartner Cool Vendor
+
+
+          “A multicloud strategy is inevitable for global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market.”
+
+
+          <Button kind="secondaryGhostDark" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
+      - text: >-
+          ## 1,092 Enterprises
+
+
+          We interviewed 1,092 enterprises and uncovered the top challenges of real-time data sharing. Learn how serverless distributed ledgers help overcome the most common data sharing obstacles.
+
+
+          <Button kind="secondaryGhostDark" label="Get the research" href="https://www.vendia.com/blog/serverless-distributed-ledger-for-enterprises" />
   - type: Columns
     theme: white
     intro:
@@ -113,6 +131,23 @@ components:
 
           Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
         wrapTheColumnInACard: false
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ## Automation lowers costs — quickly
+
+
+      In a recent survey, we found a customer **93%** **reduction in costs** by automating reconciliation across multiple sources. \
+
+      \
+
+      Even better? they saved **1.4 mm in the first year.**
+
+
+      <Button kind="secondaryGhostPurple" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png
   - type: Columns
     theme: white
     intro:
@@ -164,41 +199,6 @@ components:
 
           Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing.
         wrapTheColumnInACard: false
-  - type: Carousel
-    slides:
-      - text: >-
-          ## Gartner Cool Vendor
-
-
-          “A multicloud strategy is inevitable for global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market.”
-
-
-          <Button kind="secondaryGhostDark" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
-      - text: >-
-          ## 1,092 Enterprises
-
-
-          We interviewed 1,092 enterprises and uncovered the top challenges of real-time data sharing. Learn how serverless distributed ledgers help overcome the most common data sharing obstacles.
-
-
-          <Button kind="secondaryGhostDark" label="Get the research" href="https://www.vendia.com/blog/serverless-distributed-ledger-for-enterprises" />
-  - type: MediaWithText
-    mediaPosition: left
-    text: >-
-      ## Automation lowers costs — quickly
-
-
-      In a recent survey, we found a customer **93%** **reduction in costs** by automating reconciliation across multiple sources. \
-
-      \
-
-      Even better? they saved **1.4 mm in the first year.**
-
-
-      <Button kind="secondaryGhostPurple" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -272,6 +272,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-16T16:45:56.481Z
+updatedAt: 2023-02-16T21:32:14.260Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
