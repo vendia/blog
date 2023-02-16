@@ -1,14 +1,30 @@
 ---
 draft: false
-title: "Understanding shared data architecture"
-description: "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases."
-date: "2022-11-21"
-categories:
-  - real-time-data-sharing
-  - data-alliance
+title: Understanding shared data architecture
+description: Go in-depth on shared data architecture as James Gimourginas
+  explains what it is, how it works, and shared data architecture benefits,
+  drawbacks, and use cases.
+date: 2022-11-21
 authors:
   - James Gimourginas
-id: 'd44e70c7-8faf-4c05-9f25-3c12d36b7277'
+categories:
+  - concepts
+relatedPosts:
+  - 2022-11-29-shared-data-architecture-patterns
+  - 2022-03-17-are-blockchains-databases
+  - 2022-12-08-5-patterns-for-successful-data-traceability
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png
+seo:
+  title: Understanding shared data architecture
+  description: Go in-depth on shared data architecture as James Gimourginas
+    explains what it is, how it works, and shared data architecture benefits,
+    drawbacks, and use cases.
+  keywords: understanding shared data architecture
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:19:09.888Z
+id: d44e70c7-8faf-4c05-9f25-3c12d36b7277
 ---
 
 Technological advances, ongoing academic research, and new product offerings are all contributing to an emerging new architectural paradigm — a _shared data architecture_.  This new paradigm is changing how organizations design their systems, how they interact with their partners, and how they think about data ownership, data protection, and data resilience.  Technical leaders should read on to learn more about the key components of shared data architecture, its place in the enterprise, its potential value to an organization, and its increasing influence within a variety of industries.
