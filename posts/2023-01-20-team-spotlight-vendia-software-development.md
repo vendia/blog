@@ -17,6 +17,7 @@ tags:
   - engineering
   - team
   - recruiting
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599326/Website/Iso/Profiles_oxexbc.png
 seo:
   noindex: false
   description: Get to know some of our world-class software developers and
@@ -28,7 +29,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:30:31.666Z
+updatedAt: 2023-02-16T19:23:57.872Z
 id: 13373d57-30db-4b71-b540-b39aac7e7ab6
 ---
 
