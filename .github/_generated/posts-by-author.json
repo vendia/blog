@@ -3129,13 +3129,22 @@
       "authors": [
         "Caroll Casbeer"
       ],
-      "categories": null,
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia",
+        "2022-10-25-vendia-values"
+      ],
       "seo": {
         "title": "How to think about your growth marketing tactics at a startup",
         "description": "Growth marketing tactics for startups."
       },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-05T18:54:20.364Z",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:08:44.844Z",
       "id": "00b609d6-87a8-4795-b810-ae3c025b64fe"
     },
     {
