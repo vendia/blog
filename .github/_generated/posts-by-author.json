@@ -1581,6 +1581,29 @@
       "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
     },
     {
+      "file": "/posts/2022-09-10-new-podcast.md",
+      "draft": true,
+      "title": "New podcast: Circles of Trust launching this fall",
+      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
+      "date": "2022-09-10T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "New podcast: Circles of Trust launching this fall",
+        "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans.."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:20:53.288Z",
+      "id": "0403d3c0-3347-4cfa-8b45-3fde05224350"
+    },
+    {
       "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
       "draft": false,
       "title": "How Serverless and cloud enable scalable blockchains",
@@ -3179,20 +3202,6 @@
         "Caroll Casbeer"
       ],
       "id": "d049842f-8968-4cd1-b9f2-175a664c9266"
-    },
-    {
-      "file": "/posts/2022-09-10-new-podcast.md",
-      "draft": false,
-      "title": "New podcast: Circles of Trust launching this fall",
-      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
-      "date": "2022-09-10",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "0403d3c0-3347-4cfa-8b45-3fde05224350"
     },
     {
       "file": "/posts/2022-08-31-new-vendia-logo.md",

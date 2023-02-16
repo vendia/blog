@@ -744,6 +744,29 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T20:18:28.056Z",
       "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
+    },
+    {
+      "file": "/posts/2022-09-10-new-podcast.md",
+      "draft": true,
+      "title": "New podcast: Circles of Trust launching this fall",
+      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
+      "date": "2022-09-10T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "New podcast: Circles of Trust launching this fall",
+        "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans.."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:20:53.288Z",
+      "id": "0403d3c0-3347-4cfa-8b45-3fde05224350"
     }
   ],
   "concepts": [
@@ -3845,20 +3868,6 @@
     }
   ],
   "announcements": [
-    {
-      "file": "/posts/2022-09-10-new-podcast.md",
-      "draft": false,
-      "title": "New podcast: Circles of Trust launching this fall",
-      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
-      "date": "2022-09-10",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "0403d3c0-3347-4cfa-8b45-3fde05224350"
-    },
     {
       "file": "/posts/2022-08-05-gbta-2022-blockchain-travel-industry.md",
       "draft": false,

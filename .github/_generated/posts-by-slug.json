@@ -197,7 +197,7 @@
   },
   "new-podcast": {
     "file": "/posts/2022-09-10-new-podcast.md",
-    "draft": false
+    "draft": true
   },
   "kind-is-strong": {
     "file": "/posts/2022-09-07-kind-is-strong.md",
