@@ -11,6 +11,8 @@ categories:
   - thought-leadership
 relatedPosts:
   - 2023-02-14-a-short-history-of-business-data-networks
+  - 2022-01-31-multi-party-data-sharing-with-control
+  - 2022-05-10-improve-your-data-mesh
 tags:
   - cloud
   - public cloud
@@ -33,7 +35,7 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-16T21:36:20.251Z
+updatedAt: 2023-02-16T21:36:50.967Z
 id: edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b
 ---
 
@@ -47,7 +49,7 @@ In practice, most data networks tend to look like a hub and spoke model, even if
 
 ###### Figure 1: The hub and spoke model for initiating and growing business data networks
 
-<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1676583164%252FBlog%252520images%252FV02Figure01_Hub_spoke_jfoamw.png" alt="A landscape oriented diagram colored with shades of purple and blue; from left to right, an expanding set of hubs (represented by circles) and their spokes (represented by straight lines) extending to new hubs; each new set of hubs lives in a larger set of gradually expanding concentric circles" class="image-float-center" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676583164/Blog%20images/V02Figure01_Hub_spoke_jfoamw.png" alt="A landscape oriented diagram colored with shades of purple and blue; from left to right, an expanding set of hubs (represented by circles) and their spokes (represented by straight lines) extending to new hubs; each new set of hubs lives in a larger set of gradually expanding concentric circles" class="image-float-center" />
 
 ###### Most data networks tend to look like hub and spoke models with hubs growing more spokes and spokes growing more hubs. All the while, they're creating new use cases for their business network partners.
 
