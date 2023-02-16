@@ -43,7 +43,7 @@ Data networks expand in three ways: hubs growing more spokes over time, existing
 
 ###### Figure 1: The hub and spoke model for initiating and growing business data networks
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570571/Blog%20images/Fig.01Hubandspoke_edzc6f.png" alt="A landscape oriented diagram colored with shades of purple and blue; from left to right, an expanding set of hubs (represented by circles) and their spokes (represented by straight lines) extending to new hubs; each new set of hubs lives in a larger set of gradually expanding concentric circles" class="image-float-center" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1676570571%252FBlog%252520images%252FFig.01Hubandspoke_edzc6f.png" alt="A landscape oriented diagram colored with shades of purple and blue; from left to right, an expanding set of hubs (represented by circles) and their spokes (represented by straight lines) extending to new hubs; each new set of hubs lives in a larger set of gradually expanding concentric circles" class="image-float-center" />
 
 ###### Most data networks tend to look like hub and spoke models with hubs growing more spokes and spokes growing more hubs. All the while, they're creating new use cases for their business network partners.
 
