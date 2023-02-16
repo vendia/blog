@@ -1,13 +1,25 @@
 ---
-draft: false
-title: 'New podcast: Circles of Trust launching this fall'
-description: 'Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..'
-date: '2022-09-10'
-categories:
-- announcements
+draft: true
+title: "New podcast: Circles of Trust launching this fall"
+description: Get real talk on real-time data sharing, the perfect brain food for
+  innovation evangelists, business strategists, passionate developers, and
+  next-gen technology fans..
+date: 2022-09-10
 authors:
-  - Caroll Casbeer
-id: '0403d3c0-3347-4cfa-8b45-3fde05224350'
+  - Vendia
+categories:
+  - thought-leadership
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png
+seo:
+  title: "New podcast: Circles of Trust launching this fall"
+  description: Get real talk on real-time data sharing, the perfect brain food for
+    innovation evangelists, business strategists, passionate developers, and
+    next-gen technology fans..
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T20:20:53.288Z
+id: 0403d3c0-3347-4cfa-8b45-3fde05224350
 ---
 
 Join Tim Zonca, Vendia’s VP of Marketing (and former Sr. VP of Worldwide Marketing at Puppet and CEO at Stackery), as he hosts the premiere season of Vendia’s new podcast, Circles of Trust: Real talk on real-time data sharing. 
