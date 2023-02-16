@@ -284,20 +284,28 @@
         "James Gimourginas"
       ],
       "categories": [
-        "real-time-data-sharing"
+        "concepts",
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-05-02-what-is-real-time-data-sharing",
-        "2022-09-22-real-time-everything"
+        "2022-09-22-real-time-everything",
+        "2021-09-01-sharing-data-with-fine-grained-control"
       ],
-      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599418/Website/Iso/Upgrade_your_data_sharing_ysfecm.png",
       "seo": {
         "title": "Real-time data sharing challenges (and solutions)",
         "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
         "keywords": "real-time data, real-time data sharing"
       },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z",
+      "updatedAt": "2023-02-16T19:26:01.402Z",
       "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
     },
     {
@@ -2195,20 +2203,28 @@
         "James Gimourginas"
       ],
       "categories": [
-        "real-time-data-sharing"
+        "concepts",
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-05-02-what-is-real-time-data-sharing",
-        "2022-09-22-real-time-everything"
+        "2022-09-22-real-time-everything",
+        "2021-09-01-sharing-data-with-fine-grained-control"
       ],
-      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599418/Website/Iso/Upgrade_your_data_sharing_ysfecm.png",
       "seo": {
         "title": "Real-time data sharing challenges (and solutions)",
         "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
         "keywords": "real-time data, real-time data sharing"
       },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z",
+      "updatedAt": "2023-02-16T19:26:01.402Z",
       "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
     },
     {
