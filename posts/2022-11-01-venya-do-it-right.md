@@ -1,13 +1,31 @@
 ---
 draft: false
-title: "Veny’a doing it right"
-description: 'Explore Vendia’s culture with Francine Klein, Sr. Solutions Architect, as she shares her perspective on what makes working at Vendia like operating within a living, breathing Venn diagram.'
-date: '2022-11-01'
-categories:
-- company
+title: Veny’a doing it right
+description: Explore Vendia’s culture with Francine Klein, Sr. Solutions
+  Architect, as she shares her perspective on what makes working at Vendia like
+  operating within a living, breathing Venn diagram.
+date: 2022-11-01
 authors:
   - Francine Klein
-id: '845be41f-78b8-4ced-8621-d4a5d8385220'
+categories:
+  - company
+relatedPosts:
+  - 2022-08-09-venn-diagramming-vendia-share
+  - 2020-07-01-meet-vendias-founders
+  - 2021-01-04-kind-humans-really-work-here
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324704/Blog%20images/Remote_work_vngluh.png
+seo:
+  title: Veny’a doing it right
+  description: Explore Vendia’s culture with Francine Klein, Sr. Solutions
+    Architect, as she shares her perspective on what makes working at Vendia
+    like operating within a living, breathing Venn diagram.
+sidebarCta:
+  - d9bbe106-8c72-4f2e-a55d-d4c53073653f
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:35:34.302Z
+id: 845be41f-78b8-4ced-8621-d4a5d8385220
 ---
 
 While we mostly [talk data](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970), sometimes, when I’m in the (Zoom) room, we dabble in Yiddish. I draw on the language of my ancestors, particularly when telling allegories intermingled with anecdotes. Whether using an analogy to get a message across or sharing an example from past experiences, one thing stands at Vendia: When you’ve done it before, you know when (_“ven”_) you’re (“_y’a_”) doing it right because it lands in a Venn diagram.
