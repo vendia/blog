@@ -11,13 +11,14 @@ authors:
   - Francine Klein
 categories:
   - product
+  - concepts
 relatedPosts:
   - 2022-09-22-real-time-everything
   - 2021-01-25-supply-chain-visibility-with-vendia-share
   - 2022-11-29-shared-data-architecture-patterns
 createdBy: ""
 createdAt: ""
-updatedAt: 2023-02-14T21:58:45.076Z
+updatedAt: 2023-02-16T19:14:46.948Z
 callToAction:
   - What’s a business blockchain?
 tags:
