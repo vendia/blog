@@ -312,15 +312,32 @@
       "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
       "draft": false,
       "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
-      "categories": [
-        "blockchain",
-        "real-time-data-sharing"
-      ],
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder, explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04T00:00:00.000Z",
       "authors": [
         "Tim Wagner"
       ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-07-13-event-handlers-vs-smart-contracts",
+        "2022-04-04-smart-apis",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
+      "seo": {
+        "keywords": "the future of data sharing, deterministic databases ",
+        "title": "The future of data sharing with deterministic databases",
+        "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder, explores how database and blockchain research are revolutionizing business data sharing."
+      },
+      "sidebarCta": [
+        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:28:33.684Z",
       "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
     },
     {

@@ -517,6 +517,38 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:26:01.402Z",
       "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
+    },
+    {
+      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "draft": false,
+      "title": "The future of data sharing with deterministic databases",
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder, explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-07-13-event-handlers-vs-smart-contracts",
+        "2022-04-04-smart-apis",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
+      "seo": {
+        "keywords": "the future of data sharing, deterministic databases ",
+        "title": "The future of data sharing with deterministic databases",
+        "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder, explores how database and blockchain research are revolutionizing business data sharing."
+      },
+      "sidebarCta": [
+        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:28:33.684Z",
+      "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
     }
   ],
   "concepts": [
@@ -1916,21 +1948,6 @@
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     },
     {
-      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
-      "draft": false,
-      "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
-      "categories": [
-        "blockchain",
-        "real-time-data-sharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ],
-      "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
-    },
-    {
       "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
       "draft": false,
       "title": "Why is supply chain visibility important? ",
@@ -2732,22 +2749,37 @@
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     }
   ],
-  "real-time-data-sharing": [
+  "podcast": [
     {
-      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
       "draft": false,
-      "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
       "categories": [
-        "blockchain",
-        "real-time-data-sharing"
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
       ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
       "authors": [
-        "Tim Wagner"
+        "Alexa Johnson"
       ],
-      "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
     },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
+    }
+  ],
+  "real-time-data-sharing": [
     {
       "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
       "draft": false,
@@ -2896,36 +2928,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-08T00:31:47.144Z",
       "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01",
-      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
     }
   ],
   "data-alliance": [
