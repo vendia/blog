@@ -600,6 +600,35 @@
       "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
     },
     {
+      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "draft": false,
+      "title": "Understanding shared data architecture",
+      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+      "date": "2022-11-21T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2022-03-17-are-blockchains-databases",
+        "2022-12-08-5-patterns-for-successful-data-traceability"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
+      "seo": {
+        "title": "Understanding shared data architecture",
+        "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+        "keywords": "understanding shared data architecture"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:19:09.888Z",
+      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
+    },
+    {
       "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
       "draft": false,
       "title": "10 ways to make your software better when building for cloud scale ",
@@ -2577,21 +2606,6 @@
   ],
   "real-time-data-sharing": [
     {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
-      "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21",
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
-    },
-    {
       "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
       "draft": false,
       "slug": "real-time-data-sharing-challenges",
@@ -2784,22 +2798,37 @@
       "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
     }
   ],
-  "data-alliance": [
+  "podcast": [
     {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
       "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
       "categories": [
+        "podcast",
         "real-time-data-sharing",
         "data-alliance"
       ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
       "authors": [
-        "James Gimourginas"
+        "Alexa Johnson"
       ],
-      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
     },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
+    }
+  ],
+  "data-alliance": [
     {
       "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
       "draft": false,
@@ -2864,36 +2893,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-26T19:22:14.787Z",
       "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01",
-      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
     }
   ],
   "smart-apis": [
