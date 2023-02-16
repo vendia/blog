@@ -1385,6 +1385,35 @@
       "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     },
     {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-07-26-what-is-operational-data-sharing",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "seo": {
+        "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+        "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+        "keywords": "operational and analytics data sharing"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:32:46.950Z",
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
       "file": "/posts/2022-10-25-vendia-values.md",
       "draft": false,
       "title": "The five values that make us Vendia",
@@ -2776,23 +2805,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:16:56.209Z",
       "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
     }
   ],
   "francine-klein": [
