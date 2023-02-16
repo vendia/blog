@@ -6,10 +6,11 @@ components:
   - type: Logos
     logos:
       - Unfi
-      - Resolution Life
       - BMW
       - Delta
+      - AeroMexico
       - Atos
+      - Resolution Life
       - Best Friends Animal Society
     theme: white
   - type: Columns
@@ -76,8 +77,8 @@ components:
   - type: Columns
     theme: white
     intro:
-      title: The trusted data cloud
-      text: ""
+      title: "Your partner data cloud "
+      text: "Operational data sharing across multiple parties "
     columns:
       - text: >-
           <img
@@ -271,6 +272,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-16T16:26:24.392Z
+updatedAt: 2023-02-16T16:45:56.481Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
