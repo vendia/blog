@@ -9,7 +9,7 @@ date: 2022-11-23
 authors:
   - Vendia
 categories:
-  - podcast
+  - thought-leadership
 relatedPosts:
   - 2022-12-16-circles-of-trust-season-1-recap
   - 2022-11-02-podcast-worlds-colliding
@@ -25,9 +25,13 @@ seo:
   title: "Connecting pets and their humans: How Best Friends Animal Society uses
     data sharing to connect pets to their human families, faster"
   keywords: circles of trust, b2b data sharing
+sidebarCta:
+  - d9bbe106-8c72-4f2e-a55d-d4c53073653f
+createdBy: ""
+createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2022-12-16T21:36:05.197Z
-id: '09620294-e7a2-40a5-8a1d-b1b1daa69d4f'
+updatedAt: 2023-02-16T19:15:43.546Z
+id: 09620294-e7a2-40a5-8a1d-b1b1daa69d4f
 ---
 
 <YouTube aspectRatio="16:9" title="Connecting Pets and their Humans" url="https://youtu.be/34FDbI0tvKI" />
