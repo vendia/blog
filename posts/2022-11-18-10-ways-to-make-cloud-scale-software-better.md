@@ -1,16 +1,34 @@
 ---
 draft: false
 title: "10 ways to make your software better when building for cloud scale "
-description: "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices."
-date: "2022-11-18"
+description: How does Vendia’s team of cloud engineers build for scale? James
+  Gimourginas, Director of Solutions Architecture and Customer Success lifts the
+  hood on Vendia’s best practices.
+date: 2022-11-18
+authors:
+  - James Gimourginas
 categories:
   - concepts
+  - thought-leadership
+relatedPosts:
+  - 2021-01-29-getting-started-with-vendia-share
+  - 2022-04-26-3-body-problem-solution-example
+  - 2022-01-27-scale-your-partner-ecosystem-with-vendia-share
 tags:
   - engineering
   - cloud
-authors:
-  - James Gimourginas
-id: '8b9b13c9-13ba-476b-bf64-9c820b32edaf'
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599254/Website/Iso/Data_organization_w6crb8.png
+seo:
+  title: "10 ways to make your software better when building for cloud scale "
+  description: How does Vendia’s team of cloud engineers build for scale? James
+    Gimourginas, Director of Solutions Architecture and Customer Success lifts
+    the hood on Vendia’s best practices.
+  keywords: how to build for cloud scale
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:22:28.519Z
+id: 8b9b13c9-13ba-476b-bf64-9c820b32edaf
 ---
 
 Scale. It’s one of the most common stressors to complex software systems. So how do public cloud services companies do it? And what differentiating practices can we apply from their toolkit, even when developing solutions that don’t require “cloud scale”?
@@ -208,4 +226,3 @@ Striving to be cloud scale isn’t appropriate for every team or every applicati
 ## **Interested in joining Vendia?**
 
 We’re always looking to connect with Sr. Senior Backend / Core Engineers, Senior Frontend Engineers, Senior Full Stack Engineers, and Senior Solutions Architects. If you want to work with kind humans solving hard problems as we help our customers build powerful, multi-party real-time data-sharing apps, check out our [open positions](https://www.vendia.com/careers).
-
