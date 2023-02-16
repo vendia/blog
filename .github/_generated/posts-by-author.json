@@ -2587,15 +2587,31 @@
       "draft": false,
       "title": "Why is supply chain visibility important? ",
       "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
+      "date": "2022-10-26T00:00:00.000Z",
       "authors": [
         "Vikrant Kahlir"
       ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2023-01-03-how-to-improve-supply-chain-visibility",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png",
+      "seo": {
+        "title": "Why is supply chain visibility important?",
+        "keywords": "better supply chain visibility",
+        "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
+      },
+      "sidebarCta": [
+        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:43:16.433Z",
       "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
     },
     {

@@ -862,6 +862,38 @@
       "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
     },
     {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2023-01-03-how-to-improve-supply-chain-visibility",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png",
+      "seo": {
+        "title": "Why is supply chain visibility important?",
+        "keywords": "better supply chain visibility",
+        "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
+      },
+      "sidebarCta": [
+        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:43:16.433Z",
+      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
+    },
+    {
       "file": "/posts/2022-10-21-api-security-graphql.md",
       "draft": false,
       "title": "Understanding API security with GraphQL",
@@ -2026,22 +2058,6 @@
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     },
     {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
-    },
-    {
       "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
       "draft": false,
       "title": "Use case: How next-gen blockchain delivers a “golden record” for mortgage servicing",
@@ -2857,164 +2873,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T19:12:29.677Z",
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
-    }
-  ],
-  "real-time-data-sharing": [
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z",
-      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM, API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    },
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "How tools impact products for real-time, multi-party data sharing",
-      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-      "date": "2020-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "guidance",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-10-whats-new-indices"
-      ],
-      "tags": [
-        "engineering, SQL, event"
-      ],
-      "seo": {
-        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-        "title": "How tools impact products for real-time, multi-party data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z",
-      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
-    }
-  ],
-  "data-alliance": [
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM, API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
     }
   ],
   "smart-apis": [
@@ -3980,6 +3838,132 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:38:48.273Z",
       "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
+    }
+  ],
+  "real-time-data-sharing": [
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z",
+      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    },
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering, SQL, event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z",
+      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
+    }
+  ],
+  "data-alliance": [
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
     }
   ]
 }
