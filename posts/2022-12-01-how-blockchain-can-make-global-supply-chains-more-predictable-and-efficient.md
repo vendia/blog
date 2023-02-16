@@ -9,19 +9,25 @@ date: 2022-12-01
 authors:
   - Tim Wagner
 categories:
-  - blockchain
+  - thought-leadership
 relatedPosts:
   - 2022-05-13-green-blockchain-intro
   - 2022-03-17-are-blockchains-databases
   - 2022-01-14-applying-domain-driven-design-to-blockchains
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500629/Website/Iso/Blockchain_rmmdjm.png
 seo:
   title: How blockchain can make global supply chains more predictable and efficient
   description: In the face of supply chain shortages and data breakdowns, next-gen
     blockchain is emerging as a smart way to decentralize multi-party data
     sharing with full, yet finely grained, end-to-end visibility.
-updatedBy: David Wells
-updatedAt: 2022-12-02T20:22:13.068Z
-id: '4eb01820-fdce-4971-8a42-d567be720651'
+  keywords: global supply chain agility
+sidebarCta:
+  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:12:47.627Z
+id: 4eb01820-fdce-4971-8a42-d567be720651
 ---
 
 It’s estimated that [90% of the world’s goods](https://www.weforum.org/agenda/2021/10/global-shortagof-shipping-containers/) are shipped by sea in roughly 60,000 cargo vessels. The largest cargo vessels carry 24,000 containers. And at that scale, it’s not hard to imagine why everything from the chair you’re sitting in to the microchip in the device you are reading this on can be lost or delayed anywhere (and everywhere) in its lifecycle before reaching you.
