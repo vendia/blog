@@ -2,20 +2,20 @@
   "callToAction": [
     "ad9381ab-c314-4028-a7da-0dffdf31ae68"
   ],
-  "updatedAt": "2023-02-14T23:21:09.286Z",
-  "updatedBy": "David Wells",
+  "updatedAt": "2023-02-16T19:47:49.214Z",
+  "updatedBy": "alexa-vendia",
   "sidebarCta": [
     "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
   ],
   "topCategories": [
-    "company",
     "concepts",
-    "product"
+    "product",
+    "thought-leadership"
   ],
   "popularAuthors": [
-    "Vikrant Kahlir",
     "James Gimourginas",
-    "Francine Klein"
+    "Francine Klein",
+    "Tim Wagner"
   ],
   "mostPopularPosts": [
     "8b9b13c9-13ba-476b-bf64-9c820b32edaf",
