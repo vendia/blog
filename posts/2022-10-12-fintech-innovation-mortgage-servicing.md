@@ -1,13 +1,33 @@
 ---
 draft: false
-title: "Fintech innovation for housing and finance data ecosystems"
-description: "The finance, housing, and mortgage servicing system can be transformed through the formation of multi-party and real-time data alliances underpinned by new business blockchain technology."
-date: "2022-10-12"
-categories:
-  - concepts
+title: Fintech innovation for housing and finance data ecosystems
+description: The finance, housing, and mortgage servicing system can be
+  transformed through the formation of multi-party and real-time data alliances
+  underpinned by new business blockchain technology.
+date: 2022-10-12
 authors:
   - Tim Wagner
-id: '708d9217-d8d2-4ee1-8120-f86bee9b4a3f'
+categories:
+  - concepts
+  - thought-leadership
+relatedPosts:
+  - 2022-09-14-atos-success-story
+  - 2021-09-01-sharing-data-with-fine-grained-control
+  - 2022-09-20-finserv-blockchain-data-strategy
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Group-1_hrlnbx.png
+seo:
+  description: The finance, housing, and mortgage servicing system can be
+    transformed through the formation of multi-party and real-time data
+    alliances underpinned by new business blockchain technology.
+  title: Fintech innovation for housing and finance data ecosystems
+  keywords: data ecosystems in financial services
+sidebarCta:
+  - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:52:55.690Z
+id: 708d9217-d8d2-4ee1-8120-f86bee9b4a3f
 ---
 
 The housing and finance industries have [invested billions](https://www.mckinsey.com/industries/financial-services/our-insights/financial-data-unbound-the-value-of-open-data-for-individuals-and-institutions) in data and IT infrastructure. Despite that investment, the industry remains highly fragmented, lacks shared standards, and depends on siloed or inefficient partnerships. While the industry once focused on data and IT infrastructure _within_ an organization, now organizations need to put the same type of systems and workflows in place to work _across_ business networks. 
@@ -96,4 +116,4 @@ Vendia removes the historical obstacles, redundancies, and headaches in mortgage
 
 #### Get your one-week proof of concept
 
-See how much you can achieve in one week with Vendia Share. Invite us to automate and accelerate data workflows and processes with a [one-week proof of concept](https://www.vendia.com/poc), or reach out to our team to explore your questions and [poke at what’s possible](https://meetings.hubspot.com/tim-zonca/contact-an-expert). 
+See how much you can achieve in one week with Vendia Share. Invite us to automate and accelerate data workflows and processes with a [one-week proof of concept](https://www.vendia.com/poc), or reach out to our team to explore your questions and [poke at what’s possible](https://meetings.hubspot.com/tim-zonca/contact-an-expert).
