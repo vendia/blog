@@ -13,20 +13,24 @@ categories:
 relatedPosts:
   - 2020-07-01-meet-vendias-founders
   - 2022-04-25-6-months-at-vendia
+  - 2023-01-20-team-spotlight-vendia-software-development
 tags:
   - recruiting
   - team
   - engineering
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599326/Website/Iso/Profiles_oxexbc.png
 seo:
   description: Get to know some of our world-class engineers with pedigrees from
     AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see
     what it’s like to be a part of Vendia.
   title: "Team spotlight: Vendia Engineering"
+sidebarCta:
+  - d9bbe106-8c72-4f2e-a55d-d4c53073653f
 tweet: Learn about the engineering team at Vendia!
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-01-19T22:05:53.596Z
+updatedAt: 2023-02-16T19:23:32.714Z
 id: 828764e9-b3dd-4ec5-aab3-a6c05d5094db
 ---
 
