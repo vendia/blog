@@ -418,6 +418,40 @@
       "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
     },
     {
+      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
+      "draft": false,
+      "title": "10 ways to make your software better when building for cloud scale ",
+      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+      "date": "2022-11-18T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
+      ],
+      "tags": [
+        "engineering",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599254/Website/Iso/Data_organization_w6crb8.png",
+      "seo": {
+        "title": "10 ways to make your software better when building for cloud scale ",
+        "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+        "keywords": "how to build for cloud scale"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:22:28.519Z",
+      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
+    },
+    {
       "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
       "draft": false,
       "slug": "podcast-patient-experience-with-teeth",
@@ -633,17 +667,33 @@
       "draft": false,
       "title": "10 ways to make your software better when building for cloud scale ",
       "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
-      "date": "2022-11-18",
+      "date": "2022-11-18T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
       "categories": [
-        "concepts"
+        "concepts",
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
       ],
       "tags": [
         "engineering",
         "cloud"
       ],
-      "authors": [
-        "James Gimourginas"
-      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599254/Website/Iso/Data_organization_w6crb8.png",
+      "seo": {
+        "title": "10 ways to make your software better when building for cloud scale ",
+        "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+        "keywords": "how to build for cloud scale"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:22:28.519Z",
       "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
     },
     {
