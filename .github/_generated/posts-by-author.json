@@ -2688,21 +2688,24 @@
         "Alexa Johnson"
       ],
       "categories": [
-        "podcast"
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer"
+        "2022-10-01-podcast-great-equalizer",
+        "2022-11-23-connecting-pets-humans"
       ],
       "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "tweet": "Check out the latest episode of Circles of Trust",
       "seo": {
         "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
         "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
         "keywords": "circles of trust"
       },
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-18T21:53:26.118Z",
+      "updatedAt": "2023-02-16T19:16:56.209Z",
       "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
     },
     {
