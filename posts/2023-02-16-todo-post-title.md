@@ -13,10 +13,10 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: David Wells
-updatedAt: 2023-02-16T22:09:11.624Z
+updatedAt: 2023-02-16T22:18:28.257Z
 id: 7e773758-93b1-4811-a1bd-87c1dd1bdfeb
 ---
 
 TODO Blog contents here.
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp" alt="xxxxsssssxxxxxxxxxxxxxxxxxxxxxxxxx" class="image-float-left" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp" alt="messed up alt text with inner \"weird\" quotes" class="image-float-left" />
