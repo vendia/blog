@@ -6,13 +6,20 @@ description: Head of Growth Marketing, Caroll Casbeer, dives into tactics she
 date: 2022-10-06
 authors:
   - Caroll Casbeer
-categories: null
+categories:
+  - company
+relatedPosts:
+  - 2020-07-01-meet-vendias-founders
+  - 2022-04-25-6-months-at-vendia
+  - 2022-10-25-vendia-values
 seo:
   title: How to think about your growth marketing tactics at a startup
   description: Growth marketing tactics for startups.
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-05T18:54:20.364Z
-id: '00b609d6-87a8-4795-b810-ae3c025b64fe'
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T20:08:44.844Z
+id: 00b609d6-87a8-4795-b810-ae3c025b64fe
 ---
 
 Marketing is hard — even at mature, highly successful companies. As with many jobs, you’re asked to do more with less and predict the unpredictable. I’ve found that developing a marketing engine at a startup is the hardest of both worlds… you’re trying to create product-market fit, find your best customers (without having lots of customers), be frugal, place a lot of bets you think *may* work, all while fielding questions about the lifetime value (LTV) of a customer. (Seriously, just because I can *do* the LTV calculation doesn’t mean it’s important right now.)  
@@ -71,4 +78,6 @@ You have to place a lot of bets at a startup. You won’t be sure what works so 
 
 # Want to follow our latest ‘bet”?
 
-Check out [Circles of Trus](https://vendia.com/resources/circles-of-trust)t, a podcast for innovation leaders and disrupters all about data sharing. Listen on [Spotify](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK), [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M), and [Apple](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) podcasts.
+**Check out [Circles of Trus](https://vendia.com/resources/circles-of-trust)t, a podcast for innovation leaders and disrupters all about data sharing. Listen on [Spotify](https://open.spotify.com/show/49kZwowJkYxjceHIax2zxK), [Google](https://podcasts.google.com/feed/aHR0cHM6Ly9mYXN0Lndpc3RpYS5jb20vY2hhbm5lbHMvYWw5cWQ4MTdkcS9yc3M), and [Apple](https://podcasts.apple.com/us/podcast/circles-of-trust/id1645908970) podcasts.**
+
+**Looking for your next role in tech? Explore [current opportunities](https://www.vendia.com/careers) at Vendia**
