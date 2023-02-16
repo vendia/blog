@@ -9,9 +9,8 @@ date: 2022-11-29
 authors:
   - Li Dai
 categories:
-  - architecture
-  - real-time-data-sharing
-  - data-alliance
+  - concepts
+  - product
 relatedPosts:
   - 2022-11-29-shared-data-architecture-patterns
   - 2021-01-29-getting-started-with-vendia-share
@@ -23,9 +22,13 @@ seo:
     starts with the right blockchain-based solution. Learn how to choose the
     most compatible architecture for your company’s needs.
   keywords: shared data architecture
-updatedBy: Caroll Casbeer
-updatedAt: 2022-12-01T19:22:33.839Z
-id: 'eebe1b77-1b29-41df-8a6c-03a2ee199d4d'
+sidebarCta:
+  - 229db631-6026-4284-8327-a8f2bb2fb98c
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:14:16.761Z
+id: eebe1b77-1b29-41df-8a6c-03a2ee199d4d
 ---
 
 # Shared data architecture patterns
