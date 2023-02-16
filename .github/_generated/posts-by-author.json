@@ -3079,15 +3079,29 @@
     {
       "file": "/posts/2022-10-11-company-retreat-tips.md",
       "draft": false,
-      "title": "3 tips for a successful company retreat when your team is remote first",
+      "title": "How Vendia connects: 3 tips for a great company retreat when your team is remote-first",
       "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips.",
-      "date": "2022-10-11",
-      "categories": [
-        "company"
-      ],
+      "date": "2022-10-11T00:00:00.000Z",
       "authors": [
         "Renee Fujii"
       ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2022-10-25-vendia-values"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
+      "seo": {
+        "title": "3 tips for a great company retreat when your team is remote-first",
+        "description": "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:05:29.463Z",
       "id": "f8517b45-6463-44a3-8acc-c9123b782fc9"
     },
     {
