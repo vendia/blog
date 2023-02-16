@@ -1517,6 +1517,12 @@
         "product",
         "concepts"
       ],
+      "relatedPosts": [
+        "2022-05-05-real-time-vs-analytical-data",
+        "2022-07-26-what-is-operational-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599116/Website/Iso/Connected_ygfber.png",
       "seo": {
         "title": "Guide to real-time data sharing vendor types",
         "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
@@ -1525,7 +1531,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:27:21.087Z",
+      "updatedAt": "2023-02-16T19:58:04.477Z",
       "id": "b7cb373b-5ee2-49a7-9177-a935993c47c9"
     },
     {
