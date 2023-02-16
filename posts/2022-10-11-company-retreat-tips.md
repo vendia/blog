@@ -1,21 +1,37 @@
 ---
 draft: false
-title: "3 tips for a successful company retreat when your team is remote first"
-description: "How do you drive the business, win employee engagement, and make time for both business and fun at your next company retreat? Renee Fujii, Head of Talent, shares three thoughtful tips."
-date: "2022-10-11"
-categories:
-  - company
+title: "How Vendia connects: 3 tips for a great company retreat when your team
+  is remote-first"
+description: How do you drive the business, win employee engagement, and make
+  time for both business and fun at your next company retreat? Renee Fujii, Head
+  of Talent, shares three thoughtful tips.
+date: 2022-10-11
 authors:
   - Renee Fujii
-id: 'f8517b45-6463-44a3-8acc-c9123b782fc9'
+categories:
+  - company
+relatedPosts:
+  - 2020-07-01-meet-vendias-founders
+  - 2021-06-08-gartner-cool-vendor
+  - 2022-10-25-vendia-values
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png
+seo:
+  title: 3 tips for a great company retreat when your team is remote-first
+  description: How do you drive the business, win employee engagement, and make
+    time for both business and fun at your next company retreat? Renee Fujii,
+    Head of Talent, shares three thoughtful tips.
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T20:05:29.463Z
+id: f8517b45-6463-44a3-8acc-c9123b782fc9
 ---
 
 As team Vendia journeys through our seed, Series A, and now [Series B](https://www.vendia.net/blog/vendia-announces-series-b) rounds, we have both the capital and the mandate to  grow, grow, grow. But, unlike many startups (and heritage brands for that matter), our leadership team believes that we should grow thoughtfully and not at the expense of our culture. In fact, we believe, if we take care of each other as we take care of our work, our community of [kind humans](https://www.vendia.net/kind-humans) can only help us grow faster, stronger, smarter. 
 
 As a remote-first organization, we have colleagues who work everywhere from Boston to the Bay Area, a few even from Newfoundland to New South Wales. We know that we don’t need to bring people to work. [We can take the work to people](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/the-future-of-work-what-next). And sometimes, as with in-person, company retreats, we get to do both.
 
-But how do you turn that (big) line item in your operational budget into a resonant, rewarding retreat that feels good and _does good_ for your bottom line? Here are our top three tips for planning and executing a winning company retreat.
-
+But how do you turn that (big) line item in your operational budget into a resonant, rewarding retreat that feels good and *does good* for your bottom line? Here are our top three tips for planning and executing a winning company retreat.
 
 ## Tip 1: Pick someplace memorable
 
@@ -25,11 +41,9 @@ But, if you’re going to ask your team to leave the comforts of home, be prepar
 
 For multi-day events, mix up your meeting rooms and gathering spaces. If you can host different events within the larger retreat at different locations, the fresh spaces offer two benefits. First, by moving the team around, you’re creating mini-travel experiences that help keep people fresh and engaged every day at the onsite. Second, you clearly delineate the more formal working session spaces and the more casual “after hours” spaces. This helps your team members show up with confidence, and it helps set expectations about what the time and place call for so there’s no confusion about “This is where we have breakout working sessions, and that is where we host breakdancing and karaoke contests.” 
 
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196541649-980e0574-e766-43ce-8448-8bd3d24789b5.jpg" alt="Five colleagues wear matching Vendia t-shirts at the company retreat with palm trees in the background" class="image-float-center" />
 
-![Five colleagues wear matching Vendia t-shirts at the company retreat with palm trees in the background](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196541649-980e0574-e766-43ce-8448-8bd3d24789b5.jpg)
-
-_Front (l to r): Shruthi Rao (Co-founder and CBO), Caroll Casbeer (Head of Growth Marketing); Back (l to r): Dale Salter (Sr. Software Engineer), Vikrant Kalhir (PTech Lead), David McElligott (Sr. Solutions Architect), Tim Zonca (VP of Marketing)_
-
+*Front (l to r): Shruthi Rao (Co-founder and CBO), Caroll Casbeer (Head of Growth Marketing); Back (l to r): Dale Salter (Sr. Software Engineer), Vikrant Kalhir (PTech Lead), David McElligott (Sr. Solutions Architect), Tim Zonca (VP of Marketing)*
 
 ## Tip 2: Create connection time
 
@@ -37,24 +51,17 @@ As [Priya Parker](https://www.priyaparker.com/) posits, “Gatherings crackle an
 
 Yes, when you love what you do, business and pleasure are not mutually exclusive. But, in the spirit of inclusiveness and good, old-fashioned fun, it’s a good idea to [structure your event](https://www.priyaparker.com/art-of-gathering-newsletter/designing-for-connection-in-the-workplace) so it has a full spectrum of events that range from purely business to purely pleasure. At Vendia we structure our events so all of these experiences are available to our team members. 
 
-
 ### On the business side…
 
+- We’ll bring the leadership team together for an extra day so they can have the time they need to align on goals, prioritize initiatives, and suss out our team and business results.
+- Senior and emerging leaders will guide presentations through the all hands session, walking through business updates, product roadmaps, and cultural feedback. 
+- Everyone in the organization is invited to ask and answer questions, publicly or privately in a follow-up aside, so it’s both easy and safe to get the information you’re looking for as a Vendian.
+- We also make time for departmental breakout sessions. Whether you’re the marketing team planning for the next quarter or the dev team sorting CX and innovation sprints, it’s important to have time to drill down from the bigger business picture and drive focus and collaboration at the departmental level. 
+- Often, we’ll host what we call open breakout sessions, too. Leaders will define the session topics, and then Vendians across all departments are invited to sit in and listen, help brainstorm, absorb takeaways for their own team, etc. 
 
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpg" alt="Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, \"Automate and accelerate your data workflows across business networks\"" class="image-float-center" />
 
-* We’ll bring the leadership team together for an extra day so they can have the time they need to align on goals, prioritize initiatives, and suss out our team and business results.
-* Senior and emerging leaders will guide presentations through the all hands session, walking through business updates, product roadmaps, and cultural feedback. 
-* Everyone in the organization is invited to ask and answer questions, publicly or privately in a follow-up aside, so it’s both easy and safe to get the information you’re looking for as a Vendian.
-* We also make time for departmental breakout sessions. Whether you’re the marketing team planning for the next quarter or the dev team sorting CX and innovation sprints, it’s important to have time to drill down from the bigger business picture and drive focus and collaboration at the departmental level. 
-* Often, we’ll host what we call open breakout sessions, too. Leaders will define the session topics, and then Vendians across all departments are invited to sit in and listen, help brainstorm, absorb takeaways for their own team, etc. 
-
-
-
-
-![Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, "Automate and accelerate your data workflows across business networks"](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpg)
-
-_Tim Wagner, Vendia Co-founder and CEO, presenting at our recent team event_
-
+*Tim Wagner, Vendia Co-founder and CEO, presenting at our recent team event*
 
 ### On the pleasure side…
 
@@ -64,33 +71,26 @@ And for our team members who’ll never say no to a taco bar, a little early mor
 
 And one last thing… because it must be said and underlined: <u>Build in (and stick to the) time for breaks</u>. Here are some good rules of thumb: 
 
-
-
-* Let the team know they are welcome to slip away during a presentation when Nature, a customer or someone else they must speak to calls. 
-* Keep snacks, water, tea, and coffee available so people can discreetly grab refreshment, and explicitly communicate it’s okay to get up during presentations. Bonus points if your emcee models that behavior by grabbing a fresh cup of tea or a mid-session snack. A little movement and a fresh cuppa can help people stay alert and engaged during presentations and breakout sessions.
-* Give your team a five-minute break after every 60 minutes together. If your agenda’s too packed and you’re behind schedule (or your CEO is too old school and wants to “optimize” every day, empower the event’s emcee to invite everyone to stand, stretch, and wiggle a bit in between speakers or during other topical transitions.
-* Give the team 15 minutes after every 90-minute to two-hour session.
-* Allow 60-75 minutes for lunch (and ensure it’s ready when your working session wraps up)
-
+- Let the team know they are welcome to slip away during a presentation when Nature, a customer or someone else they must speak to calls. 
+- Keep snacks, water, tea, and coffee available so people can discreetly grab refreshment, and explicitly communicate it’s okay to get up during presentations. Bonus points if your emcee models that behavior by grabbing a fresh cup of tea or a mid-session snack. A little movement and a fresh cuppa can help people stay alert and engaged during presentations and breakout sessions.
+- Give your team a five-minute break after every 60 minutes together. If your agenda’s too packed and you’re behind schedule (or your CEO is too old school and wants to “optimize” every day, empower the event’s emcee to invite everyone to stand, stretch, and wiggle a bit in between speakers or during other topical transitions.
+- Give the team 15 minutes after every 90-minute to two-hour session.
+- Allow 60-75 minutes for lunch (and ensure it’s ready when your working session wraps up)
 
 ## Tip 3: Prepare your speakers to be prepared
-
 
 #### Define clear goals and agendas
 
 As you organize your event and rally the different presenters for the event, it’s not enough to “just get everybody in a room.” From the planning stages with your company leaders to selecting and onboarding speakers to the welcoming of everyone in person, your leadership and event teams need to set and manage to expectations:
 
-
-
-* What are you gathering to communicate, learn, and accomplish?
-* Why is it important to your business and your team(s) today and tomorrow?
-* How does it impact individual departments and what OKRs will guide their contributions?
-* What is the unifying message for the event, and how should it influence the takeaways?
-* How will presentations be sequenced so they map to the event goals and business priorities?
-* How much time will each speaker have? 
-* Distribute agendas, resources, and any pre-work expectations at least two weeks before the event. This gives teams time to prepare, anticipate (with excitement), ask questions, and fit any work required into their cycles. It also frees up your leadership team, so they can spread the extra work out prior to the event without having to work unusually long hours or add on undue stress.
-* Have hard copies or float any materials back into your team’s preferred communication channel on Day 1 of the event.
-
+- What are you gathering to communicate, learn, and accomplish?
+- Why is it important to your business and your team(s) today and tomorrow?
+- How does it impact individual departments and what OKRs will guide their contributions?
+- What is the unifying message for the event, and how should it influence the takeaways?
+- How will presentations be sequenced so they map to the event goals and business priorities?
+- How much time will each speaker have? 
+- Distribute agendas, resources, and any pre-work expectations at least two weeks before the event. This gives teams time to prepare, anticipate (with excitement), ask questions, and fit any work required into their cycles. It also frees up your leadership team, so they can spread the extra work out prior to the event without having to work unusually long hours or add on undue stress.
+- Have hard copies or float any materials back into your team’s preferred communication channel on Day 1 of the event.
 
 #### Help speakers create narratives, not presentations
 
@@ -98,21 +98,15 @@ People respond to and remember stories, and those stories become the anchor for 
 
 Sometimes, especially with emerging leaders, they may need extra time to get feedback from their boss, thrash or validate their slides and messaging with a [Questioner](https://gretchenrubin.com/quiz/the-four-tendencies-quiz/questioner/), or even a content strategist who can help them structure their presentation in a simpler, more logical, or surprisingly fun way.
 
-
 #### Give presenters design support (and set expectations they take you up on it)
 
 Even the smartest people create mind-numbing slides. And both the quantity and quality of presentation materials are especially important at in person events for remote-first teams. After all, in our day-to-day work, we usually only know people for how they show up in a business meeting — If we have meetings or workflows that intersect at all. Even if your team does Slack #water-cooler banter well, the communication is still one-dimensional. 
 
 [Perception is reality](https://greatergood.berkeley.edu/article/item/eight_reasons_to_distrust_your_own_perceptions). So going the extra mile on presentation materials (and hopefully practicing the presentation delivery ahead of time) will help build trust in your leadership and across the entire company. What does going the extra mile look like? 
 
-
-
-* Require your speakers to submit their materials to your Creative team and give all stakeholders enough time to review and clean.
-* You’ll want to make time for, at least, a copy edit to correct any regrettable typos and a design review to ensure the materials are on-brand and visually digestible.
-* Combine all slides into a single deck so presentations flow seamlessly.
-
- 
-
+- Require your speakers to submit their materials to your Creative team and give all stakeholders enough time to review and clean.
+- You’ll want to make time for, at least, a copy edit to correct any regrettable typos and a design review to ensure the materials are on-brand and visually digestible.
+- Combine all slides into a single deck so presentations flow seamlessly.
 
 ## Will you be at our next Vendia onsite?
 
