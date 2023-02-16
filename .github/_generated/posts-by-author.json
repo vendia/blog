@@ -408,17 +408,31 @@
     {
       "file": "/posts/2022-10-04-no-more-multicloud.md",
       "draft": false,
-      "title": "No more multicloud: The emergence of supercloud",
-      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
+      "title": "No more multicloud: Here comes supercloud",
+      "description": "SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04T00:00:00.000Z",
       "authors": [
         "Tim Wagner"
       ],
       "categories": [
-        "architecture",
-        "concepts"
+        "thought-leadership",
+        "product"
       ],
-      "updatedBy": "David Wells",
+      "relatedPosts": [
+        "2022-08-03-how-serverless-cloud-enable-scalable-blockchains",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-17-public-cloud-file-sharing"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500456/Website/Iso/Cloud_brdq9h.png",
+      "seo": {
+        "title": "No more multicloud: The emergence of supercloud",
+        "keywords": "cloud technology trends",
+        "description": "SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:18:28.056Z",
       "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
     },
     {

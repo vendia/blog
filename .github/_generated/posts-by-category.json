@@ -714,6 +714,36 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:52:55.690Z",
       "id": "708d9217-d8d2-4ee1-8120-f86bee9b4a3f"
+    },
+    {
+      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "draft": false,
+      "title": "No more multicloud: Here comes supercloud",
+      "description": "SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-08-03-how-serverless-cloud-enable-scalable-blockchains",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-17-public-cloud-file-sharing"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500456/Website/Iso/Cloud_brdq9h.png",
+      "seo": {
+        "title": "No more multicloud: The emergence of supercloud",
+        "keywords": "cloud technology trends",
+        "description": "SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:18:28.056Z",
+      "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
     }
   ],
   "concepts": [
@@ -1125,22 +1155,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:52:55.690Z",
       "id": "708d9217-d8d2-4ee1-8120-f86bee9b4a3f"
-    },
-    {
-      "file": "/posts/2022-10-04-no-more-multicloud.md",
-      "draft": false,
-      "title": "No more multicloud: The emergence of supercloud",
-      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "updatedBy": "David Wells",
-      "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
     },
     {
       "file": "/posts/2022-09-27-data-sharing-obstacles.md",
@@ -2725,6 +2739,36 @@
       "id": "5068291c-4eba-49dd-b506-87586f398101"
     },
     {
+      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "draft": false,
+      "title": "No more multicloud: Here comes supercloud",
+      "description": "SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
+      "date": "2022-10-04T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-08-03-how-serverless-cloud-enable-scalable-blockchains",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-17-public-cloud-file-sharing"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500456/Website/Iso/Cloud_brdq9h.png",
+      "seo": {
+        "title": "No more multicloud: The emergence of supercloud",
+        "keywords": "cloud technology trends",
+        "description": "SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:18:28.056Z",
+      "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
+    },
+    {
       "file": "/posts/2022-09-22-real-time-everything.md",
       "draft": false,
       "title": "Real-time “everything” with operational and analytics data",
@@ -3130,23 +3174,86 @@
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     }
   ],
-  "architecture": [
+  "podcast": [
     {
-      "file": "/posts/2022-10-04-no-more-multicloud.md",
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
       "draft": false,
-      "title": "No more multicloud: The emergence of supercloud",
-      "description": "Learn how SaaS platforms in the post-cloud hyperscaler era are turning the multicloud mess into today’s biggest opportunity.",
-      "date": "2022-10-04",
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
+    }
+  ],
+  "realtime-data-sharing": [
+    {
+      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
+      "draft": false,
+      "title": "Obstacles to real-time data sharing",
+      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+      "date": "2022-09-27T00:00:00.000Z",
       "authors": [
-        "Tim Wagner"
+        "Vendia"
       ],
       "categories": [
-        "architecture",
-        "concepts"
+        "concepts",
+        "realtime-data-sharing"
       ],
-      "updatedBy": "David Wells",
-      "id": "18c7bc4d-b785-4ad4-8b49-a89a5563869a"
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-07-20-real-time-data-sharing-solution-elements",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "real-time data sharing"
+      ],
+      "seo": {
+        "title": "Obstacles to real-time data sharing",
+        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+        "keywords": "real-time data sharing"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T20:58:44.743Z",
+      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
     },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Data types 101: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-02-podcast-worlds-colliding",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Data types 101: Real-time data vs. analytical data",
+        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+        "keywords": "real-time data"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:11:45.041Z",
+      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
+    }
+  ],
+  "architecture": [
     {
       "file": "/posts/2022-09-26-blockchain-mortgage-services.md",
       "draft": false,
@@ -3454,85 +3561,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:53:54.828Z",
       "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01",
-      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
-    }
-  ],
-  "realtime-data-sharing": [
-    {
-      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
-      "draft": false,
-      "title": "Obstacles to real-time data sharing",
-      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
-      "date": "2022-09-27T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-07-20-real-time-data-sharing-solution-elements",
-        "2022-09-22-real-time-everything"
-      ],
-      "tags": [
-        "real-time data sharing"
-      ],
-      "seo": {
-        "title": "Obstacles to real-time data sharing",
-        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
-        "keywords": "real-time data sharing"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-12T20:58:44.743Z",
-      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "draft": false,
-      "title": "Data types 101: Real-time data vs. analytical data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-      "date": "2022-05-05T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-09-22-real-time-everything",
-        "2022-11-02-podcast-worlds-colliding",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Data types 101: Real-time data vs. analytical data",
-        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-        "keywords": "real-time data"
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:11:45.041Z",
-      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
     }
   ],
   "tutorials": [
