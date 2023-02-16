@@ -5,9 +5,10 @@ path: /homepage-hugues
 components:
   - type: Logos
     logos:
-      - BMW
       - Unfi
       - Resolution Life
+      - BMW
+      - Delta
       - Atos
       - Best Friends Animal Society
     theme: white
@@ -272,6 +273,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-16T16:06:56.278Z
+updatedAt: 2023-02-16T16:20:06.909Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
