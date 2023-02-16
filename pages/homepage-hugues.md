@@ -9,7 +9,6 @@ components:
       - Unfi
       - Resolution Life
       - Atos
-      - United
       - Best Friends Animal Society
     theme: white
   - type: Columns
@@ -77,10 +76,7 @@ components:
     theme: white
     intro:
       title: The trusted data cloud
-      text: Powered by cloud-native distributed ledger technology and built by cloud
-        experts, Vendia Share is a SaaS platform designed to securely share data
-        between partners. Ensure that the data you rely on is complete, correct,
-        up-to-date, governed, compliant, and auditable.
+      text: ""
     columns:
       - text: >-
           <img
@@ -118,7 +114,7 @@ components:
   - type: Columns
     theme: white
     intro:
-      title: Why Vendia
+      title: Why Vendia Share
       text: Vendia is the only trusted data cloud that combines a business blockchain,
         Smart APIs, and cloud databases in a single, unified SaaS platform.
     columns:
@@ -275,7 +271,7 @@ seo:
   noindex: false
 createdBy: ""
 createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-02-07T17:16:04.324Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-16T16:06:56.278Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
