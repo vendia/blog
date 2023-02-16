@@ -380,6 +380,42 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:12:47.627Z",
       "id": "4eb01820-fdce-4971-8a42-d567be720651"
+    },
+    {
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
+      "draft": false,
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+      "date": "2022-11-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-12-16-circles-of-trust-season-1-recap",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+        "keywords": "circles of trust, b2b data sharing"
+      },
+      "sidebarCta": [
+        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:15:43.546Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
     }
   ],
   "concepts": [
@@ -2508,95 +2544,6 @@
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     }
   ],
-  "podcast": [
-    {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "draft": false,
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-      "date": "2022-11-23T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-12-16-circles-of-trust-season-1-recap",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-        "keywords": "circles of trust, b2b data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z",
-      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
-    },
-    {
-      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
-      "draft": false,
-      "slug": "podcast-patient-experience-with-teeth",
-      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
-      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-      "date": "2022-11-16T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer"
-      ],
-      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "tweet": "Check out the latest episode of Circles of Trust",
-      "seo": {
-        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
-        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-        "keywords": "circles of trust"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-18T21:53:26.118Z",
-      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01",
-      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
-    }
-  ],
   "real-time-data-sharing": [
     {
       "file": "/posts/2022-11-21-shared-data-architecture.md",
@@ -2886,6 +2833,64 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-26T19:22:14.787Z",
       "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    }
+  ],
+  "podcast": [
+    {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-18T21:53:26.118Z",
+      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
     }
   ],
   "smart-apis": [
