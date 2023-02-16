@@ -20,10 +20,12 @@ seo:
   description: Supply chain visibility helps organizations make faster decisions
     with better outcomes. See how SCV data can add efficiency and better serve
     customers with insights from Vikrant Kahlir, Tech Lead.
+sidebarCta:
+  - 893c2969-3b41-4ac0-86d2-df2d90f6a103
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-16T19:43:00.998Z
+updatedAt: 2023-02-16T19:43:16.433Z
 id: af555eaf-8b9b-442e-a8c6-19135a2c897d
 ---
 
