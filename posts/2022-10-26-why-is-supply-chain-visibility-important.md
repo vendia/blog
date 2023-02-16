@@ -1,15 +1,30 @@
 ---
 draft: false
 title: "Why is supply chain visibility important? "
-description: "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
-date: "2022-10-26"
-categories:
-  - real-time-data-sharing
-  - blockchain
-  - data-alliance
+description: Supply chain visibility helps organizations make faster decisions
+  with better outcomes. See how SCV data can add efficiency and better serve
+  customers with insights from Vikrant Kahlir, Tech Lead.
+date: 2022-10-26
 authors:
   - Vikrant Kahlir
-id: 'af555eaf-8b9b-442e-a8c6-19135a2c897d'
+categories:
+  - concepts
+relatedPosts:
+  - 2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient
+  - 2023-01-03-how-to-improve-supply-chain-visibility
+  - 2021-01-25-supply-chain-visibility-with-vendia-share
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png
+seo:
+  title: Why is supply chain visibility important?
+  keywords: better supply chain visibility
+  description: Supply chain visibility helps organizations make faster decisions
+    with better outcomes. See how SCV data can add efficiency and better serve
+    customers with insights from Vikrant Kahlir, Tech Lead.
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:43:00.998Z
+id: af555eaf-8b9b-442e-a8c6-19135a2c897d
 ---
 
 20th century technology cannot fulfill the needs of the 21st century supply chain. Replacing paper-based systems with modern technology is only a part of the solution. The main drivers of innovation for growth and profitability lie in redrawing operating models, unlocking liquidity, and reducing friction for customers. 
@@ -183,5 +198,4 @@ A layer of governance powered by blockchain technology will allow business netwo
 
 Learn how Vendia Share provides you with a next-gen blockchain platform that is optimized to solve supply chain visibility challenges and unlock new, significant market value without putting an additional IT burden on your existing IT workforce to manage and operate it.
 
-[Get the eBook](https://www.vendia.com/resources/next-gen-blockchain), “Blockchain for a modern data strategy” or [request a demo](https://meetings.hubspot.com/tim-zonca/contact-an-expert). 
-
+[Get the eBook](https://www.vendia.com/resources/next-gen-blockchain), “Blockchain for a modern data strategy” or [request a demo](https://meetings.hubspot.com/tim-zonca/contact-an-expert).
