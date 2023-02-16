@@ -184,16 +184,14 @@ components:
   - type: MediaWithText
     mediaPosition: left
     text: >-
-      ## Eliminate costs. Accelerate innovation.
+      ## Automation lowers costs — quickly
 
 
-      Every Vendia customer eliminates costs associated with manual, error-prone reconciliation.
+      In a recent survey, we found a customer **93%** **reduction in costs** by automating reconciliation across multiple sources. \
 
+      \
 
-      Every Vendia customer reduces the costs of building, running, and maintaining complex data sharing systems.
-
-
-      Every customer delivers new innovation faster.
+      Even better? they saved **1.4 mm in the first year.**
 
 
       <Button kind="secondaryGhostPurple" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
@@ -273,6 +271,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-16T16:20:06.909Z
+updatedAt: 2023-02-16T16:26:24.392Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
