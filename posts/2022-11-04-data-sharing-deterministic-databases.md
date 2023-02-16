@@ -1,14 +1,32 @@
 ---
 draft: false
-title: "The future of data sharing with deterministic databases"
-description: "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing."
-date: "2022-11-04"
-categories:
-  - blockchain
-  - real-time-data-sharing
+title: The future of data sharing with deterministic databases
+description: Tim Wagner, the Father of Serverless and Vendia Co-founder,
+  explores how database and blockchain research are revolutionizing business
+  data sharing.
+date: 2022-11-04
 authors:
   - Tim Wagner
-id: '80436f0b-5ff3-43f6-ae0b-cd615b669b08'
+categories:
+  - thought-leadership
+relatedPosts:
+  - 2022-07-13-event-handlers-vs-smart-contracts
+  - 2022-04-04-smart-apis
+  - 2022-03-17-are-blockchains-databases
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
+seo:
+  keywords: "the future of data sharing, deterministic databases "
+  title: The future of data sharing with deterministic databases
+  description: Tim Wagner, the Father of Serverless and Vendia Co-founder,
+    explores how database and blockchain research are revolutionizing business
+    data sharing.
+sidebarCta:
+  - 893c2969-3b41-4ac0-86d2-df2d90f6a103
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T19:28:33.684Z
+id: 80436f0b-5ff3-43f6-ae0b-cd615b669b08
 ---
 
 From tapping a phone to pay for an Americano to coordinating global supply chain systems, data consistency across companies, clouds, geographies and applications is critical to every aspect of both B2C and B2B experiences. But, accurate data sharing has gone largely unaddressed despite advances in cloud technology:
@@ -100,4 +118,3 @@ Applying deterministic database technologies to these [blockchain](https://www.v
 Vendia helps you [build cross-cloud](https://www.vendia.com/blog/why-blockchains-databases-api-cannot-standalone-as-it-solutions), multi-account, multi-region, multi-party data and code sharing applications powered by a serverless distributed ledger technology. Every real-time data app you build with Vendia is highly scalable, fault tolerant by default, and possesses an ordered, replicated data model in the form of a distributed ledger. The platform includes serverless ledger and lineage capabilities to ensure data accuracy, provenance, traceability, and safety – all without the complexity of DIY blockchain implementations.
 
 **[Learn more](https://www.vendia.com/product) about our technology, and [contact us](https://meetings.hubspot.com/tim-zonca/contact-an-expert) to ask your questions or book a demo.**
-
