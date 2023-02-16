@@ -59,7 +59,7 @@ Yes, when you love what you do, business and pleasure are not mutually exclusive
 - We also make time for departmental breakout sessions. Whether you’re the marketing team planning for the next quarter or the dev team sorting CX and innovation sprints, it’s important to have time to drill down from the bigger business picture and drive focus and collaboration at the departmental level. 
 - Often, we’ll host what we call open breakout sessions, too. Leaders will define the session topics, and then Vendians across all departments are invited to sit in and listen, help brainstorm, absorb takeaways for their own team, etc. 
 
-<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpg" alt="Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, \"Automate and accelerate your data workflows across business networks\"" class="image-float-center" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..107442245..196542689-556792cb-d8a8-48a6-b122-b411825140d7.jpg" alt="Tim Wagner gives a presentation with Vendia's logo and the value proposition projected on the screen behind him; it reads, 'Automate and accelerate your data workflows across business networks'" class="image-float-center" />
 
 *Tim Wagner, Vendia Co-founder and CEO, presenting at our recent team event*
 
