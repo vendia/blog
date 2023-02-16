@@ -2,7 +2,7 @@
   "callToAction": [
     "ad9381ab-c314-4028-a7da-0dffdf31ae68"
   ],
-  "updatedAt": "2023-02-16T19:47:49.214Z",
+  "updatedAt": "2023-02-16T19:53:39.762Z",
   "updatedBy": "alexa-vendia",
   "sidebarCta": [
     "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
@@ -24,15 +24,14 @@
   ],
   "featuredPosts": [
     {
-      "posts": "How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing"
+      "posts": "Fintech innovation for housing and finance data ecosystems"
     },
     {
       "resources": "",
       "posts": "Vendia Share feature spotlight"
     },
     {
-      "resources": "",
-      "posts": "Distributed ledger challenges and solutions"
+      "posts": "Understanding API security with GraphQL"
     }
   ]
 }
