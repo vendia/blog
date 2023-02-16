@@ -3303,7 +3303,8 @@
         "Francine Klein"
       ],
       "categories": [
-        "product"
+        "product",
+        "concepts"
       ],
       "relatedPosts": [
         "2022-09-22-real-time-everything",
@@ -3312,7 +3313,7 @@
       ],
       "createdBy": "",
       "createdAt": "",
-      "updatedAt": "2023-02-14T21:58:45.076Z",
+      "updatedAt": "2023-02-16T19:14:46.948Z",
       "callToAction": [
         "What’s a business blockchain?"
       ],

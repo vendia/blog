@@ -347,6 +347,39 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T22:01:23.135Z",
       "id": "14e2faaa-7134-4f00-9a61-662719990ea4"
+    },
+    {
+      "file": "/posts/2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient.md",
+      "draft": false,
+      "slug": "how-blockchain-makes-supply-chains-predictable",
+      "title": "How blockchain can make global supply chains more predictable and efficient",
+      "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility.",
+      "date": "2022-12-01T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-05-13-green-blockchain-intro",
+        "2022-03-17-are-blockchains-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500629/Website/Iso/Blockchain_rmmdjm.png",
+      "seo": {
+        "title": "How blockchain can make global supply chains more predictable and efficient",
+        "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility.",
+        "keywords": "global supply chain agility"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:12:47.627Z",
+      "id": "4eb01820-fdce-4971-8a42-d567be720651"
     }
   ],
   "concepts": [
@@ -427,6 +460,77 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:39:12.072Z",
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
+    },
+    {
+      "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
+      "draft": false,
+      "title": "5 patterns for successful data traceability",
+      "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
+      "date": "2022-12-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "Francine Klein"
+      ],
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-11-29-shared-data-architecture-patterns"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedAt": "2023-02-16T19:14:46.948Z",
+      "callToAction": [
+        "What’s a business blockchain?"
+      ],
+      "tags": [
+        "Healthcare, data traceability, distributed ledger technology, data lineage"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Given the challenges companies face in developing and maintaining a successful data traceability program, here are five design patterns CIOs, CISOs, and CTOs can follow to ensure their corporate systems and mission-critical data are well protected.",
+        "keywords": "data traceability, data lineage",
+        "title": "5 patterns for successful data traceability"
+      },
+      "updatedBy": "alexa-vendia",
+      "id": "9a171a65-97f7-42fc-aa3a-ae296d442f05"
+    },
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:14:16.761Z",
+      "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
     },
     {
       "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
@@ -1588,32 +1692,6 @@
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     },
     {
-      "file": "/posts/2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient.md",
-      "draft": false,
-      "slug": "how-blockchain-makes-supply-chains-predictable",
-      "title": "How blockchain can make global supply chains more predictable and efficient",
-      "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility.",
-      "date": "2022-12-01T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-05-13-green-blockchain-intro",
-        "2022-03-17-are-blockchains-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains"
-      ],
-      "seo": {
-        "title": "How blockchain can make global supply chains more predictable and efficient",
-        "description": "In the face of supply chain shortages and data breakdowns, next-gen blockchain is emerging as a smart way to decentralize multi-party data sharing with full, yet finely grained, end-to-end visibility."
-      },
-      "updatedBy": "David Wells",
-      "updatedAt": "2022-12-02T20:22:13.068Z",
-      "id": "4eb01820-fdce-4971-8a42-d567be720651"
-    },
-    {
       "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
       "draft": false,
       "title": "The future of data sharing with deterministic databases",
@@ -1889,7 +1967,8 @@
         "Francine Klein"
       ],
       "categories": [
-        "product"
+        "product",
+        "concepts"
       ],
       "relatedPosts": [
         "2022-09-22-real-time-everything",
@@ -1898,7 +1977,7 @@
       ],
       "createdBy": "",
       "createdAt": "",
-      "updatedAt": "2023-02-14T21:58:45.076Z",
+      "updatedAt": "2023-02-16T19:14:46.948Z",
       "callToAction": [
         "What’s a business blockchain?"
       ],
@@ -1949,6 +2028,40 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T22:33:40.669Z",
       "id": "77c1b28f-788c-45a5-8152-443dcb7fda93"
+    },
+    {
+      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "draft": false,
+      "slug": "shared-data-architecture-patterns",
+      "title": "Shared data architecture patterns",
+      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+      "date": "2022-11-29T00:00:00.000Z",
+      "authors": [
+        "Li Dai"
+      ],
+      "categories": [
+        "concepts",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-02-01-decentralization"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "seo": {
+        "title": "Shared data architecture patterns",
+        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
+        "keywords": "shared data architecture"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:14:16.761Z",
+      "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
     },
     {
       "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
@@ -2395,37 +2508,504 @@
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     }
   ],
-  "architecture": [
+  "podcast": [
     {
-      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
       "draft": false,
-      "slug": "shared-data-architecture-patterns",
-      "title": "Shared data architecture patterns",
-      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-      "date": "2022-11-29T00:00:00.000Z",
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+      "date": "2022-11-23T00:00:00.000Z",
       "authors": [
-        "Li Dai"
+        "Vendia"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-12-16-circles-of-trust-season-1-recap",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+        "keywords": "circles of trust, b2b data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-16T21:36:05.197Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
+    },
+    {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "categories": [
+        "podcast"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-18T21:53:26.118Z",
+      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "categories": [
+        "podcast"
+      ],
+      "date": "2022-10-01",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
+    }
+  ],
+  "real-time-data-sharing": [
+    {
+      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "draft": false,
+      "title": "Understanding shared data architecture",
+      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+      "date": "2022-11-21",
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
+    },
+    {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-11-15T17:44:24.221Z",
+      "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
+    },
+    {
+      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
+      "draft": false,
+      "title": "The future of data sharing with deterministic databases",
+      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
+      "date": "2022-11-04",
+      "categories": [
+        "blockchain",
+        "real-time-data-sharing"
+      ],
+      "authors": [
+        "Tim Wagner"
+      ],
+      "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "draft": false,
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-08-15-data-lakes-file-sharing-use-cases",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:51:55.009Z",
+      "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "real-time-data-sharing",
+        "blockchain",
+        "data-alliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
       ],
       "categories": [
         "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z",
+      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
         "real-time-data-sharing",
         "data-alliance"
       ],
       "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-02-01-decentralization"
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
       ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
       "seo": {
-        "title": "Shared data architecture patterns",
-        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-        "keywords": "shared data architecture"
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
       },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z",
-      "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
     },
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "guidance",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering, SQL, event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z",
+      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
+    }
+  ],
+  "data-alliance": [
+    {
+      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "draft": false,
+      "title": "Understanding shared data architecture",
+      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+      "date": "2022-11-21",
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
+    },
+    {
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
+      "draft": false,
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02",
+      "categories": [
+        "podcast",
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "authors": [
+        "Alexa Johnson"
+      ],
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26",
+      "categories": [
+        "real-time-data-sharing",
+        "blockchain",
+        "data-alliance"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM, API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    }
+  ],
+  "smart-apis": [
+    {
+      "file": "/posts/2022-10-27-codeless-apis.md",
+      "draft": false,
+      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
+      "date": "2022-10-27T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-08-15-data-lakes-file-sharing-use-cases",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
+        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:51:55.009Z",
+      "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
+    },
+    {
+      "file": "/posts/2022-10-21-api-security-graphql.md",
+      "draft": false,
+      "title": "Understanding API security with GraphQL",
+      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
+      "date": "2022-10-21T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "smart-apis"
+      ],
+      "relatedPosts": [
+        "2022-05-27-apis-for-data",
+        "2021-05-10-dont-rip-and-replace-integrate",
+        "2022-09-15-api-design-best-practices"
+      ],
+      "tags": [
+        "security"
+      ],
+      "seo": {
+        "title": "Understanding API security with GraphQL",
+        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:45:47.542Z",
+      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
+    },
+    {
+      "file": "/posts/2022-09-15-api-design-best-practices.md",
+      "draft": false,
+      "title": "API design best practices",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+      "date": "2022-09-15T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "smart-apis",
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2022-10-27-codeless-apis",
+        "2022-08-26-crud-new-rules-for-apis",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "tags": [
+        "data modeling, security, best practices"
+      ],
+      "seo": {
+        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+        "title": "API design best practices",
+        "keywords": "API design best practices"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:48:44.323Z",
+      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z",
+      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
+    }
+  ],
+  "architecture": [
     {
       "file": "/posts/2022-10-04-no-more-multicloud.md",
       "draft": false,
@@ -2749,563 +3329,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:53:54.828Z",
       "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
-    }
-  ],
-  "real-time-data-sharing": [
-    {
-      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
-      "draft": false,
-      "slug": "shared-data-architecture-patterns",
-      "title": "Shared data architecture patterns",
-      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-      "date": "2022-11-29T00:00:00.000Z",
-      "authors": [
-        "Li Dai"
-      ],
-      "categories": [
-        "architecture",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-02-01-decentralization"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
-      "seo": {
-        "title": "Shared data architecture patterns",
-        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-        "keywords": "shared data architecture"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z",
-      "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
-    },
-    {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
-      "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21",
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
-    },
-    {
-      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
-      "draft": false,
-      "slug": "real-time-data-sharing-challenges",
-      "title": "Real-time data sharing challenges (and solutions)",
-      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "James Gimourginas"
-      ],
-      "categories": [
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-09-22-real-time-everything"
-      ],
-      "tweet": "Check out Vendia's real-time data sharing mega guide!",
-      "seo": {
-        "title": "Real-time data sharing challenges (and solutions)",
-        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-        "keywords": "real-time data, real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-15T17:44:24.221Z",
-      "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
-    },
-    {
-      "file": "/posts/2022-11-04-data-sharing-deterministic-databases.md",
-      "draft": false,
-      "title": "The future of data sharing with deterministic databases",
-      "description": "Tim Wagner, the Father of Serverless and Vendia Co-founder explores how database and blockchain research are revolutionizing business data sharing.",
-      "date": "2022-11-04",
-      "categories": [
-        "blockchain",
-        "real-time-data-sharing"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ],
-      "id": "80436f0b-5ff3-43f6-ae0b-cd615b669b08"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "draft": false,
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-08-15-data-lakes-file-sharing-use-cases",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z",
-      "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z",
-      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM, API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    },
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "How tools impact products for real-time, multi-party data sharing",
-      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-      "date": "2020-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "guidance",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-10-whats-new-indices"
-      ],
-      "tags": [
-        "engineering, SQL, event"
-      ],
-      "seo": {
-        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-        "title": "How tools impact products for real-time, multi-party data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z",
-      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
-    }
-  ],
-  "data-alliance": [
-    {
-      "file": "/posts/2022-11-29-shared-data-architecture-patterns.md",
-      "draft": false,
-      "slug": "shared-data-architecture-patterns",
-      "title": "Shared data architecture patterns",
-      "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-      "date": "2022-11-29T00:00:00.000Z",
-      "authors": [
-        "Li Dai"
-      ],
-      "categories": [
-        "architecture",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2021-01-29-getting-started-with-vendia-share",
-        "2021-02-01-decentralization"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_2_xtlhgk.png",
-      "seo": {
-        "title": "Shared data architecture patterns",
-        "description": "Organizing shared data to gain new insights and maximize resources starts with the right blockchain-based solution. Learn how to choose the most compatible architecture for your company’s needs.",
-        "keywords": "shared data architecture"
-      },
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2022-12-01T19:22:33.839Z",
-      "id": "eebe1b77-1b29-41df-8a6c-03a2ee199d4d"
-    },
-    {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
-      "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21",
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26",
-      "categories": [
-        "real-time-data-sharing",
-        "blockchain",
-        "data-alliance"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM, API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    }
-  ],
-  "podcast": [
-    {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "draft": false,
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-      "date": "2022-11-23T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-12-16-circles-of-trust-season-1-recap",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-        "keywords": "circles of trust, b2b data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-16T21:36:05.197Z",
-      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
-    },
-    {
-      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
-      "draft": false,
-      "slug": "podcast-patient-experience-with-teeth",
-      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
-      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-      "date": "2022-11-16T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "podcast"
-      ],
-      "relatedPosts": [
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer"
-      ],
-      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "tweet": "Check out the latest episode of Circles of Trust",
-      "seo": {
-        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
-        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-        "keywords": "circles of trust"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-11-18T21:53:26.118Z",
-      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02",
-      "categories": [
-        "podcast",
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities (transcript)",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "categories": [
-        "podcast"
-      ],
-      "date": "2022-10-01",
-      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
-    }
-  ],
-  "smart-apis": [
-    {
-      "file": "/posts/2022-10-27-codeless-apis.md",
-      "draft": false,
-      "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-      "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance.",
-      "date": "2022-10-27T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-08-15-data-lakes-file-sharing-use-cases",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
-        "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z",
-      "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
-    },
-    {
-      "file": "/posts/2022-10-21-api-security-graphql.md",
-      "draft": false,
-      "title": "Understanding API security with GraphQL",
-      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
-      "date": "2022-10-21T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "smart-apis"
-      ],
-      "relatedPosts": [
-        "2022-05-27-apis-for-data",
-        "2021-05-10-dont-rip-and-replace-integrate",
-        "2022-09-15-api-design-best-practices"
-      ],
-      "tags": [
-        "security"
-      ],
-      "seo": {
-        "title": "Understanding API security with GraphQL",
-        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:45:47.542Z",
-      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
-    },
-    {
-      "file": "/posts/2022-09-15-api-design-best-practices.md",
-      "draft": false,
-      "title": "API design best practices",
-      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-      "date": "2022-09-15T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "smart-apis",
-        "guidance"
-      ],
-      "relatedPosts": [
-        "2022-10-27-codeless-apis",
-        "2022-08-26-crud-new-rules-for-apis",
-        "2021-02-17-multiregion-serverless-apps"
-      ],
-      "tags": [
-        "data modeling, security, best practices"
-      ],
-      "seo": {
-        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-        "title": "API design best practices",
-        "keywords": "API design best practices"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:48:44.323Z",
-      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z",
-      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
     }
   ],
   "realtime-data-sharing": [
