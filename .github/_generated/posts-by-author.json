@@ -1549,6 +1549,35 @@
       "id": "b7cb373b-5ee2-49a7-9177-a935993c47c9"
     },
     {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "date": "2022-10-01T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-23-connecting-pets-humans"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "The great equalizer: How data sharing can help communities overcome social inequities",
+        "keywords": "b2b data sharing",
+        "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:24:05.633Z",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
+    },
+    {
       "file": "/posts/2022-09-27-data-sharing-obstacles.md",
       "draft": false,
       "title": "Obstacles to real-time data sharing",
