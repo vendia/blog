@@ -1,16 +1,35 @@
 ---
 draft: false
-title: 'Your Customer 360 solution isn’t really 360'
-description: 'Senior Solutions Architect Francine Klein explains why months-long data initiatives intent upon a Customer 360 solution fail and shares what you can do about it. (Hint: Forget Salesforce)'
-date: '2022-10-14'
-categories:
-- concepts
-- product
+title: Your Customer 360 solution isn’t really 360
+description: "Senior Solutions Architect Francine Klein explains why months-long
+  data initiatives intent upon a Customer 360 solution fail and shares what you
+  can do about it. (Hint: Forget Salesforce)"
+date: 2022-10-14
 authors:
   - Francine Klein
-id: '5068291c-4eba-49dd-b506-87586f398101'
+categories:
+  - concepts
+  - product
+  - thought-leadership
+relatedPosts:
+  - 2022-08-15-data-lakes-file-sharing-use-cases
+  - 2022-09-26-blockchain-mortgage-services
+  - 2022-06-29-webcast-highlights-the-future-of-crm-data-sharing
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599463/Website/Iso/CRM_uo10ew.png
+seo:
+  title: Your Customer 360 solution isn’t really 360
+  keywords: CRM data sharing, customer 360, alternatives to Salesforce
+  description: "Senior Solutions Architect Francine Klein explains why months-long
+    data initiatives intent upon a Customer 360 solution fail and shares what
+    you can do about it. (Hint: Forget Salesforce)"
+sidebarCta:
+  - 229db631-6026-4284-8327-a8f2bb2fb98c
+createdBy: ""
+createdAt: ""
+updatedBy: alexa-vendia
+updatedAt: 2023-02-16T20:00:47.371Z
+id: 5068291c-4eba-49dd-b506-87586f398101
 ---
-
 
 ### What is Customer 360?
 
@@ -20,10 +39,9 @@ We can’t help ourselves — here’s our rendition (see Figure 1):
 
 **Figure 1: Customer 360 Wheel of all Stages**
 
-![Customer 360 Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303087-2f926f8a-fd40-422e-883c-2deadbd2d9cb.png "Critical stages of a customer's complete journey")
+![Customer 360 Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303087-2f926f8a-fd40-422e-883c-2deadbd2d9cb.png)
 
 <br/>
-
 
 It’s 360 because it covers a full circle, all 360 degrees.
 
@@ -31,11 +49,12 @@ Each stage involves a series of actions, updating various data entities, enabled
 
 **Figure 2: Customer 360 Wheel of all Stages, Actions, Data Entities, and Systems**
 
-![Customer 360 Wheel Detail](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303105-a3817402-ea14-4bc3-bb16-20a6dee2d987.png "Key actions that occur at each Customer 360 Stage, including the relevant data entities and supporting systems")
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303105-a3817402-ea14-4bc3-bb16-20a6dee2d987.png" alt="Customer 360 Wheel Detail" class="image-float-center" />
 
 <br/>
 
 The stages may differ depending on the product. For example, a consumer good product has order processing and shipping, while a SaaS product has configuration, go-live, and usage. But, generally, it’s the same theme across them all:
+
 1. Market prospective customers
 2. Acquire the customer 
 3. Engage and Support the customer
@@ -47,35 +66,36 @@ And, round and round the wheel it goes.
 Great, we’ve established the concept. But what is Customer 360, really?
 
 Customer 360° is when companies want visibility into all stages and channels in which their customers may interface with their business. It enables invaluable benefits like these:
-* Understanding behaviors to identify patterns and better market products/solutions
-* Insight into booking to revenue recognition
-* Usage pattern analysis linked with support activity for early risk indicators to reduce attrition
-* Personalized customer support based on a history of cases, buying history, and product usage (and personalization is increasingly [a business necessity](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying))
-* Operational visibility in the quote-to-cash lifecycle for both accuracy of deal tracking and enablement of revenue forecasting
+
+- Understanding behaviors to identify patterns and better market products/solutions
+- Insight into booking to revenue recognition
+- Usage pattern analysis linked with support activity for early risk indicators to reduce attrition
+- Personalized customer support based on a history of cases, buying history, and product usage (and personalization is increasingly [a business necessity](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-value-of-getting-personalization-right-or-wrong-is-multiplying))
+- Operational visibility in the quote-to-cash lifecycle for both accuracy of deal tracking and enablement of revenue forecasting
 
 Companies spin up multi-year data initiatives to light up these insights. These initiatives may not always be called “Customer 360°.” They can focus on aspects of the solution (data taxonomy) or specific tools (CRM applications), but they all have common themes.
 
 Let’s unpack a few and see why they’re cousins to Customer 360.
 
-
 #### Master Data Management (MDM)
 
 Master data management is, well, the art of mastering your data to create a “master” record. To not rehash the wealth of information around [MDM](https://en.wikipedia.org/wiki/Master_data_management) and the value-proposition already established by the leading MDM providers, we’re going to hone-in on a few key features these solutions offer:
-* Linking an entity (ex. a customer ID) across all systems 
-* Control of which system or team can create entities and edit certain attributes
-* Visibility into attribute change history 
-* Deduplication to create a single golden record
-* Agreed upon version for any entity and associated attribute (no conflicting information)
+
+- Linking an entity (ex. a customer ID) across all systems 
+- Control of which system or team can create entities and edit certain attributes
+- Visibility into attribute change history 
+- Deduplication to create a single golden record
+- Agreed upon version for any entity and associated attribute (no conflicting information)
 
 You may hear some dialogue around the [end of MDM initiatives](https://medium.com/@lochan.narvekar/is-mdm-master-data-management-dead-9c248c82c9ae), but they haven’t really ended; they’ve just rebranded. The core of the initiatives lives on to accomplish the following:
-* Link Data (identifier lineage)
-* Know data (critical attributes)
-* Clean Data (deduplicate and reconcile)
-* Control Data (attribute categorization and ownership)
-* Use Data (availability for operational processes)
+
+- Link Data (identifier lineage)
+- Know data (critical attributes)
+- Clean Data (deduplicate and reconcile)
+- Control Data (attribute categorization and ownership)
+- Use Data (availability for operational processes)
 
 And these core capabilities may live across varying tools like those for cataloging data, governing data, or developing a customer data platform.
-
 
 #### Data Governance
 
@@ -84,7 +104,6 @@ And these core capabilities may live across varying tools like those for catalog
 More feature-rich solutions add layers of security policies and audit history on usage of data assets. Some solutions maintain data privacy requirements (ex. data retention or GDPR compliance) while others present a data lineage of all systems in which an attribute can be defined. Almost all data governance solutions include a ledger of data changes and control who can see or edit data.
 
 In short, it’s mission is quality, security, reliability, and auditability of data. Data governance is a critical component of any master data management solution. 
-
 
 #### Customer Data Platform (CDP)
 
@@ -96,25 +115,26 @@ However, CDPs are not the full 360° view. CDPs are notorious for focusing on ma
 
 **Figure 3: Customer 360 Wheel Only Partially Visible with CDP Solutions**
 
-![Customer 360 Top-Left Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303129-57659044-708a-4aae-a540-169a193f49a2.png)
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303129-57659044-708a-4aae-a540-169a193f49a2.png" alt="Customer 360 Top-Left Wheel" class="image-float-center" />
 
 <br/>
 
 Key features of these solutions include: 
-* Matching (deduplicating) customers across data streams from each connected business application
-* Tagging key categorization attributes based on common characteristics 
-* Generating a golden ID to link customer activity together
+
+- Matching (deduplicating) customers across data streams from each connected business application
+- Tagging key categorization attributes based on common characteristics 
+- Generating a golden ID to link customer activity together
 
 Sound familiar?
-
 
 #### Salesforce
 
 One particular solution has taken Customer 360 by storm: Salesforce. Any discussion of Customer 360 would be incomplete without unpacking how they play into this space.
 
 In case you haven’t heard, [Salesforce](https://www.salesforce.com/) is a business operations application focused on Customer Relationship Management (CRM) and Case Management, covering:
-* Marketing campaign response, email and meeting tracking, sales pipeline and deal wins (the top-left of the wheel) 
-* Support case and issue resolution tracking (the middle-right of the wheel) 
+
+- Marketing campaign response, email and meeting tracking, sales pipeline and deal wins (the top-left of the wheel) 
+- Support case and issue resolution tracking (the middle-right of the wheel) 
 
 Salesforce is a great fit for connecting sales and support aspects of the customer journey because of its scalable and standardized data model. This data model normalizes the concept of Accounts (companies), Contacts (people), and related activities of Campaigns, Leads, Opportunities, Cases. These core entities meet the majority of business’ needs for the top-right and middle of the wheel. 
 
@@ -126,18 +146,17 @@ While Salesforce is expanding their product offerings to get data more effective
 
 By consolidating data into a single tool, it solves the need for identifying a golden record, reconciling attributes, and generating a linking identifier, but only for a subset of the Customer 360 wheel. 
 
-
 #### Analytics 360
 
 [Data warehouse](https://www.vendia.com/blog/blockchains-vs-cloud-and-it) solutions will look to generate insights on aspects of the Customer 360 wheel, narrowing in on specific questions. For example, “What percentage of revenue has been recognized for deals that closed in the last quarter?”
 
 However, to accomplish this, analytics ETL/ELT logic must include the following aspects as a prerequisite to insight-generating logic:
-* Data deduplication and mapping of identifiers 
-* Attribute reconciliation across systems
-* Managing conflicting definitions or multiple version of the truth
+
+- Data deduplication and mapping of identifiers 
+- Attribute reconciliation across systems
+- Managing conflicting definitions or multiple version of the truth
 
 You see the pattern here: Every solution has the same characteristics for defining identifiers, deduplication, and attribution tracking; each are wrappers around simply wrangling messy data for a single, trusted version of truth for information.
-
 
 ### What keeps going wrong?
 
@@ -158,17 +177,15 @@ But, it’s not your fault. The lack of Customer 360 is the nature of growing co
 Basically, the data within a company becomes no different than [our junk drawers](https://www.vendia.com/blog/understanding-real-time-data-lakes) — hard to navigate unless you know exactly what you’re looking for.
 
 There are two key reasons Customer 360 is often more like Customer 45:
+
 1. Business departments operate in silos and need to quickly scale without interfacing, procedurally or technically, with upstream and downstream teams or applications. 
 
-    For example, a success team may lack visibility into a customer’s interactions with the website and their product usage changes without manually identifying how each customer is represented in both the system that tracks website views and the system that tracks product usage.
-
+   For example, a success team may lack visibility into a customer’s interactions with the website and their product usage changes without manually identifying how each customer is represented in both the system that tracks website views and the system that tracks product usage.
 2. Companies can grow through mergers and acquisitions, and with those, add instant complexity to the enterprise technical landscape with no linking of data across the two disparate sets of business applications. 
 
-    For example, a customer may be duplicated in both subsidiary’s respective CRMs, but no systematic knowledge of such duplication exists
-
+   For example, a customer may be duplicated in both subsidiary’s respective CRMs, but no systematic knowledge of such duplication exists
 
 However, with a data strategy and the right tooling that empowers the people and processes, Customer 360 (all of its degrees) is within reach.
-
 
 ## How can it be successful?
 
@@ -185,20 +202,22 @@ With [Vendia](https://www.vendia.com/blog/venn-diagramming-vendia-share), it’s
 All that’s needed is to invite one (or many!) partner(s) to own a [node](https://www.vendia.com/docs/share/terms-and-definitions). Data can be shared, real-time, across partners and [across clouds](https://www.vendia.com/blog/azure-eventing). 
 
 With Vendia, not only can you share your data, but you can: 
-* Control what you share, including only a subset of information 
-* Allow partners to share data back with you, directly on that same golden record, without the need to build _additional_ layers of integration and reconciliation across _each_ data set within _each_ business applications
-* View an immutable history of any changes made to any attribute by any party
+
+- Control what you share, including only a subset of information 
+- Allow partners to share data back with you, directly on that same golden record, without the need to build *additional* layers of integration and reconciliation across *each* data set within *each* business applications
+- View an immutable history of any changes made to any attribute by any party
 
 With Vendia, you no longer need to:
-* Reconcile the spider-web of integrations across business applications
-* Add in multiple data wrangling tools for managing, governing, combining data
-* Manage APIs for each point-to-point integration and keep them current with evolving schemas
 
-The walled gardens around data silos, both among departments and now among companies, begin to vanish. Not only can you have a complete view of _your_ Customer, you can have a more complete view of what is actually _your_ Customer and _your partners’_ Customer. (see Figure 5) 
+- Reconcile the spider-web of integrations across business applications
+- Add in multiple data wrangling tools for managing, governing, combining data
+- Manage APIs for each point-to-point integration and keep them current with evolving schemas
+
+The walled gardens around data silos, both among departments and now among companies, begin to vanish. Not only can you have a complete view of *your* Customer, you can have a more complete view of what is actually *your* Customer and *your partners’* Customer. (see Figure 5) 
 
 **Figure 5: Customer 360 Wheel Linked with a Partner's Customer 360 Wheel**
 
-![Customer 360 Partner Wheel](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303143-0d97df23-72f9-4245-9097-330d4daf5999.png)
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..105127677..196303143-0d97df23-72f9-4245-9097-330d4daf5999.png" alt="Customer 360 Partner Wheel" class="image-float-center" />
 
 <br/>
 
