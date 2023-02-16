@@ -10,6 +10,7 @@ authors:
   - Vendia
 categories:
   - company
+  - thought-leadership
 relatedPosts:
   - 2020-07-01-meet-vendias-founders
   - 2022-04-01-private-vs-public-blockchains
@@ -30,10 +31,11 @@ seo:
 
     In this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.
 
+  keywords: real-time data sharing solutions
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-08T23:46:23.669Z
+updatedAt: 2023-02-16T19:55:26.507Z
 id: c0cf2402-204b-44c5-801c-dab2a69dacfd
 ---
 
