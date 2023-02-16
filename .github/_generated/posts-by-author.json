@@ -350,20 +350,26 @@
         "Tim Wagner"
       ],
       "categories": [
-        "smart-apis",
-        "real-time-data-sharing"
+        "product",
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
         "2022-08-15-data-lakes-file-sharing-use-cases",
         "2021-09-01-sharing-data-with-fine-grained-control"
       ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599129/Website/Iso/Build_apps_rrf6c2.png",
       "seo": {
         "title": "Codeless APIs: Why generating APIs from data models makes application development easier and safer",
         "description": "Learn how codeless APIs free up teams from relentless grunt work and makes it easy, safe, and secure to share critical business data in your data alliance."
       },
+      "sidebarCta": [
+        "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
+      ],
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:51:55.009Z",
+      "updatedAt": "2023-02-16T19:40:40.061Z",
       "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
     },
     {
