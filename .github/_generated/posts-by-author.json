@@ -2289,8 +2289,8 @@
         "James Gimourginas"
       ],
       "categories": [
-        "concepts",
-        "smart-apis"
+        "product",
+        "concepts"
       ],
       "relatedPosts": [
         "2022-05-27-apis-for-data",
@@ -2300,12 +2300,15 @@
       "tags": [
         "security"
       ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png",
       "seo": {
         "title": "Understanding API security with GraphQL",
         "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
       },
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:45:47.542Z",
+      "updatedAt": "2023-02-16T19:44:52.110Z",
       "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
     },
     {

@@ -903,8 +903,8 @@
         "James Gimourginas"
       ],
       "categories": [
-        "concepts",
-        "smart-apis"
+        "product",
+        "concepts"
       ],
       "relatedPosts": [
         "2022-05-27-apis-for-data",
@@ -914,12 +914,15 @@
       "tags": [
         "security"
       ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png",
       "seo": {
         "title": "Understanding API security with GraphQL",
         "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
       },
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:45:47.542Z",
+      "updatedAt": "2023-02-16T19:44:52.110Z",
       "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
     },
     {
@@ -2431,6 +2434,38 @@
       "id": "6aff4695-eb94-4e62-98af-ec9c56d24fac"
     },
     {
+      "file": "/posts/2022-10-21-api-security-graphql.md",
+      "draft": false,
+      "title": "Understanding API security with GraphQL",
+      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
+      "date": "2022-10-21T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-05-27-apis-for-data",
+        "2021-05-10-dont-rip-and-replace-integrate",
+        "2022-09-15-api-design-best-practices"
+      ],
+      "tags": [
+        "security"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png",
+      "seo": {
+        "title": "Understanding API security with GraphQL",
+        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:44:52.110Z",
+      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
+    },
+    {
       "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
       "draft": false,
       "title": "Guide to real-time data sharing vendor types",
@@ -2873,97 +2908,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T19:12:29.677Z",
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
-    }
-  ],
-  "smart-apis": [
-    {
-      "file": "/posts/2022-10-21-api-security-graphql.md",
-      "draft": false,
-      "title": "Understanding API security with GraphQL",
-      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
-      "date": "2022-10-21T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "smart-apis"
-      ],
-      "relatedPosts": [
-        "2022-05-27-apis-for-data",
-        "2021-05-10-dont-rip-and-replace-integrate",
-        "2022-09-15-api-design-best-practices"
-      ],
-      "tags": [
-        "security"
-      ],
-      "seo": {
-        "title": "Understanding API security with GraphQL",
-        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:45:47.542Z",
-      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
-    },
-    {
-      "file": "/posts/2022-09-15-api-design-best-practices.md",
-      "draft": false,
-      "title": "API design best practices",
-      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-      "date": "2022-09-15T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "smart-apis",
-        "guidance"
-      ],
-      "relatedPosts": [
-        "2022-10-27-codeless-apis",
-        "2022-08-26-crud-new-rules-for-apis",
-        "2021-02-17-multiregion-serverless-apps"
-      ],
-      "tags": [
-        "data modeling, security, best practices"
-      ],
-      "seo": {
-        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-        "title": "API design best practices",
-        "keywords": "API design best practices"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:48:44.323Z",
-      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
-    },
-    {
-      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
-      "draft": false,
-      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-      "date": "2022-07-29T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "architecture",
-        "blockchain",
-        "smart-apis",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-08-09-venn-diagramming-vendia-share",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "seo": {
-        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
-        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
-        "keywords": "real-time data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:59:43.875Z",
-      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
     }
   ],
   "architecture": [
@@ -3490,6 +3434,68 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-07T20:58:44.416Z",
       "id": "7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0"
+    }
+  ],
+  "smart-apis": [
+    {
+      "file": "/posts/2022-09-15-api-design-best-practices.md",
+      "draft": false,
+      "title": "API design best practices",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+      "date": "2022-09-15T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "smart-apis",
+        "guidance"
+      ],
+      "relatedPosts": [
+        "2022-10-27-codeless-apis",
+        "2022-08-26-crud-new-rules-for-apis",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "tags": [
+        "data modeling, security, best practices"
+      ],
+      "seo": {
+        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+        "title": "API design best practices",
+        "keywords": "API design best practices"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:48:44.323Z",
+      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
+    },
+    {
+      "file": "/posts/2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions.md",
+      "draft": false,
+      "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+      "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+      "date": "2022-07-29T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "architecture",
+        "blockchain",
+        "smart-apis",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-08-09-venn-diagramming-vendia-share",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "seo": {
+        "title": "Why blockchains, databases, and APIs can’t cut it on their own",
+        "description": "Tim Wagner, the Father of Serverless and Vendia cofounder, explains why legacy technology makes sharing real-time data across apps, companies, clouds, geographies, and stacks difficult and expensive.",
+        "keywords": "real-time data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:59:43.875Z",
+      "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
     }
   ],
   "guidance": [
