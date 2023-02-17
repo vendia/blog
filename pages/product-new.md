@@ -97,30 +97,44 @@ components:
     theme: white
     intro:
       title: Integrations
-      text: Integrate across your operational and analytical data stack
-  - type: Columns
+      text: Integrate across your data stack
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ### Go beyond data sharing — share code with Vendia Share
+
+
+      Leverage existing workflows that automate compliance, transactions, event handling, and more. 
+
+
+      Vendia Share’s GraphQL API makes it easy to connect with customer applications and datastores, on prem and in any cloud.
     theme: white
-    intro:
-      title: Share code — not just data
-    columns:
-      - text: >-
-          **Existing workflows**
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669912270/blockchain_jqtj4r.webp
+  - type: Text
+    text: >-
+      ## Getting started
 
 
-          Leverage existing workflows that automate compliance, transactions, event handling, and more.
-      - text: >-
-          <img src=""  class="image-float-center" width="100" />
+      Vendia’s platform eliminates the need for DIY API creation and underlying infrastructure design, provisioning, and management.
 
 
-          **Custom applications**
+      All you need is a JSON schema – Vendia does the rest.   
 
 
-          Vendia Share’s GraphQL API makes it easy to connect with customer applications and datastores, on-prem and in any cloud.
+      Vendia Share compiles that schema into serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.
+
+
+      <Button kind="primary" label="Get free trial" href="https://share.vendia.net/" />
+
+
+      <Button kind="tertiary" label="Check out our quick starts" href="https://www.vendia.com/docs/share/quickstart" />
+    theme: white
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T19:58:31.555Z
+updatedAt: 2023-02-17T20:57:02.426Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
