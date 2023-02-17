@@ -34,7 +34,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676598493/Website/Icons/Tech_48_omr85u.png"  class="image-float-center"
-          height="75" />
+          width="50" height="50" />
 
 
           **Next-gen blockchain, cloud scale**
@@ -47,7 +47,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"  class="image-float-center"
-          height="75" />
+          width="50" height="50" />
 
 
           **Smart APIs**
@@ -60,7 +60,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-center"
-          height="77" />
+          width="50" height="50" />
 
 
           **Storage across clouds**
@@ -73,7 +73,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676598852/Website/Icons/Enterprise_Buildings_rq2o39.png"  class="image-float-center"
-          height="75" />
+          width="50" height="50" />
 
 
           **Enterprise-grade, as a service**
@@ -88,6 +88,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T01:57:20.766Z
+updatedAt: 2023-02-17T01:58:18.112Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
