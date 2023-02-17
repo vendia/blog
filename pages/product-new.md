@@ -33,8 +33,8 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-center"
-          width="75" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1676598493/Website/Icons/Tech_48_omr85u.png"  class="image-float-center"
+          height="75" />
 
 
           **Next-gen blockchain, cloud scale**
@@ -47,7 +47,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"  class="image-float-left"
-          width="75" />
+          height="75" />
 
 
           **Smart APIs**
@@ -57,11 +57,37 @@ components:
 
 
           What are Smart APIs?
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-left"
+          height="77" />
+
+
+          **Storage across clouds**
+
+
+          Enhance the unlimited long-term data storage and easy queryability of a conventional centralized database with storage for files and multi-cloud, cross-party data sharing.
+
+
+          Learn more
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1676598852/Website/Icons/Enterprise_Buildings_rq2o39.png"  class="image-float-left"
+          height="75" />
+
+
+          **Enterprise-grade, as a service**
+
+
+          Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing – all with zero ops footprint.
+
+
+          Learn more
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T01:44:19.530Z
+updatedAt: 2023-02-17T01:55:28.677Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
