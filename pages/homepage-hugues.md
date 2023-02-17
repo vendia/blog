@@ -74,6 +74,28 @@ components:
 
           [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
         wrapTheColumnInACard: false
+  - type: MediaWithTextTwoColumns
+    mediaPosition: left
+    column1: >-
+      **BMW**
+
+
+      BMW reduces the costs of goods sold and accelerates car delivery with Vendia Share, sharing real-time data with partners across the supply chain.
+
+
+      [Read the case study](https://www.vendia.com/bmw-case-study)
+    column2: >-
+      **Resolution Life**
+
+
+      Resolution Life reduces the cost of validating data and the risk of costly litigation with Vendia Share's single source of truth.
+
+
+      [Read the case study](https://www.vendia.com/resources/resolution-life)
+    theme: white
+    title: Bringing trusted data to the Global 2000
+    image:
+      image: https://www.vendia.com/images/illustrations/home-two.svg
   - type: Carousel
     slides:
       - text: >-
@@ -137,9 +159,8 @@ components:
       ## Automation lowers costs — quickly
 
 
-      In a recent survey, we found a customer **93%** **reduction in costs** by automating reconciliation across multiple sources. \
+      In a recent survey, we found a customer **93%** **reduction in costs** by automating reconciliation across multiple sources. 
 
-      \
 
       Even better? they saved **1.4 mm in the first year.**
 
@@ -271,7 +292,7 @@ seo:
   noindex: false
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-16T21:32:14.260Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-02-17T04:23:34.758Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
