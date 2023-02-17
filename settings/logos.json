@@ -2,6 +2,34 @@
   "description": "Logos used in various landing pages",
   "logos": [
     {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/amazon_redshift_w_text_1_gf7bgx.png",
+      "name": "Amazon Redshift"
+    },
+    {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/Tableau_Logo_1_oypvf4.png",
+      "name": "Tableau"
+    },
+    {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/SAP_azyjia.png",
+      "name": "SAP"
+    },
+    {
+      "name": "Databricks",
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/databricks_named_1_pk1bm1.png"
+    },
+    {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/snowflake_with_text_1_jwgksp.png",
+      "name": "Snowflake"
+    },
+    {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/snowflake_axhnlf.png",
+      "name": "Salesforce"
+    },
+    {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662699/Website/Integration%20logos/microsoft_dynamics_named_1_v3bmrm.png",
+      "name": "Microsoft Dynamics"
+    },
+    {
       "name": "AeroMexico",
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564126/Customer%20logos/IMG_3132_p8nilz.jpg"
     },
@@ -34,6 +62,6 @@
       "logo": "https://vendia.com/images/customers/UNFI.svg"
     }
   ],
-  "updatedAt": "2023-02-16T16:16:22.394Z",
+  "updatedAt": "2023-02-17T19:48:39.517Z",
   "updatedBy": "Caroll Casbeer"
 }
