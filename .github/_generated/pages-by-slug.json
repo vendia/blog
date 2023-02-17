@@ -11,8 +11,8 @@
     "file": "/pages/example-content-page.md",
     "draft": true
   },
-  "homepage-hugues": {
-    "file": "/pages/homepage-hugues.md",
+  "": {
+    "file": "/pages/homepage.md",
     "draft": true
   },
   "legal/acceptable-use-policy": {
