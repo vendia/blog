@@ -65,7 +65,7 @@
   },
   "product-new": {
     "file": "/pages/product-new.md",
-    "draft": true
+    "draft": false
   },
   "reconciliationless": {
     "file": "/pages/reconciliationless.md",
