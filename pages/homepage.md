@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /homepage-hugues
+path: /
 components:
   - type: Logos
     logos:
