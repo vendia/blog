@@ -46,7 +46,7 @@ components:
           Read the article
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"  class="image-float-center"
           height="75" />
 
 
@@ -59,7 +59,7 @@ components:
           What are Smart APIs?
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-center"
           height="77" />
 
 
@@ -72,7 +72,7 @@ components:
           Learn more
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676598852/Website/Icons/Enterprise_Buildings_rq2o39.png"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1676598852/Website/Icons/Enterprise_Buildings_rq2o39.png"  class="image-float-center"
           height="75" />
 
 
@@ -88,6 +88,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T01:55:28.677Z
+updatedAt: 2023-02-17T01:56:10.916Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
