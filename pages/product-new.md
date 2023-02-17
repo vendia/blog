@@ -91,11 +91,18 @@ components:
 
       Integrate across your operational and analytical data stack
     theme: white
+  - type: Logos
+    logos:
+      - Atos
+    theme: white
+    intro:
+      title: Integrations
+      text: Integrate across your operational and analytical data stack
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T19:39:52.075Z
+updatedAt: 2023-02-17T19:45:12.831Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
