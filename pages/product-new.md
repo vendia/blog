@@ -98,11 +98,29 @@ components:
     intro:
       title: Integrations
       text: Integrate across your operational and analytical data stack
+  - type: Columns
+    theme: white
+    intro:
+      title: Share code — not just data
+    columns:
+      - text: >-
+          **Existing workflows**
+
+
+          Leverage existing workflows that automate compliance, transactions, event handling, and more.
+      - text: >-
+          <img src=""  class="image-float-center" width="100" />
+
+
+          **Custom applications**
+
+
+          Vendia Share’s GraphQL API makes it easy to connect with customer applications and datastores, on-prem and in any cloud.
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T19:49:29.734Z
+updatedAt: 2023-02-17T19:58:31.555Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
