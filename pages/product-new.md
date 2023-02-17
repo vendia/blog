@@ -85,15 +85,15 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
       altText: Low-code data sharing
-  - type: Text
-    text: |-
-      ## Integrations
-
-      Integrate across your operational and analytical data stack
-    theme: white
   - type: Logos
     logos:
-      - Atos
+      - Amazon Redshift
+      - Tableau
+      - Databricks
+      - SAP
+      - Snowflake
+      - Salesforce
+      - Microsoft Dynamics
     theme: white
     intro:
       title: Integrations
@@ -103,6 +103,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T19:45:12.831Z
+updatedAt: 2023-02-17T19:49:29.734Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
