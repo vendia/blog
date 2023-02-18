@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Does your data build or break trust? "
 description: Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk
   on the challenges and opportunities her team of 26 has closing the books and
@@ -7,6 +7,8 @@ description: Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk
 date: 2023-02-09
 authors:
   - Vendia
+categories:
+  - thought-leadership
 relatedPosts:
   - 2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing
   - 2021-02-01-decentralization
@@ -35,13 +37,13 @@ sidebarCta:
 createdBy: ""
 createdAt: ""
 updatedBy: alexa-vendia
-updatedAt: 2023-02-09T21:53:55.427Z
+updatedAt: 2023-02-18T00:03:52.262Z
 id: 8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2
 ---
 
-\[VIDEO EMBED]
+<YouTube aspectRatio="16:9" url="https://www.youtube.com/watch?v=In7GFWpQAXU" title="Does your data build or break trust?" />
 
-**Listen on SPOTIFY | APPLE | GOOGLE**
+**Listen on [SPOTIFY](https://open.spotify.com/episode/6lJY014OyfodHvF5g39l7u?si=IuKb1WsSSRqLH9-nQuoyUw) | [APPLE](https://podcasts.apple.com/us/podcast/does-your-data-build-or-break-trust/id1645908970?i=1000600279164)**
 
 **Guest:** Joyce Clinton, Head of Management Reporting Systems and Operations Americas, MUFG Bank
 
@@ -54,7 +56,7 @@ id: 8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2
 - [U.S. Securities and Exchange Commission](https://www.sec.gov/) (SEC)
 - [SEC Form 10-K](https://www.sec.gov/files/form10-k.pdf)
 - [SEC Form 10-Q](https://www.sec.gov/files/form10-q.pdf)
-- [Funds transfer pricing (FTP)](https://www.investopedia.com/terms/f/ftp.asp#:~:text=Funds%20transfer%20pricing%20(FTP)
+- \[Funds transfer pricing (FTP)](https://www.investopedia.com/terms/f/ftp.asp#:~:text=Funds%20transfer%20pricing%20(FTP)
 - [Sarbanes-Oxley Act (SOX)](https://www.congress.gov/bill/107th-congress/house-bill/3763)
 
 ### Transcript
@@ -396,8 +398,6 @@ Yeah, yeah. Or my team that, you know, 15 days from when we booked the last entr
 **Tim Zonca**
 
 Yeah. Well, thank you. This was fantastic. I've been really excited to get back together with you and chat through this stuff, Joyce. And Francine, it's always fantastic to have you share your experience both not only at Vendia and with our customers but your rich data history as well. 
-
-
 
 ## Get Circles of Trust in your inbox
 
