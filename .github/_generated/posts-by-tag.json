@@ -1621,12 +1621,15 @@
   "closing the books": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1658,19 +1661,22 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     }
   ],
   "podcast": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1702,7 +1708,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     },
     {
@@ -1746,12 +1752,15 @@
   "Circles of Trust": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1783,7 +1792,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     },
     {
@@ -1827,12 +1836,15 @@
   "reconciliation": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1864,19 +1876,22 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     }
   ],
   "data transformation": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1908,19 +1923,22 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     }
   ],
   "MUFG": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1952,19 +1970,22 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     }
   ],
   "financial services": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -1996,7 +2017,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     },
     {
@@ -2043,12 +2064,15 @@
   "Joyce Clinton": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -2080,19 +2104,22 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     }
   ],
   "Francine Klein": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -2124,7 +2151,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     },
     {
@@ -2175,12 +2202,15 @@
   "Tim Zonca": [
     {
       "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": true,
+      "draft": false,
       "title": "Does your data build or break trust? ",
       "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
       "date": "2023-02-09T00:00:00.000Z",
       "authors": [
         "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
       ],
       "relatedPosts": [
         "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
@@ -2212,7 +2242,7 @@
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-09T21:53:55.427Z",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
       "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
     }
   ],

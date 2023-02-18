@@ -92,6 +92,51 @@
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     },
     {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": false,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-18T00:03:52.262Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    },
+    {
       "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
       "draft": false,
       "title": "3 things to do right now for better supply chain visibility",
