@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /
+path: /homepage-draft
 components:
   - type: Logos
     logos:
@@ -17,14 +17,15 @@ components:
     theme: white
     intro:
       title: Designed for sensitive data in regulated industries
+      text: Partner data sharing — as a service
     columns:
       - text: >-
-          
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
+          width="83" />
 
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png" alt="""" class="image-float-left" width="83" />
 
-
-          ##### Financial Services
+          ##### Financial services
 
 
           Banks, insurance companies, and lenders leave batch processes behind and reduce the risk of outstanding unpaid balances and data disputes.
@@ -34,14 +35,28 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095798_fqcslk.png"
-          alt="""" class="image-float-left" width="80" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"  class="image-float-left"
+          width="80" />
 
 
-          ##### Healthcare
+          **Supply chain** 
 
 
-          Providers, labs, and affiliates automate data sharing workflows with privacy, governance, and access control built in.
+          From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth.
+
+
+          [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1676921413/Website/Icons/Blue%20icons/Electronics_31_fbiux5.png"  class="image-float-left"
+          width="80" />
+
+
+          ##### Telecomm
+
+
+          Automate data sharing workflows and scale with privacy, governance, and access control built in.
 
 
           [Learn more](https://www.vendia.com/industry#healthcare)
@@ -59,20 +74,6 @@ components:
 
 
           [Learn more](https://www.vendia.com/industry/travel-hospitality)
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"
-          alt="""" class="image-float-left" width="80" />
-
-
-          ##### Manufacturing
-
-
-          From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth.
-
-
-          [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
         wrapTheColumnInACard: false
   - type: MediaWithTextTwoColumns
     mediaPosition: left
@@ -292,7 +293,7 @@ seo:
   noindex: false
 createdBy: ""
 createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-02-17T04:23:34.758Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-20T19:32:01.079Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
