@@ -300,10 +300,10 @@ components:
 seo:
   noindex: false
   title: "Vendia "
-  description: Real-time data sharing across partners, clouds, and systems.
+  description: Real-time data sharing across partners, clouds, and systems
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-20T19:48:17.711Z
+updatedBy: David Wells
+updatedAt: 2023-02-20T21:24:41.507Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
