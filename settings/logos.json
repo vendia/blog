@@ -2,6 +2,10 @@
   "description": "Logos used in various landing pages",
   "logos": [
     {
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676921918/Website/Iso/image_29_sx1bck.png",
+      "name": "Fannie Mae"
+    },
+    {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/amazon_redshift_w_text_1_gf7bgx.png",
       "name": "Amazon Redshift"
     },
@@ -62,6 +66,6 @@
       "logo": "https://vendia.com/images/customers/UNFI.svg"
     }
   ],
-  "updatedAt": "2023-02-17T19:48:39.517Z",
+  "updatedAt": "2023-02-20T19:38:52.397Z",
   "updatedBy": "Caroll Casbeer"
 }
