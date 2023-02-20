@@ -12,15 +12,6 @@ components:
       - Resolution Life
       - Fannie Mae
     theme: white
-  - type: ThinHeadline
-    title: Breaking down data silos
-    text: "Up to 80% of your business operational data lives outside your four
-      walls. Vendia Share, a partner data sharing platform, makes data sharing
-      easier, faster, and cheaper. "
-    button:
-      label: Enter Vendia Share
-      kind: primary
-    theme: white
   - type: Columns
     theme: white
     intro:
@@ -303,7 +294,7 @@ seo:
   description: Real-time data sharing across partners, clouds, and systems
 createdBy: ""
 createdAt: ""
-updatedBy: David Wells
-updatedAt: 2023-02-20T21:24:41.507Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-02-20T21:35:08.928Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
