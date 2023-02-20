@@ -1,7 +1,7 @@
 ---
-draft: true
+draft: false
 template: page
-path: /homepage-draft
+path: /
 components:
   - type: Logos
     logos:

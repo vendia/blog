@@ -1,6 +1,7 @@
 ---
 draft: false
 title: Are blockchains databases?
+slug: databases-versus-blockchain
 description: With some databases now supporting versioning and checksums and
   blockchains storing more types of data, are databases and blockchain
   technologies on a path to merge?
