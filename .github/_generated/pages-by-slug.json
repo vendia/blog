@@ -11,9 +11,9 @@
     "file": "/pages/example-content-page.md",
     "draft": true
   },
-  "homepage-draft": {
+  "": {
     "file": "/pages/homepage.md",
-    "draft": true
+    "draft": false
   },
   "legal/acceptable-use-policy": {
     "file": "/pages/legal-acceptable-use-policy.md",
