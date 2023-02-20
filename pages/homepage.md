@@ -5,7 +5,6 @@ path: /homepage-draft
 components:
   - type: Logos
     logos:
-      - Unfi
       - BMW
       - Delta
       - AeroMexico
@@ -96,7 +95,7 @@ components:
     theme: white
     title: Bringing trusted data to the Global 2000
     image:
-      image: https://www.vendia.com/images/illustrations/home-two.svg
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
   - type: Carousel
     slides:
       - text: >-
@@ -294,6 +293,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-20T19:32:01.079Z
+updatedAt: 2023-02-20T19:32:50.761Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
