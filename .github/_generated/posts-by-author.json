@@ -827,9 +827,8 @@
       "id": "4fb2e425-5664-41b1-98c0-45f8a357d325"
     },
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",

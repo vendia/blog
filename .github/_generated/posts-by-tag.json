@@ -340,9 +340,8 @@
       "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
     },
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -3067,9 +3066,8 @@
       "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
     },
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -3241,9 +3239,8 @@
       "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
     },
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5006,9 +5003,8 @@
   ],
   "Hyperledger Fabric": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5058,9 +5054,8 @@
   ],
   "decentralization": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5128,9 +5123,8 @@
   ],
   "Amazon DynamoDB": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5180,9 +5174,8 @@
   ],
   "Amazon Aurora": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5232,9 +5225,8 @@
   ],
   "Azure CosmosDB": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5284,9 +5276,8 @@
   ],
   "Infura": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5336,9 +5327,8 @@
   ],
   "Alchemy": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5388,9 +5378,8 @@
   ],
   "Coinbase": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5440,9 +5429,8 @@
   ],
   "Google Spanner": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5492,9 +5480,8 @@
   ],
   "Oracle Blockchain Tables": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5544,9 +5531,8 @@
   ],
   "Amazon GQLD": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5596,9 +5582,8 @@
   ],
   "Snowflake": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
@@ -5648,9 +5633,8 @@
   ],
   "Ethereum": [
     {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "file": "/posts/2022-03-17-databases-versus-blockchain.md",
       "draft": false,
-      "slug": "databases-versus-blockchain",
       "title": "Are blockchains databases?",
       "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
       "date": "2022-03-17T00:00:00.000Z",
