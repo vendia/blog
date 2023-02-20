@@ -10,6 +10,16 @@ components:
       - AeroMexico
       - Atos
       - Resolution Life
+      - Fannie Mae
+    theme: white
+  - type: ThinHeadline
+    title: Breaking down data silos
+    text: "Up to 80% of your business operational data lives outside your four
+      walls. Vendia Share, a partner data sharing platform, makes data sharing
+      easier, faster, and cheaper. "
+    button:
+      label: Enter Vendia Share
+      kind: primary
     theme: white
   - type: Columns
     theme: white
@@ -20,7 +30,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
-          width="83" />
+          width="75" />
 
 
           ##### Financial services
@@ -34,7 +44,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"  class="image-float-left"
-          width="80" />
+          width="75" />
 
 
           **Supply chain** 
@@ -48,7 +58,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676921413/Website/Icons/Blue%20icons/Electronics_31_fbiux5.png"  class="image-float-left"
-          width="80" />
+          width="75" />
 
 
           ##### Telecomm
@@ -61,8 +71,8 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"
-          alt="""" class="image-float-left" width="80" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"  class="image-float-left"
+          width="75" />
 
 
           ##### Travel
@@ -289,9 +299,11 @@ components:
         wrapTheColumnInACard: true
 seo:
   noindex: false
+  title: "Vendia "
+  description: Real-time data sharing across partners, clouds, and systems.
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-20T19:33:31.544Z
+updatedAt: 2023-02-20T19:48:17.711Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
