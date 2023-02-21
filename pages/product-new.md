@@ -4,10 +4,10 @@ template: page
 path: /product-new
 components:
   - type: Hero
-    title: Automate reconciliation across partner
-    text: ""
+    title: Meet Vendia Share
+    text: Partner data sharing platform
     contentAlignment: Left
-    hideSeparator: true
+    hideSeparator: false
     callToActions:
       - label: Start free trial
         url: share.vendia.net?utm_source=internal&utm_medium=product-page&utm_campaign=vendia
@@ -96,8 +96,8 @@ components:
       - Microsoft Dynamics
     theme: white
     intro:
-      title: Integrations
-      text: Integrate across your data stack
+      title: ""
+      text: ""
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -130,11 +130,18 @@ components:
 
       <Button kind="tertiary" label="Check out our quick starts" href="https://www.vendia.com/docs/share/quickstart" />
     theme: white
+  - type: ThinHeadline
+    title: Integrations
+    text: From Saas to Clouds Vendia Share makes data sharing easy
+    button:
+      label: Learn more
+      kind: tertiary
+    theme: white
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-17T20:59:36.063Z
+updatedAt: 2023-02-21T22:55:19.797Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
