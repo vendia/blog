@@ -85,6 +85,13 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
       altText: Low-code data sharing
+  - type: ThinHeadline
+    title: Integrations
+    text: From Saas to Clouds Vendia Share makes data sharing easy
+    button:
+      label: Learn more
+      kind: tertiary
+    theme: white
   - type: Logos
     logos:
       - Amazon Redshift
@@ -130,18 +137,11 @@ components:
 
       <Button kind="tertiary" label="Check out our quick starts" href="https://www.vendia.com/docs/share/quickstart" />
     theme: white
-  - type: ThinHeadline
-    title: Integrations
-    text: From Saas to Clouds Vendia Share makes data sharing easy
-    button:
-      label: Learn more
-      kind: tertiary
-    theme: white
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-21T22:55:19.797Z
+updatedAt: 2023-02-21T23:18:15.981Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
