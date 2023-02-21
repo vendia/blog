@@ -17,12 +17,12 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
   - type: Logos
     logos:
-      - Unfi
       - BMW
       - Delta
       - AeroMexico
       - Atos
       - Resolution Life
+      - Fannie Mae
     theme: white
     intro:
       title: ""
@@ -43,7 +43,7 @@ components:
           Ensure consistent, accurate, and secure data that spans clouds, companies, and geographies by leveling up blockchain with cloud scale and low latency.
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"  class="image-float-center"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677022678/Website/Icons/API_Icon_doq9dr.png"  class="image-float-center"
           width="50" height="50" />
 
 
@@ -101,7 +101,7 @@ components:
       - Snowflake
       - Salesforce
       - Microsoft Dynamics
-    theme: white
+    theme: light
     intro:
       title: ""
       text: ""
@@ -129,6 +129,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-21T23:35:28.586Z
+updatedAt: 2023-02-21T23:38:24.278Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
