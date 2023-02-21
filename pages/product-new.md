@@ -108,18 +108,6 @@ components:
   - type: MediaWithText
     mediaPosition: left
     text: >-
-      ### Go beyond data sharing — share code with Vendia Share
-
-
-      Leverage existing workflows that automate compliance, transactions, event handling, and more. 
-
-
-      Vendia Share’s GraphQL API makes it easy to connect with customer applications and datastores, on prem and in any cloud.
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1669912270/blockchain_jqtj4r.webp
-  - type: Text
-    text: >-
       ## Getting started
 
 
@@ -132,16 +120,15 @@ components:
       Vendia Share compiles that schema into serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.
 
 
-      <Button kind="primary" label="Get free trial" href="https://share.vendia.net/" />
-
-
-      <Button kind="tertiary" label="Check out our quick starts" href="https://www.vendia.com/docs/share/quickstart" />
+      <Button kind="primary" href="https://share.vendia.net/" label="Start free trial" />
     theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677022472/Website/Product%20thumbnails/Thumnails_for_Vendia_Share_dcyovl.png
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-21T23:18:15.981Z
+updatedAt: 2023-02-21T23:35:28.586Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
