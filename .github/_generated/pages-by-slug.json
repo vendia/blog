@@ -59,6 +59,10 @@
     "file": "/pages/privacy-policy.md",
     "draft": false
   },
+  "product/diy-vs-vendia": {
+    "file": "/pages/product-diy-vs-vendia.md",
+    "draft": true
+  },
   "product/how-to-get-started-with-vendia": {
     "file": "/pages/product-how-to-get-started-with-vendia.md",
     "draft": true
