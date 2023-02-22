@@ -89,9 +89,9 @@ components:
     theme: white
     intro:
       title: Integrations
-      text: From Saas to Clouds, Vendia Shares makes data sharing easy
+      text: ""
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677024088/Website/Integrations_and_Clouds_urbn0d.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677026583/Website/Integration%20logos/Integration_logos_xxijlg.png
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -116,6 +116,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-22T00:02:10.026Z
+updatedAt: 2023-02-22T00:49:11.720Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
