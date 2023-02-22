@@ -85,26 +85,13 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
       altText: Low-code data sharing
-  - type: ThinHeadline
-    title: Integrations
-    text: From Saas to Clouds Vendia Share makes data sharing easy
-    button:
-      label: Learn more
-      kind: tertiary
+  - type: MediaFullScreen
     theme: white
-  - type: Logos
-    logos:
-      - Amazon Redshift
-      - Tableau
-      - Databricks
-      - SAP
-      - Snowflake
-      - Salesforce
-      - Microsoft Dynamics
-    theme: light
     intro:
-      title: ""
-      text: ""
+      title: Integrations
+      text: From Saas to Clouds, Vendia Shares makes data sharing easy
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677024088/Website/Integrations_and_Clouds_urbn0d.png
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -129,6 +116,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-21T23:38:24.278Z
+updatedAt: 2023-02-22T00:02:10.026Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
