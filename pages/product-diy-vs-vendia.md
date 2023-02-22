@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /product/diy-vs-vendia
 components:
@@ -61,6 +61,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-22T01:17:05.109Z
+updatedAt: 2023-02-22T01:17:12.997Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
