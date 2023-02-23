@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /about-new
 components:
@@ -22,7 +22,7 @@ components:
 
 
       Our flagship product is [Vendia Share](https://www.vendia.com/product), and it’s trusted by leaders in both grassroots nonprofits and the Global 2000.
-    theme: light
+    theme: white
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -205,6 +205,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T21:53:37.670Z
+updatedAt: 2023-02-23T22:26:04.182Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
