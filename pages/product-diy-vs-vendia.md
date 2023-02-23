@@ -42,9 +42,10 @@ components:
     theme: white
     columns:
       - text: >-
-          
-
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1674599451/Website/Iso/Security_hviynh.png" alt="Security image" class="image-float-center" width="210" />
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1674599451/Website/Iso/Security_hviynh.png"
+          alt="Security image" class="image-float-center" width="235"
+          height="180" />
 
 
           **Multi-cloud support built-in**
@@ -54,8 +55,8 @@ components:
         wrapTheColumnInACard: true
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"  class="image-float-center"
-          width="200" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"
+          alt="Teamwork " class="image-float-center" width="175" height="180" />
 
 
           **Easy connection for partners**
@@ -66,7 +67,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677177723/Website/Icons/Cloud_and_servers_ojq3bb.png"  class="image-float-center"
-          width="225" />
+          width="190" />
 
 
           **Multi-cloud support built-in**
@@ -78,25 +79,26 @@ components:
       title: Secure sharing, as a service
       text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
         services.
-  - type: Text
-    text: >-
-      ## Rapidly deliver a common data model to you and your partners
+  - type: MediaWithTextTwoColumns
+    mediaPosition: right
+    column1: >-
+      Vendia Share translates you JSON schema into customized serverless
+      resources. Plus, with schema evolution support, it’s easy to evolve the
+      data model as the business changes.
 
 
-      To get started just bring your JSON data model, or quickly create one with our low-code modeling. 
+      [Learn more about schema evolution ](https://www.vendia.com/blog/schema-evolution)
+    column2: >-
+      Vendia Share's Smart APIs connect to your data model – data-aware APIs
+      that run on the fully-managed https-based GraphQL engine for reading and
+      writing your data, with full type checkin.
 
 
-      Vendia Share translates your schema into serverless resources customized based on your model. BONUS: with schema evolution support, it’s easy to evolve the data model as the business needs change.
-
-
-      <Button kind="primary" label="Quick starts" href="https://www.vendia.com/docs/share/quickstart" />
-
-
-      Vendia Share gives you Smart APIs linked to your data model – data aware APIs that run on the fully-managed https-based GraphQL engine for reading and writing your data, with full type checkin. 
-
-
-      <Button kind="tertiary" label="Get SmartAPIs " href="https://www.vendia.com/blog/codeless-apis" />
+      [Check out Smart APIs](https://www.vendia.com/blog/smart-apis)
     theme: white
+    title: Easily and quickly onboard partners
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png
   - type: MediaWithTextTwoColumns
     mediaPosition: left
     column1: >-
@@ -182,6 +184,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T19:18:37.272Z
+updatedAt: 2023-02-23T22:16:13.241Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
