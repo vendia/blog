@@ -1,7 +1,7 @@
 {
   "about-new": {
     "file": "/pages/about.md",
-    "draft": false
+    "draft": true
   },
   "careers": {
     "file": "/pages/careers.md",
