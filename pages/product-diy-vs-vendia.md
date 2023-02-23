@@ -38,41 +38,6 @@ components:
       title: Combining the best of proven technologies
       text: Get an out-of-the-box platform to ensure your data is accurate, compliant,
         and auditable.
-  - type: Resources
-    intro:
-      title: Secure sharing, as a service
-      text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
-        services.
-    resources:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png"  class="image-float-center"
-          width="225" />
-
-
-          Share real-time data across multiple parties, with fine-grained access control that ensures the right partners see the right data at the right time.
-        title: Multi-party sharing, with control
-        button:
-          url: https://www.vendia.com/blog/multi-party-data-sharing-with-control
-          label: Learn more
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"  class="image-float-center"
-          width="225" />
-
-
-          Connecting to a secure Vendia Share application is as simple as scanning a QR code. Invite partners to a Vendia partner network with a click from an email, or a scan from a phone.
-        title: Easy connection for partners
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677113637/Website/Iso/Cloud_pqpzk5.png"  class="image-float-left"
-          width="225" />
-
-
-          Vendia partner nodes can run in any cloud. This means you make it easy to include any partner, in any region, on any cloud – without having to build and run multi-cloud infrastructure.
-        title: Multi-cloud support built-in
-        button:
-          label: Multi-cloud
   - type: Columns
     theme: white
     columns:
@@ -86,27 +51,114 @@ components:
 
 
           Share real-time data across multiple parties, with fine-grained access control that ensures the right partners see the right data at the right time.
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"  class="image-float-center"
-          height="150" />
+          width="200" />
 
 
           **Easy connection for partners**
 
 
           Connecting to a secure Vendia Share application is as simple as scanning a QR code. Invite partners to a Vendia partner network with a click from an email, or a scan from a phone.
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677177723/Website/Icons/Cloud_and_servers_ojq3bb.png"  class="image-float-center"
+          width="225" />
+
+
+          **Multi-cloud support built-in**
+
+
+          Vendia partner nodes can run in any cloud. This means you make it easy to include any partner in any region or cloud without having to build and run multi-cloud infrastructure.
+        wrapTheColumnInACard: true
     intro:
       title: Secure sharing, as a service
       text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
         services.
+  - type: Text
+    text: >-
+      ## Rapidly deliver a common data model to you and your partners
+
+
+      To get started just bring your JSON data model, or quickly create one with our low-code modeling. 
+
+
+      Vendia Share translates your schema into serverless resources customized based on your model. BONUS: with schema evolution support, it’s easy to evolve the data model as the business needs change.
+
+
+      <Button kind="primary" label="Quick starts" href="https://www.vendia.com/docs/share/quickstart" />
+
+
+      Vendia Share gives you Smart APIs linked to your data model – data aware APIs that run on the fully-managed https-based GraphQL engine for reading and writing your data, with full type checkin. 
+
+
+      <Button kind="tertiary" label="Get SmartAPIs " href="https://www.vendia.com/blog/codeless-apis" />
+    theme: white
+  - type: MediaWithTextTwoColumns
+    mediaPosition: left
+    column1: >-
+      **Multiple data types**
+
+
+      Store and share files, along with structured data. With Vendia Share, files are handled as a built-in feature with full ACID support, just like other data types.
+    column2: >-
+      **Unlimited, immutable storage**
+
+
+      Combine the security, unlimited long-term data storage, and easy queryability of conventional databases, with the tamper-proof immutability of a distributed ledger.
+
+
+      **[Learn more](https://www.vendia.com/blog/venn-diagramming-vendia-share)**
+    theme: white
+    title: Powerful data layer
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677178439/Website/Iso/Layers_yxwmw1.png
+  - type: Columns
+    theme: white
+    intro:
+      title: Enterprise capabilities built-in
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-left"
+          width="80" height="80" />
+
+
+          **Cloud scale and resiliency**
+
+
+          Vendia’s high-speed data replication and consensus mechanism emulates a blockchain’s ability to create consistent replicas, but with massive parallelization and cloud-enabled scale and throughput.
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677179185/Website/Icons/Files_and_heirarchy_uhcnzb.png"  class="image-float-left"
+          width="80" height="80" />
+
+
+          **Enterprise integration**
+
+
+          Connects with common systems of record, like Salesforce.com and SAP, and egress to analytics solutions like Snowflake and Databricks.
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677179322/Website/Icons/GDPR_04_rulzsr.png"  class="image-float-left"
+          width="80" height="65" />
+
+
+          **Out-of-box compliance**
+
+
+          Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
+        wrapTheColumnInACard: false
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T16:26:11.514Z
+updatedAt: 2023-02-23T19:09:45.403Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
