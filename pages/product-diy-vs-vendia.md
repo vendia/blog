@@ -154,11 +154,34 @@ components:
 
           Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
         wrapTheColumnInACard: false
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ## Get started with Vendia Share
+
+
+      Vendia’s platform eliminates the need for DIY API creation and underlying infrastructure design, provisioning, and management.\
+
+      \
+
+      All you need is a JSON schema – Vendia does the rest.   
+
+
+      Vendia Share compiles that schema into serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.
+
+
+      <Button kind="primary" label="Start free trial" href="https://share.vendia.net/" />
+
+
+      <Button kind="secondary" label="Schedule a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share" />
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677022472/Website/Product%20thumbnails/Thumnails_for_Vendia_Share_dcyovl.png
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T19:09:45.403Z
+updatedAt: 2023-02-23T19:18:11.254Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
