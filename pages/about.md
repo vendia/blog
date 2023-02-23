@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /about-new
 components:
@@ -232,6 +232,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T22:50:33.096Z
+updatedAt: 2023-02-23T23:36:18.592Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
