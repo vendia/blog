@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 2023-02-23 - "Data Security, New Explorer, and Vendia Orgs"
+title: Data Security, New Explorer, and Vendia Orgs
 description: A release focusing on Data Security, Vendia's new GraphQL editor,
   and Vendia Orgs.
 date: 2023-02-23
@@ -14,7 +14,7 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: AVukovic-Vendia
-updatedAt: 2023-02-23T19:37:19.335Z
+updatedAt: 2023-02-23T19:49:22.104Z
 id: 71ddf796-125a-41ac-bb35-e6bd47b32c97
 ---
 
