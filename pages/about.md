@@ -148,30 +148,55 @@ components:
       title: Vendia Values
     columns:
       - text: >-
+          
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1677192419/Website/Icons/Vendia%20value%20icons/Trust_bnfhfj.png" alt="Trust" class="image-float-left" height="100" />
+
+
           **Trust**
 
 
           We build trust with customers and each other by working as a team, operating with transparency, and using good judgment.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677192419/Website/Icons/Vendia%20value%20icons/Ingenuity_yvhjsv.png"  class="image-float-left"
+          height="100" />
+
+
           **Ingenuity**
 
 
           We embrace tough questions with curiosity, and we’re always learning. We’re creative, inventive, and trailblazing.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677192419/Website/Icons/Vendia%20value%20icons/Growth_xqqbsp.png"  class="image-float-left"
+          height="101" />
+
+
           **Growth**
 
 
           We are builders with a growth mindset. We don’t settle. Instead, we strive and continuously improve in all that we do.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677192419/Website/Icons/Vendia%20value%20icons/Responsibility_byo090.png"  class="image-float-left"
+          />
+
+
           **Responsibility**
 
 
           We own our successes and failures. We respectfully question each other, ask for feedback, and speak up if concerns arise.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677192419/Website/Icons/Vendia%20value%20icons/Results_m3v7gn.png"  class="image-float-left"
+          />
+
+
           **Results**
 
 
@@ -207,6 +232,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T22:36:32.216Z
+updatedAt: 2023-02-23T22:50:33.096Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
