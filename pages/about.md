@@ -202,9 +202,11 @@ components:
         wrapTheColumnInACard: true
 seo:
   noindex: false
+  title: About Vendia
+  description: Learn more about Vendia, our founders, and our values.
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T22:29:32.860Z
+updatedAt: 2023-02-23T22:36:32.216Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
