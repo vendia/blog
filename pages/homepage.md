@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: page
 path: /
 components:
@@ -12,6 +12,22 @@ components:
       - Resolution Life
       - Fannie Mae
     theme: white
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ## Sharing is hard.
+
+
+      Data sharing between partners is even harder. 
+
+
+      ## Enter Vendia Share.
+
+
+      Your partner data-sharing platform for secure, real-time, secure collaboration.
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677173496/Website/Iso/Teamwork_coding_uyprvd.png
   - type: Columns
     theme: white
     intro:
@@ -133,17 +149,6 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095798_hlzws8.png"
-          alt="""" class="image-float-left" width="80" />
-
-
-          ##### Full chain of custody
-
-
-          Track and trace product DNA, inventory, and shipping information across supply chain partners. Vendia Share provides a fully auditable, versioned, and immutable source of truth.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095799_s3lmzl.png"
           alt="""" class="image-float-left" width="80" />
 
@@ -152,6 +157,17 @@ components:
 
 
           Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095798_hlzws8.png"  class="image-float-left"
+          width="80" />
+
+
+          ##### Full chain of custody
+
+
+          Track and trace product DNA, inventory, customers, and shipping information across supply chain partners. Vendia Share provides a fully auditable, versioned, and immutable source of truth.
         wrapTheColumnInACard: false
   - type: MediaWithText
     mediaPosition: left
@@ -200,14 +216,14 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Security_05_la1yrn.png"
-          alt="""" class="image-float-left" width="185" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677176334/Website/Icons/Partner_Onboarding_Icon_Purple_fpybdy.png"  class="image-float-left"
+          width="185" />
 
 
-          ##### Compliance and security
+          **Onboard partners quickly**
 
 
-          Get built-in compliance for SOC2, GDPR, CCPA, CPRA, and PII/PCI, plus out-of-the-box forensics on ransomware attacks.
+          Add partners and start collaborating on a single source of truth in weeks not quarters or years resulting in a faster time to value for you and your entire network.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -295,6 +311,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-20T21:35:08.928Z
+updatedAt: 2023-02-23T18:24:24.228Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
