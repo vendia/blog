@@ -61,7 +61,7 @@
   },
   "product/diy-vs-vendia": {
     "file": "/pages/product-diy-vs-vendia.md",
-    "draft": true
+    "draft": false
   },
   "product/how-to-get-started-with-vendia": {
     "file": "/pages/product-how-to-get-started-with-vendia.md",
