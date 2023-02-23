@@ -1,4 +1,8 @@
 {
+  "about": {
+    "file": "/pages/about.md",
+    "draft": true
+  },
   "careers": {
     "file": "/pages/careers.md",
     "draft": false
