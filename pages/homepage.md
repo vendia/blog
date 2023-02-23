@@ -24,7 +24,7 @@ components:
       ## Enter Vendia Share.
 
 
-      Your partner data-sharing platform for secure, real-time, secure collaboration.
+      Your partner data-sharing platform for secure, compliant, real-time collaboration.
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677173496/Website/Iso/Teamwork_coding_uyprvd.png
@@ -311,6 +311,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T18:24:34.707Z
+updatedAt: 2023-02-23T18:25:57.606Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
