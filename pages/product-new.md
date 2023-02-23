@@ -12,7 +12,7 @@ components:
       - label: Start free trial
         url: share.vendia.net?utm_source=internal&utm_medium=product-page&utm_campaign=vendia
       - label: Contact sales
-        url: https://meetings.hubspot.com/tim-zonca/contact-an-expert
+        url: https://meetings.hubspot.com/aashish3/contact-sales
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
   - type: Logos
@@ -116,6 +116,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-22T00:49:11.720Z
+updatedAt: 2023-02-23T18:31:14.925Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
