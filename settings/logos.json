@@ -3,67 +3,83 @@
   "logos": [
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676921918/Website/Iso/image_29_sx1bck.png",
-      "name": "Fannie Mae"
+      "name": "Fannie Mae",
+      "id": "3b97311a-f8e1-4a2d-9b28-46e826a752ff"
     },
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/amazon_redshift_w_text_1_gf7bgx.png",
-      "name": "Amazon Redshift"
+      "name": "Amazon Redshift",
+      "id": "77646f64-e76b-4bf3-98d5-278452f5069e"
     },
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/Tableau_Logo_1_oypvf4.png",
-      "name": "Tableau"
+      "name": "Tableau",
+      "id": "2a6e3d43-e3cb-4fd1-84a3-cdccb8554831"
     },
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/SAP_azyjia.png",
-      "name": "SAP"
+      "name": "SAP",
+      "id": "0ce6f416-2a0b-4219-af3c-a6fb80d17bbb"
     },
     {
       "name": "Databricks",
-      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/databricks_named_1_pk1bm1.png"
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/databricks_named_1_pk1bm1.png",
+      "id": "d73030fe-447d-48bc-8220-1eec6028b224"
     },
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/snowflake_with_text_1_jwgksp.png",
-      "name": "Snowflake"
+      "name": "Snowflake",
+      "id": "90b42317-9c90-442f-b724-95e2aa424cf6"
     },
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662698/Website/Integration%20logos/snowflake_axhnlf.png",
-      "name": "Salesforce"
+      "name": "Salesforce",
+      "id": "fdff4465-8257-497a-bbd7-737a6899cad1"
     },
     {
       "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676662699/Website/Integration%20logos/microsoft_dynamics_named_1_v3bmrm.png",
-      "name": "Microsoft Dynamics"
+      "name": "Microsoft Dynamics",
+      "id": "92251445-6712-43a0-94aa-de47b472c315"
     },
     {
       "name": "AeroMexico",
-      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564126/Customer%20logos/IMG_3132_p8nilz.jpg"
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564126/Customer%20logos/IMG_3132_p8nilz.jpg",
+      "id": "a1928d97-6e10-494e-9a16-a6a6dce3fa5c"
     },
     {
       "name": "Delta",
-      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564106/Customer%20logos/IMG_3131_pgf3g9.jpg"
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676564106/Customer%20logos/IMG_3131_pgf3g9.jpg",
+      "id": "4c059832-46ef-4705-a295-21210e28aad9"
     },
     {
       "name": "Best Friends Animal Society",
-      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675789864/Customer%20logos/Group_1_uuxkuw.png"
+      "logo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675789864/Customer%20logos/Group_1_uuxkuw.png",
+      "id": "acf8b85c-2663-4784-82d5-3a59a60b30ae"
     },
     {
       "name": "Aerotrax Technologies",
-      "logo": "https://vendia.com/images/customers/Aerotrax.svg"
+      "logo": "https://vendia.com/images/customers/Aerotrax.svg",
+      "id": "2dafbbe7-adb8-40d4-8035-4fa41222acbb"
     },
     {
       "name": "Atos",
-      "logo": "https://vendia.com/images/customers/Atos.svg"
+      "logo": "https://vendia.com/images/customers/Atos.svg",
+      "id": "da2c707e-fa6b-40a2-9078-2d780cb15e57"
     },
     {
       "name": "BMW",
-      "logo": "https://vendia.com/images/customers/BMW.svg"
+      "logo": "https://vendia.com/images/customers/BMW.svg",
+      "id": "703da598-e5bf-4614-a753-6b1fe43785d6"
     },
     {
       "name": "Resolution Life",
-      "logo": "https://vendia.com/images/customers/ResolutionLife.svg"
+      "logo": "https://vendia.com/images/customers/ResolutionLife.svg",
+      "id": "6a540ccb-3697-4b9e-9db5-6bbb0d29a816"
     },
     {
       "name": "Unfi",
-      "logo": "https://vendia.com/images/customers/UNFI.svg"
+      "logo": "https://vendia.com/images/customers/UNFI.svg",
+      "id": "a5acd5d1-ae32-4e37-896e-b6bad311bebd"
     }
   ],
   "updatedAt": "2023-02-20T19:38:52.397Z",

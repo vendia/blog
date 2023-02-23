@@ -2,23 +2,28 @@
   "resourcesTypes": [
     {
       "slug": "white-papers",
-      "description": "White papers"
+      "description": "White papers",
+      "id": "c2298cda-a42a-4538-b86e-36204ddddbc9"
     },
     {
       "slug": "case-studies",
-      "description": "Case studies"
+      "description": "Case studies",
+      "id": "44e2c52c-0b46-4506-9ab2-5776d4b98eda"
     },
     {
       "slug": "webcasts",
-      "description": "Webcasts"
+      "description": "Webcasts",
+      "id": "1d3ee1e6-a992-4a02-96de-3bb6fa4a1df1"
     },
     {
       "slug": "videos",
-      "description": "Videos"
+      "description": "Videos",
+      "id": "9c2c8235-5c97-4e9a-9fbc-749836420a3f"
     },
     {
       "slug": "podcasts",
-      "description": "Podcasts"
+      "description": "Podcasts",
+      "id": "ebb9b536-112b-471a-87d6-415b448386f9"
     }
   ],
   "updatedAt": "2022-11-29T04:04:38.089Z",
