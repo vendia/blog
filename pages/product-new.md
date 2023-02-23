@@ -81,6 +81,9 @@ components:
 
 
       Achieve a multi-party, multi-cloud, multi-region solution able to connect applications and data with other departments, companies, and clouds—all without having to write code or manage servers.
+
+
+      [Learn more about DIY vs. Vendia](https://www.vendia.com/product/diy-vs-vendia)
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
@@ -116,6 +119,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T18:31:14.925Z
+updatedAt: 2023-02-23T22:29:14.422Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
