@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: page
 path: /product/diy-vs-vendia
 components:
@@ -42,25 +42,71 @@ components:
     intro:
       title: Secure sharing, as a service
       text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
-        services. Instead, delight your partner with quick onboarding and secure
-        sharing, on any cloud.
+        services.
     resources:
       - text: >-
-          
-
-          <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png"  class="image-float-center" width="80" />
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png"  class="image-float-center"
+          width="225" />
 
 
           Share real-time data across multiple parties, with fine-grained access control that ensures the right partners see the right data at the right time.
         title: Multi-party sharing, with control
         button:
           url: https://www.vendia.com/blog/multi-party-data-sharing-with-control
-          label: Learn more about Vendia's approach to multi-party data sharing
+          label: Learn more
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"  class="image-float-center"
+          width="225" />
+
+
+          Connecting to a secure Vendia Share application is as simple as scanning a QR code. Invite partners to a Vendia partner network with a click from an email, or a scan from a phone.
+        title: Easy connection for partners
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677113637/Website/Iso/Cloud_pqpzk5.png"  class="image-float-left"
+          width="225" />
+
+
+          Vendia partner nodes can run in any cloud. This means you make it easy to include any partner, in any region, on any cloud – without having to build and run multi-cloud infrastructure.
+        title: Multi-cloud support built-in
+        button:
+          label: Multi-cloud
+  - type: Columns
+    theme: white
+    columns:
+      - text: >-
+          
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1674599451/Website/Iso/Security_hviynh.png" alt="Security image" class="image-float-center" width="210" />
+
+
+          **Multi-cloud support built-in**
+
+
+          Share real-time data across multiple parties, with fine-grained access control that ensures the right partners see the right data at the right time.
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"  class="image-float-center"
+          height="150" />
+
+
+          **Easy connection for partners**
+
+
+          Connecting to a secure Vendia Share application is as simple as scanning a QR code. Invite partners to a Vendia partner network with a click from an email, or a scan from a phone.
+        wrapTheColumnInACard: false
+    intro:
+      title: Secure sharing, as a service
+      text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
+        services.
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-22T01:17:12.997Z
+updatedAt: 2023-02-23T16:26:11.514Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
