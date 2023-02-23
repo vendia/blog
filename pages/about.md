@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /about
+path: /about-new
 components:
   - type: Hero
     title: Trust is the standard
@@ -137,11 +137,74 @@ components:
 
           Avg. increase in customer API calls to deliver an up-to-date, auto-reconciled golden record
         wrapTheColumnInACard: false
+  - type: MediaFullScreen
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677182853/Website/Misc%20website%20images/Vedia_Company_Meeting-HoffmanPhotoVideo-0207_vvwsn1.jpg
+      caption: Vendians at our company offsite, Unify, in San Diego
+  - type: Columns
+    theme: white
+    intro:
+      title: Vendia Values
+    columns:
+      - text: >-
+          **Trust**
+
+
+          We build trust with customers and each other by working as a team, operating with transparency, and using good judgment.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Ingenuity**
+
+
+          We embrace tough questions with curiosity, and we’re always learning. We’re creative, inventive, and trailblazing.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Growth**
+
+
+          We are builders with a growth mindset. We don’t settle. Instead, we strive and continuously improve in all that we do.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Responsibility**
+
+
+          We own our successes and failures. We respectfully question each other, ask for feedback, and speak up if concerns arise.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Results**
+
+
+          We GSD. Outcomes-focused, we balance speed with control. We think big, take calculated risks, and deliver reliably.
+        wrapTheColumnInACard: false
+  - type: Columns
+    theme: white
+    intro:
+      title: ""
+    columns:
+      - text: >-
+          ### Join us and make an impact
+
+
+          At Vendia, we share our best selves, in the spirit of service and excellence, with our customers and one another.
+
+
+          [We’d love to connect with you](https://www.vendia.com/careers)
+        wrapTheColumnInACard: true
+      - text: >-
+          ### Work with us to see the impact
+
+
+          Reconcile or track and trace data instantly, accurately, securely, and compliantly with fine-grained control — no matter how many or how varied your architecture, infrastructure, partners, or inputs are.
+
+
+          **[Contact the sales and solutions team](https://meetings.hubspot.com/aashish3/contact-sales)**
+        wrapTheColumnInACard: true
 seo:
   noindex: false
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T19:58:04.733Z
+updatedAt: 2023-02-23T21:53:37.670Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
