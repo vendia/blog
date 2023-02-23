@@ -2,6 +2,7 @@
   "description": "Vendia blog categories",
   "categories": [
     {
+      "id": "5d040972-9353-421a-8187-c70b9e844f3d",
       "slug": "company",
       "description": "Get to know the #kindhumans at Vendia through company announcements, values, and culture",
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324704/Blog%20images/Remote_work_vngluh.png",
@@ -11,6 +12,7 @@
       "title": "Company"
     },
     {
+      "id": "bd808e3c-7d40-498c-8e79-f4b383f8b62c",
       "slug": "product",
       "description": "Dive deep into the Vendia Share platform with product-centric features, benefits, and updates",
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599388/Website/Iso/Smart_contract_umed2h.png",
@@ -20,12 +22,14 @@
       ]
     },
     {
+      "id": "eaa100bd-a210-4861-976a-bdb7a8ebba09",
       "slug": "concepts",
       "description": "Unpack and reframe legacy and modern data sharing concepts, challenges, and solutions",
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
       "title": "Concepts"
     },
     {
+      "id": "c5aa5e1a-23ea-4074-a863-93ddd491da27",
       "title": "Thought leadership",
       "photo": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671581338/Website/Iso/Launch-4_viwhxa.png",
       "slug": "thought-leadership",
