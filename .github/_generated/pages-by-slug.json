@@ -1,5 +1,5 @@
 {
-  "about-new": {
+  "about": {
     "file": "/pages/about.md",
     "draft": false
   },
@@ -87,8 +87,8 @@
     "file": "/pages/product-how-to-get-started-with-vendia.md",
     "draft": true
   },
-  "product-new": {
-    "file": "/pages/product-new.md",
+  "product": {
+    "file": "/pages/product.md",
     "draft": false
   },
   "reconciliationless": {
