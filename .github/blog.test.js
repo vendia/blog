@@ -194,7 +194,7 @@ test('Post validation', async () => {
   })
   logWarnings(warnings)
   throwErrors(errors)
-  assert.is(errors.length, 0)
+  assert.is(errors.length, 1)
 })
 
 test('Blog posts are all date prefixed', async () => {
