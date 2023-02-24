@@ -38,6 +38,15 @@ jobs:
       run: |
         echo "env"
         echo "${{ env.JSON_RESPONSE }}"
+    # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
+    - name: Get Current Job Log URL
+      uses: Tiryoh/gha-jobid-action@v0.1.2
+      if: ${{ failure() }}
+      id: jobs
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        job_name: "test" # input job.<job-id>
+    # Add PR comment
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_test_failure
@@ -48,6 +57,8 @@ jobs:
         header: testStatusComment
         message: |
           ❌ Deploy failed!
+
+          ${{ steps.jobs.outputs.html_url }}
           
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
@@ -58,14 +69,6 @@ jobs:
           **Errors found:**
 
           ${{ env.JSON_RESPONSE }}
-    # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
-    - name: Get Current Job Log URL
-      uses: Tiryoh/gha-jobid-action@v0.1.2
-      if: ${{ failure() }}
-      id: jobs
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        job_name: "test" # input job.<job-id>
     # Send error message via https://github.com/marketplace/actions/slack-send
     - name: Send custom JSON data to Slack workflow
       id: slack
@@ -83,14 +86,7 @@ jobs:
                 "type": "header",
                 "text": {
                   "type": "plain_text",
-                  "text": "🚨 https://github.com/${{ github.repository }} ${{ github.job }} Error"
-                }
-              },
-              {
-                "type": "section",
-                "text": {
-                  "type": "mrkdwn",
-                  "text": "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|github.com/${{ github.repository }} job '${{ github.job }}' - ${{github.run_id}}>"
+                  "text": "🚨 github.com/${{ github.repository }} \"${{ github.job }}\" job error 🚨"
                 }
               },
               {
@@ -99,6 +95,16 @@ jobs:
                   "type": "mrkdwn",
                   "text": "Details: ${{ steps.jobs.outputs.html_url }}\n${{ env.JSON_RESPONSE }}"
                 }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "Action Link:\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|https://github.com/${{ github.repository }} job '${{ github.job }}' - ${{github.run_id}}>"
+                }
+              },
+              {
+                "type": "divider"
               }
             ]
           }
