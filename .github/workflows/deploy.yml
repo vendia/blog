@@ -400,6 +400,15 @@ jobs:
 
             </details>
 
+      # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
+      - id: jobDetails
+        name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v0.1.2
+        if: ${{ failure() }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          job_name: "deploy-site" # input job.<job-id>
+          
       - name: Add failure status comment to PR
         if: ${{ failure() }}
         id: status_comment_failure
@@ -416,3 +425,43 @@ jobs:
             See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
 
             ${{ needs.test.outputs.warningContent }}
+
+      # Send error message via https://github.com/marketplace/actions/slack-send
+      - name: Send custom JSON data to Slack workflow
+        id: slack
+        if: ${{ failure() }}
+        uses: slackapi/slack-github-action@v1.23.0
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+        with:
+          # For posting a rich message using Block Kit
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "🚨 github.com/${{ github.repository }} \"${{ github.job }}\" job error 🚨"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Details: ${{ steps.jobDetails.outputs.html_url }}\n${{ env.JSON_RESPONSE }}"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Action Link:\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|https://github.com/${{ github.repository }} job '${{ github.job }}' - ${{github.run_id}}>"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
