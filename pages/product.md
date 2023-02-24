@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /product-new
+path: /product
 components:
   - type: Hero
     title: Meet Vendia Share
@@ -106,7 +106,7 @@ components:
       Vendia’s platform eliminates the need for DIY API creation and underlying infrastructure design, provisioning, and management.
 
 
-      All you need is a JSON schema – Vendia does the rest.   
+      All you need is a JSON schema – Vendia does the rest. 
 
 
       Vendia Share compiles that schema into serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.

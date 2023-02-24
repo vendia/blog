@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /about-new
+path: /about
 components:
   - type: MediaWithText
     mediaPosition: left

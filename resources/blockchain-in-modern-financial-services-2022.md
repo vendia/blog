@@ -43,8 +43,8 @@ seo:
   title: The guide for using business blockchain in the financial services industry
   description: How to create a winning data and application strategy with
     distributed ledger technology
-createdBy: ""
-createdAt: ""
+createdBy: alexa-vendia
+createdAt: 2023-01-24T23:28:54.218Z
 updatedBy: alexa-vendia
 updatedAt: 2023-01-24T23:28:54.218Z
 id: a4eb6679-8cdd-46d9-b406-769cedde75ba

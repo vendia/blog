@@ -34,8 +34,8 @@ seo:
     believe cross-cloud data sharing will unlock the next wave of innovation
   keywords: real-time data sharing, data strategy, IT innovation, data
     reconciliation, data chain of custody
-createdBy: ""
-createdAt: ""
+createdBy: alexa-vendia
+createdAt: 2023-01-25T17:20:11.219Z
 updatedBy: alexa-vendia
 updatedAt: 2023-01-25T17:20:11.219Z
 id: cd3b5df5-91cd-470f-a4a8-b36f05a3dd65
