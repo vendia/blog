@@ -1,4 +1,5 @@
-name: update-readme
+# Automatically update main readme with live links
+name: update-readme 🛠️
 
 on:
   # Manual triggers

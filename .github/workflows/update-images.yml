@@ -1,5 +1,5 @@
 # Automatically optimize and update markdown images links
-name: update-image-links
+name: update-image-links 🛠️
 
 on:
   # Manual triggers

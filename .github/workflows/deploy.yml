@@ -1,5 +1,5 @@
 # Trigger Site deployment for preview
-name: Test & Deploy
+name: Test & Deploy 🚀
 
 on:
   # Push to any tracked branches

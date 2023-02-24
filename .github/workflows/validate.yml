@@ -1,5 +1,5 @@
 # Manually trigger tests
-name: Validate Markdown Contents
+name: Test & Validate Markdown Contents 🛠️
 
 on:
   # Manual trigger from the UI
