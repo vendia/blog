@@ -58,7 +58,13 @@ jobs:
           **Errors found:**
 
           ${{ env.JSON_RESPONSE }}
-
+    # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
+    - name: Get Current Job Log URL
+      uses: Tiryoh/gha-jobid-action@v0.1.2
+      id: jobs
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        job_name: "test" # input job.<job-id>
     # Send error message via https://github.com/marketplace/actions/slack-send
     - name: Send custom JSON data to Slack workflow
       id: slack
@@ -73,9 +79,16 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "Hello there was an error ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                  "text": "**Blog Repo** validation error ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
                 }
-              }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "better link ${{ steps.jobs.outputs.html_url }}"
+                }
+              },
             ]
           }
       env:
