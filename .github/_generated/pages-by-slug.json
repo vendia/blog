@@ -23,6 +23,10 @@
     "file": "/pages/homepage.md",
     "draft": false
   },
+  "industry/telecom": {
+    "file": "/pages/industry-telecom.md",
+    "draft": false
+  },
   "legal/acceptable-use-policy": {
     "file": "/pages/legal-acceptable-use-policy.md",
     "draft": false
