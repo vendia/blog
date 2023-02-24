@@ -9,7 +9,7 @@
   },
   "contact-us": {
     "file": "/pages/contact-us.md",
-    "draft": true
+    "draft": false
   },
   "foo/bar": {
     "file": "/pages/default-title.md",
