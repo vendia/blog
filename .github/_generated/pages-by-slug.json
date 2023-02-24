@@ -7,6 +7,10 @@
     "file": "/pages/careers.md",
     "draft": false
   },
+  "contact-us": {
+    "file": "/pages/contact-us.md",
+    "draft": true
+  },
   "foo/bar": {
     "file": "/pages/default-title.md",
     "draft": true
