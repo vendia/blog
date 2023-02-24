@@ -71,6 +71,9 @@ jobs:
       id: slack
       if: ${{ failure() }}
       uses: slackapi/slack-github-action@v1.23.0
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
       with:
         # For posting a rich message using Block Kit
         payload: |
@@ -80,7 +83,7 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "[Blog Repo validation error](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+                  "text": "🚨 <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Blog Repo validation error>"
                 }
               },
               {
@@ -92,6 +95,3 @@ jobs:
               }
             ]
           }
-      env:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
