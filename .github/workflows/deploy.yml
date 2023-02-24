@@ -161,7 +161,6 @@ jobs:
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_failure
-      needs: [ jobDetails ]
       uses: marocchino/sticky-pull-request-comment@v1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
