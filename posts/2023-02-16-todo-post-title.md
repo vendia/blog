@@ -19,4 +19,4 @@ id: 7e773758-93b1-4811-a1bd-87c1dd1bdfeb
 
 TODO Blog contents here.
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp" alt="great stuff in here 'extra quotes' this 'should' work" class="image-float-left" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1670278509%252FCOT_d1fwyl.webp" alt="great stuff in here 'extra quotes' this 'should' work" class="image-float-left" />

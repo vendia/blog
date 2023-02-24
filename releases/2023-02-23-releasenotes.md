@@ -24,19 +24,19 @@ Vendia strives to constantly improve our product! This month, we’ve focused on
 
 When deploying a new Universal Application, customers are able to enable OFAC country geo-blocking. When enabled, all traffic originating from OFAC-sanctioned countries will immediately be blocked from the Uni.
 
-![](https://lh6.googleusercontent.com/_Pd-azEjs7XwQMDukMjOnWJ03faIScZgDeb6oDk6vM8ERWUoGJHOTnGxoA08jz9VszKVeWeGZxOeIw2m2dCvWxZzWDOoA0jm6ZK_-bH-jR6WGKpEofXo0Y5p0CEAOb41sNTCW0SK1O5mPVTfDkqvB8A)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh6.googleusercontent.com%252F_Pd-azEjs7XwQMDukMjOnWJ03faIScZgDeb6oDk6vM8ERWUoGJHOTnGxoA08jz9VszKVeWeGZxOeIw2m2dCvWxZzWDOoA0jm6ZK_-bH-jR6WGKpEofXo0Y5p0CEAOb41sNTCW0SK1O5mPVTfDkqvB8A.png)
 
 To enable this change for *new* Unis inside of Share, check the **Financial Services Protections** box during Step 2 of Uni deployment, as shown above. For *existing* Unis, this option can be enabled under *Uni Settings*, as shown below. 
 
 
 
-![](https://lh3.googleusercontent.com/0BnoLpxgZkae7q91tGYipsuzoCBtgNg-x_ozbFEBJVe5d7dkZmOVQfYS9FMohGmfIvO0S91ADKYUO8Cb2Nh8z715Qx_Bm4fg0NXsRFVNZhuXqwYIa8L_dz4KbrGahP6UO7KuR1RmO1wgNXhez77SEMw)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh3.googleusercontent.com%252F0BnoLpxgZkae7q91tGYipsuzoCBtgNg-x_ozbFEBJVe5d7dkZmOVQfYS9FMohGmfIvO0S91ADKYUO8Cb2Nh8z715Qx_Bm4fg0NXsRFVNZhuXqwYIa8L_dz4KbrGahP6UO7KuR1RmO1wgNXhez77SEMw.png)
 
 When deploying new Unis with the Vendia CLI, OFAC is enabled in the **registration.json file** by noting the type as **“FINANCIAL_SERVICES”**, like below.
 
 
 
-![](https://lh6.googleusercontent.com/W28ytBOikfRYLfs99spRFqOhKY4VcwNGjaV8TD4gQ2nLGyPyoM0EzWnLzAe2wfIZlyX-p_OJMNQ4EXbiHDO5LNt2GborUF4Su0ClyPWh_WXd_60SOWJDirPh6_jENFuOZwy6I5NQaLF6kL_X8gLvrzw)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh6.googleusercontent.com%252FW28ytBOikfRYLfs99spRFqOhKY4VcwNGjaV8TD4gQ2nLGyPyoM0EzWnLzAe2wfIZlyX-p_OJMNQ4EXbiHDO5LNt2GborUF4Su0ClyPWh_WXd_60SOWJDirPh6_jENFuOZwy6I5NQaLF6kL_X8gLvrzw.png)
 
 
 
@@ -48,7 +48,7 @@ When deploying new Unis with the Vendia CLI, OFAC is enabled in the **registrati
 
 We rolled out a new version of our GraphQL Explorer this month. The GraphQL Explorer gives customers the opportunity to query and mutate their Node’s data directly from the Vendia Share web app, providing a sandbox for quick data experimentation and turnaround. The GraphQL Explorer introspects the Uni's schema in order to generate a full set of APIs to interact with your data.
 
-![](https://lh6.googleusercontent.com/zgpsvmNqUAbrz7DoqZdhJECzbd2KslA_cZX_d4vMnBU6CakW0-bf1EmdkTophUPUPg29xdmGBFfv2Qpuej0lKAKfpQ3xohFYT8XlpqJaYRIv8cr_n71sAmDHpqo-W4WPO2Y5VAtxtT8PWwE3YMxvCdo)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh6.googleusercontent.com%252FzgpsvmNqUAbrz7DoqZdhJECzbd2KslA_cZX_d4vMnBU6CakW0-bf1EmdkTophUPUPg29xdmGBFfv2Qpuej0lKAKfpQ3xohFYT8XlpqJaYRIv8cr_n71sAmDHpqo-W4WPO2Y5VAtxtT8PWwE3YMxvCdo.png)
 
 Can’t go without saying - the explorer now also supports dark mode!  
 
@@ -56,7 +56,7 @@ Can’t go without saying - the explorer now also supports dark mode!  
 
 This month, we also rolled out Vendia Orgs, a way to more easily manage RBAC (Role-Based Access Control) for anyone who shares your email domain. Instead of manually setting individual policies, Vendia Orgs provides you multiple access templates to quickly delineate access across both individual Unis as well as all Unis in an organization at a user level.
 
-![](https://lh6.googleusercontent.com/QvVnnaL5O4GTi-xyXC59rTB8VtlGJYziGQDsxTPyJFUL2QvnaP8D3C5uXs71LS8lLkn9FRwFlj9vLX6NKlamC-EiB43P4-fL_wWdtkIgXR_C6qRQs8QSdB1X1RsVJLY-efUPpeOewVBtEP-lfpcaurk)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh6.googleusercontent.com%252FQvVnnaL5O4GTi-xyXC59rTB8VtlGJYziGQDsxTPyJFUL2QvnaP8D3C5uXs71LS8lLkn9FRwFlj9vLX6NKlamC-EiB43P4-fL_wWdtkIgXR_C6qRQs8QSdB1X1RsVJLY-efUPpeOewVBtEP-lfpcaurk.png)
 
 ## Try us out
 
