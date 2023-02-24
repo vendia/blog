@@ -150,10 +150,10 @@ jobs:
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
     # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
-    - name: Get Current Job Log URL
+    - id: jobDetails
+      name: Get Current Job Log URL
       uses: Tiryoh/gha-jobid-action@v0.1.2
       if: ${{ failure() }}
-      id: jobs
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         job_name: "test" # input job.<job-id>
@@ -161,6 +161,7 @@ jobs:
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_failure
+      needs: [ jobDetails ]
       uses: marocchino/sticky-pull-request-comment@v1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -169,7 +170,7 @@ jobs:
         message: |
           ❌ Oh snap! Content Validation failed! (╯°□°)╯︵ ┻━┻
 
-          ${{ steps.jobs.outputs.html_url }}
+          ${{ steps.jobDetails.outputs.html_url }}
 
           ${{ env.TEST_WARNINGS_JSON }}
 
