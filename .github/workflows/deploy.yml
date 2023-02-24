@@ -54,7 +54,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2 # We need to fetch with a depth of 2 for pull_request so we can do HEAD^2
       ## Check if files we care about have changed. Uses https://github.com/micromatch/picomatch#extglobs syntax
@@ -99,7 +99,7 @@ jobs:
     outputs:
       warningContent: ${{ steps.setWarningEnv.outputs.warningContent }}
     steps:
-    - uses: actions/checkout@v2.3.2
+    - uses: actions/checkout@v3
     # Debug
     - name: File info debug
       id: file-info
@@ -203,7 +203,7 @@ jobs:
     name: Trigger site deployment
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2
       # Debug
