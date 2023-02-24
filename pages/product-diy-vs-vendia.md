@@ -42,8 +42,8 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1674599451/Website/Iso/Security_hviynh.png"
-          alt="Security image" class="image-float-center" width="235"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269655/Website/Icons/Blue%20icons/People_95_longdc.svg"
+          alt="Security image" class="image-float-center" width="125"
           height="180" />
 
 
@@ -54,8 +54,8 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png"
-          alt="Teamwork " class="image-float-center" width="175" height="180" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269830/Website/Icons/Blue%20icons/People_82_vlq16m.svg"
+          alt="Teamwork " class="image-float-center" width="124" height="180" />
 
 
           **Easy connection for partners**
@@ -65,8 +65,8 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677177723/Website/Icons/Cloud_and_servers_ojq3bb.png"  class="image-float-center"
-          width="190" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269757/Website/Icons/Blue%20icons/Cloud_140_yxo8c3.svg"  class="image-float-center"
+          width="124" />
 
 
           **Multi-cloud support built-in**
@@ -185,6 +185,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T20:21:14.102Z
+updatedAt: 2023-02-24T20:23:07.070Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
