@@ -48,13 +48,37 @@ jobs:
         header: testStatusComment
         message: |
           ❌ Deploy failed!
-
-          **Errors found:**
-
-          ${{ env.JSON_RESPONSE }}
-
+          
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
 
           If tests passed but the site build failed, see:
           - https://github.com/vendia/site/actions/workflows/ci.yml
+
+          **Errors found:**
+
+          ${{ env.JSON_RESPONSE }}
+
+    # Send error message via https://github.com/marketplace/actions/slack-send
+    - name: Send custom JSON data to Slack workflow
+      id: slack
+      if: ${{ failure() }}
+      uses: slackapi/slack-github-action@v1.23.0
+      with:
+        # For posting a rich message using Block Kit
+        payload: |
+          {
+            "text": "GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}",
+            "blocks": [
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "GitHub Action build result: ${{ job.status }}\n${{ github.event.pull_request.html_url || github.event.head_commit.url }}"
+                }
+              }
+            ]
+          }
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
