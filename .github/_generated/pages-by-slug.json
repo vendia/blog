@@ -90,5 +90,9 @@
   "use-case/automatic-reconciliation": {
     "file": "/pages/use-case-automatic-reconciliation.md",
     "draft": false
+  },
+  "use-case/compliance": {
+    "file": "/pages/use-case-compliance.md",
+    "draft": false
   }
 }
