@@ -51,6 +51,10 @@
     "file": "/pages/new-slug-on-site.md",
     "draft": true
   },
+  "partners": {
+    "file": "/pages/partners.md",
+    "draft": false
+  },
   "privacy/cookie-list": {
     "file": "/pages/privacy-cookie-list.md",
     "draft": false
