@@ -93,7 +93,7 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "Details: ${{ steps.jobs.outputs.html_url }}\n${{ env.JSON_RESPONSE }}"
+                  "text": "Details: ${{ steps.jobDetails.outputs.html_url }}\n${{ env.JSON_RESPONSE }}"
                 }
               },
               {

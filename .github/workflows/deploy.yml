@@ -169,7 +169,7 @@ jobs:
         message: |
           ❌ Oh snap! Content Validation failed! (╯°□°)╯︵ ┻━┻
 
-          ${{ steps.jobDetails.outputs.html_url }}
+          ${{ steps.jobDetails.outputs.html_url || ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
           ${{ env.TEST_WARNINGS_JSON }}
 
@@ -177,7 +177,7 @@ jobs:
 
           ${{ env.TEST_ERRORS_JSON }}
 
-          For more information see [CI Logs](${{ steps.jobs.outputs.html_url }}) in the "${{ github.job }}" section.
+          For more information see [CI Logs](${{ steps.jobDetails.outputs.html_url || ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
