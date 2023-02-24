@@ -89,6 +89,6 @@
   },
   "use-case/automatic-reconciliation": {
     "file": "/pages/use-case-automatic-reconciliation.md",
-    "draft": true
+    "draft": false
   }
 }
