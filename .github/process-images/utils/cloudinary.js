@@ -90,7 +90,7 @@ async function getImageDetails(filePath, opts = {}) {
 const getPublicId = (imageURL) => imageURL.split("/").pop().split(".")[0]
 
 function getImageId(filePath) {
-  return path.basename(filePath).replace(/\.(png|jpe?g|gif)$/, '')
+  return path.basename(filePath).replace(/\.(png|jpe?g|gif|webp)$/, '')
 }
 
 module.exports = {
