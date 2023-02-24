@@ -87,7 +87,7 @@ async function collectImages({
   // Download
   const dowloadPromises = imagesToProcess.map(([ url, filePath ]) => {
     const imagePathName = encodeFileName(url)
-    return download({
+    const downloadInfo = {
       url,
       outputPath: path.join(outputDir, imagePathName),
       meta: {
@@ -95,7 +95,9 @@ async function collectImages({
         updatedFileName: imagePathName,
         location: filePath
       },
-    })
+    }
+    // console.log('downloadInfo', downloadInfo)
+    return download(downloadInfo)
   })
 
   const downloadedImages = await Promise.all(dowloadPromises)

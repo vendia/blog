@@ -5,7 +5,7 @@ const { download } = require('./utils/download')
 const { readImageMeta, writeImageMeta } = require('./utils/exif')
 const { uploadImage, getImageDetails, getImageId } = require('./utils/cloudinary')
 
-const imageTypes = ['.gif', '.png', '.jpg', '.jpeg']
+const imageTypes = ['.gif', '.png', '.jpg', '.jpeg', '.webp']
 function getGlobPattern(dir, extensions = imageTypes) {
   const globPatterns = extensions.map((fileType) => {
     return `${dir}/**/*${fileType}`

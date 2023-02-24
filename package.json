@@ -35,7 +35,7 @@
     "html-validate": "^6.4.0",
     "linkinator": "^2.13.6",
     "markdown-magic": "^2.6.0",
-    "mime-types": "^2.1.32",
+    "mime-types": "^2.1.35",
     "node-exiftool": "^2.3.0",
     "plop": "^2.7.4",
     "slugify": "^1.6.3",

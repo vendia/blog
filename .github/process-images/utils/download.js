@@ -2,7 +2,7 @@
 const fs = require('fs')
 const path = require('path')
 const got = require('got')
-
+const mime = require('mime-types')
 const fileExists = (s) => new Promise(r => fs.access(s, fs.F_OK, e => r(!e)))
 
 /**
@@ -56,16 +56,44 @@ async function download({
         console.log(`Error on ${url}`)
         reject(err)
       })
-      .on('finish', () => {
-        console.log(`File ${url} persisted to ${outputPath.replace(process.cwd(), '')}`)
+      .on('finish', async () => {
+        let finalOutputPath = outputPath
+        /* If no ending file extension, lookup mime type */
+        let ext = ''
+        if (!outputPath.match(/^.*\.[^\\]{3,4}$/)) {
+          const mimeType = getMimeFromPath(outputPath)
+          const fileExtension = mime.extension(mimeType)
+          // console.log('mimeType', mimeType)
+          // console.log('fileExtension', fileExtension)
+          ext = `.${fileExtension}`
+          finalOutputPath = `${outputPath}${ext}`
+          
+          /* Copy and remove image with no extension */
+          await fs.promises.copyFile(outputPath, finalOutputPath)
+          await fs.promises.unlink(outputPath)
+        }
+        console.log(`File ${url} persisted to ${finalOutputPath.replace(process.cwd(), '')}`)
         resolve({
           url: url,
-          output: outputPath,
+          output: finalOutputPath,
           cached: false,
-          meta: meta
+          meta: {
+            ...meta,
+            updatedFileName: `${meta.updatedFileName}${ext}`
+          }
         })
       })
   })
+}
+
+/**
+ * Get the file mime type from path. No extension required.
+ * @param filePath Path to the file
+ */
+function getMimeFromPath(filePath) {
+  const execSync = require('child_process').execSync;
+  const mimeType = execSync('file --mime-type -b "' + filePath + '"').toString();
+  return mimeType.trim();
 }
 
 module.exports = {

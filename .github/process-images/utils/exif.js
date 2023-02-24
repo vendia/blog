@@ -9,7 +9,7 @@ async function readImageMeta(images) {
       // alt npmjs.com/package/exifr
       data = await exiftool.read(imagePath)
     } catch (e) {
-      console.log('e', e)
+      console.log('readImageMeta Error', e)
     }
     return data
   })
