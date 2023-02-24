@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /use-case/automatic-reconciliation
 components:
@@ -124,6 +124,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T01:36:16.842Z
+updatedAt: 2023-02-24T01:37:57.665Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
