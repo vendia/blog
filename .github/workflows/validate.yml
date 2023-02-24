@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 6
     steps:
-    - uses: actions/checkout@v2.3.2
+    - uses: actions/checkout@v3
     # Install dependencies
     - uses: bahmutov/npm-install@v1
     # Run tests
@@ -38,6 +38,15 @@ jobs:
       run: |
         echo "env"
         echo "${{ env.JSON_RESPONSE }}"
+    # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
+    - id: jobDetails
+      name: Get Current Job Log URL
+      uses: Tiryoh/gha-jobid-action@v0.1.2
+      if: ${{ failure() }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        job_name: "test" # input job.<job-id>
+    # Add PR comment
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
       id: status_comment_test_failure
@@ -49,12 +58,53 @@ jobs:
         message: |
           ❌ Deploy failed!
 
-          **Errors found:**
-
-          ${{ env.JSON_RESPONSE }}
-
+          ${{ steps.jobDetails.outputs.html_url }}
+          
           For additional information see Logs in 
           - https://github.com/vendia/blog/actions/workflows/test.yml
 
           If tests passed but the site build failed, see:
           - https://github.com/vendia/site/actions/workflows/ci.yml
+
+          **Errors found:**
+
+          ${{ env.JSON_RESPONSE }}
+    # Send error message via https://github.com/marketplace/actions/slack-send
+    - name: Send custom JSON data to Slack workflow
+      id: slack
+      if: ${{ failure() }}
+      uses: slackapi/slack-github-action@v1.23.0
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+      with:
+        # For posting a rich message using Block Kit
+        payload: |
+          {
+            "blocks": [
+              {
+                "type": "header",
+                "text": {
+                  "type": "plain_text",
+                  "text": "🚨 github.com/${{ github.repository }} \"${{ github.job }}\" job error 🚨"
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "Details: ${{ steps.jobDetails.outputs.html_url }}\n${{ env.JSON_RESPONSE }}"
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "Action Link:\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|https://github.com/${{ github.repository }} job '${{ github.job }}' - ${{github.run_id}}>"
+                }
+              },
+              {
+                "type": "divider"
+              }
+            ]
+          }

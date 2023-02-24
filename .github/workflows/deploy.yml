@@ -54,7 +54,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2 # We need to fetch with a depth of 2 for pull_request so we can do HEAD^2
       ## Check if files we care about have changed. Uses https://github.com/micromatch/picomatch#extglobs syntax
@@ -99,7 +99,7 @@ jobs:
     outputs:
       warningContent: ${{ steps.setWarningEnv.outputs.warningContent }}
     steps:
-    - uses: actions/checkout@v2.3.2
+    - uses: actions/checkout@v3
     # Debug
     - name: File info debug
       id: file-info
@@ -149,6 +149,26 @@ jobs:
         echo 'TEST_ERRORS_JSON<<EOF' >> $GITHUB_ENV
         echo "$cleanErrors" >> $GITHUB_ENV
         echo 'EOF' >> $GITHUB_ENV
+    # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
+    - id: jobDetails
+      name: Get Current Job Log URL
+      uses: Tiryoh/gha-jobid-action@v0.1.2
+      if: ${{ failure() }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        job_name: "test" # input job.<job-id>
+    - name: Get job url
+      id: jobUrl
+      if: ${{ failure() }}
+      # perform secret check & put boolean result as an output
+      shell: bash
+      run: |
+        # If details null, use fallback
+        if [ "${{ steps.jobDetails.outputs.html_url }}" == "null" ]; then
+          echo "fullJobUrl=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> $GITHUB_OUTPUT;
+        else
+          echo "fullJobUrl=${{ steps.jobDetails.outputs.html_url }}" >> $GITHUB_OUTPUT;
+        fi
     # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
@@ -161,7 +181,7 @@ jobs:
         message: |
           ❌ Oh snap! Content Validation failed! (╯°□°)╯︵ ┻━┻
 
-          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ${{ steps.jobUrl.outputs.fullJobUrl }}
 
           ${{ env.TEST_WARNINGS_JSON }}
 
@@ -169,7 +189,7 @@ jobs:
 
           ${{ env.TEST_ERRORS_JSON }}
 
-          For more information see [CI Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) in the "${{ github.job }}" section.
+          For more information see [CI Logs](${{ steps.jobUrl.outputs.fullJobUrl }}) in the "${{ github.job }}" section.
 
   # generate UUID to deploy previews to
   # trigger remote CI and wait
@@ -183,7 +203,7 @@ jobs:
     name: Trigger site deployment
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2
       # Debug
@@ -380,6 +400,15 @@ jobs:
 
             </details>
 
+      # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
+      - id: jobDetails
+        name: Get Current Job Log URL
+        uses: Tiryoh/gha-jobid-action@v0.1.2
+        if: ${{ failure() }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          job_name: "deploy-site" # input job.<job-id>
+          
       - name: Add failure status comment to PR
         if: ${{ failure() }}
         id: status_comment_failure
@@ -396,3 +425,43 @@ jobs:
             See Logs in https://github.com/vendia/site/actions/workflows/ci.yml to find out why.
 
             ${{ needs.test.outputs.warningContent }}
+
+      # Send error message via https://github.com/marketplace/actions/slack-send
+      - name: Send custom JSON data to Slack workflow
+        id: slack
+        if: ${{ failure() }}
+        uses: slackapi/slack-github-action@v1.23.0
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+        with:
+          # For posting a rich message using Block Kit
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "🚨 github.com/${{ github.repository }} \"${{ github.job }}\" job error 🚨"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Details: ${{ steps.jobDetails.outputs.html_url }}\n${{ env.JSON_RESPONSE }}"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Action Link:\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|https://github.com/${{ github.repository }} job '${{ github.job }}' - ${{github.run_id}}>"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
