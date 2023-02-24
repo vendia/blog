@@ -68,7 +68,7 @@ components:
           width="75" />
 
 
-          ##### Telecomm
+          ##### Telecom
 
 
           Automate data sharing workflows and scale with privacy, governance, and access control built in.
@@ -308,9 +308,9 @@ seo:
   noindex: false
   title: "Vendia "
   description: Real-time data sharing across partners, clouds, and systems
-createdBy: ""
-createdAt: ""
+createdBy: Caroll Casbeer
+createdAt: 2023-02-24T23:55:54.831Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T18:25:57.606Z
+updatedAt: 2023-02-24T23:55:54.831Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
