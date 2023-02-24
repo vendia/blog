@@ -126,7 +126,7 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269750/Website/Icons/Blue%20icons/Cloud_115_ske4iu.svg"  class="image-float-left"
           height="50" />
 
 
@@ -137,7 +137,7 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677179185/Website/Icons/Files_and_heirarchy_uhcnzb.png"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269780/Website/Icons/Blue%20icons/Files_31_bx4xad.svg"  class="image-float-left"
           height="50" />
 
 
@@ -148,7 +148,7 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677179322/Website/Icons/GDPR_04_rulzsr.png"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269789/Website/Icons/Blue%20icons/GDPR_14_fjwy8h.svg"  class="image-float-left"
           height="50" />
 
 
@@ -185,6 +185,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T01:22:09.840Z
+updatedAt: 2023-02-24T20:21:14.102Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
