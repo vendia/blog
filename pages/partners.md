@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /partners
 components:
@@ -21,6 +21,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T19:08:28.541Z
+updatedAt: 2023-02-24T19:08:36.257Z
 id: f612b22e-5e1a-4e10-bb17-706ec71e357c
 ---
