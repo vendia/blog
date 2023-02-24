@@ -23,6 +23,10 @@
     "file": "/pages/homepage.md",
     "draft": false
   },
+  "industry/supply-chain": {
+    "file": "/pages/industry-supply-chain.md",
+    "draft": true
+  },
   "industry/telecom": {
     "file": "/pages/industry-telecom.md",
     "draft": false
