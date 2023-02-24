@@ -157,18 +157,18 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         job_name: "test" # input job.<job-id>
-    - name: Get job url
-      id: jobUrl
-      if: ${{ failure() }}
-      # perform secret check & put boolean result as an output
-      shell: bash
-      run: |
-        # If details null, use fallback
-        if [ -z "${{ steps.jobDetails.outputs.html_url }}" ]
-          echo "fullJobUrl=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> $GITHUB_OUTPUT;
-        else
-          echo "fullJobUrl=${{ steps.jobDetails.outputs.html_url }}" >> $GITHUB_OUTPUT;
-        fi
+    # - name: Get job url
+    #   id: jobUrl
+    #   if: ${{ failure() }}
+    #   # perform secret check & put boolean result as an output
+    #   shell: bash
+    #   run: |
+    #     # If details null, use fallback
+    #     if [ -z "${{ steps.jobDetails.outputs.html_url }}" ]
+    #       echo "fullJobUrl=${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> $GITHUB_OUTPUT;
+    #     else
+    #       echo "fullJobUrl=${{ steps.jobDetails.outputs.html_url }}" >> $GITHUB_OUTPUT;
+    #     fi
     # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
@@ -181,7 +181,7 @@ jobs:
         message: |
           ❌ Oh snap! Content Validation failed! (╯°□°)╯︵ ┻━┻
 
-          ${{ steps.jobUrl.outputs.fullJobUrl }}
+          ${{ steps.jobDetails.outputs.html_url }}
 
           ${{ env.TEST_WARNINGS_JSON }}
 
