@@ -3,14 +3,8 @@ draft: false
 template: page
 path: /about-new
 components:
-  - type: Hero
-    title: Trust is the standard
-    text: We give leaders the power to access and act on real, real-time data while
-      operating in a trusted data alliance — no matter how many data inputs,
-      partners, or clouds they call.
-    contentAlignment: Left
-    hideSeparator: true
-  - type: Text
+  - type: MediaWithText
+    mediaPosition: left
     text: >-
       # Who we are
 
@@ -23,6 +17,8 @@ components:
 
       Our flagship product is [Vendia Share](https://www.vendia.com/product), and it’s trusted by leaders in both grassroots nonprofits and the Global 2000.
     theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324484/Blog%20images/VendiaCelebrationIso_2_jai8ct.png
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -232,6 +228,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T23:36:18.592Z
+updatedAt: 2023-02-24T19:01:54.917Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
