@@ -61,6 +61,7 @@ jobs:
     # Get job id for better links https://github.com/marketplace/actions/github-actions-job_id-parser
     - name: Get Current Job Log URL
       uses: Tiryoh/gha-jobid-action@v0.1.2
+      if: ${{ failure() }}
       id: jobs
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
