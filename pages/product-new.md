@@ -14,7 +14,7 @@ components:
       - label: Contact sales
         url: https://meetings.hubspot.com/aashish3/contact-sales
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1666829792/user-images.githubusercontent.com..107442245..198142583-7df66b47-19d7-404f-a78e-8b0443f57804.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
   - type: Logos
     logos:
       - BMW
@@ -121,6 +121,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T01:07:16.213Z
+updatedAt: 2023-02-24T19:50:37.224Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
