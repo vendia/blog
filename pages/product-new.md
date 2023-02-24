@@ -5,7 +5,7 @@ path: /product-new
 components:
   - type: Hero
     title: Meet Vendia Share
-    text: Partner data sharing platform
+    text: Learn more about our partner data sharing platform
     contentAlignment: Left
     hideSeparator: false
     callToActions:
@@ -30,6 +30,8 @@ components:
     theme: white
     intro:
       title: Trusted partner data sharing platform
+      text: "Our serverless distributed ledger makes partner data sharing easier,
+        faster, and cost effective. "
     columns:
       - text: >-
           <img
@@ -119,6 +121,6 @@ seo:
 createdBy: ""
 createdAt: ""
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-23T22:29:14.422Z
+updatedAt: 2023-02-24T01:07:16.213Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
