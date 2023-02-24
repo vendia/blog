@@ -159,6 +159,7 @@ jobs:
         job_name: "test" # input job.<job-id>
     - name: Get job url
       id: jobUrl
+      if: ${{ failure() }}
       # perform secret check & put boolean result as an output
       shell: bash
       run: |
