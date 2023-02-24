@@ -80,14 +80,21 @@ jobs:
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "**Blog Repo** validation error ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                  "text": "[Blog Repo validation error](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
                 }
               },
               {
                 "type": "section",
                 "text": {
                   "type": "mrkdwn",
-                  "text": "better link ${{ steps.jobs.outputs.html_url }}"
+                  "text": "Details: ${{ steps.jobs.outputs.html_url }}"
+                }
+              },
+              {
+                "type": "section",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": "${{ env.JSON_RESPONSE }}"
                 }
               }
             ]
