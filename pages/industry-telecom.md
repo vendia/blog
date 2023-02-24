@@ -12,7 +12,7 @@ components:
       - label: Get a demo
         url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677267414/Website/Iso/Group_ct3y2m.svg
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677277457/Website/Iso/Group_movfap.png
       altText: wind machines
   - type: MediaWithText
     mediaPosition: left
@@ -34,7 +34,7 @@ seo:
   noindex: false
 createdBy: ""
 createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T19:45:26.829Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-02-24T22:25:17.765Z
 id: 8192774c-ac09-4d62-92ed-7f1bacc2dfc0
 ---
