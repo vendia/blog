@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /use-case/automatic-reconciliation
+path: /use-cases/automatic-reconciliation
 components:
   - type: Hero
     title: Automatic reconciliation
@@ -121,9 +121,9 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600147/Website/Iso/Vendia_Web_Finance_hero_1_ubwep1.png
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
+createdBy: Caroll Casbeer
+createdAt: 2023-02-25T02:58:16.742Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T01:37:57.665Z
+updatedAt: 2023-02-25T02:58:16.742Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
