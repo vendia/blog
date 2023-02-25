@@ -54,8 +54,20 @@
       "status": 301,
       "from": "/blog/are-blockchains-databases",
       "to": "/blog/databases-versus-blockchain"
+    },
+    {
+      "status": 301,
+      "from": "/use-cases/chain-of-custody",
+      "to": "/use-case/chain-of-custody"
+    },
+    {
+      "status": 301,
+      "from": "/use-cases/automatic-reconciliation",
+      "to": "/use-case/automatic-reconciliation"
     }
   ],
-  "updatedAt": "2023-02-14T23:19:10.259Z",
-  "updatedBy": "Caroll Casbeer"
+  "updatedAt": "2023-02-25T03:01:02.831Z",
+  "updatedBy": "Caroll Casbeer",
+  "createdBy": "Caroll Casbeer",
+  "createdAt": "2023-02-25T03:01:02.831Z"
 }
