@@ -25,7 +25,7 @@
   },
   "industry/supply-chain": {
     "file": "/pages/industry-supply-chain.md",
-    "draft": true
+    "draft": false
   },
   "industry/telecom": {
     "file": "/pages/industry-telecom.md",
