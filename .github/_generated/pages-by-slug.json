@@ -114,5 +114,9 @@
   "use-case/compliance": {
     "file": "/pages/use-case-compliance.md",
     "draft": false
+  },
+  "use-cases/partner-data-sharing": {
+    "file": "/pages/use-cases-partner-data-sharing.md",
+    "draft": false
   }
 }
