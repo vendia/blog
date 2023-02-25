@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /use-cases/automatic-reconciliation
+path: /use-case/automatic-reconciliation
 components:
   - type: Hero
     title: Automatic reconciliation
@@ -124,6 +124,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T02:58:16.742Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-25T02:58:16.742Z
+updatedAt: 2023-02-25T02:58:54.452Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
