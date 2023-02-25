@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /industry/supply-chain
 components:
@@ -43,9 +43,9 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
+createdBy: Caroll Casbeer
+createdAt: 2023-02-25T03:01:24.818Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T20:06:59.829Z
+updatedAt: 2023-02-25T03:01:24.818Z
 id: ac91ffe5-7049-4f69-a82b-2716dfc26246
 ---
