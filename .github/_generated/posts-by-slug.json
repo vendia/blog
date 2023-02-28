@@ -1,8 +1,4 @@
 {
-  "test-slug-delete-this": {
-    "file": "/posts/2023-02-16-todo-post-title.md",
-    "draft": true
-  },
   "what-do-business-data-networks-look-like": {
     "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
     "draft": false
