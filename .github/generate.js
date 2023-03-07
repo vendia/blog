@@ -74,8 +74,8 @@ const config = {
         const postSlug = getSlug(fileName, data)
         const url = `${SITE_URL}/blog/${postSlug}`
         const desc = data.description.trim().replace(/\.$/, '')
-        // const formattedDescription = stringBreak(desc, 80).join('<br/>')
-        const description = (data.description) ? `<br/> ${desc}` : ''
+        const formattedDescription = stringBreak(desc, 80).join('<br/>')
+        const description = (data.description) ? `<br/> ${formattedDescription}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
