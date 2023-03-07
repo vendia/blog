@@ -36,7 +36,7 @@ jobs:
         os: [ubuntu-latest]
         node: [14]
     steps:
-      - uses: actions/checkout@v2.3.2
+      - uses: actions/checkout@v3
       - uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
@@ -64,10 +64,10 @@ jobs:
           git add .
           if [ -n "$(git status --porcelain)" ]; then
             echo 'Has changes';
-            echo "::set-output name=has_changes::true";
+            echo "has_changes=true" >> $GITHUB_OUTPUT
           else
             echo 'Has no changes';
-            echo "::set-output name=has_changes::false";
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
           git diff-index --quiet HEAD || git commit -m "chore: update image links to CDN version [skip ci]"
           # Pull again to make sure we can push
