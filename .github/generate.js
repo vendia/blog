@@ -64,7 +64,7 @@ const config = {
       filteredMarkdownData = mdDataToUse
       
       /* Make Markdown Table */
-      let md = `| Post Details | Published-Date | edit |\n`;
+      let md = `| Post Details | Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
       mdDataToUse.sort(sortByDate('date')).forEach((item) => {
         // console.log('item', item)
@@ -76,7 +76,7 @@ const config = {
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${data.title}](${url}) ${description}${authors} | \`${convertDateToString(data.date)}\` | [✍️](${editLink})\n`;
+        md += `| [${data.title}](${url}) ${description}${authors} | <sup><sub>${convertDateToString(data.date)}</sub></sup> | [✍️](${editLink})\n`;
       })
 
       return md;
