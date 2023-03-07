@@ -65,7 +65,7 @@ const config = {
       filteredMarkdownData = mdDataToUse
       
       /* Make Markdown Table */
-      let md = `| Post Details | Published-Date | edit |\n`;
+      let md = `| Post Details | Date Published | Actions |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
       mdDataToUse.sort(sortByDate('date')).forEach((item) => {
         // console.log('item', item)
@@ -76,10 +76,11 @@ const config = {
         const desc = data.description.trim().replace(/\.$/, '')
         const formattedDescription = stringBreak(desc, 80).join('<br/>')
         const description = (data.description) ? `<br/> ${formattedDescription}` : ''
+        const cmsLink = `https://www.vendia.com/blog/admin#/collections/posts/entries/${fileName.replace(/\.md$/, '')}`
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${stringBreak(data.title, 80).join('<br/>')}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
+        md += `| [${stringBreak(data.title, 80).join('<br/>')}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${cmsLink})‎‎[🛠️](${editLink})\n`;
       })
 
       return md;
