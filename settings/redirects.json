@@ -2,11 +2,6 @@
   "redirects": [
     {
       "status": 301,
-      "from": "/foo",
-      "to": "/bar"
-    },
-    {
-      "status": 301,
       "from": "/blog/announcing-new-features",
       "to": "/blog/azure-support-smart-contracts"
     },
@@ -64,10 +59,15 @@
       "status": 301,
       "from": "/use-cases/automatic-reconciliation",
       "to": "/use-case/automatic-reconciliation"
+    },
+    {
+      "status": 301,
+      "from": "/blog/category/guidance",
+      "to": "/blog/category/product"
     }
   ],
-  "updatedAt": "2023-02-25T03:01:02.831Z",
-  "updatedBy": "Caroll Casbeer",
+  "updatedAt": "2023-03-07T16:41:54.220Z",
+  "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
 }
