@@ -9,22 +9,14 @@ on:
     types:
       - markdown-magic
 
+# Cancel in flight jobs
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
 env:
   FORCE_COLOR: true
 
 jobs:
-  # Cancel any duplicate already running jobs
-  pre-job:
-    name: Pre-job
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [14]
-    steps:
-      - uses: technote-space/auto-cancel-redundant-workflow@v1
-      - name: Cancel redundant workflows
-        run: echo "Cancel redundant workflows finished"
   # Update the posts list of the repo
   update:
     runs-on: ${{ matrix.os }}
