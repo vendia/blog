@@ -80,7 +80,7 @@ const config = {
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${stringBreak(data.title, 80).join('<br/>')}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${cmsLink})‎‎[🛠️](${editLink})\n`;
+        md += `| [${stringBreak(data.title, 80).join('<br/>')}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${cmsLink} "Edit in CMS") - [🛠️](${editLink} "Edit on GitHub")\n`;
       })
 
       return md;
