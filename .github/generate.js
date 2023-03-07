@@ -75,10 +75,10 @@ const config = {
         const url = `${SITE_URL}/blog/${postSlug}`
         const desc = data.description.trim().replace(/\.$/, '')
         const formattedDescription = stringBreak(desc, 72).join('<br/>')
-        const description = (data.description) ? `<br/>${formattedDescription}` : ''
+        const description = (data.description) ? `<br/>${formattedDescription}.` : ''
         const cmsLink = `https://www.vendia.com/blog/admin#/collections/posts/entries/${fileName.replace(/\.md$/, '')}`
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
-        const authors = (data.authors) ? `<br/><sup><sub><b>Written by ${data.authors.join(' + ')}</b></sub></sup>` : ''
+        const authors = (data.authors) ? `<br/><sup><sub>Written by ${data.authors.join(' + ')}.</sub></sup>` : ''
         // add table rows
         md += `| [${stringBreak(data.title, 80).join('<br/>')}](${url})${authors}${description} | ${convertDateToString(data.date)} | [✍️](${cmsLink} "Edit in CMS") - [🛠️](${editLink} "Edit on GitHub")\n`;
       })
