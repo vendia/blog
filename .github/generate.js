@@ -76,7 +76,7 @@ const config = {
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${data.title}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
+        md += `| [${data.title}](${url}) ${description}${authors} | \`${convertDateToString(data.date)}\` | [✍️](${editLink})\n`;
       })
 
       return md;
