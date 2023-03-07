@@ -15,6 +15,7 @@ const {
   DATE_FORMAT_REGEX
 } = require('./get-md-data')
 const { convertDateToString } = require('./md-utils/utils')
+const stringBreak = require('./utils/string-break')
 
 let fullMarkdownData = []
 let filteredMarkdownData = []
@@ -64,7 +65,7 @@ const config = {
       filteredMarkdownData = mdDataToUse
       
       /* Make Markdown Table */
-      let md = `| Post Details | Date | edit |\n`;
+      let md = `| Post Details | Published-Date | edit |\n`;
       md +=    '|:-------------|:--------------:|:---:|\n';
       mdDataToUse.sort(sortByDate('date')).forEach((item) => {
         // console.log('item', item)
@@ -72,11 +73,13 @@ const config = {
         const fileName = path.basename(file)
         const postSlug = getSlug(fileName, data)
         const url = `${SITE_URL}/blog/${postSlug}`
-        const description = (data.description) ? `<br/> ${data.description.trim().replace(/\.$/, '')}` : ''
+        const desc = data.description.trim().replace(/\.$/, '')
+        // const formattedDescription = stringBreak(desc, 80).join('<br/>')
+        const description = (data.description) ? `<br/> ${desc}` : ''
         const editLink = `https://github.com/vendia/blog/edit/master/posts/${fileName}`
         const authors = (data.authors) ? ` by ${data.authors.join(' + ')}` : ''
         // add table rows
-        md += `| [${data.title}](${url}) ${description}${authors} | <sup><sub>${convertDateToString(data.date)}</sub></sup> | [✍️](${editLink})\n`;
+        md += `| [${stringBreak(data.title, 80).join('<br/>')}](${url}) ${description}${authors} | ${convertDateToString(data.date)} | [✍️](${editLink})\n`;
       })
 
       return md;

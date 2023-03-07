@@ -39,6 +39,7 @@
     "node-exiftool": "^2.3.0",
     "plop": "^2.7.4",
     "slugify": "^1.6.3",
+    "string-width": "^4.2.3",
     "uvu": "^0.5.1"
   },
   "dependencies": {
