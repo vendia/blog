@@ -57,6 +57,8 @@ const config = {
       const IGNORE_LIST = ['draft-example.md', 'typography.mdx']
       const mdDataToUse = mdData.filter((p) => {
         return !IGNORE_LIST.includes(path.basename(p.file))
+      }).filter((p) => {
+        return p && p.data && p.data.draft !== true 
       })
 
       filteredMarkdownData = mdDataToUse
