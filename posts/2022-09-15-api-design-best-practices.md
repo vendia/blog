@@ -10,7 +10,7 @@ authors:
 categories:
   - concepts
   - smart-apis
-  - guidance
+  - product
 relatedPosts:
   - 2022-10-27-codeless-apis
   - 2022-08-26-crud-new-rules-for-apis

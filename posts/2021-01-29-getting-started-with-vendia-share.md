@@ -14,7 +14,7 @@ date: 2021-01-29
 authors:
   - Vendia
 categories:
-  - guidance
+  - product
 relatedPosts:
   - 2021-01-25-supply-chain-visibility-with-vendia-share
   - 2022-10-21-api-security-graphql

@@ -8,7 +8,7 @@ date: 2020-11-16
 authors:
   - Vendia
 categories:
-  - guidance
+  - product
   - real-time-data-sharing
 relatedPosts:
   - 2021-01-25-supply-chain-visibility-with-vendia-share
