@@ -5,7 +5,7 @@ path: /product/diy-vs-vendia
 components:
   - type: Hero
     title: Eliminate costs and accelerate innovation.
-    text: There's no longer any need to DIY or recreate an enterprise-grade backend
+    text: There's no longer any need to DIY or recreate an enterprise-grade backend.
     contentAlignment: Left
     hideSeparator: true
     callToActions:
@@ -36,9 +36,9 @@ components:
         first and only enterprise data sharing solution that combines the best
         of all three.
     intro:
-      title: APIs, blockchains, and databases, together at last.
-      text: Vendia Share combines the best of functions, features, and benefits of
-        these proven technologies and IT workhorses.
+      title: APIs, blockchains, and databases together at last.
+      text: Vendia Share combines the best functions, features, and benefits of these
+        proven technologies and IT workhorses.
   - type: Columns
     theme: white
     columns:
@@ -187,6 +187,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-08T23:47:44.102Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T23:47:44.102Z
+updatedAt: 2023-03-08T23:55:24.524Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
