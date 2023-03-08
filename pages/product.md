@@ -52,7 +52,7 @@ components:
           **Smart APIs**
 
 
-          Combine the strong operational security of conventional APIs with the ability to easily model and evolve the data schema.
+          Combine the strong operational security of conventional APIs with the ability to easily model and evolve the data schema and operate with "smart" APIs.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-center"
@@ -62,7 +62,7 @@ components:
           **Storage across clouds**
 
 
-          Enhance the unlimited long-term data storage and easy queryability of a conventional centralized database with storage for files and multi-cloud, cross-party data sharing.
+          Enhance the unlimited long-term data storage and easy queryability of a conventional centralized database with file storage and multi-cloud, cross-party data sharing.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676598852/Website/Icons/Enterprise_Buildings_rq2o39.png"  class="image-float-center"
@@ -72,7 +72,7 @@ components:
           **Enterprise-grade, as a service**
 
 
-          Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing – all with zero ops footprint.
+          Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing partnerships — all with a zero ops footprint.
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -121,6 +121,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T22:54:07.384Z
+updatedAt: 2023-03-08T22:57:38.257Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
