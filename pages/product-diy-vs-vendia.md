@@ -4,29 +4,26 @@ template: page
 path: /product/diy-vs-vendia
 components:
   - type: Hero
-    title: No more DIY delays
-    text: Don't recreate an enterprise-grade backend
+    title: Eliminate costs and accelerate innovation.
+    text: There's no longer any need to DIY or recreate an enterprise-grade backend
     contentAlignment: Left
     hideSeparator: true
     callToActions:
       - url: https://share.vendia.net
-        label: Get started for free
+        label: Try Vendia Share
   - type: MediaWithText
     mediaPosition: left
     text: >-
-      ## Eliminate costs.
+      # No more DIY roadblocks
 
 
-      ## Accelerate innovation.
-
-
-      The costs of building secure data sharing solutions, especially for point-to-point APIs between partners, are staggering.
+      The operational and opportunity costs of building secure data sharing solutions, especially for point-to-point APIs between partners, are staggering.
 
 
       Companies have tried various approaches to lower these costs, reduce risks, and improve time to market for IT projects. Creating solutions that can share real-time data across applications, companies, clouds, geographies, and IT stacks is both difficult and costly and, at the same time, incredibly repetitive.
 
 
-      <Button kind="secondary" label="Learn more" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
+      <Button kind="secondaryGhostPurple" label="Learn more" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671581338/Website/Iso/Launch-4_viwhxa.png
@@ -34,9 +31,14 @@ components:
     theme: light
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677201427/Ven_Diagram_Vendia_xye9v4.png
+      altText: A Venn diagram featuring three overlapping circles showing blockchain,
+        managed APIs, and cloud database technology comping together for the
+        first and only enterprise data sharing solution that combines the best
+        of all three.
     intro:
-      title: Combining the best of proven technologies
-      text: "APIs, Blockchains, and Databases, together at last. "
+      title: APIs, blockchains, and databases, together at last.
+      text: Vendia Share combines the best of functions, features, and benefits of
+        these proven technologies and IT workhorses.
   - type: Columns
     theme: white
     columns:
@@ -50,7 +52,7 @@ components:
           **Multi-party data sharing in real-time**
 
 
-          Share real-time data across multiple parties, with fine-grained access control that ensures the right partners see the right data at the right time.
+          Share real-time data across multiple parties with fine-grained access control. The right partners see the right data at the right time. No exceptions.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -61,7 +63,7 @@ components:
           **Easy connection for partners**
 
 
-          Connecting to a secure Vendia Share application is as simple as scanning a QR code. Invite partners to a Vendia partner network with a click from an email, or a scan from a phone.
+          Connecting to a secure Vendia Share application is as simple as scanning a QR code. Invite partners with a click from an email, or a scan from a phone.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -72,30 +74,30 @@ components:
           **Multi-cloud support built-in**
 
 
-          Vendia partner nodes can run in any cloud. This means you make it easy to include any partner in any region or cloud without having to build and run multi-cloud infrastructure.
+          Partners can operate in any cloud, making it easy to include any partner in any region or cloud without the need to build and run multi-cloud infrastructure.
         wrapTheColumnInACard: false
     intro:
-      title: Secure sharing, as a service
+      title: Secure sharing as a service
       text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
-        services.
+        services with Vendia Share.
   - type: MediaWithTextTwoColumns
     mediaPosition: right
     column1: >-
       **BYO Schema**
 
 
-      Vendia Share translates you JSON schema into customized serverless resources. Plus, with schema evolution support, it’s easy to evolve the data model as the business changes.
+      Vendia Share translates your JSON schema into customized Serverless resources. Plus, with schema evolution support, it’s easy to evolve the data model quickly and responsivelyas the business needs change.
 
 
-      [Learn more about schema evolution ](https://www.vendia.com/blog/schema-evolution)
+      [Learn about schema evolution ](https://www.vendia.com/blog/schema-evolution)
     column2: >-
       **Auto-generated APIs and databases**
 
 
-      Vendia Share's Smart APIs connect to your data model – data-aware APIs that run on the fully-managed https-based GraphQL engine for reading and writing your data, with full type checkin.
+      Vendia Share's smart APIs connect to your data model — data-aware APIs that run on the fully-managed https-based GraphQL engine for reading and writing your data with full type checking.
 
 
-      [Check out Smart APIs](https://www.vendia.com/blog/smart-apis)
+      [Check out smart APIs](https://www.vendia.com/blog/smart-apis)
     theme: white
     title: It's easy to get started
     image:
@@ -182,9 +184,9 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677022472/Website/Product%20thumbnails/Thumnails_for_Vendia_Share_dcyovl.png
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T20:23:07.070Z
+createdBy: alexa-vendia
+createdAt: 2023-03-08T23:47:44.102Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-08T23:47:44.102Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
