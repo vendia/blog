@@ -1,30 +1,4 @@
 {
-  "david-wells": [
-    {
-      "file": "/posts/2023-03-03-todo-post-title.md",
-      "draft": true,
-      "slug": "delete-this-post",
-      "title": "TODO post title",
-      "description": "xyz",
-      "date": "2023-03-03T00:00:00.000Z",
-      "authors": [
-        "David Wells"
-      ],
-      "categories": [
-        "company"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "xyz",
-        "description": "xyz"
-      },
-      "createdBy": "David Wells",
-      "createdAt": "2023-03-03T18:53:37.274Z",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-03-03T21:58:24.963Z",
-      "id": "ebf8cf9e-0629-418e-81f2-c2af92b8aa54"
-    }
-  ],
   "tim-wagner": [
     {
       "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
@@ -156,35 +130,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:49:14.410Z",
       "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    },
-    {
-      "file": "/posts/2022-12-20-vendia-presents-extreme-testing.md",
-      "draft": true,
-      "slug": "extreme-testing-with-vendia",
-      "title": "Vendia Presents: Extreme Testing",
-      "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-06-30-welcome-to-vendia",
-        "2020-07-01-meet-vendias-founders"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Vendia presents: Extreme Testing",
-        "description": "Tim Wagner, CEO of Vendia, talks about how the past few years' bottlenecks, shortages, and high volatility are really a symptom of a bigger business problem.",
-        "keywords": "Blockchain, data sharing, supply chain"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:41:14.448Z",
-      "id": "9a31cf04-62d0-45f8-8170-87c36b4331fc"
     },
     {
       "file": "/posts/2022-12-08-5-patterns-for-successful-data-traceability.md",
@@ -737,17 +682,6 @@
         "Tim Wagner"
       ],
       "id": "4ae3e722-f7ee-4882-aa9e-30e8f4734929"
-    },
-    {
-      "file": "/posts/2022-04-20-nft-it-business-example.md",
-      "draft": true,
-      "title": "3 Body Problem Part 3: Comparing Approaches with Adobe Stock™️ example",
-      "description": "Let’s look at how Centralized IT and NFTs may solve for tracking Adobe Stock licenses",
-      "date": "2022-04-20",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "id": "f8d55d96-ed4b-4ba6-b4a5-4298bee49e03"
     },
     {
       "file": "/posts/2022-04-15-blockchains-vs-cloud-and-it.md",
@@ -1640,29 +1574,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-01-12T20:58:44.743Z",
       "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
-    },
-    {
-      "file": "/posts/2022-09-10-new-podcast.md",
-      "draft": true,
-      "title": "New podcast: Circles of Trust launching this fall",
-      "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans..",
-      "date": "2022-09-10T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
-      "seo": {
-        "title": "New podcast: Circles of Trust launching this fall",
-        "description": "Get real talk on real-time data sharing, the perfect brain food for innovation evangelists, business strategists, passionate developers, and next-gen technology fans.."
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T20:20:53.288Z",
-      "id": "0403d3c0-3347-4cfa-8b45-3fde05224350"
     },
     {
       "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
@@ -2828,34 +2739,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-07T00:49:07.256Z",
       "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "draft": true,
-      "title": "The global supply chain is broken — can blockchain help?",
-      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
-      "date": "2022-02-09T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2020-11-05-track-and-trace",
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [
-        "supply chain, manufacturing"
-      ],
-      "seo": {
-        "title": "The global supply chain is broken — can blockchain help?",
-        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:29:17.674Z",
-      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
     },
     {
       "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",

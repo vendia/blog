@@ -21,7 +21,7 @@
   },
   "": {
     "file": "/pages/homepage.md",
-    "draft": false
+    "draft": true
   },
   "industry/supply-chain": {
     "file": "/pages/industry-supply-chain.md",

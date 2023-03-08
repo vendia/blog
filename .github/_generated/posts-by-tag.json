@@ -5698,36 +5698,6 @@
       "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
     }
   ],
-  "supply chain, manufacturing": [
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "draft": true,
-      "title": "The global supply chain is broken — can blockchain help?",
-      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
-      "date": "2022-02-09T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2020-11-05-track-and-trace",
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [
-        "supply chain, manufacturing"
-      ],
-      "seo": {
-        "title": "The global supply chain is broken — can blockchain help?",
-        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:29:17.674Z",
-      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
-    }
-  ],
   "DDD, Domain Driven Design, private blockchain, distributed ledger technology, uni": [
     {
       "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
