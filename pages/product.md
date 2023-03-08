@@ -29,9 +29,9 @@ components:
   - type: Columns
     theme: white
     intro:
-      title: Trusted partner data sharing platform
+      title: The trusted partner data sharing platform
       text: "Our serverless distributed ledger makes partner data sharing easier,
-        faster, and cost effective. "
+        faster, and rich with cost savings. "
     columns:
       - text: >-
           <img
@@ -39,10 +39,10 @@ components:
           width="50" height="50" />
 
 
-          **Next-gen blockchain, cloud scale**
+          **Cloud scale, enterprise blockchain**
 
 
-          Ensure consistent, accurate, and secure data that spans clouds, companies, and geographies by leveling up blockchain with cloud scale and low latency.
+          Ensure consistent, accurate, and secure data that spans clouds, companies, and geographies with next-gen blockchain with cloud scale and low latency.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677022678/Website/Icons/API_Icon_doq9dr.png"  class="image-float-center"
@@ -52,7 +52,7 @@ components:
           **Smart APIs**
 
 
-          Combine strong operational security of conventional APIs with the ability to easily model and evolve the data schema.
+          Combine the strong operational security of conventional APIs with the ability to easily model and evolve the data schema.
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"  class="image-float-center"
@@ -120,7 +120,7 @@ seo:
   noindex: false
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-03-08T22:43:30.251Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-08T22:51:41.626Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
