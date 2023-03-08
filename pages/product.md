@@ -5,7 +5,8 @@ path: /product
 components:
   - type: Hero
     title: Meet Vendia Share
-    text: Learn more about our partner data sharing platform
+    text: "Our serverless distributed ledger makes partner data sharing easier,
+      faster, and rich with cost savings. "
     contentAlignment: Left
     hideSeparator: false
     callToActions:
@@ -30,8 +31,8 @@ components:
     theme: white
     intro:
       title: The trusted partner data sharing platform
-      text: "Our serverless distributed ledger makes partner data sharing easier,
-        faster, and rich with cost savings. "
+      text: Vendia Share was envisioned and built by the inventor of Serverless and a
+        hand-picked team of the best developers in the world.
     columns:
       - text: >-
           <img
@@ -136,6 +137,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T23:21:20.718Z
+updatedAt: 2023-03-08T23:25:04.687Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
