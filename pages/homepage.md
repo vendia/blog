@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: page
 path: /
 components:
@@ -15,16 +15,13 @@ components:
   - type: MediaWithText
     mediaPosition: left
     text: >-
-      ## Sharing is hard.
+      ## Data sharing is hard.
 
 
       Data sharing between partners is even harder. 
 
 
-      ## Enter Vendia Share.
-
-
-      Your partner data-sharing platform for secure, compliant, real-time collaboration.
+      That’s why we built Vendia Share. Bring trust and a single source of truth to partner data sharing and secure, compliant, real-time collaboration — no matter your partners’  geographies, stack of systems, data architecture, or clouds.
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677173496/Website/Iso/Teamwork_coding_uyprvd.png
@@ -311,6 +308,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-24T23:55:54.831Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T23:55:54.831Z
+updatedAt: 2023-03-08T22:43:00.320Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
