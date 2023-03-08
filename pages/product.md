@@ -10,7 +10,7 @@ components:
     hideSeparator: false
     callToActions:
       - label: Start free trial
-        url: share.vendia.net?utm_source=internal&utm_medium=product-page&utm_campaign=vendia
+        url: https://share.vendia.net/
       - label: Contact sales
         url: https://meetings.hubspot.com/aashish3/contact-sales
     image:
@@ -118,9 +118,9 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677022472/Website/Product%20thumbnails/Thumnails_for_Vendia_Share_dcyovl.png
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
+createdBy: Caroll Casbeer
+createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T19:50:37.224Z
+updatedAt: 2023-03-08T22:43:30.251Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
