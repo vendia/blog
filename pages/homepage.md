@@ -24,12 +24,13 @@ components:
       That’s why we built Vendia Share. Bring trust and a single source of truth to partner data sharing and secure, compliant, real-time collaboration — no matter your partners’  geographies, stack of systems, data architecture, or clouds.
     theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677173496/Website/Iso/Teamwork_coding_uyprvd.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678317479/Website/Icons/Search_c3innu.svg
   - type: Columns
     theme: white
     intro:
       title: Designed for sensitive data in regulated industries
-      text: Partner data sharing — as a service
+      text: Vendia Share is the only trusted data cloud that combines business
+        blockchain, smart APIs, and cloud databases
     columns:
       - text: >-
           <img
@@ -54,7 +55,7 @@ components:
           **Supply chain** 
 
 
-          From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth.
+          From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth and traceability.
 
 
           [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
@@ -68,7 +69,7 @@ components:
           ##### Telecom
 
 
-          Automate data sharing workflows and scale with privacy, governance, and access control built in.
+          Empower teams to automate data sharing workflows and scale with privacy, governance, and access control built in.[](https://www.vendia.com/industry#healthcare)
 
 
           [Learn more](https://www.vendia.com/industry#healthcare)
@@ -90,10 +91,10 @@ components:
   - type: MediaWithTextTwoColumns
     mediaPosition: left
     column1: >-
-      **BMW**
+      **BMW Group**
 
 
-      BMW reduces the costs of goods sold and accelerates car delivery with Vendia Share, sharing real-time data with partners across the supply chain.
+      BMW reduces the costs of goods sold and accelerates vehicle delivery with Vendia Share, sharing real-time data with partners across their supply chain tiers.
 
 
       [Read the case study](https://www.vendia.com/bmw-case-study)
@@ -101,24 +102,37 @@ components:
       **Resolution Life**
 
 
-      Resolution Life reduces the cost of validating data and the risk of costly litigation with Vendia Share's single source of truth.
+      Resolution Life gains a single source of truth, reduces the cost of validating data, and reduces the risk of costly litigation with an indisputable golden record.
 
 
       [Read the case study](https://www.vendia.com/resources/resolution-life)
     theme: white
-    title: Bringing trusted data to the Global 2000
+    title: Trusted real-time data for the global enterprise
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
+  - type: MediaWithText
+    mediaPosition: right
+    text: >-
+      ## Vendia included in "Gartner Cool Vendor in Cloud Computing"
+
+
+      "A multicloud strategy is becoming inevitable for most global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market through robust multicloud implementation products."
+
+
+      \-Gartner 2021
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678318181/Website/Icons/Gartner_Cool_Vendor_xalbbj.svg
   - type: Carousel
     slides:
       - text: >-
-          ## Gartner Cool Vendor
+          ## 1.4MM saved in Year 1
 
 
-          “A multicloud strategy is inevitable for global enterprises, but it brings security, integration, cost and governance challenges. CIOs should assess these Cool Vendors that are disrupting the cloud market.”
+          Vendia Share customers see as much as a  93% reduction in costs by automating reconciliation across multiple data sources. Some have saved as much as $1.4 million in their first year alone.
 
 
-          <Button kind="secondaryGhostDark" label="Read more" href="https://www.vendia.com/blog/gartner-cool-vendor" />
+          <Button kind="secondaryGhostDark" label="Schedule a value assesment" href="https://meetings.hubspot.com/aashish3" />
       - text: >-
           ## 1,092 Enterprises
 
@@ -130,13 +144,13 @@ components:
   - type: Columns
     theme: white
     intro:
-      title: "Your partner data cloud "
-      text: "Operational data sharing across multiple parties "
+      title: Operational data sharing across multiple parties
+      text: ""
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095797_mzrbbn.png"
-          alt="""" class="image-float-left" width="80" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677179185/Website/Icons/Files_and_heirarchy_uhcnzb.png"  class="image-float-left"
+          width="80" />
 
 
           ##### Instant reconciliation
@@ -146,14 +160,14 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095799_s3lmzl.png"
-          alt="""" class="image-float-left" width="80" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1675717208/Website/Icons/Frame_48095799_s3lmzl.png"  class="image-float-left"
+          width="80" />
 
 
           ##### Automatic compliance
 
 
-          Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
+          Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share bakes compliance right into the platform to help ensure data is always compliant, complete, and tamperproof.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -166,148 +180,22 @@ components:
 
           Track and trace product DNA, inventory, customers, and shipping information across supply chain partners. Vendia Share provides a fully auditable, versioned, and immutable source of truth.
         wrapTheColumnInACard: false
-  - type: MediaWithText
-    mediaPosition: left
-    text: >-
-      ## Automation lowers costs — quickly
-
-
-      In a recent survey, we found a customer **93%** **reduction in costs** by automating reconciliation across multiple sources. 
-
-
-      Even better? they saved **1.4 mm in the first year.**
-
-
-      <Button kind="secondaryGhostPurple" label="Schedule a value assessement" href="https://meetings.hubspot.com/tim-zonca/contact-an-expert" />
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png
-  - type: Columns
-    theme: white
-    intro:
-      title: Why Vendia Share
-      text: Vendia is the only trusted data cloud that combines a business blockchain,
-        Smart APIs, and cloud databases in a single, unified SaaS platform.
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Tech_41_xcbsqo.png"
-          alt="""" class="image-float-left" width="185" />
-
-
-          ##### Truth as a service
-
-
-          Provide partners with a single source of truth designed for secure, compliant, trusted B2B data sharing – all delivered as a service.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Cloud_36_gipsdd.png"
-          alt="""" class="image-float-left" width="184" />
-
-
-          ##### Multi-cloud, multi-partner
-
-
-          Bring trust to data that spans clouds, companies, regions, accounts, data warehouses, applications, and more.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677176334/Website/Icons/Partner_Onboarding_Icon_Purple_fpybdy.png"  class="image-float-left"
-          width="185" />
-
-
-          **Onboard partners quickly**
-
-
-          Add partners and start collaborating on a single source of truth in weeks not quarters or years resulting in a faster time to value for you and your entire network.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675717350/Website/Icons/Tech_45_hj69pe.png"
-          alt="""" class="image-float-left" width="185" />
-
-
-          ##### Global scale
-
-
-          Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing.
-        wrapTheColumnInACard: false
-  - type: MediaWithText
-    mediaPosition: right
-    text: >-
-      ## Proof delivered in less than a week
-
-
-      Deliver a working proof-of-concept of how to elimiate manual reconciliation, including a partner integration, in five business days.
-
-
-      Let us help you succeed in sharing. For free.
-
-
-      <Button kind="primary" label="Free 1-week POC" href="/poc" />
-
-
-      <Button kind="secondaryGhostPurple" label="Talk to our sales team" href="/contact-us" />
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1675741440/Website/Iso/Frame_hjihe3.png
   - type: Columns
     theme: white
     intro:
       title: Resources
-      text: Learn how business blockchains, Smart APIs and cloud databases unlock the
-        next-generation of data sharing.
+      text: "Learn how business blockchains, smart APis, and cloud databases unlock
+        the next generation of data sharing. "
     columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1671502214/Website/Iso/Blocks_k4hbjm.png"
-          alt="""" class="image-float-center" width="285" />
-
-
-          ##### Blockchains + Centralized IT
-
-
-          Learn how conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era.
-
-
-          [Read more](https://www.vendia.com/blog/private-vs-public-blockchains)
-        wrapTheColumnInACard: true
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1674599129/Website/Iso/Build_apps_rrf6c2.png"
-          alt="""" class="image-float-center" width="295" />
-
-
-          ##### The Future of APIs
-
-
-          Building APIs for businesses remains challenging. Learn how to evolve from “dumb pipes” to APIs that automatically keep data consistent, correct, and up to date.
-
-
-          [Read more](https://www.vendia.com/blog/smart-apis)
-        wrapTheColumnInACard: true
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1674599204/Website/Iso/Files_ocmuhx.png"
-          alt="""" class="image-float-center" width="337" />
-
-
-          ##### Are Blockchains Databases?
-
-
-          Will blockchain and database technologies remain forever independent? Or is the ultimate expression of data storage a combination of both?
-
-
-          [Read more](https://www.vendia.com/blog/are-blockchains-databases)
+      - text: "##### Blockchains and Centralized IT"
         wrapTheColumnInACard: true
 seo:
   noindex: false
-  title: "Vendia "
+  title: Vendia Data Sharing Platform
   description: Real-time data sharing across partners, clouds, and systems
 createdBy: Caroll Casbeer
 createdAt: 2023-02-24T23:55:54.831Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-08T22:43:00.320Z
+updatedAt: 2023-03-08T23:46:41.548Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
