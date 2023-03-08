@@ -39,7 +39,7 @@ components:
           width="50" height="50" />
 
 
-          **Cloud scale, enterprise blockchain**
+          **Cloud scale enterprise blockchain**
 
 
           Ensure consistent, accurate, and secure data that spans clouds, companies, and geographies with next-gen blockchain with cloud scale and low latency.
@@ -121,6 +121,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T22:51:41.626Z
+updatedAt: 2023-03-08T22:54:07.384Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
