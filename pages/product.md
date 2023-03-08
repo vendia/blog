@@ -31,8 +31,9 @@ components:
     theme: white
     intro:
       title: The trusted partner data sharing platform
-      text: Vendia Share was envisioned and built by the inventor of Serverless and a
-        hand-picked team of the best developers in the world.
+      text: Vendia Share was envisioned by the inventor of Serverless and built for
+        trust, performance, and security by a hand-picked team of the best
+        software engineers in the world.
     columns:
       - text: >-
           <img
@@ -137,6 +138,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T23:25:04.687Z
+updatedAt: 2023-03-08T23:30:00.839Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
