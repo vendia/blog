@@ -83,6 +83,16 @@ components:
 
 
           Ensure high throughput, low latency, fault tolerance, and disaster recovery across all your real-time data sharing partnerships — all with a zero ops footprint.
+  - type: MediaFullScreen
+    theme: white
+    intro:
+      title: Integrations
+      text: ""
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677026583/Website/Integration%20logos/Integration_logos_xxijlg.png
+      altText: "A greyscale collection of integration logos: Snowflake, AWS, Google
+        Cloud, Azure, Microsoft Dynamics 365, Salesforce, Tableau, Databricks,
+        SAP"
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -100,16 +110,6 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
       altText: An open laptop with graphics onscreen suggesting low-code data sharing
-  - type: MediaFullScreen
-    theme: white
-    intro:
-      title: Integrations
-      text: ""
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677026583/Website/Integration%20logos/Integration_logos_xxijlg.png
-      altText: "A greyscale collection of integration logos: Snowflake, AWS, Google
-        Cloud, Azure, Microsoft Dynamics 365, Salesforce, Tableau, Databricks,
-        SAP"
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -138,6 +138,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T23:53:31.631Z
+updatedAt: 2023-03-08T23:54:11.837Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
