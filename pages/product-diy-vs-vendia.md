@@ -99,7 +99,7 @@ components:
 
       [Check out smart APIs](https://www.vendia.com/blog/smart-apis)
     theme: white
-    title: It's easy to get started
+    title: Easy to start, easy to use
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677112998/Website/Iso/Teamwork_puzzle_n1bupv.png
   - type: MediaWithTextTwoColumns
@@ -108,12 +108,15 @@ components:
       **Multiple data types**
 
 
-      Store and share files, along with structured data. With Vendia Share, files are handled as a built-in feature with full ACID support, just like other data types.
+      Store and share files along with structured data. With Vendia Share, files are handled as a built-in feature with full ACID support, just like other data types.
+
+
+      **[Learn more](https://www.vendia.com/docs/share/file-storage)**
     column2: >-
       **Unlimited, immutable storage**
 
 
-      Combine the security, unlimited long-term data storage, and easy queryability of conventional databases, with the tamper-proof immutability of a distributed ledger.
+      Combine the security, unlimited long-term data storage, and easy queryability of conventional databases with the tamper-proof immutability of a distributed ledger.
 
 
       **[Learn more](https://www.vendia.com/blog/venn-diagramming-vendia-share)**
@@ -135,7 +138,7 @@ components:
           **Cloud scale and resiliency**
 
 
-          Vendia’s high-speed data replication and consensus mechanism emulates a blockchain’s ability to create consistent replicas, but with massive parallelization and cloud-enabled scale and throughput.
+          High-speed data replication and consensus mechanism emulate a blockchain’s ability to create consistent replicas, but with massive parallelization and cloud-enabled scale and throughput.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -146,7 +149,7 @@ components:
           **Enterprise integration**
 
 
-          Connects with common systems of record, like Salesforce.com and SAP, and egress to analytics solutions like Snowflake and Databricks.
+          Seamless connection with common systems of record (like Salesforce.com and SAP) and egress to analytics solutions (like Snowflake and Databricks) make Vendia Share easy to integrate.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -157,7 +160,7 @@ components:
           **Out-of-box compliance**
 
 
-          Make GDPR, PCI, and SOC 2 compliance instant and automatic. Vendia Share helps ensure data is compliant, complete, and tamperproof.
+          Ensure data is always and instantly compliant, complete, and tamperproof. Vendia Share bakes in compliance so GDPR, PCI, and SOC 2 compliance are automatic.
         wrapTheColumnInACard: false
   - type: MediaWithText
     mediaPosition: left
@@ -165,20 +168,19 @@ components:
       ## Get started with Vendia Share
 
 
-      Vendia’s platform eliminates the need for DIY API creation and underlying infrastructure design, provisioning, and management.\
-
-      \
-
-      All you need is a JSON schema – Vendia does the rest.   
+      The Vendia Share platform eliminates the need for DIY API creation and the underlying infrastructure design, provisioning, and management.
 
 
-      Vendia Share compiles that schema into serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.
+      All you need is a JSON schema. Vendia Share does the rest.   
 
 
-      <Button kind="primary" label="Start free trial" href="https://share.vendia.net/" />
+      Vendia Share compiles that schema into Serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.
 
 
-      <Button kind="secondary" label="Schedule a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share" />
+      <Button kind="primary" label="Try Vendia Share" href="https://share.vendia.net/" />
+
+
+      <Button kind="secondaryGhostPurple" label="Schedule a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677022472/Website/Product%20thumbnails/Thumnails_for_Vendia_Share_dcyovl.png
@@ -187,6 +189,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-08T23:47:44.102Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-08T23:55:24.524Z
+updatedAt: 2023-03-09T00:10:19.534Z
 id: 7c95ecc6-0896-4931-a4f3-c0cba90618d4
 ---
