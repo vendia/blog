@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /thank-y0
+path: /thank-you/contact-us
 components:
   - type: Hero
     title: Thank you for your submission
@@ -28,6 +28,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-09T19:25:20.064Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-09T19:25:20.064Z
+updatedAt: 2023-03-09T19:25:38.090Z
 id: 2df60f5f-5550-4b49-b828-d18ddc134e2d
 ---
