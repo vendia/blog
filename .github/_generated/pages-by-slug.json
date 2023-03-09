@@ -99,6 +99,10 @@
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
     "draft": true
   },
+  "thank-you/contact-us": {
+    "file": "/pages/thank-you-contact-us.md",
+    "draft": false
+  },
   "thank-you/demo": {
     "file": "/pages/thank-you-demo.md",
     "draft": false
@@ -121,10 +125,6 @@
   },
   "use-cases/partner-data-sharing": {
     "file": "/pages/use-cases-partner-data-sharing.md",
-    "draft": false
-  },
-  "thank-you/contact-us": {
-    "file": "/pages/thank-you/contact-us.md",
     "draft": false
   }
 }
