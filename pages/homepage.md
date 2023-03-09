@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /
 components:
@@ -188,7 +188,7 @@ components:
         the next generation of data sharing. "
     columns:
       - text: >-
-          ##### Blockchains and Centralized IT
+          ##### Blockchains and centralized IT
 
 
           Learn how conventional IT, private ledgers, and public blockchains will work together to usher in the Web 3.0 era. 
@@ -200,7 +200,7 @@ components:
           ##### The future of APIs
 
 
-          Building APIs remains challenging. Learn how to evolve from "ignorant pipes" to APIs that automatically keep data consistent, correct, and secure. 
+          Building APIs remains challenging. Explore how to evolve from "ignorant pipes" to APIs that automatically keep data consistent and correct.
 
 
           [Learn more about the future of APIs](https://www.vendia.com/resources/api-database)
@@ -209,11 +209,21 @@ components:
           ##### Are blockchains databases? 
 
 
-          Will blockchain and database technologies remain forever independent? OR is the ultimate expression of data storage an combination of both? 
+          Are blockchains and databases on a collision course? Is the ultimate expression of data storage a combination of blockchains and databases? 
 
 
           [Read the blog](https://www.vendia.com/blog/data-sharing-deterministic-databases)
         wrapTheColumnInACard: true
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ## Try Vendia Share
+
+
+      The most trusted partner data-sharing platform for secure, compliant, real-time collaboration.
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
 seo:
   noindex: false
   title: Vendia Data Sharing Platform
@@ -221,6 +231,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-24T23:55:54.831Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-08T23:55:21.192Z
+updatedAt: 2023-03-09T00:05:59.649Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
