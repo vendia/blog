@@ -5,13 +5,14 @@ path: /use-case/automatic-reconciliation
 components:
   - type: Hero
     title: Automatic reconciliation
-    text: "Eliminate costs of manual reconciliation and bring trust to your data. "
+    text: "Eliminate up to 93% of the costs of manual reconciliation and bring trust
+      to your data. "
     contentAlignment: Left
-    hideSeparator: false
+    hideSeparator: true
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Money_lqz9qc.png
+      image: ""
     callToActions:
-      - label: Get a demo
+      - label: Request a demo
         url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
   - type: Logos
     logos:
@@ -106,24 +107,27 @@ components:
   - type: MediaWithText
     mediaPosition: right
     text: >-
-      ### Automation lowers costs — quickly
+      # Automation lowers costs by as much as 93% — quickly
 
 
-      In a recent survey, we found a customer 93% reduction in costs by automating reconciliation across multiple sources.
+      In a recent survey, we found a customer won a 93% reduction in costs by automating reconciliation across multiple sources.
 
 
-      Even better? they saved $1.4 mm in the first year.
+      They saved $1.4MM in Year 1 with Vendia Share.
 
 
-      [Schedule a value assessment](https://meetings.hubspot.com/tim-zonca/contact-an-expert)
+      <Button kind="primary" label="Schedule a value assessment" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share?__hstc=75205645.1160c84f545be08f626a93070ce6dd38.1666288324341.1678399840602.1678401800911.261&__hssc=75205645.7.1678401800911&__hsfp=65267698" />
+
+
+      <Button kind="secondaryGhostPurple" label="Contact sales" href="https://meetings.hubspot.com/aashish3/contact-sales" />
     theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600147/Website/Iso/Vendia_Web_Finance_hero_1_ubwep1.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Money_lqz9qc.png
 seo:
   noindex: false
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T02:58:16.742Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-25T02:58:54.452Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-09T23:27:15.512Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
