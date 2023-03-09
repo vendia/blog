@@ -221,6 +221,12 @@ components:
 
 
       The most trusted partner data-sharing platform for secure, compliant, real-time collaboration.
+
+
+      <Button kind="primary" label="Try the app" href="https://share.vendia.net/" />
+
+
+      <Button kind="tertiary" label="Talk to our sales team" href="https://meetings.hubspot.com/aashish3" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
@@ -231,6 +237,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-24T23:55:54.831Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-09T00:05:59.649Z
+updatedAt: 2023-03-09T00:08:11.955Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
