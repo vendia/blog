@@ -37,12 +37,12 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676598493/Website/Icons/Tech_48_omr85u.png"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269878/Website/Icons/Blue%20icons/Tech_146_w17beh.svg"
           alt="a robin's egg blue line illustration of 7 blocks connected by
           spokes; one spoke in the center has six spokes originating from it and
           connecting to a block at each end of the spoke culiminating in a
           hexagonal shape suggesting blockchain " class="image-float-center"
-          width="50" height="50" />
+          width="75" />
 
 
           **Cloud scale**
@@ -51,8 +51,8 @@ components:
           Ensure consistent, accurate, and secure data that spans clouds, companies, and geographies with next-gen blockchain with cloud scale and low latency.
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677022678/Website/Icons/API_Icon_doq9dr.png"  class="image-float-center"
-          width="50" height="50" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269693/Website/Icons/Blue%20icons/Tech_121_ub3wvr.svg"  class="image-float-center"
+          width="75" />
 
 
           **Smart APIs**
@@ -61,10 +61,10 @@ components:
           Combine the strong operational security of conventional APIs with the ability to easily model and evolve the data schema and operate with "smart" APIs.
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676597948/Website/Icons/Cloud_28_yacnll.png"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269750/Website/Icons/Blue%20icons/Cloud_115_ske4iu.svg"
           alt="a robin's egg blue line illustration of two clouds with three
           dots in each cloud, each dot suggesting cloud-based data storage"
-          class="image-float-center" width="50" height="50" />
+          class="image-float-center" width="75" />
 
 
           **Cross-cloud storage**
@@ -73,10 +73,10 @@ components:
           Enhance the unlimited long-term data storage and easy queryability of a conventional centralized database with file storage and multi-cloud, cross-party data sharing.
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676598852/Website/Icons/Enterprise_Buildings_rq2o39.png"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269743/Website/Icons/Blue%20icons/Building_27_p1bq4v.svg"
           alt="a robin's egg blue line illustration of city high rise offices
-          implying business 'enterprise'" class="image-float-center" width="50"
-          height="50" />
+          implying business 'enterprise'" class="image-float-center" width="77"
+          />
 
 
           **Enterprise grade**
@@ -135,9 +135,11 @@ components:
       altText: dashboard illustrations simulating Vendia Share's SaaS UI
 seo:
   noindex: false
+  title: Vendia Share overview
+  description: "Data sharing platform for the Global 2000. "
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-08T23:54:11.837Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-09T00:29:36.955Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
