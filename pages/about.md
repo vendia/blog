@@ -9,10 +9,10 @@ components:
       # Who we are
 
 
-      Vendia is a venture-backed Saas founded in 2020 by Dr. Tim Wagner and Shruthi Rao. 
+      Vendia is a venture-backed Saas startup founded in 2020 by Dr. Tim Wagner and Shruthi Rao. 
 
 
-      Wagner is the inventor of AWS Lambda and the ‘Father of Serverless computing’. Rao is the founder of AWS Blockchain and led its GTM program before founding Vendia. 
+      Wagner is the inventor of AWS Lambda and the "Father of Serverless" computing. Rao is the founder of AWS Blockchain and led its GTM program before founding Vendia.
 
 
       Our flagship product is [Vendia Share](https://www.vendia.com/product), and it’s trusted by leaders in both grassroots nonprofits and the Global 2000.
@@ -25,13 +25,16 @@ components:
       ### Meet the founders
 
 
-      Tim Wagner, Ph.D., and Shruthi Rao envisioned a better way for businesses to shared data and, at the same time, eliminate cost centers. It’s why Vendia was founded.
+      Tim Wagner, Ph.D., and Shruthi Rao envisioned a better way for businesses to share data and, at the same time, eliminate cost centers.
+
+
+      **[Check out their origin story](https://www.vendia.com/blog/meet-vendias-founders)**
 
 
       As they talked with +1,100 technology and line of business leaders, they discovered they all needed the same thing — a way to accelerate time to innovation and share a single copy of truth, no matter what technology they and their data-sharing partners use.
 
 
-      [Check out their origin story in their own words](https://www.vendia.com/blog/meet-vendias-founders)
+      **[Follow Tim on LinkedIn](https://www.linkedin.com/in/timawagner/)** | **[Follow Shruthi on LinkedIn](https://www.linkedin.com/in/shruthirao/)**
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677181093/Website/Product%20thumbnails/Founders_nzryts.png
@@ -39,10 +42,15 @@ components:
     theme: white
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269877/Website/Icons/Blue%20icons/Tech_143_wkuxuf.svg"  class="image-float-left"
+          />
+
+
           **What we do**
 
 
-          Our Saas platform makes it possible for companies and nonprofits to participate in a real-time data ecosystem — all with a shared but single, accurate, complete, compliant, and automated source of truth.
+          Our SaaS platform makes it possible for companies and nonprofits to participate in a real-time data ecosystem — all with a shared but single, accurate, complete, compliant, and automated source of truth.
 
 
           We deliver Truth-as-a-service, no matter how many data sources or their points of origin.
@@ -51,6 +59,11 @@ components:
           [Sign-up for the free app](https://share.vendia.net/)
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269875/Website/Icons/Blue%20icons/Tech_133_weh1vy.svg"  class="image-float-left"
+          />
+
+
           **How we do it**
 
 
@@ -63,6 +76,11 @@ components:
           **[Learn how Vendia Share works](http://vendia.com/product)**
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_112_dqvknn.svg"  class="image-float-left"
+          />
+
+
           **Our vision**
 
 
@@ -75,7 +93,7 @@ components:
           [Schedule a value assessment](https://meetings.hubspot.com/aashish3/value-assesement-meeting)
         wrapTheColumnInACard: false
     intro:
-      title: A little more about us
+      title: ""
       text: ""
   - type: Columns
     theme: white
@@ -225,9 +243,9 @@ seo:
   noindex: false
   title: About Vendia
   description: Learn more about Vendia, our founders, and our values.
-createdBy: ""
-createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T19:01:54.917Z
+createdBy: alexa-vendia
+createdAt: 2023-03-09T01:11:15.641Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-09T01:11:15.641Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
