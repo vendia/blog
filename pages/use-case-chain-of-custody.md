@@ -8,11 +8,11 @@ components:
     text: "Gain visibility of data across its lifecycle, across partners, across
       clouds. "
     contentAlignment: Left
-    hideSeparator: false
+    hideSeparator: true
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png
+      image: ""
     callToActions:
-      - label: Get a demo
+      - label: Request a demo
         url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
   - type: Logos
     logos:
@@ -27,36 +27,51 @@ components:
     theme: white
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269907/Website/Icons/Blue%20icons/Arrow_33_eytbnb.svg"  class="image-float-left"
+          />
+
+
           **Constantly accurate**
 
 
           Vendia’s data-sharing platform keeps data constantly accurate and up-to-date as it moves across your partner network.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269876/Website/Icons/Blue%20icons/Tech_138_psbjdq.svg"  class="image-float-left"
+          />
+
+
           **Complete history**
 
 
           Gain visibility into changes and updates to your sensitive data as moves through workflows, clouds, and partners.
         wrapTheColumnInACard: false
       - text: >-
-          **Tamper-proof and trusted**
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269843/Website/Icons/Blue%20icons/Security_30_tmphny.svg"  class="image-float-left"
+          />
 
 
-          Ensure that the lifecycle of your data is visible, immutable, and trusted.
+          **Tamperproof and trusted**
+
+
+          Ensure that the lifecycle of your data is visible, immutable, and trusted amongst all your permissioned partners.
         wrapTheColumnInACard: false
     intro:
-      title: Vendia Share provides, accurate, trusted data
+      title: Share and access accurate, trusted data
       text: ""
   - type: MediaWithText
     mediaPosition: left
     text: >-
-      ## Trusted data sharing, with visibility and control
+      ## Trusted data sharing with visibility and control
 
 
       Share sensitive data throughout its entire lifecycle without sacrificing visibility and governance. 
 
 
-      Vendia Share provides real-time data sharing with strong governance. All updates and transactions are captured in a fully auditable, tamper-proof ledger so you gain fully visibility into the critical data as it moves through sharing workflows across clouds and partners.
+      Vendia Share provides real-time data sharing with strong governance. All updates and transactions are captured in a fully auditable, tamperproof ledger so you gain full visibility into the critical data as it moves through sharing workflows across clouds and partners.
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png
@@ -116,18 +131,21 @@ components:
       ## Proof delivered in less than a week
 
 
-      Deliver a working proof-of-concept of how to prove compliance when sharing real-time data, including a partner integration, in five business days
+      Deliver a working proof-of-concept to prove chain of custody when sharing real-time data, including a partner integration, in five business days.
 
 
-      [1-week POC](https://www.vendia.com/poc)
+      <Button kind="primary" label="Request 1-week POC" href="https://www.vendia.com/poc" />
+
+
+      <Button kind="secondaryGhostPurple" label="Contact sales" href="https://meetings.hubspot.com/aashish3/contact-sales" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T16:38:37.084Z
+createdBy: alexa-vendia
+createdAt: 2023-03-09T23:17:03.436Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-09T23:17:03.436Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
