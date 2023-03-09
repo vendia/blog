@@ -4,7 +4,7 @@ template: page
 path: /about
 components:
   - type: MediaWithText
-    mediaPosition: left
+    mediaPosition: right
     text: >-
       # Who we are
 
@@ -18,9 +18,9 @@ components:
       Our flagship product is [Vendia Share](https://www.vendia.com/product), and it’s trusted by leaders in both grassroots nonprofits and the Global 2000.
     theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324484/Blog%20images/VendiaCelebrationIso_2_jai8ct.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678324403/Website/Iso/Remote_work_1_tfgiuv.png
   - type: MediaWithText
-    mediaPosition: right
+    mediaPosition: left
     text: >-
       ### Meet the founders
 
@@ -56,8 +56,8 @@ components:
           We deliver Truth-as-a-service, no matter how many data sources or their points of origin.
 
 
-          [Sign-up for the free app](https://share.vendia.net/)
-        wrapTheColumnInACard: false
+          [Sign up for the free app](https://share.vendia.net/)
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269875/Website/Icons/Blue%20icons/Tech_133_weh1vy.svg"  class="image-float-left"
@@ -74,7 +74,7 @@ components:
 
 
           **[Learn how Vendia Share works](http://vendia.com/product)**
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_112_dqvknn.svg"  class="image-float-left"
@@ -87,45 +87,18 @@ components:
           Responsible, compliant, real-time data sharing has the power to transform industries, customer experiences, and communities — all for the better. 
 
 
-          We want to live in a world where there’s far more time, talent, and money spent on indisputable truth, earned trust, and valuable innovation. 
+          At Vendia. we want to live in a world where there’s far more time, talent, and money spent on indisputable truth, earned trust, and valuable innovation. 
 
 
           [Schedule a value assessment](https://meetings.hubspot.com/aashish3/value-assesement-meeting)
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
     intro:
       title: ""
       text: ""
   - type: Columns
     theme: white
     intro:
-      title: Fast facts about Vendia
-    columns:
-      - text: |-
-          ## **2020**
-
-          Vendia was founded with $20MM in Series A funding
-        wrapTheColumnInACard: false
-      - text: |-
-          ## **2022**
-
-          We earned an additional $30MM in Series B investment
-        wrapTheColumnInACard: false
-      - text: >-
-          ## **$50 MM**
-
-
-          Vendia’s total funding from trusted IT and SaaS focused VCs who value relationships as much as results
-        wrapTheColumnInACard: false
-      - text: >-
-          ## **11 - 4 - 3**
-
-
-          Our remote-first team  of kind humans operates across 11 U.S. states, four countries, and three continents
-        wrapTheColumnInACard: false
-  - type: Columns
-    theme: white
-    intro:
-      title: Fast facts about how we help our customers
+      title: Fast facts about Vendia and how we help our customers
     columns:
       - text: >-
           ## **93%**
@@ -151,15 +124,43 @@ components:
 
           Avg. increase in customer API calls to deliver an up-to-date, auto-reconciled golden record
         wrapTheColumnInACard: false
+  - type: Columns
+    theme: white
+    intro:
+      title: ""
+    columns:
+      - text: |-
+          ## **2020**
+
+          Vendia was founded with $20MM in Series A funding
+        wrapTheColumnInACard: false
+      - text: |-
+          ## **2022**
+
+          We earned an additional $30MM in Series B investment
+        wrapTheColumnInACard: false
+      - text: >-
+          ## **$50 MM**
+
+
+          Vendia’s total funding from trusted IT and SaaS focused VCs who value relationships as much as results
+        wrapTheColumnInACard: false
+      - text: >-
+          ## **11 - 4 - 3**
+
+
+          Our remote-first team of kind humans operates across 11 U.S. states, four countries, and three continents
+        wrapTheColumnInACard: false
   - type: MediaFullScreen
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677182853/Website/Misc%20website%20images/Vedia_Company_Meeting-HoffmanPhotoVideo-0207_vvwsn1.jpg
-      caption: Vendians at our company offsite, Unify, in San Diego
+      caption: Vendians at our company onsite, Unify, in San Diego, CA USA
   - type: Columns
     theme: white
     intro:
-      title: Vendia Values
+      title: Vendia's values
+      text: ""
     columns:
       - text: >-
           
@@ -219,16 +220,16 @@ components:
   - type: Columns
     theme: white
     intro:
-      title: ""
+      title: Connect with us
     columns:
       - text: >-
           ### Join us and make an impact
 
 
-          At Vendia, we share our best selves, in the spirit of service and excellence, with our customers and one another.
+          At Vendia, we work as kind humans who share our best selves with our customers and one another. Join us and solve hard, important problems as we work in the spirit of mutual service and excellence.
 
 
-          [We’d love to connect with you](https://www.vendia.com/careers)
+          [Explore current career opportunities](https://www.vendia.com/careers)
         wrapTheColumnInACard: true
       - text: >-
           ### Work with us to see the impact
@@ -242,10 +243,10 @@ components:
 seo:
   noindex: false
   title: About Vendia
-  description: Learn more about Vendia, our founders, and our values.
+  description: Learn more about Vendia, our founders, and our company values.
 createdBy: alexa-vendia
-createdAt: 2023-03-09T01:11:15.641Z
+createdAt: 2023-03-09T01:27:21.785Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-09T01:11:15.641Z
+updatedAt: 2023-03-09T01:27:21.785Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
