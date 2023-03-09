@@ -97,7 +97,7 @@
   },
   "thank-you/contact-us": {
     "file": "/pages/thank-y0.md",
-    "draft": true
+    "draft": false
   },
   "thank-you/circles-of-trust-opt-in": {
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
