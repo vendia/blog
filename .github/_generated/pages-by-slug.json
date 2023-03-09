@@ -95,10 +95,6 @@
     "file": "/pages/reconciliationless.md",
     "draft": false
   },
-  "thank-you/contact-us": {
-    "file": "/pages/thank-y0.md",
-    "draft": false
-  },
   "thank-you/circles-of-trust-opt-in": {
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
     "draft": true
@@ -121,6 +117,10 @@
   },
   "use-cases/partner-data-sharing": {
     "file": "/pages/use-cases-partner-data-sharing.md",
+    "draft": false
+  },
+  "thank-you/contact-us": {
+    "file": "/pages/thank-you/contact-us.md",
     "draft": false
   }
 }
