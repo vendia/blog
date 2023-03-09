@@ -8,9 +8,9 @@ components:
     text: "Gain visibility across the data lifecycle, across partners, and across
       clouds without sacrificing fine-grained control. "
     contentAlignment: Left
-    hideSeparator: false
+    hideSeparator: true
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png
+      image: ""
     callToActions:
       - label: Request a demo
         url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
@@ -144,6 +144,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T00:02:05.695Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-09T22:44:28.805Z
+updatedAt: 2023-03-09T22:46:53.177Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
