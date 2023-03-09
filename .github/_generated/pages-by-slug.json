@@ -99,6 +99,10 @@
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
     "draft": true
   },
+  "thank-you/demo": {
+    "file": "/pages/thank-you-demo.md",
+    "draft": false
+  },
   "thank-you/founders-circle": {
     "file": "/pages/thank-you-founders-circle.md",
     "draft": false
