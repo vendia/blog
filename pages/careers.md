@@ -32,7 +32,7 @@ components:
     theme: White
     intro:
       title: Why Vendia?
-      text: Enjoy all the energy of startup life without exhaustion or drama
+      text: Enjoy all the energy of startup life without exhaustion or drama.
     columns:
       - text: >-
           ![](https://res.cloudinary.com/vendia/image/upload/c_fill,w_2000/v1669319829/Group_48095931_mgwd2a.svg)
@@ -83,7 +83,7 @@ components:
       text: ""
 createdBy: Hugues Tennier
 createdAt: 2022-11-29T21:34:09.623Z
-updatedBy: Hugues Tennier
-updatedAt: 2022-11-29T21:34:09.623Z
-id: '8680044c-bf7d-4a9f-8129-5a2f62a60873'
+updatedBy: alexa-vendia
+updatedAt: 2023-03-10T01:53:37.865Z
+id: 8680044c-bf7d-4a9f-8129-5a2f62a60873
 ---
