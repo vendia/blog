@@ -4,9 +4,9 @@ template: page
 path: /use-case/automatic-reconciliation
 components:
   - type: Hero
-    title: Automatic reconciliation
-    text: "Eliminate up to 93% of the costs of manual reconciliation and bring trust
-      to your data. "
+    title: "Cut up to 93% of manual reconciliation costs "
+    text: "Use Vendia Share for automatic reconciliation and bring trust to your
+      shared and partner data —fast. "
     contentAlignment: Left
     hideSeparator: true
     image:
@@ -19,28 +19,45 @@ components:
       - BMW
       - Resolution Life
       - Atos
+      - AeroMexico
+      - Delta
       - Fannie Mae
     theme: light
   - type: Columns
     theme: white
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"  class="image-float-left"
+          />
+
+
           **Instant and accurate**
 
 
           Vendia’s real-time data sharing replaces manual reconciliation, ensuring data is constantly accurate and up-to-date.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269777/Website/Icons/Blue%20icons/Environment_52_gtxv3z.svg"  class="image-float-left"
+          />
+
+
           **Trusted copy of truth**
 
 
           Share data with confidence and control knowing that data from multiple sources is trusted, verifiable, and auditable.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269757/Website/Icons/Blue%20icons/Cloud_140_yxo8c3.svg"  class="image-float-left"
+          />
+
+
           **Multi-party, multi-cloud**
 
 
-          Vendia Share provides real-time data sharing across departments, applications, companies, and clouds.
+          Vendia Share provides real-time data sharing across the canyons of departments, applications, companies, and clouds.
         wrapTheColumnInACard: false
   - type: MediaWithText
     mediaPosition: left
@@ -69,7 +86,7 @@ components:
           **Financial Services**
 
 
-          Close books faster, with fewer errors. With Vendia financial institutions leave batch processes behind and reduce the manual processes of reconciling data from hundreds of sources.
+          Close books faster with fewer errors. Financial institutions can leave batch processes behind and reduce manually reconciling data from hundreds of sources.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -80,7 +97,7 @@ components:
           **Supply chain**
 
 
-          Gain a trusted and immutable source of truth. With Vendia supply chain partners ensure instantly accurate data is shared, with control to protect IP.
+          Gain a trusted and immutable source of truth. Supply chain partners can ensure data is instantly accurate and shared with standards and control to protect IP.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -91,7 +108,7 @@ components:
           **Telecomm**
 
 
-          Eliminate manual reconciliation of data coming from multiple systems and companies. With Vendia data sharing workflows are automated with privacy and access control built in.
+          Eliminate manual reconciliation of data coming from multiple systems and companies. Data sharing workflows are automated with privacy and access control built in.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -102,7 +119,7 @@ components:
           **Travel**
 
 
-          Avoid delays of batch processing and ensure that fare, loyalty, and ticket updates happen in real time with proof of data accuracy and ATI compliance.
+          Avoid batch processing delays and ensure that fare, loyalty, and ticket updates happen in real time with proof of data accuracy and ATI compliance.
         wrapTheColumnInACard: false
   - type: MediaWithText
     mediaPosition: right
@@ -128,6 +145,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T02:58:16.742Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-09T23:27:15.512Z
+updatedAt: 2023-03-10T00:04:14.540Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
