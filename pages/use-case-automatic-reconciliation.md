@@ -6,7 +6,7 @@ components:
   - type: Hero
     title: "Cut up to 93% of manual reconciliation costs "
     text: "Use Vendia Share for automatic reconciliation and bring trust to your
-      shared and partner data —fast. "
+      shared and partner data — fast. "
     contentAlignment: Left
     hideSeparator: true
     image:
@@ -17,10 +17,10 @@ components:
   - type: Logos
     logos:
       - BMW
-      - Resolution Life
-      - Atos
-      - AeroMexico
       - Delta
+      - AeroMexico
+      - Atos
+      - Resolution Life
       - Fannie Mae
     theme: light
   - type: Columns
@@ -145,6 +145,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T02:58:16.742Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-10T00:04:14.540Z
+updatedAt: 2023-03-10T01:48:14.911Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
