@@ -4,9 +4,9 @@ template: page
 path: /use-case/chain-of-custody
 components:
   - type: Hero
-    title: Trusted chain of custody
-    text: "Gain visibility of data across its lifecycle, across partners, across
-      clouds. "
+    title: Enable full traceability in a trusted chain of custody
+    text: "Gain visibility of data throughout an entity's journey and lifecycle
+      across geographies, partners, and partners' clouds. "
     contentAlignment: Left
     hideSeparator: true
     image:
@@ -146,6 +146,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-09T23:17:03.436Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-09T23:17:03.436Z
+updatedAt: 2023-03-10T00:07:59.045Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
