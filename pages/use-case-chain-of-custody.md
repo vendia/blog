@@ -17,11 +17,11 @@ components:
   - type: Logos
     logos:
       - BMW
-      - Resolution Life
-      - Atos
-      - Fannie Mae
-      - AeroMexico
       - Delta
+      - AeroMexico
+      - Atos
+      - Resolution Life
+      - Fannie Mae
     theme: light
   - type: Columns
     theme: white
@@ -90,7 +90,7 @@ components:
           **Financial Services**
 
 
-          Deliver trusted reporting on the history of transactions, loans, policies, and more –without all the manual analysis and data gathering.
+          Deliver trusted reporting on the history of transactions, loans, policies, and more — without all the manual analysis and data gathering.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -146,6 +146,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-09T23:17:03.436Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-10T00:07:59.045Z
+updatedAt: 2023-03-10T01:51:48.389Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
