@@ -4,8 +4,8 @@ template: page
 path: /partners
 components:
   - type: Hero
-    title: Parnters
-    text: Deliver value to customers, faster with a trusted partner
+    title: Partners
+    text: Deliver value to customers faster with a trusted partner
     contentAlignment: Left
     hideSeparator: true
   - type: HubspotForm
@@ -18,9 +18,9 @@ components:
     formTitle: Get in touch
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
+createdBy: Caroll Casbeer
+createdAt: 2023-03-13T14:23:32.011Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T19:08:36.257Z
+updatedAt: 2023-03-13T14:23:32.010Z
 id: f612b22e-5e1a-4e10-bb17-706ec71e357c
 ---
