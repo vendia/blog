@@ -4,8 +4,8 @@ template: page
 path: /industry/supply-chain/visibility
 components:
   - type: Hero
-    title: Turn real-time data you can trust into action
-    text: Transform your supply chain partnerships and collaboration at scale.
+    title: Transform your supply chain partnerships and collaboration at scale
+    text: ""
     contentAlignment: Left
     hideSeparator: true
     callToActions: []
@@ -14,10 +14,9 @@ components:
   - type: Columns
     theme: null
     intro:
-      title: Vendia Share's secure, transparent DLT builds trust, streamlines
-        operations, and reduces operational costs by, on average, 93%.
-      text: Use your shared data ecosystem to adapt to changes in the market rapidly
-        and with confidence to and support resiliency and growth.
+      title: Turn real-time data you can trust into action
+      text: Adapt to changes in the market rapidly and with confidence to support
+        resiliency and growth with Vendia Share.
     columns:
       - text: >-
           <img
@@ -42,10 +41,10 @@ components:
           ### Cost savings
 
 
-          On average, our customers save $1.4MM in their first year through efficiency improvements with Vendia Share. 
+          On average, our customers save $1.4MM in their first year through efficiency improvements with Vendia Share. Some have reduced manual data reconciliation costs by as much as 93%.
 
 
-          Reduce the need for manual labor with automated data inputs and reconciliation that minimize human errors and optimize procurement and production processes.
+          Reduce the need for manual labor with automated data inputs and reconciliation that minimizes human errors and optimizes procurement and production processes.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -65,42 +64,47 @@ components:
     theme: white
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269833/Website/Icons/Blue%20icons/People_97_vwdiv6.svg"  class="image-float-left"
+          />
+
+
           ### Scalability and resilience
 
 
-          Quickly, securely add new partners or customers. Onboarding takes only minutes, and information exchange infrastructure scales automatically..Security and predictability
+          Stop the swing from surpluses to shortages by tracking accurate, up-to-date upstream and downstream data across every partner in every tier of your supply chain.
 
 
-          Stop the swing from surpluses to shortages by tracking accurate, up-to-date upstream and downstream data across every partner in every tier in your supply chain.
-
-
-
-
-          ### Automated Data Governance
-
-
-          Vendia Share offers automated data governance for multi-party data sharing using Organizations and Access Controls List (ACLs), enabling customers to have control over their shared data outside their trust boundaries.
-
-
-
-
-          ### Easy, cost-effective partner integration
-
-
-          Adding partners to your Vendia Share network is as simple as inviting an external party to your Slack community. Scale up partners across tiers with Vendia Share's serverless infrastructure (which is 35% more cost-effective than server-based solutions).Built-in compliance for regulated industries
-
-
-          Exchange product information securely and efficiently with their partners, ensuring compliance with regulations and standards while reducing the risk of errors and non-compliance.
+          Invite partners to join Vendia Share in seconds. They can join existing partners in minutes. And together, you can collaborate on shared data, for a single source of truth, in real time. Information exchange infrastructure scales securely and automatically.
         wrapTheColumnInACard: false
-      - text: placeholder
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269803/Website/Icons/Blue%20icons/Management_56_nezidn.svg"  class="image-float-left"
+          />
+
+
+          ### Unified view with data governance
+
+
+          Improve visibility across all data and processes related to suppliers, logistics, production, and distribution without sacrificing control. Businesses can identify bottlenecks, risks, and opportunities, and take informed, corrective action in real time.
+
+
+          Vendia Share offers automated data governance for multi-party data sharing using Access Controls Lists (ACLs), so customers have full control over their shared data outside their trust boundaries.
         wrapTheColumnInACard: false
-      - text: placeholder
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269789/Website/Icons/Blue%20icons/GDPR_13_dkjk1v.svg"  class="image-float-left"
+          />
+
+
+          ### Built-in compliance for regulated industries
+
+
+          Exchange product information securely and efficiently with their partners, ensuring compliance with regulations and standards while reducing the risk of errors and non-compliance. 
+
+
+          Vendia Share is SOC 2 certified and is will soon earn ISO certification. Our platform, by design, protects sensitive data and maintains compliance standards, so every customer can operate with integrity.
         wrapTheColumnInACard: false
-  - type: Carousel
-    slides:
-      - text: "# **Automating the conversion of POs to WOs can reduce processing times
-          by up to three weeks. Businesses using Vendia Share respond faster —
-          and better — to meet customer demands.**"
   - type: Columns
     theme: white
     columns:
@@ -195,33 +199,37 @@ components:
       title: ""
       text: A business with supply chain visibility looks out upon is a horizon full
         of endless opportunities.
-  - type: Resources
+  - type: Carousel
+    slides:
+      - text: "### On average, Vendia Share customers spend **87% less time**
+          investigating and resolving data inconsistencies."
+      - text: "### Companies using Vendia Share can respond faster to meet customer
+          needs, automating the conversion of purchase orders (POs) to work
+          orders (WOs) can **reduce processing times by up to three weeks**."
+      - text: "### Vendia Share's data sharing capabilities **increase labor
+          productivity by 4.7%** and decrease manufacturing unit labor costs by
+          0.2%."
   - type: MediaWithText
     mediaPosition: left
-    text: |-
+    text: >-
       # Make data-driven decisions that improve overall performance.
 
-      Learn more about Vendia Share
 
-      <Button kind="primary" />
+      Solve supply chain visibility challenges and unlock new, significant market value without putting an additional burden on your existing IT workforce. Learn more about Vendia Share.
 
-      <Button kind="secondaryGhostPurple" />
+
+      <Button kind="primary" label="Request a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share" />
+
+
+      <Button kind="secondaryGhostPurple" label="Get a value assessment" href="https://meetings.hubspot.com/aashish3/contact-sales" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
-  - type: Carousel
-    slides:
-      - text: "**Automating partner management tasks, such as PO to WO conversion, can
-          greatly enhance efficiency by reducing the time and effort needed for
-          manual data entry and validation. This can improve productivity and
-          allow employees to focus on more strategic tasks. Vendia Share's data
-          sharing capabilities can also increase labor productivity by 4.7% and
-          decrease unit labor costs by 0.2% in manufacturing.**"
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T20:26:37.093Z
+updatedAt: 2023-03-14T21:19:08.556Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
