@@ -101,7 +101,7 @@
   },
   "svb-statement": {
     "file": "/pages/svb-statement.md",
-    "draft": false
+    "draft": true
   },
   "thank-you/circles-of-trust-opt-in": {
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
