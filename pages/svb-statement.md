@@ -5,7 +5,7 @@ path: /svb-statement
 components:
   - type: Text
     text: >-
-      ## Statement from Vendia on the impact of the SVB collapse
+      ## Statement from Vendia 
 
 
       Tuesday, March 14, 2023
@@ -23,7 +23,7 @@ seo:
   noindex: false
 createdBy: Caroll Casbeer
 createdAt: 2023-03-14T22:58:54.449Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-14T23:10:24.320Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-14T23:14:30.998Z
 id: 3494e280-3830-4fea-8f2d-3e3b68daa468
 ---
