@@ -5,14 +5,18 @@ path: /industry/supply-chain/visibility
 components:
   - type: Hero
     title: Transform your supply chain partnerships and collaboration at scale
-    text: ""
+    text: "Use Vendia Share's  cloud-based distributed ledger technology to
+      accurately, automatically, and cost-effectively move and reconcile data
+      without delay. "
     contentAlignment: Left
     hideSeparator: true
     callToActions: []
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815975/Website/Iso/Group_ccbmyd.png
+      altText: a flat map of the world showing supply chain infrastructure and key
+        ports in a mix of primary red, yellow, and blues
   - type: Columns
-    theme: null
+    theme: white
     intro:
       title: Turn real-time data you can trust into action
       text: Adapt to changes in the market rapidly and with confidence to support
@@ -230,6 +234,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T21:19:08.556Z
+updatedAt: 2023-03-14T21:26:01.890Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
