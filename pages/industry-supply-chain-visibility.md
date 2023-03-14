@@ -162,7 +162,8 @@ components:
   - type: MediaWithText
     mediaPosition: left
     text: >-
-      # Make data-driven decisions that improve overall performance.
+      # Make data-driven decisions that improve business performance through
+      real-time supply chain visibility
 
 
       Solve supply chain visibility challenges and unlock new, significant market value without putting an additional burden on your existing IT workforce. Learn more about Vendia Share.
@@ -180,6 +181,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T21:54:49.011Z
+updatedAt: 2023-03-14T22:08:21.504Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
