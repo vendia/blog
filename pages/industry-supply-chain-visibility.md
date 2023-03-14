@@ -147,62 +147,8 @@ components:
           Improve the accuracy, transparency, and efficiency of compliance processes while reducing risk. Vendia Share's distributed ledger offers a secure, auditable record of transactions and activities to help ensure compliance with policies and regulations.
         wrapTheColumnInACard: false
     intro:
-      title: ""
-      text: How does Vendia Share work?
-  - type: Columns
-    theme: white
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269866/Website/Icons/Blue%20icons/Supply_chain_36_nnk01n.svg"  class="image-float-left"
-          width="120" />
-
-
-          **Exceptional customer experiences**
-
-
-          Businesses can build and earn valuable customer loyalty with visible, well-managed inventory, tie product quality feedback to specific suppliers, and ensure on-time or fast delivery in the market or at home.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269865/Website/Icons/Blue%20icons/Supply_chain_33_bekti3.svg"  class="image-float-left"
-          width="120" />
-
-
-          **Effective, complete, precise product recalls**
-
-
-          Distributors can trace specific batches contaminated with speed and precision, protecting their brand reputation and saving the company, their risk profile, and the environment from the costs of over-disposing.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269866/Website/Icons/Blue%20icons/Supply_chain_37_sqqpxz.svg"  class="image-float-left"
-          width="120" />
-
-
-          **Forecast maintenance and replacement needs**
-
-
-          The routine and timely sharing of data between manufacturers about the equipment used in manufacturing operations will allow sellers to forecast maintenance schedules and conduct maintenance procedures efficiently.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269863/Website/Icons/Blue%20icons/Supply_chain_27_l8ojcl.svg"  class="image-float-left"
-          width="120" />
-
-
-          **Real carbon tracking**
-
-
-          Leaders can access an audit trail and provenance to carbon emissions calculations, starting with reported performance, then tracking emissions down to the part and the component level from a specific supplier.
-
-
-          Use real, real-time data from your partner data ecosystem to set reduction targets, identify precise areas for improvement, and demonstrate the company's real impact to sustainability objectives
-        wrapTheColumnInACard: false
-    intro:
-      title: ""
-      text: A business with supply chain visibility looks out upon is a horizon full
-        of endless opportunities.
+      title: Better business partner management
+      text: How does Vendia Share's data ecosystem and platform work?
   - type: Carousel
     slides:
       - text: "### On average, Vendia Share customers spend **87% less time**
@@ -234,6 +180,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T21:26:01.890Z
+updatedAt: 2023-03-14T21:33:36.659Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
