@@ -168,7 +168,7 @@ components:
       Solve supply chain visibility challenges and unlock new, significant market value without putting an additional burden on your existing IT workforce. Learn more about Vendia Share.
 
 
-      <Button kind="primary" label="Request a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share" />
+      <Button kind="blue" label="Request a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share" />
 
 
       <Button kind="secondaryGhostPurple" label="Get a value assessment" href="https://meetings.hubspot.com/aashish3/contact-sales" />
@@ -180,6 +180,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T21:52:44.616Z
+updatedAt: 2023-03-14T21:54:49.011Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
