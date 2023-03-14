@@ -96,6 +96,11 @@ components:
         wrapTheColumnInACard: false
       - text: placeholder
         wrapTheColumnInACard: false
+  - type: Carousel
+    slides:
+      - text: "# **Automating the conversion of POs to WOs can reduce processing times
+          by up to three weeks. Businesses using Vendia Share respond faster —
+          and better — to meet customer demands.**"
   - type: Columns
     theme: white
     columns:
@@ -206,16 +211,17 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
   - type: Carousel
     slides:
-      - text: Automating the conversion of PO to WO can reduce processing times by up to
-          3 weeks. By eliminating manual intervention and improving data
-          accuracy, automation can significantly speed up processes. This can
-          enable businesses to respond faster to customer demands and reduce
-          lead times.
+      - text: "**Automating partner management tasks, such as PO to WO conversion, can
+          greatly enhance efficiency by reducing the time and effort needed for
+          manual data entry and validation. This can improve productivity and
+          allow employees to focus on more strategic tasks. Vendia Share's data
+          sharing capabilities can also increase labor productivity by 4.7% and
+          decrease unit labor costs by 0.2% in manufacturing.**"
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T20:19:27.635Z
+updatedAt: 2023-03-14T20:26:37.093Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
