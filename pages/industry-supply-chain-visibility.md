@@ -20,7 +20,7 @@ components:
     intro:
       title: Turn real-time data you can trust into action
       text: Adapt to changes in the market rapidly and with confidence to support
-        resiliency and growth with Vendia Share.
+        resiliency and growth, only with Vendia Share.
     columns:
       - text: >-
           <img
@@ -180,6 +180,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-14T21:33:36.659Z
+updatedAt: 2023-03-14T21:52:44.616Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
