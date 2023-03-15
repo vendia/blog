@@ -107,6 +107,7 @@ components:
           Vendia Share is SOC 2 certified and is will soon earn ISO certification. Our platform, by design, protects sensitive data and maintains compliance standards, so every customer can operate with integrity.
         wrapTheColumnInACard: false
     maximumNumberOfColumns: "3"
+    maxColumns: "3"
   - type: Columns
     theme: white
     columns:
@@ -179,7 +180,7 @@ seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
-updatedBy: Hugues Tennier
-updatedAt: 2023-03-15T18:30:02.066Z
+updatedBy: David Wells
+updatedAt: 2023-03-15T19:09:14.904Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
