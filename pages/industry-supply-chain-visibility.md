@@ -182,6 +182,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-15T22:36:26.061Z
+updatedAt: 2023-03-15T22:54:28.589Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
