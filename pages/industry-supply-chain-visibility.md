@@ -147,7 +147,7 @@ components:
     intro:
       title: Better business partner management
       text: How does Vendia Share's data ecosystem and platform work?
-    maximumNumberOfColumns: "3"
+    maximumNumberOfColumns: ""
   - type: Carousel
     slides:
       - text: "### On average, Vendia Share customers spend **87% less time**
@@ -180,6 +180,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: Hugues Tennier
-updatedAt: 2023-03-15T18:27:53.269Z
+updatedAt: 2023-03-15T18:30:02.066Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
