@@ -64,9 +64,6 @@ components:
 
           Vendia Share's single view of a complex supply chain can help businesses identify trends and opportunities better and faster.
         wrapTheColumnInACard: false
-  - type: Columns
-    theme: white
-    columns:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269833/Website/Icons/Blue%20icons/People_97_vwdiv6.svg"  class="image-float-left"
@@ -109,6 +106,7 @@ components:
 
           Vendia Share is SOC 2 certified and is will soon earn ISO certification. Our platform, by design, protects sensitive data and maintains compliance standards, so every customer can operate with integrity.
         wrapTheColumnInACard: false
+    maximumNumberOfColumns: "3"
   - type: Columns
     theme: white
     columns:
@@ -149,6 +147,7 @@ components:
     intro:
       title: Better business partner management
       text: How does Vendia Share's data ecosystem and platform work?
+    maximumNumberOfColumns: "3"
   - type: Carousel
     slides:
       - text: "### On average, Vendia Share customers spend **87% less time**
@@ -180,7 +179,7 @@ seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-14T22:08:21.504Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-03-15T18:27:53.269Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
