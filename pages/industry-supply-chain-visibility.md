@@ -5,13 +5,13 @@ path: /industry/supply-chain/visibility
 components:
   - type: Hero
     title: Build resiliency into your supply chain by accessing  sub-tier partner
-      data compliantly — in real time with Vendia Share.
+      data compliantly — in real time with Vendia Share
     text: ""
     contentAlignment: Left
     hideSeparator: true
     callToActions: []
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815975/Website/Iso/Group_ccbmyd.png
       altText: ""
   - type: Columns
     theme: white
@@ -25,17 +25,15 @@ components:
           ### Own a communication advantage
 
 
-          Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**. Customers also report fewer human errors, interventions, and turnover thanks to processes that allow employees to focus on higher value projects and tasks.
+          Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**. 
 
 
           With Vendia Share, you can
 
 
-          - See which suppliers are supplying specific resources (in quality and qualtiy) from end-to-end
+          - See which suppliers are supplying specific resources (in quality and quality) from end-to-end
 
           - Understand the capacity needed to support your business right now compared to the capacity you actually have to meet the business needs
-
-          - Resolve disputes quickly and irrefutably
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -44,9 +42,6 @@ components:
 
 
           ### Build trust through collaboration
-
-
-          Companies using Vendia Share respond faster to customer needs. For example, you can build mult-party Robotic Process Automations (RBA) workflows to automate time-consuming tasks like turning POs into WOs and invoices into payment notes.
 
 
           Companies using Vendia Share can **reduce processing times by up to three weeks**. 
@@ -75,7 +70,6 @@ components:
           On average, Vendia Share customers spend **87% less time** investigating and resolving data inconsistencies.
 
 
-          Don't let that $1.00 component or problematic sub-tier supplier cost you brand equity, block revenue, or drag your entire value chain down.
 
 
           With Vendia Share, you can...
@@ -91,9 +85,10 @@ components:
         wrapTheColumnInACard: false
     intro:
       text: Vendia Share's distributed ledger technology gives you a single, unified
-        view of your end-to-end supply chain
-      title: Learn how to bring trust, compliance, and ease into supply chain partner
-        communication, collaboration, and verification
+        view of your end-to-end supply chain for improved communication,
+        collaboration, and verification
+      title: "Learn how to bring trust, compliance, and ease into data sharing with
+        supply chain partners "
   - type: Carousel
     slides:
       - text: "### Reduce the need for manual labor with automated data inputs and
@@ -168,6 +163,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-16T00:16:54.184Z
+updatedAt: 2023-03-16T00:23:54.281Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
