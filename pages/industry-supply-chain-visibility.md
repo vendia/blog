@@ -3,16 +3,6 @@ draft: true
 template: page
 path: /industry/supply-chain/visibility
 components:
-  - type: MediaWithText
-    mediaPosition: left
-    text: >-
-      # **Meet Vendia Share**
-
-
-      #### Whether it's wafers for wearables or peanut butter for puppy treats, manufacturers are at the mercy of supply chain partners and global events. And while a company cannot predict disruptions, it's still too hard to mitigate against them — and too costly to respond quickly and effectively. Until now.
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815975/Website/Iso/Process_wtajkk.png
   - type: Hero
     title: Build resiliency into your supply chain by accessing  sub-tier partner
       data compliantly — in real time with Vendia Share.
@@ -100,11 +90,10 @@ components:
           - Report ESG metrics investors can trust
         wrapTheColumnInACard: false
     intro:
-      text: Automatically and cost-effectively see, move, and reconcile data from all
-        tiers in your supply chain with Vendia Share. Our cloud-based
-        distributed ledger technology brings trust, compliance, and ease into
-        supply chain partner communication, collaboration, and verification.
-      title: Vendia Share for a an accurate, single, unified sub-tier view
+      text: Vendia Share's distributed ledger technology gives you a single, unified
+        view of your end-to-end supply chain
+      title: Learn how to bring trust, compliance, and ease into supply chain partner
+        communication, collaboration, and verification
   - type: Carousel
     slides:
       - text: "### Reduce the need for manual labor with automated data inputs and
@@ -164,24 +153,21 @@ components:
       title: Better business partner management
       text: How does Vendia Share's data ecosystem and platform work?
   - type: Hero
-    title: Make data-driven decisions that improve resilience and business
-      performance with supply chain visibility
-    text: Solve end-to-end supply chain challenges efficiently and cost-effectively
-      with Vendia Share.
+    title: Let us help you improve supply chain resiliency
+    text: Solve your supply chain challenges efficiently and cost-effectively with
+      Vendia Share.
     contentAlignment: Left
     hideSeparator: true
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
     callToActions:
-      - label: Request a demo
-        url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
-      - label: Request a consult
+      - label: Request a data strategy consult
         url: https://meetings.hubspot.com/aashish3/contact-sales
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-15T22:54:28.589Z
+updatedAt: 2023-03-16T00:16:54.184Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
