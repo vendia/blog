@@ -22,7 +22,7 @@ components:
           width="120" height="-1" />
 
 
-          ### Own a communication advantage
+          ### Advantageous communication
 
 
           Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**. 
@@ -31,20 +31,20 @@ components:
           With Vendia Share, you can
 
 
-          - See which suppliers are supplying specific resources (in quality and quality) from end-to-end
+          - See which suppliers are supplying specific resources (in quality and quality)
 
-          - Understand the capacity needed to support your business right now compared to the capacity you actually have to meet the business needs
-        wrapTheColumnInACard: false
+          - Gauge capacity needed to support your business right now compared to the capacity you actually have to meet the business needs
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269835/Website/Icons/Blue%20icons/People_102_rhu0t6.svg"  class="image-float-left"
           width="120" />
 
 
-          ### Build trust through collaboration
+          ### Trust through collaboration
 
 
-          Companies using Vendia Share can **reduce processing times by up to three weeks**. 
+          Companies using Vendia Share use automation to **reduce processing times by up to three weeks**. 
 
 
           With Vendia Share, you can...
@@ -57,14 +57,14 @@ components:
           - Reduce operational risks and costs
 
           - Mitigate disruptions and avoid recalls
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269834/Website/Icons/Blue%20icons/People_98_okyitl.svg"  class="image-float-left"
           width="120" />
 
 
-          ### Verify data instantaneously
+          ### Instant data verification
 
 
           On average, Vendia Share customers spend **87% less time** investigating and resolving data inconsistencies.
@@ -82,13 +82,13 @@ components:
           - Prove provenance and value to customers
 
           - Report ESG metrics investors can trust
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
     intro:
       text: Vendia Share's distributed ledger technology gives you a single, unified
         view of your end-to-end supply chain for improved communication,
         collaboration, and verification
-      title: "Learn how to bring trust, compliance, and ease into data sharing with
-        supply chain partners "
+      title: Learn how to bring trust, compliance, and ease into data sharing with
+        supply chain partners in every tier
   - type: Carousel
     slides:
       - text: "### Reduce the need for manual labor with automated data inputs and
@@ -121,7 +121,7 @@ components:
 
 
           Vendia Share enables real-time data exchange with partners and systems without the need to establish a new connection per partner pair, perfect for modern web applications that require real-time data exchange and communication with hundreds of partners.
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_111_w4ppei.svg"  class="image-float-left"
@@ -132,18 +132,18 @@ components:
 
 
           This approach involves distributing data storage and processing across multiple nodes or devices rather than single, centralized server or database. Benefits include improved resilience, security, privacy, cost reduction, and greater control over data ownership and usage.
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"  class="image-float-left"
           width="120" />
 
 
-          ### Compliance backed by tamperproof data
+          ### Compliance backed by tamperproof data and easily auditable lineage
 
 
           Improve the accuracy, transparency, and efficiency of compliance processes while reducing risk. Vendia Share's distributed ledger offers a secure, auditable record of transactions and activities to help ensure compliance with policies and regulations.
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
     intro:
       title: Better business partner management
       text: How does Vendia Share's data ecosystem and platform work?
@@ -163,6 +163,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-16T00:23:54.281Z
+updatedAt: 2023-03-16T00:32:23.430Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
