@@ -23,6 +23,10 @@
     "file": "/pages/homepage.md",
     "draft": false
   },
+  "industry/supply-chain/visibility-hugues": {
+    "file": "/pages/industry-supply-chain-visibility-hugues.md",
+    "draft": true
+  },
   "industry/supply-chain/visibility": {
     "file": "/pages/industry-supply-chain-visibility.md",
     "draft": true
