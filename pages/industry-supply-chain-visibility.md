@@ -4,7 +4,7 @@ template: page
 path: /industry/supply-chain/visibility
 components:
   - type: Hero
-    title: Access sub-tier partner data compliantly with Vendia Share
+    title: Build resiliency with full sub-tier visibility using Vendia Share
     text: ""
     contentAlignment: Left
     hideSeparator: true
@@ -86,8 +86,8 @@ components:
       text: Vendia Share's distributed ledger technology gives you a single, unified
         view of your end-to-end supply chain for improved communication,
         collaboration, and verification
-      title: Learn how to bring trust, compliance, and ease into data sharing with
-        your suply chain partners in every tier
+      title: Learn how to bring sub-tier partner data into your ecosystem easily,
+        accurately, compliantly and cost-effectively
   - type: Carousel
     slides:
       - text: "### Reduce the need for manual labor with automated data inputs and
@@ -162,6 +162,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T00:53:40.542Z
+updatedAt: 2023-03-17T16:06:34.582Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
