@@ -4,7 +4,7 @@ template: page
 path: /industry/supply-chain/visibility
 components:
   - type: Hero
-    title: Build resiliency with full sub-tier visibility using Vendia Share
+    title: Create resiliency with full sub-tier visibility using Vendia Share
     text: Vendia Share is the world’s fastest, most scalable platform for sharing
       business data across applications, clouds, and partners
     contentAlignment: Left
@@ -30,11 +30,11 @@ components:
       - Respond faster and smarter to customer needs
       - Report ESG metrics investors can trust
     theme: light
-    title: You can build a single, unified, end-to-end view view in your supply chain
+    title: You can see a single, unified, end-to-end view in your supply chain
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678317479/Website/Icons/Search_c3innu.svg
   - type: Columns
-    theme: white
+    theme: light
     columns:
       - text: >-
           <img
@@ -70,47 +70,19 @@ components:
           #### On average, Vendia Share customers spend **87% less time investigating** and resolving data inconsistencies.
         wrapTheColumnInACard: false
     intro:
-      text: Stop the swings from surpluses to shortages with data from sub-tier
-        partners across your global supply chain
+      text: ""
       title: Own and build trust as a service
-  - type: Carousel
-    slides:
-      - text: "# Poor supply chain visibility and data quality can cost **up to 15% of
-          operations.**"
   - type: Columns
-    theme: white
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269636/Website/Icons/Blue%20icons/Media_111_key6lp.svg"  class="image-float-left"
-          />
-
-
-          #### On average, Vendia Share customers save **$1.4MM** in their first year through efficiency improvements with Vendia Share.
-
-
-          # **Save up to 93% on manual reconciliation costs with accurate automation.**
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269825/Website/Icons/Blue%20icons/Money_97_yxbkyt.svg"  class="image-float-left"
-          />
-
-
-          #### Vendia Share's single view of the complex supply chain gives you the power to **identify trends** and opportunities faster.
-
-
-          # **See potential EBITDA margin improvements of 4% to 10%.**
-        wrapTheColumnInACard: false
-  - type: Columns
-    theme: white
+    theme: light
     intro:
       title: What does Vendia Share solve for?
+      text: Stop the swings from surpluses to shortages by compliantly, securely,
+        accessing data from sub-tier partners across your global supply chain
     columns:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070019/Website/Icons/Purple%20icons/Data_accuracy_ycaoj1.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Data accuracy
@@ -118,7 +90,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070164/Website/Icons/Purple%20icons/Data_uniformity_scphht.png"  class="image-float-left"
-          />
+          width="97" />
 
 
           ### Data uniformity
@@ -126,7 +98,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070164/Website/Icons/Purple%20icons/Data_timelines_w74oqt.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Data timelines
@@ -134,7 +106,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070164/Website/Icons/Purple%20icons/Onboarding_partners_gjkqb9.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Onboarding partners
@@ -142,7 +114,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070390/Website/Icons/Purple%20icons/Cost_to_integrate_w_partners_ayhfch.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Cost to integrate
@@ -150,7 +122,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070391/Website/Icons/Purple%20icons/Cost_to_operate_h46oly.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Cost to operate
@@ -158,7 +130,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070390/Website/Icons/Purple%20icons/Cost_to_build_uv13t9.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Cost to build
@@ -166,7 +138,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1679070390/Website/Icons/Purple%20icons/Cost_to_make_compliant_bgblk2.png"  class="image-float-left"
-          />
+          width="100" />
 
 
           ### Cost to make compliant
@@ -211,6 +183,36 @@ components:
     intro:
       title: How does the SaaS platform work?
       text: ""
+  - type: Columns
+    theme: light
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269636/Website/Icons/Blue%20icons/Media_111_key6lp.svg"  class="image-float-left"
+          />
+
+
+          #### On average, Vendia Share customers save **$1.4MM** in their first year through efficiency improvements with Vendia Share.
+
+
+          # **Save up to 93% on manual reconciliation costs with accurate automation.**
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269825/Website/Icons/Blue%20icons/Money_97_yxbkyt.svg"  class="image-float-left"
+          />
+
+
+          #### Vendia Share's single view of the complex supply chain gives you the power to **identify trends** and opportunities faster.
+
+
+          # **See potential EBITDA margin improvements of 4% to 10%.**
+        wrapTheColumnInACard: false
+    maxColumns: "2"
+    intro:
+      title: Solve your supply chain challenges efficiently and cost-effectively
+      text: Invite partners to join in seconds and onboard them in minutes for
+        real-time data sharing and collaboration
   - type: Hero
     title: Let us help you improve supply chain resiliency
     text: Solve your supply chain challenges efficiently and cost-effectively with
@@ -231,6 +233,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T20:43:28.838Z
+updatedAt: 2023-03-17T20:53:28.084Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
