@@ -29,7 +29,7 @@ components:
       - Prove provenance and value to customers
       - Respond faster and smarter to customer needs
       - Report ESG metrics investors can trust
-    theme: white
+    theme: light
     title: You can build a single, unified, end-to-end view view in your supply chain
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678317479/Website/Icons/Search_c3innu.svg
@@ -70,8 +70,9 @@ components:
           #### On average, Vendia Share customers spend **87% less time investigating** and resolving data inconsistencies.
         wrapTheColumnInACard: false
     intro:
-      text: ""
-      title: ""
+      text: Stop the swings from surpluses to shortages with data from sub-tier
+        partners across your global supply chain
+      title: Own and build trust as a service
   - type: Carousel
     slides:
       - text: "# Poor supply chain visibility and data quality can cost **up to 15% of
@@ -230,6 +231,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T20:40:57.128Z
+updatedAt: 2023-03-17T20:43:28.838Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
