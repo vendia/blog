@@ -15,92 +15,32 @@ components:
       altText: ""
   - type: MediaWithTextTwoColumns
     mediaPosition: left
-    column1: >-
-      <img
-      src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left"
-      width="45" />
-
-
-      See which suppliers are supplying specific resources, when
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      See supplier quality and quality data
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="43" />
-
-
-      Gauge capacity needed right now 
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Compare capacity needed to what you actually have
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Streamline complex operations
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Reduce operational risks and costs
-    column2: >-
-      <img
-      src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left"
-      width="45" />
-
-
-      Mitigate disruptions and avoid recalls
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Allocate defects to the correct cost center
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Prove compliance to local and global regulators
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Prove provenance for value to customers
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" height="45" />
-
-
-      Respond faster and smarter to customer needs
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1677269893/Website/Icons/Blue%20icons/Actions_60_ok8mwc.svg"  class="image-float-left" width="45" />
-
-
-      Report ESG metrics investors can trust
+    column1: |-
+      - See which sub-tier suppliers are providing specific resources, when
+      - See sub-tier supplier quality and quality data
+      - Gauge capacity needed right now 
+      - Compare capacity needed to what you actually have
+      - Streamline complex operations
+      - Reduce operational risks and costs
+      - Mitigate disruptions and avoid recalls
+    column2: |-
+      - Allocate defects to the correct cost center
+      - Prove compliance to local and global regulators
+      - Prove provenance for value to customers
+      - Respond faster and smarter to customer needs
+      - Report ESG metrics investors can trust
     theme: white
     title: You can build a single, unified, end-to-end view view in your supply chain
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
+      altText: A diverse group of business professionals sit around a single digital
+        workspace; on screen, there's a blue BMW sedan is overlayed with
+        interactive touch layers, so all users can dig into data about unique
+        parts and materials from end-to-end in the BMW's supply chain
   - type: Carousel
     slides:
-      - text: "### Reduce the need for manual labor with automated data inputs and
-          reconciliation that minimizes human errors and optimizes procurement
-          and production processes. On average, Vendia Share **customers save
-          $1.4MM in their first year** through efficiency improvements with
-          Vendia Share. Some reduce manual data reconciliation costs by as much
-          as 93%."
+      - text: "#  On average, Vendia Share **customers save $1.4MM in their first year**
+          through efficiency improvements with Vendia Share."
       - text: "### Vendia Share's single view of a complex supply chain can help
           businesses identify trends and opportunities better and faster. With
           advanced analytics and multi-party data sharing, businesses can
@@ -292,10 +232,8 @@ components:
           - Report ESG metrics investors can trust
         wrapTheColumnInACard: false
     intro:
-      text: Vendia Share's distributed ledger technology and cloud-based SaaS platform
-        delivers  accurate, compliant, and cost-effective partner data sharing
-      title: Learn how to create a single, unified, end-to-end view in your data
-        ecosystem
+      text: ""
+      title: ""
   - type: Hero
     title: Let us help you improve supply chain resiliency
     text: Solve your supply chain challenges efficiently and cost-effectively with
@@ -312,6 +250,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T19:12:50.929Z
+updatedAt: 2023-03-17T19:26:02.355Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
