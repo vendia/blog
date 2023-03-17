@@ -13,9 +13,13 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815975/Website/Iso/Group_ccbmyd.png
       altText: ""
-  - type: MediaWithTextTwoColumns
+  - type: MediaWithText
     mediaPosition: left
-    column1: |-
+    text: |-
+      ## You can see a single, unified, end-to-end view in your supply chain
+
+      ### Quickly recover and adapt to disruptions
+
       - See which sub-tier suppliers are providing specific resources, when
       - See sub-tier supplier quality and quality data
       - Gauge capacity needed right now 
@@ -23,40 +27,38 @@ components:
       - Streamline complex operations
       - Reduce operational risks and costs
       - Mitigate disruptions and avoid recalls
-    column2: |-
       - Allocate defects to the correct cost center
       - Prove compliance to local and global regulators
       - Prove provenance and value to customers
       - Respond faster and smarter to customer needs
       - Report ESG metrics investors can trust
-    theme: light
-    title: You can see a single, unified, end-to-end view in your supply chain
+    theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678317479/Website/Icons/Search_c3innu.svg
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
   - type: Columns
     theme: light
     columns:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269539/Website/Icons/Blue%20icons/Analytics_70_fpe61f.svg"  class="image-float-left"
-          width="153" />
+          width="150" />
 
 
-          ## Higher value outcomes
+          ### Higher value outcomes
 
 
-          #### Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**.
+          Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**.
         wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269544/Website/Icons/Blue%20icons/Analytics_89_xd0azl.svg"  class="image-float-left"
-          width="153" />
+          width="150" />
 
 
-          ## Real-time collaboration
+          ### Real-time collaboration
 
 
-          #### Companies using Vendia Share use automation to **reduce processing times by up to three weeks**.
+          Companies using Vendia Share use automation to **reduce processing times by up to three weeks**.
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -64,20 +66,20 @@ components:
           width="150" />
 
 
-          ## Instant data verification
+          ### Instant data verification
 
 
-          #### On average, Vendia Share customers spend **87% less time investigating** and resolving data inconsistencies.
+          On average, Vendia Share customers spend **87% less time investigating** and resolving data inconsistencies.
         wrapTheColumnInACard: false
     intro:
-      text: ""
-      title: Own and build trust as a service
+      text: Optimize for cost-efficiency without sacrificing resiliency
+      title: "Stop the swings from surpluses to shortages "
   - type: Columns
     theme: light
     intro:
       title: What does Vendia Share solve for?
-      text: Stop the swings from surpluses to shortages by compliantly, securely,
-        accessing data from sub-tier partners across your global supply chain
+      text: Share and access sub-tier partner data with trust, ease, security, and
+        built-in compliance
     columns:
       - text: >-
           <img
@@ -145,45 +147,6 @@ components:
         wrapTheColumnInACard: false
     maxColumns: "4"
   - type: Columns
-    theme: white
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_112_dqvknn.svg"  class="image-float-left"
-          width="120" />
-
-
-          ### Bidirectional, efficient data exchange with a single connection
-
-
-          Vendia Share enables real-time data exchange with partners and systems without the need to establish a new connection per partner pair, perfect for modern web applications that require real-time data exchange and communication with hundreds of partners.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_111_w4ppei.svg"  class="image-float-left"
-          width="120" />
-
-
-          ### Decentralized data management for resiliency, privacy, and control
-
-
-          This approach involves distributing data storage and processing across multiple nodes or devices rather than single, centralized server or database. Benefits include improved resilience, security, privacy, cost reduction, and greater control over data ownership and usage.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"  class="image-float-left"
-          width="120" />
-
-
-          ### Compliance backed by tamperproof data and easily auditable lineage
-
-
-          Improve the accuracy, transparency, and efficiency of compliance processes while reducing risk. Vendia Share's distributed ledger offers a secure, auditable record of transactions and activities to help ensure compliance with policies and regulations.
-        wrapTheColumnInACard: false
-    intro:
-      title: How does the SaaS platform work?
-      text: ""
-  - type: Columns
     theme: light
     columns:
       - text: >-
@@ -192,31 +155,30 @@ components:
           />
 
 
-          #### On average, Vendia Share customers save **$1.4MM** in their first year through efficiency improvements with Vendia Share.
+          #### On average, Vendia Share customers **save $1.4MM in their first year** through efficiency improvements with Vendia Share.
 
 
           # **Save up to 93% on manual reconciliation costs with accurate automation.**
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269825/Website/Icons/Blue%20icons/Money_97_yxbkyt.svg"  class="image-float-left"
           />
 
 
-          #### Vendia Share's single view of the complex supply chain gives you the power to **identify trends** and opportunities faster.
+          #### Vendia Share's single view of the complex supply chain gives you the power to **identify trends and opportunities** faster.
 
 
           # **See potential EBITDA margin improvements of 4% to 10%.**
-        wrapTheColumnInACard: false
+        wrapTheColumnInACard: true
     maxColumns: "2"
     intro:
-      title: Solve your supply chain challenges efficiently and cost-effectively
-      text: Invite partners to join in seconds and onboard them in minutes for
-        real-time data sharing and collaboration
+      title: What kinds of results can you expect?
+      text: What would you do with more data, more time, and more money?
   - type: Hero
     title: Let us help you improve supply chain resiliency
-    text: Solve your supply chain challenges efficiently and cost-effectively with
-      Vendia Share.
+    text: We'll help you solve your data sharing challenges efficiently and
+      cost-effectively with Vendia Share.
     contentAlignment: Left
     hideSeparator: true
     image:
@@ -224,15 +186,11 @@ components:
     callToActions:
       - label: Request a data strategy consult
         url: https://meetings.hubspot.com/aashish3/contact-sales
-  - type: MediaFullScreen
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679083483/Website/Misc%20website%20images/Data_sharing_today_oeg2uw.png
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T20:53:28.084Z
+updatedAt: 2023-03-17T21:12:33.833Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
