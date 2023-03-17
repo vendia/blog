@@ -8,7 +8,7 @@ components:
     intro:
       title: Test
       text: >-
-        ### Subtitle
+        ### Core competencies this is not a video game
 
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan congue sem, in scelerisque felis finibus nec. Vestibulum pretium bibendum sodales.
@@ -31,6 +31,26 @@ components:
 
           Core competencies this is not a video game, this is a meeting! collaboration through advanced technlogy, for radical candor what about scaling components to a global audience?, yet not a hill to die on, but show grit.
         wrapTheColumnInACard: false
+    maxColumns: null
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      ## Game plan it's a simple lift and shift job vec into the weeds.
+
+
+      ### Core competencies this is not a video game
+
+
+      Core competencies this is not a video game, this is a meeting! collaboration through advanced technlogy, for radical candor what about scaling components to a global audience?, yet not a hill to die on, but show grit.
+
+
+      <Button kind="primary" label="Call to action" href="#" />
+
+
+      <Button kind="secondaryGhostPurple" label="Secondary action" href="#" />
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png
   - type: Carousel
     textAlignment: Center
     theme: purple-borders
@@ -52,30 +72,11 @@ components:
       label: TODO Click me
       kind: primary
     theme: light
-  - type: MediaWithText
-    mediaPosition: left
-    text: >-
-      ## Game plan it's a simple lift and shift job vec into the weeds.
-
-
-      ### Core competencies this is not a video game
-
-
-      Core competencies this is not a video game, this is a meeting! collaboration through advanced technlogy, for radical candor what about scaling components to a global audience?, yet not a hill to die on, but show grit.
-
-
-      <Button kind="tertiary" label="Call to action" href="#" />
-
-
-      <Button kind="secondaryGhost" label="Secondary action" href="#" />
-    theme: purple
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png
 seo:
   noindex: false
 createdBy: Hugues Tennier
 createdAt: 2023-03-16T20:07:22.403Z
 updatedBy: Hugues Tennier
-updatedAt: 2023-03-17T19:38:10.874Z
+updatedAt: 2023-03-17T20:13:31.252Z
 id: 4cbe4591-4380-4520-b599-2c6fe9974e54
 ---
