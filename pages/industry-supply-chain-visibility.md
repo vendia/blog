@@ -4,8 +4,7 @@ template: page
 path: /industry/supply-chain/visibility
 components:
   - type: Hero
-    title: Build resiliency into your supply chain by accessing  sub-tier partner
-      data compliantly — in real time with Vendia Share
+    title: Access sub-tier partner data compliantly with Vendia Share
     text: ""
     contentAlignment: Left
     hideSeparator: true
@@ -19,7 +18,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269834/Website/Icons/Blue%20icons/People_101_zknsjk.svg"  class="image-float-left"
-          width="120" height="-1" />
+          width="120" />
 
 
           ### Advantageous communication
@@ -34,7 +33,7 @@ components:
           - See which suppliers are supplying specific resources (in quality and quality)
 
           - Gauge capacity needed to support your business right now compared to the capacity you actually have to meet the business needs
-        wrapTheColumnInACard: true
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269835/Website/Icons/Blue%20icons/People_102_rhu0t6.svg"  class="image-float-left"
@@ -57,7 +56,7 @@ components:
           - Reduce operational risks and costs
 
           - Mitigate disruptions and avoid recalls
-        wrapTheColumnInACard: true
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269834/Website/Icons/Blue%20icons/People_98_okyitl.svg"  class="image-float-left"
@@ -82,13 +81,13 @@ components:
           - Prove provenance and value to customers
 
           - Report ESG metrics investors can trust
-        wrapTheColumnInACard: true
+        wrapTheColumnInACard: false
     intro:
       text: Vendia Share's distributed ledger technology gives you a single, unified
         view of your end-to-end supply chain for improved communication,
         collaboration, and verification
       title: Learn how to bring trust, compliance, and ease into data sharing with
-        supply chain partners in every tier
+        your suply chain partners in every tier
   - type: Carousel
     slides:
       - text: "### Reduce the need for manual labor with automated data inputs and
@@ -121,7 +120,7 @@ components:
 
 
           Vendia Share enables real-time data exchange with partners and systems without the need to establish a new connection per partner pair, perfect for modern web applications that require real-time data exchange and communication with hundreds of partners.
-        wrapTheColumnInACard: true
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_111_w4ppei.svg"  class="image-float-left"
@@ -132,7 +131,7 @@ components:
 
 
           This approach involves distributing data storage and processing across multiple nodes or devices rather than single, centralized server or database. Benefits include improved resilience, security, privacy, cost reduction, and greater control over data ownership and usage.
-        wrapTheColumnInACard: true
+        wrapTheColumnInACard: false
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"  class="image-float-left"
@@ -143,7 +142,7 @@ components:
 
 
           Improve the accuracy, transparency, and efficiency of compliance processes while reducing risk. Vendia Share's distributed ledger offers a secure, auditable record of transactions and activities to help ensure compliance with policies and regulations.
-        wrapTheColumnInACard: true
+        wrapTheColumnInACard: false
     intro:
       title: Better business partner management
       text: How does Vendia Share's data ecosystem and platform work?
@@ -163,6 +162,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-16T00:32:23.430Z
+updatedAt: 2023-03-17T00:53:40.542Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
