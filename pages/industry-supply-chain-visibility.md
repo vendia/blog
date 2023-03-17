@@ -39,21 +39,33 @@ components:
         parts and materials from end-to-end in the BMW's supply chain
   - type: Carousel
     slides:
-      - text: "#  On average, Vendia Share **customers save $1.4MM in their first year**
-          through efficiency improvements with Vendia Share."
-      - text: "### Vendia Share's single view of a complex supply chain can help
-          businesses identify trends and opportunities better and faster. With
-          advanced analytics and multi-party data sharing, businesses can
-          improve throughput and see potential **EBITDA margin improvements of
-          4% to 10%**."
-      - text: "### **Poor supply chain visibility and data quality can cost up to 15% of
-          operations.** Use Vendia Share to operate from a single source of
-          truth. Your organization and supply chain partners will increase
-          accuracy in data input and processing to improve inventory management
-          and quality control, reduce rework and returns, and elevate customer
-          satisfaction."
-    theme: purple-borders
-    textAlignment: Center
+      - text: "# Poor supply chain visibility and data quality can cost **up to 15% of
+          operations.**"
+  - type: Columns
+    theme: white
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269636/Website/Icons/Blue%20icons/Media_111_key6lp.svg"  class="image-float-left"
+          />
+
+
+          #### On average, Vendia Share customers save **$1.4MM** in their first year through efficiency improvements with Vendia Share.
+
+
+          # **Save up to 93% on manual reconciliation costs with accurate automation.**
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269825/Website/Icons/Blue%20icons/Money_97_yxbkyt.svg"  class="image-float-left"
+          />
+
+
+          #### Vendia Share's single view of the complex supply chain gives you the power to **identify trends** and opportunities faster.
+
+
+          # **See potential EBITDA margin improvements of 4% to 10%.**
+        wrapTheColumnInACard: false
   - type: Columns
     theme: white
     intro:
@@ -247,11 +259,15 @@ components:
     callToActions:
       - label: Request a data strategy consult
         url: https://meetings.hubspot.com/aashish3/contact-sales
+  - type: MediaFullScreen
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679083483/Website/Misc%20website%20images/Data_sharing_today_oeg2uw.png
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
-updatedBy: Hugues Tennier
-updatedAt: 2023-03-17T19:48:11.581Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-17T20:20:37.459Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
