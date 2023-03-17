@@ -26,17 +26,52 @@ components:
     column2: |-
       - Allocate defects to the correct cost center
       - Prove compliance to local and global regulators
-      - Prove provenance for value to customers
+      - Prove provenance and value to customers
       - Respond faster and smarter to customer needs
       - Report ESG metrics investors can trust
     theme: white
     title: You can build a single, unified, end-to-end view view in your supply chain
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
-      altText: A diverse group of business professionals sit around a single digital
-        workspace; on screen, there's a blue BMW sedan is overlayed with
-        interactive touch layers, so all users can dig into data about unique
-        parts and materials from end-to-end in the BMW's supply chain
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678317479/Website/Icons/Search_c3innu.svg
+  - type: Columns
+    theme: white
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269539/Website/Icons/Blue%20icons/Analytics_70_fpe61f.svg"  class="image-float-left"
+          width="153" />
+
+
+          ## Higher value outcomes
+
+
+          #### Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**.
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269544/Website/Icons/Blue%20icons/Analytics_89_xd0azl.svg"  class="image-float-left"
+          width="153" />
+
+
+          ## Real-time collaboration
+
+
+          #### Companies using Vendia Share use automation to **reduce processing times by up to three weeks**.
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269834/Website/Icons/Blue%20icons/People_98_okyitl.svg"  class="image-float-left"
+          width="150" />
+
+
+          ## Instant data verification
+
+
+          #### On average, Vendia Share customers spend **87% less time investigating** and resolving data inconsistencies.
+        wrapTheColumnInACard: false
+    intro:
+      text: ""
+      title: ""
   - type: Carousel
     slides:
       - text: "# Poor supply chain visibility and data quality can cost **up to 15% of
@@ -175,79 +210,6 @@ components:
     intro:
       title: How does the SaaS platform work?
       text: ""
-  - type: Columns
-    theme: white
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269834/Website/Icons/Blue%20icons/People_101_zknsjk.svg"  class="image-float-left"
-          width="120" />
-
-
-          ### Advantageous communication
-
-
-          Conservatively, Vendia Share's data sharing technology **increases labor productivity by 4.7%**. 
-
-
-          With Vendia Share, you can
-
-
-          - See which suppliers are supplying specific resources (in quality and quality)
-
-          - Gauge capacity needed to support your business right now compared to the capacity you actually have to meet the business needs
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269835/Website/Icons/Blue%20icons/People_102_rhu0t6.svg"  class="image-float-left"
-          width="120" />
-
-
-          ### Trust through collaboration
-
-
-          Companies using Vendia Share use automation to **reduce processing times by up to three weeks**. 
-
-
-          With Vendia Share, you can...
-
-
-          - Respond faster and smarter to customer needs
-
-          - Streamline complex operations
-
-          - Reduce operational risks and costs
-
-          - Mitigate disruptions and avoid recalls
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269834/Website/Icons/Blue%20icons/People_98_okyitl.svg"  class="image-float-left"
-          width="120" />
-
-
-          ### Instant data verification
-
-
-          On average, Vendia Share customers spend **87% less time** investigating and resolving data inconsistencies.
-
-
-
-
-          With Vendia Share, you can...
-
-
-          - Allocate defects to the correct cost center
-
-          - Prove compliance to local and global regulators
-
-          - Prove provenance and value to customers
-
-          - Report ESG metrics investors can trust
-        wrapTheColumnInACard: false
-    intro:
-      text: ""
-      title: ""
   - type: Hero
     title: Let us help you improve supply chain resiliency
     text: Solve your supply chain challenges efficiently and cost-effectively with
@@ -268,6 +230,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T20:20:37.459Z
+updatedAt: 2023-03-17T20:40:57.128Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
