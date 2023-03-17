@@ -63,6 +63,10 @@
     "file": "/pages/new-slug-on-site.md",
     "draft": true
   },
+  "pancakes-list": {
+    "file": "/pages/pancakes-list.md",
+    "draft": true
+  },
   "partners": {
     "file": "/pages/partners.md",
     "draft": false
