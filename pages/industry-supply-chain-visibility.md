@@ -52,6 +52,8 @@ components:
           accuracy in data input and processing to improve inventory management
           and quality control, reduce rework and returns, and elevate customer
           satisfaction."
+    theme: purple-borders
+    textAlignment: Center
   - type: Columns
     theme: white
     intro:
@@ -249,7 +251,7 @@ seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-17T19:26:02.355Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-03-17T19:48:11.581Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
