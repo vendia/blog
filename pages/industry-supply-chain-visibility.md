@@ -109,6 +109,76 @@ components:
           satisfaction."
   - type: Columns
     theme: white
+    intro:
+      title: What does Vendia Share solve for?
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070019/Website/Icons/Purple%20icons/Data_accuracy_ycaoj1.png"  class="image-float-left"
+          />
+
+
+          ### Data accuracy
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070164/Website/Icons/Purple%20icons/Data_uniformity_scphht.png"  class="image-float-left"
+          />
+
+
+          ### Data uniformity
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070164/Website/Icons/Purple%20icons/Data_timelines_w74oqt.png"  class="image-float-left"
+          />
+
+
+          ### Data timelines
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070164/Website/Icons/Purple%20icons/Onboarding_partners_gjkqb9.png"  class="image-float-left"
+          />
+
+
+          ### Onboarding partners
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070390/Website/Icons/Purple%20icons/Cost_to_integrate_w_partners_ayhfch.png"  class="image-float-left"
+          />
+
+
+          ### Cost to integrate
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070391/Website/Icons/Purple%20icons/Cost_to_operate_h46oly.png"  class="image-float-left"
+          />
+
+
+          ### Cost to operate
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070390/Website/Icons/Purple%20icons/Cost_to_build_uv13t9.png"  class="image-float-left"
+          />
+
+
+          ### Cost to build
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679070390/Website/Icons/Purple%20icons/Cost_to_make_compliant_bgblk2.png"  class="image-float-left"
+          />
+
+
+          ### Cost to make compliant
+        wrapTheColumnInACard: false
+    maxColumns: "4"
+  - type: Columns
+    theme: white
     columns:
       - text: >-
           <img
@@ -144,8 +214,8 @@ components:
           Improve the accuracy, transparency, and efficiency of compliance processes while reducing risk. Vendia Share's distributed ledger offers a secure, auditable record of transactions and activities to help ensure compliance with policies and regulations.
         wrapTheColumnInACard: false
     intro:
-      title: Better business partner management
-      text: How does Vendia Share's data ecosystem and platform work?
+      title: How does the SaaS platform work?
+      text: ""
   - type: Hero
     title: Let us help you improve supply chain resiliency
     text: Solve your supply chain challenges efficiently and cost-effectively with
@@ -162,6 +232,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T16:06:34.582Z
+updatedAt: 2023-03-17T16:29:30.000Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
