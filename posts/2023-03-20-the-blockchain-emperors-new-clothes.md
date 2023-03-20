@@ -14,6 +14,15 @@ relatedPosts:
   - 2022-04-01-private-vs-public-blockchains
   - 2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain
   - 2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform
+tags:
+  - data protection
+  - access control
+  - database
+  - data security
+  - private blockchain
+  - public blockchain
+  - blockchain
+  - distributed ledger technology
 thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png
 seo:
   noindex: false
@@ -24,7 +33,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:53:51.208Z
+updatedAt: 2023-03-20T20:55:50.129Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
@@ -124,7 +133,7 @@ Another public cloud service provider benefit is the ability to apply leading en
 
 Immutability is most commonly associated with the distributed ledger itself. That's certainly the case with Vendia Share's distributed ledger. Immutability also plays an important role in Vendia [smart contracts](https://www.vendia.com/docs/share/smart-contracts), which incorporate the immutability of [versioned AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/configuration-versions.html) functions into the immutability of the smart contract.
 
-##### Comparison with Public Permissionless Blockchains
+##### Comparison with public permissionless blockchains
 
 Public permissionless blockchains are unmatched in their scale. Their globally distributed topology provides a robust network that continues to grow.
 
