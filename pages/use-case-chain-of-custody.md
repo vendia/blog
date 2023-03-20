@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /use-case/chain-of-custody
+path: /use-case/supply-chain
 components:
   - type: Hero
     title: Enable full traceability in a trusted chain of custody
@@ -145,7 +145,7 @@ seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-09T23:17:03.436Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-10T01:51:48.389Z
+updatedBy: David Wells
+updatedAt: 2023-03-20T19:06:40.167Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
