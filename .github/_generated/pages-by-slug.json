@@ -31,7 +31,7 @@
     "file": "/pages/industry-supply-chain-visibility.md",
     "draft": true
   },
-  "industry/supply-chain": {
+  "industry/manufacturing": {
     "file": "/pages/industry-supply-chain.md",
     "draft": false
   },
@@ -131,7 +131,7 @@
     "file": "/pages/use-case-automatic-reconciliation.md",
     "draft": false
   },
-  "use-case/chain-of-custody": {
+  "use-cases/supply-chain": {
     "file": "/pages/use-case-chain-of-custody.md",
     "draft": false
   },
