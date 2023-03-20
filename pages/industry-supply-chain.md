@@ -1,7 +1,7 @@
 ---
 draft: false
 template: page
-path: /industry/supply-chain
+path: /industry/manufacturing
 components:
   - type: Hero
     title: Supply chain tracking
@@ -45,7 +45,7 @@ seo:
   noindex: false
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T03:01:24.818Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-25T03:01:24.818Z
+updatedBy: David Wells
+updatedAt: 2023-03-20T19:06:57.628Z
 id: ac91ffe5-7049-4f69-a82b-2716dfc26246
 ---
