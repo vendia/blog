@@ -22,7 +22,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:12:35.861Z
+updatedAt: 2023-03-20T20:13:43.587Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
@@ -41,7 +41,7 @@ One place is in the [convergence](https://thenewstack.io/are-blockchains-databas
 
 By adopting private permissioned blockchain technology, like [Vendia Share](https://www.vendia.com/), companies can bridge the "need to know" and "need to share" divide with confidence in both their data sharing and their data protection.
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure1_miw8iy.png"  class="image-float-center" width="450" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure1_miw8iy.png"  class="image-float-center" width="300" />
 
 *Figure 1 – Private permissioned blockchains offer data protections that public permissionless blockchains do not*
 
@@ -63,7 +63,7 @@ Both public and private blockchains have their place in modern IT ecosystems. Bu
 
 Vendia Share differentiates its control plane (which provides management of users and blockchains) from the data plane of each blockchain (which provides access to the data within a blockchain). Vendia provides a role-based access control (RBAC) mechanism to allow authorized users to [manage the permissions](https://www.vendia.com/docs/share/rbac) of others. Recently, Vendia Share added a helpful workflow with pre-built templates to make RBAC policy management more accessible and less error prone (Figure 2).
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342826/Blog%20images/Emperor's%20New%20Clothes/Figure2_tmsbcr.png"  class="image-float-center" width="450" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342826/Blog%20images/Emperor's%20New%20Clothes/Figure2_tmsbcr.png"  class="image-float-center" width="597" />
 
 *Figure 2 - Control plane access control management through the Vendia Share console*
 
@@ -88,7 +88,7 @@ At the data plane layer, Vendia provides coarse-grained access control to the Gr
 
 At the record and field layer, Vendia provides [fine-grained access control](https://www.vendia.com/docs/share/fine-grained-data-permissions). Using an Access Control List (ACL) mechanism, a record can be stored to a node with [specific restrictions](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls) in place to limit replication to a subset of other nodes. This is one approach to protect confidentiality of sensitive data that not all parties should see.
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure3-animated_iouqsk.gif"  class="image-float-center" width="450" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure3-animated_iouqsk.gif"  class="image-float-center" width="600" />
 
 *Figure 3 – Differing views of the same record, thanks to fine-grained access controls*
 
@@ -181,7 +181,7 @@ Vendia Share, like all private permissioned chains, limits availability to only 
 
 In an environment with increasingly frequent and increasingly impactful data breaches, there's an immediate reaction to favor the "need to know" and, as a result, to decrease information sharing (say among business partners). There's also a business reality that companies that share data externally [drive significantly more business value](https://www.gartner.com/smarterwithgartner/data-sharing-is-a-business-necessity-to-accelerate-digital-business), so the "need to share" can't be discarded. By taking the best of [blockchain, APIs, and cloud-scale databases](https://www.vendia.com/blog/venn-diagramming-vendia-share), and the proven security mechanisms available for all of the above, Vendia’s platform and platforms like it are well-positioned. They address both "needs to know" and “need to share”, thus increasing security and compliance _while also increasing _the ease of data sharing among partners. As a result, private permissioned blockchains can act as a secure bridge between corporate IT and public permissionless blockchains, simplifying multi-party interactions while also keeping sensitive data well protected.
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure4_ceurdi.png" alt="alt_text" width="450" />
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure4_ceurdi.png" alt="alt_text" width="600" />
 
 *Figure 4 – Private permissionless blockchains are a bridge between central IT and public permissionless blockchains*
 
