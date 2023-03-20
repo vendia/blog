@@ -64,9 +64,19 @@
       "status": 301,
       "from": "/blog/category/guidance",
       "to": "/blog/category/product"
+    },
+    {
+      "status": 301,
+      "from": "/industry/supply-chain",
+      "to": "/industry/manufacturing"
+    },
+    {
+      "status": 301,
+      "from": "/use-case/chain-of-custody",
+      "to": "/use-case/supply-chain"
     }
   ],
-  "updatedAt": "2023-03-07T16:41:54.220Z",
+  "updatedAt": "2023-03-20T19:07:46.382Z",
   "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
