@@ -22,7 +22,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:13:43.587Z
+updatedAt: 2023-03-20T20:21:05.193Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
@@ -37,17 +37,15 @@ For most businesses, their data lives somewhere in between those two poles: it m
 
 So where do these competing interests collide? 
 
-One place is in the [convergence](https://thenewstack.io/are-blockchains-databases/) between databases and distributed ledgers. More database products are being released with [ledger-like properties](https://learn.microsoft.com/en-us/sql/relational-databases/security/ledger/ledger-overview?view=sql-server-ver16) and more blockchains are providing [database-like features](https://www.vendia.com/docs/share/vendia-transaction). Given that companies already struggle to secure their data and minimize the impact of data breaches from their centralized systems, business leaders must now find a way to secure data in a more decentralized world — a world that more accurately reflects their business relationships and data-centric interactions (Figure 1). 
+One place is in the [convergence](https://thenewstack.io/are-blockchains-databases/) between databases and distributed ledgers. More database products are being released with [ledger-like properties](https://learn.microsoft.com/en-us/sql/relational-databases/security/ledger/ledger-overview?view=sql-server-ver16) and more blockchains are providing [database-like features](https://www.vendia.com/docs/share/vendia-transaction). Given that companies already struggle to secure their data and minimize the impact of data breaches from their centralized systems, business leaders must now find a way to secure data in a more decentralized world — a world that more accurately reflects their business relationships and data-centric interactions. 
 
 By adopting private permissioned blockchain technology, like [Vendia Share](https://www.vendia.com/), companies can bridge the "need to know" and "need to share" divide with confidence in both their data sharing and their data protection.
-
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure1_miw8iy.png"  class="image-float-center" width="300" />
-
-*Figure 1 – Private permissioned blockchains offer data protections that public permissionless blockchains do not*
 
 ## Why you want private permissioned blockchain data protection
 
 Businesses want to increase their data protection while also sharing more data with more partners more easily. Fortunately, the same features that address [real-time data sharing challenges](https://thenewstack.io/addressing-the-challenges-of-real-time-data-sharing/) can be built to do so without compromising data protection. Private permissioned blockchains provide a new way to balance “need to know” and “need to share.”
+
+<BlockQuote text="Private permissioned blockchains offer data protections that public permissionless blockchains do not." />
 
 A private permissioned approach allows businesses both large and small to [start extracting commercial value](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/blockchain-beyond-the-hype-what-is-the-strategic-business-value) from blockchain implementations. This means that companies can gain most of the benefits of public permissionless blockchain without compromising most of the security mechanisms available to cloud APIs and databases. And that means:
 
@@ -61,11 +59,13 @@ Both public and private blockchains have their place in modern IT ecosystems. Bu
 
 ### Feature #1 – Control plane access control
 
-Vendia Share differentiates its control plane (which provides management of users and blockchains) from the data plane of each blockchain (which provides access to the data within a blockchain). Vendia provides a role-based access control (RBAC) mechanism to allow authorized users to [manage the permissions](https://www.vendia.com/docs/share/rbac) of others. Recently, Vendia Share added a helpful workflow with pre-built templates to make RBAC policy management more accessible and less error prone (Figure 2).
+Vendia Share differentiates its control plane (which provides management of users and blockchains) from the data plane of each blockchain (which provides access to the data within a blockchain). Vendia provides a role-based access control (RBAC) mechanism to allow authorized users to [manage the permissions](https://www.vendia.com/docs/share/rbac) of others. Recently, Vendia Share added a helpful workflow with pre-built templates to make RBAC policy management more accessible and less error-prone (see Figure 1).
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342826/Blog%20images/Emperor's%20New%20Clothes/Figure2_tmsbcr.png"  class="image-float-center" width="597" />
+*Figure 1 – Control plane access control management through the Vendia Share console*
 
-*Figure 2 - Control plane access control management through the Vendia Share console*
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342826/Blog%20images/Emperor's%20New%20Clothes/Figure2_tmsbcr.png"  class="image-float-center" width="600" />
+
+
 
 Whether done through the console or [programmatically](https://www.vendia.com/docs/share/cli/commands/auth#auth-role-set), setting an appropriate control plane policy for users within an organization is imperative. By limiting access, you empower a select, trusted set of administrators with control plane access to establish a reasonable [separation of concerns](https://csrc.nist.gov/glossary/term/separation_of_concerns#:~:text=Definition(s)%3A,are%20independent%20of%20one%20another.).
 
@@ -80,17 +80,17 @@ Control plan access control mechanisms allow organizations to balance "need to k
 
 ### Feature #2 – Data plane access control
 
-Vendia provides several layers of data plane access control to protect the confidentiality and integrity of data (Figure 3).
+Vendia provides several layers of data plane access control to protect the confidentiality and integrity of data (see Figure 2).
 
-At the outermost layer, Vendia [provides protection](https://www.vendia.com/docs/share/financial-services-protections) from requests originating from countries where States Office of Foreign Assets Control (OFAC) sanctions may apply. This is a common request from financial services customers who require such protections from any Software-as-a-Service (SaaS) offering they adopt. As with control plane access control, limiting the potential attack surface is a helpful first step.
+At the outermost layer, Vendia Share [provides protection](https://www.vendia.com/docs/share/financial-services-protections) from requests originating from countries where States Office of Foreign Assets Control (OFAC) sanctions may apply. This is a common request from financial services customers who require such protections from any Software-as-a-Service (SaaS) offering they adopt. As with control plane access control, limiting the potential attack surface is a helpful first step.
 
 At the data plane layer, Vendia provides coarse-grained access control to the GraphQL API provided by each node. Using either an [API Key](https://www.vendia.com/docs/share/node-authentication#api-keys) provided by Vendia or a [JSON Web Token](https://www.vendia.com/docs/share/node-authentication#jwt-authentication) (JWT) provided by an Identity Provider (IdP) of your choice, you can protect access to the GraphQL operations that provide read and write access to data.
 
 At the record and field layer, Vendia provides [fine-grained access control](https://www.vendia.com/docs/share/fine-grained-data-permissions). Using an Access Control List (ACL) mechanism, a record can be stored to a node with [specific restrictions](https://github.com/vendia/examples/tree/main/features/share/access-controls/data-access-controls) in place to limit replication to a subset of other nodes. This is one approach to protect confidentiality of sensitive data that not all parties should see.
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure3-animated_iouqsk.gif"  class="image-float-center" width="600" />
+*Figure 2 – Differing views of the same record, thanks to fine-grained access controls*
 
-*Figure 3 – Differing views of the same record, thanks to fine-grained access controls*
+<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure3-animated_iouqsk.gif"  class="image-float-center" width="600" />
 
 #### Comparison with public permissionless blockchains
 
@@ -101,8 +101,8 @@ APIs to a private permissioned blockchain should be secured [just like any other
 
 Most importantly, unlike public permissionless blockchains, private permissioned blockchains are frequently used to store sensitive data on-chain, just like in a database. Whether that's personal identifiable information (PII), payment card industry (PCI), public health information (PHI), the combination of identity, authorization policy, and good security practices (like encryption of data in transit and at rest) provide a foundation that allow those who "need to share" to do so only with those who "need to know."  
 
-It's no wonder the World Economic Forum (WEF) believes that _only _private permissioned blockchains have [the potential](https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance) to be GDPR compliant.
-
+<BlockQuote text="It's no wonder the World Economic Forum (WEF) believes that only private permissioned blockchains have [the potential](https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance) to be GDPR compliant."/>
+<p></p>
 ### Feature #3 – Blockchain built on a public cloud foundation
 
 Vendia's SaaS approach is built on the shoulders of giants: public cloud service providers, including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Specifically, Vendia Share offers [single-tenanted accounts](https://www.vendia.com/blog/stamti) using multi-tenanted infrastructure. That means customers get account-level isolation with all the security benefits of public cloud, including scale, resilience, encryption, and immutability.
