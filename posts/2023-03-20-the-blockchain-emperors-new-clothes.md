@@ -2,9 +2,10 @@
 draft: true
 slug: data-protection-approaches
 title: "Data protection approaches: How to balance need to know vs. need to share"
-description: Data protection approaches to make sure your next blockchain
-  investment doesn't leave you exposed
-date: 2023-03-20
+description: James Gimourginas, Director of Solutions Architecture and Customer
+  Success, shares data protection approaches to make sure your next blockchain
+  investment doesn't leave you exposed.
+date: 2023-03-24
 authors:
   - James Gimourginas
 categories:
@@ -23,7 +24,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:52:45.430Z
+updatedAt: 2023-03-20T20:53:51.208Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
