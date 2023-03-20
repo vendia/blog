@@ -22,7 +22,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:27:33.922Z
+updatedAt: 2023-03-20T20:31:14.797Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
@@ -44,9 +44,7 @@ By adopting private permissioned blockchain technology, like [Vendia Share](http
 
 ## Why you want private permissioned blockchain data protection
 
-Businesses want to increase their data protection while also sharing more data with more partners more easily. Fortunately, the same features that address [real-time data sharing challenges](https://thenewstack.io/addressing-the-challenges-of-real-time-data-sharing/) can be built to do so without compromising data protection. Private permissioned blockchains provide a new way to balance “need to know” and “need to share.”
-
-<BlockQuote text="Private permissioned blockchains offer data protections that public permissionless blockchains do not." />
+Private permissioned blockchains offer data protections that public permissionless blockchains do not. Businesses want to increase their data protection while also sharing more data with more partners more easily. Fortunately, the same features that address [real-time data sharing challenges](https://thenewstack.io/addressing-the-challenges-of-real-time-data-sharing/) can be built to do so without compromising data protection. Private permissioned blockchains provide a new way to balance “need to know” and “need to share.”
 
 A private permissioned approach allows businesses both large and small to [start extracting commercial value](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/blockchain-beyond-the-hype-what-is-the-strategic-business-value) from blockchain implementations. This means that companies can gain most of the benefits of public permissionless blockchain without compromising most of the security mechanisms available to cloud APIs and databases. And that means:
 
@@ -179,12 +177,12 @@ Vendia Share, like all private permissioned chains, limits availability to only 
 <p></p>
 ## Transition your data to a private permissioned blockchain
 
-In an environment with increasingly frequent and increasingly impactful data breaches, there's an immediate reaction to favor the "need to know" and, as a result, to decrease information sharing (say among business partners). There's also a business reality that companies that share data externally [drive significantly more business value](https://www.gartner.com/smarterwithgartner/data-sharing-is-a-business-necessity-to-accelerate-digital-business), so the "need to share" can't be discarded. By taking the best of [blockchain, APIs, and cloud-scale databases](https://www.vendia.com/blog/venn-diagramming-vendia-share), and the proven security mechanisms available for all of the above, Vendia’s platform and platforms like it are well-positioned. They address both "needs to know" and “need to share”, thus increasing security and compliance _while also increasing _the ease of data sharing among partners. As a result, private permissioned blockchains can act as a secure bridge between corporate IT and public permissionless blockchains, simplifying multi-party interactions while also keeping sensitive data well protected.
+In an environment with increasingly frequent and increasingly impactful data breaches, there's an immediate reaction to favor the "need to know" and, as a result, to decrease information sharing (say among business partners). There's also a business reality that companies that share data externally [drive significantly more business value](https://www.gartner.com/smarterwithgartner/data-sharing-is-a-business-necessity-to-accelerate-digital-business), so the "need to share" can't be discarded. By taking the best of [blockchain, APIs, and cloud-scale databases](https://www.vendia.com/blog/venn-diagramming-vendia-share), and the proven security mechanisms available for all of the above, Vendia’s platform and platforms like it are well-positioned. They address both "need to know" and “need to share”, thus increasing security and compliance _while also increasing _the ease of data sharing among partners. As a result, private permissioned blockchains can act as a secure bridge between corporate IT and public permissionless blockchains, simplifying multi-party interactions while also keeping sensitive data well protected.
 
+
+*Figure 3 – Private permissionless blockchains are a bridge between central IT and public permissionless blockchains*
 <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure4_ceurdi.png" alt="alt_text" width="600" />
-
-*Figure 4 – Private permissionless blockchains are a bridge between central IT and public permissionless blockchains*
-
+<p></p>
 ### Realize the promise of blockchain without exposing your data (or your partners’ data) using Vendia Share
 
 With a full appreciation for the need to know and the need to share, consider moving data you already share with partners, even if it's sensitive, to a private permissioned blockchain like Vendia Share. With protections in place to retain confidentiality, integrity, and availability, your company can ensure that the data you and your partners rely on is complete, correct, current, compliant, and auditable.  WIth both, you can realize the promise of blockchain without exposing your data or your partners to data breaches and other potential pitfalls.
