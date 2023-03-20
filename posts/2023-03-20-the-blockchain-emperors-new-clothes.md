@@ -23,11 +23,11 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:44:30.544Z
+updatedAt: 2023-03-20T20:52:45.430Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
-It's imperative to balance the "need to know'' and the "need to share.” But it’s far less simple to manage the dynamic between those needs. Especially when it comes to partner data sharing across clouds, businesses, and industries.
+In partner data sharing, it's imperative to balance the "need to know'' and the "need to share.” But it’s far less simple to manage the dynamic between those needs. Especially when it comes to partner data sharing across clouds, businesses, and industries.
 
 - Need to know data kept in complete isolation is low in utility (since no one can use it). 
 - Need to share data ubiquitously dispersed is relatively low in value (since everyone has access to it), although there’s a special exception for public legal records (like the title to a car or deed to a home).
