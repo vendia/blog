@@ -4,7 +4,7 @@ template: page
 path: /industry/supply-chain/visibility
 components:
   - type: Hero
-    title: Create resiliency with full sub-tier visibility using Vendia Share
+    title: Create resiliency with full visibility, including sub-tiers
     text: Vendia Share is the world’s fastest, most scalable platform for sharing
       business data across applications, clouds, and partners
     contentAlignment: Left
@@ -186,11 +186,13 @@ components:
     callToActions:
       - label: Request a data strategy consult
         url: https://meetings.hubspot.com/aashish3/contact-sales
+      - label: Try Vendia Share in the free app
+        url: https://share.vendia.net/
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-17T21:12:33.833Z
+updatedAt: 2023-03-20T19:02:51.787Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
