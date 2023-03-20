@@ -1,6 +1,7 @@
 ---
 draft: true
-title: The blockchain emperor's new clothes
+slug: data-protection-approaches
+title: "Data protection approaches: How to balance need to know vs. need to share"
 description: Data protection approaches to make sure your next blockchain
   investment doesn't leave you exposed
 date: 2023-03-20
@@ -22,24 +23,25 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-20T20:31:14.797Z
+updatedAt: 2023-03-20T20:44:30.544Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
-I observed a polarity early in my career, and it has shaped my thinking about data protection ever since. Simply put, it's imperative to balance the "need to know'' and the "need to share.” But it’s far less simple to always know and manage the dynamic between them. Especially when it comes to partner data sharing across clouds, businesses, and industries.
+It's imperative to balance the "need to know'' and the "need to share.” But it’s far less simple to manage the dynamic between those needs. Especially when it comes to partner data sharing across clouds, businesses, and industries.
 
-Both sides have merit:
+- Need to know data kept in complete isolation is low in utility (since no one can use it). 
+- Need to share data ubiquitously dispersed is relatively low in value (since everyone has access to it), although there’s a special exception for public legal records (like the title to a car or deed to a home).
 
-- Need to know data kept in complete isolation is low in utility (since no one_ _can use it). 
-- Need to share data ubiquitously dispersed is relatively low in value (since everyone_ _has access to it), although there’s a special exception for public legal records (like the title to a car or deed to a home).
+For most businesses, data lives somewhere in between need to know and need to share. It must be immediately and securely accessible to those who have permission to utilize it, and it must be strongly protected from those who don't — which is much more easily said [than done](https://www.bbc.com/news/world-australia-63056838). 
 
-For most businesses, their data lives somewhere in between those two poles: it must be immediately and securely accessible to those who have permission to utilize it, and it must be strongly protected from those who don't. Which is much more easily said [than done](https://www.bbc.com/news/world-australia-63056838). The average cost of a data breach has climbed to [over $9M](https://www.ibm.com/reports/data-breach), and the cost of a breach is even higher in industries handling the most sensitive data, like healthcare.
+But with the average cost of a data breach climbing to [over $9M](https://www.ibm.com/reports/data-breach), and the cost of a breach is even higher in industries handling the most sensitive data, (we see you Healthcare), where do these competing interests find common ground?
 
-So where do these competing interests collide? 
+###Databases converge with DLT
 
-One place is in the [convergence](https://thenewstack.io/are-blockchains-databases/) between databases and distributed ledgers. More database products are being released with [ledger-like properties](https://learn.microsoft.com/en-us/sql/relational-databases/security/ledger/ledger-overview?view=sql-server-ver16) and more blockchains are providing [database-like features](https://www.vendia.com/docs/share/vendia-transaction). Given that companies already struggle to secure their data and minimize the impact of data breaches from their centralized systems, business leaders must now find a way to secure data in a more decentralized world — a world that more accurately reflects their business relationships and data-centric interactions. 
+One place is in the [convergence](https://thenewstack.io/are-blockchains-databases/) between databases and distributed ledger technology (DLT). More database products are being released with [ledger-like properties](https://learn.microsoft.com/en-us/sql/relational-databases/security/ledger/ledger-overview?view=sql-server-ver16) and more blockchains are providing [database-like features](https://www.vendia.com/docs/share/vendia-transaction). Given that companies already struggle to secure their data and minimize the impact of data breaches from their centralized systems, business leaders must now find a way to secure data in a more decentralized world — a world that more accurately reflects their business relationships and data-centric interactions. 
 
 By adopting private permissioned blockchain technology, like [Vendia Share](https://www.vendia.com/), companies can bridge the "need to know" and "need to share" divide with confidence in both their data sharing and their data protection.
+
 <p></p>
 
 ## Why you want private permissioned blockchain data protection
@@ -52,11 +54,10 @@ A private permissioned approach allows businesses both large and small to [start
 - Maintaining a decentralized ledger with auditable history should be simple. And doing so shouldn't require storing all sensitive data outside of that solution.
 - Securing a blockchain, from its interfaces to its integration points to its ledger to its management capability, and ensuring relevant compliance regimes are upheld should be top of mind for all businesses. And doing so from scratch is outside the realm of most organizations' interests and capabilities.
 <p></p>
-
 ## 3 key features where private permissioned blockchains differ from public permissionless blockchains
 
 Both public and private blockchains have their place in modern IT ecosystems. But compared to public permissionless blockchain, private permissioned chains offer the most sophisticated data privacy, data protection, and data governance for securely sharing data among business partners. These benefits allow companies to move past a false choice between "need to know" and "need to share."
-<p></p>
+
 ### Feature #1 – Control plane access control
 
 Vendia Share differentiates its control plane (which provides management of users and blockchains) from the data plane of each blockchain (which provides access to the data within a blockchain). Vendia provides a role-based access control (RBAC) mechanism to allow authorized users to [manage the permissions](https://www.vendia.com/docs/share/rbac) of others. Recently, Vendia Share added a helpful workflow with pre-built templates to make RBAC policy management more accessible and less error-prone (see Figure 1).
@@ -75,7 +76,7 @@ Unlike public permissionless blockchains, private permissioned blockchains are i
 - **Permissions provide more granular control for those who do have access.** Unlike public permissionless blockchains, just because someone has *access, _it does not mean they have _full access*.
 
 Control plan access control mechanisms allow organizations to balance "need to know" and "need to share" in a way that just isn't possible with public permissionless blockchains. For many enterprise use cases, control plane access control is a critical feature that enables businesses to form secure, trusted blockchain networks with their partners.
-<p></p>
+
 ### Feature #2 – Data plane access control
 
 Vendia provides several layers of data plane access control to protect the confidentiality and integrity of data (see Figure 2).
@@ -89,6 +90,7 @@ At the record and field layer, Vendia provides [fine-grained access control](htt
 *Figure 2 – Differing views of the same record, thanks to fine-grained access controls*
 
 <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure3-animated_iouqsk.gif"  class="image-float-center" width="600" />
+
 <p></p>
 ##### Comparison with public permissionless blockchains
 
@@ -100,7 +102,7 @@ APIs to a private permissioned blockchain should be secured [just like any other
 Most importantly, unlike public permissionless blockchains, private permissioned blockchains are frequently used to store sensitive data on-chain, just like in a database. Whether that's personal identifiable information (PII), payment card industry (PCI), public health information (PHI), the combination of identity, authorization policy, and good security practices (like encryption of data in transit and at rest) provide a foundation that allow those who "need to share" to do so only with those who "need to know."  
 
 It's no wonder the World Economic Forum (WEF) believes that only private permissioned blockchains have the [potential]((https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance)) to be GDPR compliant.
-<p></p>
+
 ### Feature #3 – Blockchain built on a public cloud foundation
 
 Vendia's SaaS approach is built on the shoulders of giants: public cloud service providers, including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Specifically, Vendia Share offers [single-tenanted accounts](https://www.vendia.com/blog/stamti) using multi-tenanted infrastructure. That means customers get account-level isolation with all the security benefits of public cloud, including scale, resilience, encryption, and immutability.
@@ -128,6 +130,7 @@ Public permissionless blockchains are unmatched in their scale. Their globally d
 While private permissioned blockchains can't match that level of ubiquity, they can, like Vendia, choose to leverage public cloud services to provide world-class scale, resilience, encryption, and immutability across the [leading](https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-in-the-2022-gartner-cloud-infrastructure-platform-services-cips-magic-quadrant-for-the-12th-consecutive-year/) clouds in the world. 
 
 One additional note: Private permissioned blockchains that leave scale, resilience, encryption and immutability to its deployers are in a much less favorable position for secure data protection. It's one of several reasons first-generation enterprise blockchains are [doomed](https://thenewstack.io/enterprise-blockchain-is-doomed/).
+
 <p></p>
 ## Assessing security and data protection risks
 
@@ -146,6 +149,7 @@ Integrity protects data origin and data content. This specifically covers "write
 ##### Availability
 
 Availability means a system can respond to requests to read and write data. Resilience of the system itself, the data it stores, and the history of that data are all part of availability.
+
 <p></p>
 ### Data protection in private permissioned blockchains
 
@@ -174,14 +178,17 @@ Vendia Share also provides data plane access control mechanisms that allow only 
 Private permissioned blockchains can leverage public cloud service providers to deliver world-class scale, resilience, reliability, and availability of the data they store.
 
 Vendia Share, like all private permissioned chains, limits availability to only authenticated and authorized participants in order to reduce the potential attack surface available for data breaches. While this does limit scale to a degree, that impact is balanced by a global footprint that also spans clouds and regions. In addition, by leveraging those same cloud services, Vendia Share is able to get [orders of magnitude](https://arxiv.org/pdf/2110.09221v1.pdf) better ingestion and consensus throughput than public permissionless blockchains. This approach drives availability as participants are aware of a new transaction within seconds, meaning they can work from a consistent and shared source of truth at all times.
+
 <p></p>
 ## Transition your data to a private permissioned blockchain
 
-In an environment with increasingly frequent and increasingly impactful data breaches, there's an immediate reaction to favor the "need to know" and, as a result, to decrease information sharing (say among business partners). There's also a business reality that companies that share data externally [drive significantly more business value](https://www.gartner.com/smarterwithgartner/data-sharing-is-a-business-necessity-to-accelerate-digital-business), so the "need to share" can't be discarded. By taking the best of [blockchain, APIs, and cloud-scale databases](https://www.vendia.com/blog/venn-diagramming-vendia-share), and the proven security mechanisms available for all of the above, Vendia’s platform and platforms like it are well-positioned. They address both "need to know" and “need to share”, thus increasing security and compliance _while also increasing _the ease of data sharing among partners. As a result, private permissioned blockchains can act as a secure bridge between corporate IT and public permissionless blockchains, simplifying multi-party interactions while also keeping sensitive data well protected.
+In an environment with increasingly frequent and increasingly impactful data breaches, there's an immediate reaction to favor the "need to know" and, as a result, to decrease information sharing (say among business partners). There's also a business reality that companies that share data externally [drive significantly more business value](https://www.gartner.com/smarterwithgartner/data-sharing-is-a-business-necessity-to-accelerate-digital-business), so the "need to share" can't be discarded. By taking the best of [blockchain, APIs, and cloud-scale databases](https://www.vendia.com/blog/venn-diagramming-vendia-share), and the proven security mechanisms available for all of the above, the Vendia Share platform is well-positioned to keep your organization in a position of strength while limiting risk. 
 
+Vendia's technology addresses both the "need to know" and “need to share”, thus increasing security and compliance _while also increasing_ the ease of data sharing among partners. Our platform on a private permissioned blockchain can act as a secure bridge between corporate IT and public permissionless blockchains, simplifying multi-party interactions while also keeping sensitive data well protected.
 
 *Figure 3 – Private permissionless blockchains are a bridge between central IT and public permissionless blockchains*
 <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342827/Blog%20images/Emperor's%20New%20Clothes/Figure4_ceurdi.png" alt="alt_text" width="600" />
+
 <p></p>
 ### Realize the promise of blockchain without exposing your data (or your partners’ data) using Vendia Share
 
