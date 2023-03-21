@@ -114,7 +114,19 @@ components:
           **360 view of loan lifecycles**
 
 
-          From application inputs and loan origination to transaction histories and servicing details, get a 360-view of your customer data and insights into their experiences, so you can manage risk and offer new financial products appropriately.
+          From loan origination to servicing details, get a 360-view of your customer data and insights into their experiences, so you can manage risk and offer new financial products appropriately.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Insurance coverage unification and reinsurance data sharing**
+
+
+          After decades of merger and acquisition activity, house all product data and have in a single, unified view that streamlines insurance sales and improves customer experience.
+        wrapTheColumnInACard: false
+      - text: >-
+          **No more unstructured paperwork**
+
+
+          Store pdfs and extract key data points using machine learning (ML) from doc.
         wrapTheColumnInACard: false
     intro:
       title: Why financial services leaders trust Vendia Share
@@ -126,9 +138,7 @@ components:
       **Get the guide**
 
 
-      How to create a winning data and application strategy with distributed ledger technology
-
-
+      How to create a winning data and application strategy with Vendia's distributed ledger technology
 
 
       <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022" />
@@ -166,6 +176,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T21:36:11.570Z
+updatedAt: 2023-03-21T21:45:45.798Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
