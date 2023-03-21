@@ -32,8 +32,8 @@ seo:
   keywords: business blockchain approaches to avoid risk
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
-updatedBy: David Wells
-updatedAt: 2023-03-21T01:47:22.743Z
+updatedBy: james-vendia
+updatedAt: 2023-03-21T13:16:31.796Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
@@ -59,7 +59,7 @@ Private permissioned blockchains offer data protections that public permissionle
 A private permissioned approach allows businesses both large and small to [start extracting commercial value](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/blockchain-beyond-the-hype-what-is-the-strategic-business-value) from blockchain implementations. This means that companies can gain most of the benefits of public permissionless blockchain without compromising most of the security mechanisms available to cloud APIs and databases. And that means:
 
 - Sharing consistent, real-time data with partners should be simple. And doing so shouldn't compromise the confidentiality or integrity of the data.
-- Maintaining a decentralized ledger with auditable history should be simple. And doing so shouldn't require storing all sensitive data outside of that solution.
+- Maintaining a decentralized ledger with auditable history should be simple. And doing so shouldn't require storing all sensitive data outside of the ledger.
 - Securing a blockchain, from its interfaces to its integration points to its ledger to its management capability, and ensuring relevant compliance regimes are upheld should be top of mind for all businesses. And doing so from scratch is outside the realm of most organizations' interests and capabilities.
 
 ## 3 key features where private permissioned blockchains differ from public permissionless blockchains
@@ -74,14 +74,14 @@ Vendia Share differentiates its control plane (which provides management of user
 
 <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679342826/Blog%20images/Emperor's%20New%20Clothes/Figure2_tmsbcr.png"  class="image-float-center" width="600" />
 
-Whether done through the console or [programmatically](https://www.vendia.com/docs/share/cli/commands/auth#auth-role-set), setting an appropriate control plane policy for users within an organization is imperative. By limiting access, you empower a select, trusted set of administrators with control plane access to establish a reasonable [separation of concerns](https://csrc.nist.gov/glossary/term/separation_of_concerns#:~:text=Definition(s)%3A,are%20independent%20of%20one%20another.).
+Whether done through the console or [programmatically](https://www.vendia.com/docs/share/cli/commands/auth#auth-role-set), setting an appropriate control plane policy for users within an organization is imperative. By limiting access, you empower a select, trusted set of administrators with control plane access to establish a reasonable [separation of concerns](https://csrc.nist.gov/glossary/term/separation_of_concerns).
 
 ##### Comparison with public permissionless blockchains
 
 Unlike public permissionless blockchains, private permissioned blockchains are inherently able to deal with permissions, including at the control plane.
 
 - **Permissions limit the potential attack surface.** Unlike public permissionless blockchains, not just anyone can create a new node.
-- **Permissions provide more granular control for those who do have access.** Unlike public permissionless blockchains, just because someone has *access, _it does not mean they have _full access*.
+- **Permissions provide more granular control for those who do have access.** Unlike public permissionless blockchains, just because someone has access, it does not mean they have _full access_.
 
 Control plan access control mechanisms allow organizations to balance "need to know" and "need to share" in a way that just isn't possible with public permissionless blockchains. For many enterprise use cases, control plane access control is a critical feature that enables businesses to form secure, trusted blockchain networks with their partners.
 
@@ -108,7 +108,7 @@ APIs to a private permissioned blockchain should be secured [just like any other
 
 Most importantly, unlike public permissionless blockchains, private permissioned blockchains are frequently used to store sensitive data on-chain, just like in a database. Whether that's personal identifiable information (PII), payment card industry (PCI), public health information (PHI), the combination of identity, authorization policy, and good security practices (like encryption of data in transit and at rest) provide a foundation that allow those who "need to share" to do so only with those who "need to know."  
 
-It's no wonder the World Economic Forum (WEF) believes that only private permissioned blockchains have the [potential]((https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance)) to be GDPR compliant.
+It's no wonder the World Economic Forum (WEF) believes that only private permissioned blockchains have the [potential]((https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance) to be GDPR compliant.
 
 ### Feature #3 – Blockchain built on a public cloud foundation
 
@@ -166,7 +166,7 @@ Unlike public permissionless blockchains, private permissioned blockchains can p
 
 Vendia Share provides data plane access control mechanisms that allow only authenticated and authorized parties to view data. Further, Vendia allows data providers to apply access controls at the record or field level. Those access controls are applied during consensus, meaning unauthorized access to data is impossible because the data simply doesn't exist in an unauthorized participant's copy of the ledger. 
 
-In addition, Vendia's use of leading cloud services, and their inherent encryption at rest and in transit capabilities, further protects confidentiality. By leveraging an encryption approach that wraps the storage of the ledger itself, encryption schemes can evolve over time. This is in stark contrast to concerns about placing encrypted data on a public permissionless blockchains because of potential quantum computing advances that will be [able to break](https://www.science.org/content/article/worried-quantum-computers-will-supercharge-hacking-white-house-calls-encryption-shift) common encryption schemes.
+In addition, Vendia's use of leading cloud services, and their inherent encryption at rest and in transit capabilities, further protects confidentiality. By leveraging an encryption approach that wraps the storage of the ledger itself, encryption schemes can evolve over time. This is in stark contrast to concerns about placing encrypted data on public permissionless blockchains because of potential quantum computing advances that will be [able to break](https://www.science.org/content/article/worried-quantum-computers-will-supercharge-hacking-white-house-calls-encryption-shift) common encryption schemes.
 
 Of course, for additional protection, participants can leverage [data masking](https://en.wikipedia.org/wiki/Data_masking) techniques of their own for data written to Vendia Share. In the future, Vendia Share, itself, will support more of these mechanisms as part of its built-in data masking capabilities. In the meantime, unlike in public permissionless blockchains, the use of ACLs allows sensitive data to reside in the blockchain — just as it would in a properly secured database.
 
@@ -196,6 +196,6 @@ Vendia's technology addresses both the "need to know" and “need to share”, t
 
 ### Realize the promise of blockchain without exposing your data (or your partners’ data) using Vendia Share
 
-With a full appreciation for the need to know and the need to share, consider moving data you already share with partners, even if it's sensitive, to a private permissioned blockchain like Vendia Share. With protections in place to retain confidentiality, integrity, and availability, your company can ensure that the data you and your partners rely on is complete, correct, current, compliant, and auditable.  WIth both, you can realize the promise of blockchain without exposing your data or your partners to data breaches and other potential pitfalls.
+With a full appreciation for the need to know and the need to share, consider moving data you already share with partners, even if it's sensitive, to a private permissioned blockchain like Vendia Share. With protections in place to retain confidentiality, integrity, and availability, your company can ensure that the data you and your partners rely on is complete, correct, current, compliant, and auditable.  With both, you can realize the promise of blockchain without exposing your data or your partners to data breaches and other potential pitfalls.
 
 **To learn more, check out Vendia's open-source GitHub [examples repository](https://github.com/vendia/examples) or set up time with us to explore a targeted [proof of concept](https://www.vendia.com/poc) to see the Vendia Share platform in action.**
