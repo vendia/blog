@@ -62,6 +62,12 @@ components:
 
           saved, on average, in Year One alone, when operating on the Vendia Share platform
         wrapTheColumnInACard: false
+    intro:
+      text: Take manual interventions out of the mix when you own an automated single
+        source of truth that instantly, accurately reconciles data from inside
+        and outside your four walls — no matter how many partners, clouds,
+        companies, or inputs.
+      title: Operate with a golden record everyone can trust
   - type: Carousel
     slides:
       - text: >-
@@ -71,6 +77,30 @@ components:
 
 
           ###### **– CISO, Finserv securitization and technology services**
+  - type: MediaWithTextTwoColumns
+    mediaPosition: left
+    column1: >-
+      **Get the guide**
+
+
+      How to create a winning data and application strategy with distributed ledger technology
+
+
+
+
+      <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022" />
+    column2: >-
+      **Dive deeper**
+
+
+      How Vendia Share's technology works and fits into your data strategy and tech stack
+
+
+      <Button kind="secondaryGhostPurple" label="Download now" />
+    theme: light
+    title: Drive efficiency. Streamline settlements. And simplify audits.
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599179/Website/Iso/File_sharing_pgpw0j.png
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -93,6 +123,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T19:48:28.388Z
+updatedAt: 2023-03-21T20:07:05.120Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
