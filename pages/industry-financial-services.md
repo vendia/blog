@@ -35,10 +35,10 @@ components:
           />
 
 
-          ## 80% - 93% 
+          ## 80% – 93% 
 
 
-          reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
+          Reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -49,7 +49,7 @@ components:
           ## 87% 
 
 
-          less time spent investigating and resolving data inconsistencies with Vendia Share
+          Less time spent investigating and resolving data inconsistencies with Vendia Share
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -60,13 +60,13 @@ components:
           ## $1.4MM 
 
 
-          saved, on average, in Year One alone, when operating on the Vendia Share platform
+          Saved, on average, in Year One alone, when operating on the Vendia Share platform
         wrapTheColumnInACard: false
     intro:
-      text: Take manual interventions out of the mix when you own an automated single
+      text: Take manual interventions out of the mix. Instead, own an automated single
         source of truth that instantly, accurately reconciles data from inside
-        and outside your four walls — no matter how many partners, clouds,
-        companies, or inputs.
+        and outside your four walls — no matter how many (or messy) your partner
+        systems, clouds, companies, or inputs.
       title: Operate with a golden record everyone can trust
   - type: Carousel
     slides:
@@ -81,52 +81,92 @@ components:
     theme: white
     columns:
       - text: >-
-          **Account master**
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"  class="image-float-left"
+          width="110" />
 
 
-          Make informed, lower-risk business decisions based on a  secure, compliant, golden record you and all your data sharing partners can trust.
+          **Accurate account master**
+
+
+          Make informed business decisions and reduce exposure based on a  secure, compliant, golden record you and all your data sharing partners can collaborate on — and trust.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269803/Website/Icons/Blue%20icons/Marketing_45_p25wab.svg"  class="image-float-left"
+          width="110" />
+
+
           **Real-time everything** 
 
 
-          Operate with real-time reconciliation, trade settlement, and payment processing so your organization can manage resources, respond to risks, and serve opportunities with speed and confidence.
+          Operate nimbly with real-time reconciliation, trade settlement, and payment processing to better manage resources, respond to risks, and serve opportunities with confidence.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269664/Website/Icons/Blue%20icons/Security_27_lj6tk3.svg"  class="image-float-left"
+          width="110" />
+
+
           **Digital identity (KYC) verification**
 
 
           Streamline financial account management and integration to help reduce exposure to fraud and money laundering through verified digital identity features.
         wrapTheColumnInACard: false
       - text: >-
-          **Transparent reporting for regulators and auditors**
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269789/Website/Icons/Blue%20icons/GDPR_12_bszobc.svg"  class="image-float-left"
+          width="110" />
 
 
-          Deliver faster, more accurate reporting with a built-in, automated compliance process that draws on immutable data records and delivers Truth as a service to regulators and auditors.
+          **Transparent reporting**
+
+
+          Deliver faster, more accurate reporting with built-in compliance processes that draw on immutable data records and deliver Truth as a service to regulators and auditors.
         wrapTheColumnInACard: false
       - text: >-
-          **Speedy, effective claims management**
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269723/Website/Icons/Blue%20icons/Analytics_89_sdhcrh.svg"  class="image-float-left"
+          width="110" />
+
+
+          **Fast, effective claims management**
 
 
           Save your team and your customers from headaches and mistakes by streamlining cross-insurer claims investigation. Also eliminate data duplication and reduce disputes.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269835/Website/Icons/Blue%20icons/People_102_rhu0t6.svg"  class="image-float-left"
+          width="110" />
+
+
           **360 view of loan lifecycles**
 
 
-          From loan origination to servicing details, get a 360-view of your customer data and insights into their experiences, so you can manage risk and offer new financial products appropriately.
+          From loan origination to servicing details, get a 360-view of your customer data so you can manage risk and offer new financial products appropriately.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269752/Website/Icons/Blue%20icons/Cloud_122_jjpcpn.svg"  class="image-float-left"
+          width="110" />
+
+
           **Insurance coverage unification and reinsurance data sharing**
 
 
-          After decades of merger and acquisition activity, house all product data and have in a single, unified view that streamlines insurance sales and improves customer experience.
+          House all siloed product data in a single, unified view that streamlines insurance sales and improves customer experience.
         wrapTheColumnInACard: false
       - text: >-
-          **No more unstructured paperwork**
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269871/Website/Icons/Blue%20icons/Tech_118_y1apb9.svg"  class="image-float-left"
+          width="110" />
 
 
-          Store pdfs and extract key data points using machine learning (ML) from doc.
+          **Turn unstructured files into good data**
+
+
+          Enrich your data from stored PDFs and extract key data points using machine learning (ML) from pre-digital and ad hoc documentation.
         wrapTheColumnInACard: false
     intro:
       title: Why financial services leaders trust Vendia Share
@@ -176,6 +216,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T21:45:45.798Z
+updatedAt: 2023-03-21T23:36:34.850Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
