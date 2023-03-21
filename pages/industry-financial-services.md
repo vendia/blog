@@ -25,6 +25,52 @@ components:
       - AeroMexico
       - BMW
     theme: light
+  - type: Columns
+    theme: white
+    maxColumns: "3"
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269636/Website/Icons/Blue%20icons/Media_111_key6lp.svg"  class="image-float-left"
+          />
+
+
+          ## 80% - 93% 
+
+
+          reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269639/Website/Icons/Blue%20icons/Media_122_pv42br.svg"  class="image-float-left"
+          />
+
+
+          ## 87% 
+
+
+          less time spent investigating and resolving data inconsistencies with Vendia Share
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269822/Website/Icons/Blue%20icons/Money_86_jlpsvi.svg"  class="image-float-left"
+          />
+
+
+          ## $1.4MM 
+
+
+          saved, on average, in Year One alone, when operating on the Vendia Share platform
+        wrapTheColumnInACard: false
+  - type: Carousel
+    slides:
+      - text: >-
+          ### **Historically, we’ve spent more time talking about doing a
+          project than it took us to build on the Vendia Share solution and
+          begin sharing data with key partners in our data ecosystem.** 
+
+
+          ###### **– CISO, Finserv securitization and technology services**
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -41,18 +87,12 @@ components:
     theme: light
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
-  - type: Carousel
-    slides:
-      - text: "**Historically, we’ve spent more time talking about doing a project than
-          it took us to build on the Vendia Share solution and begin sharing
-          data with key partners in our data ecosystem.** – CISO, Finserv
-          securitization and technology services"
 seo:
   noindex: false
   title: Vendia Share for financial services
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T19:32:18.646Z
+updatedAt: 2023-03-21T19:48:28.388Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
