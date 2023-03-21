@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /industry/financial-services-new
+path: /industry/financial-services
 components:
   - type: Hero
     title: Resolve data discrepancies in seconds, not months
@@ -77,6 +77,49 @@ components:
 
 
           ###### **– CISO, Finserv securitization and technology services**
+  - type: Columns
+    theme: white
+    columns:
+      - text: >-
+          **Account master**
+
+
+          Make informed, lower-risk business decisions based on a  secure, compliant, golden record you and all your data sharing partners can trust.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Real-time everything** 
+
+
+          Operate with real-time reconciliation, trade settlement, and payment processing so your organization can manage resources, respond to risks, and serve opportunities with speed and confidence.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Digital identity (KYC) verification**
+
+
+          Streamline financial account management and integration to help reduce exposure to fraud and money laundering through verified digital identity features.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Transparent reporting for regulators and auditors**
+
+
+          Deliver faster, more accurate reporting with a built-in, automated compliance process that draws on immutable data records and delivers Truth as a service to regulators and auditors.
+        wrapTheColumnInACard: false
+      - text: >-
+          **Speedy, effective claims management**
+
+
+          Save your team and your customers from headaches and mistakes by streamlining cross-insurer claims investigation. Also eliminate data duplication and reduce disputes.
+        wrapTheColumnInACard: false
+      - text: >-
+          **360 view of loan lifecycles**
+
+
+          From application inputs and loan origination to transaction histories and servicing details, get a 360-view of your customer data and insights into their experiences, so you can manage risk and offer new financial products appropriately.
+        wrapTheColumnInACard: false
+    intro:
+      title: Why financial services leaders trust Vendia Share
+      text: Achieve breakthrough results across use cases
+    maxColumns: "4"
   - type: MediaWithTextTwoColumns
     mediaPosition: left
     column1: >-
@@ -122,7 +165,7 @@ seo:
   title: Vendia Share for financial services
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
-updatedBy: David Wells
-updatedAt: 2023-03-21T21:24:05.047Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-21T21:36:11.570Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
