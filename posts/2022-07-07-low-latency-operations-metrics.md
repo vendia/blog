@@ -49,54 +49,34 @@ To address the different needs of customers, we’re introducing different consi
 
 <table>
   <tr>
-   <td><strong>Type of Consistency</strong>
-   </td>
-   <td><strong>Dirty Reads</strong>
-   </td>
-   <td><strong>Synchronous E2E Response*</strong>
-   </td>
-   <td><strong>Consistency Guarantees </strong>
-   </td>
+    <td><strong>Type of Consistency</strong></td>
+    <td><strong>Dirty Reads</strong></td>
+    <td><strong>Synchronous E2E Response*</strong></td>
+    <td><strong>Consistency Guarantees</strong></td>
   </tr>
   <tr>
-   <td><strong>CACHED</strong>
-   </td>
-   <td>Very possible
-   </td>
-   <td>Very fast
-   </td>
-   <td>Transactions are written to a local cache on a given Node and can be out of date up to cache timeout.
-   </td>
+    <td><strong>CACHED</strong></td>
+    <td>Very possible</td>
+    <td>Very fast</td>
+    <td>Transactions are written to a local cache on a given Node and can be out of date up to cache timeout.</td>
   </tr>
   <tr>
-   <td><strong>NODE_COMMITTED </strong>
-   </td>
-   <td>Possible
-   </td>
-   <td>Fast
-   </td>
-   <td>Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger.
-   </td>
+    <td><strong>NODE_COMMITTED</strong></td>
+    <td>Possible</td>
+    <td>Fast</td>
+    <td>Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger.</td>
   </tr>
   <tr>
-   <td><strong>NODE_LEDGERED</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Slow
-   </td>
-   <td>Transactions are written to the world state <strong><em>and</em></strong> ledger on a given Node.
-   </td>
+    <td><strong>NODE_LEDGERED</strong></td>
+    <td>No</td>
+    <td>Slow</td>
+    <td>Transactions are written to the world state <strong><em>and</em></strong> ledger on a given Node.</td>
   </tr>
   <tr>
-   <td><strong>UNI_LEDGERED</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Slowest
-   </td>
-   <td>Transactions are written to the world state <strong><em>and</em></strong> ledger on <strong><em>all</em></strong> Nodes.
-   </td>
+    <td><strong>UNI_LEDGERED</strong></td>
+    <td>No</td>
+    <td>Slowest</td>
+    <td>Transactions are written to the world state <strong><em>and</em></strong> ledger on <strong><em>all</em></strong> Nodes.</td>
   </tr>
 </table>
 

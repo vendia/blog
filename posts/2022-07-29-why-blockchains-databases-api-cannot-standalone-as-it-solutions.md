@@ -141,60 +141,39 @@ It seems we’ve reached an impasse: We need the benefits of cloud databases AND
 
 <table>
   <tr>
-   <td><strong>Cloud databases are nice, but they lack…</strong>
-   </td>
-   <td><strong>Managed APIs are nice, but they lack…</strong>
-   </td>
-   <td><strong>Blockchains are nice, but they lack…</strong>
-   </td>
+    <td><strong>Cloud databases are nice, but they lack…</strong></td>
+    <td><strong>Managed APIs are nice, but they lack…</strong></td>
+    <td><strong>Blockchains are nice, but they lack…</strong></td>
   </tr>
   <tr>
-   <td>Multi-cloud
-   </td>
-   <td>Data storage
-   </td>
-   <td>Cloud scale
-   </td>
+    <td>Multi-cloud</td>
+    <td>Data storage</td>
+    <td>Cloud scale</td>
   </tr>
   <tr>
-   <td>Cross-party data sharing
-   </td>
-   <td>Data consistency / transactions
-   </td>
-   <td>Enterprise integration
-   </td>
+    <td>Cross-party data sharing</td>
+    <td>Data consistency / transactions</td>
+    <td>Enterprise integration</td>
   </tr>
   <tr>
-   <td>File support
-   </td>
-   <td>File support
-   </td>
-   <td>File support
-   </td>
+    <td>File support</td>
+    <td>File support</td>
+    <td>File support</td>
   </tr>
   <tr>
-   <td>Custom APIs for application use
-   </td>
-   <td>Data schema evolution
-   </td>
-   <td>Data schema evolution
-   </td>
+    <td>Custom APIs for application use</td>
+    <td>Data schema evolution</td>
+    <td>Data schema evolution</td>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>Data models
-   </td>
+    <td></td>
+    <td></td>
+    <td>Data models</td>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>Custom APIs for application use
-   </td>
+    <td></td>
+    <td></td>
+    <td>Custom APIs for application use</td>
   </tr>
 </table>
 
@@ -206,64 +185,39 @@ Other approaches, such as real-time streaming (Kafka, Cassandra, Amazon Kinesis)
 
 <table>
   <tr>
-   <td><strong>Data sharing approach</strong>
-   </td>
-   <td><strong>Keeps data consistent?</strong>
-   </td>
-   <td><strong>Allows other accounts, clouds, organizations?</strong>
-   </td>
-   <td><strong>High scale and low latency?</strong>
-   </td>
-   <td><strong>Long-term data storage?</strong>
-   </td>
+    <td><strong>Data sharing approach</strong></td>
+    <td><strong>Keeps data consistent?</strong></td>
+    <td><strong>Allows other accounts, clouds, organizations?</strong></td>
+    <td><strong>High scale and low latency?</strong></td>
+    <td><strong>Long-term data storage?</strong></td>
   </tr>
   <tr>
-   <td><em>Conventional APIs</em>
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>Yes
-   </td>
-   <td>Depends on implementation
-   </td>
+    <td><em>Conventional APIs</em></td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Depends on implementation</td>
   </tr>
   <tr>
-   <td><em>Central databases</em>
-   </td>
-   <td>Yes
-   </td>
-   <td>No
-   </td>
-   <td>Yes
-   </td>
-   <td>Yes
-   </td>
+    <td><em>Central databases</em></td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>Yes</td>
   </tr>
   <tr>
-   <td><em>Events / Streaming</em>
-   </td>
-   <td>Depends on service(s)
-   </td>
-   <td>No
-   </td>
-   <td>Depends on service(s)
-   </td>
-   <td>No
-   </td>
+    <td><em>Events / Streaming</em></td>
+    <td>Depends on service(s)</td>
+    <td>No</td>
+    <td>Depends on service(s)</td>
+    <td>No</td>
   </tr>
   <tr>
-   <td><em>Legacy blockchains</em>
-   </td>
-   <td>Yes
-   </td>
-   <td>Yes
-   </td>
-   <td>Neither
-   </td>
-   <td>Yes
-   </td>
+    <td><em>Legacy blockchains</em></td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Neither</td>
+    <td>Yes</td>
   </tr>
 </table>
 

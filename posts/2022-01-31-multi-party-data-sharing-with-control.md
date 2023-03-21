@@ -62,52 +62,36 @@ There are a set of [Actions](https://www.vendia.com/docs/share/rbac#user-actions
 
 <table>
   <tr>
-   <td><strong>Action</strong>
-   </td>
-   <td><strong>GraphQL Query or Mutation Operation</strong>
-   </td>
+    <td><strong>Action</strong></td>
+    <td><strong>GraphQL Query or Mutation Operation</strong></td>
   </tr>
   <tr>
-   <td>USER_GET
-   </td>
-   <td>getUser
-   </td>
+    <td>USER_GET</td>
+    <td>getUser</td>
   </tr>
   <tr>
-   <td>USER_CREATE 
-   </td>
-   <td>createUser
-   </td>
+    <td>USER_CREATE</td>
+    <td>createUser</td>
   </tr>
   <tr>
-   <td>USER_DELETE
-   </td>
-   <td>deleteUser
-   </td>
+    <td>USER_DELETE</td>
+    <td>deleteUser</td>
   </tr>
   <tr>
-   <td>USER_SET_EMAIL
-   </td>
-   <td>setUserEmail
-   </td>
+    <td>USER_SET_EMAIL</td>
+    <td>setUserEmail</td>
   </tr>
   <tr>
-   <td>USER_SET_ROLE
-   </td>
-   <td>setUserRole
-   </td>
+    <td>USER_SET_ROLE</td>
+    <td>setUserRole</td>
   </tr>
   <tr>
-   <td>USER_DELETE_ROLE
-   </td>
-   <td>deleteUserRole
-   </td>
+    <td>USER_DELETE_ROLE</td>
+    <td>deleteUserRole</td>
   </tr>
   <tr>
-   <td>USER_INVITE
-   </td>
-   <td>invite
-   </td>
+    <td>USER_INVITE</td>
+    <td>invite</td>
   </tr>
 </table>
 
@@ -130,8 +114,9 @@ In addition to storing user accounts, Vendia Share's control plane also stores i
 
 <figure>
   <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783..151488926-9a5e17fc-0ae0-4687-816c-3c70724c6bf3.png" />
-  <figcaption><b>Figure 3</b> - <i>Uni Controls in the Vendia Share Control Plane
-</i></figcaption>
+  <figcaption>
+    <b>Figure 3</b> - <i>Uni Controls in the Vendia Share Control Plane</i>
+  </figcaption>
 </figure>
 
 We can slightly modify the RBAC terms from the previous section to make them specific to Uni management.
@@ -146,73 +131,50 @@ There are a set of [Actions](https://www.vendia.com/docs/share/rbac#user-actions
 
 <table>
   <tr>
-   <td><strong>Action</strong>
-   </td>
-   <td><strong>GraphQL Query or Mutation Operation</strong>
-   </td>
+    <td><strong>Action</strong></td>
+    <td><strong>GraphQL Query or Mutation Operation</strong></td>
   </tr>
   <tr>
-   <td>UNI_CREATE
-   </td>
-   <td>register
-   </td>
+    <td>UNI_CREATE</td>
+    <td>register</td>
   </tr>
   <tr>
-   <td>UNI_DELETE
-   </td>
-   <td>destroy
-   </td>
+    <td>UNI_DELETE</td>
+    <td>destroy</td>
   </tr>
   <tr>
-   <td>UNI_RESET
-   </td>
-   <td>reset
-   </td>
+    <td>UNI_RESET</td>
+    <td>reset</td>
   </tr>
   <tr>
-   <td>UNI_JOIN
-   </td>
-   <td>join
-   </td>
+    <td>UNI_JOIN</td>
+    <td>join</td>
   </tr>
   <tr>
-   <td>UNI_INVITE
-   </td>
-   <td>invite
-   </td>
+    <td>UNI_INVITE</td>
+    <td>invite</td>
   </tr>
   <tr>
-   <td>UNI_DELETE_NODE
-   </td>
-   <td>NA
-   </td>
+    <td>UNI_DELETE_NODE</td>
+    <td>NA</td>
   </tr>
   <tr>
-   <td>UNI_GET
-   </td>
-   <td>getUni, listUnis, getNode
-   </td>
+    <td>UNI_GET</td>
+    <td>getUni, listUnis, getNode</td>
   </tr>
   <tr>
-   <td>UNI_EVOLVE_SCHEMA 
-   </td>
-   <td>evolve
-   </td>
+    <td>UNI_EVOLVE_SCHEMA</td>
+    <td>evolve</td>
   </tr>
   <tr>
-   <td>UNI_QUERY
-   </td>
-   <td>NA - future use
-   </td>
+    <td>UNI_QUERY</td>
+    <td>NA - future use</td>
   </tr>
   <tr>
-   <td>UNI_MUTATE
-   </td>
-   <td>NA - future use
-   </td>
+    <td>UNI_MUTATE</td>
+    <td>NA - future use</td>
   </tr>
 </table>
-
 
 There are a different set of [Resource](https://www.vendia.com/docs/share/rbac#uni-formats) formats that are permitted for Uni management purposes. The formats can be used to describe one or more Unis in a single statement. These are the Unis against which an Action from above can act upon.
 

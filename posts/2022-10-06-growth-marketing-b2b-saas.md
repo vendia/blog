@@ -49,7 +49,7 @@ Here’s my step-by-step guide for finding product-market fit signal using Linke
 
 Step 1: I worked with the leadership team to create a [classic positioning statement:](https://blog.hubspot.com/sales/positioning-statement)
 
-For {{Job title}} and {{company characteristics}} who are trying to {{pain points/projects}} Vendia Share provides {{solution}}. Unlike competitors, {{insert competitors names}} Vendia is {{differentiators}}. 
+For `{{Job title}}` and `{{company characteristics}}` who are trying to `{{pain points/projects}}` Vendia Share provides `{{solution}}`. Unlike competitors, `{{insert competitors names}}` Vendia is `{{differentiators}}`. 
 
 Step 2: I used ZoomInfo to find companies that fit the profile — or got a list of companies that use competitor technologies.
 
