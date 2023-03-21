@@ -169,7 +169,7 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: Why financial services leaders trust Vendia Share
-      text: Achieve breakthrough results across use cases
+      text: Achieve winning business results across use cases
     maxColumns: "4"
   - type: MediaWithTextTwoColumns
     mediaPosition: left
@@ -177,7 +177,7 @@ components:
       **Get the guide**
 
 
-      How to create a winning data and application strategy with Vendia's distributed ledger technology
+      How to create a breakthrough data and application strategy with Vendia's distributed ledger technology
 
 
       <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022" />
@@ -215,6 +215,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T23:55:13.301Z
+updatedAt: 2023-03-21T23:56:25.103Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
