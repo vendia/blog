@@ -63,10 +63,9 @@ components:
           Saved, on average, in Year One alone, when operating on the Vendia Share platform
         wrapTheColumnInACard: false
     intro:
-      text: Take manual interventions out of the mix. Instead, own an automated single
-        source of truth that instantly, accurately reconciles data from inside
-        and outside your four walls — no matter how many (or messy) your partner
-        systems, clouds, companies, or inputs.
+      text: Take manual interventions out of the mix. Instead, instantly, accurately
+        reconcile data from inside and outside your four walls — no matter how
+        many (or messy) your partner systems, clouds, companies, or inputs.
       title: Operate with a golden record everyone can trust
   - type: Carousel
     slides:
@@ -216,6 +215,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T23:54:17.908Z
+updatedAt: 2023-03-21T23:55:13.301Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
