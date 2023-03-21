@@ -81,9 +81,11 @@ components:
     intro:
       title: ""
       text: ""
+seo:
+  title: Careers
 createdBy: Hugues Tennier
 createdAt: 2022-11-29T21:34:09.623Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-10T01:53:37.865Z
+updatedAt: 2023-03-21T19:05:39.611Z
 id: 8680044c-bf7d-4a9f-8129-5a2f62a60873
 ---
