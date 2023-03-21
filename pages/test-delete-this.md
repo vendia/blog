@@ -4,17 +4,20 @@ template: page
 path: /test/delete-this
 components:
   - type: Text
-    text: >-
+    text: |-
       # TODO Text here
-
 
       TODO Text here
 
-
       cool
 
+      <BlockQuote text="ksjljdalkjdalk
 
-      <BlockQuote text="ksjljdalkjdalk&#10;&#10;lkasjdklasjdlak&#10;&#10;lkajsdlkasjd" />
+      lkasjdklasjdlak
+
+      lkajsdlkasjd
+
+      ok" />
     theme: white
 seo:
   noindex: false
@@ -23,6 +26,6 @@ seo:
 createdBy: David Wells
 createdAt: 2023-03-21T02:39:35.522Z
 updatedBy: David Wells
-updatedAt: 2023-03-21T02:39:35.522Z
+updatedAt: 2023-03-21T02:43:56.063Z
 id: 223fa216-e7bc-4217-9685-84a428d775fa
 ---
