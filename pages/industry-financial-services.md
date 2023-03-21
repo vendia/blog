@@ -5,8 +5,8 @@ path: /industry/financial-services
 components:
   - type: Hero
     title: Resolve data discrepancies in seconds, not months
-    text: Reduce risk and eliminate costly, time-consuming friction points  in your
-      data workflows with Vendia Share
+    text: Eliminate costly manual reconciliation and create a single source of truth
+      in your data ecosystem with Vendia Share
     contentAlignment: Left
     hideSeparator: false
     image:
@@ -216,6 +216,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T23:36:34.850Z
+updatedAt: 2023-03-21T23:54:17.908Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
