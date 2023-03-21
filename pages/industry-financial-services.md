@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /industry/financial-services
+path: /industry/financial-services-new
 components:
   - type: Hero
     title: Resolve data discrepancies in seconds, not months
@@ -122,7 +122,7 @@ seo:
   title: Vendia Share for financial services
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-21T20:07:05.120Z
+updatedBy: David Wells
+updatedAt: 2023-03-21T21:24:05.047Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
