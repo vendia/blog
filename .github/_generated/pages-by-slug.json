@@ -11,10 +11,6 @@
     "file": "/pages/contact-us.md",
     "draft": false
   },
-  "foo/bar": {
-    "file": "/pages/default-title.md",
-    "draft": true
-  },
   "example-content-only-page": {
     "file": "/pages/example-content-page.md",
     "draft": true
@@ -110,6 +106,10 @@
   "svb-statement": {
     "file": "/pages/svb-statement.md",
     "draft": false
+  },
+  "test/delete-this": {
+    "file": "/pages/test-delete-this.md",
+    "draft": true
   },
   "thank-you/circles-of-trust-opt-in": {
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
