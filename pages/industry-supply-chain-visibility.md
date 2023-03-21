@@ -3,16 +3,16 @@ draft: true
 template: page
 path: /industry/supply-chain/visibility
 components:
-  - type: Hero
-    title: Create resiliency with full visibility, including sub-tiers
-    text: Vendia Share is the world’s fastest, most scalable platform for sharing
-      business data across applications, clouds, and partners
-    contentAlignment: Left
-    hideSeparator: true
-    callToActions: []
+  - type: MediaWithText
+    mediaPosition: right
+    text: >-
+      ## Create resiliency with full visibility, including sub-tiers
+
+
+      ### Vendia Share is the world’s fastest, most scalable platform for sharing business data across applications, clouds, and partners
+    theme: purple
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815975/Website/Iso/Group_ccbmyd.png
-      altText: ""
   - type: MediaWithText
     mediaPosition: left
     text: |-
@@ -175,24 +175,27 @@ components:
     intro:
       title: What kinds of results can you expect?
       text: What would you do with more data, more time, and more money?
-  - type: Hero
-    title: Let us help you improve supply chain resiliency
-    text: We'll help you solve your data sharing challenges efficiently and
-      cost-effectively with Vendia Share.
-    contentAlignment: Left
-    hideSeparator: true
+  - type: MediaWithText
+    mediaPosition: right
+    text: >-
+      ## Let us help you improve supply chain resiliency
+
+
+      ### We'll help you solve your data sharing challenges efficiently and cost-effectively with Vendia Share.
+
+
+      <Button kind="tertiary" label="Request a data strategy consult" href="https://meetings.hubspot.com/aashish3/contact-sales" />
+
+
+      <Button kind="secondaryGhost" href="https://share.vendia.net/" label="Try Vendia Share in the free app" />
+    theme: purple
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
-    callToActions:
-      - label: Request a data strategy consult
-        url: https://meetings.hubspot.com/aashish3/contact-sales
-      - label: Try Vendia Share in the free app
-        url: https://share.vendia.net/
 seo:
   noindex: false
 createdBy: alexa-vendia
 createdAt: 2023-03-14T17:54:48.347Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-20T19:02:51.787Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-03-21T17:38:09.269Z
 id: 67d8eebe-dcd3-4eea-b201-c86643af97e9
 ---
