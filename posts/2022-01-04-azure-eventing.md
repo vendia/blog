@@ -326,7 +326,7 @@ When your Uni reaches a `RUNNING` state, you'll have a multi-cloud, multi-region
 1. Login to your Azure environment using the Azure CLI
     * `az login`
 1. Identify the Subscription ID of your [Azure Subscription](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) in which your Azure environment resides. Set the Azure Subscription ID against which future Azure CLI commands will execute
-    * `az account set --subscription "<AZURE_SUBSCRIPTION_ID>"`
+    * `az account set --subscription "[AZURE_SUBSCRIPTION_ID]"`
 1. To confirm the Azure Event Grid used to relay events from Share to your Azure environment is ready for use, we must first [register Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart#enable-the-event-grid-resource-provider) as a provider
     * `az provider register --namespace Microsoft.EventGrid`
 1. Wait until the provider is in the `Registered` state
@@ -378,13 +378,13 @@ To finalize this integration, we next:
         updateVendia_Settings(
           input: {
             azure: {
-              defaultTenantId: "<AZURE_TENANT_ID>"
-              defaultSubscriptionId: "<AZURE_SUBSCRIPTION_ID>"
+              defaultTenantId: "[AZURE_TENANT_ID]"
+              defaultSubscriptionId: "[AZURE_SUBSCRIPTION_ID]"
               blockReportFunctions: [
                 {
-                  resourceGroupName: "<AZURE_RESOURCE_GROUP>"
-                  functionAppName: "<AZURE_FUNCTION_APP_NAME>"
-                  functionName: "<AZURE_FUNCTION_NAME>"
+                  resourceGroupName: "[AZURE_RESOURCE_GROUP]"
+                  functionAppName: "[AZURE_FUNCTION_APP_NAME]"
+                  functionName: "[AZURE_FUNCTION_NAME]"
                 }
               ]
             }
@@ -401,11 +401,11 @@ To finalize this integration, we next:
     </details>
 
     *  Be sure to update the mutation values as they pertain to your Azure environment:
-        * **<AZURE_TENANT_ID>** - The ID of the [Azure AD tenant](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant#find-tenant-id-with-cli) within which your Azure Function resides
-        * **<AZURE_SUBSCRIPTION_ID>** - The Subscription ID of the Azure tenant within which your Azure Function resides
-        * **<AZURE_RESOURCE_GROUP>** - The name of the [resource group](https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups) that contains your Azure Function App.
-        * **<AZURE_FUNCTION_APP_NAME>** - The name of your [Azure Function App](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp).
-        * **<AZURE_FUNCTION_NAME>** - The name of your Azure Function App Function, which can be found by clicking into the Function App and then clicking `Functions`
+        * **[AZURE_TENANT_ID]** - The ID of the [Azure AD tenant](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant#find-tenant-id-with-cli) within which your Azure Function resides
+        * **[AZURE_SUBSCRIPTION_ID]** - The Subscription ID of the Azure tenant within which your Azure Function resides
+        * **[AZURE_RESOURCE_GROUP]** - The name of the [resource group](https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups) that contains your Azure Function App.
+        * **[AZURE_FUNCTION_APP_NAME]** - The name of your [Azure Function App](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp).
+        * **[AZURE_FUNCTION_NAME]** - The name of your Azure Function App Function, which can be found by clicking into the Function App and then clicking `Functions`
 
 1. Verify the settings were updated as expected before continuing
 

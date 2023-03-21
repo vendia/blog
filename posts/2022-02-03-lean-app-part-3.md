@@ -101,7 +101,7 @@ Access controls are fairly simple: Acme can read and write balances from either 
 
 
 
-* User_Account(read:{Acme_East, Acme_West, FINRA}, write:{Acme_East, Acme_West})
+* `User_Account(read:{Acme_East, Acme_West, FINRA}, write:{Acme_East, Acme_West})`
 
 (Note: In a more elaborate example, these settings might need to vary on a per-item basis based on the actual data; here, they’re expressed at a per-node level as part of the overall data schema as partner-level data sharing rules that don’t vary from account to account.)
 

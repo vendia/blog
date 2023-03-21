@@ -39,51 +39,33 @@ And here are other ways to keep it simple:
 
 Lean apps leverage other frameworks’ strengths to outweigh other frameworks’ weaknesses. To put it more simply, piecing together lean applications means looking for [what is missing](https://www.vendia.com/blog/lean-app-part-3) from one framework, (i.e., how serveresless doesn’t really account for data models), with the best solution for the missing piece (cloud-based databases). 
 
-
 <table>
   <tr>
-   <td>
-   </td>
-   <td>Offering
-   </td>
-   <td>Missing
-   </td>
+    <td></td>
+    <td>Offering</td>
+    <td>Missing</td>
   </tr>
   <tr>
-   <td>Serverless
-   </td>
-   <td>Event-based, scalable, pay-on-demand
-   </td>
-   <td>Data model
-   </td>
+    <td>Serverless</td>
+    <td>Event-based, scalable, pay-on-demand</td>
+    <td>Data model</td>
   </tr>
   <tr>
-   <td>Open-source
-   </td>
-   <td>“Zero marginal cost-sharing”
-   </td>
-   <td>Still have to host, scale, and manage it all
-   </td>
+    <td>Open-source</td>
+    <td>“Zero marginal cost-sharing”</td>
+    <td>Still have to host, scale, and manage it all</td>
   </tr>
   <tr>
-   <td>Cloud-based data lakes
-   </td>
-   <td>Cross-cloud
-   </td>
-   <td>Focused on BI and analytics, not app development and real-time use cases
-   </td>
+    <td>Cloud-based data lakes</td>
+    <td>Cross-cloud</td>
+    <td>Focused on BI and analytics, not app development and real-time use cases</td>
   </tr>
   <tr>
-   <td>Blockchains
-   </td>
-   <td>Distributed data models across companies, clouds, and stacks
-   </td>
-   <td>Performance and scale for enterprise-solutions
-   </td>
+    <td>Blockchains</td>
+    <td>Distributed data models across companies, clouds, and stacks</td>
+    <td>Performance and scale for enterprise-solutions</td>
   </tr>
 </table>
-
-
 
 ## Features of a Lean App
 

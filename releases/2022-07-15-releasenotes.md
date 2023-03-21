@@ -41,54 +41,34 @@ To address the different needs of customers, we launched different consistency m
 
 <table>
   <tr>
-   <td><strong>Type of Consistency</strong>
-   </td>
-   <td><strong>Dirty Reads</strong>
-   </td>
-   <td><strong>Operation Latency</strong>
-   </td>
-   <td><strong>Consistency Guarantees</strong>
-   </td>
+    <td><strong>Type of Consistency</strong></td>
+    <td><strong>Dirty Reads</strong></td>
+    <td><strong>Operation Latency</strong></td>
+    <td><strong>Consistency Guarantees</strong></td>
   </tr>
   <tr>
-   <td><strong>CACHED</strong>
-   </td>
-   <td>Likely
-   </td>
-   <td>Fastest
-   </td>
-   <td>Transactions are written to a local cache on a given Node and can be out of date up to cache timeout.
-   </td>
+    <td><strong>CACHED</strong></td>
+    <td>Likely</td>
+    <td>Fastest</td>
+    <td>Transactions are written to a local cache on a given Node and can be out of date up to cache timeout.</td>
   </tr>
   <tr>
-   <td><strong>NODE_COMMITTED</strong>
-   </td>
-   <td>Possible
-   </td>
-   <td>Fast
-   </td>
-   <td>Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger.
-   </td>
+    <td><strong>NODE_COMMITTED</strong></td>
+    <td>Possible</td>
+    <td>Fast</td>
+    <td>Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger.</td>
   </tr>
   <tr>
-   <td><strong>NODE_LEDGERED</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Slow
-   </td>
-   <td>Transactions are written to the world state and ledger on a given Node.
-   </td>
+    <td><strong>NODE_LEDGERED</strong></td>
+    <td>No</td>
+    <td>Slow</td>
+    <td>Transactions are written to the world state and ledger on a given Node.</td>
   </tr>
   <tr>
-   <td><strong>UNI_LEDGERED</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Slowest
-   </td>
-   <td>Transactions are written to the world state and ledger on all Nodes.
-   </td>
+    <td><strong>UNI_LEDGERED</strong></td>
+    <td>No</td>
+    <td>Slowest</td>
+    <td>Transactions are written to the world state and ledger on all Nodes.</td>
   </tr>
 </table>
 
@@ -108,54 +88,34 @@ query getShapeQuery {
 
 <table>
   <tr>
-   <td><strong>Type of Consistency</strong>
-   </td>
-   <td><strong>Dirty Reads</strong>
-   </td>
-   <td><strong>Operation Latency</strong>
-   </td>
-   <td><strong>Consistency Guarantees</strong>
-   </td>
+    <td><strong>Type of Consistency</strong></td>
+    <td><strong>Dirty Reads</strong></td>
+    <td><strong>Operation Latency</strong></td>
+    <td><strong>Consistency Guarantees</strong></td>
   </tr>
   <tr>
-   <td><strong>NODE_COMMITTED</strong>
-   </td>
-   <td>Possible
-   </td>
-   <td>Fast
-   </td>
-   <td>Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger. Writes are guaranteed to be read on the local node if using NODE_COMMITTED read mode.
-   </td>
+    <td><strong>NODE_COMMITTED</strong></td>
+    <td>Possible</td>
+    <td>Fast</td>
+    <td>Transactions are written to the world state on a given Node but, perhaps, not yet to the ledger. Writes are guaranteed to be read on the local node if using NODE_COMMITTED read mode.</td>
   </tr>
   <tr>
-   <td><strong>NODE_LEDGERED</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Slow
-   </td>
-   <td>Transactions are written to the world state and ledger on a given Node.
-   </td>
+    <td><strong>NODE_LEDGERED</strong></td>
+    <td>No</td>
+    <td>Slow</td>
+    <td>Transactions are written to the world state and ledger on a given Node.</td>
   </tr>
   <tr>
-   <td><strong>UNI_LEDGERED</strong>
-   </td>
-   <td>No
-   </td>
-   <td>Slowest
-   </td>
-   <td>Transactions are written to the world state and ledger on all Nodes.
-   </td>
+    <td><strong>UNI_LEDGERED</strong></td>
+    <td>No</td>
+    <td>Slowest</td>
+    <td>Transactions are written to the world state and ledger on all Nodes.</td>
   </tr>
   <tr>
-   <td><strong>ASYNC</strong>
-   </td>
-   <td>N/A
-   </td>
-   <td>Fastest
-   </td>
-   <td>Transactions are queued up and a transaction ID is returned that can be polled. Transactions can be queried once they are written to the world state and the ledger on a given Node.
-   </td>
+    <td><strong>ASYNC</strong></td>
+    <td>N/A</td>
+    <td>Fastest</td>
+    <td>Transactions are queued up and a transaction ID is returned that can be polled. Transactions can be queried once they are written to the world state and the ledger on a given Node.</td>
   </tr>
 </table>
 
