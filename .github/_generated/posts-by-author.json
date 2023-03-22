@@ -1,4 +1,493 @@
 {
+  "james-gimourginas": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    },
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": false,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:39:12.072Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
+    },
+    {
+      "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
+      "draft": false,
+      "slug": "creating-a-culture-of-learning",
+      "title": "Creating a culture of learning",
+      "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
+      "date": "2023-01-05T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2022-10-25-vendia-values",
+        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises"
+      ],
+      "tags": [
+        "Culture",
+        "Continuous Improvement",
+        "Learning"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Creating a Culture of Learning",
+        "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers.",
+        "keywords": "Creating a culture of learning"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:39:50.943Z",
+      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
+    },
+    {
+      "file": "/posts/2022-11-21-shared-data-architecture.md",
+      "draft": false,
+      "title": "Understanding shared data architecture",
+      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+      "date": "2022-11-21T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-11-29-shared-data-architecture-patterns",
+        "2022-03-17-are-blockchains-databases",
+        "2022-12-08-5-patterns-for-successful-data-traceability"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
+      "seo": {
+        "title": "Understanding shared data architecture",
+        "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
+        "keywords": "understanding shared data architecture"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:19:09.888Z",
+      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
+    },
+    {
+      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
+      "draft": false,
+      "title": "10 ways to make your software better when building for cloud scale ",
+      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+      "date": "2022-11-18T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
+      ],
+      "tags": [
+        "engineering",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599254/Website/Iso/Data_organization_w6crb8.png",
+      "seo": {
+        "title": "10 ways to make your software better when building for cloud scale ",
+        "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
+        "keywords": "how to build for cloud scale"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:22:28.519Z",
+      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
+    },
+    {
+      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
+      "draft": false,
+      "slug": "real-time-data-sharing-challenges",
+      "title": "Real-time data sharing challenges (and solutions)",
+      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner",
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599418/Website/Iso/Upgrade_your_data_sharing_ysfecm.png",
+      "seo": {
+        "title": "Real-time data sharing challenges (and solutions)",
+        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
+        "keywords": "real-time data, real-time data sharing"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "tweet": "Check out Vendia's real-time data sharing mega guide!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:26:01.402Z",
+      "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
+    },
+    {
+      "file": "/posts/2022-10-21-api-security-graphql.md",
+      "draft": false,
+      "title": "Understanding API security with GraphQL",
+      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
+      "date": "2022-10-21T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-05-27-apis-for-data",
+        "2021-05-10-dont-rip-and-replace-integrate",
+        "2022-09-15-api-design-best-practices"
+      ],
+      "tags": [
+        "security"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png",
+      "seo": {
+        "title": "Understanding API security with GraphQL",
+        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:44:52.110Z",
+      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
+    },
+    {
+      "file": "/posts/2022-09-15-api-design-best-practices.md",
+      "draft": false,
+      "title": "API design best practices",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+      "date": "2022-09-15T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "smart-apis",
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-10-27-codeless-apis",
+        "2022-08-26-crud-new-rules-for-apis",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "tags": [
+        "data modeling, security, best practices"
+      ],
+      "seo": {
+        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
+        "title": "API design best practices",
+        "keywords": "API design best practices"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T18:48:44.323Z",
+      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
+    },
+    {
+      "file": "/posts/2022-07-25-lean-apps-for-teams.md",
+      "draft": false,
+      "title": "What does a \"lean app\" mean for teams?",
+      "description": "A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.",
+      "date": "2022-07-23",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "2ffeac57-9577-4781-b3a3-7d14b859cafb"
+    },
+    {
+      "file": "/posts/2022-07-12-top-10-data-modeling-techniques.md",
+      "draft": false,
+      "title": "The 10 data modeling techniques every Vendia user should know",
+      "description": "Step up your data modeling game to get the most value from Vendia Share.",
+      "date": "2022-07-12",
+      "categories": [
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "676ff9bc-3b83-4bac-bfae-900714a29c4b"
+    },
+    {
+      "file": "/posts/2022-05-25-smart-contract-feature-example.md",
+      "draft": false,
+      "title": "Applying Vendia Share smart contracts",
+      "description": "Examples of real-time data validation, computation, and enrichment",
+      "date": "2022-05-25T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "tutorials"
+      ],
+      "tweet": "Learn how to applying Vendia Share smart contracts",
+      "seo": {
+        "title": "Applying Vendia Share smart contracts",
+        "description": "Applying Vendia Share smart contracts"
+      },
+      "updatedBy": "David Wells",
+      "updatedAt": "2022-11-16T19:45:40.052Z",
+      "id": "a9fe11e1-f1da-4247-a9a2-ce01d22d555f"
+    },
+    {
+      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
+      "draft": false,
+      "title": "Improve your data mesh with real-time data sharing",
+      "description": "Learn why organizations exploring a data mesh should also consider the benefits of integrating a real-time data sharing solution like Vendia Share.",
+      "date": "2022-05-10T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "architecture",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-07-12-top-10-data-modeling-techniques",
+        "2022-06-09-apis-for-real-time-data-sharing",
+        "2022-08-15-data-lakes-file-sharing-use-cases"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "domain driven design",
+        "data mesh"
+      ],
+      "seo": {
+        "title": "Improve your data mesh with real-time data sharing",
+        "keywords": "data mesh, real-time data sharing",
+        "description": "Learn how real-time data sharing solutions help organizations push beyond persistent data challenges and increase the value of a data mesh architecture. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-08T17:31:31.023Z",
+      "id": "a7c8c05a-7e98-4ae7-8604-26eb1bb208e4"
+    },
+    {
+      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
+      "draft": false,
+      "title": "Multi-party data sharing with control",
+      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+      "date": "2022-01-31",
+      "categories": [
+        "architecture",
+        "concepts",
+        "tutorials"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
+    },
+    {
+      "file": "/posts/2022-01-04-azure-eventing.md",
+      "draft": false,
+      "title": "Real-Time cross-cloud data sharing",
+      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
+      "date": "2022-01-04",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "ddbf3341-2b4b-4e3a-bcfe-c291080d1f08"
+    },
+    {
+      "file": "/posts/2021-12-13-log4j2-response.md",
+      "draft": false,
+      "title": "Vendia's Response to CVE-2021-44228",
+      "description": "A note on the impact to Vendia and our customers",
+      "date": "2021-12-13",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "id": "c61580b6-5364-49fa-8b17-2b38b156fd66"
+    },
+    {
+      "file": "/posts/2021-10-26-website-case-studies.md",
+      "draft": false,
+      "title": "Website Case Studies",
+      "description": "Learn what Vendia customers and partners are building on the Share platform",
+      "date": "2021-10-26",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "d4343c26-dd76-4b56-8051-05ae2497bbd5"
+    },
+    {
+      "file": "/posts/2021-10-12-open-beta-changes.md",
+      "draft": false,
+      "title": "Open Beta Changes",
+      "description": "Changes to Vendia Share in advance of the Open Beta",
+      "date": "2021-10-12",
+      "categories": [
+        "announcements"
+      ],
+      "authors": [
+        "James Gimourginas",
+        "Brian McNamara"
+      ],
+      "id": "ff605ef6-07ae-47e2-bdc8-94e229d58ce5"
+    },
+    {
+      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
+      "draft": false,
+      "title": "Five Leadership Practices of an Ultramarathoner",
+      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
+      "date": "2021-09-27",
+      "tag": [
+        "developers"
+      ],
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "40f18bfb-8755-4ae0-9fdd-e91139773e5a"
+    },
+    {
+      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
+      "draft": false,
+      "title": "Toward a Distributed Application Maturity Model",
+      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
+      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
+      "date": "2021-09-07",
+      "categories": [
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "9b00f8a3-b2a7-4eb8-81e5-038b127e0582"
+    },
+    {
+      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
+      "draft": false,
+      "title": "Vendia's Inspiring Vision",
+      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
+      "date": "2021-07-23",
+      "categories": [
+        "announcements",
+        "company",
+        "architecture"
+      ],
+      "authors": [
+        "James Gimourginas"
+      ],
+      "id": "d2f1840a-13d1-4e27-ab72-4db1673f4931"
+    }
+  ],
   "tim-wagner": [
     {
       "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
@@ -2135,454 +2624,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2022-12-06T23:38:48.273Z",
       "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
-    }
-  ],
-  "james-gimourginas": [
-    {
-      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
-      "draft": false,
-      "title": "Distributed ledger challenges and solutions",
-      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
-      "date": "2023-01-11T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2021-10-22-serverless-distributed-ledger-for-enterprises",
-        "2022-03-17-are-blockchains-databases"
-      ],
-      "tags": [
-        "supply chain",
-        "travel and hospitality",
-        "financial services",
-        "use cases",
-        "distributed ledger technology"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Distributed ledger challenges and solutions",
-        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
-        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
-      },
-      "sidebarCta": [
-        "What’s a business blockchain?"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:39:12.072Z",
-      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
-    },
-    {
-      "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
-      "draft": false,
-      "slug": "creating-a-culture-of-learning",
-      "title": "Creating a culture of learning",
-      "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers",
-      "date": "2023-01-05T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-11-18-10-ways-to-make-cloud-scale-software-better",
-        "2021-10-22-serverless-distributed-ledger-for-enterprises"
-      ],
-      "tags": [
-        "Culture",
-        "Continuous Improvement",
-        "Learning"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Creating a Culture of Learning",
-        "description": "See some of our values in action as James Gimourginas, Director of Solutions Architecture at Vendia, shares the ways Vendia is creating a culture of learning for our colleagues and customers.",
-        "keywords": "Creating a culture of learning"
-      },
-      "sidebarCta": [
-        "Join the Founders' Circle"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:39:50.943Z",
-      "id": "adcfc398-f98b-4e39-81a6-867b11472d71"
-    },
-    {
-      "file": "/posts/2022-11-21-shared-data-architecture.md",
-      "draft": false,
-      "title": "Understanding shared data architecture",
-      "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-      "date": "2022-11-21T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-11-29-shared-data-architecture-patterns",
-        "2022-03-17-are-blockchains-databases",
-        "2022-12-08-5-patterns-for-successful-data-traceability"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
-      "seo": {
-        "title": "Understanding shared data architecture",
-        "description": "Go in-depth on shared data architecture as James Gimourginas explains what it is, how it works, and shared data architecture benefits, drawbacks, and use cases.",
-        "keywords": "understanding shared data architecture"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:19:09.888Z",
-      "id": "d44e70c7-8faf-4c05-9f25-3c12d36b7277"
-    },
-    {
-      "file": "/posts/2022-11-18-10-ways-to-make-cloud-scale-software-better.md",
-      "draft": false,
-      "title": "10 ways to make your software better when building for cloud scale ",
-      "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
-      "date": "2022-11-18T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2021-01-29-getting-started-with-vendia-share",
-        "2022-04-26-3-body-problem-solution-example",
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share"
-      ],
-      "tags": [
-        "engineering",
-        "cloud"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599254/Website/Iso/Data_organization_w6crb8.png",
-      "seo": {
-        "title": "10 ways to make your software better when building for cloud scale ",
-        "description": "How does Vendia’s team of cloud engineers build for scale? James Gimourginas, Director of Solutions Architecture and Customer Success lifts the hood on Vendia’s best practices.",
-        "keywords": "how to build for cloud scale"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:22:28.519Z",
-      "id": "8b9b13c9-13ba-476b-bf64-9c820b32edaf"
-    },
-    {
-      "file": "/posts/2022-11-10-real-time-data-sharing-challenges-and-solutions.md",
-      "draft": false,
-      "slug": "real-time-data-sharing-challenges",
-      "title": "Real-time data sharing challenges (and solutions)",
-      "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner",
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-09-22-real-time-everything",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599418/Website/Iso/Upgrade_your_data_sharing_ysfecm.png",
-      "seo": {
-        "title": "Real-time data sharing challenges (and solutions)",
-        "description": "Examine the fundamental obstacles to successful real-time data sharing, including sharing in a data alliance. Understand traditional solutions and explore a more modern one with Vendia Share.\n\n",
-        "keywords": "real-time data, real-time data sharing"
-      },
-      "sidebarCta": [
-        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
-      ],
-      "tweet": "Check out Vendia's real-time data sharing mega guide!",
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:26:01.402Z",
-      "id": "2ea8fb61-c5e8-4f33-8399-e05bd680d160"
-    },
-    {
-      "file": "/posts/2022-10-21-api-security-graphql.md",
-      "draft": false,
-      "title": "Understanding API security with GraphQL",
-      "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams.",
-      "date": "2022-10-21T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "product",
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-05-27-apis-for-data",
-        "2021-05-10-dont-rip-and-replace-integrate",
-        "2022-09-15-api-design-best-practices"
-      ],
-      "tags": [
-        "security"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png",
-      "seo": {
-        "title": "Understanding API security with GraphQL",
-        "description": "Explore common forms of API security, how they specifically relate to GraphQL APIs, and how fully managed platforms like Vendia Share reduce the API security burden often faced by development teams."
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:44:52.110Z",
-      "id": "abdf2976-a27b-41e7-be74-f52fd07758ad"
-    },
-    {
-      "file": "/posts/2022-09-15-api-design-best-practices.md",
-      "draft": false,
-      "title": "API design best practices",
-      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-      "date": "2022-09-15T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "smart-apis",
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-10-27-codeless-apis",
-        "2022-08-26-crud-new-rules-for-apis",
-        "2021-02-17-multiregion-serverless-apps"
-      ],
-      "tags": [
-        "data modeling, security, best practices"
-      ],
-      "seo": {
-        "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
-        "title": "API design best practices",
-        "keywords": "API design best practices"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T18:48:44.323Z",
-      "id": "190b0b33-f281-41c8-a55d-5c9148715454"
-    },
-    {
-      "file": "/posts/2022-07-25-lean-apps-for-teams.md",
-      "draft": false,
-      "title": "What does a \"lean app\" mean for teams?",
-      "description": "A look at the lean app approach to development: The principles, features, and benefits that enable better team collaboration, products, and business results.",
-      "date": "2022-07-23",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "2ffeac57-9577-4781-b3a3-7d14b859cafb"
-    },
-    {
-      "file": "/posts/2022-07-12-top-10-data-modeling-techniques.md",
-      "draft": false,
-      "title": "The 10 data modeling techniques every Vendia user should know",
-      "description": "Step up your data modeling game to get the most value from Vendia Share.",
-      "date": "2022-07-12",
-      "categories": [
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "676ff9bc-3b83-4bac-bfae-900714a29c4b"
-    },
-    {
-      "file": "/posts/2022-05-25-smart-contract-feature-example.md",
-      "draft": false,
-      "title": "Applying Vendia Share smart contracts",
-      "description": "Examples of real-time data validation, computation, and enrichment",
-      "date": "2022-05-25T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "tutorials"
-      ],
-      "tweet": "Learn how to applying Vendia Share smart contracts",
-      "seo": {
-        "title": "Applying Vendia Share smart contracts",
-        "description": "Applying Vendia Share smart contracts"
-      },
-      "updatedBy": "David Wells",
-      "updatedAt": "2022-11-16T19:45:40.052Z",
-      "id": "a9fe11e1-f1da-4247-a9a2-ce01d22d555f"
-    },
-    {
-      "file": "/posts/2022-05-10-improve-your-data-mesh.md",
-      "draft": false,
-      "title": "Improve your data mesh with real-time data sharing",
-      "description": "Learn why organizations exploring a data mesh should also consider the benefits of integrating a real-time data sharing solution like Vendia Share.",
-      "date": "2022-05-10T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "architecture",
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-07-12-top-10-data-modeling-techniques",
-        "2022-06-09-apis-for-real-time-data-sharing",
-        "2022-08-15-data-lakes-file-sharing-use-cases"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "domain driven design",
-        "data mesh"
-      ],
-      "seo": {
-        "title": "Improve your data mesh with real-time data sharing",
-        "keywords": "data mesh, real-time data sharing",
-        "description": "Learn how real-time data sharing solutions help organizations push beyond persistent data challenges and increase the value of a data mesh architecture. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-08T17:31:31.023Z",
-      "id": "a7c8c05a-7e98-4ae7-8604-26eb1bb208e4"
-    },
-    {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "draft": false,
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
-    },
-    {
-      "file": "/posts/2022-01-04-azure-eventing.md",
-      "draft": false,
-      "title": "Real-Time cross-cloud data sharing",
-      "description": "Understand event-driven processing using Vendia Share's new Azure capabilities with insights from James Gimourginas, Director of Solution Architecture and Customer Success.",
-      "date": "2022-01-04",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "ddbf3341-2b4b-4e3a-bcfe-c291080d1f08"
-    },
-    {
-      "file": "/posts/2021-12-13-log4j2-response.md",
-      "draft": false,
-      "title": "Vendia's Response to CVE-2021-44228",
-      "description": "A note on the impact to Vendia and our customers",
-      "date": "2021-12-13",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "announcements"
-      ],
-      "id": "c61580b6-5364-49fa-8b17-2b38b156fd66"
-    },
-    {
-      "file": "/posts/2021-10-26-website-case-studies.md",
-      "draft": false,
-      "title": "Website Case Studies",
-      "description": "Learn what Vendia customers and partners are building on the Share platform",
-      "date": "2021-10-26",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "d4343c26-dd76-4b56-8051-05ae2497bbd5"
-    },
-    {
-      "file": "/posts/2021-10-12-open-beta-changes.md",
-      "draft": false,
-      "title": "Open Beta Changes",
-      "description": "Changes to Vendia Share in advance of the Open Beta",
-      "date": "2021-10-12",
-      "categories": [
-        "announcements"
-      ],
-      "authors": [
-        "James Gimourginas",
-        "Brian McNamara"
-      ],
-      "id": "ff605ef6-07ae-47e2-bdc8-94e229d58ce5"
-    },
-    {
-      "file": "/posts/2021-09-27-leadership-practices-of-an-ultramarathoner.md",
-      "draft": false,
-      "title": "Five Leadership Practices of an Ultramarathoner",
-      "description": "How to win the long game, as demonstrated by Kevin Durdle, Vendia's Ultramarathoner and Director of Software Development",
-      "date": "2021-09-27",
-      "tag": [
-        "developers"
-      ],
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "40f18bfb-8755-4ae0-9fdd-e91139773e5a"
-    },
-    {
-      "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "draft": false,
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
-      "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "9b00f8a3-b2a7-4eb8-81e5-038b127e0582"
-    },
-    {
-      "file": "/posts/2021-07-23-vendias-inspiring-vision.md",
-      "draft": false,
-      "title": "Vendia's Inspiring Vision",
-      "description": "Vendia will cause a paradigm shift that will impact many distributed solutions, which is what attracted me to join the team.",
-      "date": "2021-07-23",
-      "categories": [
-        "announcements",
-        "company",
-        "architecture"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "d2f1840a-13d1-4e27-ab72-4db1673f4931"
     }
   ],
   "vikrant-kahlir": [

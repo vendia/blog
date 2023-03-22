@@ -1,4 +1,611 @@
 {
+  "data protection": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    }
+  ],
+  "access control": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    }
+  ],
+  "database": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    },
+    {
+      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
+      "draft": false,
+      "title": "What do business data networks look like?",
+      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+      "date": "2023-02-16T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2023-02-14-a-short-history-of-business-data-networks",
+        "2022-01-31-multi-party-data-sharing-with-control",
+        "2022-05-10-improve-your-data-mesh"
+      ],
+      "tags": [
+        "cloud",
+        "public cloud",
+        "database",
+        "data lake",
+        "Zero ETL",
+        "hub and spoke model",
+        "data network",
+        "Tim Wagner"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
+      "seo": {
+        "noindex": false,
+        "keywords": "business data sharing networks,",
+        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
+        "title": "What do business data networks look like?"
+      },
+      "sidebarCta": [
+        "229db631-6026-4284-8327-a8f2bb2fb98c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T21:36:50.967Z",
+      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "slug": "databases-versus-blockchain",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2023-02-20T15:46:07.217Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "data security": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    }
+  ],
+  "private blockchain": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    }
+  ],
+  "public blockchain": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    }
+  ],
+  "blockchain": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    },
+    {
+      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
+      "draft": false,
+      "slug": "2023-predictions-tim-wagner",
+      "title": "Blockchain, cloud, and IT in 2023 and beyond",
+      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
+      "date": "2022-12-20T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
+      ],
+      "tags": [
+        "OLAP",
+        "OLTP",
+        "trends",
+        "cloud",
+        "distributed database",
+        "blockchain"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Blockchain, cloud, and IT in 2023 and beyond",
+        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
+        "keywords": "business blockchain trends"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:49:14.410Z",
+      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
+    },
+    {
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
+      "draft": false,
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:00:25.728Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "slug": "databases-versus-blockchain",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2023-02-20T15:46:07.217Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
+  "distributed ledger technology": [
+    {
+      "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
+      "draft": false,
+      "slug": "data-protection-approaches",
+      "title": "Data protection approaches: How to balance need to know vs. need to share",
+      "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, shares data protection approaches to make sure your next blockchain investment doesn't leave you exposed.",
+      "date": "2023-03-24T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "data protection",
+        "access control",
+        "database",
+        "data security",
+        "private blockchain",
+        "public blockchain",
+        "blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "noindex": false,
+        "description": "Data protection approaches to make sure your next blockchain investment doesn't leave you exposed",
+        "title": "How to avoid risk exposures with business blockchain initiatives",
+        "keywords": "business blockchain approaches to avoid risk"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-20T19:48:43.907Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-22T00:16:31.884Z",
+      "id": "caf9afbf-5476-4030-b53d-b4c454c58f86"
+    },
+    {
+      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
+      "draft": false,
+      "title": "Distributed ledger challenges and solutions",
+      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+      "date": "2023-01-11T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "concepts",
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-10-22-serverless-distributed-ledger-for-enterprises",
+        "2022-03-17-are-blockchains-databases"
+      ],
+      "tags": [
+        "supply chain",
+        "travel and hospitality",
+        "financial services",
+        "use cases",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "Distributed ledger challenges and solutions",
+        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
+        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
+      },
+      "sidebarCta": [
+        "What’s a business blockchain?"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:39:12.072Z",
+      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
+    }
+  ],
   "cloud": [
     {
       "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
@@ -293,101 +900,6 @@
       "updatedBy": "David Wells",
       "updatedAt": "2023-02-14T22:04:06.910Z",
       "id": "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
-    }
-  ],
-  "database": [
-    {
-      "file": "/posts/2023-02-16-what-do-business-data-networks-look-like.md",
-      "draft": false,
-      "title": "What do business data networks look like?",
-      "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
-      "date": "2023-02-16T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2023-02-14-a-short-history-of-business-data-networks",
-        "2022-01-31-multi-party-data-sharing-with-control",
-        "2022-05-10-improve-your-data-mesh"
-      ],
-      "tags": [
-        "cloud",
-        "public cloud",
-        "database",
-        "data lake",
-        "Zero ETL",
-        "hub and spoke model",
-        "data network",
-        "Tim Wagner"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676570609/Blog%20images/Cloud_g6fgq1.png",
-      "seo": {
-        "noindex": false,
-        "keywords": "business data sharing networks,",
-        "description": "Explore the four phases of building data sharing networks. Plus, learn how the hub and spoke model helps leaders leverage business initiatives into a secure, compliant, and trusted data network. ",
-        "title": "What do business data networks look like?"
-      },
-      "sidebarCta": [
-        "229db631-6026-4284-8327-a8f2bb2fb98c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T21:36:50.967Z",
-      "id": "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
-    },
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "slug": "databases-versus-blockchain",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2023-02-20T15:46:07.217Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
     }
   ],
   "data lake": [
@@ -2779,48 +3291,6 @@
       "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
     }
   ],
-  "distributed ledger technology": [
-    {
-      "file": "/posts/2023-01-11-distributed-ledger-challenges-and-solutions.md",
-      "draft": false,
-      "title": "Distributed ledger challenges and solutions",
-      "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
-      "date": "2023-01-11T00:00:00.000Z",
-      "authors": [
-        "James Gimourginas"
-      ],
-      "categories": [
-        "concepts",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2021-10-22-serverless-distributed-ledger-for-enterprises",
-        "2022-03-17-are-blockchains-databases"
-      ],
-      "tags": [
-        "supply chain",
-        "travel and hospitality",
-        "financial services",
-        "use cases",
-        "distributed ledger technology"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Distributed ledger challenges and solutions",
-        "description": "Distributed ledger technology solutions can solve complex chain of custody and multi-party data sharing challenges. See use cases for solutions in finance, travel, and supply-chain-driven industries.",
-        "keywords": "distributed ledger, distributed ledger technology, DLT, chain of custody solutions, multi-party data sharing solutions"
-      },
-      "sidebarCta": [
-        "What’s a business blockchain?"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:39:12.072Z",
-      "id": "dc7afa12-3605-477d-8156-028fc3d5e7a1"
-    }
-  ],
   "Culture": [
     {
       "file": "/posts/2022-12-16-creating-a-culture-of-learning.md",
@@ -3157,138 +3627,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-14T21:49:14.410Z",
       "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    }
-  ],
-  "blockchain": [
-    {
-      "file": "/posts/2022-12-20-blockchain-cloud-and-it-in-2023-and-beyond.md",
-      "draft": false,
-      "slug": "2023-predictions-tim-wagner",
-      "title": "Blockchain, cloud, and IT in 2023 and beyond",
-      "description": "Predictions from Dr. Tim Wagner, CEO at Vendia, on the big challenges, inspiring opportunities, and exciting sources of IT innovation and technological advancement.",
-      "date": "2022-12-20T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023"
-      ],
-      "tags": [
-        "OLAP",
-        "OLTP",
-        "trends",
-        "cloud",
-        "distributed database",
-        "blockchain"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "Blockchain, cloud, and IT in 2023 and beyond",
-        "description": "Predictions from Dr. Tim Wagner, CEO at Vendia\n\n",
-        "keywords": "business blockchain trends"
-      },
-      "sidebarCta": [
-        "What’s a business blockchain?"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:49:14.410Z",
-      "id": "8a2cc1df-27c9-46db-82ab-152ffaa04549"
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "How Serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
-      ],
-      "tags": [
-        "blockchain",
-        "Servereless",
-        "Lambda",
-        "Tim Wagner",
-        "webcast",
-        "Peter Sbarski"
-      ],
-      "seo": {
-        "title": "How Serverless and cloud enable scalable blockchains",
-        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:00:25.728Z",
-      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
-    },
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "slug": "databases-versus-blockchain",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2023-02-20T15:46:07.217Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
     }
   ],
   "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas": [
