@@ -169,7 +169,8 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: Why financial services leaders trust Vendia Share
-      text: Achieve winning business results across use cases
+      text: Achieve winning business results across use cases with our SaaS platform
+        for real-time, multi-partner B2B data sharing.
     maxColumns: "4"
   - type: MediaWithTextTwoColumns
     mediaPosition: left
@@ -215,6 +216,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-21T23:56:25.103Z
+updatedAt: 2023-03-22T00:11:29.636Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
