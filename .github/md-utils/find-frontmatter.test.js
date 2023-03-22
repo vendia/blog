@@ -7,7 +7,7 @@ const { findFrontmatter } = require('./find-frontmatter')
 
 const cwd = process.cwd()
 // const FILE_PATH = path.join(__dirname, '../../pages/pancakes-list.md')
-const FILE_PATH = path.join(__dirname, '../../pages/default-title.md')
+const FILE_PATH = path.join(__dirname, '../../pages/about.md')
 const fileWithLinks = fs.readFileSync(FILE_PATH, 'utf-8')
 
 test('Find frontmatter', async () => {
