@@ -33,7 +33,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-22T00:16:31.884Z
+updatedAt: 2023-03-22T00:27:49.457Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
@@ -108,7 +108,7 @@ APIs to a private permissioned blockchain should be secured [just like any other
 
 Most importantly, unlike public permissionless blockchains, private permissioned blockchains are frequently used to store sensitive data on-chain, just like in a database. Whether that's personal identifiable information (PII), payment card industry (PCI), public health information (PHI), the combination of identity, authorization policy, and good security practices (like encryption of data in transit and at rest) provide a foundation that allow those who "need to share" to do so only with those who "need to know."  
 
-It's no wonder the World Economic Forum (WEF) believes that only private permissioned blockchains have the [potential]((https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance) to be GDPR compliant.
+It's no wonder the World Economic Forum (WEF) believes that only private permissioned blockchains have the [potential](https://widgets.weforum.org/blockchain-toolkit/personal-data-handling/index.html#rapid-initial-analysis-for-gdpr-compliance) to be GDPR compliant.
 
 ### Feature #3 – Blockchain built on a public cloud foundation
 
