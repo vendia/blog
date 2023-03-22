@@ -31,36 +31,27 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269636/Website/Icons/Blue%20icons/Media_111_key6lp.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1679526411/Website/Icons/Infographic%20icons/93_cost_savings_tib1xx.svg"  class="image-float-left"
           />
-
-
-          ## 80% – 93% 
 
 
           Reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269639/Website/Icons/Blue%20icons/Media_122_pv42br.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1679526411/Website/Icons/Infographic%20icons/1.4MM_qpwsht.svg"  class="image-float-left"
           />
-
-
-          ## 87% 
-
-
-          Less time spent investigating and resolving data inconsistencies with Vendia Share
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269822/Website/Icons/Blue%20icons/Money_86_jlpsvi.svg"  class="image-float-left"
-          />
-
-
-          ## $1.4MM 
 
 
           Saved, on average, in Year One alone, when operating on the Vendia Share platform
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1679526411/Website/Icons/Infographic%20icons/87_reduciton_tcfhgt.svg"  class="image-float-left"
+          />
+
+
+          Less time spent investigating and resolving data inconsistencies with Vendia Share
         wrapTheColumnInACard: false
     intro:
       text: Take manual interventions out of the mix. Instead, instantly, accurately
@@ -215,7 +206,7 @@ seo:
   title: Vendia Share for financial services
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
-updatedBy: David Wells
-updatedAt: 2023-03-22T17:21:59.081Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-22T23:08:53.582Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
