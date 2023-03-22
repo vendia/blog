@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: data-protection-approaches
 title: "Data protection approaches: How to balance need to know vs. need to share"
 description: James Gimourginas, Director of Solutions Architecture and Customer
@@ -32,8 +32,8 @@ seo:
   keywords: business blockchain approaches to avoid risk
 createdBy: alexa-vendia
 createdAt: 2023-03-20T19:48:43.907Z
-updatedBy: james-vendia
-updatedAt: 2023-03-21T13:16:31.796Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-22T00:16:31.884Z
 id: caf9afbf-5476-4030-b53d-b4c454c58f86
 ---
 
