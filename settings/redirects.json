@@ -74,10 +74,15 @@
       "status": 301,
       "from": "/use-case/chain-of-custody",
       "to": "/use-case/supply-chain"
+    },
+    {
+      "status": 301,
+      "from": "/webinar/vendia-share-and-snowflake",
+      "to": "https://vendia.wistia.com/live/events/8h6uz7vokv"
     }
   ],
-  "updatedAt": "2023-03-20T19:07:46.382Z",
-  "updatedBy": "David Wells",
+  "updatedAt": "2023-03-22T20:24:57.127Z",
+  "updatedBy": "Caroll Casbeer",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
 }
