@@ -54,11 +54,15 @@ components:
 
       ✅ Achieve collaboration — with compliance and control — on operational data across parties outside your company walls
     theme: white
+resourceType: webcasts
 seo:
   noindex: false
+  title: Vendia Share and Snowflake
+  description: "How real-time operational data and analytical data come together
+    to give companies a full view of their business. "
 createdBy: Caroll Casbeer
 createdAt: 2023-03-22T23:36:53.252Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-22T23:36:53.252Z
+updatedAt: 2023-03-22T23:40:30.008Z
 id: 90b6ae29-24c9-4095-a877-a30daf2222a6
 ---
