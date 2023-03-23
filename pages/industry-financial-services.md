@@ -206,6 +206,7 @@ components:
           <img src="https://res.cloudinary.com/vendia/image/upload/v1679590964/Website/Misc%20website%20images/atos-logo-white-2022_uf8ecy.svg"  class="image-float-left" height="100" />
         button:
           label: Review the case study
+          url: https://www.vendia.com/blog/atos-success-story
         title: Case study
       - text: >-
           The inventor of Serverless (and Vendia co-founder), Dr. Tim Wagner,
@@ -216,6 +217,7 @@ components:
           <img src="https://res.cloudinary.com/vendia/image/upload/v1678816231/Website/Iso/Group_2_f8kpko.png"  class="image-float-left" width="110" />
         button:
           label: Read the post
+          url: https://www.vendia.com/blog/fintech-innovation-mortgage-servicing
         title: Thought leadership
   - type: MediaWithText
     mediaPosition: right
@@ -239,6 +241,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-23T17:33:49.365Z
+updatedAt: 2023-03-23T17:39:37.354Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
