@@ -185,6 +185,30 @@ components:
     title: Drive efficiency. Streamline settlements. And simplify audits.
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599179/Website/Iso/File_sharing_pgpw0j.png
+  - type: Resources
+    resources:
+      - text: >-
+          **Episode 6** | The complexities and opportunities of B2B data sharing
+          in Finserv with special guest, Brian Kale
+
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590279/Circles%20of%20Trust/Union-2_pqfnqo.png"  class="image-float-left" width="100" />
+        button:
+          label: Listen to the podcast
+          url: https://podcasts.apple.com/us/podcast/sharing-data-in-financial-services-how-the-leading/id1645908970?i=1000589939015
+        title: ""
+      - text: >-
+          **Case study** | How Atos streamlined the reinsurance process and
+          built trust among financial services partners with low code
+          development and Vendia's DLT
+
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590964/Website/Misc%20website%20images/atos-logo-white-2022_uf8ecy.svg"  class="image-float-left" />
+        button:
+          label: Review the case study
+      - text: ""
+        button:
+          label: Read the post
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -206,7 +230,7 @@ seo:
   title: Vendia Share for financial services
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-03-23T00:17:09.320Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-23T17:20:02.949Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
