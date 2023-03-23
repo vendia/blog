@@ -188,27 +188,35 @@ components:
   - type: Resources
     resources:
       - text: >-
-          **Episode 6** | The complexities and opportunities of B2B data sharing
-          in Finserv with special guest, Brian Kale
+          Brian Kale and James Gimourginas discuss the complexities and
+          breakthrough opportunities with B2B data sharing in global financial
+          services
 
 
           <img src="https://res.cloudinary.com/vendia/image/upload/v1679590279/Circles%20of%20Trust/Union-2_pqfnqo.png"  class="image-float-left" width="100" />
         button:
           label: Listen to the podcast
           url: https://podcasts.apple.com/us/podcast/sharing-data-in-financial-services-how-the-leading/id1645908970?i=1000589939015
-        title: ""
+        title: Circles of Trust
       - text: >-
-          **Case study** | How Atos streamlined the reinsurance process and
-          built trust among financial services partners with low code
-          development and Vendia's DLT
+          How Atos streamlined the reinsurance process and built trust among
+          financial services partners with low code development and Vendia's DLT
 
 
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590964/Website/Misc%20website%20images/atos-logo-white-2022_uf8ecy.svg"  class="image-float-left" />
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590964/Website/Misc%20website%20images/atos-logo-white-2022_uf8ecy.svg"  class="image-float-left" height="100" />
         button:
           label: Review the case study
-      - text: ""
+        title: Case study
+      - text: >-
+          The inventor of Serverless (and Vendia co-founder), Dr. Tim Wagner,
+          explains how to transform financial services with secure and compliant
+          multi-party data sharing for real-time collaboration
+
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1678816231/Website/Iso/Group_2_f8kpko.png"  class="image-float-left" width="110" />
         button:
           label: Read the post
+        title: Thought leadership
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -231,6 +239,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-23T17:20:02.949Z
+updatedAt: 2023-03-23T17:33:49.365Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
