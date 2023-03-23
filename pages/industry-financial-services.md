@@ -47,8 +47,8 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1679526411/Website/Icons/Infographic%20icons/87_reduciton_tcfhgt.svg"  class="image-float-left"
-          />
+          src="https://res.cloudinary.com/vendia/image/upload/v1679530596/Website/Icons/Infographic%20icons/87_kzrf5x.png"  class="image-float-left"
+          width="128" height="128" />
 
 
           Less time spent investigating and resolving data inconsistencies with Vendia Share
@@ -207,6 +207,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-22T23:08:53.582Z
+updatedAt: 2023-03-23T00:17:09.320Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
