@@ -58,10 +58,10 @@ components:
     theme: white
 seo:
   noindex: false
-  title: Vendia Acceptable Use Policy
-createdBy: ""
-createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-02-03T22:45:00.095Z
+  title: Vendia acceptable use policy
+createdBy: alexa-vendia
+createdAt: 2023-03-23T22:16:54.277Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-23T22:16:54.277Z
 id: 235dea81-2598-46c0-be06-a3a934380eab
 ---
