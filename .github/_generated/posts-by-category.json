@@ -359,13 +359,34 @@
       "draft": false,
       "title": "How Atos streamlined the reinsurance process and built trust among financial services partners",
       "description": "Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.",
-      "date": "2022-09-14",
+      "date": "2022-09-14T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "product"
       ],
-      "authors": [
-        "Anders Maul"
+      "relatedPosts": [
+        "2022-09-26-blockchain-mortgage-services",
+        "2022-10-12-fintech-innovation-mortgage-servicing",
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing"
       ],
+      "tags": [
+        "reinsurance",
+        "insurance",
+        "financial services",
+        "case study",
+        "Atos"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "title": "Case study | How Atos wins with Vendia Share",
+        "description": "Atos lauds Vendia Share’s low code development and distributed ledger design while celebrating the solution’s new single source of truth across reinsurance partners."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-23T17:39:07.880Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-23T17:39:07.880Z",
       "id": "42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9"
     },
     {
