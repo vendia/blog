@@ -135,11 +135,11 @@ components:
       altText: dashboard illustrations simulating Vendia Share's SaaS UI
 seo:
   noindex: false
-  title: Vendia Share overview
-  description: "Data sharing platform for the Global 2000. "
+  title: Vendia Share | Platform overview
+  description: ""
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-03-09T00:29:36.955Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-23T22:15:50.414Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
