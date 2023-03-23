@@ -242,11 +242,11 @@ components:
         wrapTheColumnInACard: true
 seo:
   noindex: false
-  title: About Vendia
+  title: "About Vendia | Company story "
   description: Learn more about Vendia, our founders, and our company values.
 createdBy: alexa-vendia
 createdAt: 2023-03-09T01:27:21.785Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-09T01:27:21.785Z
+updatedAt: 2023-03-23T22:14:45.428Z
 id: ad22f8be-7eae-4ada-b967-2142e1533589
 ---
