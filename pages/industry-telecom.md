@@ -32,9 +32,10 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671499818/Website/Iso/Vendia-Uni_bveueo.svg
 seo:
   noindex: false
-createdBy: ""
-createdAt: ""
-updatedBy: Hugues Tennier
-updatedAt: 2023-02-24T22:25:17.765Z
+  title: Vendia Share for telecommunications and utilities
+createdBy: alexa-vendia
+createdAt: 2023-03-23T22:19:47.340Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-23T22:19:47.340Z
 id: 8192774c-ac09-4d62-92ed-7f1bacc2dfc0
 ---
