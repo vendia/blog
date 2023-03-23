@@ -43,9 +43,10 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
 seo:
   noindex: false
+  title: Vendia Share for manufacturing
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T03:01:24.818Z
-updatedBy: David Wells
-updatedAt: 2023-03-20T19:06:57.628Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-23T22:19:25.469Z
 id: ac91ffe5-7049-4f69-a82b-2716dfc26246
 ---
