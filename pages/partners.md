@@ -40,9 +40,10 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679086802/Website/Integration%20logos/Data_partners_3_ueyz0q.svg
 seo:
   noindex: false
+  title: Trusted partners and integrations | Vendia Share
 createdBy: Caroll Casbeer
 createdAt: 2023-03-13T14:23:32.011Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-03-17T21:00:28.661Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-23T22:20:57.982Z
 id: f612b22e-5e1a-4e10-bb17-706ec71e357c
 ---
