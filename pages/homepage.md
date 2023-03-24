@@ -9,7 +9,6 @@ components:
       - Delta
       - AeroMexico
       - Atos
-      - Resolution Life
       - Fannie Mae
     theme: white
   - type: MediaWithText
@@ -236,7 +235,7 @@ seo:
   description: Real-time data sharing across partners, clouds, and systems
 createdBy: Caroll Casbeer
 createdAt: 2023-02-24T23:55:54.831Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-23T22:18:38.419Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-24T17:06:17.029Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
