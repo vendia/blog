@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 template: resource
 excludeFromIndex: true
 slug: resolution-life
@@ -117,9 +117,9 @@ seo:
   description: Resolution Life lauds Vendia Share’s low-code development and
     distributed ledger design while celebrating the solution’s new single source
     of truth across reinsurance partners.
-createdBy: ""
-createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-01-25T00:27:07.401Z
+createdBy: Caroll Casbeer
+createdAt: 2023-03-24T17:04:56.138Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-24T17:04:56.138Z
 id: 6687e57a-2312-44c4-a839-848627521315
 ---
