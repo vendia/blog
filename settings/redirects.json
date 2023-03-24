@@ -79,9 +79,14 @@
       "status": 301,
       "from": "/resources/vendia-share-and-snowflake",
       "to": "https://vendia.wistia.com/live/events/8h6uz7vokv"
+    },
+    {
+      "status": 301,
+      "from": "/resources/resolution-life",
+      "to": "/blog/atos-success-story"
     }
   ],
-  "updatedAt": "2023-03-22T23:41:56.345Z",
+  "updatedAt": "2023-03-24T17:13:43.528Z",
   "updatedBy": "Caroll Casbeer",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
