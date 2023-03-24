@@ -108,7 +108,8 @@ components:
         button:
           label: Listen on Apple Podcasts
           url: https://podcasts.apple.com/us/podcast/does-your-data-build-or-break-trust/id1645908970?i=1000600279164
-        title: Does your data build or break trust?
+        title: Does your data build or break trust? A conversation on the real costs of
+          offshoring manual reconciliation in the financial services industry
 resourceType: podcasts
 tags:
   - Circles of Trust
@@ -119,6 +120,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-24T00:25:15.183Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-24T00:29:00.881Z
+updatedAt: 2023-03-24T00:30:27.357Z
 id: 264615e1-2fc4-429a-9773-18d64ab0b902
 ---
