@@ -11,6 +11,10 @@
     "file": "/pages/contact-us.md",
     "draft": false
   },
+  "events/millennium-alliance": {
+    "file": "/pages/events-millennium-alliance.md",
+    "draft": true
+  },
   "example-content-only-page": {
     "file": "/pages/example-content-page.md",
     "draft": true
