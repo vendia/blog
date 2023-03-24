@@ -17,7 +17,6 @@ components:
   - type: Logos
     logos:
       - BMW
-      - Resolution Life
       - Atos
       - Fannie Mae
       - AeroMexico
@@ -143,7 +142,7 @@ seo:
   noindex: false
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T00:02:05.695Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-09T22:46:53.177Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-24T17:11:48.397Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
