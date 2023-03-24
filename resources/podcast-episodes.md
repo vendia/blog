@@ -23,7 +23,7 @@ components:
           label: Listen on Apple Podcasts
           url: https://podcasts.apple.com/us/podcast/the-great-equalizer-how-data-sharing-can-help/id1645908970?i=1000581093344
         title: "The great equalizer: How data sharing can help communities overcome
-          social inequities"
+          social inequities locally and globally"
       - text: >-
           **Episode 2** | Shruthi Rao, Chief Business Officer and co-founder,
           Vendia and Dr. Tim Wagner, CEO and co-founder, Vendia
@@ -37,7 +37,7 @@ components:
           label: Listen on Apple Podcasts
           url: https://podcasts.apple.com/us/podcast/founders-session-why-dedicate-a-company-and-$50m/id1645908970?i=1000583148293
         title: "The founder's session: Why dedicate a company (and $50MM in investor
-          cash) to real-time data sharing solutions?"
+          cash) to real-time data sharing solutions"
       - text: >-
           **Episode 3** | Erin Kelly, SVP of Enterprise Solutions and Strategy,
           Kraft Analytics Group (KAGR) and Francine Klein, Sr. Solutions
@@ -51,8 +51,8 @@ components:
         button:
           label: Listen on Apple Podcasts
           url: https://podcasts.apple.com/us/podcast/worlds-colliding-the-new-unstoppable-impact/id1645908970?i=1000584806498
-        title: "Worlds colliding: The impact of analytical and operational data sharing
-          at scale"
+        title: "Worlds colliding: The new, unstoppable impact of analytical and
+          operational data sharing at scale"
       - text: >-
           **Episode 4** | Robert Edwards, Director of Software Development,
           Glidewell Laboratories
@@ -80,7 +80,7 @@ components:
           label: Listen on Apple Podcasts
           url: https://podcasts.apple.com/us/podcast/connecting-pets-and-their-humans-how-best-friends/id1645908970?i=1000588192446
         title: "Connecting pets and people: How Best Friends Animal Society uses data
-          sharing to connect pets to humans, faster"
+          sharing to save lives and connect pets to humans, faster"
       - text: >-
           **Episode 6** | Brian Kale, independent finserv consultant and James
           Gimourginas, Director of Solutions Architecture and Customer Success,
@@ -120,6 +120,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-24T00:25:15.183Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-24T00:30:27.357Z
+updatedAt: 2023-03-24T00:32:26.566Z
 id: 264615e1-2fc4-429a-9773-18d64ab0b902
 ---
