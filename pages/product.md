@@ -22,7 +22,6 @@ components:
       - Delta
       - AeroMexico
       - Atos
-      - Resolution Life
       - Fannie Mae
     theme: white
     intro:
@@ -139,7 +138,7 @@ seo:
   description: ""
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-23T22:15:50.414Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-03-24T17:06:41.649Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
