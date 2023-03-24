@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: resource
 excludeFromIndex: false
 slug: podcast-episodes
@@ -119,6 +119,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-24T00:25:15.183Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-24T00:25:15.183Z
+updatedAt: 2023-03-24T00:29:00.881Z
 id: 264615e1-2fc4-429a-9773-18d64ab0b902
 ---
