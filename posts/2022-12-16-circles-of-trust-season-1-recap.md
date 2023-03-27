@@ -130,4 +130,4 @@ Vendia co-founders, [Shruthi Rao](https://www.linkedin.com/in/shruthirao/) and [
 * Want to talk about the challenges and wins in your industry or with partners in your data alliance? 
 * Has data sharing made a positive impact on your mission as a nonprofit or for your customers?
 
-** We’d love to hear from you. Email [podcast@vendia.net](mailto:podcast@vendia.net) and mention being a guest on Circles of Trust.**
+** We’d love to hear from you. Email [podcast@vendia.com](mailto:podcast@vendia.com) and mention being a guest on Circles of Trust.**

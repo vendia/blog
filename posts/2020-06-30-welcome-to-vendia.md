@@ -63,4 +63,4 @@ We’re excited to be on this journey to help customers solve some of their grea
 
 _Tim & Shruthi_
 
-_Looking for your next great opportunity?_ [_We’re hiring!_](http://jobs.vendia.net)
+_Looking for your next great opportunity?_ [_We’re hiring!_](https://www.vendia.com/careers)

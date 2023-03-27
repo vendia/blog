@@ -21,6 +21,6 @@ If you’re a developer that loves trying out new tools, building neat apps, or 
 4. Share on social media (Linkedin, Twitter, Facebook, TikTok, Instagram) and tag Vendia so we know to re-share your post.
 5. Respond to our approval email and we will send you a $500 Visa or Amazon gift card
 
-Questions? Email: tz@vendia.net
+Questions? Email: caroll@vendia.com
 
 The fine print: (Our legal team made us do this): The offer is active until August 1, 2022. Each participant can only participate once. In order to receive the offer, the participant must have received initial approval, and posted a completed tutorial of at least 500 words on Github with the Deploy to Vendia Button, AND shared the tutorial on at least one of the following social media channels (Linkedin, Facebook, Twitter, Instagram, TikTok). (We doubt this will happen, but to be sure) Vendia reserves the right to revoke the offer at any time for any reason

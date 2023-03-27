@@ -110,7 +110,7 @@ Blockchain technology is maturing to the state where it is an excellent candidat
 Vendia removes the historical obstacles, redundancies, and headaches in mortgage servicing by ensuring data in your ecosystem is shared in real time, across business networks, and accessible to data alliance partners. Meanwhile, data owners can easily exercise fine-grained control of their data at all times — right down to the individual data field or file.
 
 ##### Learn how to use businss blockchain in your financial services data application strategy:
-* [Download the white paper](https://www.vendia.net/resources/blockchain-in-modern-financial-services-2022)
+* [Download the white paper](https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022)
 * [Or watch the webinar](https://us02web.zoom.us/webinar/register/rec/WN_UBk4_SYtSk2R4nu-lpvHuQ?meetingId=uyv0UmXG0NTL0pp7BKk6h4KmVvPN6Qc4uDw8lvDLoigFThfe-jDfmira0_-0YmHu.UX_M1AAYMDWarMPd&playId=alVzPxJXrfD9JYMJMPQlqIG7Z43vGKGPqnO_BUZWz4piSyfldaJmJf4URfzEstSpsXsE-Nx4vtmfBbwq.IzLDOsdS0uOMPxR4&action=play&_x_zm_rtaid=vnYAyLSvSZ-EGUhJPy35xg.1666220619936.175b71bf2214e24820cbfb2c48b2748b&_x_zm_rhtaid=463)
 
 

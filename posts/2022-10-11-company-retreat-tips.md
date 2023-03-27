@@ -27,7 +27,7 @@ updatedAt: 2023-02-16T20:05:29.463Z
 id: f8517b45-6463-44a3-8acc-c9123b782fc9
 ---
 
-As team Vendia journeys through our seed, Series A, and now [Series B](https://www.vendia.net/blog/vendia-announces-series-b) rounds, we have both the capital and the mandate to  grow, grow, grow. But, unlike many startups (and heritage brands for that matter), our leadership team believes that we should grow thoughtfully and not at the expense of our culture. In fact, we believe, if we take care of each other as we take care of our work, our community of [kind humans](https://www.vendia.net/kind-humans) can only help us grow faster, stronger, smarter. 
+As team Vendia journeys through our seed, Series A, and now [Series B](https://www.vendia.com/blog/vendia-announces-series-b) rounds, we have both the capital and the mandate to  grow, grow, grow. But, unlike many startups (and heritage brands for that matter), our leadership team believes that we should grow thoughtfully and not at the expense of our culture. In fact, we believe, if we take care of each other as we take care of our work, our community of [kind humans](https://www.vendia.com/kind-humans) can only help us grow faster, stronger, smarter. 
 
 As a remote-first organization, we have colleagues who work everywhere from Boston to the Bay Area, a few even from Newfoundland to New South Wales. We know that we don’t need to bring people to work. [We can take the work to people](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/the-future-of-work-what-next). And sometimes, as with in-person, company retreats, we get to do both.
 
@@ -112,4 +112,4 @@ Even the smartest people create mind-numbing slides. And both the quantity and q
 
 We hope so! After all, sharing isn't just something we enable through technology. At Vendia, we share our best selves with one another because it's the best way to the best outcomes. 
 
-**Check out our [careers page](https://www.vendia.net/careers), and join us!**
+**Check out our [careers page](https://www.vendia.com/careers), and join us!**

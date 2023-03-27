@@ -24,7 +24,7 @@ components:
       Check out Vendia: [share.vendia.net](https://share.vendia.net/?utm_source=event&utm_medium=serverlessdaysnyc&utm_campaign=)
 
 
-      [More about our guest blogger program ➡️](http://vendia.net/blog/vendia-guest-contributor-program)
+      [More about our guest blogger program ➡️](http://vendia.com/blog/vendia-guest-contributor-program)
 
 
       ## Guest Blogger Interest Form

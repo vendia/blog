@@ -471,7 +471,7 @@ components:
       ### A.2.4 How to Exercise Your California Consumer Rights
 
 
-      To exercise your right to know and/or your right to deletion, please submit a request by contacting us at [compliance@vendia.net](mailto:compliance@vendia.net).
+      To exercise your right to know and/or your right to deletion, please submit a request by contacting us at [compliance@vendia.com](mailto:compliance@vendia.com).
 
 
       We will need to verify your identity before processing your request. In order to verify your identity, we will generally require sufficient information from you so that we can match it to the information we maintain about you in our systems. Sometimes we may need additional personal information from you to be able to identify you. We will notify you. 

@@ -154,6 +154,3 @@ All Vendia Metrics are visible over a 24-hour period. To view the Vendia Metrics
 
 ![Screenshot of Vendia Share Console showing the Vendia Metrics dashboard](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..92179243..179299554-7b1e1d08-653c-4ec4-91ff-105e4b84d61b.png)
 
-## Do You Have Feature Requests?
-
-A great way to share your feedback is on our [Discourse forum](https://community.vendia.net/c/features-requests/2). Your feedback drives our Vendia Share roadmap. With your feedback, we can continue to act on your ideas as quickly as we did to create these awesome new Share features.

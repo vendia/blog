@@ -76,6 +76,3 @@ Vendia Share is now listed on the [AWS Marketplace](https://aws.amazon.com/marke
 
 Check out [this page](https://www.vendia.com/pricing) for more information on the right licensing plan for you.
 
-## Do You Have Feature Requests?
-
-A great way to share your feedback is on our [Discourse forum](https://community.vendia.net/c/features-requests/2).  Your feedback drives our Vendia Share roadmap. With your feedback, we can continue to act on your ideas as quickly as we did to create these awesome new Share features.

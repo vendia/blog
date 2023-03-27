@@ -130,4 +130,4 @@ If you are ready to explore how real-time data sharing might help accelerate you
 
 In just five days you will get a working application that demonstrates proof-of-value including: Multi-party sharing, easy partner invitations, a resilient global serverless architecture with no operational overhead, and fine-grained data access controls — Everything you need to reap all the benefits of real-time data sharing.  
 
-Request a POC at [vendia.net/poc](https://www.vendia.com/poc) today. 
+Request a POC at [vendia.com/poc](https://www.vendia.com/poc) today. 

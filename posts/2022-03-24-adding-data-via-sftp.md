@@ -28,4 +28,4 @@ The guides uses the [Vendia Share Command Line Interface (CLI)](https://vendia.
 
 ![Diagram of SFTP to Vendia Share Integration](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..113389580..192360015-4de95582-d3fb-46db-9679-f5b0c6091880.png)
 
-Go ahead and try to add a file to your Uni via SFTP and if you face any issues head over to our [Discourse Channel](https://community.vendia.net) to get some help... or better yet, share your success!
+

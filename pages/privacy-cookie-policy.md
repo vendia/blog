@@ -10,7 +10,7 @@ components:
       Last Modified: 4 January 2023
 
 
-      This Cookie Policy explains how Vendia and its subsidiaries and affiliates use cookies and similar technologies to recognize you when you visit our websites, including at [www.vendia.com](https://www.vendia.net). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+      This Cookie Policy explains how Vendia and its subsidiaries and affiliates use cookies and similar technologies to recognize you when you visit our websites, including at [www.vendia.com](https://www.vendia.com). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
 
 

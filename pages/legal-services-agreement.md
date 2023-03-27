@@ -379,13 +379,13 @@ components:
       “Service Attributes” means Service usage data related to your account, such as resource identifiers, metadata tags, security and access roles, rules, usage policies, permissions, usage statistics and analytics.
 
 
-      “Service Level Agreement” means the service level agreement that we offer with respect to a particular Service Offering and post on the Vendia Site, as such agreement may be updated by us from time to time. The service level agreements we offer with respect to the Service Offerings are located at https://[www.vendia.net/share-service-level](http://www.vendia.net/share-service-level) (and any successor or related locations designated by Vendia), as may be updated by Vendia from time to time.
+      “Service Level Agreement” means the service level agreement that we offer with respect to a particular Service Offering and post on the Vendia Site, as such agreement may be updated by us from time to time. The service level agreements we offer with respect to the Service Offerings are located at https://[www.vendia.com/share-service-level](http://www.vendia.com/share-service-level) (and any successor or related locations designated by Vendia), as may be updated by Vendia from time to time.
 
 
       “Service Offering” means a particular set of Services provided by us under this Agreement. 
 
 
-      “Service Terms” means the additional terms and conditions applicable to a particular Service Offering that we post on the Vendia Site, as they may be updated by us from time to time. The Service Terms with respect to the Service Offerings are located at https://[www.vendia.net/share-service-terms](http://www.vendia.net/share-service-terms) (and any successor or related locations designated by Vendia), as may be updated by Vendia from time to time.
+      “Service Terms” means the additional terms and conditions applicable to a particular Service Offering that we post on the Vendia Site, as they may be updated by us from time to time. The Service Terms with respect to the Service Offerings are located at https://[www.vendia.com/share-service-terms](http://www.vendia.com/share-service-terms) (and any successor or related locations designated by Vendia), as may be updated by Vendia from time to time.
 
 
       “Suggestions” means all suggested improvements to the Services that you provide to us, including all comments made on public forums or other public or multi-user communication channels we own or operate and all material uploaded to (or commented on) in any public repository we own or operate, whether in reference to Vendia Content or not. Suggestions include, but are not limited to, code samples, suggested revisions, comments related to the Services or their features, and discussions of performance or other service characteristics.

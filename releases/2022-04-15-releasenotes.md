@@ -33,7 +33,7 @@ const addProductResponse = await client.entities.product.add({
 const getProductResponse = await client.entities.product.get('abc-123')
 ```
 
-The SDK is currently in developer preview and we need your help by providing feedback about ways we can improve the SDK. Please reach out to your account team or leave us feedback on our [discourse channel](https://community.vendia.net/). 
+The SDK is currently in developer preview and we need your help by providing feedback about ways we can improve the SDK. Please reach out to your account team to leave feedback.
 
 ## Synchronous Mutations
 
@@ -72,6 +72,4 @@ Inviting new users to Vendia makes sharing data with other parties a breeze. But
 
 We have cleaned up this workflow and now a Vendia user can invite anyone, even if that person has yet to register for Vendia. If the person has not registered, they will be walked through the registration process before they create their node in a Uni. This change makes it even easier to add new users to your Uni. 
 
-## Do You Have Feature Requests?
-A great way to share your feedback is on our [Discourse forum](https://community.vendia.net/c/features-requests/2). Your feedback drives our Vendia Share roadmap. With your feedback, we can continue to act on your ideas as quickly as we did to create these awesome new Share features.
 

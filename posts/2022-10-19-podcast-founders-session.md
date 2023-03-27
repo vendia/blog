@@ -59,7 +59,7 @@ In this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters 
 - Follow [Shruthi Rao on LinkedIn](https://www.linkedin.com/in/shruthirao/)
 - Follow [Tim Wagner on LinkedIn](https://www.linkedin.com/in/timawagner/)
 - [White paper](https://8766854.fs1.hubspotusercontent-na1.net/hubfs/8766854/Lean%20Apps/Lean%20Apps.pdf) | The Lean App Movement: Optimize for outcomes that matter, not repetitive drudgery 
-- [Case Study](https://www.vendia.net/case-studies/bmw) |BMW  
+- [Case Study](https://www.vendia.com/case-studies/bmw) |BMW  
 - [Best Friends Animal Society](https://bestfriends.org/)
 - [Best Friends Animal Society Launches First-of-its-Kind Data Dashboard to Mobilize Communities Around 2025 Lifesaving Goal](https://bestfriends.org/about/media/best-friends-animal-society-launches-first-its-kind-data-dashboard-mobilize-communities)
 - Best Friends Animal Society’s [No-Kill 2025 data dashboard](https://bestfriends.org/no-kill-2025/animal-shelter-statistics)
@@ -209,4 +209,4 @@ And for those of you listening, there's a few things that we mentioned over the 
 
 ## Get Circles of Trust in your inbox
 
-Join the [Circles of Trust community](https://www.vendia.net/resources/circles-of-trust) to get real talk on real-time data sharing right in [your inbox](https://www.vendia.net/resources/circles-of-trust).
+Join the [Circles of Trust community](https://www.vendia.com/resources/circles-of-trust) to get real talk on real-time data sharing right in [your inbox](https://www.vendia.com/resources/circles-of-trust).

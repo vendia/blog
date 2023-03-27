@@ -140,6 +140,4 @@ If you navigate into any of the Nodes you own, you will also see a snapshot of t
 
 With the read consistency modes, applications built on top of Vendia should become more performant by allowing you to choose between speed and data completeness. And with the new operational metrics, gaining insights into how your unis and nodes are performing just became easier. We hope you enjoy using both of these new features. 
 
-If you have other ideas on how to make Vendia easier to use, or if you have any questions or concerns, please check out our [Discourse channel](https://community.vendia.net/). You can also contact your Vendia account team. 
-
 **Please see our [documentation](https://www.vendia.com/docs/share/graphql) for more information about the new read consistency modes.**

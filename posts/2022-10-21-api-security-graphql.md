@@ -145,19 +145,19 @@ Maintaining strong authentication, authorization, and data access controls for y
 * [Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/)
 * [Security Misconfiguratio](https://owasp.org/Top10/A05_2021-Security_Misconfiguration/)
 
-One of the benefits of adopting a fully-managed platform like Vendia Share, that offers and secures GraphQL APIs, is that the remaining OWASP threats are [addressed for you](https://www.vendia.net/blog/api-design-best-practices#secure-by-design).
+One of the benefits of adopting a fully-managed platform like Vendia Share, that offers and secures GraphQL APIs, is that the remaining OWASP threats are [addressed for you](https://www.vendia.com/blog/api-design-best-practices#secure-by-design).
 
 ### Injection
 
-Injection is prevented through server-side validation and reliance on high-quality libraries. Further, because of Vendia's use of serverless technology from leading Cloud Service Providers (CSPs), security issues found in popular third-party libraries are [quickly addressed](https://www.vendia.net/blog/log4j2-response) to limit exposure and potential impact.
+Injection is prevented through server-side validation and reliance on high-quality libraries. Further, because of Vendia's use of serverless technology from leading Cloud Service Providers (CSPs), security issues found in popular third-party libraries are [quickly addressed](https://www.vendia.com/blog/log4j2-response) to limit exposure and potential impact.
 
 ### Insecure Design
 
-As OWASP notes, "a secure design can still have implementation defects leading to vulnerabilities that may be exploited. An insecure design cannot be fixed by a perfect implementation." Since Vendia covers the design _and _implementation of authorization and data access controls to GraphQL APIs, covering its [control plane and data plane](https://www.vendia.net/blog/multi-party-data-sharing-with-control), the risk of security issues from either are diminished.
+As OWASP notes, "a secure design can still have implementation defects leading to vulnerabilities that may be exploited. An insecure design cannot be fixed by a perfect implementation." Since Vendia covers the design _and _implementation of authorization and data access controls to GraphQL APIs, covering its [control plane and data plane](https://www.vendia.com/blog/multi-party-data-sharing-with-control), the risk of security issues from either are diminished.
 
 ### Security Misconfiguration
 
-Vendia heavily leverages automation as part of its business blockchain provisioning process. Through a concerted, repeatable [application security configuration](https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/) process, systems are at lower risk than with DIY or manual approaches. Similarly, as you make GraphQL APIs "[data aware](https://www.vendia.net/blog/apis-for-real-time-data-sharing)", a new set of potential security risks emerge. Fortunately, relying on a [data model](https://www.vendia.net/blog/top-10-data-modeling-techniques#approach-2-define-access-control-lists) that is inherently "[security aware](https://www.vendia.net/blog/sharing-data-with-fine-grained-control)" addresses those risks in a well-documented and well-tested fashion.
+Vendia heavily leverages automation as part of its business blockchain provisioning process. Through a concerted, repeatable [application security configuration](https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/) process, systems are at lower risk than with DIY or manual approaches. Similarly, as you make GraphQL APIs "[data aware](https://www.vendia.com/blog/apis-for-real-time-data-sharing)", a new set of potential security risks emerge. Fortunately, relying on a [data model](https://www.vendia.com/blog/top-10-data-modeling-techniques#approach-2-define-access-control-lists) that is inherently "[security aware](https://www.vendia.com/blog/sharing-data-with-fine-grained-control)" addresses those risks in a well-documented and well-tested fashion.
 
 ## Learn more
 

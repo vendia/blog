@@ -24,7 +24,7 @@ To enable such [traceability](https://www.vendia.com/blog/build-a-modern-secure-
 
 This end-to-end traceability can enable multiple use cases for the semiconductor industry. It enables root cause analysis for defects, allowing chip manufacturers to find causes for defective chips—even when causes originate through an external supply chain participant. It also enables component traceability, which can help prevent counterfeiting and tampering.
 
-Learn more about how to build a modern, secure data exchange for semiconductor traceability on Vendia.net. [Learn more](https://www.vendia.com/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
+Learn more about how to build a modern, secure data exchange for semiconductor traceability on Vendia.com. [Learn more](https://www.vendia.com/blog/build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia)
 
 ## Track Scope 2 and Scope 3 sustainability at the part- and component-level for a climate stable future 
 

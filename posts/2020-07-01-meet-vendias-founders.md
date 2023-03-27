@@ -141,4 +141,4 @@ Follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/mycompany/) an
 
 Want to get into the product and see what it's all about? [Download the free app](https://share.vendia.net/)
 
-Love Serverless and building distributed applications, [we're hiring](http://jobs.vendia.net). Won't you join us?[](http://jobs.vendia.net)
+Love Serverless and building distributed applications, [we're hiring](https://www.vendia.com/careers). Won't you join us?[](https://www.vendia.com/careers)

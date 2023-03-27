@@ -31,7 +31,7 @@ To create a new Uni that has access to these improvements, no further action is 
 
 The remainder of this post focuses on the Vendia Share client changes that may be required to access a Uni using the latest and greatest features of Vendia Share. The exact changes required will depend on the Vendia Share features and fields used and referenced by your clients. This post is a comprehensive guide to help you identify the items that require a change.
 
-If you have questions as you prepare for this migration, please reach out to us through our existing customer support channels or at [support@vendia.net](mailto:support@vendia.net).
+If you have questions as you prepare for this migration, please reach out to us through our existing customer support channels or at [support@vendia.com](mailto:support@vendia.com).
 
 ## GraphQL Schema and Type Improvements 
 

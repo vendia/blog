@@ -30,26 +30,26 @@ id: b7cb373b-5ee2-49a7-9177-a935993c47c9
 
 Real-time data sharing facilitates informed decision-making by making data available as soon as it’s created or acquired amongst multiple business network partners. With real-time data sharing inside and outside your four walls, you can get insights into improving your customer experience, developing better products and services, and creating efficiencies in your business processes. 
 
-But, moving, storing, and managing data (especially large batches of data [across clouds](https://www.vendia.net/blog/no-more-multicloud), regions, and companies) in a way that’s visible, transparent, and compliant has, historically, been fraught with [obstacles](https://www.vendia.net/blog/data-sharing-obstacles), including infrastructure and resourcing challenges. 
+But, moving, storing, and managing data (especially large batches of data [across clouds](https://www.vendia.com/blog/no-more-multicloud), regions, and companies) in a way that’s visible, transparent, and compliant has, historically, been fraught with [obstacles](https://www.vendia.com/blog/data-sharing-obstacles), including infrastructure and resourcing challenges. 
 
 That’s where a next-gen real-time data sharing solution comes into the picture.
 
 
 ## Benefits of a real-time data sharing vendor
 
-A real-time data sharing solution feeds your organization with up-to-date data and simplifies the mechanics of data sharing across and between organizations. Here are the main [benefits](https://www.vendia.net/blog/real-time-data-sharing-pros-cons) of using a reliable real-time data sharing [vendor](https://vendia.net), including a secure data exchange, an indisputable and single source of truth, and greater scalability. 
+A real-time data sharing solution feeds your organization with up-to-date data and simplifies the mechanics of data sharing across and between organizations. Here are the main [benefits](https://www.vendia.com/blog/real-time-data-sharing-pros-cons) of using a reliable real-time data sharing [vendor](https://vendia.com), including a secure data exchange, an indisputable and single source of truth, and greater scalability. 
 
 
 ### Secure data exchange
 
-Real-time data sharing vendors are purpose-built to let companies [fully control](https://www.vendia.net/blog/apis-for-data) what they share — or don’t share — to ensure the exchange of relevant and required data with partners. 
+Real-time data sharing vendors are purpose-built to let companies [fully control](https://www.vendia.com/blog/apis-for-data) what they share — or don’t share — to ensure the exchange of relevant and required data with partners. 
 
-In other words, you don’t have to give third-parties full access to your full data, and you can minimize the risk of sharing intellectual property or other sensitive assets. Most vendors, like [Vendia](https://vendia.net), are also SOC 2-certified, further enhancing the safety of your data.
+In other words, you don’t have to give third-parties full access to your full data, and you can minimize the risk of sharing intellectual property or other sensitive assets. Most vendors, like [Vendia](https://vendia.com), are also SOC 2-certified, further enhancing the safety of your data.
 
 
 ### Indisputable, single-source of truth
 
-A real-time data-sharing solution maintains [data integrity](https://www.vendia.net/blog/13-features-you-need-to-evaluate-an-enterprise-blockchain-platform), where the accuracy and consistency before and after the transfer remains the same. 
+A real-time data-sharing solution maintains [data integrity](https://www.vendia.com/blog/13-features-you-need-to-evaluate-an-enterprise-blockchain-platform), where the accuracy and consistency before and after the transfer remains the same. 
 
 
 
@@ -60,9 +60,9 @@ A real-time data-sharing solution maintains [data integrity](https://www.vendia.
 
 ### Greater scalability without inflating costs
 
-With a next-gen real-time data sharing vendor, you can outsource and simplify what would have been a time-consuming, costly, and complex DIY solution and trade up for a [lean app](https://www.vendia.net/blog/lean-app) solution. You also free up your team’s bandwidth for less drudgery and more rewarding, impactful work.
+With a next-gen real-time data sharing vendor, you can outsource and simplify what would have been a time-consuming, costly, and complex DIY solution and trade up for a [lean app](https://www.vendia.com/blog/lean-app) solution. You also free up your team’s bandwidth for less drudgery and more rewarding, impactful work.
 
-After all, your IT environment likely produces or is responsible for managing large volumes of data. When you process and analyze this data in real time and make it available to others in your [data ecosystem](https://www.vendia.net/blog/scale-your-partner-ecosystem-with-vendia-share), you get access to critical information that affords timely insights you can use to tailor products, customer experiences, and even personalization.
+After all, your IT environment likely produces or is responsible for managing large volumes of data. When you process and analyze this data in real time and make it available to others in your [data ecosystem](https://www.vendia.com/blog/scale-your-partner-ecosystem-with-vendia-share), you get access to critical information that affords timely insights you can use to tailor products, customer experiences, and even personalization.
 
 Additionally, processing real-time infrastructure data helps IT admin to detect system faults before they impact customers as well as predict and prevent errors, which is a significant advantage considering the average early downtime costs [as much as $400,000](https://www.statista.com/statistics/753938/worldwide-enterprise-server-hourly-downtime-cost/).
 
@@ -115,9 +115,9 @@ Enterprise resource planning (ERP) solutions have an “intra-application” int
 
 While this is certainly desirable, ERP systems also pose a significant challenge: They end at the boundary of the ERP solution. 
 
-Suppose you’re in a complex supply chain partnership like the [semiconductor industry](https://www.vendia.net/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry), and your business partner or a recently acquired subsidiary doesn’t use the same ERP solution — or doesn’t have a traditional ERP deployment, at all. In this case, your system won’t be able to share data or integrate application components.
+Suppose you’re in a complex supply chain partnership like the [semiconductor industry](https://www.vendia.com/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry), and your business partner or a recently acquired subsidiary doesn’t use the same ERP solution — or doesn’t have a traditional ERP deployment, at all. In this case, your system won’t be able to share data or integrate application components.
 
-What’s more, a traditional ERP solution is a pre-cloud development, making them artifacts of their time and requiring complex, platform-specific data models. This ends up limiting its flexibility to [adopt modern cloud services](https://www.vendia.net/blog/real-time-data-sharing-challenges-for-enterprises). 
+What’s more, a traditional ERP solution is a pre-cloud development, making them artifacts of their time and requiring complex, platform-specific data models. This ends up limiting its flexibility to [adopt modern cloud services](https://www.vendia.com/blog/real-time-data-sharing-challenges-for-enterprises). 
 
 
 <table>
@@ -150,9 +150,9 @@ Each of these providers delivers their services over the internet or via dedicat
 
 Public cloud platforms offering a diverse and broad range of services is one of their key advantages — but, at the same time, it’s a critical disadvantage. 
 
-Transforming such a powerful suite of individual services into a scalable and secure solution capable of eliminating real-time data sharing challenges requires a lot of heavy lifting. More importantly, if you consider [the main characteristics](https://www.vendia.net/blog/blockchains-vs-cloud-and-it) of a public cloud platform, you’ll find they are traditionally designed to be “walled gardens.” So, if a public cloud provider tries to simplify or streamline data sharing with another public cloud, it may lead to severe consequences. 
+Transforming such a powerful suite of individual services into a scalable and secure solution capable of eliminating real-time data sharing challenges requires a lot of heavy lifting. More importantly, if you consider [the main characteristics](https://www.vendia.com/blog/blockchains-vs-cloud-and-it) of a public cloud platform, you’ll find they are traditionally designed to be “walled gardens.” So, if a public cloud provider tries to simplify or streamline data sharing with another public cloud, it may lead to severe consequences. 
 
-For example, a public cloud's [feature sets](https://www.vendia.net/blog/public-cloud-file-sharing) and data transfer pricing are designed to facilitate sharing data and integrating solutions within their own native services, which makes using competitive services both complicated and expensive. While it’s a solid business strategy from the public cloud vendor to discourage the adoption of rival platforms, it does limit customers to adopt more innovative solutions.
+For example, a public cloud's [feature sets](https://www.vendia.com/blog/public-cloud-file-sharing) and data transfer pricing are designed to facilitate sharing data and integrating solutions within their own native services, which makes using competitive services both complicated and expensive. While it’s a solid business strategy from the public cloud vendor to discourage the adoption of rival platforms, it does limit customers to adopt more innovative solutions.
 
 
 <table>
@@ -178,9 +178,9 @@ For example, a public cloud's [feature sets](https://www.vendia.net/blog/public-
 
 ### Type 4: Conventional data lakes to store data
 
-[Data lakes](https://www.vendia.net/blog/understanding-real-time-data-lakes) are storage repositories that store significant amounts of data in their raw, native format. Data lakes vendors help you pool all your data in a single place, and data lakes give you the flexibility to “load first and think later.” 
+[Data lakes](https://www.vendia.com/blog/understanding-real-time-data-lakes) are storage repositories that store significant amounts of data in their raw, native format. Data lakes vendors help you pool all your data in a single place, and data lakes give you the flexibility to “load first and think later.” 
 
-However, they lack critical capabilities necessary for [real-time operational data sharing](https://www.vendia.net/blog/real-time-everything) and application connectivity. These vendors’ operational systems’ connectivity is also limited to ETL-based ingestion connections and, at times, “reverse ETL” solutions to leverage analytics for the tuning and feedback loops of operational systems.
+However, they lack critical capabilities necessary for [real-time operational data sharing](https://www.vendia.com/blog/real-time-everything) and application connectivity. These vendors’ operational systems’ connectivity is also limited to ETL-based ingestion connections and, at times, “reverse ETL” solutions to leverage analytics for the tuning and feedback loops of operational systems.
 
 Getting the data to your data lake can add lag time if it’s not done with the right [real-time data tools](https://vendia.com/product). So, having a tool in your architecture that can consume this semi-structured data and make it available across all nodes of a cross-cloud architecture enables you to more effectively access your data and turn it into something usable.
 
@@ -208,7 +208,7 @@ Getting the data to your data lake can add lag time if it’s not done with the 
 
 ### Type 5: Legacy blockchains to store and govern data availability
 
-When it comes to real-time data sharing, [legacy blockchains](https://www.vendia.net/blog/private-vs-public-blockchains) have a completely different approach compared to P2P EAI and classic cloud-based platforms. Legacy blockchain uses decentralized technology to create an integrated source of truth while maintaining separate stores of data for each party involved.
+When it comes to real-time data sharing, [legacy blockchains](https://www.vendia.com/blog/private-vs-public-blockchains) have a completely different approach compared to P2P EAI and classic cloud-based platforms. Legacy blockchain uses decentralized technology to create an integrated source of truth while maintaining separate stores of data for each party involved.
 
 Under this arrangement, each party possesses a self-governed, operationally isolated copy of the data. Thanks to the unique setup of blockchain-based vendors, this data is always consistent and up to date for all parties, along with cryptographic guarantees. In turn, this simplifies the challenge of building P2P solutions and keeps data consistent always.
 
@@ -244,9 +244,9 @@ NOTE: Some organizations might also consider streaming data an approach to data 
 
 Real-time data sharing solutions are versatile, but to unlock maximum value, they should support you in adding multiple business partners to a value chain. When multi-party data sharing occurs, companies have to come together in a data alliance and share their bits with other involved parties deliberately and in a controlled manner.
 
-Built on an [enterprise-grade blockchain ](https://www.vendia.net/blog/finserv-blockchain-data-strategy)as a data exchange platform, [Vendia Share](https://www.vendia.net/product) is a reliable real-time data sharing solution that allows access to every partner in your permission network and delivers a single source of truth that is both transparent and secured by design.
+Built on an [enterprise-grade blockchain ](https://www.vendia.com/blog/finserv-blockchain-data-strategy)as a data exchange platform, [Vendia Share](https://www.vendia.com/product) is a reliable real-time data sharing solution that allows access to every partner in your permission network and delivers a single source of truth that is both transparent and secured by design.
 
-Every participant receives an access point (a node) to read, write, and view every data point, transaction, or file you make available to other data alliance partners or vice versa. They can also easily connect their on-premise or cloud systems to Vendia without having to build (or maintain) multiple [API connection points](https://www.vendia.net/blog/api-design-best-practices).
+Every participant receives an access point (a node) to read, write, and view every data point, transaction, or file you make available to other data alliance partners or vice versa. They can also easily connect their on-premise or cloud systems to Vendia without having to build (or maintain) multiple [API connection points](https://www.vendia.com/blog/api-design-best-practices).
 
 Here’s how Vendia brings the key value, without the complexity, of each of the other data sharing methods:
 
@@ -258,13 +258,13 @@ Here’s how Vendia brings the key value, without the complexity, of each of the
 * **Conventional data lake** – Vendia allows for sharing of both scalar and file data, emulating the flexibility of a data lake without being beholden to a single cloud’s solution
 * **Legacy blockchains** – Vendia provides the immutability, availability, and reliability of legacy blockchains while also providing scalability with cloud infrastructure and use case applicability with schema definition and API availability — we call it next-gen blockchain or business blockchain
 
-New data stored gets replicated at high speed so all permissioned partners can see the data they’re supposed to in real time. Meanwhile, a built-in consensus mechanism resolves potential conflicts to ensure superior data accuracy. Vendia Share also automatically generates API ([GraphQL-based](https://www.vendia.net/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger)) for admin operations, CRUD operations, and [smart contract](https://www.vendia.net/blog/smart-contract-feature-example) consideration and execution. 
+New data stored gets replicated at high speed so all permissioned partners can see the data they’re supposed to in real time. Meanwhile, a built-in consensus mechanism resolves potential conflicts to ensure superior data accuracy. Vendia Share also automatically generates API ([GraphQL-based](https://www.vendia.com/blog/why-we-combined-graphql-and-a-serverless-distributed-ledger)) for admin operations, CRUD operations, and [smart contract](https://www.vendia.com/blog/smart-contract-feature-example) consideration and execution. 
 
 With Vendia connecting partners with ease and eliminating the need for ongoing maintenance, you can focus on what matters most to your company, your partners, and your customers.
 
 
 ## Accelerate your growth with Vendia Share
 
-Your organization's data ecosystem today will drive innovation tomorrow. If you’re ready to explore and leverage real-time data sharing to accelerate your business’s growth, [try the app](https://www.vendia.net/developers) for free or [contact our team](https://www.vendia.net/contact-us). 
+Your organization's data ecosystem today will drive innovation tomorrow. If you’re ready to explore and leverage real-time data sharing to accelerate your business’s growth, [try the app](https://www.vendia.com/developers) for free or [contact our team](https://www.vendia.com/contact-us). 
 
-We’ll help you find the right real-time data sharing solution and can get you started with a [one-week proof of concept](https://vendia.net/poc).
+We’ll help you find the right real-time data sharing solution and can get you started with a [one-week proof of concept](https://vendia.com/poc).

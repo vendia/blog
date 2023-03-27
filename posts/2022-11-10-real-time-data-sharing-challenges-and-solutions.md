@@ -154,4 +154,4 @@ In the case of the home mortgage industry…
 
 ## Address real-time data sharing challenges with Vendia Share
 
-Learn more about how Vendia Share can automate and accelerate your data workflows across your business network. [Contact us](https://www.vendia.net/contact-us) or request your [one-week proof of concept](https://vendia.net/poc).
+Learn more about how Vendia Share can automate and accelerate your data workflows across your business network. [Contact us](https://www.vendia.com/contact-us) or request your [one-week proof of concept](https://vendia.com/poc).
