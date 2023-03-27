@@ -42,11 +42,6 @@
     },
     {
       "status": 301,
-      "from": "legal/share-service-level",
-      "to": "legal/share-service-level-agreement"
-    },
-    {
-      "status": 301,
       "from": "/blog/are-blockchains-databases",
       "to": "/blog/databases-versus-blockchain"
     },
@@ -87,11 +82,16 @@
     },
     {
       "status": 301,
+      "from": "/legal/share-service-level",
+      "to": "/legal/share-service-level-agreement"
+    },
+    {
+      "status": 301,
       "from": "/share-service-level",
       "to": "/legal/share-service-level-agreement"
     }
   ],
-  "updatedAt": "2023-03-27T18:27:42.249Z",
+  "updatedAt": "2023-03-27T18:48:01.228Z",
   "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
