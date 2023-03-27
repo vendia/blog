@@ -22,23 +22,8 @@
     },
     {
       "status": 301,
-      "from": "/share-service-level",
-      "to": "legal/share-service-level-agreement"
-    },
-    {
-      "status": 301,
-      "from": "/share-service-terms",
-      "to": "/legal/share-service-terms"
-    },
-    {
-      "status": 301,
       "from": "/privacy/cookie-list",
       "to": "/legal/cookies-list"
-    },
-    {
-      "status": 301,
-      "from": "/share-service-level",
-      "to": "/legal/share-service-level-agreement"
     },
     {
       "status": 301,
@@ -82,6 +67,16 @@
     },
     {
       "status": 301,
+      "from": "/share-service-level",
+      "to": "/legal/share-service-level-agreement"
+    },
+    {
+      "status": 301,
+      "from": "/share-service-terms",
+      "to": "/legal/share-service-terms"
+    },
+    {
+      "status": 301,
       "from": "/legal/share-service-level",
       "to": "/legal/share-service-level-agreement"
     },
@@ -91,8 +86,8 @@
       "to": "/contact-us"
     }
   ],
-  "updatedAt": "2023-03-27T19:39:04.566Z",
-  "updatedBy": "Caroll Casbeer",
+  "updatedAt": "2023-03-27T19:48:47.482Z",
+  "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
 }
