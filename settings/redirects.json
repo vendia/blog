@@ -12,21 +12,6 @@
     },
     {
       "status": 301,
-      "from": "/acceptable-use",
-      "to": "/legal/acceptable-use-policy"
-    },
-    {
-      "status": 301,
-      "to": "/legal/privacy-policy",
-      "from": "/privacy"
-    },
-    {
-      "status": 301,
-      "from": "/privacy/cookie-list",
-      "to": "/legal/cookies-list"
-    },
-    {
-      "status": 301,
       "from": "/blog/are-blockchains-databases",
       "to": "/blog/databases-versus-blockchain"
     },
@@ -82,11 +67,26 @@
     },
     {
       "status": 301,
+      "from": "/acceptable-use",
+      "to": "/legal/acceptable-use-policy"
+    },
+    {
+      "status": 301,
+      "to": "/legal/privacy-policy",
+      "from": "/privacy"
+    },
+    {
+      "status": 301,
+      "from": "/privacy/cookie-list",
+      "to": "/legal/cookies-list"
+    },
+    {
+      "status": 301,
       "from": "/meet",
       "to": "/contact-us"
     }
   ],
-  "updatedAt": "2023-03-27T19:48:47.482Z",
+  "updatedAt": "2023-03-27T19:59:16.214Z",
   "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
