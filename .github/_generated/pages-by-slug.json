@@ -19,7 +19,7 @@
     "file": "/pages/example-content-page.md",
     "draft": true
   },
-  "": {
+  "homepage": {
     "file": "/pages/homepage.md",
     "draft": false
   },
