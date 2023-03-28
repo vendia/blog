@@ -11,6 +11,7 @@ components:
     button:
       label: Register
       kind: primary
+      href: https://www.vendia.com/resources/vendia-share-and-snowflake
     theme: white
   - type: MediaWithText
     mediaPosition: left
@@ -63,6 +64,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-22T23:36:53.252Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-22T23:40:30.008Z
+updatedAt: 2023-03-28T18:51:10.072Z
 id: 90b6ae29-24c9-4095-a877-a30daf2222a6
 ---
