@@ -9,7 +9,8 @@ components:
     resourcesType: podcasts
     intro:
       title: Circles of Trust
-      text: Real talk on real-time data sharing
+      text: >-
+        ### Real talk on real-time data sharing
     resources:
       - text: >-
           **Episode 1** | Meme Styles, Founder and President, MEASURE 

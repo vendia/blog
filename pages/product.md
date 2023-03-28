@@ -30,7 +30,8 @@ components:
     theme: white
     intro:
       title: The trusted data cloud
-      text: Vendia Share was envisioned by the inventor of Serverless and is built for
+      text: >-
+        ### Vendia Share was envisioned by the inventor of Serverless and is built for
         trust, performance, compliance, and security by the best software
         engineers in the world.
     columns:

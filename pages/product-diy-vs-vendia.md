@@ -37,7 +37,8 @@ components:
         of all three.
     intro:
       title: APIs, blockchains, and databases together at last.
-      text: Vendia Share combines the best functions, features, and benefits of these
+      text: >-
+        ### Vendia Share combines the best functions, features, and benefits of these
         proven technologies and IT workhorses.
   - type: Columns
     theme: white
@@ -78,7 +79,8 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: Secure sharing as a service
-      text: Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
+      text: >-
+        ### Avoid the complexity of building multi-cloud, custom AuthN and AuthZ
         services with Vendia Share.
   - type: MediaWithTextTwoColumns
     mediaPosition: right
@@ -171,7 +173,7 @@ components:
       The Vendia Share platform eliminates the need for DIY API creation and the underlying infrastructure design, provisioning, and management.
 
 
-      All you need is a JSON schema. Vendia Share does the rest.   
+      All you need is a JSON schema. Vendia Share does the rest. 
 
 
       Vendia Share compiles that schema into Serverless resources customized to your model and then deploys a powerful, fully-managed https-based GraphQL engine for reading and writing your data, with full type checking.

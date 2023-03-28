@@ -28,9 +28,9 @@ components:
     theme: white
     intro:
       title: Designed for sensitive data in regulated industries
-      text: Vendia Share is the only trusted data cloud that combines business
+      text: >-
+        ### Vendia Share is the only trusted data cloud that combines business
         blockchain, smart APIs, and cloud databases.
-    columns:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
@@ -183,8 +183,9 @@ components:
     theme: white
     intro:
       title: Resources
-      text: "Learn how business blockchains, smart APis, and cloud databases unlock
-        the next generation of data sharing. "
+      text: >-
+        ### Learn how business blockchains, smart APis, and cloud databases unlock
+        the next generation of data sharing. 
     columns:
       - text: >-
           ##### Blockchains and centralized IT
