@@ -31,62 +31,62 @@ components:
       text: >-
         ### Vendia Share is the only trusted data cloud that combines business
         blockchain, smart APIs, and cloud databases.
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
-          width="75" />
+  - text: >-
+      <img
+      src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
+      width="75" />
 
 
-          ##### Financial services
+      ##### Financial services
 
 
-          Banks, insurance companies, and lenders leave batch processes behind and reduce the risk of outstanding unpaid balances and data disputes.
+      Banks, insurance companies, and lenders leave batch processes behind and reduce the risk of outstanding unpaid balances and data disputes.
 
 
-          [Learn more](https://www.vendia.com/industry/financial-services)
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"  class="image-float-left"
-          width="75" />
+      [Learn more](https://www.vendia.com/industry/financial-services)
+    wrapTheColumnInACard: false
+  - text: >-
+      <img
+      src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"  class="image-float-left"
+      width="75" />
 
 
-          **Supply chain** 
+      **Supply chain** 
 
 
-          From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth and traceability.
+      From farm-to-table and wafer-to-wearable, supply chain partners gain a trusted and immutable source of truth and traceability.
 
 
-          [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1676921413/Website/Icons/Blue%20icons/Electronics_31_fbiux5.png"  class="image-float-left"
-          width="75" />
+      [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
+    wrapTheColumnInACard: false
+  - text: >-
+      <img
+      src="https://res.cloudinary.com/vendia/image/upload/v1676921413/Website/Icons/Blue%20icons/Electronics_31_fbiux5.png"  class="image-float-left"
+      width="75" />
 
 
-          ##### Telecom
+      ##### Telecom
 
 
-          Empower teams to automate data sharing workflows and scale with privacy, governance, and access control built in.[](https://www.vendia.com/industry#healthcare)
+      Empower teams to automate data sharing workflows and scale with privacy, governance, and access control built in.[](https://www.vendia.com/industry#healthcare)
 
 
-          [Learn more](https://www.vendia.com/industry#healthcare)
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"  class="image-float-left"
-          width="75" />
+      [Learn more](https://www.vendia.com/industry#healthcare)
+    wrapTheColumnInACard: false
+  - text: >-
+      <img
+      src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"  class="image-float-left"
+      width="75" />
 
 
-          ##### Travel
+      ##### Travel
 
 
-          Airlines and their partners ensure that fare, loyalty, and ticket updates happen in real time with proof of data accuracy and ATI compliance.
+      Airlines and their partners ensure that fare, loyalty, and ticket updates happen in real time with proof of data accuracy and ATI compliance.
 
 
-          [Learn more](https://www.vendia.com/industry/travel-hospitality)
-        wrapTheColumnInACard: false
+      [Learn more](https://www.vendia.com/industry/travel-hospitality)
+    wrapTheColumnInACard: false
   - type: MediaWithTextTwoColumns
     mediaPosition: left
     column1: >-
