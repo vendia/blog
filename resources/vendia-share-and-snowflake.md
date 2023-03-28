@@ -7,7 +7,8 @@ date: 2023-03-22
 components:
   - type: ThinHeadline
     title: "Webinar: Vendia Share and Snowflake"
-    text: Data collaboration meets data sharing
+    text: Data sharing meets data collaboration for a single source of truth across
+      your partner data ecosystem
     button:
       label: Register
       kind: primary
@@ -64,6 +65,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-22T23:36:53.252Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-28T18:51:10.072Z
+updatedAt: 2023-03-28T18:51:53.239Z
 id: 90b6ae29-24c9-4095-a877-a30daf2222a6
 ---
