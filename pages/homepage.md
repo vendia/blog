@@ -28,9 +28,8 @@ components:
     theme: white
     intro:
       title: Designed for sensitive data in regulated industries
-      text: >-
-        ### Vendia Share is the only trusted data cloud that combines business
-        blockchain, smart APIs, and cloud databases.
+      text: "### Vendia Share is the only trusted data cloud that combines business
+        blockchain, smart APIs, and cloud databases."
   - text: >-
       <img
       src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
@@ -140,6 +139,7 @@ components:
 
 
           <Button kind="secondaryGhostDark" label="Get the research" href="https://www.vendia.com/blog/serverless-distributed-ledger-for-enterprises" />
+    theme: purple-borders
   - type: Columns
     theme: white
     intro:
@@ -183,9 +183,8 @@ components:
     theme: white
     intro:
       title: Resources
-      text: >-
-        ### Learn how business blockchains, smart APis, and cloud databases unlock
-        the next generation of data sharing. 
+      text: "### Learn how business blockchains, smart APis, and cloud databases
+        unlock the next generation of data sharing. "
     columns:
       - text: >-
           ##### Blockchains and centralized IT
@@ -236,7 +235,7 @@ seo:
   description: Real-time data sharing across partners, clouds, and systems
 createdBy: Caroll Casbeer
 createdAt: 2023-02-24T23:55:54.831Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-03-24T17:06:17.029Z
+updatedBy: Hugues Tennier
+updatedAt: 2023-03-28T18:51:34.408Z
 id: e13d4b41-8d60-4cde-ac73-3bb4158b29c3
 ---
