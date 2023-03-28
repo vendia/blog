@@ -54,7 +54,8 @@ components:
           Less time spent investigating and resolving data inconsistencies with Vendia Share
         wrapTheColumnInACard: false
     intro:
-      text: Take manual interventions out of the mix. Instead, instantly, accurately
+      text: >-
+        ### Take manual interventions out of the mix. Instead, instantly, accurately
         reconcile data from inside and outside your four walls — no matter how
         many (or messy) your partner systems, clouds, companies, or inputs.
       title: Operate with a golden record everyone can trust
@@ -160,7 +161,8 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: Why financial services leaders trust Vendia Share
-      text: Achieve winning business results across use cases with our SaaS platform
+      text: >-
+        ### Achieve winning business results across use cases with our SaaS platform
         for real-time, multi-partner B2B data sharing.
     maxColumns: "4"
   - type: MediaWithTextTwoColumns

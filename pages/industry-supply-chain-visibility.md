@@ -72,13 +72,15 @@ components:
           On average, Vendia Share customers spend **87% less time investigating** and resolving data inconsistencies.
         wrapTheColumnInACard: false
     intro:
-      text: Optimize for cost-efficiency without sacrificing resiliency
       title: "Stop the swings from surpluses to shortages "
+      text: >-
+        ### Optimize for cost-efficiency without sacrificing resiliency
   - type: Columns
     theme: light
     intro:
       title: What does Vendia Share solve for?
-      text: Share and access sub-tier partner data with trust, ease, security, and
+      text: >-
+        ### Share and access sub-tier partner data with trust, ease, security, and
         built-in compliance
     columns:
       - text: >-
@@ -174,7 +176,8 @@ components:
     maxColumns: "2"
     intro:
       title: What kinds of results can you expect?
-      text: What would you do with more data, more time, and more money?
+      text: >-
+        ### What would you do with more data, more time, and more money?
   - type: MediaWithText
     mediaPosition: right
     text: >-

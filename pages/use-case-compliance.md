@@ -59,7 +59,8 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: "Compliant first. Compliant always. "
-      text: We built Vendia Share to be out-of-the-box compliant from Day 1.
+      text: >-
+        ### We built Vendia Share to be out-of-the-box compliant from Day 1.
   - type: MediaWithText
     mediaPosition: left
     text: >-

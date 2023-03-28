@@ -16,8 +16,9 @@ components:
     theme: white
     intro:
       title: Get Started with Vendia in three easy steps
-      text: "You only need three elements to be in place to launch a multi-party data
-        alliance: A data model, data, and partners. "
+      text: >-
+        ### You only need three elements to be in place to launch a multi-party data
+        alliance: A data model, data, and partners. 
     columns:
       - text: >-
           > ### Step 1
@@ -47,8 +48,9 @@ components:
     theme: light
     intro:
       title: Everything else is handled by our Saas platform
-      text: "Vendia handles all the synchronization and sharing and adapts to any
-        changes in your data model, data, or partners. "
+      text: >-
+        ### Vendia handles all the synchronization and sharing and adapts to any
+        changes in your data model, data, or partners.
     image:
       image: ""
   - type: Text
