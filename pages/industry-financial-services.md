@@ -4,9 +4,9 @@ template: page
 path: /industry/financial-services-new
 components:
   - type: Hero
-    title: Resolve data discrepancies in seconds, not months
-    text: Eliminate costly manual reconciliation and create a single source of truth
-      in your data ecosystem with Vendia Share
+    title: Unlock growth with a trusted golden record
+    text: Use Vendia Share to transform partner data sharing into real-time data
+      collaboration
     contentAlignment: Left
     hideSeparator: false
     image:
@@ -19,7 +19,6 @@ components:
   - type: Logos
     logos:
       - Fannie Mae
-      - Resolution Life
       - Atos
       - Delta
       - AeroMexico
@@ -54,11 +53,10 @@ components:
           Less time spent investigating and resolving data inconsistencies with Vendia Share
         wrapTheColumnInACard: false
     intro:
-      text: >-
-        ### Take manual interventions out of the mix. Instead, instantly, accurately
-        reconcile data from inside and outside your four walls — no matter how
-        many (or messy) your partner systems, clouds, companies, or inputs.
-      title: Operate with a golden record everyone can trust
+      text: "### Instantly, accurately reconcile data from inside and outside your
+        four walls — no matter how many (or messy) your partner systems, clouds,
+        companies, or inputs."
+      title: Resolve data discrepancies in seconds, not months
   - type: Carousel
     slides:
       - text: >-
@@ -161,9 +159,8 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: Why financial services leaders trust Vendia Share
-      text: >-
-        ### Achieve winning business results across use cases with our SaaS platform
-        for real-time, multi-partner B2B data sharing.
+      text: "### Achieve winning business results across use cases with our SaaS
+        platform for real-time, multi-partner B2B data sharing."
     maxColumns: "4"
   - type: MediaWithTextTwoColumns
     mediaPosition: left
@@ -243,6 +240,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-23T17:39:37.354Z
+updatedAt: 2023-03-29T19:18:56.228Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
