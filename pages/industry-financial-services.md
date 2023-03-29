@@ -71,16 +71,22 @@ components:
   - type: MediaWithTextTwoColumns
     mediaPosition: left
     column1: >-
-      The average data breach is $9MM. 
+      The average data breach costs +$9MM. 
 
 
-      How much is it worth to maintain localized control of sensitive data? And what if your data sharing had a built-in ledger for compliant collaboration and auditability?
+      How much is it worth to maintain localized control of sensitive data? And what if you also had a built-in ledger for compliant collaboration and auditability?
+
+
+      ###### Source: IBM | [2022 Data Breach Report](https://www.ibm.com/reports/data-breach)
     column2: >-
       From 2012-2019, the 20 largest global banks paid $327B in fines for
       mis-selling financial products.
 
 
       How can you reduce exposures with smart, tamperproof, and traceable data collaboration?
+
+
+      ###### Source: Accenture | [Competing with Banking Ecosystems](https://www.accenture.com/_acnmedia/pdf-102/accenture-banking-ecosystem.pdf)
     theme: white
     title: Trust is the key to secure, sustainable growth
     image:
@@ -283,6 +289,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T23:49:55.539Z
+updatedAt: 2023-03-29T23:56:00.487Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
