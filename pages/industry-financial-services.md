@@ -31,7 +31,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"  class="image-float-left"
-          width="200" />
+          width="180" />
 
 
           Reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
@@ -39,7 +39,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/6_h9b8ki.png"  class="image-float-left"
-          width="200" />
+          width="178" />
 
 
           Saved, on average, in Year One alone, when operating on the Vendia Share platform
@@ -47,7 +47,7 @@ components:
       - text: >-
           <img
           src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/5_ihlgst.png"  class="image-float-left"
-          width="200" />
+          width="180" />
 
 
           Less time spent investigating and resolving data inconsistencies with Vendia Share
@@ -64,16 +64,26 @@ components:
       - text: >-
           ### **Historically, we’ve spent more time talking about doing a
           project than it took us to build on the Vendia Share solution and
-          begin sharing data with key partners in our data ecosystem.** 
+          begin sharing data with key partners in our data ecosystem.**
 
 
-          ###### **– CISO, Finserv securitization and technology services**
+          ###### **– Head of Product, Finserv securitization and technology services**
     theme: purple-borders
-  - type: MediaWithText
+  - type: MediaWithTextTwoColumns
     mediaPosition: left
-    text: "### Building and protecting trust is the key to secure, sustainable
-      growth for the mature financial services industry."
+    column1: >-
+      The average data breach is $9MM. 
+
+
+      How much is it worth to maintain localized control of sensitive data without sacrificing the power of data collaboration at scale with built-in compliance and easy auditability?
+    column2: >-
+      From 2012-2019, the 20 largest global banks paid $327B in fines for
+      mis-selling financial products.
+
+
+      How much could be prevented through smart, tamperproof, and traceable data collaboration?
     theme: white
+    title: Owning trust is the key to secure, sustainable growth
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png
   - type: Columns
@@ -250,6 +260,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T21:09:27.677Z
+updatedAt: 2023-03-29T21:29:34.631Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
