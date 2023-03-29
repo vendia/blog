@@ -56,7 +56,7 @@ components:
       text: "### Instantly, accurately reconcile data from inside and outside your
         four walls — no matter how many (or messy) your partner systems, clouds,
         companies, or inputs."
-      title: Resolve data discrepancies in seconds, not months
+      title: Eliminate data discrepancies forever
   - type: Carousel
     slides:
       - text: >-
@@ -66,6 +66,14 @@ components:
 
 
           ###### **– CISO, Finserv securitization and technology services**
+    theme: purple-borders
+  - type: MediaWithText
+    mediaPosition: left
+    text: "### Building and protecting trust is the key to secure, sustainable
+      growth for the mature financial services industry."
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png
   - type: Columns
     theme: white
     columns:
@@ -240,6 +248,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T19:18:56.228Z
+updatedAt: 2023-03-29T20:27:37.514Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
