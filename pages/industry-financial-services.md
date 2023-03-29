@@ -61,9 +61,9 @@ components:
   - type: Carousel
     slides:
       - text: >-
-          ### **Historically, we’ve spent more time talking about doing a
+          ### **"Historically, we’ve spent more time talking about doing a
           project than it took us to build on the Vendia Share solution and
-          begin sharing data with key partners in our data ecosystem.**
+          begin sharing data with key partners in our data ecosystem."**
 
 
           ###### **– Head of Product, Finserv securitization and technology services**
@@ -74,14 +74,14 @@ components:
       The average data breach is $9MM. 
 
 
-      How much is it worth to maintain localized control of sensitive data without sacrificing the power of data collaboration at scale with built-in compliance and easy auditability?
+      How much is it worth to maintain localized control of sensitive data? And what if your data sharing had a built-in ledger for compliant collaboration and auditability?
     column2: >-
       From 2012-2019, the 20 largest global banks paid $327B in fines for
       mis-selling financial products.
 
 
       How can you reduce exposures with smart, tamperproof, and traceable data collaboration?
-    theme: light
+    theme: white
     title: Trust is the key to secure, sustainable growth
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png
@@ -90,7 +90,7 @@ components:
         misc. line charts; around them are clusters of other items suggesting
         data and growth
   - type: Columns
-    theme: white
+    theme: light
     columns:
       - text: >-
           <img
@@ -174,12 +174,12 @@ components:
           House all siloed product data in a single, unified view that streamlines insurance sales and improves customer experience.
         wrapTheColumnInACard: false
     intro:
-      title: Why financial services and technology leaders trust Vendia Share
+      title: Why leaders trust Vendia Share
       text: >-
         ### Drive operational efficiency and generate new revenue streams
 
 
-        With Vendia Share, financial services firms can access and share the data they need to take real-time action with speed, agility, ingenuity, and confidence.
+        With Vendia Share, financial services firms can access and share the data they need to take real-time action with agility, ingenuity, and confidence.
     maxColumns: "3"
   - type: MediaWithTextTwoColumns
     mediaPosition: right
@@ -199,8 +199,8 @@ components:
 
 
       <Button kind="secondaryGhostPurple" label="Download now" />
-    theme: light
-    title: Drive efficiency and build trust you can count on with Vendia Share
+    theme: white
+    title: Explore the resources
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599129/Website/Iso/Build_apps_rrf6c2.png
       altText: "An isomorphic graphic featuring an open laptop at the center; onscreen
@@ -243,7 +243,7 @@ components:
           url: https://www.vendia.com/blog/fintech-innovation-mortgage-servicing
         title: Thought leadership
     intro:
-      text: "## Explore more resources"
+      text: ""
       title: ""
     resourcesType: ""
   - type: MediaWithText
@@ -283,6 +283,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T23:07:49.246Z
+updatedAt: 2023-03-29T23:49:55.539Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
