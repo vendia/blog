@@ -29,7 +29,7 @@ components:
     theme: light
   - type: Columns
     theme: white
-    maxColumns: "3"
+    maxColumns: "2"
     columns:
       - text: >-
           <img
@@ -39,18 +39,7 @@ components:
           pale lavender " class="image-float-left" width="180" />
 
 
-          Reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/6_h9b8ki.png"
-          alt="A data visualization showing $1.4MM at the heart of two
-          concentric circles; primary circle color is Vendia violet purple and
-          outer ring in secondary color is pale lavender "
-          class="image-float-left" width="178" />
-
-
-          Saved, on average, in Year One alone, when operating on the Vendia Share platform
+          ### Reduction in manual, multi-source data triage and reconciliation costs
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -60,7 +49,7 @@ components:
           pale lavender " class="image-float-left" width="180" />
 
 
-          Less time spent investigating and resolving data inconsistencies with Vendia Share
+          ### Less time spent investigating and resolving data inconsistencies
         wrapTheColumnInACard: false
     intro:
       text: >-
@@ -68,7 +57,7 @@ components:
 
 
         Instantly, accurately reconcile data from inside and outside your four walls — no matter how many (or messy) your partner systems, clouds, companies, or inputs.
-      title: Eliminate data discrepancies forever
+      title: Eliminate data discrepancies for good
   - type: Carousel
     slides:
       - text: >-
@@ -294,6 +283,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T22:55:15.642Z
+updatedAt: 2023-03-29T23:07:49.246Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
