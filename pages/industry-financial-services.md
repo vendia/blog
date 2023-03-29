@@ -11,6 +11,9 @@ components:
     hideSeparator: false
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599388/Website/Iso/Smart_contract_umed2h.png
+      altText: An isomorphic image in Vendia's brand color palette (white, gradient
+        purples from violet to lavender and blues in shades of aquamarine and
+        seafoam) featuring a scrolled document with a checkmark on it
     callToActions:
       - label: Request a demo
         url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
@@ -30,24 +33,31 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"  class="image-float-left"
-          width="180" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"
+          alt="A data visualization showing the number 93% overlaid a pie chart;
+          pie chart primary color is Vendia violet purple and secondary color is
+          pale lavender " class="image-float-left" width="180" />
 
 
           Reduction in manual, multi-source data triage and reconciliation costs thanks to Vendia Share
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/6_h9b8ki.png"  class="image-float-left"
-          width="178" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/6_h9b8ki.png"
+          alt="A data visualization showing $1.4MM at the heart of two
+          concentric circles; primary circle color is Vendia violet purple and
+          outer ring in secondary color is pale lavender "
+          class="image-float-left" width="178" />
 
 
           Saved, on average, in Year One alone, when operating on the Vendia Share platform
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/5_ihlgst.png"  class="image-float-left"
-          width="180" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/5_ihlgst.png"
+          alt="A data visualization showing the number 87% overlaid a pie chart;
+          pie chart primary color is Vendia violet purple and secondary color is
+          pale lavender " class="image-float-left" width="180" />
 
 
           Less time spent investigating and resolving data inconsistencies with Vendia Share
@@ -81,29 +91,39 @@ components:
       mis-selling financial products.
 
 
-      How much could be prevented through smart, tamperproof, and traceable data collaboration?
-    theme: white
-    title: Owning trust is the key to secure, sustainable growth
+      How can you reduce exposures with smart, tamperproof, and traceable data collaboration?
+    theme: light
+    title: Trust is the key to secure, sustainable growth
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png
+      altText: An isomorphic image suggesting growth; two business professionals face
+        a third professional in front of a large white board or screen showing
+        misc. line charts; around them are clusters of other items suggesting
+        data and growth
   - type: Columns
     theme: white
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"  class="image-float-left"
-          width="110" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269814/Website/Icons/Blue%20icons/Media_111_mtm4e3.svg"
+          alt="A line icon in Vendia aqua; a document is at the center; it has 5
+          data dots and circuit lines flowing into it from the right; there is a
+          circle enclosing a checkmark over the bottom left corner of the
+          document suggesting reconciliation 'checks out'"
+          class="image-float-left" width="110" />
 
 
-          **Accurate account master**
+          **Trusted golden record**
 
 
           Make informed business decisions and reduce exposure based on a  secure, compliant, golden record you and all your data sharing partners can collaborate on — and trust.
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269803/Website/Icons/Blue%20icons/Marketing_45_p25wab.svg"  class="image-float-left"
-          width="110" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269803/Website/Icons/Blue%20icons/Marketing_45_p25wab.svg"
+          alt="A line icon in Vendia aqua; a browser window is pierced by an
+          arrow hitting it like a target" class="image-float-left" width="110"
+          />
 
 
           **Real-time everything** 
@@ -113,30 +133,22 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269664/Website/Icons/Blue%20icons/Security_27_lj6tk3.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269789/Website/Icons/Blue%20icons/GDPR_12_bszobc.svg"
+          alt="A line icon in Vendia aqua; a right hand reaches toward a button
+          marked 'GDPR' and the forefinger presses it" class="image-float-left"
           width="110" />
 
 
-          **Digital identity (KYC) verification**
-
-
-          Streamline financial account management and integration to help reduce exposure to fraud and money laundering through verified digital identity features.
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269789/Website/Icons/Blue%20icons/GDPR_12_bszobc.svg"  class="image-float-left"
-          width="110" />
-
-
-          **Transparent reporting**
+          **Streamline third-party audits**
 
 
           Deliver faster, more accurate reporting with built-in compliance processes that draw on immutable data records and deliver Truth as a service to regulators and auditors.
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269723/Website/Icons/Blue%20icons/Analytics_89_sdhcrh.svg"  class="image-float-left"
-          width="110" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269723/Website/Icons/Blue%20icons/Analytics_89_sdhcrh.svg"
+          alt="A line icon in Vendia aqua; a stopwatch with the second hand at
+          about 15 seconds" class="image-float-left" width="110" />
 
 
           **Fast, effective claims management**
@@ -146,49 +158,47 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269835/Website/Icons/Blue%20icons/People_102_rhu0t6.svg"  class="image-float-left"
-          width="110" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269835/Website/Icons/Blue%20icons/People_102_rhu0t6.svg"
+          alt="A line icon in Vendia aqua; four non-binary human busts (like
+          Beethoven on a piano) are arranged in north, east, south, west
+          position around a fifth bust; they are all the same size; the four
+          arranged in cardinal positions are connected by a single, continuous
+          line suggesting 360 degrees" class="image-float-left" width="110" />
 
 
-          **360 view of loan lifecycles**
+          **Compliant customer centricity**
 
 
           From loan origination to servicing details, get a 360-view of your customer data so you can manage risk and offer new financial products appropriately.
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269752/Website/Icons/Blue%20icons/Cloud_122_jjpcpn.svg"  class="image-float-left"
-          width="110" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269752/Website/Icons/Blue%20icons/Cloud_122_jjpcpn.svg"
+          alt="A line icon in Vendia aqua; a single cloud is penetrated from the
+          bottom by an arrow; the arrow is open and on its own would look like a
+          house icon" class="image-float-left" width="110" />
 
 
-          **Insurance coverage unification and reinsurance data sharing**
+          **Insurance coverage unification and reinsurance data collaboration**
 
 
           House all siloed product data in a single, unified view that streamlines insurance sales and improves customer experience.
         wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269871/Website/Icons/Blue%20icons/Tech_118_y1apb9.svg"  class="image-float-left"
-          width="110" />
-
-
-          **Turn unstructured files into good data**
-
-
-          Enrich your data from stored PDFs and extract key data points using machine learning (ML) from pre-digital and ad hoc documentation.
-        wrapTheColumnInACard: false
     intro:
-      title: Why financial services leaders trust Vendia Share
-      text: "### Achieve winning business results across use cases with our SaaS
-        platform for real-time, multi-partner B2B data sharing."
-    maxColumns: "4"
+      title: Why financial services and technology leaders trust Vendia Share
+      text: >-
+        ### Drive operational efficiency and generate new revenue streams
+
+
+        With Vendia Share, financial services firms can access and share the data they need to take real-time action with speed, agility, ingenuity, and confidence.
+    maxColumns: "3"
   - type: MediaWithTextTwoColumns
-    mediaPosition: left
+    mediaPosition: right
     column1: >-
       **Get the guide**
 
 
-      How to create a breakthrough data and application strategy with Vendia's distributed ledger technology
+      Create a breakthrough data collaboration solution with Vendia's distributed ledger technology
 
 
       <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/blockchain-in-modern-financial-services-2022" />
@@ -201,9 +211,14 @@ components:
 
       <Button kind="secondaryGhostPurple" label="Download now" />
     theme: light
-    title: Drive efficiency. Streamline settlements. And simplify audits.
+    title: Drive efficiency and build trust you can count on with Vendia Share
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599179/Website/Iso/File_sharing_pgpw0j.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599129/Website/Iso/Build_apps_rrf6c2.png
+      altText: "An isomorphic graphic featuring an open laptop at the center; onscreen
+        in shades of Vendia violet and aqua are details that suggest data and
+        code; a single-armed table lamp shines down adding extra illumination to
+        the laptop screen; misc. Serverless data blocks and network devices
+        surround the light and laptop "
   - type: Resources
     resources:
       - text: >-
@@ -212,7 +227,7 @@ components:
           services
 
 
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590279/Circles%20of%20Trust/Union-2_pqfnqo.png"  class="image-float-left" width="100" />
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590279/Circles%20of%20Trust/Union-2_pqfnqo.png" alt="A cluster of overlapping circles of different sizes within a single large circle; circles are shaded in gradients of Vendia's brand colors" class="image-float-left" width="100" />
         button:
           label: Listen to the podcast
           url: https://podcasts.apple.com/us/podcast/sharing-data-in-financial-services-how-the-leading/id1645908970?i=1000589939015
@@ -222,44 +237,63 @@ components:
           financial services partners with low code development and Vendia's DLT
 
 
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590964/Website/Misc%20website%20images/atos-logo-white-2022_uf8ecy.svg"  class="image-float-left" height="100" />
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1679590964/Website/Misc%20website%20images/atos-logo-white-2022_uf8ecy.svg" alt="The Atos logomark" class="image-float-left" height="100" />
         button:
           label: Review the case study
           url: https://www.vendia.com/blog/atos-success-story
         title: Case study
       - text: >-
           The inventor of Serverless (and Vendia co-founder), Dr. Tim Wagner,
-          explains how to transform financial services with secure and compliant
-          multi-party data sharing for real-time collaboration
+          explains how to transform financial services with secure, compliant
+          multi-party data collaboration
 
 
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1678816231/Website/Iso/Group_2_f8kpko.png"  class="image-float-left" width="110" />
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1678816231/Website/Iso/Group_2_f8kpko.png" alt="An isomorphic image in shades of Vendia violet and plum; graphic elements include an open laptop, 6 connected blockchain cubes, a gear, a cloud, and stack of circular databases " class="image-float-left" width="150" />
         button:
           label: Read the post
           url: https://www.vendia.com/blog/fintech-innovation-mortgage-servicing
         title: Thought leadership
+    intro:
+      text: "## Explore more resources"
+      title: ""
+    resourcesType: ""
   - type: MediaWithText
     mediaPosition: right
     text: >-
-      ## Operate on real-time data you can trust
+      ## Collaborate on data you can trust
 
 
-      ### Learn how to cut operational costs without sacrificing data integrity using Vendia Share.
+      ### Learn how to reduce risks and cut operational costs without sacrificing data integrity using Vendia Share
 
 
-      <Button kind="primary" label="Request a data strategy consult" href="https://meetings.hubspot.com/aashish3/contact-sales" />
+      <Button kind="primary" label="Request a use case discovery call" href="https://meetings.hubspot.com/aashish3/contact-sales" />
 
 
       <Button kind="secondaryGhostPurple" label="Developers, try Vendia Share" href="https://share.vendia.net/" />
     theme: light
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
+      altText: An isomorphic image in shades of Vendia violet, plum, aqua, and
+        seafoam; at the center is a square platform with the Vendia logo on it;
+        the logo shines up a tower of transparent aqua light (like data being
+        teleported) toward a globe showing North America, the Atlantic Ocean,
+        Europe, the Middle East, and Africa; paths extend out from the platform
+        in four directions; moving clockwise from about 1 o'clock, in one
+        direction, the paths connect to a lock; at 3 o'clock the paths connect
+        to a server; at 8 o'clock, the paths connect to a cloud with an upload
+        arrow on it; at 10 o'clock, the paths connect to a database stack;
+        underneath all the other graphic elements are segmented concentric
+        circles suggesting simultaneous flow between all the elements with
+        Vendia Share (represented by Vendia's logo) at the heart of it all
 seo:
   noindex: false
   title: Vendia Share for financial services
+  description: Unlock growth with a trusted golden record. Use Vendia Share to
+    transform partner data sharing into real-time data collaboration and
+    eliminate data discrepancies forever.
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T21:29:34.631Z
+updatedAt: 2023-03-29T22:55:15.642Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
