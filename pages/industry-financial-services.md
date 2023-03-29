@@ -30,7 +30,7 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1679526411/Website/Icons/Infographic%20icons/93_cost_savings_tib1xx.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"  class="image-float-left"
           />
 
 
@@ -38,7 +38,7 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1679526411/Website/Icons/Infographic%20icons/1.4MM_qpwsht.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/6_h9b8ki.png"  class="image-float-left"
           />
 
 
@@ -46,8 +46,8 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1679530596/Website/Icons/Infographic%20icons/87_kzrf5x.png"  class="image-float-left"
-          width="128" height="128" />
+          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/5_ihlgst.png"  class="image-float-left"
+          />
 
 
           Less time spent investigating and resolving data inconsistencies with Vendia Share
@@ -248,6 +248,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T20:27:37.514Z
+updatedAt: 2023-03-29T20:59:44.473Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
