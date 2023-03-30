@@ -1,17 +1,28 @@
 ---
-draft: false
-title: 'Blockchain is disrupting every industry vertical—could business travel be next?'
-description: 'Join two blockchain experts, Shruthi Rao of Vendia and Johnny Thorsen of Spotnana, in this session to learn about blockchain’s potential in the travel industry.'
-date: '2022-08-05'
-categories:
-- company 
-- announcements
-thumbnail: 
+draft: true
+title: Blockchain is disrupting every industry vertical—could business travel be next?
+description: Join two blockchain experts, Shruthi Rao of Vendia and Johnny
+  Thorsen of Spotnana, in this session to learn about blockchain’s potential in
+  the travel industry.
+date: 2022-08-05
 authors:
   - Anders Maul
-id: '16922299-f93b-4d47-8673-3e9c481d55ae'
+categories:
+  - company
+  - announcements
+thumbnail: null
+seo:
+  title: Blockchain is disrupting every industry vertical—could business travel be
+    next?
+  description: Join two blockchain experts, Shruthi Rao of Vendia and Johnny
+    Thorsen of Spotnana, in this session to learn about blockchain’s potential
+    in the travel industry.
+createdBy: alexa-vendia
+createdAt: 2023-03-30T22:12:43.858Z
+updatedBy: alexa-vendia
+updatedAt: 2023-03-30T22:12:43.858Z
+id: 16922299-f93b-4d47-8673-3e9c481d55ae
 ---
-
 
 # Blockchain is disrupting every industry vertical—could business travel be next?
 Are you going to the GBTA convention in San Diego or joining virtually? Either way, make sure you don’t miss this Education Session: 
