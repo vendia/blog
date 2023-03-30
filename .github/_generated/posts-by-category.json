@@ -573,6 +573,38 @@
       "id": "d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd"
     },
     {
+      "file": "/posts/2022-03-09-graphql-and-blockchain.md",
+      "draft": false,
+      "title": "Why GraphQL isn't sufficient for business blockchains — and what we did about it",
+      "description": "Learn how to enrich GraphQL with transactions, condition updates, and ledgering on the Vendia Share data collaboration platform.",
+      "date": "2022-03-09T00:00:00.000Z",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
+        "2022-10-21-api-security-graphql",
+        "2022-08-26-crud-new-rules-for-apis"
+      ],
+      "tags": [
+        "GraphQL",
+        "code"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677173496/Website/Iso/Teamwork_coding_uyprvd.png",
+      "seo": {
+        "description": "Learn how to enrich GraphQL with transactions, condition updates, and ledgering on the Vendia Share data collaboration platform.",
+        "title": "Why GraphQL isn't sufficient for business blockchains — and what we did about it"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T23:08:59.012Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T23:08:59.012Z",
+      "id": "6f36bf4a-cb33-458a-80f3-2e4800184cf6"
+    },
+    {
       "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
       "draft": false,
       "title": "Why we combined GraphQL and a serverless distributed ledger",
