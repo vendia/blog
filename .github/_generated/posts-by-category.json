@@ -614,6 +614,35 @@
       "id": "ece76589-7aa4-4a3a-b534-b164354c9222"
     },
     {
+      "file": "/posts/2021-02-17-multiregion-serverless-apps.md",
+      "longDescription": "Generating and sharing data with multiple parties in a consistent manner across geographic regions is hard.  Vendia Share makes it trivial.\n",
+      "draft": false,
+      "title": "How to create a cross-region serverless application in 5 minutes",
+      "description": "Learn how to create cross-region serverless applications quickly with Vendia Share.",
+      "date": "2021-02-17T00:00:00.000Z",
+      "authors": [
+        "Brian McNamara"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2020-11-05-track-and-trace",
+        "2021-12-15-schema-evolution",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677173496/Website/Iso/Teamwork_coding_uyprvd.png",
+      "seo": {
+        "description": "Learn how to create cross-region serverless applications quickly with Vendia Share.",
+        "title": "How to create a cross-region serverless application in 5 minutes"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:39:05.525Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T22:39:05.524Z",
+      "id": "b7ccb6d3-e773-4820-8aa0-3935496fe960"
+    },
+    {
       "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
       "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
       "draft": false,
