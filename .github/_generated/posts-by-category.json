@@ -559,6 +559,38 @@
       "id": "12318435-38a9-4065-baff-ea6e84f240de"
     },
     {
+      "file": "/posts/2022-04-06-smart-apis-and-vendia-share.md",
+      "draft": false,
+      "title": "Vendia Share and Smart APIs",
+      "description": "Learn how Vendia Share helps APIs do more for you. If you can model your data using JSON Schema and list the clouds and regions where you’d like APIs to be present, Vendia Share can craft a secure, scalable, production-grade deployment in a few minutes and then maintain it automatically.",
+      "date": "2022-04-06T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-04-smart-apis",
+        "2022-09-15-api-design-best-practices",
+        "2022-10-27-codeless-apis"
+      ],
+      "tags": [
+        "use cases",
+        "API"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500250/Website/Iso/Global_scale_ssafji.png",
+      "seo": {
+        "description": "Learn how Vendia Share helps APIs do more for you. If you can model your data using JSON Schema and list the clouds and regions where you’d like APIs to be present, Vendia Share can craft a secure, scalable, production-grade deployment in a few minutes and then maintain it automatically.",
+        "title": "Vendia Share and smart APIs"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T23:45:43.719Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T23:45:43.719Z",
+      "id": "ce3aed63-1e2d-4cc2-980d-35a54fa80aa8"
+    },
+    {
       "file": "/posts/2022-03-21-synchronous-mutations.md",
       "draft": false,
       "title": "Announcing Synchronous Mutations for Vendia Share",
