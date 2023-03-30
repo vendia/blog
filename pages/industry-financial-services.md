@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /industry/financial-services
 components:
@@ -289,6 +289,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: David Wells
-updatedAt: 2023-03-30T17:12:44.853Z
+updatedAt: 2023-03-30T17:27:58.301Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
