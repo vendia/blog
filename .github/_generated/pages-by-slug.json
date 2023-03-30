@@ -23,9 +23,9 @@
     "file": "/pages/homepage.md",
     "draft": false
   },
-  "industry/financial-services-new": {
+  "industry/financial-services": {
     "file": "/pages/industry-financial-services.md",
-    "draft": true
+    "draft": false
   },
   "industry/supply-chain/visibility-hugues": {
     "file": "/pages/industry-supply-chain-visibility-hugues.md",
