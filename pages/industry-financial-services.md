@@ -204,7 +204,7 @@ components:
       How Vendia Share's technology works and fits into your data strategy and tech stack
 
 
-      <Button kind="secondaryGhostPurple" label="Download now" />
+      <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/3-legged-stool" />
     theme: white
     title: Explore the resources
     image:
@@ -289,6 +289,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-29T23:56:00.487Z
+updatedAt: 2023-03-30T00:07:11.887Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
