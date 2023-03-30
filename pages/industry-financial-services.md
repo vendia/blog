@@ -238,7 +238,7 @@ components:
           url: https://www.vendia.com/blog/atos-success-story
         title: Case study
       - text: >-
-          The inventor of Serverless (and Vendia co-founder), Dr. Tim Wagner,
+          Vendia co-founder and the inventor or Serverless, Dr. Tim Wagner,
           explains how to transform financial services with secure, compliant
           multi-party data collaboration
 
@@ -289,6 +289,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-30T00:07:11.887Z
+updatedAt: 2023-03-30T16:09:03.127Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
