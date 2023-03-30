@@ -3019,8 +3019,7 @@
       "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
       "date": "2020-06-30T00:00:00.000Z",
       "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
+        "Vendia"
       ],
       "categories": [
         "company",
@@ -3028,14 +3027,23 @@
       ],
       "relatedPosts": [
         "2022-05-31-vendia-announces-series-b",
-        "2021-01-04-kind-humans-really-work-here"
+        "2020-07-01-meet-vendias-founders",
+        "2021-03-31-vendia-turns-1"
       ],
+      "tags": [
+        "Keynote",
+        "AWS Serverless Community Day",
+        "video"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
       "seo": {
         "title": "Welcome to Vendia",
-        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+        "description": "Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia and Vendia Share at the 2022 AWS Serverless Community Day."
       },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:20:35.875Z",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z",
+      "updatedAt": "2023-03-30T22:20:35.875Z",
       "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
     }
   ],
@@ -4291,8 +4299,7 @@
       "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
       "date": "2020-06-30T00:00:00.000Z",
       "authors": [
-        "Tim Wagner",
-        "Shruthi Rao"
+        "Vendia"
       ],
       "categories": [
         "company",
@@ -4300,14 +4307,23 @@
       ],
       "relatedPosts": [
         "2022-05-31-vendia-announces-series-b",
-        "2021-01-04-kind-humans-really-work-here"
+        "2020-07-01-meet-vendias-founders",
+        "2021-03-31-vendia-turns-1"
       ],
+      "tags": [
+        "Keynote",
+        "AWS Serverless Community Day",
+        "video"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
       "seo": {
         "title": "Welcome to Vendia",
-        "description": "Automate and accelerate your data workflows across business networks with our platform, Vendia Share. "
+        "description": "Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia and Vendia Share at the 2022 AWS Serverless Community Day."
       },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:20:35.875Z",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:38:48.273Z",
+      "updatedAt": "2023-03-30T22:20:35.875Z",
       "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
     }
   ]

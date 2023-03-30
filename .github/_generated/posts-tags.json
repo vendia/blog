@@ -126,5 +126,8 @@
   "brett-andrews": "Brett Andrews",
   "engineering-sql-event": "engineering, SQL, event",
   "supply-chain-manufacturing-traceability-uni": "supply chain, manufacturing, traceability, uni",
-  "origin": "origin"
+  "origin": "origin",
+  "keynote": "Keynote",
+  "aws-serverless-community-day": "AWS Serverless Community Day",
+  "video": "video"
 }
