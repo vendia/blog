@@ -2945,6 +2945,34 @@
       "id": "b2ee0975-09a3-454d-9f62-b9bfe13faac0"
     },
     {
+      "file": "/posts/2021-03-31-vendia-turns-1.md",
+      "draft": false,
+      "title": "Vendia turns 1",
+      "description": "Vendia celebrates its first year as a C-corporation. Thank you to our customers, investors, employees, and the multitude of folks who've offered their help, advice, and insight along the way.",
+      "date": "2021-03-31T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-09-07-kind-is-strong",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
+      "seo": {
+        "title": "Vendia turns 1",
+        "description": "Vendia celebrates its first year as a C-corporation. Thank you to our customers, investors, employees, and the multitude of folks who've offered their help, advice, and insight along the way."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:25:15.743Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T22:25:15.743Z",
+      "id": "e218e8c6-4cf5-4beb-99e9-57fced80e2b6"
+    },
+    {
       "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
       "draft": false,
       "title": "Kind humans really work here",
