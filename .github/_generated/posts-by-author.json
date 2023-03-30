@@ -1229,12 +1229,29 @@
     {
       "file": "/posts/2022-04-04-smart-apis.md",
       "draft": false,
-      "title": "Smart APIs",
-      "description": "Evolve from \"dumb pipes\" to APIs that work for you",
-      "date": "2022-04-04",
+      "title": "Smart APIs: Rethinking how to stand up the modern API",
+      "description": "Storing (your own) data isn’t particularly difficult and neither is defining or standing up an API. But ensuring that the parties that API connects are seeing the right data at the right times (and not seeing data they shouldn’t see)? That's a hard problem we've solved.",
+      "date": "2022-04-04T00:00:00.000Z",
       "authors": [
         "Tim Wagner"
       ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-06-smart-apis-and-vendia-share",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-10-21-api-security-graphql"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500250/Website/Iso/Global_scale_ssafji.png",
+      "seo": {
+        "description": "Storing (your own) data isn’t particularly difficult and neither is defining or standing up an API. But ensuring that the parties that API connects are seeing the right data at the right times (and not seeing data they shouldn’t see)? That's a hard problem we've solved.",
+        "title": "Smart APIs: Rethinking how to stand up the modern API"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T23:50:04.921Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T23:50:04.921Z",
       "id": "80e2b511-07b8-478e-b1ec-5a3322737bee"
     },
     {
