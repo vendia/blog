@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /industry/financial-services-new
+path: /industry/financial-services
 components:
   - type: Hero
     title: Unlock growth with a trusted golden record
@@ -288,7 +288,7 @@ seo:
     eliminate data discrepancies forever.
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-30T16:09:03.127Z
+updatedBy: David Wells
+updatedAt: 2023-03-30T17:12:44.853Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
