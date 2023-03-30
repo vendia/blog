@@ -2100,6 +2100,45 @@
       "id": "42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9"
     },
     {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "draft": false,
+      "title": "Introduction to B2B data sharing with Vendia Share",
+      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
+      "date": "2022-08-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2021-09-01-sharing-data-with-fine-grained-control",
+        "2022-09-22-real-time-everything",
+        "2022-10-27-codeless-apis"
+      ],
+      "tags": [
+        "governance",
+        "API",
+        "partner data sharing",
+        "settlements",
+        "traceability",
+        "use cases",
+        "manufacturing",
+        "automotive",
+        "b2b data sharing"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png",
+      "seo": {
+        "title": "Introduction to B2B data sharing with Vendia",
+        "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:12:02.810Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T22:12:02.810Z",
+      "id": "9d1d9ccc-a249-4172-a948-226ad494e206"
+    },
+    {
       "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
       "draft": false,
       "title": "How Serverless and cloud enable scalable blockchains",
@@ -2742,17 +2781,6 @@
         "Vikrant Kahlir"
       ],
       "id": "43a8caa8-6d4b-4d5f-b020-60c43337811b"
-    },
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "draft": false,
-      "title": "Introduction to B2B data sharing with Vendia",
-      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
-      "date": "2022-08-23",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "9d1d9ccc-a249-4172-a948-226ad494e206"
     },
     {
       "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
