@@ -3621,12 +3621,32 @@
     {
       "file": "/posts/2021-01-04-kind-humans-really-work-here.md",
       "draft": false,
-      "title": "Kind Humans Really Work Here",
-      "description": "Putting a company policy to the test",
-      "date": "2021-01-04",
+      "title": "Kind humans really work here",
+      "description": "Sr. Solutions Architect, Brian McNamara, reflects on his experience \"putting a company policy to the test\" when his family needed extra kindness and support.",
+      "date": "2021-01-04T00:00:00.000Z",
       "authors": [
         "Brian McNamara"
       ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-09-27-leadership-practices-of-an-ultramarathoner",
+        "2022-04-25-6-months-at-vendia"
+      ],
+      "tags": [
+        "kind humans"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678324403/Website/Iso/Remote_work_1_tfgiuv.png",
+      "seo": {
+        "title": "Kind humans really work here at Vendia",
+        "description": "Sr. Solutions Architect, Brian McNamara, reflects on his experience \"putting a company policy to the test\" when his family needed extra kindness and support."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:06:13.801Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T22:06:13.801Z",
       "id": "bff43a5b-b563-4841-9f20-dfc0c90ca0a0"
     }
   ],
