@@ -7,9 +7,7 @@ description: Join two blockchain experts, Shruthi Rao of Vendia and Johnny
 date: 2022-08-05
 authors:
   - Anders Maul
-categories:
-  - company
-  - announcements
+categories: []
 thumbnail: null
 seo:
   title: Blockchain is disrupting every industry vertical—could business travel be
@@ -20,7 +18,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-30T22:12:43.858Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-30T22:12:43.858Z
+updatedAt: 2023-03-30T22:13:14.834Z
 id: 16922299-f93b-4d47-8673-3e9c481d55ae
 ---
 
