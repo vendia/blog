@@ -27,9 +27,9 @@ seo:
     automatically.
   title: Vendia Share and smart APIs
 createdBy: alexa-vendia
-createdAt: 2023-03-30T23:45:24.587Z
+createdAt: 2023-03-30T23:45:43.719Z
 updatedBy: alexa-vendia
-updatedAt: 2023-03-30T23:45:24.586Z
+updatedAt: 2023-03-30T23:45:43.719Z
 id: ce3aed63-1e2d-4cc2-980d-35a54fa80aa8
 ---
 
@@ -104,7 +104,7 @@ Fortunately, smart APIs don’t rely on legacy blockchain protocols. They’re e
 
 Smart APIs perform like best-of-breed public cloud services because they’re built using the same techniques, such as multi-tenanting for economics, fault tolerance, and low-latency capacity allocation.
 
-## Get started with Vendia Share
+## Getting started with Vendia Share
 
 Because it’s schema-driven and SaaS-based, getting started with Vendia Share couldn’t be easier. If you can model your data using JSON Schema and list the clouds and regions where you’d like APIs to be present, Vendia Share can craft a secure, scalable, production-grade deployment in a few minutes and then maintain it automatically. 
 
