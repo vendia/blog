@@ -2048,6 +2048,37 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-03-30T22:12:02.810Z",
       "id": "9d1d9ccc-a249-4172-a948-226ad494e206"
+    },
+    {
+      "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
+      "draft": false,
+      "title": "Real-time data sharing: Pros and cons",
+      "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it's distinct challenges have been hard to solve for — until now.",
+      "date": "2022-06-07T00:00:00.000Z",
+      "authors": [
+        "Anders Maul"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-02-24-b2b-data-sharing",
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "use cases"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599116/Website/Iso/Connected_ygfber.png",
+      "seo": {
+        "title": "Real-time data sharing: Pros and cons",
+        "description": "Real-time data sharing enables faster, more comprehensive, and more collaborative data systems. But it's distinct challenges have been hard to solve for — until now."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T23:01:15.250Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T23:01:15.250Z",
+      "id": "be3be101-2a20-4780-afd0-16d6f82cbb0f"
     }
   ],
   "data trust": [
