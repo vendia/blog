@@ -1,6 +1,6 @@
 ---
 draft: false
-title: NEW Track and Trace Quickstart for solving supply chain visibility problems
+title: "Quickstart: Track and trace for solving supply chain visibility problems"
 description: Use this Vendia Share Track and Trace Quickstart for managing
   logistics across multiple parties, regardless of their location and technology
   stack.
@@ -17,14 +17,16 @@ relatedPosts:
 tags:
   - quickstart, supply chain traceability, track and trace
 seo:
-  title: NEW Track and Trace Quickstart for solving supply chain visibility problems
-  description: Use this Vendia Share Track and Trace Quickstart for managing
+  title: "Quickstart: Track and trace for solving supply chain visibility problems"
+  description: Use this Vendia Share track and trace quickstart for managing
     logistics across multiple parties, regardless of their location and
     technology stack.
   keywords: track and trace, supply chain traceability
+createdBy: alexa-vendia
+createdAt: 2023-03-31T16:58:13.547Z
 updatedBy: alexa-vendia
-updatedAt: 2022-12-07T19:12:29.677Z
-id: '63cb48e2-097b-45ae-bdc6-7e53ef82fad8'
+updatedAt: 2023-03-31T16:58:13.547Z
+id: 63cb48e2-097b-45ae-bdc6-7e53ef82fad8
 ---
 
 We are excited to introduce our new [Track and Trace Quickstart Guide](https://vendia.com/docs/share/quickstart/track-and-trace).  
