@@ -1,37 +1,39 @@
 {
-  "callToAction": [
-    "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+  "featuredPosts": [
+    {
+      "posts": "Understanding real-time data lakes"
+    },
+    {
+      "resources": "",
+      "posts": "Distributed ledger challenges and solutions"
+    },
+    {
+      "posts": "Smart APIs: Rethinking how to stand up the modern API"
+    }
   ],
-  "updatedAt": "2023-02-16T19:53:39.762Z",
+  "updatedAt": "2023-03-31T16:40:49.759Z",
+  "callToAction": [
+    "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+  ],
+  "popularAuthors": [
+    "Francine Klein",
+    "Tim Wagner",
+    "James Gimourginas"
+  ],
+  "topCategories": [
+    "product",
+    "thought-leadership",
+    "concepts"
+  ],
   "updatedBy": "alexa-vendia",
   "sidebarCta": [
     "d9bbe106-8c72-4f2e-a55d-d4c53073653f"
   ],
-  "topCategories": [
-    "concepts",
-    "product",
-    "thought-leadership"
-  ],
-  "popularAuthors": [
-    "James Gimourginas",
-    "Francine Klein",
-    "Tim Wagner"
-  ],
+  "createdAt": "2023-03-31T16:40:49.759Z",
   "mostPopularPosts": [
-    "8b9b13c9-13ba-476b-bf64-9c820b32edaf",
-    "9a171a65-97f7-42fc-aa3a-ae296d442f05",
-    "88831551-d9af-45bd-a7ae-4a191d9ae14c"
+    "4eb01820-fdce-4971-8a42-d567be720651",
+    "63cb48e2-097b-45ae-bdc6-7e53ef82fad8",
+    "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
   ],
-  "featuredPosts": [
-    {
-      "posts": "Fintech innovation for housing and finance data ecosystems"
-    },
-    {
-      "resources": "",
-      "posts": "Vendia Share feature spotlight"
-    },
-    {
-      "posts": "Understanding API security with GraphQL"
-    }
-  ]
+  "createdBy": "alexa-vendia"
 }
