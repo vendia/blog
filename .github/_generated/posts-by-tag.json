@@ -6975,7 +6975,7 @@
     {
       "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
       "draft": false,
-      "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
+      "title": "Quickstart: Track and trace for solving supply chain visibility problems",
       "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
       "date": "2021-01-25T00:00:00.000Z",
       "authors": [
@@ -6994,12 +6994,14 @@
         "quickstart, supply chain traceability, track and trace"
       ],
       "seo": {
-        "title": "NEW Track and Trace Quickstart for solving supply chain visibility problems",
-        "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "title": "Quickstart: Track and trace for solving supply chain visibility problems",
+        "description": "Use this Vendia Share track and trace quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
         "keywords": "track and trace, supply chain traceability"
       },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-31T16:58:13.547Z",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T19:12:29.677Z",
+      "updatedAt": "2023-03-31T16:58:13.547Z",
       "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
     }
   ],
