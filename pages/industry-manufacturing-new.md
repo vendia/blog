@@ -129,18 +129,33 @@ components:
     theme: light
     columns:
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269883/Website/Icons/Blue%20icons/Travel_78_oqjmqe.svg"  class="image-float-left"
+          width="100" />
+
+
           ### Higher value outcomes
 
 
           Conservatively, Vendia Share's data collaboration platform **increases labor productivity by 4.7%.**
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269883/Website/Icons/Blue%20icons/Travel_77_wqzmrd.svg"  class="image-float-left"
+          width="100" />
+
+
           ### Real-time collaboration
 
 
           Companies using Vendia Share **reduce data processing times by up to three weeks** with scalable automation.
         wrapTheColumnInACard: false
       - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269879/Website/Icons/Blue%20icons/Travel_62_m4v2gx.svg"  class="image-float-left"
+          width="100" />
+
+
           ### Instant data verification
 
 
@@ -243,6 +258,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T22:28:03.306Z
+updatedAt: 2023-04-03T22:33:04.614Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
