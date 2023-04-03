@@ -27,6 +27,10 @@
     "file": "/pages/industry-financial-services.md",
     "draft": false
   },
+  "industry/manufacturing-new": {
+    "file": "/pages/industry-manufacturing-new.md",
+    "draft": true
+  },
   "industry/supply-chain/visibility-hugues": {
     "file": "/pages/industry-supply-chain-visibility-hugues.md",
     "draft": true
