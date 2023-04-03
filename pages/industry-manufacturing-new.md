@@ -4,22 +4,27 @@ template: page
 path: /industry/manufacturing-new
 components:
   - type: Hero
-    title: TODO Hero Title
-    text: TODO hero sub text
+    title: Create resiliency and see into your sub-tiers
+    text: Vendia Share is the world's fastest, most scalable, platform for supply
+      chain data collaboration
     contentAlignment: Left
     hideSeparator: false
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680543252/Website/Iso/a_gy5wja.png
+    callToActions:
+      - label: Request a demo
+        url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
+      - label: Try the app
+        url: https://share.vendia.net/
   - type: Logos
     intro:
       text: ""
     logos:
       - BMW
-      - Unfi
-      - Resolution Life
       - Atos
-      - Purina
-      - Aerotrax Technologies
+      - Fannie Mae
+      - Delta
+      - AeroMexico
     theme: white
   - type: Columns
     intro:
@@ -133,6 +138,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T20:09:15.154Z
+updatedAt: 2023-04-03T20:14:28.966Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
