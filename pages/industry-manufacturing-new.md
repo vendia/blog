@@ -6,8 +6,10 @@ components:
   - type: Hero
     title: TODO Hero Title
     text: TODO hero sub text
-    contentAlignment: Center
+    contentAlignment: Left
     hideSeparator: false
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680543252/Website/Iso/a_gy5wja.png
   - type: Logos
     intro:
       text: ""
@@ -61,11 +63,21 @@ components:
     intro:
       text: ""
     resources:
-      - text: Webinar
       - text: >-
-          How BMW now tracks and reconciles defects, end-to-end, across their
-          supply chain and proactively addresses issues from deep in their
-          sub-tiers to reduce costs and improve outcomes
+          Join Vendia cofounder and CBO, Shruthi Rao, in this colorful
+          orientation explaining why blockchain initiatives fail — and what to
+          do about it to transform your supply chain
+
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1672958607/Headshots/shruthiRao_nxamys.png"  class="image-float-left" width="100" />
+        button:
+          url: https://www.vendia.com/resources/failed-blockchain
+          label: Watch the recording
+        title: Webinar
+      - text: >-
+          How BMW tracks and reconciles defects across their supply chain and
+          proactively addresses issues from deep in their sub-tiers to reduce
+          costs and improve outcomes
 
 
           <img src="https://res.cloudinary.com/vendia/image/upload/v1680542908/Website/Misc%20website%20images/Frame_3_sl5x8m.png" alt="BMW logo" class="image-float-left" width="100" />
@@ -73,8 +85,17 @@ components:
         button:
           url: https://www.vendia.com/case-studies/bmw
           label: Review the case study
-      - text: ""
+      - text: >-
+          Vendia co-founder and the inventor of Serverless, Dr. Tim Wagner,
+          explains how blockchain can make global supply chains more predictable
+          and efficient
+
+
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1671500629/Website/Iso/Blockchain_rmmdjm.png"  class="image-float-left" width="100" />
         title: Thought leadership
+        button:
+          url: https://www.vendia.com/blog/how-blockchain-makes-supply-chains-predictable
+          label: Read the post
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -112,6 +133,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T17:31:55.010Z
+updatedAt: 2023-04-03T20:09:15.154Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
