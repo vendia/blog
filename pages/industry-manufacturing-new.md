@@ -41,7 +41,7 @@ components:
       width="100" />
 
 
-      See potential EBITDA margin improvements of 4%-10% with Vendia Share.
+      See potential EBITDA margin improvements of 4% - 10% with Vendia Share.
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
@@ -258,6 +258,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T22:33:04.614Z
+updatedAt: 2023-04-03T22:33:47.927Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
