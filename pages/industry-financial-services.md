@@ -206,7 +206,7 @@ components:
 
       <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/3-legged-stool" />
     theme: white
-    title: Explore the resources
+    title: Explore resources
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599129/Website/Iso/Build_apps_rrf6c2.png
       altText: "An isomorphic graphic featuring an open laptop at the center; onscreen
@@ -289,6 +289,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T16:19:39.874Z
+updatedAt: 2023-04-03T16:33:28.377Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
