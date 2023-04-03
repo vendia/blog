@@ -285,10 +285,10 @@ seo:
   title: Vendia Share for financial services
   description: Unlock growth with a trusted golden record. Use Vendia Share to
     transform partner data sharing into real-time data collaboration and
-    eliminate data discrepancies forever.
+    eliminate data discrepancies for good.
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
-updatedBy: David Wells
-updatedAt: 2023-03-30T17:27:58.301Z
+updatedBy: alexa-vendia
+updatedAt: 2023-04-03T16:19:39.874Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
