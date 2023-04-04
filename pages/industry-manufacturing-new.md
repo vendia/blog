@@ -100,8 +100,7 @@ components:
           ###### Head of Innovation, Global supply chain technology
   - type: Columns
     intro:
-      text: Whether you GTM as high-end or low-tech, food-based or pharmaceutical,
-        Vendia Share gives you supplier transparency, product traceability, and
+      text: Vendia Share gives you supplier transparency, product traceability, and
         complete data governance across your value chain, partners, and your
         partners' partners.
       title: Identify bottlenecks and minimize disruptions
@@ -110,20 +109,20 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269914/Website/Icons/Blue%20icons/Bicycle_16_sknpw1.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269883/Website/Icons/Blue%20icons/Travel_77_wqzmrd.svg"  class="image-float-left"
           width="100" />
 
 
           ### Avoid global purges
 
 
-          - See component quantity and quality data living inside and outside your four walls
+          - Identify bad batches across the supply chain precisely and accurately
 
-          - Gauge capacity needed right now
+          - Reduce waste and costs by only purging what is required
 
-          - Compare capacity needed to what you actually have
+          - Determine supplier process parameters for improved quality
 
-          - Mitigate disruptions and avoid recalls
+          - Mitigate disruptions and risk to brand reputation
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -134,45 +133,47 @@ components:
           ### Reduce lead times
 
 
-          - See which partner and sub-tier suppliers are providing what, when, from where, and where supplies are right now
+          - Know who can do it cheaper, do it faster, and scale to meet demand
 
-          - Streamline complex operations no matter how many partners or players
+          - Streamline complex operations and reduce costs through automation
 
-          - Handle more orders with speed and agiilty
+          - Identify bottlenecks or gaps that cause long order cycle times
+
+          - Track and adjust for capacity based on supplier utilization
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269911/Website/Icons/Blue%20icons/Bicycle_03_tznp1p.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269870/Website/Icons/Blue%20icons/Tech_113_oxbnmu.svg"  class="image-float-left"
           width="100" />
 
 
           ### Take action in real time
 
 
-          - Allocate defects to the correct cost center
+          - Understand risk exposure and adapt quickly to unforeseen global events
 
           - Reduce operational risks and costs with end-to-end visibility you can trust
 
-          - Immediately adapt to supply and demand signals
+          - Respond to supplier security breaches quickly
 
-          - Respond faster and smarter to customer needs
+          - Enhance reporting and analytics for better data-driven decisions
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269912/Website/Icons/Blue%20icons/Bicycle_10_ictp50.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269778/Website/Icons/Blue%20icons/Environment_57_ofwuui.svg"  class="image-float-left"
           width="100" />
 
 
           ### Track carbon emissions
 
 
-          - Make carbon tracking fully transparent and traceable
+          - Collect sustainability and regulatory data across the supplier network
 
-          - Set clear waste and carbon reduction targets with precise areas for improvement
+          - Integrate emission data directly into sustainability reporting and pinpoint improvement areas
 
           - Share ESG metrics investors can trust
 
-          - Prove provenance and value to customers
+          - Substantiate provenance and value to customers
         wrapTheColumnInACard: false
   - type: MediaWithTextTwoColumns
     mediaPosition: right
@@ -270,6 +271,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T21:45:22.256Z
+updatedAt: 2023-04-04T23:27:10.754Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
