@@ -44,6 +44,47 @@ components:
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
     title: Collaborate with single, unified, end-to-end view  that builds trust
+  - type: Columns
+    intro:
+      text: ""
+      title: Optimize for cost-efficiency without sacrificing resiliency using Vendia
+        Share
+    theme: light
+    columns:
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/People_03_jmgjjb.png"  class="image-float-left"
+          width="100" />
+
+
+          Data collaboration on Vendia Share
+
+
+          ### **increases labor productivity by almost 2 hours per week**
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png"  class="image-float-left"
+          width="100" />
+
+
+          Companies using Vendia Share
+
+
+          ### **reduce data processing times by up to three weeks**
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/Media_37_luwrg1.png"  class="image-float-left"
+          width="100" />
+
+
+          On average, Vendia Share customers spend
+
+
+          ### **87% less time investigating and resolving data inconsistencies**
+        wrapTheColumnInACard: false
+    maxColumns: "3"
   - type: Carousel
     textAlignment: Center
     theme: purple-borders
@@ -64,7 +105,7 @@ components:
         transparent auditability throughout the product's journey and chain of
         custody — even deep into your sub-tiers.
       title: Sidestep bottlenecks and avoid disruptions
-    theme: white
+    theme: light
     maxColumns: "4"
     columns:
       - text: >-
@@ -133,47 +174,6 @@ components:
 
           - Prove provenance and value to customers
         wrapTheColumnInACard: false
-  - type: Columns
-    intro:
-      text: ""
-      title: Optimize for cost-efficiency without sacrificing resiliency using Vendia
-        Share
-    theme: light
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/People_03_jmgjjb.png"  class="image-float-left"
-          width="100" />
-
-
-          Data collaboration on Vendia Share
-
-
-          ### **increases labor productivity by almost 2 hours per week**
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png"  class="image-float-left"
-          width="100" />
-
-
-          Companies using Vendia Share
-
-
-          ### **reduce data processing times by up to three weeks**
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/Media_37_luwrg1.png"  class="image-float-left"
-          width="100" />
-
-
-          On average, Vendia Share customers spend
-
-
-          ### **87% less time investigating and resolving data inconsistencies**
-        wrapTheColumnInACard: false
-    maxColumns: "3"
   - type: MediaWithTextTwoColumns
     mediaPosition: right
     column1: >-
@@ -270,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T21:13:14.671Z
+updatedAt: 2023-04-04T21:14:22.072Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
