@@ -169,6 +169,7 @@ jobs:
         else
           echo "fullJobUrl=${{ steps.jobDetails.outputs.html_url }}" >> $GITHUB_OUTPUT;
         fi
+    
     # If tests failed, add message
     - name: Add test failure status comment to PR
       if: ${{ failure() }}
@@ -190,6 +191,7 @@ jobs:
           ${{ env.TEST_ERRORS_JSON }}
 
           For more information see [CI Logs](${{ steps.jobUrl.outputs.fullJobUrl }}) in the "${{ github.job }}" section.
+    
     # Send error message via https://github.com/marketplace/actions/slack-send
     - name: Send custom JSON data to Slack workflow
       id: slack
