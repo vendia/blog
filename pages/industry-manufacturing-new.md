@@ -26,6 +26,37 @@ components:
       - Delta
       - AeroMexico
     theme: white
+  - type: MediaWithTextTwoColumns
+    mediaPosition: left
+    column1: Visibility into the data outside your four walls is the key to true
+      supply chain resiliency. But with legacy systems that keep data in silos
+      amidst governance standards that call for discretionary yet compliant
+      control, the modern supply chain is anything but "modern."
+    column2: >-
+      Vendia Share's breakthrough SaaS platform is built on the best of
+      blockchain, API, database, and cloud technology, so data sharing partners
+      can operate — in *real* real-time — from a single, collaborative source of
+      immutable truth.
+
+
+      <Button kind="primary" label="Meet Vendia Share" href="https://www.vendia.com/product" />
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
+    title: Collaborate with single, unified, end-to-end view  that builds trust
+  - type: Carousel
+    textAlignment: Center
+    theme: purple-borders
+    slides:
+      - text: >-
+          "The beauty of Vendia Share is that it combines the scalability of
+          Serverless with the security of distributed ledger technology. This
+          means we can build a data exchange system that scales across our
+          supply chain while ensuring full, localized control and compliant data
+          governance."
+
+
+          ###### Head of Innovation, Global supply chain technology
   - type: Columns
     intro:
       text: Whether you GTM as high-end or low-tech, food-based or pharmaceutical,
@@ -102,37 +133,6 @@ components:
 
           - Prove provenance and value to customers
         wrapTheColumnInACard: false
-  - type: Carousel
-    textAlignment: Center
-    theme: purple-borders
-    slides:
-      - text: >-
-          "The beauty of Vendia Share is that it combines the scalability of
-          Serverless with the security of distributed ledger technology. This
-          means we can build a data exchange system that scales across our
-          supply chain while ensuring full, localized control and compliant data
-          governance."
-
-
-          ###### Head of Innovation, Global supply chain technology
-  - type: MediaWithTextTwoColumns
-    mediaPosition: left
-    column1: Visibility into the data outside your four walls is the key to true
-      supply chain resiliency. But with legacy systems that keep data in silos
-      amidst governance standards that call for discretionary yet compliant
-      control, the modern supply chain is anything but "modern."
-    column2: >-
-      Vendia Share's breakthrough SaaS platform is built on the best of
-      blockchain, API, database, and cloud technology, so data sharing partners
-      can operate — in *real* real-time — from a single, collaborative source of
-      immutable truth.
-
-
-      <Button kind="primary" label="Discover Vendia Share" href="https://www.vendia.com/product" />
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
-    title: Collaborate with single, unified, end-to-end view  that builds trust
   - type: Columns
     intro:
       text: ""
@@ -270,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T20:34:56.189Z
+updatedAt: 2023-04-04T21:13:14.671Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
