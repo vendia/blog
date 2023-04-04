@@ -183,7 +183,7 @@ components:
       Leverage business blockchain for real-time collaboration at scale with even the most "untechy" partners
 
 
-      <Button kind="secondaryGhostPurple" label="Download guide" href="https://www.vendia.com/resources/next-gen-blockchain" />
+      <Button kind="secondaryGhostPurple" label="Download the guide" href="https://www.vendia.com/resources/next-gen-blockchain" />
     column2: >-
       **Watch the webinar**
 
@@ -191,7 +191,7 @@ components:
       Shruthi Rao, cofounder and CBO, explains why blockchain initiatives fail — and what to do about it
 
 
-      <Button kind="secondaryGhostPurple" label="Access  webinar" href="https://www.vendia.com/resources/api-database" />
+      <Button kind="secondaryGhostPurple" label="Access the webinar" href="https://www.vendia.com/resources/api-database" />
     theme: white
     title: Explore resources
     image:
@@ -270,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T21:23:28.996Z
+updatedAt: 2023-04-04T21:23:46.677Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
