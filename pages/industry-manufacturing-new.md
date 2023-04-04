@@ -26,46 +26,13 @@ components:
       - Delta
       - AeroMexico
     theme: white
-  - type: MediaWithTextTwoColumns
-    mediaPosition: left
-    column1: >-
-      
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"  class="image-float-left" width="100" />
-
-
-      Save up to 93% on manual reconciliatoon costs with accurate automation.
-    column2: >-
-      <img
-      src="https://res.cloudinary.com/vendia/image/upload/v1680553518/Website/Misc%20website%20images/Visualizations/Website_Graphics_Finserv_Page_March_2023_1_ear7gv.png"  class="image-float-left"
-      width="100" />
-
-
-      See potential EBITDA margin improvements of 4% - 10% with Vendia Share.
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
-    title: Get a single, unified, end-to-end view  for real-time data collaboration
-  - type: Carousel
-    textAlignment: Center
-    theme: purple-borders
-    slides:
-      - text: >-
-          "The beauty of Vendia Share is that it combines the scalability of
-          Serverless with the security of distributed ledger technology. This
-          means we can build a data exchange system that scales across our
-          supply chain while ensuring full, localized control and compliant data
-          governance."
-
-
-          ###### Head of Innovation, Global supply chain technology
   - type: Columns
     intro:
       text: Whether you GTM as high-end or low-tech, food-based or pharmaceutical,
-        Vendia Share integrates with your own and your partners' stacks for
-        immutable entity traceability and auditability of throughout the
-        product's entire journey and chain of custody.
-      title: Predict bottlenecks and avoid disruptions
+        Vendia Share gives you visibility, immutable entity traceability, and
+        transparent auditability throughout the product's journey and chain of
+        custody — even deep into your sub-tiers.
+      title: Sidestep bottlenecks and avoid disruptions
     theme: white
     maxColumns: "4"
     columns:
@@ -75,7 +42,7 @@ components:
           width="100" />
 
 
-          ### Production and inventory visibility
+          ### Hone production and avoid global purges
 
 
           - See component quantity and quality data living inside and outside your four walls
@@ -92,14 +59,14 @@ components:
           width="100" />
 
 
-          ### Transformative logistics
+          ### Reduce lead times with transformative logistics
 
 
           - See which partner and sub-tier suppliers are providing what, when, from where, and where supplies are right now
 
           - Streamline complex operations no matter how many partners or players
 
-          - Reduce operational risks and costs with end-to-end visibility you can trust
+          - Handle more orders with speed and agiilty
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -107,21 +74,68 @@ components:
           width="100" />
 
 
-          ### Intelligence and built-in compliance
+          ### Act on real-time end-to-end intelligence 
 
 
           - Allocate defects to the correct cost center
 
-          - Prove compliance to regulators
+          - Reduce operational risks and costs with end-to-end visibility you can trust
 
-          - Prove provenance and value to customers
+          - Immediately adapt to supply and demand signals
 
           - Respond faster and smarter to customer needs
+        wrapTheColumnInACard: false
+      - text: >-
+          <img
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269915/Website/Icons/Blue%20icons/Bicycle_19_gnm8r7.svg"  class="image-float-left"
+          width="100" />
 
-          - Report ESG metrics investors can trust
+
+          ### Impact sustainability with precise reporting
+
+
+          - Make carbon tracking fully transparent and traceable
+
+          - Set clear waste and carbon reduction targets with precise areas for improvement
+
+          - Share ESG metrics investors can trust
+
+          - Prove provenance and value to customers
         wrapTheColumnInACard: false
-      - text: Sustainability story
-        wrapTheColumnInACard: false
+  - type: Carousel
+    textAlignment: Center
+    theme: purple-borders
+    slides:
+      - text: >-
+          "The beauty of Vendia Share is that it combines the scalability of
+          Serverless with the security of distributed ledger technology. This
+          means we can build a data exchange system that scales across our
+          supply chain while ensuring full, localized control and compliant data
+          governance."
+
+
+          ###### Head of Innovation, Global supply chain technology
+  - type: MediaWithTextTwoColumns
+    mediaPosition: left
+    column1: >-
+      80% of your supply chain data lives outside your four walls. Source
+
+
+      <img src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"  class="image-float-left" width="100" />
+
+
+      Save up to 93% on manual reconciliatoon costs with accurate automation.
+    column2: >-
+      <img
+      src="https://res.cloudinary.com/vendia/image/upload/v1680553518/Website/Misc%20website%20images/Visualizations/Website_Graphics_Finserv_Page_March_2023_1_ear7gv.png"  class="image-float-left"
+      width="100" />
+
+
+      See potential EBITDA margin improvements of 4% - 10% with Vendia Share.
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
+    title: Get a single, unified, end-to-end view  for real-time data collaboration
   - type: Columns
     intro:
       text: Optimize for cost-efficiency without sacrificing resiliency as you access
@@ -260,6 +274,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T19:13:10.713Z
+updatedAt: 2023-04-04T19:44:52.665Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
