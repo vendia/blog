@@ -101,9 +101,9 @@ components:
   - type: Columns
     intro:
       text: Whether you GTM as high-end or low-tech, food-based or pharmaceutical,
-        Vendia Share gives you visibility, immutable entity traceability, and
-        transparent auditability throughout the product's journey and chain of
-        custody — even deep into your sub-tiers.
+        Vendia Share gives you supplier transparency, product traceability, and
+        complete data governance across your value chain, partners, and your
+        partners' partners.
       title: Identify bottlenecks and minimize disruptions
     theme: light
     maxColumns: "4"
@@ -114,7 +114,7 @@ components:
           width="100" />
 
 
-          ### Hone production and avoid global purges
+          ### Avoid global purges
 
 
           - See component quantity and quality data living inside and outside your four walls
@@ -131,7 +131,7 @@ components:
           width="100" />
 
 
-          ### Reduce lead times with transformative logistics
+          ### Reduce lead times
 
 
           - See which partner and sub-tier suppliers are providing what, when, from where, and where supplies are right now
@@ -146,7 +146,7 @@ components:
           width="100" />
 
 
-          ### Act on end-to-end intelligence in real time
+          ### Take action in real time
 
 
           - Allocate defects to the correct cost center
@@ -163,7 +163,7 @@ components:
           width="100" />
 
 
-          ### Impact sustainability with precise reporting
+          ### Track carbon emissions
 
 
           - Make carbon tracking fully transparent and traceable
@@ -270,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T21:37:06.001Z
+updatedAt: 2023-04-04T21:45:22.256Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
