@@ -70,11 +70,11 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269912/Website/Icons/Blue%20icons/Bicycle_10_ictp50.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269911/Website/Icons/Blue%20icons/Bicycle_03_tznp1p.svg"  class="image-float-left"
           width="100" />
 
 
-          ### Act on real-time end-to-end intelligence 
+          ### Act on end-to-end intelligence in real time
 
 
           - Allocate defects to the correct cost center
@@ -87,7 +87,7 @@ components:
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269915/Website/Icons/Blue%20icons/Bicycle_19_gnm8r7.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1677269912/Website/Icons/Blue%20icons/Bicycle_10_ictp50.svg"  class="image-float-left"
           width="100" />
 
 
@@ -135,10 +135,9 @@ components:
     title: Collaborate with single, unified, end-to-end view  that builds trust
   - type: Columns
     intro:
-      text: Optimize for cost-efficiency without sacrificing resiliency as you access
-        sub-tier partner data with speed, agility, security, governance, and
-        built-in compliance
-      title: Stop the swings from surpluses to shortages
+      text: ""
+      title: Optimize for cost-efficiency without sacrificing resiliency using Vendia
+        Share
     theme: light
     columns:
       - text: >-
@@ -271,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T20:21:52.725Z
+updatedAt: 2023-04-04T20:25:38.377Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
