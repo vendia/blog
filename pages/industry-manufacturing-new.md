@@ -117,25 +117,22 @@ components:
           ###### Head of Innovation, Global supply chain technology
   - type: MediaWithTextTwoColumns
     mediaPosition: left
-    column1: >-
-      80% of your supply chain data lives outside your four walls. Source
-
-
-      <img src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"  class="image-float-left" width="100" />
-
-
-      Save up to 93% on manual reconciliatoon costs with accurate automation.
+    column1: Visibility into the data outside your four walls is the key to true
+      supply chain resiliency. But with legacy systems that keep data in silos
+      amidst governance standards that call for discretionary yet compliant
+      control, the modern supply chain is anything but "modern."
     column2: >-
-      <img
-      src="https://res.cloudinary.com/vendia/image/upload/v1680553518/Website/Misc%20website%20images/Visualizations/Website_Graphics_Finserv_Page_March_2023_1_ear7gv.png"  class="image-float-left"
-      width="100" />
+      Vendia Share's breakthrough SaaS platform is built on the best of
+      blockchain, API, database, and cloud technology, so data sharing partners
+      can operate — in *real* real-time — from a single, collaborative source of
+      immutable truth.
 
 
-      See potential EBITDA margin improvements of 4% - 10% with Vendia Share.
+      <Button kind="primary" label="Discover Vendia Share" href="https://www.vendia.com/product" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676678136/Website/Iso/Auto_2_cv22mf.png
-    title: Get a single, unified, end-to-end view  for real-time data collaboration
+    title: Collaborate with single, unified, end-to-end view  that builds trust
   - type: Columns
     intro:
       text: Optimize for cost-efficiency without sacrificing resiliency as you access
@@ -274,6 +271,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T19:44:52.665Z
+updatedAt: 2023-04-04T20:07:07.057Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
