@@ -10,7 +10,7 @@ components:
     contentAlignment: Left
     hideSeparator: false
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599388/Website/Iso/Smart_contract_umed2h.png
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680641017/Website/Iso/Financial_services_gqc0sk.svg
       altText: An isomorphic image in Vendia's brand color palette (white, gradient
         purples from violet to lavender and blues in shades of aquamarine and
         seafoam) featuring a scrolled document with a checkmark on it
@@ -27,37 +27,21 @@ components:
       - AeroMexico
       - BMW
     theme: light
-  - type: Columns
+  - type: MediaWithTextTwoColumns
+    mediaPosition: left
+    column1: Instantly, accurately reconcile data from inside and outside your four
+      walls — no matter how many (or messy) your partner systems, clouds,
+      companies, or inputs.
+    column2: >-
+      Take manual interventions out of the mix for speed and truth with Vendia
+      Share.
+
+
+      <Button kind="primary" label="Meet Vendia Share" href="https://www.vendia.com/product" />
     theme: white
-    maxColumns: "2"
-    columns:
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/8_lcdny1.png"
-          alt="A data visualization showing the number 93% overlaid a pie chart;
-          pie chart primary color is Vendia violet purple and secondary color is
-          pale lavender " class="image-float-left" width="180" />
-
-
-          ### Reduction in manual, multi-source data triage and reconciliation costs
-        wrapTheColumnInACard: false
-      - text: >-
-          <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1680123534/Website/Misc%20website%20images/Visualizations/5_ihlgst.png"
-          alt="A data visualization showing the number 87% overlaid a pie chart;
-          pie chart primary color is Vendia violet purple and secondary color is
-          pale lavender " class="image-float-left" width="180" />
-
-
-          ### Less time spent investigating and resolving data inconsistencies
-        wrapTheColumnInACard: false
-    intro:
-      text: >-
-        ### Take manual interventions out of the mix for speed and Truth
-
-
-        Instantly, accurately reconcile data from inside and outside your four walls — no matter how many (or messy) your partner systems, clouds, companies, or inputs.
-      title: Eliminate data discrepancies for good
+    title: Eliminate data discrepancies for good
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680640996/Website/Iso/Golden_Record_rwnvnb.png
   - type: Carousel
     slides:
       - text: >-
@@ -289,6 +273,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T19:59:07.412Z
+updatedAt: 2023-04-04T20:48:13.302Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
