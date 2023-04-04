@@ -28,13 +28,13 @@ Smart contracts are a powerful Vendia feature. They allow custom business logic,
 
 
 
-![](https://lh6.googleusercontent.com/lOco9SpI5NWT92C9yWdzbtVr54Bw4v7akfwS7kBWFiXtQ8C4tQLiwKF1tD2IAY7inLwnUF6psE3aleg0F4ld-0m79ZwP6MtJwDqiqq0VxaMAS3u2-O8OMKnSL22HZwRi8tRGfAFqQK3NbghtYqBemsI)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh6.googleusercontent.com%252FlOco9SpI5NWT92C9yWdzbtVr54Bw4v7akfwS7kBWFiXtQ8C4tQLiwKF1tD2IAY7inLwnUF6psE3aleg0F4ld-0m79ZwP6MtJwDqiqq0VxaMAS3u2-O8OMKnSL22HZwRi8tRGfAFqQK3NbghtYqBemsI.png)
 
 
 Simply click on the transaction for more details of your smart contract invocation.
 
 
-![](https://lh3.googleusercontent.com/UafUsyc4ut_BAZfBrEdb2yZcqt4J4cWt-RjYYjNiZwz5JEjSKq8uoI2Osm9nL6UK3AEsu9W6DVFq6CgwpDxArMrO-lLtFNRZbNLSPgirkdLdfgaf-xpsaDIwsFp1OKB1Tv9J0W_uFzsi8mU8Uz-sKHg)
+![](https://d24nhiikxn5jns.cloudfront.net/optimized/lh3.googleusercontent.com%252FUafUsyc4ut_BAZfBrEdb2yZcqt4J4cWt-RjYYjNiZwz5JEjSKq8uoI2Osm9nL6UK3AEsu9W6DVFq6CgwpDxArMrO-lLtFNRZbNLSPgirkdLdfgaf-xpsaDIwsFp1OKB1Tv9J0W_uFzsi8mU8Uz-sKHg.png)
 
 
 ## Control Plane SSO for Enterprise Users
