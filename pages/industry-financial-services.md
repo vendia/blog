@@ -33,8 +33,8 @@ components:
       walls — no matter how many (or messy) your partner systems, clouds,
       companies, or inputs.
     column2: >-
-      Take manual interventions out of the mix for speed and truth with Vendia
-      Share.
+      Take manual interventions out of the mix and gain speed and truth with
+      Vendia Share.
 
 
       <Button kind="primary" label="Meet Vendia Share" href="https://www.vendia.com/product" />
@@ -273,6 +273,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-21T19:21:10.422Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T20:48:13.302Z
+updatedAt: 2023-04-04T20:51:32.780Z
 id: f5b4016a-e947-47c0-b3ea-337a71937b2f
 ---
