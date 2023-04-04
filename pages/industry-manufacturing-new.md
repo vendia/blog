@@ -185,13 +185,13 @@ components:
 
       <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/next-gen-blockchain" />
     column2: >-
-      **Dive deeper**
+      **Watch the webinar**
 
 
-      Discover the future of APIs and learn how Vendia Share technology ends P2P integration costs and headaches
+      Shruthi Rao, cofounder and CBO, explains why blockchain initiatives fail — and what to do about it
 
 
-      <Button kind="secondaryGhostPurple" label="Download now" href="https://www.vendia.com/resources/api-database" />
+      <Button kind="secondaryGhostPurple" label="Access  webinar" href="https://www.vendia.com/resources/api-database" />
     theme: white
     title: Explore resources
     image:
@@ -201,16 +201,16 @@ components:
       text: ""
     resources:
       - text: >-
-          Join Vendia cofounder and CBO, Shruthi Rao, in this colorful
-          orientation explaining why blockchain initiatives fail — and what to
-          do about it to transform your supply chain
+          How to reduce semiconductor supply chain complexity and improve
+          business outcomes with distributed ledger technology — and without
+          sacrificing a climate-stable future
 
 
-          <img src="https://res.cloudinary.com/vendia/image/upload/v1672958607/Headshots/shruthiRao_nxamys.png"  class="image-float-left" width="100" />
+          <img src="https://res.cloudinary.com/vendia/image/upload/v1674599399/Website/Iso/Smart_car_impt2v.png"  class="image-float-left" width="185" />
         button:
-          url: https://www.vendia.com/resources/failed-blockchain
-          label: Watch the recording
-        title: Webinar
+          url: https://www.vendia.com/blog/3-core-use-cases-for-vendia-share-in-the-semiconductor-industry
+          label: Explore use cases
+        title: Use case spotlight
       - text: >-
           How BMW tracks and reconciles defects across their supply chain and
           proactively addresses issues from deep in their sub-tiers to reduce
@@ -270,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T20:25:38.377Z
+updatedAt: 2023-04-04T20:34:56.189Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
