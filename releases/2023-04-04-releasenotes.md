@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Better Smart Contract And SSO Integration
 description: New features such as SSO integration and smart contract status
   tracking is now available.
@@ -16,7 +16,7 @@ seo:
 createdBy: Li Dai
 createdAt: 2023-04-04T14:34:33.065Z
 updatedBy: Li Dai
-updatedAt: 2023-04-04T14:34:33.065Z
+updatedAt: 2023-04-04T14:35:11.958Z
 id: 289219b0-06fd-447d-a3a4-a760a6d57617
 ---
 
