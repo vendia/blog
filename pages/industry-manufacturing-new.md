@@ -143,36 +143,36 @@ components:
     columns:
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269883/Website/Icons/Blue%20icons/Travel_78_oqjmqe.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/People_03_jmgjjb.png"  class="image-float-left"
           width="100" />
 
 
-          ### Higher value outcomes
+          Data collaboration on Vendia Share
 
 
-          Conservatively, Vendia Share's data collaboration platform **increases labor productivity by 4.7%.**
+          ### **increases labor productivity by almost 2 hours per week**
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269883/Website/Icons/Blue%20icons/Travel_77_wqzmrd.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png"  class="image-float-left"
           width="100" />
 
 
-          ### Real-time collaboration
+          Companies using Vendia Share
 
 
-          Companies using Vendia Share **reduce data processing times by up to three weeks** with scalable automation.
+          ### **reduce data processing times by up to three weeks**
         wrapTheColumnInACard: false
       - text: >-
           <img
-          src="https://res.cloudinary.com/vendia/image/upload/v1677269879/Website/Icons/Blue%20icons/Travel_62_m4v2gx.svg"  class="image-float-left"
+          src="https://res.cloudinary.com/vendia/image/upload/v1680639661/Website/Icons/Statement%20bubbles/Media_37_luwrg1.png"  class="image-float-left"
           width="100" />
 
 
-          ### Instant data verification
+          On average, Vendia Share customers spend
 
 
-          On average, Vendia Share customers spend **87% less time investigating and resolving data inconsistencies**.
+          ### **87% less time investigating and resolving data inconsistencies**
         wrapTheColumnInACard: false
     maxColumns: "3"
   - type: MediaWithTextTwoColumns
@@ -271,6 +271,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T20:07:07.057Z
+updatedAt: 2023-04-04T20:21:52.725Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
