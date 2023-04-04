@@ -51,7 +51,7 @@ id: 8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2
 
 ### Show Notes
 
-- [Joyce Clinton](https://www.linkedin.com/in/joyce-clinton-cpa-4696a75/), CPA at [MUFG](https://www.mufgamericas.com/) 
+- [Joyce Clinton](https://www.linkedin.com/in/joyce-clinton-cpa-4696a75/), CPA at [MUFG](https://www.mufgamericas.com/)
 - [Francine Klein](https://www.linkedin.com/in/francine-klein-31a99834/) at [Vendia](https://www.vendia.com/)
 - [U.S. Securities and Exchange Commission](https://www.sec.gov/) (SEC)
 - [SEC Form 10-K](https://www.sec.gov/files/form10-k.pdf)
