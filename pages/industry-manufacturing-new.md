@@ -4,9 +4,9 @@ template: page
 path: /industry/manufacturing-new
 components:
   - type: Hero
-    title: Create resiliency and see into your sub-tiers
-    text: Vendia Share is the world's fastest, most scalable, platform for supply
-      chain data collaboration
+    title: Operate with supply chain transparency and  resiliency
+    text: Hedge against end-to-end risks with Vendia Share for supply chain data
+      collaboration
     contentAlignment: Left
     hideSeparator: false
     image:
@@ -67,7 +67,7 @@ components:
         product's entire journey and chain of custody.
       title: Predict bottlenecks and avoid disruptions
     theme: white
-    maxColumns: "3"
+    maxColumns: "4"
     columns:
       - text: >-
           <img
@@ -119,6 +119,8 @@ components:
           - Respond faster and smarter to customer needs
 
           - Report ESG metrics investors can trust
+        wrapTheColumnInACard: false
+      - text: Sustainability story
         wrapTheColumnInACard: false
   - type: Columns
     intro:
@@ -258,6 +260,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-03T22:33:47.927Z
+updatedAt: 2023-04-04T19:13:10.713Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
