@@ -104,7 +104,7 @@ components:
         Vendia Share gives you visibility, immutable entity traceability, and
         transparent auditability throughout the product's journey and chain of
         custody — even deep into your sub-tiers.
-      title: Sidestep bottlenecks and avoid disruptions
+      title: Identify bottlenecks and avoid disruptions
     theme: light
     maxColumns: "4"
     columns:
@@ -270,6 +270,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T21:23:46.677Z
+updatedAt: 2023-04-04T21:32:54.806Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
