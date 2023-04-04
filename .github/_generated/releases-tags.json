@@ -1,4 +1,7 @@
 {
+  "smartcontract": "smartcontract",
+  "monitoring": "monitoring",
+  "sso": "SSO",
   "security": "Security",
   "error": "Error",
   "improvement": "Improvement",
