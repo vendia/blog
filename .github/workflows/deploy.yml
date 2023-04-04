@@ -190,7 +190,52 @@ jobs:
           ${{ env.TEST_ERRORS_JSON }}
 
           For more information see [CI Logs](${{ steps.jobUrl.outputs.fullJobUrl }}) in the "${{ github.job }}" section.
-
+      # Send error message via https://github.com/marketplace/actions/slack-send
+      - name: Send custom JSON data to Slack workflow
+        id: slack
+        if: ${{ failure() }}
+        uses: slackapi/slack-github-action@v1.23.0
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+        with:
+          # For posting a rich message using Block Kit
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "🚨 github.com/${{ github.repository }} \"${{ github.job }}\" job error 🚨"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Warnings:\n```\n${{ env.TEST_WARNINGS_JSON }}\n```"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Errors:\n```\n${{ env.TEST_ERRORS_JSON }}\n```"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Action Link:\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|https://github.com/${{ github.repository }} job '${{ github.job }}' - ${{github.run_id}}>"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            }
   # generate UUID to deploy previews to
   # trigger remote CI and wait
   ## Pass in current branch name as input
