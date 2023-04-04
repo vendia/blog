@@ -56,7 +56,7 @@ id: 8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2
 - [U.S. Securities and Exchange Commission](https://www.sec.gov/) (SEC)
 - [SEC Form 10-K](https://www.sec.gov/files/form10-k.pdf)
 - [SEC Form 10-Q](https://www.sec.gov/files/form10-q.pdf)
-- [Funds transfer pricing (FTP)](<- (https://www.investopedia.com/terms/f/ftp.asp#:~:text=Funds%20transfer%20pricing%20(FTP)>)
+- [Funds transfer pricing (FTP)](https://www.investopedia.com/terms/f/ftp.asp#:~:text=Funds%20transfer%20pricing%20)
 - [Sarbanes-Oxley Act (SOX)](https://www.congress.gov/bill/107th-congress/house-bill/3763)
 
 ### Transcript
