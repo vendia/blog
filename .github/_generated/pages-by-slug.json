@@ -29,7 +29,7 @@
   },
   "industry/manufacturing": {
     "file": "/pages/industry-manufacturing-new.md",
-    "draft": true
+    "draft": false
   },
   "industry/supply-chain/visibility-hugues": {
     "file": "/pages/industry-supply-chain-visibility-hugues.md",
