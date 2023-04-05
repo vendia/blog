@@ -1,7 +1,7 @@
 ---
 draft: true
 template: page
-path: /industry/manufacturing-new
+path: /industry/manufacturing
 components:
   - type: Hero
     title: Operate with supply chain transparency and  resiliency
@@ -268,7 +268,7 @@ seo:
     your partner relationships and sub-tiers.
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
-updatedBy: alexa-vendia
-updatedAt: 2023-04-05T20:00:42.202Z
+updatedBy: David Wells
+updatedAt: 2023-04-05T20:14:52.606Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
