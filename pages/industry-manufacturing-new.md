@@ -122,7 +122,7 @@ components:
 
           - Determine supplier process parameters for improved quality
 
-          - Mitigate disruptions and risk to brand reputation
+          - Mitigate recalls and risk to brand reputation
         wrapTheColumnInACard: false
       - text: >-
           <img
@@ -271,6 +271,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-04T23:27:10.754Z
+updatedAt: 2023-04-05T15:19:14.660Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
