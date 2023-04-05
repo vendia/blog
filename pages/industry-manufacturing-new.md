@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 template: page
 path: /industry/manufacturing
 components:
@@ -269,6 +269,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: David Wells
-updatedAt: 2023-04-05T20:14:52.606Z
+updatedAt: 2023-04-05T20:25:25.927Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
