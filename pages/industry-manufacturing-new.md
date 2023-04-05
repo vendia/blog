@@ -28,15 +28,14 @@ components:
     theme: white
   - type: MediaWithTextTwoColumns
     mediaPosition: left
-    column1: Visibility into the data outside your four walls is the key to true
-      supply chain resiliency. But with legacy systems that keep data in silos
-      amidst governance standards that call for discretionary yet compliant
-      control, the modern supply chain is anything but "modern."
+    column1: Whether you need a platform to build your own data sharing solution or
+      a platform to connect all your supply chain partners' unique platforms,
+      Vendia Share gives you the speed, agility, and governance you need for
+      real-time visibility into the data outside your four walls.
     column2: >-
-      Vendia Share's breakthrough SaaS platform is built on the best of
-      blockchain, API, database, and cloud technology, so data sharing partners
-      can operate — in *real* real-time — from a single, collaborative source of
-      immutable truth.
+      Vendia Share is built on the best of blockchain, API, database, and cloud
+      technology. Supply chain partners can operate — in *real* real-time — from
+      a single source of truth.
 
 
       <Button kind="primary" label="Meet Vendia Share" href="https://www.vendia.com/product" />
@@ -101,8 +100,7 @@ components:
   - type: Columns
     intro:
       text: Vendia Share gives you supplier transparency, product traceability, and
-        complete data governance across your value chain, partners, and your
-        partners' partners.
+        complete data governance across your value chain.
       title: Identify bottlenecks and minimize disruptions
     theme: light
     maxColumns: "4"
@@ -271,6 +269,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-03T16:21:44.701Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-05T15:19:14.660Z
+updatedAt: 2023-04-05T20:00:42.202Z
 id: 32070f6e-ce7c-4476-b2ef-6c66071bacf9
 ---
