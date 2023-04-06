@@ -27,7 +27,7 @@ components:
       Collaborate with our trusted system integrators (SIs) to help your teams build your Vendia Share solutions faster.
     theme: white
     image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679086729/Website/Integration%20logos/SI_Partners_4_gymm2s.svg
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680816558/SI_Partners_5_w9y7wy.svg
   - type: MediaWithText
     mediaPosition: right
     text: >-
@@ -43,7 +43,7 @@ seo:
   title: Trusted partners and integrations | Vendia Share
 createdBy: Caroll Casbeer
 createdAt: 2023-03-13T14:23:32.011Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-23T22:20:57.982Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-04-06T21:29:42.919Z
 id: f612b22e-5e1a-4e10-bb17-706ec71e357c
 ---
