@@ -3,10 +3,6 @@
     "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
     "draft": false
   },
-  "test-post-to-delete": {
-    "file": "/posts/2023-03-21-todo-post-title.md",
-    "draft": true
-  },
   "delete-this-post": {
     "file": "/posts/2023-03-03-todo-post-title.md",
     "draft": true
