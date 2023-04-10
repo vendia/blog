@@ -23,18 +23,16 @@ seo:
   keywords: global supply chain agility
 sidebarCta:
   - 83d01b06-3eb7-4c44-8e6b-e8cb2f50527c
-createdBy: ""
-createdAt: ""
+createdBy: alexa-vendia
+createdAt: 2023-04-10T21:14:44.284Z
 updatedBy: alexa-vendia
-updatedAt: 2023-02-16T19:12:47.627Z
+updatedAt: 2023-04-10T21:14:44.284Z
 id: 4eb01820-fdce-4971-8a42-d567be720651
 ---
 
-It’s estimated that [90% of the world’s goods](https://www.weforum.org/agenda/2021/10/global-shortagof-shipping-containers/) are shipped by sea in roughly 60,000 cargo vessels. The largest cargo vessels carry 24,000 containers. And at that scale, it’s not hard to imagine why everything from the chair you’re sitting in to the microchip in the device you are reading this on can be lost or delayed anywhere (and everywhere) in its lifecycle before reaching you.
+[90% of the world’s goods](https://www.weforum.org/agenda/2021/10/global-shortagof-shipping-containers/) are shipped by sea in roughly 60,000 cargo vessels. The largest cargo vessels carry 24,000 containers. And at that scale, it’s not hard to imagine why everything from the chair you’re sitting in to the microchip in the device you are reading this on can be lost or delayed anywhere (and everywhere) in its lifecycle before reaching you.
 
 From hurricanes and tankers running aground to poor business networking and inconsistent partner promises, there have been problems with [supply chains](https://venturebeat.com/datadecisionmakers/using-supply-chain-data-for-better-decision-making/) long before the COVID-19 pandemic. That’s why, over the past few decades, businesses have made IT investments in ERP systems, EDI exchanges, and standards such as ISO 9001. These investments and innovations have helped make global supply chains more efficient. But as both business and consumers can attest, there is [plenty more](https://www.vendia.com/blog/are-blockchains-databases) work to do.
-
-
 
 ### Supply chain agility relies on multi-party data sharing networks
 
@@ -42,11 +40,11 @@ Today, [up to 80%](https://www.authentic-grp.com/wp-content/uploads/2021/04/Why-
 
 This situation creates a host of problems because every one of these businesses requires critical, accurate, and timely data about the goods they’re transacting. Plus, every party needs information on any incidents that could have serious implications for their supply chains, customers, and individual brand reputations. With the [increased complexity](https://www.vendia.com/blog/why-is-supply-chain-visibility-important) of the global supply chain and deep dependencies among suppliers and manufacturers, companies are experiencing new backlogs and information breakdowns on a regular basis. Empty store shelves, “sold out” ecommerce labels, decreased brand loyalty, and lower profits are among the costly results.
 
+## How blockchain benefits global supply chain partnerships
+
 Today’s multi-level supply chains demand technology solutions that provide all parties with improved visibility into where, when, and how items are flowing. They also require visibility into how the end-to-end mechanics of the supply chain fit together. Without this visibility, companies will not be able to understand actual and potential disruptions as well as opportunities to prevent or mitigate interruptions.
 
-## Next-gen blockchain benefits for global supply chain partnerships
-
-Next-generation blockchains that combine blockchain and cloud technology are one solution with multiple benefits.
+Blockchains that combine blockchain and cloud technology are one solution with multiple benefits.
 
 ### Benefit #1 – Decentralize multi-party data sharing
 
@@ -60,14 +58,16 @@ Next generation blockchains are often [delivered](https://www.vendia.com/case-st
 
 ### Benefit #3 – Focused on privacy, security and compliance
 
-Next-generation blockchains and distributed ledgers offer out-of-the-box solutions for data privacy, making it easy for data producers to decide who can view or update their data using simple [permission mechanisms](https://www.vendia.com/blog/sharing-data-with-fine-grained-control). With so many parties involved, and so much data about the supply chain being produced and consumed in real time, it’s critical that businesses have the ability to enforce and audit who is able to access their [mission-critical](https://www.vendia.com/blog/api-security-graphql) business data. When competition or anti-trust regulations apply, these problems take on even more urgency.
+Next-generation blockchains and distributed ledgers offer out-of-the-box solutions for data privacy, making it easy for data producers to decide who can view or update their data using simple [permission mechanisms](https://www.vendia.com/blog/sharing-data-with-fine-grained-control). With so many parties involved and so much data about the supply chain being produced and consumed in real time, it’s critical that businesses have the ability to enforce and audit who is able to access their [mission-critical](https://www.vendia.com/blog/api-security-graphql) business data. When competition or anti-trust regulations apply, these problems take on even more urgency.
 
 ### Benefit #4 – Energy-conscious and cost-effective
 
-With the increasing role of blockchains as mechanisms to share both code and data across companies and clouds, understanding and identifying which [blockchain technologies](vendia.com/product) can help improve carbon footprint (rather than worsen it, another shortcoming in first generation blockchain) is an important question. 
+With the increasing role of blockchains as mechanisms to share both code and data across companies and clouds, understanding and identifying which [blockchain technologies](vendia.com/product) can help improve carbon footprint (rather than worsen it, another shortcoming in first-generation blockchain) is an important question. 
 
 Companies that deliberately focus on improving data strategies and compute will positively impact costs and power consumption. Because next-gen blockchains are energy- and cost-conscious, avoiding the [ecological impact](https://www.vendia.com/blog/vendia-green-blockchain) of proof-of-work systems and benefiting from multi-tenanted cloud architectures, they pass these cost (and carbon footprint) benefits on to adopters.
 
-## Make your supply chain hum and flow with Vendia Share
+## Transform your supply chain with Vendia Share
 
-Give your company the power to accelerate and automate their data workflows across global supply chain partners with a single source of real time truth. Ask our experts about a [5-day proof of concept](vendia.com/poc) or request a [demo](vendia.com/contact-us) showing Vendia Share in action.
+Give your company the power to accelerate and automate its data workflows across global supply chain partners with a single source of real-time truth. 
+
+Ask our experts about a [5-day proof of concept](vendia.com/poc) or request a [demo](vendia.com/contact-us) showing Vendia Share in action.
