@@ -1,7 +1,7 @@
 ---
 draft: true
 slug: my-custom-slug
-title: Draft post example
+title: Draft post example tes
 description: This is an example post!
 date: 2020-01-02
 authors:
@@ -17,14 +17,16 @@ tags:
 seo:
   title: Draft
   description: descr
+createdBy: David Wells
+createdAt: 2023-04-11T22:20:39.037Z
 updatedBy: David Wells
-updatedAt: 2023-01-03T06:35:50.069Z
+updatedAt: 2023-04-11T22:20:39.037Z
 id: a5802429-67fd-4e1d-ae3c-78d07feb2dc5
 ---
 
 This post is a draft. Here is update. Again!!!!
 
-<CTA ctas={["fae91eb2-be1c-405c-bb84-b6119def1d70","893c2969-3b41-4ac0-86d2-df2d90f6a103"]} />
+<CTA ctas={["fae91eb2-be1c-405c-bb84-b6119def1d70", "893c2969-3b41-4ac0-86d2-df2d90f6a103"]} />
 
 test
 
@@ -73,7 +75,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ![](https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1666889990%252Fuser-images.githubusercontent.com..107442245..198148255-7431b52d-1b8f-484c-9bd0-62f589f66600.png)
 
 <!-- MD-MAGIC-EXAMPLE:START transformName foo=bar baz="cool" -->
+
 coool
+
 <!-- MD-MAGIC-EXAMPLE:END -->
 
 <YouTube url="https://www.youtube.com/watch?v=P0BJC1rgI3w" title="hello" aspectRatio="16:9" />
@@ -81,7 +85,9 @@ coool
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vxitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis
 
 <!-- MD-MAGIC-EXAMPLE:START thingx  -->
+
 testLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vxitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollisstst
+
 <!-- MD-MAGIC-EXAMPLE:END -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae mauris arcu, eu pretium nisi. Praesent fringilla ornare ullamcorper. Pellentesque diam orci, sodales in blandit ut, placerat quis felis. Vestibulum at sem massa, in tempus nisi. Vivamus ut fermentum odio. Etiam porttitor faucibus volutpat. Vivamus vitae mi ligula, non hendrerit urna. Suspendisse potenti. Quisque eget massa a massa semper mollis..
