@@ -10,36 +10,23 @@ components:
     text: Data sharing meets data collaboration for a single source of truth across
       your partner data ecosystem
     button:
-      label: Register
+      label: ""
       kind: primary
-      href: https://www.vendia.com/resources/vendia-share-and-snowflake
+      href: ""
     theme: white
-  - type: MediaWithText
-    mediaPosition: left
-    text: >-
-      ## Webinar: Vendia Share and Snowflake
-
-
-      ### Wed, April 12
-
-
-      ### 9am PST | 12 pm EST
-
-
-      How to deploy them both to deliver a single, trusted source of truth in your partner data ecosystem
-
-
-      <Button kind="primary" label="Save your spot" href="https://vendia.wistia.com/live/events/8h6uz7vokv" />
-    theme: white
-    image:
-      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679527989/Website/Icons/Infographic%20icons/Francine_head_shot_1_rzczym.png
   - type: Text
     text: >-
-      Learn how to enable data sharing and collaboration by combining Snowflake
-      and [Vendia Share](https://www.vendia.com/product) for a single source of
-      truth, no matter how robust or complex your data network. Together, the
-      two platforms build a bridge across operational and analytical data worlds
-      for real-time data availability and accuracy.
+      <script src="https://fast.wistia.com/embed/medias/rbyxqw55ih.jsonp"
+      async></script><script
+      src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
+      class="wistia_responsive_padding" style="padding:56.25% 0 0
+      0;position:relative;"><div class="wistia_responsive_wrapper"
+      style="height:100%;left:0;position:absolute;top:0;width:100%;"><div
+      class="wistia_embed wistia_async_rbyxqw55ih videoFoam=true"
+      style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
+
+
+      Learn how to enable data sharing and collaboration by combining Snowflake and [Vendia Share](https://www.vendia.com/product) for a single source of truth, no matter how robust or complex your data network. Together, the two platforms build a bridge across operational and analytical data worlds for real-time data availability and accuracy.
 
 
       In this 30-minute webinar, you’ll learn how to
@@ -65,6 +52,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-22T23:36:53.252Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-28T18:51:53.239Z
+updatedAt: 2023-04-12T18:32:04.647Z
 id: 90b6ae29-24c9-4095-a877-a30daf2222a6
 ---
