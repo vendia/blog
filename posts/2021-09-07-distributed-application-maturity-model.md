@@ -1,49 +1,69 @@
 ---
+longDescription: A Maturity Model to help you assess the strengths and
+  weaknesses of the distributed applications used by your organization.
 draft: false
-title: 'Toward a Distributed Application Maturity Model'
-description: 'A Maturity Model to help you assess the distributed applications used by your organization.'
-longDescription: 'A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.'
-date: '2021-09-07'
-categories:
-  - architecture
+title: What's your distributed application maturity model?
+description: Use our distributed application maturity model to assess your
+  organization's  present ability and future path to create and run modern
+  distributed applications that can connect people to their most important
+  information.
+date: 2021-09-07
 authors:
   - James Gimourginas
-id: '9b00f8a3-b2a7-4eb8-81e5-038b127e0582'
+categories:
+  - product
+relatedPosts:
+  - 2021-02-17-multiregion-serverless-apps
+  - 2021-06-08-gartner-cool-vendor
+  - 2022-02-24-b2b-data-sharing
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599359/Website/Iso/Blocks_3_k36vcp.png
+seo:
+  description: Use our distributed application maturity model to assess your
+    organization's  present ability and future path to create and run modern
+    distributed applications that can connect people to their most important
+    information.
+  title: What's your distributed application maturity model?
+  keywords: distributed application model
+createdBy: alexa-vendia
+createdAt: 2023-04-12T17:26:54.096Z
+updatedBy: alexa-vendia
+updatedAt: 2023-04-12T17:26:54.096Z
+id: 9b00f8a3-b2a7-4eb8-81e5-038b127e0582
 ---
 
-## Motivation
+Vendia’s mission is to empower those creating and running modern applications that connect people to their most important information.  Our mission comprises two key concepts: *speed-to-value* and *information-to-people*.  Those two concepts are closely intertwined but are often treated separately or treated in tandem solely within an organizational silo.
 
-Vendia’s mission is to empower those creating and running modern applications that connect people to their most important information.  Our mission comprises two key concepts: _speed-to-value_ and _information-to-people_.  Those two concepts are closely intertwined but are often treated separately, or treated in tandem solely within an organizational silo.  Consider the API Provider that optimizes their speed-to-value while their API Consumers do not.  The result is that the API Provider’s investment does not produce the desired information-to-people gains because of the lagging API Consumers.  Similarly, the technology that enables _speed-to-value _and _information-to-people_ is also often mistakenly selected and implemented in isolation as well. Consider the distinction between Software Engineering, Data Engineering, Quality Engineering, and Site Reliability Engineering in many large companies.  Optimizing for the preferences of any one team at the expense of the others yields a suboptimal system.
+Consider the API Provider that optimizes their speed-to-value while their API Consumers do not.  The API Provider’s investment does not produce the desired information-to-people gains because of the lagging API Consumers.  Similarly, the technology that enables *speed-to-value* and *information-to-people* is also often mistakenly selected and implemented in isolation. Consider the distinction between Software Engineering, Data Engineering, Quality Engineering, and Site Reliability Engineering in many large companies.  Optimizing for the preferences of any one team at the expense of the others yields a suboptimal system.
 
-That presents a challenge.  Organizations commonly struggle to harness the best of the technology around them.  The challenge gets more severe as organizations attempt to collaborate with each other to create distributed applications, as those organizations often find they’re reduced to a technology set that is more “least common denominator” than “seamless cohesive architecture.”  We believe distributed, multi-party applications are a great way to bring _information-to-people_ and should be built toward _speed-to-value_.
+That presents a challenge. Organizations struggle to harness the best of the technology around them. The challenge gets more severe as organizations attempt to collaborate with each other to create distributed applications, as those organizations often find they’re reduced to a technology set that is more “least common denominator” than “seamless cohesive architecture.”  We believe distributed, multi-party applications are a great way to bring *information-to-people* and should be built toward *speed-to-value*.
 
-## A Distributed Application Maturity Model
+## A distributed application maturity model
 
 To help organizations assess their current standing and guide future improvement, we’ve developed a Distributed Application Maturity Model.  The Distributed Application Maturity Model looks at the 5 essential Dimensions required to create and run modern distributed applications that can connect people to their most important information.  The Distributed Application Maturity Model then defines 5 Maturity Levels across each Dimension to allow the maturity of distributed applications to be characterized.
 
 ![Distributed Application Maturity Model](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783132395285-48ca2fee-2e24-4f16-87f8-7f43810b8599.png)
 
-### The 5 Dimensions
+### The 5 maturity dimensions
 
-* **Application Data** - The input to, output from, and current state of the application.  Think of this as the fuel for your mission critical operational applications.  At higher maturity levels, this will include not just the current values of the data but access to historical (versioned) information and the lineage of how that data changed over time.
-* **Application Platform** - The services to consume, produce, and act on Application Data, and the interfaces and integrations needed to develop new features quickly.  Think of this as the clouds adopted, the cloud-native services supported, the interaction patterns possible, and integrations available, which together use the data fuel to do something productive.  At higher maturity levels, less code and fewer third-party services are required to enable the desired outcome as more functionality moves on-platform.
-* **Operations and Resilience** - The management, automation, scale, and recoverability of the application.  Think of this as keeping the application running smoothly at scale, at all times, across all parties and enabling rapid delivery of new features to bring new ideas to life.
-* **Participants and Consistency** - The ease of onboarding new participants, the flexibility to satisfy the technology preferences of a heterogeneous set of participants, and the consistency of the application data and platform features across participants.  Think of this as the ability to easily create an ecosystem and the ability to support that ecosystem’s heterogeneous needs.
-* **Security, Privacy, and Governance** - The ability to securely share information among participants in a manner that is inherently compliant with leading standards.  Think of this as the mechanisms to enable sharing with control and confidence, building trust within the ecosystem and with those who may audit the ecosystem.  At higher maturity levels, there are common notions of identity, authentication, and authorizations and simple realizations of complex data protection policies.
+1. **Application Data** - The input to, output from, and current state of the application.  Think of this as the fuel for your mission critical operational applications.  At higher maturity levels, this will include not just the current values of the data but access to historical (versioned) information and the lineage of how that data changed over time.
+2. **Application Platform** - The services to consume, produce, and act on Application Data, and the interfaces and integrations needed to develop new features quickly.  Think of this as the clouds adopted, the cloud-native services supported, the interaction patterns possible, and integrations available, which together use the data fuel to do something productive.  At higher maturity levels, less code and fewer third-party services are required to enable the desired outcome as more functionality moves on-platform.
+3. **Operations and Resilience** - The management, automation, scale, and recoverability of the application.  Think of this as keeping the application running smoothly at scale, at all times, across all parties and enabling rapid delivery of new features to bring new ideas to life.
+4. **Participants and Consistency** - The ease of onboarding new participants, the flexibility to satisfy the technology preferences of a heterogeneous set of participants, and the consistency of the application data and platform features across participants.  Think of this as the ability to easily create an ecosystem and the ability to support that ecosystem’s heterogeneous needs.
+5. **Security, Privacy, and Governance** - The ability to securely share information among participants in a manner that is inherently compliant with leading standards.  Think of this as the mechanisms to enable sharing with control and confidence, building trust within the ecosystem and with those who may audit the ecosystem.  At higher maturity levels, there are common notions of identity, authentication, and authorizations and simple realizations of complex data protection policies.
 
-### The 5 Maturity Levels
+### The 5 maturity levels
 
-* **Level 1** - _Stuck in Time_ - Using technology and practices that are well beyond their usefulness.  Level 1 companies may still be crafting their cloud strategy and may self describe as struggling to modernize their legacy IT systems.
-* **Level 2** - _Waking Up_ - Beginning to adopt modern technology and practices but with major legacy baggage still present.  Level 2 companies have taken a few steps toward their cloud strategy but may be disheartened by the slow progress and seemingly infinite backlog of technical debt.
-* **Level 3** - _Adequate_ - Applying modern technology and practices in many areas but still not reaping the full benefits.  Level 3 companies are well on their way to realizing their initial cloud strategy, likely drafted a number of years ago, but have not refined their initial strategy to account for the changes in the competitive landscape around them.
-* **Level 4** - _Competitive_ - Using modern technology and practices exclusively but still constrained by a limited set of technologies and practices.  Level 4 companies have optimized their technology usage within their organization and are exploring whether further optimization outside their organization or across clouds may be possible.
-* **Level 5** - _Leading_ - Using modern technology and practices exclusively, with the freedom to experiment with best-of-breed approaches driven by business need, technology preferences, and focus on continuous continuous improvement.  Level 5 organizations are building new businesses that leverage new partnerships and influential ecosystems, supported by modern technology, that weren’t previously fathomable.
+1. **Level 1** - *Stuck in Time* - Using technology and practices that are well beyond their usefulness.  Level 1 companies may still be crafting their cloud strategy and may self describe as struggling to modernize their legacy IT systems.
+2. **Level 2** - *Waking Up* - Beginning to adopt modern technology and practices but with major legacy baggage still present.  Level 2 companies have taken a few steps toward their cloud strategy but may be disheartened by the slow progress and seemingly infinite backlog of technical debt.
+3. **Level 3** - *Adequate* - Applying modern technology and practices in many areas but still not reaping the full benefits.  Level 3 companies are well on their way to realizing their initial cloud strategy, likely drafted a number of years ago, but have not refined their initial strategy to account for the changes in the competitive landscape around them.
+4. **Level 4** - *Competitive* - Using modern technology and practices exclusively but still constrained by a limited set of technologies and practices.  Level 4 companies have optimized their technology usage within their organization and are exploring whether further optimization outside their organization or across clouds may be possible.
+5. **Level 5** - *Leading* - Using modern technology and practices exclusively, with the freedom to experiment with best-of-breed approaches driven by business need, technology preferences, and focus on continuous continuous improvement.  Level 5 organizations are building new businesses that leverage new partnerships and influential ecosystems, supported by modern technology, that weren’t previously fathomable.
 
-While it’s possible to assess and score each Dimension individually, seeing a wide range of scores across the 5 Dimensions is unlikely because the Dimensions are intertwined.  In other words, _distributed applications will generally score in, or closely around, a single Maturity Level_.  If your company or organization is at a level of maturity below what you'd like, it may be time to take action.
+While it’s possible to assess and score each Dimension individually, seeing a wide range of scores across the 5 Dimensions is unlikely because the Dimensions are intertwined.  In other words, *distributed applications will generally score in, or closely around, a single Maturity Level*.  If your company or organization is at a level of maturity below what you'd like, it may be time to take action.
 
-### Dimension to Maturity Level Mapping
+### Dimension to maturity level mapping
 
-Crossing the 5 Dimensions with the 5 Maturity Levels produces a comprehensive maturity model with which distributed applications can be assessed.
+Crossing the 5 dimensions with the 5 maturity levels produces a comprehensive maturity model with which distributed applications can be assessed.
 
 <table width="auto">
   <tr>
@@ -111,11 +131,11 @@ Crossing the 5 Dimensions with the 5 Maturity Levels produces a comprehensive ma
   </tr>
 </table>
 
-## Evaluating Your Maturity Level
+## Evaluating your maturity level
 
 To help you evaluate your organization’s maturity level, here’s a brief synopsis of the challenges and their organizational and competitive impact.  One of these is likely to resonate as a “day in the life” within your organization.
 
-### Level 1 - Stuck in Time
+### Level 1 - Stuck in time
 
 Extreme speed-to-value and information-to-people challenges.
 
@@ -123,7 +143,7 @@ Application Data is sent and received in archaic ways (e.g. email attachments); 
 
 The technology and approaches aren’t sufficient for the times.  Without a major and rapid technology transformation, this organization may quickly find itself out of business.
 
-### Level 2 - Waking Up
+### Level 2 - Waking up
 
 Major speed-to-value and information-to-people challenges.
 
@@ -139,7 +159,7 @@ Application Data is centralized in the cloud, leading to higher value inside the
 
 Data still has limited value outside the organization; the centralizing organization (i.e. the organization that centralized the data) continues to dictate the technology choices of others; Operations and Resilience are a challenge because a single point of failure (i.e. the organization that centralized the data) has been introduced; Participant onboarding is still burdensome; Fine-grained access control is lacking;  Transparency does not extends to those multiple hops away.  Consider the journey between data provider, data enricher, data consumer, and end-user.  Level 3 applications may provide transparency across one hop of that journey, but not multiple hops.
 
-The technology and approaches are good enough for the moment.  However, despite establishing a solid foundation, this organization will soon lose market share to _Competitive_ and _Leading_ organizations.  Look out for fast moving disruptors who can quickly reach Level 4 or Level 5 maturity thanks to either their lack of legacy baggage or their rapid adoption of disruptive technologies that streamline their path to Level 5.
+The technology and approaches are good enough for the moment.  However, despite establishing a solid foundation, this organization will soon lose market share to *Competitive* and *Leading* organizations.  Look out for fast moving disruptors who can quickly reach Level 4 or Level 5 maturity thanks to either their lack of legacy baggage or their rapid adoption of disruptive technologies that streamline their path to Level 5.
 
 ### Level 4 - Competitive
 
@@ -157,10 +177,8 @@ World-class speed-to-value and information-to-people capabilities.
 
 Application Data is distributed, leading to higher value inside and outside the organization, with full versioning and lineage across all data types; the Application Platform now supports more modern approaches, including cloud-native integrations and serverless approaches across clouds; Operations and Resilience are improved and handled by the platform, leading to a lower operating complexity and lower operational cost for all participants; Participant onboarding is simple and establishes the context in which controlled data sharing is agreeable to all parties; Consistency and timeliness of the data provides a single, shared source of truth to all participants at all times; Security includes a complete coarse-grained and fine-grained access control, the ability to share with control, and inherent compliance with leading standards.
 
-New ecosystems are driving new business opportunities, benefiting all of those who participate.  Awareness of what’s happening outside of this organization’s figurative four walls is allowing it to optimize based on the actions its collaborators have taken _and are taking_, as they happen.  Data is not only easily accessible and easily shared among participants, but new business opportunities can be rapidly achieved in a cost effective way, as they are no longer blocked by technology impediments.
+New ecosystems are driving new business opportunities, benefiting all of those who participate.  Awareness of what’s happening outside of this organization’s figurative four walls is allowing it to optimize based on the actions its collaborators have taken *and are taking*, as they happen.  Data is not only easily accessible and easily shared among participants, but new business opportunities can be rapidly achieved in a cost effective way, as they are no longer blocked by technology impediments.
 
-## Universal Applications
+## Universal applications
 
-Level 5 Distributed Applications, what we at Vendia call _Universal Applications_, are modern distributed applications that connect people to their most important information with ease.  They excel across five Dimensions and exhibit the two characteristics from our mission statement: an exceptionally high _speed-to-value_ that maximizes the timeliness, consistency, and completeness of _information-to-people_.  When we say Vendia Share is a Universal Application platform, what we mean is distributed applications built on Vendia Share are inherently Level 5 distributed applications because of the powerful features built into Share across all five Dimensions of the Distributed Application Maturity Model.
-
-In follow-up posts, I’ll delve into the Vendia Share features that provide Level 5 capabilities, including a few before and after examples from our customers.  For now, I hope this Distributed Application Maturity Model helps you assess your distributed application’s strengths and weaknesses so you can explore ways to better connect with your future business collaborators.
+Distributed applications built on Vendia Share are inherently Level 5 distributed applications because of the powerful features built into the platform. To discuss use cases and the impact of a Level 5 upgrade at your organization and for your customers, [contact us](https://www.vendia.com/contact-us).
