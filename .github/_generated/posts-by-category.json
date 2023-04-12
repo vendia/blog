@@ -665,6 +665,35 @@
       "id": "6f36bf4a-cb33-458a-80f3-2e4800184cf6"
     },
     {
+      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
+      "draft": false,
+      "title": "Multi-party data sharing with control",
+      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+      "date": "2022-01-31T00:00:00.000Z",
+      "authors": [
+        "James Gimourginas"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-09-01-sharing-data-with-fine-grained-control",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-10-21-api-security-graphql"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
+      "seo": {
+        "title": "Multi-party data sharing with control",
+        "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+        "keywords": "multi-party data sharing with control"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-12T18:49:56.577Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-12T18:49:56.577Z",
+      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
+    },
+    {
       "file": "/posts/2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger.md",
       "draft": false,
       "title": "Why we combined GraphQL and a serverless distributed ledger",
@@ -2540,22 +2569,6 @@
       "id": "c068da9b-f8a5-4684-8f7c-5ccc07ef1d31"
     },
     {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "draft": false,
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
-    },
-    {
       "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",
       "draft": false,
       "title": "How to scale your data ecosystem with Vendia Share",
@@ -3913,22 +3926,6 @@
       "id": "a7c8c05a-7e98-4ae7-8604-26eb1bb208e4"
     },
     {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "draft": false,
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
-    },
-    {
       "file": "/posts/2022-01-04-azure-eventing.md",
       "draft": false,
       "title": "Real-Time cross-cloud data sharing",
@@ -4057,22 +4054,6 @@
       "updatedBy": "David Wells",
       "updatedAt": "2022-11-16T19:45:40.052Z",
       "id": "a9fe11e1-f1da-4247-a9a2-ce01d22d555f"
-    },
-    {
-      "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
-      "draft": false,
-      "title": "Multi-party data sharing with control",
-      "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
-      "authors": [
-        "James Gimourginas"
-      ],
-      "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
     },
     {
       "file": "/posts/2022-01-27-scale-your-partner-ecosystem-with-vendia-share.md",

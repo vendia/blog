@@ -371,15 +371,28 @@
       "draft": false,
       "title": "Multi-party data sharing with control",
       "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
-      "date": "2022-01-31",
-      "categories": [
-        "architecture",
-        "concepts",
-        "tutorials"
-      ],
+      "date": "2022-01-31T00:00:00.000Z",
       "authors": [
         "James Gimourginas"
       ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-09-01-sharing-data-with-fine-grained-control",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-10-21-api-security-graphql"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671502760/Website/Iso/Gear_rzi4jt.png",
+      "seo": {
+        "title": "Multi-party data sharing with control",
+        "description": "Learn how Vendia Share's access controls enable trusted and secure real-time data sharing among partners across clouds with insights from our Solutions Architecture team.",
+        "keywords": "multi-party data sharing with control"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-12T18:49:56.577Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-12T18:49:56.577Z",
       "id": "26144e30-be2d-4f67-8fd6-8f3f624c72ac"
     },
     {
