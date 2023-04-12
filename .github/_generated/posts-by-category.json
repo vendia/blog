@@ -735,6 +735,38 @@
       "id": "b7ccb6d3-e773-4820-8aa0-3935496fe960"
     },
     {
+      "file": "/posts/2021-01-31-stamti.md",
+      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.\n",
+      "draft": false,
+      "title": "STAMTI: A new model for delivering cloud-based services",
+      "description": "Single-tenanted security versus multi-tenanted cost efficiency and simplicity...do we really have to pick one of these options? Or is there another approach that provides the benefits of single-tenant occupancy with the ease of implementation and deployment that SaaS enjoys?",
+      "date": "2021-01-31T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-01-29-getting-started-with-vendia-share",
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-03-09-graphql-and-blockchain"
+      ],
+      "tags": [
+        "STAMTI"
+      ],
+      "seo": {
+        "title": "STAMTI: A new model for delivering cloud-based services",
+        "description": "Single-tenanted security versus multi-tenanted cost efficiency and simplicity...do we really have to pick one of these options? Or is there another approach that provides the benefits of single-tenant occupancy with the ease of implementation and deployment that SaaS enjoys?",
+        "keywords": "single-tenanted vs. multi-tenanted SaaS"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-12T17:08:45.395Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-12T17:08:45.395Z",
+      "id": "8b661b20-e780-482b-a71a-bc29d6ebdff3"
+    },
+    {
       "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
       "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
       "draft": false,
@@ -3925,24 +3957,6 @@
         "James Gimourginas"
       ],
       "id": "d2f1840a-13d1-4e27-ab72-4db1673f4931"
-    },
-    {
-      "file": "/posts/2021-01-31-stamti.md",
-      "draft": false,
-      "title": "STAMTI: A New Model for Delivering Cloud-based Services",
-      "date": "2021-01-31",
-      "description": "Learn about the STAMTI (single-tenanted accounts on multi-tenanted infrastructure) model",
-      "longDescription": "In this post learn more about STAMTI (single-tenanted accounts on multi-tenanted infrastructure) and how it enables companies like Vendia to deliver services that are simultaneously easy for customers to adopt and use while still being secure, operationally isolated, and cost efficient.\n",
-      "categories": [
-        "architecture"
-      ],
-      "tags": [
-        "STAMTI"
-      ],
-      "authors": [
-        "Tim Wagner"
-      ],
-      "id": "8b661b20-e780-482b-a71a-bc29d6ebdff3"
     },
     {
       "file": "/posts/2020-11-05-track-and-trace.md",
