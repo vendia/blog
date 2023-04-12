@@ -16,12 +16,9 @@ components:
     theme: white
   - type: Text
     text: >-
-      <script src="https://fast.wistia.com/embed/medias/1z5iw3f2rg.jsonp"
-      async></script><script
-      src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
-      class="wistia_embed wistia_async_1z5iw3f2rg" seo=false
-      style="height:360px;position:relative;width:640px">&nbsp;</div>
-
+      <script src="https://fast.wistia.com/embed/medias/1z5iw3f2rg.jsonp" async></script>
+      <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+      <div class="wistia_embed wistia_async_1z5iw3f2rg" style="height:360px;position:relative;width:640px">&nbsp;</div>
 
       Learn how to enable data sharing and collaboration by combining Snowflake and [Vendia Share](https://www.vendia.com/product) for a single source of truth, no matter how robust or complex your data network. Together, the two platforms build a bridge across operational and analytical data worlds for real-time data availability and accuracy.
 
