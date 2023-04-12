@@ -19,7 +19,7 @@ components:
       <script src="https://fast.wistia.com/embed/medias/v6clc0knre.jsonp"
       async></script><script
       src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
-      class="wistia_embed wistia_async_v6clc0knre seo=false"
+      class="wistia_embed wistia_async_v6clc0knre" seo=false
       style="height:360px;position:relative;width:640px">&nbsp;</div>
 
 
