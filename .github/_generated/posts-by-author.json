@@ -458,17 +458,32 @@
     },
     {
       "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
-      "draft": false,
-      "title": "Toward a Distributed Application Maturity Model",
-      "description": "A Maturity Model to help you assess the distributed applications used by your organization.",
       "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
-      "date": "2021-09-07",
-      "categories": [
-        "architecture"
-      ],
+      "draft": false,
+      "title": "What's your distributed application maturity model?",
+      "description": "Use our distributed application maturity model to assess your organization's  present ability and future path to create and run modern distributed applications that can connect people to their most important information.",
+      "date": "2021-09-07T00:00:00.000Z",
       "authors": [
         "James Gimourginas"
       ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-02-17-multiregion-serverless-apps",
+        "2021-06-08-gartner-cool-vendor",
+        "2022-02-24-b2b-data-sharing"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599359/Website/Iso/Blocks_3_k36vcp.png",
+      "seo": {
+        "description": "Use our distributed application maturity model to assess your organization's  present ability and future path to create and run modern distributed applications that can connect people to their most important information.",
+        "title": "What's your distributed application maturity model?",
+        "keywords": "distributed application model"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-12T17:26:54.096Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-12T17:26:54.096Z",
       "id": "9b00f8a3-b2a7-4eb8-81e5-038b127e0582"
     },
     {
