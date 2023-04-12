@@ -16,7 +16,7 @@ components:
     theme: white
   - type: Text
     text: >-
-      <script src="https://fast.wistia.com/embed/medias/v6clc0knre.jsonp"
+      <script src="https://fast.wistia.com/embed/medias/1z5iw3f2rg.jsonp"
       async></script><script
       src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div
       class="wistia_embed wistia_async_1z5iw3f2rg" seo=false
