@@ -723,6 +723,35 @@
       "id": "a4d8c7be-5285-471e-80c7-218996319a36"
     },
     {
+      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "draft": false,
+      "slug": "azure-support-smart-contracts",
+      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
+      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
+      "date": "2021-12-09T00:00:00.000Z",
+      "authors": [
+        "Vendia Engineering"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-03-21-synchronous-mutations",
+        "2021-02-03-welcome-to-developer-preview"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
+      "seo": {
+        "title": "Vendia Supports Azure and Smart Contracts",
+        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T21:05:29.711Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T21:05:29.711Z",
+      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
+    },
+    {
       "file": "/posts/2021-09-07-distributed-application-maturity-model.md",
       "longDescription": "A Maturity Model to help you assess the strengths and weaknesses of the distributed applications used by your organization.",
       "draft": false,
@@ -4363,29 +4392,6 @@
         "announcements"
       ],
       "id": "c61580b6-5364-49fa-8b17-2b38b156fd66"
-    },
-    {
-      "file": "/posts/2021-12-09-announcing-new-features.md",
-      "draft": false,
-      "slug": "azure-support-smart-contracts",
-      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
-      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09T00:00:00.000Z",
-      "authors": [
-        "David Brown"
-      ],
-      "categories": [
-        "announcements"
-      ],
-      "seo": {
-        "title": "Vendia Supports Azure and Smart Contracts",
-        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2023-01-27T17:28:00.714Z",
-      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
     },
     {
       "file": "/posts/2021-10-26-website-case-studies.md",
