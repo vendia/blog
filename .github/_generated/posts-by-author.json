@@ -2308,6 +2308,34 @@
       "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
     },
     {
+      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
+      "draft": false,
+      "title": "Why CRM data sharing is business critical",
+      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
+      "date": "2022-06-21T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-06-29-webcast-highlights-the-future-of-crm-data-sharing",
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599463/Website/Iso/CRM_uo10ew.png",
+      "seo": {
+        "title": "Why CRM data sharing is business critical",
+        "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T20:53:30.862Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T20:53:30.862Z",
+      "id": "dbad4df5-9f4d-4978-a08b-d0181da91bd2"
+    },
+    {
       "file": "/posts/2022-05-31-vendia-announces-series-b.md",
       "draft": false,
       "title": "Vendia announces Series B funding",
@@ -3544,19 +3572,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-03-30T23:01:15.250Z",
       "id": "be3be101-2a20-4780-afd0-16d6f82cbb0f"
-    }
-  ],
-  "joydeep-das": [
-    {
-      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
-      "draft": false,
-      "title": "Why CRM data sharing is business critical",
-      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
-      "date": "2022-06-21",
-      "authors": [
-        "Joydeep Das"
-      ],
-      "id": "dbad4df5-9f4d-4978-a08b-d0181da91bd2"
     }
   ],
   "david-brown": [

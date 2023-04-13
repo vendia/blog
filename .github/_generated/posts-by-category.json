@@ -2422,6 +2422,34 @@
       "id": "676ff9bc-3b83-4bac-bfae-900714a29c4b"
     },
     {
+      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
+      "draft": false,
+      "title": "Why CRM data sharing is business critical",
+      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
+      "date": "2022-06-21T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-06-29-webcast-highlights-the-future-of-crm-data-sharing",
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599463/Website/Iso/CRM_uo10ew.png",
+      "seo": {
+        "title": "Why CRM data sharing is business critical",
+        "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T20:53:30.862Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T20:53:30.862Z",
+      "id": "dbad4df5-9f4d-4978-a08b-d0181da91bd2"
+    },
+    {
       "file": "/posts/2022-06-07-real-time-data-sharing-pros-cons.md",
       "draft": false,
       "title": "Real-time data sharing: Pros and cons",

@@ -56,14 +56,19 @@
       "postCount": 0
     },
     {
-      "name": "Brian McNamara",
       "github": "mcnamarabrian",
+      "bio": {
+        "short": "",
+        "long": "**Brian joined Vendia as a Solutions Architect** focused on helping customers develop products and services using the Vendia Share platform. Before joining Vendia, Brian worked as a Serverless Solutions Architect at Amazon Web Services (AWS). H loves helping startups and enterprises alike as we solve big, hard problems like infrastructure automation challenges."
+      },
+      "name": "Brian McNamara",
+      "updatedAt": "2023-04-13T20:38:48.623Z",
+      "updatedBy": "alexa-vendia",
       "twitter": "mcnamarabrian",
       "avatar": "https://avatars1.githubusercontent.com/u/17259?s=400&v=4",
-      "bio": {
-        "short": "Solutions Architect",
-        "long": "Brian is a Solutions Architect focused on enabling customers to develop products and services using Vendia. Prior to Vendia, Brian worked as a serverless solutions architect at Amazon Web Services (AWS). He has experience helping start-ups and enterprises to solve infrastructure automation challenges."
-      },
+      "jobTitle": "Solutions Architect",
+      "createdAt": "2023-04-13T20:38:48.623Z",
+      "createdBy": "alexa-vendia",
       "slug": "brian-mcnamara",
       "postCount": 10
     },
@@ -71,15 +76,17 @@
       "github": "caroll-vendia",
       "bio": {
         "short": "Marketer",
-        "long": "Caroll likes, puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
+        "long": "**Caroll leads as the Head of Growth Marketing**. She's built growth engines and teams for startups, big tech, and nonprofits alike. Caroll loves puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
       },
       "name": "Caroll Casbeer",
-      "updatedAt": "2022-12-05T22:40:38.604Z",
+      "updatedAt": "2023-04-13T20:42:19.070Z",
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
       "jobTitle": "Head of Growth",
+      "createdAt": "2023-04-13T20:42:19.070Z",
       "linkedin": "https://www.linkedin.com/in/carollc/",
+      "createdBy": "alexa-vendia",
       "slug": "caroll-casbeer",
       "postCount": 9
     },
@@ -226,7 +233,7 @@
         "long": "Joydeep is a Product Manager at Vendia focused on creating a B2B data sharing service. Vendia helps customers collaborate with their business partners using Smart APIs for data sharing. Joydeep has been championing the cause of data products for more than a decade - initially as an engineer and then as a product manager."
       },
       "slug": "joydeep-das",
-      "postCount": 1
+      "postCount": 0
     },
     {
       "name": "Renee Fujii",
@@ -314,7 +321,7 @@
       "jobTitle": "",
       "linkedin": "VendiaHQ",
       "slug": "vendia",
-      "postCount": 28
+      "postCount": 29
     },
     {
       "github": "vikrant-vendia",
