@@ -1,10 +1,15 @@
 {
-  "name": "Brian McNamara",
   "github": "mcnamarabrian",
+  "bio": {
+    "short": "",
+    "long": "**Brian is a Solutions Architect** focused on helping customers develop products and services using the Vendia Share platform. Before joining Vendia, Brian worked as a Serverless Solutions Architect at Amazon Web Services (AWS). H loves helping startups and enterprises alike as we solve big, hard problems like infrastructure automation challenges."
+  },
+  "name": "Brian McNamara",
+  "updatedAt": "2023-04-13T20:38:12.886Z",
+  "updatedBy": "alexa-vendia",
   "twitter": "mcnamarabrian",
   "avatar": "https://avatars1.githubusercontent.com/u/17259?s=400&v=4",
-  "bio": {
-    "short": "Solutions Architect",
-    "long": "Brian is a Solutions Architect focused on enabling customers to develop products and services using Vendia. Prior to Vendia, Brian worked as a serverless solutions architect at Amazon Web Services (AWS). He has experience helping start-ups and enterprises to solve infrastructure automation challenges."
-  }
+  "jobTitle": "Solutions Architect",
+  "createdAt": "2023-04-13T20:38:12.887Z",
+  "createdBy": "alexa-vendia"
 }
