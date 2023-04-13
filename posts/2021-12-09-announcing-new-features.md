@@ -8,17 +8,22 @@ description: Today, we are excited to announce a new set of features for Vendia
   applications. Let’s jump into some of the new features.
 date: 2021-12-09
 authors:
-  - David Brown
+  - Vendia Engineering
 categories:
-  - announcements
+  - product
+relatedPosts:
+  - 2021-03-17-whats-new-failed-tx-dlq
+  - 2022-03-21-synchronous-mutations
+  - 2021-02-03-welcome-to-developer-preview
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
 seo:
   title: Vendia Supports Azure and Smart Contracts
   description: "Learn about Vendia Share's latest features including Azure-support
     and Smart Contracts. "
-createdBy: ""
-createdAt: ""
-updatedBy: Caroll Casbeer
-updatedAt: 2023-01-27T17:28:00.714Z
+createdBy: alexa-vendia
+createdAt: 2023-04-13T21:05:29.711Z
+updatedBy: alexa-vendia
+updatedAt: 2023-04-13T21:05:29.711Z
 id: 789c617b-e018-43fd-86f3-2be90de9797f
 ---
 
