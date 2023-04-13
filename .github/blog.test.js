@@ -39,7 +39,7 @@ const GLOB_PATTERN = [
 ]
 const exampleAuthorData = {
   "name": "David Wells",
-  "github": "davidwells",
+  // "github": "davidwells",
   "avatar": "https://avatars2.githubusercontent.com/u/532272?v=3&s=60",
   "bio": {
     "short": "xyz",
@@ -228,6 +228,7 @@ async function validateAuthors() {
   // Validate
   authors.forEach((author) => {
     if (!validateAuthorFields(exampleAuthorData, author)) {
+      console.log('Broken author', author)
       throw new Error(`${author.slug} has missing value in author profile.
       Author data must match (if no value applies use false):
 ${JSON.stringify(exampleAuthorData, null, 2)}
