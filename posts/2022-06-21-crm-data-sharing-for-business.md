@@ -1,13 +1,30 @@
 ---
 draft: false
-title: 'Why CRM data sharing is business critical'
-description: 'Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.'
-date: '2022-06-21'
+title: Why CRM data sharing is business critical
+description: Sharing data between multiple CRM systems is helping organizations
+  realize superior business outcomes, more so with the availability of robust
+  multi-party CRM data sharing solutions.
+date: 2022-06-21
 authors:
-  - Joydeep Das
-id: 'dbad4df5-9f4d-4978-a08b-d0181da91bd2'
+  - Vendia
+categories:
+  - concepts
+relatedPosts:
+  - 2022-06-29-webcast-highlights-the-future-of-crm-data-sharing
+  - 2022-10-14-what-is-customer-360-with-vendia
+  - 2021-02-17-multiregion-serverless-apps
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599463/Website/Iso/CRM_uo10ew.png
+seo:
+  title: Why CRM data sharing is business critical
+  description: Sharing data between multiple CRM systems is helping organizations
+    realize superior business outcomes, more so with the availability of robust
+    multi-party CRM data sharing solutions.
+createdBy: alexa-vendia
+createdAt: 2023-04-13T20:53:30.862Z
+updatedBy: alexa-vendia
+updatedAt: 2023-04-13T20:53:30.862Z
+id: dbad4df5-9f4d-4978-a08b-d0181da91bd2
 ---
-
 
 Revenue in the Enterprise Software segment is projected to reach US$243.30bn in 2022. The largest sub segment is Customer Relationship Management (CRM) Software with a projected market volume of [US$70.92bn](https://www.statista.com/outlook/tmo/software/enterprise-software/worldwide#:~:text=Revenue%20in%20the%20Enterprise%20Software,US%2470.92bn%20in%202022.) in 2022.Businesses spend heavily on CRM systems for a good reason: There’s a data gold mine stored in these systems. For instance, several critical processes, like running marketing campaigns, tracking sales leads, delivering invoices, and managing support cases all rely on CRM systems.
 
