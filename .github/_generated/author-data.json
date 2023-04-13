@@ -24,7 +24,8 @@
     "vikrant-kahlir",
     "alexa-johnson",
     "ben-steward",
-    "li-dai"
+    "li-dai",
+    "vendia-engineering"
   ],
   "authors": [
     {
@@ -112,7 +113,7 @@
         "long": "David is a principal product manager at Vendia focusing on amazing features for Vendia Share. Prior to Vendia, David was a product manager at AWS focusing on serverless edge computing."
       },
       "slug": "david-brown",
-      "postCount": 2
+      "postCount": 1
     },
     {
       "name": "David McElligott",
@@ -387,6 +388,20 @@
       "linkedin": "https://www.linkedin.com/in/li-dai-vet/",
       "slug": "li-dai",
       "postCount": 2
+    },
+    {
+      "bio": {
+        "short": "Vendia Engineering Team",
+        "long": "Vendia's team of ingenuitive, world-class engineers hail from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more."
+      },
+      "name": "Vendia Engineering",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png",
+      "updatedAt": "2023-04-13T20:59:50.354Z",
+      "updatedBy": "alexa-vendia",
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T20:59:50.354Z",
+      "slug": "vendia-engineering",
+      "postCount": 1
     }
   ]
 }

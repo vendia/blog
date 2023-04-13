@@ -3574,43 +3574,34 @@
       "id": "be3be101-2a20-4780-afd0-16d6f82cbb0f"
     }
   ],
-  "david-brown": [
+  "vendia-engineering": [
     {
       "file": "/posts/2022-03-21-synchronous-mutations.md",
       "draft": false,
-      "title": "Announcing Synchronous Mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.",
-      "date": "2022-03-21",
+      "title": "Announcing synchronous mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce synchronous mutations on Vendia Share.",
+      "date": "2022-03-21T00:00:00.000Z",
+      "authors": [
+        "Vendia Engineering"
+      ],
       "categories": [
         "product"
       ],
-      "authors": [
-        "David Brown"
+      "relatedPosts": [
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2021-12-09-announcing-new-features",
+        "2021-03-10-whats-new-indices"
       ],
-      "id": "d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd"
-    },
-    {
-      "file": "/posts/2021-12-09-announcing-new-features.md",
-      "draft": false,
-      "slug": "azure-support-smart-contracts",
-      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
-      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09T00:00:00.000Z",
-      "authors": [
-        "David Brown"
-      ],
-      "categories": [
-        "announcements"
-      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
       "seo": {
-        "title": "Vendia Supports Azure and Smart Contracts",
-        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
+        "title": "Announcing synchronous mutations for Vendia Share",
+        "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce synchronous mutations on Vendia Share."
       },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "Caroll Casbeer",
-      "updatedAt": "2023-01-27T17:28:00.714Z",
-      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T21:03:40.895Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T21:03:40.895Z",
+      "id": "d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd"
     }
   ],
   "brian-mcnamara": [
@@ -3803,6 +3794,31 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-03-30T22:06:13.801Z",
       "id": "bff43a5b-b563-4841-9f20-dfc0c90ca0a0"
+    }
+  ],
+  "david-brown": [
+    {
+      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "draft": false,
+      "slug": "azure-support-smart-contracts",
+      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
+      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
+      "date": "2021-12-09T00:00:00.000Z",
+      "authors": [
+        "David Brown"
+      ],
+      "categories": [
+        "announcements"
+      ],
+      "seo": {
+        "title": "Vendia Supports Azure and Smart Contracts",
+        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-01-27T17:28:00.714Z",
+      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
     }
   ],
   "ryan-green": [
