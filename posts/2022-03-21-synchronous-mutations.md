@@ -1,13 +1,27 @@
 ---
 draft: false
-title: "Announcing Synchronous Mutations for Vendia Share"
-description: 'Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to execute synchronous mutations on Vendia Share.'
-date: '2022-03-21'
+title: Announcing synchronous mutations for Vendia Share
+description: Building applications on Vendia Share just got a lot easier! Today,
+  we are excited to announce synchronous mutations on Vendia Share.
+date: 2022-03-21
+authors:
+  - Vendia Engineering
 categories:
   - product
-authors:
-  - David Brown
-id: 'd96b74bc-9e5f-499e-b9f0-d8b9c887f0cd'
+relatedPosts:
+  - 2021-03-17-whats-new-failed-tx-dlq
+  - 2021-12-09-announcing-new-features
+  - 2021-03-10-whats-new-indices
+thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
+seo:
+  title: Announcing synchronous mutations for Vendia Share
+  description: Building applications on Vendia Share just got a lot easier! Today,
+    we are excited to announce synchronous mutations on Vendia Share.
+createdBy: alexa-vendia
+createdAt: 2023-04-13T21:03:40.895Z
+updatedBy: alexa-vendia
+updatedAt: 2023-04-13T21:03:40.895Z
+id: d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd
 ---
 
 Building applications on Vendia Share just got a lot easier! Today, we are excited to announce the ability to **execute synchronous mutations on Vendia Share. **
@@ -46,4 +60,4 @@ Another example of making an asynchronous mutation:
 
 ## Wrapping up
 
-With the new APsI, we hope building applications on top of Vendia will be easier. If you have other ideas on how to make Vendia easier to use or if you have any questions or concerns, please contact your Vendia account team. Please see our [documentation](https://www.vendia.com/docs/share/graphql) for more information about the new API endpoints. 
+With the new APsI, we hope building applications on top of Vendia will be easier. If you have other ideas on how to make Vendia easier to use or if you have any questions or concerns, please contact your Vendia account team. Please see our [documentation](https://www.vendia.com/docs/share/graphql) for more information about the new API endpoints.
