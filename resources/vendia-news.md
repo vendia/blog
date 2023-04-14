@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 excludeFromIndex: true
 slug: vendia-news
 date: 2023-04-14
@@ -27,7 +27,7 @@ seo:
   noindex: true
 createdBy: alexa-vendia
 createdAt: 2023-04-14T19:57:12.971Z
-updatedBy: alexa-vendia
-updatedAt: 2023-04-14T19:57:12.971Z
+updatedBy: David Wells
+updatedAt: 2023-04-14T20:08:27.082Z
 id: 0473d06a-4c8d-4721-be3c-4dc27d543bc9
 ---
