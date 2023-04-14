@@ -3592,6 +3592,36 @@
       "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
     },
     {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "draft": false,
+      "title": "The global supply chain is broken — can blockchain help?",
+      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
+      "date": "2022-02-09T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2020-11-05-track-and-trace",
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [
+        "supply chain, manufacturing"
+      ],
+      "seo": {
+        "title": "The global supply chain is broken — can blockchain help?",
+        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-14T21:22:43.427Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-14T21:22:43.427Z",
+      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
+    },
+    {
       "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
       "draft": false,
       "title": "Applying Domain Driven Design (DDD) to blockchains",
