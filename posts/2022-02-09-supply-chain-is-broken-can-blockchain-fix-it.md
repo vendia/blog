@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: The global supply chain is broken — can blockchain help?
 description: Multi-party data sharing with fine-grained controls is gaining
   traction with more and more organizations looking to resolve failed blockchain
@@ -20,9 +20,11 @@ seo:
   description: Multi-party data sharing with fine-grained controls is gaining
     traction with more and more organizations looking to resolve failed
     blockchain initiatives with next-gen enterprise blockchain solutions.
+createdBy: alexa-vendia
+createdAt: 2023-04-14T21:22:43.427Z
 updatedBy: alexa-vendia
-updatedAt: 2022-12-07T00:29:17.674Z
-id: '331d15fc-6e35-426b-af42-cd7b6baf6ccf'
+updatedAt: 2023-04-14T21:22:43.427Z
+id: 331d15fc-6e35-426b-af42-cd7b6baf6ccf
 ---
 
 _"We project that by 2023, 35% of enterprise blockchain applications will integrate with decentralized applications and services. The rewards are simply too high to ignore, and are far greater than the costs."_, _Avivah Litan, Gartner, response to [Hype Cycle for Blockchain, 2021](https://www.gartner.com/interactive/hc/4003463?ref=solrAll&refval=294127736&_ga=2.268015182.1939495037.1642383452-1574680864.1641226041)**.**_
