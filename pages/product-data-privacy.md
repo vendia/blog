@@ -25,14 +25,14 @@ components:
     intro:
       text: ""
       title: Data privacy — by default
-    theme: white
+    theme: light
     maxColumns: "3"
     columns:
       - text: >-
-          ### Immutable tamper-proof ledger
+          ### Immutable, tamperproof ledger
 
 
-          Vendia Share's immutable ledger provides a tamper-proof and complete lineage of your data. Enabling you to know quickly and accurately audit across your partner ecosystem.
+          Vendia Share's immutable ledger provides a tamperproof and complete lineage of your data. Enabling you to know quickly and accurately audit across your partner ecosystem.
         wrapTheColumnInACard: false
       - text: >-
           ### Sophisticated access controls
@@ -51,7 +51,7 @@ seo:
   title: Vendia Share's approach to data privacy
 createdBy: Caroll Casbeer
 createdAt: 2023-04-14T20:41:42.432Z
-updatedBy: Caroll Casbeer
-updatedAt: 2023-04-14T20:45:01.664Z
+updatedBy: alexa-vendia
+updatedAt: 2023-04-14T20:51:27.029Z
 id: 1870443c-8065-4b40-96c7-a518b8c65f48
 ---
