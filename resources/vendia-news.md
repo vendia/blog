@@ -15,8 +15,8 @@ components:
         lavender platform with a white Vendia Share logo on it; the image is
         offset 45 degrees left of center to give it a 3D view
   - type: HubspotForm
-    text: Stay connected to Vendia for the latest Vendia Share feature releases, IT
-      and innovation thought leadership, customer stories, and company news.
+    text: Stay connected to Vendia for the latest Vendia Share feature releases,
+      thought leadership, customer stories, and company news.
     theme: white
     formTitle: ""
     formId: 5f9afabe-023f-4431-ac5f-ac9fcf170acd
@@ -26,8 +26,8 @@ seo:
     releases, thought leadership, customer stories, and company news.
   noindex: true
 createdBy: alexa-vendia
-createdAt: 2023-04-14T19:56:25.218Z
+createdAt: 2023-04-14T19:57:12.971Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-14T19:56:25.218Z
+updatedAt: 2023-04-14T19:57:12.971Z
 id: 0473d06a-4c8d-4721-be3c-4dc27d543bc9
 ---
