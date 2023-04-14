@@ -91,6 +91,10 @@
     "file": "/pages/privacy-policy.md",
     "draft": false
   },
+  "product/data-privacy": {
+    "file": "/pages/product-data-privacy.md",
+    "draft": true
+  },
   "product/diy-vs-vendia": {
     "file": "/pages/product-diy-vs-vendia.md",
     "draft": false
