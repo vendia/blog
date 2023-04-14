@@ -25,7 +25,7 @@ seo:
     what it’s like to be a part of Vendia.
   title: "Team spotlight: Vendia Engineering"
 sidebarCta:
-  - d9bbe106-8c72-4f2e-a55d-d4c53073653f
+  - 279a6a64-111a-4ff1-a04b-60d2625d54d4
 tweet: Learn about the engineering team at Vendia!
 createdBy: ""
 createdAt: ""
