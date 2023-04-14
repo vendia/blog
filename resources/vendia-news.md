@@ -13,8 +13,6 @@ components:
       Stay connected for the latest Vendia Share feature releases, thought leadership, customer stories, and company news.
 
 
-
-
       <HubSpotForm formId="5f9afabe-023f-4431-ac5f-ac9fcf170acd" />
     theme: white
     image:
@@ -27,6 +25,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-14T19:57:12.971Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-14T21:17:22.968Z
+updatedAt: 2023-04-14T21:21:39.295Z
 id: 0473d06a-4c8d-4721-be3c-4dc27d543bc9
 ---
