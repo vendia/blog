@@ -3,11 +3,11 @@
   "text": "Sign up for our newsletter for the latest feature releases, thought leadership, customer stories, and company news.",
   "createdBy": "alexa-vendia",
   "createdAt": "2023-04-14T16:01:36.896Z",
-  "updatedBy": "alexa-vendia",
-  "updatedAt": "2023-04-14T17:10:31.776Z",
+  "updatedBy": "David Wells",
+  "updatedAt": "2023-04-14T20:23:00.161Z",
   "id": "279a6a64-111a-4ff1-a04b-60d2625d54d4",
   "button": {
     "label": "Subscribe",
-    "url": "vendia-news"
+    "url": "/resources/vendia-news"
   }
 }
