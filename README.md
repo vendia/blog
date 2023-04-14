@@ -371,7 +371,7 @@ Welcome to the Vendia blog repo!
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://www.vendia.com/blog/author/vendia-engineering"><sup><sub>Vendia Engineering</sub></sup></a>
+      <a href="https://github.com/vendia"><sup><sub>Vendia Engineering</sub></sup></a>
    </td>
 </tr>
 </table>
