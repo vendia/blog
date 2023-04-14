@@ -44,7 +44,7 @@ components:
           ### Secure at rest and in motion
 
 
-          Our serverless distributed ledger and secure infrastructure stack goes beyond 'encrypted at rest and in motion,' resulting in verifiable guarantees around data accuracy and resilience, so you know your data is safe at all times.
+          Our serverless distributed ledger and secure infrastructure stack goes beyond "encrypted at rest and in motion." Get verifiable guarantees around data accuracy and resilience, so you know your data is safe at all times.
         wrapTheColumnInACard: false
 seo:
   noindex: false
@@ -52,6 +52,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-04-14T20:41:42.432Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-14T20:53:23.735Z
+updatedAt: 2023-04-14T20:54:17.420Z
 id: 1870443c-8065-4b40-96c7-a518b8c65f48
 ---
