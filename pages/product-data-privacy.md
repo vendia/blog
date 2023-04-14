@@ -35,7 +35,7 @@ components:
           Vendia Share's immutable ledger provides a tamper-proof and complete lineage of your data. Enabling you to know quickly and accurately audit across your partner ecosystem.
         wrapTheColumnInACard: false
       - text: >-
-          ### Secure access controls
+          ### Sophisticated access controls
 
 
           Share's role-based access controls enable teams to securely share data across their organizations *and their partner networks.* Users can finely scope read and write permissions for their entire data ecosystem.
@@ -44,7 +44,7 @@ components:
           ### Secure at rest and in motion
 
 
-          Combined with our secure infrastructure stack, goes beyond 'encrypted at rest and in motion,' resulting in verifiable guarantees around data accuracy and resilience, so you know your data is safe at all times.
+          Our serverless distributed ledger and secure infrastructure stack goes beyond 'encrypted at rest and in motion,' resulting in verifiable guarantees around data accuracy and resilience, so you know your data is safe at all times.
         wrapTheColumnInACard: false
 seo:
   noindex: false
@@ -52,6 +52,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-04-14T20:41:42.432Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-04-14T20:41:42.432Z
+updatedAt: 2023-04-14T20:45:01.664Z
 id: 1870443c-8065-4b40-96c7-a518b8c65f48
 ---
