@@ -1,13 +1,14 @@
 {
+  "github": "vendia",
   "bio": {
     "short": "Vendia Engineering Team",
     "long": "Vendia's team of ingenuitive, world-class engineers hail from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more."
   },
-  "github": "vendia",
   "name": "Vendia Engineering",
-  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png",
-  "updatedAt": "2023-04-13T20:59:50.354Z",
+  "updatedAt": "2023-04-17T17:58:54.137Z",
   "updatedBy": "alexa-vendia",
-  "createdBy": "alexa-vendia",
-  "createdAt": "2023-04-13T20:59:50.354Z"
+  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png",
+  "jobTitle": "Engineering",
+  "createdAt": "2023-04-13T20:59:50.354Z",
+  "createdBy": "alexa-vendia"
 }
