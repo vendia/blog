@@ -1,13 +1,15 @@
 {
-  "name": "Tim Wagner",
   "github": "serverlessunicorn",
+  "bio": {
+    "short": "Vendia co-founder and CEO",
+    "long": "**Tim is a co-founder and the Chief Executive Officer at Vendia.** Known as the \"Father of Serverless,\" Tim started the Serverless movement when he created the AWS Lambda business and technology in 2012."
+  },
+  "name": "Tim Wagner",
+  "updatedAt": "2023-04-17T18:22:46.160Z",
+  "updatedBy": "alexa-vendia",
   "twitter": "timallenwagner",
   "avatar": "https://avatars3.githubusercontent.com/u/54867311?s=400",
-  "bio": {
-    "short": "Vendia CEO and co-founder",
-    "long": "Dr. Tim Wagner started the Serverless movement when he created the AWS Lambda business and technology in 2012. His mission then, as now, was to make the creation of enterprise IT solutions easy, fast, and secure. After AWS, Dr. Wagner served as VP of Engineering at Coinbase, where he oversaw the largest mission-critical fleet of distributed ledgers in the US. Dr. Wagner continues to explore business and technology innovations, speaking frequently at conferences"
-  },
-  "jobTitle": "CEO",
-  "updatedAt": "2022-11-15T21:57:25.626Z",
-  "updatedBy": "David Wells"
+  "jobTitle": "Founder, Chief Executive Officer",
+  "createdAt": "2023-04-17T18:22:46.160Z",
+  "createdBy": "alexa-vendia"
 }
