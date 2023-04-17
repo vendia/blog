@@ -1,13 +1,15 @@
 {
-  "name": "Hailey Nevins",
   "github": "hnevins",
-  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png",
   "bio": {
-    "short": "Hailey Nevins is Head of Design at Vendia.",
-    "long": ""
+    "short": "Design",
+    "long": "**Hailey leads as Head of Design.** A passionate user experience designer, Hailey’s expertise extends programming, UX design, UI design, graphic design, motion graphics and animation. She loves mentoring emerging designers and enjoys reading the latest, greatest fantasy and science fiction."
   },
+  "name": "Hailey Nevins",
+  "updatedAt": "2023-04-17T18:07:27.608Z",
+  "updatedBy": "alexa-vendia",
+  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png",
   "jobTitle": "Head of Design",
-  "linkedin": "https://www.linkedin.com/in/haileynevins/",
-  "updatedAt": "2022-12-02T23:52:24.818Z",
-  "updatedBy": "alexa-vendia"
+  "createdAt": "2023-04-17T18:07:27.608Z",
+  "linkedin": "",
+  "createdBy": "alexa-vendia"
 }
