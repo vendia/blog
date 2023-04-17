@@ -1,13 +1,15 @@
 {
-  "name": "David McElligott",
   "github": "david-vendia",
-  "twitter": "damcelligott",
-  "avatar": "https://avatars.githubusercontent.com/u/113389580?v=4",
   "bio": {
-    "short": "Solutions Architect",
-    "long": "David likes helping customers solve hard problems, building fun solutions to life's little problems, and enjoying time outdoors with his wife and son."
+    "short": "Sr. Solutions Architect",
+    "long": "**David is a Senior Solutions Architect** who likes helping customers solve hard problems, building fun solutions to life's little problems, and enjoying time outdoors with his wife and son."
   },
+  "name": "David McElligott",
+  "updatedAt": "2023-04-17T17:42:09.458Z",
+  "updatedBy": "alexa-vendia",
+  "twitter": "",
+  "avatar": "https://avatars.githubusercontent.com/u/113389580?v=4",
   "jobTitle": "Sr. Solutions Architect",
-  "updatedAt": "2022-12-16T21:46:32.808Z",
-  "updatedBy": "alexa-vendia"
+  "createdAt": "2023-04-17T17:42:09.458Z",
+  "createdBy": "alexa-vendia"
 }
