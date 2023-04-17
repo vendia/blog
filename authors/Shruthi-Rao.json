@@ -1,12 +1,15 @@
 {
-  "name": "Shruthi Rao",
   "github": "shruthialways",
-  "twitter": "shruthialways",
-  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png",
   "bio": {
     "short": "Vendia Co-Founder and CBO",
-    "long": "Shruthi has been at the crux of innovation in multiple industries throughout her career, which served as a starting point to customer empathy. At AWS, Shruthi led over 1,000 customer conversations to solve the multi-party and cross-cloud data and code aggregation problem using Blockchains. She quickly realized that legacy blockchains were not suitable due to their high cost, low scalability, and complex enterprise integrations. Shruthi is a first generation Indian immigrant, mother to a 5 year old boy and frequently speaks at various conferences."
+    "long": "**Shruthi is a co-founder and the Chief Business Officer at Vendia.**"
   },
-  "updatedAt": "2023-01-05T22:43:33.350Z",
-  "updatedBy": "David Wells"
+  "name": "Shruthi Rao",
+  "updatedAt": "2023-04-17T18:17:52.677Z",
+  "updatedBy": "alexa-vendia",
+  "twitter": "",
+  "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png",
+  "jobTitle": "Founder, Chief Business Officer",
+  "createdAt": "2023-04-17T18:17:52.678Z",
+  "createdBy": "alexa-vendia"
 }
