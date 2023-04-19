@@ -201,13 +201,6 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/anders-vendia"><sup><sub>Anders Maul</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/brett-andrews">
-        <img src="https://avatars1.githubusercontent.com/u/1882775?s=400" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/AWSbrett"><sup><sub>Brett Andrews</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/brian-mcnamara">
         <img src="https://avatars1.githubusercontent.com/u/17259?s=400&v=4" width="76px;" alt=""/>
       </a>
@@ -222,48 +215,18 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/caroll-vendia"><sup><sub>Caroll Casbeer</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/cory-forsythe">
-        <img src="https://avatars.githubusercontent.com/u/75388221?s=460&u=8aaa50f857af65ce078929576049c0975ec6ffaa&v=4" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/vendiansa"><sup><sub>Cory Forsythe</sub></sup></a>
-  </td>
-  <td align="center">
-      <a href="https://www.vendia.com/blog/author/david-brown">
-        <img src="https://avatars.githubusercontent.com/u/92179243?s=400" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/DavidBr47724582"><sup><sub>David Brown</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/david-mcelligott">
         <img src="https://avatars.githubusercontent.com/u/113389580?v=4" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://twitter.com/damcelligott"><sup><sub>David McElligott</sub></sup></a>
+      <a href="https://github.com/david-vendia"><sup><sub>David McElligott</sub></sup></a>
   </td>
-  <td align="center">
-      <a href="https://www.vendia.com/blog/author/david-wells">
-        <img src="https://avatars2.githubusercontent.com/u/532272?v=3&s=400" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/DavidWells"><sup><sub>David Wells</sub></sup></a>
-  </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/francine-klein">
         <img src="https://avatars.githubusercontent.com/u/105127677?s=400&u=e2ad96f3458ea05767b15d8372ada969c3a16ece&v=4" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/francine-vendia"><sup><sub>Francine Klein</sub></sup></a>
-  </td>
-  <td align="center">
-      <a href="https://www.vendia.com/blog/author/gavin-yue">
-        <img src="https://user-images.githubusercontent.com/6691035/210914364-9a797953-9be0-4393-bb5a-05c17e375c51.png" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://github.com/gavinyue-vendia"><sup><sub>Gavin Yue</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/glenn-dierkes">
@@ -286,6 +249,8 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://twitter.com/JakePartusch"><sup><sub>Jake Partusch</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/james-gimourginas">
         <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="76px;" alt=""/>
@@ -294,21 +259,12 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/james-vendia"><sup><sub>James Gimourginas</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/joydeep-das">
-        <img src="https://avatars.githubusercontent.com/u/98058931" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/joydeep02263451"><sup><sub>Joydeep Das</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/renee-fujji">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670279895/Headshots/Renee_Fujii_mug_1_-_Renee_Fujii_a26k26.jpg" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/renee-vendia"><sup><sub>Renee Fujii</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/ryan-green">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958584/Headshots/ryanGreen_gnddrp.png" width="76px;" alt=""/>
@@ -317,18 +273,11 @@ Welcome to the Vendia blog repo!
       <a href="https://twitter.com/robotpatch"><sup><sub>Ryan Green</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/ryan-scott-brown">
-        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958560/Headshots/rsb_lpasf1.png" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/ryan_sb"><sup><sub>Ryan Scott Brown</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/shruthi-rao">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png" width="76px;" alt=""/>
       </a>
       <br />
-      <a href="https://twitter.com/shruthialways"><sup><sub>Shruthi Rao</sub></sup></a>
+      <a href="https://github.com/shruthialways"><sup><sub>Shruthi Rao</sub></sup></a>
   </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/tim-wagner">
@@ -345,19 +294,21 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/vikrant-vendia"><sup><sub>Vikrant Kahlir</sub></sup></a>
   </td>
   <td align="center">
+      <a href="https://www.vendia.com/blog/author/alex-vukovic">
+        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1681756309/Headshots/Alex_Vukovic_headshot_mlsyw2.jpg" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://github.com/AVukovic-Vendia"><sup><sub>Alex Vukovic</sub></sup></a>
+  </td>
+  <td align="center">
       <a href="https://www.vendia.com/blog/author/alexa-johnson">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/alexa-vendia"><sup><sub>Alexa Johnson</sub></sup></a>
   </td>
-  <td align="center">
-      <a href="https://www.vendia.com/blog/author/ben-steward">
-        <img src="https://vendia.com/images/illustrations/ben.png" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://www.vendia.com/blog/author/ben-steward"><sup><sub>Ben Steward</sub></sup></a>
-  </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/li-dai">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg" width="76px;" alt=""/>
@@ -365,8 +316,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://github.com/li-vendia"><sup><sub>Li Dai</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/vendia-engineering">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png" width="76px;" alt=""/>

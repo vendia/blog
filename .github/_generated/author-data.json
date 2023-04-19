@@ -1,29 +1,22 @@
 {
   "slugs": [
     "anders-maul",
-    "brett-andrews",
     "brian-mcnamara",
     "caroll-casbeer",
-    "cory-forsythe",
-    "david-brown",
     "david-mcelligott",
-    "david-wells",
     "francine-klein",
-    "gavin-yue",
     "glenn-dierkes",
     "hailey-nevins",
     "jake-partusch",
     "james-gimourginas",
-    "joydeep-das",
     "renee-fujji",
     "ryan-green",
-    "ryan-scott-brown",
     "shruthi-rao",
     "tim-wagner",
     "vendia",
     "vikrant-kahlir",
+    "alex-vukovic",
     "alexa-johnson",
-    "ben-steward",
     "li-dai",
     "vendia-engineering"
   ],
@@ -31,39 +24,29 @@
     {
       "github": "anders-vendia",
       "bio": {
-        "short": "Anders likes building things, travel, and word plays.",
-        "long": ""
+        "short": "Product Marketing",
+        "long": "**Anders joined Vendia as a product marketer.** With a passion for positioning, messaging strategy, and all things go-to-market, Anders loves building things. He also loves impromptu travel, fresh lobster rolls, and wordplay."
       },
       "name": "Anders Maul",
-      "updatedAt": "2023-01-05T22:36:48.580Z",
-      "updatedBy": "David Wells",
+      "updatedAt": "2023-04-17T17:59:17.223Z",
+      "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958196/Headshots/anders_viun0t.png",
-      "jobTitle": "Head of Product Marketing",
-      "linkedin": "https://www.linkedin.com/in/andersmaul/",
+      "jobTitle": "Product Marketing",
+      "createdAt": "2023-04-17T17:55:09.938Z",
+      "linkedin": "",
+      "createdBy": "alexa-vendia",
       "slug": "anders-maul",
       "postCount": 4
-    },
-    {
-      "name": "Brett Andrews",
-      "github": "brettstack",
-      "twitter": "AWSbrett",
-      "avatar": "https://avatars1.githubusercontent.com/u/1882775?s=400",
-      "bio": {
-        "short": "Full Stack Developer",
-        "long": "Brett Andrews spends his days building Serverless systems on AWS with JAMStack clients"
-      },
-      "slug": "brett-andrews",
-      "postCount": 0
     },
     {
       "github": "mcnamarabrian",
       "bio": {
         "short": "",
-        "long": "**Brian joined Vendia as a Solutions Architect** focused on helping customers develop products and services using the Vendia Share platform. Before joining Vendia, Brian worked as a Serverless Solutions Architect at Amazon Web Services (AWS). H loves helping startups and enterprises alike as we solve big, hard problems like infrastructure automation challenges."
+        "long": "**Brian joined Vendia as a Solutions Architect** focused on helping customers develop products and services using the Vendia Share platform. He loves helping startups and enterprises alike as we solve big, hard problems like infrastructure automation challenges."
       },
       "name": "Brian McNamara",
-      "updatedAt": "2023-04-13T20:38:48.623Z",
+      "updatedAt": "2023-04-17T17:51:08.772Z",
       "updatedBy": "alexa-vendia",
       "twitter": "mcnamarabrian",
       "avatar": "https://avatars1.githubusercontent.com/u/17259?s=400&v=4",
@@ -76,99 +59,55 @@
     {
       "github": "caroll-vendia",
       "bio": {
-        "short": "Marketer",
+        "short": "Growth Marketing",
         "long": "**Caroll leads as the Head of Growth Marketing**. She's built growth engines and teams for startups, big tech, and nonprofits alike. Caroll loves puzzles, reading fiction, and long walks. She may be 65 or 35, hard to say."
       },
       "name": "Caroll Casbeer",
-      "updatedAt": "2023-04-13T20:42:19.070Z",
+      "updatedAt": "2023-04-17T17:59:45.874Z",
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/98492452?s=400&u=c91cef4b5fbc788c7deff182e4eaae5eb9d0b530&v=4",
       "jobTitle": "Head of Growth",
       "createdAt": "2023-04-13T20:42:19.070Z",
-      "linkedin": "https://www.linkedin.com/in/carollc/",
+      "linkedin": "",
       "createdBy": "alexa-vendia",
       "slug": "caroll-casbeer",
       "postCount": 9
     },
     {
-      "name": "Cory Forsythe",
-      "github": "cory-vendia",
-      "twitter": "vendiansa",
-      "avatar": "https://avatars.githubusercontent.com/u/75388221?s=460&u=8aaa50f857af65ce078929576049c0975ec6ffaa&v=4",
-      "bio": {
-        "short": "Solutions Architect",
-        "long": "Cory is a Solutions Architect focusing on customer enablement. Cory previously worked as a Serverless Specialist at AWS. With a background in Software Development, Networking, and Consulting, he is eager to hear about your exciting uses cases for Vendia products."
-      },
-      "slug": "cory-forsythe",
-      "postCount": 0
-    },
-    {
-      "name": "David Brown",
-      "github": "db-vendia",
-      "twitter": "DavidBr47724582",
-      "avatar": "https://avatars.githubusercontent.com/u/92179243?s=400",
-      "bio": {
-        "short": "Principal Product Manager",
-        "long": "David is a principal product manager at Vendia focusing on amazing features for Vendia Share. Prior to Vendia, David was a product manager at AWS focusing on serverless edge computing."
-      },
-      "slug": "david-brown",
-      "postCount": 0
-    },
-    {
-      "name": "David McElligott",
       "github": "david-vendia",
-      "twitter": "damcelligott",
-      "avatar": "https://avatars.githubusercontent.com/u/113389580?v=4",
       "bio": {
-        "short": "Solutions Architect",
-        "long": "David likes helping customers solve hard problems, building fun solutions to life's little problems, and enjoying time outdoors with his wife and son."
+        "short": "Solutions Architecture",
+        "long": "**David is a Senior Solutions Architect** who likes helping customers solve hard problems, building fun solutions to life's little problems, and enjoying time outdoors with his wife and son."
       },
-      "jobTitle": "Sr. Solutions Architect",
-      "updatedAt": "2022-12-16T21:46:32.808Z",
+      "name": "David McElligott",
+      "updatedAt": "2023-04-17T18:00:03.838Z",
       "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://avatars.githubusercontent.com/u/113389580?v=4",
+      "jobTitle": "Sr. Solutions Architect",
+      "createdAt": "2023-04-17T17:42:09.458Z",
+      "createdBy": "alexa-vendia",
       "slug": "david-mcelligott",
-      "postCount": 0
-    },
-    {
-      "name": "David Wells",
-      "github": "DavidWells",
-      "twitter": "DavidWells",
-      "avatar": "https://avatars2.githubusercontent.com/u/532272?v=3&s=400",
-      "bio": {
-        "short": "Full stack dev",
-        "long": "David is a Full Stack Engineer focused on serverless architectures, user experience, and product development."
-      },
-      "slug": "david-wells",
       "postCount": 0
     },
     {
       "github": "francine-vendia",
       "bio": {
-        "short": "",
-        "long": "**Francine is a Sr. Solutions Architect** who enjoys all things data — and she has the personal library collection to prove it. Francine particularly loves to empower companies building data-driven solutions with the right design, architecture, tools, processes, and, of course, people. Catch her as a frequent voice with guests in the Circles of Trust podcast."
+        "short": "Solutions Architecture",
+        "long": "**Francine is a Senior Solutions Architect** who enjoys all things data — and she has the personal library collection to prove it. Francine particularly loves to empower companies building data-driven solutions with the right design, architecture, tools, processes, and, of course, people. Catch her as a frequent voice with guests in the Circles of Trust podcast."
       },
       "name": "Francine Klein",
-      "updatedAt": "2023-01-18T23:09:34.194Z",
+      "updatedAt": "2023-04-17T18:00:33.189Z",
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/105127677?s=400&u=e2ad96f3458ea05767b15d8372ada969c3a16ece&v=4",
-      "jobTitle": "Sr. Solutions Architect",
-      "linkedin": "https://www.linkedin.com/in/francine-klein-31a99834/",
+      "jobTitle": "Senior Solutions Architect",
+      "createdAt": "2023-04-17T18:00:33.189Z",
+      "linkedin": "",
+      "createdBy": "alexa-vendia",
       "slug": "francine-klein",
       "postCount": 7
-    },
-    {
-      "name": "Gavin Yue",
-      "github": "gavinyue-vendia",
-      "twitter": "",
-      "avatar": "https://user-images.githubusercontent.com/6691035/210914364-9a797953-9be0-4393-bb5a-05c17e375c51.png",
-      "bio": {
-        "short": "Core engineer",
-        "long": "Gavin Yue is a core engineer working on design and development of ServerLess and blockchain based systems"
-      },
-      "slug": "gavin-yue",
-      "postCount": 0
     },
     {
       "name": "Glenn Dierkes",
@@ -182,17 +121,19 @@
       "postCount": 0
     },
     {
-      "name": "Hailey Nevins",
       "github": "hnevins",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png",
       "bio": {
-        "short": "Hailey Nevins is Head of Design at Vendia.",
-        "long": ""
+        "short": "Design",
+        "long": "**Hailey leads as Head of Design.** A passionate user experience designer, Hailey’s expertise extends programming, UX design, UI design, graphic design, motion graphics and animation. She loves mentoring emerging designers and enjoys reading the latest, greatest fantasy and science fiction."
       },
-      "jobTitle": "Head of Design",
-      "linkedin": "https://www.linkedin.com/in/haileynevins/",
-      "updatedAt": "2022-12-02T23:52:24.818Z",
+      "name": "Hailey Nevins",
+      "updatedAt": "2023-04-17T18:07:27.608Z",
       "updatedBy": "alexa-vendia",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png",
+      "jobTitle": "Head of Design",
+      "createdAt": "2023-04-17T18:07:27.608Z",
+      "linkedin": "",
+      "createdBy": "alexa-vendia",
       "slug": "hailey-nevins",
       "postCount": 2
     },
@@ -225,29 +166,19 @@
       "postCount": 20
     },
     {
-      "name": "Joydeep Das",
-      "github": "joydeep-vendia",
-      "twitter": "joydeep02263451",
-      "avatar": "https://avatars.githubusercontent.com/u/98058931",
-      "bio": {
-        "short": "VP, Product",
-        "long": "Joydeep is a Product Manager at Vendia focused on creating a B2B data sharing service. Vendia helps customers collaborate with their business partners using Smart APIs for data sharing. Joydeep has been championing the cause of data products for more than a decade - initially as an engineer and then as a product manager."
-      },
-      "slug": "joydeep-das",
-      "postCount": 0
-    },
-    {
-      "name": "Renee Fujii",
       "github": "renee-vendia",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670279895/Headshots/Renee_Fujii_mug_1_-_Renee_Fujii_a26k26.jpg",
       "bio": {
-        "short": "",
-        "long": "Renee loves her two dogs, putting together costumes, and helping recruit brillant Kind Humans to Vendia."
+        "short": "Human Resources",
+        "long": "**Renee leads as Head of Talent.** She’s as passionate about matching brilliant, kind humans to the perfect role at Vendia as she is about building efficient, scalable practices. She also loves Broadway musicals, pizza, dogs of all sizes, and public libraries."
       },
-      "jobTitle": "Head of Talent",
-      "linkedin": "https://www.linkedin.com/in/reneefujii/",
-      "updatedAt": "2022-12-05T22:39:38.667Z",
+      "name": "Renee Fujii",
+      "updatedAt": "2023-04-17T18:13:22.460Z",
       "updatedBy": "alexa-vendia",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670279895/Headshots/Renee_Fujii_mug_1_-_Renee_Fujii_a26k26.jpg",
+      "jobTitle": "Head of Talent",
+      "createdAt": "2023-04-17T18:13:22.460Z",
+      "linkedin": "",
+      "createdBy": "alexa-vendia",
       "slug": "renee-fujji",
       "postCount": 0
     },
@@ -266,45 +197,36 @@
       "postCount": 1
     },
     {
-      "name": "Ryan Scott Brown",
-      "github": "ryansb",
-      "twitter": "ryan_sb",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958560/Headshots/rsb_lpasf1.png",
-      "bio": {
-        "short": "Core Software Engineer",
-        "long": "Ryan is a Python software engineer and AWS Solutions architect with a background in operations, infrastructure tooling, and serverless."
-      },
-      "updatedAt": "2023-01-05T22:42:48.654Z",
-      "updatedBy": "David Wells",
-      "slug": "ryan-scott-brown",
-      "postCount": 0
-    },
-    {
-      "name": "Shruthi Rao",
       "github": "shruthialways",
-      "twitter": "shruthialways",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png",
       "bio": {
-        "short": "Vendia Co-Founder and CBO",
-        "long": "Shruthi has been at the crux of innovation in multiple industries throughout her career, which served as a starting point to customer empathy. At AWS, Shruthi led over 1,000 customer conversations to solve the multi-party and cross-cloud data and code aggregation problem using Blockchains. She quickly realized that legacy blockchains were not suitable due to their high cost, low scalability, and complex enterprise integrations. Shruthi is a first generation Indian immigrant, mother to a 5 year old boy and frequently speaks at various conferences."
+        "short": "Vendia co-Founder and CBO",
+        "long": "**Shruthi is a co-founder and the Chief Business Officer at Vendia.**"
       },
-      "updatedAt": "2023-01-05T22:43:33.350Z",
-      "updatedBy": "David Wells",
+      "name": "Shruthi Rao",
+      "updatedAt": "2023-04-17T18:20:50.827Z",
+      "updatedBy": "alexa-vendia",
+      "twitter": "",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png",
+      "jobTitle": "Founder, Chief Business Officer",
+      "createdAt": "2023-04-17T18:17:52.678Z",
+      "createdBy": "alexa-vendia",
       "slug": "shruthi-rao",
       "postCount": 4
     },
     {
-      "name": "Tim Wagner",
       "github": "serverlessunicorn",
+      "bio": {
+        "short": "Vendia co-founder and CEO",
+        "long": "**Tim is a co-founder and the Chief Executive Officer at Vendia.** Known as the \"Father of Serverless,\" Tim started the Serverless movement when he created the AWS Lambda business and technology in 2012."
+      },
+      "name": "Tim Wagner",
+      "updatedAt": "2023-04-17T18:22:46.160Z",
+      "updatedBy": "alexa-vendia",
       "twitter": "timallenwagner",
       "avatar": "https://avatars3.githubusercontent.com/u/54867311?s=400",
-      "bio": {
-        "short": "Vendia CEO and co-founder",
-        "long": "Dr. Tim Wagner started the Serverless movement when he created the AWS Lambda business and technology in 2012. His mission then, as now, was to make the creation of enterprise IT solutions easy, fast, and secure. After AWS, Dr. Wagner served as VP of Engineering at Coinbase, where he oversaw the largest mission-critical fleet of distributed ledgers in the US. Dr. Wagner continues to explore business and technology innovations, speaking frequently at conferences"
-      },
-      "jobTitle": "CEO",
-      "updatedAt": "2022-11-15T21:57:25.626Z",
-      "updatedBy": "David Wells",
+      "jobTitle": "Founder, Chief Executive Officer",
+      "createdAt": "2023-04-17T18:22:46.160Z",
+      "createdBy": "alexa-vendia",
       "slug": "tim-wagner",
       "postCount": 54
     },
@@ -328,17 +250,35 @@
       "github": "vikrant-vendia",
       "bio": {
         "short": "",
-        "long": "Vikrant is a Solutions Architect helping customers automate and accelerate their data workflows across business networks using Vendia Share. Prior to Vendia, Vikrant worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
+        "long": "**Vikrant joined Vendia as a Solutions Architect.** Prior to Vendia, he worked as a Principal Solutions Architect at Amazon Web Services (AWS). At AWS, he worked on several large scale Digital Transformation programs and authored new solutions for HCLS, Auto, and Manufacturing."
       },
       "name": "Vikrant Kahlir",
-      "updatedAt": "2022-12-05T22:35:35.963Z",
+      "updatedAt": "2023-04-17T17:58:06.309Z",
       "updatedBy": "alexa-vendia",
       "twitter": "",
       "avatar": "https://avatars.githubusercontent.com/u/96793170",
-      "jobTitle": "Principal Tech Lead, Data and Web3",
-      "linkedin": "https://www.linkedin.com/in/vikrantkahlir/",
+      "jobTitle": "Solutions Architecture",
+      "createdAt": "2023-04-17T17:58:06.309Z",
+      "linkedin": "",
+      "createdBy": "alexa-vendia",
       "slug": "vikrant-kahlir",
       "postCount": 9
+    },
+    {
+      "github": "AVukovic-Vendia",
+      "bio": {
+        "short": "Solutions Architecture",
+        "long": "**Alex is a Solutions Specialist** and an avid learner who loves to use new technology to solve old problems. He brings experience in developing data warehousing tools as well as solutions engineering to help empower customers big and small. He also bakes an amazing lasagne."
+      },
+      "name": "Alex Vukovic",
+      "updatedAt": "2023-04-17T18:32:08.717Z",
+      "updatedBy": "alexa-vendia",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1681756309/Headshots/Alex_Vukovic_headshot_mlsyw2.jpg",
+      "jobTitle": "Solutions Specialist",
+      "createdAt": "2023-04-17T18:32:08.717Z",
+      "createdBy": "alexa-vendia",
+      "slug": "alex-vukovic",
+      "postCount": 0
     },
     {
       "github": "alexa-vendia",
@@ -357,50 +297,36 @@
       "postCount": 2
     },
     {
-      "name": "Ben Steward",
-      "jobTitle": "Managing Director, Financial Services",
-      "linkedin": "bdsteward",
-      "email": "ben@vendia.com",
-      "github": "",
-      "hubspotMeeting": "https://meetings.hubspot.com/shruthi1/2023-reinvent-coffee-website",
-      "avatar": "https://vendia.com/images/illustrations/ben.png",
-      "updatedAt": "2022-11-14T18:19:33.006Z",
-      "updatedBy": "Hugues Tennier",
-      "bio": {
-        "short": "Managing Director, Financial Services",
-        "long": ""
-      },
-      "slug": "ben-steward",
-      "postCount": 0
-    },
-    {
       "github": "li-vendia",
       "bio": {
-        "short": "Li Dai loves helping customers adopt the lastest innovative technologies. When not working on his own entrepreneurial efforts and mentoring he likes spending time with his family and learning new skills. ",
-        "long": ""
+        "short": "Solutions Architecture",
+        "long": "**Li is a Solutions Architect.** He loves helping customers adopt the lastest innovative technologies. When not working on his own entrepreneurial efforts and mentoring, he likes spending time with his family and learning new skills."
       },
       "name": "Li Dai",
-      "updatedAt": "2022-12-01T19:29:59.940Z",
-      "updatedBy": "Li Dai",
+      "updatedAt": "2023-04-17T18:26:55.729Z",
+      "updatedBy": "alexa-vendia",
       "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg",
-      "jobTitle": "Solution Architect",
-      "email": "li@vendia.com",
-      "linkedin": "https://www.linkedin.com/in/li-dai-vet/",
+      "jobTitle": "Solutions Architect",
+      "createdAt": "2023-04-17T18:26:55.729Z",
+      "email": "",
+      "linkedin": "",
+      "createdBy": "alexa-vendia",
       "slug": "li-dai",
       "postCount": 2
     },
     {
+      "github": "vendia",
       "bio": {
         "short": "Vendia Engineering Team",
         "long": "Vendia's team of ingenuitive, world-class engineers hail from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more."
       },
-      "github": "vendia",
       "name": "Vendia Engineering",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png",
-      "updatedAt": "2023-04-13T20:59:50.354Z",
+      "updatedAt": "2023-04-17T17:58:54.137Z",
       "updatedBy": "alexa-vendia",
-      "createdBy": "alexa-vendia",
+      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png",
+      "jobTitle": "Engineering",
       "createdAt": "2023-04-13T20:59:50.354Z",
+      "createdBy": "alexa-vendia",
       "slug": "vendia-engineering",
       "postCount": 2
     }
