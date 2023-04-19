@@ -266,13 +266,6 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/renee-vendia"><sup><sub>Renee Fujii</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/ryan-green">
-        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958584/Headshots/ryanGreen_gnddrp.png" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/robotpatch"><sup><sub>Ryan Green</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/shruthi-rao">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png" width="76px;" alt=""/>
       </a>
@@ -307,8 +300,6 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://github.com/alexa-vendia"><sup><sub>Alexa Johnson</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/li-dai">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg" width="76px;" alt=""/>
@@ -316,6 +307,8 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://github.com/li-vendia"><sup><sub>Li Dai</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/vendia-engineering">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png" width="76px;" alt=""/>

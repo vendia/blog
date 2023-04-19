@@ -10,7 +10,6 @@
     "jake-partusch",
     "james-gimourginas",
     "renee-fujji",
-    "ryan-green",
     "shruthi-rao",
     "tim-wagner",
     "vendia",
@@ -183,20 +182,6 @@
       "postCount": 0
     },
     {
-      "name": "Ryan Green",
-      "github": "rpgreen",
-      "twitter": "robotpatch",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958584/Headshots/ryanGreen_gnddrp.png",
-      "bio": {
-        "short": "Senior software engineer",
-        "long": "Ryan Green is a professional software engineer with over 13 years of experience building large-scale, highly-available cloud systems and SaaS applications with a focus on serverless and cloud-native architecture, DevOps, scalability, and security. Ryan contributed to several foundational serverless technologies at Amazon Web Services where he was a founding engineer on Amazon API Gateway and AWS Lambda. In his spare time, Ryan enjoys traveling and enjoying the outdoors with his family, mountain biking, skiing, and cooking."
-      },
-      "updatedAt": "2023-01-05T22:43:13.790Z",
-      "updatedBy": "David Wells",
-      "slug": "ryan-green",
-      "postCount": 1
-    },
-    {
       "github": "shruthialways",
       "bio": {
         "short": "Vendia co-Founder and CBO",
@@ -328,7 +313,7 @@
       "createdAt": "2023-04-13T20:59:50.354Z",
       "createdBy": "alexa-vendia",
       "slug": "vendia-engineering",
-      "postCount": 2
+      "postCount": 3
     }
   ]
 }

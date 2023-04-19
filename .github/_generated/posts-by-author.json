@@ -3661,6 +3661,16 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-04-13T21:05:29.711Z",
       "id": "789c617b-e018-43fd-86f3-2be90de9797f"
+    },
+    {
+      "title": "How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure",
+      "date": "2021-02-08",
+      "authors": [
+        "Vendia Engineering"
+      ],
+      "description": "How Vendia uses the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers.",
+      "url": "https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure",
+      "publication": "AWS Developer Blog"
     }
   ],
   "brian-mcnamara": [
@@ -3853,18 +3863,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-03-30T22:06:13.801Z",
       "id": "bff43a5b-b563-4841-9f20-dfc0c90ca0a0"
-    }
-  ],
-  "ryan-green": [
-    {
-      "title": "How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure",
-      "date": "2021-02-08",
-      "authors": [
-        "Ryan Green"
-      ],
-      "description": "How Vendia uses the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers.",
-      "url": "https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure",
-      "publication": "AWS Developer Blog"
     }
   ]
 }
