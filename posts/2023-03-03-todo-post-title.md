@@ -5,7 +5,7 @@ title: TODO post title
 description: xyz
 date: 2023-03-03
 authors:
-  - David Wells
+  - Vendia Engineering
 categories:
   - company
 seo:
