@@ -89,9 +89,14 @@
       "status": 301,
       "from": "/resources/newsletter-vendia-founders-circle",
       "to": "/resources/vendia-news"
+    },
+    {
+      "status": 301,
+      "from": "/resources/understanding-polycloud",
+      "to": "/resources/"
     }
   ],
-  "updatedAt": "2023-04-14T20:11:19.908Z",
+  "updatedAt": "2023-04-19T20:25:14.687Z",
   "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
