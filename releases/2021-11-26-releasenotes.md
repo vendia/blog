@@ -40,7 +40,7 @@ Give your Uni a name.  Remember, a Uni starting with `test-` will allow for its 
 
 ### Step 3
 
-Configure the Nodes in your Uni, including settings like [authorizer type](https://www.vendia.com/docs/share/node-access-control#how-to-set) and [cloud region](https://www.vendia.com/docs/share/cli/guide#supported-cloud-platforms-and-regions).
+Configure the Nodes in your Uni, including settings like [authorizer type](https://www.vendia.com/docs/share/node-authentication) and [cloud region](https://www.vendia.com/docs/share/cli/guide#supported-cloud-platforms-and-regions).
 
 
 ![Step 3 - Node Configuration](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..85032783144903604-8b9bed3d-c5ee-441e-9907-0c85cf5a04cb.png)

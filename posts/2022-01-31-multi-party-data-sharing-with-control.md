@@ -35,7 +35,7 @@ In this blog post, we'll explore Vendia Share's access control mechanisms, their
 
 - **[User Management Access Controls](https://www.vendia.com/docs/share/rbac#user-actions)** - Protect Vendia Share user account management operations
 - **[Uni Management Access Controls](https://www.vendia.com/docs/share/rbac#uni-actions)** - Protect Vendia Share Uni management operations
-- **[Node Access Controls](https://www.vendia.com/docs/share/node-access-control)** - Protects a node's GraphQL API
+- **[Node Access Controls](https://www.vendia.com/docs/share/node-authentication)** - Protects a node's GraphQL API
 - **[Data Access Controls](https://www.vendia.com/docs/share/fine-grained-data-permissions)** - Protects the data stored in a Uni
 
 <figure>
@@ -218,7 +218,7 @@ The GraphQL API that provides access to the serverless distributed ledger availa
   <figcaption><b>Figure 4</b> - <i>Node Access Controls in the Vendia Share Data Plane</i></figcaption>
 </figure>
 
-Figure 4 depicts a two-node Uni, each with different [authorization settings](https://www.vendia.com/docs/share/node-access-control#api-access) configured. This Uni topology is common within a single organization and across organizations.
+Figure 4 depicts a two-node Uni, each with different [authorization settings](https://www.vendia.com/docs/share/node-authentication#api-access) configured. This Uni topology is common within a single organization and across organizations.
 
 Within a single organization, it may be preferable to create a two-node Uni to isolate internal (i.e. private) and external (i.e. public) interfaces to Share. For example, the internal node might use the `IAM` authorization setting, permitting cross-account access between their existing AWS account and the [Vendia Share account created](https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure/) to host their node. The external node might instead use `COGNITO` to leverage an existing [user pool](https://aws.amazon.com/cognito/) for their external user accounts.
 
