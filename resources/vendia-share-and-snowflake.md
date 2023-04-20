@@ -17,7 +17,7 @@ components:
   - type: Text
     text: >-
       <YouTube aspectRatio="16:9"
-      url="https://vendia.wistia.com/medias/1z5iw3f2rg" title="Webinar: Vendia
+      url="https://vendia.wistia.com/medias/rbyxqw55ih" title="Webinar: Vendia
       Share and Snowflake" />
 
 
@@ -46,7 +46,7 @@ seo:
     to give companies a full view of their business. "
 createdBy: Caroll Casbeer
 createdAt: 2023-03-22T23:36:53.252Z
-updatedBy: David Wells
-updatedAt: 2023-04-13T17:14:43.485Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-04-20T19:41:35.871Z
 id: 90b6ae29-24c9-4095-a877-a30daf2222a6
 ---
