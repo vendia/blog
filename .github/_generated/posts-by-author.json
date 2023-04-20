@@ -2927,12 +2927,35 @@
     {
       "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
       "draft": false,
-      "title": "Build a modern, secure data exchange for semiconductor traceability with Vendia",
-      "description": "To produce high-quality, high-yielding chips, semiconductor companies need to securely exchange data with the supply chain participants.",
-      "date": "2022-06-29",
+      "title": "Solve for supply chain traceability with Vendia Share",
+      "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
+      "date": "2022-06-29T00:00:00.000Z",
       "authors": [
         "Vikrant Kahlir"
       ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "tags": [
+        "semiconductor",
+        "use case",
+        "die traceability"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png",
+      "seo": {
+        "title": "Solve for supply chain traceability with Vendia Share",
+        "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
+        "keywords": "end-to-end traceability challenges and solutions"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-20T22:58:27.153Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-20T22:58:27.153Z",
       "id": "1fc38399-c271-4904-8f30-467837b0345e"
     },
     {
