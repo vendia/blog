@@ -3576,21 +3576,101 @@
       "id": "93c83ed0-caff-4398-b65d-ed404a729106"
     }
   ],
-  "jake-partusch": [
+  "vendia-engineering": [
     {
       "file": "/posts/2022-08-31-new-serverless-pricing.md",
       "draft": false,
       "title": "Introducing developer-friendly pricing with our new Individual Plan",
       "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
-      "date": "2022-08-31",
+      "date": "2022-08-31T00:00:00.000Z",
+      "authors": [
+        "Vendia Engineering"
+      ],
       "categories": [
-        "company",
         "product"
       ],
-      "authors": [
-        "Jake Partusch"
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2021-03-17-whats-new-failed-tx-dlq"
       ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1681748749/Website/Iso/Vendia_rocket_irjsaw.png",
+      "seo": {
+        "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
+        "title": "Developer-friendly pricing with our new Individual plan"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-21T18:11:11.631Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-21T18:11:11.631Z",
       "id": "0bf61472-1ffc-42dd-a101-4f27cc33da9d"
+    },
+    {
+      "file": "/posts/2022-03-21-synchronous-mutations.md",
+      "draft": false,
+      "title": "Announcing synchronous mutations for Vendia Share",
+      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce synchronous mutations on Vendia Share.",
+      "date": "2022-03-21T00:00:00.000Z",
+      "authors": [
+        "Vendia Engineering"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2021-12-09-announcing-new-features",
+        "2021-03-10-whats-new-indices"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
+      "seo": {
+        "title": "Announcing synchronous mutations for Vendia Share",
+        "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce synchronous mutations on Vendia Share."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T21:03:40.895Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T21:03:40.895Z",
+      "id": "d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd"
+    },
+    {
+      "file": "/posts/2021-12-09-announcing-new-features.md",
+      "draft": false,
+      "slug": "azure-support-smart-contracts",
+      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
+      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
+      "date": "2021-12-09T00:00:00.000Z",
+      "authors": [
+        "Vendia Engineering"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-03-21-synchronous-mutations",
+        "2021-02-03-welcome-to-developer-preview"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
+      "seo": {
+        "title": "Vendia Supports Azure and Smart Contracts",
+        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T21:05:29.711Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T21:05:29.711Z",
+      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
+    },
+    {
+      "title": "How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure",
+      "date": "2021-02-08",
+      "authors": [
+        "Vendia Engineering"
+      ],
+      "description": "How Vendia uses the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers.",
+      "url": "https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure",
+      "publication": "AWS Developer Blog"
     }
   ],
   "anders-maul": [
@@ -3664,75 +3744,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-03-30T23:01:15.250Z",
       "id": "be3be101-2a20-4780-afd0-16d6f82cbb0f"
-    }
-  ],
-  "vendia-engineering": [
-    {
-      "file": "/posts/2022-03-21-synchronous-mutations.md",
-      "draft": false,
-      "title": "Announcing synchronous mutations for Vendia Share",
-      "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce synchronous mutations on Vendia Share.",
-      "date": "2022-03-21T00:00:00.000Z",
-      "authors": [
-        "Vendia Engineering"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2021-12-09-announcing-new-features",
-        "2021-03-10-whats-new-indices"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
-      "seo": {
-        "title": "Announcing synchronous mutations for Vendia Share",
-        "description": "Building applications on Vendia Share just got a lot easier! Today, we are excited to announce synchronous mutations on Vendia Share."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-13T21:03:40.895Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-13T21:03:40.895Z",
-      "id": "d96b74bc-9e5f-499e-b9f0-d8b9c887f0cd"
-    },
-    {
-      "file": "/posts/2021-12-09-announcing-new-features.md",
-      "draft": false,
-      "slug": "azure-support-smart-contracts",
-      "title": "Announcing Azure support, smart contracts, and new pricing plans for Vendia Share",
-      "description": "Today, we are excited to announce a new set of features for Vendia Share to further help developers build secure, decentralized data applications. Let’s jump into some of the new features.",
-      "date": "2021-12-09T00:00:00.000Z",
-      "authors": [
-        "Vendia Engineering"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2022-03-21-synchronous-mutations",
-        "2021-02-03-welcome-to-developer-preview"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png",
-      "seo": {
-        "title": "Vendia Supports Azure and Smart Contracts",
-        "description": "Learn about Vendia Share's latest features including Azure-support and Smart Contracts. "
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-13T21:05:29.711Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-13T21:05:29.711Z",
-      "id": "789c617b-e018-43fd-86f3-2be90de9797f"
-    },
-    {
-      "title": "How Vendia leverages the AWS CDK to dynamically provision cloud infrastructure",
-      "date": "2021-02-08",
-      "authors": [
-        "Vendia Engineering"
-      ],
-      "description": "How Vendia uses the AWS Cloud Development Kit (AWS CDK) and AWS CloudFormation to dynamically provision cloud infrastructure on behalf of their customers.",
-      "url": "https://aws.amazon.com/blogs/developer/how-vendia-leverages-the-aws-cdk-to-dynamically-provision-cloud-infrastructure",
-      "publication": "AWS Developer Blog"
     }
   ],
   "brian-mcnamara": [

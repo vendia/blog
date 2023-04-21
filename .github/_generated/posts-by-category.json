@@ -1248,14 +1248,27 @@
       "draft": false,
       "title": "Introducing developer-friendly pricing with our new Individual Plan",
       "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
-      "date": "2022-08-31",
+      "date": "2022-08-31T00:00:00.000Z",
+      "authors": [
+        "Vendia Engineering"
+      ],
       "categories": [
-        "company",
         "product"
       ],
-      "authors": [
-        "Jake Partusch"
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2021-12-09-announcing-new-features",
+        "2021-03-17-whats-new-failed-tx-dlq"
       ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1681748749/Website/Iso/Vendia_rocket_irjsaw.png",
+      "seo": {
+        "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
+        "title": "Developer-friendly pricing with our new Individual plan"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-21T18:11:11.631Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-21T18:11:11.631Z",
       "id": "0bf61472-1ffc-42dd-a101-4f27cc33da9d"
     },
     {
@@ -3131,21 +3144,6 @@
         "Hailey Nevins"
       ],
       "id": "2fc52bc4-fee7-4ff1-b63b-b8f23ba90063"
-    },
-    {
-      "file": "/posts/2022-08-31-new-serverless-pricing.md",
-      "draft": false,
-      "title": "Introducing developer-friendly pricing with our new Individual Plan",
-      "description": "Vendia Share announces a new developer-friendly pricing model for individuals with features including cross-cloud data sharing and an immutable ledger for all transaction.",
-      "date": "2022-08-31",
-      "categories": [
-        "company",
-        "product"
-      ],
-      "authors": [
-        "Jake Partusch"
-      ],
-      "id": "0bf61472-1ffc-42dd-a101-4f27cc33da9d"
     },
     {
       "file": "/posts/2022-08-31-new-vendia-logo.md",
