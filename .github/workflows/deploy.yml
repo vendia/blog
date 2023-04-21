@@ -399,7 +399,7 @@ jobs:
             "blogBranch": "${{ steps.branch-name.outputs.current_branch }}",
             "message": "${{ steps.deploy-info.outputs.deployMessage }}",
             "urlPostFix": "${{ steps.deploy-info.outputs.branchSlug }}",
-            "remoteJob": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            "remoteJobLink": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             }
 
       # Make changelog https://github.com/jaywcjlove/changelog-generator
