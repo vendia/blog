@@ -14,8 +14,10 @@ relatedPosts:
   - 2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform
   - 2022-02-09-supply-chain-is-broken-can-blockchain-fix-it
 tags:
-  - DDD, Domain Driven Design, private blockchain, distributed ledger
-    technology, uni
+  - DDD
+  - Domain Driven Design
+  - private blockchain
+  - distributed ledger technology
 thumbnail: https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg
 seo:
   title: Applying Domain Driven Design (DDD) to blockchains

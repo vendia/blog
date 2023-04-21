@@ -13,8 +13,10 @@ relatedPosts:
   - 2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions
   - 2022-09-20-finserv-blockchain-data-strategy
 tags:
-  - supply chain visibility, manufacturing, financial services, distributed
-    ledger technology
+  - supply chain visibility
+  - manufacturing
+  - financial services
+  - distributed ledger technology
 seo:
   noindex: false
   description: Where is blockchain headed in 2023? We surveyed our founders,

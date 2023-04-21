@@ -22,7 +22,10 @@ updatedAt: 2023-02-16T19:14:46.948Z
 callToAction:
   - What’s a business blockchain?
 tags:
-  - Healthcare, data traceability, distributed ledger technology, data lineage
+  - Healthcare
+  - data traceability
+  - distributed ledger technology
+  - data lineage
 seo:
   noindex: false
   description: Given the challenges companies face in developing and maintaining a

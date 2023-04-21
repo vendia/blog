@@ -15,7 +15,8 @@ relatedPosts:
   - 2022-06-21-crm-data-sharing-for-business
   - 2022-07-08-crm-integration-painpoints
 tags:
-  - CRM, API
+  - CRM
+  - API
 thumbnail: ""
 seo:
   title: 4 insights on the future of CRM data sharing

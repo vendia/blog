@@ -15,7 +15,9 @@ relatedPosts:
   - 2021-03-10-whats-new-indices
   - 2022-07-07-low-latency-operations-metrics
 tags:
-  - quickstart, supply chain traceability, track and trace
+  - quickstart
+  - supply chain traceability
+  - track and trace
 seo:
   title: "Quickstart: Track and trace for solving supply chain visibility problems"
   description: Use this Vendia Share track and trace quickstart for managing

@@ -16,7 +16,9 @@ relatedPosts:
   - 2022-08-26-crud-new-rules-for-apis
   - 2021-02-17-multiregion-serverless-apps
 tags:
-  - data modeling, security, best practices
+  - data modeling
+  - security
+  - best practices
 seo:
   description: James Gimourginas, Director of Solutions Architecture and Customer
     Success, takes a deep dive into API design best practices as they apply to

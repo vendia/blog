@@ -17,7 +17,9 @@ relatedPosts:
   - 2022-11-02-podcast-worlds-colliding
   - 2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare
 tags:
-  - financial services, architecture, circles of trust
+  - financial services
+  - architecture
+  - circles of trust
 thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp
 seo:
   title: "Sharing data in financial services:  How top financial institutions

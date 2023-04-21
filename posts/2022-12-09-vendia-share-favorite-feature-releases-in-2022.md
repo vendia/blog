@@ -15,7 +15,10 @@ relatedPosts:
   - 2022-07-07-low-latency-operations-metrics
   - 2021-03-17-whats-new-failed-tx-dlq
 tags:
-  - distributed ledger technology, metrics, integrations, video
+  - distributed ledger technology
+  - metrics
+  - integrations
+  - video
 seo:
   noindex: false
   description: "Watch Francine Klein, Sr. Solutions Architect, walk through three

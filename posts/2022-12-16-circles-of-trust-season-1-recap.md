@@ -15,9 +15,17 @@ relatedPosts:
   - 2022-01-27-scale-your-partner-ecosystem-with-vendia-share
   - 2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform
 tags:
-  - Circles of Trust, financial services, healthcare, manufacturing, sports,
-    entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine
-    Klein, James Gimourginas
+  - Circles of Trust
+  - financial services
+  - healthcare
+  - manufacturing
+  - sports
+  - entertainment
+  - nonprofits 
+  - Tim Zonca
+  - Shruthi Rao
+  - Francine Klein
+  - James Gimourginas
 thumbnail: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp
 seo:
   noindex: false

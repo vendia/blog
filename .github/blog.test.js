@@ -21,6 +21,7 @@ const WARNING_FILE_PATH = path.resolve(cwd, 'warnings.json')
 const DESCRIPTION_MAX_LENGTH = 200 // should be 200
 const ALLOW_LONGER_DESCRIPTIONS = true
 const ALLOW_ARBITRARY_CATEGORIES = true
+const ALLOW_COMMAS_IN_TAGS = false
 
 if (process.env.CI) {
   console.log('clear errors')
@@ -106,7 +107,7 @@ test('Post validation', async () => {
     }
 
     /* Verify frontmatter */
-    const { title, description, authors, categories } = data
+    const { title, description, authors, categories, tags } = data
     /* Formate date to string */
     const date = convertDateToString(data.date)
 
@@ -148,7 +149,7 @@ test('Post validation', async () => {
 
     /* Descriptions must less than 200 characters */
     if (description && description.length > DESCRIPTION_MAX_LENGTH) {
-      const messages = (ALLOW_LONGER_DESCRIPTIONS) ? warnings: errors
+      const messages = (ALLOW_LONGER_DESCRIPTIONS) ? warnings : errors
       messages.push(`"description" field must be under ${DESCRIPTION_MAX_LENGTH} characters. Fix "description" in ${nicePath(file)} that is ${description.length} characters.`)
     }
 
@@ -166,6 +167,17 @@ test('Post validation', async () => {
           const catMessage = `Invalid category "${cat}" in ${nicePath(file)}. Must be one of ${JSON.stringify(allCategorySlugs)}. Add categories in the ./settings/categories.json file`
           const messages = (ALLOW_ARBITRARY_CATEGORIES) ? warnings : errors
           messages.push(catMessage)
+        }
+      })
+    }
+
+    /* Verify tags are valid */
+    if (tags) {
+      data.tags.forEach((tag) => {
+        if (tag.match(/,/)) {
+          const tagMessage = `Invalid tag. Commas not allowed in tags. Fix "${tag}" in ${nicePath(file)}.`
+          const messages = (ALLOW_COMMAS_IN_TAGS) ? warnings : errors
+          messages.push(tagMessage)
         }
       })
     }

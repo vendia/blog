@@ -14,7 +14,8 @@ relatedPosts:
   - 2022-10-26-why-is-supply-chain-visibility-important
   - 2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient
 tags:
-  - supply chain, manufacturing
+  - supply chain
+  - manufacturing
 seo:
   title: The global supply chain is broken — can blockchain help?
   description: Multi-party data sharing with fine-grained controls is gaining

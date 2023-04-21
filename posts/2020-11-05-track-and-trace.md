@@ -13,7 +13,10 @@ relatedPosts:
   - 2021-02-18-sharing-files-in-a-uni
   - 2021-02-01-decentralization
 tags:
-  - supply chain, manufacturing, traceability, uni
+  - supply chain
+  - manufacturing
+  - traceability
+  - uni
 seo:
   title: Track and trace using Vendia Unis and Blobs
   description: This article explores how Vendia's Uni technologies provide

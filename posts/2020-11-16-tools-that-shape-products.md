@@ -15,7 +15,9 @@ relatedPosts:
   - 2022-07-07-low-latency-operations-metrics
   - 2021-03-10-whats-new-indices
 tags:
-  - engineering, SQL, event
+  - engineering
+  - SQL
+  - event
 seo:
   description: Beginning with a single server and a SQL database, we cover the
     tradeoffs needed to build a system that all the parties involved can trust
