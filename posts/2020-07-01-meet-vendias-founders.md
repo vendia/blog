@@ -139,6 +139,6 @@ Data sprawl affects every company, and is a limiting reagent to a successful dig
 
 Follow us on [LinkedIn](https://www.linkedin.com/company/vendiahq/mycompany/) and join the [Founder's Circle](https://www.vendia.com/resources/newsletter-vendia-founders-circle), a monthly newsletter Shruthi and Tim share covering what they're reading, writing, and sharing in the worlds of IT innovation, data strategy, and business blockchain.
 
-Want to get into the product and see what it's all about? [Download the free app](https://share.vendia.net/)
+Want to get into the product and see what it's all about? [Download the free app](https://share.vendia.net/).
 
 Love Serverless and building distributed applications, [we're hiring](https://www.vendia.com/careers). Won't you join us?[](https://www.vendia.com/careers)
