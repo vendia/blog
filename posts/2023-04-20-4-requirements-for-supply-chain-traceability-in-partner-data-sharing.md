@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: supply-chain-partner-data-traceability
 title: 4 requirements for supply chain traceability in partner data sharing
 description: When it comes to supply chain management, business resiliency, and
@@ -25,7 +25,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-20T23:58:27.488Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-20T23:58:27.488Z
+updatedAt: 2023-04-21T00:10:54.690Z
 id: de1e5b56-093c-4ece-9972-551c9c932833
 ---
 
