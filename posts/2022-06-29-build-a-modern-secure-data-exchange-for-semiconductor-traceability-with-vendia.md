@@ -65,9 +65,11 @@ In the die traceability example,
 
 This approach will allow each partner to have all information from all partners; some data individual organizations will own and some data other partners will share. Partners need not and, with built-in compliance and easy governance contorl, partners will not share anything they consider IP. 
 
-<p align="center"><i>Figure 1 - Traceability for Secure Supply Chain Solution Diagram</i></p><p align="center">
+<p align="center">
+  <i>Figure 1 - Traceability for Secure Supply Chain Solution Diagram</i>
   <img src="https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..176460916-4965c6c7-65b4-462f-a3c6-167c212780e0.png" />
 </p>
+
 
 ## End-to-end traceability solutions with Vendia Share
 
