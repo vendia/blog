@@ -91,11 +91,27 @@ components:
     theme: white
     image:
       image: https://www.vendia.com/images/illustrations/Vendia_HPIcon.svg
+  - type: MediaWithTextTwoColumns
+    mediaPosition: right
+    column1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      turpis elit, mollis in laoreet eget, facilisis eu leo. Praesent id elit
+      nunc. Fusce porta sed magna id convallis. Morbi tincidunt, urna a suscipit
+      auctor, nisl eros aliquam erat, a pretium nunc elit a arcu. Aenean
+      placerat ultrices nisl at egestas
+    column2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      turpis elit, mollis in laoreet eget, facilisis eu leo. Praesent id elit
+      nunc. Fusce porta sed magna id convallis. Morbi tincidunt, urna a suscipit
+      auctor, nisl eros aliquam erat, a pretium nunc elit a arcu. Aenean
+      placerat ultrices nisl at egestas
+    theme: white
+    title: Media with Text 2 column
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680641017/Website/Iso/Financial_services_gqc0sk.svg
 seo:
   noindex: false
 createdBy: David Wells
 createdAt: 2023-04-25T21:41:08.555Z
 updatedBy: David Wells
-updatedAt: 2023-04-25T21:59:16.150Z
+updatedAt: 2023-04-25T22:00:34.132Z
 id: fe7a2631-e3e8-47ad-84ae-ec4804910a84
 ---
