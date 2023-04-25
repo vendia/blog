@@ -106,11 +106,20 @@ components:
     title: Media with Text 2 column
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680641017/Website/Iso/Financial_services_gqc0sk.svg
+  - type: MediaFullScreen
+    intro:
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a vehicula
+        velit, vitae aliquet ante. Quisque vel vulputate sapien. Suspendisse ut
+        nulla ex
+      title: Media full screen
+    theme: white
+    image:
+      image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680641017/Website/Iso/Financial_services_gqc0sk.svg
 seo:
   noindex: false
 createdBy: David Wells
 createdAt: 2023-04-25T21:41:08.555Z
 updatedBy: David Wells
-updatedAt: 2023-04-25T22:00:34.132Z
+updatedAt: 2023-04-25T22:14:06.719Z
 id: fe7a2631-e3e8-47ad-84ae-ec4804910a84
 ---
