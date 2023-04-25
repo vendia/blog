@@ -73,12 +73,11 @@ components:
         Suspendisse ut nulla ex
       title: Logos
     logos:
-      - BMW
-      - Unfi
-      - Resolution Life
-      - Atos
-      - Purina
-      - Aerotrax Technologies
+      - 703da598-e5bf-4614-a753-6b1fe43785d6
+      - a5acd5d1-ae32-4e37-896e-b6bad311bebd
+      - 6a540ccb-3697-4b9e-9db5-6bbb0d29a816
+      - da2c707e-fa6b-40a2-9078-2d780cb15e57
+      - 2dafbbe7-adb8-40d4-8035-4fa41222acbb
     theme: white
   - type: MediaWithText
     mediaPosition: left
