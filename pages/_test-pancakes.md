@@ -81,11 +81,21 @@ components:
       - Purina
       - Aerotrax Technologies
     theme: white
+  - type: MediaWithText
+    mediaPosition: left
+    text: >-
+      # Media with Text
+
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum turpis elit, mollis in laoreet eget, facilisis eu leo. Praesent id elit nunc. Fusce porta sed magna id convallis. Morbi tincidunt, urna a suscipit auctor, nisl eros aliquam erat, a pretium nunc elit a arcu. Aenean placerat ultrices nisl at egestas
+    theme: white
+    image:
+      image: https://www.vendia.com/images/illustrations/Vendia_HPIcon.svg
 seo:
   noindex: false
 createdBy: David Wells
 createdAt: 2023-04-25T21:41:08.555Z
 updatedBy: David Wells
-updatedAt: 2023-04-25T21:57:20.495Z
+updatedAt: 2023-04-25T21:59:16.150Z
 id: fe7a2631-e3e8-47ad-84ae-ec4804910a84
 ---
