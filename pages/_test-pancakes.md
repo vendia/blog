@@ -70,8 +70,7 @@ components:
     intro:
       text: Dynamic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
         vehicula velit, vitae aliquet ante. Quisque vel vulputate sapien.
-        Suspendisse ut nulla
-        ex![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)
+        Suspendisse ut nulla ex
       title: Logos
     logos:
       - BMW
