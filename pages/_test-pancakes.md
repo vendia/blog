@@ -66,11 +66,26 @@ components:
         Suspendisse ut nulla ex
       title: Jobs
     theme: white
+  - type: Logos
+    intro:
+      text: Dynamic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+        vehicula velit, vitae aliquet ante. Quisque vel vulputate sapien.
+        Suspendisse ut nulla
+        ex![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)![](<>)
+      title: Logos
+    logos:
+      - BMW
+      - Unfi
+      - Resolution Life
+      - Atos
+      - Purina
+      - Aerotrax Technologies
+    theme: white
 seo:
   noindex: false
 createdBy: David Wells
 createdAt: 2023-04-25T21:41:08.555Z
 updatedBy: David Wells
-updatedAt: 2023-04-25T21:55:54.258Z
+updatedAt: 2023-04-25T21:57:20.495Z
 id: fe7a2631-e3e8-47ad-84ae-ec4804910a84
 ---
