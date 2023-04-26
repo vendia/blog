@@ -2165,6 +2165,44 @@
       "id": "1af70b4b-e67f-4cd1-9e74-6ff8e10c371f"
     },
     {
+      "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
+      "draft": false,
+      "slug": "sharing-data-financial-services",
+      "title": "How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
+      "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
+      "date": "2022-12-14T00:00:00.000Z",
+      "authors": [
+        "vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-06-08-gartner-cool-vendor",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "financial services",
+        "architecture",
+        "circles of trust"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "title": "Sharing data in financial services:  How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
+        "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
+        "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
+      },
+      "sidebarCta": [
+        "Vendia Share: What it is and how it works"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:54:59.001Z",
+      "id": "defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e"
+    },
+    {
       "file": "/posts/2022-11-23-connecting-pets-humans.md",
       "draft": false,
       "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
@@ -2199,6 +2237,37 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:15:43.546Z",
       "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
+    },
+    {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer",
+        "2022-11-23-connecting-pets-humans"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:16:56.209Z",
+      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
     },
     {
       "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
@@ -3104,77 +3173,6 @@
         "Shruthi Rao"
       ],
       "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
-    }
-  ],
-  "alexa-johnson": [
-    {
-      "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
-      "draft": false,
-      "slug": "sharing-data-financial-services",
-      "title": "How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
-      "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
-      "date": "2022-12-14T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2021-06-08-gartner-cool-vendor",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "financial services",
-        "architecture",
-        "circles of trust"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "title": "Sharing data in financial services:  How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
-        "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
-        "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
-      },
-      "sidebarCta": [
-        "Vendia Share: What it is and how it works"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:54:59.001Z",
-      "id": "defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e"
-    },
-    {
-      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
-      "draft": false,
-      "slug": "podcast-patient-experience-with-teeth",
-      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
-      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-      "date": "2022-11-16T00:00:00.000Z",
-      "authors": [
-        "Alexa Johnson"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer",
-        "2022-11-23-connecting-pets-humans"
-      ],
-      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "seo": {
-        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
-        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-        "keywords": "circles of trust"
-      },
-      "tweet": "Check out the latest episode of Circles of Trust",
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:16:56.209Z",
-      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
     }
   ],
   "francine-klein": [
