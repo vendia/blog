@@ -8,23 +8,23 @@ date: 2022-07-29
 authors:
   - Tim Wagner
 categories:
-  - architecture
-  - blockchain
-  - smart-apis
-  - real-time-data-sharing
+  - thought-leadership
 relatedPosts:
   - 2022-08-09-venn-diagramming-vendia-share
   - 2022-11-18-10-ways-to-make-cloud-scale-software-better
   - 2022-08-15-data-lakes-file-sharing-use-cases
+tags: []
 seo:
   title: Why blockchains, databases, and APIs can’t cut it on their own
   description: Tim Wagner, the Father of Serverless and Vendia cofounder, explains
     why legacy technology makes sharing real-time data across apps, companies,
     clouds, geographies, and stacks difficult and expensive.
   keywords: real-time data sharing
+createdBy: alexa-vendia
+createdAt: 2023-04-26T22:58:54.218Z
 updatedBy: alexa-vendia
-updatedAt: 2022-12-07T18:59:43.875Z
-id: '945f5978-6c67-484f-8e8b-6b3d1e62f64a'
+updatedAt: 2023-04-26T22:58:54.218Z
+id: 945f5978-6c67-484f-8e8b-6b3d1e62f64a
 ---
 
 Enterprises and developers have been on a decades-long quest to simplify the challenge (and lower the cost and risk) associated with building IT solutions. In recent years, IT heavy lifts have grown even heavier: Lift is driven by the growth in mobile and web apps on the front end and the growth of APIs and automation on the back end. Combined, these trend lines have had two major impacts:
