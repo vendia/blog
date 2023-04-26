@@ -9,7 +9,7 @@ description: In this episode of Circles of Trust, Brian Kale and James
   financial institutions serving them.
 date: 2022-12-14
 authors:
-  - vendia
+  - Vendia
 categories:
   - thought-leadership
 relatedPosts:
