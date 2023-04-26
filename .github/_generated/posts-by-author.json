@@ -215,7 +215,8 @@
         "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
       ],
       "tags": [
-        "supply chain, manufacturing"
+        "supply chain",
+        "manufacturing"
       ],
       "seo": {
         "title": "The global supply chain is broken — can blockchain help?",
@@ -245,7 +246,10 @@
         "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
       ],
       "tags": [
-        "DDD, Domain Driven Design, private blockchain, distributed ledger technology, uni"
+        "DDD",
+        "Domain Driven Design",
+        "private blockchain",
+        "distributed ledger technology"
       ],
       "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
       "seo": {
@@ -529,7 +533,9 @@
         "2021-02-17-multiregion-serverless-apps"
       ],
       "tags": [
-        "data modeling, security, best practices"
+        "data modeling",
+        "security",
+        "best practices"
       ],
       "seo": {
         "description": "James Gimourginas, Director of Solutions Architecture and Customer Success, takes a deep dive into API design best practices as they apply to REST APIs, GraphQL, and API automation.",
@@ -933,7 +939,10 @@
         "What’s a business blockchain?"
       ],
       "tags": [
-        "Healthcare, data traceability, distributed ledger technology, data lineage"
+        "Healthcare",
+        "data traceability",
+        "distributed ledger technology",
+        "data lineage"
       ],
       "seo": {
         "noindex": false,
@@ -2092,7 +2101,17 @@
         "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
       ],
       "tags": [
-        "Circles of Trust, financial services, healthcare, manufacturing, sports, entertainment, nonprofits, Tim Zonca, Shruthi Rao, Tim Wagner, Francine Klein, James Gimourginas"
+        "Circles of Trust",
+        "financial services",
+        "healthcare",
+        "manufacturing",
+        "sports",
+        "entertainment",
+        "nonprofits",
+        "Tim Zonca",
+        "Shruthi Rao",
+        "Francine Klein",
+        "James Gimourginas"
       ],
       "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
       "seo": {
@@ -2125,7 +2144,10 @@
         "2022-09-20-finserv-blockchain-data-strategy"
       ],
       "tags": [
-        "supply chain visibility, manufacturing, financial services, distributed ledger technology"
+        "supply chain visibility",
+        "manufacturing",
+        "financial services",
+        "distributed ledger technology"
       ],
       "seo": {
         "noindex": false,
@@ -2561,7 +2583,8 @@
         "2022-07-08-crm-integration-painpoints"
       ],
       "tags": [
-        "CRM, API"
+        "CRM",
+        "API"
       ],
       "thumbnail": "",
       "seo": {
@@ -2770,7 +2793,9 @@
         "2022-07-07-low-latency-operations-metrics"
       ],
       "tags": [
-        "quickstart, supply chain traceability, track and trace"
+        "quickstart",
+        "supply chain traceability",
+        "track and trace"
       ],
       "seo": {
         "title": "Quickstart: Track and trace for solving supply chain visibility problems",
@@ -2802,7 +2827,9 @@
         "2021-03-10-whats-new-indices"
       ],
       "tags": [
-        "engineering, SQL, event"
+        "engineering",
+        "SQL",
+        "event"
       ],
       "seo": {
         "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
@@ -2830,7 +2857,10 @@
         "2021-02-01-decentralization"
       ],
       "tags": [
-        "supply chain, manufacturing, traceability, uni"
+        "supply chain",
+        "manufacturing",
+        "traceability",
+        "uni"
       ],
       "seo": {
         "title": "Track and trace using Vendia Unis and Blobs",
@@ -3096,7 +3126,9 @@
         "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
       ],
       "tags": [
-        "financial services, architecture, circles of trust"
+        "financial services",
+        "architecture",
+        "circles of trust"
       ],
       "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
       "seo": {
@@ -3172,7 +3204,10 @@
         "What’s a business blockchain?"
       ],
       "tags": [
-        "Healthcare, data traceability, distributed ledger technology, data lineage"
+        "Healthcare",
+        "data traceability",
+        "distributed ledger technology",
+        "data lineage"
       ],
       "seo": {
         "noindex": false,
@@ -3246,7 +3281,10 @@
         "2021-03-17-whats-new-failed-tx-dlq"
       ],
       "tags": [
-        "distributed ledger technology, metrics, integrations, video"
+        "distributed ledger technology",
+        "metrics",
+        "integrations",
+        "video"
       ],
       "seo": {
         "noindex": false,

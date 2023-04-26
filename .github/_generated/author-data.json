@@ -5,9 +5,7 @@
     "caroll-casbeer",
     "david-mcelligott",
     "francine-klein",
-    "glenn-dierkes",
     "hailey-nevins",
-    "jake-partusch",
     "james-gimourginas",
     "renee-fujji",
     "shruthi-rao",
@@ -15,7 +13,6 @@
     "vendia",
     "vikrant-kahlir",
     "alex-vukovic",
-    "alexa-johnson",
     "li-dai",
     "vendia-engineering"
   ],
@@ -109,17 +106,6 @@
       "postCount": 7
     },
     {
-      "name": "Glenn Dierkes",
-      "github": "glenndierkes",
-      "avatar": "https://avatars0.githubusercontent.com/u/512350?s=400",
-      "bio": {
-        "short": "Backend engineer",
-        "long": "Glenn is a Backend Engineer focused on serverless architectures, data consistency and data analytics."
-      },
-      "slug": "glenn-dierkes",
-      "postCount": 0
-    },
-    {
       "github": "hnevins",
       "bio": {
         "short": "Design",
@@ -135,18 +121,6 @@
       "createdBy": "alexa-vendia",
       "slug": "hailey-nevins",
       "postCount": 2
-    },
-    {
-      "name": "Jake Partusch",
-      "github": "JakePartusch",
-      "twitter": "JakePartusch",
-      "avatar": "https://avatars.githubusercontent.com/u/6424140?v=4&s=400",
-      "bio": {
-        "short": "Sr. Full-Stack Engineer",
-        "long": "Jake is a Full-Stack Engineer focused on product development for Vendia Share."
-      },
-      "slug": "jake-partusch",
-      "postCount": 0
     },
     {
       "github": "james-vendia",
@@ -264,22 +238,6 @@
       "createdBy": "alexa-vendia",
       "slug": "alex-vukovic",
       "postCount": 0
-    },
-    {
-      "github": "alexa-vendia",
-      "bio": {
-        "short": "",
-        "long": "**Alexa is a content strategist**, brand and marketing creative, and diehard copywriter who always strives to share valuable ideas and important stories with a clear (and sometimes provocative) point of view. When she's not planting more shrubs and perennials in her garden or frothing milk for the perfect hazelnut latte, she may be off the deep end reading too much YA fiction."
-      },
-      "name": "Alexa Johnson",
-      "updatedAt": "2022-12-16T21:45:30.078Z",
-      "updatedBy": "alexa-vendia",
-      "twitter": "",
-      "avatar": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg",
-      "jobTitle": "Head of Content Strategy",
-      "linkedin": "https://www.linkedin.com/in/alexa-b-johnson/",
-      "slug": "alexa-johnson",
-      "postCount": 2
     },
     {
       "github": "li-vendia",

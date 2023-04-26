@@ -230,28 +230,12 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/francine-vendia"><sup><sub>Francine Klein</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/glenn-dierkes">
-        <img src="https://avatars0.githubusercontent.com/u/512350?s=400" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://github.com/glenndierkes"><sup><sub>Glenn Dierkes</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/hailey-nevins">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670024384/Headshots/Hailey_1_-_Hailey_Nevins_uav7zq.png" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/hnevins"><sup><sub>Hailey Nevins</sub></sup></a>
   </td>
-  <td align="center">
-      <a href="https://www.vendia.com/blog/author/jake-partusch">
-        <img src="https://avatars.githubusercontent.com/u/6424140?v=4&s=400" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://twitter.com/JakePartusch"><sup><sub>Jake Partusch</sub></sup></a>
-  </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/james-gimourginas">
         <img src="https://avatars.githubusercontent.com/u/85032783?s=400&v=4" width="76px;" alt=""/>
@@ -266,6 +250,8 @@ Welcome to the Vendia blog repo!
       <br />
       <a href="https://github.com/renee-vendia"><sup><sub>Renee Fujii</sub></sup></a>
   </td>
+</tr>
+<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/shruthi-rao">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png" width="76px;" alt=""/>
@@ -295,21 +281,12 @@ Welcome to the Vendia blog repo!
       <a href="https://github.com/AVukovic-Vendia"><sup><sub>Alex Vukovic</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/alexa-johnson">
-        <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670280118/Headshots/Alexa_headshot_nzetco.jpg" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://github.com/alexa-vendia"><sup><sub>Alexa Johnson</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/li-dai">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1669746437/li_oxqbbs.jpg" width="76px;" alt=""/>
       </a>
       <br />
       <a href="https://github.com/li-vendia"><sup><sub>Li Dai</sub></sup></a>
   </td>
-</tr>
-<tr>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/vendia-engineering">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1680639661/Website/Icons/Statement%20bubbles/Electronics_01_hrbzha.png" width="76px;" alt=""/>

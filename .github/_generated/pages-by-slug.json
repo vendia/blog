@@ -1,4 +1,8 @@
 {
+  "_test/pancakes": {
+    "file": "/pages/_test-pancakes.md",
+    "draft": true
+  },
   "about": {
     "file": "/pages/about.md",
     "draft": false
