@@ -8,7 +8,7 @@ description: Robert Edwards, Director of Software Development at Glidewell
   sharing across the medical device value chain.
 date: 2022-11-16
 authors:
-  - vendia
+  - Vendia
 categories:
   - thought-leadership
 relatedPosts:
