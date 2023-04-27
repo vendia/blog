@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 slug: data-collaboration-snowflake-vendia-share
 title: Cultivate data collaboration in your lush data sharing landscape
 description: Senior Solutions Architect, Francine Klein, explains why Vendia
@@ -27,7 +27,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-27T21:28:46.398Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-27T21:28:46.398Z
+updatedAt: 2023-04-27T21:29:36.712Z
 id: 5fe67d43-0ddf-4555-8e09-1df7c57f9542
 ---
 
