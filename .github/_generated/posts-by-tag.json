@@ -1,4 +1,128 @@
 {
+  "tools": [
+    {
+      "file": "/posts/2023-04-27-cultivate-data-collaboration-in-your-lush-data-sharing-landscape.md",
+      "draft": false,
+      "slug": "data-collaboration-snowflake-vendia-share",
+      "title": "Cultivate data collaboration in your lush data sharing landscape",
+      "description": "Senior Solutions Architect, Francine Klein, explains why Vendia Share and Snowflake integrate for data collaboration and a single, unified source of truth.",
+      "date": "2023-04-27T00:00:00.000Z",
+      "authors": [
+        "Francine Klein"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-10-27-codeless-apis",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "tools",
+        "Snowflake"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png",
+      "seo": {
+        "noindex": false,
+        "description": "Why teams need to integrate Snowflake with Vendia Share for true data collaboration and a single, unified source of truth",
+        "keywords": "data collaboration",
+        "title": "Data collaboration in your lush data sharing landscape"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-27T21:28:46.398Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-27T21:29:36.712Z",
+      "id": "5fe67d43-0ddf-4555-8e09-1df7c57f9542"
+    }
+  ],
+  "Snowflake": [
+    {
+      "file": "/posts/2023-04-27-cultivate-data-collaboration-in-your-lush-data-sharing-landscape.md",
+      "draft": false,
+      "slug": "data-collaboration-snowflake-vendia-share",
+      "title": "Cultivate data collaboration in your lush data sharing landscape",
+      "description": "Senior Solutions Architect, Francine Klein, explains why Vendia Share and Snowflake integrate for data collaboration and a single, unified source of truth.",
+      "date": "2023-04-27T00:00:00.000Z",
+      "authors": [
+        "Francine Klein"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-10-27-codeless-apis",
+        "2021-01-29-getting-started-with-vendia-share",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "tools",
+        "Snowflake"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677255878/Website/Iso/Group_7_yuxbqx.png",
+      "seo": {
+        "noindex": false,
+        "description": "Why teams need to integrate Snowflake with Vendia Share for true data collaboration and a single, unified source of truth",
+        "keywords": "data collaboration",
+        "title": "Data collaboration in your lush data sharing landscape"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-27T21:28:46.398Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-27T21:29:36.712Z",
+      "id": "5fe67d43-0ddf-4555-8e09-1df7c57f9542"
+    },
+    {
+      "file": "/posts/2022-03-17-are-blockchains-databases.md",
+      "draft": false,
+      "title": "Are blockchains databases?",
+      "slug": "databases-versus-blockchain",
+      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
+      "date": "2022-03-17T00:00:00.000Z",
+      "authors": [
+        "Tim Wagner"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-11-04-data-sharing-deterministic-databases",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
+      ],
+      "tags": [
+        "Hyperledger Fabric",
+        "blockchain",
+        "decentralization",
+        "Amazon DynamoDB",
+        "Amazon Aurora",
+        "Azure CosmosDB",
+        "Infura",
+        "Alchemy",
+        "Coinbase",
+        "Google Spanner",
+        "Oracle Blockchain Tables",
+        "Amazon GQLD",
+        "Snowflake",
+        "Ethereum",
+        "trends",
+        "database"
+      ],
+      "seo": {
+        "keywords": "blockchains versus databases",
+        "title": "Blockchains vs. databases",
+        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "Hugues Tennier",
+      "updatedAt": "2023-02-20T15:46:07.217Z",
+      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
+    }
+  ],
   "data protection": [
     {
       "file": "/posts/2023-03-20-the-blockchain-emperors-new-clothes.md",
@@ -7917,58 +8041,6 @@
     }
   ],
   "Amazon GQLD": [
-    {
-      "file": "/posts/2022-03-17-are-blockchains-databases.md",
-      "draft": false,
-      "title": "Are blockchains databases?",
-      "slug": "databases-versus-blockchain",
-      "description": "With some databases now supporting versioning and checksums and blockchains storing more types of data, are databases and blockchain technologies on a path to merge?",
-      "date": "2022-03-17T00:00:00.000Z",
-      "authors": [
-        "Tim Wagner"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-11-04-data-sharing-deterministic-databases",
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Hyperledger Fabric",
-        "blockchain",
-        "decentralization",
-        "Amazon DynamoDB",
-        "Amazon Aurora",
-        "Azure CosmosDB",
-        "Infura",
-        "Alchemy",
-        "Coinbase",
-        "Google Spanner",
-        "Oracle Blockchain Tables",
-        "Amazon GQLD",
-        "Snowflake",
-        "Ethereum",
-        "trends",
-        "database"
-      ],
-      "seo": {
-        "keywords": "blockchains versus databases",
-        "title": "Blockchains vs. databases",
-        "description": "Explore the differences between databases and first-generation blockchains. Get examples of both blockchains' and databases' defining characteristics and capabilities as enterprise tools in a modern, multi-cloud IT environment."
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "Hugues Tennier",
-      "updatedAt": "2023-02-20T15:46:07.217Z",
-      "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
-    }
-  ],
-  "Snowflake": [
     {
       "file": "/posts/2022-03-17-are-blockchains-databases.md",
       "draft": false,

@@ -1,4 +1,6 @@
 {
+  "tools": "tools",
+  "snowflake": "Snowflake",
   "data-protection": "data protection",
   "access-control": "access control",
   "database": "database",
@@ -118,7 +120,6 @@
   "google-spanner": "Google Spanner",
   "oracle-blockchain-tables": "Oracle Blockchain Tables",
   "amazon-gqld": "Amazon GQLD",
-  "snowflake": "Snowflake",
   "ethereum": "Ethereum",
   "graphql": "GraphQL",
   "code": "code",
