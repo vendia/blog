@@ -22,13 +22,12 @@ Introducing Vendia erasure capability. Customers often ask how they can complete
 
 To enable erasure, user must add \`x-vendia-erasable\` field at the same level inside their JSON schema like below:
 
+```json
 "x-vendia-erasable": [
-
-                            "field1", 
-
-                            "field2"
-
-                        ]
+  "field1", 
+  "field2"
+]
+```
 
 Once it’s enabled, you’ll see APIs that look like below:
 
