@@ -132,6 +132,7 @@ const GET_NAME = /<\/(\S*)> is not a valid element name/
 const ignoreRules = [
   //'element-name',
   'no-raw-characters', // ignore Raw "`" must be encoded as "&grave;"
+	'no-dup-attr', // ignore duplicated attributes. cant handle multiline JSX
 ]
 
 function filterReport(report, fpMessage) {
