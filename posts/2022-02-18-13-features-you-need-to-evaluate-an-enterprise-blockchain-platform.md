@@ -1,29 +1,31 @@
 ---
 draft: false
-title: 13 features you need to evaluate an enterprise blockchain platform
-description: When evaluating an enterprise-grade blockchain solution (or trying
-  to fix a failed blockchain initiative), there are 13 key features and
-  questions IT and innovation leaders should investigate before investing in new
-  infrastructure.
+title: 13 features you need to evaluate a business blockchain platform
+description: When evaluating a blockchain solution (or trying to fix a failed
+  blockchain initiative), there are 13 key features and questions IT and
+  innovation leaders should investigate before investing in new infrastructure.
 date: 2022-02-18
 authors:
   - Vikrant Kahlir
 categories:
-  - blockchain
+  - product
 relatedPosts:
   - 2022-04-26-3-body-problem-solution-example
   - 2022-09-15-api-design-best-practices
   - 2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient
+tags: []
 seo:
-  description: When evaluating an enterprise-grade blockchain solution (or trying
-    to fix a failed blockchain initiative), there are 13 key features and
-    questions IT and innovation leaders should investigate before investing in
-    new infrastructure.
+  description: When evaluating an business blockchain solution (or trying to fix a
+    failed blockchain initiative), there are 13 key features and questions IT
+    and innovation leaders should investigate before investing in new
+    infrastructure.
   keywords: blockchain, failed blockchain, enterprise blockchain
   title: 13 features you need to evaluate an enterprise blockchain platform
+createdBy: alexa-vendia
+createdAt: 2023-05-10T20:20:16.977Z
 updatedBy: alexa-vendia
-updatedAt: 2022-12-07T00:49:07.256Z
-id: '88831551-d9af-45bd-a7ae-4a191d9ae14c'
+updatedAt: 2023-05-10T20:20:16.976Z
+id: 88831551-d9af-45bd-a7ae-4a191d9ae14c
 ---
 
 ## What is the right platform for decentralized applications?
@@ -38,7 +40,7 @@ I remember having a conversation with the CIO of a Fortune 500 company about agi
 
 So far, I am impressed by the progress and improvement in the tooling required to build and deploy decentralized software on public and private blockchain platforms. But, current experience and tooling are far from optimal for the rapid development of blockchain application proof of concepts, value, and delivery of value. Blockchain platform services are still limited, so it's important your organization can support the business needs for blockchain application development before you pick a platform for blockchain application development.
 
-## Blockchain evaluation criteria for enterprises
+## Business blockchain evaluation criteria
 
 Here is our compilation of features and questions your decentralized application and services teams will need to expect from an enterprise blockchain platform. 
 
@@ -153,8 +155,6 @@ Here is our compilation of features and questions your decentralized application
 
 - *How much of the platform runs on renewable energy sources?*
 - *Does the platform use inefficient algorithms?*
-
-
 
 ## Blockchain development doesn't have to be complicated — or costly
 
