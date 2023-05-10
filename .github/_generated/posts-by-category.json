@@ -769,6 +769,35 @@
       "id": "6f36bf4a-cb33-458a-80f3-2e4800184cf6"
     },
     {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "draft": false,
+      "title": "13 features you need to evaluate a business blockchain platform",
+      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+      "date": "2022-02-18T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-09-15-api-design-best-practices",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [],
+      "seo": {
+        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+        "keywords": "blockchain, failed blockchain, enterprise blockchain",
+        "title": "13 features you need to evaluate an enterprise blockchain platform"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-10T20:20:16.977Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-10T20:20:16.976Z",
+      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
+    },
+    {
       "file": "/posts/2022-01-31-multi-party-data-sharing-with-control.md",
       "draft": false,
       "title": "Multi-party data sharing with control",
@@ -3661,32 +3690,6 @@
       "updatedBy": "Hugues Tennier",
       "updatedAt": "2023-02-20T15:46:07.217Z",
       "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
-    },
-    {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
-      "draft": false,
-      "title": "13 features you need to evaluate an enterprise blockchain platform",
-      "description": "When evaluating an enterprise-grade blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-      "date": "2022-02-18T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-04-26-3-body-problem-solution-example",
-        "2022-09-15-api-design-best-practices",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "seo": {
-        "description": "When evaluating an enterprise-grade blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-        "keywords": "blockchain, failed blockchain, enterprise blockchain",
-        "title": "13 features you need to evaluate an enterprise blockchain platform"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T00:49:07.256Z",
-      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
     },
     {
       "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
