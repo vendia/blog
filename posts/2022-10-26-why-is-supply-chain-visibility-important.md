@@ -6,7 +6,7 @@ description: Supply chain visibility helps organizations make faster decisions
   customers with insights from Vikrant Kahlir, Tech Lead.
 date: 2022-10-26
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
   - concepts
 relatedPosts:
@@ -22,10 +22,10 @@ seo:
     customers with insights from Vikrant Kahlir, Tech Lead.
 sidebarCta:
   - 893c2969-3b41-4ac0-86d2-df2d90f6a103
-createdBy: ""
-createdAt: ""
+createdBy: alexa-vendia
+createdAt: 2023-05-12T18:55:06.264Z
 updatedBy: alexa-vendia
-updatedAt: 2023-02-16T19:43:16.433Z
+updatedAt: 2023-05-12T18:55:06.264Z
 id: af555eaf-8b9b-442e-a8c6-19135a2c897d
 ---
 
