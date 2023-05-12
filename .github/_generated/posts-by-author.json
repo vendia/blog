@@ -1292,6 +1292,41 @@
       "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
     },
     {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "draft": false,
+      "title": "Applying Domain Driven Design (DDD) to blockchains",
+      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+      "date": "2022-01-14T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-03-09-graphql-and-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
+      ],
+      "tags": [
+        "DDD",
+        "Domain Driven Design",
+        "private blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "seo": {
+        "title": "Applying Domain Driven Design (DDD) to blockchains",
+        "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+        "keywords": "DDD, Domain Driven Design"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-12T19:35:12.328Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T19:35:12.328Z",
+      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
+    },
+    {
       "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
       "draft": false,
       "title": "How to share Files in Vendia Share Unis",
@@ -3595,39 +3630,6 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-04-14T21:22:43.427Z",
       "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
-    },
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "draft": false,
-      "title": "Applying Domain Driven Design (DDD) to blockchains",
-      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-      "date": "2022-01-14T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-03-09-graphql-and-blockchain",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
-      ],
-      "tags": [
-        "DDD",
-        "Domain Driven Design",
-        "private blockchain",
-        "distributed ledger technology"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
-      "seo": {
-        "title": "Applying Domain Driven Design (DDD) to blockchains",
-        "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-        "keywords": "DDD, Domain Driven Design"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:57:26.226Z",
-      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
     }
   ],
   "hailey-nevins": [
