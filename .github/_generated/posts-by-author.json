@@ -445,6 +445,41 @@
       "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
     },
     {
+      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
+      "draft": false,
+      "title": "How to improve supply chain visibility",
+      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
+      "date": "2023-01-03T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-20-finserv-blockchain-data-strategy",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2022-10-26-why-is-supply-chain-visibility-important"
+      ],
+      "tags": [
+        "supply chain visibility"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
+        "keywords": "improve supply chain visibility",
+        "title": "How to improve supply chain visibility"
+      },
+      "sidebarCta": [
+        "Supercloud? Poly-cloud? Multi-Cloud? "
+      ],
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-12T18:54:32.267Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T18:54:32.267Z",
+      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
+    },
+    {
       "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
       "draft": false,
       "title": "Circles of Trust: Season 1 recap",
@@ -696,6 +731,38 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-02-16T19:32:46.950Z",
       "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2023-01-03-how-to-improve-supply-chain-visibility",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png",
+      "seo": {
+        "title": "Why is supply chain visibility important?",
+        "keywords": "better supply chain visibility",
+        "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
+      },
+      "sidebarCta": [
+        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+      ],
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-12T18:55:06.264Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T18:55:06.264Z",
+      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
     },
     {
       "file": "/posts/2022-10-25-vendia-values.md",
@@ -3200,241 +3267,6 @@
       "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
     }
   ],
-  "vikrant-kahlir": [
-    {
-      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
-      "draft": false,
-      "title": "How to improve supply chain visibility",
-      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-      "date": "2023-01-03T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-09-20-finserv-blockchain-data-strategy",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2022-10-26-why-is-supply-chain-visibility-important"
-      ],
-      "tags": [
-        "supply chain visibility"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-        "keywords": "improve supply chain visibility",
-        "title": "How to improve supply chain visibility"
-      },
-      "sidebarCta": [
-        "Supercloud? Poly-cloud? Multi-Cloud? "
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:40:50.047Z",
-      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
-    },
-    {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
-      "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2023-01-03-how-to-improve-supply-chain-visibility",
-        "2021-01-25-supply-chain-visibility-with-vendia-share"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png",
-      "seo": {
-        "title": "Why is supply chain visibility important?",
-        "keywords": "better supply chain visibility",
-        "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
-      },
-      "sidebarCta": [
-        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:43:16.433Z",
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
-    },
-    {
-      "file": "/posts/2022-09-07-kind-is-strong.md",
-      "draft": false,
-      "title": "Kind is not weak, kind is strong",
-      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
-      "date": "2022-09-07",
-      "categories": [
-        "company"
-      ],
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "43a8caa8-6d4b-4d5f-b020-60c43337811b"
-    },
-    {
-      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
-      "draft": false,
-      "title": "What is operational data sharing?",
-      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
-      "categories": [
-        "concepts"
-      ],
-      "date": "2022-07-26",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
-    },
-    {
-      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
-      "draft": false,
-      "title": "3 core use cases for Vendia Share in the semiconductor industry",
-      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
-      "date": "2022-07-07",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "8bddfc2e-340c-4b8e-8771-b34427b85c51"
-    },
-    {
-      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
-      "draft": false,
-      "title": "Solve for supply chain traceability with Vendia Share",
-      "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2021-01-25-supply-chain-visibility-with-vendia-share"
-      ],
-      "tags": [
-        "semiconductor",
-        "use case",
-        "die traceability"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png",
-      "seo": {
-        "title": "Solve for supply chain traceability with Vendia Share",
-        "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
-        "keywords": "end-to-end traceability challenges and solutions"
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-20T22:58:27.153Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-20T22:58:27.153Z",
-      "id": "1fc38399-c271-4904-8f30-467837b0345e"
-    },
-    {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
-      "draft": false,
-      "title": "13 features you need to evaluate a business blockchain platform",
-      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-      "date": "2022-02-18T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-04-26-3-body-problem-solution-example",
-        "2022-09-15-api-design-best-practices",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [],
-      "seo": {
-        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-        "keywords": "blockchain, failed blockchain, enterprise blockchain",
-        "title": "13 features you need to evaluate an enterprise blockchain platform"
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-05-10T20:20:16.977Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-05-10T20:20:16.976Z",
-      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "draft": false,
-      "title": "The global supply chain is broken — can blockchain help?",
-      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
-      "date": "2022-02-09T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2020-11-05-track-and-trace",
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [
-        "supply chain",
-        "manufacturing"
-      ],
-      "seo": {
-        "title": "The global supply chain is broken — can blockchain help?",
-        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-14T21:22:43.427Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-14T21:22:43.427Z",
-      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
-    },
-    {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
-      "draft": false,
-      "title": "Applying Domain Driven Design (DDD) to blockchains",
-      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-      "date": "2022-01-14T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-03-09-graphql-and-blockchain",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
-      ],
-      "tags": [
-        "DDD",
-        "Domain Driven Design",
-        "private blockchain",
-        "distributed ledger technology"
-      ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
-      "seo": {
-        "title": "Applying Domain Driven Design (DDD) to blockchains",
-        "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-        "keywords": "DDD, Domain Driven Design"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:57:26.226Z",
-      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
-    }
-  ],
   "renee-fujii": [
     {
       "file": "/posts/2022-10-11-company-retreat-tips.md",
@@ -3612,6 +3444,174 @@
         "Caroll Casbeer"
       ],
       "id": "4225ea79-7340-4e65-b3f2-d43e7fa911ad"
+    }
+  ],
+  "vikrant-kahlir": [
+    {
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "draft": false,
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "43a8caa8-6d4b-4d5f-b020-60c43337811b"
+    },
+    {
+      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
+      "draft": false,
+      "title": "What is operational data sharing?",
+      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "categories": [
+        "concepts"
+      ],
+      "date": "2022-07-26",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
+    },
+    {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "draft": false,
+      "title": "3 core use cases for Vendia Share in the semiconductor industry",
+      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
+      "date": "2022-07-07",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "8bddfc2e-340c-4b8e-8771-b34427b85c51"
+    },
+    {
+      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
+      "draft": false,
+      "title": "Solve for supply chain traceability with Vendia Share",
+      "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "tags": [
+        "semiconductor",
+        "use case",
+        "die traceability"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png",
+      "seo": {
+        "title": "Solve for supply chain traceability with Vendia Share",
+        "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
+        "keywords": "end-to-end traceability challenges and solutions"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-20T22:58:27.153Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-20T22:58:27.153Z",
+      "id": "1fc38399-c271-4904-8f30-467837b0345e"
+    },
+    {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "draft": false,
+      "title": "13 features you need to evaluate a business blockchain platform",
+      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+      "date": "2022-02-18T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-09-15-api-design-best-practices",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [],
+      "seo": {
+        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+        "keywords": "blockchain, failed blockchain, enterprise blockchain",
+        "title": "13 features you need to evaluate an enterprise blockchain platform"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-10T20:20:16.977Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-10T20:20:16.976Z",
+      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
+    },
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "draft": false,
+      "title": "The global supply chain is broken — can blockchain help?",
+      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
+      "date": "2022-02-09T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2020-11-05-track-and-trace",
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [
+        "supply chain",
+        "manufacturing"
+      ],
+      "seo": {
+        "title": "The global supply chain is broken — can blockchain help?",
+        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-14T21:22:43.427Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-14T21:22:43.427Z",
+      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "draft": false,
+      "title": "Applying Domain Driven Design (DDD) to blockchains",
+      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+      "date": "2022-01-14T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-03-09-graphql-and-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
+      ],
+      "tags": [
+        "DDD",
+        "Domain Driven Design",
+        "private blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "seo": {
+        "title": "Applying Domain Driven Design (DDD) to blockchains",
+        "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+        "keywords": "DDD, Domain Driven Design"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:57:26.226Z",
+      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
     }
   ],
   "hailey-nevins": [
