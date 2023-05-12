@@ -6,7 +6,7 @@ description: When evaluating a blockchain solution (or trying to fix a failed
   innovation leaders should investigate before investing in new infrastructure.
 date: 2022-02-18
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
   - product
 relatedPosts:
@@ -24,7 +24,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-05-10T20:20:16.977Z
 updatedBy: alexa-vendia
-updatedAt: 2023-05-10T20:20:16.976Z
+updatedAt: 2023-05-12T19:00:27.765Z
 id: 88831551-d9af-45bd-a7ae-4a191d9ae14c
 ---
 
