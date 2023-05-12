@@ -1,13 +1,22 @@
 ---
-draft: false
-title: 'Kind is not weak, kind is strong'
-description: 'What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.'
-date: '2022-09-07'
-categories:
-- company
+draft: true
+title: Kind is not weak, kind is strong
+description: What makes Vendia culture strong and what fuels our dedication to
+  excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry
+  Solutions on the power and practice of kindness.
+date: 2022-09-07
 authors:
   - Vikrant Kahlir
-id: '43a8caa8-6d4b-4d5f-b020-60c43337811b'
+categories:
+  - company
+seo:
+  title: Kind is not weak, kind is strong
+  description: Kind is not weak, kind is strong
+createdBy: David Wells
+createdAt: 2023-05-12T20:39:40.277Z
+updatedBy: David Wells
+updatedAt: 2023-05-12T20:39:40.277Z
+id: 43a8caa8-6d4b-4d5f-b020-60c43337811b
 ---
 
 I joined Vendia in December 2021, and one thing that caught my attention was the [“Kind Humans Only”](https://www.vendia.com/kind-humans) policy. “Kind” in the business world can be perceived as a weakness. But, what I observed at Vendia is that kind is not weak, kind is strong. 
