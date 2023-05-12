@@ -6,9 +6,9 @@ description: Discover 4 DDD Patterns for your next distributed ledger or
   insights from Vikrant Kahlir, Tech Lead for Data and Web3.
 date: 2022-01-14
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
-  - blockchain
+  - product
 relatedPosts:
   - 2022-03-09-graphql-and-blockchain
   - 2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform
@@ -25,9 +25,11 @@ seo:
     permissioned private blockchain created on the Vendia Share data platform
     with insights from Vikrant Kahlir, Tech Lead for Data and Web3.
   keywords: DDD, Domain Driven Design
+createdBy: alexa-vendia
+createdAt: 2023-05-12T19:35:12.328Z
 updatedBy: alexa-vendia
-updatedAt: 2022-12-06T23:57:26.226Z
-id: 'c11e7985-5204-4774-b8ef-91aa756f183d'
+updatedAt: 2023-05-12T19:35:12.328Z
+id: c11e7985-5204-4774-b8ef-91aa756f183d
 ---
 
 Vendia Share is a platform that you can use to quickly build real-time data sharing applications which we call Universal Applications (or "Unis" for short). 
