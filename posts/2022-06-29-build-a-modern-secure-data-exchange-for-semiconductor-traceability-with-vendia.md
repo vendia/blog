@@ -6,7 +6,7 @@ description: Learn how private, permissioned blockchain helps manufacturers
   chain partners using the semiconductor industry as an example.
 date: 2022-06-29
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
   - product
 relatedPosts:
@@ -27,7 +27,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-20T22:58:27.153Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-20T22:58:27.153Z
+updatedAt: 2023-05-12T18:59:35.280Z
 id: 1fc38399-c271-4904-8f30-467837b0345e
 ---
 
