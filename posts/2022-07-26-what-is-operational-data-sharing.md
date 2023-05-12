@@ -1,16 +1,29 @@
 ---
 draft: false
-title: 'What is operational data sharing?'
-description: 'Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.'
-categories:
-- concepts
-date: '2022-07-26'
+title: What is operational data sharing?
+description: Data systems share operational data to monitor the machinations of
+  daily business. Let’s look at four unique use cases and compare operational
+  data to analytical data.
+date: 2022-07-26
 authors:
-  - Vikrant Kahlir
-id: '4f89b2fa-2991-470f-ae4e-e805780913a8'
+  - Vendia
+categories:
+  - concepts
+relatedPosts:
+  - 2022-09-22-real-time-everything
+  - 2022-11-29-shared-data-architecture-patterns
+  - 2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain
+seo:
+  title: What is operational data sharing?
+  description: Data systems share operational data to monitor the machinations of
+    daily business. Let’s look at four unique use cases and compare operational
+    data to analytical data.
+createdBy: alexa-vendia
+createdAt: 2023-05-12T19:40:05.038Z
+updatedBy: alexa-vendia
+updatedAt: 2023-05-12T19:40:05.038Z
+id: 4f89b2fa-2991-470f-ae4e-e805780913a8
 ---
-
-
 
 Operational data is information that supports the processes and systems that run a business. Operational data sharing is gaining traction, but some organizations are anxious and nervous about it. There’s a "don't share unless" attitude towards data sharing within and across organizations. If you’re part of an organization that still wants to hang on to old beliefs by not sharing operational data with other departments and affiliates, you are missing out on money to be made. You’re also failing to leverage time-saving opportunities, and your team is ignoring a powerful concept that can transform business intelligence into intelligent business. 
 
