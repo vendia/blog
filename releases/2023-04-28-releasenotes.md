@@ -31,7 +31,7 @@ To enable erasure, user must add \`x-vendia-erasable\` field at the same level i
 
 Once it’s enabled, you’ll see APIs that look like below:
 
-![erasibility](https://user-images.githubusercontent.com/116586196/235224739-7307e671-6821-4c23-b200-a5d932cc2611.png)
+![erasibility](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com%252F116586196%252F235224739-7307e671-6821-4c23-b200-a5d932cc2611.png)
 
 Stay tuned as additional documentation will be available soon.
 
@@ -41,13 +41,13 @@ We’ve recently made a change to update File metadata. All file mutations  mus
 
 If another \`syncMode\` is used, the request will be rejected as shown below:
 
-![mutation-change](https://user-images.githubusercontent.com/116586196/235224864-843e93ea-ba55-4f47-8fce-4c9fe59eb23e.png)
+![mutation-change](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com%252F116586196%252F235224864-843e93ea-ba55-4f47-8fce-4c9fe59eb23e.png)
 
 ## Copy Strategy Change
 
 Previously, Vendia supported a File copy strategy called “On Access” in our environment. This copy strategy is no longer supported in any future mutation to file metadata. 
 
-![unsupported](https://user-images.githubusercontent.com/116586196/235224753-15fbb4fb-2ff3-4307-b36a-113ef8a1b6b1.png)
+![unsupported](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com%252F116586196%252F235224753-15fbb4fb-2ff3-4307-b36a-113ef8a1b6b1.png)
 
 Try us out
 

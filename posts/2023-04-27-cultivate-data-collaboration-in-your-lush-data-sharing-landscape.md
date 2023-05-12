@@ -37,7 +37,7 @@ Connecting this veritable slew of tools into a trusted, unified view is overwhel
 
 ###### **Figure 1:** *Connecting this veritable slew of tools into a trusted, unified view is overwhelmingly complex*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1682628946/Blog%20images/Snowflake%20%2B%20Vendia%20Webinar%2004%202023/Figure_1_Complex_data_landscape_vsqrpo.png" alt="Diagram: Complex lines of data workflows and connection points between unique analog and digital data sharing tools like email, phone, MS Excel, and Azure" class="image-float-center" width="400" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1682628946%252FBlog%252520images%252FSnowflake%252520%25252B%252520Vendia%252520Webinar%25252004%2525202023%252FFigure_1_Complex_data_landscape_vsqrpo.png" alt="Diagram: Complex lines of data workflows and connection points between unique analog and digital data sharing tools like email, phone, MS Excel, and Azure" class="image-float-center" width="400" />
 
 ### What is data sharing, and why do we do it?
 
@@ -68,7 +68,7 @@ Let's make it real. Let’s delineate an online store as the data producer and a
 
 ###### **Figure 2:** *Data sharing and collaboration in a two-party ecosystem*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1682628946/Blog%20images/Snowflake%20%2B%20Vendia%20Webinar%2004%202023/Figure_2_awicvk.png" alt="Diagram: Two side-by-side ecosystems (online store and shipping co.) showing a series of data production and consumption workflows" class="image-float-center" width="400" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1682628946%252FBlog%252520images%252FSnowflake%252520%25252B%252520Vendia%252520Webinar%25252004%2525202023%252FFigure_2_awicvk.png" alt="Diagram: Two side-by-side ecosystems (online store and shipping co.) showing a series of data production and consumption workflows" class="image-float-center" width="400" />
 
 While this is cumbersome, it's not painfully inefficient with two partners. Especially since organizations are used to this process. We’ve stewed in it for a while, and it feels normal.
 
@@ -89,7 +89,7 @@ That same back-and-forth with parallel sharing paths and data integration must o
 
 ###### **Figure 3:** *Data sharing and collaboration in a messy multi-partner ecosystem*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1682628946/Blog%20images/Snowflake%20%2B%20Vendia%20Webinar%2004%202023/Figure_3_inai2e.png" alt="Diagram: A six-party data ecosystem (online store, shipping co. 1, shipping co. 2, storefront, marketing agency, and product supplier) and the inefficient and uncollaborative workflows that prompt costly manual reconciliation tasks, risks, and errors" class="image-float-center" width="600" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1682628946%252FBlog%252520images%252FSnowflake%252520%25252B%252520Vendia%252520Webinar%25252004%2525202023%252FFigure_3_inai2e.png" alt="Diagram: A six-party data ecosystem (online store, shipping co. 1, shipping co. 2, storefront, marketing agency, and product supplier) and the inefficient and uncollaborative workflows that prompt costly manual reconciliation tasks, risks, and errors" class="image-float-center" width="600" />
 
 #### Things just got really messy really fast
 
@@ -114,7 +114,7 @@ All of these permissions and views or redactions are immediately applied upon cr
 
 ###### **Figure 4:** *With Vendia Share, data is shared with control and compliance for real-time actions*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1682628946/Blog%20images/Snowflake%20%2B%20Vendia%20Webinar%2004%202023/Figure_4_rdffck.png" alt="Diagram: Vendia Share platform at the center of the six-party ecosystem enabling all partners to be controlled, 'need to know only' data consumers and producers in real-time " class="image-float-center" width="600" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1682628946%252FBlog%252520images%252FSnowflake%252520%25252B%252520Vendia%252520Webinar%25252004%2525202023%252FFigure_4_rdffck.png" alt="Diagram: Vendia Share platform at the center of the six-party ecosystem enabling all partners to be controlled, 'need to know only' data consumers and producers in real-time " class="image-float-center" width="600" />
 
 
 
@@ -126,7 +126,7 @@ All of these permissions and views or redactions are immediately applied upon cr
 
 ###### **Figure 5:** *Simultaneous transactions in subsets of the partner ecosystem get real-time updates with control, too*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1682628946/Blog%20images/Snowflake%20%2B%20Vendia%20Webinar%2004%202023/Figure_5_wfeg3r.png" alt="Diagram: Vendia Share platform at the center of the six-party ecosystem enabling some partners to share and collaborate in a sub-ecosystem" class="image-float-center" width="600" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1682628946%252FBlog%252520images%252FSnowflake%252520%25252B%252520Vendia%252520Webinar%25252004%2525202023%252FFigure_5_wfeg3r.png" alt="Diagram: Vendia Share platform at the center of the six-party ecosystem enabling some partners to share and collaborate in a sub-ecosystem" class="image-float-center" width="600" />
 
 It's real-time without integration, parallel shares, merging, and manual reconciliation of updates. It’s automated, trusted, compliant, and secure. And this is a great fit, not just for analytical data worlds but also for the operational data world using data that's driving business processes.
 
@@ -149,7 +149,7 @@ To be clear, I’m not advocating for consolidating all data-related solutions o
 
 ###### Figure 6: *Use Vendia Share and Snowflake to treat data like a product*
 
-<img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1682628947/Blog%20images/Snowflake%20%2B%20Vendia%20Webinar%2004%202023/Figure_6_vkuct5.png" alt="Diagram: Vendia Share's platform integrations for partner data collaboration including an integration with Snowflake for consumer data sharing and integrated dashboard workflows" class="image-float-center" width="600" />
+<img src="https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_90%252Fv1682628947%252FBlog%252520images%252FSnowflake%252520%25252B%252520Vendia%252520Webinar%25252004%2525202023%252FFigure_6_vkuct5.png" alt="Diagram: Vendia Share's platform integrations for partner data collaboration including an integration with Snowflake for consumer data sharing and integrated dashboard workflows" class="image-float-center" width="600" />
 
 Using both Snowflake and Vendia Share combines purpose with power, unlocking opportunities from data outside of your four wallsIn a connected data ecosystem, you can holistically tackle your business initiatives, building answers to analytics and operational systems because you [treat data like a product](https://www.mckinsey.com/capabilities/quantumblack/our-insights/how-to-unlock-the-full-value-of-data-manage-it-like-a-product). You’re also reducing opportunity costs and the headcount needed for complex data integration, consolidation, and reconciliation. And this is really what the future of data of looks like.
 
