@@ -589,6 +589,33 @@
       "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
     },
     {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "draft": false,
+      "title": "3 core use cases for Vendia Share in the semiconductor industry",
+      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate-stable future)",
+      "date": "2022-07-07T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2020-11-05-track-and-trace",
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2023-01-03-how-to-improve-supply-chain-visibility"
+      ],
+      "seo": {
+        "title": "3 core use cases for Vendia Share in the semiconductor industry",
+        "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate-stable future)"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-12T18:58:52.304Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T18:58:52.303Z",
+      "id": "8bddfc2e-340c-4b8e-8771-b34427b85c51"
+    },
+    {
       "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
       "draft": false,
       "title": "NEW low latency operations and Vendia Metrics",
