@@ -6,7 +6,7 @@ description: Explore supply chain visibility challenges and discover three
   of visibility.
 date: 2023-01-03
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
   - thought-leadership
 relatedPosts:
@@ -24,10 +24,10 @@ seo:
   title: How to improve supply chain visibility
 sidebarCta:
   - "Supercloud? Poly-cloud? Multi-Cloud? "
-createdBy: ""
-createdAt: ""
+createdBy: alexa-vendia
+createdAt: 2023-05-12T18:54:32.267Z
 updatedBy: alexa-vendia
-updatedAt: 2023-02-14T21:40:50.047Z
+updatedAt: 2023-05-12T18:54:32.267Z
 id: c803ef20-a91e-4fff-8506-838f8de11cdf
 ---
 
