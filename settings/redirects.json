@@ -2,6 +2,11 @@
   "redirects": [
     {
       "status": 301,
+      "from": "/blog/kind-is-strong",
+      "to": "/blog/6-months-at-vendia"
+    },
+    {
+      "status": 301,
       "from": "/thank-you/events/gbta",
       "to": "/"
     },
@@ -106,7 +111,7 @@
       "to": "/blog"
     }
   ],
-  "updatedAt": "2023-05-01T18:13:26.866Z",
+  "updatedAt": "2023-05-12T20:38:48.182Z",
   "updatedBy": "David Wells",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
