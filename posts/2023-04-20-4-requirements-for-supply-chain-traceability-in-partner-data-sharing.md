@@ -7,7 +7,7 @@ description: When it comes to supply chain management, business resiliency, and
   Share solution for traceability use cases.
 date: 2023-04-20
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
   - thought-leadership
 relatedPosts:
@@ -25,7 +25,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-20T23:58:27.488Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-21T00:10:54.690Z
+updatedAt: 2023-05-12T18:53:33.500Z
 id: de1e5b56-093c-4ece-9972-551c9c932833
 ---
 
