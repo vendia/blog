@@ -256,7 +256,7 @@
       "id": "792a7f70-09b0-4ea0-9d5e-b35bf2c9c8b4"
     }
   ],
-  "vikrant-kahlir": [
+  "vendia": [
     {
       "file": "/posts/2023-04-20-4-requirements-for-supply-chain-traceability-in-partner-data-sharing.md",
       "draft": false,
@@ -265,7 +265,7 @@
       "description": "When it comes to supply chain management, business resiliency, and data traceability requirements, here's our guiding vision behind the Vendia Share solution for traceability use cases.",
       "date": "2023-04-20T00:00:00.000Z",
       "authors": [
-        "Vikrant Kahlir"
+        "Vendia"
       ],
       "categories": [
         "thought-leadership"
@@ -285,241 +285,1092 @@
       "createdBy": "alexa-vendia",
       "createdAt": "2023-04-20T23:58:27.488Z",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-21T00:10:54.690Z",
+      "updatedAt": "2023-05-12T18:53:33.500Z",
       "id": "de1e5b56-093c-4ece-9972-551c9c932833"
     },
     {
-      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
+      "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
       "draft": false,
-      "title": "How to improve supply chain visibility",
-      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-      "date": "2023-01-03T00:00:00.000Z",
+      "title": "How to build a data ecosystem",
+      "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
+      "date": "2023-02-10T00:00:00.000Z",
       "authors": [
-        "Vikrant Kahlir"
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-05-10-improve-your-data-mesh",
+        "2021-01-29-getting-started-with-vendia-share"
+      ],
+      "tags": [
+        "use cases",
+        "data trust",
+        "data alliance",
+        "data ecosystem"
+      ],
+      "seo": {
+        "noindex": false,
+        "title": "How to build a data ecosystem",
+        "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
+        "keywords": "how to build a data ecosystem"
+      },
+      "sidebarCta": [
+        "Vendia Share: What it is and how it works"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:29:51.150Z",
+      "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
+    },
+    {
+      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
+      "draft": false,
+      "title": "Does your data build or break trust? ",
+      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+      "date": "2023-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
       ],
       "categories": [
         "thought-leadership"
       ],
       "relatedPosts": [
-        "2022-09-20-finserv-blockchain-data-strategy",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2022-10-26-why-is-supply-chain-visibility-important"
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
+        "2021-02-01-decentralization",
+        "2021-09-01-sharing-data-with-fine-grained-control"
       ],
       "tags": [
+        "closing the books",
+        "podcast",
+        "Circles of Trust",
+        "reconciliation",
+        "data transformation",
+        "MUFG",
+        "financial services",
+        "Joyce Clinton",
+        "Francine Klein",
+        "Tim Zonca"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679591040/Circles%20of%20Trust/626x0w_brmnug.webp",
+      "seo": {
+        "noindex": false,
+        "title": "Does your data build or break trust?",
+        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
+        "keywords": "closing the books with automatic reconciliation"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-31T16:55:05.158Z",
+      "updatedBy": "Li Dai",
+      "updatedAt": "2023-04-04T14:43:58.877Z",
+      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
+    },
+    {
+      "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
+      "draft": false,
+      "title": "Team spotlight: Vendia Software Development",
+      "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2023-01-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-11-09-team-spotlight-vendia-engineering-pt-1",
+        "2022-10-25-vendia-values"
+      ],
+      "tags": [
+        "engineering",
+        "team",
+        "recruiting"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599326/Website/Iso/Profiles_oxexbc.png",
+      "seo": {
+        "noindex": false,
+        "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Software Development"
+      },
+      "sidebarCta": [
+        "Join the Founders' Circle"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:23:57.872Z",
+      "id": "13373d57-30db-4b71-b540-b39aac7e7ab6"
+    },
+    {
+      "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
+      "draft": false,
+      "title": "3 things to do right now for better supply chain visibility",
+      "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy.",
+      "date": "2023-01-12T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry"
+      ],
+      "tags": [
+        "chain of custody",
         "supply chain visibility"
       ],
       "seo": {
         "noindex": false,
-        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
-        "keywords": "improve supply chain visibility",
-        "title": "How to improve supply chain visibility"
+        "title": "3 things to do right now for better supply chain visibility",
+        "keywords": "supply chain visibility, supply chain optimization, chain of custody",
+        "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy."
       },
       "sidebarCta": [
-        "Supercloud? Poly-cloud? Multi-Cloud? "
+        "Vendia Share: What it is and how it works"
       ],
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:40:50.047Z",
-      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
+      "updatedAt": "2023-02-14T21:31:28.033Z",
+      "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
     },
     {
-      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
       "draft": false,
-      "title": "Why is supply chain visibility important? ",
-      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
-      "date": "2022-10-26T00:00:00.000Z",
+      "title": "Circles of Trust: Season 1 recap",
+      "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+      "date": "2022-12-16T00:00:00.000Z",
       "authors": [
-        "Vikrant Kahlir"
+        "Vendia"
       ],
       "categories": [
-        "concepts"
+        "thought-leadership"
       ],
       "relatedPosts": [
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2023-01-03-how-to-improve-supply-chain-visibility",
-        "2021-01-25-supply-chain-visibility-with-vendia-share"
+        "2021-06-08-gartner-cool-vendor",
+        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
       ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png",
+      "tags": [
+        "Circles of Trust",
+        "financial services",
+        "healthcare",
+        "manufacturing",
+        "sports",
+        "entertainment",
+        "nonprofits",
+        "Tim Zonca",
+        "Shruthi Rao",
+        "Francine Klein",
+        "James Gimourginas"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
       "seo": {
-        "title": "Why is supply chain visibility important?",
-        "keywords": "better supply chain visibility",
-        "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
+        "noindex": false,
+        "title": "Circles of Trust: Season 1 recap",
+        "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
+        "keywords": "real-time data sharing, b2b data sharing, circles of trust"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:52:55.351Z",
+      "id": "59d67ac2-806e-4452-8825-938c4b223134"
+    },
+    {
+      "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",
+      "draft": false,
+      "title": "6 predictions about the future of blockchain in 2023",
+      "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
+      "date": "2022-12-15T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-04-01-private-vs-public-blockchains",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
+        "2022-09-20-finserv-blockchain-data-strategy"
+      ],
+      "tags": [
+        "supply chain visibility",
+        "manufacturing",
+        "financial services",
+        "distributed ledger technology"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
+        "keywords": "business blockchain, the future of blockchain",
+        "title": "6 predictions about the future of blockchain in 2023"
       },
       "sidebarCta": [
-        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+        "The Future of APIs"
       ],
       "createdBy": "",
       "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:43:16.433Z",
-      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
+      "updatedAt": "2023-02-14T21:54:02.082Z",
+      "id": "1af70b4b-e67f-4cd1-9e74-6ff8e10c371f"
     },
     {
-      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
       "draft": false,
-      "title": "Kind is not weak, kind is strong",
-      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
-      "date": "2022-09-07",
+      "slug": "sharing-data-financial-services",
+      "title": "How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
+      "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
+      "date": "2022-12-14T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2021-06-08-gartner-cool-vendor",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "financial services",
+        "architecture",
+        "circles of trust"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "title": "Sharing data in financial services:  How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
+        "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
+        "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
+      },
+      "sidebarCta": [
+        "Vendia Share: What it is and how it works"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:54:59.001Z",
+      "id": "defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e"
+    },
+    {
+      "file": "/posts/2022-11-23-connecting-pets-humans.md",
+      "draft": false,
+      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+      "date": "2022-11-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-12-16-circles-of-trust-season-1-recap",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
+      ],
+      "tags": [
+        "real-time data sharing",
+        "cloud"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
+      "seo": {
+        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
+        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
+        "keywords": "circles of trust, b2b data sharing"
+      },
+      "sidebarCta": [
+        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:15:43.546Z",
+      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
+    },
+    {
+      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
+      "draft": false,
+      "slug": "podcast-patient-experience-with-teeth",
+      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
+      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+      "date": "2022-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-10-01-podcast-great-equalizer",
+        "2022-11-23-connecting-pets-humans"
+      ],
+      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
+      "seo": {
+        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
+        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
+        "keywords": "circles of trust"
+      },
+      "tweet": "Check out the latest episode of Circles of Trust",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:16:56.209Z",
+      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
+    },
+    {
+      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
+      "draft": false,
+      "slug": "vendia-engineering-team-spotlight",
+      "title": "Team spotlight: Vendia Engineering",
+      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+      "date": "2022-11-08T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "company"
       ],
-      "authors": [
-        "Vikrant Kahlir"
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia",
+        "2023-01-20-team-spotlight-vendia-software-development"
       ],
-      "id": "43a8caa8-6d4b-4d5f-b020-60c43337811b"
+      "tags": [
+        "recruiting",
+        "team",
+        "engineering"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599326/Website/Iso/Profiles_oxexbc.png",
+      "seo": {
+        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
+        "title": "Team spotlight: Vendia Engineering"
+      },
+      "sidebarCta": [
+        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
+      ],
+      "tweet": "Learn about the engineering team at Vendia!",
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:23:32.714Z",
+      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
     },
     {
-      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
+      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
       "draft": false,
-      "title": "What is operational data sharing?",
-      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+      "date": "2022-11-02T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-07-26-what-is-operational-data-sharing",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
+      "seo": {
+        "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
+        "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
+        "keywords": "operational and analytics data sharing"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:32:46.950Z",
+      "id": "65202e81-71d8-4103-bc87-73f867b97497"
+    },
+    {
+      "file": "/posts/2022-10-25-vendia-values.md",
+      "draft": false,
+      "title": "The five values that make us Vendia",
+      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other.",
+      "date": "2022-10-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-01-04-kind-humans-really-work-here",
+        "2022-05-31-vendia-announces-series-b"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324704/Blog%20images/Remote_work_vngluh.png",
+      "seo": {
+        "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other.",
+        "keywords": "company values",
+        "title": "Vendia's company values"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T00:50:18.075Z",
+      "id": "f997ca15-bef1-4c99-b9cc-ad017d17ecb0"
+    },
+    {
+      "file": "/posts/2022-10-19-podcast-founders-session.md",
+      "draft": false,
+      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
+      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
+      "date": "2022-10-19T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company",
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-01-private-vs-public-blockchains",
+        "2021-06-08-gartner-cool-vendor"
+      ],
+      "tags": [
+        "founders",
+        "Circles of Trust",
+        "podcast",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "Circles of Trust Episode 2: Vendia's Founders",
+        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n",
+        "keywords": "real-time data sharing solutions"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:55:26.507Z",
+      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
+    },
+    {
+      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
+      "draft": false,
+      "title": "Guide to real-time data sharing vendor types",
+      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia Share.",
+      "date": "2022-10-18T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-05-05-real-time-vs-analytical-data",
+        "2022-07-26-what-is-operational-data-sharing",
+        "2022-09-22-real-time-everything"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599116/Website/Iso/Connected_ygfber.png",
+      "seo": {
+        "title": "Guide to real-time data sharing vendor types",
+        "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
+        "keywords": "real-time data sharing vendors"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:58:04.477Z",
+      "id": "b7cb373b-5ee2-49a7-9177-a935993c47c9"
+    },
+    {
+      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
+      "draft": false,
+      "title": "The great equalizer: How data sharing can help communities overcome social inequities",
+      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
+      "date": "2022-10-01T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare",
+        "2022-11-02-podcast-worlds-colliding",
+        "2022-11-23-connecting-pets-humans"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
+      "seo": {
+        "title": "The great equalizer: How data sharing can help communities overcome social inequities",
+        "keywords": "b2b data sharing",
+        "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T20:24:05.633Z",
+      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
+    },
+    {
+      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
+      "draft": false,
+      "title": "Obstacles to real-time data sharing",
+      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+      "date": "2022-09-27T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-05-02-what-is-real-time-data-sharing",
+        "2022-07-20-real-time-data-sharing-solution-elements",
+        "2022-09-22-real-time-everything"
+      ],
+      "tags": [
+        "real-time data sharing"
+      ],
+      "seo": {
+        "title": "Obstacles to real-time data sharing",
+        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
+        "keywords": "real-time data sharing"
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-12T20:58:44.743Z",
+      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
+    },
+    {
+      "file": "/posts/2022-09-14-atos-success-story.md",
+      "draft": false,
+      "title": "How Atos streamlined the reinsurance process and built trust among financial services partners",
+      "description": "Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.",
+      "date": "2022-09-14T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-09-26-blockchain-mortgage-services",
+        "2022-10-12-fintech-innovation-mortgage-servicing",
+        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing"
+      ],
+      "tags": [
+        "reinsurance",
+        "insurance",
+        "financial services",
+        "case study",
+        "Atos"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
+      "seo": {
+        "title": "Case study | How Atos wins with Vendia Share",
+        "description": "Atos lauds Vendia Share’s low code development and distributed ledger design while celebrating the solution’s new single source of truth across reinsurance partners."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-23T17:39:07.880Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-23T17:39:07.880Z",
+      "id": "42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9"
+    },
+    {
+      "file": "/posts/2022-02-24-b2b-data-sharing.md",
+      "draft": false,
+      "title": "Introduction to B2B data sharing with Vendia Share",
+      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
+      "date": "2022-08-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "concepts"
       ],
-      "date": "2022-07-26",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
-    },
-    {
-      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
-      "draft": false,
-      "title": "3 core use cases for Vendia Share in the semiconductor industry",
-      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
-      "date": "2022-07-07",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "id": "8bddfc2e-340c-4b8e-8771-b34427b85c51"
-    },
-    {
-      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
-      "draft": false,
-      "title": "Solve for supply chain traceability with Vendia Share",
-      "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "product"
-      ],
       "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2021-01-25-supply-chain-visibility-with-vendia-share"
+        "2021-09-01-sharing-data-with-fine-grained-control",
+        "2022-09-22-real-time-everything",
+        "2022-10-27-codeless-apis"
       ],
       "tags": [
-        "semiconductor",
-        "use case",
-        "die traceability"
+        "governance",
+        "API",
+        "partner data sharing",
+        "settlements",
+        "traceability",
+        "use cases",
+        "manufacturing",
+        "automotive",
+        "b2b data sharing"
       ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png",
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png",
       "seo": {
-        "title": "Solve for supply chain traceability with Vendia Share",
-        "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
-        "keywords": "end-to-end traceability challenges and solutions"
+        "title": "Introduction to B2B data sharing with Vendia",
+        "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem."
       },
       "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-20T22:58:27.153Z",
+      "createdAt": "2023-03-30T22:12:02.810Z",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-20T22:58:27.153Z",
-      "id": "1fc38399-c271-4904-8f30-467837b0345e"
+      "updatedAt": "2023-03-30T22:12:02.810Z",
+      "id": "9d1d9ccc-a249-4172-a948-226ad494e206"
     },
     {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
       "draft": false,
-      "title": "13 features you need to evaluate a business blockchain platform",
-      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-      "date": "2022-02-18T00:00:00.000Z",
+      "title": "How Serverless and cloud enable scalable blockchains",
+      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
+      "date": "2022-08-03T00:00:00.000Z",
       "authors": [
-        "Vikrant Kahlir"
+        "Vendia"
       ],
       "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-04-26-3-body-problem-solution-example",
-        "2022-09-15-api-design-best-practices",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [],
-      "seo": {
-        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-        "keywords": "blockchain, failed blockchain, enterprise blockchain",
-        "title": "13 features you need to evaluate an enterprise blockchain platform"
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-05-10T20:20:16.977Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-05-10T20:20:16.976Z",
-      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "draft": false,
-      "title": "The global supply chain is broken — can blockchain help?",
-      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
-      "date": "2022-02-09T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
+        "product",
         "blockchain"
       ],
       "relatedPosts": [
-        "2020-11-05-track-and-trace",
+        "2022-01-14-applying-domain-driven-design-to-blockchains",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
+      ],
+      "tags": [
+        "blockchain",
+        "Servereless",
+        "Lambda",
+        "Tim Wagner",
+        "webcast",
+        "Peter Sbarski"
+      ],
+      "seo": {
+        "title": "How Serverless and cloud enable scalable blockchains",
+        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
+        "keywords": ""
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:00:25.728Z",
+      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
+    },
+    {
+      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
+      "draft": false,
+      "title": "NEW low latency operations and Vendia Metrics",
+      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
+      "date": "2022-07-07T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "features",
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-02-03-welcome-to-developer-preview",
+        "2021-03-17-whats-new-failed-tx-dlq",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "seo": {
+        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
+        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-07T01:05:21.832Z",
+      "id": "12318435-38a9-4065-baff-ea6e84f240de"
+    },
+    {
+      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
+      "draft": false,
+      "title": "4 insights on the future of CRM data sharing",
+      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "real-time-data-sharing",
+        "data-alliance"
+      ],
+      "relatedPosts": [
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2022-06-21-crm-data-sharing-for-business",
+        "2022-07-08-crm-integration-painpoints"
+      ],
+      "tags": [
+        "CRM",
+        "API"
+      ],
+      "thumbnail": "",
+      "seo": {
+        "title": "4 insights on the future of CRM data sharing",
+        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
+      },
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:22:14.787Z",
+      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
+    },
+    {
+      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
+      "draft": false,
+      "title": "Why CRM data sharing is business critical",
+      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
+      "date": "2022-06-21T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-06-29-webcast-highlights-the-future-of-crm-data-sharing",
+        "2022-10-14-what-is-customer-360-with-vendia",
+        "2021-02-17-multiregion-serverless-apps"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599463/Website/Iso/CRM_uo10ew.png",
+      "seo": {
+        "title": "Why CRM data sharing is business critical",
+        "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-13T20:53:30.862Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-13T20:53:30.862Z",
+      "id": "dbad4df5-9f4d-4978-a08b-d0181da91bd2"
+    },
+    {
+      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
+      "draft": false,
+      "title": "Vendia announces Series B funding",
+      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+      "date": "2022-05-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2021-06-08-gartner-cool-vendor",
+        "2021-02-02-series-a-announcement"
+      ],
+      "tags": [
+        "BMW iVentures",
+        "Canvas Ventures",
+        "Sorenson Capital",
+        "Aspenwood Ventures",
+        "Neotribe Ventures",
+        "Lux Capital",
+        "Operator Partners",
+        "Neythri Futures Fund",
+        "NewView Capital",
+        "funding",
+        "Series B funding",
+        "Tim Wagner",
+        "Shruthi Rao"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "Vendia announces Series B funding",
+        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
+        "keywords": "Vendia startup"
+      },
+      "sidebarCta": [
+        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-15T19:55:38.453Z",
+      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
+    },
+    {
+      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
+      "draft": false,
+      "title": "Data types 101: Real-time data vs. analytical data",
+      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+      "date": "2022-05-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "concepts",
+        "realtime-data-sharing"
+      ],
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-02-podcast-worlds-colliding",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "seo": {
+        "title": "Data types 101: Real-time data vs. analytical data",
+        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
+        "keywords": "real-time data"
+      },
+      "sidebarCta": [
+        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-01-26T19:11:45.041Z",
+      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
+    },
+    {
+      "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
+      "draft": false,
+      "title": "How to share Files in Vendia Share Unis",
+      "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions.",
+      "date": "2021-02-18T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "tutorials"
+      ],
+      "relatedPosts": [
+        "2022-08-24-vendia-share-enterprise-file-sharing-platform",
+        "2022-08-17-public-cloud-file-sharing",
+        "2021-09-01-sharing-data-with-fine-grained-control"
+      ],
+      "tags": [
+        "file sharing"
+      ],
+      "seo": {
+        "title": "How to share Files in Vendia Share Unis",
+        "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions.",
+        "keywords": "Universal applications, file sharing, cross-cloud file sharing"
+      },
+      "sidebarCta": [
+        "930c3aa9-f2f4-4b0a-9cc5-488b6f804412"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T20:58:44.416Z",
+      "id": "7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0"
+    },
+    {
+      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
+      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
+      "draft": false,
+      "title": "The developer's punchlist for getting started with Vendia Share",
+      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
+      "date": "2021-01-29T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-10-21-api-security-graphql",
+        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
+      ],
+      "tags": [
+        "quick starts",
+        "documents",
+        "developers"
+      ],
+      "seo": {
+        "title": "The developer's punchlist for getting started with Vendia Share",
+        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
+      },
+      "sidebarCta": [
+        "a12ef328-491c-4bb6-a6a9-bf816e949e8c"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "David Wells",
+      "updatedAt": "2023-02-07T21:01:35.880Z",
+      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
+    },
+    {
+      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
+      "draft": false,
+      "title": "Quickstart: Track and trace for solving supply chain visibility problems",
+      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+      "date": "2021-01-25T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "features"
+      ],
+      "relatedPosts": [
         "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+        "2021-03-10-whats-new-indices",
+        "2022-07-07-low-latency-operations-metrics"
+      ],
+      "tags": [
+        "quickstart",
+        "supply chain traceability",
+        "track and trace"
+      ],
+      "seo": {
+        "title": "Quickstart: Track and trace for solving supply chain visibility problems",
+        "description": "Use this Vendia Share track and trace quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
+        "keywords": "track and trace, supply chain traceability"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-31T16:58:13.547Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-31T16:58:13.547Z",
+      "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
+    },
+    {
+      "file": "/posts/2020-11-16-tools-that-shape-products.md",
+      "draft": false,
+      "title": "How tools impact products for real-time, multi-party data sharing",
+      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+      "date": "2020-11-16T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product",
+        "real-time-data-sharing"
+      ],
+      "relatedPosts": [
+        "2021-01-25-supply-chain-visibility-with-vendia-share",
+        "2022-07-07-low-latency-operations-metrics",
+        "2021-03-10-whats-new-indices"
+      ],
+      "tags": [
+        "engineering",
+        "SQL",
+        "event"
+      ],
+      "seo": {
+        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
+        "title": "How tools impact products for real-time, multi-party data sharing"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-08T00:31:47.144Z",
+      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
+    },
+    {
+      "file": "/posts/2020-11-05-track-and-trace.md",
+      "draft": false,
+      "title": "Track and trace using Vendia Unis and Blobs",
+      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
+      "date": "2020-11-05T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "architecture"
+      ],
+      "relatedPosts": [
+        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
+        "2021-02-18-sharing-files-in-a-uni",
+        "2021-02-01-decentralization"
       ],
       "tags": [
         "supply chain",
-        "manufacturing"
+        "manufacturing",
+        "traceability",
+        "uni"
       ],
       "seo": {
-        "title": "The global supply chain is broken — can blockchain help?",
-        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
+        "title": "Track and trace using Vendia Unis and Blobs",
+        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
+        "keywords": "supply chain traceability, track and trace"
       },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-14T21:22:43.427Z",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-14T21:22:43.427Z",
-      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
+      "updatedAt": "2022-12-06T23:53:54.828Z",
+      "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
     },
     {
-      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "file": "/posts/2020-07-01-meet-vendias-founders.md",
       "draft": false,
-      "title": "Applying Domain Driven Design (DDD) to blockchains",
-      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-      "date": "2022-01-14T00:00:00.000Z",
+      "title": "Meet Vendia's founders",
+      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
+      "date": "2020-07-01T00:00:00.000Z",
       "authors": [
-        "Vikrant Kahlir"
+        "Vendia"
       ],
       "categories": [
-        "blockchain"
+        "company"
       ],
       "relatedPosts": [
-        "2022-03-09-graphql-and-blockchain",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
+        "2022-10-25-vendia-values",
+        "2022-05-31-vendia-announces-series-b",
+        "2021-06-08-gartner-cool-vendor"
       ],
       "tags": [
-        "DDD",
-        "Domain Driven Design",
-        "private blockchain",
-        "distributed ledger technology"
+        "tim wagner",
+        "shruthi rao",
+        "founders",
+        "origin"
       ],
-      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
       "seo": {
-        "title": "Applying Domain Driven Design (DDD) to blockchains",
-        "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
-        "keywords": "DDD, Domain Driven Design"
+        "title": "Meet Vendia's founders",
+        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
       },
+      "sidebarCta": [
+        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
+      ],
+      "createdBy": "",
+      "createdAt": "",
       "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:57:26.226Z",
-      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
+      "updatedAt": "2023-02-15T20:10:58.893Z",
+      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
+    },
+    {
+      "file": "/posts/2020-06-30-welcome-to-vendia.md",
+      "draft": false,
+      "title": "Welcome to Vendia",
+      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
+      "date": "2020-06-30T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company",
+        "announcements"
+      ],
+      "relatedPosts": [
+        "2022-05-31-vendia-announces-series-b",
+        "2020-07-01-meet-vendias-founders",
+        "2021-03-31-vendia-turns-1"
+      ],
+      "tags": [
+        "Keynote",
+        "AWS Serverless Community Day",
+        "video"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
+      "seo": {
+        "title": "Welcome to Vendia",
+        "description": "Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia and Vendia Share at the 2022 AWS Serverless Community Day."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-03-30T22:20:35.875Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-03-30T22:20:35.875Z",
+      "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
     }
   ],
   "james-gimourginas": [
@@ -2186,1092 +3037,6 @@
       "id": "c57867dc-5eb2-4568-88e0-0c4315e618bf"
     }
   ],
-  "vendia": [
-    {
-      "file": "/posts/2023-02-10-how-to-build-a-data-ecosystem.md",
-      "draft": false,
-      "title": "How to build a data ecosystem",
-      "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
-      "date": "2023-02-10T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-05-10-improve-your-data-mesh",
-        "2021-01-29-getting-started-with-vendia-share"
-      ],
-      "tags": [
-        "use cases",
-        "data trust",
-        "data alliance",
-        "data ecosystem"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "How to build a data ecosystem",
-        "description": "Ready to build a sustainable cross-cloud data ecosystem? Explore our five-step guide, including elements of an effective data ecosystem, plus examples and use cases of ecosystems across industries.",
-        "keywords": "how to build a data ecosystem"
-      },
-      "sidebarCta": [
-        "Vendia Share: What it is and how it works"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:29:51.150Z",
-      "id": "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce"
-    },
-    {
-      "file": "/posts/2023-02-09-does-your-data-build-or-break-trust.md",
-      "draft": false,
-      "title": "Does your data build or break trust? ",
-      "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
-      "date": "2023-02-09T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing",
-        "2021-02-01-decentralization",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "tags": [
-        "closing the books",
-        "podcast",
-        "Circles of Trust",
-        "reconciliation",
-        "data transformation",
-        "MUFG",
-        "financial services",
-        "Joyce Clinton",
-        "Francine Klein",
-        "Tim Zonca"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1679591040/Circles%20of%20Trust/626x0w_brmnug.webp",
-      "seo": {
-        "noindex": false,
-        "title": "Does your data build or break trust?",
-        "description": "Circles of Trust guest Joyce Clinton of MUFG Bank shares real talk on the challenges and opportunities her team of 26 has closing the books and transforming data.",
-        "keywords": "closing the books with automatic reconciliation"
-      },
-      "sidebarCta": [
-        "Join the Founders' Circle"
-      ],
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-03-31T16:55:05.158Z",
-      "updatedBy": "Li Dai",
-      "updatedAt": "2023-04-04T14:43:58.877Z",
-      "id": "8f8485c0-c78b-43d6-a4f2-ee50dadc7fb2"
-    },
-    {
-      "file": "/posts/2023-01-20-team-spotlight-vendia-software-development.md",
-      "draft": false,
-      "title": "Team spotlight: Vendia Software Development",
-      "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-      "date": "2023-01-19T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-11-09-team-spotlight-vendia-engineering-pt-1",
-        "2022-10-25-vendia-values"
-      ],
-      "tags": [
-        "engineering",
-        "team",
-        "recruiting"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599326/Website/Iso/Profiles_oxexbc.png",
-      "seo": {
-        "noindex": false,
-        "description": "Get to know some of our world-class software developers and engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-        "title": "Team spotlight: Vendia Software Development"
-      },
-      "sidebarCta": [
-        "Join the Founders' Circle"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:23:57.872Z",
-      "id": "13373d57-30db-4b71-b540-b39aac7e7ab6"
-    },
-    {
-      "file": "/posts/2023-01-13-3-things-to-do-right-now-for-better-supply-chain-visibility.md",
-      "draft": false,
-      "title": "3 things to do right now for better supply chain visibility",
-      "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy.",
-      "date": "2023-01-12T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
-        "2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry"
-      ],
-      "tags": [
-        "chain of custody",
-        "supply chain visibility"
-      ],
-      "seo": {
-        "noindex": false,
-        "title": "3 things to do right now for better supply chain visibility",
-        "keywords": "supply chain visibility, supply chain optimization, chain of custody",
-        "description": "What does it take to break data silos and build a trustworthy connected data ecosystem that ensures track and traceability and compliance with supply chain partners up and downstream? Consider these three principles for your business and data strategy."
-      },
-      "sidebarCta": [
-        "Vendia Share: What it is and how it works"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:31:28.033Z",
-      "id": "4f9c9686-7eac-40fa-b6aa-43cee8520834"
-    },
-    {
-      "file": "/posts/2022-12-16-circles-of-trust-season-1-recap.md",
-      "draft": false,
-      "title": "Circles of Trust: Season 1 recap",
-      "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
-      "date": "2022-12-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2021-06-08-gartner-cool-vendor",
-        "2022-01-27-scale-your-partner-ecosystem-with-vendia-share",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform"
-      ],
-      "tags": [
-        "Circles of Trust",
-        "financial services",
-        "healthcare",
-        "manufacturing",
-        "sports",
-        "entertainment",
-        "nonprofits",
-        "Tim Zonca",
-        "Shruthi Rao",
-        "Francine Klein",
-        "James Gimourginas"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "noindex": false,
-        "title": "Circles of Trust: Season 1 recap",
-        "description": "Find your favorite episode from Season 1 of our podcast, Circles of Trust: Real talk on real-time data sharing. We talk with everyone from our founders to data strategy leaders in financial services, healthcare manufacturing, sports and entertainment, social justice, and animal welfare.",
-        "keywords": "real-time data sharing, b2b data sharing, circles of trust"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:52:55.351Z",
-      "id": "59d67ac2-806e-4452-8825-938c4b223134"
-    },
-    {
-      "file": "/posts/2022-12-15-6-predictions-about-the-future-of-blockchain-in-2023.md",
-      "draft": false,
-      "title": "6 predictions about the future of blockchain in 2023",
-      "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
-      "date": "2022-12-15T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-04-01-private-vs-public-blockchains",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions",
-        "2022-09-20-finserv-blockchain-data-strategy"
-      ],
-      "tags": [
-        "supply chain visibility",
-        "manufacturing",
-        "financial services",
-        "distributed ledger technology"
-      ],
-      "seo": {
-        "noindex": false,
-        "description": "Where is blockchain headed in 2023? We surveyed our founders, solutions architects, and key leaders for their insights and hot takes.",
-        "keywords": "business blockchain, the future of blockchain",
-        "title": "6 predictions about the future of blockchain in 2023"
-      },
-      "sidebarCta": [
-        "The Future of APIs"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:54:02.082Z",
-      "id": "1af70b4b-e67f-4cd1-9e74-6ff8e10c371f"
-    },
-    {
-      "file": "/posts/2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing.md",
-      "draft": false,
-      "slug": "sharing-data-financial-services",
-      "title": "How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
-      "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
-      "date": "2022-12-14T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2021-06-08-gartner-cool-vendor",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "financial services",
-        "architecture",
-        "circles of trust"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_auto/c_fill,w_1200/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "title": "Sharing data in financial services:  How top financial institutions improve offerings, servicing, and operations with controlled multi-party data sharing",
-        "description": "In this episode of Circles of Trust, Brian Kale and James Gimourginas talk with Tim Zonca about the complexities of data sharing in financial services and the impact better data sharing has on customers and the financial institutions serving them.",
-        "keywords": "data sharing, b2b data sharing, data ecosystem, data alliance"
-      },
-      "sidebarCta": [
-        "Vendia Share: What it is and how it works"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T21:54:59.001Z",
-      "id": "defc7118-d356-4cd4-aa6c-fc0f5dfcbb6e"
-    },
-    {
-      "file": "/posts/2022-11-23-connecting-pets-humans.md",
-      "draft": false,
-      "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-      "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-      "date": "2022-11-23T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-12-16-circles-of-trust-season-1-recap",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare"
-      ],
-      "tags": [
-        "real-time data sharing",
-        "cloud"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1670278509/COT_d1fwyl.webp",
-      "seo": {
-        "description": "Angela Embree, retired CIO of Best Friends Animal Society, talks about the lifesaving power of data sharing across thousands of animal shelters and its impact on helping pets find their humans faster.",
-        "title": "Connecting pets and their humans: How Best Friends Animal Society uses data sharing to connect pets to their human families, faster",
-        "keywords": "circles of trust, b2b data sharing"
-      },
-      "sidebarCta": [
-        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:15:43.546Z",
-      "id": "09620294-e7a2-40a5-8a1d-b1b1daa69d4f"
-    },
-    {
-      "file": "/posts/2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare.md",
-      "draft": false,
-      "slug": "podcast-patient-experience-with-teeth",
-      "title": "Patient experience with teeth: How the world's leading dental laboratory uses data sharing to improve healthcare",
-      "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-      "date": "2022-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-10-01-podcast-great-equalizer",
-        "2022-11-23-connecting-pets-humans"
-      ],
-      "thumbnail": "https://embed-ssl.wistia.com/deliveries/b5e5ebdbad5a2ed6b0b8cc7eba03abdd.jpg?image_crop_resized=960x960",
-      "seo": {
-        "title": "Patient experience with teeth: How the world’s leading dental laboratory uses data sharing to improve healthcare",
-        "description": "Robert Edwards, Director of Software Development at Glidewell Laboratories, talks about the challenges and pending promise of real-time data sharing across the medical device value chain.",
-        "keywords": "circles of trust"
-      },
-      "tweet": "Check out the latest episode of Circles of Trust",
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:16:56.209Z",
-      "id": "27461ff4-5b09-492c-b141-2147c2721ef5"
-    },
-    {
-      "file": "/posts/2022-11-09-team-spotlight-vendia-engineering-pt-1.md",
-      "draft": false,
-      "slug": "vendia-engineering-team-spotlight",
-      "title": "Team spotlight: Vendia Engineering",
-      "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-      "date": "2022-11-08T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-25-6-months-at-vendia",
-        "2023-01-20-team-spotlight-vendia-software-development"
-      ],
-      "tags": [
-        "recruiting",
-        "team",
-        "engineering"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599326/Website/Iso/Profiles_oxexbc.png",
-      "seo": {
-        "description": "Get to know some of our world-class engineers with pedigrees from AWS, Netlify, Stripe, Mulesoft, Tealium, Gitlab, Microsoft, and more…and see what it’s like to be a part of Vendia.",
-        "title": "Team spotlight: Vendia Engineering"
-      },
-      "sidebarCta": [
-        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
-      ],
-      "tweet": "Learn about the engineering team at Vendia!",
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:23:32.714Z",
-      "id": "828764e9-b3dd-4ec5-aab3-a6c05d5094db"
-    },
-    {
-      "file": "/posts/2022-11-02-podcast-worlds-colliding.md",
-      "draft": false,
-      "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-      "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-      "date": "2022-11-02T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-09-22-real-time-everything",
-        "2022-07-26-what-is-operational-data-sharing",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/199516215-793434b0-4f86-4c49-884d-9a3c6f6b1112.png",
-      "seo": {
-        "title": "Worlds colliding: The new, unstoppable impact of analytics and operational data sharing at scale",
-        "description": "Erin Kelly, SVP at Kraft Analytics Group and Francine Klein, Sr. Solutions Architect, discuss connecting analytics and operational data worlds, at scale, with data alliances.",
-        "keywords": "operational and analytics data sharing"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:32:46.950Z",
-      "id": "65202e81-71d8-4103-bc87-73f867b97497"
-    },
-    {
-      "file": "/posts/2022-10-25-vendia-values.md",
-      "draft": false,
-      "title": "The five values that make us Vendia",
-      "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other.",
-      "date": "2022-10-25T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2021-01-04-kind-humans-really-work-here",
-        "2022-05-31-vendia-announces-series-b"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1676324704/Blog%20images/Remote_work_vngluh.png",
-      "seo": {
-        "description": "Learn more about Vendia’s values and culture, what motivates us, and how we show up every day for our customers and each other.",
-        "keywords": "company values",
-        "title": "Vendia's company values"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-14T00:50:18.075Z",
-      "id": "f997ca15-bef1-4c99-b9cc-ad017d17ecb0"
-    },
-    {
-      "file": "/posts/2022-10-19-podcast-founders-session.md",
-      "draft": false,
-      "title": "Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?",
-      "description": "In this podcast episode of Circles of Trust, Vendia co-founders, Shruthi Rao and Tim Wagner, talk about why data sharing matters and why they founded Vendia.",
-      "date": "2022-10-19T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company",
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-01-private-vs-public-blockchains",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "founders",
-        "Circles of Trust",
-        "podcast",
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
-      "seo": {
-        "title": "Circles of Trust Episode 2: Vendia's Founders",
-        "description": "Founders Session: Why dedicate a company (and $50M in investor cash) to real-time data sharing solutions?\n\nIn this episode, Shruthi Rao and Tim Wagner talk about why data sharing matters and why they founded and dedicated an entire company to helping organizations share data better.\n\n",
-        "keywords": "real-time data sharing solutions"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:55:26.507Z",
-      "id": "c0cf2402-204b-44c5-801c-dab2a69dacfd"
-    },
-    {
-      "file": "/posts/2022-10-18-real-time-data-sharing-vendors.md",
-      "draft": false,
-      "title": "Guide to real-time data sharing vendor types",
-      "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia Share.",
-      "date": "2022-10-18T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-05-05-real-time-vs-analytical-data",
-        "2022-07-26-what-is-operational-data-sharing",
-        "2022-09-22-real-time-everything"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599116/Website/Iso/Connected_ygfber.png",
-      "seo": {
-        "title": "Guide to real-time data sharing vendor types",
-        "description": "Want to scale up and streamline your real-time data sharing capabilities? Explore five common vendor approaches and compare and contrast them with Vendia.",
-        "keywords": "real-time data sharing vendors"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T19:58:04.477Z",
-      "id": "b7cb373b-5ee2-49a7-9177-a935993c47c9"
-    },
-    {
-      "file": "/posts/2022-10-01-podcast-great-equalizer.md",
-      "draft": false,
-      "title": "The great equalizer: How data sharing can help communities overcome social inequities",
-      "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. ",
-      "date": "2022-10-01T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "thought-leadership"
-      ],
-      "relatedPosts": [
-        "2022-11-16-patient-experience-with-teeth-how-the-world’s-leading-dental-laboratory-uses-data-sharing-to-improve-healthcare",
-        "2022-11-02-podcast-worlds-colliding",
-        "2022-11-23-connecting-pets-humans"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674239420/Circles%20of%20Trust/Circles_of_Trust_Logo_zscoxi.png",
-      "seo": {
-        "title": "The great equalizer: How data sharing can help communities overcome social inequities",
-        "keywords": "b2b data sharing",
-        "description": "Meme Styles, Founder and President of MEASURE, discusses how better research and data sharing empower communities with new, unbiased narratives that help solve complex social problems. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T20:24:05.633Z",
-      "id": "b4bca3e0-40c4-4270-b153-d7dc6253e60e"
-    },
-    {
-      "file": "/posts/2022-09-27-data-sharing-obstacles.md",
-      "draft": false,
-      "title": "Obstacles to real-time data sharing",
-      "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
-      "date": "2022-09-27T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-05-02-what-is-real-time-data-sharing",
-        "2022-07-20-real-time-data-sharing-solution-elements",
-        "2022-09-22-real-time-everything"
-      ],
-      "tags": [
-        "real-time data sharing"
-      ],
-      "seo": {
-        "title": "Obstacles to real-time data sharing",
-        "description": "Some obstacles to real-time, multi-party data sharing are built into common data infrastructure. Other obstacles come from fearful business mindsets. Learn new ideas on how you can face both types of obstacles.",
-        "keywords": "real-time data sharing"
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-12T20:58:44.743Z",
-      "id": "7c42f372-8b33-42d3-b7a9-8a2d69d67480"
-    },
-    {
-      "file": "/posts/2022-09-14-atos-success-story.md",
-      "draft": false,
-      "title": "How Atos streamlined the reinsurance process and built trust among financial services partners",
-      "description": "Atos adopts Vendia to create a single source of truth across reinsurance partners and lauds low code development and distributed ledger design.",
-      "date": "2022-09-14T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-09-26-blockchain-mortgage-services",
-        "2022-10-12-fintech-innovation-mortgage-servicing",
-        "2022-12-05-sharing-data-in-financial-services-how-top-financial-institutions-improve-offerings-servicing-and-operations-with-controlled-multi-party-data-sharing"
-      ],
-      "tags": [
-        "reinsurance",
-        "insurance",
-        "financial services",
-        "case study",
-        "Atos"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678816231/Website/Iso/Group_2_f8kpko.png",
-      "seo": {
-        "title": "Case study | How Atos wins with Vendia Share",
-        "description": "Atos lauds Vendia Share’s low code development and distributed ledger design while celebrating the solution’s new single source of truth across reinsurance partners."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-03-23T17:39:07.880Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-03-23T17:39:07.880Z",
-      "id": "42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9"
-    },
-    {
-      "file": "/posts/2022-02-24-b2b-data-sharing.md",
-      "draft": false,
-      "title": "Introduction to B2B data sharing with Vendia Share",
-      "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem.",
-      "date": "2022-08-23T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2021-09-01-sharing-data-with-fine-grained-control",
-        "2022-09-22-real-time-everything",
-        "2022-10-27-codeless-apis"
-      ],
-      "tags": [
-        "governance",
-        "API",
-        "partner data sharing",
-        "settlements",
-        "traceability",
-        "use cases",
-        "manufacturing",
-        "automotive",
-        "b2b data sharing"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599204/Website/Iso/Files_ocmuhx.png",
-      "seo": {
-        "title": "Introduction to B2B data sharing with Vendia",
-        "description": "Learn about B2B data sharing use cases, benefits, challenges, and different approaches for securely and reliably sharing data in a real-time, multi-party data ecosystem."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-03-30T22:12:02.810Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-03-30T22:12:02.810Z",
-      "id": "9d1d9ccc-a249-4172-a948-226ad494e206"
-    },
-    {
-      "file": "/posts/2022-08-03-how-serverless-cloud-enable-scalable-blockchains.md",
-      "draft": false,
-      "title": "How Serverless and cloud enable scalable blockchains",
-      "description": "Get key takeaways from our webcast featuring AWS Serverless Hero Dr. Peter Sbarski’s interviewing Dr. Tim Wagner, Vendia’s co-founder and the inventor of Serverless and AWS Lambda",
-      "date": "2022-08-03T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2022-01-14-applying-domain-driven-design-to-blockchains",
-        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
-        "2022-07-29-why-blockchains-databases-api-cannot-standalone-as-it-solutions"
-      ],
-      "tags": [
-        "blockchain",
-        "Servereless",
-        "Lambda",
-        "Tim Wagner",
-        "webcast",
-        "Peter Sbarski"
-      ],
-      "seo": {
-        "title": "How Serverless and cloud enable scalable blockchains",
-        "description": "Get the highlights from Dr. Peter Sbarski, AWS Serverless Hero, and his interview with our own Dr. Tim Wagner, Vendia co-founder and the inventor of Serverless and AWS Lambda.",
-        "keywords": ""
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:00:25.728Z",
-      "id": "aa03ab96-1906-40ce-b2b6-f84d938d43d2"
-    },
-    {
-      "file": "/posts/2022-07-07-low-latency-operations-metrics.md",
-      "draft": false,
-      "title": "NEW low latency operations and Vendia Metrics",
-      "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes.",
-      "date": "2022-07-07T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "features",
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-02-03-welcome-to-developer-preview",
-        "2021-03-17-whats-new-failed-tx-dlq",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "seo": {
-        "title": "NEW low latency operations and Vendia Metrics | Vendia Share",
-        "description": "We're excited to announce two new features on Vendia Share: Low latency operations for better read-after-write performance and Vendia Metrics for insights into the operational health of your Uni and Nodes."
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-07T01:05:21.832Z",
-      "id": "12318435-38a9-4065-baff-ea6e84f240de"
-    },
-    {
-      "file": "/posts/2022-06-29-webcast-highlights-the-future-of-crm-data-sharing.md",
-      "draft": false,
-      "title": "4 insights on the future of CRM data sharing",
-      "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. ",
-      "date": "2022-06-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "real-time-data-sharing",
-        "data-alliance"
-      ],
-      "relatedPosts": [
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2022-06-21-crm-data-sharing-for-business",
-        "2022-07-08-crm-integration-painpoints"
-      ],
-      "tags": [
-        "CRM",
-        "API"
-      ],
-      "thumbnail": "",
-      "seo": {
-        "title": "4 insights on the future of CRM data sharing",
-        "description": "Webinar highlights: Salesforce MVP Rebecca Lammers talks with James Gimourginas, Director of Solutions Architecture and Customer Success on the challenges and solutions for CRM data sharing. "
-      },
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:22:14.787Z",
-      "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
-    },
-    {
-      "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
-      "draft": false,
-      "title": "Why CRM data sharing is business critical",
-      "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions.",
-      "date": "2022-06-21T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts"
-      ],
-      "relatedPosts": [
-        "2022-06-29-webcast-highlights-the-future-of-crm-data-sharing",
-        "2022-10-14-what-is-customer-360-with-vendia",
-        "2021-02-17-multiregion-serverless-apps"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599463/Website/Iso/CRM_uo10ew.png",
-      "seo": {
-        "title": "Why CRM data sharing is business critical",
-        "description": "Sharing data between multiple CRM systems is helping organizations realize superior business outcomes, more so with the availability of robust multi-party CRM data sharing solutions."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-13T20:53:30.862Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-13T20:53:30.862Z",
-      "id": "dbad4df5-9f4d-4978-a08b-d0181da91bd2"
-    },
-    {
-      "file": "/posts/2022-05-31-vendia-announces-series-b.md",
-      "draft": false,
-      "title": "Vendia announces Series B funding",
-      "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
-      "date": "2022-05-31T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2021-06-08-gartner-cool-vendor",
-        "2021-02-02-series-a-announcement"
-      ],
-      "tags": [
-        "BMW iVentures",
-        "Canvas Ventures",
-        "Sorenson Capital",
-        "Aspenwood Ventures",
-        "Neotribe Ventures",
-        "Lux Capital",
-        "Operator Partners",
-        "Neythri Futures Fund",
-        "NewView Capital",
-        "funding",
-        "Series B funding",
-        "Tim Wagner",
-        "Shruthi Rao"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
-      "seo": {
-        "title": "Vendia announces Series B funding",
-        "description": "We've raised $30MM in series B funding to usher in the web3 era with our next-gen blockchain technology, for a total of $50MM in startup funding. Thank you to our investors, customers, fans, and team!",
-        "keywords": "Vendia startup"
-      },
-      "sidebarCta": [
-        "ad9381ab-c314-4028-a7da-0dffdf31ae68"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-15T19:55:38.453Z",
-      "id": "061e0286-2471-43e4-9418-9d3a762aa378"
-    },
-    {
-      "file": "/posts/2022-05-05-real-time-vs-analytical-data.md",
-      "draft": false,
-      "title": "Data types 101: Real-time data vs. analytical data",
-      "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-      "date": "2022-05-05T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "concepts",
-        "realtime-data-sharing"
-      ],
-      "relatedPosts": [
-        "2022-09-22-real-time-everything",
-        "2022-11-02-podcast-worlds-colliding",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "seo": {
-        "title": "Data types 101: Real-time data vs. analytical data",
-        "description": "What is real-time data? How is it used? How does it compare to other popular data types like analytical or real-time analytical data?",
-        "keywords": "real-time data"
-      },
-      "sidebarCta": [
-        "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-01-26T19:11:45.041Z",
-      "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
-    },
-    {
-      "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
-      "draft": false,
-      "title": "How to share Files in Vendia Share Unis",
-      "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions.",
-      "date": "2021-02-18T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "tutorials"
-      ],
-      "relatedPosts": [
-        "2022-08-24-vendia-share-enterprise-file-sharing-platform",
-        "2022-08-17-public-cloud-file-sharing",
-        "2021-09-01-sharing-data-with-fine-grained-control"
-      ],
-      "tags": [
-        "file sharing"
-      ],
-      "seo": {
-        "title": "How to share Files in Vendia Share Unis",
-        "description": "Sharing data across different organizations, accounts, and regions used to be hard. This step-by-step example shows how Vendia Share makes it easy to share files in Unis and how to share files with other participants in a Uni while controlling read and write permissions.",
-        "keywords": "Universal applications, file sharing, cross-cloud file sharing"
-      },
-      "sidebarCta": [
-        "930c3aa9-f2f4-4b0a-9cc5-488b6f804412"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T20:58:44.416Z",
-      "id": "7c1e9cbd-0ad5-4029-ae2a-9a7879744cc0"
-    },
-    {
-      "file": "/posts/2021-01-29-getting-started-with-vendia-share.md",
-      "longDescription": "Ready to share code and data across accounts, regions, clouds, and partners? Ready to use any service from any cloud provider to build upon your real-time data? This post will get you started with everything you need to learn about unis and how to develop with Vendia Share",
-      "draft": false,
-      "title": "The developer's punchlist for getting started with Vendia Share",
-      "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control.",
-      "date": "2021-01-29T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-10-21-api-security-graphql",
-        "2022-12-09-vendia-share-favorite-feature-releases-in-2022"
-      ],
-      "tags": [
-        "quick starts",
-        "documents",
-        "developers"
-      ],
-      "seo": {
-        "title": "The developer's punchlist for getting started with Vendia Share",
-        "description": "Whether you are a developer, business manager, or data scientist getting started with Vendia Share is fast and easy. In 10 minutes of less, you can start creating distributed real-time applications and sharing data across clouds, accounts, regions, and partners without sacrificing compliance or control."
-      },
-      "sidebarCta": [
-        "a12ef328-491c-4bb6-a6a9-bf816e949e8c"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "David Wells",
-      "updatedAt": "2023-02-07T21:01:35.880Z",
-      "id": "8dfe59e9-b843-46c2-892f-c6b967ebcbd9"
-    },
-    {
-      "file": "/posts/2021-01-25-supply-chain-visibility-with-vendia-share.md",
-      "draft": false,
-      "title": "Quickstart: Track and trace for solving supply chain visibility problems",
-      "description": "Use this Vendia Share Track and Trace Quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-      "date": "2021-01-25T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "features"
-      ],
-      "relatedPosts": [
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2021-03-10-whats-new-indices",
-        "2022-07-07-low-latency-operations-metrics"
-      ],
-      "tags": [
-        "quickstart",
-        "supply chain traceability",
-        "track and trace"
-      ],
-      "seo": {
-        "title": "Quickstart: Track and trace for solving supply chain visibility problems",
-        "description": "Use this Vendia Share track and trace quickstart for managing logistics across multiple parties, regardless of their location and technology stack.",
-        "keywords": "track and trace, supply chain traceability"
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-03-31T16:58:13.547Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-03-31T16:58:13.547Z",
-      "id": "63cb48e2-097b-45ae-bdc6-7e53ef82fad8"
-    },
-    {
-      "file": "/posts/2020-11-16-tools-that-shape-products.md",
-      "draft": false,
-      "title": "How tools impact products for real-time, multi-party data sharing",
-      "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-      "date": "2020-11-16T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "product",
-        "real-time-data-sharing"
-      ],
-      "relatedPosts": [
-        "2021-01-25-supply-chain-visibility-with-vendia-share",
-        "2022-07-07-low-latency-operations-metrics",
-        "2021-03-10-whats-new-indices"
-      ],
-      "tags": [
-        "engineering",
-        "SQL",
-        "event"
-      ],
-      "seo": {
-        "description": "Beginning with a single server and a SQL database, we cover the tradeoffs needed to build a system that all the parties involved can trust and use to make transactions.",
-        "title": "How tools impact products for real-time, multi-party data sharing"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-08T00:31:47.144Z",
-      "id": "347e1a2f-b751-4282-b6fb-59f7dcda6023"
-    },
-    {
-      "file": "/posts/2020-11-05-track-and-trace.md",
-      "draft": false,
-      "title": "Track and trace using Vendia Unis and Blobs",
-      "description": "Learn how Vendia Share's Unis and Blobs functionality can help streamline common supply chain track & trace issues.",
-      "date": "2020-11-05T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "architecture"
-      ],
-      "relatedPosts": [
-        "2022-01-17-why-we-combined-graphql-and-a-serverless-distributed-ledger",
-        "2021-02-18-sharing-files-in-a-uni",
-        "2021-02-01-decentralization"
-      ],
-      "tags": [
-        "supply chain",
-        "manufacturing",
-        "traceability",
-        "uni"
-      ],
-      "seo": {
-        "title": "Track and trace using Vendia Unis and Blobs",
-        "description": "This article explores how Vendia's Uni technologies provide enterprises with a simple and cost-effective solution to track and trace challenges. CIOs, line of business owners, and developers who work on supply-chain-related technologies will gain insights into the best ways to lower costs, improve operational outcomes, and optimize their free cash flow by learning about Vendia Share technology.",
-        "keywords": "supply chain traceability, track and trace"
-      },
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2022-12-06T23:53:54.828Z",
-      "id": "73f7d2de-58a8-46f1-9194-f520e8258aaa"
-    },
-    {
-      "file": "/posts/2020-07-01-meet-vendias-founders.md",
-      "draft": false,
-      "title": "Meet Vendia's founders",
-      "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era.",
-      "date": "2020-07-01T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2022-10-25-vendia-values",
-        "2022-05-31-vendia-announces-series-b",
-        "2021-06-08-gartner-cool-vendor"
-      ],
-      "tags": [
-        "tim wagner",
-        "shruthi rao",
-        "founders",
-        "origin"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
-      "seo": {
-        "title": "Meet Vendia's founders",
-        "description": "Meet Tim Wagner, Vendia's CEO, and Shruthi Rao, Vendia's CBO. They share their stories about how they came to partner as founders, and how Vendia came to life as an idea, a funded startup, and a breakthrough data sharing platform for the Web3 era."
-      },
-      "sidebarCta": [
-        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-15T20:10:58.893Z",
-      "id": "95117065-4cca-4aec-b8f8-614f4472aa30"
-    },
-    {
-      "file": "/posts/2020-06-30-welcome-to-vendia.md",
-      "draft": false,
-      "title": "Welcome to Vendia",
-      "description": "Our mission is to make it easy to share code and data across companies, cloud, geographies, and technology stacks.",
-      "date": "2020-06-30T00:00:00.000Z",
-      "authors": [
-        "Vendia"
-      ],
-      "categories": [
-        "company",
-        "announcements"
-      ],
-      "relatedPosts": [
-        "2022-05-31-vendia-announces-series-b",
-        "2020-07-01-meet-vendias-founders",
-        "2021-03-31-vendia-turns-1"
-      ],
-      "tags": [
-        "Keynote",
-        "AWS Serverless Community Day",
-        "video"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671579983/Website/Iso/Rocket_huqunj.png",
-      "seo": {
-        "title": "Welcome to Vendia",
-        "description": "Hear Dr. Tim Wagner discuss the evolution of Serverless and the launch of Vendia and Vendia Share at the 2022 AWS Serverless Community Day."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-03-30T22:20:35.875Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-03-30T22:20:35.875Z",
-      "id": "074a444b-e791-4d93-9515-6fd1202d70dd"
-    }
-  ],
   "li-dai": [
     {
       "file": "/posts/2023-01-15-my-first-60-days-trust-is-the-chain-that-connects-everything-else.md",
@@ -3433,6 +3198,241 @@
         "Shruthi Rao"
       ],
       "id": "4a113ae7-a0d6-4f46-b75b-b7bfcb2f5cc0"
+    }
+  ],
+  "vikrant-kahlir": [
+    {
+      "file": "/posts/2023-01-03-how-to-improve-supply-chain-visibility.md",
+      "draft": false,
+      "title": "How to improve supply chain visibility",
+      "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
+      "date": "2023-01-03T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-09-20-finserv-blockchain-data-strategy",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2022-10-26-why-is-supply-chain-visibility-important"
+      ],
+      "tags": [
+        "supply chain visibility"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "Explore supply chain visibility challenges and discover three strategies for improving multi-party data sharing and management in the name of visibility.",
+        "keywords": "improve supply chain visibility",
+        "title": "How to improve supply chain visibility"
+      },
+      "sidebarCta": [
+        "Supercloud? Poly-cloud? Multi-Cloud? "
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-14T21:40:50.047Z",
+      "id": "c803ef20-a91e-4fff-8506-838f8de11cdf"
+    },
+    {
+      "file": "/posts/2022-10-26-why-is-supply-chain-visibility-important.md",
+      "draft": false,
+      "title": "Why is supply chain visibility important? ",
+      "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead.",
+      "date": "2022-10-26T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "concepts"
+      ],
+      "relatedPosts": [
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2023-01-03-how-to-improve-supply-chain-visibility",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1671500333/Website/Iso/Vendia_Web_Chain_hero_2_icgveh.png",
+      "seo": {
+        "title": "Why is supply chain visibility important?",
+        "keywords": "better supply chain visibility",
+        "description": "Supply chain visibility helps organizations make faster decisions with better outcomes. See how SCV data can add efficiency and better serve customers with insights from Vikrant Kahlir, Tech Lead."
+      },
+      "sidebarCta": [
+        "893c2969-3b41-4ac0-86d2-df2d90f6a103"
+      ],
+      "createdBy": "",
+      "createdAt": "",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-02-16T19:43:16.433Z",
+      "id": "af555eaf-8b9b-442e-a8c6-19135a2c897d"
+    },
+    {
+      "file": "/posts/2022-09-07-kind-is-strong.md",
+      "draft": false,
+      "title": "Kind is not weak, kind is strong",
+      "description": "What makes Vendia culture strong and what fuels our dedication to excellence? Hear from Vikrant Kahlir, Principal Tech Lead for Industry Solutions on the power and practice of kindness.",
+      "date": "2022-09-07",
+      "categories": [
+        "company"
+      ],
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "43a8caa8-6d4b-4d5f-b020-60c43337811b"
+    },
+    {
+      "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
+      "draft": false,
+      "title": "What is operational data sharing?",
+      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "categories": [
+        "concepts"
+      ],
+      "date": "2022-07-26",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
+    },
+    {
+      "file": "/posts/2022-07-07-3-core-use-cases-for-vendia-share-in-the-semiconductor-industry.md",
+      "draft": false,
+      "title": "3 core use cases for Vendia Share in the semiconductor industry",
+      "description": "How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)",
+      "date": "2022-07-07",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "id": "8bddfc2e-340c-4b8e-8771-b34427b85c51"
+    },
+    {
+      "file": "/posts/2022-06-29-build-a-modern-secure-data-exchange-for-semiconductor-traceability-with-vendia.md",
+      "draft": false,
+      "title": "Solve for supply chain traceability with Vendia Share",
+      "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
+      "date": "2022-06-29T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient",
+        "2021-01-25-supply-chain-visibility-with-vendia-share"
+      ],
+      "tags": [
+        "semiconductor",
+        "use case",
+        "die traceability"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1678815976/Website/Iso/Group_1_cyoily.png",
+      "seo": {
+        "title": "Solve for supply chain traceability with Vendia Share",
+        "description": "Learn how private, permissioned blockchain helps manufacturers solve data traceability challenges and securely exchange data with supply chain partners using the semiconductor industry as an example.",
+        "keywords": "end-to-end traceability challenges and solutions"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-20T22:58:27.153Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-20T22:58:27.153Z",
+      "id": "1fc38399-c271-4904-8f30-467837b0345e"
+    },
+    {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "draft": false,
+      "title": "13 features you need to evaluate a business blockchain platform",
+      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+      "date": "2022-02-18T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-09-15-api-design-best-practices",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [],
+      "seo": {
+        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+        "keywords": "blockchain, failed blockchain, enterprise blockchain",
+        "title": "13 features you need to evaluate an enterprise blockchain platform"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-10T20:20:16.977Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-10T20:20:16.976Z",
+      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
+    },
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "draft": false,
+      "title": "The global supply chain is broken — can blockchain help?",
+      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
+      "date": "2022-02-09T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2020-11-05-track-and-trace",
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [
+        "supply chain",
+        "manufacturing"
+      ],
+      "seo": {
+        "title": "The global supply chain is broken — can blockchain help?",
+        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-14T21:22:43.427Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-04-14T21:22:43.427Z",
+      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
+    },
+    {
+      "file": "/posts/2022-01-14-applying-domain-driven-design-to-blockchains.md",
+      "draft": false,
+      "title": "Applying Domain Driven Design (DDD) to blockchains",
+      "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+      "date": "2022-01-14T00:00:00.000Z",
+      "authors": [
+        "Vikrant Kahlir"
+      ],
+      "categories": [
+        "blockchain"
+      ],
+      "relatedPosts": [
+        "2022-03-09-graphql-and-blockchain",
+        "2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform",
+        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
+      ],
+      "tags": [
+        "DDD",
+        "Domain Driven Design",
+        "private blockchain",
+        "distributed ledger technology"
+      ],
+      "thumbnail": "https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..96793170..151622580-5ecedcbc-d18e-42ab-8854-4689692f33d4.jpg",
+      "seo": {
+        "title": "Applying Domain Driven Design (DDD) to blockchains",
+        "description": "Discover 4 DDD Patterns for your next distributed ledger or permissioned private blockchain created on the Vendia Share data platform with insights from Vikrant Kahlir, Tech Lead for Data and Web3.",
+        "keywords": "DDD, Domain Driven Design"
+      },
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2022-12-06T23:57:26.226Z",
+      "id": "c11e7985-5204-4774-b8ef-91aa756f183d"
     }
   ],
   "renee-fujii": [
