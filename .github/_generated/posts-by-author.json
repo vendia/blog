@@ -1263,6 +1263,35 @@
       "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
     },
     {
+      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
+      "draft": false,
+      "title": "13 features you need to evaluate a business blockchain platform",
+      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+      "date": "2022-02-18T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "product"
+      ],
+      "relatedPosts": [
+        "2022-04-26-3-body-problem-solution-example",
+        "2022-09-15-api-design-best-practices",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [],
+      "seo": {
+        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
+        "keywords": "blockchain, failed blockchain, enterprise blockchain",
+        "title": "13 features you need to evaluate an enterprise blockchain platform"
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-10T20:20:16.977Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T19:00:27.765Z",
+      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
+    },
+    {
       "file": "/posts/2021-02-18-sharing-files-in-a-uni.md",
       "draft": false,
       "title": "How to share Files in Vendia Share Unis",
@@ -3535,35 +3564,6 @@
         "Vikrant Kahlir"
       ],
       "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
-    },
-    {
-      "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
-      "draft": false,
-      "title": "13 features you need to evaluate a business blockchain platform",
-      "description": "When evaluating a blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-      "date": "2022-02-18T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "product"
-      ],
-      "relatedPosts": [
-        "2022-04-26-3-body-problem-solution-example",
-        "2022-09-15-api-design-best-practices",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [],
-      "seo": {
-        "description": "When evaluating an business blockchain solution (or trying to fix a failed blockchain initiative), there are 13 key features and questions IT and innovation leaders should investigate before investing in new infrastructure.",
-        "keywords": "blockchain, failed blockchain, enterprise blockchain",
-        "title": "13 features you need to evaluate an enterprise blockchain platform"
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-05-10T20:20:16.977Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-05-10T20:20:16.976Z",
-      "id": "88831551-d9af-45bd-a7ae-4a191d9ae14c"
     },
     {
       "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
