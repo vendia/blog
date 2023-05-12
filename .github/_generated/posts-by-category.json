@@ -2047,6 +2047,37 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-04-26T22:58:54.218Z",
       "id": "945f5978-6c67-484f-8e8b-6b3d1e62f64a"
+    },
+    {
+      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
+      "draft": false,
+      "title": "The global supply chain is broken — can blockchain help?",
+      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
+      "date": "2022-02-09T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2020-11-05-track-and-trace",
+        "2022-10-26-why-is-supply-chain-visibility-important",
+        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
+      ],
+      "tags": [
+        "supply chain",
+        "manufacturing"
+      ],
+      "seo": {
+        "title": "The global supply chain is broken — can blockchain help?",
+        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-04-14T21:22:43.427Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T19:37:08.325Z",
+      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
     }
   ],
   "concepts": [
@@ -2629,14 +2660,27 @@
       "file": "/posts/2022-07-26-what-is-operational-data-sharing.md",
       "draft": false,
       "title": "What is operational data sharing?",
-      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare it to analytical data.",
+      "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare operational data to analytical data.",
+      "date": "2022-07-26T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "concepts"
       ],
-      "date": "2022-07-26",
-      "authors": [
-        "Vikrant Kahlir"
+      "relatedPosts": [
+        "2022-09-22-real-time-everything",
+        "2022-11-29-shared-data-architecture-patterns",
+        "2022-06-24-increase-transparency-in-real-estate-transactions-with-blockchain"
       ],
+      "seo": {
+        "title": "What is operational data sharing?",
+        "description": "Data systems share operational data to monitor the machinations of daily business. Let’s look at four unique use cases and compare operational data to analytical data."
+      },
+      "createdBy": "alexa-vendia",
+      "createdAt": "2023-05-12T19:40:05.038Z",
+      "updatedBy": "alexa-vendia",
+      "updatedAt": "2023-05-12T19:40:05.038Z",
       "id": "4f89b2fa-2991-470f-ae4e-e805780913a8"
     },
     {
@@ -3752,37 +3796,6 @@
       "updatedBy": "Hugues Tennier",
       "updatedAt": "2023-02-20T15:46:07.217Z",
       "id": "d3dbebac-bfc7-4e3c-a0c5-58c4eb9e83f1"
-    },
-    {
-      "file": "/posts/2022-02-09-supply-chain-is-broken-can-blockchain-fix-it.md",
-      "draft": false,
-      "title": "The global supply chain is broken — can blockchain help?",
-      "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions.",
-      "date": "2022-02-09T00:00:00.000Z",
-      "authors": [
-        "Vikrant Kahlir"
-      ],
-      "categories": [
-        "blockchain"
-      ],
-      "relatedPosts": [
-        "2020-11-05-track-and-trace",
-        "2022-10-26-why-is-supply-chain-visibility-important",
-        "2022-12-01-how-blockchain-can-make-global-supply-chains-more-predictable-and-efficient"
-      ],
-      "tags": [
-        "supply chain",
-        "manufacturing"
-      ],
-      "seo": {
-        "title": "The global supply chain is broken — can blockchain help?",
-        "description": "Multi-party data sharing with fine-grained controls is gaining traction with more and more organizations looking to resolve failed blockchain initiatives with next-gen enterprise blockchain solutions."
-      },
-      "createdBy": "alexa-vendia",
-      "createdAt": "2023-04-14T21:22:43.427Z",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-04-14T21:22:43.427Z",
-      "id": "331d15fc-6e35-426b-af42-cd7b6baf6ccf"
     }
   ],
   "features": [
