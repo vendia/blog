@@ -1,11 +1,28 @@
 ---
 draft: false
-title: '3 core use cases for Vendia Share in the semiconductor industry'
-description: 'How to reduce supply chain complexity and improve business outcomes with distributed ledger technology (and without sacrificing a climate stable future)'
-date: '2022-07-07'
+title: 3 core use cases for Vendia Share in the semiconductor industry
+description: How to reduce supply chain complexity and improve business outcomes
+  with distributed ledger technology (and without sacrificing a climate-stable
+  future)
+date: 2022-07-07
 authors:
-  - Vikrant Kahlir
-id: '8bddfc2e-340c-4b8e-8771-b34427b85c51'
+  - Vendia
+categories:
+  - product
+relatedPosts:
+  - 2020-11-05-track-and-trace
+  - 2021-01-25-supply-chain-visibility-with-vendia-share
+  - 2023-01-03-how-to-improve-supply-chain-visibility
+seo:
+  title: 3 core use cases for Vendia Share in the semiconductor industry
+  description: How to reduce supply chain complexity and improve business outcomes
+    with distributed ledger technology (and without sacrificing a climate-stable
+    future)
+createdBy: alexa-vendia
+createdAt: 2023-05-12T18:58:52.304Z
+updatedBy: alexa-vendia
+updatedAt: 2023-05-12T18:58:52.303Z
+id: 8bddfc2e-340c-4b8e-8771-b34427b85c51
 ---
 
 Electronic technology providers place a strong emphasis on performance, dependability, and trust. However, constant monitoring and inspection of the entire supply chain (design, assembly, maintenance, and warranty...) is necessary for consistent assurance. In this blog, we discuss three key use cases that semiconductor firms must implement in order to keep their promises of performance, dependability, and trust, while also keeping sustainibility in mind.
