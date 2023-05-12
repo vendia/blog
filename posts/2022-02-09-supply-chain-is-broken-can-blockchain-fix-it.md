@@ -6,9 +6,9 @@ description: Multi-party data sharing with fine-grained controls is gaining
   initiatives with next-gen enterprise blockchain solutions.
 date: 2022-02-09
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
-  - blockchain
+  - thought-leadership
 relatedPosts:
   - 2020-11-05-track-and-trace
   - 2022-10-26-why-is-supply-chain-visibility-important
@@ -24,7 +24,7 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-04-14T21:22:43.427Z
 updatedBy: alexa-vendia
-updatedAt: 2023-04-14T21:22:43.427Z
+updatedAt: 2023-05-12T19:37:08.325Z
 id: 331d15fc-6e35-426b-af42-cd7b6baf6ccf
 ---
 
