@@ -6,7 +6,7 @@ description: What makes Vendia culture strong and what fuels our dedication to
   Solutions on the power and practice of kindness.
 date: 2022-09-07
 authors:
-  - Vikrant Kahlir
+  - Vendia
 categories:
   - company
 seo:
