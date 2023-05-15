@@ -267,13 +267,6 @@ Welcome to the Vendia blog repo!
       <a href="https://twitter.com/timallenwagner"><sup><sub>Tim Wagner</sub></sup></a>
   </td>
   <td align="center">
-      <a href="https://www.vendia.com/blog/author/vikrant-kahlir">
-        <img src="https://avatars.githubusercontent.com/u/96793170" width="76px;" alt=""/>
-      </a>
-      <br />
-      <a href="https://github.com/vikrant-vendia"><sup><sub>Vikrant Kahlir</sub></sup></a>
-  </td>
-  <td align="center">
       <a href="https://www.vendia.com/blog/author/alex-vukovic">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1681756309/Headshots/Alex_Vukovic_headshot_mlsyw2.jpg" width="76px;" alt=""/>
       </a>
