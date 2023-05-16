@@ -119,10 +119,6 @@
     "file": "/pages/svb-statement.md",
     "draft": false
   },
-  "test/delete-this": {
-    "file": "/pages/test-delete-this.md",
-    "draft": true
-  },
   "thank-you/circles-of-trust-opt-in": {
     "file": "/pages/thank-you-circles-of-trust-opt-in.md",
     "draft": true
