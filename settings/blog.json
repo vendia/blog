@@ -2,7 +2,8 @@
   "featuredPosts": {
     "thought-leadership": [
       "de1e5b56-093c-4ece-9972-551c9c932833",
-      "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b"
+      "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b",
+      "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     ],
     "product": [
       "5fe67d43-0ddf-4555-8e09-1df7c57f9542",
@@ -20,7 +21,7 @@
       "19793709-9362-4266-9953-aae7256f33aa"
     ]
   },
-  "updatedAt": "2023-05-22T01:49:52.953Z",
+  "updatedAt": "2023-05-22T01:53:12.505Z",
   "callToAction": [
     "83d01b06-3eb7-4c44-8e6b-e8cb2f50527c"
   ],
