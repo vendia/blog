@@ -1,16 +1,24 @@
 {
   "featuredPosts": {
     "thought-leadership": [
-      "074a444b-e791-4d93-9515-6fd1202d70dd"
+      "de1e5b56-093c-4ece-9972-551c9c932833",
+      "edd2ecfd-fba9-4284-bcd5-cc35f8d1d70b",
+      "a33cef80-ad0f-46bc-b1b6-26ebefcd21d2"
     ],
     "product": [
-      "95117065-4cca-4aec-b8f8-614f4472aa30"
+      "5fe67d43-0ddf-4555-8e09-1df7c57f9542",
+      "caf9afbf-5476-4030-b53d-b4c454c58f86",
+      "9a171a65-97f7-42fc-aa3a-ae296d442f05"
     ],
     "concepts": [
-      "8b661b20-e780-482b-a71a-bc29d6ebdff3"
+      "df003e7c-b2d5-43ce-ba83-6badfaa6b5ce",
+      "dc7afa12-3605-477d-8156-028fc3d5e7a1",
+      "a4d8c7be-5285-471e-80c7-218996319a36"
     ],
     "company": [
-      "347e1a2f-b751-4282-b6fb-59f7dcda6023"
+      "828764e9-b3dd-4ec5-aab3-a6c05d5094db",
+      "07d7a91b-a83a-414e-978d-0b0b5cb90681",
+      "19793709-9362-4266-9953-aae7256f33aa"
     ]
   },
   "updatedAt": "2023-05-22T01:29:58.914Z",
