@@ -1,4 +1,33 @@
 {
+  "alex-vukovic": [
+    {
+      "file": "/posts/2023-05-25-achieving-end-to-end-supply-chain-visibility-with-your-data-architecture.md",
+      "draft": false,
+      "slug": "achieving-end-to-end-supply-chain-visibility-data-architecture",
+      "title": "Achieving end-to-end supply chain visibility with your data architecture",
+      "description": "How to achieve supply chain visibility with data collaboration platforms and solutions.",
+      "date": "2023-05-23T00:00:00.000Z",
+      "authors": [
+        "Alex Vukovic"
+      ],
+      "categories": [
+        "thought-leadership"
+      ],
+      "relatedPosts": [
+        "2022-02-09-supply-chain-is-broken-can-blockchain-fix-it"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "How to achieve supply chain visibility with data collaboration platforms and solutions.",
+        "title": "Achieving end-to-end supply chain visibility with your data architecture"
+      },
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-05-25T20:00:26.992Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-05-25T20:00:26.992Z",
+      "id": "0bcf82ec-71ed-46cf-8a4e-aa92c35e0d2d"
+    }
+  ],
   "francine-klein": [
     {
       "file": "/posts/2023-04-27-cultivate-data-collaboration-in-your-lush-data-sharing-landscape.md",
