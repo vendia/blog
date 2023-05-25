@@ -14,7 +14,7 @@ components:
       - text: Slide two
       - text: Slide three
   - type: Contact
-    text: Test Contact us. Dynamic content
+    text: Test Contact us. Dynamic content.
     theme: white
     person: Li Dai
   - type: Columns
@@ -135,6 +135,6 @@ seo:
 createdBy: David Wells
 createdAt: 2023-04-25T21:41:08.555Z
 updatedBy: David Wells
-updatedAt: 2023-04-25T22:33:15.149Z
+updatedAt: 2023-05-25T19:44:38.948Z
 id: fe7a2631-e3e8-47ad-84ae-ec4804910a84
 ---
