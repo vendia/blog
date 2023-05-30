@@ -131,7 +131,7 @@ components:
       <Button kind="primary" label="Request 1-week POC" href="https://www.vendia.com/poc" />
 
 
-      <Button kind="secondaryGhostPurple" label="Talk to sales" href="https://meetings.hubspot.com/aashish3/contact-sales" />
+      <Button kind="secondaryGhostPurple" label="Talk to sales" href="https://meetings.hubspot.com/aashish3" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599502/Website/Iso/Code_oy4wke.png
@@ -140,6 +140,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-09T23:04:15.005Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-05-30T20:39:43.017Z
+updatedAt: 2023-05-30T20:39:55.183Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
