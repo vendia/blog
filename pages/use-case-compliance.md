@@ -12,7 +12,7 @@ components:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674599451/Website/Iso/Security_hviynh.png
     callToActions:
       - label: Request a demo
-        url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
+        url: https://meetings.hubspot.com/aashish3
   - type: Logos
     logos:
       - BMW
@@ -59,8 +59,7 @@ components:
         wrapTheColumnInACard: false
     intro:
       title: "Compliant first. Compliant always. "
-      text: >-
-        ### We built Vendia Share to be out-of-the-box compliant from Day 1.
+      text: "### We built Vendia Share to be out-of-the-box compliant from Day 1."
   - type: MediaWithText
     mediaPosition: left
     text: >-
@@ -141,6 +140,6 @@ seo:
 createdBy: alexa-vendia
 createdAt: 2023-03-09T23:04:15.005Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-24T17:10:38.978Z
+updatedAt: 2023-05-30T20:39:43.017Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
