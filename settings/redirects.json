@@ -2,6 +2,11 @@
   "redirects": [
     {
       "status": 301,
+      "from": "https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share",
+      "to": "https://meetings.hubspot.com/aashish3"
+    },
+    {
+      "status": 301,
       "from": "/blog/kind-is-strong",
       "to": "/blog/6-months-at-vendia"
     },
@@ -111,8 +116,8 @@
       "to": "/blog"
     }
   ],
-  "updatedAt": "2023-05-12T20:38:48.182Z",
-  "updatedBy": "David Wells",
+  "updatedAt": "2023-05-30T20:33:55.213Z",
+  "updatedBy": "Caroll Casbeer",
   "createdBy": "Caroll Casbeer",
   "createdAt": "2023-02-25T03:01:02.831Z"
 }
