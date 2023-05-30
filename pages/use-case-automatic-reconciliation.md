@@ -13,7 +13,7 @@ components:
       image: ""
     callToActions:
       - label: Request a demo
-        url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
+        url: https://meetings.hubspot.com/aashish3
   - type: Logos
     logos:
       - BMW
@@ -144,7 +144,7 @@ seo:
   noindex: false
 createdBy: Caroll Casbeer
 createdAt: 2023-02-25T02:58:16.742Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-10T01:48:14.911Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-05-30T20:38:26.967Z
 id: 7736db06-c310-45d8-b490-dcf0d3147184
 ---
