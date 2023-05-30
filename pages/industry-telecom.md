@@ -10,7 +10,7 @@ components:
     hideSeparator: true
     callToActions:
       - label: Get a demo
-        url: https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share
+        url: https://meetings.hubspot.com/aashish3
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677277457/Website/Iso/Group_movfap.png
       altText: wind machines
@@ -35,7 +35,7 @@ seo:
   title: Vendia Share for telecommunications and utilities
 createdBy: alexa-vendia
 createdAt: 2023-03-23T22:19:47.340Z
-updatedBy: alexa-vendia
-updatedAt: 2023-03-23T22:19:47.340Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-05-30T20:38:12.074Z
 id: 8192774c-ac09-4d62-92ed-7f1bacc2dfc0
 ---
