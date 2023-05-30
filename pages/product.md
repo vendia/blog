@@ -13,7 +13,7 @@ components:
       - label: Start free trial
         url: https://share.vendia.net/
       - label: Contact sales
-        url: https://meetings.hubspot.com/aashish3/contact-sales
+        url: https://meetings.hubspot.com/aashish3
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677268224/Website/Iso/VendiaShare_iso_lnmpta.svg
   - type: Logos
@@ -30,10 +30,9 @@ components:
     theme: white
     intro:
       title: The trusted data cloud
-      text: >-
-        ### Vendia Share was envisioned by the inventor of Serverless and is built for
-        trust, performance, compliance, and security by the best software
-        engineers in the world.
+      text: "### Vendia Share was envisioned by the inventor of Serverless and is
+        built for trust, performance, compliance, and security by the best
+        software engineers in the world."
     columns:
       - text: >-
           <img
@@ -128,7 +127,7 @@ components:
       <Button kind="primary" href="https://share.vendia.net/" label="Start building now" />
 
 
-      <Button kind="secondaryGhostPurple" label="Request a demo" href="https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share?__hstc=75205645.1160c84f545be08f626a93070ce6dd38.1666288324341.1678305312381.1678312768134.257&__hssc=75205645.15.1678312768134&__hsfp=65267698" />
+      <Button kind="secondaryGhostPurple" label="Request a demo" href="https://meetings.hubspot.com/aashish3" />
     theme: white
     image:
       image: https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1677022472/Website/Product%20thumbnails/Thumnails_for_Vendia_Share_dcyovl.png
@@ -140,6 +139,6 @@ seo:
 createdBy: Caroll Casbeer
 createdAt: 2023-03-08T22:43:30.251Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-03-24T17:06:41.649Z
+updatedAt: 2023-05-30T20:39:27.490Z
 id: 30e92e35-8677-423c-a872-f0e14f9bc0c0
 ---
