@@ -16,7 +16,7 @@ components:
       Looking to get started with Vendia Share?
 
 
-      Book a [15-minute demo](https://meetings.hubspot.com/aashish3/15-minute-demo-of-vendia-share) or [contact sales](https://meetings.hubspot.com/aashish3/contact-sales).
+      Book a [15-minute demo](https://meetings.hubspot.com/aashish3) or [contact sales](https://meetings.hubspot.com/aashish3/contact-sales).
 
 
       Looking to join the team at Vendia?
@@ -30,9 +30,9 @@ seo:
   noindex: false
   title: Contact Vendia
   description: "Questions? Comments? Reach out to the Vendia team. "
-createdBy: ""
-createdAt: ""
+createdBy: Caroll Casbeer
+createdAt: 2023-05-30T20:34:41.169Z
 updatedBy: Caroll Casbeer
-updatedAt: 2023-02-24T20:27:36.622Z
+updatedAt: 2023-05-30T20:34:41.169Z
 id: 302a4c74-fd0e-4666-b434-8e387c08d56f
 ---
