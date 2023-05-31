@@ -1,6 +1,6 @@
 ---
-draft: true
-title: 2023-05-31 - "Enhanced User Experience"
+draft: false
+title: Enhanced User Experience
 description: An even easier way to deploy networks and share data.
 date: 2023-05-31
 seo:
@@ -10,7 +10,7 @@ seo:
 createdBy: AVukovic-Vendia
 createdAt: 2023-05-31T21:18:14.723Z
 updatedBy: AVukovic-Vendia
-updatedAt: 2023-05-31T21:18:14.722Z
+updatedAt: 2023-05-31T21:19:07.207Z
 id: 8f4f6ade-25d2-40be-97b3-c04816e17b4a
 ---
 
