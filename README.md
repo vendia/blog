@@ -297,7 +297,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (RELEASES_TABLE) -->
 | Releases Details | Published-Date | edit |
 |:-----------------|:--------------:|:----:|
-| [2023-05-31 - "Enhanced User Experience"](https://www.vendia.com/releases/2023-05-31-releasenotes) <br/> An even easier way to deploy networks and share data | 2023-05-31 | [✍️](https://github.com/vendia/blog/edit/master/releases/2023-05-31-releasenotes.md)
+| [Enhanced User Experience](https://www.vendia.com/releases/2023-05-31-releasenotes) <br/> An even easier way to deploy networks and share data | 2023-05-31 | [✍️](https://github.com/vendia/blog/edit/master/releases/2023-05-31-releasenotes.md)
 | [Erasibility & File Sharing Updates](https://www.vendia.com/releases/2023-04-28-releasenotes) <br/> Erasibility is now available on Vendia Share | 2023-04-28 | [✍️](https://github.com/vendia/blog/edit/master/releases/2023-04-28-releasenotes.md)
 | [Better Smart Contract And SSO Integration](https://www.vendia.com/releases/2023-04-04-releasenotes) <br/> New features such as SSO integration and smart contract status tracking is now available | 2023-04-04 | [✍️](https://github.com/vendia/blog/edit/master/releases/2023-04-04-releasenotes.md)
 | [Data Security, New Explorer, and Vendia Orgs](https://www.vendia.com/releases/2023-02-23-releasenotes) <br/> A release focusing on Data Security, Vendia's new GraphQL editor, and Vendia Orgs | 2023-02-23 | [✍️](https://github.com/vendia/blog/edit/master/releases/2023-02-23-releasenotes.md)
