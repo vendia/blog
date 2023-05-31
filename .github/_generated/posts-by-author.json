@@ -1,30 +1,6 @@
 {
   "alex-vukovic": [
     {
-      "file": "/posts/2023-05-31-new-enhanced-user-experience.md",
-      "draft": false,
-      "title": "New Enhanced User Experience",
-      "description": "Create Networks and ingest data like never before!",
-      "date": "2023-05-31T00:00:00.000Z",
-      "authors": [
-        "Alex Vukovic"
-      ],
-      "categories": [
-        "product"
-      ],
-      "tags": [],
-      "seo": {
-        "noindex": false,
-        "title": "New Enhanced User Experience",
-        "description": "New Enhanced User Experience Vendia Product Update"
-      },
-      "createdBy": "AVukovic-Vendia",
-      "createdAt": "2023-05-31T20:48:41.416Z",
-      "updatedBy": "AVukovic-Vendia",
-      "updatedAt": "2023-05-31T20:48:41.415Z",
-      "id": "f1dd8e1d-5489-42ab-9832-75b4b2729dec"
-    },
-    {
       "file": "/posts/2023-05-25-achieving-end-to-end-supply-chain-visibility-with-your-data-architecture.md",
       "draft": false,
       "slug": "achieving-end-to-end-supply-chain-visibility-data-architecture",
