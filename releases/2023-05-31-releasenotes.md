@@ -10,7 +10,7 @@ seo:
 createdBy: AVukovic-Vendia
 createdAt: 2023-05-31T21:18:14.723Z
 updatedBy: AVukovic-Vendia
-updatedAt: 2023-05-31T21:19:07.207Z
+updatedAt: 2023-06-01T15:35:23.929Z
 id: 8f4f6ade-25d2-40be-97b3-c04816e17b4a
 ---
 
@@ -76,4 +76,5 @@ Fine-grained access control is accessible here, allowing you to set view/edit pe
 With an opportunity to review, you are all set to upload!
 ﻿
 ##Try us out
+
 Vendia is powered by the scale of serverless and reliability of blockchain to make data sharing easy across teams and organizations. Get [started for free](https://www.vendia.com/pricing) to see how Vendia can help you advance in your data sharing journey.
