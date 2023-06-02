@@ -1,14 +1,22 @@
 ---
 draft: false
-title: 'Roundup: Real-time data sharing'
-description: 'Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.'
-date: '2022-09-20'
-categories:
-- architecture
-- concepts
+title: "Roundup: Real-time data sharing"
+description: Get our most popular and helpful content on real-time data sharing,
+  data lakes, and data mesh in this resource roundup.
+date: 2022-09-20
 authors:
-  - Caroll Casbeer
-id: 'd049842f-8968-4cd1-b9f2-175a664c9266'
+  - Vendia
+categories:
+  - architecture
+  - concepts
+seo:
+  title: Real-time data sharing roundup
+  description: All the articles you need to learn about real-time data sharing.
+createdBy: Caroll Casbeer
+createdAt: 2023-06-02T17:37:59.709Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-06-02T17:37:59.709Z
+id: d049842f-8968-4cd1-b9f2-175a664c9266
 ---
 
 If you prefer the TL;DR or engage with podcasts more than blogs, join our community of innovation leaders and disruptive developers for Season 1 of our new podcast, [Circles of Trust: Real talk on real-time data sharing](https://www.vendia.com/resources/circles-of-trust). 
