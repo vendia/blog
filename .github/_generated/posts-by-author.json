@@ -890,6 +890,37 @@
       "id": "b7cb373b-5ee2-49a7-9177-a935993c47c9"
     },
     {
+      "file": "/posts/2022-10-06-growth-marketing-b2b-saas.md",
+      "draft": false,
+      "title": "How to think about your growth marketing tactics at a startup",
+      "description": "Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.",
+      "date": "2022-10-06T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "relatedPosts": [
+        "2020-07-01-meet-vendias-founders",
+        "2022-04-25-6-months-at-vendia",
+        "2022-10-25-vendia-values"
+      ],
+      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
+      "seo": {
+        "title": "How to think about your growth marketing tactics at a startup",
+        "description": "Growth marketing tactics for startups"
+      },
+      "sidebarCta": [
+        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
+      ],
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-06-02T17:29:09.469Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-06-02T17:29:09.469Z",
+      "id": "00b609d6-87a8-4795-b810-ae3c025b64fe"
+    },
+    {
       "file": "/posts/2022-10-01-podcast-great-equalizer.md",
       "draft": false,
       "title": "The great equalizer: How data sharing can help communities overcome social inequities",
@@ -3524,37 +3555,6 @@
     }
   ],
   "caroll-casbeer": [
-    {
-      "file": "/posts/2022-10-06-growth-marketing-b2b-saas.md",
-      "draft": false,
-      "title": "How to think about your growth marketing tactics at a startup",
-      "description": "Head of Growth Marketing, Caroll Casbeer, dives into tactics she used at Vendia to grow their marketing engine.",
-      "date": "2022-10-06T00:00:00.000Z",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "categories": [
-        "company"
-      ],
-      "relatedPosts": [
-        "2020-07-01-meet-vendias-founders",
-        "2022-04-25-6-months-at-vendia",
-        "2022-10-25-vendia-values"
-      ],
-      "thumbnail": "https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1674600146/Website/Iso/Charity_zycy5v.png",
-      "seo": {
-        "title": "How to think about your growth marketing tactics at a startup",
-        "description": "Growth marketing tactics for startups"
-      },
-      "sidebarCta": [
-        "279a6a64-111a-4ff1-a04b-60d2625d54d4"
-      ],
-      "createdBy": "",
-      "createdAt": "",
-      "updatedBy": "alexa-vendia",
-      "updatedAt": "2023-02-16T20:10:21.905Z",
-      "id": "00b609d6-87a8-4795-b810-ae3c025b64fe"
-    },
     {
       "file": "/posts/2022-09-20-real-time-data-sharing-roundup.md",
       "draft": false,
