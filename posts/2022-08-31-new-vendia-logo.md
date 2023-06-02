@@ -1,14 +1,22 @@
 ---
 draft: false
-title: 'Introducing our new brand identity'
-description: 'Get the first look at our new look and logo with insights from our founders on why, and why now.'
-date: '2022-08-31'
-categories:
-- company
-thumbnail: 'https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png'
+title: Introducing our new brand identity
+description: Get the first look at our new look and logo with insights from our
+  founders on why, and why now.
+date: 2022-08-31
 authors:
-  - Caroll Casbeer
-id: 'a6662e71-c7c9-4381-b5e6-3da3501f6274'
+  - Vendia
+categories:
+  - company
+thumbnail: https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png
+seo:
+  title: Vendia's new brand
+  description: "Vendia's new brand identity-explained. "
+createdBy: Caroll Casbeer
+createdAt: 2023-06-02T17:38:40.027Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-06-02T17:38:40.027Z
+id: a6662e71-c7c9-4381-b5e6-3da3501f6274
 ---
 
 ## Logo 1.0 built for investor decks…and prophecies
