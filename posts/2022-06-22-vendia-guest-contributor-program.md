@@ -1,11 +1,19 @@
 ---
 draft: false
-title: 'Vendia guest contributor program'
-description: 'Create a tutorial using Vendia as part of our "Write for Vendia Program." Participants receive a $500 Visa gift card.'
-date: '2022-06-22'
+title: Vendia guest contributor program
+description: Create a tutorial using Vendia as part of our "Write for Vendia
+  Program." Participants receive a $500 Visa gift card.
+date: 2022-06-22
 authors:
-  - Caroll Casbeer
-id: '94e30367-7c01-480f-ab7f-5630bfdb83d2'
+  - Vendia
+seo:
+  title: Vendia Guest Contributor Program
+  description: Learn how to contributor program works.
+createdBy: Caroll Casbeer
+createdAt: 2023-06-02T17:43:13.847Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-06-02T17:43:13.847Z
+id: 94e30367-7c01-480f-ab7f-5630bfdb83d2
 ---
 
 Create a tutorial using Vendia as part of our Write for Vendia Program. Participants receive a $500 Visa gift card.
