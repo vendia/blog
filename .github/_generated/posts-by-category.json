@@ -2574,14 +2574,22 @@
       "draft": false,
       "title": "Roundup: Real-time data sharing",
       "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
-      "date": "2022-09-20",
+      "date": "2022-09-20T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "architecture",
         "concepts"
       ],
-      "authors": [
-        "Caroll Casbeer"
-      ],
+      "seo": {
+        "title": "Real-time data sharing roundup",
+        "description": "All the articles you need to learn about real-time data sharing."
+      },
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-06-02T17:37:59.709Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-06-02T17:37:59.709Z",
       "id": "d049842f-8968-4cd1-b9f2-175a664c9266"
     },
     {
@@ -4065,14 +4073,22 @@
       "draft": false,
       "title": "Roundup: Real-time data sharing",
       "description": "Get our most popular and helpful content on real-time data sharing, data lakes, and data mesh in this resource roundup.",
-      "date": "2022-09-20",
+      "date": "2022-09-20T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
       "categories": [
         "architecture",
         "concepts"
       ],
-      "authors": [
-        "Caroll Casbeer"
-      ],
+      "seo": {
+        "title": "Real-time data sharing roundup",
+        "description": "All the articles you need to learn about real-time data sharing."
+      },
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-06-02T17:37:59.709Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-06-02T17:37:59.709Z",
       "id": "d049842f-8968-4cd1-b9f2-175a664c9266"
     },
     {
