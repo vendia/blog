@@ -1,11 +1,18 @@
 ---
 draft: false
-title: 'Add Data via SFTP to Vendia Share'
-description: 'Send a CSV via SFTP to add data to your Uni'
-date: '2022-03-23'
+title: Add Data via SFTP to Vendia Share
+description: Send a CSV via SFTP to add data to your Uni
+date: 2022-03-23
 authors:
-  - Caroll Casbeer
-id: 'ee831905-de2a-468a-a982-59292eec49a4'
+  - Vendia
+seo:
+  title: Add Data via SFTP to Vendia Share
+  description: How to add data and information to Vendia Share via SFTP
+createdBy: Caroll Casbeer
+createdAt: 2023-06-02T17:47:39.897Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-06-02T17:47:39.897Z
+id: ee831905-de2a-468a-a982-59292eec49a4
 ---
 
 In Part 1 of our series about Integrating Data Stores with Vendia Share, we dove into adding a [CSV via Email](https://www.vendia.com/blog/add-csv-to-vendia-share), but what about adding data via STFP? We can help with that!
@@ -27,5 +34,3 @@ Sr. Solutions Architect, Brian McNamara, provides a [step-by-step guide](https:/
 The guides uses the [Vendia Share Command Line Interface (CLI)](https://vendia.com/docs/share/cli) and the [AWS Serverless Application Model (SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html). Serverless resources like a [AWS Transfer for SFTP](https://aws.amazon.com/aws-transfer-family/) endpoint, [AWS S3](https://aws.amazon.com/s3/) bucket and [AWS Lambda](https://aws.amazon.com/lambda/) function will be deployed. CSV processing with a AWS Lambda function will be triggered by transferring a file to the SFTP endpoint. The Lambda function parses CSVs and publishes data to a node's GraphQL endpoint.
 
 ![Diagram of SFTP to Vendia Share Integration](https://d24nhiikxn5jns.cloudfront.net/optimized/user-images.githubusercontent.com..113389580..192360015-4de95582-d3fb-46db-9679-f5b0c6091880.png)
-
-
