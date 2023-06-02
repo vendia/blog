@@ -1415,6 +1415,25 @@
       "id": "ff8337bb-89bc-4231-91e1-a47fa64101e4"
     },
     {
+      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
+      "draft": false,
+      "title": "Add Data via SFTP to Vendia Share",
+      "description": "Send a CSV via SFTP to add data to your Uni",
+      "date": "2022-03-23T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "seo": {
+        "title": "Add Data via SFTP to Vendia Share",
+        "description": "How to add data and information to Vendia Share via SFTP"
+      },
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-06-02T17:47:39.897Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-06-02T17:47:39.897Z",
+      "id": "ee831905-de2a-468a-a982-59292eec49a4"
+    },
+    {
       "file": "/posts/2022-02-18-13-features-you-need-to-evaluate-an-enterprise-blockchain-platform.md",
       "draft": false,
       "title": "13 features you need to evaluate a business blockchain platform",
@@ -3872,17 +3891,6 @@
         "Caroll Casbeer"
       ],
       "id": "99ad4b41-1f64-4587-9d88-1744e701019d"
-    },
-    {
-      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
-      "draft": false,
-      "title": "Add Data via SFTP to Vendia Share",
-      "description": "Send a CSV via SFTP to add data to your Uni",
-      "date": "2022-03-23",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "ee831905-de2a-468a-a982-59292eec49a4"
     },
     {
       "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
