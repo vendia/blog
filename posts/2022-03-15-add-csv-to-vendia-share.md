@@ -1,11 +1,20 @@
 ---
 draft: false
-title: "Adding Data in a CSV to Vendia Share Using Email"
-description: 'How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed'
-date: '2022-03-15'
+title: Adding Data in a CSV to Vendia Share Using Email
+description: How to add a CSV file to your private blockchain with Vendia Share
+  - no GraphQL needed
+date: 2022-03-15
 authors:
   - Caroll Casbeer
-id: 'ab8170c1-018a-4515-b3fe-753640994d1d'
+seo:
+  description: How to add a CSV file to your private blockchain with Vendia Share
+    - no GraphQL needed
+  title: Adding Data in a CSV to Vendia Share Using Email
+createdBy: Caroll Casbeer
+createdAt: 2023-06-02T17:51:49.095Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-06-02T17:51:49.095Z
+id: ab8170c1-018a-4515-b3fe-753640994d1d
 ---
 
 (Note, this is Part 1 of our series about Integrating Data Stores with Vendia Share)
