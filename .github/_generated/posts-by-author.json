@@ -1289,6 +1289,25 @@
       "id": "199fbd39-8617-4feb-be92-48874ae0c8e0"
     },
     {
+      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
+      "draft": false,
+      "title": "Vendia guest contributor program",
+      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
+      "date": "2022-06-22T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "seo": {
+        "title": "Vendia Guest Contributor Program",
+        "description": "Learn how to contributor program works."
+      },
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-06-02T17:43:13.847Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-06-02T17:43:13.847Z",
+      "id": "94e30367-7c01-480f-ab7f-5630bfdb83d2"
+    },
+    {
       "file": "/posts/2022-06-21-crm-data-sharing-for-business.md",
       "draft": false,
       "title": "Why CRM data sharing is business critical",
@@ -3853,17 +3872,6 @@
         "Caroll Casbeer"
       ],
       "id": "99ad4b41-1f64-4587-9d88-1744e701019d"
-    },
-    {
-      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
-      "draft": false,
-      "title": "Vendia guest contributor program",
-      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
-      "date": "2022-06-22",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "94e30367-7c01-480f-ab7f-5630bfdb83d2"
     },
     {
       "file": "/posts/2022-03-24-adding-data-via-sftp.md",
