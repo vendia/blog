@@ -1040,6 +1040,29 @@
       "id": "42f775d1-c9b7-45a9-af65-ef4d6ef2cfc9"
     },
     {
+      "file": "/posts/2022-08-31-new-vendia-logo.md",
+      "draft": false,
+      "title": "Introducing our new brand identity",
+      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
+      "date": "2022-08-31T00:00:00.000Z",
+      "authors": [
+        "Vendia"
+      ],
+      "categories": [
+        "company"
+      ],
+      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
+      "seo": {
+        "title": "Vendia's new brand",
+        "description": "Vendia's new brand identity-explained. "
+      },
+      "createdBy": "Caroll Casbeer",
+      "createdAt": "2023-06-02T17:38:40.027Z",
+      "updatedBy": "Caroll Casbeer",
+      "updatedAt": "2023-06-02T17:38:40.027Z",
+      "id": "a6662e71-c7c9-4381-b5e6-3da3501f6274"
+    },
+    {
       "file": "/posts/2022-02-24-b2b-data-sharing.md",
       "draft": false,
       "title": "Introduction to B2B data sharing with Vendia Share",
@@ -3732,81 +3755,6 @@
       "publication": "AWS Developer Blog"
     }
   ],
-  "caroll-casbeer": [
-    {
-      "file": "/posts/2022-08-31-new-vendia-logo.md",
-      "draft": false,
-      "title": "Introducing our new brand identity",
-      "description": "Get the first look at our new look and logo with insights from our founders on why, and why now.",
-      "date": "2022-08-31",
-      "categories": [
-        "company"
-      ],
-      "thumbnail": "https://user-images.githubusercontent.com/98492452/187538645-303b1df3-e502-4fda-bf61-d92c12de6536.png",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "a6662e71-c7c9-4381-b5e6-3da3501f6274"
-    },
-    {
-      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
-      "draft": false,
-      "title": "Webcast: How to build an enterprise blockchain with serverless",
-      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
-      "date": "2022-07-19",
-      "categories": [
-        "concepts"
-      ],
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "f5898f08-43e2-43ee-9524-4679bd5cbf40"
-    },
-    {
-      "file": "/posts/2022-07-08-lean-apps-for-developers.md",
-      "draft": false,
-      "title": "What does a ‘lean app’ mean for developers? ",
-      "description": "Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.",
-      "date": "2022-07-08",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "99ad4b41-1f64-4587-9d88-1744e701019d"
-    },
-    {
-      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
-      "draft": false,
-      "title": "Vendia guest contributor program",
-      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
-      "date": "2022-06-22",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "94e30367-7c01-480f-ab7f-5630bfdb83d2"
-    },
-    {
-      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
-      "draft": false,
-      "title": "Add Data via SFTP to Vendia Share",
-      "description": "Send a CSV via SFTP to add data to your Uni",
-      "date": "2022-03-23",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "ee831905-de2a-468a-a982-59292eec49a4"
-    },
-    {
-      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
-      "draft": false,
-      "title": "Adding Data in a CSV to Vendia Share Using Email",
-      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
-      "date": "2022-03-15",
-      "authors": [
-        "Caroll Casbeer"
-      ],
-      "id": "ab8170c1-018a-4515-b3fe-753640994d1d"
-    }
-  ],
   "anders-maul": [
     {
       "file": "/posts/2022-08-19-gbta-2022-blockchain-panel.md",
@@ -3878,6 +3826,66 @@
       "updatedBy": "alexa-vendia",
       "updatedAt": "2023-03-30T23:01:15.250Z",
       "id": "be3be101-2a20-4780-afd0-16d6f82cbb0f"
+    }
+  ],
+  "caroll-casbeer": [
+    {
+      "file": "/posts/2022-07-19-how-to-build-an-enterprise-blockchain.md",
+      "draft": false,
+      "title": "Webcast: How to build an enterprise blockchain with serverless",
+      "description": "Learn how Tim Wagner, founder of AWS Lambda, built a serverless, enterprise-ready blockchain.",
+      "date": "2022-07-19",
+      "categories": [
+        "concepts"
+      ],
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "id": "f5898f08-43e2-43ee-9524-4679bd5cbf40"
+    },
+    {
+      "file": "/posts/2022-07-08-lean-apps-for-developers.md",
+      "draft": false,
+      "title": "What does a ‘lean app’ mean for developers? ",
+      "description": "Examine the lean app approach to development, including its precursors, its basic rules, and how it helps developers spend more time creating amazing code.",
+      "date": "2022-07-08",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "id": "99ad4b41-1f64-4587-9d88-1744e701019d"
+    },
+    {
+      "file": "/posts/2022-06-22-vendia-guest-contributor-program.md",
+      "draft": false,
+      "title": "Vendia guest contributor program",
+      "description": "Create a tutorial using Vendia as part of our \"Write for Vendia Program.\" Participants receive a $500 Visa gift card.",
+      "date": "2022-06-22",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "id": "94e30367-7c01-480f-ab7f-5630bfdb83d2"
+    },
+    {
+      "file": "/posts/2022-03-24-adding-data-via-sftp.md",
+      "draft": false,
+      "title": "Add Data via SFTP to Vendia Share",
+      "description": "Send a CSV via SFTP to add data to your Uni",
+      "date": "2022-03-23",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "id": "ee831905-de2a-468a-a982-59292eec49a4"
+    },
+    {
+      "file": "/posts/2022-03-15-add-csv-to-vendia-share.md",
+      "draft": false,
+      "title": "Adding Data in a CSV to Vendia Share Using Email",
+      "description": "How to add a CSV file to your private blockchain with Vendia Share - no GraphQL needed",
+      "date": "2022-03-15",
+      "authors": [
+        "Caroll Casbeer"
+      ],
+      "id": "ab8170c1-018a-4515-b3fe-753640994d1d"
     }
   ],
   "brian-mcnamara": [
