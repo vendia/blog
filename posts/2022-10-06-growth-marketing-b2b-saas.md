@@ -5,7 +5,7 @@ description: Head of Growth Marketing, Caroll Casbeer, dives into tactics she
   used at Vendia to grow their marketing engine.
 date: 2022-10-06
 authors:
-  - Caroll Casbeer
+  - Vendia
 categories:
   - company
 relatedPosts:
@@ -18,10 +18,10 @@ seo:
   description: Growth marketing tactics for startups
 sidebarCta:
   - 279a6a64-111a-4ff1-a04b-60d2625d54d4
-createdBy: ""
-createdAt: ""
-updatedBy: alexa-vendia
-updatedAt: 2023-02-16T20:10:21.905Z
+createdBy: Caroll Casbeer
+createdAt: 2023-06-02T17:29:09.469Z
+updatedBy: Caroll Casbeer
+updatedAt: 2023-06-02T17:29:09.469Z
 id: 00b609d6-87a8-4795-b810-ae3c025b64fe
 ---
 
