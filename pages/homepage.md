@@ -30,7 +30,8 @@ components:
       title: Designed for sensitive data in regulated industries
       text: "### Vendia Share is the only trusted data cloud that combines business
         blockchain, smart APIs, and cloud databases."
-  - text: >-
+  - type: Columns
+    text: >-
       <img
       src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095797_jcfwxu.png"  class="image-float-left"
       width="75" />
@@ -44,7 +45,8 @@ components:
 
       [Learn more](https://www.vendia.com/industry/financial-services)
     wrapTheColumnInACard: false
-  - text: >-
+  - type: Columns
+    text: >-
       <img
       src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095800_ozqxnb.png"  class="image-float-left"
       width="75" />
@@ -58,7 +60,8 @@ components:
 
       [Learn more](https://www.vendia.com/use-cases/supply-chain-management)
     wrapTheColumnInACard: false
-  - text: >-
+  - type: Columns
+    text: >-
       <img
       src="https://res.cloudinary.com/vendia/image/upload/v1676921413/Website/Icons/Blue%20icons/Electronics_31_fbiux5.png"  class="image-float-left"
       width="75" />
@@ -72,7 +75,8 @@ components:
 
       [Learn more](https://www.vendia.com/industry#healthcare)
     wrapTheColumnInACard: false
-  - text: >-
+  - type: Columns
+    text: >-
       <img
       src="https://res.cloudinary.com/vendia/image/upload/v1675716790/Website/Icons/Frame_48095799_vyavp3.png"  class="image-float-left"
       width="75" />
