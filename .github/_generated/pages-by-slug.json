@@ -115,6 +115,10 @@
     "file": "/pages/reconciliationless.md",
     "draft": false
   },
+  "security/soc2": {
+    "file": "/pages/security-soc2.md",
+    "draft": false
+  },
   "security/soc3": {
     "file": "/pages/security-soc3.md",
     "draft": false
