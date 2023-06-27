@@ -5,7 +5,7 @@ title: Data protection compliance with distributed ledger erasure
 description: How to maintain data protection compliance (GDPR, CCPA, etc.) using Vendia's Data Erasure capabilities
 date: 2023-06-21
 authors:
-  - Ryan Green
+  - ryan-green
 categories:
   - product-and-technology
 relatedPosts:
@@ -14,9 +14,9 @@ seo:
   noindex: false
   description: How to maintain data protection compliance (GDPR, CCPA, etc.) using Vendia's Data Erasure capabilities
   title: Data protection compliance with distributed ledger erasure
-createdBy: Ryan Green
+createdBy: ryan-green
 createdAt: 2023-06-21T20:00:26.992Z
-updatedBy: Ryan Green
+updatedBy: ryan-green
 updatedAt: 2023-06-21T20:00:26.992Z
 id: 0bcf82ec-71ed-46cf-8a4e-aa92c35e0d2e
 ---
@@ -56,7 +56,7 @@ ability to support timely and permanent data erasure in order to maintain compli
 
 ## Data erasure in distributed ledgers
 
-In many traditional systems, permanent data erasure is usually trivial. It is often as simple as issuing a SQL query to delete rows
+In many traditional systems, permanent data erasure is trivial. It is often as simple as issuing a SQL query to delete rows
 or columns from a transactional database, or deleting a file from a file system or object store.
 
 However, in distributed ledger systems the concept of permanent and irrevocable erasure is fundamentally
@@ -65,7 +65,7 @@ at odds with the design of such systems. Ledgers are by nature immutable.
 How can organizations stay in compliance when storing personal information in an immutable, append-only ledger?
 
 A typical approach often involves client-side "crypto-shredding" where all personal information is encrypted
-using a private key on the client before it is persisted to the ledger. Then if a user requests for information to be deleted, 
+using an encryption key on the client before it is persisted to the ledger. Then if a user requests for information to be deleted, 
 the data controller simply needs to delete the encryption key.
 
 This approach, while conceptually simple, involves significant complexity in practice. For example, key management
@@ -95,7 +95,7 @@ Plaintext field values are stored in a chain-adjacent vault. Queries to the ledg
 
 When erased, plaintext values are permanently and irrevocably removed from the vault but 
 historical data in the ledger itself is never modified. 
-Values stored in the vault are immutable but can be removed.
+Values stored in the vault can be removed but never modified.
 
 Transaction and block hashes are computed based on the tokenized form of the mutation containing cryptographic hashes of the erasable field values - thus the ledger remains immutable even if field are erased, and can be verified using the original tokenized form of the mutation.
 
@@ -115,7 +115,7 @@ mutation m {
 }
 ```
 
-This approach is similar to the "crypto-shredding" technique mentioned above, but Vendia manages all the complexity
+This approach is similar to the "crypto-shredding" technique mentioned above, but Vendia manages all of the complexity
 of key management, encryption, decryption, and erasure with negligible impact on read/write performance.
 
 ## Erasing data in Vendia
