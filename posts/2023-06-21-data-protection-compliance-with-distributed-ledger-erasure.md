@@ -125,50 +125,50 @@ Erasable fields must be declared in the Uni's schema using `x-vendia-erasable` d
 e.g.
 ```json
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "http://vendia.net/schemas/demos/basic_schema.json",
-    "type": "object",
-    "properties": {
-        "Person": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "identification": {
-                        "type": "object",
-                        "properties": {
-                            "type": {
-                                "type": "string"
-                            },
-                            "number": {
-                                "type": "string"
-                            },
-                            "aliases": {
-                               "type": "array",
-                               "items": {
-                                 "type": "string"
-                               }
-                            }
-                        },
-                        "x-vendia-erasable": [
-                            "number", 
-                            "aliases"
-                        ]
-                    },
-                    "firstName": {
-                        "type": "string"
-                    },
-                    "lastName": {
-                        "type": "string"
-                    }
-                },
-                "x-vendia-erasable": [
-                    "firstName",
-                    "lastName"
-                ]
-            }
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://vendia.net/schemas/demos/basic_schema.json",
+  "type": "object",
+  "properties": {
+    "Person": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identification": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "number": {
+                "type": "string"
+              },
+              "aliases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "x-vendia-erasable": [
+              "number",
+              "aliases"
+            ]
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          }
+        },
+        "x-vendia-erasable": [
+          "firstName",
+          "lastName"
+        ]
+      }
     }
+  }
 }
 ```
 
