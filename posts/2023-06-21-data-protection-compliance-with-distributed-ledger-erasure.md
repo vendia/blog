@@ -239,3 +239,4 @@ Data erasure capabilities should be a key consideration for data controllers man
 Vendia Share provides a fully compliant and easy to use data sharing solution that 
 also provides the important properties of distributed ledgers.
 
+To learn more about erasure in Vendia, please see the [public documentation](https://www.vendia.com/docs/share/erasure) or [try it out](https://share.vendia.net/signup) with a free account.
