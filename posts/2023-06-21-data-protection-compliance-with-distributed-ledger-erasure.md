@@ -189,6 +189,9 @@ mutation erase {
 }
 ```
 
+This will erase the field values in world state as well as **all** historical values
+stored in versions and ledger entries.
+
 File data can be erased using `eraseVendia_File` mutation which will permanently erase **all** versions of the File from the CSP object store. i.e.
 ```graphql
 mutation erase {
