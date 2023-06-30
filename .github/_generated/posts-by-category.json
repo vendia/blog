@@ -1,4 +1,33 @@
 {
+  "product-and-technology": [
+    {
+      "file": "/posts/2023-06-21-data-protection-compliance-with-distributed-ledger-erasure.md",
+      "draft": false,
+      "slug": "data-protection-compliance-with-distributed-ledger-erasure",
+      "title": "Data protection compliance with distributed ledger erasure",
+      "description": "How to maintain data protection compliance (GDPR, CCPA, etc.) using Vendia's Data Erasure capabilities",
+      "date": "2023-06-21T00:00:00.000Z",
+      "authors": [
+        "ryan-green"
+      ],
+      "categories": [
+        "product-and-technology"
+      ],
+      "relatedPosts": [
+        "2023-03-20-the-blockchain-emperors-new-clothes.md"
+      ],
+      "seo": {
+        "noindex": false,
+        "description": "How to maintain data protection compliance (GDPR, CCPA, etc.) using Vendia's Data Erasure capabilities",
+        "title": "Data protection compliance with distributed ledger erasure"
+      },
+      "createdBy": "ryan-green",
+      "createdAt": "2023-06-21T20:00:26.992Z",
+      "updatedBy": "ryan-green",
+      "updatedAt": "2023-06-21T20:00:26.992Z",
+      "id": "0bcf82ec-71ed-46cf-8a4e-aa92c35e0d2e"
+    }
+  ],
   "thought-leadership": [
     {
       "file": "/posts/2023-05-25-achieving-end-to-end-supply-chain-visibility-with-your-data-architecture.md",

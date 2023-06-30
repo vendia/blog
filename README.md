@@ -35,6 +35,7 @@ Welcome to the Vendia blog repo!
 <!-- ⛔️ AUTO-GENERATED-CONTENT:START (POSTS_TABLE) -->
 | Post Details | Date Published | Post Actions |
 |:-------------|:--------------:|:-----:|
+| [Data protection compliance with distributed ledger erasure](https://www.vendia.com/blog/data-protection-compliance-with-distributed-ledger-erasure)<br/><sup><sub>Written by ryan-green.</sub></sup><br/>How to maintain data protection compliance (GDPR, CCPA, etc.) using<br/>Vendia's Data Erasure capabilities. | 2023-06-21 | [✍️](https://www.vendia.com/blog/admin#/collections/posts/entries/2023-06-21-data-protection-compliance-with-distributed-ledger-erasure "Edit in CMS") - [🛠️](https://github.com/vendia/blog/edit/master/posts/2023-06-21-data-protection-compliance-with-distributed-ledger-erasure.md "Edit on GitHub")
 | [Achieving end-to-end supply chain visibility with your data architecture](https://www.vendia.com/blog/achieving-end-to-end-supply-chain-visibility-data-architecture)<br/><sup><sub>Written by Alex Vukovic.</sub></sup><br/>How to achieve supply chain visibility with data collaboration<br/>platforms and solutions. | 2023-05-23 | [✍️](https://www.vendia.com/blog/admin#/collections/posts/entries/2023-05-25-achieving-end-to-end-supply-chain-visibility-with-your-data-architecture "Edit in CMS") - [🛠️](https://github.com/vendia/blog/edit/master/posts/2023-05-25-achieving-end-to-end-supply-chain-visibility-with-your-data-architecture.md "Edit on GitHub")
 | [Cultivate data collaboration in your lush data sharing landscape](https://www.vendia.com/blog/data-collaboration-snowflake-vendia-share)<br/><sup><sub>Written by Francine Klein.</sub></sup><br/>Senior Solutions Architect, Francine Klein, explains why Vendia Share<br/>and Snowflake integrate for data collaboration and a single, unified<br/>source of truth. | 2023-04-27 | [✍️](https://www.vendia.com/blog/admin#/collections/posts/entries/2023-04-27-cultivate-data-collaboration-in-your-lush-data-sharing-landscape "Edit in CMS") - [🛠️](https://github.com/vendia/blog/edit/master/posts/2023-04-27-cultivate-data-collaboration-in-your-lush-data-sharing-landscape.md "Edit on GitHub")
 | [4 requirements for supply chain traceability in partner data sharing](https://www.vendia.com/blog/supply-chain-partner-data-traceability)<br/><sup><sub>Written by Vendia.</sub></sup><br/>When it comes to supply chain management, business resiliency, and<br/>data traceability requirements, here's our guiding vision behind the<br/>Vendia Share solution for traceability use cases. | 2023-04-20 | [✍️](https://www.vendia.com/blog/admin#/collections/posts/entries/2023-04-20-4-requirements-for-supply-chain-traceability-in-partner-data-sharing "Edit in CMS") - [🛠️](https://github.com/vendia/blog/edit/master/posts/2023-04-20-4-requirements-for-supply-chain-traceability-in-partner-data-sharing.md "Edit on GitHub")
@@ -253,6 +254,13 @@ Welcome to the Vendia blog repo!
   </td>
 </tr>
 <tr>
+  <td align="center">
+      <a href="https://www.vendia.com/blog/author/ryan-green">
+        <img src="https://www.fillmurray.com/100/100" width="76px;" alt=""/>
+      </a>
+      <br />
+      <a href="https://github.com/rpgreen-vendia"><sup><sub>Ryan Green</sub></sup></a>
+  </td>
   <td align="center">
       <a href="https://www.vendia.com/blog/author/shruthi-rao">
         <img src="https://res.cloudinary.com/vendia/image/upload/f_auto,q_90/v1672958607/Headshots/shruthiRao_nxamys.png" width="76px;" alt=""/>

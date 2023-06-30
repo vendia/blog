@@ -8,12 +8,12 @@
     "hailey-nevins",
     "james-gimourginas",
     "renee-fujji",
+    "ryan-green",
     "shruthi-rao",
     "tim-wagner",
     "vendia",
     "alex-vukovic",
     "li-dai",
-    "ryan-green",
     "vendia-engineering"
   ],
   "authors": [
@@ -156,6 +156,23 @@
       "postCount": 0
     },
     {
+      "github": "rpgreen-vendia",
+      "bio": {
+        "short": "Principal Software Engineer",
+        "long": "Ryan is a principal software engineer at Vendia who loves tackling hard problems at scale, with a focus on serverless and cloud-native architecture, DevOps, scalability, and security. Ryan previously contributed to several foundational serverless technologies at Amazon Web Services where he was a founding engineer on Amazon API Gateway and AWS Lambda."
+      },
+      "name": "Ryan Green",
+      "updatedAt": "2023-06-27T18:26:55.729Z",
+      "updatedBy": "ryan-green",
+      "avatar": "",
+      "jobTitle": "Principal Software Engineer",
+      "createdAt": "2023-06-27T18:26:55.729Z",
+      "linkedin": "",
+      "createdBy": "ryan-green",
+      "slug": "ryan-green",
+      "postCount": 1
+    },
+    {
       "github": "shruthialways",
       "bio": {
         "short": "Vendia co-Founder and CBO",
@@ -225,7 +242,7 @@
       "github": "li-vendia",
       "bio": {
         "short": "Solutions Architecture",
-        "long": "**Li is a Solutions Architect.** He loves helping customers adopt the latest innovative technologies. When not working on his own entrepreneurial efforts and mentoring, he likes spending time with his family and learning new skills."
+        "long": "**Li is a Solutions Architect.** He loves helping customers adopt the lastest innovative technologies. When not working on his own entrepreneurial efforts and mentoring, he likes spending time with his family and learning new skills."
       },
       "name": "Li Dai",
       "updatedAt": "2023-04-17T18:26:55.729Z",
@@ -238,24 +255,6 @@
       "createdBy": "alexa-vendia",
       "slug": "li-dai",
       "postCount": 2
-    },
-    {
-      "github": "rpgreen-vendia",
-      "bio": {
-        "short": "Principal Software Engineer",
-        "long": "Ryan is a principal software engineer at Vendia who loves tackling hard problems at scale, with a focus on serverless and cloud-native architecture, DevOps, scalability, and security. Ryan previously contributed to several foundational serverless technologies at Amazon Web Services where he was a founding engineer on Amazon API Gateway and AWS Lambda."
-      },
-      "name": "Ryan Green",
-      "updatedAt": "2023-06-27T18:26:55.729Z",
-      "updatedBy": "ryan-green",
-      "avatar": "",
-      "jobTitle": "Principal Software Engineer",
-      "createdAt": "2023-06-27T18:26:55.729Z",
-      "email": "",
-      "linkedin": "",
-      "createdBy": "ryan-green",
-      "slug": "ryan-green",
-      "postCount":1
     },
     {
       "github": "vendia",
